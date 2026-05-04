@@ -1,0 +1,18 @@
+{
+  "schema_name": "scientific_computing_workflow_schema",
+  "description": "Metadata schema for scientific computing workflows in systems modeling.",
+  "fields": [
+    {"name": "workflow_id", "type": "integer"},
+    {"name": "workflow_name", "type": "string"},
+    {"name": "workflow_type", "type": "string"},
+    {"name": "algorithm_name", "type": "string"},
+    {"name": "parameter_name", "type": "string"},
+    {"name": "parameter_value", "type": "number"},
+    {"name": "scenario_id", "type": "string"},
+    {"name": "output_name", "type": "string"},
+    {"name": "output_value", "type": "number"},
+    {"name": "diagnostic_name", "type": "string"},
+    {"name": "diagnostic_value", "type": "number"},
+    {"name": "interpretation_note", "type": "string"}
+  ]
+}

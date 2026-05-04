@@ -1,0 +1,8 @@
+scenario_id,growth_rate,capacity,initial_state,dt,steps
+baseline,0.20,100,10,0.1,300
+low_growth,0.10,100,10,0.1,300
+high_growth,0.30,100,10,0.1,300
+low_capacity,0.20,80,10,0.1,300
+high_capacity,0.20,120,10,0.1,300
+small_step,0.20,100,10,0.05,600
+large_step,0.20,100,10,0.25,120

@@ -1,0 +1,4 @@
+scenario_id,mean_growth_rate,sd_growth_rate,capacity,initial_state,dt,steps,iterations
+uncertainty_baseline,0.20,0.03,100,10,0.1,300,500
+uncertainty_low_capacity,0.20,0.03,80,10,0.1,300,500
+uncertainty_high_capacity,0.20,0.03,120,10,0.1,300,500

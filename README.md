@@ -44,3 +44,9 @@ MIT License.
 - `articles/differential-equations-for-systems-modeling/`
 
 This folder supports ordinary differential equation simulations, coupled systems, phase behavior, parameter sweeps, sensitivity analysis, solver examples, and dynamic-system interpretation across Python, R, Julia, SQL, C, C++, Fortran, Rust, Go, and notebooks.
+
+## Scientific Computing for Systems Modeling
+
+- `articles/scientific-computing-for-systems-modeling/`
+
+This folder supports numerical approximation, simulation workflows, optimization examples, parameter sweeps, data-pipeline templates, uncertainty and sensitivity analysis, reproducibility patterns, and scientific-computing examples across Python, R, Julia, SQL, C, C++, Fortran, Rust, Go, and notebooks.

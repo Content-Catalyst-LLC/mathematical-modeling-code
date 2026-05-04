@@ -1,0 +1,6 @@
+assumption_id,workflow_area,assumption,confidence,impact_if_wrong,testing_method
+1,Numerical approximation,Time step is sufficiently small for teaching examples,0.70,0.65,Step-size comparison
+2,Simulation,Parameter ranges span plausible teaching scenarios,0.68,0.60,Parameter sweep
+3,Data pipeline,Synthetic inputs are labeled clearly,0.90,0.40,Documentation review
+4,Workflow reproducibility,Outputs can be regenerated from scripts,0.82,0.72,Fresh-run test
+5,Interpretation,Users distinguish numerical output from model truth,0.55,0.85,Interpretive warning
