@@ -1,0 +1,21 @@
+{
+  "schema_name": "mathematical_modeling_schema",
+  "description": "Metadata schema for mathematical modeling workflows.",
+  "fields": [
+    {"name": "model_id", "type": "integer"},
+    {"name": "model_name", "type": "string"},
+    {"name": "model_family", "type": "string"},
+    {"name": "purpose", "type": "string"},
+    {"name": "variable_name", "type": "string"},
+    {"name": "parameter_name", "type": "string"},
+    {"name": "parameter_symbol", "type": "string"},
+    {"name": "parameter_value", "type": "number"},
+    {"name": "assumption_text", "type": "string"},
+    {"name": "confidence", "type": "number"},
+    {"name": "impact_if_wrong", "type": "number"},
+    {"name": "simulation_run", "type": "string"},
+    {"name": "scenario_name", "type": "string"},
+    {"name": "validation_metric", "type": "string"},
+    {"name": "interpretation_note", "type": "string"}
+  ]
+}

@@ -1,0 +1,5 @@
+scenario_name,parameter_name,parameter_value,unit,assumption_note
+baseline,growth_rate,0.18,per time step,example value
+baseline,carrying_capacity,100,state units,example value
+stress_case,growth_rate,0.10,per time step,lower growth example
+stress_case,carrying_capacity,80,state units,lower constraint example

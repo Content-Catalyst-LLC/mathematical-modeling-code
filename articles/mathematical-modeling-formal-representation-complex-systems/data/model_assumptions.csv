@@ -1,0 +1,6 @@
+assumption_id,model_context,assumption,confidence,impact_if_wrong,testing_method
+1,Dynamic system,Logistic structure adequately represents constrained growth,0.64,0.84,Compare with alternative model forms
+2,Calibration,Observation noise is approximately independent,0.58,0.72,Residual diagnostics
+3,Sensitivity,Carrying capacity range includes plausible upper bound,0.70,0.68,Parameter sweep
+4,Decision support,Model output is adequate for exploratory scenario comparison,0.74,0.62,Scenario validation
+5,Communication,Users understand uncertainty limits of simulation output,0.52,0.80,Model documentation review
