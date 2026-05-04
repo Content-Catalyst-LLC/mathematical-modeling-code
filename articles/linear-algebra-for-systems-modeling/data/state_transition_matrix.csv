@@ -1,0 +1,10 @@
+from_state,to_state,value
+stable,stable,0.82
+stable,stressed,0.12
+stable,failed,0.06
+stressed,stable,0.10
+stressed,stressed,0.76
+stressed,failed,0.18
+failed,stable,0.08
+failed,stressed,0.12
+failed,failed,0.76

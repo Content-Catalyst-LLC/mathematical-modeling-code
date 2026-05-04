@@ -1,0 +1,6 @@
+assumption_id,model_context,assumption,confidence,impact_if_wrong,testing_method
+1,State transition,Transition matrix entries approximate system movement,0.66,0.78,Scenario comparison
+2,Network model,Edge weights approximate dependency strength,0.58,0.82,Weight sensitivity analysis
+3,PCA workflow,Standardization makes variables comparable,0.75,0.60,Compare scaled and unscaled results
+4,Eigenanalysis,Matrix structure is stable enough for interpretation,0.55,0.80,Perturbation analysis
+5,Least squares,Linear approximation is adequate for teaching example,0.70,0.62,Residual inspection

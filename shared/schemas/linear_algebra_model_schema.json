@@ -1,0 +1,20 @@
+{
+  "schema_name": "linear_algebra_model_schema",
+  "description": "Metadata schema for linear-algebra-based systems modeling workflows.",
+  "fields": [
+    {"name": "model_id", "type": "integer"},
+    {"name": "model_name", "type": "string"},
+    {"name": "model_family", "type": "string"},
+    {"name": "vector_name", "type": "string"},
+    {"name": "component_name", "type": "string"},
+    {"name": "matrix_name", "type": "string"},
+    {"name": "matrix_role", "type": "string"},
+    {"name": "row_label", "type": "string"},
+    {"name": "column_label", "type": "string"},
+    {"name": "entry_value", "type": "number"},
+    {"name": "output_name", "type": "string"},
+    {"name": "output_value", "type": "number"},
+    {"name": "assumption_text", "type": "string"},
+    {"name": "interpretation_note", "type": "string"}
+  ]
+}

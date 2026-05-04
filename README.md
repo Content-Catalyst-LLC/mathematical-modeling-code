@@ -56,3 +56,9 @@ This folder supports numerical approximation, simulation workflows, optimization
 - `articles/probability-for-systems-modeling/`
 
 This folder supports probability distribution workflows, Monte Carlo simulation, Bayesian updating, Markov chains, stochastic transition models, reliability analysis, rare-event simulation, uncertainty analysis, sensitivity workflows, and scientific-computing examples across Python, R, Julia, SQL, C, C++, Fortran, Rust, Go, and notebooks.
+
+## Linear Algebra for Systems Modeling
+
+- `articles/linear-algebra-for-systems-modeling/`
+
+This folder supports vector-state models, matrix workflows, systems of equations, least-squares estimation, eigenvalue analysis, Markov transition matrices, network adjacency models, decomposition methods, dimensionality reduction, sparse computation concepts, and scientific-computing examples across Python, R, Julia, SQL, C, C++, Fortran, Rust, Go, and notebooks.
