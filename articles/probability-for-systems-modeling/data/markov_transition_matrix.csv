@@ -1,0 +1,10 @@
+from_state,to_state,probability
+stable,stable,0.85
+stable,stressed,0.12
+stable,failed,0.03
+stressed,stable,0.20
+stressed,stressed,0.65
+stressed,failed,0.15
+failed,stable,0.10
+failed,stressed,0.25
+failed,failed,0.65

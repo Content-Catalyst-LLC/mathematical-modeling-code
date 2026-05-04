@@ -50,3 +50,9 @@ This folder supports ordinary differential equation simulations, coupled systems
 - `articles/scientific-computing-for-systems-modeling/`
 
 This folder supports numerical approximation, simulation workflows, optimization examples, parameter sweeps, data-pipeline templates, uncertainty and sensitivity analysis, reproducibility patterns, and scientific-computing examples across Python, R, Julia, SQL, C, C++, Fortran, Rust, Go, and notebooks.
+
+## Probability for Systems Modeling
+
+- `articles/probability-for-systems-modeling/`
+
+This folder supports probability distribution workflows, Monte Carlo simulation, Bayesian updating, Markov chains, stochastic transition models, reliability analysis, rare-event simulation, uncertainty analysis, sensitivity workflows, and scientific-computing examples across Python, R, Julia, SQL, C, C++, Fortran, Rust, Go, and notebooks.

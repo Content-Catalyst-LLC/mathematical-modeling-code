@@ -1,0 +1,20 @@
+{
+  "schema_name": "probability_model_schema",
+  "description": "Metadata schema for probability-based systems modeling workflows.",
+  "fields": [
+    {"name": "model_id", "type": "integer"},
+    {"name": "model_name", "type": "string"},
+    {"name": "model_family", "type": "string"},
+    {"name": "random_variable", "type": "string"},
+    {"name": "distribution", "type": "string"},
+    {"name": "parameter_name", "type": "string"},
+    {"name": "parameter_value", "type": "number"},
+    {"name": "scenario_id", "type": "string"},
+    {"name": "iterations", "type": "integer"},
+    {"name": "random_seed", "type": "integer"},
+    {"name": "output_name", "type": "string"},
+    {"name": "output_value", "type": "number"},
+    {"name": "assumption_text", "type": "string"},
+    {"name": "interpretation_note", "type": "string"}
+  ]
+}

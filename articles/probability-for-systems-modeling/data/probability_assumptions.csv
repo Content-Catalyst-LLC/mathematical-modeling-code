@@ -1,0 +1,6 @@
+assumption_id,model_context,assumption,confidence,impact_if_wrong,testing_method
+1,Monte Carlo risk,Shock intensity follows a lognormal distribution,0.62,0.78,Distribution sensitivity analysis
+2,Monte Carlo risk,Exposure and vulnerability are independent in teaching example,0.50,0.84,Dependence scenario comparison
+3,Bayesian update,Beta prior is appropriate for binary event probability,0.72,0.55,Prior sensitivity analysis
+4,Markov chain,Future state depends only on current state,0.58,0.75,Compare with history-dependent model
+5,Rare event analysis,Simulation size is adequate for upper-tail estimates,0.60,0.80,Increase iterations and compare quantiles

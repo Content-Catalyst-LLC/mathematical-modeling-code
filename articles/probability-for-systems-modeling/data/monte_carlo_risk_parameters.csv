@@ -1,0 +1,5 @@
+scenario_id,exposure_min,exposure_max,vulnerability_alpha,vulnerability_beta,shock_meanlog,shock_sdlog,iterations
+baseline,0.2,1.0,3,5,0.0,0.35,10000
+higher_shock_variability,0.2,1.0,3,5,0.0,0.55,10000
+higher_vulnerability,0.2,1.0,5,4,0.0,0.35,10000
+lower_exposure,0.1,0.7,3,5,0.0,0.35,10000

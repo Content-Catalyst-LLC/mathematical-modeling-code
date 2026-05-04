@@ -1,0 +1,4 @@
+case_id,prior_alpha,prior_beta,successes,failures,description
+baseline_update,2,8,14,6,Update uncertain event probability after observations
+skeptical_prior,1,12,14,6,Update from lower prior probability
+strong_prior,10,20,14,6,Update from stronger prior information
