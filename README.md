@@ -38,3 +38,9 @@ Each article folder may include:
 ## License
 
 MIT License.
+
+## Differential Equations for Systems Modeling
+
+- `articles/differential-equations-for-systems-modeling/`
+
+This folder supports ordinary differential equation simulations, coupled systems, phase behavior, parameter sweeps, sensitivity analysis, solver examples, and dynamic-system interpretation across Python, R, Julia, SQL, C, C++, Fortran, Rust, Go, and notebooks.

@@ -1,0 +1,8 @@
+model_name,growth_rate,capacity,initial_state,dt,steps
+logistic_baseline,0.20,100,10,0.1,300
+logistic_low_growth,0.10,100,10,0.1,300
+logistic_high_growth,0.30,100,10,0.1,300
+logistic_low_capacity,0.20,80,10,0.1,300
+logistic_high_capacity,0.20,120,10,0.1,300
+logistic_small_step,0.20,100,10,0.05,600
+logistic_large_step,0.20,100,10,0.25,120

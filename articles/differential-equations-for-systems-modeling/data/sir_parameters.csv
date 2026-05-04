@@ -1,0 +1,8 @@
+parameter,value,description
+beta,0.30,transmission rate
+gamma,0.10,recovery rate
+initial_susceptible,990,initial susceptible population
+initial_infected,10,initial infected population
+initial_recovered,0,initial recovered population
+dt,0.1,time step
+steps,800,simulation steps

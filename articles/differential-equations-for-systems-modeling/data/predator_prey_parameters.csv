@@ -1,0 +1,9 @@
+parameter,value,description
+alpha,1.10,prey growth rate
+beta,0.40,predation rate
+delta,0.10,predator reproduction efficiency
+gamma,0.40,predator mortality rate
+initial_prey,10.0,initial prey population
+initial_predator,5.0,initial predator population
+dt,0.01,time step
+steps,5000,simulation steps

@@ -1,0 +1,6 @@
+assumption_id,model_context,assumption,confidence,impact_if_wrong,testing_method
+1,Logistic growth,Carrying capacity is stable over the modeled period,0.62,0.78,Sensitivity analysis
+2,Predator-prey,Interaction terms approximate encounter dynamics,0.55,0.84,Compare against alternative functional responses
+3,SIR model,Population is well mixed,0.48,0.88,Scenario comparison
+4,Numerical solution,Euler step size is small enough for teaching examples,0.70,0.62,Step-size comparison
+5,Dynamic interpretation,State variables represent meaningful system quantities,0.68,0.80,Domain review
