@@ -2,36 +2,38 @@
 
 Open computational companion repository for the Mathematical Modeling knowledge series.
 
-This repository supports articles on mathematical modeling, abstraction, representation, assumptions, variables, parameters, constraints, dynamic systems, differential equations, discrete models, stochastic models, optimization, simulation, calibration, validation, sensitivity analysis, uncertainty, model interpretation, scientific computing, reproducible workflows, and model governance.
+This repository supports article-level code, data, documentation, and reproducible workflows for mathematical modeling, systems modeling, calculus, statistics, probability, linear algebra, differential equations, scientific computing, decision science, and applied systems analysis.
 
-## Repository Structure
+## Article Folders
 
-- `articles/mathematical-modeling-formal-representation-complex-systems/`
-  - `python/` — simulation, calibration, sensitivity analysis, uncertainty, and model comparison examples
-  - `r/` — sensitivity analysis, dynamic models, uncertainty summaries, and reproducible reports
-  - `julia/` — dynamic-system simulation and numerical modeling examples
-  - `sql/` — model records, parameters, assumptions, calibration results, validation metrics, and model runs
-  - `rust/` — command-line model diagnostics scaffold
-  - `go/` — simulation utility scaffold
-  - `cpp/` — efficient numerical model examples
-  - `fortran/` — scientific computing examples for dynamic models
-  - `c/` — low-level simulation utilities
-  - `docs/` — article notes and modeling principles
-  - `data/` — synthetic datasets
-  - `outputs/` — generated outputs
-  - `notebooks/` — notebook placeholders
+- `articles/calculus-for-systems-modeling/`
+- `articles/statistics-for-systems-modeling/`
 
-## Modeling Principles
+Each article folder may include:
 
-1. Define the modeling purpose before choosing the mathematical form.
+- `python/`
+- `r/`
+- `julia/`
+- `sql/`
+- `c/`
+- `cpp/`
+- `fortran/`
+- `rust/`
+- `go/`
+- `notebooks/`
+- `docs/`
+- `data/`
+- `outputs/`
+
+## General Principles
+
+1. Keep models transparent.
 2. Make assumptions explicit.
-3. Distinguish variables, parameters, constraints, inputs, and outputs.
-4. Calibrate parameters carefully and avoid mistaking fit for validity.
-5. Validate models in relation to purpose and domain of use.
-6. Use sensitivity analysis to identify fragile conclusions.
-7. Represent uncertainty honestly.
-8. Document data, code, parameters, and model runs for reproducibility.
-9. Treat models as supports for judgment, not replacements for responsibility.
+3. Separate synthetic teaching data from real-world datasets.
+4. Document parameters, uncertainty, and limitations.
+5. Use reproducible workflows.
+6. Treat computation as support for interpretation, not a substitute for judgment.
+7. Keep examples educational, auditable, and extensible.
 
 ## License
 

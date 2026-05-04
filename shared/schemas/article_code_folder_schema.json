@@ -1,0 +1,19 @@
+{
+  "schema_name": "article_code_folder_schema",
+  "description": "Standard folder structure for mathematical modeling article code.",
+  "folders": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go",
+    "notebooks",
+    "docs",
+    "data",
+    "outputs"
+  ]
+}
