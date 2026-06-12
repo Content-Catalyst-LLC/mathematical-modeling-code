@@ -1,0 +1,8 @@
+key,workflow_stage,computational_object,modeling_role,review_question,status,workflow_risk_score
+input_schema,data_intake,resource_scenario_fields,Defines required model inputs and units,Are all required fields documented and validated?,review,5.0
+configuration,parameter_control,scenario_configuration,Separates run-specific values from code,Can outputs be traced to active parameters?,active,3.0
+simulation_engine,model_execution,resource_update_loop,Implements the model state transition rule,Does code match the mathematical specification?,review,6.0
+output_index,output_generation,generated_output_catalog,Lists tables figures json and logs produced by the workflow,Can outputs be traced and inspected?,active,2.0
+run_manifest,reproducibility,manifest_json,Records command environment seed and outputs,Can another analyst rerun the workflow?,active,2.0
+validation_checks,validation,workflow_smoke_and_schema_checks,Documents technical and modeling checks,Do checks support the result being claimed?,review,7.0
+audit_card,governance,workflow_audit_card,Summarizes checks outputs and limitations,Are assumptions and use limits visible?,review,6.0

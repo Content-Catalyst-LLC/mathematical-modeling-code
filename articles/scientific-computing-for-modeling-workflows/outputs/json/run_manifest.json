@@ -1,0 +1,53 @@
+{
+  "article": "Scientific Computing for Modeling Workflows",
+  "output_hashes": {
+    "output_index_sha256": "9fb788b158bd8997fc547c386f0ccffdce5247362e1c292fee70ed29ab81b05f",
+    "summary_sha256": "4665ea40327957cdaaac3f6c81db6ecb6470c5ec5810619e937ee60035e8c4b3",
+    "trajectories_sha256": "06c8d604b51efeea3de78019038caf1bfb430b0a3a20e358bfd6daa1a0936d4c",
+    "workflow_register_sha256": "2122c1e39b949c0a89d8a1c35c430b1389cae1be7e4d60148f968515fc2b3f3f"
+  },
+  "outputs": {
+    "output_index": "outputs/tables/workflow_output_index.csv",
+    "summary": "outputs/tables/resource_model_summary.csv",
+    "trajectories": "outputs/tables/resource_model_trajectories.csv",
+    "workflow_register": "outputs/tables/scientific_computing_workflow_register.csv"
+  },
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "python_version": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "run_timestamp_utc": "2026-06-12T22:19:08.000441+00:00",
+  "scenarios": [
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "initial_stock": 70.0,
+      "scenario": "baseline",
+      "seed": 20260612,
+      "shock_fraction": 0.1,
+      "shock_probability": 0.05,
+      "steps": 50
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 9.0,
+      "growth_rate": 0.15,
+      "initial_stock": 70.0,
+      "scenario": "stress",
+      "seed": 20260613,
+      "shock_fraction": 0.2,
+      "shock_probability": 0.12,
+      "steps": 50
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 5.0,
+      "growth_rate": 0.18,
+      "initial_stock": 70.0,
+      "scenario": "recovery_policy",
+      "seed": 20260614,
+      "shock_fraction": 0.1,
+      "shock_probability": 0.05,
+      "steps": 50
+    }
+  ]
+}

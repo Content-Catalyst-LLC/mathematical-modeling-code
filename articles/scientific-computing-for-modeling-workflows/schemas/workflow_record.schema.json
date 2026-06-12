@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WorkflowRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "workflow_stage",
+    "computational_object",
+    "modeling_role",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "workflow_stage": {
+      "type": "string",
+      "enum": ["data_intake", "parameter_control", "model_execution", "output_generation", "reproducibility", "validation", "governance"]
+    },
+    "computational_object": {"type": "string"},
+    "modeling_role": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

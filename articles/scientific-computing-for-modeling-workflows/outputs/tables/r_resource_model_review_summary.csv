@@ -1,0 +1,4 @@
+"scenario","final_stock","minimum_stock","steps","seed","review_class"
+"baseline",0,0,50,20260612,"threshold risk review"
+"recovery_policy",20.10396055,20.10396055,50,20260614,"routine workflow review"
+"stress",0,0,50,20260613,"threshold risk review"

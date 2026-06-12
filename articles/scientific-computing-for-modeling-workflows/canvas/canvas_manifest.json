@@ -1,0 +1,30 @@
+{
+  "article_slug": "scientific-computing-for-modeling-workflows",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "scientific-computing-workflow-governance",
+  "cards": [
+    {
+      "card_id": "workflow-register",
+      "title": "Workflow Register",
+      "description": "Tracks data intake, parameter control, model execution, output generation, reproducibility, validation, and governance records."
+    },
+    {
+      "card_id": "run-manifest",
+      "title": "Run Manifest",
+      "description": "Records commands, scenarios, seeds, platform context, output files, and output hashes."
+    },
+    {
+      "card_id": "reproducibility-diagnostics",
+      "title": "Reproducibility Diagnostics",
+      "description": "Connects workflow checks, output indexes, logs, and governance notes to accountable modeling practice."
+    }
+  ],
+  "governance": {
+    "requires_workflow_register": true,
+    "requires_run_manifest": true,
+    "requires_output_index": true,
+    "requires_output_hashes": true,
+    "requires_validation_checks": true,
+    "requires_use_limit_statement": true
+  }
+}

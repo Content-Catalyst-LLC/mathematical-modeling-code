@@ -1,0 +1,76 @@
+
+[1;34m[17:19:07][0m Python workflow
+Scientific computing modeling workflow complete.
+Workflow records: 7
+Scenarios: 3
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[17:19:08][0m R workflow
+null device 
+          1 
+         scenario final_stock minimum_stock steps     seed
+1        baseline     0.00000       0.00000    50 20260612
+2 recovery_policy    20.10396      20.10396    50 20260614
+3          stress     0.00000       0.00000    50 20260613
+             review_class
+1   threshold risk review
+2 routine workflow review
+3   threshold risk review
+                key    workflow_stage             computational_object
+1      input_schema       data_intake         resource_scenario_fields
+2     configuration parameter_control           scenario_configuration
+3 simulation_engine   model_execution             resource_update_loop
+4      output_index output_generation         generated_output_catalog
+5      run_manifest   reproducibility                    manifest_json
+6 validation_checks        validation workflow_smoke_and_schema_checks
+7        audit_card        governance              workflow_audit_card
+                                                modeling_role
+1                     Defines required model inputs and units
+2                     Separates run-specific values from code
+3                  Implements the model state transition rule
+4 Lists tables figures json and logs produced by the workflow
+5                Records command environment seed and outputs
+6                     Documents technical and modeling checks
+7                   Summarizes checks outputs and limitations
+                                    review_question status workflow_risk_score
+1 Are all required fields documented and validated? review                   5
+2       Can outputs be traced to active parameters? active                   3
+3   Does code match the mathematical specification? review                   6
+4              Can outputs be traced and inspected? active                   2
+5           Can another analyst rerun the workflow? active                   2
+6       Do checks support the result being claimed? review                   7
+7           Are assumptions and use limits visible? review                   6
+  priority
+1      low
+2      low
+3   medium
+4      low
+5      low
+6   medium
+7   medium
+
+[1;34m[17:19:08][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/scientific_computing_modeling_workflows.sqlite < sql/schema.sql
+sqlite3 outputs/tables/scientific_computing_modeling_workflows.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[17:19:08][0m Go workflow
+cd go && go run main.go
+scenario,final_stock
+baseline,0.000000
+stress,0.000000
+recovery_policy,37.814320
+
+[1;34m[17:19:09][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 workflow_resource_model.cpp -o workflow_resource_model
+./workflow_resource_model > ../outputs/tables/cpp_workflow_resource_model.csv
+
+[1;34m[17:19:10][0m Fortran workflow
+gfortran -O2 fortran/workflow_resource_model.f90 -o outputs/workflow_resource_model_fortran
+./outputs/workflow_resource_model_fortran > outputs/tables/fortran_workflow_resource_model.txt
+
+[1;34m[17:19:11][0m C workflow
+cc -O2 -std=c11 c/workflow_resource_model.c -o outputs/workflow_resource_model_c
+./outputs/workflow_resource_model_c > outputs/tables/c_workflow_resource_model.csv 2> outputs/logs/c_workflow_resource_model_stderr.log

@@ -1,0 +1,53 @@
+section             
+--------------------
+WORKFLOW STAGE TYPES
+workflow_stage     description                               typical_failure                                  
+-----------------  ----------------------------------------  -------------------------------------------------
+data_intake        Data entry and validation.                Data provenance and schema are unclear.          
+governance         Review and accountability.                Assumptions and limits are hidden.               
+model_execution    Executable model logic.                   Code diverges from mathematical specification.   
+output_generation  Tables figures reports and output files.  Outputs cannot be traced.                        
+parameter_control  Scenario and configuration management.    Parameters are buried inside scripts.            
+reproducibility    Rerun capability.                         Run context is not documented.                   
+validation         Technical and substantive checks.         Successful execution is confused with validation.
+section                          
+---------------------------------
+WORKFLOW RECORDS REQUIRING REVIEW
+record_key         workflow_stage   computational_object              review_question                                  
+-----------------  ---------------  --------------------------------  -------------------------------------------------
+input_schema       data_intake      resource_scenario_fields          Are all required fields documented and validated?
+simulation_engine  model_execution  resource_update_loop              Does code match the mathematical specification?  
+validation_checks  validation       workflow_smoke_and_schema_checks  Do checks support the result being claimed?      
+audit_card         governance       workflow_audit_card               Are assumptions and use limits visible?          
+section                    
+---------------------------
+RESOURCE WORKFLOW SCENARIOS
+scenario         initial_stock  growth_rate  carrying_capacity  extraction  shock_probability  shock_fraction  steps  seed    
+---------------  -------------  -----------  -----------------  ----------  -----------------  --------------  -----  --------
+baseline         70.0           0.18         100.0              6.0         0.05               0.1             50     20260612
+recovery_policy  70.0           0.18         100.0              5.0         0.05               0.1             50     20260614
+stress           70.0           0.15         100.0              9.0         0.12               0.2             50     20260613
+section                  
+-------------------------
+WORKFLOW GOVERNANCE CHECK
+workflow_stage     record_count
+-----------------  ------------
+data_intake        1           
+governance         1           
+model_execution    1           
+output_generation  1           
+parameter_control  1           
+reproducibility    1           
+validation         1           
+section                 
+------------------------
+WORKFLOW COMPONENT GUIDE
+workflow_stage     meaning                                example             review_question           
+-----------------  -------------------------------------  ------------------  --------------------------
+data_intake        Data entry and validation              input schema        Are inputs valid?         
+governance         Review and accountability              audit card          Are assumptions visible?  
+model_execution    Executable model logic                 simulation script   Does code match the model?
+output_generation  Tables figures reports and files       output index        Are outputs traceable?    
+parameter_control  Scenario and configuration management  configuration file  Can parameters be traced? 
+reproducibility    Rerun capability                       run manifest        Can results be reproduced?
+validation         Technical and substantive checks       test report         Are claims supported?     

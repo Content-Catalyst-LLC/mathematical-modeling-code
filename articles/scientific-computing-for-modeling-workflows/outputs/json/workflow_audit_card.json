@@ -1,0 +1,132 @@
+{
+  "article": "Scientific Computing for Modeling Workflows",
+  "audit_checks": [
+    "inputs and configuration are documented",
+    "model execution is reproducible",
+    "outputs are indexed and hashed",
+    "run environment is recorded",
+    "workflow governance artifacts are generated"
+  ],
+  "high_priority_workflow_records": [],
+  "output_index": [
+    {
+      "exists": true,
+      "output_key": "output_index",
+      "path": "outputs/tables/workflow_output_index.csv",
+      "sha256": "9fb788b158bd8997fc547c386f0ccffdce5247362e1c292fee70ed29ab81b05f"
+    },
+    {
+      "exists": true,
+      "output_key": "run_manifest",
+      "path": "outputs/json/run_manifest.json",
+      "sha256": "345ff4cf61b8f10b25e3fa1afff4cab54f546e260cbe5ee69a53ac70c1e199d6"
+    },
+    {
+      "exists": true,
+      "output_key": "summary",
+      "path": "outputs/tables/resource_model_summary.csv",
+      "sha256": "4665ea40327957cdaaac3f6c81db6ecb6470c5ec5810619e937ee60035e8c4b3"
+    },
+    {
+      "exists": true,
+      "output_key": "trajectories",
+      "path": "outputs/tables/resource_model_trajectories.csv",
+      "sha256": "06c8d604b51efeea3de78019038caf1bfb430b0a3a20e358bfd6daa1a0936d4c"
+    },
+    {
+      "exists": true,
+      "output_key": "workflow_register",
+      "path": "outputs/tables/scientific_computing_workflow_register.csv",
+      "sha256": "2122c1e39b949c0a89d8a1c35c430b1389cae1be7e4d60148f968515fc2b3f3f"
+    }
+  ],
+  "scenario_count": 3,
+  "summary": [
+    {
+      "final_stock": 0.0,
+      "minimum_stock": 0.0,
+      "scenario": "baseline",
+      "seed": 20260612,
+      "steps": 50
+    },
+    {
+      "final_stock": 20.10396055,
+      "minimum_stock": 20.10396055,
+      "scenario": "recovery_policy",
+      "seed": 20260614,
+      "steps": 50
+    },
+    {
+      "final_stock": 0.0,
+      "minimum_stock": 0.0,
+      "scenario": "stress",
+      "seed": 20260613,
+      "steps": 50
+    }
+  ],
+  "workflow_register": [
+    {
+      "computational_object": "resource_scenario_fields",
+      "key": "input_schema",
+      "modeling_role": "Defines required model inputs and units",
+      "review_question": "Are all required fields documented and validated?",
+      "status": "review",
+      "workflow_risk_score": 5.0,
+      "workflow_stage": "data_intake"
+    },
+    {
+      "computational_object": "scenario_configuration",
+      "key": "configuration",
+      "modeling_role": "Separates run-specific values from code",
+      "review_question": "Can outputs be traced to active parameters?",
+      "status": "active",
+      "workflow_risk_score": 3.0,
+      "workflow_stage": "parameter_control"
+    },
+    {
+      "computational_object": "resource_update_loop",
+      "key": "simulation_engine",
+      "modeling_role": "Implements the model state transition rule",
+      "review_question": "Does code match the mathematical specification?",
+      "status": "review",
+      "workflow_risk_score": 6.0,
+      "workflow_stage": "model_execution"
+    },
+    {
+      "computational_object": "generated_output_catalog",
+      "key": "output_index",
+      "modeling_role": "Lists tables figures json and logs produced by the workflow",
+      "review_question": "Can outputs be traced and inspected?",
+      "status": "active",
+      "workflow_risk_score": 2.0,
+      "workflow_stage": "output_generation"
+    },
+    {
+      "computational_object": "manifest_json",
+      "key": "run_manifest",
+      "modeling_role": "Records command environment seed and outputs",
+      "review_question": "Can another analyst rerun the workflow?",
+      "status": "active",
+      "workflow_risk_score": 2.0,
+      "workflow_stage": "reproducibility"
+    },
+    {
+      "computational_object": "workflow_smoke_and_schema_checks",
+      "key": "validation_checks",
+      "modeling_role": "Documents technical and modeling checks",
+      "review_question": "Do checks support the result being claimed?",
+      "status": "review",
+      "workflow_risk_score": 7.0,
+      "workflow_stage": "validation"
+    },
+    {
+      "computational_object": "workflow_audit_card",
+      "key": "audit_card",
+      "modeling_role": "Summarizes checks outputs and limitations",
+      "review_question": "Are assumptions and use limits visible?",
+      "status": "review",
+      "workflow_risk_score": 6.0,
+      "workflow_stage": "governance"
+    }
+  ]
+}

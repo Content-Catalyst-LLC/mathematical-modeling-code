@@ -1,0 +1,8 @@
+workflow_stage,meaning,example,review_question
+data_intake,Data entry and validation,input schema,Are inputs valid?
+parameter_control,Scenario and configuration management,configuration file,Can parameters be traced?
+model_execution,Executable model logic,simulation script,Does code match the model?
+output_generation,Tables figures reports and files,output index,Are outputs traceable?
+reproducibility,Rerun capability,run manifest,Can results be reproduced?
+validation,Technical and substantive checks,test report,Are claims supported?
+governance,Review and accountability,audit card,Are assumptions visible?

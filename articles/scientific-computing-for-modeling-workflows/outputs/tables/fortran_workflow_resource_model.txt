@@ -1,0 +1,4 @@
+scenario final_stock
+baseline     0.0000
+stress     0.0000
+recovery_policy    37.8143

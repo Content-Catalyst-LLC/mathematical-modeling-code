@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResourceWorkflowScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "initial_stock",
+    "growth_rate",
+    "carrying_capacity",
+    "extraction",
+    "shock_probability",
+    "shock_fraction",
+    "steps",
+    "seed"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_stock": {"type": "number", "minimum": 0},
+    "growth_rate": {"type": "number", "minimum": 0},
+    "carrying_capacity": {"type": "number", "exclusiveMinimum": 0},
+    "extraction": {"type": "number", "minimum": 0},
+    "shock_probability": {"type": "number", "minimum": 0, "maximum": 1},
+    "shock_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+    "steps": {"type": "integer", "minimum": 1},
+    "seed": {"type": "integer"}
+  }
+}
