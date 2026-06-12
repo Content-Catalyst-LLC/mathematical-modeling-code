@@ -1,0 +1,6 @@
+scope_type,supported_use,unsupported_or_prohibited_use,validation_needed
+conceptual_explanation,Clarify boundary and stock-flow structure,Precise operational forecast,Domain validation and empirical calibration
+scenario_exploration,Compare plausible boundary versions,Assign probabilities to scenarios,Probabilistic uncertainty model
+short_term_planning,Support bounded-horizon review,Long-term infrastructure certification,Extended horizon validation
+policy_support,Inform deliberation with uncertainty,Replace institutional judgment,Stakeholder review and governance process
+subgroup_analysis,Screen for distributional visibility,Make equity claims without subgroup data,Disaggregated data and subgroup validation

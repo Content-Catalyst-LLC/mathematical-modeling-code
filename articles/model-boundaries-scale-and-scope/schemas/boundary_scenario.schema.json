@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BoundaryScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "boundary_version",
+    "initial_stock",
+    "capacity",
+    "inflow",
+    "demand",
+    "loss_rate",
+    "policy_savings",
+    "periods"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "boundary_version": {"type": "string"},
+    "initial_stock": {"type": "number", "minimum": 0},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "inflow": {"type": "number", "minimum": 0},
+    "demand": {"type": "number", "minimum": 0},
+    "loss_rate": {"type": "number", "minimum": 0},
+    "policy_savings": {"type": "number", "minimum": 0},
+    "periods": {"type": "integer", "minimum": 1}
+  }
+}

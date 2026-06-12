@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BoundaryChoice",
+  "type": "object",
+  "required": [
+    "key",
+    "boundary_type",
+    "included",
+    "excluded",
+    "risk_if_excluded",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "boundary_type": {
+      "type": "string",
+      "enum": ["physical", "temporal", "spatial", "population", "mechanism", "data", "decision", "uncertainty"]
+    },
+    "included": {"type": "string"},
+    "excluded": {"type": "string"},
+    "risk_if_excluded": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

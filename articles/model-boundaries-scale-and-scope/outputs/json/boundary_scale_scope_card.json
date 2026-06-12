@@ -1,0 +1,169 @@
+{
+  "article": "Model Boundaries, Scale, and Scope",
+  "boundary_register": [
+    {
+      "boundary_risk_score": 2.0,
+      "boundary_type": "physical",
+      "excluded": "spatial distribution quality local access",
+      "included": "storage inflow demand losses capacity",
+      "key": "physical_stock_boundary",
+      "review_question": "Does aggregate storage match the intended use?",
+      "risk_if_excluded": "Local shortages or quality limits may be hidden",
+      "status": "active"
+    },
+    {
+      "boundary_risk_score": 8.5,
+      "boundary_type": "uncertainty",
+      "excluded": "probabilistic inflow demand variability extreme events",
+      "included": "scenario inflow and demand values",
+      "key": "uncertainty_boundary",
+      "review_question": "Should uncertain drivers be represented probabilistically?",
+      "risk_if_excluded": "Shortage risk may be understated",
+      "status": "review"
+    },
+    {
+      "boundary_risk_score": 8.5,
+      "boundary_type": "decision",
+      "excluded": "implementation capacity compliance enforcement equity",
+      "included": "policy savings as a demand reduction",
+      "key": "policy_boundary",
+      "review_question": "Are institutional constraints inside the model boundary?",
+      "risk_if_excluded": "Policy performance may be overstated",
+      "status": "review"
+    },
+    {
+      "boundary_risk_score": 6.0,
+      "boundary_type": "temporal",
+      "excluded": "long-term infrastructure change and regime shifts",
+      "included": "60-period planning horizon",
+      "key": "time_horizon_boundary",
+      "review_question": "Does the time horizon match the decision horizon?",
+      "risk_if_excluded": "Long-term fragility may be missed",
+      "status": "review"
+    },
+    {
+      "boundary_risk_score": 9.5,
+      "boundary_type": "population",
+      "excluded": "user groups access differences vulnerable populations",
+      "included": "aggregate users",
+      "key": "population_boundary",
+      "review_question": "Are subgroup outputs needed before decision use?",
+      "risk_if_excluded": "Distributional effects may be hidden",
+      "status": "review"
+    }
+  ],
+  "boundary_versions": [
+    "narrow_stock_flow",
+    "policy_expanded",
+    "population_expanded",
+    "temporal_expanded",
+    "uncertainty_expanded"
+  ],
+  "formal_model": "S[t+1] = min(K, max(0, S[t] + I[t] - D[t] - L[t]))",
+  "high_priority_boundaries": [
+    {
+      "boundary_risk_score": 8.5,
+      "boundary_type": "uncertainty",
+      "excluded": "probabilistic inflow demand variability extreme events",
+      "included": "scenario inflow and demand values",
+      "key": "uncertainty_boundary",
+      "review_question": "Should uncertain drivers be represented probabilistically?",
+      "risk_if_excluded": "Shortage risk may be understated",
+      "status": "review"
+    },
+    {
+      "boundary_risk_score": 8.5,
+      "boundary_type": "decision",
+      "excluded": "implementation capacity compliance enforcement equity",
+      "included": "policy savings as a demand reduction",
+      "key": "policy_boundary",
+      "review_question": "Are institutional constraints inside the model boundary?",
+      "risk_if_excluded": "Policy performance may be overstated",
+      "status": "review"
+    },
+    {
+      "boundary_risk_score": 9.5,
+      "boundary_type": "population",
+      "excluded": "user groups access differences vulnerable populations",
+      "included": "aggregate users",
+      "key": "population_boundary",
+      "review_question": "Are subgroup outputs needed before decision use?",
+      "risk_if_excluded": "Distributional effects may be hidden",
+      "status": "review"
+    }
+  ],
+  "revision_triggers": [
+    "boundary risk score above threshold",
+    "scenario conclusion changes after boundary expansion",
+    "time horizon does not match decision horizon",
+    "scale of output does not match scale of affected users",
+    "model is used beyond stated scope"
+  ],
+  "scenario_summaries": [
+    {
+      "boundary_version": "narrow_stock_flow",
+      "description": "Narrow conceptual stock-flow model",
+      "final_stock": 100.0,
+      "max_stock": 100.0,
+      "mean_stock": 95.1351448,
+      "min_stock": 80.0,
+      "minimum_stock_margin": 0.8,
+      "scenario": "narrow_baseline",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "boundary_version": "uncertainty_expanded",
+      "description": "Boundary test with lower inflow",
+      "final_stock": 0.0,
+      "max_stock": 80.0,
+      "mean_stock": 30.41798383,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "scenario": "low_inflow_boundary_test",
+      "shortage_periods": 9,
+      "shortage_risk": 0.14754098,
+      "total_shortage": 8.8324552
+    },
+    {
+      "boundary_version": "policy_expanded",
+      "description": "Policy boundary with demand reduction",
+      "final_stock": 52.17765942,
+      "max_stock": 80.0,
+      "mean_stock": 64.04918631,
+      "min_stock": 52.17765942,
+      "minimum_stock_margin": 0.52177659,
+      "scenario": "policy_savings_boundary_test",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "boundary_version": "temporal_expanded",
+      "description": "Longer stress test with lower capacity and higher losses",
+      "final_stock": 0.0,
+      "max_stock": 70.0,
+      "mean_stock": 7.4079554,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "scenario": "longer_stress_boundary",
+      "shortage_periods": 93,
+      "shortage_risk": 0.76859504,
+      "total_shortage": 138.39087812
+    },
+    {
+      "boundary_version": "population_expanded",
+      "description": "Proxy for subgroup or local stress visibility",
+      "final_stock": 0.0,
+      "max_stock": 60.0,
+      "mean_stock": 11.28962785,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "scenario": "subgroup_visibility_test",
+      "shortage_periods": 37,
+      "shortage_risk": 0.60655738,
+      "total_shortage": 63.96668247
+    }
+  ]
+}

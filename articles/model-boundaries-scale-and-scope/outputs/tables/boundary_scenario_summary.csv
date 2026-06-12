@@ -1,0 +1,6 @@
+scenario,boundary_version,final_stock,mean_stock,min_stock,max_stock,shortage_periods,total_shortage,shortage_risk,minimum_stock_margin,description
+narrow_baseline,narrow_stock_flow,100.0,95.1351448,80.0,100.0,0,0.0,0.0,0.8,Narrow conceptual stock-flow model
+low_inflow_boundary_test,uncertainty_expanded,0.0,30.41798383,0.0,80.0,9,8.8324552,0.14754098,0.0,Boundary test with lower inflow
+policy_savings_boundary_test,policy_expanded,52.17765942,64.04918631,52.17765942,80.0,0,0.0,0.0,0.52177659,Policy boundary with demand reduction
+longer_stress_boundary,temporal_expanded,0.0,7.4079554,0.0,70.0,93,138.39087812,0.76859504,0.0,Longer stress test with lower capacity and higher losses
+subgroup_visibility_test,population_expanded,0.0,11.28962785,0.0,60.0,37,63.96668247,0.60655738,0.0,Proxy for subgroup or local stress visibility

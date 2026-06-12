@@ -1,0 +1,59 @@
+
+[1;34m[22:13:00][0m Python workflow
+Boundary, scale, and scope workflow complete.
+Boundary choices: 5
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[22:13:01][0m R workflow
+null device 
+          1 
+                      scenario     boundary_version final_stock mean_stock
+1              narrow_baseline    narrow_stock_flow   100.00000  95.135145
+2     low_inflow_boundary_test uncertainty_expanded     0.00000  30.417984
+3 policy_savings_boundary_test      policy_expanded    52.17766  64.049186
+4       longer_stress_boundary    temporal_expanded     0.00000   7.407955
+5     subgroup_visibility_test  population_expanded     0.00000  11.289628
+  min_stock max_stock shortage_periods total_shortage shortage_risk
+1  80.00000       100                0       0.000000     0.0000000
+2   0.00000        80                9       8.832455     0.1475410
+3  52.17766        80                0       0.000000     0.0000000
+4   0.00000        70               93     138.390878     0.7685950
+5   0.00000        60               37      63.966682     0.6065574
+  minimum_stock_margin                                              description
+1            0.8000000                       Narrow conceptual stock-flow model
+2            0.0000000                          Boundary test with lower inflow
+3            0.5217766                    Policy boundary with demand reduction
+4            0.0000000 Longer stress test with lower capacity and higher losses
+5            0.0000000            Proxy for subgroup or local stress visibility
+                      scope_review
+1 acceptable under stated boundary
+2     scope requires qualification
+3 acceptable under stated boundary
+4     scope requires qualification
+5     scope requires qualification
+
+[1;34m[22:13:01][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/boundary_scale_scope.sqlite < sql/schema.sql
+sqlite3 outputs/tables/boundary_scale_scope.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[22:13:01][0m Go workflow
+cd go && go run main.go
+go_narrow_baseline boundary=narrow_stock_flow final_stock=100.000 total_shortage=0.000
+go_policy_expanded boundary=policy_expanded final_stock=51.895 total_shortage=0.000
+go_temporal_expanded boundary=temporal_expanded final_stock=0.000 total_shortage=138.391
+
+[1;34m[22:13:02][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 boundary_resource_model.cpp -o boundary_resource_model
+./boundary_resource_model > ../outputs/tables/cpp_boundary_resource_summary.txt
+
+[1;34m[22:13:03][0m Fortran workflow
+gfortran -O2 fortran/boundary_resource_model.f90 -o outputs/boundary_resource_model_fortran
+./outputs/boundary_resource_model_fortran > outputs/tables/fortran_boundary_resource_summary.txt
+
+[1;34m[22:13:03][0m C workflow
+cc -O2 -std=c11 c/boundary_resource_model.c -o outputs/boundary_resource_model_c
+./outputs/boundary_resource_model_c > outputs/tables/c_boundary_resource_summary.csv 2> outputs/logs/c_boundary_resource_stderr.log

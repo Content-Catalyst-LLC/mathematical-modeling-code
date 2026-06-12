@@ -1,0 +1,29 @@
+{
+  "article_slug": "model-boundaries-scale-and-scope",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "boundary-scale-scope",
+  "cards": [
+    {
+      "card_id": "boundary-register",
+      "title": "Boundary Register",
+      "description": "Tracks what the model includes, excludes, risks, and requires for review."
+    },
+    {
+      "card_id": "scale-audit",
+      "title": "Scale Audit",
+      "description": "Reviews temporal, spatial, population, mechanism, and computational scale choices."
+    },
+    {
+      "card_id": "scope-statement",
+      "title": "Scope Statement",
+      "description": "Defines supported uses, exploratory uses, prohibited uses, and evidence required for scope expansion."
+    }
+  ],
+  "governance": {
+    "requires_boundary_register": true,
+    "requires_scale_audit": true,
+    "requires_scope_statement": true,
+    "requires_boundary_sensitivity_tests": true,
+    "requires_prohibited_use_statement": true
+  }
+}

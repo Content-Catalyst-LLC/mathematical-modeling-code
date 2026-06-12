@@ -1,0 +1,19 @@
+actual_title: "Model Boundaries, Scale, and Scope"
+suggested_seo_title: "Model Boundaries, Scale, and Scope in Mathematical Modeling"
+focus_keyword: "model boundaries scale and scope"
+slug: "model-boundaries-scale-and-scope"
+series: "Mathematical Modeling"
+article_order:
+  previous: "assumptions-simplification-and-model-design"
+  current: "model-boundaries-scale-and-scope"
+  next: "model-purpose-explanation-prediction-control-and-decision-support"
+tags:
+  - Mathematical Modeling
+  - Model Boundaries
+  - Scale
+  - Model Scope
+  - Model Design
+  - Systems Modeling
+  - Model Validation
+  - Uncertainty Quantification
+excerpt_139_words: "Model boundaries, scale, and scope determine what a mathematical model includes, excludes, resolves, aggregates, and claims to explain. Before equations, parameters, simulations, or forecasts can be interpreted, modelers must decide where the modeled system begins and ends, what level of detail matters, what time and spatial scales are relevant, and which uses the model can responsibly support. This article explains how boundary choices shape model meaning, how scale affects visibility and distortion, and how scope defines the legitimate reach of conclusions. It examines system boundaries, temporal horizons, spatial resolution, population inclusion, mechanism selection, external drivers, feedback, aggregation, and decision context. By treating boundaries, scale, and scope as explicit design decisions rather than background assumptions, the article helps readers evaluate when mathematical models clarify a problem, when they overreach, and how boundary revision improves modeling practice across science and policy."

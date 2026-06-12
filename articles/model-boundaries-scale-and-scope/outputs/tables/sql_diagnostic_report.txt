@@ -1,0 +1,49 @@
+section       
+--------------
+BOUNDARY TYPES
+boundary_type  description                                               typical_failure                                      
+-------------  --------------------------------------------------------  -----------------------------------------------------
+data           Evidence available to the model.                          Unobserved or biased data define the model world.    
+decision       Choices and consequences included in the decision frame.  Model output overreaches its decision scope.         
+mechanism      Processes represented explicitly.                         Important mechanisms are hidden inside parameters.   
+physical       Material or spatial system limits.                        Physical process outside the boundary drives outputs.
+population     Who or what is included.                                  Subgroup outcomes disappear.                         
+spatial        Location, geometry, adjacency, or region.                 Local variation or spillovers are hidden.            
+temporal       Start, end, and time horizon.                             Delayed or long-term effects are missed.             
+uncertainty    Unknowns represented in the model.                        Risk is understated or mischaracterized.             
+section                    
+---------------------------
+BOUNDARIES REQUIRING REVIEW
+boundary_key           boundary_type  excluded                                                risk_if_excluded                       review_question                                           
+---------------------  -------------  ------------------------------------------------------  -------------------------------------  ----------------------------------------------------------
+uncertainty_boundary   uncertainty    probabilistic inflow demand variability extreme events  Shortage risk may be understated.      Should uncertain drivers be represented probabilistically?
+policy_boundary        decision       implementation capacity compliance enforcement equity   Policy performance may be overstated.  Are institutional constraints inside the model boundary?  
+time_horizon_boundary  temporal       long-term infrastructure change and regime shifts       Long-term fragility may be missed.     Does the time horizon match the decision horizon?         
+population_boundary    population     user groups access differences vulnerable populations   Distributional effects may be hidden.  Are subgroup outputs needed before decision use?          
+section                      
+-----------------------------
+SCENARIOS BY BOUNDARY VERSION
+boundary_version      scenario_count
+--------------------  --------------
+narrow_stock_flow     1             
+policy_expanded       1             
+population_expanded   1             
+temporal_expanded     1             
+uncertainty_expanded  1             
+section     
+------------
+SCOPE MATRIX
+scope_type              supported_use                              unsupported_or_prohibited_use             validation_needed                          
+----------------------  -----------------------------------------  ----------------------------------------  -------------------------------------------
+conceptual_explanation  Clarify boundary and stock-flow structure  Precise operational forecast              Domain validation and empirical calibration
+policy_support          Inform deliberation with uncertainty       Replace institutional judgment            Stakeholder review and governance process  
+scenario_exploration    Compare plausible boundary versions        Assign probabilities to scenarios         Probabilistic uncertainty model            
+short_term_planning     Support bounded-horizon review             Long-term infrastructure certification    Extended horizon validation                
+subgroup_analysis       Screen for distributional visibility       Make equity claims without subgroup data  Disaggregated data and subgroup validation 
+section        
+---------------
+SCOPE STATEMENT
+supported_use                                           exploratory_use                                prohibited_use                                                evidence_required_for_expansion                             
+------------------------------------------------------  ---------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Conceptual explanation and first-pass boundary review.  Scenario comparison under stated assumptions.  Operational forecasting, certification, or distributional cl  Boundary review, scale review, empirical validation, uncerta
+                                                                                                       aims without further validation.                              inty analysis, and scope governance.                        

@@ -1,0 +1,6 @@
+"key","boundary_type","included","excluded","risk_if_excluded","review_question","status","boundary_risk_score","priority"
+"physical_stock_boundary","physical","storage inflow demand losses capacity","spatial distribution quality local access","Local shortages or quality limits may be hidden","Does aggregate storage match the intended use?","active",2,"low"
+"uncertainty_boundary","uncertainty","scenario inflow and demand values","probabilistic inflow demand variability extreme events","Shortage risk may be understated","Should uncertain drivers be represented probabilistically?","review",8.5,"high"
+"policy_boundary","decision","policy savings as a demand reduction","implementation capacity compliance enforcement equity","Policy performance may be overstated","Are institutional constraints inside the model boundary?","review",8.5,"high"
+"time_horizon_boundary","temporal","60-period planning horizon","long-term infrastructure change and regime shifts","Long-term fragility may be missed","Does the time horizon match the decision horizon?","review",6,"medium"
+"population_boundary","population","aggregate users","user groups access differences vulnerable populations","Distributional effects may be hidden","Are subgroup outputs needed before decision use?","review",9.5,"high"
