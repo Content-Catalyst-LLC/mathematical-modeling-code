@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DynamicScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "initial_storage",
+    "capacity",
+    "inflow_rate",
+    "demand_rate",
+    "loss_rate",
+    "dt",
+    "horizon"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_storage": {"type": "number", "minimum": 0},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "inflow_rate": {"type": "number", "minimum": 0},
+    "demand_rate": {"type": "number", "minimum": 0},
+    "loss_rate": {"type": "number", "minimum": 0},
+    "dt": {"type": "number", "exclusiveMinimum": 0},
+    "horizon": {"type": "number", "exclusiveMinimum": 0}
+  }
+}

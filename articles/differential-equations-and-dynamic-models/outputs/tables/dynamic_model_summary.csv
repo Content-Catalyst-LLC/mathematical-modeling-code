@@ -1,0 +1,6 @@
+scenario,final_storage,mean_storage,min_storage,max_storage,mean_rate_of_change,shortage_periods,overflow_periods,domain_violations,total_shortage,total_overflow,description
+baseline,100.0,95.17275027,80.0,100.0,0.57240875,0,116,0,0.0,14.48762694,Baseline resource trajectory
+high_demand,0.0,19.30899892,0.0,80.0,-2.28963498,116,0,0,57.95050777,0.0,Higher demand dynamic stress scenario
+high_loss,41.95418206,52.6374258,41.95418206,80.0,-0.63187129,0,0,0,0.0,0.0,Higher proportional loss scenario
+tight_capacity,75.0,74.76562258,70.0,75.0,0.87851566,0,220,0,0.0,47.93056859,Tight capacity boundary scenario
+coarse_step_baseline,100.0,95.1351448,80.0,100.0,0.57297283,0,30,0,0.0,14.95134251,Coarser Euler time step comparison

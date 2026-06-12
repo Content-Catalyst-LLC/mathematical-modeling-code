@@ -1,0 +1,58 @@
+
+[1;34m[05:57:22][0m Python workflow
+Differential equations and dynamic models workflow complete.
+Dynamic records: 6
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[05:57:22][0m R workflow
+null device 
+          1 
+              scenario final_storage mean_storage min_storage max_storage
+1             baseline     100.00000     95.17275    80.00000         100
+2          high_demand       0.00000     19.30900     0.00000          80
+3            high_loss      41.95418     52.63743    41.95418          80
+4       tight_capacity      75.00000     74.76562    70.00000          75
+5 coarse_step_baseline     100.00000     95.13514    80.00000         100
+  mean_rate_of_change shortage_periods overflow_periods domain_violations
+1           0.5724088                0              116                 0
+2          -2.2896350              116                0                 0
+3          -0.6318713                0                0                 0
+4           0.8785157                0              220                 0
+5           0.5729728                0               30                 0
+  total_shortage total_overflow                           description
+1        0.00000       14.48763          Baseline resource trajectory
+2       57.95051        0.00000 Higher demand dynamic stress scenario
+3        0.00000        0.00000     Higher proportional loss scenario
+4        0.00000       47.93057      Tight capacity boundary scenario
+5        0.00000       14.95134    Coarser Euler time step comparison
+                      dynamic_review
+1 boundary or stress behavior active
+2 boundary or stress behavior active
+3   trajectory stable under scenario
+4 boundary or stress behavior active
+5 boundary or stress behavior active
+
+[1;34m[05:57:22][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/differential_equations_dynamic_models.sqlite < sql/schema.sql
+sqlite3 outputs/tables/differential_equations_dynamic_models.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[05:57:22][0m Go workflow
+cd go && go run main.go
+go_baseline final_storage=100.000 min_storage=80.000 max_storage=100.000 total_shortage=0.000
+go_high_demand final_storage=0.000 min_storage=0.000 max_storage=80.000 total_shortage=57.951
+
+[1;34m[05:57:23][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 dynamic_resource_model.cpp -o dynamic_resource_model
+./dynamic_resource_model > ../outputs/tables/cpp_dynamic_resource_summary.txt
+
+[1;34m[05:57:24][0m Fortran workflow
+gfortran -O2 fortran/dynamic_resource_model.f90 -o outputs/dynamic_resource_model_fortran
+./outputs/dynamic_resource_model_fortran > outputs/tables/fortran_dynamic_resource_summary.txt
+
+[1;34m[05:57:25][0m C workflow
+cc -O2 -std=c11 c/dynamic_resource_model.c -o outputs/dynamic_resource_model_c
+./outputs/dynamic_resource_model_c > outputs/tables/c_dynamic_resource_timeseries.csv 2> outputs/logs/c_dynamic_resource_stderr.log

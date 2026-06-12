@@ -1,0 +1,53 @@
+section                
+-----------------------
+DYNAMIC COMPONENT TYPES
+component_type      description                                 typical_failure                                      
+------------------  ------------------------------------------  -----------------------------------------------------
+boundary_condition  Limit or edge condition.                    Boundaries are ignored or hidden in code.            
+initial_condition   Starting state for simulation or solution.  Initial state is uncertain or inappropriate.         
+numerical_setting   Solver choice or time-step setting.         Numerical artifacts are mistaken for system behavior.
+output_diagnostic   Derived behavior summary.                   Endpoint values hide trajectory behavior.            
+parameter           Value shaping dynamic behavior.             Parameter is uncalibrated or transferred carelessly. 
+rate_equation       Equation describing change over time.       Rate law is assumed without mechanism or units.      
+state_variable      Quantity that changes through time.         State definition is vague or not observed.           
+section                         
+--------------------------------
+DYNAMIC RECORDS REQUIRING REVIEW
+record_key              component_type      expression  units_or_domain          review_question                                
+----------------------  ------------------  ----------  -----------------------  -----------------------------------------------
+initial_storage         initial_condition   S(0) = S0   0 <= S0 <= K             How was the initial state measured?            
+nonnegativity_boundary  boundary_condition  S(t) >= 0   bounded_domain           How is the lower boundary enforced numerically?
+capacity_boundary       boundary_condition  S(t) <= K   bounded_domain           Is capacity physical operational or assumed?   
+time_step               numerical_setting   dt          positive_time_increment  Do conclusions change under smaller dt?        
+section          
+-----------------
+DYNAMIC SCENARIOS
+scenario              initial_storage  capacity  inflow_rate  demand_rate  loss_rate  dt    horizon
+--------------------  ---------------  --------  -----------  -----------  ---------  ----  -------
+baseline              80.0             100.0     8.0          6.0          0.015      0.25  60.0   
+coarse_step_baseline  80.0             100.0     8.0          6.0          0.015      1.0   60.0   
+high_demand           80.0             100.0     8.0          10.0         0.015      0.25  60.0   
+high_loss             80.0             100.0     8.0          6.0          0.05       0.25  60.0   
+tight_capacity        70.0             75.0      8.0          6.0          0.015      0.25  60.0   
+section             
+--------------------
+ONE-STEP RATE CHECKS
+scenario              initial_storage  initial_rate  euler_one_step_storage
+--------------------  ---------------  ------------  ----------------------
+baseline              80.0             0.8           80.2                  
+coarse_step_baseline  80.0             0.8           80.8                  
+high_demand           80.0             -3.2          79.2                  
+high_loss             80.0             -2.0          79.5                  
+tight_capacity        70.0             0.95          70.2375               
+section                
+-----------------------
+DYNAMIC COMPONENT GUIDE
+component_type      meaning                             example                   review_question                                 
+------------------  ----------------------------------  ------------------------  ------------------------------------------------
+boundary_condition  Limit on state                      0 <= S <= K               How are boundaries enforced?                    
+initial_condition   Starting state                      S(0) = S0                 How was the starting state measured?            
+numerical_setting   Computation choice                  dt                        Does solver choice affect conclusions?          
+output_diagnostic   Derived result                      shortage periods          Does output describe behavior not just endpoint?
+parameter           Value shaping dynamics              lambda                    Is it calibrated estimated or assumed?          
+rate_equation       Equation for change                 dS/dt = I - D - lambda*S  What mechanism creates the rate?                
+state_variable      Quantity that changes through time  S(t)                      What system condition is tracked?               

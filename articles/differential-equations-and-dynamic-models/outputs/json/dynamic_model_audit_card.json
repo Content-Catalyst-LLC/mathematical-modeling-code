@@ -1,0 +1,145 @@
+{
+  "article": "Differential Equations and Dynamic Models",
+  "audit_checks": [
+    "rate equations have stated units",
+    "initial conditions are documented",
+    "time step is explicit",
+    "domain boundaries are enforced",
+    "dynamic conclusions are not reduced to endpoint values"
+  ],
+  "high_priority_dynamic_records": [],
+  "model_register": [
+    {
+      "component_type": "state_variable",
+      "dynamic_risk_score": 1.0,
+      "expression": "S(t)",
+      "interpretation": "Current resource storage",
+      "key": "storage",
+      "review_question": "Is storage directly observed and bounded?",
+      "status": "active",
+      "units_or_domain": "resource_units"
+    },
+    {
+      "component_type": "rate_equation",
+      "dynamic_risk_score": 3.0,
+      "expression": "dS/dt = I - D - lambda*S",
+      "interpretation": "Storage changes through inflow demand and proportional loss",
+      "key": "storage_rate",
+      "review_question": "Do all rate terms share consistent units?",
+      "status": "active",
+      "units_or_domain": "resource_units_per_time"
+    },
+    {
+      "component_type": "initial_condition",
+      "dynamic_risk_score": 6.0,
+      "expression": "S(0) = S0",
+      "interpretation": "Initial system state",
+      "key": "initial_storage",
+      "review_question": "How was the initial state measured?",
+      "status": "review",
+      "units_or_domain": "0 <= S0 <= K"
+    },
+    {
+      "component_type": "boundary_condition",
+      "dynamic_risk_score": 7.0,
+      "expression": "S(t) >= 0",
+      "interpretation": "Storage cannot be negative",
+      "key": "nonnegativity_boundary",
+      "review_question": "How is the lower boundary enforced numerically?",
+      "status": "review",
+      "units_or_domain": "bounded_domain"
+    },
+    {
+      "component_type": "boundary_condition",
+      "dynamic_risk_score": 7.0,
+      "expression": "S(t) <= K",
+      "interpretation": "Storage cannot exceed capacity",
+      "key": "capacity_boundary",
+      "review_question": "Is capacity physical operational or assumed?",
+      "status": "review",
+      "units_or_domain": "bounded_domain"
+    },
+    {
+      "component_type": "numerical_setting",
+      "dynamic_risk_score": 5.0,
+      "expression": "dt",
+      "interpretation": "Integration time step",
+      "key": "time_step",
+      "review_question": "Do conclusions change under smaller dt?",
+      "status": "review",
+      "units_or_domain": "positive_time_increment"
+    }
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Baseline resource trajectory",
+      "domain_violations": 0,
+      "final_storage": 100.0,
+      "max_storage": 100.0,
+      "mean_rate_of_change": 0.57240875,
+      "mean_storage": 95.17275027,
+      "min_storage": 80.0,
+      "overflow_periods": 116,
+      "scenario": "baseline",
+      "shortage_periods": 0,
+      "total_overflow": 14.48762694,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Higher demand dynamic stress scenario",
+      "domain_violations": 0,
+      "final_storage": 0.0,
+      "max_storage": 80.0,
+      "mean_rate_of_change": -2.28963498,
+      "mean_storage": 19.30899892,
+      "min_storage": 0.0,
+      "overflow_periods": 0,
+      "scenario": "high_demand",
+      "shortage_periods": 116,
+      "total_overflow": 0.0,
+      "total_shortage": 57.95050777
+    },
+    {
+      "description": "Higher proportional loss scenario",
+      "domain_violations": 0,
+      "final_storage": 41.95418206,
+      "max_storage": 80.0,
+      "mean_rate_of_change": -0.63187129,
+      "mean_storage": 52.6374258,
+      "min_storage": 41.95418206,
+      "overflow_periods": 0,
+      "scenario": "high_loss",
+      "shortage_periods": 0,
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Tight capacity boundary scenario",
+      "domain_violations": 0,
+      "final_storage": 75.0,
+      "max_storage": 75.0,
+      "mean_rate_of_change": 0.87851566,
+      "mean_storage": 74.76562258,
+      "min_storage": 70.0,
+      "overflow_periods": 220,
+      "scenario": "tight_capacity",
+      "shortage_periods": 0,
+      "total_overflow": 47.93056859,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Coarser Euler time step comparison",
+      "domain_violations": 0,
+      "final_storage": 100.0,
+      "max_storage": 100.0,
+      "mean_rate_of_change": 0.57297283,
+      "mean_storage": 95.1351448,
+      "min_storage": 80.0,
+      "overflow_periods": 30,
+      "scenario": "coarse_step_baseline",
+      "shortage_periods": 0,
+      "total_overflow": 14.95134251,
+      "total_shortage": 0.0
+    }
+  ]
+}

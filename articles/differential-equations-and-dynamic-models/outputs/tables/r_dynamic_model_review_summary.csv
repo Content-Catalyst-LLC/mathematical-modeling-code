@@ -1,0 +1,6 @@
+"scenario","final_storage","mean_storage","min_storage","max_storage","mean_rate_of_change","shortage_periods","overflow_periods","domain_violations","total_shortage","total_overflow","description","dynamic_review"
+"baseline",100,95.17275027,80,100,0.57240875,0,116,0,0,14.48762694,"Baseline resource trajectory","boundary or stress behavior active"
+"high_demand",0,19.30899892,0,80,-2.28963498,116,0,0,57.95050777,0,"Higher demand dynamic stress scenario","boundary or stress behavior active"
+"high_loss",41.95418206,52.6374258,41.95418206,80,-0.63187129,0,0,0,0,0,"Higher proportional loss scenario","trajectory stable under scenario"
+"tight_capacity",75,74.76562258,70,75,0.87851566,0,220,0,0,47.93056859,"Tight capacity boundary scenario","boundary or stress behavior active"
+"coarse_step_baseline",100,95.1351448,80,100,0.57297283,0,30,0,0,14.95134251,"Coarser Euler time step comparison","boundary or stress behavior active"

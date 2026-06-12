@@ -1,0 +1,7 @@
+"key","component_type","expression","interpretation","units_or_domain","review_question","status","dynamic_risk_score","priority"
+"storage","state_variable","S(t)","Current resource storage","resource_units","Is storage directly observed and bounded?","active",1,"low"
+"storage_rate","rate_equation","dS/dt = I - D - lambda*S","Storage changes through inflow demand and proportional loss","resource_units_per_time","Do all rate terms share consistent units?","active",3,"low"
+"initial_storage","initial_condition","S(0) = S0","Initial system state","0 <= S0 <= K","How was the initial state measured?","review",6,"medium"
+"nonnegativity_boundary","boundary_condition","S(t) >= 0","Storage cannot be negative","bounded_domain","How is the lower boundary enforced numerically?","review",7,"medium"
+"capacity_boundary","boundary_condition","S(t) <= K","Storage cannot exceed capacity","bounded_domain","Is capacity physical operational or assumed?","review",7,"medium"
+"time_step","numerical_setting","dt","Integration time step","positive_time_increment","Do conclusions change under smaller dt?","review",5,"low"

@@ -1,0 +1,6 @@
+scenario,initial_storage,capacity,inflow_rate,demand_rate,loss_rate,dt,horizon,description
+baseline,80,100,8,6,0.015,0.25,60,Baseline resource trajectory
+high_demand,80,100,8,10,0.015,0.25,60,Higher demand dynamic stress scenario
+high_loss,80,100,8,6,0.050,0.25,60,Higher proportional loss scenario
+tight_capacity,70,75,8,6,0.015,0.25,60,Tight capacity boundary scenario
+coarse_step_baseline,80,100,8,6,0.015,1.00,60,Coarser Euler time step comparison

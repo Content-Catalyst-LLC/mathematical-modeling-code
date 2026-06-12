@@ -1,0 +1,19 @@
+actual_title: "Differential Equations and Dynamic Models"
+suggested_seo_title: "Differential Equations and Dynamic Models in Mathematical Modeling"
+focus_keyword: "differential equations and dynamic models"
+slug: "differential-equations-and-dynamic-models"
+series: "Mathematical Modeling"
+article_order:
+  previous: "algebraic-models-and-static-relationships"
+  current: "differential-equations-and-dynamic-models"
+  next: "discrete-models-and-recurrence-relations"
+tags:
+  - Mathematical Modeling
+  - Differential Equations
+  - Dynamic Models
+  - Dynamical Systems
+  - Model Design
+  - Applied Mathematics
+  - Numerical Methods
+  - Model Validation
+excerpt_139_words: "Differential equations and dynamic models describe systems whose behavior changes continuously over time. Instead of connecting variables only within a static snapshot, they represent rates of change, feedback, accumulation, decay, growth, oscillation, equilibrium, and response to inputs. This article explains how differential equations translate dynamic reasoning into mathematical form, why derivatives express change, and how state variables evolve through time. It distinguishes ordinary and partial differential equations, autonomous and nonautonomous systems, linear and nonlinear dynamics, deterministic and stochastic extensions, and analytical and numerical solution methods. The article also examines initial conditions, parameters, units, stability, sensitivity, calibration, validation, and uncertainty. By treating differential equations as structured claims about how systems change, modelers can use dynamic models responsibly across physics, biology, engineering, economics, ecology, public health, policy, infrastructure, and complex systems where time, feedback, and accumulation matter for real decisions today."

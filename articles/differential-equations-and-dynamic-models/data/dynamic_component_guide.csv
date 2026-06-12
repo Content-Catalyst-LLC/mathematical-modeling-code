@@ -1,0 +1,8 @@
+component_type,meaning,example,review_question
+state_variable,Quantity that changes through time,S(t),What system condition is tracked?
+rate_equation,Equation for change,dS/dt = I - D - lambda*S,What mechanism creates the rate?
+initial_condition,Starting state,S(0) = S0,How was the starting state measured?
+boundary_condition,Limit on state,0 <= S <= K,How are boundaries enforced?
+parameter,Value shaping dynamics,lambda,Is it calibrated estimated or assumed?
+numerical_setting,Computation choice,dt,Does solver choice affect conclusions?
+output_diagnostic,Derived result,shortage periods,Does output describe behavior not just endpoint?

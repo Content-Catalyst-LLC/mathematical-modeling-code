@@ -1,0 +1,30 @@
+{
+  "article_slug": "differential-equations-and-dynamic-models",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "dynamic-model-governance",
+  "cards": [
+    {
+      "card_id": "dynamic-model-register",
+      "title": "Dynamic Model Register",
+      "description": "Tracks state variables, rate equations, initial conditions, boundary conditions, parameters, solver settings, and output diagnostics."
+    },
+    {
+      "card_id": "trajectory-diagnostics",
+      "title": "Trajectory Diagnostics",
+      "description": "Compares storage trajectories, rate behavior, shortage, overflow, and domain validity across dynamic scenarios."
+    },
+    {
+      "card_id": "solver-review",
+      "title": "Numerical Solver Review",
+      "description": "Documents time step, boundary enforcement, and sensitivity of dynamic conclusions to numerical settings."
+    }
+  ],
+  "governance": {
+    "requires_dynamic_model_register": true,
+    "requires_initial_condition_review": true,
+    "requires_boundary_condition_review": true,
+    "requires_time_step_review": true,
+    "requires_trajectory_diagnostics": true,
+    "requires_dynamic_use_limit_note": true
+  }
+}
