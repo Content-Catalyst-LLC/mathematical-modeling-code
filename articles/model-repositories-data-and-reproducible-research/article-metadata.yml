@@ -1,0 +1,19 @@
+actual_title: "Model Repositories, Data, and Reproducible Research"
+suggested_seo_title: "Model Repositories, Data, and Reproducible Research in Mathematical Modeling"
+focus_keyword: "model repositories data and reproducible research"
+slug: "model-repositories-data-and-reproducible-research"
+series: "Mathematical Modeling"
+article_order:
+  previous: "scientific-computing-for-modeling-workflows"
+  current: "model-repositories-data-and-reproducible-research"
+  next: "calibration-estimation-and-parameter-fitting"
+tags:
+  - Mathematical Modeling
+  - Reproducible Research
+  - Model Repositories
+  - Research Data
+  - Scientific Computing
+  - Data Provenance
+  - Model Validation
+  - Decision Support
+excerpt_139_words: "Model repositories, data, and reproducible research turn mathematical modeling into a transparent, inspectable, and reusable practice. A model is not fully reproducible when equations, code, data, parameters, environments, outputs, and documentation are scattered or incomplete. This article explains how model repositories organize computational research through structured folders, version control, README files, metadata, schemas, data provenance, licenses, run scripts, notebooks, tests, outputs, logs, validation records, and archival identifiers. It examines repository design, raw and processed data, synthetic data, sensitive-data limits, dependency management, reproducible environments, workflow automation, model cards, governance files, citation, and long-term preservation. It also shows why reproducible research is not only a technical ideal: it is an accountability practice. Used responsibly, model repositories help analysts rerun results, inspect assumptions, validate claims, share methods, preserve evidence, and improve modeling work across research, engineering, policy, sustainability, education, and complex systems."

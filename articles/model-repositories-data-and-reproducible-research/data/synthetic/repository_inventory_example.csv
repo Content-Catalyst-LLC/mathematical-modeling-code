@@ -1,0 +1,8 @@
+artifact,path,exists,required,review_status
+README,README.md,true,true,present
+metadata,article-metadata.yml,true,true,present
+Makefile,Makefile,true,true,present
+data folder,data,true,true,present
+model card,outputs/json/model_repository_card.json,true,true,present
+LICENSE,LICENSE,false,false,missing_optional
+CITATION,CITATION.cff,false,false,missing_optional

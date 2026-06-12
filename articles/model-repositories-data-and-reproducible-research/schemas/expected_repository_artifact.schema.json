@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExpectedRepositoryArtifact",
+  "type": "object",
+  "required": [
+    "artifact",
+    "path",
+    "required",
+    "purpose"
+  ],
+  "properties": {
+    "artifact": {"type": "string"},
+    "path": {"type": "string"},
+    "required": {"type": "boolean"},
+    "purpose": {"type": "string"}
+  }
+}

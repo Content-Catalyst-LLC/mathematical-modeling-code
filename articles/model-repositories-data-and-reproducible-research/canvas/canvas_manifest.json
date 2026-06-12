@@ -1,0 +1,31 @@
+{
+  "article_slug": "model-repositories-data-and-reproducible-research",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "repository-reproducibility-governance",
+  "cards": [
+    {
+      "card_id": "repository-audit-register",
+      "title": "Repository Audit Register",
+      "description": "Tracks documentation, data, code, metadata, reproducibility, validation, governance, and licensing records."
+    },
+    {
+      "card_id": "artifact-inventory",
+      "title": "Artifact Inventory",
+      "description": "Checks expected repository artifacts and classifies required, optional, present, and missing materials."
+    },
+    {
+      "card_id": "reproducibility-manifest",
+      "title": "Reproducibility Manifest",
+      "description": "Records repository context, artifacts, missing required files, and audit metadata for reproducible research."
+    }
+  ],
+  "governance": {
+    "requires_readme": true,
+    "requires_metadata": true,
+    "requires_data_provenance": true,
+    "requires_run_manifest": true,
+    "requires_model_card": true,
+    "requires_license_or_reuse_note": true,
+    "requires_validation_record": true
+  }
+}

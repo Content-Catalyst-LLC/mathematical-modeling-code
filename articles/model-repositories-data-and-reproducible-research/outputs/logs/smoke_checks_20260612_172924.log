@@ -1,0 +1,75 @@
+
+[1;34m[17:29:25][0m Python workflow
+Repository reproducibility audit complete.
+Repository records: 7
+Expected artifacts: 12
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[17:29:26][0m R workflow
+null device 
+          1 
+  required_artifact presence_rate
+1             FALSE             1
+2              TRUE             1
+                key repository_layer                          artifact
+1            readme    documentation                         README.md
+2          metadata         metadata              article-metadata.yml
+3   data_provenance             data data_provenance_notes_and_schemas
+4      run_manifest  reproducibility     reproducibility_manifest.json
+5        model_card       governance        model_repository_card.json
+6      license_note        licensing           license_and_reuse_notes
+7 validation_record       validation       test_and_diagnostic_outputs
+                                              modeling_role
+1 Explains project purpose structure setup and run commands
+2         Records title slug focus keyword tags and excerpt
+3    Documents data sources transformations and constraints
+4               Records execution context and output hashes
+5  Summarizes purpose assumptions validation and use limits
+6    Clarifies reuse rights for code data and documentation
+7                Preserves checks that support model claims
+                                       review_question status
+1 Can a new analyst understand and run the repository? review
+2      Is repository metadata complete and consistent? active
+3               Can inputs be traced to their sources? review
+4              Can outputs be regenerated and checked? active
+5                 Are intended use and limits visible? review
+6             Are reuse rights and restrictions clear? review
+7  Do validation artifacts support the claimed result? review
+  repository_risk_score priority
+1                     5      low
+2                     3      low
+3                     7   medium
+4                     2      low
+5                     6   medium
+6                     6   medium
+7                     5      low
+
+[1;34m[17:29:26][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/model_repositories_reproducible_research.sqlite < sql/schema.sql
+sqlite3 outputs/tables/model_repositories_reproducible_research.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[17:29:26][0m Go workflow
+cd go && go run main.go
+artifact,path,required,exists
+README,README.md,true,false
+metadata,article-metadata.yml,true,false
+Makefile,Makefile,true,false
+data folder,data,true,false
+docs folder,docs,true,false
+schemas folder,schemas,false,false
+canvas manifest,canvas/canvas_manifest.json,false,false
+
+[1;34m[17:29:27][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 repository_inventory_summary.cpp -o repository_inventory_summary
+./repository_inventory_summary > ../outputs/tables/cpp_repository_inventory_summary.csv
+
+[1;34m[17:29:28][0m Fortran workflow
+gfortran -O2 fortran/repository_inventory_summary.f90 -o outputs/repository_inventory_summary_fortran
+./outputs/repository_inventory_summary_fortran > outputs/tables/fortran_repository_inventory_summary.txt
+
+[1;34m[17:29:29][0m C workflow
+cc -O2 -std=c11 c/repository_inventory_summary.c -o outputs/repository_inventory_summary_c
+./outputs/repository_inventory_summary_c > outputs/tables/c_repository_inventory_summary.csv 2> outputs/logs/c_repository_inventory_summary_stderr.log

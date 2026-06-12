@@ -1,0 +1,62 @@
+section          
+-----------------
+REPOSITORY LAYERS
+repository_layer  description                                                   typical_failure                                 
+----------------  ------------------------------------------------------------  ------------------------------------------------
+code              Executable model and audit workflows.                         Model implementation is unavailable or unclear. 
+
+data              Raw, processed, synthetic, restricted, and metadata records.  Inputs cannot be traced or interpreted.         
+
+documentation     Project explanation, setup, use instructions, and method not  Users cannot understand or rerun the project.   
+                  es.                                                                                                           
+
+governance        Assumptions, intended use, limitations, and review status.    Model is reused beyond scope.                   
+
+licensing         Rights and restrictions for code, data, and documentation.    Reuse is legally or ethically ambiguous.        
+
+metadata          Title, version, citation, tags, schema, and context.          Repository cannot be cited or cataloged.        
+
+reproducibility   Run commands, environments, outputs, hashes, and manifests.   Results cannot be regenerated.                  
+
+validation        Tests, diagnostics, and model assessment records.             Successful execution is mistaken for validation.
+section                            
+-----------------------------------
+REPOSITORY RECORDS REQUIRING REVIEW
+record_key         repository_layer  artifact                           review_question                                     
+-----------------  ----------------  ---------------------------------  ----------------------------------------------------
+readme             documentation     README.md                          Can a new analyst understand and run the repository?
+data_provenance    data              data_provenance_notes_and_schemas  Can inputs be traced to their sources?              
+model_card         governance        model_repository_card.json         Are intended use and limits visible?                
+license_note       licensing         license_and_reuse_notes            Are reuse rights and restrictions clear?            
+validation_record  validation        test_and_diagnostic_outputs        Do validation artifacts support the claimed result? 
+section                    
+---------------------------
+EXPECTED REQUIRED ARTIFACTS
+artifact        path                  purpose                               
+--------------  --------------------  --------------------------------------
+Makefile        Makefile              Repeatable workflow targets           
+Python package  python                Executable model and audit code       
+README          README.md             Project overview and run instructions 
+data folder     data                  Data metadata and scenario files      
+docs folder     docs                  Documentation and governance notes    
+metadata        article-metadata.yml  Article and repository metadata       
+outputs folder  outputs               Generated tables figures JSON and logs
+section                     
+----------------------------
+ARTIFACT REQUIREMENT SUMMARY
+required  artifact_count
+--------  --------------
+1         7             
+0         4             
+section                       
+------------------------------
+REPOSITORY GOVERNANCE COVERAGE
+repository_layer  record_count
+----------------  ------------
+data              1           
+documentation     1           
+governance        1           
+licensing         1           
+metadata          1           
+reproducibility   1           
+validation        1           

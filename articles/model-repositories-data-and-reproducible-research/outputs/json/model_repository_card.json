@@ -1,0 +1,15 @@
+{
+  "article": "Model Repositories, Data, and Reproducible Research",
+  "audit_checks": [
+    "README and metadata are present",
+    "data and documentation folders are present",
+    "workflow targets are defined",
+    "artifact inventory is generated",
+    "reproducibility manifest is written"
+  ],
+  "data_note": "Synthetic and example data are used for public demonstration.",
+  "intended_use": "Educational and analytical workflow governance.",
+  "model_repository_purpose": "Demonstrate reproducible model repository design.",
+  "not_for": "Direct operational decisions without domain-specific validation.",
+  "reuse_note": "Code examples are educational; data and documentation reuse should respect project-specific licenses."
+}

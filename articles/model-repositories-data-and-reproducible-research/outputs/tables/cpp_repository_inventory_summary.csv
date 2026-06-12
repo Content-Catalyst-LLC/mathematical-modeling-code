@@ -1,0 +1,8 @@
+artifact,path,required,exists
+README,README.md,true,false
+metadata,article-metadata.yml,true,false
+Makefile,Makefile,true,true
+data folder,data,true,false
+docs folder,docs,true,false
+schemas folder,schemas,false,false
+canvas manifest,canvas/canvas_manifest.json,false,false

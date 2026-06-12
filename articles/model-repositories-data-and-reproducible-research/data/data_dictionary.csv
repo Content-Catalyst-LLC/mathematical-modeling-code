@@ -1,0 +1,7 @@
+field,type,description,unit_or_scale,required
+artifact,string,Repository artifact label,n/a,true
+path,string,Relative path to expected artifact,n/a,true
+required,boolean,Whether artifact is required for minimum reproducibility,true_false,true
+purpose,string,Reason artifact belongs in repository,n/a,true
+repository_layer,string,Documentation data code metadata reproducibility validation governance or licensing,n/a,true
+status,string,Record status active review revise or archive,n/a,true

@@ -1,0 +1,8 @@
+"key","repository_layer","artifact","modeling_role","review_question","status","repository_risk_score","priority"
+"readme","documentation","README.md","Explains project purpose structure setup and run commands","Can a new analyst understand and run the repository?","review",5,"low"
+"metadata","metadata","article-metadata.yml","Records title slug focus keyword tags and excerpt","Is repository metadata complete and consistent?","active",3,"low"
+"data_provenance","data","data_provenance_notes_and_schemas","Documents data sources transformations and constraints","Can inputs be traced to their sources?","review",7,"medium"
+"run_manifest","reproducibility","reproducibility_manifest.json","Records execution context and output hashes","Can outputs be regenerated and checked?","active",2,"low"
+"model_card","governance","model_repository_card.json","Summarizes purpose assumptions validation and use limits","Are intended use and limits visible?","review",6,"medium"
+"license_note","licensing","license_and_reuse_notes","Clarifies reuse rights for code data and documentation","Are reuse rights and restrictions clear?","review",6,"medium"
+"validation_record","validation","test_and_diagnostic_outputs","Preserves checks that support model claims","Do validation artifacts support the claimed result?","review",5,"low"

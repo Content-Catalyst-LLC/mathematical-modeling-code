@@ -1,0 +1,207 @@
+{
+  "article": "Model Repositories, Data, and Reproducible Research",
+  "artifact_inventory": [
+    {
+      "artifact": "README",
+      "exists": true,
+      "is_dir": false,
+      "is_file": true,
+      "path": "README.md",
+      "purpose": "Project overview and run instructions",
+      "required": true,
+      "review_status": "present",
+      "sha256": "7928a5a7eb1feec1c1595f8fcd04da7e69795603ffdb3c3ff7dd1495e831bff3"
+    },
+    {
+      "artifact": "metadata",
+      "exists": true,
+      "is_dir": false,
+      "is_file": true,
+      "path": "article-metadata.yml",
+      "purpose": "Article and repository metadata",
+      "required": true,
+      "review_status": "present",
+      "sha256": "abffb37ee600aef7cfca66415d726dc58634791658f0bc05a779fa4b0bd61e56"
+    },
+    {
+      "artifact": "Makefile",
+      "exists": true,
+      "is_dir": false,
+      "is_file": true,
+      "path": "Makefile",
+      "purpose": "Repeatable workflow targets",
+      "required": true,
+      "review_status": "present",
+      "sha256": "abb852df5bcaa432cff1a1236be8c63a1b54ae62d4b0295e0920ad6c5447b433"
+    },
+    {
+      "artifact": "Python package",
+      "exists": true,
+      "is_dir": true,
+      "is_file": false,
+      "path": "python",
+      "purpose": "Executable model and audit code",
+      "required": true,
+      "review_status": "present",
+      "sha256": "not_applicable"
+    },
+    {
+      "artifact": "R workflow",
+      "exists": true,
+      "is_dir": true,
+      "is_file": false,
+      "path": "r",
+      "purpose": "Independent review workflow",
+      "required": false,
+      "review_status": "present",
+      "sha256": "not_applicable"
+    },
+    {
+      "artifact": "SQL schema",
+      "exists": true,
+      "is_dir": false,
+      "is_file": true,
+      "path": "sql/schema.sql",
+      "purpose": "Structured governance tables",
+      "required": false,
+      "review_status": "present",
+      "sha256": "742b8624b096f9ae0ff20fd50ab49e292571f5bd5fe8310ea46398d39f1e8423"
+    },
+    {
+      "artifact": "data folder",
+      "exists": true,
+      "is_dir": true,
+      "is_file": false,
+      "path": "data",
+      "purpose": "Data metadata and scenario files",
+      "required": true,
+      "review_status": "present",
+      "sha256": "not_applicable"
+    },
+    {
+      "artifact": "docs folder",
+      "exists": true,
+      "is_dir": true,
+      "is_file": false,
+      "path": "docs",
+      "purpose": "Documentation and governance notes",
+      "required": true,
+      "review_status": "present",
+      "sha256": "not_applicable"
+    },
+    {
+      "artifact": "outputs folder",
+      "exists": true,
+      "is_dir": true,
+      "is_file": false,
+      "path": "outputs",
+      "purpose": "Generated tables figures JSON and logs",
+      "required": true,
+      "review_status": "present",
+      "sha256": "not_applicable"
+    },
+    {
+      "artifact": "schemas folder",
+      "exists": true,
+      "is_dir": true,
+      "is_file": false,
+      "path": "schemas",
+      "purpose": "Machine-readable validation schemas",
+      "required": false,
+      "review_status": "present",
+      "sha256": "not_applicable"
+    },
+    {
+      "artifact": "canvas manifest",
+      "exists": true,
+      "is_dir": false,
+      "is_file": true,
+      "path": "canvas/canvas_manifest.json",
+      "purpose": "Catalyst Canvas governance metadata",
+      "required": false,
+      "review_status": "present",
+      "sha256": "ca7193bb05fe7856d05eeea1b8c953761f43ee02c4e076044ab0b2fa893389c9"
+    },
+    {
+      "artifact": "citation note",
+      "exists": true,
+      "is_dir": false,
+      "is_file": true,
+      "path": "docs/licensing-citation-and-reuse.md",
+      "purpose": "Citation licensing and reuse guidance",
+      "required": true,
+      "review_status": "present",
+      "sha256": "69f91ace846a4a723faf846338b09c9c7ab972c6caceb246814345fc4bd24728"
+    }
+  ],
+  "audit_register": [
+    {
+      "artifact": "README.md",
+      "key": "readme",
+      "modeling_role": "Explains project purpose structure setup and run commands",
+      "repository_layer": "documentation",
+      "repository_risk_score": 5.0,
+      "review_question": "Can a new analyst understand and run the repository?",
+      "status": "review"
+    },
+    {
+      "artifact": "article-metadata.yml",
+      "key": "metadata",
+      "modeling_role": "Records title slug focus keyword tags and excerpt",
+      "repository_layer": "metadata",
+      "repository_risk_score": 3.0,
+      "review_question": "Is repository metadata complete and consistent?",
+      "status": "active"
+    },
+    {
+      "artifact": "data_provenance_notes_and_schemas",
+      "key": "data_provenance",
+      "modeling_role": "Documents data sources transformations and constraints",
+      "repository_layer": "data",
+      "repository_risk_score": 7.0,
+      "review_question": "Can inputs be traced to their sources?",
+      "status": "review"
+    },
+    {
+      "artifact": "reproducibility_manifest.json",
+      "key": "run_manifest",
+      "modeling_role": "Records execution context and output hashes",
+      "repository_layer": "reproducibility",
+      "repository_risk_score": 2.0,
+      "review_question": "Can outputs be regenerated and checked?",
+      "status": "active"
+    },
+    {
+      "artifact": "model_repository_card.json",
+      "key": "model_card",
+      "modeling_role": "Summarizes purpose assumptions validation and use limits",
+      "repository_layer": "governance",
+      "repository_risk_score": 6.0,
+      "review_question": "Are intended use and limits visible?",
+      "status": "review"
+    },
+    {
+      "artifact": "license_and_reuse_notes",
+      "key": "license_note",
+      "modeling_role": "Clarifies reuse rights for code data and documentation",
+      "repository_layer": "licensing",
+      "repository_risk_score": 6.0,
+      "review_question": "Are reuse rights and restrictions clear?",
+      "status": "review"
+    },
+    {
+      "artifact": "test_and_diagnostic_outputs",
+      "key": "validation_record",
+      "modeling_role": "Preserves checks that support model claims",
+      "repository_layer": "validation",
+      "repository_risk_score": 5.0,
+      "review_question": "Do validation artifacts support the claimed result?",
+      "status": "review"
+    }
+  ],
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "python_version": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "repository_root": "/Users/tariqahmad/Downloads/mathematical-modeling-code/articles/model-repositories-data-and-reproducible-research",
+  "required_artifacts_missing": [],
+  "run_timestamp_utc": "2026-06-12T22:29:26.106367+00:00"
+}

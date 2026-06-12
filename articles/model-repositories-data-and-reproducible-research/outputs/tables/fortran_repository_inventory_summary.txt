@@ -1,0 +1,8 @@
+artifact required note
+README true project_overview
+metadata true article_metadata
+Makefile true workflow_targets
+data_folder true data_and_metadata
+docs_folder true documentation
+schemas_folder false validation_schemas
+canvas_manifest false canvas_governance

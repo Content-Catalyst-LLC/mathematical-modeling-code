@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepositoryRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "repository_layer",
+    "artifact",
+    "modeling_role",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "repository_layer": {
+      "type": "string",
+      "enum": ["documentation", "data", "code", "metadata", "reproducibility", "validation", "governance", "licensing"]
+    },
+    "artifact": {"type": "string"},
+    "modeling_role": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

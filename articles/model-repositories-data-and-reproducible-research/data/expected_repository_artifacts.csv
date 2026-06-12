@@ -1,0 +1,13 @@
+artifact,path,required,purpose
+README,README.md,true,Project overview and run instructions
+metadata,article-metadata.yml,true,Article and repository metadata
+Makefile,Makefile,true,Repeatable workflow targets
+Python package,python,true,Executable model and audit code
+R workflow,r,false,Independent review workflow
+SQL schema,sql/schema.sql,false,Structured governance tables
+data folder,data,true,Data metadata and scenario files
+docs folder,docs,true,Documentation and governance notes
+outputs folder,outputs,true,Generated tables figures JSON and logs
+schemas folder,schemas,false,Machine-readable validation schemas
+canvas manifest,canvas/canvas_manifest.json,false,Catalyst Canvas governance metadata
+citation note,docs/licensing-citation-and-reuse.md,true,Citation licensing and reuse guidance
