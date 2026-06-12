@@ -1,0 +1,7 @@
+scenario,initial_stock,capacity,inflow,demand,loss_rate,periods,description
+baseline,80,100,8,6,0.015,60,Reference assumption-aware stock-flow scenario
+low_inflow,80,100,5,6,0.015,60,Lower inflow sensitivity scenario
+higher_losses,80,100,8,6,0.035,60,Higher loss-rate sensitivity scenario
+lower_capacity,70,75,8,6,0.015,60,Lower usable capacity scenario
+compound_stress,70,80,5,7,0.030,60,Combined low inflow higher demand higher losses and lower capacity
+high_demand,80,100,8,8,0.015,60,Higher demand scenario

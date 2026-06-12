@@ -1,0 +1,8 @@
+assumption_type,description,typical_test
+boundary,Defines what is inside or outside the model,Boundary critique and scenario expansion
+scale,Defines spatial temporal or organizational resolution,Resolution and time-step sensitivity
+functional_form,Defines mathematical relationship among variables,Alternative model forms and residual diagnostics
+parameter,Defines values that shape model behavior,Calibration uncertainty and parameter sweeps
+uncertainty,Defines what randomness or unknowns are represented,Monte Carlo uncertainty propagation
+computational,Defines solver algorithm and implementation choices,Verification convergence and regression tests
+interpretive,Defines how outputs map to decisions or claims,Decision-context and stakeholder review

@@ -1,0 +1,53 @@
+section         
+----------------
+ASSUMPTION TYPES
+assumption_type  description                                             typical_test                                     
+---------------  ------------------------------------------------------  -------------------------------------------------
+abstraction      Represents a complex target through a simpler object.   Compare aggregate and disaggregated models.      
+boundary         Defines what is inside or outside the model.            Boundary critique and scenario expansion.        
+computational    Defines solver algorithm and implementation choices.    Verification convergence and regression tests.   
+functional_form  Defines mathematical relationship among variables.      Alternative model forms and residual diagnostics.
+interpretive     Defines how outputs map to decisions or claims.         Decision-context and stakeholder review.         
+parameter        Defines values that shape model behavior.               Calibration uncertainty and parameter sweeps.    
+scale            Defines spatial temporal or organizational resolution.  Resolution and time-step sensitivity.            
+uncertainty      Defines what randomness or unknowns are represented.    Monte Carlo uncertainty propagation.             
+section                     
+----------------------------
+ASSUMPTIONS REQUIRING REVIEW
+assumption_key        assumption_type  risk_if_false                                                 sensitivity_test                                         
+--------------------  ---------------  ------------------------------------------------------------  ---------------------------------------------------------
+aggregate_stock       abstraction      Spatial subgroup or access differences may be hidden.         Compare aggregate and disaggregated versions.            
+
+deterministic_inflow  uncertainty      Shortage risk may be understated.                             Add low baseline and high inflow scenarios.              
+
+proportional_losses   functional_form  Losses may depend on temperature leakage season or surface a  Compare proportional and process-based losses.           
+                                       rea.                                                                                                                   
+
+shortage_proxy        interpretive     Severity duration and affected users may be hidden.           Compare shortage frequency severity and duration metrics.
+section                        
+-------------------------------
+HIGH PRIORITY SENSITIVITY TESTS
+assumption_key        test_name              low_case            high_case        
+--------------------  ---------------------  ------------------  -----------------
+deterministic_inflow  inflow sensitivity     low_inflow          baseline         
+proportional_losses   loss-rate sensitivity  baseline            higher_losses    
+shortage_proxy        metric comparison      shortage frequency  shortage severity
+section  
+---------
+SCENARIOS
+scenario         initial_stock  capacity  inflow  demand  loss_rate  periods
+---------------  -------------  --------  ------  ------  ---------  -------
+baseline         80.0           100.0     8.0     6.0     0.015      60     
+compound_stress  70.0           80.0      5.0     7.0     0.03       60     
+higher_losses    80.0           100.0     8.0     6.0     0.035      60     
+low_inflow       80.0           100.0     5.0     6.0     0.015      60     
+lower_capacity   70.0           75.0      8.0     6.0     0.015      60     
+section       
+--------------
+DESIGN RECORDS
+design_choice                   rationale                                                     limitation                                     revision_trigger                                       
+------------------------------  ------------------------------------------------------------  ---------------------------------------------  -------------------------------------------------------
+Use aggregate stock-flow model  Preserves accumulation and depletion while remaining transpa  May hide spatial and distributional effects.   Use disaggregated model if subgroup outcomes matter.   
+                                rent.                                                                                                                                                               
+
+Use deterministic scenarios     Keeps first model interpretable.                              Does not represent probabilistic uncertainty.  Add stochastic ensemble if risk estimation is required.

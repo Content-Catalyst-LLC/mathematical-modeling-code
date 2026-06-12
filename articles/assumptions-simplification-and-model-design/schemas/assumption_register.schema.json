@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModelAssumption",
+  "type": "object",
+  "required": [
+    "key",
+    "statement",
+    "assumption_type",
+    "role",
+    "risk_if_false",
+    "sensitivity_test",
+    "review_status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "statement": {"type": "string"},
+    "assumption_type": {
+      "type": "string",
+      "enum": ["abstraction", "boundary", "scale", "functional_form", "parameter", "uncertainty", "computational", "interpretive"]
+    },
+    "role": {"type": "string"},
+    "risk_if_false": {"type": "string"},
+    "sensitivity_test": {"type": "string"},
+    "review_status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

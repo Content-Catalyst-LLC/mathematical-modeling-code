@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResourceScenario",
+  "type": "object",
+  "required": ["scenario", "initial_stock", "capacity", "inflow", "demand", "loss_rate", "periods"],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_stock": {"type": "number", "minimum": 0},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "inflow": {"type": "number", "minimum": 0},
+    "demand": {"type": "number", "minimum": 0},
+    "loss_rate": {"type": "number", "minimum": 0},
+    "periods": {"type": "integer", "minimum": 1}
+  }
+}

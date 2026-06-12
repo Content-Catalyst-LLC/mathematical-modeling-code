@@ -1,0 +1,180 @@
+{
+  "article": "Assumptions, Simplification, and Model Design",
+  "assumptions": [
+    {
+      "assumption_risk_score": 9.25,
+      "assumption_type": "abstraction",
+      "key": "aggregate_stock",
+      "review_status": "review",
+      "risk_if_false": "Spatial subgroup or access differences may be hidden",
+      "role": "Keeps the first model interpretable",
+      "sensitivity_test": "Compare aggregate and disaggregated versions",
+      "statement": "The resource system is represented by one aggregate stock variable"
+    },
+    {
+      "assumption_risk_score": 3.5,
+      "assumption_type": "boundary",
+      "key": "fixed_capacity",
+      "review_status": "active",
+      "risk_if_false": "Operating rules or infrastructure changes may alter usable capacity",
+      "role": "Defines the upper stock constraint",
+      "sensitivity_test": "Compare lower and higher capacity scenarios",
+      "statement": "Capacity is fixed within each scenario"
+    },
+    {
+      "assumption_risk_score": 8.75,
+      "assumption_type": "uncertainty",
+      "key": "deterministic_inflow",
+      "review_status": "review",
+      "risk_if_false": "Shortage risk may be understated",
+      "role": "Keeps the demonstration deterministic",
+      "sensitivity_test": "Add low baseline and high inflow scenarios",
+      "statement": "Inflow is represented as a scenario value rather than a random process"
+    },
+    {
+      "assumption_risk_score": 8.0,
+      "assumption_type": "functional_form",
+      "key": "proportional_losses",
+      "review_status": "review",
+      "risk_if_false": "Losses may depend on temperature leakage season or surface area",
+      "role": "Provides a simple loss mechanism",
+      "sensitivity_test": "Compare proportional and process-based losses",
+      "statement": "Losses are proportional to current stock"
+    },
+    {
+      "assumption_risk_score": 9.5,
+      "assumption_type": "interpretive",
+      "key": "shortage_proxy",
+      "review_status": "review",
+      "risk_if_false": "Severity duration and affected users may be hidden",
+      "role": "Summarizes failure frequency",
+      "sensitivity_test": "Compare shortage frequency severity and duration metrics",
+      "statement": "Shortage periods are used as a risk metric"
+    }
+  ],
+  "formal_model": "S[t+1] = min(K, max(0, S[t] + I[t] - D[t] - L[t]))",
+  "high_priority_assumptions": [
+    {
+      "assumption_risk_score": 9.25,
+      "assumption_type": "abstraction",
+      "key": "aggregate_stock",
+      "review_status": "review",
+      "risk_if_false": "Spatial subgroup or access differences may be hidden",
+      "role": "Keeps the first model interpretable",
+      "sensitivity_test": "Compare aggregate and disaggregated versions",
+      "statement": "The resource system is represented by one aggregate stock variable"
+    },
+    {
+      "assumption_risk_score": 8.75,
+      "assumption_type": "uncertainty",
+      "key": "deterministic_inflow",
+      "review_status": "review",
+      "risk_if_false": "Shortage risk may be understated",
+      "role": "Keeps the demonstration deterministic",
+      "sensitivity_test": "Add low baseline and high inflow scenarios",
+      "statement": "Inflow is represented as a scenario value rather than a random process"
+    },
+    {
+      "assumption_risk_score": 8.0,
+      "assumption_type": "functional_form",
+      "key": "proportional_losses",
+      "review_status": "review",
+      "risk_if_false": "Losses may depend on temperature leakage season or surface area",
+      "role": "Provides a simple loss mechanism",
+      "sensitivity_test": "Compare proportional and process-based losses",
+      "statement": "Losses are proportional to current stock"
+    },
+    {
+      "assumption_risk_score": 9.5,
+      "assumption_type": "interpretive",
+      "key": "shortage_proxy",
+      "review_status": "review",
+      "risk_if_false": "Severity duration and affected users may be hidden",
+      "role": "Summarizes failure frequency",
+      "sensitivity_test": "Compare shortage frequency severity and duration metrics",
+      "statement": "Shortage periods are used as a risk metric"
+    }
+  ],
+  "model_design_purpose": "Demonstrate assumption-aware simplification and model design review.",
+  "revision_triggers": [
+    "high assumption risk score",
+    "shortage periods in stress scenarios",
+    "conclusion sensitive to low inflow",
+    "omitted heterogeneity affects intended use",
+    "validation evidence does not support design assumptions"
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Reference assumption-aware stock-flow scenario",
+      "final_stock": 100.0,
+      "max_stock": 100.0,
+      "mean_stock": 95.1351448,
+      "min_stock": 80.0,
+      "minimum_stock_margin": 0.8,
+      "scenario": "baseline",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Lower inflow sensitivity scenario",
+      "final_stock": 0.0,
+      "max_stock": 80.0,
+      "mean_stock": 30.41798383,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "scenario": "low_inflow",
+      "shortage_periods": 9,
+      "shortage_risk": 0.14754098,
+      "total_shortage": 8.8324552
+    },
+    {
+      "description": "Higher loss-rate sensitivity scenario",
+      "final_stock": 59.83849001,
+      "max_stock": 80.0,
+      "mean_stock": 66.63037805,
+      "min_stock": 59.83849001,
+      "minimum_stock_margin": 0.5983849,
+      "scenario": "higher_losses",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Lower usable capacity scenario",
+      "final_stock": 75.0,
+      "max_stock": 75.0,
+      "mean_stock": 74.73718339,
+      "min_stock": 70.0,
+      "minimum_stock_margin": 0.93333333,
+      "scenario": "lower_capacity",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Combined low inflow higher demand higher losses and lower capacity",
+      "final_stock": 0.0,
+      "max_stock": 70.0,
+      "mean_stock": 12.498896,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "scenario": "compound_stress",
+      "shortage_periods": 38,
+      "shortage_risk": 0.62295082,
+      "total_shortage": 74.87297967
+    },
+    {
+      "description": "Higher demand scenario",
+      "final_stock": 32.30455901,
+      "max_stock": 80.0,
+      "mean_stock": 52.65574795,
+      "min_stock": 32.30455901,
+      "minimum_stock_margin": 0.32304559,
+      "scenario": "high_demand",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    }
+  ]
+}

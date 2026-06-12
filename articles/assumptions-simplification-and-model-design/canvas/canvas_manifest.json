@@ -1,0 +1,29 @@
+{
+  "article_slug": "assumptions-simplification-and-model-design",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "assumption-aware-model-design",
+  "cards": [
+    {
+      "card_id": "assumption-register",
+      "title": "Assumption Register",
+      "description": "Tracks assumption type, role, risk if false, sensitivity test, and review status."
+    },
+    {
+      "card_id": "simplification-log",
+      "title": "Simplification Log",
+      "description": "Records what was omitted, aggregated, idealized, parameterized, or approximated."
+    },
+    {
+      "card_id": "design-review",
+      "title": "Model Design Review",
+      "description": "Links purpose, boundary, scale, functional form, assumptions, validation, and revision triggers."
+    }
+  ],
+  "governance": {
+    "requires_assumption_register": true,
+    "requires_simplification_log": true,
+    "requires_sensitivity_plan": true,
+    "requires_validation_plan": true,
+    "requires_revision_log": true
+  }
+}

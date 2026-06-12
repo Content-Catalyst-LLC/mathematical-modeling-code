@@ -1,0 +1,7 @@
+"scenario","final_stock","mean_stock","min_stock","max_stock","shortage_periods","total_shortage","shortage_risk","minimum_stock_margin","description","scenario_review"
+"baseline",100,95.1351448,80,100,0,0,0,0.8,"Reference assumption-aware stock-flow scenario","acceptable under stated assumptions"
+"low_inflow",0,30.41798383,0,80,9,8.8324552,0.14754098,0,"Lower inflow sensitivity scenario","requires review"
+"higher_losses",59.83849001,66.63037805,59.83849001,80,0,0,0,0.5983849,"Higher loss-rate sensitivity scenario","acceptable under stated assumptions"
+"lower_capacity",75,74.73718339,70,75,0,0,0,0.93333333,"Lower usable capacity scenario","acceptable under stated assumptions"
+"compound_stress",0,12.498896,0,70,38,74.87297967,0.62295082,0,"Combined low inflow higher demand higher losses and lower capacity","requires review"
+"high_demand",32.30455901,52.65574795,32.30455901,80,0,0,0,0.32304559,"Higher demand scenario","acceptable under stated assumptions"

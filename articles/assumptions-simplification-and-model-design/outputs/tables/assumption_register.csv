@@ -1,0 +1,6 @@
+key,statement,assumption_type,role,risk_if_false,sensitivity_test,review_status,assumption_risk_score
+aggregate_stock,The resource system is represented by one aggregate stock variable,abstraction,Keeps the first model interpretable,Spatial subgroup or access differences may be hidden,Compare aggregate and disaggregated versions,review,9.25
+fixed_capacity,Capacity is fixed within each scenario,boundary,Defines the upper stock constraint,Operating rules or infrastructure changes may alter usable capacity,Compare lower and higher capacity scenarios,active,3.5
+deterministic_inflow,Inflow is represented as a scenario value rather than a random process,uncertainty,Keeps the demonstration deterministic,Shortage risk may be understated,Add low baseline and high inflow scenarios,review,8.75
+proportional_losses,Losses are proportional to current stock,functional_form,Provides a simple loss mechanism,Losses may depend on temperature leakage season or surface area,Compare proportional and process-based losses,review,8.0
+shortage_proxy,Shortage periods are used as a risk metric,interpretive,Summarizes failure frequency,Severity duration and affected users may be hidden,Compare shortage frequency severity and duration metrics,review,9.5

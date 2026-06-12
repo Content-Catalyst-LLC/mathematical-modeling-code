@@ -1,0 +1,62 @@
+
+[1;34m[21:58:02][0m Python workflow
+Assumption-aware model design workflow complete.
+Assumptions: 5
+Scenarios: 6
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[21:58:02][0m R workflow
+null device 
+          1 
+         scenario final_stock mean_stock min_stock max_stock shortage_periods
+1        baseline   100.00000   95.13514  80.00000       100                0
+2      low_inflow     0.00000   30.41798   0.00000        80                9
+3   higher_losses    59.83849   66.63038  59.83849        80                0
+4  lower_capacity    75.00000   74.73718  70.00000        75                0
+5 compound_stress     0.00000   12.49890   0.00000        70               38
+6     high_demand    32.30456   52.65575  32.30456        80                0
+  total_shortage shortage_risk minimum_stock_margin
+1       0.000000     0.0000000            0.8000000
+2       8.832455     0.1475410            0.0000000
+3       0.000000     0.0000000            0.5983849
+4       0.000000     0.0000000            0.9333333
+5      74.872980     0.6229508            0.0000000
+6       0.000000     0.0000000            0.3230456
+                                                         description
+1                     Reference assumption-aware stock-flow scenario
+2                                  Lower inflow sensitivity scenario
+3                              Higher loss-rate sensitivity scenario
+4                                     Lower usable capacity scenario
+5 Combined low inflow higher demand higher losses and lower capacity
+6                                             Higher demand scenario
+                      scenario_review
+1 acceptable under stated assumptions
+2                     requires review
+3 acceptable under stated assumptions
+4 acceptable under stated assumptions
+5                     requires review
+6 acceptable under stated assumptions
+
+[1;34m[21:58:02][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/assumptions_model_design.sqlite < sql/schema.sql
+sqlite3 outputs/tables/assumptions_model_design.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[21:58:02][0m Go workflow
+cd go && go run main.go
+go_baseline final_stock=100.000 total_shortage=0.000
+go_compound_stress final_stock=0.000 total_shortage=74.873
+
+[1;34m[21:58:03][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 resource_model.cpp -o resource_model
+./resource_model > ../outputs/tables/cpp_resource_summary.txt
+
+[1;34m[21:58:04][0m Fortran workflow
+gfortran -O2 fortran/resource_model.f90 -o outputs/resource_model_fortran
+./outputs/resource_model_fortran > outputs/tables/fortran_resource_summary.txt
+
+[1;34m[21:58:05][0m C workflow
+cc -O2 -std=c11 c/resource_model.c -o outputs/resource_model_c
+./outputs/resource_model_c > outputs/tables/c_resource_summary.csv 2> outputs/logs/c_resource_stderr.log
