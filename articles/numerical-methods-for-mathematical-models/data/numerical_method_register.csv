@@ -1,0 +1,7 @@
+key,component_type,numerical_structure,interpretation,review_question,status
+euler_step,time_step_method,"R_next = R + h * f(R)",Euler stepping approximates continuous resource dynamics,Are results stable under smaller step sizes?,review
+step_size,discretization,"h in {1.0 0.5 0.25 0.1}",Step size controls time discretization,Does the conclusion depend on step size?,review
+convergence_diagnostic,convergence_diagnostic,compare_final_stock_across_h,Convergence is assessed by comparing refined approximations,Do results stabilize as h decreases?,active
+nonnegative_constraint,state_constraint,"R = max(0 R)",Resource stock is constrained to remain nonnegative,Does the constraint hide numerical overshoot?,review
+solver_status,validation_diagnostic,residual_and_known_case_checks,Diagnostic evidence supports numerical credibility,Are solver diagnostics preserved with outputs?,review
+method_comparison,stability_diagnostic,euler_vs_refined_euler,Alternative approximations should be compared,Does method choice materially affect the conclusion?,review

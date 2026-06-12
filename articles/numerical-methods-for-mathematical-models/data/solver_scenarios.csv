@@ -1,0 +1,5 @@
+scenario,initial_stock,growth_rate,carrying_capacity,extraction,horizon,step_size
+resource_dynamics,70.0,0.18,100.0,6.0,50.0,1.0
+resource_dynamics,70.0,0.18,100.0,6.0,50.0,0.5
+resource_dynamics,70.0,0.18,100.0,6.0,50.0,0.25
+resource_dynamics,70.0,0.18,100.0,6.0,50.0,0.1

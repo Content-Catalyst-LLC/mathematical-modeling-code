@@ -1,0 +1,129 @@
+{
+  "article": "Numerical Methods for Mathematical Models",
+  "audit_checks": [
+    "step size is documented",
+    "convergence is checked",
+    "state constraints are explicit",
+    "numerical approximation is separated from model claim",
+    "outputs include diagnostics"
+  ],
+  "convergence_summary": [
+    {
+      "absolute_difference_from_finest_step": 0.0,
+      "final_stock": 0.0,
+      "step_size": 0.1
+    },
+    {
+      "absolute_difference_from_finest_step": 0.0,
+      "final_stock": 0.0,
+      "step_size": 0.25
+    },
+    {
+      "absolute_difference_from_finest_step": 0.0,
+      "final_stock": 0.0,
+      "step_size": 0.5
+    },
+    {
+      "absolute_difference_from_finest_step": 0.0,
+      "final_stock": 0.0,
+      "step_size": 1.0
+    }
+  ],
+  "high_priority_numerical_records": [],
+  "method": "Euler time stepping",
+  "model_register": [
+    {
+      "component_type": "time_step_method",
+      "interpretation": "Euler stepping approximates continuous resource dynamics",
+      "key": "euler_step",
+      "numerical_risk_score": 6.0,
+      "numerical_structure": "R_next = R + h * f(R)",
+      "review_question": "Are results stable under smaller step sizes?",
+      "status": "review"
+    },
+    {
+      "component_type": "discretization",
+      "interpretation": "Step size controls time discretization",
+      "key": "step_size",
+      "numerical_risk_score": 7.0,
+      "numerical_structure": "h in {1.0 0.5 0.25 0.1}",
+      "review_question": "Does the conclusion depend on step size?",
+      "status": "review"
+    },
+    {
+      "component_type": "convergence_diagnostic",
+      "interpretation": "Convergence is assessed by comparing refined approximations",
+      "key": "convergence_diagnostic",
+      "numerical_risk_score": 2.0,
+      "numerical_structure": "compare_final_stock_across_h",
+      "review_question": "Do results stabilize as h decreases?",
+      "status": "active"
+    },
+    {
+      "component_type": "state_constraint",
+      "interpretation": "Resource stock is constrained to remain nonnegative",
+      "key": "nonnegative_constraint",
+      "numerical_risk_score": 6.0,
+      "numerical_structure": "R = max(0 R)",
+      "review_question": "Does the constraint hide numerical overshoot?",
+      "status": "review"
+    },
+    {
+      "component_type": "validation_diagnostic",
+      "interpretation": "Diagnostic evidence supports numerical credibility",
+      "key": "solver_status",
+      "numerical_risk_score": 6.0,
+      "numerical_structure": "residual_and_known_case_checks",
+      "review_question": "Are solver diagnostics preserved with outputs?",
+      "status": "review"
+    },
+    {
+      "component_type": "stability_diagnostic",
+      "interpretation": "Alternative approximations should be compared",
+      "key": "method_comparison",
+      "numerical_risk_score": 6.0,
+      "numerical_structure": "euler_vs_refined_euler",
+      "review_question": "Does method choice materially affect the conclusion?",
+      "status": "review"
+    }
+  ],
+  "scenario_count": 4,
+  "scenarios": [
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "horizon": 50.0,
+      "initial_stock": 70.0,
+      "scenario": "resource_dynamics",
+      "step_size": 1.0
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "horizon": 50.0,
+      "initial_stock": 70.0,
+      "scenario": "resource_dynamics",
+      "step_size": 0.5
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "horizon": 50.0,
+      "initial_stock": 70.0,
+      "scenario": "resource_dynamics",
+      "step_size": 0.25
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "horizon": 50.0,
+      "initial_stock": 70.0,
+      "scenario": "resource_dynamics",
+      "step_size": 0.1
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+
+[1;34m[16:56:13][0m Python workflow
+Numerical methods workflow complete.
+Numerical records: 6
+Solver scenarios: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[16:56:13][0m R workflow
+null device 
+          1 
+  step_size final_stock absolute_difference_from_finest_step
+1      0.10           0                                    0
+2      0.25           0                                    0
+3      0.50           0                                    0
+4      1.00           0                                    0
+                review_class
+1 routine convergence review
+2 routine convergence review
+3 routine convergence review
+4 routine convergence review
+
+[1;34m[16:56:13][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/numerical_methods_for_mathematical_models.sqlite < sql/schema.sql
+sqlite3 outputs/tables/numerical_methods_for_mathematical_models.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[16:56:13][0m Go workflow
+cd go && go run main.go
+h=1.000 final_stock=0.000000 difference_from_finest=0.000000
+h=0.500 final_stock=0.000000 difference_from_finest=0.000000
+h=0.250 final_stock=0.000000 difference_from_finest=0.000000
+h=0.100 final_stock=0.000000 difference_from_finest=0.000000
+
+[1;34m[16:56:14][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 euler_resource_model.cpp -o euler_resource_model
+./euler_resource_model > ../outputs/tables/cpp_euler_convergence_summary.csv
+
+[1;34m[16:56:15][0m Fortran workflow
+gfortran -O2 fortran/euler_resource_model.f90 -o outputs/euler_resource_model_fortran
+./outputs/euler_resource_model_fortran > outputs/tables/fortran_euler_resource_trajectory.txt
+
+[1;34m[16:56:16][0m C workflow
+cc -O2 -std=c11 c/euler_resource_model.c -o outputs/euler_resource_model_c
+./outputs/euler_resource_model_c > outputs/tables/c_euler_resource_trajectory.csv 2> outputs/logs/c_euler_resource_stderr.log

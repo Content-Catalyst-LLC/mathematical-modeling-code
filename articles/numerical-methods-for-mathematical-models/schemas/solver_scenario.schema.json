@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SolverScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "initial_stock",
+    "growth_rate",
+    "carrying_capacity",
+    "extraction",
+    "horizon",
+    "step_size"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_stock": {"type": "number", "minimum": 0},
+    "growth_rate": {"type": "number", "minimum": 0},
+    "carrying_capacity": {"type": "number", "exclusiveMinimum": 0},
+    "extraction": {"type": "number", "minimum": 0},
+    "horizon": {"type": "number", "exclusiveMinimum": 0},
+    "step_size": {"type": "number", "exclusiveMinimum": 0}
+  }
+}

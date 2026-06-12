@@ -1,0 +1,8 @@
+component_type,meaning,example,review_question
+time_step_method,Algorithm for advancing state,Euler method,Is the method suitable?
+discretization,Finite representation of time or space,step size h,Are results sensitive to resolution?
+solver_tolerance,Stopping or accuracy threshold,residual tolerance,Is tolerance tight enough?
+convergence_diagnostic,Evidence that refinement stabilizes results,step-size comparison,Do outputs converge?
+stability_diagnostic,Evidence that errors do not explode,perturbation test,Is the method stable?
+state_constraint,Allowed state domain,R nonnegative,Does constraint hide numerical artifacts?
+validation_diagnostic,Credibility check,known-case comparison,Is output valid for intended use?

@@ -1,0 +1,30 @@
+{
+  "article_slug": "numerical-methods-for-mathematical-models",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "numerical-method-governance",
+  "cards": [
+    {
+      "card_id": "numerical-method-register",
+      "title": "Numerical Method Register",
+      "description": "Tracks time-step methods, discretization, solver tolerances, convergence diagnostics, stability diagnostics, state constraints, and validation diagnostics."
+    },
+    {
+      "card_id": "convergence-review",
+      "title": "Convergence Review",
+      "description": "Compares approximations across step sizes and records whether results stabilize under refinement."
+    },
+    {
+      "card_id": "approximation-risk",
+      "title": "Approximation Risk",
+      "description": "Connects numerical settings, method choice, state constraints, and diagnostic evidence to responsible interpretation."
+    }
+  ],
+  "governance": {
+    "requires_numerical_method_register": true,
+    "requires_step_size_note": true,
+    "requires_convergence_diagnostics": true,
+    "requires_stability_review": true,
+    "requires_solver_settings": true,
+    "requires_use_limit_statement": true
+  }
+}

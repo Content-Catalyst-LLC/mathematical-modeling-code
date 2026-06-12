@@ -1,0 +1,52 @@
+section                  
+-------------------------
+NUMERICAL COMPONENT TYPES
+component_type          description                                   typical_failure                                      
+----------------------  --------------------------------------------  -----------------------------------------------------
+convergence_diagnostic  Evidence that refinement stabilizes results.  Convergence is assumed but not checked.              
+discretization          Finite representation of time or space.       Results depend on hidden resolution choices.         
+solver_tolerance        Stopping or accuracy threshold.               Tolerance is too loose for intended use.             
+stability_diagnostic    Evidence that errors do not explode.          Numerical instability is mistaken for model behavior.
+state_constraint        Allowed state domain.                         Constraints hide numerical overshoot.                
+time_step_method        Algorithm for advancing state.                Method is unsuitable for the model.                  
+validation_diagnostic   Credibility check.                            Numerical accuracy is confused with model validity.  
+section                           
+----------------------------------
+NUMERICAL RECORDS REQUIRING REVIEW
+record_key              component_type         numerical_structure             review_question                                     
+----------------------  ---------------------  ------------------------------  ----------------------------------------------------
+euler_step              time_step_method       R_next = R + h * f(R)           Are results stable under smaller step sizes?        
+step_size               discretization         h in {1.0 0.5 0.25 0.1}         Does the conclusion depend on step size?            
+nonnegative_constraint  state_constraint       R = max(0 R)                    Does the constraint hide numerical overshoot?       
+solver_status           validation_diagnostic  residual_and_known_case_checks  Are solver diagnostics preserved with outputs?      
+method_comparison       stability_diagnostic   euler_vs_refined_euler          Does method choice materially affect the conclusion?
+section         
+----------------
+SOLVER SCENARIOS
+scenario           initial_stock  growth_rate  carrying_capacity  extraction  horizon  step_size
+-----------------  -------------  -----------  -----------------  ----------  -------  ---------
+resource_dynamics  70.0           0.18         100.0              6.0         50.0     1.0      
+resource_dynamics  70.0           0.18         100.0              6.0         50.0     0.5      
+resource_dynamics  70.0           0.18         100.0              6.0         50.0     0.25     
+resource_dynamics  70.0           0.18         100.0              6.0         50.0     0.1      
+section             
+--------------------
+DISCRETIZATION CHECK
+scenario           step_size  implied_steps  extraction_to_capacity_ratio
+-----------------  ---------  -------------  ----------------------------
+resource_dynamics  1.0        50.0           0.06                        
+resource_dynamics  0.5        100.0          0.06                        
+resource_dynamics  0.25       200.0          0.06                        
+resource_dynamics  0.1        500.0          0.06                        
+section                  
+-------------------------
+NUMERICAL COMPONENT GUIDE
+component_type          meaning                                      example                review_question                          
+----------------------  -------------------------------------------  ---------------------  -----------------------------------------
+convergence_diagnostic  Evidence that refinement stabilizes results  step-size comparison   Do outputs converge?                     
+discretization          Finite representation of time or space       step size h            Are results sensitive to resolution?     
+solver_tolerance        Stopping or accuracy threshold               residual tolerance     Is tolerance tight enough?               
+stability_diagnostic    Evidence that errors do not explode          perturbation test      Is the method stable?                    
+state_constraint        Allowed state domain                         R nonnegative          Does constraint hide numerical artifacts?
+time_step_method        Algorithm for advancing state                Euler method           Is the method suitable?                  
+validation_diagnostic   Credibility check                            known-case comparison  Is output valid for intended use?        
