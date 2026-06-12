@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SimulationModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "component_type",
+    "computational_structure",
+    "interpretation",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "component_type": {
+      "type": "string",
+      "enum": ["state", "update_rule", "numerical_method", "scenario_definition", "stochastic_protocol", "output_metric", "validation_diagnostic"]
+    },
+    "computational_structure": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

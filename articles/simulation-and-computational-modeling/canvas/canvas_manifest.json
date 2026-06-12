@@ -1,0 +1,30 @@
+{
+  "article_slug": "simulation-and-computational-modeling",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "simulation-computational-governance",
+  "cards": [
+    {
+      "card_id": "simulation-model-register",
+      "title": "Simulation Model Register",
+      "description": "Tracks states, update rules, numerical methods, scenarios, stochastic protocols, output metrics, and validation diagnostics."
+    },
+    {
+      "card_id": "verification-validation",
+      "title": "Verification and Validation",
+      "description": "Connects code tests, numerical checks, data checks, model validation, and decision-use review."
+    },
+    {
+      "card_id": "reproducibility-run-log",
+      "title": "Reproducibility Run Log",
+      "description": "Records commands, seeds, inputs, settings, generated outputs, and smoke-check status."
+    }
+  ],
+  "governance": {
+    "requires_simulation_model_register": true,
+    "requires_scenario_definitions": true,
+    "requires_seed_and_replication_log": true,
+    "requires_verification_checks": true,
+    "requires_validation_note": true,
+    "requires_reproducibility_artifacts": true
+  }
+}

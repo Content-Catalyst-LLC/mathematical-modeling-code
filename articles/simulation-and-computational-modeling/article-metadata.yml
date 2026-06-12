@@ -1,0 +1,19 @@
+actual_title: "Simulation and Computational Modeling"
+suggested_seo_title: "Simulation and Computational Modeling in Mathematical Modeling"
+focus_keyword: "simulation and computational modeling"
+slug: "simulation-and-computational-modeling"
+series: "Mathematical Modeling"
+article_order:
+  previous: "spatial-models-and-geometric-representation"
+  current: "simulation-and-computational-modeling"
+  next: "numerical-methods-for-mathematical-models"
+tags:
+  - Mathematical Modeling
+  - Simulation
+  - Computational Modeling
+  - Scientific Computing
+  - Numerical Methods
+  - Model Validation
+  - Reproducibility
+  - Decision Support
+excerpt_139_words: "Simulation and computational modeling use algorithms, code, numerical procedures, and repeated experiments to study mathematical models that are difficult or impossible to solve analytically. Instead of relying only on closed-form equations, computational models approximate behavior through time steps, simulations, state updates, random sampling, numerical solvers, scenario runs, and reproducible workflows. This article explains how simulation translates formal model structure into executable procedures, how computational choices affect results, and why code becomes part of the model itself. It examines deterministic simulation, stochastic simulation, time stepping, numerical approximation, discretization, convergence, computational experiments, verification, validation, sensitivity analysis, reproducibility, and uncertainty communication. By treating simulation as disciplined mathematical reasoning rather than black-box computation, modelers can use computational workflows responsibly across science, engineering, policy, public health, economics, ecology, infrastructure, sustainability, artificial intelligence, and complex systems decision-support practice today for high-stakes analytical work across institutions."

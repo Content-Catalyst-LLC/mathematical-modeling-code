@@ -1,0 +1,152 @@
+{
+  "article": "Simulation and Computational Modeling",
+  "audit_checks": [
+    "state variables are documented",
+    "update rules match the mathematical specification",
+    "random seeds and replications are recorded",
+    "scenario definitions are explicit",
+    "uncertainty and sensitivity are summarized"
+  ],
+  "high_priority_simulation_records": [],
+  "model_register": [
+    {
+      "component_type": "state",
+      "computational_structure": "resource_stock",
+      "interpretation": "The model tracks resource stock over time",
+      "key": "state_variable",
+      "review_question": "Is the stock definition consistent with the modeled system?",
+      "simulation_risk_score": 5.0,
+      "status": "review"
+    },
+    {
+      "component_type": "update_rule",
+      "computational_structure": "R_next = R + growth - extraction - shock",
+      "interpretation": "Stock changes through regeneration extraction and stochastic shocks",
+      "key": "update_rule",
+      "review_question": "Does the update rule match the conceptual model?",
+      "simulation_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "component_type": "numerical_method",
+      "computational_structure": "discrete_annual_step",
+      "interpretation": "The model advances in equal time increments",
+      "key": "time_step",
+      "review_question": "Is the time step appropriate for the process?",
+      "simulation_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "component_type": "stochastic_protocol",
+      "computational_structure": "multiple_random_seeds_per_scenario",
+      "interpretation": "Stochastic variation is summarized across replications",
+      "key": "ensemble_protocol",
+      "review_question": "Are enough replications used to characterize uncertainty?",
+      "simulation_risk_score": 4.0,
+      "status": "active"
+    },
+    {
+      "component_type": "scenario_definition",
+      "computational_structure": "baseline_high_extraction_adaptive_policy_shock_stress",
+      "interpretation": "Scenarios compare alternative assumptions and stress cases",
+      "key": "scenario_comparison",
+      "review_question": "Are scenario definitions transparent and meaningful?",
+      "simulation_risk_score": 5.0,
+      "status": "review"
+    },
+    {
+      "component_type": "output_metric",
+      "computational_structure": "depletion_probability",
+      "interpretation": "The model estimates probability of crossing a depletion threshold",
+      "key": "decision_metric",
+      "review_question": "Is this metric appropriate for decision support?",
+      "simulation_risk_score": 6.0,
+      "status": "review"
+    }
+  ],
+  "scenario_count": 4,
+  "scenario_summary": [
+    {
+      "depletion_probability": 0.0,
+      "max_final_stock": 42.1952725,
+      "mean_final_stock": 40.22738426,
+      "min_final_stock": 35.79346445,
+      "replications": 60,
+      "scenario": "adaptive_policy",
+      "stdev_final_stock": 1.38712357
+    },
+    {
+      "depletion_probability": 1.0,
+      "max_final_stock": 0.0,
+      "mean_final_stock": 0.0,
+      "min_final_stock": 0.0,
+      "replications": 60,
+      "scenario": "baseline",
+      "stdev_final_stock": 0.0
+    },
+    {
+      "depletion_probability": 1.0,
+      "max_final_stock": 0.0,
+      "mean_final_stock": 0.0,
+      "min_final_stock": 0.0,
+      "replications": 60,
+      "scenario": "high_extraction",
+      "stdev_final_stock": 0.0
+    },
+    {
+      "depletion_probability": 1.0,
+      "max_final_stock": 0.0,
+      "mean_final_stock": 0.0,
+      "min_final_stock": 0.0,
+      "replications": 60,
+      "scenario": "shock_stress",
+      "stdev_final_stock": 0.0
+    }
+  ],
+  "scenarios": [
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "initial_stock": 70.0,
+      "replications": 60,
+      "scenario": "baseline",
+      "shock_fraction": 0.1,
+      "shock_probability": 0.05,
+      "steps": 50
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 10.0,
+      "growth_rate": 0.18,
+      "initial_stock": 70.0,
+      "replications": 60,
+      "scenario": "high_extraction",
+      "shock_fraction": 0.1,
+      "shock_probability": 0.05,
+      "steps": 50
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "initial_stock": 70.0,
+      "replications": 60,
+      "scenario": "adaptive_policy",
+      "shock_fraction": 0.1,
+      "shock_probability": 0.05,
+      "steps": 50
+    },
+    {
+      "carrying_capacity": 100.0,
+      "extraction": 6.0,
+      "growth_rate": 0.18,
+      "initial_stock": 70.0,
+      "replications": 60,
+      "scenario": "shock_stress",
+      "shock_fraction": 0.22,
+      "shock_probability": 0.15,
+      "steps": 50
+    }
+  ]
+}

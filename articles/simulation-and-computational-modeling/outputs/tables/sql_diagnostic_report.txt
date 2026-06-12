@@ -1,0 +1,52 @@
+section                   
+--------------------------
+SIMULATION COMPONENT TYPES
+component_type         description                                  typical_failure                                    
+---------------------  -------------------------------------------  ---------------------------------------------------
+numerical_method       Approximation or solver method.              Step size or solver setting creates artifacts.     
+output_metric          Computed result or decision metric.          Output metric does not support the claim.          
+scenario_definition    Alternative assumption set.                  Scenario framing is biased or undocumented.        
+state                  Model quantity tracked over time.            State definition is ambiguous.                     
+stochastic_protocol    Randomness and replication plan.             Single-run storytelling replaces ensemble evidence.
+update_rule            Rule for moving from one state to the next.  Code diverges from the mathematical specification. 
+validation_diagnostic  Credibility check.                           Model is not valid for intended use.               
+section                            
+-----------------------------------
+SIMULATION RECORDS REQUIRING REVIEW
+record_key           component_type       computational_structure                                review_question                                            
+-------------------  -------------------  -----------------------------------------------------  -----------------------------------------------------------
+state_variable       state                resource_stock                                         Is the stock definition consistent with the modeled system?
+update_rule          update_rule          R_next = R + growth - extraction - shock               Does the update rule match the conceptual model?           
+time_step            numerical_method     discrete_annual_step                                   Is the time step appropriate for the process?              
+scenario_comparison  scenario_definition  baseline_high_extraction_adaptive_policy_shock_stress  Are scenario definitions transparent and meaningful?       
+decision_metric      output_metric        depletion_probability                                  Is this metric appropriate for decision support?           
+section             
+--------------------
+SIMULATION SCENARIOS
+scenario         initial_stock  growth_rate  carrying_capacity  extraction  shock_probability  shock_fraction  steps  replications
+---------------  -------------  -----------  -----------------  ----------  -----------------  --------------  -----  ------------
+adaptive_policy  70.0           0.18         100.0              6.0         0.05               0.1             50     60          
+baseline         70.0           0.18         100.0              6.0         0.05               0.1             50     60          
+high_extraction  70.0           0.18         100.0              10.0        0.05               0.1             50     60          
+shock_stress     70.0           0.18         100.0              6.0         0.15               0.22            50     60          
+section              
+---------------------
+SCENARIO STRESS CHECK
+scenario         extraction_to_capacity_ratio  expected_shock_intensity  replications
+---------------  ----------------------------  ------------------------  ------------
+shock_stress     0.06                          0.033                     60          
+high_extraction  0.1                           0.005                     60          
+baseline         0.06                          0.005                     60          
+adaptive_policy  0.06                          0.005                     60          
+section                   
+--------------------------
+SIMULATION COMPONENT GUIDE
+component_type         meaning                                     example                review_question                             
+---------------------  ------------------------------------------  ---------------------  --------------------------------------------
+numerical_method       Approximation or solver method              discrete time step     Is the method stable and accurate?          
+output_metric          Computed result or decision metric          depletion probability  Does the output support the decision?       
+scenario_definition    Alternative assumption set                  high extraction        Are scenarios transparent?                  
+state                  Model quantity tracked over time            resource_stock         Is the state definition valid?              
+stochastic_protocol    Randomness and replication plan             multiple seeds         Are replications sufficient?                
+update_rule            Rule for moving from one state to the next  R_next = F(R)          Does code match the equation?               
+validation_diagnostic  Credibility check                           known-case comparison  Is the model valid for the intended purpose?

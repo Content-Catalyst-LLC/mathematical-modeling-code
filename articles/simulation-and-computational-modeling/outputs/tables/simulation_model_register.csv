@@ -1,0 +1,7 @@
+key,component_type,computational_structure,interpretation,review_question,status,simulation_risk_score
+state_variable,state,resource_stock,The model tracks resource stock over time,Is the stock definition consistent with the modeled system?,review,5.0
+update_rule,update_rule,R_next = R + growth - extraction - shock,Stock changes through regeneration extraction and stochastic shocks,Does the update rule match the conceptual model?,review,6.0
+time_step,numerical_method,discrete_annual_step,The model advances in equal time increments,Is the time step appropriate for the process?,review,7.0
+ensemble_protocol,stochastic_protocol,multiple_random_seeds_per_scenario,Stochastic variation is summarized across replications,Are enough replications used to characterize uncertainty?,active,4.0
+scenario_comparison,scenario_definition,baseline_high_extraction_adaptive_policy_shock_stress,Scenarios compare alternative assumptions and stress cases,Are scenario definitions transparent and meaningful?,review,5.0
+decision_metric,output_metric,depletion_probability,The model estimates probability of crossing a depletion threshold,Is this metric appropriate for decision support?,review,6.0

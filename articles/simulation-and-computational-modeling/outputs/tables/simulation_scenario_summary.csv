@@ -1,0 +1,5 @@
+scenario,replications,mean_final_stock,min_final_stock,max_final_stock,stdev_final_stock,depletion_probability
+adaptive_policy,60,40.22738426,35.79346445,42.1952725,1.38712357,0.0
+baseline,60,0.0,0.0,0.0,0.0,1.0
+high_extraction,60,0.0,0.0,0.0,0.0,1.0
+shock_stress,60,0.0,0.0,0.0,0.0,1.0

@@ -1,0 +1,64 @@
+
+[1;34m[16:45:53][0m Python workflow
+Simulation and computational modeling workflow complete.
+Simulation records: 6
+Scenarios: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[16:45:54][0m R workflow
+null device 
+          1 
+         scenario replications mean_final_stock min_final_stock max_final_stock
+1 adaptive_policy           60         40.22738        35.79346        42.19527
+2        baseline           60          0.00000         0.00000         0.00000
+3 high_extraction           60          0.00000         0.00000         0.00000
+4    shock_stress           60          0.00000         0.00000         0.00000
+  stdev_final_stock depletion_probability        review_class
+1          1.387124                     0      routine review
+2          0.000000                     1 high depletion risk
+3          0.000000                     1 high depletion risk
+4          0.000000                     1 high depletion risk
+
+[1;34m[16:45:54][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/simulation_computational_modeling.sqlite < sql/schema.sql
+sqlite3 outputs/tables/simulation_computational_modeling.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[16:45:54][0m Go workflow
+cd go && go run main.go
+step,resource_stock
+0,70.000000
+1,67.780000
+2,65.710969
+3,63.766667
+4,61.925529
+5,60.169536
+6,58.483381
+7,56.853839
+8,55.269284
+9,53.719306
+10,52.194406
+11,50.685738
+12,49.184892
+13,47.683696
+14,46.174039
+15,44.647690
+16,43.096125
+17,41.510331
+18,39.880597
+19,38.196273
+20,36.445482
+
+[1;34m[16:45:55][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 resource_simulation.cpp -o resource_simulation
+./resource_simulation > ../outputs/tables/cpp_resource_simulation.csv
+
+[1;34m[16:45:56][0m Fortran workflow
+gfortran -O2 fortran/resource_simulation.f90 -o outputs/resource_simulation_fortran
+./outputs/resource_simulation_fortran > outputs/tables/fortran_resource_simulation.txt
+
+[1;34m[16:45:56][0m C workflow
+cc -O2 -std=c11 c/resource_simulation.c -o outputs/resource_simulation_c
+./outputs/resource_simulation_c > outputs/tables/c_resource_simulation.csv 2> outputs/logs/c_resource_simulation_stderr.log

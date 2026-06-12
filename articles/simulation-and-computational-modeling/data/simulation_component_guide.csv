@@ -1,0 +1,8 @@
+component_type,meaning,example,review_question
+state,Model quantity tracked over time,resource_stock,Is the state definition valid?
+update_rule,Rule for moving from one state to the next,R_next = F(R),Does code match the equation?
+numerical_method,Approximation or solver method,discrete time step,Is the method stable and accurate?
+scenario_definition,Alternative assumption set,high extraction,Are scenarios transparent?
+stochastic_protocol,Randomness and replication plan,multiple seeds,Are replications sufficient?
+output_metric,Computed result or decision metric,depletion probability,Does the output support the decision?
+validation_diagnostic,Credibility check,known-case comparison,Is the model valid for the intended purpose?
