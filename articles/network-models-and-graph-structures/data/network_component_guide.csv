@@ -1,0 +1,9 @@
+component_type,meaning,example,review_question
+node,Entity represented in the graph,facility,What counts as a unit?
+edge,Relationship between nodes,dependency,What kind of relationship is modeled?
+edge_weight,Strength or magnitude of relationship,w_ij,How was weight estimated?
+direction_rule,Rule for edge orientation,source_to_target,Does direction match reality?
+diagnostic,Computed graph measure,in_degree,What does the measure claim?
+process_rule,Rule for flow or spread,x_next=F(x,A),Does the process match evidence?
+validation_diagnostic,Credibility check,missing-edge sensitivity,Are conclusions robust?
+network_boundary,Included nodes and relationships,V and E scope,What is excluded?

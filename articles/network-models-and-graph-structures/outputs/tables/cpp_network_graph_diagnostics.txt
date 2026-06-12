@@ -1,0 +1,8 @@
+cpp node_count=7 edge_count=10
+communications_hub in_degree=1 out_degree=2 weighted_out=1.25
+emergency_depot in_degree=1 out_degree=1 weighted_out=0.75
+fuel_depot in_degree=1 out_degree=1 weighted_out=0.60
+hospital in_degree=5 out_degree=0 weighted_out=0.00
+power_substation in_degree=1 out_degree=3 weighted_out=2.70
+transport_hub in_degree=0 out_degree=2 weighted_out=1.15
+water_treatment in_degree=1 out_degree=1 weighted_out=0.80

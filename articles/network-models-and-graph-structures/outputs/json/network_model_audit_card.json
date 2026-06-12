@@ -1,0 +1,135 @@
+{
+  "article": "Network Models and Graph Structures",
+  "audit_checks": [
+    "nodes are defined at the correct scale",
+    "edge meaning is documented",
+    "edge direction and weight are validated",
+    "centrality is interpreted cautiously",
+    "network conclusions are tested against missing-edge uncertainty"
+  ],
+  "edge_count": 10,
+  "high_priority_network_records": [],
+  "network_model_register": [
+    {
+      "component_type": "node",
+      "expression_or_structure": "facility_or_service_asset",
+      "interpretation": "Nodes represent infrastructure assets",
+      "key": "node_definition",
+      "network_risk_score": 7.0,
+      "review_question": "Are critical assets included at the right scale?",
+      "status": "review"
+    },
+    {
+      "component_type": "edge",
+      "expression_or_structure": "source_to_target",
+      "interpretation": "Directed edge indicates dependency or service flow",
+      "key": "directed_dependency_edge",
+      "network_risk_score": 7.0,
+      "review_question": "Does edge direction match operational reality?",
+      "status": "review"
+    },
+    {
+      "component_type": "edge_weight",
+      "expression_or_structure": "w_ij",
+      "interpretation": "Weight represents dependency strength or criticality",
+      "key": "edge_weight",
+      "network_risk_score": 7.0,
+      "review_question": "How was weight estimated and validated?",
+      "status": "review"
+    },
+    {
+      "component_type": "diagnostic",
+      "expression_or_structure": "in_degree out_degree reachability",
+      "interpretation": "Diagnostics identify structurally important nodes",
+      "key": "centrality_diagnostic",
+      "network_risk_score": 2.0,
+      "review_question": "Does structural centrality match practical importance?",
+      "status": "active"
+    },
+    {
+      "component_type": "validation_diagnostic",
+      "expression_or_structure": "evidence_quality",
+      "interpretation": "Each edge receives an evidence-quality flag",
+      "key": "edge_evidence_quality",
+      "network_risk_score": 6.0,
+      "review_question": "Are low-evidence edges reviewed before decision use?",
+      "status": "review"
+    },
+    {
+      "component_type": "network_boundary",
+      "expression_or_structure": "V_and_E_scope",
+      "interpretation": "The model states included nodes and edges",
+      "key": "boundary_definition",
+      "network_risk_score": 6.0,
+      "review_question": "What relationships are excluded?",
+      "status": "review"
+    }
+  ],
+  "node_count": 7,
+  "node_diagnostics": [
+    {
+      "in_degree": 1,
+      "node": "communications_hub",
+      "out_degree": 2,
+      "reachable_nodes": 2,
+      "total_degree": 3,
+      "weighted_in_degree": 0.85,
+      "weighted_out_degree": 1.25
+    },
+    {
+      "in_degree": 1,
+      "node": "emergency_depot",
+      "out_degree": 1,
+      "reachable_nodes": 1,
+      "total_degree": 2,
+      "weighted_in_degree": 0.55,
+      "weighted_out_degree": 0.75
+    },
+    {
+      "in_degree": 1,
+      "node": "fuel_depot",
+      "out_degree": 1,
+      "reachable_nodes": 5,
+      "total_degree": 2,
+      "weighted_in_degree": 0.65,
+      "weighted_out_degree": 0.6
+    },
+    {
+      "in_degree": 5,
+      "node": "hospital",
+      "out_degree": 0,
+      "reachable_nodes": 0,
+      "total_degree": 5,
+      "weighted_in_degree": 3.7,
+      "weighted_out_degree": 0.0
+    },
+    {
+      "in_degree": 1,
+      "node": "power_substation",
+      "out_degree": 3,
+      "reachable_nodes": 4,
+      "total_degree": 4,
+      "weighted_in_degree": 0.6,
+      "weighted_out_degree": 2.7
+    },
+    {
+      "in_degree": 0,
+      "node": "transport_hub",
+      "out_degree": 2,
+      "reachable_nodes": 6,
+      "total_degree": 2,
+      "weighted_in_degree": 0.0,
+      "weighted_out_degree": 1.15
+    },
+    {
+      "in_degree": 1,
+      "node": "water_treatment",
+      "out_degree": 1,
+      "reachable_nodes": 1,
+      "total_degree": 2,
+      "weighted_in_degree": 0.9,
+      "weighted_out_degree": 0.8
+    }
+  ],
+  "weak_component_count": 1
+}

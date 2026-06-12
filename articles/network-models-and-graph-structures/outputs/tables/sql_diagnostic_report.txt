@@ -1,0 +1,52 @@
+section                
+-----------------------
+NETWORK COMPONENT TYPES
+component_type         description                                       typical_failure                                    
+---------------------  ------------------------------------------------  ---------------------------------------------------
+diagnostic             Computed graph measure.                           Metric is overinterpreted.                         
+direction_rule         Rule for edge orientation.                        Direction does not match operational reality.      
+edge                   Relationship between nodes.                       Edge meaning is ambiguous or mixed.                
+edge_weight            Strength or magnitude of a relationship.          Weight is estimated weakly or treated as exact.    
+network_boundary       Included nodes and relationships.                 Important nodes or relationships are excluded.     
+node                   Entity represented in the graph.                  Node scale or boundary is unclear.                 
+process_rule           Rule for flow, diffusion, contagion, or cascade.  Graph path is confused with actual process.        
+validation_diagnostic  Credibility check.                                Missing-edge and weight uncertainty are not tested.
+section                         
+--------------------------------
+NETWORK RECORDS REQUIRING REVIEW
+record_key                component_type         expression_or_structure    review_question                                     
+------------------------  ---------------------  -------------------------  ----------------------------------------------------
+node_definition           node                   facility_or_service_asset  Are critical assets included at the right scale?    
+directed_dependency_edge  edge                   source_to_target           Does edge direction match operational reality?      
+edge_weight               edge_weight            w_ij                       How was weight estimated and validated?             
+edge_evidence_quality     validation_diagnostic  evidence_quality           Are low-evidence edges reviewed before decision use?
+boundary_definition       network_boundary       V_and_E_scope              What relationships are excluded?                    
+section               
+----------------------
+OUT-DEGREE DIAGNOSTICS
+node                out_degree  weighted_out_degree
+------------------  ----------  -------------------
+power_substation    3           2.7                
+communications_hub  2           1.25               
+transport_hub       2           1.15               
+water_treatment     1           0.8                
+emergency_depot     1           0.75               
+fuel_depot          1           0.6                
+section              
+---------------------
+IN-DEGREE DIAGNOSTICS
+node                in_degree  weighted_in_degree
+------------------  ---------  ------------------
+hospital            5          3.7               
+water_treatment     1          0.9               
+communications_hub  1          0.85              
+fuel_depot          1          0.65              
+power_substation    1          0.6               
+emergency_depot     1          0.55              
+section              
+---------------------
+EDGE EVIDENCE SUMMARY
+evidence_quality  edge_count  average_weight
+----------------  ----------  --------------
+medium            6           0.625         
+high              4           0.875         
