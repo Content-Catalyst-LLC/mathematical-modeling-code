@@ -1,0 +1,2 @@
+rmse mae bias max_abs_error fitness
+  1.0530   1.0125  -1.0125   1.7000 adequate_for_scenario_screening

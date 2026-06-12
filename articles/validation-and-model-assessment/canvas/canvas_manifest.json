@@ -1,0 +1,31 @@
+{
+  "article_slug": "validation-and-model-assessment",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "validation-model-assessment-governance",
+  "cards": [
+    {
+      "card_id": "validation-register",
+      "title": "Validation Register",
+      "description": "Tracks conceptual validity, verification, evidence quality, diagnostics, generalization, benchmarking, uncertainty, and decision-support review."
+    },
+    {
+      "card_id": "error-diagnostics",
+      "title": "Error Diagnostics",
+      "description": "Preserves residuals, absolute errors, squared errors, and scenario-level summaries."
+    },
+    {
+      "card_id": "model-assessment-card",
+      "title": "Model Assessment Card",
+      "description": "Summarizes metrics, fitness-for-purpose classification, use limits, and remaining review obligations."
+    }
+  ],
+  "governance": {
+    "requires_conceptual_review": true,
+    "requires_verification": true,
+    "requires_data_validation": true,
+    "requires_residual_diagnostics": true,
+    "requires_generalization_check": true,
+    "requires_uncertainty_review": true,
+    "requires_use_limit_statement": true
+  }
+}

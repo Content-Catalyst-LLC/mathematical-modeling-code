@@ -1,0 +1,2 @@
+"rmse","mae","bias","max_abs_error","n","fitness_for_purpose"
+1.05297198443263,1.0125,-1.0125,1.7,8,"adequate for scenario screening"

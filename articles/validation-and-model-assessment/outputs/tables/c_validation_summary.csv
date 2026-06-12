@@ -1,0 +1,2 @@
+rmse,mae,bias,max_abs_error,fitness
+1.052972,1.012500,-1.012500,1.700000,adequate_for_scenario_screening

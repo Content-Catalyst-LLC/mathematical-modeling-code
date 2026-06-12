@@ -1,0 +1,104 @@
+{
+  "article": "Validation and Model Assessment",
+  "diagnostic_checks": [
+    "validation observations are separated from calibration logic",
+    "residual and error metrics are exported",
+    "scenario-level diagnostics are preserved",
+    "fitness-for-purpose judgment is conditional",
+    "uncertainty and decision-use review remain required"
+  ],
+  "fitness_for_purpose": "adequate_for_scenario_screening",
+  "high_priority_validation_records": [],
+  "overall_metrics": {
+    "bias": -1.0125,
+    "mae": 1.0125,
+    "max_abs_error": 1.7,
+    "n": 8,
+    "rmse": 1.05297198
+  },
+  "scenario_summary": [
+    {
+      "bias": -0.88,
+      "mae": 0.88,
+      "max_abs_error": 1.1,
+      "n": 5,
+      "rmse": 0.88994382,
+      "scenario": "holdout"
+    },
+    {
+      "bias": -1.23333333,
+      "mae": 1.23333333,
+      "max_abs_error": 1.7,
+      "n": 3,
+      "rmse": 1.27932274,
+      "scenario": "stress"
+    }
+  ],
+  "use_limit": "Assessment is educational and does not authorize operational decision use without domain-specific review.",
+  "validation_register": [
+    {
+      "assessment_question": "Does the model represent the intended system well enough?",
+      "key": "conceptual_validity",
+      "modeling_role": "Reviews model structure assumptions boundaries and purpose",
+      "status": "review",
+      "validation_layer": "conceptual",
+      "validation_risk_score": 7.0
+    },
+    {
+      "assessment_question": "Does the implementation match the model specification?",
+      "key": "implementation_verification",
+      "modeling_role": "Checks that code implements the specified model logic",
+      "status": "active",
+      "validation_layer": "verification",
+      "validation_risk_score": 2.0
+    },
+    {
+      "assessment_question": "Are validation data relevant and reliable?",
+      "key": "data_validation",
+      "modeling_role": "Reviews observations units provenance and alignment",
+      "status": "review",
+      "validation_layer": "evidence",
+      "validation_risk_score": 6.0
+    },
+    {
+      "assessment_question": "Do residuals show systematic model failure?",
+      "key": "residual_diagnostics",
+      "modeling_role": "Examines residuals bias and error patterns",
+      "status": "active",
+      "validation_layer": "diagnostics",
+      "validation_risk_score": 2.0
+    },
+    {
+      "assessment_question": "Does the model generalize to relevant new evidence?",
+      "key": "out_of_sample_assessment",
+      "modeling_role": "Tests performance beyond calibration data",
+      "status": "review",
+      "validation_layer": "generalization",
+      "validation_risk_score": 6.0
+    },
+    {
+      "assessment_question": "Does the model outperform simpler or accepted alternatives?",
+      "key": "benchmark_comparison",
+      "modeling_role": "Compares model performance to baselines or external evidence",
+      "status": "review",
+      "validation_layer": "benchmarking",
+      "validation_risk_score": 6.0
+    },
+    {
+      "assessment_question": "Could uncertainty change the model-supported decision?",
+      "key": "uncertainty_review",
+      "modeling_role": "Reviews sensitivity robustness and uncertainty ranges",
+      "status": "review",
+      "validation_layer": "uncertainty",
+      "validation_risk_score": 7.0
+    },
+    {
+      "assessment_question": "Is the model credible enough for the stated purpose?",
+      "key": "fitness_for_purpose",
+      "modeling_role": "Assesses adequacy for the intended use",
+      "status": "review",
+      "validation_layer": "decision_support",
+      "validation_risk_score": 7.0
+    }
+  ]
+}

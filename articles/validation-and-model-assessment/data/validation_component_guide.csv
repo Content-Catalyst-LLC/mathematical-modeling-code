@@ -1,0 +1,9 @@
+validation_layer,meaning,example,review_question
+conceptual,Model structure assumptions boundaries and purpose,assumption review,Does the structure fit the intended use?
+verification,Implementation correctness,unit tests,Does code match the specification?
+evidence,Data quality provenance and alignment,data validation,Are observations reliable and comparable?
+diagnostics,Post-fit error and residual behavior,residual plot,Where does the model fail?
+generalization,Performance beyond fitting evidence,holdout test,Does performance transfer?
+benchmarking,Comparison to baselines and alternatives,simple baseline,Is complexity justified?
+uncertainty,Sensitivity robustness and uncertainty review,scenario matrix,Could uncertainty change conclusions?
+decision_support,Fitness for purpose and use limits,assessment card,Is the model adequate for this decision?

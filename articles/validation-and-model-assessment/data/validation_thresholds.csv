@@ -1,0 +1,4 @@
+purpose,rmse_threshold,max_abs_error_threshold,classification
+scenario_screening,1.25,2.00,adequate_for_scenario_screening
+limited_review,2.50,4.00,limited_use_requires_review
+not_adequate,999.00,999.00,not_adequate_without_revision

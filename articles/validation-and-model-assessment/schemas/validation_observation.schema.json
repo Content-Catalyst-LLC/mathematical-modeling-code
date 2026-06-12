@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ValidationObservation",
+  "type": "object",
+  "required": [
+    "time",
+    "observed_value",
+    "predicted_value",
+    "scenario"
+  ],
+  "properties": {
+    "time": {"type": "integer", "minimum": 0},
+    "observed_value": {"type": "number"},
+    "predicted_value": {"type": "number"},
+    "scenario": {"type": "string"}
+  }
+}

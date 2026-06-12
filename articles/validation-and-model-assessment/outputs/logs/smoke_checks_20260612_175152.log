@@ -1,0 +1,74 @@
+
+[1;34m[17:51:53][0m Python workflow
+Validation and model assessment workflow complete.
+Overall metrics: {'rmse': 1.05297198, 'mae': 1.0125, 'bias': -1.0125, 'max_abs_error': 1.7, 'n': 8}
+Fitness for purpose: adequate_for_scenario_screening
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[17:51:53][0m R workflow
+null device 
+          1 
+      rmse    mae    bias max_abs_error n             fitness_for_purpose
+1 1.052972 1.0125 -1.0125           1.7 8 adequate for scenario screening
+  scenario      rmse      mae      bias max_abs_error n
+1  holdout 0.8899438 0.880000 -0.880000           1.1 5
+2   stress 1.2793227 1.233333 -1.233333           1.7 3
+                          key validation_layer
+1         conceptual_validity       conceptual
+2 implementation_verification     verification
+3             data_validation         evidence
+4        residual_diagnostics      diagnostics
+5    out_of_sample_assessment   generalization
+6        benchmark_comparison     benchmarking
+7          uncertainty_review      uncertainty
+8         fitness_for_purpose decision_support
+                                                 modeling_role
+1   Reviews model structure assumptions boundaries and purpose
+2        Checks that code implements the specified model logic
+3          Reviews observations units provenance and alignment
+4                   Examines residuals bias and error patterns
+5                    Tests performance beyond calibration data
+6 Compares model performance to baselines or external evidence
+7        Reviews sensitivity robustness and uncertainty ranges
+8                       Assesses adequacy for the intended use
+                                          assessment_question status
+1   Does the model represent the intended system well enough? review
+2      Does the implementation match the model specification? active
+3                  Are validation data relevant and reliable? review
+4                 Do residuals show systematic model failure? active
+5         Does the model generalize to relevant new evidence? review
+6 Does the model outperform simpler or accepted alternatives? review
+7      Could uncertainty change the model-supported decision? review
+8        Is the model credible enough for the stated purpose? review
+  validation_risk_score priority
+1                     7   medium
+2                     2      low
+3                     6   medium
+4                     2      low
+5                     6   medium
+6                     6   medium
+7                     7   medium
+8                     7   medium
+
+[1;34m[17:51:54][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/validation_and_model_assessment.sqlite < sql/schema.sql
+sqlite3 outputs/tables/validation_and_model_assessment.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[17:51:54][0m Go workflow
+cd go && go run main.go
+rmse=1.0530 mae=1.0125 bias=-1.0125 max_abs_error=1.7000 fitness=adequate_for_scenario_screening
+
+[1;34m[17:51:54][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 validation_error_summary.cpp -o validation_error_summary
+./validation_error_summary > ../outputs/tables/cpp_validation_summary.csv
+
+[1;34m[17:51:56][0m Fortran workflow
+gfortran -O2 fortran/validation_error_summary.f90 -o outputs/validation_error_summary_fortran
+./outputs/validation_error_summary_fortran > outputs/tables/fortran_validation_summary.txt
+
+[1;34m[17:51:56][0m C workflow
+cc -O2 -std=c11 c/validation_error_summary.c -o outputs/validation_error_summary_c -lm
+./outputs/validation_error_summary_c > outputs/tables/c_validation_summary.csv 2> outputs/logs/c_validation_stderr.log

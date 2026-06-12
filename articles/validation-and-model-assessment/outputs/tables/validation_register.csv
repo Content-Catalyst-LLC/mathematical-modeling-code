@@ -1,0 +1,9 @@
+key,validation_layer,modeling_role,assessment_question,status,validation_risk_score
+conceptual_validity,conceptual,Reviews model structure assumptions boundaries and purpose,Does the model represent the intended system well enough?,review,7.0
+implementation_verification,verification,Checks that code implements the specified model logic,Does the implementation match the model specification?,active,2.0
+data_validation,evidence,Reviews observations units provenance and alignment,Are validation data relevant and reliable?,review,6.0
+residual_diagnostics,diagnostics,Examines residuals bias and error patterns,Do residuals show systematic model failure?,active,2.0
+out_of_sample_assessment,generalization,Tests performance beyond calibration data,Does the model generalize to relevant new evidence?,review,6.0
+benchmark_comparison,benchmarking,Compares model performance to baselines or external evidence,Does the model outperform simpler or accepted alternatives?,review,6.0
+uncertainty_review,uncertainty,Reviews sensitivity robustness and uncertainty ranges,Could uncertainty change the model-supported decision?,review,7.0
+fitness_for_purpose,decision_support,Assesses adequacy for the intended use,Is the model credible enough for the stated purpose?,review,7.0

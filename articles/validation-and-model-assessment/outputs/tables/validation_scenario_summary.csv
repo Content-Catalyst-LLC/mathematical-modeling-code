@@ -1,0 +1,3 @@
+scenario,rmse,mae,bias,max_abs_error,n
+holdout,0.88994382,0.88,-0.88,1.1,5
+stress,1.27932274,1.23333333,-1.23333333,1.7,3

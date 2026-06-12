@@ -1,0 +1,57 @@
+section          
+-----------------
+VALIDATION LAYERS
+validation_layer  description                                             typical_failure                                 
+----------------  ------------------------------------------------------  ------------------------------------------------
+benchmarking      Comparison to baselines and alternatives.               Complexity is accepted without comparison.      
+conceptual        Model structure, assumptions, boundaries, and purpose.  Model fits data but represents the wrong system.
+decision_support  Fitness for purpose and use limits.                     Model is used beyond appropriate scope.         
+diagnostics       Post-fit residual and error behavior.                   Systematic error is hidden by averages.         
+evidence          Data quality, provenance, and alignment.                Validation evidence is weak or mismatched.      
+generalization    Performance beyond fitting evidence.                    Model overfits calibration data.                
+uncertainty       Sensitivity, robustness, and uncertainty review.        Outputs appear more certain than warranted.     
+verification      Implementation correctness.                             Code does not match the model specification.    
+section                            
+-----------------------------------
+VALIDATION RECORDS REQUIRING REVIEW
+record_key                validation_layer  assessment_question                                        
+------------------------  ----------------  -----------------------------------------------------------
+conceptual_validity       conceptual        Does the model represent the intended system well enough?  
+data_validation           evidence          Are validation data relevant and reliable?                 
+out_of_sample_assessment  generalization    Does the model generalize to relevant new evidence?        
+benchmark_comparison      benchmarking      Does the model outperform simpler or accepted alternatives?
+uncertainty_review        uncertainty       Could uncertainty change the model-supported decision?     
+fitness_for_purpose       decision_support  Is the model credible enough for the stated purpose?       
+section                     
+----------------------------
+VALIDATION ERROR DIAGNOSTICS
+time  scenario  observed_value  predicted_value  residual  absolute_error
+----  --------  --------------  ---------------  --------  --------------
+10    holdout   70.1            70.8             -0.7      0.7           
+11    holdout   68.9            69.7             -0.8      0.8           
+12    holdout   67.4            68.3             -0.9      0.9           
+13    holdout   65.8            66.9             -1.1      1.1           
+14    holdout   64.2            65.1             -0.9      0.9           
+15    stress    62.1            63.8             -1.7      1.7           
+16    stress    60.4            61.3             -0.9      0.9           
+17    stress    58.8            59.9             -1.1      1.1           
+section               
+----------------------
+SCENARIO ERROR SUMMARY
+scenario  mae     rmse    n
+--------  ------  ------  -
+holdout   0.88    0.8899  5
+stress    1.2333  1.2793  3
+section                   
+--------------------------
+VALIDATION COMPONENT GUIDE
+validation_layer  meaning                                             example            review_question                          
+----------------  --------------------------------------------------  -----------------  -----------------------------------------
+benchmarking      Comparison to baselines and alternatives            simple baseline    Is complexity justified?                 
+conceptual        Model structure assumptions boundaries and purpose  assumption review  Does the structure fit the intended use? 
+decision_support  Fitness for purpose and use limits                  assessment card    Is the model adequate for this decision? 
+diagnostics       Post-fit error and residual behavior                residual plot      Where does the model fail?               
+evidence          Data quality provenance and alignment               data validation    Are observations reliable and comparable?
+generalization    Performance beyond fitting evidence                 holdout test       Does performance transfer?               
+uncertainty       Sensitivity robustness and uncertainty review       scenario matrix    Could uncertainty change conclusions?    
+verification      Implementation correctness                          unit tests         Does code match the specification?       

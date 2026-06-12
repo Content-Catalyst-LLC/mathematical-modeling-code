@@ -1,0 +1,9 @@
+time,observed_value,predicted_value,scenario
+10,70.1,70.8,holdout
+11,68.9,69.7,holdout
+12,67.4,68.3,holdout
+13,65.8,66.9,holdout
+14,64.2,65.1,holdout
+15,62.1,63.8,stress
+16,60.4,61.3,stress
+17,58.8,59.9,stress

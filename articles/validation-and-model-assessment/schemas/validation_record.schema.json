@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ValidationRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "validation_layer",
+    "modeling_role",
+    "assessment_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "validation_layer": {
+      "type": "string",
+      "enum": ["conceptual", "verification", "evidence", "diagnostics", "generalization", "benchmarking", "uncertainty", "decision_support"]
+    },
+    "modeling_role": {"type": "string"},
+    "assessment_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}
