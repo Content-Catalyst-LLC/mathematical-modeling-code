@@ -1,0 +1,154 @@
+{
+  "article": "Model Purpose: Explanation, Prediction, Control, and Decision Support",
+  "formal_model": "S[t+1] = min(K, max(0, S[t] + I[t] - D[t] - L[t]))",
+  "high_priority_purposes": [],
+  "purpose_drift_triggers": [
+    "teaching model used for operational decision",
+    "scenario model interpreted as forecast",
+    "predictive model interpreted as causal explanation",
+    "optimization output treated as complete value judgment",
+    "decision support used as decision substitution"
+  ],
+  "purpose_register": [
+    {
+      "design_emphasis": "Mechanism interpretability stock-flow structure",
+      "misuse_risk": "Plausible mechanism treated as validated cause",
+      "primary_question": "Why does the system behave this way?",
+      "purpose": "explanation",
+      "purpose_risk_score": 2.25,
+      "supported_use_status": "supported",
+      "uncertainty_format": "Assumption and mechanism sensitivity",
+      "validation_standard": "Structural plausibility qualitative behavior domain review"
+    },
+    {
+      "design_emphasis": "Forecast target calibration validation horizon",
+      "misuse_risk": "Forecast used beyond validation horizon",
+      "primary_question": "What is likely to happen?",
+      "purpose": "prediction",
+      "purpose_risk_score": 7.5,
+      "supported_use_status": "review",
+      "uncertainty_format": "Prediction interval and calibration report",
+      "validation_standard": "Out-of-sample forecast performance calibration monitoring"
+    },
+    {
+      "design_emphasis": "State action feedback constraints robustness",
+      "misuse_risk": "Automated action without sufficient oversight",
+      "primary_question": "What action should steer the system?",
+      "purpose": "control",
+      "purpose_risk_score": 7.25,
+      "supported_use_status": "review",
+      "uncertainty_format": "Robustness envelope and failure modes",
+      "validation_standard": "Stability stress testing monitoring fail-safes"
+    },
+    {
+      "design_emphasis": "Alternatives consequences trade-offs uncertainty",
+      "misuse_risk": "Decision support becomes decision substitution",
+      "primary_question": "Which alternative should be considered?",
+      "purpose": "decision_support",
+      "purpose_risk_score": 7.25,
+      "supported_use_status": "review",
+      "uncertainty_format": "Scenario matrix robustness profile trade-off table",
+      "validation_standard": "Fit to decision context uncertainty communication governance"
+    },
+    {
+      "design_emphasis": "Scenario design structural adequacy numerical experiment",
+      "misuse_risk": "Simulation trace treated as forecast",
+      "primary_question": "What behavior emerges under assumptions?",
+      "purpose": "simulation",
+      "purpose_risk_score": 6.25,
+      "supported_use_status": "review",
+      "uncertainty_format": "Scenario notes ensembles and use limitations",
+      "validation_standard": "Scenario adequacy structural review uncertainty ranges"
+    },
+    {
+      "design_emphasis": "Objective function constraints feasible set trade-offs",
+      "misuse_risk": "Objective function treated as complete value system",
+      "primary_question": "Which feasible option best satisfies an objective?",
+      "purpose": "optimization",
+      "purpose_risk_score": 7.25,
+      "supported_use_status": "review",
+      "uncertainty_format": "Trade-off curve sensitivity sweep robust comparison",
+      "validation_standard": "Objective sensitivity constraint validation robustness"
+    }
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Mechanism-oriented stock-flow demonstration",
+      "final_stock": 100.0,
+      "max_stock": 100.0,
+      "mean_stock": 95.1351448,
+      "min_stock": 80.0,
+      "minimum_stock_margin": 0.8,
+      "purpose": "explanation",
+      "scenario": "explanatory_baseline",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Forecast-oriented lower inflow case",
+      "final_stock": 0.0,
+      "max_stock": 80.0,
+      "mean_stock": 30.41798383,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "purpose": "prediction",
+      "scenario": "prediction_low_inflow",
+      "shortage_periods": 9,
+      "shortage_risk": 0.14754098,
+      "total_shortage": 8.8324552
+    },
+    {
+      "description": "Control-oriented demand reduction case",
+      "final_stock": 52.17765942,
+      "max_stock": 80.0,
+      "mean_stock": 64.04918631,
+      "min_stock": 52.17765942,
+      "minimum_stock_margin": 0.52177659,
+      "purpose": "control",
+      "scenario": "control_demand_reduction",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Decision-support stress case",
+      "final_stock": 0.0,
+      "max_stock": 70.0,
+      "mean_stock": 14.69446892,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "purpose": "decision_support",
+      "scenario": "decision_support_stress",
+      "shortage_periods": 33,
+      "shortage_risk": 0.54098361,
+      "total_shortage": 48.39087812
+    },
+    {
+      "description": "Exploratory simulation stress case",
+      "final_stock": 0.0,
+      "max_stock": 60.0,
+      "mean_stock": 5.71728079,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "purpose": "simulation",
+      "scenario": "simulation_extreme_case",
+      "shortage_periods": 66,
+      "shortage_risk": 0.81481481,
+      "total_shortage": 178.95849103
+    },
+    {
+      "description": "Optimization-style proxy control case",
+      "final_stock": 32.30455901,
+      "max_stock": 80.0,
+      "mean_stock": 52.65574795,
+      "min_stock": 32.30455901,
+      "minimum_stock_margin": 0.32304559,
+      "purpose": "optimization",
+      "scenario": "optimization_proxy_case",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "total_shortage": 0.0
+    }
+  ]
+}

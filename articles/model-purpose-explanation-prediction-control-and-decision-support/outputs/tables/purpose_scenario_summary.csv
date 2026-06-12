@@ -1,0 +1,7 @@
+scenario,purpose,final_stock,mean_stock,min_stock,max_stock,shortage_periods,total_shortage,shortage_risk,minimum_stock_margin,description
+explanatory_baseline,explanation,100.0,95.1351448,80.0,100.0,0,0.0,0.0,0.8,Mechanism-oriented stock-flow demonstration
+prediction_low_inflow,prediction,0.0,30.41798383,0.0,80.0,9,8.8324552,0.14754098,0.0,Forecast-oriented lower inflow case
+control_demand_reduction,control,52.17765942,64.04918631,52.17765942,80.0,0,0.0,0.0,0.52177659,Control-oriented demand reduction case
+decision_support_stress,decision_support,0.0,14.69446892,0.0,70.0,33,48.39087812,0.54098361,0.0,Decision-support stress case
+simulation_extreme_case,simulation,0.0,5.71728079,0.0,60.0,66,178.95849103,0.81481481,0.0,Exploratory simulation stress case
+optimization_proxy_case,optimization,32.30455901,52.65574795,32.30455901,80.0,0,0.0,0.0,0.32304559,Optimization-style proxy control case

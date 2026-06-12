@@ -1,0 +1,7 @@
+purpose,validation_emphasis,evidence_needed,prohibited_without_review
+explanation,Mechanism and structural plausibility,Theory domain review qualitative behavior empirical consistency,Precise operational forecast
+prediction,Out-of-sample performance and calibration,Validation data forecast error uncertainty calibration monitoring,Causal explanation or long-horizon extrapolation
+control,Robust action under feedback,Stability analysis stress tests monitoring fail-safes,Automated action without oversight
+decision_support,Fit to decision context,Alternatives consequences uncertainty trade-offs governance,Decision substitution
+simulation,Scenario credibility and structural transparency,Scenario rationale assumptions uncertainty use limitations,Probability claims without probabilistic model
+optimization,Objective and constraint adequacy,Objective sensitivity feasibility review robustness analysis,Policy legitimacy without value review

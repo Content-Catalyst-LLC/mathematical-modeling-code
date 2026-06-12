@@ -1,0 +1,29 @@
+{
+  "article_slug": "model-purpose-explanation-prediction-control-and-decision-support",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "model-purpose-governance",
+  "cards": [
+    {
+      "card_id": "purpose-register",
+      "title": "Purpose Register",
+      "description": "Tracks intended use, validation standard, uncertainty format, misuse risk, and supported-use status."
+    },
+    {
+      "card_id": "purpose-drift-warning",
+      "title": "Purpose Drift Warning",
+      "description": "Identifies when a model is being used beyond its original purpose or validation domain."
+    },
+    {
+      "card_id": "decision-support-boundary",
+      "title": "Decision-Support Boundary",
+      "description": "Separates model evidence from decision authority, values, governance, and accountability."
+    }
+  ],
+  "governance": {
+    "requires_purpose_register": true,
+    "requires_supported_use_statement": true,
+    "requires_prohibited_use_statement": true,
+    "requires_validation_by_purpose": true,
+    "requires_purpose_drift_review": true
+  }
+}

@@ -1,0 +1,1 @@
+cpp purpose=control final_stock=52.177659 total_shortage=0.000000

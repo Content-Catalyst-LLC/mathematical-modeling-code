@@ -1,0 +1,19 @@
+actual_title: "Model Purpose: Explanation, Prediction, Control, and Decision Support"
+suggested_seo_title: "Model Purpose in Mathematical Modeling: Explanation, Prediction, Control, and Decision Support"
+focus_keyword: "model purpose in mathematical modeling"
+slug: "model-purpose-explanation-prediction-control-and-decision-support"
+series: "Mathematical Modeling"
+article_order:
+  previous: "model-boundaries-scale-and-scope"
+  current: "model-purpose-explanation-prediction-control-and-decision-support"
+  next: "variables-parameters-and-constraints"
+tags:
+  - Mathematical Modeling
+  - Model Purpose
+  - Explanation
+  - Prediction
+  - Control Systems
+  - Decision Support
+  - Model Validation
+  - Uncertainty Quantification
+excerpt_139_words: "Model purpose determines what a mathematical model is designed to do: explain, predict, control, optimize, simulate, compare, or support decisions. The same system can require different models depending on whether the goal is causal understanding, forecasting, intervention design, operational control, policy evaluation, or public reasoning. This article explains how model purpose shapes boundaries, variables, assumptions, data, validation standards, uncertainty communication, and ethical responsibility. It distinguishes explanatory models from predictive models, control models from decision-support tools, and exploratory simulations from operational systems. It also shows why models fail when purpose drifts, prediction is confused with explanation, or decision support becomes decision substitution. By making purpose explicit before formal design begins, modelers can choose appropriate representations, evaluate credibility, communicate limits, and prevent mathematical authority from exceeding evidence. Purpose is not merely a preface to modeling; it is a central design constraint."

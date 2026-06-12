@@ -1,0 +1,63 @@
+section      
+-------------
+PURPOSE TYPES
+purpose           description                                              typical_failure                                            
+----------------  -------------------------------------------------------  -----------------------------------------------------------
+control           Guides action through feedback.                          Action taken without robustness, monitoring, or fail-safes.
+decision_support  Compares alternatives under uncertainty.                 Decision support becomes decision substitution.            
+explanation       Clarifies why system behavior occurs.                    Plausible mechanism treated as validated cause.            
+optimization      Selects a feasible option by objective and constraints.  Objective treated as complete value system.                
+prediction        Estimates unknown or future values.                      Prediction used beyond validation horizon.                 
+simulation        Explores behavior under assumptions.                     Simulation trace treated as forecast.                      
+section                  
+-------------------------
+PURPOSES REQUIRING REVIEW
+purpose           primary_question                                    validation_standard                                           misuse_risk                                        
+----------------  --------------------------------------------------  ------------------------------------------------------------  ---------------------------------------------------
+prediction        What is likely to happen?                           Out-of-sample forecast performance calibration monitoring     Forecast used beyond validation horizon            
+control           What action should steer the system?                Stability stress testing monitoring fail-safes                Automated action without sufficient oversight      
+decision_support  Which alternative should be considered?             Fit to decision context uncertainty communication governance  Decision support becomes decision substitution     
+simulation        What behavior emerges under assumptions?            Scenario adequacy structural review uncertainty ranges        Simulation trace treated as forecast               
+optimization      Which feasible option best satisfies an objective?  Objective sensitivity constraint validation robustness        Objective function treated as complete value system
+section             
+--------------------
+SCENARIOS BY PURPOSE
+purpose           scenario_count
+----------------  --------------
+control           1             
+decision_support  1             
+explanation       1             
+optimization      1             
+prediction        1             
+simulation        1             
+section          
+-----------------
+VALIDATION MATRIX
+purpose           validation_emphasis                               evidence_needed                                               prohibited_without_review                       
+----------------  ------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------
+control           Robust action under feedback                      Stability analysis stress tests monitoring fail-safes         Automated action without oversight              
+
+decision_support  Fit to decision context                           Alternatives consequences uncertainty trade-offs governance   Decision substitution                           
+
+explanation       Mechanism and structural plausibility             Theory domain review qualitative behavior empirical consiste  Precise operational forecast                    
+                                                                    ncy                                                                                                           
+
+optimization      Objective and constraint adequacy                 Objective sensitivity feasibility review robustness analysis  Policy legitimacy without value review          
+
+prediction        Out-of-sample performance and calibration         Validation data forecast error uncertainty calibration monit  Causal explanation or long-horizon extrapolation
+                                                                    oring                                                                                                         
+
+simulation        Scenario credibility and structural transparency  Scenario rationale assumptions uncertainty use limitations    Probability claims without probabilistic model  
+section        
+---------------
+PROHIBITED USES
+prohibited_use                                                reason                                                        evidence_required_for_expansion                             
+------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Use scenario traces as probability forecasts.                 Scenario exploration does not assign probability without a p  Probability model, calibration, validation, and uncertainty 
+                                                              robabilistic model.                                           report.                                                     
+
+Use decision-support output as automatic decision authority.  Decision support informs judgment but does not replace accou  Governance review, stakeholder process, and accountable deci
+                                                              ntability.                                                    sion protocol.                                              
+
+Use predictive output as causal explanation.                  Predictive association may not reveal mechanism.              Causal design, mechanism evidence, and alternative explanati
+                                                                                                                            on review.                                                  

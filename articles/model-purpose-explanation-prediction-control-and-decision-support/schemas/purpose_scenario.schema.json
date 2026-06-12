@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PurposeScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "purpose",
+    "initial_stock",
+    "capacity",
+    "inflow",
+    "demand",
+    "loss_rate",
+    "control_action",
+    "periods"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "purpose": {"type": "string"},
+    "initial_stock": {"type": "number", "minimum": 0},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "inflow": {"type": "number", "minimum": 0},
+    "demand": {"type": "number", "minimum": 0},
+    "loss_rate": {"type": "number", "minimum": 0},
+    "control_action": {"type": "number", "minimum": 0},
+    "periods": {"type": "integer", "minimum": 1}
+  }
+}

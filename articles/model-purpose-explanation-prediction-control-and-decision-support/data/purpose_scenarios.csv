@@ -1,0 +1,7 @@
+scenario,purpose,initial_stock,capacity,inflow,demand,loss_rate,control_action,periods,description
+explanatory_baseline,explanation,80,100,8,6,0.015,0,60,Mechanism-oriented stock-flow demonstration
+prediction_low_inflow,prediction,80,100,5,6,0.015,0,60,Forecast-oriented lower inflow case
+control_demand_reduction,control,80,100,5,6,0.015,1.5,60,Control-oriented demand reduction case
+decision_support_stress,decision_support,70,80,5,7,0.030,0.5,60,Decision-support stress case
+simulation_extreme_case,simulation,60,75,4,7,0.035,0.25,80,Exploratory simulation stress case
+optimization_proxy_case,optimization,80,100,5,6,0.015,1.0,60,Optimization-style proxy control case

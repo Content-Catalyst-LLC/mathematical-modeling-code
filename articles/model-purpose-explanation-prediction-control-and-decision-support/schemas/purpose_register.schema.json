@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PurposeRecord",
+  "type": "object",
+  "required": [
+    "purpose",
+    "primary_question",
+    "design_emphasis",
+    "validation_standard",
+    "uncertainty_format",
+    "misuse_risk",
+    "supported_use_status"
+  ],
+  "properties": {
+    "purpose": {
+      "type": "string",
+      "enum": ["explanation", "prediction", "control", "decision_support", "simulation", "optimization"]
+    },
+    "primary_question": {"type": "string"},
+    "design_emphasis": {"type": "string"},
+    "validation_standard": {"type": "string"},
+    "uncertainty_format": {"type": "string"},
+    "misuse_risk": {"type": "string"},
+    "supported_use_status": {
+      "type": "string",
+      "enum": ["supported", "exploratory", "review", "revise", "prohibited"]
+    }
+  }
+}
