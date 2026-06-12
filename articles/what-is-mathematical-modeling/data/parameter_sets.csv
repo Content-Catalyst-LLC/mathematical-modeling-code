@@ -1,0 +1,6 @@
+parameter,value,units,role,notes
+initial_state,10.0,state units,initial condition,Initial condition for baseline
+growth_rate,0.35,1/time,parameter,Intrinsic growth rate
+carrying_capacity,100.0,state units,parameter,Upper bounded capacity
+time_step,0.1,time,numerical setting,Euler/RK4 time step
+steps,160,count,numerical setting,Number of simulation steps

@@ -1,0 +1,7 @@
+scenario,initial_state,growth_rate,carrying_capacity,time_step,steps,description
+baseline,10.0,0.35,100.0,0.1,160,Reference bounded-growth scenario
+low_growth,10.0,0.20,100.0,0.1,160,Lower intrinsic growth rate
+high_growth,10.0,0.50,100.0,0.1,160,Higher intrinsic growth rate
+lower_capacity,10.0,0.35,70.0,0.1,160,Reduced carrying capacity
+higher_capacity,10.0,0.35,140.0,0.1,160,Expanded carrying capacity
+stress_case,20.0,0.60,80.0,0.05,240,Smaller time step with faster growth and lower capacity

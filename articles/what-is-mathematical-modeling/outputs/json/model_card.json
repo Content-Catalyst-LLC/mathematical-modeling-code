@@ -1,0 +1,31 @@
+{
+  "article": "What Is Mathematical Modeling?",
+  "assumptions": [
+    "state is nonnegative",
+    "growth rate is constant within each run",
+    "carrying capacity is constant within each run",
+    "spatial heterogeneity is omitted",
+    "process and observation noise are omitted unless explicitly modeled"
+  ],
+  "baseline_parameters": {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "initial_state": 10.0,
+    "name": "baseline",
+    "steps": 96,
+    "time_step": 0.1
+  },
+  "equation": "dx/dt = r*x*(1 - x/K)",
+  "limitations": [
+    "not calibrated to a real empirical system",
+    "not valid for extrapolation beyond the stated demonstration purpose",
+    "does not include structural model-form uncertainty beyond scenario testing"
+  ],
+  "model_family": "nonlinear dynamic model",
+  "purpose": [
+    "demonstrate model framing",
+    "compare numerical methods",
+    "support scenario analysis",
+    "illustrate calibration and uncertainty"
+  ]
+}

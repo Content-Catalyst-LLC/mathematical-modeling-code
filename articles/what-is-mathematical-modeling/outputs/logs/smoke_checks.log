@@ -1,0 +1,38 @@
+Workflow complete.
+Wrote outputs to: outputs
+pytest: skipped_or_failed
+null device 
+          1 
+          scenario method final_state mean_state min_state max_state sd_state
+1         baseline  euler    75.95712   39.32393        10  75.95712 20.70853
+2      high_growth  euler    91.22548   50.95245        10  91.22548 26.94627
+3  higher_capacity  euler    95.82474   45.16339        10  95.82474 26.60138
+4       low_growth  euler    49.37873   26.49224        10  49.37873 11.77190
+5   lower_capacity  euler    57.89939   33.27911        10  57.89939 15.15144
+6         baseline    rk4    76.18367   39.60322        10  76.18367 20.80827
+7      high_growth    rk4    91.20379   51.26049        10  91.20379 26.93362
+8  higher_capacity    rk4    96.44807   45.64542        10  96.44807 26.85421
+9       low_growth    rk4    49.66939   26.64509        10  49.66939 11.86803
+10  lower_capacity    rk4    57.92728   33.40991        10  57.92728 15.16510
+baseline|0.35|100.0|0.1|160|Reference bounded-growth scenario
+high_growth|0.5|100.0|0.1|160|Higher intrinsic growth
+higher_capacity|0.35|140.0|0.1|160|Expanded capacity
+low_growth|0.2|100.0|0.1|160|Lower intrinsic growth
+lower_capacity|0.35|70.0|0.1|160|Reduced capacity
+active|2
+review|1
+Use logistic growth as opening model|Nonlinear bounded-growth differential equation|Simple enough to inspect but rich enough to demonstrate assumptions, parameters, numerical methods, and uncertainty.|Should not be mistaken for a universal population or engineering model.
+step=0 time=0.000 state=10.000000
+step=40 time=4.000 state=31.061952
+step=80 time=8.000 state=64.629102
+step=120 time=12.000 state=88.108817
+step=160 time=16.000 state=96.779116
+C RK4 final_state=96.886448
+C++ RK4 final_state=96.779116
+step=   0 time=   0.000 state=   10.000000
+step=  40 time=   4.000 state=   31.061952
+step=  80 time=   8.000 state=   64.629102
+step= 120 time=  12.000 state=   88.108817
+step= 160 time=  16.000 state=   96.779116
+Fortran RK4 final_state=   96.886448
+Go scenario=go_baseline final_state=96.779116
