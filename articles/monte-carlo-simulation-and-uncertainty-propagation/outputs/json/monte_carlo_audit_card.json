@@ -1,0 +1,190 @@
+{
+  "article": "Monte Carlo Simulation and Uncertainty Propagation",
+  "audit_checks": [
+    "input distributions are documented",
+    "replications and random seeds are recorded",
+    "output distributions include quantiles",
+    "threshold probabilities are reported",
+    "convergence diagnostics are preserved"
+  ],
+  "convergence_diagnostics": [
+    {
+      "replications_used": 50,
+      "running_depletion_probability": 0.94,
+      "running_mean_final_stock": 2.63314456,
+      "scenario": "baseline_uncertainty"
+    },
+    {
+      "replications_used": 100,
+      "running_depletion_probability": 0.91,
+      "running_mean_final_stock": 3.27006888,
+      "scenario": "baseline_uncertainty"
+    },
+    {
+      "replications_used": 250,
+      "running_depletion_probability": 0.92,
+      "running_mean_final_stock": 3.21500487,
+      "scenario": "baseline_uncertainty"
+    },
+    {
+      "replications_used": 500,
+      "running_depletion_probability": 0.92,
+      "running_mean_final_stock": 3.30010942,
+      "scenario": "baseline_uncertainty"
+    },
+    {
+      "replications_used": 1000,
+      "running_depletion_probability": 0.927,
+      "running_mean_final_stock": 2.75503151,
+      "scenario": "baseline_uncertainty"
+    },
+    {
+      "replications_used": 50,
+      "running_depletion_probability": 1.0,
+      "running_mean_final_stock": 0.0,
+      "scenario": "stress_uncertainty"
+    },
+    {
+      "replications_used": 100,
+      "running_depletion_probability": 1.0,
+      "running_mean_final_stock": 0.0,
+      "scenario": "stress_uncertainty"
+    },
+    {
+      "replications_used": 250,
+      "running_depletion_probability": 1.0,
+      "running_mean_final_stock": 0.0,
+      "scenario": "stress_uncertainty"
+    },
+    {
+      "replications_used": 500,
+      "running_depletion_probability": 1.0,
+      "running_mean_final_stock": 0.0,
+      "scenario": "stress_uncertainty"
+    },
+    {
+      "replications_used": 1000,
+      "running_depletion_probability": 1.0,
+      "running_mean_final_stock": 0.0,
+      "scenario": "stress_uncertainty"
+    }
+  ],
+  "high_priority_uncertainty_records": [],
+  "model_register": [
+    {
+      "component_type": "input_uncertainty",
+      "interpretation": "Uncertain inputs are represented by bounded distributions",
+      "key": "input_distributions",
+      "monte_carlo_risk_score": 6.0,
+      "review_question": "Are input ranges evidence-based and documented?",
+      "status": "review",
+      "uncertainty_structure": "uniform_ranges_for_stock_growth_extraction_and_shock_probability"
+    },
+    {
+      "component_type": "sampling_design",
+      "interpretation": "Replications propagate uncertainty through the model",
+      "key": "sampling_protocol",
+      "monte_carlo_risk_score": 3.0,
+      "review_question": "Are seed and replication count sufficient for reproducibility?",
+      "status": "active",
+      "uncertainty_structure": "pseudo_random_independent_draws_with_recorded_seed"
+    },
+    {
+      "component_type": "risk_metric",
+      "interpretation": "Risk is summarized as a depletion probability",
+      "key": "threshold_metric",
+      "monte_carlo_risk_score": 7.0,
+      "review_question": "Is the threshold appropriate for decision support?",
+      "status": "review",
+      "uncertainty_structure": "P_final_stock_less_than_or_equal_to_depletion_threshold"
+    },
+    {
+      "component_type": "convergence_diagnostic",
+      "interpretation": "Monte Carlo estimates should stabilize with more replications",
+      "key": "convergence_diagnostic",
+      "monte_carlo_risk_score": 7.0,
+      "review_question": "Do output summaries converge adequately?",
+      "status": "review",
+      "uncertainty_structure": "running_mean_and_threshold_probability_by_replication_count"
+    },
+    {
+      "component_type": "validation_diagnostic",
+      "interpretation": "Inputs are sampled independently unless otherwise specified",
+      "key": "dependence_assumption",
+      "monte_carlo_risk_score": 7.0,
+      "review_question": "Is independence plausible for the model purpose?",
+      "status": "review",
+      "uncertainty_structure": "independent_input_sampling"
+    },
+    {
+      "component_type": "output_distribution",
+      "interpretation": "Output distributions are summarized by quantiles",
+      "key": "quantile_summary",
+      "monte_carlo_risk_score": 2.0,
+      "review_question": "Are tail summaries communicated responsibly?",
+      "status": "active",
+      "uncertainty_structure": "p05_median_p95_final_stock"
+    }
+  ],
+  "output_summary": [
+    {
+      "depletion_probability": 0.927,
+      "max_final_stock": 63.20443701,
+      "mean_final_stock": 2.75503151,
+      "median_final_stock": 0.0,
+      "min_final_stock": 0.0,
+      "p05_final_stock": 0.0,
+      "p95_final_stock": 30.24580771,
+      "replications": 1000,
+      "scenario": "baseline_uncertainty"
+    },
+    {
+      "depletion_probability": 1.0,
+      "max_final_stock": 0.0,
+      "mean_final_stock": 0.0,
+      "median_final_stock": 0.0,
+      "min_final_stock": 0.0,
+      "p05_final_stock": 0.0,
+      "p95_final_stock": 0.0,
+      "replications": 1000,
+      "scenario": "stress_uncertainty"
+    }
+  ],
+  "scenario_count": 2,
+  "scenarios": [
+    {
+      "carrying_capacity": 100.0,
+      "depletion_threshold": 10.0,
+      "extraction_max": 8.0,
+      "extraction_min": 5.0,
+      "growth_rate_max": 0.22,
+      "growth_rate_min": 0.14,
+      "initial_stock_max": 75.0,
+      "initial_stock_min": 65.0,
+      "replications": 1000,
+      "scenario": "baseline_uncertainty",
+      "seed": 20260612,
+      "shock_fraction": 0.12,
+      "shock_probability_max": 0.08,
+      "shock_probability_min": 0.02,
+      "steps": 50
+    },
+    {
+      "carrying_capacity": 100.0,
+      "depletion_threshold": 10.0,
+      "extraction_max": 11.0,
+      "extraction_min": 7.0,
+      "growth_rate_max": 0.2,
+      "growth_rate_min": 0.1,
+      "initial_stock_max": 75.0,
+      "initial_stock_min": 60.0,
+      "replications": 1000,
+      "scenario": "stress_uncertainty",
+      "seed": 20260613,
+      "shock_fraction": 0.22,
+      "shock_probability_max": 0.18,
+      "shock_probability_min": 0.08,
+      "steps": 50
+    }
+  ]
+}

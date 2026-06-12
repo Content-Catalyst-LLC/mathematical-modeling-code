@@ -1,0 +1,9 @@
+scenario,input_field,mean_when_depleted,mean_when_not_depleted,difference_depleted_minus_not_depleted
+baseline_uncertainty,sampled_initial_stock,69.97845626,70.02530423,-0.04684797
+baseline_uncertainty,sampled_growth_rate,0.1788422,0.20608531,-0.02724311
+baseline_uncertainty,sampled_extraction,6.60472754,5.33660928,1.26811826
+baseline_uncertainty,sampled_shock_probability,0.05019554,0.04439968,0.00579587
+stress_uncertainty,sampled_initial_stock,67.53218823,,
+stress_uncertainty,sampled_growth_rate,0.14800925,,
+stress_uncertainty,sampled_extraction,9.00265012,,
+stress_uncertainty,sampled_shock_probability,0.1297152,,

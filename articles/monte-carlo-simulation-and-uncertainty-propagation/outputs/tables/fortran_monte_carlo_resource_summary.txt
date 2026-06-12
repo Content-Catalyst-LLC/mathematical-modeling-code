@@ -1,0 +1,2 @@
+replications mean_final_stock depletion_probability
+1000     2.9311     0.9250

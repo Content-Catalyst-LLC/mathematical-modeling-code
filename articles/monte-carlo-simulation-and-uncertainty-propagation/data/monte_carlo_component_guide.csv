@@ -1,0 +1,9 @@
+component_type,meaning,example,review_question
+input_uncertainty,Uncertain model input,bounded growth-rate distribution,Is distribution justified?
+sampling_design,Procedure for generating random draws,pseudo-random independent draws,Does design match uncertainty structure?
+random_seed_protocol,Reproducibility rule,recorded seed per scenario,Can results be rerun?
+output_distribution,Distribution of model outputs,final stock quantiles,Are quantiles and tails reported?
+risk_metric,Threshold-based output,P(final stock <= 10),Is threshold meaningful?
+convergence_diagnostic,Replication adequacy check,running probability,Do estimates stabilize?
+sensitivity_diagnostic,Uncertainty attribution,input-output association,Which inputs drive risk?
+validation_diagnostic,Credibility check,distribution and plausibility review,Is uncertainty model credible?

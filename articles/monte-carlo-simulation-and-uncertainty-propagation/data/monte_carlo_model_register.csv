@@ -1,0 +1,7 @@
+key,component_type,uncertainty_structure,interpretation,review_question,status
+input_distributions,input_uncertainty,uniform_ranges_for_stock_growth_extraction_and_shock_probability,Uncertain inputs are represented by bounded distributions,Are input ranges evidence-based and documented?,review
+sampling_protocol,sampling_design,pseudo_random_independent_draws_with_recorded_seed,Replications propagate uncertainty through the model,Are seed and replication count sufficient for reproducibility?,active
+threshold_metric,risk_metric,P_final_stock_less_than_or_equal_to_depletion_threshold,Risk is summarized as a depletion probability,Is the threshold appropriate for decision support?,review
+convergence_diagnostic,convergence_diagnostic,running_mean_and_threshold_probability_by_replication_count,Monte Carlo estimates should stabilize with more replications,Do output summaries converge adequately?,review
+dependence_assumption,validation_diagnostic,independent_input_sampling,Inputs are sampled independently unless otherwise specified,Is independence plausible for the model purpose?,review
+quantile_summary,output_distribution,p05_median_p95_final_stock,Output distributions are summarized by quantiles,Are tail summaries communicated responsibly?,active

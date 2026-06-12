@@ -1,0 +1,3 @@
+scenario,initial_stock_min,initial_stock_max,growth_rate_min,growth_rate_max,extraction_min,extraction_max,shock_probability_min,shock_probability_max,shock_fraction,carrying_capacity,steps,replications,depletion_threshold,seed
+baseline_uncertainty,65.0,75.0,0.14,0.22,5.0,8.0,0.02,0.08,0.12,100.0,50,1000,10.0,20260612
+stress_uncertainty,60.0,75.0,0.10,0.20,7.0,11.0,0.08,0.18,0.22,100.0,50,1000,10.0,20260613

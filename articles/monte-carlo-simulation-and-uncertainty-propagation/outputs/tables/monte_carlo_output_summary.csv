@@ -1,0 +1,3 @@
+scenario,replications,mean_final_stock,median_final_stock,p05_final_stock,p95_final_stock,min_final_stock,max_final_stock,depletion_probability
+baseline_uncertainty,1000,2.75503151,0.0,0.0,30.24580771,0.0,63.20443701,0.927
+stress_uncertainty,1000,0.0,0.0,0.0,0.0,0.0,0.0,1.0

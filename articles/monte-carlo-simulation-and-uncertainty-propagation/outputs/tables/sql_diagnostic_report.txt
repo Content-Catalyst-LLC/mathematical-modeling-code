@@ -1,0 +1,53 @@
+section                    
+---------------------------
+MONTE CARLO COMPONENT TYPES
+component_type          description                             typical_failure                                      
+----------------------  --------------------------------------  -----------------------------------------------------
+convergence_diagnostic  Replication adequacy check.             Monte Carlo estimates are unstable.                  
+input_uncertainty       Uncertain model input.                  Input distributions are arbitrary or undocumented.   
+output_distribution     Distribution of model outputs.          Only averages are reported.                          
+random_seed_protocol    Reproducibility rule.                   Seeds are not recorded.                              
+risk_metric             Threshold-based output.                 Threshold choice is unjustified.                     
+sampling_design         Procedure for generating random draws.  Sampling design does not match uncertainty structure.
+sensitivity_diagnostic  Uncertainty attribution.                Drivers of risk are not identified.                  
+validation_diagnostic   Credibility check.                      Sampling is mistaken for validation.                 
+section                             
+------------------------------------
+MONTE CARLO RECORDS REQUIRING REVIEW
+record_key              component_type          uncertainty_structure                                         review_question                                   
+----------------------  ----------------------  ------------------------------------------------------------  --------------------------------------------------
+input_distributions     input_uncertainty       uniform_ranges_for_stock_growth_extraction_and_shock_probabi  Are input ranges evidence-based and documented?   
+                                                lity                                                                                                            
+
+threshold_metric        risk_metric             P_final_stock_less_than_or_equal_to_depletion_threshold       Is the threshold appropriate for decision support?
+
+convergence_diagnostic  convergence_diagnostic  running_mean_and_threshold_probability_by_replication_count   Do output summaries converge adequately?          
+
+dependence_assumption   validation_diagnostic   independent_input_sampling                                    Is independence plausible for the model purpose?  
+section              
+---------------------
+MONTE CARLO SCENARIOS
+scenario              initial_stock_min  initial_stock_max  growth_rate_min  growth_rate_max  extraction_min  extraction_max  shock_probability_min  shock_probability_max  replications  seed    
+--------------------  -----------------  -----------------  ---------------  ---------------  --------------  --------------  ---------------------  ---------------------  ------------  --------
+baseline_uncertainty  65.0               75.0               0.14             0.22             5.0             8.0             0.02                   0.08                   1000          20260612
+stress_uncertainty    60.0               75.0               0.1              0.2              7.0             11.0            0.08                   0.18                   1000          20260613
+section                
+-----------------------
+UNCERTAINTY RANGE CHECK
+scenario              initial_stock_range  growth_rate_range  extraction_range  shock_probability_range  replications
+--------------------  -------------------  -----------------  ----------------  -----------------------  ------------
+baseline_uncertainty  10.0                 0.08               3.0               0.06                     1000        
+stress_uncertainty    15.0                 0.1                4.0               0.1                      1000        
+section                    
+---------------------------
+MONTE CARLO COMPONENT GUIDE
+component_type          meaning                                example                               review_question                         
+----------------------  -------------------------------------  ------------------------------------  ----------------------------------------
+convergence_diagnostic  Replication adequacy check             running probability                   Do estimates stabilize?                 
+input_uncertainty       Uncertain model input                  bounded growth-rate distribution      Is distribution justified?              
+output_distribution     Distribution of model outputs          final stock quantiles                 Are quantiles and tails reported?       
+random_seed_protocol    Reproducibility rule                   recorded seed per scenario            Can results be rerun?                   
+risk_metric             Threshold-based output                 P(final stock <= 10)                  Is threshold meaningful?                
+sampling_design         Procedure for generating random draws  pseudo-random independent draws       Does design match uncertainty structure?
+sensitivity_diagnostic  Uncertainty attribution                input-output association              Which inputs drive risk?                
+validation_diagnostic   Credibility check                      distribution and plausibility review  Is uncertainty model credible?          

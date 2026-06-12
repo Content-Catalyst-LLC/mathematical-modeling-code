@@ -1,0 +1,11 @@
+scenario,replications_used,running_mean_final_stock,running_depletion_probability
+baseline_uncertainty,50,2.63314456,0.94
+baseline_uncertainty,100,3.27006888,0.91
+baseline_uncertainty,250,3.21500487,0.92
+baseline_uncertainty,500,3.30010942,0.92
+baseline_uncertainty,1000,2.75503151,0.927
+stress_uncertainty,50,0.0,1.0
+stress_uncertainty,100,0.0,1.0
+stress_uncertainty,250,0.0,1.0
+stress_uncertainty,500,0.0,1.0
+stress_uncertainty,1000,0.0,1.0

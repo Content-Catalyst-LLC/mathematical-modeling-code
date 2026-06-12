@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MonteCarloModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "component_type",
+    "uncertainty_structure",
+    "interpretation",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "component_type": {
+      "type": "string",
+      "enum": ["input_uncertainty", "sampling_design", "random_seed_protocol", "output_distribution", "risk_metric", "convergence_diagnostic", "sensitivity_diagnostic", "validation_diagnostic"]
+    },
+    "uncertainty_structure": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

@@ -1,0 +1,43 @@
+
+[1;34m[17:06:42][0m Python workflow
+Monte Carlo uncertainty propagation workflow complete.
+Monte Carlo records: 6
+Scenarios: 2
+Replications: 2000
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[17:06:42][0m R workflow
+null device 
+          1 
+              scenario replications mean_final_stock median_final_stock
+1 baseline_uncertainty         1000         2.755032                  0
+2   stress_uncertainty         1000         0.000000                  0
+  p05_final_stock p95_final_stock min_final_stock max_final_stock
+1               0        30.24581               0        63.20444
+2               0         0.00000               0         0.00000
+  depletion_probability        review_class
+1                 0.927 high depletion risk
+2                 1.000 high depletion risk
+
+[1;34m[17:06:43][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/monte_carlo_uncertainty_propagation.sqlite < sql/schema.sql
+sqlite3 outputs/tables/monte_carlo_uncertainty_propagation.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[17:06:43][0m Go workflow
+cd go && go run main.go
+replications=1000 mean_final_stock=3.083625 depletion_probability=0.917000
+
+[1;34m[17:06:43][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 monte_carlo_resource_model.cpp -o monte_carlo_resource_model
+./monte_carlo_resource_model > ../outputs/tables/cpp_monte_carlo_resource_summary.csv
+
+[1;34m[17:06:44][0m Fortran workflow
+gfortran -O2 fortran/monte_carlo_resource_model.f90 -o outputs/monte_carlo_resource_model_fortran
+./outputs/monte_carlo_resource_model_fortran > outputs/tables/fortran_monte_carlo_resource_summary.txt
+
+[1;34m[17:06:45][0m C workflow
+cc -O2 -std=c11 c/monte_carlo_resource_model.c -o outputs/monte_carlo_resource_model_c
+./outputs/monte_carlo_resource_model_c > outputs/tables/c_monte_carlo_resource_summary.csv 2> outputs/logs/c_monte_carlo_stderr.log

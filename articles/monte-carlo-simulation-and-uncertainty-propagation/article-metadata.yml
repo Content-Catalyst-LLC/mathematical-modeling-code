@@ -1,0 +1,19 @@
+actual_title: "Monte Carlo Simulation and Uncertainty Propagation"
+suggested_seo_title: "Monte Carlo Simulation and Uncertainty Propagation in Mathematical Modeling"
+focus_keyword: "Monte Carlo simulation and uncertainty propagation"
+slug: "monte-carlo-simulation-and-uncertainty-propagation"
+series: "Mathematical Modeling"
+article_order:
+  previous: "numerical-methods-for-mathematical-models"
+  current: "monte-carlo-simulation-and-uncertainty-propagation"
+  next: "scientific-computing-for-modeling-workflows"
+tags:
+  - Mathematical Modeling
+  - Monte Carlo Simulation
+  - Uncertainty Propagation
+  - Risk Analysis
+  - Scientific Computing
+  - Simulation
+  - Model Validation
+  - Decision Support
+excerpt_139_words: "Monte Carlo simulation and uncertainty propagation use repeated random sampling to study how uncertain inputs shape uncertain model outputs. Instead of treating parameters, assumptions, and forecasts as fixed values, Monte Carlo methods represent uncertainty with probability distributions, sampled scenarios, ensembles, quantiles, confidence intervals, exceedance probabilities, and sensitivity diagnostics. This article explains how Monte Carlo simulation supports mathematical modeling by propagating uncertainty through equations, simulations, decision models, risk assessments, and computational workflows. It examines random variables, sampling design, input distributions, correlations, convergence, replication, pseudo-random seeds, variance reduction, output distributions, scenario comparison, validation, reproducibility, and communication. It also shows why Monte Carlo results should not be confused with certainty: output distributions inherit assumptions from input choices, model structure, data quality, and sampling design. Used responsibly, Monte Carlo simulation helps analysts reason about risk, fragility, thresholds, uncertainty, and decisions across complex systems."

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MonteCarloScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "initial_stock_min",
+    "initial_stock_max",
+    "growth_rate_min",
+    "growth_rate_max",
+    "extraction_min",
+    "extraction_max",
+    "shock_probability_min",
+    "shock_probability_max",
+    "shock_fraction",
+    "carrying_capacity",
+    "steps",
+    "replications",
+    "depletion_threshold",
+    "seed"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_stock_min": {"type": "number", "minimum": 0},
+    "initial_stock_max": {"type": "number", "minimum": 0},
+    "growth_rate_min": {"type": "number", "minimum": 0},
+    "growth_rate_max": {"type": "number", "minimum": 0},
+    "extraction_min": {"type": "number", "minimum": 0},
+    "extraction_max": {"type": "number", "minimum": 0},
+    "shock_probability_min": {"type": "number", "minimum": 0, "maximum": 1},
+    "shock_probability_max": {"type": "number", "minimum": 0, "maximum": 1},
+    "shock_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+    "carrying_capacity": {"type": "number", "exclusiveMinimum": 0},
+    "steps": {"type": "integer", "minimum": 1},
+    "replications": {"type": "integer", "minimum": 1},
+    "depletion_threshold": {"type": "number"},
+    "seed": {"type": "integer"}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "article_slug": "monte-carlo-simulation-and-uncertainty-propagation",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "monte-carlo-uncertainty-governance",
+  "cards": [
+    {
+      "card_id": "uncertainty-register",
+      "title": "Uncertainty Register",
+      "description": "Tracks input distributions, sampling design, seed protocols, output distributions, threshold metrics, convergence diagnostics, sensitivity diagnostics, and validation review."
+    },
+    {
+      "card_id": "threshold-risk-review",
+      "title": "Threshold Risk Review",
+      "description": "Documents depletion, failure, exceedance, or safety thresholds and the modeled probability of crossing them."
+    },
+    {
+      "card_id": "monte-carlo-convergence",
+      "title": "Monte Carlo Convergence",
+      "description": "Records running means, threshold probabilities, quantile stability, and seed/replication diagnostics."
+    }
+  ],
+  "governance": {
+    "requires_uncertainty_register": true,
+    "requires_distribution_notes": true,
+    "requires_seed_and_replication_log": true,
+    "requires_output_quantiles": true,
+    "requires_threshold_probability": true,
+    "requires_convergence_diagnostics": true,
+    "requires_use_limit_statement": true
+  }
+}
