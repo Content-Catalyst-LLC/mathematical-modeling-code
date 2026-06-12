@@ -1,0 +1,29 @@
+{
+  "article_slug": "state-variables-and-system-representation",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "state-representation-governance",
+  "cards": [
+    {
+      "card_id": "state-variable-register",
+      "title": "State Variable Register",
+      "description": "Tracks state type, unit, interpretation, update role, observability, review question, and status."
+    },
+    {
+      "card_id": "representation-comparison",
+      "title": "Representation Comparison",
+      "description": "Compares storage-only, adaptive-demand, and condition-aware state specifications."
+    },
+    {
+      "card_id": "observability-audit",
+      "title": "Observability Audit",
+      "description": "Reviews directly observed, partially observed, proxy observed, hidden, and latent state variables."
+    }
+  ],
+  "governance": {
+    "requires_state_register": true,
+    "requires_variable_role_table": true,
+    "requires_observability_review": true,
+    "requires_alternative_state_comparison": true,
+    "requires_omitted_state_note": true
+  }
+}

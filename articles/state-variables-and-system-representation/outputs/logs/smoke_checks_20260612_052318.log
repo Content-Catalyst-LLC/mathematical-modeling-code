@@ -1,0 +1,59 @@
+
+[1;34m[05:23:21][0m Python workflow
+State variables and system representation workflow complete.
+State variables: 4
+Scenarios: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[05:23:21][0m R workflow
+null device 
+          1 
+                    scenario  representation final_storage mean_storage
+1      storage_only_baseline    storage_only             0    30.417984
+2     adaptive_demand_stress adaptive_demand             0     3.951491
+3     condition_aware_stress condition_aware             0     3.881597
+4 high_capacity_storage_only    storage_only             0    30.417984
+  final_demand final_condition shortage_periods overflow_periods
+1     7.000000       1.0000000                9                0
+2     4.000058       1.0000000               51                0
+3     4.000056       0.8100006               52                0
+4     7.000000       1.0000000                9                0
+  domain_violations total_shortage total_overflow
+1                 0       8.832455              0
+2                 0      19.999769              0
+3                 0      19.999777              0
+4                 0       8.832455              0
+                                                description
+1                       Minimal storage-only representation
+2                 State representation with adaptive demand
+3 State representation with latent infrastructure condition
+4                   Larger-capacity storage-only comparison
+                           representation_review
+1 state representation activates stress behavior
+2 state representation activates stress behavior
+3 state representation activates stress behavior
+4 state representation activates stress behavior
+
+[1;34m[05:23:21][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/state_variables_system_representation.sqlite < sql/schema.sql
+sqlite3 outputs/tables/state_variables_system_representation.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[05:23:21][0m Go workflow
+cd go && go run main.go
+go_storage_only representation=storage_only final_storage=0.000 final_demand=7.000 final_condition=1.000 total_shortage=8.832
+go_condition_aware representation=condition_aware final_storage=0.000 final_demand=4.000 final_condition=0.810 total_shortage=20.000
+
+[1;34m[05:23:22][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 state_representation_resource_model.cpp -o state_representation_resource_model
+./state_representation_resource_model > ../outputs/tables/cpp_state_representation_summary.txt
+
+[1;34m[05:23:23][0m Fortran workflow
+gfortran -O2 fortran/state_representation_resource_model.f90 -o outputs/state_representation_resource_model_fortran
+./outputs/state_representation_resource_model_fortran > outputs/tables/fortran_state_representation_summary.txt
+
+[1;34m[05:23:24][0m C workflow
+cc -O2 -std=c11 c/state_representation_resource_model.c -o outputs/state_representation_resource_model_c
+./outputs/state_representation_resource_model_c > outputs/tables/c_state_representation_summary.csv 2> outputs/logs/c_state_representation_stderr.log

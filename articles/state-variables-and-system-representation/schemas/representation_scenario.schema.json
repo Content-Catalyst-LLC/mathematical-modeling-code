@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepresentationScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "representation",
+    "initial_storage",
+    "initial_demand",
+    "initial_condition",
+    "capacity",
+    "inflow",
+    "loss_rate",
+    "demand_response",
+    "condition_decay",
+    "periods"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "representation": {"type": "string", "enum": ["storage_only", "adaptive_demand", "condition_aware"]},
+    "initial_storage": {"type": "number", "minimum": 0},
+    "initial_demand": {"type": "number", "minimum": 0},
+    "initial_condition": {"type": "number", "minimum": 0, "maximum": 1},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "inflow": {"type": "number", "minimum": 0},
+    "loss_rate": {"type": "number", "minimum": 0, "maximum": 1},
+    "demand_response": {"type": "number", "minimum": 0},
+    "condition_decay": {"type": "number", "minimum": 0},
+    "periods": {"type": "integer", "minimum": 1}
+  }
+}

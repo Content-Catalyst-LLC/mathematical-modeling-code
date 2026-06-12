@@ -1,0 +1,5 @@
+"scenario","representation","final_storage","mean_storage","final_demand","final_condition","shortage_periods","overflow_periods","domain_violations","total_shortage","total_overflow","description","representation_review"
+"storage_only_baseline","storage_only",0,30.41798383,7,1,9,0,0,8.8324552,0,"Minimal storage-only representation","state representation activates stress behavior"
+"adaptive_demand_stress","adaptive_demand",0,3.95149104,4.00005773,1,51,0,0,19.99976905,0,"State representation with adaptive demand","state representation activates stress behavior"
+"condition_aware_stress","condition_aware",0,3.88159685,4.00005582,0.81000056,52,0,0,19.99977674,0,"State representation with latent infrastructure condition","state representation activates stress behavior"
+"high_capacity_storage_only","storage_only",0,30.41798383,7,1,9,0,0,8.8324552,0,"Larger-capacity storage-only comparison","state representation activates stress behavior"

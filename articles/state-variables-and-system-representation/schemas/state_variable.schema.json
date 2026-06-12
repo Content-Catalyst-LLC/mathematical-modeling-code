@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StateVariable",
+  "type": "object",
+  "required": [
+    "key",
+    "state_type",
+    "unit",
+    "interpretation",
+    "update_role",
+    "observability",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "state_type": {"type": "string"},
+    "unit": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "update_role": {"type": "string"},
+    "observability": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

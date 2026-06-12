@@ -1,0 +1,5 @@
+scenario,representation,initial_storage,initial_demand,initial_condition,capacity,inflow,loss_rate,demand_response,condition_decay,periods,description
+storage_only_baseline,storage_only,80,7,1.0,100,6,0.015,0.0,0.0,60,Minimal storage-only representation
+adaptive_demand_stress,adaptive_demand,45,8,1.0,80,4,0.020,0.20,0.0,60,State representation with adaptive demand
+condition_aware_stress,condition_aware,45,8,0.85,80,4,0.020,0.20,0.002,60,State representation with latent infrastructure condition
+high_capacity_storage_only,storage_only,80,7,1.0,150,6,0.015,0.0,0.0,60,Larger-capacity storage-only comparison

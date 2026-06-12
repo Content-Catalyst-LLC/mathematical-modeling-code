@@ -1,0 +1,42 @@
+section    
+-----------
+STATE TYPES
+state_type         description                                               typical_failure                                   
+-----------------  --------------------------------------------------------  --------------------------------------------------
+adaptive_state     State that changes in response to stress or feedback.     Adaptive behavior is treated as an external input.
+continuous_stock   Accumulated continuous quantity that persists over time.  Stocks are confused with flows or outputs.        
+derived_output     Output calculated from state and inputs.                  Output is mistaken for state.                     
+distributed_state  State repeated across nodes agents or regions.            Heterogeneity is hidden by aggregation.           
+latent_condition   Hidden or proxy-observed system condition.                Unobserved state is treated as known.             
+section                       
+------------------------------
+STATE RECORDS REQUIRING REVIEW
+state_key                 state_type        unit                       observability       review_question                                             
+------------------------  ----------------  -------------------------  ------------------  ------------------------------------------------------------
+demand                    adaptive_state    resource_units_per_period  partially_observed  Is demand truly stateful or should it be treated as external
+                                                                                            input?                                                     
+
+infrastructure_condition  latent_condition  dimensionless_index        proxy_observed      Is the condition index validated or only assumed?           
+
+shortage                  derived_output    resource_units             reported_output     Is shortage a state output or accumulated backlog?          
+section                 
+------------------------
+REPRESENTATION SCENARIOS
+scenario                    representation   initial_storage  initial_demand  initial_condition  capacity  inflow  loss_rate  periods
+--------------------------  ---------------  ---------------  --------------  -----------------  --------  ------  ---------  -------
+adaptive_demand_stress      adaptive_demand  45.0             8.0             1.0                80.0      4.0     0.02       60     
+condition_aware_stress      condition_aware  45.0             8.0             0.85               80.0      4.0     0.02       60     
+high_capacity_storage_only  storage_only     80.0             7.0             1.0                150.0     6.0     0.015      60     
+storage_only_baseline       storage_only     80.0             7.0             1.0                100.0     6.0     0.015      60     
+section            
+-------------------
+VARIABLE ROLE GUIDE
+role                meaning                                      example                   review_question                                          
+------------------  -------------------------------------------  ------------------------  ---------------------------------------------------------
+decision_variable   Quantity chosen by decision-maker            release amount            Who controls it and under what constraints?              
+derived_diagnostic  Quantity calculated from state and inputs    overflow or shortage      Is it being mistaken for state?                          
+input               External driver or action                    rainfall or intervention  Is this controlled observed or assumed?                  
+latent_state        Hidden condition inferred from observations  infrastructure condition  Can it be identified from data?                          
+output              Reported or observed result                  shortage or cost          Is this derived or directly observed?                    
+parameter           Fixed or slowly varying value                capacity or loss rate     Is this estimated calibrated assumed or scenario-defined?
+state_variable      Describes current system condition           storage                   Does this quantity persist and affect future behavior?   

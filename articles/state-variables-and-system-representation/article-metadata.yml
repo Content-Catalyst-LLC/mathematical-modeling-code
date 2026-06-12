@@ -1,0 +1,19 @@
+actual_title: "State Variables and System Representation"
+suggested_seo_title: "State Variables and System Representation in Mathematical Modeling"
+focus_keyword: "state variables and system representation"
+slug: "state-variables-and-system-representation"
+series: "Mathematical Modeling"
+article_order:
+  previous: "dimensional-analysis-units-and-scale"
+  current: "state-variables-and-system-representation"
+  next: "algebraic-models-and-static-relationships"
+tags:
+  - Mathematical Modeling
+  - State Variables
+  - System Representation
+  - Dynamic Models
+  - State Space
+  - Model Design
+  - Applied Mathematics
+  - Model Validation
+excerpt_139_words: "State variables and system representation determine how a mathematical model describes what a system is, how it changes, and what information is needed to predict or interpret its future behavior. A state variable captures a quantity that summarizes a system’s condition at a given time, such as storage, population, temperature, infection status, capital, inventory, position, belief, or risk level. System representation organizes those variables into equations, diagrams, matrices, networks, simulations, or state-space forms. This article explains how state variables differ from inputs, outputs, parameters, and decision variables; why state selection shapes model behavior; and how representation affects dynamics, feedback, memory, observability, control, and validation. By treating state as a design choice rather than a technical afterthought, modelers can build clearer, more testable, and more responsible models across science, engineering, policy, ecology, economics, and complex systems in real-world practice today."

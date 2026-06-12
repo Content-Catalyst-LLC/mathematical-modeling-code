@@ -1,0 +1,115 @@
+{
+  "article": "State Variables and System Representation",
+  "high_priority_state_records": [],
+  "representation_review_questions": [
+    "Does the state contain enough information to update the system?",
+    "Which variables are state, input, output, parameter, or derived diagnostic?",
+    "Are hidden or proxy states clearly documented?",
+    "Does aggregation hide important state variation?",
+    "Do conclusions change under alternative state representations?"
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Minimal storage-only representation",
+      "domain_violations": 0,
+      "final_condition": 1.0,
+      "final_demand": 7.0,
+      "final_storage": 0.0,
+      "mean_storage": 30.41798383,
+      "overflow_periods": 0,
+      "representation": "storage_only",
+      "scenario": "storage_only_baseline",
+      "shortage_periods": 9,
+      "total_overflow": 0.0,
+      "total_shortage": 8.8324552
+    },
+    {
+      "description": "State representation with adaptive demand",
+      "domain_violations": 0,
+      "final_condition": 1.0,
+      "final_demand": 4.00005773,
+      "final_storage": 0.0,
+      "mean_storage": 3.95149104,
+      "overflow_periods": 0,
+      "representation": "adaptive_demand",
+      "scenario": "adaptive_demand_stress",
+      "shortage_periods": 51,
+      "total_overflow": 0.0,
+      "total_shortage": 19.99976905
+    },
+    {
+      "description": "State representation with latent infrastructure condition",
+      "domain_violations": 0,
+      "final_condition": 0.81000056,
+      "final_demand": 4.00005582,
+      "final_storage": 0.0,
+      "mean_storage": 3.88159685,
+      "overflow_periods": 0,
+      "representation": "condition_aware",
+      "scenario": "condition_aware_stress",
+      "shortage_periods": 52,
+      "total_overflow": 0.0,
+      "total_shortage": 19.99977674
+    },
+    {
+      "description": "Larger-capacity storage-only comparison",
+      "domain_violations": 0,
+      "final_condition": 1.0,
+      "final_demand": 7.0,
+      "final_storage": 0.0,
+      "mean_storage": 30.41798383,
+      "overflow_periods": 0,
+      "representation": "storage_only",
+      "scenario": "high_capacity_storage_only",
+      "shortage_periods": 9,
+      "total_overflow": 0.0,
+      "total_shortage": 8.8324552
+    }
+  ],
+  "state_register": [
+    {
+      "interpretation": "Current stored resource",
+      "key": "storage",
+      "observability": "directly_observed",
+      "review_question": "Does storage remain within capacity and nonnegativity bounds?",
+      "state_risk_score": 2.0,
+      "state_type": "continuous_stock",
+      "status": "active",
+      "unit": "resource_units",
+      "update_role": "Updated by inflow demand and loss"
+    },
+    {
+      "interpretation": "Demand that can adapt after shortage",
+      "key": "demand",
+      "observability": "partially_observed",
+      "review_question": "Is demand truly stateful or should it be treated as external input?",
+      "state_risk_score": 7.0,
+      "state_type": "adaptive_state",
+      "status": "review",
+      "unit": "resource_units_per_period",
+      "update_role": "Updated by shortage response logic"
+    },
+    {
+      "interpretation": "Condition of infrastructure supporting storage and delivery",
+      "key": "infrastructure_condition",
+      "observability": "proxy_observed",
+      "review_question": "Is the condition index validated or only assumed?",
+      "state_risk_score": 7.0,
+      "state_type": "latent_condition",
+      "status": "review",
+      "unit": "dimensionless_index",
+      "update_role": "Degrades under stress and affects effective loss"
+    },
+    {
+      "interpretation": "Unmet demand after update",
+      "key": "shortage",
+      "observability": "reported_output",
+      "review_question": "Is shortage a state output or accumulated backlog?",
+      "state_risk_score": 6.0,
+      "state_type": "derived_output",
+      "status": "review",
+      "unit": "resource_units",
+      "update_role": "Derived from raw next-state balance"
+    }
+  ]
+}

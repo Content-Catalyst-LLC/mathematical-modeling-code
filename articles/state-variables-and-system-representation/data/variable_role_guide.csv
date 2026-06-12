@@ -1,0 +1,8 @@
+role,meaning,example,review_question
+state_variable,Describes current system condition,storage,Does this quantity persist and affect future behavior?
+input,External driver or action,rainfall or intervention,Is this controlled observed or assumed?
+output,Reported or observed result,shortage or cost,Is this derived or directly observed?
+parameter,Fixed or slowly varying value,capacity or loss rate,Is this estimated calibrated assumed or scenario-defined?
+decision_variable,Quantity chosen by decision-maker,release amount,Who controls it and under what constraints?
+latent_state,Hidden condition inferred from observations,infrastructure condition,Can it be identified from data?
+derived_diagnostic,Quantity calculated from state and inputs,overflow or shortage,Is it being mistaken for state?
