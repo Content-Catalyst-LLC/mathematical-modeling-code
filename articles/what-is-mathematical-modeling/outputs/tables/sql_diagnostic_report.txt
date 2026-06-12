@@ -1,0 +1,31 @@
+section  
+---------
+SCENARIOS
+scenario         growth_rate  carrying_capacity  time_step  steps  description                      
+---------------  -----------  -----------------  ---------  -----  ---------------------------------
+baseline         0.35         100.0              0.1        160    Reference bounded-growth scenario
+high_growth      0.5          100.0              0.1        160    Higher intrinsic growth          
+higher_capacity  0.35         140.0              0.1        160    Expanded capacity                
+low_growth       0.2          100.0              0.1        160    Lower intrinsic growth           
+lower_capacity   0.35         70.0               0.1        160    Reduced capacity                 
+section          
+-----------------
+ASSUMPTION REVIEW
+review_status  assumption_count
+-------------  ----------------
+active         1               
+review         2               
+section                     
+----------------------------
+ASSUMPTIONS REQUIRING REVIEW
+assumption_key        risk_if_false                                     sensitivity_test                       
+--------------------  ------------------------------------------------  ---------------------------------------
+constant_growth_rate  Time-varying dynamics may be hidden.              Compare growth-rate scenarios.         
+homogeneous_state     Spatial or subgroup heterogeneity may be hidden.  Extend to multi-state or spatial model.
+section         
+----------------
+DECISION RECORDS
+decision_title                        modeling_choice                                 rationale                                                     implications                                                
+------------------------------------  ----------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Use logistic growth as opening model  Nonlinear bounded-growth differential equation  Simple enough to inspect but rich enough to demonstrate assu  Should not be mistaken for a universal population or enginee
+                                                                                      mptions, parameters, numerical methods, and uncertainty.      ring model.                                                 

@@ -10,6 +10,8 @@ from .core import (
     sensitivity_oat,
     monte_carlo_uncertainty,
     residual_diagnostics,
+    load_scenarios,
+    build_model_card,
 )
 
 __all__ = [
@@ -22,4 +24,6 @@ __all__ = [
     "sensitivity_oat",
     "monte_carlo_uncertainty",
     "residual_diagnostics",
+    "load_scenarios",
+    "build_model_card",
 ]

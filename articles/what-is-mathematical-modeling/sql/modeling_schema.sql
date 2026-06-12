@@ -1,16 +1,18 @@
 -- Modeling governance and reproducibility schema for "What Is Mathematical Modeling?"
 
+DROP TABLE IF EXISTS validation_metrics;
 DROP TABLE IF EXISTS model_runs;
 DROP TABLE IF EXISTS scenario_parameters;
-DROP TABLE IF EXISTS validation_metrics;
 DROP TABLE IF EXISTS model_assumptions;
 DROP TABLE IF EXISTS decision_records;
 
 CREATE TABLE model_assumptions (
     assumption_id INTEGER PRIMARY KEY,
     article_slug TEXT NOT NULL,
+    assumption_key TEXT NOT NULL,
     assumption_text TEXT NOT NULL,
     risk_if_false TEXT NOT NULL,
+    sensitivity_test TEXT NOT NULL,
     review_status TEXT NOT NULL CHECK (review_status IN ('active', 'review', 'revise', 'archive'))
 );
 
@@ -31,6 +33,7 @@ CREATE TABLE model_runs (
     run_timestamp TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     output_path TEXT NOT NULL,
     code_version TEXT,
+    review_status TEXT NOT NULL CHECK (review_status IN ('active', 'review', 'revise', 'archive')),
     FOREIGN KEY (scenario) REFERENCES scenario_parameters(scenario)
 );
 
@@ -54,10 +57,10 @@ CREATE TABLE decision_records (
     review_date TEXT NOT NULL
 );
 
-INSERT INTO model_assumptions(article_slug, assumption_text, risk_if_false, review_status) VALUES
-('what-is-mathematical-modeling', 'Growth is bounded by a fixed carrying capacity within each scenario.', 'Model may misrepresent systems with changing capacity or external shocks.', 'active'),
-('what-is-mathematical-modeling', 'The state variable is nonnegative and continuous.', 'Discrete, negative, or discontinuous states require another model form.', 'active'),
-('what-is-mathematical-modeling', 'Parameters are constant during each run.', 'Time-varying dynamics may be hidden.', 'review');
+INSERT INTO model_assumptions(article_slug, assumption_key, assumption_text, risk_if_false, sensitivity_test, review_status) VALUES
+('what-is-mathematical-modeling', 'fixed_capacity', 'Carrying capacity is fixed within each scenario.', 'Capacity may change through time or context.', 'Compare lower and higher capacity scenarios.', 'active'),
+('what-is-mathematical-modeling', 'constant_growth_rate', 'Growth rate is constant during each run.', 'Time-varying dynamics may be hidden.', 'Compare growth-rate scenarios.', 'review'),
+('what-is-mathematical-modeling', 'homogeneous_state', 'The system is represented by one aggregate state variable.', 'Spatial or subgroup heterogeneity may be hidden.', 'Extend to multi-state or spatial model.', 'review');
 
 INSERT INTO scenario_parameters(scenario, initial_state, growth_rate, carrying_capacity, time_step, steps, description) VALUES
 ('baseline', 10.0, 0.35, 100.0, 0.1, 160, 'Reference bounded-growth scenario'),

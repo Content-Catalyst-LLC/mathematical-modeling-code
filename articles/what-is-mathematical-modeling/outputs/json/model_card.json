@@ -9,10 +9,11 @@
   ],
   "baseline_parameters": {
     "carrying_capacity": 100.0,
+    "description": "Reference bounded-growth scenario",
     "growth_rate": 0.35,
     "initial_state": 10.0,
     "name": "baseline",
-    "steps": 96,
+    "steps": 160,
     "time_step": 0.1
   },
   "equation": "dx/dt = r*x*(1 - x/K)",
@@ -22,10 +23,20 @@
     "does not include structural model-form uncertainty beyond scenario testing"
   ],
   "model_family": "nonlinear dynamic model",
+  "professional_extension_paths": [
+    "dimensional analysis",
+    "solver convergence tests",
+    "Bayesian calibration",
+    "global sensitivity analysis",
+    "model comparison",
+    "validation report"
+  ],
   "purpose": [
     "demonstrate model framing",
     "compare numerical methods",
     "support scenario analysis",
-    "illustrate calibration and uncertainty"
-  ]
+    "illustrate calibration and uncertainty",
+    "support model governance documentation"
+  ],
+  "scenario_count": 6
 }

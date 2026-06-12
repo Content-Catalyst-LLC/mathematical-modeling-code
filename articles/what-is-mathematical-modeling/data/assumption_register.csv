@@ -1,0 +1,6 @@
+key,statement,role,risk_if_false,sensitivity_test,review_status
+fixed_capacity,Carrying capacity is fixed within each scenario,Defines upper system limit,Capacity may change through time or context,Compare lower and higher capacity scenarios,active
+constant_growth_rate,Growth rate is constant within each scenario,Defines proportional growth behavior,Growth may vary with external conditions,Compare growth-rate scenarios,review
+homogeneous_state,The system is represented by one aggregate state variable,Keeps first model interpretable,Spatial or subgroup variation may be hidden,Extend to multi-state model,review
+no_external_shocks,External shocks are excluded from the baseline model,Keeps baseline deterministic,Shock-driven dynamics may dominate,Add forcing terms or stochastic events,review
+synthetic_observations,Observation data are synthetic demonstration values,Supports reproducible calibration demo,Should not be mistaken for empirical validation,Replace with empirical observations,active

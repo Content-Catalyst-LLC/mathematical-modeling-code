@@ -1,8 +1,8 @@
 {
-  "bias": 4.3054777724,
-  "mae": 5.2703376942,
-  "max_abs_residual": 18.5163343894,
+  "bias": -1.2641530674,
+  "mae": 1.2735755075,
+  "max_abs_residual": 2.0902197337,
   "n": 17.0,
-  "residual_std_population": 7.2073487553,
-  "rmse": 8.3954163047
+  "residual_std_population": 0.6971396989,
+  "rmse": 1.4436366363
 }

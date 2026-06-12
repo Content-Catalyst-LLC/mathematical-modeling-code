@@ -22,13 +22,12 @@ int main(void) {
     double dt = 0.1;
     int steps = 160;
 
+    printf("step,time,state\n");
     for (int step = 0; step <= steps; ++step) {
-        if (step % 40 == 0) {
-            printf("step=%d time=%.3f state=%.6f\n", step, step * dt, x);
-        }
+        printf("%d,%.6f,%.6f\n", step, step * dt, x);
         x = rk4_step(x, r, k, dt);
     }
 
-    printf("C RK4 final_state=%.6f\n", x);
+    fprintf(stderr, "C RK4 final_state=%.6f\n", x);
     return EXIT_SUCCESS;
 }

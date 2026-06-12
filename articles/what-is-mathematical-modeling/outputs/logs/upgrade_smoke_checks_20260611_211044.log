@@ -1,0 +1,44 @@
+
+[1;34m[21:10:46][0m Python workflow
+Workflow complete.
+Scenarios: 6
+Wrote outputs to: outputs
+pytest: skipped_or_failed
+
+[1;34m[21:10:46][0m R workflow
+null device 
+          1 
+          scenario method final_state mean_state min_state max_state sd_state
+1         baseline  euler    96.83754   59.25263        10  96.83754 29.61240
+2      high_growth  euler    99.72422   70.99292        10  99.72422 30.82926
+3  higher_capacity  euler   133.62393   74.80860        10 133.62393 42.56095
+4       low_growth  euler    73.00583   37.67280        10  73.00583 19.53116
+5   lower_capacity  euler    68.52637   45.84524        10  68.52637 19.54715
+6      stress_case  euler    79.83290   64.57707        20  79.83290 18.30988
+7         baseline    rk4    96.77912   59.42918        10  96.77912 29.54259
+8      high_growth    rk4    99.69899   71.15324        10  99.69899 30.67971
+9  higher_capacity    rk4   133.57858   75.17615        10 133.57858 42.51461
+10      low_growth    rk4    73.16039   37.83387        10  73.16039 19.59569
+11  lower_capacity    rk4    68.48061   45.90862        10  68.48061 19.48631
+12     stress_case    rk4    79.82122   64.56039        20  79.82122 18.26847
+   review_status
+1       reviewed
+2       reviewed
+3       reviewed
+4       reviewed
+5       reviewed
+6       reviewed
+7       reviewed
+8       reviewed
+9       reviewed
+10      reviewed
+11      reviewed
+12      reviewed
+
+[1;34m[21:10:46][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling.sqlite < sql/modeling_schema.sql
+sqlite3 outputs/tables/mathematical_modeling.sqlite < sql/diagnostic_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[21:10:46][0m Go workflow
+cd go && go run .

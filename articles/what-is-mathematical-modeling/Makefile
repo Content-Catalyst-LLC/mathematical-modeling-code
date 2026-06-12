@@ -1,0 +1,50 @@
+.PHONY: all python test r sql julia haskell rust go cpp fortran c smoke clean
+
+all: python r sql julia haskell rust go cpp fortran c
+
+python:
+	python3 python/what_is_mathematical_modeling/cli.py --output-dir outputs
+
+test:
+	python3 -m pytest python/tests
+
+r:
+	Rscript r/what_is_mathematical_modeling_diagnostics.R
+
+sql:
+	mkdir -p outputs/tables
+	sqlite3 outputs/tables/mathematical_modeling.sqlite < sql/modeling_schema.sql
+	sqlite3 outputs/tables/mathematical_modeling.sqlite < sql/diagnostic_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+julia:
+	julia julia/what_is_mathematical_modeling.jl
+
+haskell:
+	$(MAKE) -C haskell run
+
+rust:
+	cd rust && cargo run --quiet
+
+go:
+	cd go && go run main.go
+
+cpp:
+	$(MAKE) -C cpp run
+
+fortran:
+	gfortran -O2 fortran/logistic_model.f90 -o outputs/logistic_model_fortran
+	./outputs/logistic_model_fortran > outputs/tables/fortran_logistic_summary.txt
+
+c:
+	cc -O2 -std=c11 c/logistic_model.c -lm -o outputs/logistic_model_c
+	./outputs/logistic_model_c > outputs/tables/c_logistic_summary.txt 2> outputs/logs/c_logistic_stderr.log
+
+smoke: python sql
+
+clean:
+	rm -f outputs/tables/*.csv outputs/tables/*.txt outputs/tables/*.sqlite
+	rm -f outputs/json/*.json outputs/figures/*.png outputs/figures/*.dot
+	rm -f outputs/logistic_model_c outputs/logistic_model_cpp outputs/logistic_model_fortran
+	$(MAKE) -C cpp clean || true
+	$(MAKE) -C haskell clean || true
+	cd rust && cargo clean || true

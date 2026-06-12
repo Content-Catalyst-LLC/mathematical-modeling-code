@@ -34,12 +34,18 @@ function simulate_rk4(model::LogisticModel)
 end
 
 function main()
-    model = LogisticModel("julia_baseline", 10.0, 0.35, 100.0, 0.1, 160)
-    rows = simulate_rk4(model)
-    states = [row.state for row in rows]
-    @printf("Julia logistic model complete\n")
-    @printf("Final state: %.6f\n", states[end])
-    @printf("Mean state: %.6f\n", mean(states))
+    scenarios = [
+        LogisticModel("julia_baseline", 10.0, 0.35, 100.0, 0.1, 160),
+        LogisticModel("julia_high_growth", 10.0, 0.50, 100.0, 0.1, 160),
+        LogisticModel("julia_lower_capacity", 10.0, 0.35, 70.0, 0.1, 160)
+    ]
+
+    for model in scenarios
+        rows = simulate_rk4(model)
+        states = [row.state for row in rows]
+        @printf("%s final_state=%.6f mean_state=%.6f max_state=%.6f\n",
+                model.name, states[end], mean(states), maximum(states))
+    end
 end
 
 main()

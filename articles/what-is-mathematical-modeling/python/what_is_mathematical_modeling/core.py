@@ -12,20 +12,13 @@ from typing import Callable, Iterable
 
 @dataclass(frozen=True)
 class LogisticModel:
-    """Bounded-growth mathematical model.
-
-    dx/dt = r * x * (1 - x / K)
-
-    This is a compact example of a nonlinear dynamic model with a state
-    variable, parameters, assumptions, and numerical implementation choices.
-    """
-
     name: str
     initial_state: float
     growth_rate: float
     carrying_capacity: float
     time_step: float
     steps: int
+    description: str = ""
 
     def validate(self) -> None:
         if self.initial_state < 0:
@@ -36,8 +29,6 @@ class LogisticModel:
             raise ValueError("time_step must be positive.")
         if self.steps < 1:
             raise ValueError("steps must be at least 1.")
-        if self.initial_state > 10 * self.carrying_capacity:
-            raise ValueError("initial_state is implausibly high relative to carrying_capacity.")
 
 
 @dataclass(frozen=True)
@@ -116,15 +107,26 @@ def simulate_rk4(model: LogisticModel) -> SimulationResult:
     return SimulationResult(model=model, method="rk4", rows=rows)
 
 
-def run_scenarios(base: LogisticModel) -> list[SimulationResult]:
-    scenarios = [
-        base,
-        replace(base, name="low_growth", growth_rate=base.growth_rate * 0.65),
-        replace(base, name="high_growth", growth_rate=base.growth_rate * 1.35),
-        replace(base, name="lower_capacity", carrying_capacity=base.carrying_capacity * 0.70),
-        replace(base, name="higher_capacity", carrying_capacity=base.carrying_capacity * 1.40),
-    ]
+def load_scenarios(path: Path) -> list[LogisticModel]:
+    scenarios: list[LogisticModel] = []
+    with path.open("r", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            scenarios.append(
+                LogisticModel(
+                    name=row["scenario"],
+                    initial_state=float(row["initial_state"]),
+                    growth_rate=float(row["growth_rate"]),
+                    carrying_capacity=float(row["carrying_capacity"]),
+                    time_step=float(row["time_step"]),
+                    steps=int(row["steps"]),
+                    description=row.get("description", ""),
+                )
+            )
+    return scenarios
 
+
+def run_scenarios(scenarios: list[LogisticModel]) -> list[SimulationResult]:
     results: list[SimulationResult] = []
     for scenario in scenarios:
         results.append(simulate_euler(scenario))
@@ -153,8 +155,6 @@ def interpolate_rows(rows: list[dict[str, float | str | int]], time: float) -> f
         if t0 <= time <= t1:
             x0 = float(left["state"])
             x1 = float(right["state"])
-            if t1 == t0:
-                return x0
             weight = (time - t0) / (t1 - t0)
             return x0 + weight * (x1 - x0)
 
@@ -175,6 +175,7 @@ def residuals_against_observations(
             "observed": round(observed, 10),
             "predicted": round(predicted, 10),
             "residual": round(observed - predicted, 10),
+            "absolute_residual": round(abs(observed - predicted), 10),
         })
     return rows
 
@@ -187,13 +188,12 @@ def residual_diagnostics(residual_rows: list[dict[str, float | str]]) -> dict[st
     mse = mean([value * value for value in residual_values])
     mae = mean([abs(value) for value in residual_values])
     bias = mean(residual_values)
-    rmse = math.sqrt(mse)
 
     return {
         "n": float(len(residual_values)),
         "bias": round(bias, 10),
         "mae": round(mae, 10),
-        "rmse": round(rmse, 10),
+        "rmse": round(math.sqrt(mse), 10),
         "residual_std_population": round(pstdev(residual_values), 10),
         "max_abs_residual": round(max(abs(value) for value in residual_values), 10),
     }
@@ -317,7 +317,6 @@ def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
         raise ValueError(f"No rows to write for {path}")
-
     with path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
         writer.writeheader()
@@ -330,7 +329,7 @@ def write_json(path: Path, payload: object) -> None:
         json.dump(payload, handle, indent=2, sort_keys=True)
 
 
-def model_card(base: LogisticModel) -> dict[str, object]:
+def build_model_card(base: LogisticModel, scenarios: list[LogisticModel]) -> dict[str, object]:
     return {
         "article": "What Is Mathematical Modeling?",
         "model_family": "nonlinear dynamic model",
@@ -340,6 +339,7 @@ def model_card(base: LogisticModel) -> dict[str, object]:
             "compare numerical methods",
             "support scenario analysis",
             "illustrate calibration and uncertainty",
+            "support model governance documentation",
         ],
         "assumptions": [
             "state is nonnegative",
@@ -349,9 +349,18 @@ def model_card(base: LogisticModel) -> dict[str, object]:
             "process and observation noise are omitted unless explicitly modeled",
         ],
         "baseline_parameters": asdict(base),
+        "scenario_count": len(scenarios),
         "limitations": [
             "not calibrated to a real empirical system",
             "not valid for extrapolation beyond the stated demonstration purpose",
             "does not include structural model-form uncertainty beyond scenario testing",
+        ],
+        "professional_extension_paths": [
+            "dimensional analysis",
+            "solver convergence tests",
+            "Bayesian calibration",
+            "global sensitivity analysis",
+            "model comparison",
+            "validation report",
         ],
     }

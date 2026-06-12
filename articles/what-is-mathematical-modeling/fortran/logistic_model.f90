@@ -10,9 +10,6 @@ program logistic_model
   steps = 160
 
   do step = 0, steps
-    if (mod(step, 40) == 0) then
-      print '(A,I4,A,F8.3,A,F12.6)', 'step=', step, ' time=', step * dt, ' state=', x
-    end if
     x = rk4_step(x, r, k, dt)
   end do
 
