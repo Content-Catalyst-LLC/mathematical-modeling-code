@@ -1,0 +1,7 @@
+scenario,initial_storage,capacity,base_inflow,base_demand,demand_growth,loss_rate,periods,description
+baseline,80,100,8,6,0.010,0.015,60,Reference scenario with moderate inflow and demand growth
+dry_inflow,80,100,5,6,0.010,0.015,60,Lower inflow stress scenario
+high_demand_growth,80,100,8,6,0.030,0.015,60,Higher demand growth scenario
+high_losses,80,100,8,6,0.010,0.035,60,Higher evaporation or leakage loss scenario
+expanded_capacity,95,130,8,6,0.010,0.015,60,Infrastructure expansion or larger reserve scenario
+compound_stress,75,100,5,6.5,0.030,0.030,60,Dry inflow plus higher demand and losses

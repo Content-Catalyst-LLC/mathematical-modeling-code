@@ -1,0 +1,7 @@
+"scenario","mean_storage","min_storage","max_storage","final_storage","mean_shortage","min_shortage","max_shortage","final_shortage","shortage_periods","review_status"
+"baseline",64.447055082459,11.18063499,84.94717286,11.18063499,0,0,0,0,0,"acceptable under stated assumptions"
+"compound_stress",11.4814603496721,0,75,0,12.1172759322951,0,33.29542018,33.29542018,45,"requires review"
+"dry_inflow",21.7863213145902,0,80,0,2.2270931695082,0,5.90018019,5.90018019,31,"requires review"
+"expanded_capacity",74.3200078229508,17.2377398,97.73901573,17.2377398,0,0,0,0,0,"acceptable under stated assumptions"
+"high_demand_growth",30.9191633593443,0,82.054176,0,7.76985694918033,0,27.34961862,27.34961862,31,"requires review"
+"high_losses",40.7474191834426,0,80,0,0.326458021147541,0,2.90018019,2.90018019,8,"requires review"

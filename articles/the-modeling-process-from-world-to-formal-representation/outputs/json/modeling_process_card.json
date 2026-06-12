@@ -1,0 +1,169 @@
+{
+  "article": "The Modeling Process: From World to Formal Representation",
+  "assumptions": [
+    {
+      "key": "fixed_capacity",
+      "review_status": "active",
+      "risk_if_false": "Infrastructure change sedimentation or operating rules may alter usable storage",
+      "role": "Defines the upper storage constraint",
+      "sensitivity_test": "Compare reduced and expanded capacity scenarios",
+      "statement": "Reservoir capacity is fixed within each scenario"
+    },
+    {
+      "key": "deterministic_inflow",
+      "review_status": "review",
+      "risk_if_false": "Shortage risk may be understated if inflow variability is high",
+      "role": "Keeps the first model transparent",
+      "sensitivity_test": "Add Monte Carlo inflow ensembles",
+      "statement": "Inflow is represented as a scenario value rather than a stochastic process"
+    },
+    {
+      "key": "constant_demand_growth",
+      "review_status": "review",
+      "risk_if_false": "Seasonality policy price response and conservation behavior may be missed",
+      "role": "Represents changing pressure on the resource system",
+      "sensitivity_test": "Compare demand growth scenarios",
+      "statement": "Demand grows at a constant rate within each scenario"
+    },
+    {
+      "key": "proportional_losses",
+      "review_status": "active",
+      "risk_if_false": "Losses may depend on temperature surface area infrastructure condition or season",
+      "role": "Represents storage-dependent losses",
+      "sensitivity_test": "Compare loss-rate scenarios",
+      "statement": "Losses are proportional to current storage"
+    },
+    {
+      "key": "no_quality_constraint",
+      "review_status": "archive",
+      "risk_if_false": "Storage quantity may look adequate when quality is not",
+      "role": "Simplifies demonstration model",
+      "sensitivity_test": "Add water-quality threshold",
+      "statement": "Water quality constraints are outside the model boundary"
+    }
+  ],
+  "constraints": [
+    "0 <= S_t <= K"
+  ],
+  "formal_model": "S[t+1] = min(K, max(0, S[t] + I[t] - D[t] - L[t]))",
+  "outputs": [
+    "storage",
+    "shortage",
+    "shortage_risk",
+    "stress_index"
+  ],
+  "parameters": [
+    "K",
+    "base_inflow",
+    "base_demand",
+    "demand_growth",
+    "loss_rate"
+  ],
+  "question": {
+    "article_slug": "the-modeling-process-from-world-to-formal-representation",
+    "central_question": "How does storage evolve under different inflow, demand, loss, and capacity assumptions?",
+    "decision_context": "Scenario comparison, sensitivity awareness, validation planning, and model revision.",
+    "intended_use": "Educational modeling-process demonstration and reproducible companion workflow.",
+    "modeling_purpose": "Demonstrate how a real-world question becomes a formal mathematical model.",
+    "real_world_context": "Reservoir storage under changing inflow, demand, losses, and capacity limits."
+  },
+  "ranked_scenarios": [
+    {
+      "description": "Dry inflow plus higher demand and losses",
+      "final_storage": 0.0,
+      "low_storage_periods": 49,
+      "max_storage": 75.0,
+      "mean_storage": 11.48146035,
+      "min_storage": 0.0,
+      "minimum_storage_margin": 0.0,
+      "scenario": "compound_stress",
+      "shortage_periods": 45,
+      "shortage_risk": 0.73770492,
+      "stress_index": 245.18587519,
+      "total_shortage": 739.15383187
+    },
+    {
+      "description": "Higher demand growth scenario",
+      "final_storage": 0.0,
+      "low_storage_periods": 34,
+      "max_storage": 82.054176,
+      "mean_storage": 30.91916336,
+      "min_storage": 0.0,
+      "minimum_storage_margin": 0.0,
+      "scenario": "high_demand_growth",
+      "shortage_periods": 31,
+      "shortage_risk": 0.50819672,
+      "stress_index": 173.21579939,
+      "total_shortage": 473.9612739
+    },
+    {
+      "description": "Lower inflow stress scenario",
+      "final_storage": 0.0,
+      "low_storage_periods": 38,
+      "max_storage": 80.0,
+      "mean_storage": 21.78632131,
+      "min_storage": 0.0,
+      "minimum_storage_margin": 0.0,
+      "scenario": "dry_inflow",
+      "shortage_periods": 31,
+      "shortage_risk": 0.50819672,
+      "stress_index": 145.40494033,
+      "total_shortage": 135.85268334
+    },
+    {
+      "description": "Higher evaporation or leakage loss scenario",
+      "final_storage": 0.0,
+      "low_storage_periods": 20,
+      "max_storage": 80.0,
+      "mean_storage": 40.74741918,
+      "min_storage": 0.0,
+      "minimum_storage_margin": 0.0,
+      "scenario": "high_losses",
+      "shortage_periods": 8,
+      "shortage_risk": 0.13114754,
+      "stress_index": 69.10614793,
+      "total_shortage": 19.91393929
+    },
+    {
+      "description": "Reference scenario with moderate inflow and demand growth",
+      "final_storage": 11.18063499,
+      "low_storage_periods": 5,
+      "max_storage": 84.94717286,
+      "mean_storage": 64.44705508,
+      "min_storage": 11.18063499,
+      "minimum_storage_margin": 0.11180635,
+      "scenario": "baseline",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "stress_index": 22.555492,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Infrastructure expansion or larger reserve scenario",
+      "final_storage": 17.2377398,
+      "low_storage_periods": 6,
+      "max_storage": 97.73901573,
+      "mean_storage": 74.32000782,
+      "min_storage": 17.2377398,
+      "minimum_storage_margin": 0.132598,
+      "scenario": "expanded_capacity",
+      "shortage_periods": 0,
+      "shortage_risk": 0.0,
+      "stress_index": 22.39216,
+      "total_shortage": 0.0
+    }
+  ],
+  "revision_triggers": [
+    "high residual bias",
+    "shortage risk above tolerance",
+    "conclusion sensitive to uncertain inflow",
+    "assumption status requires review",
+    "model output does not answer the intended use"
+  ],
+  "variables": [
+    "S_t",
+    "I_t",
+    "D_t",
+    "L_t"
+  ]
+}

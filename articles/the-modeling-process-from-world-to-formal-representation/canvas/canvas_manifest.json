@@ -1,0 +1,28 @@
+{
+  "article_slug": "the-modeling-process-from-world-to-formal-representation",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "modeling-process",
+  "cards": [
+    {
+      "card_id": "world-to-question",
+      "title": "From World to Question",
+      "description": "Clarifies the real-world context, central modeling question, intended use, and decision context."
+    },
+    {
+      "card_id": "formal-representation",
+      "title": "Formal Representation",
+      "description": "Defines variables, parameters, assumptions, constraints, and mathematical relationships."
+    },
+    {
+      "card_id": "assessment-and-revision",
+      "title": "Assessment and Revision",
+      "description": "Connects diagnostics, validation, uncertainty, sensitivity, and revision triggers."
+    }
+  ],
+  "governance": {
+    "requires_assumption_register": true,
+    "requires_validation_plan": true,
+    "requires_sensitivity_tests": true,
+    "requires_revision_log": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScenarioSummary",
+  "type": "object",
+  "required": ["scenario", "final_storage", "mean_storage", "shortage_periods", "total_shortage", "shortage_risk"],
+  "properties": {
+    "scenario": {"type": "string"},
+    "final_storage": {"type": "number"},
+    "mean_storage": {"type": "number"},
+    "min_storage": {"type": "number"},
+    "max_storage": {"type": "number"},
+    "shortage_periods": {"type": "integer"},
+    "total_shortage": {"type": "number"},
+    "shortage_risk": {"type": "number"}
+  }
+}

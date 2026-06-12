@@ -1,0 +1,55 @@
+
+[1;34m[21:05:42][0m Python workflow
+Modeling process workflow complete.
+Scenarios: 6
+Assumptions: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[21:05:42][0m R workflow
+null device 
+          1 
+            scenario mean_storage min_storage max_storage final_storage
+1           baseline     64.44706    11.18063    84.94717      11.18063
+2    compound_stress     11.48146     0.00000    75.00000       0.00000
+3         dry_inflow     21.78632     0.00000    80.00000       0.00000
+4  expanded_capacity     74.32001    17.23774    97.73902      17.23774
+5 high_demand_growth     30.91916     0.00000    82.05418       0.00000
+6        high_losses     40.74742     0.00000    80.00000       0.00000
+  mean_shortage min_shortage max_shortage final_shortage shortage_periods
+1      0.000000            0      0.00000        0.00000                0
+2     12.117276            0     33.29542       33.29542               45
+3      2.227093            0      5.90018        5.90018               31
+4      0.000000            0      0.00000        0.00000                0
+5      7.769857            0     27.34962       27.34962               31
+6      0.326458            0      2.90018        2.90018                8
+                        review_status
+1 acceptable under stated assumptions
+2                     requires review
+3                     requires review
+4 acceptable under stated assumptions
+5                     requires review
+6                     requires review
+
+[1;34m[21:05:43][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/modeling_process.sqlite < sql/schema.sql
+sqlite3 outputs/tables/modeling_process.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[21:05:43][0m Go workflow
+cd go && go run .
+go_baseline final_storage=8.113 total_shortage=0.000
+go_stress final_storage=0.000 total_shortage=739.154
+
+[1;34m[21:05:44][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 reservoir_model.cpp -o reservoir_model
+./reservoir_model > ../outputs/tables/cpp_reservoir_summary.txt
+
+[1;34m[21:05:45][0m Fortran workflow
+gfortran -O2 fortran/reservoir_model.f90 -o outputs/reservoir_model_fortran
+./outputs/reservoir_model_fortran > outputs/tables/fortran_reservoir_summary.txt
+
+[1;34m[21:05:46][0m C workflow
+cc -O2 -std=c11 c/reservoir_model.c -o outputs/reservoir_model_c
+./outputs/reservoir_model_c > outputs/tables/c_reservoir_summary.csv

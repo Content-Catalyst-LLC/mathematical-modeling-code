@@ -1,0 +1,7 @@
+scenario,final_storage,mean_storage,min_storage,max_storage,shortage_periods,low_storage_periods,total_shortage,shortage_risk,minimum_storage_margin,stress_index,description
+baseline,11.18063499,64.44705508,11.18063499,84.94717286,0,5,0.0,0.0,0.11180635,22.555492,Reference scenario with moderate inflow and demand growth
+dry_inflow,0.0,21.78632131,0.0,80.0,31,38,135.85268334,0.50819672,0.0,145.40494033,Lower inflow stress scenario
+high_demand_growth,0.0,30.91916336,0.0,82.054176,31,34,473.9612739,0.50819672,0.0,173.21579939,Higher demand growth scenario
+high_losses,0.0,40.74741918,0.0,80.0,8,20,19.91393929,0.13114754,0.0,69.10614793,Higher evaporation or leakage loss scenario
+expanded_capacity,17.2377398,74.32000782,17.2377398,97.73901573,0,6,0.0,0.0,0.132598,22.39216,Infrastructure expansion or larger reserve scenario
+compound_stress,0.0,11.48146035,0.0,75.0,45,49,739.15383187,0.73770492,0.0,245.18587519,Dry inflow plus higher demand and losses

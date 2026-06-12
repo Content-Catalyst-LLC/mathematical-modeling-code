@@ -1,0 +1,8 @@
+{
+  "article_slug": "the-modeling-process-from-world-to-formal-representation",
+  "central_question": "How does storage evolve under different inflow, demand, loss, and capacity assumptions?",
+  "decision_context": "Scenario comparison, sensitivity awareness, validation planning, and model revision.",
+  "intended_use": "Educational modeling-process demonstration and reproducible companion workflow.",
+  "modeling_purpose": "Demonstrate how a real-world question becomes a formal mathematical model.",
+  "real_world_context": "Reservoir storage under changing inflow, demand, losses, and capacity limits."
+}

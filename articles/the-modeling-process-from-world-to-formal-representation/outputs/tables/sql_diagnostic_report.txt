@@ -1,0 +1,47 @@
+section        
+---------------
+MODELING STAGES
+stage_order  stage_name          guiding_question                                              expected_artifact                           
+-----------  ------------------  ------------------------------------------------------------  --------------------------------------------
+1            Problem framing     What real-world question is the model meant to clarify?       Problem statement                           
+
+2            Intended use        Will the model explain predict simulate optimize control or   Use statement                               
+                                 support decisions?                                                                                        
+
+3            Boundary selection  What is included excluded aggregated or external?             Boundary note                               
+
+4            Variable design     What quantities change and describe state?                    Variable table                              
+
+5            Assumption design   What simplifications make the model possible?                 Assumption register                         
+
+6            Formal formulation  How are quantities connected mathematically?                  Equations constraints or algorithms         
+
+7            Computation         What does the model imply under stated assumptions?           Scenario outputs                            
+
+8            Assessment          Does the model serve its intended purpose?                    Diagnostics validation and uncertainty notes
+
+9            Revision            What changes after testing and interpretation?                Revision log                                
+section  
+---------
+SCENARIOS
+scenario            base_inflow  base_demand  demand_growth  loss_rate  description                  
+------------------  -----------  -----------  -------------  ---------  -----------------------------
+baseline            8.0          6.0          0.01           0.015      Reference scenario           
+dry_inflow          5.0          6.0          0.01           0.015      Lower inflow stress scenario 
+expanded_capacity   8.0          6.0          0.01           0.015      Expanded capacity scenario   
+high_demand_growth  8.0          6.0          0.03           0.015      Higher demand growth scenario
+high_losses         8.0          6.0          0.01           0.035      Higher losses scenario       
+section          
+-----------------
+ASSUMPTION REVIEW
+review_status  assumption_count
+-------------  ----------------
+active         2               
+review         2               
+section                     
+----------------------------
+ASSUMPTIONS REQUIRING REVIEW
+assumption_key          risk_if_false                                        sensitivity_test              
+----------------------  ---------------------------------------------------  ------------------------------
+deterministic_inflow    Shortage risk may be understated                     Add stochastic inflow ensemble
+constant_demand_growth  Seasonality and conservation behavior may be missed  Compare demand scenarios      

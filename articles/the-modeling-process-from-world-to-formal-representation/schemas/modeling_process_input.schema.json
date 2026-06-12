@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReservoirScenario",
+  "type": "object",
+  "required": ["scenario", "initial_storage", "capacity", "base_inflow", "base_demand", "demand_growth", "loss_rate", "periods"],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_storage": {"type": "number", "minimum": 0},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "base_inflow": {"type": "number", "minimum": 0},
+    "base_demand": {"type": "number", "minimum": 0},
+    "demand_growth": {"type": "number"},
+    "loss_rate": {"type": "number", "minimum": 0},
+    "periods": {"type": "integer", "minimum": 1}
+  }
+}

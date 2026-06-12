@@ -1,0 +1,6 @@
+"key","statement","risk_if_false","sensitivity_test","review_status"
+"fixed_capacity","Reservoir capacity is fixed within each scenario","Infrastructure change sedimentation or operating rules may alter usable storage","Compare reduced and expanded capacity scenarios","active"
+"deterministic_inflow","Inflow is represented as a scenario value rather than a stochastic process","Shortage risk may be understated if inflow variability is high","Add Monte Carlo inflow ensembles","review"
+"constant_demand_growth","Demand grows at a constant rate within each scenario","Seasonality policy price response and conservation behavior may be missed","Compare demand growth scenarios","review"
+"proportional_losses","Losses are proportional to current storage","Losses may depend on temperature surface area infrastructure condition or season","Compare loss-rate scenarios","active"
+"no_quality_constraint","Water quality constraints are outside the model boundary","Storage quantity may look adequate when quality is not","Add water-quality threshold","archive"
