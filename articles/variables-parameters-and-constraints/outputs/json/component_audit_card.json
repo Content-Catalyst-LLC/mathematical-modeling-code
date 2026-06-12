@@ -1,0 +1,164 @@
+{
+  "article": "Variables, Parameters, and Constraints",
+  "components": [
+    {
+      "component_risk_score": 1.0,
+      "component_type": "state_variable",
+      "name": "storage",
+      "review_question": "Does aggregate storage preserve the needed system state?",
+      "role": "Tracks stored resource over time",
+      "source_or_rationale": "Core stock variable for accumulation",
+      "status": "active",
+      "symbol": "S_t",
+      "unit_or_domain": "0 <= S_t <= K"
+    },
+    {
+      "component_risk_score": 5.0,
+      "component_type": "input_variable",
+      "name": "inflow",
+      "review_question": "Is inflow observed forecast stochastic or scenario-based?",
+      "role": "Adds resource to storage",
+      "source_or_rationale": "Scenario or observed inflow",
+      "status": "review",
+      "symbol": "I_t",
+      "unit_or_domain": "resource units per period"
+    },
+    {
+      "component_risk_score": 5.75,
+      "component_type": "input_or_decision_variable",
+      "name": "demand",
+      "review_question": "Is demand fixed adaptive uncertain or controllable?",
+      "role": "Removes resource from storage",
+      "source_or_rationale": "Scenario demand",
+      "status": "review",
+      "symbol": "D_t",
+      "unit_or_domain": "resource units per period"
+    },
+    {
+      "component_risk_score": 7.75,
+      "component_type": "parameter",
+      "name": "loss_rate",
+      "review_question": "How sensitive are outputs to the loss-rate parameter?",
+      "role": "Controls proportional losses",
+      "source_or_rationale": "Assumed loss-rate parameter",
+      "status": "review",
+      "symbol": "lambda",
+      "unit_or_domain": "0 <= lambda <= 1 per period"
+    },
+    {
+      "component_risk_score": 8.75,
+      "component_type": "constraint_parameter",
+      "name": "capacity",
+      "review_question": "Is capacity theoretical usable seasonal or policy-defined?",
+      "role": "Defines the upper storage bound",
+      "source_or_rationale": "Physical or usable capacity",
+      "status": "review",
+      "symbol": "K",
+      "unit_or_domain": "resource units"
+    },
+    {
+      "component_risk_score": 5.75,
+      "component_type": "output_variable",
+      "name": "shortage_output",
+      "review_question": "Does shortage represent frequency severity or both?",
+      "role": "Reports unmet demand after constraints",
+      "source_or_rationale": "Derived diagnostic output",
+      "status": "review",
+      "symbol": "shortage",
+      "unit_or_domain": "resource units per period"
+    },
+    {
+      "component_risk_score": 5.0,
+      "component_type": "output_variable",
+      "name": "overflow_output",
+      "review_question": "Is overflow discarded stored elsewhere or operationally relevant?",
+      "role": "Reports excess raw next stock above capacity",
+      "source_or_rationale": "Derived diagnostic output",
+      "status": "review",
+      "symbol": "overflow",
+      "unit_or_domain": "resource units per period"
+    }
+  ],
+  "constraint_checks": [
+    "nonnegative storage",
+    "capacity bound",
+    "loss-rate domain",
+    "nonnegative inflow and demand",
+    "shortage and overflow tracked separately"
+  ],
+  "formal_model": "S[t+1]=min(K,max(0,S[t]+I[t]-D[t]-lambda*S[t]))",
+  "scenario_summaries": [
+    {
+      "description": "Reference component-aware stock-flow scenario",
+      "final_stock": 100.0,
+      "max_stock": 100.0,
+      "mean_stock": 95.1351448,
+      "min_stock": 80.0,
+      "overflow_periods": 30,
+      "scenario": "baseline",
+      "shortage_periods": 0,
+      "total_overflow": 14.95134251,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Lower inflow scenario",
+      "final_stock": 0.0,
+      "max_stock": 80.0,
+      "mean_stock": 30.41798383,
+      "min_stock": 0.0,
+      "overflow_periods": 0,
+      "scenario": "low_inflow",
+      "shortage_periods": 9,
+      "total_overflow": 0.0,
+      "total_shortage": 8.8324552
+    },
+    {
+      "description": "Higher demand scenario",
+      "final_stock": 32.30455901,
+      "max_stock": 80.0,
+      "mean_stock": 52.65574795,
+      "min_stock": 32.30455901,
+      "overflow_periods": 0,
+      "scenario": "high_demand",
+      "shortage_periods": 0,
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Higher loss-rate parameter scenario",
+      "final_stock": 52.59056943,
+      "max_stock": 80.0,
+      "mean_stock": 61.27584153,
+      "min_stock": 52.59056943,
+      "overflow_periods": 0,
+      "scenario": "high_loss_rate",
+      "shortage_periods": 0,
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Tighter capacity constraint scenario",
+      "final_stock": 75.0,
+      "max_stock": 75.0,
+      "mean_stock": 74.73718339,
+      "min_stock": 70.0,
+      "overflow_periods": 56,
+      "scenario": "tight_capacity",
+      "shortage_periods": 0,
+      "total_overflow": 48.61547719,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Stress scenario designed to activate shortage constraints",
+      "final_stock": 0.0,
+      "max_stock": 40.0,
+      "mean_stock": 2.75067156,
+      "min_stock": 0.0,
+      "overflow_periods": 0,
+      "scenario": "constraint_stress",
+      "shortage_periods": 54,
+      "total_overflow": 0.0,
+      "total_shortage": 212.38954825
+    }
+  ]
+}

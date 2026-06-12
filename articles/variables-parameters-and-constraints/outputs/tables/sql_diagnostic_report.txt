@@ -1,0 +1,52 @@
+section        
+---------------
+COMPONENT TYPES
+component_type              description                                        typical_failure                                             
+--------------------------  -------------------------------------------------  ------------------------------------------------------------
+state_variable              Carries system condition over time.                State does not preserve what the model must remember.       
+
+input_variable              External or scenario quantity entering the model.  Input is actually endogenous or adaptive.                   
+
+input_or_decision_variable  Quantity that may be external or controllable.     Role changes without documentation.                         
+
+output_variable             Quantity produced for interpretation.              Output does not answer the intended question.               
+
+parameter                   Value that shapes model behavior.                  Parameter is assumed, unstable, or overconfidently interpret
+                                                                               ed.                                                         
+
+constraint_parameter        Parameter that also defines a bound.               Capacity or feasibility is misunderstood.                   
+section                    
+---------------------------
+COMPONENTS REQUIRING REVIEW
+symbol  name       component_type              unit_or_domain               review_question                                           
+------  ---------  --------------------------  ---------------------------  ----------------------------------------------------------
+I_t     inflow     input_variable              resource units per period    Is inflow observed forecast stochastic or scenario-based? 
+D_t     demand     input_or_decision_variable  resource units per period    Is demand fixed adaptive uncertain or controllable?       
+lambda  loss_rate  parameter                   0 <= lambda <= 1 per period  How sensitive are outputs to the loss-rate parameter?     
+K       capacity   constraint_parameter        resource units               Is capacity theoretical usable seasonal or policy-defined?
+section  
+---------
+SCENARIOS
+scenario           initial_stock  capacity  inflow  demand  loss_rate  periods  description       
+-----------------  -------------  --------  ------  ------  ---------  -------  ------------------
+baseline           80.0           100.0     8.0     6.0     0.015      60       Reference scenario
+constraint_stress  40.0           60.0      3.0     7.0     0.05       60       Constraint stress 
+high_demand        80.0           100.0     8.0     8.0     0.015      60       Higher demand     
+high_loss_rate     80.0           100.0     8.0     6.0     0.04       60       Higher loss       
+low_inflow         80.0           100.0     5.0     6.0     0.015      60       Lower inflow      
+tight_capacity     70.0           75.0      8.0     6.0     0.015      60       Tighter capacity  
+section         
+----------------
+PARAMETER STATUS
+parameter  status              unit_or_domain               source_or_rationale                      uncertainty_note                                      sensitivity_test                             
+---------  ------------------  ---------------------------  ---------------------------------------  ----------------------------------------------------  ---------------------------------------------
+K          scenario_parameter  resource units               Capacity differs by scenario             Usable capacity may differ from theoretical capacity  Compare baseline and tight capacity          
+lambda     assumed             0 <= lambda <= 1 per period  Simplified proportional loss assumption  May vary by season condition or process               Compare baseline and high loss-rate scenarios
+section           
+------------------
+CONSTRAINT CATALOG
+constraint_name      constraint_type  expression        meaning                                         review_question                                           
+-------------------  ---------------  ----------------  ----------------------------------------------  ----------------------------------------------------------
+capacity_bound       physical         S_t <= K          Storage cannot exceed capacity.                 Is capacity theoretical usable seasonal or policy-defined?
+loss_rate_domain     domain           0 <= lambda <= 1  Loss rate must be a valid fraction per period.  Is the rate unit consistent with the time step?           
+nonnegative_storage  domain           S_t >= 0          Storage cannot be negative.                     Does the model track shortage when storage reaches zero?  

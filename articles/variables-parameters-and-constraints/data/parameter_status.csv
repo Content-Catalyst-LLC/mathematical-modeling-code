@@ -1,0 +1,5 @@
+parameter,status,unit_or_domain,source_or_rationale,uncertainty_note,sensitivity_test
+lambda,assumed,0 <= lambda <= 1 per period,Simplified proportional loss assumption,May vary by season condition or process,Compare baseline and high loss-rate scenarios
+K,scenario_parameter,resource units,Capacity differs by scenario,Usable capacity may differ from theoretical capacity,Compare baseline and tight capacity
+I_t,scenario_input,resource units per period,Scenario inflow values,Could be stochastic or forecast-based,Compare baseline and low inflow
+D_t,scenario_input,resource units per period,Scenario demand values,Could be adaptive controllable or uncertain,Compare baseline and high demand

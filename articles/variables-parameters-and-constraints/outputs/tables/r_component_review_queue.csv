@@ -1,0 +1,8 @@
+"symbol","name","component_type","role","unit_or_domain","source_or_rationale","review_question","status","component_risk_score","priority"
+"S_t","storage","state_variable","Tracks stored resource over time","0 <= S_t <= K","Core stock variable for accumulation","Does aggregate storage preserve the needed system state?","active",1,"low"
+"I_t","inflow","input_variable","Adds resource to storage","resource units per period","Scenario or observed inflow","Is inflow observed forecast stochastic or scenario-based?","review",5,"low"
+"D_t","demand","input_or_decision_variable","Removes resource from storage","resource units per period","Scenario demand","Is demand fixed adaptive uncertain or controllable?","review",5.75,"low"
+"lambda","loss_rate","parameter","Controls proportional losses","0 <= lambda <= 1 per period","Assumed loss-rate parameter","How sensitive are outputs to the loss-rate parameter?","review",7.75,"medium"
+"K","capacity","constraint_parameter","Defines the upper storage bound","resource units","Physical or usable capacity","Is capacity theoretical usable seasonal or policy-defined?","review",8.75,"high"
+"shortage","shortage_output","output_variable","Reports unmet demand after constraints","resource units per period","Derived diagnostic output","Does shortage represent frequency severity or both?","review",5.75,"low"
+"overflow","overflow_output","output_variable","Reports excess raw next stock above capacity","resource units per period","Derived diagnostic output","Is overflow discarded stored elsewhere or operationally relevant?","review",5,"low"

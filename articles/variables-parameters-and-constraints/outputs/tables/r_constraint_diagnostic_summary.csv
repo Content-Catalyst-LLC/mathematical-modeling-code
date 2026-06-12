@@ -1,0 +1,7 @@
+"scenario","final_stock","mean_stock","min_stock","max_stock","shortage_periods","overflow_periods","total_shortage","total_overflow","description","constraint_review"
+"baseline",100,95.1351448,80,100,0,30,0,14.95134251,"Reference component-aware stock-flow scenario","constraint active or failure mode visible"
+"low_inflow",0,30.41798383,0,80,9,0,8.8324552,0,"Lower inflow scenario","constraint active or failure mode visible"
+"high_demand",32.30455901,52.65574795,32.30455901,80,0,0,0,0,"Higher demand scenario","no shortage or overflow under scenario"
+"high_loss_rate",52.59056943,61.27584153,52.59056943,80,0,0,0,0,"Higher loss-rate parameter scenario","no shortage or overflow under scenario"
+"tight_capacity",75,74.73718339,70,75,0,56,0,48.61547719,"Tighter capacity constraint scenario","constraint active or failure mode visible"
+"constraint_stress",0,2.75067156,0,40,54,0,212.38954825,0,"Stress scenario designed to activate shortage constraints","constraint active or failure mode visible"

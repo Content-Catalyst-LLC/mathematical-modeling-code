@@ -1,0 +1,11 @@
+{
+  "article_slug": "variables-parameters-and-constraints",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "component-governance",
+  "cards": [
+    {"card_id": "component-register", "title": "Component Register", "description": "Tracks variables, parameters, constraints, roles, domains, sources, and review status."},
+    {"card_id": "parameter-audit", "title": "Parameter Audit", "description": "Distinguishes measured, estimated, calibrated, assumed, scenario, and policy parameters."},
+    {"card_id": "constraint-diagnostics", "title": "Constraint Diagnostics", "description": "Checks nonnegativity, capacity, domain, feasibility, conservation, and decision constraints."}
+  ],
+  "governance": {"requires_component_register": true, "requires_parameter_status_table": true, "requires_constraint_catalog": true, "requires_unit_and_domain_checks": true, "requires_sensitivity_review": true}
+}

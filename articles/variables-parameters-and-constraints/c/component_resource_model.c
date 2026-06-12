@@ -1,0 +1,4 @@
+#include <stdio.h>
+#include <stdlib.h>
+static double bounded(double raw, double cap){ if(raw<0.0) return 0.0; if(raw>cap) return cap; return raw; }
+int main(void){ double stock=40.0, cap=60.0, inflow=3.0, demand=7.0, loss=0.050, total_shortage=0.0, total_overflow=0.0; int periods=60; printf("period,stock,inflow,demand,losses,raw_next,constrained_next,shortage,overflow\n"); for(int p=0;p<=periods;++p){ double losses=loss*stock; double raw=stock+inflow-demand-losses; double shortage=(-raw>0)?-raw:0.0; double overflow=(raw-cap>0)?raw-cap:0.0; double next=bounded(raw,cap); printf("%d,%.6f,%.6f,%.6f,%.6f,%.6f,%.6f,%.6f,%.6f\n",p,stock,inflow,demand,losses,raw,next,shortage,overflow); total_shortage+=shortage; total_overflow+=overflow; stock=next; } fprintf(stderr,"c final_stock=%.6f total_shortage=%.6f total_overflow=%.6f\n",stock,total_shortage,total_overflow); return EXIT_SUCCESS; }
