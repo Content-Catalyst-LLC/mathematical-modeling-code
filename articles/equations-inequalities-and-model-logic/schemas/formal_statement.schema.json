@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FormalStatement",
+  "type": "object",
+  "required": [
+    "key",
+    "statement_type",
+    "expression",
+    "interpretation",
+    "domain_or_condition",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "statement_type": {
+      "type": "string",
+      "enum": [
+        "equation",
+        "inequality",
+        "definition",
+        "domain_rule",
+        "conditional_logic",
+        "objective_rule",
+        "transformation_rule"
+      ]
+    },
+    "expression": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "domain_or_condition": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

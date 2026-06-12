@@ -1,0 +1,1 @@
+cpp final_stock=56.243804 total_shortage=0.000000 logic_activations=14

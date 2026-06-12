@@ -1,0 +1,6 @@
+"key","statement_type","expression","interpretation","domain_or_condition","review_question","status","statement_risk_score","priority"
+"storage_balance","equation","S[t+1] = S[t] + I[t] - D[t] - lambda*S[t]","Storage changes through inflow demand and proportional loss","0 <= S[t]; 0 <= lambda <= 1","Are all relevant inflows outflows and losses represented?","active",1,"low"
+"storage_bounds","inequality","0 <= S[t] <= K","Storage remains nonnegative and no greater than capacity","K > 0","Does clipping hide shortage or overflow?","review",7,"medium"
+"shortage_definition","definition","Q[t] = max(0, D[t] + lambda*S[t] - I[t] - S[t])","Shortage is positive only when demand and loss exceed available resources","Q[t] >= 0","Does shortage measure severity frequency or both?","review",7,"medium"
+"low_storage_rule","conditional_logic","if S[t] < T then D[t+1] = max(0, D[t] - delta)","Demand is reduced when storage falls below threshold","0 <= T <= K","Is the threshold measured assumed or policy-defined?","review",8,"high"
+"loss_rate_domain","domain_rule","0 <= lambda <= 1","Loss rate is a valid fraction per time step","time step must match rate unit","Does the parameter domain match the model time step?","review",6,"medium"

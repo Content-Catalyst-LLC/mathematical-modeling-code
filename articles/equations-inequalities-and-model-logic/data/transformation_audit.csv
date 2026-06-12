@@ -1,0 +1,7 @@
+transformation,requirement,risk,review_question
+log_transform,x > 0,Zero or negative values become invalid,Are invalid values excluded or modeled separately?
+ratio,denominator != 0,Division by zero or unstable values,Is the denominator bounded away from zero?
+squaring,sign may be lost,Extraneous solutions may appear,Are candidate solutions checked in the original equation?
+linearization,local approximation range,Model may fail outside local range,What is the valid range of approximation?
+constraint_relaxation,penalty reflects intended tradeoff,Hard limit may become negotiable,Is this constraint allowed to be relaxed?
+normalization,reference scale is meaningful,Comparison may depend on arbitrary scale,Is the reference scale justified?

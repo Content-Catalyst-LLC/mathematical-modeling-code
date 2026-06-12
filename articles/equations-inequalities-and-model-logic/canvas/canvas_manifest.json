@@ -1,0 +1,29 @@
+{
+  "article_slug": "equations-inequalities-and-model-logic",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "formal-logic-governance",
+  "cards": [
+    {
+      "card_id": "formal-statement-register",
+      "title": "Formal Statement Register",
+      "description": "Tracks equations, inequalities, definitions, domains, conditional rules, and review status."
+    },
+    {
+      "card_id": "constraint-diagnostics",
+      "title": "Constraint Diagnostics",
+      "description": "Checks whether inequalities, bounds, and domains shape model results."
+    },
+    {
+      "card_id": "logic-audit",
+      "title": "Model Logic Audit",
+      "description": "Reviews transformations, conditional rules, solver logic, and domain validity."
+    }
+  ],
+  "governance": {
+    "requires_equation_register": true,
+    "requires_inequality_register": true,
+    "requires_domain_checks": true,
+    "requires_conditional_logic_review": true,
+    "requires_code_equation_alignment": true
+  }
+}

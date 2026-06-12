@@ -1,0 +1,64 @@
+
+[1;34m[04:58:01][0m Python workflow
+Equations, inequalities, and model logic workflow complete.
+Formal statements: 5
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[04:58:01][0m R workflow
+null device 
+          1 
+           scenario final_stock mean_stock min_stock max_stock shortage_periods
+1    baseline_logic   100.00000   95.13514 80.000000  100.0000                0
+2 constraint_stress    56.24380   38.54701  9.122827   56.2438                0
+3    tight_capacity    75.00000   74.73718 70.000000   75.0000                0
+4   high_loss_logic    41.84279   52.54077 41.842792   80.0000                0
+5 high_demand_logic   100.00000   65.54637 31.856916  100.0000                0
+  overflow_periods logic_activation_periods domain_violations total_shortage
+1               30                        0                 0              0
+2                0                       14                 0              0
+3               56                        0                 0              0
+4                0                        0                 0              0
+5               10                        5                 0              0
+  total_overflow
+1       14.95134
+2        0.00000
+3       48.61548
+4        0.00000
+5       24.02507
+                                                          description
+1                    Reference equation and inequality logic scenario
+2 Stress scenario designed to activate shortage and low-storage logic
+3                                             Tight capacity scenario
+4                    Higher loss-rate domain and sensitivity scenario
+5          Higher demand scenario designed to activate shortage logic
+                            logic_review
+1            logic stable under scenario
+2 constraint or conditional logic active
+3            logic stable under scenario
+4            logic stable under scenario
+5 constraint or conditional logic active
+
+[1;34m[04:58:01][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/equations_inequalities_logic.sqlite < sql/schema.sql
+sqlite3 outputs/tables/equations_inequalities_logic.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[04:58:01][0m Go workflow
+cd go && go run main.go
+go_baseline_logic final_stock=100.000 total_shortage=0.000 logic_activations=0
+go_constraint_stress final_stock=56.432 total_shortage=0.000 logic_activations=14
+
+[1;34m[04:58:02][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 equation_logic_resource_model.cpp -o equation_logic_resource_model
+./equation_logic_resource_model > ../outputs/tables/cpp_equation_logic_summary.txt
+
+[1;34m[04:58:03][0m Fortran workflow
+gfortran -O2 fortran/equation_logic_resource_model.f90 -o outputs/equation_logic_resource_model_fortran
+./outputs/equation_logic_resource_model_fortran > outputs/tables/fortran_equation_logic_summary.txt
+
+[1;34m[04:58:04][0m C workflow
+cc -O2 -std=c11 c/equation_logic_resource_model.c -o outputs/equation_logic_resource_model_c
+./outputs/equation_logic_resource_model_c > outputs/tables/c_equation_logic_summary.csv 2> outputs/logs/c_equation_logic_stderr.log

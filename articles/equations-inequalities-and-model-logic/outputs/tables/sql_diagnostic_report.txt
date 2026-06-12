@@ -1,0 +1,49 @@
+section        
+---------------
+STATEMENT TYPES
+statement_type     description                                                   typical_failure                               
+-----------------  ------------------------------------------------------------  ----------------------------------------------
+conditional_logic  If-then rule regime trigger or logic branch.                  Policy or threshold logic is hidden.          
+
+definition         Formal definition of derived quantity.                        Definition is mistaken for empirical evidence.
+
+domain_rule        Valid-value restriction for variable parameter function or t  Invalid values enter computation.             
+                   ransformation.                                                                                              
+
+equation           Equality relationship such as definition balance update or f  Equation status is unclear or overinterpreted.
+                   itted relation.                                                                                             
+
+inequality         Order bound threshold constraint or feasible-region statemen  Constraint source or enforcement is hidden.   
+                   t.                                                                                                          
+
+objective_rule     Optimization objective or priority rule.                      Value judgments are hidden as technical form. 
+section                           
+----------------------------------
+FORMAL STATEMENTS REQUIRING REVIEW
+statement_key        statement_type     expression                                       domain_or_condition             review_question                                     
+-------------------  -----------------  -----------------------------------------------  ------------------------------  ----------------------------------------------------
+storage_bounds       inequality         0 <= S[t] <= K                                   K > 0                           Does clipping hide shortage or overflow?            
+shortage_definition  definition         Q[t] = max(0, D[t] + lambda*S[t] - I[t] - S[t])  Q[t] >= 0                       Does shortage measure severity frequency or both?   
+low_storage_rule     conditional_logic  if S[t] < T then D[t+1] = max(0, D[t] - delta)   0 <= T <= K                     Is the threshold measured assumed or policy-defined?
+loss_rate_domain     domain_rule        0 <= lambda <= 1                                 time step must match rate unit  Does the parameter domain match the model time step?
+section        
+---------------
+LOGIC SCENARIOS
+scenario           initial_stock  capacity  inflow  demand  loss_rate  low_storage_threshold  periods
+-----------------  -------------  --------  ------  ------  ---------  ---------------------  -------
+baseline_logic     80.0           100.0     8.0     6.0     0.015      35.0                   60     
+constraint_stress  40.0           60.0      3.0     7.0     0.05       25.0                   60     
+high_demand_logic  80.0           100.0     8.0     9.0     0.015      35.0                   60     
+high_loss_logic    80.0           100.0     8.0     6.0     0.05       35.0                   60     
+tight_capacity     70.0           75.0      8.0     6.0     0.015      30.0                   60     
+section             
+--------------------
+TRANSFORMATION AUDIT
+transformation         requirement                         risk                                      review_question                                          
+---------------------  ----------------------------------  ----------------------------------------  ---------------------------------------------------------
+constraint_relaxation  penalty reflects intended tradeoff  Hard limit may become negotiable          Is this constraint allowed to be relaxed?                
+linearization          local approximation range           Model may fail outside local range        What is the valid range of approximation?                
+log_transform          x > 0                               Zero or negative values become invalid    Are invalid values excluded or modeled separately?       
+normalization          reference scale is meaningful       Comparison may depend on arbitrary scale  Is the reference scale justified?                        
+ratio                  denominator != 0                    Division by zero or unstable values       Is the denominator bounded away from zero?               
+squaring               sign may be lost                    Extraneous solutions may appear           Are candidate solutions checked in the original equation?

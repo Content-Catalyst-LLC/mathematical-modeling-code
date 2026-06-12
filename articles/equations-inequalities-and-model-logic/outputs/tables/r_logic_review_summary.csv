@@ -1,0 +1,6 @@
+"scenario","final_stock","mean_stock","min_stock","max_stock","shortage_periods","overflow_periods","logic_activation_periods","domain_violations","total_shortage","total_overflow","description","logic_review"
+"baseline_logic",100,95.1351448,80,100,0,30,0,0,0,14.95134251,"Reference equation and inequality logic scenario","logic stable under scenario"
+"constraint_stress",56.24380416,38.54701182,9.12282675,56.24380416,0,0,14,0,0,0,"Stress scenario designed to activate shortage and low-storage logic","constraint or conditional logic active"
+"tight_capacity",75,74.73718339,70,75,0,56,0,0,0,48.61547719,"Tight capacity scenario","logic stable under scenario"
+"high_loss_logic",41.84279196,52.54076972,41.84279196,80,0,0,0,0,0,0,"Higher loss-rate domain and sensitivity scenario","logic stable under scenario"
+"high_demand_logic",100,65.5463726,31.85691552,100,0,10,5,0,0,24.02506907,"Higher demand scenario designed to activate shortage logic","constraint or conditional logic active"

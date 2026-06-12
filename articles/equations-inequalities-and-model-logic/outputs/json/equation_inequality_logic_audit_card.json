@@ -1,0 +1,146 @@
+{
+  "article": "Equations, Inequalities, and Model Logic",
+  "formal_statements": [
+    {
+      "domain_or_condition": "0 <= S[t]; 0 <= lambda <= 1",
+      "expression": "S[t+1] = S[t] + I[t] - D[t] - lambda*S[t]",
+      "interpretation": "Storage changes through inflow demand and proportional loss",
+      "key": "storage_balance",
+      "review_question": "Are all relevant inflows outflows and losses represented?",
+      "statement_risk_score": 1.0,
+      "statement_type": "equation",
+      "status": "active"
+    },
+    {
+      "domain_or_condition": "K > 0",
+      "expression": "0 <= S[t] <= K",
+      "interpretation": "Storage remains nonnegative and no greater than capacity",
+      "key": "storage_bounds",
+      "review_question": "Does clipping hide shortage or overflow?",
+      "statement_risk_score": 7.0,
+      "statement_type": "inequality",
+      "status": "review"
+    },
+    {
+      "domain_or_condition": "Q[t] >= 0",
+      "expression": "Q[t] = max(0, D[t] + lambda*S[t] - I[t] - S[t])",
+      "interpretation": "Shortage is positive only when demand and loss exceed available resources",
+      "key": "shortage_definition",
+      "review_question": "Does shortage measure severity frequency or both?",
+      "statement_risk_score": 7.0,
+      "statement_type": "definition",
+      "status": "review"
+    },
+    {
+      "domain_or_condition": "0 <= T <= K",
+      "expression": "if S[t] < T then D[t+1] = max(0, D[t] - delta)",
+      "interpretation": "Demand is reduced when storage falls below threshold",
+      "key": "low_storage_rule",
+      "review_question": "Is the threshold measured assumed or policy-defined?",
+      "statement_risk_score": 8.0,
+      "statement_type": "conditional_logic",
+      "status": "review"
+    },
+    {
+      "domain_or_condition": "time step must match rate unit",
+      "expression": "0 <= lambda <= 1",
+      "interpretation": "Loss rate is a valid fraction per time step",
+      "key": "loss_rate_domain",
+      "review_question": "Does the parameter domain match the model time step?",
+      "statement_risk_score": 6.0,
+      "statement_type": "domain_rule",
+      "status": "review"
+    }
+  ],
+  "high_priority_statements": [
+    {
+      "domain_or_condition": "0 <= T <= K",
+      "expression": "if S[t] < T then D[t+1] = max(0, D[t] - delta)",
+      "interpretation": "Demand is reduced when storage falls below threshold",
+      "key": "low_storage_rule",
+      "review_question": "Is the threshold measured assumed or policy-defined?",
+      "statement_risk_score": 8.0,
+      "statement_type": "conditional_logic",
+      "status": "review"
+    }
+  ],
+  "logic_checks": [
+    "equations have stated interpretation",
+    "inequalities have stated source and domain",
+    "conditional rules are visible",
+    "domain validity is checked after each update",
+    "shortage and overflow are reported rather than silently hidden"
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Reference equation and inequality logic scenario",
+      "domain_violations": 0,
+      "final_stock": 100.0,
+      "logic_activation_periods": 0,
+      "max_stock": 100.0,
+      "mean_stock": 95.1351448,
+      "min_stock": 80.0,
+      "overflow_periods": 30,
+      "scenario": "baseline_logic",
+      "shortage_periods": 0,
+      "total_overflow": 14.95134251,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Stress scenario designed to activate shortage and low-storage logic",
+      "domain_violations": 0,
+      "final_stock": 56.24380416,
+      "logic_activation_periods": 14,
+      "max_stock": 56.24380416,
+      "mean_stock": 38.54701182,
+      "min_stock": 9.12282675,
+      "overflow_periods": 0,
+      "scenario": "constraint_stress",
+      "shortage_periods": 0,
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Tight capacity scenario",
+      "domain_violations": 0,
+      "final_stock": 75.0,
+      "logic_activation_periods": 0,
+      "max_stock": 75.0,
+      "mean_stock": 74.73718339,
+      "min_stock": 70.0,
+      "overflow_periods": 56,
+      "scenario": "tight_capacity",
+      "shortage_periods": 0,
+      "total_overflow": 48.61547719,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Higher loss-rate domain and sensitivity scenario",
+      "domain_violations": 0,
+      "final_stock": 41.84279196,
+      "logic_activation_periods": 0,
+      "max_stock": 80.0,
+      "mean_stock": 52.54076972,
+      "min_stock": 41.84279196,
+      "overflow_periods": 0,
+      "scenario": "high_loss_logic",
+      "shortage_periods": 0,
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Higher demand scenario designed to activate shortage logic",
+      "domain_violations": 0,
+      "final_stock": 100.0,
+      "logic_activation_periods": 5,
+      "max_stock": 100.0,
+      "mean_stock": 65.5463726,
+      "min_stock": 31.85691552,
+      "overflow_periods": 10,
+      "scenario": "high_demand_logic",
+      "shortage_periods": 0,
+      "total_overflow": 24.02506907,
+      "total_shortage": 0.0
+    }
+  ]
+}
