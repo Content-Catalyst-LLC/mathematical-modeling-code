@@ -1,0 +1,7 @@
+criterion,meaning,selection_role,risk_if_ignored
+validation_rmse,Out-of-sample prediction error,Generalization evidence,Model may overfit calibration data
+parameter_count,Number of fitted or adjustable model parameters,Complexity review,Complexity may appear free
+interpretability_score,Ability to explain model behavior,Communication and governance,Users may not understand selected model
+robustness_score,Stability under plausible changes,Uncertainty review,Selected model may be fragile
+decision_relevance_score,Alignment with intended use,Decision support,Technical winner may not support action
+overfit_gap,Validation error minus calibration error,Overfit diagnostic,Flexible models may win on known data only

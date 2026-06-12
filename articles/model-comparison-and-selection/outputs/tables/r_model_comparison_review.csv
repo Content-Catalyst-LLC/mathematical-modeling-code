@@ -1,0 +1,6 @@
+"model_id","model_family","calibration_rmse","validation_rmse","parameter_count","interpretability_score","robustness_score","decision_relevance_score","overfit_gap","complexity_penalty","comparison_score","overfit_flag","overfit_risk"
+"logistic_growth","mechanistic",1.25,1.42,3,0.76,0.82,0.86,0.17,0.24,0.765,"False","lower overfit risk"
+"stochastic_shock","stochastic",1.05,1.6,6,0.58,0.88,0.9,0.55,0.48,1.21,"False","moderate overfit risk"
+"linear_trend","statistical",1.8,2.1,2,0.88,0.7,0.68,0.3,0.16,1.434,"False","lower overfit risk"
+"baseline_naive","baseline",2.9,3.05,0,0.95,0.72,0.55,0.15,0,2.237,"False","lower overfit risk"
+"high_flex_curve","flexible",0.45,2.75,9,0.35,0.4,0.52,2.3,0.72,3.0055,"True","high overfit risk"

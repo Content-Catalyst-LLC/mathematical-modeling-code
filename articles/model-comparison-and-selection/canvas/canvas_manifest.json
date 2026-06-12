@@ -1,0 +1,31 @@
+{
+  "article_slug": "model-comparison-and-selection",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "model-selection-governance",
+  "cards": [
+    {
+      "card_id": "candidate-model-register",
+      "title": "Candidate Model Register",
+      "description": "Tracks baselines, statistical models, mechanistic models, stochastic models, and flexible alternatives."
+    },
+    {
+      "card_id": "comparison-diagnostics",
+      "title": "Comparison Diagnostics",
+      "description": "Preserves calibration error, validation error, overfit gaps, complexity penalties, and comparison scores."
+    },
+    {
+      "card_id": "selection-audit-card",
+      "title": "Selection Audit Card",
+      "description": "Documents selected model, ranking method, overfit warnings, criteria, use limits, and remaining review obligations."
+    }
+  ],
+  "governance": {
+    "requires_baseline": true,
+    "requires_validation_error": true,
+    "requires_complexity_penalty": true,
+    "requires_overfit_gap": true,
+    "requires_interpretability_review": true,
+    "requires_robustness_review": true,
+    "requires_decision_relevance_review": true
+  }
+}

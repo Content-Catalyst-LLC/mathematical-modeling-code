@@ -1,0 +1,93 @@
+{
+  "article": "Model Comparison and Selection",
+  "diagnostic_checks": [
+    "candidate models include a baseline",
+    "validation error is separated from calibration error",
+    "complexity penalty is visible",
+    "overfit gap is reported",
+    "interpretability and decision relevance are included",
+    "alternative models are preserved rather than erased"
+  ],
+  "overfit_warning_models": [
+    {
+      "calibration_rmse": 0.45,
+      "comparison_score": 3.0055,
+      "complexity_penalty": 0.72,
+      "decision_relevance_score": 0.52,
+      "interpretability_score": 0.35,
+      "model_family": "flexible",
+      "model_id": "high_flex_curve",
+      "overfit_flag": true,
+      "overfit_gap": 2.3,
+      "parameter_count": 9,
+      "robustness_score": 0.4,
+      "validation_rmse": 2.75
+    }
+  ],
+  "ranking_method": "Validation error plus complexity penalty minus interpretability, robustness, and decision-relevance credits.",
+  "selected_model": {
+    "calibration_rmse": 1.25,
+    "comparison_score": 0.765,
+    "complexity_penalty": 0.24,
+    "decision_relevance_score": 0.86,
+    "interpretability_score": 0.76,
+    "model_family": "mechanistic",
+    "model_id": "logistic_growth",
+    "overfit_flag": false,
+    "overfit_gap": 0.17,
+    "parameter_count": 3,
+    "robustness_score": 0.82,
+    "validation_rmse": 1.42
+  },
+  "selection_register": [
+    {
+      "key": "candidate_set",
+      "modeling_role": "Defines the models being compared",
+      "review_question": "Are plausible baselines and alternatives included?",
+      "selection_layer": "alternatives",
+      "selection_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "key": "validation_error",
+      "modeling_role": "Compares performance on data not used for fitting",
+      "review_question": "Does the selected model generalize?",
+      "selection_layer": "generalization",
+      "selection_risk_score": 1.0,
+      "status": "active"
+    },
+    {
+      "key": "complexity_penalty",
+      "modeling_role": "Penalizes unnecessary complexity",
+      "review_question": "Is added complexity justified by evidence?",
+      "selection_layer": "parsimony",
+      "selection_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "key": "interpretability",
+      "modeling_role": "Assesses whether model behavior can be explained",
+      "review_question": "Can users understand why this model was selected?",
+      "selection_layer": "communication",
+      "selection_risk_score": 5.0,
+      "status": "review"
+    },
+    {
+      "key": "robustness",
+      "modeling_role": "Reviews stability under assumptions and stress",
+      "review_question": "Does the preferred model remain credible under uncertainty?",
+      "selection_layer": "uncertainty",
+      "selection_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "key": "decision_relevance",
+      "modeling_role": "Links model selection to the intended use",
+      "review_question": "Does model performance matter for the decision?",
+      "selection_layer": "decision_support",
+      "selection_risk_score": 6.0,
+      "status": "review"
+    }
+  ],
+  "use_limit": "Selection is purpose-specific and should not be generalized beyond the comparison criteria."
+}

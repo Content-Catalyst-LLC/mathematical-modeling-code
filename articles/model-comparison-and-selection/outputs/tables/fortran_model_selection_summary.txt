@@ -1,0 +1,7 @@
+model_id comparison_score overfit_gap
+baseline_naive   2.2370   0.1500
+linear_trend   1.4340   0.3000
+logistic_growth   0.7650   0.1700
+stochastic_shock   1.2100   0.5500
+high_flex_curve   3.0055   2.3000
+selected_model logistic_growth

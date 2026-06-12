@@ -1,0 +1,96 @@
+
+[1;34m[18:03:30][0m Python workflow
+Model comparison and selection workflow complete.
+Selected model: logistic_growth
+Candidate count: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[18:03:30][0m R workflow
+null device 
+          1 
+         model_id model_family calibration_rmse validation_rmse parameter_count
+1 logistic_growth  mechanistic             1.25            1.42               3
+  interpretability_score robustness_score decision_relevance_score overfit_gap
+1                   0.76             0.82                     0.86        0.17
+  complexity_penalty comparison_score overfit_flag       overfit_risk
+1               0.24            0.765        False lower overfit risk
+          model_id model_family calibration_rmse validation_rmse
+1  logistic_growth  mechanistic             1.25            1.42
+2 stochastic_shock   stochastic             1.05            1.60
+3     linear_trend  statistical             1.80            2.10
+4   baseline_naive     baseline             2.90            3.05
+5  high_flex_curve     flexible             0.45            2.75
+  parameter_count interpretability_score robustness_score
+1               3                   0.76             0.82
+2               6                   0.58             0.88
+3               2                   0.88             0.70
+4               0                   0.95             0.72
+5               9                   0.35             0.40
+  decision_relevance_score overfit_gap complexity_penalty comparison_score
+1                     0.86        0.17               0.24           0.7650
+2                     0.90        0.55               0.48           1.2100
+3                     0.68        0.30               0.16           1.4340
+4                     0.55        0.15               0.00           2.2370
+5                     0.52        2.30               0.72           3.0055
+  overfit_flag          overfit_risk
+1        False    lower overfit risk
+2        False moderate overfit risk
+3        False    lower overfit risk
+4        False    lower overfit risk
+5         True     high overfit risk
+                 key  selection_layer
+1      candidate_set     alternatives
+2   validation_error   generalization
+3 complexity_penalty        parsimony
+4   interpretability    communication
+5         robustness      uncertainty
+6 decision_relevance decision_support
+                                      modeling_role
+1                 Defines the models being compared
+2 Compares performance on data not used for fitting
+3                  Penalizes unnecessary complexity
+4  Assesses whether model behavior can be explained
+5    Reviews stability under assumptions and stress
+6         Links model selection to the intended use
+                                              review_question status
+1          Are plausible baselines and alternatives included? review
+2                         Does the selected model generalize? active
+3                  Is added complexity justified by evidence? review
+4           Can users understand why this model was selected? review
+5 Does the preferred model remain credible under uncertainty? review
+6             Does model performance matter for the decision? review
+  selection_risk_score priority
+1                    6   medium
+2                    1      low
+3                    6   medium
+4                    5      low
+5                    6   medium
+6                    6   medium
+
+[1;34m[18:03:31][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/model_comparison_and_selection.sqlite < sql/schema.sql
+sqlite3 outputs/tables/model_comparison_and_selection.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[18:03:31][0m Go workflow
+cd go && go run main.go
+baseline_naive comparison_score=2.2370 overfit_gap=0.1500
+linear_trend comparison_score=1.4340 overfit_gap=0.3000
+logistic_growth comparison_score=0.7650 overfit_gap=0.1700
+stochastic_shock comparison_score=1.2100 overfit_gap=0.5500
+high_flex_curve comparison_score=3.0055 overfit_gap=2.3000
+selected_model=logistic_growth comparison_score=0.7650
+
+[1;34m[18:03:31][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 model_selection_summary.cpp -o model_selection_summary
+./model_selection_summary > ../outputs/tables/cpp_model_selection_summary.csv 2> ../outputs/logs/cpp_model_selection_stderr.log
+
+[1;34m[18:03:33][0m Fortran workflow
+gfortran -O2 fortran/model_selection_summary.f90 -o outputs/model_selection_summary_fortran
+./outputs/model_selection_summary_fortran > outputs/tables/fortran_model_selection_summary.txt
+
+[1;34m[18:03:33][0m C workflow
+cc -O2 -std=c11 c/model_selection_summary.c -o outputs/model_selection_summary_c -lm
+./outputs/model_selection_summary_c > outputs/tables/c_model_selection_summary.csv 2> outputs/logs/c_model_selection_stderr.log

@@ -1,0 +1,54 @@
+section         
+----------------
+SELECTION LAYERS
+selection_layer   description                                        typical_failure                                             
+----------------  -------------------------------------------------  ------------------------------------------------------------
+alternatives      Candidate model set and baselines.                 Weak candidate set makes selection appear stronger than it i
+                                                                     s.                                                          
+
+communication     Interpretability and explainability.               Users cannot understand why the model was selected.         
+
+decision_support  Connection between model choice and intended use.  Technical winner does not support the decision.             
+
+generalization    Performance beyond calibration data.               Model is selected despite overfitting.                      
+
+parsimony         Complexity and parameter burden.                   Extra complexity is accepted without evidence.              
+
+uncertainty       Robustness and sensitivity under assumptions.      Selected model is fragile.                                  
+section                           
+----------------------------------
+SELECTION RECORDS REQUIRING REVIEW
+record_key          selection_layer   review_question                                            
+------------------  ----------------  -----------------------------------------------------------
+candidate_set       alternatives      Are plausible baselines and alternatives included?         
+complexity_penalty  parsimony         Is added complexity justified by evidence?                 
+interpretability    communication     Can users understand why this model was selected?          
+robustness          uncertainty       Does the preferred model remain credible under uncertainty?
+decision_relevance  decision_support  Does model performance matter for the decision?            
+section                 
+------------------------
+MODEL COMPARISON RANKING
+model_id          model_family  calibration_rmse  validation_rmse  overfit_gap  parameter_count  comparison_score
+----------------  ------------  ----------------  ---------------  -----------  ---------------  ----------------
+logistic_growth   mechanistic   1.25              1.42             0.17         3                0.765           
+stochastic_shock  stochastic    1.05              1.6              0.55         6                1.21            
+linear_trend      statistical   1.8               2.1              0.3          2                1.434           
+baseline_naive    baseline      2.9               3.05             0.15         0                2.237           
+high_flex_curve   flexible      0.45              2.75             2.3          9                3.0055          
+section               
+----------------------
+OVERFIT WARNING MODELS
+model_id         calibration_rmse  validation_rmse  overfit_gap
+---------------  ----------------  ---------------  -----------
+high_flex_curve  0.45              2.75             2.3        
+section           
+------------------
+SELECTION CRITERIA
+criterion                 meaning                                    selection_role                risk_if_ignored                           
+------------------------  -----------------------------------------  ----------------------------  ------------------------------------------
+decision_relevance_score  Alignment with intended use                Decision support              Technical winner may not support action   
+interpretability_score    Ability to explain model behavior          Communication and governance  Users may not understand selected model   
+overfit_gap               Validation error minus calibration error   Overfit diagnostic            Flexible models may win on known data only
+parameter_count           Number of fitted or adjustable parameters  Complexity review             Complexity may appear free                
+robustness_score          Stability under plausible changes          Uncertainty review            Selected model may be fragile             
+validation_rmse           Out-of-sample prediction error             Generalization evidence       Model may overfit calibration data        

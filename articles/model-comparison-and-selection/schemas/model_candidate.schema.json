@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModelCandidate",
+  "type": "object",
+  "required": [
+    "model_id",
+    "model_family",
+    "calibration_rmse",
+    "validation_rmse",
+    "parameter_count",
+    "interpretability_score",
+    "robustness_score",
+    "decision_relevance_score"
+  ],
+  "properties": {
+    "model_id": {"type": "string"},
+    "model_family": {"type": "string"},
+    "calibration_rmse": {"type": "number", "minimum": 0},
+    "validation_rmse": {"type": "number", "minimum": 0},
+    "parameter_count": {"type": "integer", "minimum": 0},
+    "interpretability_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "robustness_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "decision_relevance_score": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

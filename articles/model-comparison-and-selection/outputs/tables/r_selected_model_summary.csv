@@ -1,0 +1,2 @@
+"model_id","model_family","calibration_rmse","validation_rmse","parameter_count","interpretability_score","robustness_score","decision_relevance_score","overfit_gap","complexity_penalty","comparison_score","overfit_flag","overfit_risk"
+"logistic_growth","mechanistic",1.25,1.42,3,0.76,0.82,0.86,0.17,0.24,0.765,"False","lower overfit risk"

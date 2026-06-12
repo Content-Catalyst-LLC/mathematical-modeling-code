@@ -1,0 +1,7 @@
+key,selection_layer,modeling_role,review_question,status,selection_risk_score
+candidate_set,alternatives,Defines the models being compared,Are plausible baselines and alternatives included?,review,6.0
+validation_error,generalization,Compares performance on data not used for fitting,Does the selected model generalize?,active,1.0
+complexity_penalty,parsimony,Penalizes unnecessary complexity,Is added complexity justified by evidence?,review,6.0
+interpretability,communication,Assesses whether model behavior can be explained,Can users understand why this model was selected?,review,5.0
+robustness,uncertainty,Reviews stability under assumptions and stress,Does the preferred model remain credible under uncertainty?,review,6.0
+decision_relevance,decision_support,Links model selection to the intended use,Does model performance matter for the decision?,review,6.0
