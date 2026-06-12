@@ -1,0 +1,8 @@
+key,kind,x,y,value
+neighborhood_a,demand,0.0,0.0,1200
+neighborhood_b,demand,2.0,1.0,900
+neighborhood_c,demand,4.0,2.5,1400
+neighborhood_d,demand,6.0,1.5,700
+clinic_1,service,1.0,0.5,500
+clinic_2,service,5.5,2.0,650
+clinic_3,service,3.0,4.0,400

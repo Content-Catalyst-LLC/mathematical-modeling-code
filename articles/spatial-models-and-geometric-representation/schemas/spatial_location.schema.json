@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpatialLocation",
+  "type": "object",
+  "required": [
+    "key",
+    "kind",
+    "x",
+    "y",
+    "value"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "kind": {"type": "string", "enum": ["demand", "service"]},
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "value": {"type": "number", "minimum": 0}
+  }
+}

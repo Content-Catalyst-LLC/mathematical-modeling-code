@@ -1,0 +1,30 @@
+{
+  "article_slug": "spatial-models-and-geometric-representation",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "spatial-model-governance",
+  "cards": [
+    {
+      "card_id": "spatial-model-register",
+      "title": "Spatial Model Register",
+      "description": "Tracks geometry, coordinate systems, distance metrics, accessibility measures, spatial fields, boundaries, and validation diagnostics."
+    },
+    {
+      "card_id": "distance-review",
+      "title": "Distance Review",
+      "description": "Documents whether distance is straight-line, network-based, time-based, cost-based, or barrier-adjusted."
+    },
+    {
+      "card_id": "spatial-uncertainty",
+      "title": "Spatial Uncertainty Review",
+      "description": "Connects positional, boundary, scale, aggregation, and interpolation uncertainty to responsible model use."
+    }
+  ],
+  "governance": {
+    "requires_spatial_model_register": true,
+    "requires_geometry_note": true,
+    "requires_coordinate_system_note": true,
+    "requires_distance_metric_review": true,
+    "requires_boundary_and_scale_review": true,
+    "requires_spatial_uncertainty_note": true
+  }
+}

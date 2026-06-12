@@ -1,0 +1,7 @@
+"key","component_type","geometry_or_structure","interpretation","review_question","status","spatial_risk_score","priority"
+"point_geometry","geometry","p=(x,y)","Facilities and observations are represented as point coordinates","Does point geometry oversimplify area shape or access?","review",7,"medium"
+"euclidean_distance","distance_metric","sqrt((x_i-x_j)^2+(y_i-y_j)^2)","Straight-line distance is used as a transparent baseline","Should network distance or travel time replace straight-line distance?","review",6,"medium"
+"service_access","accessibility_metric","capacity/(1+distance)","Service capacity is discounted by distance","Does the accessibility metric match the decision context?","review",7,"medium"
+"spatial_uncertainty","validation_diagnostic","distance_and_boundary_sensitivity","Spatial results require sensitivity checks","Are conclusions robust to distance and scale assumptions?","active",4,"low"
+"coordinate_units","coordinate_system","planar_model_units","Coordinates are interpreted in shared planar units","Are units and reference frames documented?","review",6,"medium"
+"boundary_definition","network_boundary","study_area_extent","The model states which area is included","What relevant context is excluded?","review",6,"medium"

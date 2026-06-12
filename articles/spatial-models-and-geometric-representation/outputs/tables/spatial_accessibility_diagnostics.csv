@@ -1,0 +1,5 @@
+demand_location,population_or_demand,nearest_service,nearest_distance,accessibility_score,low_access_exposure_score
+neighborhood_a,1200.0,clinic_1,1.11803399,397.59261322,3.01059267
+neighborhood_b,900.0,clinic_1,1.11803399,472.25375492,1.90172818
+neighborhood_c,1400.0,clinic_2,1.58113883,503.10713178,2.77718745
+neighborhood_d,700.0,clinic_2,0.70710678,544.2889386,1.28372309

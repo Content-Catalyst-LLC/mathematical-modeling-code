@@ -1,0 +1,8 @@
+component_type,meaning,example,review_question
+geometry,Spatial object representation,point line polygon grid surface,Does the geometry match the purpose?
+coordinate_system,Reference frame and units,planar meters or projected CRS,Are units and projection documented?
+distance_metric,How separation is measured,Euclidean distance,Does distance match movement or exposure?
+accessibility_metric,How access is scored,capacity discounted by distance,Does the metric support the decision?
+neighborhood_rule,Which locations affect each other,distance band or adjacency,Is the neighborhood justified?
+spatial_field,Value over space,risk surface or elevation,Is interpolation uncertainty represented?
+validation_diagnostic,Credibility check,boundary sensitivity,Are conclusions robust?

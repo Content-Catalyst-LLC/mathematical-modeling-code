@@ -1,0 +1,104 @@
+{
+  "accessibility_diagnostics": [
+    {
+      "accessibility_score": 397.59261322,
+      "demand_location": "neighborhood_a",
+      "low_access_exposure_score": 3.01059267,
+      "nearest_distance": 1.11803399,
+      "nearest_service": "clinic_1",
+      "population_or_demand": 1200.0
+    },
+    {
+      "accessibility_score": 472.25375492,
+      "demand_location": "neighborhood_b",
+      "low_access_exposure_score": 1.90172818,
+      "nearest_distance": 1.11803399,
+      "nearest_service": "clinic_1",
+      "population_or_demand": 900.0
+    },
+    {
+      "accessibility_score": 503.10713178,
+      "demand_location": "neighborhood_c",
+      "low_access_exposure_score": 2.77718745,
+      "nearest_distance": 1.58113883,
+      "nearest_service": "clinic_2",
+      "population_or_demand": 1400.0
+    },
+    {
+      "accessibility_score": 544.2889386,
+      "demand_location": "neighborhood_d",
+      "low_access_exposure_score": 1.28372309,
+      "nearest_distance": 0.70710678,
+      "nearest_service": "clinic_2",
+      "population_or_demand": 700.0
+    }
+  ],
+  "article": "Spatial Models and Geometric Representation",
+  "audit_checks": [
+    "coordinate system is documented",
+    "geometry type matches model purpose",
+    "distance metric is justified",
+    "scale and aggregation are reviewed",
+    "spatial uncertainty is communicated"
+  ],
+  "demand_location_count": 4,
+  "high_priority_spatial_records": [],
+  "location_count": 7,
+  "records": [
+    {
+      "component_type": "geometry",
+      "geometry_or_structure": "p=(x,y)",
+      "interpretation": "Facilities and observations are represented as point coordinates",
+      "key": "point_geometry",
+      "review_question": "Does point geometry oversimplify area shape or access?",
+      "spatial_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "component_type": "distance_metric",
+      "geometry_or_structure": "sqrt((x_i-x_j)^2+(y_i-y_j)^2)",
+      "interpretation": "Straight-line distance is used as a transparent baseline",
+      "key": "euclidean_distance",
+      "review_question": "Should network distance or travel time replace straight-line distance?",
+      "spatial_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "component_type": "accessibility_metric",
+      "geometry_or_structure": "capacity/(1+distance)",
+      "interpretation": "Service capacity is discounted by distance",
+      "key": "service_access",
+      "review_question": "Does the accessibility metric match the decision context?",
+      "spatial_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "component_type": "validation_diagnostic",
+      "geometry_or_structure": "distance_and_boundary_sensitivity",
+      "interpretation": "Spatial results require sensitivity checks",
+      "key": "spatial_uncertainty",
+      "review_question": "Are conclusions robust to distance and scale assumptions?",
+      "spatial_risk_score": 4.0,
+      "status": "active"
+    },
+    {
+      "component_type": "coordinate_system",
+      "geometry_or_structure": "planar_model_units",
+      "interpretation": "Coordinates are interpreted in shared planar units",
+      "key": "coordinate_units",
+      "review_question": "Are units and reference frames documented?",
+      "spatial_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "component_type": "network_boundary",
+      "geometry_or_structure": "study_area_extent",
+      "interpretation": "The model states which area is included",
+      "key": "boundary_definition",
+      "review_question": "What relevant context is excluded?",
+      "spatial_risk_score": 6.0,
+      "status": "review"
+    }
+  ],
+  "service_location_count": 3
+}

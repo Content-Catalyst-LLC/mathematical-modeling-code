@@ -1,0 +1,76 @@
+section                
+-----------------------
+SPATIAL COMPONENT TYPES
+component_type         description                         typical_failure                                          
+---------------------  ----------------------------------  ---------------------------------------------------------
+accessibility_metric   How access is scored.               Metric hides capacity, barriers, or values.              
+coordinate_system      Reference frame and units.          Units or projection are undocumented.                    
+distance_metric        How separation is measured.         Distance metric does not match movement or exposure.     
+geometry               Spatial object representation.      Representation does not match model purpose.             
+neighborhood_rule      Which locations affect each other.  Neighborhoods are arbitrary.                             
+network_boundary       Included spatial extent.            Relevant context is excluded.                            
+spatial_field          Value over space.                   Interpolation uncertainty is hidden.                     
+validation_diagnostic  Credibility check.                  Scale, boundary, and distance sensitivity are not tested.
+section                         
+--------------------------------
+SPATIAL RECORDS REQUIRING REVIEW
+record_key           component_type        geometry_or_structure          review_question                                             
+-------------------  --------------------  -----------------------------  ------------------------------------------------------------
+point_geometry       geometry              p=(x,y)                        Does point geometry oversimplify area shape or access?      
+
+euclidean_distance   distance_metric       sqrt((x_i-x_j)^2+(y_i-y_j)^2)  Should network distance or travel time replace straight-line
+                                                                           distance?                                                  
+
+service_access       accessibility_metric  capacity/(1+distance)          Does the accessibility metric match the decision context?   
+
+coordinate_units     coordinate_system     planar_model_units             Are units and reference frames documented?                  
+
+boundary_definition  network_boundary      study_area_extent              What relevant context is excluded?                          
+section          
+-----------------
+SPATIAL LOCATIONS
+location_key    kind     x    y    value 
+--------------  -------  ---  ---  ------
+neighborhood_a  demand   0.0  0.0  1200.0
+neighborhood_b  demand   2.0  1.0  900.0 
+neighborhood_c  demand   4.0  2.5  1400.0
+neighborhood_d  demand   6.0  1.5  700.0 
+clinic_1        service  1.0  0.5  500.0 
+clinic_2        service  5.5  2.0  650.0 
+clinic_3        service  3.0  4.0  400.0 
+section                  
+-------------------------
+DEMAND AND SERVICE COUNTS
+kind     location_count  total_value
+-------  --------------  -----------
+demand   4               4200.0     
+service  3               1550.0     
+section                                  
+-----------------------------------------
+DISTANCE FROM DEMAND TO SERVICE LOCATIONS
+demand_location  service_location  euclidean_distance
+---------------  ----------------  ------------------
+neighborhood_a   clinic_1          1.118             
+neighborhood_a   clinic_3          5.0               
+neighborhood_a   clinic_2          5.8523            
+neighborhood_b   clinic_1          1.118             
+neighborhood_b   clinic_3          3.1623            
+neighborhood_b   clinic_2          3.6401            
+neighborhood_c   clinic_2          1.5811            
+neighborhood_c   clinic_3          1.8028            
+neighborhood_c   clinic_1          3.6056            
+neighborhood_d   clinic_2          0.7071            
+neighborhood_d   clinic_3          3.9051            
+neighborhood_d   clinic_1          5.099             
+section                
+-----------------------
+SPATIAL COMPONENT GUIDE
+component_type         meaning                            example                          review_question                          
+---------------------  ---------------------------------  -------------------------------  -----------------------------------------
+accessibility_metric   How access is scored               capacity discounted by distance  Does the metric support the decision?    
+coordinate_system      Reference frame and units          planar meters or projected CRS   Are units and projection documented?     
+distance_metric        How separation is measured         Euclidean distance               Does distance match movement or exposure?
+geometry               Spatial object representation      point line polygon grid surface  Does the geometry match the purpose?     
+neighborhood_rule      Which locations affect each other  distance band or adjacency       Is the neighborhood justified?           
+spatial_field          Value over space                   risk surface or elevation        Is interpolation uncertainty represented?
+validation_diagnostic  Credibility check                  boundary sensitivity             Are conclusions robust?                  

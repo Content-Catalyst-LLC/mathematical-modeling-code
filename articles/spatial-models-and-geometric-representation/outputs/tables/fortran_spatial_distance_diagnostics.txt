@@ -1,0 +1,5 @@
+demand_index nearest_service_index nearest_distance accessibility_score
+1 1     1.1180   397.5926
+2 1     1.1180   472.2538
+3 2     1.5811   503.1071
+4 2     0.7071   544.2889

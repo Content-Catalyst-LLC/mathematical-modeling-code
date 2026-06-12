@@ -1,0 +1,46 @@
+
+[1;34m[16:34:49][0m Python workflow
+Spatial models and geometric representation workflow complete.
+Spatial records: 6
+Locations: 7
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[16:34:49][0m R workflow
+null device 
+          1 
+  demand_location population_or_demand nearest_service nearest_distance
+1  neighborhood_a                 1200        clinic_1        1.1180340
+2  neighborhood_b                  900        clinic_1        1.1180340
+3  neighborhood_c                 1400        clinic_2        1.5811388
+4  neighborhood_d                  700        clinic_2        0.7071068
+  accessibility_score low_access_exposure_score        review_class
+1            397.5926                  3.010593 lower access review
+2            472.2538                  1.901728 lower access review
+3            503.1071                  2.777187      routine review
+4            544.2889                  1.283723      routine review
+
+[1;34m[16:34:50][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/spatial_models_geometric_representation.sqlite < sql/schema.sql
+sqlite3 outputs/tables/spatial_models_geometric_representation.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[16:34:50][0m Go workflow
+cd go && go run main.go
+neighborhood_a nearest=clinic_1 distance=1.118 accessibility=397.593
+neighborhood_b nearest=clinic_1 distance=1.118 accessibility=472.254
+neighborhood_c nearest=clinic_2 distance=1.581 accessibility=503.107
+neighborhood_d nearest=clinic_2 distance=0.707 accessibility=544.289
+
+[1;34m[16:34:50][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 spatial_distance_diagnostics.cpp -o spatial_distance_diagnostics
+./spatial_distance_diagnostics > ../outputs/tables/cpp_spatial_distance_diagnostics.csv
+
+[1;34m[16:34:51][0m Fortran workflow
+gfortran -O2 fortran/spatial_distance_diagnostics.f90 -o outputs/spatial_distance_diagnostics_fortran
+./outputs/spatial_distance_diagnostics_fortran > outputs/tables/fortran_spatial_distance_diagnostics.txt
+
+[1;34m[16:34:52][0m C workflow
+cc -O2 -std=c11 c/spatial_distance_diagnostics.c -lm -o outputs/spatial_distance_diagnostics_c
+./outputs/spatial_distance_diagnostics_c > outputs/tables/c_spatial_distance_diagnostics.csv 2> outputs/logs/c_spatial_distance_stderr.log
