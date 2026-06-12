@@ -1,0 +1,5 @@
+scenario,demand_mu,demand_sigma,supply_mean,supply_sd,reserve,simulations,seed,description
+baseline,4.50,0.25,95,8,5,5000,101,Baseline probabilistic risk scenario
+high_variability,4.50,0.45,95,12,5,5000,102,Higher uncertainty in demand and supply
+low_reserve,4.50,0.25,95,8,0,5000,103,No reserve buffer scenario
+stress_demand,4.65,0.35,90,10,5,5000,104,Higher demand and lower supply stress scenario

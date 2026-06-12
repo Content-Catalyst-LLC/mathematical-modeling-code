@@ -1,0 +1,1 @@
+fortran shortage_probability=  0.342800 expected_shortage=    6.680851 max_shortage=  108.615788

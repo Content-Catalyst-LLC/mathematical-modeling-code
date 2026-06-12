@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProbabilityModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "model_component",
+    "distribution_or_rule",
+    "interpretation",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "model_component": {
+      "type": "string",
+      "enum": ["random_variable", "distribution_choice", "parameter_uncertainty", "derived_risk", "risk_measure", "conditional_statement", "simulation_setting", "validation_diagnostic"]
+    },
+    "distribution_or_rule": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

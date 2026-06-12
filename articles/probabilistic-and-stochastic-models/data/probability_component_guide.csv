@@ -1,0 +1,8 @@
+model_component,meaning,example,review_question
+random_variable,Quantity represented as uncertain,D ~ Lognormal(mu sigma),Is distribution support appropriate?
+distribution_choice,Assumption about uncertainty shape,Normal vs lognormal,Is tail behavior justified?
+parameter_uncertainty,Uncertain parameter value,theta ~ posterior,Is parameter uncertainty propagated?
+derived_risk,Output derived from random variables,Q = max(0 D-S),Are probability and severity separated?
+conditional_statement,Probability given evidence,P(A|B),Is conditioning clear?
+simulation_setting,Monte Carlo configuration,M and seed,Is simulation reproducible?
+validation_diagnostic,Check for probabilistic credibility,coverage or calibration,Are probability statements validated?

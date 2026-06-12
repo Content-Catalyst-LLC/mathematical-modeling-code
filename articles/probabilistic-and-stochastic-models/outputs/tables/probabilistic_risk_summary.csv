@@ -1,0 +1,5 @@
+scenario,simulations,shortage_probability,expected_shortage,shortage_sd,shortage_q50,shortage_q90,shortage_q95,shortage_q99,max_shortage,description
+baseline,5000,0.3542,7.09340521,14.16289179,0.0,26.10420213,38.90837999,62.19367505,131.83460201,Baseline probabilistic risk scenario
+high_variability,5000,0.4254,18.82511978,35.55734523,0.0,63.04577606,90.8661988,160.41380694,374.50206336,Higher uncertainty in demand and supply
+low_reserve,5000,0.42,8.78918619,15.62684116,0.0,29.91034888,41.65731878,66.64379413,148.85804069,No reserve buffer scenario
+stress_demand,5000,0.6214,24.58201527,34.09059146,10.45969581,68.78169835,93.67403778,152.16462409,333.48920412,Higher demand and lower supply stress scenario

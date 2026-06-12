@@ -1,0 +1,29 @@
+{
+  "article_slug": "probabilistic-and-stochastic-models",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "probability-model-governance",
+  "cards": [
+    {
+      "card_id": "probability-model-register",
+      "title": "Probability Model Register",
+      "description": "Tracks random variables, distribution choices, risk measures, conditional statements, simulation settings, and validation diagnostics."
+    },
+    {
+      "card_id": "monte-carlo-risk-diagnostics",
+      "title": "Monte Carlo Risk Diagnostics",
+      "description": "Compares shortage probability, expected shortage, quantiles, and tail risk across probabilistic scenarios."
+    },
+    {
+      "card_id": "distribution-review",
+      "title": "Distribution Review",
+      "description": "Documents support, skew, tail behavior, dependence assumptions, and evidence for uncertainty modeling choices."
+    }
+  ],
+  "governance": {
+    "requires_probability_model_register": true,
+    "requires_distribution_review": true,
+    "requires_tail_risk_reporting": true,
+    "requires_random_seed_and_simulation_count": true,
+    "requires_uncertainty_use_limit_note": true
+  }
+}

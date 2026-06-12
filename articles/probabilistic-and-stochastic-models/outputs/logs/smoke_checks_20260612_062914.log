@@ -1,0 +1,49 @@
+
+[1;34m[06:29:16][0m Python workflow
+Probabilistic and stochastic models workflow complete.
+Probability records: 5
+Scenarios: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[06:29:16][0m R workflow
+null device 
+          1 
+          scenario simulations shortage_probability expected_shortage
+1         baseline        5000               0.3542          7.093405
+2 high_variability        5000               0.4254         18.825120
+3      low_reserve        5000               0.4200          8.789186
+4    stress_demand        5000               0.6214         24.582015
+  shortage_sd shortage_q50 shortage_q90 shortage_q95 shortage_q99 max_shortage
+1    14.16289       0.0000     26.10420     38.90838     62.19368     131.8346
+2    35.55735       0.0000     63.04578     90.86620    160.41381     374.5021
+3    15.62684       0.0000     29.91035     41.65732     66.64379     148.8580
+4    34.09059      10.4597     68.78170     93.67404    152.16462     333.4892
+                                     description          risk_review
+1           Baseline probabilistic risk scenario high review priority
+2        Higher uncertainty in demand and supply high review priority
+3                     No reserve buffer scenario high review priority
+4 Higher demand and lower supply stress scenario high review priority
+
+[1;34m[06:29:16][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/probabilistic_stochastic_models.sqlite < sql/schema.sql
+sqlite3 outputs/tables/probabilistic_stochastic_models.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[06:29:16][0m Go workflow
+cd go && go run main.go
+go_baseline shortage_probability=0.3572 expected_shortage=7.1997 q95=39.0286 max_shortage=108.7527
+go_high_variability shortage_probability=0.4134 expected_shortage=18.3968 q95=93.7946 max_shortage=392.5478
+
+[1;34m[06:29:17][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 probabilistic_risk_model.cpp -o probabilistic_risk_model
+./probabilistic_risk_model > ../outputs/tables/cpp_probabilistic_risk_summary.txt
+
+[1;34m[06:29:18][0m Fortran workflow
+gfortran -O2 fortran/probabilistic_risk_model.f90 -o outputs/probabilistic_risk_model_fortran
+./outputs/probabilistic_risk_model_fortran > outputs/tables/fortran_probabilistic_risk_summary.txt
+
+[1;34m[06:29:19][0m C workflow
+cc -O2 -std=c11 c/probabilistic_risk_model.c -lm -o outputs/probabilistic_risk_model_c
+./outputs/probabilistic_risk_model_c > outputs/tables/c_probabilistic_risk_runs.csv 2> outputs/logs/c_probabilistic_risk_stderr.log

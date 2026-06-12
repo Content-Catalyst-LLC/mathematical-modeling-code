@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RiskScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "demand_mu",
+    "demand_sigma",
+    "supply_mean",
+    "supply_sd",
+    "reserve",
+    "simulations",
+    "seed"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "demand_mu": {"type": "number"},
+    "demand_sigma": {"type": "number", "exclusiveMinimum": 0},
+    "supply_mean": {"type": "number", "exclusiveMinimum": 0},
+    "supply_sd": {"type": "number", "exclusiveMinimum": 0},
+    "reserve": {"type": "number", "minimum": 0},
+    "simulations": {"type": "integer", "minimum": 100},
+    "seed": {"type": "integer"}
+  }
+}

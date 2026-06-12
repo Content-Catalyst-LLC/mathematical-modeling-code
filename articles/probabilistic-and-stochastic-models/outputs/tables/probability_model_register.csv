@@ -1,0 +1,6 @@
+key,model_component,distribution_or_rule,interpretation,review_question,status,probability_risk_score
+demand_distribution,random_variable,D ~ Lognormal(mu sigma),Demand is positive and right-skewed,Is the tail behavior justified by evidence?,review,8.0
+supply_distribution,random_variable,S ~ Normal(mean sd) truncated at zero,Supply varies around a planned level,Is normal uncertainty plausible near zero?,review,6.0
+shortage_amount,derived_risk,Q = max(0 D - S - reserve),Shortage is positive when demand exceeds available supply and reserve,Are shortage amount and shortage probability both reported?,active,4.0
+tail_risk,risk_measure,quantile(Q 0.95),High-end shortage risk is summarized by a tail quantile,Is tail risk used alongside expected shortage?,active,4.0
+simulation_count,simulation_setting,M,Monte Carlo sample size,Is the simulation count adequate for tail estimates?,review,7.0

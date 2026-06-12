@@ -1,0 +1,122 @@
+{
+  "article": "Probabilistic and Stochastic Models",
+  "audit_checks": [
+    "distribution choices are justified",
+    "tail risk is reported",
+    "shortage probability and severity are separated",
+    "random seed and simulation count are documented",
+    "uncertainty is communicated as conditional on assumptions"
+  ],
+  "high_priority_probability_records": [
+    {
+      "distribution_or_rule": "D ~ Lognormal(mu sigma)",
+      "interpretation": "Demand is positive and right-skewed",
+      "key": "demand_distribution",
+      "model_component": "random_variable",
+      "probability_risk_score": 8.0,
+      "review_question": "Is the tail behavior justified by evidence?",
+      "status": "review"
+    }
+  ],
+  "probability_model_register": [
+    {
+      "distribution_or_rule": "D ~ Lognormal(mu sigma)",
+      "interpretation": "Demand is positive and right-skewed",
+      "key": "demand_distribution",
+      "model_component": "random_variable",
+      "probability_risk_score": 8.0,
+      "review_question": "Is the tail behavior justified by evidence?",
+      "status": "review"
+    },
+    {
+      "distribution_or_rule": "S ~ Normal(mean sd) truncated at zero",
+      "interpretation": "Supply varies around a planned level",
+      "key": "supply_distribution",
+      "model_component": "random_variable",
+      "probability_risk_score": 6.0,
+      "review_question": "Is normal uncertainty plausible near zero?",
+      "status": "review"
+    },
+    {
+      "distribution_or_rule": "Q = max(0 D - S - reserve)",
+      "interpretation": "Shortage is positive when demand exceeds available supply and reserve",
+      "key": "shortage_amount",
+      "model_component": "derived_risk",
+      "probability_risk_score": 4.0,
+      "review_question": "Are shortage amount and shortage probability both reported?",
+      "status": "active"
+    },
+    {
+      "distribution_or_rule": "quantile(Q 0.95)",
+      "interpretation": "High-end shortage risk is summarized by a tail quantile",
+      "key": "tail_risk",
+      "model_component": "risk_measure",
+      "probability_risk_score": 4.0,
+      "review_question": "Is tail risk used alongside expected shortage?",
+      "status": "active"
+    },
+    {
+      "distribution_or_rule": "M",
+      "interpretation": "Monte Carlo sample size",
+      "key": "simulation_count",
+      "model_component": "simulation_setting",
+      "probability_risk_score": 7.0,
+      "review_question": "Is the simulation count adequate for tail estimates?",
+      "status": "review"
+    }
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Baseline probabilistic risk scenario",
+      "expected_shortage": 7.09340521,
+      "max_shortage": 131.83460201,
+      "scenario": "baseline",
+      "shortage_probability": 0.3542,
+      "shortage_q50": 0.0,
+      "shortage_q90": 26.10420213,
+      "shortage_q95": 38.90837999,
+      "shortage_q99": 62.19367505,
+      "shortage_sd": 14.16289179,
+      "simulations": 5000
+    },
+    {
+      "description": "Higher uncertainty in demand and supply",
+      "expected_shortage": 18.82511978,
+      "max_shortage": 374.50206336,
+      "scenario": "high_variability",
+      "shortage_probability": 0.4254,
+      "shortage_q50": 0.0,
+      "shortage_q90": 63.04577606,
+      "shortage_q95": 90.8661988,
+      "shortage_q99": 160.41380694,
+      "shortage_sd": 35.55734523,
+      "simulations": 5000
+    },
+    {
+      "description": "No reserve buffer scenario",
+      "expected_shortage": 8.78918619,
+      "max_shortage": 148.85804069,
+      "scenario": "low_reserve",
+      "shortage_probability": 0.42,
+      "shortage_q50": 0.0,
+      "shortage_q90": 29.91034888,
+      "shortage_q95": 41.65731878,
+      "shortage_q99": 66.64379413,
+      "shortage_sd": 15.62684116,
+      "simulations": 5000
+    },
+    {
+      "description": "Higher demand and lower supply stress scenario",
+      "expected_shortage": 24.58201527,
+      "max_shortage": 333.48920412,
+      "scenario": "stress_demand",
+      "shortage_probability": 0.6214,
+      "shortage_q50": 10.45969581,
+      "shortage_q90": 68.78169835,
+      "shortage_q95": 93.67403778,
+      "shortage_q99": 152.16462409,
+      "shortage_sd": 34.09059146,
+      "simulations": 5000
+    }
+  ]
+}
