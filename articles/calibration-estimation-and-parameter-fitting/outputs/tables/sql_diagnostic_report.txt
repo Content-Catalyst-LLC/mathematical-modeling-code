@@ -1,0 +1,57 @@
+section           
+------------------
+CALIBRATION LAYERS
+calibration_layer  description                                             typical_failure                                        
+-----------------  ------------------------------------------------------  -------------------------------------------------------
+diagnostics        Post-fit error review.                                  Residual structure is ignored.                         
+evidence           Observed or experimental information used for fitting.  Data relevance, measurement error, or scope is unclear.
+governance         Use limits and review status.                           Fitted model is used beyond evidence.                  
+loss               Formal model-data mismatch criterion.                   Objective function is hidden or inappropriate.         
+optimization       Search method for fitted values.                        Numerical method is undocumented or unstable.          
+parameter_space    Allowed range or structure of parameters.               Bounds shape results invisibly.                        
+uncertainty        Parameter and output uncertainty.                       Best-fit values are overclaimed.                       
+validation         Credibility beyond calibration data.                    Good fit is confused with validation.                  
+section                             
+------------------------------------
+CALIBRATION RECORDS REQUIRING REVIEW
+record_key             calibration_layer  diagnostic_question                                      
+---------------------  -----------------  ---------------------------------------------------------
+calibration_data       evidence           Are observations aligned with model output and units?    
+objective_function     loss               Does squared-error loss match modeling purpose?          
+parameter_bounds       parameter_space    Are bounds justified and documented?                     
+validation_split       validation         Does the fitted model generalize beyond calibration data?
+parameter_uncertainty  uncertainty        How stable are fitted parameter values?                  
+section                 
+------------------------
+CALIBRATION OBSERVATIONS
+time  observed_stock  extraction
+----  --------------  ----------
+0     70.0            5.5       
+1     72.8            5.8       
+2     74.1            6.2       
+3     75.0            6.4       
+4     75.5            6.8       
+5     75.2            7.0       
+6     74.7            7.1       
+7     73.8            7.4       
+8     72.6            7.6       
+9     71.2            7.8       
+section       
+--------------
+PARAMETER GRID
+growth_rate_min  growth_rate_max  growth_rate_step  carrying_capacity_min  carrying_capacity_max  carrying_capacity_step
+---------------  ---------------  ----------------  ---------------------  ---------------------  ----------------------
+0.08             0.26             0.01              85.0                   125.0                  5.0                   
+section                    
+---------------------------
+CALIBRATION COMPONENT GUIDE
+calibration_layer  meaning                                                example                   review_question                
+-----------------  -----------------------------------------------------  ------------------------  -------------------------------
+diagnostics        Post-fit error review                                  residual table            Are errors systematic?         
+evidence           Observed or experimental information used for fitting  stock observations        Are data relevant and reliable?
+governance         Review and use-limit layer                             audit card                What should not be inferred?   
+loss               Formal mismatch criterion                              sum of squared residuals  Does loss match purpose?       
+optimization       Search method for parameter values                     grid search               Are settings reproducible?     
+parameter_space    Allowed range or structure of parameters               growth bounds             Are bounds justified?          
+uncertainty        Parameter and output uncertainty                       bootstrap interval        How stable are estimates?      
+validation         Credibility beyond calibration data                    holdout observations      Does model generalize?         

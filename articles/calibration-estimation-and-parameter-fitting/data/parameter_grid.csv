@@ -1,0 +1,2 @@
+growth_rate_min,growth_rate_max,growth_rate_step,carrying_capacity_min,carrying_capacity_max,carrying_capacity_step
+0.08,0.26,0.01,85,125,5

@@ -1,0 +1,74 @@
+{
+  "article": "Calibration, Estimation, and Parameter Fitting",
+  "best_fit": {
+    "bias": 0.51520278,
+    "carrying_capacity": 115.0,
+    "growth_rate": 0.26,
+    "mae": 0.90680325,
+    "rmse": 1.03965932,
+    "sse": 10.80891507
+  },
+  "calibration_register": [
+    {
+      "calibration_layer": "evidence",
+      "calibration_risk_score": 5.0,
+      "diagnostic_question": "Are observations aligned with model output and units?",
+      "key": "calibration_data",
+      "modeling_role": "Provides observed stock and extraction values for fitting",
+      "status": "review"
+    },
+    {
+      "calibration_layer": "loss",
+      "calibration_risk_score": 7.0,
+      "diagnostic_question": "Does squared-error loss match modeling purpose?",
+      "key": "objective_function",
+      "modeling_role": "Uses sum of squared residuals to compare model and evidence",
+      "status": "review"
+    },
+    {
+      "calibration_layer": "parameter_space",
+      "calibration_risk_score": 7.0,
+      "diagnostic_question": "Are bounds justified and documented?",
+      "key": "parameter_bounds",
+      "modeling_role": "Constrains growth rate and carrying capacity to plausible ranges",
+      "status": "review"
+    },
+    {
+      "calibration_layer": "diagnostics",
+      "calibration_risk_score": 3.0,
+      "diagnostic_question": "Do residuals show systematic model error?",
+      "key": "residual_diagnostics",
+      "modeling_role": "Checks bias error and residual structure after fitting",
+      "status": "active"
+    },
+    {
+      "calibration_layer": "validation",
+      "calibration_risk_score": 7.0,
+      "diagnostic_question": "Does the fitted model generalize beyond calibration data?",
+      "key": "validation_split",
+      "modeling_role": "Separates calibration evidence from holdout evidence",
+      "status": "review"
+    },
+    {
+      "calibration_layer": "uncertainty",
+      "calibration_risk_score": 7.0,
+      "diagnostic_question": "How stable are fitted parameter values?",
+      "key": "parameter_uncertainty",
+      "modeling_role": "Preserves plausible ranges and review notes for fitted values",
+      "status": "review"
+    }
+  ],
+  "diagnostic_checks": [
+    "calibration observations are documented",
+    "parameter bounds are explicit",
+    "objective function is recorded",
+    "residuals are exported",
+    "best-fit parameters are not treated as final truth"
+  ],
+  "high_priority_calibration_records": [],
+  "residual_summary": {
+    "max_abs_residual": 1.42175544,
+    "mean_residual": 0.51520278,
+    "residual_count": 10
+  }
+}

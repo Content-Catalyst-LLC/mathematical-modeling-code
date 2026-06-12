@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CalibrationObservation",
+  "type": "object",
+  "required": [
+    "time",
+    "observed_stock",
+    "extraction"
+  ],
+  "properties": {
+    "time": {"type": "integer", "minimum": 0},
+    "observed_stock": {"type": "number", "minimum": 0},
+    "extraction": {"type": "number", "minimum": 0}
+  }
+}

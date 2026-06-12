@@ -1,0 +1,7 @@
+key,calibration_layer,modeling_role,diagnostic_question,status
+calibration_data,evidence,Provides observed stock and extraction values for fitting,Are observations aligned with model output and units?,review
+objective_function,loss,Uses sum of squared residuals to compare model and evidence,Does squared-error loss match modeling purpose?,review
+parameter_bounds,parameter_space,Constrains growth rate and carrying capacity to plausible ranges,Are bounds justified and documented?,review
+residual_diagnostics,diagnostics,Checks bias error and residual structure after fitting,Do residuals show systematic model error?,active
+validation_split,validation,Separates calibration evidence from holdout evidence,Does the fitted model generalize beyond calibration data?,review
+parameter_uncertainty,uncertainty,Preserves plausible ranges and review notes for fitted values,How stable are fitted parameter values?,review

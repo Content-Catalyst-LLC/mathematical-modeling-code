@@ -1,0 +1,65 @@
+
+[1;34m[17:41:50][0m Python workflow
+Calibration workflow complete.
+Best fit: {'growth_rate': 0.26, 'carrying_capacity': 115.0, 'sse': 10.80891507, 'rmse': 1.03965932, 'mae': 0.90680325, 'bias': 0.51520278}
+Candidate count: 171
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[17:41:50][0m R workflow
+null device 
+          1 
+  residual_mean residual_sd residual_min residual_max     rmse growth_rate
+1     0.5152028   0.9518739    -1.337119     1.421755 1.039659        0.26
+  carrying_capacity
+1               115
+                    key calibration_layer
+1      calibration_data          evidence
+2    objective_function              loss
+3      parameter_bounds   parameter_space
+4  residual_diagnostics       diagnostics
+5      validation_split        validation
+6 parameter_uncertainty       uncertainty
+                                                     modeling_role
+1        Provides observed stock and extraction values for fitting
+2      Uses sum of squared residuals to compare model and evidence
+3 Constrains growth rate and carrying capacity to plausible ranges
+4           Checks bias error and residual structure after fitting
+5             Separates calibration evidence from holdout evidence
+6    Preserves plausible ranges and review notes for fitted values
+                                        diagnostic_question status
+1     Are observations aligned with model output and units? review
+2           Does squared-error loss match modeling purpose? review
+3                      Are bounds justified and documented? review
+4                 Do residuals show systematic model error? active
+5 Does the fitted model generalize beyond calibration data? review
+6                   How stable are fitted parameter values? review
+  calibration_risk_score priority
+1                      5      low
+2                      7   medium
+3                      7   medium
+4                      3      low
+5                      7   medium
+6                      7   medium
+
+[1;34m[17:41:50][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/calibration_estimation_parameter_fitting.sqlite < sql/schema.sql
+sqlite3 outputs/tables/calibration_estimation_parameter_fitting.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[17:41:50][0m Go workflow
+cd go && go run main.go
+best_growth_rate=0.2600 best_carrying_capacity=115.0000 sse=10.808915
+
+[1;34m[17:41:51][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 calibration_resource_fit.cpp -o calibration_resource_fit
+./calibration_resource_fit > ../outputs/tables/cpp_calibration_summary.csv
+
+[1;34m[17:41:52][0m Fortran workflow
+gfortran -O2 fortran/calibration_resource_fit.f90 -o outputs/calibration_resource_fit_fortran
+./outputs/calibration_resource_fit_fortran > outputs/tables/fortran_calibration_summary.txt
+
+[1;34m[17:41:53][0m C workflow
+cc -O2 -std=c11 c/calibration_resource_fit.c -o outputs/calibration_resource_fit_c -lm
+./outputs/calibration_resource_fit_c > outputs/tables/c_calibration_summary.csv 2> outputs/logs/c_calibration_stderr.log

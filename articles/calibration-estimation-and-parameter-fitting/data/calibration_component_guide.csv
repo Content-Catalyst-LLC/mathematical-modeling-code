@@ -1,0 +1,9 @@
+calibration_layer,meaning,example,review_question
+evidence,Observed or experimental information used for fitting,stock observations,Are data relevant and reliable?
+loss,Formal mismatch criterion,sum of squared residuals,Does loss match purpose?
+parameter_space,Allowed range or structure of parameters,growth bounds,Are bounds justified?
+optimization,Search method for parameter values,grid search,Are settings reproducible?
+diagnostics,Post-fit error review,residual table,Are errors systematic?
+uncertainty,Parameter and output uncertainty,bootstrap interval,How stable are estimates?
+validation,Credibility beyond calibration data,holdout observations,Does model generalize?
+governance,Review and use-limit layer,audit card,What should not be inferred?

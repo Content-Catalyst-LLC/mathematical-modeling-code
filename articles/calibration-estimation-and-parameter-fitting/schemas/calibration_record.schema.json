@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CalibrationRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "calibration_layer",
+    "modeling_role",
+    "diagnostic_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "calibration_layer": {
+      "type": "string",
+      "enum": ["evidence", "loss", "parameter_space", "optimization", "diagnostics", "uncertainty", "validation", "governance"]
+    },
+    "modeling_role": {"type": "string"},
+    "diagnostic_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "article_slug": "calibration-estimation-and-parameter-fitting",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "calibration-estimation-governance",
+  "cards": [
+    {
+      "card_id": "calibration-register",
+      "title": "Calibration Register",
+      "description": "Tracks evidence, loss, parameter space, diagnostics, uncertainty, validation, and governance records."
+    },
+    {
+      "card_id": "candidate-score-table",
+      "title": "Candidate Score Table",
+      "description": "Preserves parameter candidates, objective values, residual metrics, and best-fit selection evidence."
+    },
+    {
+      "card_id": "residual-diagnostics",
+      "title": "Residual Diagnostics",
+      "description": "Documents post-fit residual patterns, bias, error, and validation review."
+    }
+  ],
+  "governance": {
+    "requires_calibration_data": true,
+    "requires_objective_function": true,
+    "requires_parameter_bounds": true,
+    "requires_candidate_scores": true,
+    "requires_residual_diagnostics": true,
+    "requires_parameter_uncertainty_note": true,
+    "requires_validation_plan": true
+  }
+}
