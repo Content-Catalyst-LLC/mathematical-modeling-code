@@ -1,0 +1,53 @@
+section                   
+--------------------------
+RECURRENCE COMPONENT TYPES
+component_type     description                              typical_failure                                     
+-----------------  ---------------------------------------  ----------------------------------------------------
+boundary_rule      Limit or clipping rule for valid state.  Boundary events are hidden by clipping.             
+initial_condition  Starting state for iteration.            Initial state is uncertain or inappropriate.        
+output_diagnostic  Derived trajectory behavior summary.     Endpoint values hide stepwise behavior.             
+parameter          Value shaping recurrence behavior.       Parameter is uncalibrated or transferred carelessly.
+state_variable     Quantity remembered from step to step.   State definition is vague or not observed.          
+step_definition    Meaning and scale of one update.         Step size does not match modeled process.           
+update_rule        Rule for computing the next state.       Update order or mechanism is hidden.                
+section                            
+-----------------------------------
+RECURRENCE RECORDS REQUIRING REVIEW
+record_key       component_type     expression                         domain_or_step        review_question                                         
+---------------  -----------------  ---------------------------------  --------------------  --------------------------------------------------------
+demand_update    update_rule        D[t+1] = max(0 D[t] - alpha*Q[t])  one_period            Is demand truly adaptive or should it be external input?
+initial_storage  initial_condition  S_0                                0 <= S_0 <= K         How was the starting state measured?                    
+shortage         output_diagnostic  Q[t] = max(0 -raw_next_storage)    reported_each_period  Is shortage accumulated reported or clipped away?       
+step_definition  step_definition    t_to_t_plus_1                      period_or_iteration   What does one step represent?                           
+section             
+--------------------
+RECURRENCE SCENARIOS
+scenario         initial_storage  initial_demand  capacity  inflow  loss_rate  demand_response  periods  adaptive_demand
+---------------  ---------------  --------------  --------  ------  ---------  ---------------  -------  ---------------
+adaptive_demand  45.0             10.0            80.0      4.0     0.02       0.2              60       1              
+baseline         80.0             7.0             100.0     6.0     0.015      0.0              60       0              
+high_demand      80.0             10.0            100.0     6.0     0.015      0.0              60       0              
+rapid_loss       80.0             7.0             100.0     6.0     0.05       0.0              60       0              
+tight_capacity   70.0             7.0             75.0      8.0     0.015      0.0              60       0              
+section               
+----------------------
+ONE-STEP UPDATE CHECKS
+scenario         initial_storage  raw_next_storage  bounded_next_storage
+---------------  ---------------  ----------------  --------------------
+adaptive_demand  45.0             38.1              38.1                
+baseline         80.0             77.8              77.8                
+high_demand      80.0             74.8              74.8                
+rapid_loss       80.0             75.0              75.0                
+tight_capacity   70.0             69.95             69.95               
+section                   
+--------------------------
+RECURRENCE COMPONENT GUIDE
+component_type     meaning                                example              review_question                          
+-----------------  -------------------------------------  -------------------  -----------------------------------------
+boundary_rule      Limit on valid state                   0 <= S_t <= K        Are boundary events reported?            
+initial_condition  Starting state                         S_0                  How was the starting state measured?     
+output_diagnostic  Derived behavior summary               shortage periods     Does output describe trajectory behavior?
+parameter          Value shaping recurrence               lambda               Is it calibrated estimated or assumed?   
+state_variable     Quantity remembered from step to step  S_t                  What system condition is tracked?        
+step_definition    Meaning of one step                    month or generation  Does the step match the modeled process? 
+update_rule        Rule for next state                    S[t+1] = F(S[t])     What mechanism creates the update?       

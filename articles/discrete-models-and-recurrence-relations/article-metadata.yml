@@ -1,0 +1,19 @@
+actual_title: "Discrete Models and Recurrence Relations"
+suggested_seo_title: "Discrete Models and Recurrence Relations in Mathematical Modeling"
+focus_keyword: "discrete models and recurrence relations"
+slug: "discrete-models-and-recurrence-relations"
+series: "Mathematical Modeling"
+article_order:
+  previous: "differential-equations-and-dynamic-models"
+  current: "discrete-models-and-recurrence-relations"
+  next: "probabilistic-and-stochastic-models"
+tags:
+  - Mathematical Modeling
+  - Discrete Models
+  - Recurrence Relations
+  - Difference Equations
+  - Dynamic Models
+  - Simulation
+  - Applied Mathematics
+  - Model Validation
+excerpt_139_words: "Discrete models and recurrence relations describe systems that change in steps rather than continuously. Instead of asking how a state changes at every instant, they define how one state follows from a previous state: next population from current population, next balance from current deposits, next inventory from current stock, next generation from current survival, or next risk level from current conditions. This article explains how discrete-time models represent iteration, update rules, difference equations, sequences, state transitions, feedback, thresholds, stability, and long-run behavior. It distinguishes recurrence relations from algebraic formulas and differential equations, examines linear and nonlinear recurrences, and shows how discrete models support simulation, forecasting, decision rules, and computational workflows. By treating recurrence rules as structured claims about stepwise change, modelers can use discrete models responsibly across ecology, finance, operations, epidemiology, policy, computer science, and complex systems practice today."

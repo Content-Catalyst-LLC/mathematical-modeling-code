@@ -1,0 +1,30 @@
+{
+  "article_slug": "discrete-models-and-recurrence-relations",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "recurrence-model-governance",
+  "cards": [
+    {
+      "card_id": "recurrence-register",
+      "title": "Recurrence Model Register",
+      "description": "Tracks state variables, update rules, initial conditions, boundary rules, parameters, output diagnostics, and step definitions."
+    },
+    {
+      "card_id": "trajectory-diagnostics",
+      "title": "Stepwise Trajectory Diagnostics",
+      "description": "Compares storage trajectories, demand adaptation, shortage, overflow, and domain validity across recurrence scenarios."
+    },
+    {
+      "card_id": "boundary-event-review",
+      "title": "Boundary Event Review",
+      "description": "Reports shortage and overflow before boundary clipping so invalid-state pressure remains visible."
+    }
+  ],
+  "governance": {
+    "requires_recurrence_model_register": true,
+    "requires_step_definition_review": true,
+    "requires_update_order_review": true,
+    "requires_boundary_event_reporting": true,
+    "requires_trajectory_diagnostics": true,
+    "requires_discrete_use_limit_note": true
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "article": "Discrete Models and Recurrence Relations",
+  "audit_checks": [
+    "step meaning is documented",
+    "update order is explicit",
+    "boundary events are reported",
+    "recurrence trajectories are preserved",
+    "static endpoints are not substituted for dynamic behavior"
+  ],
+  "high_priority_recurrence_records": [],
+  "recurrence_register": [
+    {
+      "component_type": "state_variable",
+      "domain_or_step": "0 <= S_t <= K",
+      "expression": "S_t",
+      "interpretation": "Current resource storage at period t",
+      "key": "storage",
+      "recurrence_risk_score": 1.0,
+      "review_question": "Is storage directly observed and bounded?",
+      "status": "active"
+    },
+    {
+      "component_type": "update_rule",
+      "domain_or_step": "one_period",
+      "expression": "S[t+1] = min(K max(0 S[t] + I[t] - D[t] - lambda*S[t]))",
+      "interpretation": "Storage updates through inflow demand and proportional loss",
+      "key": "storage_update",
+      "recurrence_risk_score": 3.0,
+      "review_question": "Are boundary events reported rather than hidden by clipping?",
+      "status": "active"
+    },
+    {
+      "component_type": "update_rule",
+      "domain_or_step": "one_period",
+      "expression": "D[t+1] = max(0 D[t] - alpha*Q[t])",
+      "interpretation": "Demand adapts after shortage",
+      "key": "demand_update",
+      "recurrence_risk_score": 6.0,
+      "review_question": "Is demand truly adaptive or should it be external input?",
+      "status": "review"
+    },
+    {
+      "component_type": "initial_condition",
+      "domain_or_step": "0 <= S_0 <= K",
+      "expression": "S_0",
+      "interpretation": "Starting storage",
+      "key": "initial_storage",
+      "recurrence_risk_score": 5.0,
+      "review_question": "How was the starting state measured?",
+      "status": "review"
+    },
+    {
+      "component_type": "output_diagnostic",
+      "domain_or_step": "reported_each_period",
+      "expression": "Q[t] = max(0 -raw_next_storage)",
+      "interpretation": "Unmet demand before boundary clipping",
+      "key": "shortage",
+      "recurrence_risk_score": 6.0,
+      "review_question": "Is shortage accumulated reported or clipped away?",
+      "status": "review"
+    },
+    {
+      "component_type": "step_definition",
+      "domain_or_step": "period_or_iteration",
+      "expression": "t_to_t_plus_1",
+      "interpretation": "One discrete update interval",
+      "key": "step_definition",
+      "recurrence_risk_score": 6.0,
+      "review_question": "What does one step represent?",
+      "status": "review"
+    }
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Baseline storage recurrence",
+      "domain_violations": 0,
+      "final_demand": 7.0,
+      "final_storage": 0.0,
+      "max_storage": 80.0,
+      "mean_storage": 30.41798383,
+      "min_storage": 0.0,
+      "overflow_periods": 0,
+      "scenario": "baseline",
+      "shortage_periods": 9,
+      "total_overflow": 0.0,
+      "total_shortage": 8.8324552
+    },
+    {
+      "description": "Higher demand recurrence stress scenario",
+      "domain_violations": 0,
+      "final_demand": 10.0,
+      "final_storage": 0.0,
+      "max_storage": 80.0,
+      "mean_storage": 11.55103942,
+      "min_storage": 0.0,
+      "overflow_periods": 0,
+      "scenario": "high_demand",
+      "shortage_periods": 44,
+      "total_overflow": 0.0,
+      "total_shortage": 174.56920107
+    },
+    {
+      "description": "Adaptive demand response after shortage",
+      "domain_violations": 0,
+      "final_demand": 4.00004312,
+      "final_storage": 0.0,
+      "max_storage": 45.0,
+      "mean_storage": 2.86614019,
+      "min_storage": 0.0,
+      "overflow_periods": 0,
+      "scenario": "adaptive_demand",
+      "shortage_periods": 55,
+      "total_overflow": 0.0,
+      "total_shortage": 29.99982754
+    },
+    {
+      "description": "Tight capacity boundary scenario",
+      "domain_violations": 0,
+      "final_demand": 7.0,
+      "final_storage": 68.01268996,
+      "max_storage": 70.0,
+      "mean_storage": 68.86065617,
+      "min_storage": 68.01268996,
+      "overflow_periods": 0,
+      "scenario": "tight_capacity",
+      "shortage_periods": 0,
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Higher proportional loss scenario",
+      "domain_violations": 0,
+      "final_demand": 7.0,
+      "final_storage": 0.0,
+      "max_storage": 80.0,
+      "mean_storage": 15.94388576,
+      "min_storage": 0.0,
+      "overflow_periods": 0,
+      "scenario": "rapid_loss",
+      "shortage_periods": 30,
+      "total_overflow": 0.0,
+      "total_shortage": 29.62885155
+    }
+  ]
+}

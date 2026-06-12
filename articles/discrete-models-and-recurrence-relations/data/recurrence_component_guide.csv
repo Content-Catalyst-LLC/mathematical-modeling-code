@@ -1,0 +1,8 @@
+component_type,meaning,example,review_question
+state_variable,Quantity remembered from step to step,S_t,What system condition is tracked?
+update_rule,Rule for next state,S[t+1] = F(S[t]),What mechanism creates the update?
+initial_condition,Starting state,S_0,How was the starting state measured?
+boundary_rule,Limit on valid state,0 <= S_t <= K,Are boundary events reported?
+parameter,Value shaping recurrence,lambda,Is it calibrated estimated or assumed?
+output_diagnostic,Derived behavior summary,shortage periods,Does output describe trajectory behavior?
+step_definition,Meaning of one step,month or generation,Does the step match the modeled process?

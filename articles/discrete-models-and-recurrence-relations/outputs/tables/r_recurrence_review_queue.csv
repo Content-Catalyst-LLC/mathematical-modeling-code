@@ -1,0 +1,7 @@
+"key","component_type","expression","interpretation","domain_or_step","review_question","status","recurrence_risk_score","priority"
+"storage","state_variable","S_t","Current resource storage at period t","0 <= S_t <= K","Is storage directly observed and bounded?","active",1,"low"
+"storage_update","update_rule","S[t+1] = min(K max(0 S[t] + I[t] - D[t] - lambda*S[t]))","Storage updates through inflow demand and proportional loss","one_period","Are boundary events reported rather than hidden by clipping?","active",3,"low"
+"demand_update","update_rule","D[t+1] = max(0 D[t] - alpha*Q[t])","Demand adapts after shortage","one_period","Is demand truly adaptive or should it be external input?","review",6,"medium"
+"initial_storage","initial_condition","S_0","Starting storage","0 <= S_0 <= K","How was the starting state measured?","review",5,"low"
+"shortage","output_diagnostic","Q[t] = max(0 -raw_next_storage)","Unmet demand before boundary clipping","reported_each_period","Is shortage accumulated reported or clipped away?","review",6,"medium"
+"step_definition","step_definition","t_to_t_plus_1","One discrete update interval","period_or_iteration","What does one step represent?","review",6,"medium"

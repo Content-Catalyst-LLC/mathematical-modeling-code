@@ -1,0 +1,6 @@
+scenario,final_storage,mean_storage,min_storage,max_storage,final_demand,shortage_periods,overflow_periods,domain_violations,total_shortage,total_overflow,description
+baseline,0.0,30.41798383,0.0,80.0,7.0,9,0,0,8.8324552,0.0,Baseline storage recurrence
+high_demand,0.0,11.55103942,0.0,80.0,10.0,44,0,0,174.56920107,0.0,Higher demand recurrence stress scenario
+adaptive_demand,0.0,2.86614019,0.0,45.0,4.00004312,55,0,0,29.99982754,0.0,Adaptive demand response after shortage
+tight_capacity,68.01268996,68.86065617,68.01268996,70.0,7.0,0,0,0,0.0,0.0,Tight capacity boundary scenario
+rapid_loss,0.0,15.94388576,0.0,80.0,7.0,30,0,0,29.62885155,0.0,Higher proportional loss scenario

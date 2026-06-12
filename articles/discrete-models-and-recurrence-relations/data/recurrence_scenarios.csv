@@ -1,0 +1,6 @@
+scenario,initial_storage,initial_demand,capacity,inflow,loss_rate,demand_response,periods,adaptive_demand,description
+baseline,80,7,100,6,0.015,0.0,60,false,Baseline storage recurrence
+high_demand,80,10,100,6,0.015,0.0,60,false,Higher demand recurrence stress scenario
+adaptive_demand,45,10,80,4,0.020,0.20,60,true,Adaptive demand response after shortage
+tight_capacity,70,7,75,8,0.015,0.0,60,false,Tight capacity boundary scenario
+rapid_loss,80,7,100,6,0.050,0.0,60,false,Higher proportional loss scenario

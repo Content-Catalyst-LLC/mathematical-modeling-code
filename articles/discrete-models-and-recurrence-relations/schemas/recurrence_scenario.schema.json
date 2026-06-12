@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RecurrenceScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "initial_storage",
+    "initial_demand",
+    "capacity",
+    "inflow",
+    "loss_rate",
+    "demand_response",
+    "periods",
+    "adaptive_demand"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_storage": {"type": "number", "minimum": 0},
+    "initial_demand": {"type": "number", "minimum": 0},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "inflow": {"type": "number", "minimum": 0},
+    "loss_rate": {"type": "number", "minimum": 0},
+    "demand_response": {"type": "number", "minimum": 0},
+    "periods": {"type": "integer", "minimum": 1},
+    "adaptive_demand": {"type": "boolean"}
+  }
+}

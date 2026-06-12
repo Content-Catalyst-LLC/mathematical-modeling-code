@@ -1,0 +1,58 @@
+
+[1;34m[06:09:48][0m Python workflow
+Discrete models and recurrence relations workflow complete.
+Recurrence records: 6
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[06:09:48][0m R workflow
+null device 
+          1 
+         scenario final_storage mean_storage min_storage max_storage
+1        baseline       0.00000     30.41798     0.00000          80
+2     high_demand       0.00000     11.55104     0.00000          80
+3 adaptive_demand       0.00000      2.86614     0.00000          45
+4  tight_capacity      68.01269     68.86066    68.01269          70
+5      rapid_loss       0.00000     15.94389     0.00000          80
+  final_demand shortage_periods overflow_periods domain_violations
+1     7.000000                9                0                 0
+2    10.000000               44                0                 0
+3     4.000043               55                0                 0
+4     7.000000                0                0                 0
+5     7.000000               30                0                 0
+  total_shortage total_overflow                              description
+1       8.832455              0              Baseline storage recurrence
+2     174.569201              0 Higher demand recurrence stress scenario
+3      29.999828              0  Adaptive demand response after shortage
+4       0.000000              0         Tight capacity boundary scenario
+5      29.628852              0        Higher proportional loss scenario
+                          recurrence_review
+1        boundary or stress behavior active
+2        boundary or stress behavior active
+3        boundary or stress behavior active
+4 stepwise trajectory stable under scenario
+5        boundary or stress behavior active
+
+[1;34m[06:09:48][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/discrete_models_recurrence_relations.sqlite < sql/schema.sql
+sqlite3 outputs/tables/discrete_models_recurrence_relations.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[06:09:48][0m Go workflow
+cd go && go run main.go
+go_baseline final_storage=0.000 final_demand=7.000 total_shortage=8.832 total_overflow=0.000
+go_adaptive final_storage=0.000 final_demand=4.000 total_shortage=30.000 total_overflow=0.000
+
+[1;34m[06:09:49][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 recurrence_resource_model.cpp -o recurrence_resource_model
+./recurrence_resource_model > ../outputs/tables/cpp_recurrence_resource_summary.txt
+
+[1;34m[06:09:50][0m Fortran workflow
+gfortran -O2 fortran/recurrence_resource_model.f90 -o outputs/recurrence_resource_model_fortran
+./outputs/recurrence_resource_model_fortran > outputs/tables/fortran_recurrence_resource_summary.txt
+
+[1;34m[06:09:51][0m C workflow
+cc -O2 -std=c11 c/recurrence_resource_model.c -o outputs/recurrence_resource_model_c
+./outputs/recurrence_resource_model_c > outputs/tables/c_recurrence_resource_timeseries.csv 2> outputs/logs/c_recurrence_resource_stderr.log

@@ -1,0 +1,6 @@
+"scenario","final_storage","mean_storage","min_storage","max_storage","final_demand","shortage_periods","overflow_periods","domain_violations","total_shortage","total_overflow","description","recurrence_review"
+"baseline",0,30.41798383,0,80,7,9,0,0,8.8324552,0,"Baseline storage recurrence","boundary or stress behavior active"
+"high_demand",0,11.55103942,0,80,10,44,0,0,174.56920107,0,"Higher demand recurrence stress scenario","boundary or stress behavior active"
+"adaptive_demand",0,2.86614019,0,45,4.00004312,55,0,0,29.99982754,0,"Adaptive demand response after shortage","boundary or stress behavior active"
+"tight_capacity",68.01268996,68.86065617,68.01268996,70,7,0,0,0,0,0,"Tight capacity boundary scenario","stepwise trajectory stable under scenario"
+"rapid_loss",0,15.94388576,0,80,7,30,0,0,29.62885155,0,"Higher proportional loss scenario","boundary or stress behavior active"
