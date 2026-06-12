@@ -1,0 +1,7 @@
+key,component_type,expression,interpretation,review_question,status
+decision_variables,decision_variable,x_i,Allocation to program i,Are these quantities actually controllable?,active
+objective_function,objective_function,"maximize sum_i benefit_i * x_i",The model maximizes estimated total benefit,Does total benefit hide distributional concerns?,review
+budget_constraint,constraint,"sum_i cost_i * x_i <= B",Total cost cannot exceed budget,Are all costs included?,review
+equity_floor,constraint,"x_i >= equity_floor",Each program receives at least a minimum allocation,Is the floor ethically and operationally justified?,review
+upper_bound,constraint,"x_i <= u_i",Each program has maximum absorption capacity,Is capacity based on evidence?,review
+solver_method,solver_setting,enumeration,Small integer model solved by exhaustive feasible-choice enumeration,Is enumeration appropriate for this model scale?,active

@@ -1,0 +1,9 @@
+
+[1;34m[06:45:04][0m Python workflow
+Optimization models and objective functions workflow complete.
+Optimization records: 6
+Scenarios: 3
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[06:45:04][0m R workflow

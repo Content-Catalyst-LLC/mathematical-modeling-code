@@ -1,0 +1,8 @@
+component_type,meaning,example,review_question
+decision_variable,Quantity the model can choose,x_i,Is it actually controllable?
+objective_function,Formal goal to optimize,maximize benefit,What does this objective omit?
+constraint,Restriction on feasible choices,budget <= B,Is the constraint complete and justified?
+parameter,Fixed or estimated value,cost_i,How uncertain is it?
+feasible_region,Set of allowable choices,F,Does feasibility match real implementation?
+solver_setting,Algorithm or tolerance,enumeration or MILP,Is the solver appropriate?
+validation_diagnostic,Review of model credibility,sensitivity report,Does the solution remain stable?

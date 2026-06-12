@@ -1,0 +1,30 @@
+{
+  "article_slug": "optimization-models-and-objective-functions",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "optimization-model-governance",
+  "cards": [
+    {
+      "card_id": "optimization-model-register",
+      "title": "Optimization Model Register",
+      "description": "Tracks decision variables, objective functions, constraints, parameters, feasible regions, solver settings, and validation diagnostics."
+    },
+    {
+      "card_id": "feasible-choice-audit",
+      "title": "Feasible Choice Audit",
+      "description": "Preserves feasible alternatives, objective scores, constraint checks, and near-optimal choices across scenarios."
+    },
+    {
+      "card_id": "objective-function-review",
+      "title": "Objective Function Review",
+      "description": "Documents what the objective rewards, penalizes, omits, weights, and potentially hides."
+    }
+  ],
+  "governance": {
+    "requires_optimization_model_register": true,
+    "requires_objective_function_review": true,
+    "requires_constraint_audit": true,
+    "requires_feasible_choice_preservation": true,
+    "requires_solver_status_review": true,
+    "requires_optimization_use_limit_note": true
+  }
+}

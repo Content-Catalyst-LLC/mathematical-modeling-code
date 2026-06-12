@@ -1,0 +1,58 @@
+section                     
+----------------------------
+OPTIMIZATION COMPONENT TYPES
+component_type         description                       typical_failure                                        
+---------------------  --------------------------------  -------------------------------------------------------
+constraint             Restriction on feasible choices.  Constraint is missing, incomplete, or unjustified.     
+decision_variable      Quantity the model can choose.    Variable is not actually controllable.                 
+feasible_region        Set of allowable choices.         Mathematical feasibility differs from real feasibility.
+objective_function     Formal goal to optimize.          Objective omits important values or harms.             
+parameter              Fixed or estimated value.         Uncertainty is ignored.                                
+solver_setting         Algorithm or tolerance.           Solver status or tolerance is not reviewed.            
+validation_diagnostic  Review of model credibility.      Sensitivity and implementation checks are missing.     
+section                              
+-------------------------------------
+OPTIMIZATION RECORDS REQUIRING REVIEW
+record_key          component_type      expression                      review_question                                    
+------------------  ------------------  ------------------------------  ---------------------------------------------------
+objective_function  objective_function  maximize sum_i benefit_i * x_i  Does total benefit hide distributional concerns?   
+budget_constraint   constraint          sum_i cost_i * x_i <= B         Are all costs included?                            
+equity_floor        constraint          x_i >= equity_floor             Is the floor ethically and operationally justified?
+upper_bound         constraint          x_i <= u_i                      Is capacity based on evidence?                     
+section     
+------------
+PROGRAM DATA
+program     benefit_per_unit  cost_per_unit  lower_bound  upper_bound  benefit_cost_ratio
+----------  ----------------  -------------  -----------  -----------  ------------------
+resilience  10.0              6.0            0            8            1.667             
+health      13.0              8.0            0            8            1.625             
+transport   8.0               5.0            0            8            1.6               
+housing     11.0              7.0            0            8            1.571             
+section      
+-------------
+SCENARIO DATA
+scenario      budget  equity_floor  description                          
+------------  ------  ------------  -------------------------------------
+baseline      75.0    1             Baseline budget with low equity floor
+higher_floor  75.0    3             Higher minimum allocation scenario   
+tight_budget  55.0    1             Reduced budget scenario              
+section                       
+------------------------------
+MINIMUM FLOOR COST BY SCENARIO
+scenario      budget  equity_floor  minimum_floor_cost  floor_feasibility       
+------------  ------  ------------  ------------------  ------------------------
+baseline      75.0    1             26.0                floor feasible by cost  
+higher_floor  75.0    3             78.0                floor infeasible by cost
+tight_budget  55.0    1             26.0                floor feasible by cost  
+section                     
+----------------------------
+OPTIMIZATION COMPONENT GUIDE
+component_type         meaning                          example              review_question                            
+---------------------  -------------------------------  -------------------  -------------------------------------------
+constraint             Restriction on feasible choices  budget <= B          Is the constraint complete and justified?  
+decision_variable      Quantity the model can choose    x_i                  Is it actually controllable?               
+feasible_region        Set of allowable choices         F                    Does feasibility match real implementation?
+objective_function     Formal goal to optimize          maximize benefit     What does this objective omit?             
+parameter              Fixed or estimated value         cost_i               How uncertain is it?                       
+solver_setting         Algorithm or tolerance           enumeration or MILP  Is the solver appropriate?                 
+validation_diagnostic  Review of model credibility      sensitivity report   Does the solution remain stable?           

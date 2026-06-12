@@ -1,0 +1,114 @@
+{
+  "article": "Optimization Models and Objective Functions",
+  "audit_checks": [
+    "decision variables are controllable",
+    "objective function is documented",
+    "constraints are explicit",
+    "feasible alternatives are preserved",
+    "optimal solution is framed as conditional decision support"
+  ],
+  "high_priority_optimization_records": [],
+  "optimization_register": [
+    {
+      "component_type": "decision_variable",
+      "expression": "x_i",
+      "interpretation": "Allocation to program i",
+      "key": "decision_variables",
+      "optimization_risk_score": 2.0,
+      "review_question": "Are these quantities actually controllable?",
+      "status": "active"
+    },
+    {
+      "component_type": "objective_function",
+      "expression": "maximize sum_i benefit_i * x_i",
+      "interpretation": "The model maximizes estimated total benefit",
+      "key": "objective_function",
+      "optimization_risk_score": 7.0,
+      "review_question": "Does total benefit hide distributional concerns?",
+      "status": "review"
+    },
+    {
+      "component_type": "constraint",
+      "expression": "sum_i cost_i * x_i <= B",
+      "interpretation": "Total cost cannot exceed budget",
+      "key": "budget_constraint",
+      "optimization_risk_score": 7.0,
+      "review_question": "Are all costs included?",
+      "status": "review"
+    },
+    {
+      "component_type": "constraint",
+      "expression": "x_i >= equity_floor",
+      "interpretation": "Each program receives at least a minimum allocation",
+      "key": "equity_floor",
+      "optimization_risk_score": 7.0,
+      "review_question": "Is the floor ethically and operationally justified?",
+      "status": "review"
+    },
+    {
+      "component_type": "constraint",
+      "expression": "x_i <= u_i",
+      "interpretation": "Each program has maximum absorption capacity",
+      "key": "upper_bound",
+      "optimization_risk_score": 6.0,
+      "review_question": "Is capacity based on evidence?",
+      "status": "review"
+    },
+    {
+      "component_type": "solver_setting",
+      "expression": "enumeration",
+      "interpretation": "Small integer model solved by exhaustive feasible-choice enumeration",
+      "key": "solver_method",
+      "optimization_risk_score": 2.0,
+      "review_question": "Is enumeration appropriate for this model scale?",
+      "status": "active"
+    }
+  ],
+  "solution_summaries": [
+    {
+      "allocation_health": 2,
+      "allocation_housing": 1,
+      "allocation_resilience": 7,
+      "allocation_transport": 2,
+      "bounds_ok": true,
+      "budget": 75.0,
+      "budget_ok": true,
+      "candidate_choices": 6561,
+      "description": "Baseline budget with low equity floor",
+      "equity_floor": 1,
+      "equity_ok": true,
+      "feasible": true,
+      "feasible_choices": 364,
+      "scenario": "baseline",
+      "status": "optimal_in_enumerated_feasible_set",
+      "total_benefit": 123.0,
+      "total_cost": 75.0
+    },
+    {
+      "allocation_health": 1,
+      "allocation_housing": 1,
+      "allocation_resilience": 5,
+      "allocation_transport": 2,
+      "bounds_ok": true,
+      "budget": 55.0,
+      "budget_ok": true,
+      "candidate_choices": 6561,
+      "description": "Reduced budget scenario",
+      "equity_floor": 1,
+      "equity_ok": true,
+      "feasible": true,
+      "feasible_choices": 77,
+      "scenario": "tight_budget",
+      "status": "optimal_in_enumerated_feasible_set",
+      "total_benefit": 90.0,
+      "total_cost": 55.0
+    },
+    {
+      "candidate_choices": 6561,
+      "description": "Higher minimum allocation scenario",
+      "feasible_choices": 0,
+      "scenario": "higher_floor",
+      "status": "infeasible"
+    }
+  ]
+}

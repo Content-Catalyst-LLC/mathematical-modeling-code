@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OptimizationScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "budget",
+    "equity_floor"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "budget": {"type": "number", "minimum": 0},
+    "equity_floor": {"type": "integer", "minimum": 0},
+    "description": {"type": "string"}
+  }
+}

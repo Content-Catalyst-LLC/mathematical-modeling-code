@@ -1,0 +1,4 @@
+scenario,budget,equity_floor,description
+baseline,75,1,Baseline budget with low equity floor
+tight_budget,55,1,Reduced budget scenario
+higher_floor,75,3,Higher minimum allocation scenario

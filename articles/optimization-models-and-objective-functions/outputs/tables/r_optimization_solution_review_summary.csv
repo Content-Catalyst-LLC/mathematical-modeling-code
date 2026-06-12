@@ -1,0 +1,4 @@
+"scenario","description","candidate_choices","feasible_choices","status","total_cost","total_benefit","budget","equity_floor","budget_ok","bounds_ok","equity_ok","feasible","allocation_housing","allocation_health","allocation_transport","allocation_resilience","feasibility_review"
+"baseline","Baseline budget with low equity floor",6561,364,"optimal_in_enumerated_feasible_set",75,123,75,1,"True","True","True","True",1,2,2,7,"feasible alternatives available"
+"tight_budget","Reduced budget scenario",6561,77,"optimal_in_enumerated_feasible_set",55,90,55,1,"True","True","True","True",1,1,2,5,"feasible alternatives available"
+"higher_floor","Higher minimum allocation scenario",6561,0,"infeasible",NA,NA,NA,NA,"","","","",NA,NA,NA,NA,"infeasible scenario"
