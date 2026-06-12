@@ -1,0 +1,47 @@
+section           
+------------------
+RELATIONSHIP TYPES
+relationship_type  description                                   typical_failure                                     
+-----------------  --------------------------------------------  ----------------------------------------------------
+bounds             Lower and upper limits.                       Bounds are assumed but presented as natural.        
+identity           Definition that should hold by construction.  Categories are incomplete or units are inconsistent.
+inequality         Constraint or bound defining feasibility.     Constraint source or enforcement is hidden.         
+linear             Constant marginal effect relationship.        Linearity is assumed without evidence.              
+nonlinear          Changing marginal effect relationship.        Form is chosen without mechanism or validation.     
+objective          Quantity being optimized or scored.           Value judgments are hidden in algebra.              
+ratio              Quantity divided by denominator.              Denominator effects are hidden.                     
+section                       
+------------------------------
+RELATIONSHIPS REQUIRING REVIEW
+relationship_key   relationship_type  expression              domain_or_constraint              review_question                                             
+-----------------  -----------------  ----------------------  --------------------------------  ------------------------------------------------------------
+budget_constraint  inequality         c_a*x_a + c_b*x_b <= B  B > 0                             Is the budget a hard constraint or a policy assumption?     
+
+benefit_objective  objective          V = b_a*x_a + b_b*x_b   benefit units must be comparable  Does additive benefit omit equity risk or implementation lim
+                                                                                                its?                                                        
+
+capacity_bounds    bounds             0 <= x_i <= K_i         K_i >= 0                          Are capacity bounds measured assumed or policy-defined?     
+
+benefit_per_cost   ratio              r = V / C               C > 0                             Is the denominator stable and clearly interpreted?          
+section                             
+------------------------------------
+STATIC SCENARIOS WITH DERIVED VALUES
+scenario                 budget  total_cost  total_benefit  budget_slack  constraint_status   
+-----------------------  ------  ----------  -------------  ------------  --------------------
+balanced_feasible        100.0   80.0        168.0          20.0          feasible            
+budget_stress            80.0    88.0        184.0          -8.0          constraint violation
+capacity_stress          120.0   125.0       255.0          -5.0          constraint violation
+high_benefit_b           100.0   82.0        204.0          18.0          feasible            
+low_budget_high_benefit  70.0    72.0        192.0          -2.0          constraint violation
+section                  
+-------------------------
+STATIC RELATIONSHIP GUIDE
+relationship_type  meaning                                      example                                     review_question                                 
+-----------------  -------------------------------------------  ------------------------------------------  ------------------------------------------------
+constraint         Feasibility or limit                         c*x <= B                                    What is the source of the limit?                
+equilibrium        Static balance condition                     supply equals demand                        Does the model omit adjustment path?            
+identity           Definition that should hold by construction  total cost equals fixed plus variable cost  Are all components included and compatible?     
+linear             Constant marginal effect                     y = beta0 + beta1*x                         Is constant marginal effect plausible?          
+nonlinear          Changing marginal effect                     y = a*x^b                                   Is the shape justified by mechanism or evidence?
+objective          Quantity optimized or scored                 max benefit                                 What values are embedded in the objective?      
+ratio              Comparison by denominator                    cost per person                             Is the denominator meaningful and stable?       

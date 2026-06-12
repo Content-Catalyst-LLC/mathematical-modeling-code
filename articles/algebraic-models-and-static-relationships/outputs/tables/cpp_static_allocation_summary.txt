@@ -1,0 +1,2 @@
+cpp_balanced_feasible total_cost=80.000000 total_benefit=168.000000 benefit_per_cost=2.100000 budget_slack=20.000000 feasible=true
+cpp_capacity_stress total_cost=125.000000 total_benefit=255.000000 benefit_per_cost=2.040000 budget_slack=-5.000000 feasible=false

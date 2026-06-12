@@ -1,0 +1,130 @@
+{
+  "article": "Algebraic Models and Static Relationships",
+  "audit_checks": [
+    "equations have stated interpretation",
+    "units and domains are visible",
+    "constraints are checked separately from objectives",
+    "ratios report numerator and denominator meaning",
+    "static conclusions are not overextended to dynamic behavior"
+  ],
+  "high_priority_relationships": [],
+  "relationships": [
+    {
+      "domain_or_constraint": "x_a >= 0; x_b >= 0",
+      "expression": "C = c_a*x_a + c_b*x_b",
+      "interpretation": "Total cost is the sum of option-specific costs.",
+      "key": "total_cost",
+      "relationship_risk_score": 2.0,
+      "relationship_type": "identity",
+      "review_question": "Are costs complete and expressed in comparable units?",
+      "status": "active"
+    },
+    {
+      "domain_or_constraint": "B > 0",
+      "expression": "c_a*x_a + c_b*x_b <= B",
+      "interpretation": "Total modeled cost must not exceed budget.",
+      "key": "budget_constraint",
+      "relationship_risk_score": 7.0,
+      "relationship_type": "inequality",
+      "review_question": "Is the budget a hard constraint or a policy assumption?",
+      "status": "review"
+    },
+    {
+      "domain_or_constraint": "benefit units must be comparable",
+      "expression": "V = b_a*x_a + b_b*x_b",
+      "interpretation": "Total modeled benefit is additive across allocations.",
+      "key": "benefit_objective",
+      "relationship_risk_score": 7.0,
+      "relationship_type": "objective",
+      "review_question": "Does additive benefit omit equity risk or implementation limits?",
+      "status": "review"
+    },
+    {
+      "domain_or_constraint": "K_i >= 0",
+      "expression": "0 <= x_i <= K_i",
+      "interpretation": "Each allocation is bounded by option-specific capacity.",
+      "key": "capacity_bounds",
+      "relationship_risk_score": 6.0,
+      "relationship_type": "bounds",
+      "review_question": "Are capacity bounds measured assumed or policy-defined?",
+      "status": "review"
+    },
+    {
+      "domain_or_constraint": "C > 0",
+      "expression": "r = V / C",
+      "interpretation": "Benefit per unit cost.",
+      "key": "benefit_per_cost",
+      "relationship_risk_score": 6.0,
+      "relationship_type": "ratio",
+      "review_question": "Is the denominator stable and clearly interpreted?",
+      "status": "review"
+    }
+  ],
+  "scenario_summaries": [
+    {
+      "benefit_per_cost": 2.1,
+      "budget": 100.0,
+      "budget_slack": 20.0,
+      "capacity_slack_a": 10.0,
+      "capacity_slack_b": 7.0,
+      "constraint_status": "feasible",
+      "description": "Feasible balanced allocation",
+      "feasible": true,
+      "scenario": "balanced_feasible",
+      "total_benefit": 168.0,
+      "total_cost": 80.0
+    },
+    {
+      "benefit_per_cost": 2.09090909,
+      "budget": 80.0,
+      "budget_slack": -8.0,
+      "capacity_slack_a": 8.0,
+      "capacity_slack_b": 7.0,
+      "constraint_status": "constraint violation",
+      "description": "Scenario close to or beyond budget constraint",
+      "feasible": false,
+      "scenario": "budget_stress",
+      "total_benefit": 184.0,
+      "total_cost": 88.0
+    },
+    {
+      "benefit_per_cost": 2.04,
+      "budget": 120.0,
+      "budget_slack": -5.0,
+      "capacity_slack_a": -5.0,
+      "capacity_slack_b": 10.0,
+      "constraint_status": "constraint violation",
+      "description": "Scenario violating capacity on option A",
+      "feasible": false,
+      "scenario": "capacity_stress",
+      "total_benefit": 255.0,
+      "total_cost": 125.0
+    },
+    {
+      "benefit_per_cost": 2.48780488,
+      "budget": 100.0,
+      "budget_slack": 18.0,
+      "capacity_slack_a": 12.0,
+      "capacity_slack_b": 5.0,
+      "constraint_status": "feasible",
+      "description": "Scenario with higher modeled benefit for option B",
+      "feasible": true,
+      "scenario": "high_benefit_b",
+      "total_benefit": 204.0,
+      "total_cost": 82.0
+    },
+    {
+      "benefit_per_cost": 2.66666667,
+      "budget": 70.0,
+      "budget_slack": -2.0,
+      "capacity_slack_a": 12.0,
+      "capacity_slack_b": 7.0,
+      "constraint_status": "constraint violation",
+      "description": "High benefit but budget-constrained scenario",
+      "feasible": false,
+      "scenario": "low_budget_high_benefit",
+      "total_benefit": 192.0,
+      "total_cost": 72.0
+    }
+  ]
+}

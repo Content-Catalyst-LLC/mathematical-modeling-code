@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StaticAllocationScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "budget",
+    "cost_a",
+    "cost_b",
+    "benefit_a",
+    "benefit_b",
+    "allocation_a",
+    "allocation_b",
+    "capacity_a",
+    "capacity_b"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "budget": {"type": "number", "exclusiveMinimum": 0},
+    "cost_a": {"type": "number", "exclusiveMinimum": 0},
+    "cost_b": {"type": "number", "exclusiveMinimum": 0},
+    "benefit_a": {"type": "number", "minimum": 0},
+    "benefit_b": {"type": "number", "minimum": 0},
+    "allocation_a": {"type": "number", "minimum": 0},
+    "allocation_b": {"type": "number", "minimum": 0},
+    "capacity_a": {"type": "number", "minimum": 0},
+    "capacity_b": {"type": "number", "minimum": 0}
+  }
+}

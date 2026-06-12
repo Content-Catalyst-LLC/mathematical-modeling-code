@@ -1,0 +1,6 @@
+key,relationship_type,expression,interpretation,domain_or_constraint,review_question,status
+total_cost,identity,"C = c_a*x_a + c_b*x_b","Total cost is the sum of option-specific costs.","x_a >= 0; x_b >= 0","Are costs complete and expressed in comparable units?",active
+budget_constraint,inequality,"c_a*x_a + c_b*x_b <= B","Total modeled cost must not exceed budget.","B > 0","Is the budget a hard constraint or a policy assumption?",review
+benefit_objective,objective,"V = b_a*x_a + b_b*x_b","Total modeled benefit is additive across allocations.","benefit units must be comparable","Does additive benefit omit equity risk or implementation limits?",review
+capacity_bounds,bounds,"0 <= x_i <= K_i","Each allocation is bounded by option-specific capacity.","K_i >= 0","Are capacity bounds measured assumed or policy-defined?",review
+benefit_per_cost,ratio,"r = V / C","Benefit per unit cost.","C > 0","Is the denominator stable and clearly interpreted?",review

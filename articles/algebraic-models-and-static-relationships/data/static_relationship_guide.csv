@@ -1,0 +1,8 @@
+relationship_type,meaning,example,review_question
+identity,Definition that should hold by construction,total cost equals fixed plus variable cost,Are all components included and compatible?
+linear,Constant marginal effect,y = beta0 + beta1*x,Is constant marginal effect plausible?
+nonlinear,Changing marginal effect,y = a*x^b,Is the shape justified by mechanism or evidence?
+ratio,Comparison by denominator,cost per person,Is the denominator meaningful and stable?
+constraint,Feasibility or limit,c*x <= B,What is the source of the limit?
+objective,Quantity optimized or scored,max benefit,What values are embedded in the objective?
+equilibrium,Static balance condition,supply equals demand,Does the model omit adjustment path?

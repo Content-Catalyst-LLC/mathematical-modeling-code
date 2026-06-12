@@ -1,0 +1,52 @@
+
+[1;34m[05:41:26][0m Python workflow
+Algebraic models and static relationships workflow complete.
+Relationships: 5
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[05:41:26][0m R workflow
+null device 
+          1 
+                 scenario budget total_cost total_benefit benefit_per_cost
+1       balanced_feasible    100         80           168         2.100000
+2           budget_stress     80         88           184         2.090909
+3         capacity_stress    120        125           255         2.040000
+4          high_benefit_b    100         82           204         2.487805
+5 low_budget_high_benefit     70         72           192         2.666667
+  budget_slack capacity_slack_a capacity_slack_b feasible    constraint_status
+1           20               10                7     True             feasible
+2           -8                8                7    False constraint violation
+3           -5               -5               10    False constraint violation
+4           18               12                5     True             feasible
+5           -2               12                7    False constraint violation
+                                        description review_priority
+1                      Feasible balanced allocation             low
+2     Scenario close to or beyond budget constraint            high
+3           Scenario violating capacity on option A            high
+4 Scenario with higher modeled benefit for option B             low
+5      High benefit but budget-constrained scenario            high
+
+[1;34m[05:41:26][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/algebraic_models_static_relationships.sqlite < sql/schema.sql
+sqlite3 outputs/tables/algebraic_models_static_relationships.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[05:41:26][0m Go workflow
+cd go && go run main.go
+go_balanced_feasible total_cost=80.000 total_benefit=168.000 benefit_per_cost=2.100 budget_slack=20.000 feasible=true
+go_capacity_stress total_cost=125.000 total_benefit=255.000 benefit_per_cost=2.040 budget_slack=-5.000 feasible=false
+
+[1;34m[05:41:27][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 static_allocation_model.cpp -o static_allocation_model
+./static_allocation_model > ../outputs/tables/cpp_static_allocation_summary.txt
+
+[1;34m[05:41:28][0m Fortran workflow
+gfortran -O2 fortran/static_allocation_model.f90 -o outputs/static_allocation_model_fortran
+./outputs/static_allocation_model_fortran > outputs/tables/fortran_static_allocation_summary.txt
+
+[1;34m[05:41:28][0m C workflow
+cc -O2 -std=c11 c/static_allocation_model.c -o outputs/static_allocation_model_c
+./outputs/static_allocation_model_c > outputs/tables/c_static_allocation_summary.csv 2> outputs/logs/c_static_allocation_stderr.log

@@ -1,0 +1,29 @@
+{
+  "article_slug": "algebraic-models-and-static-relationships",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "algebraic-relationship-governance",
+  "cards": [
+    {
+      "card_id": "relationship-register",
+      "title": "Algebraic Relationship Register",
+      "description": "Tracks identities, inequalities, objectives, bounds, ratios, and review status."
+    },
+    {
+      "card_id": "static-scenario-audit",
+      "title": "Static Scenario Audit",
+      "description": "Compares budget, cost, benefit, feasibility, and constraint slack across scenarios."
+    },
+    {
+      "card_id": "feasible-region-review",
+      "title": "Feasible Region Review",
+      "description": "Separates high-scoring scenarios from feasible scenarios and documents constraint sources."
+    }
+  ],
+  "governance": {
+    "requires_relationship_register": true,
+    "requires_unit_and_domain_review": true,
+    "requires_constraint_source_review": true,
+    "requires_objective_review": true,
+    "requires_static_use_limit_note": true
+  }
+}

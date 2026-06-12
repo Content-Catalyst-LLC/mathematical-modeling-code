@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AlgebraicRelationship",
+  "type": "object",
+  "required": [
+    "key",
+    "relationship_type",
+    "expression",
+    "interpretation",
+    "domain_or_constraint",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "relationship_type": {
+      "type": "string",
+      "enum": ["identity", "balance", "linear", "nonlinear", "ratio", "objective", "inequality", "bounds", "equilibrium"]
+    },
+    "expression": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "domain_or_constraint": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

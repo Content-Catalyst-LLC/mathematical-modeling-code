@@ -1,0 +1,6 @@
+scenario,budget,cost_a,cost_b,benefit_a,benefit_b,allocation_a,allocation_b,capacity_a,capacity_b,description
+balanced_feasible,100,4,5,8,11,10,8,20,15,Feasible balanced allocation
+budget_stress,80,4,5,8,11,12,8,20,15,Scenario close to or beyond budget constraint
+capacity_stress,120,4,5,8,11,25,5,20,15,Scenario violating capacity on option A
+high_benefit_b,100,4,5,8,14,8,10,20,15,Scenario with higher modeled benefit for option B
+low_budget_high_benefit,70,4,5,9,15,8,8,20,15,High benefit but budget-constrained scenario

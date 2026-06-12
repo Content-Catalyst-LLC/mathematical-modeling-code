@@ -1,0 +1,6 @@
+scenario,budget,total_cost,total_benefit,benefit_per_cost,budget_slack,capacity_slack_a,capacity_slack_b,feasible,constraint_status,description
+balanced_feasible,100.0,80.0,168.0,2.1,20.0,10.0,7.0,True,feasible,Feasible balanced allocation
+budget_stress,80.0,88.0,184.0,2.09090909,-8.0,8.0,7.0,False,constraint violation,Scenario close to or beyond budget constraint
+capacity_stress,120.0,125.0,255.0,2.04,-5.0,-5.0,10.0,False,constraint violation,Scenario violating capacity on option A
+high_benefit_b,100.0,82.0,204.0,2.48780488,18.0,12.0,5.0,True,feasible,Scenario with higher modeled benefit for option B
+low_budget_high_benefit,70.0,72.0,192.0,2.66666667,-2.0,12.0,7.0,False,constraint violation,High benefit but budget-constrained scenario
