@@ -1,0 +1,64 @@
+
+[1;34m[05:11:10][0m Python workflow
+Dimensional analysis, units, and scale workflow complete.
+Unit records: 7
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[05:11:10][0m R workflow
+null device 
+          1 
+        scenario final_storage_m3 mean_storage_m3 min_storage_fraction
+1 daily_baseline        100.00000        95.13514            0.8080000
+2    weekly_step        100.00000        96.18632            0.8560000
+3    high_demand          0.00000        19.45942            0.0000000
+4 tight_capacity         75.00000        74.73718            0.9460000
+5      high_loss         41.84279        52.54077            0.4175065
+  max_storage_fraction shortage_periods overflow_periods domain_violations
+1                1.000                0               30                 0
+2                1.000                0                9                 0
+3                0.768               30                0                 0
+4                1.000                0               56                 0
+5                0.780                0                0                 0
+  total_shortage_m3 total_overflow_m3
+1           0.00000          14.95134
+2           0.00000          30.70567
+3          59.80537           0.00000
+4           0.00000          48.61548
+5           0.00000           0.00000
+                                              description
+1 Daily baseline with consistent flow-to-stock conversion
+2                               Weekly time-step scenario
+3                                  Higher demand scenario
+4                                 Tight capacity scenario
+5                         Higher daily loss-rate scenario
+                      scale_review
+1 constraint or scale limit active
+2 constraint or scale limit active
+3 constraint or scale limit active
+4 constraint or scale limit active
+5   unit and scale behavior stable
+
+[1;34m[05:11:10][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/dimensional_analysis_units_scale.sqlite < sql/schema.sql
+sqlite3 outputs/tables/dimensional_analysis_units_scale.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[05:11:10][0m Go workflow
+cd go && go run main.go
+go_daily_baseline final_storage=100.000 min_fraction=0.808 max_fraction=1.000 total_shortage=0.000
+go_weekly_step final_storage=100.000 min_fraction=0.856 max_fraction=1.000 total_shortage=0.000
+
+[1;34m[05:11:11][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 unit_scale_resource_model.cpp -o unit_scale_resource_model
+./unit_scale_resource_model > ../outputs/tables/cpp_unit_scale_summary.txt
+
+[1;34m[05:11:12][0m Fortran workflow
+gfortran -O2 fortran/unit_scale_resource_model.f90 -o outputs/unit_scale_resource_model_fortran
+./outputs/unit_scale_resource_model_fortran > outputs/tables/fortran_unit_scale_summary.txt
+
+[1;34m[05:11:12][0m C workflow
+cc -O2 -std=c11 c/unit_scale_resource_model.c -o outputs/unit_scale_resource_model_c
+./outputs/unit_scale_resource_model_c > outputs/tables/c_unit_scale_summary.csv 2> outputs/logs/c_unit_scale_stderr.log

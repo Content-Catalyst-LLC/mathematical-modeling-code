@@ -1,0 +1,46 @@
+section       
+--------------
+QUANTITY TYPES
+quantity_type        description                                     typical_failure                                             
+-------------------  ----------------------------------------------  ------------------------------------------------------------
+dimensionless_ratio  Quantity normalized by a characteristic scale.  Ratio is interpreted without stating denominator.           
+
+flow                 Quantity per unit time.                         Flow is added directly to stock without time-step conversion
+                                                                     .                                                           
+
+rate                 Inverse-time or proportional rate.              Rate unit does not match time step.                         
+
+stock                Stored quantity measured at a time.             Stocks are confused with flows.                             
+
+stock_bound          Capacity or bound for a stock.                  Capacity is expressed in a different unit from stock.       
+
+time_step            Simulation interval or temporal resolution.     Time step is omitted from update equations.                 
+section                      
+-----------------------------
+UNIT RECORDS REQUIRING REVIEW
+unit_key   quantity_type  unit    dimension    review_question                                  
+---------  -------------  ------  -----------  -------------------------------------------------
+inflow     flow           m3/day  volume/time  Is inflow multiplied by the model time step?     
+demand     flow           m3/day  volume/time  Is demand multiplied by the model time step?     
+loss_rate  rate           1/day   time^-1      Does the loss-rate unit match the time step?     
+delta_t    time_step      day     time         Is the time step used to convert rates and flows?
+section        
+---------------
+SCALE SCENARIOS
+scenario        initial_storage_m3  capacity_m3  inflow_m3_per_day  demand_m3_per_day  loss_rate_per_day  delta_t_days  periods
+--------------  ------------------  -----------  -----------------  -----------------  -----------------  ------------  -------
+daily_baseline  80.0                100.0        8.0                6.0                0.015              1.0           60     
+high_demand     80.0                100.0        8.0                10.0               0.015              1.0           60     
+high_loss       80.0                100.0        8.0                6.0                0.05               1.0           60     
+tight_capacity  70.0                75.0         8.0                6.0                0.015              1.0           60     
+weekly_step     80.0                100.0        8.0                6.0                0.015              7.0           12     
+section         
+----------------
+CONVERSION AUDIT
+conversion                     source_unit  target_unit  factor               review_question                                      
+-----------------------------  -----------  -----------  -------------------  -----------------------------------------------------
+days_to_years                  day          year         0.00273972602739726  Does the rate need annualization?                    
+hectares_to_square_kilometers  ha           km2          0.01                 Are area units consistent before density calculation?
+kilometers_to_meters           km           m            1000.0               Are spatial coefficients in consistent length units? 
+percent_to_proportion          percent      proportion   0.01                 Was percent converted before computation?            
+years_to_days                  year         day          365.0                Does the annual rate need daily conversion?          

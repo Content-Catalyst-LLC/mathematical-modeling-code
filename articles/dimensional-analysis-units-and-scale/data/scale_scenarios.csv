@@ -1,0 +1,6 @@
+scenario,initial_storage_m3,capacity_m3,inflow_m3_per_day,demand_m3_per_day,loss_rate_per_day,delta_t_days,periods,description
+daily_baseline,80,100,8,6,0.015,1,60,Daily baseline with consistent flow-to-stock conversion
+weekly_step,80,100,8,6,0.015,7,12,Weekly time-step scenario
+high_demand,80,100,8,10,0.015,1,60,Higher demand scenario
+tight_capacity,70,75,8,6,0.015,1,60,Tight capacity scenario
+high_loss,80,100,8,6,0.05,1,60,Higher daily loss-rate scenario

@@ -1,0 +1,6 @@
+"scenario","final_storage_m3","mean_storage_m3","min_storage_fraction","max_storage_fraction","shortage_periods","overflow_periods","domain_violations","total_shortage_m3","total_overflow_m3","description","scale_review"
+"daily_baseline",100,95.1351448,0.808,1,0,30,0,0,14.95134251,"Daily baseline with consistent flow-to-stock conversion","constraint or scale limit active"
+"weekly_step",100,96.18632441,0.856,1,0,9,0,0,30.70566718,"Weekly time-step scenario","constraint or scale limit active"
+"high_demand",0,19.45942079,0,0.768,30,0,0,59.80537002,0,"Higher demand scenario","constraint or scale limit active"
+"tight_capacity",75,74.73718339,0.946,1,0,56,0,0,48.61547719,"Tight capacity scenario","constraint or scale limit active"
+"high_loss",41.84279196,52.54076972,0.41750652,0.78,0,0,0,0,0,"Higher daily loss-rate scenario","unit and scale behavior stable"

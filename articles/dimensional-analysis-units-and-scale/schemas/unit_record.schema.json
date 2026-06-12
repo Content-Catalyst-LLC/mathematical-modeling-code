@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UnitRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "quantity_type",
+    "unit",
+    "dimension",
+    "expected_range",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "quantity_type": {"type": "string"},
+    "unit": {"type": "string"},
+    "dimension": {"type": "string"},
+    "expected_range": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

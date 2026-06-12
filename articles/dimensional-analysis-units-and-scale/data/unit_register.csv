@@ -1,0 +1,8 @@
+key,quantity_type,unit,dimension,expected_range,review_question,status
+storage,stock,m3,volume,"[0, capacity]","Does storage remain within physical bounds?",active
+capacity,stock_bound,m3,volume,positive,"Is capacity in the same unit as storage?",active
+inflow,flow,m3/day,volume/time,nonnegative,"Is inflow multiplied by the model time step?",review
+demand,flow,m3/day,volume/time,nonnegative,"Is demand multiplied by the model time step?",review
+loss_rate,rate,1/day,time^-1,"[0, 1] for daily fractional loss","Does the loss-rate unit match the time step?",review
+delta_t,time_step,day,time,positive,"Is the time step used to convert rates and flows?",review
+storage_fraction,dimensionless_ratio,dimensionless,1,"[0, 1]","Is dimensionless storage used for cross-scale comparison?",active

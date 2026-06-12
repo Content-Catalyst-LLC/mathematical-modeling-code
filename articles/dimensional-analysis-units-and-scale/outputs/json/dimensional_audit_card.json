@@ -1,0 +1,161 @@
+{
+  "article": "Dimensional Analysis, Units, and Scale",
+  "audit_checks": [
+    "stocks and capacities share units",
+    "flows are multiplied by the model time step",
+    "loss-rate unit matches the time step",
+    "dimensionless storage fraction remains between zero and one",
+    "shortage and overflow are reported with units"
+  ],
+  "high_priority_unit_records": [
+    {
+      "dimension": "time",
+      "expected_range": "positive",
+      "key": "delta_t",
+      "quantity_type": "time_step",
+      "review_question": "Is the time step used to convert rates and flows?",
+      "status": "review",
+      "unit": "day",
+      "unit_risk_score": 8.0
+    }
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Daily baseline with consistent flow-to-stock conversion",
+      "domain_violations": 0,
+      "final_storage_m3": 100.0,
+      "max_storage_fraction": 1.0,
+      "mean_storage_m3": 95.1351448,
+      "min_storage_fraction": 0.808,
+      "overflow_periods": 30,
+      "scenario": "daily_baseline",
+      "shortage_periods": 0,
+      "total_overflow_m3": 14.95134251,
+      "total_shortage_m3": 0.0
+    },
+    {
+      "description": "Weekly time-step scenario",
+      "domain_violations": 0,
+      "final_storage_m3": 100.0,
+      "max_storage_fraction": 1.0,
+      "mean_storage_m3": 96.18632441,
+      "min_storage_fraction": 0.856,
+      "overflow_periods": 9,
+      "scenario": "weekly_step",
+      "shortage_periods": 0,
+      "total_overflow_m3": 30.70566718,
+      "total_shortage_m3": 0.0
+    },
+    {
+      "description": "Higher demand scenario",
+      "domain_violations": 0,
+      "final_storage_m3": 0.0,
+      "max_storage_fraction": 0.768,
+      "mean_storage_m3": 19.45942079,
+      "min_storage_fraction": 0.0,
+      "overflow_periods": 0,
+      "scenario": "high_demand",
+      "shortage_periods": 30,
+      "total_overflow_m3": 0.0,
+      "total_shortage_m3": 59.80537002
+    },
+    {
+      "description": "Tight capacity scenario",
+      "domain_violations": 0,
+      "final_storage_m3": 75.0,
+      "max_storage_fraction": 1.0,
+      "mean_storage_m3": 74.73718339,
+      "min_storage_fraction": 0.946,
+      "overflow_periods": 56,
+      "scenario": "tight_capacity",
+      "shortage_periods": 0,
+      "total_overflow_m3": 48.61547719,
+      "total_shortage_m3": 0.0
+    },
+    {
+      "description": "Higher daily loss-rate scenario",
+      "domain_violations": 0,
+      "final_storage_m3": 41.84279196,
+      "max_storage_fraction": 0.78,
+      "mean_storage_m3": 52.54076972,
+      "min_storage_fraction": 0.41750652,
+      "overflow_periods": 0,
+      "scenario": "high_loss",
+      "shortage_periods": 0,
+      "total_overflow_m3": 0.0,
+      "total_shortage_m3": 0.0
+    }
+  ],
+  "unit_register": [
+    {
+      "dimension": "volume",
+      "expected_range": "[0, capacity]",
+      "key": "storage",
+      "quantity_type": "stock",
+      "review_question": "Does storage remain within physical bounds?",
+      "status": "active",
+      "unit": "m3",
+      "unit_risk_score": 1.0
+    },
+    {
+      "dimension": "volume",
+      "expected_range": "positive",
+      "key": "capacity",
+      "quantity_type": "stock_bound",
+      "review_question": "Is capacity in the same unit as storage?",
+      "status": "active",
+      "unit": "m3",
+      "unit_risk_score": 2.0
+    },
+    {
+      "dimension": "volume/time",
+      "expected_range": "nonnegative",
+      "key": "inflow",
+      "quantity_type": "flow",
+      "review_question": "Is inflow multiplied by the model time step?",
+      "status": "review",
+      "unit": "m3/day",
+      "unit_risk_score": 7.0
+    },
+    {
+      "dimension": "volume/time",
+      "expected_range": "nonnegative",
+      "key": "demand",
+      "quantity_type": "flow",
+      "review_question": "Is demand multiplied by the model time step?",
+      "status": "review",
+      "unit": "m3/day",
+      "unit_risk_score": 7.0
+    },
+    {
+      "dimension": "time^-1",
+      "expected_range": "[0, 1] for daily fractional loss",
+      "key": "loss_rate",
+      "quantity_type": "rate",
+      "review_question": "Does the loss-rate unit match the time step?",
+      "status": "review",
+      "unit": "1/day",
+      "unit_risk_score": 7.0
+    },
+    {
+      "dimension": "time",
+      "expected_range": "positive",
+      "key": "delta_t",
+      "quantity_type": "time_step",
+      "review_question": "Is the time step used to convert rates and flows?",
+      "status": "review",
+      "unit": "day",
+      "unit_risk_score": 8.0
+    },
+    {
+      "dimension": "1",
+      "expected_range": "[0, 1]",
+      "key": "storage_fraction",
+      "quantity_type": "dimensionless_ratio",
+      "review_question": "Is dimensionless storage used for cross-scale comparison?",
+      "status": "active",
+      "unit": "dimensionless",
+      "unit_risk_score": 2.0
+    }
+  ]
+}

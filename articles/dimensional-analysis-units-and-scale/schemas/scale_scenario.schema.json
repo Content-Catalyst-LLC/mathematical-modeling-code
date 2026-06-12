@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScaleScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "initial_storage_m3",
+    "capacity_m3",
+    "inflow_m3_per_day",
+    "demand_m3_per_day",
+    "loss_rate_per_day",
+    "delta_t_days",
+    "periods"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_storage_m3": {"type": "number", "minimum": 0},
+    "capacity_m3": {"type": "number", "exclusiveMinimum": 0},
+    "inflow_m3_per_day": {"type": "number", "minimum": 0},
+    "demand_m3_per_day": {"type": "number", "minimum": 0},
+    "loss_rate_per_day": {"type": "number", "minimum": 0, "maximum": 1},
+    "delta_t_days": {"type": "number", "exclusiveMinimum": 0},
+    "periods": {"type": "integer", "minimum": 1}
+  }
+}

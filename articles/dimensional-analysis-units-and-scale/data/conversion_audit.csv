@@ -1,0 +1,6 @@
+conversion,source_unit,target_unit,factor,review_question
+percent_to_proportion,percent,proportion,0.01,Was percent converted before computation?
+days_to_years,day,year,0.0027397260273972603,Does the rate need annualization?
+years_to_days,year,day,365,Does the annual rate need daily conversion?
+kilometers_to_meters,km,m,1000,Are spatial coefficients in consistent length units?
+hectares_to_square_kilometers,ha,km2,0.01,Are area units consistent before density calculation?

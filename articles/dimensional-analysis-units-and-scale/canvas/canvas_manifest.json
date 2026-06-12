@@ -1,0 +1,29 @@
+{
+  "article_slug": "dimensional-analysis-units-and-scale",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "unit-scale-governance",
+  "cards": [
+    {
+      "card_id": "unit-register",
+      "title": "Unit Register",
+      "description": "Tracks quantity type, unit, dimension, expected range, review question, and status."
+    },
+    {
+      "card_id": "dimensional-audit",
+      "title": "Dimensional Audit",
+      "description": "Checks stock-flow consistency, time-step conversion, dimensional homogeneity, and domain validity."
+    },
+    {
+      "card_id": "scale-diagnostics",
+      "title": "Scale Diagnostics",
+      "description": "Compares daily, weekly, high-demand, tight-capacity, and high-loss scenarios."
+    }
+  ],
+  "governance": {
+    "requires_unit_register": true,
+    "requires_dimensional_homogeneity_review": true,
+    "requires_rate_time_step_check": true,
+    "requires_scale_statement": true,
+    "requires_output_units": true
+  }
+}
