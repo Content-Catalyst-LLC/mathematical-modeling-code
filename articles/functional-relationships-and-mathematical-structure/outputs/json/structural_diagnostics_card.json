@@ -1,0 +1,151 @@
+{
+  "article": "Functional Relationships and Mathematical Structure",
+  "high_priority_relationships": [
+    {
+      "expression": "S[t+1] = min(K, max(0, raw_next_stock))",
+      "interpretation": "Storage is bounded below by zero and above by capacity",
+      "key": "constrained_update",
+      "relationship_type": "bounded_dynamic",
+      "review_question": "Do constraints hide shortage overflow or unmet demand?",
+      "status": "review",
+      "structural_assumption": "Shortage and overflow may be clipped unless tracked separately",
+      "structure_risk_score": 8.0
+    },
+    {
+      "expression": "D[t+1] = max(0, D[t] - alpha*shortage[t])",
+      "interpretation": "Demand adapts downward when shortage occurs",
+      "key": "feedback_demand",
+      "relationship_type": "feedback",
+      "review_question": "Is demand response plausible delayed or institutionally mediated?",
+      "status": "review",
+      "structural_assumption": "Shortage produces immediate demand response",
+      "structure_risk_score": 8.0
+    }
+  ],
+  "relationship_register": [
+    {
+      "expression": "S[t+1] = S[t] + I[t] - D[t] - lambda*S[t]",
+      "interpretation": "Storage changes through inflow demand and proportional loss",
+      "key": "linear_update",
+      "relationship_type": "linear_dynamic",
+      "review_question": "Does the linear update behave reasonably across the intended domain?",
+      "status": "active",
+      "structural_assumption": "Loss is proportional to current storage and demand is exogenous",
+      "structure_risk_score": 2.0
+    },
+    {
+      "expression": "S[t+1] = min(K, max(0, raw_next_stock))",
+      "interpretation": "Storage is bounded below by zero and above by capacity",
+      "key": "constrained_update",
+      "relationship_type": "bounded_dynamic",
+      "review_question": "Do constraints hide shortage overflow or unmet demand?",
+      "status": "review",
+      "structural_assumption": "Shortage and overflow may be clipped unless tracked separately",
+      "structure_risk_score": 8.0
+    },
+    {
+      "expression": "D[t+1] = max(0, D[t] - alpha*shortage[t])",
+      "interpretation": "Demand adapts downward when shortage occurs",
+      "key": "feedback_demand",
+      "relationship_type": "feedback",
+      "review_question": "Is demand response plausible delayed or institutionally mediated?",
+      "status": "review",
+      "structural_assumption": "Shortage produces immediate demand response",
+      "structure_risk_score": 8.0
+    },
+    {
+      "expression": "I[t] = I_bar * exp(epsilon[t])",
+      "interpretation": "Inflow varies multiplicatively around a baseline",
+      "key": "stochastic_inflow",
+      "relationship_type": "stochastic",
+      "review_question": "Is the stochastic structure supported by evidence?",
+      "status": "review",
+      "structural_assumption": "Random inflow shocks are independent and lognormal-like",
+      "structure_risk_score": 6.0
+    },
+    {
+      "expression": "u[t] = u_high if S[t] < T else u_low",
+      "interpretation": "Control action changes when storage crosses threshold",
+      "key": "threshold_release",
+      "relationship_type": "threshold",
+      "review_question": "Is the threshold measured estimated assumed or policy-defined?",
+      "status": "review",
+      "structural_assumption": "A sharp threshold represents a real or policy-defined regime change",
+      "structure_risk_score": 6.0
+    }
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Unconstrained linear update",
+      "final_stock": 111.79696066,
+      "max_stock": 111.79696066,
+      "mean_stock": 98.22950137,
+      "min_stock": 80.0,
+      "overflow_periods": 30,
+      "scenario": "linear_baseline",
+      "shortage_periods": 0,
+      "structure": "linear",
+      "total_overflow": 200.87575659,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Bounded stock-flow update",
+      "final_stock": 100.0,
+      "max_stock": 100.0,
+      "mean_stock": 95.1351448,
+      "min_stock": 80.0,
+      "overflow_periods": 30,
+      "scenario": "constrained_baseline",
+      "shortage_periods": 0,
+      "structure": "constrained",
+      "total_overflow": 14.95134251,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Feedback response under stress",
+      "final_stock": 0.0,
+      "max_stock": 40.0,
+      "mean_stock": 2.75067156,
+      "min_stock": 0.0,
+      "overflow_periods": 0,
+      "scenario": "feedback_stress",
+      "shortage_periods": 54,
+      "structure": "feedback",
+      "total_overflow": 0.0,
+      "total_shortage": 19.99985672
+    },
+    {
+      "description": "Random inflow variation around baseline",
+      "final_stock": 25.63040626,
+      "max_stock": 70.0,
+      "mean_stock": 40.94228668,
+      "min_stock": 23.39358301,
+      "overflow_periods": 0,
+      "scenario": "stochastic_inflow",
+      "shortage_periods": 0,
+      "structure": "stochastic",
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Threshold-oriented stress case",
+      "final_stock": 18.98470109,
+      "max_stock": 50.0,
+      "mean_stock": 16.82503701,
+      "min_stock": 7.23851572,
+      "overflow_periods": 0,
+      "scenario": "threshold_case",
+      "shortage_periods": 0,
+      "structure": "threshold",
+      "total_overflow": 0.0,
+      "total_shortage": 0.0
+    }
+  ],
+  "structural_review_questions": [
+    "Does the functional form match the intended mechanism?",
+    "Does the model need linear, nonlinear, dynamic, stochastic, networked, or constrained structure?",
+    "Do constraints hide shortage or overflow?",
+    "Does feedback occur immediately, with delay, or not at all?",
+    "Does uncertainty require probability, scenarios, or robust analysis?"
+  ]
+}

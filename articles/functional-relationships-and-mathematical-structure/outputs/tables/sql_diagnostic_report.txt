@@ -1,0 +1,46 @@
+section           
+------------------
+RELATIONSHIP TYPES
+relationship_type  description                                                 typical_failure                                   
+-----------------  ----------------------------------------------------------  --------------------------------------------------
+bounded_dynamic    Dynamic update with bounds or constraints.                  Constraint clipping may hide shortage or overflow.
+feedback           Output or state influences future input or state.           Feedback strength or delay may be unsupported.    
+linear_dynamic     Linear dynamic update over discrete time.                   Linear default may hide nonlinear effects.        
+networked          State changes through relationships among connected units.  Aggregate model may hide relational vulnerability.
+optimization       Choice under objective and feasible set.                    Objective function may hide values.               
+stochastic         Relationship includes random variation or uncertainty.      Distribution may be unjustified.                  
+threshold          Relationship changes after crossing a boundary.             Threshold may appear falsely precise.             
+section                       
+------------------------------
+RELATIONSHIPS REQUIRING REVIEW
+relationship_key    relationship_type  expression                                 review_question                                             
+------------------  -----------------  -----------------------------------------  ------------------------------------------------------------
+constrained_update  bounded_dynamic    S[t+1] = min(K, max(0, raw_next_stock))    Do constraints hide shortage overflow or unmet demand?      
+
+feedback_demand     feedback           D[t+1] = max(0, D[t] - alpha*shortage[t])  Is demand response plausible delayed or institutionally medi
+                                                                                  ated?                                                       
+
+stochastic_inflow   stochastic         I[t] = I_bar * exp(epsilon[t])             Is the stochastic structure supported by evidence?          
+
+threshold_release   threshold          u[t] = u_high if S[t] < T else u_low       Is the threshold measured estimated assumed or policy-define
+                                                                                  d?                                                          
+section               
+----------------------
+SCENARIOS BY STRUCTURE
+structure    scenario_count
+-----------  --------------
+constrained  1             
+feedback     1             
+linear       1             
+stochastic   1             
+threshold    1             
+section                
+-----------------------
+STRUCTURE REVIEW MATRIX
+structure    appropriate_use                                 main_risk                                                 diagnostic                                                 
+-----------  ----------------------------------------------  --------------------------------------------------------  -----------------------------------------------------------
+constrained  Feasibility and domain enforcement              May hide shortage or overflow if clipped                  Track constraint activity and violations separately        
+feedback     Adaptive system behavior                        Feedback strength or delay may be unsupported             Compare no-feedback delayed-feedback and feedback scenarios
+linear       Local approximation or transparent explanation  Misses nonlinear thresholds saturation or compounding     Compare nonlinear alternative and boundary behavior        
+stochastic   Uncertain process representation                Distribution may be unjustified                           Check uncertainty source and run sensitivity               
+threshold    Regime-dependent behavior                       Threshold may appear more precise than evidence supports  Test threshold range and smooth alternatives               

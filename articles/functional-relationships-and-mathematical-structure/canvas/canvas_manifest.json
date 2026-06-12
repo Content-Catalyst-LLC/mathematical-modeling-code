@@ -1,0 +1,29 @@
+{
+  "article_slug": "functional-relationships-and-mathematical-structure",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "relationship-structure-governance",
+  "cards": [
+    {
+      "card_id": "relationship-register",
+      "title": "Relationship Register",
+      "description": "Tracks relationship type, expression, interpretation, structural assumption, review question, and status."
+    },
+    {
+      "card_id": "structural-diagnostics",
+      "title": "Structural Diagnostics",
+      "description": "Compares linear, constrained, feedback, stochastic, and threshold structures."
+    },
+    {
+      "card_id": "purpose-structure-review",
+      "title": "Purpose-Structure Review",
+      "description": "Checks whether mathematical structure supports explanation, prediction, control, simulation, optimization, or decision support."
+    }
+  ],
+  "governance": {
+    "requires_relationship_register": true,
+    "requires_structural_assumption_table": true,
+    "requires_functional_form_comparison": true,
+    "requires_structural_sensitivity_review": true,
+    "requires_prohibited_use_statement": true
+  }
+}

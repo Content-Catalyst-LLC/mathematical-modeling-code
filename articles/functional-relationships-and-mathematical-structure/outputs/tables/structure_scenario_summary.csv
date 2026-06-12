@@ -1,0 +1,6 @@
+scenario,structure,final_stock,mean_stock,min_stock,max_stock,shortage_periods,overflow_periods,total_shortage,total_overflow,description
+linear_baseline,linear,111.79696066,98.22950137,80.0,111.79696066,0,30,0.0,200.87575659,Unconstrained linear update
+constrained_baseline,constrained,100.0,95.1351448,80.0,100.0,0,30,0.0,14.95134251,Bounded stock-flow update
+feedback_stress,feedback,0.0,2.75067156,0.0,40.0,54,0,19.99985672,0.0,Feedback response under stress
+stochastic_inflow,stochastic,25.63040626,40.94228668,23.39358301,70.0,0,0,0.0,0.0,Random inflow variation around baseline
+threshold_case,threshold,18.98470109,16.82503701,7.23851572,50.0,0,0,0.0,0.0,Threshold-oriented stress case

@@ -1,0 +1,6 @@
+structure,appropriate_use,main_risk,diagnostic
+linear,Local approximation or transparent explanation,Misses nonlinear thresholds saturation or compounding,Compare nonlinear alternative and boundary behavior
+constrained,Feasibility and domain enforcement,May hide shortage or overflow if clipped,Track constraint activity and violations separately
+feedback,Adaptive system behavior,Feedback strength or delay may be unsupported,Compare no-feedback delayed-feedback and feedback scenarios
+stochastic,Uncertain process representation,Distribution may be unjustified,Check uncertainty source and run sensitivity
+threshold,Regime-dependent behavior,Threshold may appear more precise than evidence supports,Test threshold range and smooth alternatives

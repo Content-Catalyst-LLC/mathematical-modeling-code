@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RelationshipRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "relationship_type",
+    "expression",
+    "interpretation",
+    "structural_assumption",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "relationship_type": {
+      "type": "string",
+      "enum": [
+        "linear",
+        "nonlinear",
+        "linear_dynamic",
+        "bounded_dynamic",
+        "dynamic",
+        "stochastic",
+        "feedback",
+        "threshold",
+        "networked",
+        "constraint",
+        "optimization"
+      ]
+    },
+    "expression": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "structural_assumption": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

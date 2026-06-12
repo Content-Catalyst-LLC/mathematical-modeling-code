@@ -1,0 +1,59 @@
+
+[1;34m[04:37:14][0m Python workflow
+Functional relationships workflow complete.
+Relationships: 5
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[04:37:15][0m R workflow
+null device 
+          1 
+              scenario   structure final_stock mean_stock min_stock max_stock
+1      linear_baseline      linear   111.79696  98.229501 80.000000   111.797
+2 constrained_baseline constrained   100.00000  95.135145 80.000000   100.000
+3      feedback_stress    feedback     0.00000   2.750672  0.000000    40.000
+4    stochastic_inflow  stochastic    25.63041  40.942287 23.393583    70.000
+5       threshold_case   threshold    18.98470  16.825037  7.238516    50.000
+  shortage_periods overflow_periods total_shortage total_overflow
+1                0               30        0.00000      200.87576
+2                0               30        0.00000       14.95134
+3               54                0       19.99986        0.00000
+4                0                0        0.00000        0.00000
+5                0                0        0.00000        0.00000
+                              description
+1             Unconstrained linear update
+2               Bounded stock-flow update
+3          Feedback response under stress
+4 Random inflow variation around baseline
+5          Threshold-oriented stress case
+                                structure_review
+1 structure activates constraint or failure mode
+2 structure activates constraint or failure mode
+3 structure activates constraint or failure mode
+4                structure stable under scenario
+5                structure stable under scenario
+
+[1;34m[04:37:15][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/functional_relationships.sqlite < sql/schema.sql
+sqlite3 outputs/tables/functional_relationships.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[04:37:15][0m Go workflow
+cd go && go run main.go
+go_linear structure=linear final_stock=112.120 total_shortage=0.000 total_overflow=200.876
+go_constrained structure=constrained final_stock=100.000 total_shortage=0.000 total_overflow=14.951
+go_feedback structure=feedback final_stock=0.000 total_shortage=20.000 total_overflow=0.000
+
+[1;34m[04:37:15][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 structure_resource_model.cpp -o structure_resource_model
+./structure_resource_model > ../outputs/tables/cpp_structure_resource_summary.txt
+
+[1;34m[04:37:17][0m Fortran workflow
+gfortran -O2 fortran/structure_resource_model.f90 -o outputs/structure_resource_model_fortran
+./outputs/structure_resource_model_fortran > outputs/tables/fortran_structure_resource_summary.txt
+
+[1;34m[04:37:17][0m C workflow
+cc -O2 -std=c11 c/structure_resource_model.c -o outputs/structure_resource_model_c
+./outputs/structure_resource_model_c > outputs/tables/c_structure_resource_summary.csv 2> outputs/logs/c_structure_resource_stderr.log

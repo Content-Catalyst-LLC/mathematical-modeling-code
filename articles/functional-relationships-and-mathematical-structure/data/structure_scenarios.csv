@@ -1,0 +1,6 @@
+scenario,structure,initial_stock,capacity,inflow,demand,loss_rate,feedback_strength,periods,description
+linear_baseline,linear,80,100,8,6,0.015,0,60,Unconstrained linear update
+constrained_baseline,constrained,80,100,8,6,0.015,0,60,Bounded stock-flow update
+feedback_stress,feedback,40,60,3,7,0.050,0.20,60,Feedback response under stress
+stochastic_inflow,stochastic,70,100,6,6,0.020,0,60,Random inflow variation around baseline
+threshold_case,threshold,50,80,4,7,0.030,0.15,80,Threshold-oriented stress case

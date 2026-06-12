@@ -1,0 +1,6 @@
+key,relationship_type,expression,interpretation,structural_assumption,review_question,status,structure_risk_score
+linear_update,linear_dynamic,S[t+1] = S[t] + I[t] - D[t] - lambda*S[t],Storage changes through inflow demand and proportional loss,Loss is proportional to current storage and demand is exogenous,Does the linear update behave reasonably across the intended domain?,active,2.0
+constrained_update,bounded_dynamic,"S[t+1] = min(K, max(0, raw_next_stock))",Storage is bounded below by zero and above by capacity,Shortage and overflow may be clipped unless tracked separately,Do constraints hide shortage overflow or unmet demand?,review,8.0
+feedback_demand,feedback,"D[t+1] = max(0, D[t] - alpha*shortage[t])",Demand adapts downward when shortage occurs,Shortage produces immediate demand response,Is demand response plausible delayed or institutionally mediated?,review,8.0
+stochastic_inflow,stochastic,I[t] = I_bar * exp(epsilon[t]),Inflow varies multiplicatively around a baseline,Random inflow shocks are independent and lognormal-like,Is the stochastic structure supported by evidence?,review,6.0
+threshold_release,threshold,u[t] = u_high if S[t] < T else u_low,Control action changes when storage crosses threshold,A sharp threshold represents a real or policy-defined regime change,Is the threshold measured estimated assumed or policy-defined?,review,6.0
