@@ -1,0 +1,6 @@
+"target_feature","represented_as","representation_risk_score","review_question","omitted_detail"
+"Stored resource","S_t",7.4,"Does aggregate storage answer the intended question?","Spatial distribution quality ownership and access"
+"Resource additions","I_t",9,"Should inflow be stochastic or scenario-based?","Seasonality stochastic hydrology upstream governance"
+"Resource use","D_t",7.4,"Does demand need subgroup or behavioral structure?","Heterogeneous users conservation behavior price response"
+"Physical limit","0 <= S_t <= K",7.4,"Is physical capacity the same as usable capacity?","Operating rules emergency reserves safety margins"
+"Losses","L_t = lambda S_t",7,"Should losses be process-based?","Temperature surface area leakage seasonality"

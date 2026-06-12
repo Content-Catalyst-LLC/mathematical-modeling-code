@@ -1,0 +1,35 @@
+section      
+-------------
+TARGET SYSTEM
+target_name      target_description                                            intended_use                                       
+---------------  ------------------------------------------------------------  ---------------------------------------------------
+Resource system  A resource stock represented by inflow, demand, losses, and   Demonstrate abstraction and representation choices.
+                 capacity.                                                                                                        
+section             
+--------------------
+REPRESENTATION FORMS
+representation_form  emphasizes                    useful_for                                       limitation                             
+-------------------  ----------------------------  -----------------------------------------------  ---------------------------------------
+Equation             Formal relationships          Closed-form reasoning and compact structure      May hide assumptions behind notation   
+Graph                Relationships among entities  Connectivity paths dependencies and flow         May hide internal node dynamics        
+Optimization model   Objectives and constraints    Resource allocation design and scheduling        Objective may omit values that matter  
+Probability model    Uncertainty and inference     Risk prediction measurement error and variation  Distributional assumptions may dominate
+Recurrence relation  Stepwise change               Discrete-time simulation and update rules        Time-step choice can shape behavior    
+Simulation           Executable process            Complex behavior and scenarios                   Can be hard to validate and interpret  
+section                                
+---------------------------------------
+REPRESENTATION CHOICES REQUIRING REVIEW
+target_feature      formal_representation  omitted_detail                                            review_question                                  
+------------------  ---------------------  --------------------------------------------------------  -------------------------------------------------
+Resource additions  I_t                    Seasonality stochastic hydrology upstream governance      Should inflow be stochastic or scenario-based?   
+Resource use        D_t                    Heterogeneous users conservation behavior price response  Does demand need subgroup structure?             
+Physical limit      0 <= S_t <= K          Operating rules emergency reserves safety margins         Is physical capacity the same as usable capacity?
+section  
+---------
+SCENARIOS
+scenario            initial_stock  capacity  inflow  demand  loss_rate  periods
+------------------  -------------  --------  ------  ------  ---------  -------
+aggregate_baseline  80.0           100.0     8.0     6.0     0.015      60     
+higher_losses       80.0           100.0     8.0     6.0     0.035      60     
+low_inflow          80.0           100.0     5.0     6.0     0.015      60     
+lower_capacity      70.0           75.0      8.0     6.0     0.015      60     

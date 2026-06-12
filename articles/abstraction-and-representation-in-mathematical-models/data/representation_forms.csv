@@ -1,0 +1,8 @@
+representation_form,emphasizes,useful_for,limitation
+Equation,Formal relationships,Closed-form reasoning and compact structure,May hide assumptions behind notation
+Differential equation,Continuous change,Rates mechanisms and dynamics,Requires smoothness and time-scale assumptions
+Recurrence relation,Stepwise change,Discrete-time simulation and update rules,Time-step choice can shape behavior
+Graph,Relationships among entities,Connectivity paths dependencies and flow,May hide internal node dynamics
+Probability model,Uncertainty and inference,Risk prediction measurement error and variation,Distributional assumptions may dominate
+Optimization model,Objectives and constraints,Resource allocation design and scheduling,Objective may omit values that matter
+Simulation,Executable process,Complex behavior and scenarios,Can be hard to validate and interpret

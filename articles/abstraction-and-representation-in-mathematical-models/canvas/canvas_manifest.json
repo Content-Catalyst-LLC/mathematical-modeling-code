@@ -1,0 +1,28 @@
+{
+  "article_slug": "abstraction-and-representation-in-mathematical-models",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "abstraction-representation",
+  "cards": [
+    {
+      "card_id": "abstraction-map",
+      "title": "Abstraction Map",
+      "description": "Tracks how real-world features become variables, parameters, constraints, outputs, and assumptions."
+    },
+    {
+      "card_id": "representation-review",
+      "title": "Representation Review",
+      "description": "Audits what the model preserves, omits, idealizes, aggregates, or risks distorting."
+    },
+    {
+      "card_id": "representational-adequacy",
+      "title": "Representational Adequacy",
+      "description": "Links model purpose, evidence, uncertainty, omitted detail, validation, and prohibited uses."
+    }
+  ],
+  "governance": {
+    "requires_omitted_detail_register": true,
+    "requires_representation_choice_log": true,
+    "requires_validation_plan": true,
+    "requires_ethics_review": true
+  }
+}

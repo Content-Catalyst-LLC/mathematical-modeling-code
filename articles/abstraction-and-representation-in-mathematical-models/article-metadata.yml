@@ -1,0 +1,19 @@
+actual_title: "Abstraction and Representation in Mathematical Models"
+suggested_seo_title: "Abstraction and Representation in Mathematical Models: How Models Select, Simplify, and Explain"
+focus_keyword: "abstraction and representation in mathematical models"
+slug: "abstraction-and-representation-in-mathematical-models"
+series: "Mathematical Modeling"
+article_order:
+  previous: "the-modeling-process-from-world-to-formal-representation"
+  current: "abstraction-and-representation-in-mathematical-models"
+  next: "assumptions-simplification-and-model-design"
+tags:
+  - Mathematical Modeling
+  - Abstraction
+  - Scientific Representation
+  - Model Design
+  - Formal Models
+  - Applied Mathematics
+  - Model Validation
+  - Uncertainty Quantification
+excerpt_139_words: "Abstraction and representation are the central acts of mathematical modeling. A model cannot reproduce the world in full; it selects, simplifies, encodes, and organizes features of a situation so that they can be reasoned about mathematically. This article explains how abstraction removes detail while preserving structure, and how representation gives that structure a formal form through variables, parameters, equations, diagrams, simulations, networks, probability models, or algorithms. It distinguishes useful simplification from distortion, examines how modelers choose boundaries and scales, and shows why every representation hides as well as reveals. The article also connects abstraction to validation, uncertainty, computation, communication, and ethical responsibility. By treating models as selective representations rather than miniature realities, it prepares readers to evaluate when mathematical models clarify systems, when they mislead, and how better representations can be revised through evidence and judgment in practice today."

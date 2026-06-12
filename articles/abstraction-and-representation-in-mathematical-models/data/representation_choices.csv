@@ -1,0 +1,6 @@
+target_feature,abstraction,formal_representation,preserved_structure,omitted_detail,review_question,status
+Stored resource,Aggregate stock,S_t,Accumulation and depletion over time,Spatial distribution quality ownership and access,Does aggregate storage answer the intended question?,active
+Resource additions,External inflow,I_t,Input to the stock-flow balance,Seasonality stochastic hydrology upstream governance,Should inflow be stochastic or scenario-based?,review
+Resource use,Demand term,D_t,Outflow due to use,Heterogeneous users conservation behavior price response,Does demand need subgroup or behavioral structure?,review
+Physical limit,Capacity constraint,0 <= S_t <= K,Upper and lower feasibility limits,Operating rules emergency reserves safety margins,Is physical capacity the same as usable capacity?,review
+Losses,Proportional loss term,L_t = lambda S_t,Storage-dependent loss,Temperature surface area leakage seasonality,Should losses be process-based?,review

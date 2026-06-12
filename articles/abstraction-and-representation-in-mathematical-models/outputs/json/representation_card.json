@@ -1,0 +1,142 @@
+{
+  "abstraction_map": "World resource system -> aggregate stock-flow representation",
+  "article": "Abstraction and Representation in Mathematical Models",
+  "formal_model": "S[t+1] = min(K, max(0, S[t] + I[t] - D[t] - L[t]))",
+  "known_limits": [
+    "Spatial distribution quality ownership and access",
+    "Seasonality stochastic hydrology upstream governance",
+    "Heterogeneous users conservation behavior price response",
+    "Operating rules emergency reserves safety margins",
+    "Temperature surface area leakage seasonality"
+  ],
+  "representation_choices": [
+    {
+      "abstraction": "Aggregate stock",
+      "formal_representation": "S_t",
+      "omitted_detail": "Spatial distribution quality ownership and access",
+      "preserved_structure": "Accumulation and depletion over time",
+      "representation_risk_score": 7.4,
+      "review_question": "Does aggregate storage answer the intended question?",
+      "status": "active",
+      "target_feature": "Stored resource"
+    },
+    {
+      "abstraction": "External inflow",
+      "formal_representation": "I_t",
+      "omitted_detail": "Seasonality stochastic hydrology upstream governance",
+      "preserved_structure": "Input to the stock-flow balance",
+      "representation_risk_score": 9.0,
+      "review_question": "Should inflow be stochastic or scenario-based?",
+      "status": "review",
+      "target_feature": "Resource additions"
+    },
+    {
+      "abstraction": "Demand term",
+      "formal_representation": "D_t",
+      "omitted_detail": "Heterogeneous users conservation behavior price response",
+      "preserved_structure": "Outflow due to use",
+      "representation_risk_score": 7.4,
+      "review_question": "Does demand need subgroup or behavioral structure?",
+      "status": "review",
+      "target_feature": "Resource use"
+    },
+    {
+      "abstraction": "Capacity constraint",
+      "formal_representation": "0 <= S_t <= K",
+      "omitted_detail": "Operating rules emergency reserves safety margins",
+      "preserved_structure": "Upper and lower feasibility limits",
+      "representation_risk_score": 7.4,
+      "review_question": "Is physical capacity the same as usable capacity?",
+      "status": "review",
+      "target_feature": "Physical limit"
+    },
+    {
+      "abstraction": "Proportional loss term",
+      "formal_representation": "L_t = lambda S_t",
+      "omitted_detail": "Temperature surface area leakage seasonality",
+      "preserved_structure": "Storage-dependent loss",
+      "representation_risk_score": 7.0,
+      "review_question": "Should losses be process-based?",
+      "status": "review",
+      "target_feature": "Losses"
+    }
+  ],
+  "represented_features": [
+    "Stored resource",
+    "Resource additions",
+    "Resource use",
+    "Physical limit",
+    "Losses"
+  ],
+  "review_questions": [
+    "Does aggregate storage answer the intended question?",
+    "Should inflow be stochastic or scenario-based?",
+    "Does demand need subgroup or behavioral structure?",
+    "Is physical capacity the same as usable capacity?",
+    "Should losses be process-based?"
+  ],
+  "revision_triggers": [
+    "high representation risk score",
+    "shortage periods under stress scenarios",
+    "omitted detail directly affects intended use",
+    "representation not adequate for validation purpose",
+    "proxy variable used as if it were the target concept"
+  ],
+  "scenario_summaries": [
+    {
+      "description": "Reference aggregate stock-flow representation",
+      "final_stock": 100.0,
+      "max_stock": 100.0,
+      "mean_stock": 95.1351448,
+      "min_stock": 80.0,
+      "minimum_stock_margin": 0.8,
+      "scenario": "aggregate_baseline",
+      "shortage_periods": 0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Lower inflow scenario",
+      "final_stock": 0.0,
+      "max_stock": 80.0,
+      "mean_stock": 30.41798383,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "scenario": "low_inflow",
+      "shortage_periods": 9,
+      "total_shortage": 8.8324552
+    },
+    {
+      "description": "Higher loss-rate scenario",
+      "final_stock": 59.83849001,
+      "max_stock": 80.0,
+      "mean_stock": 66.63037805,
+      "min_stock": 59.83849001,
+      "minimum_stock_margin": 0.5983849,
+      "scenario": "higher_losses",
+      "shortage_periods": 0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Lower capacity representation",
+      "final_stock": 75.0,
+      "max_stock": 75.0,
+      "mean_stock": 74.73718339,
+      "min_stock": 70.0,
+      "minimum_stock_margin": 0.93333333,
+      "scenario": "lower_capacity",
+      "shortage_periods": 0,
+      "total_shortage": 0.0
+    },
+    {
+      "description": "Combined lower inflow higher demand and higher losses",
+      "final_stock": 0.0,
+      "max_stock": 70.0,
+      "mean_stock": 12.498896,
+      "min_stock": 0.0,
+      "minimum_stock_margin": 0.0,
+      "scenario": "compound_stress",
+      "shortage_periods": 38,
+      "total_shortage": 74.87297967
+    }
+  ]
+}

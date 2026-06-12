@@ -1,0 +1,58 @@
+
+[1;34m[21:24:58][0m Python workflow
+Abstraction and representation workflow complete.
+Representation choices: 5
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[21:24:58][0m R workflow
+null device 
+          1 
+            scenario final_stock mean_stock min_stock max_stock
+1 aggregate_baseline   100.00000   95.13514  80.00000       100
+2         low_inflow     0.00000   30.41798   0.00000        80
+3      higher_losses    59.83849   66.63038  59.83849        80
+4     lower_capacity    75.00000   74.73718  70.00000        75
+5    compound_stress     0.00000   12.49890   0.00000        70
+  shortage_periods total_shortage minimum_stock_margin
+1                0       0.000000            0.8000000
+2                9       8.832455            0.0000000
+3                0       0.000000            0.5983849
+4                0       0.000000            0.9333333
+5               38      74.872980            0.0000000
+                                            description     shortage_flag
+1         Reference aggregate stock-flow representation       no shortage
+2                                 Lower inflow scenario shortage observed
+3                             Higher loss-rate scenario       no shortage
+4                         Lower capacity representation       no shortage
+5 Combined lower inflow higher demand and higher losses shortage observed
+                        representation_review
+1         acceptable under stated abstraction
+2 review abstraction and scenario assumptions
+3         acceptable under stated abstraction
+4         acceptable under stated abstraction
+5 review abstraction and scenario assumptions
+
+[1;34m[21:24:58][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/abstraction_representation.sqlite < sql/schema.sql
+sqlite3 outputs/tables/abstraction_representation.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[21:24:58][0m Go workflow
+cd go && go run main.go
+go_aggregate_baseline final_stock=100.000 total_shortage=0.000
+go_compound_stress final_stock=0.000 total_shortage=74.873
+
+[1;34m[21:24:59][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 stock_flow_model.cpp -o stock_flow_model
+./stock_flow_model > ../outputs/tables/cpp_stock_flow_summary.txt
+
+[1;34m[21:25:00][0m Fortran workflow
+gfortran -O2 fortran/stock_flow_model.f90 -o outputs/stock_flow_model_fortran
+./outputs/stock_flow_model_fortran > outputs/tables/fortran_stock_flow_summary.txt
+
+[1;34m[21:25:01][0m C workflow
+cc -O2 -std=c11 c/stock_flow_model.c -o outputs/stock_flow_model_c
+./outputs/stock_flow_model_c > outputs/tables/c_stock_flow_summary.csv 2> outputs/logs/c_stock_flow_stderr.log

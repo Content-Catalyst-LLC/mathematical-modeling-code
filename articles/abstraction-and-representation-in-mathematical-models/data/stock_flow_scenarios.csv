@@ -1,0 +1,6 @@
+scenario,initial_stock,capacity,inflow,demand,loss_rate,periods,description
+aggregate_baseline,80,100,8,6,0.015,60,Reference aggregate stock-flow representation
+low_inflow,80,100,5,6,0.015,60,Lower inflow scenario
+higher_losses,80,100,8,6,0.035,60,Higher loss-rate scenario
+lower_capacity,70,75,8,6,0.015,60,Lower capacity representation
+compound_stress,70,80,5,7,0.030,60,Combined lower inflow higher demand and higher losses

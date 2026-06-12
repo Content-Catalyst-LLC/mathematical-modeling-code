@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepresentationChoice",
+  "type": "object",
+  "required": [
+    "target_feature",
+    "abstraction",
+    "formal_representation",
+    "preserved_structure",
+    "omitted_detail",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "target_feature": {"type": "string"},
+    "abstraction": {"type": "string"},
+    "formal_representation": {"type": "string"},
+    "preserved_structure": {"type": "string"},
+    "omitted_detail": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

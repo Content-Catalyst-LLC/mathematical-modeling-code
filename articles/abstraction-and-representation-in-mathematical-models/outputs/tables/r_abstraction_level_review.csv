@@ -1,0 +1,6 @@
+"scenario","final_stock","mean_stock","min_stock","max_stock","shortage_periods","total_shortage","minimum_stock_margin","description","shortage_flag","representation_review"
+"aggregate_baseline",100,95.1351448,80,100,0,0,0.8,"Reference aggregate stock-flow representation","no shortage","acceptable under stated abstraction"
+"low_inflow",0,30.41798383,0,80,9,8.8324552,0,"Lower inflow scenario","shortage observed","review abstraction and scenario assumptions"
+"higher_losses",59.83849001,66.63037805,59.83849001,80,0,0,0.5983849,"Higher loss-rate scenario","no shortage","acceptable under stated abstraction"
+"lower_capacity",75,74.73718339,70,75,0,0,0.93333333,"Lower capacity representation","no shortage","acceptable under stated abstraction"
+"compound_stress",0,12.498896,0,70,38,74.87297967,0,"Combined lower inflow higher demand and higher losses","shortage observed","review abstraction and scenario assumptions"
