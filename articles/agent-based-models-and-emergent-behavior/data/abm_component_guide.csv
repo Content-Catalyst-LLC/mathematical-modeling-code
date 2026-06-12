@@ -1,0 +1,9 @@
+component_type,meaning,example,review_question
+agent_state,Changing agent attribute,adopted in {0,1},Does the state represent the phenomenon?
+behavior_rule,Rule for agent action or update,threshold adoption,What evidence supports the rule?
+interaction_structure,Who affects whom,ring network,Does the interaction structure match reality?
+environment,Spatial or institutional context,grid or policy setting,Does context shape behavior?
+schedule,Timing and update order,synchronous update,Does schedule affect outcomes?
+simulation_protocol,Run design and replication,multiple seeds,Are replications sufficient?
+validation_diagnostic,Credibility check,pattern validation,Are conclusions robust?
+emergence_diagnostic,Macro pattern summary,adoption curve,Can the pattern be traced to rules?

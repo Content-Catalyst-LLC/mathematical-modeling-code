@@ -1,0 +1,122 @@
+{
+  "article": "Agent-Based Models and Emergent Behavior",
+  "audit_checks": [
+    "agent states are documented",
+    "behavior rules are interpretable",
+    "interaction structure is explicit",
+    "replications are run with recorded seeds",
+    "emergent outcomes are summarized across ensembles"
+  ],
+  "ensemble_summary": [
+    {
+      "max_final_adoption": 0.61,
+      "mean_final_adoption": 0.26,
+      "min_final_adoption": 0.08,
+      "replications": 40,
+      "scenario": "baseline",
+      "stdev_final_adoption": 0.13630847
+    },
+    {
+      "max_final_adoption": 0.17,
+      "mean_final_adoption": 0.0975,
+      "min_final_adoption": 0.08,
+      "replications": 40,
+      "scenario": "high_threshold",
+      "stdev_final_adoption": 0.02467286
+    },
+    {
+      "max_final_adoption": 1.0,
+      "mean_final_adoption": 1.0,
+      "min_final_adoption": 1.0,
+      "replications": 40,
+      "scenario": "low_threshold",
+      "stdev_final_adoption": 0.0
+    }
+  ],
+  "high_priority_abm_records": [],
+  "model_register": [
+    {
+      "component_type": "agent_state",
+      "interpretation": "Each agent is either non-adopted or adopted",
+      "key": "agent_state",
+      "review_question": "Does a binary state oversimplify adoption?",
+      "rule_or_structure": "adopted in {0,1}",
+      "rule_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "component_type": "behavior_rule",
+      "interpretation": "Agents adopt when local social exposure exceeds their threshold",
+      "key": "threshold_rule",
+      "review_question": "Are thresholds empirically grounded or scenario assumptions?",
+      "rule_or_structure": "adopt if adopted_neighbors_share >= threshold",
+      "rule_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "component_type": "interaction_structure",
+      "interpretation": "Agents interact in a simple local network",
+      "key": "ring_network",
+      "review_question": "Does this neighborhood represent the real interaction structure?",
+      "rule_or_structure": "two_neighbors_each_side",
+      "rule_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "component_type": "schedule",
+      "interpretation": "All non-adopters evaluate adoption from the same prior state",
+      "key": "synchronous_update",
+      "review_question": "Does synchronous scheduling create artificial coordination?",
+      "rule_or_structure": "all_agents_update_from_prior_state",
+      "rule_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "component_type": "simulation_protocol",
+      "interpretation": "Results are summarized across repeated runs",
+      "key": "ensemble_replication",
+      "review_question": "Are enough replications used to characterize variability?",
+      "rule_or_structure": "multiple_random_seeds",
+      "rule_risk_score": 2.0,
+      "status": "active"
+    },
+    {
+      "component_type": "validation_diagnostic",
+      "interpretation": "Macro outcomes should be compared against observed or theoretical patterns",
+      "key": "pattern_validation",
+      "review_question": "Which patterns are required for credibility?",
+      "rule_or_structure": "compare_adoption_curve_patterns",
+      "rule_risk_score": 5.0,
+      "status": "review"
+    }
+  ],
+  "scenarios": [
+    {
+      "adoption_threshold_high": 0.55,
+      "adoption_threshold_low": 0.25,
+      "agent_count": 100,
+      "initial_adopters": 8,
+      "replications": 40,
+      "scenario": "baseline",
+      "steps": 30
+    },
+    {
+      "adoption_threshold_high": 0.35,
+      "adoption_threshold_low": 0.1,
+      "agent_count": 100,
+      "initial_adopters": 8,
+      "replications": 40,
+      "scenario": "low_threshold",
+      "steps": 30
+    },
+    {
+      "adoption_threshold_high": 0.75,
+      "adoption_threshold_low": 0.45,
+      "agent_count": 100,
+      "initial_adopters": 8,
+      "replications": 40,
+      "scenario": "high_threshold",
+      "steps": 30
+    }
+  ]
+}

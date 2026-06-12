@@ -1,0 +1,4 @@
+scenario,replications,mean_final_adoption,min_final_adoption,max_final_adoption,stdev_final_adoption
+baseline,40,0.26,0.08,0.61,0.13630847
+high_threshold,40,0.0975,0.08,0.17,0.02467286
+low_threshold,40,1.0,1.0,1.0,0.0

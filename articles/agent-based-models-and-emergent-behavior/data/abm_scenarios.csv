@@ -1,0 +1,4 @@
+scenario,agent_count,initial_adopters,adoption_threshold_low,adoption_threshold_high,steps,replications
+baseline,100,8,0.25,0.55,30,40
+low_threshold,100,8,0.10,0.35,30,40
+high_threshold,100,8,0.45,0.75,30,40

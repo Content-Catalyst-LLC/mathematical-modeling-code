@@ -1,0 +1,30 @@
+{
+  "article_slug": "agent-based-models-and-emergent-behavior",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "abm-emergence-governance",
+  "cards": [
+    {
+      "card_id": "abm-model-register",
+      "title": "ABM Model Register",
+      "description": "Tracks agent states, behavior rules, interaction structures, environments, schedules, simulation protocols, and validation diagnostics."
+    },
+    {
+      "card_id": "rule-codebook",
+      "title": "Rule Codebook",
+      "description": "Documents each agent rule, its interpretation, evidence basis, review question, and sensitivity priority."
+    },
+    {
+      "card_id": "emergence-review",
+      "title": "Emergence Review",
+      "description": "Connects macro-level outcomes to micro-level rules, interaction structures, stochastic variation, and boundary assumptions."
+    }
+  ],
+  "governance": {
+    "requires_abm_model_register": true,
+    "requires_rule_codebook": true,
+    "requires_schedule_note": true,
+    "requires_seed_and_replication_log": true,
+    "requires_ensemble_summary": true,
+    "requires_emergence_interpretation_note": true
+  }
+}

@@ -1,0 +1,51 @@
+
+[1;34m[16:24:51][0m Python workflow
+Agent-based models and emergent behavior workflow complete.
+ABM records: 6
+Scenarios: 3
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[16:24:51][0m R workflow
+null device 
+          1 
+        scenario replications mean_final_adoption min_final_adoption
+1       baseline           40              0.2600               0.08
+2 high_threshold           40              0.0975               0.08
+3  low_threshold           40              1.0000               1.00
+  max_final_adoption stdev_final_adoption         review_class
+1               0.61           0.13630847       routine review
+2               0.17           0.02467286 low adoption outcome
+3               1.00           0.00000000       routine review
+
+[1;34m[16:24:51][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/agent_based_models_emergent_behavior.sqlite < sql/schema.sql
+sqlite3 outputs/tables/agent_based_models_emergent_behavior.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[16:24:51][0m Go workflow
+cd go && go run main.go
+go step=0 adopted=3 share=0.150
+go step=1 adopted=5 share=0.250
+go step=2 adopted=7 share=0.350
+go step=3 adopted=9 share=0.450
+go step=4 adopted=11 share=0.550
+go step=5 adopted=13 share=0.650
+go step=6 adopted=15 share=0.750
+go step=7 adopted=17 share=0.850
+go step=8 adopted=20 share=1.000
+go step=9 adopted=20 share=1.000
+go step=10 adopted=20 share=1.000
+
+[1;34m[16:24:52][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 abm_adoption_model.cpp -o abm_adoption_model
+./abm_adoption_model > ../outputs/tables/cpp_abm_adoption_trajectory.csv
+
+[1;34m[16:24:53][0m Fortran workflow
+gfortran -O2 fortran/abm_adoption_model.f90 -o outputs/abm_adoption_model_fortran
+./outputs/abm_adoption_model_fortran > outputs/tables/fortran_abm_adoption_summary.txt
+
+[1;34m[16:24:54][0m C workflow
+cc -O2 -std=c11 c/abm_adoption_model.c -o outputs/abm_adoption_model_c
+./outputs/abm_adoption_model_c > outputs/tables/c_abm_adoption_trajectory.csv 2> outputs/logs/c_abm_adoption_stderr.log

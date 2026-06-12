@@ -1,0 +1,7 @@
+key,component_type,rule_or_structure,interpretation,review_question,status,rule_risk_score
+agent_state,agent_state,"adopted in {0,1}",Each agent is either non-adopted or adopted,Does a binary state oversimplify adoption?,review,6.0
+threshold_rule,behavior_rule,adopt if adopted_neighbors_share >= threshold,Agents adopt when local social exposure exceeds their threshold,Are thresholds empirically grounded or scenario assumptions?,review,7.0
+ring_network,interaction_structure,two_neighbors_each_side,Agents interact in a simple local network,Does this neighborhood represent the real interaction structure?,review,6.0
+synchronous_update,schedule,all_agents_update_from_prior_state,All non-adopters evaluate adoption from the same prior state,Does synchronous scheduling create artificial coordination?,review,6.0
+ensemble_replication,simulation_protocol,multiple_random_seeds,Results are summarized across repeated runs,Are enough replications used to characterize variability?,active,2.0
+pattern_validation,validation_diagnostic,compare_adoption_curve_patterns,Macro outcomes should be compared against observed or theoretical patterns,Which patterns are required for credibility?,review,5.0

@@ -1,0 +1,57 @@
+section            
+-------------------
+ABM COMPONENT TYPES
+component_type         description                                   typical_failure                                    
+---------------------  --------------------------------------------  ---------------------------------------------------
+agent_state            Changing agent attribute.                     Agent states are oversimplified or poorly defined. 
+behavior_rule          Rule for agent action or update.              Behavior is arbitrary or unsupported.              
+emergence_diagnostic   Macro pattern summary.                        Emergence is overclaimed or unexplained.           
+environment            Spatial, institutional, or resource context.  Context is treated as a generic stage.             
+interaction_structure  Who affects whom.                             Interactions do not match the system.              
+schedule               Timing and update order.                      Schedule effects are ignored.                      
+simulation_protocol    Run design and replication.                   Single-run storytelling replaces ensemble evidence.
+validation_diagnostic  Credibility check.                            Patterns are not validated.                        
+section                     
+----------------------------
+ABM RECORDS REQUIRING REVIEW
+record_key          component_type         rule_or_structure                              review_question                                             
+------------------  ---------------------  ---------------------------------------------  ------------------------------------------------------------
+agent_state         agent_state            adopted in {0,1}                               Does a binary state oversimplify adoption?                  
+
+threshold_rule      behavior_rule          adopt if adopted_neighbors_share >= threshold  Are thresholds empirically grounded or scenario assumptions?
+
+ring_network        interaction_structure  two_neighbors_each_side                        Does this neighborhood represent the real interaction struct
+                                                                                          ure?                                                        
+
+synchronous_update  schedule               all_agents_update_from_prior_state             Does synchronous scheduling create artificial coordination? 
+
+pattern_validation  validation_diagnostic  compare_adoption_curve_patterns                Which patterns are required for credibility?                
+section      
+-------------
+ABM SCENARIOS
+scenario        agent_count  initial_adopters  adoption_threshold_low  adoption_threshold_high  steps  replications
+--------------  -----------  ----------------  ----------------------  -----------------------  -----  ------------
+baseline        100          8                 0.25                    0.55                     30     40          
+high_threshold  100          8                 0.45                    0.75                     30     40          
+low_threshold   100          8                 0.1                     0.35                     30     40          
+section                 
+------------------------
+SCENARIO INTENSITY CHECK
+scenario        initial_adoption_share  mean_threshold  replications
+--------------  ----------------------  --------------  ------------
+low_threshold   0.08                    0.225           40          
+baseline        0.08                    0.4             40          
+high_threshold  0.08                    0.6             40          
+section            
+-------------------
+ABM COMPONENT GUIDE
+component_type         meaning                           example                 review_question                              
+---------------------  --------------------------------  ----------------------  ---------------------------------------------
+agent_state            Changing agent attribute          adopted in {0,1}        Does the state represent the phenomenon?     
+behavior_rule          Rule for agent action or update   threshold adoption      What evidence supports the rule?             
+emergence_diagnostic   Macro pattern summary             adoption curve          Can the pattern be traced to rules?          
+environment            Spatial or institutional context  grid or policy setting  Does context shape behavior?                 
+interaction_structure  Who affects whom                  ring network            Does the interaction structure match reality?
+schedule               Timing and update order           synchronous update      Does schedule affect outcomes?               
+simulation_protocol    Run design and replication        multiple seeds          Are replications sufficient?                 
+validation_diagnostic  Credibility check                 pattern validation      Are conclusions robust?                      

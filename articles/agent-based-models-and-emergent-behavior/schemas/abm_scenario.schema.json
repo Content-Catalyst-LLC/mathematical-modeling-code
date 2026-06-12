@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ABMScenario",
+  "type": "object",
+  "required": [
+    "scenario",
+    "agent_count",
+    "initial_adopters",
+    "adoption_threshold_low",
+    "adoption_threshold_high",
+    "steps",
+    "replications"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "agent_count": {"type": "integer", "minimum": 1},
+    "initial_adopters": {"type": "integer", "minimum": 0},
+    "adoption_threshold_low": {"type": "number", "minimum": 0, "maximum": 1},
+    "adoption_threshold_high": {"type": "number", "minimum": 0, "maximum": 1},
+    "steps": {"type": "integer", "minimum": 1},
+    "replications": {"type": "integer", "minimum": 1}
+  }
+}
