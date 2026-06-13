@@ -1,0 +1,8 @@
+key model_form scenario projected_stock below_threshold
+linear_baseline linear_decline baseline    22.0000 T
+linear_stress linear_decline stress     0.0000 T
+dynamic_baseline logistic_recovery baseline    35.8197 T
+dynamic_stress logistic_recovery stress    16.1639 T
+threshold_baseline threshold_shift baseline    12.2579 T
+threshold_stress threshold_shift stress     3.3063 T
+robustness_spread    35.8197

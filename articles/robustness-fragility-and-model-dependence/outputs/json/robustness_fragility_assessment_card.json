@@ -1,0 +1,137 @@
+{
+  "article": "Robustness, Fragility, and Model Dependence",
+  "diagnostic_checks": [
+    "model forms are varied",
+    "stress scenarios are included",
+    "threshold disagreement is flagged",
+    "fragility classes are reported",
+    "model dependence is not hidden",
+    "decision interpretation accounts for robustness evidence"
+  ],
+  "robustness_matrix": [
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -23.0,
+      "extraction_multiplier": 1.0,
+      "fragility_class": "stable_margin",
+      "key": "linear_baseline",
+      "model_form": "linear_decline",
+      "projected_stock": 22.0,
+      "review_question": "Does the baseline conclusion hold?",
+      "scenario": "baseline",
+      "shock": 0.0
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -45.0,
+      "extraction_multiplier": 1.25,
+      "fragility_class": "stable_margin",
+      "key": "linear_stress",
+      "model_form": "linear_decline",
+      "projected_stock": 0.0,
+      "review_question": "Does linear structure survive stress?",
+      "scenario": "stress",
+      "shock": 0.05
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -9.18027933,
+      "extraction_multiplier": 1.0,
+      "fragility_class": "stable_margin",
+      "key": "dynamic_baseline",
+      "model_form": "logistic_recovery",
+      "projected_stock": 35.81972067,
+      "review_question": "Does recovery change the conclusion?",
+      "scenario": "baseline",
+      "shock": 0.0
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -28.83612134,
+      "extraction_multiplier": 1.25,
+      "fragility_class": "stable_margin",
+      "key": "dynamic_stress",
+      "model_form": "logistic_recovery",
+      "projected_stock": 16.16387866,
+      "review_question": "Does recovery remain adequate under stress?",
+      "scenario": "stress",
+      "shock": 0.05
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -32.74205894,
+      "extraction_multiplier": 1.0,
+      "fragility_class": "stable_margin",
+      "key": "threshold_baseline",
+      "model_form": "threshold_shift",
+      "projected_stock": 12.25794106,
+      "review_question": "Does threshold behavior change baseline interpretation?",
+      "scenario": "baseline",
+      "shock": 0.0
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -41.69374192,
+      "extraction_multiplier": 1.25,
+      "fragility_class": "stable_margin",
+      "key": "threshold_stress",
+      "model_form": "threshold_shift",
+      "projected_stock": 3.30625808,
+      "review_question": "Does stress produce threshold fragility?",
+      "scenario": "stress",
+      "shock": 0.05
+    }
+  ],
+  "robustness_register": [
+    {
+      "dependence_layer": "parameter",
+      "key": "parameter_dependence",
+      "modeling_role": "Reviews whether results depend on plausible parameter ranges",
+      "review_question": "Do parameter changes reverse the conclusion?",
+      "robustness_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "dependence_layer": "model_form",
+      "key": "structural_dependence",
+      "modeling_role": "Compares alternative mathematical structures",
+      "review_question": "Do plausible model forms disagree?",
+      "robustness_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "dependence_layer": "scenario",
+      "key": "scenario_dependence",
+      "modeling_role": "Reviews whether conclusions depend on future assumptions",
+      "review_question": "Does the recommendation hold under stress scenarios?",
+      "robustness_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "dependence_layer": "decision_threshold",
+      "key": "threshold_fragility",
+      "modeling_role": "Measures whether small changes reverse action",
+      "review_question": "How close is the output to decision reversal?",
+      "robustness_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "dependence_layer": "data",
+      "key": "data_dependence",
+      "modeling_role": "Reviews sensitivity to calibration windows and samples",
+      "review_question": "Does evidence from one context transfer responsibly?",
+      "robustness_risk_score": 6.0,
+      "status": "review"
+    }
+  ],
+  "robustness_summary": {
+    "fragile_case_count": 0,
+    "max_output": 35.81972067,
+    "mean_output": 14.92463308,
+    "min_output": 0.0,
+    "robustness_spread": 35.81972067,
+    "scenario_count": 6,
+    "threshold_disagreement": false
+  },
+  "use_limit": "Robustness conclusions depend on the perturbations, model forms, thresholds, and scenarios included in the review."
+}

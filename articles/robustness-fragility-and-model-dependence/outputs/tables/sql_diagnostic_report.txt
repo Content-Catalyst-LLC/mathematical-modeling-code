@@ -1,0 +1,54 @@
+section          
+-----------------
+DEPENDENCE LAYERS
+dependence_layer    description                                                  typical_failure                                       
+------------------  -----------------------------------------------------------  ------------------------------------------------------
+data                Dependence on sample, calibration window, or preprocessing.  Result does not transfer across contexts.             
+decision_threshold  Dependence on action boundary.                               Small output change reverses decision.                
+governance          Documentation and communication.                             Hidden dependence creates false confidence.           
+metric              Dependence on evaluation criterion.                          Model ranking changes by metric.                      
+model_form          Dependence on mathematical structure.                        Alternative model forms disagree.                     
+parameter           Dependence on values or ranges.                              Conclusion reverses under plausible parameter changes.
+scenario            Dependence on future assumptions.                            Recommendation holds only under favorable scenario.   
+section                            
+-----------------------------------
+ROBUSTNESS RECORDS REQUIRING REVIEW
+record_key             dependence_layer    review_question                                     
+---------------------  ------------------  ----------------------------------------------------
+parameter_dependence   parameter           Do parameter changes reverse the conclusion?        
+structural_dependence  model_form          Do plausible model forms disagree?                  
+scenario_dependence    scenario            Does the recommendation hold under stress scenarios?
+threshold_fragility    decision_threshold  How close is the output to decision reversal?       
+data_dependence        data                Does evidence from one context transfer responsibly?
+section                   
+--------------------------
+ROBUSTNESS SCENARIO MATRIX
+scenario_key        model_form         scenario  extraction_multiplier  shock  review_question                                        
+------------------  -----------------  --------  ---------------------  -----  -------------------------------------------------------
+dynamic_baseline    logistic_recovery  baseline  1.0                    0.0    Does recovery change the conclusion?                   
+dynamic_stress      logistic_recovery  stress    1.25                   0.05   Does recovery remain adequate under stress?            
+linear_baseline     linear_decline     baseline  1.0                    0.0    Does the baseline conclusion hold?                     
+linear_stress       linear_decline     stress    1.25                   0.05   Does linear structure survive stress?                  
+threshold_baseline  threshold_shift    baseline  1.0                    0.0    Does threshold behavior change baseline interpretation?
+threshold_stress    threshold_shift    stress    1.25                   0.05   Does stress produce threshold fragility?               
+section                         
+--------------------------------
+HIGH-PRIORITY DEPENDENCE TARGETS
+record_key             dependence_layer    modeling_role                                             review_question                                     
+---------------------  ------------------  --------------------------------------------------------  ----------------------------------------------------
+structural_dependence  model_form          Compares alternative mathematical structures              Do plausible model forms disagree?                  
+scenario_dependence    scenario            Reviews whether conclusions depend on future assumptions  Does the recommendation hold under stress scenarios?
+threshold_fragility    decision_threshold  Measures whether small changes reverse action             How close is the output to decision reversal?       
+data_dependence        data                Reviews sensitivity to calibration windows and samples    Does evidence from one context transfer responsibly?
+section                   
+--------------------------
+DEPENDENCE COMPONENT GUIDE
+dependence_layer    meaning                                     example                        review_question                                    
+------------------  ------------------------------------------  -----------------------------  ---------------------------------------------------
+data                Dependence on sample or calibration window  rolling calibration            Does evidence transfer responsibly?                
+decision_threshold  Dependence on action boundary               critical stock threshold       How close is decision reversal?                    
+governance          Documentation and communication             use-limit statement            Where is hidden dependence a risk?                 
+metric              Dependence on evaluation criterion          RMSE versus tail loss          Does ranking change by metric?                     
+model_form          Dependence on mathematical structure        linear versus threshold model  Do plausible model forms disagree?                 
+parameter           Dependence on values or ranges              growth rate range              Do parameter changes reverse the conclusion?       
+scenario            Dependence on future assumptions            stress scenario                Does the recommendation survive adverse conditions?

@@ -1,0 +1,7 @@
+"key","model_form","scenario","extraction_multiplier","shock","review_question","projected_stock","below_threshold","distance_to_threshold","fragility_class","absolute_threshold_distance"
+"dynamic_baseline","logistic_recovery","baseline",1,0,"Does recovery change the conclusion?",35.81972067,"True",-9.18027933,"stable_margin",9.18027933
+"linear_baseline","linear_decline","baseline",1,0,"Does the baseline conclusion hold?",22,"True",-23,"stable_margin",23
+"dynamic_stress","logistic_recovery","stress",1.25,0.05,"Does recovery remain adequate under stress?",16.16387866,"True",-28.83612134,"stable_margin",28.83612134
+"threshold_baseline","threshold_shift","baseline",1,0,"Does threshold behavior change baseline interpretation?",12.25794106,"True",-32.74205894,"stable_margin",32.74205894
+"threshold_stress","threshold_shift","stress",1.25,0.05,"Does stress produce threshold fragility?",3.30625808,"True",-41.69374192,"stable_margin",41.69374192
+"linear_stress","linear_decline","stress",1.25,0.05,"Does linear structure survive stress?",0,"True",-45,"stable_margin",45

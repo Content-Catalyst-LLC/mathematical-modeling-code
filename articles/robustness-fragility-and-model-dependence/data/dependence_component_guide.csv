@@ -1,0 +1,8 @@
+dependence_layer,meaning,example,review_question
+parameter,Dependence on values or ranges,growth rate range,Do parameter changes reverse the conclusion?
+model_form,Dependence on mathematical structure,linear versus threshold model,Do plausible model forms disagree?
+scenario,Dependence on future assumptions,stress scenario,Does the recommendation survive adverse conditions?
+decision_threshold,Dependence on action boundary,critical stock threshold,How close is decision reversal?
+data,Dependence on sample or calibration window,rolling calibration,Does evidence transfer responsibly?
+metric,Dependence on evaluation criterion,RMSE versus tail loss,Does ranking change by metric?
+governance,Documentation and communication,use-limit statement,Where is hidden dependence a risk?

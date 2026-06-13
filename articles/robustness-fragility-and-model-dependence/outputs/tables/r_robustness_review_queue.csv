@@ -1,0 +1,6 @@
+"key","dependence_layer","modeling_role","review_question","status","robustness_risk_score","priority"
+"parameter_dependence","parameter","Reviews whether results depend on plausible parameter ranges","Do parameter changes reverse the conclusion?","review",7,"medium"
+"structural_dependence","model_form","Compares alternative mathematical structures","Do plausible model forms disagree?","review",6,"medium"
+"scenario_dependence","scenario","Reviews whether conclusions depend on future assumptions","Does the recommendation hold under stress scenarios?","review",7,"medium"
+"threshold_fragility","decision_threshold","Measures whether small changes reverse action","How close is the output to decision reversal?","review",7,"medium"
+"data_dependence","data","Reviews sensitivity to calibration windows and samples","Does evidence from one context transfer responsibly?","review",6,"medium"

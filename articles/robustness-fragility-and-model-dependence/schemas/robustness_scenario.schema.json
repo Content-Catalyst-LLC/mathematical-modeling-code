@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RobustnessScenario",
+  "type": "object",
+  "required": [
+    "key",
+    "model_form",
+    "scenario",
+    "extraction_multiplier",
+    "shock",
+    "review_question"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "model_form": {"type": "string"},
+    "scenario": {"type": "string"},
+    "extraction_multiplier": {"type": "number"},
+    "shock": {"type": "number"},
+    "review_question": {"type": "string"}
+  }
+}

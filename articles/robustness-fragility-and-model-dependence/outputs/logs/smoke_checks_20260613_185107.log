@@ -1,0 +1,95 @@
+
+[1;34m[18:51:09][0m Python workflow
+Robustness and fragility workflow complete.
+Summary: {'mean_output': 14.92463308, 'min_output': 0.0, 'max_output': 35.81972067, 'robustness_spread': 35.81972067, 'threshold_disagreement': False, 'fragile_case_count': 0, 'scenario_count': 6}
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[18:51:09][0m R workflow
+null device 
+          1 
+  mean_output min_output max_output robustness_spread threshold_disagreement
+1    14.92463          0   35.81972          35.81972                  FALSE
+  fragile_case_count scenario_count
+1                  0              6
+                 key        model_form scenario extraction_multiplier shock
+3   dynamic_baseline logistic_recovery baseline                  1.00  0.00
+1    linear_baseline    linear_decline baseline                  1.00  0.00
+4     dynamic_stress logistic_recovery   stress                  1.25  0.05
+5 threshold_baseline   threshold_shift baseline                  1.00  0.00
+6   threshold_stress   threshold_shift   stress                  1.25  0.05
+2      linear_stress    linear_decline   stress                  1.25  0.05
+                                          review_question projected_stock
+3                    Does recovery change the conclusion?       35.819721
+1                      Does the baseline conclusion hold?       22.000000
+4             Does recovery remain adequate under stress?       16.163879
+5 Does threshold behavior change baseline interpretation?       12.257941
+6                Does stress produce threshold fragility?        3.306258
+2                   Does linear structure survive stress?        0.000000
+  below_threshold distance_to_threshold fragility_class
+3            True             -9.180279   stable_margin
+1            True            -23.000000   stable_margin
+4            True            -28.836121   stable_margin
+5            True            -32.742059   stable_margin
+6            True            -41.693742   stable_margin
+2            True            -45.000000   stable_margin
+  absolute_threshold_distance
+3                    9.180279
+1                   23.000000
+4                   28.836121
+5                   32.742059
+6                   41.693742
+2                   45.000000
+                    key   dependence_layer
+1  parameter_dependence          parameter
+2 structural_dependence         model_form
+3   scenario_dependence           scenario
+4   threshold_fragility decision_threshold
+5       data_dependence               data
+                                                 modeling_role
+1 Reviews whether results depend on plausible parameter ranges
+2                 Compares alternative mathematical structures
+3     Reviews whether conclusions depend on future assumptions
+4                Measures whether small changes reverse action
+5       Reviews sensitivity to calibration windows and samples
+                                       review_question status
+1         Do parameter changes reverse the conclusion? review
+2                   Do plausible model forms disagree? review
+3 Does the recommendation hold under stress scenarios? review
+4        How close is the output to decision reversal? review
+5 Does evidence from one context transfer responsibly? review
+  robustness_risk_score priority
+1                     7   medium
+2                     6   medium
+3                     7   medium
+4                     7   medium
+5                     6   medium
+
+[1;34m[18:51:09][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/robustness_fragility_and_model_dependence.sqlite < sql/schema.sql
+sqlite3 outputs/tables/robustness_fragility_and_model_dependence.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[18:51:09][0m Go workflow
+cd go && go run main.go
+key,model_form,scenario,projected_stock,below_threshold
+linear_baseline,linear_decline,baseline,22.000000,true
+linear_stress,linear_decline,stress,0.000000,true
+dynamic_baseline,logistic_recovery,baseline,35.819721,true
+dynamic_stress,logistic_recovery,stress,16.163879,true
+threshold_baseline,threshold_shift,baseline,12.257941,true
+threshold_stress,threshold_shift,stress,3.306258,true
+robustness_spread,35.819721
+
+[1;34m[18:51:10][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 robustness_summary.cpp -o robustness_summary
+./robustness_summary > ../outputs/tables/cpp_robustness_summary.csv 2> ../outputs/logs/cpp_robustness_stderr.log
+
+[1;34m[18:51:11][0m Fortran workflow
+gfortran -O2 fortran/robustness_summary.f90 -o outputs/robustness_summary_fortran
+./outputs/robustness_summary_fortran > outputs/tables/fortran_robustness_summary.txt
+
+[1;34m[18:51:12][0m C workflow
+cc -O2 -std=c11 c/robustness_summary.c -o outputs/robustness_summary_c -lm
+./outputs/robustness_summary_c > outputs/tables/c_robustness_summary.csv 2> outputs/logs/c_robustness_stderr.log

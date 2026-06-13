@@ -1,0 +1,31 @@
+{
+  "article_slug": "robustness-fragility-and-model-dependence",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "robustness-fragility-governance",
+  "cards": [
+    {
+      "card_id": "robustness-matrix",
+      "title": "Robustness Matrix",
+      "description": "Crosses model forms, scenarios, perturbations, outputs, threshold flags, and fragility classes."
+    },
+    {
+      "card_id": "fragility-ranking",
+      "title": "Fragility Ranking",
+      "description": "Ranks cases by distance to decision threshold and flags reversal risk."
+    },
+    {
+      "card_id": "dependence-register",
+      "title": "Dependence Register",
+      "description": "Documents parameter, model-form, scenario, data, metric, threshold, and governance dependencies."
+    }
+  ],
+  "governance": {
+    "requires_robustness_matrix": true,
+    "requires_fragility_ranking": true,
+    "requires_dependence_register": true,
+    "requires_threshold_disagreement_review": true,
+    "requires_stress_scenarios": true,
+    "requires_model_form_variation": true,
+    "requires_use_limit_statement": true
+  }
+}

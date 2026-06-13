@@ -1,0 +1,7 @@
+key,model_form,scenario,projected_stock,below_threshold
+linear_baseline,linear_decline,baseline,22.000000,true
+linear_stress,linear_decline,stress,0.000000,true
+dynamic_baseline,logistic_recovery,baseline,35.819721,true
+dynamic_stress,logistic_recovery,stress,16.163879,true
+threshold_baseline,threshold_shift,baseline,12.257941,true
+threshold_stress,threshold_shift,stress,3.306258,true

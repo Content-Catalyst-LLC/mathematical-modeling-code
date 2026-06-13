@@ -1,0 +1,7 @@
+key,model_form,scenario,extraction_multiplier,shock,review_question
+linear_baseline,linear_decline,baseline,1.0,0.00,Does the baseline conclusion hold?
+linear_stress,linear_decline,stress,1.25,0.05,Does linear structure survive stress?
+dynamic_baseline,logistic_recovery,baseline,1.0,0.00,Does recovery change the conclusion?
+dynamic_stress,logistic_recovery,stress,1.25,0.05,Does recovery remain adequate under stress?
+threshold_baseline,threshold_shift,baseline,1.0,0.00,Does threshold behavior change baseline interpretation?
+threshold_stress,threshold_shift,stress,1.25,0.05,Does stress produce threshold fragility?
