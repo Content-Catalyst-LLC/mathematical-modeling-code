@@ -1,0 +1,6 @@
+model_form projected_stock below_threshold
+linear_decline    22.0000 T
+proportional_decline    22.2801 T
+logistic_recovery    35.8197 T
+threshold_shift    12.2579 T
+structural_spread    23.5618

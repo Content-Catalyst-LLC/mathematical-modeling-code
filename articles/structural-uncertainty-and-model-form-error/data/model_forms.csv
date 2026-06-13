@@ -1,0 +1,5 @@
+key,model_family,structural_assumption,review_question
+linear_decline,algebraic,Resource stock declines by a fixed amount each period,Does constant decline hide nonlinear depletion or recovery?
+proportional_decline,dynamic,Loss is proportional to current stock,Does proportional loss exaggerate or understate late-stage behavior?
+logistic_recovery,dynamic,Stock replenishes toward carrying capacity while extraction continues,Does recovery depend on a plausible carrying capacity?
+threshold_shift,piecewise,System behavior changes below a critical stock threshold,Does a regime shift change the decision?

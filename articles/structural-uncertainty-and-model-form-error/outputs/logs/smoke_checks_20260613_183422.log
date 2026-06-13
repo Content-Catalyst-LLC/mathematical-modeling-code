@@ -1,0 +1,85 @@
+
+[1;34m[18:34:23][0m Python workflow
+Structural uncertainty workflow complete.
+Summary: {'mean_output': 23.08943495, 'min_output': 12.25794106, 'max_output': 35.81972067, 'structural_spread': 23.56177961, 'threshold_disagreement': False, 'model_count': 4}
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[18:34:23][0m R workflow
+null device 
+          1 
+  mean_output min_output max_output structural_spread threshold_disagreement
+1    23.08943   12.25794   35.81972          23.56178                  FALSE
+  model_count
+1           4
+                   key model_family
+4      threshold_shift    piecewise
+1       linear_decline    algebraic
+2 proportional_decline      dynamic
+3    logistic_recovery      dynamic
+                                                  structural_assumption
+4              System behavior changes below a critical stock threshold
+1                 Resource stock declines by a fixed amount each period
+2                                 Loss is proportional to current stock
+3 Stock replenishes toward carrying capacity while extraction continues
+                                                       review_question
+4                             Does a regime shift change the decision?
+1          Does constant decline hide nonlinear depletion or recovery?
+2 Does proportional loss exaggerate or understate late-stage behavior?
+3               Does recovery depend on a plausible carrying capacity?
+  projected_stock below_threshold distance_to_threshold
+4        12.25794            True            -32.742059
+1        22.00000            True            -23.000000
+2        22.28008            True            -22.719922
+3        35.81972            True             -9.180279
+                  key structural_layer
+1 model_family_choice     model_family
+2     functional_form     relationship
+3     boundary_choice         boundary
+4  aggregation_choice      aggregation
+5    threshold_regime           regime
+                                                     modeling_role
+1                   Compares plausible mathematical model families
+2          Reviews whether equations impose the right relationship
+3                          Documents what is included and excluded
+4                    Reviews whether averaging hides heterogeneity
+5 Reviews whether system behavior changes near critical thresholds
+                                           review_question status
+1          Does the conclusion depend on the model family? review
+2 Do residuals or scenarios suggest wrong functional form? review
+3            Could excluded drivers change the conclusion? review
+4       Does aggregation conceal subgroup or spatial risk? review
+5        Could regime shift invalidate baseline structure? review
+  structural_risk_score priority
+1                     6   medium
+2                     6   medium
+3                     6   medium
+4                     6   medium
+5                     7   medium
+
+[1;34m[18:34:24][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/structural_uncertainty_and_model_form_error.sqlite < sql/schema.sql
+sqlite3 outputs/tables/structural_uncertainty_and_model_form_error.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[18:34:24][0m Go workflow
+cd go && go run main.go
+model_form,projected_stock,below_threshold
+linear_decline,22.000000,true
+proportional_decline,22.280078,true
+logistic_recovery,35.819721,true
+threshold_shift,12.257941,true
+structural_spread,23.561780
+
+[1;34m[18:34:24][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 structural_summary.cpp -o structural_summary
+./structural_summary > ../outputs/tables/cpp_structural_summary.csv 2> ../outputs/logs/cpp_structural_stderr.log
+
+[1;34m[18:34:26][0m Fortran workflow
+gfortran -O2 fortran/structural_summary.f90 -o outputs/structural_summary_fortran
+./outputs/structural_summary_fortran > outputs/tables/fortran_structural_summary.txt
+
+[1;34m[18:34:26][0m C workflow
+cc -O2 -std=c11 c/structural_summary.c -o outputs/structural_summary_c -lm
+./outputs/structural_summary_c > outputs/tables/c_structural_summary.csv 2> outputs/logs/c_structural_stderr.log

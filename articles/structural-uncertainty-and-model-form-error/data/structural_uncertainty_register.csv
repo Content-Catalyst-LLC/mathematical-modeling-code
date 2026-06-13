@@ -1,0 +1,6 @@
+key,structural_layer,modeling_role,review_question,status
+model_family_choice,model_family,Compares plausible mathematical model families,Does the conclusion depend on the model family?,review
+functional_form,relationship,Reviews whether equations impose the right relationship,Do residuals or scenarios suggest wrong functional form?,review
+boundary_choice,boundary,Documents what is included and excluded,Could excluded drivers change the conclusion?,review
+aggregation_choice,aggregation,Reviews whether averaging hides heterogeneity,Does aggregation conceal subgroup or spatial risk?,review
+threshold_regime,regime,Reviews whether system behavior changes near critical thresholds,Could regime shift invalidate baseline structure?,review

@@ -1,0 +1,99 @@
+{
+  "article": "Structural Uncertainty and Model Form Error",
+  "diagnostic_checks": [
+    "multiple plausible model forms are compared",
+    "structural spread is reported",
+    "threshold disagreement is flagged",
+    "boundary and aggregation choices are reviewed",
+    "model-form uncertainty is not reduced to parameter uncertainty"
+  ],
+  "model_form_comparison": [
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -23.0,
+      "key": "linear_decline",
+      "model_family": "algebraic",
+      "projected_stock": 22.0,
+      "review_question": "Does constant decline hide nonlinear depletion or recovery?",
+      "structural_assumption": "Resource stock declines by a fixed amount each period"
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -22.71992192,
+      "key": "proportional_decline",
+      "model_family": "dynamic",
+      "projected_stock": 22.28007808,
+      "review_question": "Does proportional loss exaggerate or understate late-stage behavior?",
+      "structural_assumption": "Loss is proportional to current stock"
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -9.18027933,
+      "key": "logistic_recovery",
+      "model_family": "dynamic",
+      "projected_stock": 35.81972067,
+      "review_question": "Does recovery depend on a plausible carrying capacity?",
+      "structural_assumption": "Stock replenishes toward carrying capacity while extraction continues"
+    },
+    {
+      "below_threshold": true,
+      "distance_to_threshold": -32.74205894,
+      "key": "threshold_shift",
+      "model_family": "piecewise",
+      "projected_stock": 12.25794106,
+      "review_question": "Does a regime shift change the decision?",
+      "structural_assumption": "System behavior changes below a critical stock threshold"
+    }
+  ],
+  "structural_register": [
+    {
+      "key": "model_family_choice",
+      "modeling_role": "Compares plausible mathematical model families",
+      "review_question": "Does the conclusion depend on the model family?",
+      "status": "review",
+      "structural_layer": "model_family",
+      "structural_risk_score": 6.0
+    },
+    {
+      "key": "functional_form",
+      "modeling_role": "Reviews whether equations impose the right relationship",
+      "review_question": "Do residuals or scenarios suggest wrong functional form?",
+      "status": "review",
+      "structural_layer": "relationship",
+      "structural_risk_score": 6.0
+    },
+    {
+      "key": "boundary_choice",
+      "modeling_role": "Documents what is included and excluded",
+      "review_question": "Could excluded drivers change the conclusion?",
+      "status": "review",
+      "structural_layer": "boundary",
+      "structural_risk_score": 6.0
+    },
+    {
+      "key": "aggregation_choice",
+      "modeling_role": "Reviews whether averaging hides heterogeneity",
+      "review_question": "Does aggregation conceal subgroup or spatial risk?",
+      "status": "review",
+      "structural_layer": "aggregation",
+      "structural_risk_score": 6.0
+    },
+    {
+      "key": "threshold_regime",
+      "modeling_role": "Reviews whether system behavior changes near critical thresholds",
+      "review_question": "Could regime shift invalidate baseline structure?",
+      "status": "review",
+      "structural_layer": "regime",
+      "structural_risk_score": 7.0
+    }
+  ],
+  "structural_summary": {
+    "max_output": 35.81972067,
+    "mean_output": 23.08943495,
+    "min_output": 12.25794106,
+    "model_count": 4,
+    "structural_spread": 23.56177961,
+    "threshold_disagreement": false
+  },
+  "use_limit": "Structural uncertainty remains when plausible model forms support different outputs, thresholds, or decisions."
+}

@@ -1,0 +1,63 @@
+section          
+-----------------
+STRUCTURAL LAYERS
+structural_layer  description                                    typical_failure                                         
+----------------  ---------------------------------------------  --------------------------------------------------------
+aggregation       Grouping of heterogeneous elements.            Average results hide subgroup or spatial risk.          
+boundary          Included and excluded system scope.            Relevant drivers are outside the model.                 
+governance        Documentation and communication.               Single-model authority is overstated.                   
+model_family      Choice among mathematical modeling paradigms.  A familiar family is used rather than a suitable family.
+regime            Behavior under thresholds or stress.           Model assumes normal behavior during regime shift.      
+relationship      Mathematical relationship among variables.     Wrong functional form distorts system behavior.         
+scale             Resolution of representation.                  Model scale does not match decision scale.              
+section                            
+-----------------------------------
+STRUCTURAL RECORDS REQUIRING REVIEW
+record_key           structural_layer  review_question                                         
+-------------------  ----------------  --------------------------------------------------------
+model_family_choice  model_family      Does the conclusion depend on the model family?         
+functional_form      relationship      Do residuals or scenarios suggest wrong functional form?
+boundary_choice      boundary          Could excluded drivers change the conclusion?           
+aggregation_choice   aggregation       Does aggregation conceal subgroup or spatial risk?      
+threshold_regime     regime            Could regime shift invalidate baseline structure?       
+section              
+---------------------
+PLAUSIBLE MODEL FORMS
+model_key             model_family  structural_assumption                                         review_question                                             
+--------------------  ------------  ------------------------------------------------------------  ------------------------------------------------------------
+linear_decline        algebraic     Resource stock declines by a fixed amount each period         Does constant decline hide nonlinear depletion or recovery? 
+
+logistic_recovery     dynamic       Stock replenishes toward carrying capacity while extraction   Does recovery depend on a plausible carrying capacity?      
+                                    continues                                                                                                                 
+
+proportional_decline  dynamic       Loss is proportional to current stock                         Does proportional loss exaggerate or understate late-stage b
+                                                                                                  ehavior?                                                    
+
+threshold_shift       piecewise     System behavior changes below a critical stock threshold      Does a regime shift change the decision?                    
+section                                
+---------------------------------------
+HIGH-PRIORITY STRUCTURAL REVIEW TARGETS
+record_key           structural_layer  modeling_role                                                 review_question                                         
+-------------------  ----------------  ------------------------------------------------------------  --------------------------------------------------------
+model_family_choice  model_family      Compares plausible mathematical model families                Does the conclusion depend on the model family?         
+
+functional_form      relationship      Reviews whether equations impose the right relationship       Do residuals or scenarios suggest wrong functional form?
+
+boundary_choice      boundary          Documents what is included and excluded                       Could excluded drivers change the conclusion?           
+
+aggregation_choice   aggregation       Reviews whether averaging hides heterogeneity                 Does aggregation conceal subgroup or spatial risk?      
+
+threshold_regime     regime            Reviews whether system behavior changes near critical thresh  Could regime shift invalidate baseline structure?       
+                                       olds                                                                                                                  
+section                   
+--------------------------
+STRUCTURAL COMPONENT GUIDE
+structural_layer  meaning                                    example                  review_question                             
+----------------  -----------------------------------------  -----------------------  --------------------------------------------
+aggregation       Grouping of heterogeneous elements         averaged subgroups       Does aggregation hide risk?                 
+boundary          Included and excluded system scope         external policy omitted  Could excluded drivers change outputs?      
+governance        Documentation and communication            use-limit statement      Where is single-model authority unwarranted?
+model_family      Choice among modeling paradigms            static versus dynamic    Does model family change the conclusion?    
+regime            Behavior under thresholds or stress        threshold shift          Does the system change mode?                
+relationship      Mathematical relationship among variables  linear versus nonlinear  Does functional form distort behavior?      
+scale             Resolution of representation               regional versus local    Does scale match the decision?              

@@ -1,0 +1,5 @@
+"key","model_family","structural_assumption","review_question","projected_stock","below_threshold","distance_to_threshold"
+"threshold_shift","piecewise","System behavior changes below a critical stock threshold","Does a regime shift change the decision?",12.25794106,"True",-32.74205894
+"linear_decline","algebraic","Resource stock declines by a fixed amount each period","Does constant decline hide nonlinear depletion or recovery?",22,"True",-23
+"proportional_decline","dynamic","Loss is proportional to current stock","Does proportional loss exaggerate or understate late-stage behavior?",22.28007808,"True",-22.71992192
+"logistic_recovery","dynamic","Stock replenishes toward carrying capacity while extraction continues","Does recovery depend on a plausible carrying capacity?",35.81972067,"True",-9.18027933

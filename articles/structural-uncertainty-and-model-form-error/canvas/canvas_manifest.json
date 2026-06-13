@@ -1,0 +1,31 @@
+{
+  "article_slug": "structural-uncertainty-and-model-form-error",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "structural-uncertainty-governance",
+  "cards": [
+    {
+      "card_id": "model-form-register",
+      "title": "Model Form Register",
+      "description": "Tracks plausible structures, model families, assumptions, and review questions."
+    },
+    {
+      "card_id": "structural-spread",
+      "title": "Structural Spread",
+      "description": "Compares outputs across model forms and reports disagreement."
+    },
+    {
+      "card_id": "structural-uncertainty-assessment",
+      "title": "Structural Uncertainty Assessment",
+      "description": "Documents threshold disagreement, review obligations, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_model_form_register": true,
+    "requires_structural_uncertainty_register": true,
+    "requires_model_form_comparison": true,
+    "requires_structural_spread": true,
+    "requires_threshold_disagreement_review": true,
+    "requires_boundary_and_aggregation_review": true,
+    "requires_use_limit_statement": true
+  }
+}

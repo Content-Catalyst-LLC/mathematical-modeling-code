@@ -1,0 +1,8 @@
+structural_layer,meaning,example,review_question
+model_family,Choice among modeling paradigms,static versus dynamic,Does model family change the conclusion?
+relationship,Mathematical relationship among variables,linear versus nonlinear,Does functional form distort behavior?
+boundary,Included and excluded system scope,external policy omitted,Could excluded drivers change outputs?
+aggregation,Grouping of heterogeneous elements,averaged subgroups,Does aggregation hide risk?
+scale,Resolution of representation,regional versus local,Does scale match the decision?
+regime,Behavior under thresholds or stress,threshold shift,Does the system change mode?
+governance,Documentation and communication,use-limit statement,Where is single-model authority unwarranted?

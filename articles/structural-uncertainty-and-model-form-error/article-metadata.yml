@@ -1,0 +1,19 @@
+actual_title: "Structural Uncertainty and Model Form Error"
+suggested_seo_title: "Structural Uncertainty and Model Form Error in Mathematical Modeling"
+focus_keyword: "structural uncertainty and model form error"
+slug: "structural-uncertainty-and-model-form-error"
+series: "Mathematical Modeling"
+article_order:
+  previous: "uncertainty-in-mathematical-models"
+  current: "structural-uncertainty-and-model-form-error"
+  next: "robustness-fragility-and-model-dependence"
+tags:
+  - Mathematical Modeling
+  - Structural Uncertainty
+  - Model Form Error
+  - Model Uncertainty
+  - Model Validation
+  - Model Comparison
+  - Uncertainty Quantification
+  - Decision Support
+excerpt_139_words: "Structural uncertainty and model form error arise when the mathematical structure of a model may be incomplete, misspecified, oversimplified, or inappropriate for the system being represented. Unlike parameter uncertainty, structural uncertainty is not solved by fitting better numbers into the same equations. It concerns the equations, mechanisms, boundaries, feedbacks, variables, aggregation choices, causal assumptions, and model family itself. This article explains model-form error, missing mechanisms, omitted variables, wrong functional relationships, aggregation error, boundary error, scale mismatch, alternative model structures, ensemble reasoning, structural sensitivity, validation limits, and decision risk. It shows why a model can be well calibrated and still structurally wrong. Used responsibly, structural uncertainty assessment helps analysts avoid false confidence, compare plausible representations, communicate model limits, preserve competing explanations, and support accountable decisions in science, engineering, policy, sustainability, public systems, and complex-system modeling practice."

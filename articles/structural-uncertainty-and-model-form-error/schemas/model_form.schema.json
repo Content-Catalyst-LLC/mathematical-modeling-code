@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModelForm",
+  "type": "object",
+  "required": [
+    "key",
+    "model_family",
+    "structural_assumption",
+    "review_question"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "model_family": {"type": "string"},
+    "structural_assumption": {"type": "string"},
+    "review_question": {"type": "string"}
+  }
+}
