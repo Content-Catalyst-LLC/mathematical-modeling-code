@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GeneralizationRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "generalization_layer",
+    "modeling_role",
+    "review_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "generalization_layer": {
+      "type": "string",
+      "enum": ["evidence", "diagnostics", "parsimony", "regularization", "scope", "decision_support", "governance"]
+    },
+    "modeling_role": {"type": "string"},
+    "review_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

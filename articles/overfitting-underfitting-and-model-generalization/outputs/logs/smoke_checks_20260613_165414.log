@@ -1,0 +1,90 @@
+
+[1;34m[16:54:15][0m Python workflow
+Generalization workflow complete.
+Selected for review: logistic_growth
+Model count: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[16:54:16][0m R workflow
+null device 
+          1 
+         model_id model_family training_rmse validation_rmse parameter_count
+1 logistic_growth  mechanistic           1.2            1.38               3
+  complexity_score interpretability_score overfit_gap generalization_score
+1             0.45                   0.78        0.18                1.554
+          classification review_priority
+1 generalizes_reasonably             low
+           model_id model_family training_rmse validation_rmse parameter_count
+1   logistic_growth  mechanistic          1.20            1.38               3
+2 regularized_curve  regularized          0.95            1.44               5
+3      linear_trend  statistical          1.95            2.10               2
+4 constant_baseline     baseline          3.40            3.55               0
+5   high_flex_curve     flexible          0.28            2.85              10
+  complexity_score interpretability_score overfit_gap generalization_score
+1             0.45                   0.78        0.18                1.554
+2             0.62                   0.66        0.49                1.832
+3             0.25                   0.88        0.15                2.134
+4             0.05                   0.95        0.15                3.370
+5             0.95                   0.30        2.57                3.780
+          classification review_priority
+1 generalizes_reasonably             low
+2 generalizes_reasonably             low
+3        requires_review          medium
+4        likely_underfit            high
+5         likely_overfit            high
+                        key generalization_layer
+1 training_validation_split             evidence
+2               overfit_gap          diagnostics
+3            underfit_check          diagnostics
+4         complexity_review            parsimony
+5        distribution_shift                scope
+6        decision_threshold     decision_support
+                                                  modeling_role
+1       Separates fitting evidence from generalization evidence
+2              Compares validation error against training error
+3          Flags models with high training and validation error
+4                      Reviews whether flexibility is justified
+5 Reviews whether use conditions differ from fitting conditions
+6     Connects generalization evidence to decision consequences
+                                                  review_question status
+1           Are training and validation data separated correctly? active
+2 Is the model learning noise rather than transferable structure? review
+3                         Is the model too simple for the system? review
+4    Does added complexity improve validation performance enough? review
+5                   Could changing systems weaken generalization? review
+6           Does the model perform near consequential thresholds? review
+  generalization_risk_score priority
+1                         3      low
+2                         7   medium
+3                         7   medium
+4                         7   medium
+5                         5      low
+6                         6   medium
+
+[1;34m[16:54:16][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/overfitting_underfitting_generalization.sqlite < sql/schema.sql
+sqlite3 outputs/tables/overfitting_underfitting_generalization.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[16:54:16][0m Go workflow
+cd go && go run main.go
+constant_baseline generalization_score=3.3700 overfit_gap=0.1500 classification=likely_underfit
+linear_trend generalization_score=2.1340 overfit_gap=0.1500 classification=requires_review
+logistic_growth generalization_score=1.5540 overfit_gap=0.1800 classification=generalizes_reasonably
+regularized_curve generalization_score=1.8320 overfit_gap=0.4900 classification=generalizes_reasonably
+high_flex_curve generalization_score=3.7800 overfit_gap=2.5700 classification=likely_overfit
+selected_for_review=logistic_growth generalization_score=1.5540
+
+[1;34m[16:54:17][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 generalization_summary.cpp -o generalization_summary
+./generalization_summary > ../outputs/tables/cpp_generalization_summary.csv 2> ../outputs/logs/cpp_generalization_stderr.log
+
+[1;34m[16:54:19][0m Fortran workflow
+gfortran -O2 fortran/generalization_summary.f90 -o outputs/generalization_summary_fortran
+./outputs/generalization_summary_fortran > outputs/tables/fortran_generalization_summary.txt
+
+[1;34m[16:54:19][0m C workflow
+cc -O2 -std=c11 c/generalization_summary.c -o outputs/generalization_summary_c -lm
+./outputs/generalization_summary_c > outputs/tables/c_generalization_summary.csv 2> outputs/logs/c_generalization_stderr.log

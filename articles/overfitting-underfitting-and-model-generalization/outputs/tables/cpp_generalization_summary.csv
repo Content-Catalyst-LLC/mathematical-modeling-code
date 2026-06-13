@@ -1,0 +1,6 @@
+model_id,generalization_score,overfit_gap,classification
+constant_baseline,3.370000,0.150000,likely_underfit
+linear_trend,2.134000,0.150000,requires_review
+logistic_growth,1.554000,0.180000,generalizes_reasonably
+regularized_curve,1.832000,0.490000,generalizes_reasonably
+high_flex_curve,3.780000,2.570000,likely_overfit

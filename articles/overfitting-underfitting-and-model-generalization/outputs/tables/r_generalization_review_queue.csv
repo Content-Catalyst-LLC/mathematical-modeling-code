@@ -1,0 +1,7 @@
+"key","generalization_layer","modeling_role","review_question","status","generalization_risk_score","priority"
+"training_validation_split","evidence","Separates fitting evidence from generalization evidence","Are training and validation data separated correctly?","active",3,"low"
+"overfit_gap","diagnostics","Compares validation error against training error","Is the model learning noise rather than transferable structure?","review",7,"medium"
+"underfit_check","diagnostics","Flags models with high training and validation error","Is the model too simple for the system?","review",7,"medium"
+"complexity_review","parsimony","Reviews whether flexibility is justified","Does added complexity improve validation performance enough?","review",7,"medium"
+"distribution_shift","scope","Reviews whether use conditions differ from fitting conditions","Could changing systems weaken generalization?","review",5,"low"
+"decision_threshold","decision_support","Connects generalization evidence to decision consequences","Does the model perform near consequential thresholds?","review",6,"medium"

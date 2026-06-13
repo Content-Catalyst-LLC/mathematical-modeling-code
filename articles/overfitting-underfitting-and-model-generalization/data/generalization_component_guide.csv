@@ -1,0 +1,8 @@
+generalization_layer,meaning,example,review_question
+evidence,Separation of fitting and assessment evidence,training validation split,Is evidence separation clean?
+diagnostics,Error patterns showing overfit or underfit behavior,overfit gap,Does performance transfer?
+parsimony,Complexity and flexibility review,parameter count,Is complexity justified?
+regularization,Constraints that reduce overfitting,penalty term,Does constraint improve transfer?
+scope,Use conditions and distribution shift,time split,Do conditions change?
+decision_support,Fitness for decision thresholds,threshold validation,Does failure matter for action?
+governance,Use limits and monitoring,revalidation plan,Where should transfer not be assumed?

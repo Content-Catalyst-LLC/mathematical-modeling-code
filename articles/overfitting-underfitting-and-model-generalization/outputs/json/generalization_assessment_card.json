@@ -1,0 +1,102 @@
+{
+  "article": "Overfitting, Underfitting, and Model Generalization",
+  "diagnostic_checks": [
+    "training and validation error are separated",
+    "overfit gap is reported",
+    "underfit conditions are flagged",
+    "complexity is reviewed",
+    "distribution shift remains a scope concern",
+    "decision thresholds require separate review"
+  ],
+  "generalization_register": [
+    {
+      "generalization_layer": "evidence",
+      "generalization_risk_score": 3.0,
+      "key": "training_validation_split",
+      "modeling_role": "Separates fitting evidence from generalization evidence",
+      "review_question": "Are training and validation data separated correctly?",
+      "status": "active"
+    },
+    {
+      "generalization_layer": "diagnostics",
+      "generalization_risk_score": 7.0,
+      "key": "overfit_gap",
+      "modeling_role": "Compares validation error against training error",
+      "review_question": "Is the model learning noise rather than transferable structure?",
+      "status": "review"
+    },
+    {
+      "generalization_layer": "diagnostics",
+      "generalization_risk_score": 7.0,
+      "key": "underfit_check",
+      "modeling_role": "Flags models with high training and validation error",
+      "review_question": "Is the model too simple for the system?",
+      "status": "review"
+    },
+    {
+      "generalization_layer": "parsimony",
+      "generalization_risk_score": 7.0,
+      "key": "complexity_review",
+      "modeling_role": "Reviews whether flexibility is justified",
+      "review_question": "Does added complexity improve validation performance enough?",
+      "status": "review"
+    },
+    {
+      "generalization_layer": "scope",
+      "generalization_risk_score": 5.0,
+      "key": "distribution_shift",
+      "modeling_role": "Reviews whether use conditions differ from fitting conditions",
+      "review_question": "Could changing systems weaken generalization?",
+      "status": "review"
+    },
+    {
+      "generalization_layer": "decision_support",
+      "generalization_risk_score": 6.0,
+      "key": "decision_threshold",
+      "modeling_role": "Connects generalization evidence to decision consequences",
+      "review_question": "Does the model perform near consequential thresholds?",
+      "status": "review"
+    }
+  ],
+  "overfit_warning_models": [
+    {
+      "classification": "likely_overfit",
+      "complexity_score": 0.95,
+      "generalization_score": 3.78,
+      "interpretability_score": 0.3,
+      "model_family": "flexible",
+      "model_id": "high_flex_curve",
+      "overfit_gap": 2.57,
+      "parameter_count": 10,
+      "training_rmse": 0.28,
+      "validation_rmse": 2.85
+    }
+  ],
+  "selected_for_review": {
+    "classification": "generalizes_reasonably",
+    "complexity_score": 0.45,
+    "generalization_score": 1.554,
+    "interpretability_score": 0.78,
+    "model_family": "mechanistic",
+    "model_id": "logistic_growth",
+    "overfit_gap": 0.18,
+    "parameter_count": 3,
+    "training_rmse": 1.2,
+    "validation_rmse": 1.38
+  },
+  "underfit_warning_models": [
+    {
+      "classification": "likely_underfit",
+      "complexity_score": 0.05,
+      "generalization_score": 3.37,
+      "interpretability_score": 0.95,
+      "model_family": "baseline",
+      "model_id": "constant_baseline",
+      "overfit_gap": 0.15,
+      "parameter_count": 0,
+      "training_rmse": 3.4,
+      "validation_rmse": 3.55
+    }
+  ],
+  "use_limit": "Generalization assessment is conditional on validation design, evidence quality, and use context."
+}

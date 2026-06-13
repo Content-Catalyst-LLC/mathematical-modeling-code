@@ -1,0 +1,31 @@
+{
+  "article_slug": "overfitting-underfitting-and-model-generalization",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "generalization-governance",
+  "cards": [
+    {
+      "card_id": "training-validation-diagnostics",
+      "title": "Training vs Validation Diagnostics",
+      "description": "Tracks training error, validation error, overfit gaps, and generalization scores."
+    },
+    {
+      "card_id": "overfit-underfit-review",
+      "title": "Overfit and Underfit Review",
+      "description": "Flags likely overfitting, likely underfitting, and models that require further review."
+    },
+    {
+      "card_id": "generalization-assessment-card",
+      "title": "Generalization Assessment Card",
+      "description": "Documents selected review model, warning models, use limits, and remaining governance checks."
+    }
+  ],
+  "governance": {
+    "requires_training_validation_split": true,
+    "requires_overfit_gap": true,
+    "requires_underfit_check": true,
+    "requires_complexity_review": true,
+    "requires_distribution_shift_note": true,
+    "requires_decision_threshold_review": true,
+    "requires_use_limit_statement": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GeneralizationModel",
+  "type": "object",
+  "required": [
+    "model_id",
+    "model_family",
+    "training_rmse",
+    "validation_rmse",
+    "parameter_count",
+    "complexity_score",
+    "interpretability_score"
+  ],
+  "properties": {
+    "model_id": {"type": "string"},
+    "model_family": {"type": "string"},
+    "training_rmse": {"type": "number", "minimum": 0},
+    "validation_rmse": {"type": "number", "minimum": 0},
+    "parameter_count": {"type": "integer", "minimum": 0},
+    "complexity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "interpretability_score": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

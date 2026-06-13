@@ -1,0 +1,2 @@
+"model_id","model_family","training_rmse","validation_rmse","parameter_count","complexity_score","interpretability_score","overfit_gap","generalization_score","classification","review_priority"
+"logistic_growth","mechanistic",1.2,1.38,3,0.45,0.78,0.18,1.554,"generalizes_reasonably","low"

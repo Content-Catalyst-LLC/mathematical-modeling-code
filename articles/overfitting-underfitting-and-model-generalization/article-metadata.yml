@@ -1,0 +1,19 @@
+actual_title: "Overfitting, Underfitting, and Model Generalization"
+suggested_seo_title: "Overfitting, Underfitting, and Model Generalization in Mathematical Modeling"
+focus_keyword: "overfitting underfitting and model generalization"
+slug: "overfitting-underfitting-and-model-generalization"
+series: "Mathematical Modeling"
+article_order:
+  previous: "model-comparison-and-selection"
+  current: "overfitting-underfitting-and-model-generalization"
+  next: "diagnostics-residuals-and-model-error"
+tags:
+  - Mathematical Modeling
+  - Overfitting
+  - Underfitting
+  - Model Generalization
+  - Model Validation
+  - Predictive Performance
+  - Cross-Validation
+  - Decision Support
+excerpt_139_words: "Overfitting, underfitting, and model generalization explain why a mathematical model can look successful in one setting and fail in another. Overfitting occurs when a model learns noise, quirks, or accidental patterns in the calibration data. Underfitting occurs when a model is too simple to represent important structure. Generalization asks whether model performance remains credible on new data, future cases, external settings, or decision-relevant scenarios. This article explains the bias-variance tradeoff, training error, validation error, test data, cross-validation, regularization, model complexity, residual diagnostics, uncertainty, robustness, and fitness for purpose. It shows why excellent fit is not the same as reliable performance and why simple models are not automatically inferior. Used responsibly, generalization assessment helps analysts avoid false confidence, choose models that transfer, communicate limits, and support accountable decisions in science, engineering, policy, sustainability, complex systems, and public decision-making over time."

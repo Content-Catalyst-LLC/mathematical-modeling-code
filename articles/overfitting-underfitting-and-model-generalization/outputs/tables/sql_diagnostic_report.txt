@@ -1,0 +1,55 @@
+section              
+---------------------
+GENERALIZATION LAYERS
+generalization_layer  description                                           typical_failure                                 
+--------------------  ----------------------------------------------------  ------------------------------------------------
+decision_support      Threshold and decision relevance.                     Average performance hides consequential failure.
+diagnostics           Overfitting, underfitting, and residual diagnostics.  Fit looks strong but does not transfer.         
+evidence              Separation of fitting and assessment evidence.        Training and validation data are not separated. 
+governance            Use limits, monitoring, and revalidation.             Generalization is overclaimed.                  
+parsimony             Complexity and flexibility review.                    Flexible model learns noise.                    
+regularization        Constraints that improve transfer.                    Model is too unconstrained.                     
+scope                 Use context and distribution shift.                   Model is applied outside assessed conditions.   
+section                                
+---------------------------------------
+GENERALIZATION RECORDS REQUIRING REVIEW
+record_key          generalization_layer  review_question                                             
+------------------  --------------------  ------------------------------------------------------------
+overfit_gap         diagnostics           Is the model learning noise rather than transferable structu
+                                          re?                                                         
+
+underfit_check      diagnostics           Is the model too simple for the system?                     
+
+complexity_review   parsimony             Does added complexity improve validation performance enough?
+
+distribution_shift  scope                 Could changing systems weaken generalization?               
+
+decision_threshold  decision_support      Does the model perform near consequential thresholds?       
+section                         
+--------------------------------
+MODEL GENERALIZATION DIAGNOSTICS
+model_id           model_family  training_rmse  validation_rmse  overfit_gap  parameter_count  generalization_score  classification        
+-----------------  ------------  -------------  ---------------  -----------  ---------------  --------------------  ----------------------
+logistic_growth    mechanistic   1.2            1.38             0.18         3                1.554                 generalizes_reasonably
+regularized_curve  regularized   0.95           1.44             0.49         5                1.832                 generalizes_reasonably
+linear_trend       statistical   1.95           2.1              0.15         2                2.134                 requires_review       
+constant_baseline  baseline      3.4            3.55             0.15         0                3.37                  likely_underfit       
+high_flex_curve    flexible      0.28           2.85             2.57         10               3.78                  likely_overfit        
+section               
+----------------------
+OVERFIT WARNING MODELS
+model_id         training_rmse  validation_rmse  overfit_gap
+---------------  -------------  ---------------  -----------
+high_flex_curve  0.28           2.85             2.57       
+section                       
+------------------------------
+GENERALIZATION COMPONENT GUIDE
+generalization_layer  meaning                                              example                    review_question                      
+--------------------  ---------------------------------------------------  -------------------------  -------------------------------------
+decision_support      Fitness for decision thresholds                      threshold validation       Does failure matter for action?      
+diagnostics           Error patterns showing overfit or underfit behavior  overfit gap                Does performance transfer?           
+evidence              Separation of fitting and assessment evidence        training validation split  Is evidence separation clean?        
+governance            Use limits and monitoring                            revalidation plan          Where should transfer not be assumed?
+parsimony             Complexity and flexibility review                    parameter count            Is complexity justified?             
+regularization        Constraints that reduce overfitting                  penalty term               Does constraint improve transfer?    
+scope                 Use conditions and distribution shift                time split                 Do conditions change?                
