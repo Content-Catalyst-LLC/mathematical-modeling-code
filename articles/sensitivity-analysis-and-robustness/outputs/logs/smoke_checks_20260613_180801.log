@@ -1,0 +1,74 @@
+
+[1;34m[18:08:03][0m Python workflow
+Sensitivity and robustness workflow complete.
+Baseline output: 26.8964466
+Most sensitive parameter: extraction_rate
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[18:08:03][0m R workflow
+null device 
+          1 
+          parameter min_projected_stock max_projected_stock range_width
+1   extraction_rate            14.52760            39.28728   24.759674
+2   shock_intensity            16.16388            35.81972   19.655842
+3       growth_rate            20.94148            33.42124   12.479756
+4     initial_stock            24.99399            28.67734    3.683351
+5 carrying_capacity            25.28890            28.16182    2.872924
+  max_abs_relative_change threshold_crossed review_priority
+1              0.46068654              True            high
+2              0.39903293              True            high
+3              0.24258945              True            high
+4              0.07073272              True            high
+5              0.05976800              True            high
+                    key sensitivity_layer
+1       parameter_sweep local_sensitivity
+2   threshold_fragility  decision_support
+3       scenario_stress        robustness
+4 structural_dependence        model_form
+5     evidence_priority      data_quality
+                                                 modeling_role
+1         Varies individual parameters across plausible ranges
+2           Reviews whether outputs cross a decision threshold
+3       Tests model behavior under adverse scenario conditions
+4        Reviews whether conclusions depend on model structure
+5 Identifies high-sensitivity inputs that need better evidence
+                                             review_question status
+1              Which parameters most influence model output? active
+2              Can plausible variation reverse the decision? review
+3            Does the conclusion survive stress assumptions? review
+4 Would alternative model forms support the same conclusion? review
+5           Where would better data most reduce uncertainty? review
+  sensitivity_risk_score priority
+1                      1      low
+2                      7   medium
+3                      6   medium
+4                      5      low
+5                      7   medium
+
+[1;34m[18:08:04][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/sensitivity_analysis_and_robustness.sqlite < sql/schema.sql
+sqlite3 outputs/tables/sensitivity_analysis_and_robustness.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[18:08:04][0m Go workflow
+cd go && go run main.go
+baseline_output=26.896447
+initial_stock range_width=3.683351
+growth_rate range_width=12.479756
+carrying_capacity range_width=2.872924
+extraction_rate range_width=24.759674
+shock_intensity range_width=19.655842
+
+[1;34m[18:08:05][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 sensitivity_summary.cpp -o sensitivity_summary
+./sensitivity_summary > ../outputs/tables/cpp_sensitivity_summary.csv 2> ../outputs/logs/cpp_sensitivity_stderr.log
+
+[1;34m[18:08:06][0m Fortran workflow
+gfortran -O2 fortran/sensitivity_summary.f90 -o outputs/sensitivity_summary_fortran
+./outputs/sensitivity_summary_fortran > outputs/tables/fortran_sensitivity_summary.txt
+
+[1;34m[18:08:07][0m C workflow
+cc -O2 -std=c11 c/sensitivity_summary.c -o outputs/sensitivity_summary_c -lm
+./outputs/sensitivity_summary_c > outputs/tables/c_sensitivity_summary.csv 2> outputs/logs/c_sensitivity_stderr.log

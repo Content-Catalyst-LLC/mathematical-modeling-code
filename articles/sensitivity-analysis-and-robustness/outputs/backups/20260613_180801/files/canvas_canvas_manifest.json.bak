@@ -1,0 +1,31 @@
+{
+  "article_slug": "sensitivity-analysis-and-robustness",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "sensitivity-robustness-governance",
+  "cards": [
+    {
+      "card_id": "parameter-range-register",
+      "title": "Parameter Range Register",
+      "description": "Tracks baseline, low, high, uncertainty label, and range rationale."
+    },
+    {
+      "card_id": "sensitivity-ranking",
+      "title": "Sensitivity Ranking",
+      "description": "Ranks model inputs by projected output range and relative change."
+    },
+    {
+      "card_id": "robustness-assessment-card",
+      "title": "Robustness Assessment Card",
+      "description": "Documents baseline output, most sensitive drivers, threshold crossings, review obligations, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_parameter_ranges": true,
+    "requires_baseline_output": true,
+    "requires_sensitivity_ranking": true,
+    "requires_threshold_fragility_review": true,
+    "requires_scenario_stress_review": true,
+    "requires_structural_sensitivity_note": true,
+    "requires_use_limit_statement": true
+  }
+}
