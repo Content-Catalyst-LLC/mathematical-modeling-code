@@ -1,0 +1,102 @@
+{
+  "article": "Diagnostics, Residuals, and Model Error",
+  "decision_disagreement_count": 1,
+  "diagnostic_checks": [
+    "residuals are preserved",
+    "bias metrics are reported",
+    "group summaries are exported",
+    "threshold cases are identified",
+    "outliers are flagged",
+    "model-form review remains required when residuals show structure"
+  ],
+  "diagnostic_register": [
+    {
+      "diagnostic_layer": "bias",
+      "diagnostic_risk_score": 2.0,
+      "key": "residual_bias",
+      "modeling_role": "Reviews directional error across observations",
+      "review_question": "Does the model systematically overpredict or underpredict?",
+      "status": "active"
+    },
+    {
+      "diagnostic_layer": "decision_support",
+      "diagnostic_risk_score": 7.0,
+      "key": "threshold_error",
+      "modeling_role": "Reviews residuals near action thresholds",
+      "review_question": "Could residual error change the decision?",
+      "status": "review"
+    },
+    {
+      "diagnostic_layer": "subgroup",
+      "diagnostic_risk_score": 6.0,
+      "key": "group_error",
+      "modeling_role": "Compares error across diagnostic groups",
+      "review_question": "Does performance differ across contexts?",
+      "status": "review"
+    },
+    {
+      "diagnostic_layer": "tail_error",
+      "diagnostic_risk_score": 5.0,
+      "key": "outlier_review",
+      "modeling_role": "Flags unusually large residuals",
+      "review_question": "Do extreme residuals reveal data or model-form problems?",
+      "status": "review"
+    },
+    {
+      "diagnostic_layer": "model_form",
+      "diagnostic_risk_score": 6.0,
+      "key": "structural_error",
+      "modeling_role": "Reviews whether residual patterns suggest missing structure",
+      "review_question": "Is error random or structurally patterned?",
+      "status": "review"
+    },
+    {
+      "diagnostic_layer": "uncertainty",
+      "diagnostic_risk_score": 6.0,
+      "key": "uncertainty_review",
+      "modeling_role": "Connects diagnostic evidence to uncertainty communication",
+      "review_question": "Are uncertainty claims adequate for the error pattern?",
+      "status": "review"
+    }
+  ],
+  "group_summary": [
+    {
+      "group": "baseline",
+      "mae": 0.975,
+      "max_absolute_error": 1.4,
+      "mean_error": -0.725,
+      "median_absolute_error": 1.0,
+      "n": 4,
+      "rmse": 1.04761634
+    },
+    {
+      "group": "stress",
+      "mae": 3.33333333,
+      "max_absolute_error": 4.1,
+      "mean_error": -3.33333333,
+      "median_absolute_error": 3.4,
+      "n": 3,
+      "rmse": 3.39705755
+    },
+    {
+      "group": "threshold",
+      "mae": 1.7,
+      "max_absolute_error": 2.0,
+      "mean_error": -1.7,
+      "median_absolute_error": 1.8,
+      "n": 3,
+      "rmse": 1.72530191
+    }
+  ],
+  "outlier_count": 2,
+  "overall_error_summary": {
+    "mae": 1.9,
+    "max_absolute_error": 4.1,
+    "mean_error": -1.8,
+    "median_absolute_error": 1.6,
+    "n": 10,
+    "rmse": 2.1895205
+  },
+  "threshold_case_count": 3,
+  "use_limit": "Diagnostic evidence is purpose-specific and should be interpreted against model scope, uncertainty, and decision consequences."
+}

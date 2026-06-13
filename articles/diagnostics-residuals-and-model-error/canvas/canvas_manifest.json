@@ -1,0 +1,31 @@
+{
+  "article_slug": "diagnostics-residuals-and-model-error",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "diagnostic-governance",
+  "cards": [
+    {
+      "card_id": "residual-diagnostics",
+      "title": "Residual Diagnostics",
+      "description": "Tracks observations, predictions, residuals, absolute errors, squared errors, and threshold flags."
+    },
+    {
+      "card_id": "error-review",
+      "title": "Error Review",
+      "description": "Preserves bias, MAE, RMSE, median error, max error, group summaries, and decision disagreements."
+    },
+    {
+      "card_id": "diagnostic-assessment-card",
+      "title": "Diagnostic Assessment Card",
+      "description": "Documents diagnostic checks, outliers, group error, threshold cases, use limits, and review obligations."
+    }
+  ],
+  "governance": {
+    "requires_residual_table": true,
+    "requires_bias_review": true,
+    "requires_group_review": true,
+    "requires_threshold_review": true,
+    "requires_outlier_review": true,
+    "requires_structural_error_review": true,
+    "requires_use_limit_statement": true
+  }
+}

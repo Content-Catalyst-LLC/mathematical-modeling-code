@@ -1,0 +1,4 @@
+group,mean_error,mae,rmse,median_absolute_error,max_absolute_error,n
+baseline,-0.725,0.975,1.04761634,1.0,1.4,4
+stress,-3.33333333,3.33333333,3.39705755,3.4,4.1,3
+threshold,-1.7,1.7,1.72530191,1.8,2.0,3

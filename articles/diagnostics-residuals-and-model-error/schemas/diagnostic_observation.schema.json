@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DiagnosticObservation",
+  "type": "object",
+  "required": [
+    "time",
+    "group",
+    "observed_value",
+    "predicted_value",
+    "decision_threshold"
+  ],
+  "properties": {
+    "time": {"type": "integer", "minimum": 0},
+    "group": {"type": "string"},
+    "observed_value": {"type": "number"},
+    "predicted_value": {"type": "number"},
+    "decision_threshold": {"type": "number"}
+  }
+}

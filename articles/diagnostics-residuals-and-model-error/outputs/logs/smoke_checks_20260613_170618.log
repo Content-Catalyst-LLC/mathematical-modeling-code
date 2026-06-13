@@ -1,0 +1,68 @@
+
+[1;34m[17:06:20][0m Python workflow
+Residual diagnostic workflow complete.
+Overall error summary: {'mean_error': -1.8, 'mae': 1.9, 'rmse': 2.1895205, 'median_absolute_error': 1.6, 'max_absolute_error': 4.1, 'n': 10}
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[17:06:20][0m R workflow
+null device 
+          1 
+null device 
+          1 
+  mean_error mae    rmse median_absolute_error max_absolute_error  n
+1       -1.8 1.9 2.18952                   1.6                4.1 10
+      group mean_residual mean_absolute_error
+1  baseline     -0.725000            0.975000
+2    stress     -3.333333            3.333333
+3 threshold     -1.700000            1.700000
+                 key diagnostic_layer
+1      residual_bias             bias
+2    threshold_error decision_support
+3        group_error         subgroup
+4     outlier_review       tail_error
+5   structural_error       model_form
+6 uncertainty_review      uncertainty
+                                                modeling_role
+1               Reviews directional error across observations
+2                    Reviews residuals near action thresholds
+3                     Compares error across diagnostic groups
+4                             Flags unusually large residuals
+5 Reviews whether residual patterns suggest missing structure
+6   Connects diagnostic evidence to uncertainty communication
+                                             review_question status
+1 Does the model systematically overpredict or underpredict? active
+2                  Could residual error change the decision? review
+3                   Does performance differ across contexts? review
+4   Do extreme residuals reveal data or model-form problems? review
+5                 Is error random or structurally patterned? review
+6     Are uncertainty claims adequate for the error pattern? review
+  diagnostic_risk_score priority
+1                     2      low
+2                     7   medium
+3                     6   medium
+4                     5      low
+5                     6   medium
+6                     6   medium
+
+[1;34m[17:06:20][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/diagnostics_residuals_model_error.sqlite < sql/schema.sql
+sqlite3 outputs/tables/diagnostics_residuals_model_error.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[17:06:20][0m Go workflow
+cd go && go run main.go
+mean_error=-1.8000 mae=1.9000 rmse=2.1895 max_abs_error=4.1000 decision_disagreements=1
+
+[1;34m[17:06:21][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 diagnostic_summary.cpp -o diagnostic_summary
+./diagnostic_summary > ../outputs/tables/cpp_diagnostic_summary.csv 2> ../outputs/logs/cpp_diagnostic_stderr.log
+
+[1;34m[17:06:22][0m Fortran workflow
+gfortran -O2 fortran/diagnostic_summary.f90 -o outputs/diagnostic_summary_fortran
+./outputs/diagnostic_summary_fortran > outputs/tables/fortran_diagnostic_summary.txt
+
+[1;34m[17:06:23][0m C workflow
+cc -O2 -std=c11 c/diagnostic_summary.c -o outputs/diagnostic_summary_c -lm
+./outputs/diagnostic_summary_c > outputs/tables/c_diagnostic_summary.csv 2> outputs/logs/c_diagnostic_stderr.log

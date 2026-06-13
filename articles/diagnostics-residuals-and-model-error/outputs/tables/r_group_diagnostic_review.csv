@@ -1,0 +1,4 @@
+"group","mean_residual","mean_absolute_error"
+"baseline",-0.725,0.975
+"stress",-3.33333333333333,3.33333333333333
+"threshold",-1.7,1.7

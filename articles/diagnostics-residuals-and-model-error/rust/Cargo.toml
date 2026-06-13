@@ -1,0 +1,6 @@
+[package]
+name = "diagnostics-residuals-model-error-review"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

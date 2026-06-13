@@ -1,0 +1,7 @@
+key,diagnostic_layer,modeling_role,review_question,status,diagnostic_risk_score
+residual_bias,bias,Reviews directional error across observations,Does the model systematically overpredict or underpredict?,active,2.0
+threshold_error,decision_support,Reviews residuals near action thresholds,Could residual error change the decision?,review,7.0
+group_error,subgroup,Compares error across diagnostic groups,Does performance differ across contexts?,review,6.0
+outlier_review,tail_error,Flags unusually large residuals,Do extreme residuals reveal data or model-form problems?,review,5.0
+structural_error,model_form,Reviews whether residual patterns suggest missing structure,Is error random or structurally patterned?,review,6.0
+uncertainty_review,uncertainty,Connects diagnostic evidence to uncertainty communication,Are uncertainty claims adequate for the error pattern?,review,6.0

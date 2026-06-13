@@ -1,0 +1,64 @@
+section          
+-----------------
+DIAGNOSTIC LAYERS
+diagnostic_layer  description                               typical_failure                                             
+----------------  ----------------------------------------  ------------------------------------------------------------
+bias              Directional model error.                  Positive and negative errors hide systematic overprediction 
+                                                            or underprediction.                                         
+
+decision_support  Error near action thresholds.             Average accuracy hides wrong decision triggers.             
+
+governance        Diagnostic documentation and use limits.  Model is used beyond its diagnostic evidence.               
+
+model_form        Structural model misspecification.        Residual pattern reveals missing structure.                 
+
+subgroup          Context-specific model performance.       Overall metric hides uneven model reliability.              
+
+tail_error        Extreme residual behavior.                Rare but consequential cases are ignored.                   
+
+uncertainty       Adequacy of uncertainty communication.    Uncertainty bands do not reflect diagnostic weakness.       
+section                            
+-----------------------------------
+DIAGNOSTIC RECORDS REQUIRING REVIEW
+record_key          diagnostic_layer  review_question                                         
+------------------  ----------------  --------------------------------------------------------
+threshold_error     decision_support  Could residual error change the decision?               
+group_error         subgroup          Does performance differ across contexts?                
+outlier_review      tail_error        Do extreme residuals reveal data or model-form problems?
+structural_error    model_form        Is error random or structurally patterned?              
+uncertainty_review  uncertainty       Are uncertainty claims adequate for the error pattern?  
+section             
+--------------------
+RESIDUAL DIAGNOSTICS
+time  diagnostic_group  observed_value  predicted_value  residual  absolute_error  threshold_flag      decision_status      
+----  ----------------  --------------  ---------------  --------  --------------  ------------------  ---------------------
+1     baseline          82.0            81.5             0.5       0.5             not_near_threshold  agreement            
+2     baseline          79.5            80.2             -0.7      0.7             not_near_threshold  agreement            
+3     baseline          77.0            78.4             -1.4      1.4             not_near_threshold  agreement            
+4     baseline          74.3            75.6             -1.3      1.3             not_near_threshold  agreement            
+5     threshold         71.5            72.8             -1.3      1.3             near_threshold      agreement            
+6     threshold         69.2            71.0             -1.8      1.8             near_threshold      decision_disagreement
+7     threshold         67.8            69.8             -2.0      2.0             near_threshold      agreement            
+8     stress            65.5            68.0             -2.5      2.5             not_near_threshold  agreement            
+9     stress            63.0            66.4             -3.4      3.4             not_near_threshold  agreement            
+10    stress            61.1            65.2             -4.1      4.1             not_near_threshold  agreement            
+section            
+-------------------
+GROUP ERROR SUMMARY
+diagnostic_group  mean_error  mae     rmse    n
+----------------  ----------  ------  ------  -
+baseline          -0.725      0.975   1.0476  4
+stress            -3.3333     3.3333  3.3971  3
+threshold         -1.7        1.7     1.7253  3
+section                   
+--------------------------
+DIAGNOSTIC COMPONENT GUIDE
+diagnostic_layer  meaning                                  example                 review_question                              
+----------------  ---------------------------------------  ----------------------  ---------------------------------------------
+bias              Directional model error                  mean error              Does error lean positive or negative?        
+decision_support  Error near action thresholds             threshold disagreement  Could error change a decision?               
+governance        Diagnostic documentation and use limits  assessment card         Where should outputs be treated with caution?
+model_form        Structural model misspecification        residual pattern        Does error suggest missing structure?        
+subgroup          Context-specific model performance       group MAE               Does error differ across groups?             
+tail_error        Extreme residual behavior                outlier flags           Do rare cases reveal important failure?      
+uncertainty       Adequacy of uncertainty communication    interval review         Does uncertainty reflect diagnostic weakness?

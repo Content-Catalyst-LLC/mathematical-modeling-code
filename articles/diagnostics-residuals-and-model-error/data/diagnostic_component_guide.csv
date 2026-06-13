@@ -1,0 +1,8 @@
+diagnostic_layer,meaning,example,review_question
+bias,Directional model error,mean error,Does error lean positive or negative?
+decision_support,Error near action thresholds,threshold disagreement,Could error change a decision?
+subgroup,Context-specific model performance,group MAE,Does error differ across groups?
+tail_error,Extreme residual behavior,outlier flags,Do rare cases reveal important failure?
+model_form,Structural model misspecification,residual pattern,Does error suggest missing structure?
+uncertainty,Adequacy of uncertainty communication,interval review,Does uncertainty reflect diagnostic weakness?
+governance,Diagnostic documentation and use limits,assessment card,Where should outputs be treated with caution?
