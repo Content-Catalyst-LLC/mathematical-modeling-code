@@ -1,0 +1,6 @@
+parameter,min_projected_stock,max_projected_stock,range_width,max_abs_relative_change,threshold_crossed
+extraction_rate,14.52760364,39.28727744,24.7596738,0.46068654,True
+shock_intensity,16.16387866,35.81972067,19.65584201,0.39903293,True
+growth_rate,20.94148471,33.42124081,12.4797561,0.24258945,True
+initial_stock,24.99398772,28.67733829,3.68335057,0.07073272,True
+carrying_capacity,25.28889972,28.16182403,2.87292431,0.059768,True

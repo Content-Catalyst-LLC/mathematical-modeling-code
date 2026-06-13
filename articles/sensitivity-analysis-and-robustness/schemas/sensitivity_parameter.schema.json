@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SensitivityParameter",
+  "type": "object",
+  "required": [
+    "name",
+    "baseline",
+    "low",
+    "high",
+    "uncertainty_label"
+  ],
+  "properties": {
+    "name": {"type": "string"},
+    "baseline": {"type": "number"},
+    "low": {"type": "number"},
+    "high": {"type": "number"},
+    "uncertainty_label": {
+      "type": "string",
+      "enum": ["measurement", "parameter", "structural", "policy", "scenario"]
+    }
+  }
+}

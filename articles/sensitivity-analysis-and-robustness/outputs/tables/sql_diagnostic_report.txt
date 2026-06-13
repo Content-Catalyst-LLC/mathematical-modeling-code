@@ -1,0 +1,51 @@
+section           
+------------------
+SENSITIVITY LAYERS
+sensitivity_layer   description                                 typical_failure                                      
+------------------  ------------------------------------------  -----------------------------------------------------
+data_quality        Evidence priority for influential factors.  High-sensitivity inputs remain poorly measured.      
+decision_support    Sensitivity near action thresholds.         Small changes reverse decisions without disclosure.  
+global_sensitivity  Influence across broad uncertainty ranges.  Interactions and nonlinear effects are missed.       
+governance          Documentation and communication.            Future users cannot see what was tested.             
+local_sensitivity   Small changes near a baseline.              Narrow local checks are mistaken for full robustness.
+model_form          Dependence on mathematical structure.       Structural uncertainty is hidden.                    
+robustness          Stability under plausible variation.        Fragile conclusions are presented as stable.         
+section                             
+------------------------------------
+SENSITIVITY RECORDS REQUIRING REVIEW
+record_key             sensitivity_layer  review_question                                           
+---------------------  -----------------  ----------------------------------------------------------
+threshold_fragility    decision_support   Can plausible variation reverse the decision?             
+scenario_stress        robustness         Does the conclusion survive stress assumptions?           
+structural_dependence  model_form         Would alternative model forms support the same conclusion?
+evidence_priority      data_quality       Where would better data most reduce uncertainty?          
+section               
+----------------------
+PARAMETER RANGE REVIEW
+parameter_name     uncertainty_label  baseline  low    high   range_width  relative_range
+-----------------  -----------------  --------  -----  -----  -----------  --------------
+shock_intensity    scenario           0.03      0.0    0.08   0.08         2.666667      
+growth_rate        parameter          0.08      0.04   0.12   0.08         1.0           
+extraction_rate    policy             0.12      0.08   0.18   0.1          0.833333      
+carrying_capacity  structural         120.0     100.0  140.0  40.0         0.333333      
+initial_stock      measurement        80.0      72.0   88.0   16.0         0.2           
+section                        
+-------------------------------
+HIGH-UNCERTAINTY REVIEW TARGETS
+parameter_name     uncertainty_label  relative_range
+-----------------  -----------------  --------------
+shock_intensity    scenario           2.666667      
+extraction_rate    policy             0.833333      
+carrying_capacity  structural         0.333333      
+section                    
+---------------------------
+SENSITIVITY COMPONENT GUIDE
+sensitivity_layer   meaning                                    example                 review_question                                     
+------------------  -----------------------------------------  ----------------------  ----------------------------------------------------
+data_quality        Value of better evidence                   high-sensitivity input  Where would better data matter most?                
+decision_support    Sensitivity near action thresholds         threshold crossing      Can uncertainty reverse action?                     
+global_sensitivity  Influence across broad uncertainty ranges  sampling-based review   Which factors dominate across plausible uncertainty?
+governance          Documentation and communication            assessment card         Where is the model robust or fragile?               
+local_sensitivity   Small changes near a baseline              one-at-a-time sweep     Which parameter drives output near baseline?        
+model_form          Dependence on model structure              alternative model form  Does conclusion survive structural alternatives?    
+robustness          Stability under plausible variation        stress scenario         Does the conclusion survive disturbance?            

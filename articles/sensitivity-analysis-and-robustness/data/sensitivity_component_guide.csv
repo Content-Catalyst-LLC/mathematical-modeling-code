@@ -1,0 +1,8 @@
+sensitivity_layer,meaning,example,review_question
+local_sensitivity,Small changes near a baseline,one-at-a-time sweep,Which parameter drives output near baseline?
+global_sensitivity,Influence across broad uncertainty ranges,sampling-based review,Which factors dominate across plausible uncertainty?
+robustness,Stability under plausible variation,stress scenario,Does the conclusion survive disturbance?
+decision_support,Sensitivity near action thresholds,threshold crossing,Can uncertainty reverse action?
+model_form,Dependence on model structure,alternative model form,Does conclusion survive structural alternatives?
+data_quality,Value of better evidence,high-sensitivity input,Where would better data matter most?
+governance,Documentation and communication,assessment card,Where is the model robust or fragile?

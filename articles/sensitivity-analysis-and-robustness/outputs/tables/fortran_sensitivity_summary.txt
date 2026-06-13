@@ -1,0 +1,6 @@
+parameter low_output baseline_output high_output range_width
+initial_stock  24.9940  26.8964  28.6773   3.6834
+growth_rate  20.9415  26.8964  33.4212  12.4798
+carrying_capacity  25.2889  26.8964  28.1618   2.8729
+extraction_rate  39.2873  26.8964  14.5276  24.7597
+shock_intensity  35.8197  26.8964  16.1639  19.6558

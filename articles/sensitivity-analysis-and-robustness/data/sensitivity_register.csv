@@ -1,0 +1,6 @@
+key,sensitivity_layer,modeling_role,review_question,status
+parameter_sweep,local_sensitivity,Varies individual parameters across plausible ranges,Which parameters most influence model output?,active
+threshold_fragility,decision_support,Reviews whether outputs cross a decision threshold,Can plausible variation reverse the decision?,review
+scenario_stress,robustness,Tests model behavior under adverse scenario conditions,Does the conclusion survive stress assumptions?,review
+structural_dependence,model_form,Reviews whether conclusions depend on model structure,Would alternative model forms support the same conclusion?,review
+evidence_priority,data_quality,Identifies high-sensitivity inputs that need better evidence,Where would better data most reduce uncertainty?,review

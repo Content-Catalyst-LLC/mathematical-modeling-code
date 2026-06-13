@@ -1,0 +1,107 @@
+{
+  "article": "Sensitivity Analysis and Robustness",
+  "baseline_output": 26.8964466,
+  "diagnostic_checks": [
+    "parameter ranges are documented",
+    "baseline output is preserved",
+    "sensitivity ranking is exported",
+    "threshold crossings are flagged",
+    "structural sensitivity remains a review obligation",
+    "robustness is interpreted against decision purpose"
+  ],
+  "most_sensitive_parameter": {
+    "max_abs_relative_change": 0.46068654,
+    "max_projected_stock": 39.28727744,
+    "min_projected_stock": 14.52760364,
+    "parameter": "extraction_rate",
+    "range_width": 24.7596738,
+    "threshold_crossed": true
+  },
+  "parameter_count": 5,
+  "sensitivity_register": [
+    {
+      "key": "parameter_sweep",
+      "modeling_role": "Varies individual parameters across plausible ranges",
+      "review_question": "Which parameters most influence model output?",
+      "sensitivity_layer": "local_sensitivity",
+      "sensitivity_risk_score": 1.0,
+      "status": "active"
+    },
+    {
+      "key": "threshold_fragility",
+      "modeling_role": "Reviews whether outputs cross a decision threshold",
+      "review_question": "Can plausible variation reverse the decision?",
+      "sensitivity_layer": "decision_support",
+      "sensitivity_risk_score": 7.0,
+      "status": "review"
+    },
+    {
+      "key": "scenario_stress",
+      "modeling_role": "Tests model behavior under adverse scenario conditions",
+      "review_question": "Does the conclusion survive stress assumptions?",
+      "sensitivity_layer": "robustness",
+      "sensitivity_risk_score": 6.0,
+      "status": "review"
+    },
+    {
+      "key": "structural_dependence",
+      "modeling_role": "Reviews whether conclusions depend on model structure",
+      "review_question": "Would alternative model forms support the same conclusion?",
+      "sensitivity_layer": "model_form",
+      "sensitivity_risk_score": 5.0,
+      "status": "review"
+    },
+    {
+      "key": "evidence_priority",
+      "modeling_role": "Identifies high-sensitivity inputs that need better evidence",
+      "review_question": "Where would better data most reduce uncertainty?",
+      "sensitivity_layer": "data_quality",
+      "sensitivity_risk_score": 7.0,
+      "status": "review"
+    }
+  ],
+  "sweep_row_count": 15,
+  "threshold_crossing_parameters": [
+    {
+      "max_abs_relative_change": 0.46068654,
+      "max_projected_stock": 39.28727744,
+      "min_projected_stock": 14.52760364,
+      "parameter": "extraction_rate",
+      "range_width": 24.7596738,
+      "threshold_crossed": true
+    },
+    {
+      "max_abs_relative_change": 0.39903293,
+      "max_projected_stock": 35.81972067,
+      "min_projected_stock": 16.16387866,
+      "parameter": "shock_intensity",
+      "range_width": 19.65584201,
+      "threshold_crossed": true
+    },
+    {
+      "max_abs_relative_change": 0.24258945,
+      "max_projected_stock": 33.42124081,
+      "min_projected_stock": 20.94148471,
+      "parameter": "growth_rate",
+      "range_width": 12.4797561,
+      "threshold_crossed": true
+    },
+    {
+      "max_abs_relative_change": 0.07073272,
+      "max_projected_stock": 28.67733829,
+      "min_projected_stock": 24.99398772,
+      "parameter": "initial_stock",
+      "range_width": 3.68335057,
+      "threshold_crossed": true
+    },
+    {
+      "max_abs_relative_change": 0.059768,
+      "max_projected_stock": 28.16182403,
+      "min_projected_stock": 25.28889972,
+      "parameter": "carrying_capacity",
+      "range_width": 2.87292431,
+      "threshold_crossed": true
+    }
+  ],
+  "use_limit": "Sensitivity results depend on parameter ranges, scenario design, and model structure."
+}

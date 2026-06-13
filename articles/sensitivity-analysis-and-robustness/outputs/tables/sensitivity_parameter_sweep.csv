@@ -1,0 +1,16 @@
+parameter,uncertainty_label,level,value,projected_stock,delta_from_baseline,relative_change,below_threshold
+initial_stock,measurement,low,72.0,24.99398772,-1.90245888,-0.07073272,True
+initial_stock,measurement,baseline,80.0,26.8964466,0.0,0.0,True
+initial_stock,measurement,high,88.0,28.67733829,1.78089169,0.0662129,True
+growth_rate,parameter,low,0.04,20.94148471,-5.95496189,-0.22140329,True
+growth_rate,parameter,baseline,0.08,26.8964466,0.0,0.0,True
+growth_rate,parameter,high,0.12,33.42124081,6.52479421,0.24258945,True
+carrying_capacity,structural,low,100.0,25.28889972,-1.60754688,-0.059768,True
+carrying_capacity,structural,baseline,120.0,26.8964466,0.0,0.0,True
+carrying_capacity,structural,high,140.0,28.16182403,1.26537743,0.04704627,True
+extraction_rate,policy,low,0.08,39.28727744,12.39083084,0.46068654,True
+extraction_rate,policy,baseline,0.12,26.8964466,0.0,0.0,True
+extraction_rate,policy,high,0.18,14.52760364,-12.36884296,-0.45986904,True
+shock_intensity,scenario,low,0.0,35.81972067,8.92327407,0.33176405,True
+shock_intensity,scenario,baseline,0.03,26.8964466,0.0,0.0,True
+shock_intensity,scenario,high,0.08,16.16387866,-10.73256794,-0.39903293,True
