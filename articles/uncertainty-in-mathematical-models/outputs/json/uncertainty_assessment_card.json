@@ -1,0 +1,67 @@
+{
+  "article": "Uncertainty in Mathematical Models",
+  "diagnostic_checks": [
+    "uncertainty sources are named",
+    "parameter ranges are documented",
+    "output distribution is summarized",
+    "threshold probability is reported",
+    "structural uncertainty remains a review obligation",
+    "decision interpretation must account for uncertainty"
+  ],
+  "output_summary": {
+    "max": 53.72051957,
+    "mean": 23.54244197,
+    "median": 22.60323967,
+    "min": 6.83095025,
+    "n": 1000,
+    "p05": 10.56820153,
+    "p25": 16.70135419,
+    "p75": 29.06464548,
+    "p95": 41.28644037,
+    "threshold_probability": 0.983
+  },
+  "threshold_risk_flag": true,
+  "uncertainty_register": [
+    {
+      "key": "measurement_uncertainty",
+      "modeling_role": "Reviews uncertainty in observed or input values",
+      "review_question": "How reliable are the measured inputs?",
+      "status": "active",
+      "uncertainty_layer": "data",
+      "uncertainty_risk_score": 1.0
+    },
+    {
+      "key": "parameter_uncertainty",
+      "modeling_role": "Documents plausible parameter ranges",
+      "review_question": "How much do estimated parameters affect outputs?",
+      "status": "review",
+      "uncertainty_layer": "parameter",
+      "uncertainty_risk_score": 6.0
+    },
+    {
+      "key": "structural_uncertainty",
+      "modeling_role": "Reviews uncertainty about the model structure",
+      "review_question": "Could another plausible model form change the conclusion?",
+      "status": "review",
+      "uncertainty_layer": "model_form",
+      "uncertainty_risk_score": 6.0
+    },
+    {
+      "key": "scenario_uncertainty",
+      "modeling_role": "Documents uncertainty about future conditions",
+      "review_question": "Which future assumptions control the result?",
+      "status": "review",
+      "uncertainty_layer": "scenario",
+      "uncertainty_risk_score": 6.0
+    },
+    {
+      "key": "decision_uncertainty",
+      "modeling_role": "Connects uncertainty to thresholds and action",
+      "review_question": "Could uncertainty reverse the decision?",
+      "status": "review",
+      "uncertainty_layer": "decision_support",
+      "uncertainty_risk_score": 7.0
+    }
+  ],
+  "use_limit": "This uncertainty assessment includes sampled parameter and input uncertainty but does not fully resolve structural uncertainty."
+}

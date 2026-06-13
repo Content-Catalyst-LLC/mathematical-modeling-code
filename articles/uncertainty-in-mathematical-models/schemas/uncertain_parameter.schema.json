@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UncertainParameter",
+  "type": "object",
+  "required": [
+    "name",
+    "low",
+    "baseline",
+    "high",
+    "uncertainty_type",
+    "description"
+  ],
+  "properties": {
+    "name": {"type": "string"},
+    "low": {"type": "number"},
+    "baseline": {"type": "number"},
+    "high": {"type": "number"},
+    "uncertainty_type": {
+      "type": "string",
+      "enum": ["measurement", "parameter", "structural", "scenario", "aleatory", "epistemic"]
+    },
+    "description": {"type": "string"}
+  }
+}

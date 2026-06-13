@@ -1,0 +1,8 @@
+uncertainty_layer,meaning,example,review_question
+data,Uncertainty in observations or input values,sensor error,How reliable are the measured inputs?
+parameter,Uncertainty in estimated values,growth rate interval,How much do parameters affect outputs?
+model_form,Uncertainty about model structure,alternative equations,Would another structure change conclusions?
+scenario,Uncertainty about future conditions,policy scenario,Which future assumptions control outcomes?
+aleatory,Irreducible variability or randomness,shock intensity,How should variability be represented?
+decision_support,Uncertainty around thresholds and action,threshold probability,Could uncertainty reverse the decision?
+governance,Documentation and communication,use-limit statement,What uncertainty remains unresolved?

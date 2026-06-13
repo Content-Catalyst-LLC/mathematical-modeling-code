@@ -1,0 +1,19 @@
+actual_title: "Uncertainty in Mathematical Models"
+suggested_seo_title: "Uncertainty in Mathematical Models: How to Interpret Risk, Error, and Confidence"
+focus_keyword: "uncertainty in mathematical models"
+slug: "uncertainty-in-mathematical-models"
+series: "Mathematical Modeling"
+article_order:
+  previous: "sensitivity-analysis-and-robustness"
+  current: "uncertainty-in-mathematical-models"
+  next: "structural-uncertainty-and-model-form-error"
+tags:
+  - Mathematical Modeling
+  - Uncertainty Quantification
+  - Model Uncertainty
+  - Risk Analysis
+  - Sensitivity Analysis
+  - Model Validation
+  - Decision Support
+  - Probabilistic Modeling
+excerpt_139_words: "Uncertainty in mathematical models describes what is unknown, variable, approximate, incomplete, or difficult to trust in a model’s data, assumptions, parameters, structure, computation, and use context. A model may produce precise-looking numbers while depending on uncertain measurements, estimated parameters, simplified relationships, limited evidence, stochastic variation, scenario choices, or changing systems. This article explains aleatory and epistemic uncertainty, measurement uncertainty, parameter uncertainty, input uncertainty, structural uncertainty, model-form error, uncertainty propagation, confidence intervals, prediction intervals, Bayesian reasoning, Monte Carlo simulation, scenario uncertainty, sensitivity analysis, and decision uncertainty. It shows why uncertainty is not a weakness to hide but evidence to communicate. Used responsibly, uncertainty analysis helps analysts avoid false precision, identify fragile conclusions, prioritize better evidence, communicate model limits, and support accountable decisions in science, engineering, public policy, sustainability, risk management, and complex-system modeling under real-world conditions."

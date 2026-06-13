@@ -1,0 +1,31 @@
+{
+  "article_slug": "uncertainty-in-mathematical-models",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "uncertainty-governance",
+  "cards": [
+    {
+      "card_id": "uncertainty-register",
+      "title": "Uncertainty Register",
+      "description": "Tracks data, parameter, model-form, scenario, aleatory, decision, and governance uncertainty."
+    },
+    {
+      "card_id": "uncertainty-propagation",
+      "title": "Uncertainty Propagation",
+      "description": "Generates sampled model runs, output distributions, quantiles, and threshold probabilities."
+    },
+    {
+      "card_id": "uncertainty-assessment-card",
+      "title": "Uncertainty Assessment Card",
+      "description": "Documents output summaries, threshold risk, remaining structural uncertainty, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_uncertainty_register": true,
+    "requires_parameter_ranges": true,
+    "requires_output_distribution": true,
+    "requires_threshold_probability": true,
+    "requires_structural_uncertainty_note": true,
+    "requires_decision_uncertainty_review": true,
+    "requires_use_limit_statement": true
+  }
+}

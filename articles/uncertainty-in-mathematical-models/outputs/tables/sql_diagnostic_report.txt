@@ -1,0 +1,51 @@
+section           
+------------------
+UNCERTAINTY LAYERS
+uncertainty_layer  description                                   typical_failure                                        
+-----------------  --------------------------------------------  -------------------------------------------------------
+aleatory           Irreducible variability or randomness.        Natural variation is hidden as deterministic certainty.
+data               Uncertainty in observations or input values.  Precise outputs are built on weak measurements.        
+decision_support   Uncertainty around thresholds and action.     Uncertainty changes action without disclosure.         
+governance         Documentation and communication.              Future users cannot see what uncertainty was assessed. 
+model_form         Uncertainty about mathematical structure.     The model form is treated as unquestionably correct.   
+parameter          Uncertainty in estimated or assumed values.   Fitted values are treated as exact.                    
+scenario           Uncertainty about future conditions.          Scenario assumptions are treated as predictions.       
+section                             
+------------------------------------
+UNCERTAINTY RECORDS REQUIRING REVIEW
+record_key              uncertainty_layer  review_question                                          
+----------------------  -----------------  ---------------------------------------------------------
+parameter_uncertainty   parameter          How much do estimated parameters affect outputs?         
+structural_uncertainty  model_form         Could another plausible model form change the conclusion?
+scenario_uncertainty    scenario           Which future assumptions control the result?             
+decision_uncertainty    decision_support   Could uncertainty reverse the decision?                  
+section                         
+--------------------------------
+UNCERTAIN PARAMETER RANGE REVIEW
+parameter_name     uncertainty_type  baseline  low    high   range_width  relative_range  description                
+-----------------  ----------------  --------  -----  -----  -----------  --------------  ---------------------------
+shock_intensity    aleatory          0.03      0.0    0.08   0.08         2.666667        Stress and disturbance term
+growth_rate        parameter         0.08      0.04   0.12   0.08         1.0             Dynamic replenishment rate 
+extraction_rate    scenario          0.12      0.08   0.18   0.1          0.833333        Policy and behavior driver 
+carrying_capacity  structural        120.0     100.0  140.0  40.0         0.333333        System boundary assumption 
+initial_stock      measurement       80.0      72.0   88.0   16.0         0.2             Starting stock estimate    
+section                                    
+-------------------------------------------
+STRUCTURAL AND DECISION UNCERTAINTY TARGETS
+record_key              uncertainty_layer  modeling_role                                  review_question                                          
+----------------------  -----------------  ---------------------------------------------  ---------------------------------------------------------
+structural_uncertainty  model_form         Reviews uncertainty about the model structure  Could another plausible model form change the conclusion?
+scenario_uncertainty    scenario           Documents uncertainty about future conditions  Which future assumptions control the result?             
+decision_uncertainty    decision_support   Connects uncertainty to thresholds and action  Could uncertainty reverse the decision?                  
+section                    
+---------------------------
+UNCERTAINTY COMPONENT GUIDE
+uncertainty_layer  meaning                                      example                review_question                            
+-----------------  -------------------------------------------  ---------------------  -------------------------------------------
+aleatory           Irreducible variability or randomness        shock intensity        How should variability be represented?     
+data               Uncertainty in observations or input values  sensor error           How reliable are the measured inputs?      
+decision_support   Uncertainty around thresholds and action     threshold probability  Could uncertainty reverse the decision?    
+governance         Documentation and communication              use-limit statement    What uncertainty remains unresolved?       
+model_form         Uncertainty about model structure            alternative equations  Would another structure change conclusions?
+parameter          Uncertainty in estimated values              growth rate interval   How much do parameters affect outputs?     
+scenario           Uncertainty about future conditions          policy scenario        Which future assumptions control outcomes? 

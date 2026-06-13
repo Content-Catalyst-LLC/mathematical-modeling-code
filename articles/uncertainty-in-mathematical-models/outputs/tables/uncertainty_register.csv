@@ -1,0 +1,6 @@
+key,uncertainty_layer,modeling_role,review_question,status,uncertainty_risk_score
+measurement_uncertainty,data,Reviews uncertainty in observed or input values,How reliable are the measured inputs?,active,1.0
+parameter_uncertainty,parameter,Documents plausible parameter ranges,How much do estimated parameters affect outputs?,review,6.0
+structural_uncertainty,model_form,Reviews uncertainty about the model structure,Could another plausible model form change the conclusion?,review,6.0
+scenario_uncertainty,scenario,Documents uncertainty about future conditions,Which future assumptions control the result?,review,6.0
+decision_uncertainty,decision_support,Connects uncertainty to thresholds and action,Could uncertainty reverse the decision?,review,7.0

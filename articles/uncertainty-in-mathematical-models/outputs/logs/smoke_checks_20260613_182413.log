@@ -1,0 +1,60 @@
+
+[1;34m[18:24:14][0m Python workflow
+Uncertainty propagation workflow complete.
+Output summary: {'mean': 23.54244197, 'median': 22.60323967, 'p05': 10.56820153, 'p25': 16.70135419, 'p75': 29.06464548, 'p95': 41.28644037, 'min': 6.83095025, 'max': 53.72051957, 'threshold_probability': 0.983, 'n': 1000}
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[18:24:15][0m R workflow
+null device 
+          1 
+      mean   median     p05      p25      p75      p95     min      max
+1 23.54244 22.60324 10.5682 16.70135 29.06465 41.28644 6.83095 53.72052
+  threshold_probability    n
+1                 0.983 1000
+                      key uncertainty_layer
+1 measurement_uncertainty              data
+2   parameter_uncertainty         parameter
+3  structural_uncertainty        model_form
+4    scenario_uncertainty          scenario
+5    decision_uncertainty  decision_support
+                                    modeling_role
+1 Reviews uncertainty in observed or input values
+2            Documents plausible parameter ranges
+3   Reviews uncertainty about the model structure
+4   Documents uncertainty about future conditions
+5   Connects uncertainty to thresholds and action
+                                            review_question status
+1                     How reliable are the measured inputs? active
+2          How much do estimated parameters affect outputs? review
+3 Could another plausible model form change the conclusion? review
+4              Which future assumptions control the result? review
+5                   Could uncertainty reverse the decision? review
+  uncertainty_risk_score priority
+1                      1      low
+2                      6   medium
+3                      6   medium
+4                      6   medium
+5                      7   medium
+
+[1;34m[18:24:15][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/uncertainty_in_mathematical_models.sqlite < sql/schema.sql
+sqlite3 outputs/tables/uncertainty_in_mathematical_models.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[18:24:15][0m Go workflow
+cd go && go run main.go
+mean=23.282824 p05=10.901988 p95=41.798896 threshold_probability=0.967000
+
+[1;34m[18:24:16][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 uncertainty_summary.cpp -o uncertainty_summary
+./uncertainty_summary > ../outputs/tables/cpp_uncertainty_summary.csv 2> ../outputs/logs/cpp_uncertainty_stderr.log
+
+[1;34m[18:24:17][0m Fortran workflow
+gfortran -O2 fortran/uncertainty_summary.f90 -o outputs/uncertainty_summary_fortran
+./outputs/uncertainty_summary_fortran > outputs/tables/fortran_uncertainty_summary.txt
+
+[1;34m[18:24:18][0m C workflow
+cc -O2 -std=c11 c/uncertainty_summary.c -o outputs/uncertainty_summary_c -lm
+./outputs/uncertainty_summary_c > outputs/tables/c_uncertainty_summary.csv 2> outputs/logs/c_uncertainty_stderr.log

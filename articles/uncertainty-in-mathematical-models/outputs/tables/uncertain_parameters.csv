@@ -1,0 +1,6 @@
+name,low,baseline,high,uncertainty_type,description
+initial_stock,72.0,80.0,88.0,measurement,Starting stock estimate
+growth_rate,0.04,0.08,0.12,parameter,Dynamic replenishment rate
+carrying_capacity,100.0,120.0,140.0,structural,System boundary assumption
+extraction_rate,0.08,0.12,0.18,scenario,Policy and behavior driver
+shock_intensity,0.0,0.03,0.08,aleatory,Stress and disturbance term
