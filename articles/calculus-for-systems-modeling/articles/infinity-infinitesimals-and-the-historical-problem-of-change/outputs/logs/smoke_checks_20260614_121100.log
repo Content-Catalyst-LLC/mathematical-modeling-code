@@ -1,0 +1,8 @@
+python workflow: pass
+pytest: skipped_missing_pytest
+sql workflow: pass
+r workflow: pass
+go workflow: pass
+cpp workflow: pass
+c workflow: pass
+fortran workflow: pass

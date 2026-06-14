@@ -1,0 +1,16 @@
+.PHONY: run build clean
+
+run:
+	@if command -v runhaskell >/dev/null 2>&1; then \
+		runhaskell Main.hs; \
+	elif command -v ghc >/dev/null 2>&1; then \
+		$(MAKE) build && ./infinity-infinitesimals-haskell; \
+	else \
+		echo "Haskell toolchain not found; skipping."; \
+	fi
+
+build:
+	ghc -O2 Main.hs -o infinity-infinitesimals-haskell
+
+clean:
+	rm -f infinity-infinitesimals-haskell *.hi *.o
