@@ -1,0 +1,7 @@
+audience,main_need,communication_emphasis
+technical_reviewer,Auditability and method transparency,Assumptions diagnostics code uncertainty methods and validation scope
+decision_maker,Action relevance and risk,Thresholds robustness fragility consequences and monitoring needs
+public,Clear meaning without false certainty,Plain-language ranges scenario labels limitations and consequences
+domain_expert,Mechanism and plausibility,Model structure omitted mechanisms and boundary assumptions
+affected_stakeholder,Consequences and fairness,Subgroup uncertainty risk burden and affected consequences
+future_user,Reproducibility and update path,Use limits update triggers and uncertainty monitoring

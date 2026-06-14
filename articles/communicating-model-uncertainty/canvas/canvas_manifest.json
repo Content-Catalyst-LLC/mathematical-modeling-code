@@ -1,0 +1,31 @@
+{
+  "article_slug": "communicating-model-uncertainty",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "uncertainty-communication-governance",
+  "cards": [
+    {
+      "card_id": "communication-card",
+      "title": "Uncertainty Communication Card",
+      "description": "Combines uncertainty messages, audience guidance, plain-language statements, and use limits."
+    },
+    {
+      "card_id": "audience-review",
+      "title": "Audience Review",
+      "description": "Tracks communication needs for technical reviewers, decision-makers, public audiences, and future users."
+    },
+    {
+      "card_id": "use-limit-statement",
+      "title": "Use-Limit Statement",
+      "description": "Documents where model outputs should not be treated as decisive evidence."
+    }
+  ],
+  "governance": {
+    "requires_uncertainty_sources": true,
+    "requires_labeled_intervals": true,
+    "requires_scenario_warning": true,
+    "requires_threshold_risk_statement": true,
+    "requires_structural_limit_note": true,
+    "requires_plain_language_review": true,
+    "requires_use_limit_statement": true
+  }
+}

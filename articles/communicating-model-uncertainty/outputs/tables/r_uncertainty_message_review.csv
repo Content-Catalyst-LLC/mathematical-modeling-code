@@ -1,0 +1,5 @@
+"key","uncertainty_type","technical_statement","plain_language_statement","decision_relevance"
+"parameter_uncertainty","parameter","Parameter estimates vary across plausible calibration ranges","Some model inputs are estimated rather than known exactly","Better evidence about sensitive parameters could change confidence"
+"scenario_uncertainty","scenario","Outputs differ across named future conditions","These scenarios explore different possible futures not guaranteed forecasts","The decision should be tested across adverse and baseline futures"
+"structural_uncertainty","model_form","Alternative model forms produce different threshold behavior","Another plausible model structure could lead to a different conclusion","Model disagreement should be preserved in the decision summary"
+"threshold_fragility","decision_threshold","Some plausible model runs cross the action threshold","The recommendation could change if conditions move slightly","Use monitoring buffer or adaptive response"

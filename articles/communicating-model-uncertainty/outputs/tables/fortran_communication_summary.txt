@@ -1,0 +1,6 @@
+key layer audience status priority
+central_result result decision_maker active   2.00
+uncertainty_range uncertainty public review   6.00
+threshold_risk decision_threshold decision_maker review   8.00
+structural_limit model_limit technical_reviewer review   7.00
+use_limit governance future_user review   7.00

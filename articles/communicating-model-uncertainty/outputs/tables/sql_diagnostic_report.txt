@@ -1,0 +1,67 @@
+section             
+--------------------
+COMMUNICATION LAYERS
+communication_layer  description                                         typical_failure                          
+-------------------  --------------------------------------------------  -----------------------------------------
+decision_threshold   Threshold risk and action reversal.                 Uncertainty is disconnected from action. 
+governance           Use limits, update triggers, and accountability.    Outputs travel beyond evidence.          
+model_limit          Structural limits and validation boundaries.        Model form limits are hidden.            
+result               Central model result and baseline interpretation.   Baseline result is overstated as certain.
+scenario             Scenario and future-condition communication.        Scenarios are mistaken for forecasts.    
+uncertainty          Output ranges, intervals, and uncertainty sources.  Uncertainty is vague or unlabeled.       
+section                               
+--------------------------------------
+COMMUNICATION RECORDS REQUIRING REVIEW
+record_key         communication_layer  audience            message_goal                                    
+-----------------  -------------------  ------------------  ------------------------------------------------
+uncertainty_range  uncertainty          public              Explain plausible output variation              
+threshold_risk     decision_threshold   decision_maker      Explain whether uncertainty could reverse action
+structural_limit   model_limit          technical_reviewer  State model-form limitations                    
+use_limit          governance           future_user         Prevent use outside the evidence base           
+section             
+--------------------
+UNCERTAINTY MESSAGES
+message_key             uncertainty_type    plain_language_statement                                      decision_relevance                                          
+----------------------  ------------------  ------------------------------------------------------------  ------------------------------------------------------------
+threshold_fragility     decision_threshold  The recommendation could change if conditions move slightly   Use monitoring buffer or adaptive response                  
+
+structural_uncertainty  model_form          Another plausible model structure could lead to a different   Model disagreement should be preserved in the decision summa
+                                            conclusion                                                    ry                                                          
+
+parameter_uncertainty   parameter           Some model inputs are estimated rather than known exactly     Better evidence about sensitive parameters could change conf
+                                                                                                          idence                                                      
+
+scenario_uncertainty    scenario            These scenarios explore different possible futures not guara  The decision should be tested across adverse and baseline fu
+                                            nteed forecasts                                               tures                                                       
+section       
+--------------
+AUDIENCE GUIDE
+audience              main_need                              communication_emphasis                                      
+--------------------  -------------------------------------  ------------------------------------------------------------
+affected_stakeholder  Consequences and fairness              Subgroup uncertainty risk burden and affected consequences  
+
+decision_maker        Action relevance and risk              Thresholds robustness fragility consequences and monitoring 
+                                                             needs                                                       
+
+domain_expert         Mechanism and plausibility             Model structure omitted mechanisms and boundary assumptions 
+
+future_user           Reproducibility and update path        Use limits update triggers and uncertainty monitoring       
+
+public                Clear meaning without false certainty  Plain-language ranges scenario labels limitations and conseq
+                                                             uences                                                      
+
+technical_reviewer    Auditability and method transparency   Assumptions diagnostics code uncertainty methods and validat
+                                                             ion scope                                                   
+section                                      
+---------------------------------------------
+DECISION AND GOVERNANCE COMMUNICATION TARGETS
+record_key        communication_layer  audience            plain_language_statement                                    
+----------------  -------------------  ------------------  ------------------------------------------------------------
+threshold_risk    decision_threshold   decision_maker      Some plausible runs cross the action threshold so the decisi
+                                                           on should be treated as fragile                             
+
+structural_limit  model_limit          technical_reviewer  The model does not fully represent behavioral adaptation or 
+                                                           regime change                                               
+
+use_limit         governance           future_user         This model supports risk comparison and monitoring not autom
+                                                           atic action outside the validated domain                    

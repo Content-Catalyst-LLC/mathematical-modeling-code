@@ -1,0 +1,96 @@
+{
+  "article": "Communicating Model Uncertainty",
+  "audience_guidance": {
+    "decision_maker": "Emphasize threshold risk, robustness, fragility, consequences, and monitoring needs.",
+    "future_user": "State use limits, update triggers, and uncertainty sources that require monitoring.",
+    "public": "Use plain-language ranges, scenario labels, and clear limits without false certainty.",
+    "technical_reviewer": "Provide methods, assumptions, diagnostics, validation scope, and reproducibility materials."
+  },
+  "communication_records": [
+    {
+      "audience": "decision_maker",
+      "communication_layer": "result",
+      "communication_priority": 2.0,
+      "key": "central_result",
+      "message_goal": "State the baseline model result without overstating certainty",
+      "plain_language_statement": "The baseline model projects the system above the minimum threshold but the result is conditional on current assumptions",
+      "status": "active"
+    },
+    {
+      "audience": "public",
+      "communication_layer": "uncertainty",
+      "communication_priority": 7.0,
+      "key": "uncertainty_range",
+      "message_goal": "Explain plausible output variation",
+      "plain_language_statement": "Across plausible model settings outcomes cover a range rather than a single exact number",
+      "status": "review"
+    },
+    {
+      "audience": "decision_maker",
+      "communication_layer": "decision_threshold",
+      "communication_priority": 8.0,
+      "key": "threshold_risk",
+      "message_goal": "Explain whether uncertainty could reverse action",
+      "plain_language_statement": "Some plausible runs cross the action threshold so the decision should be treated as fragile",
+      "status": "review"
+    },
+    {
+      "audience": "technical_reviewer",
+      "communication_layer": "model_limit",
+      "communication_priority": 6.0,
+      "key": "structural_limit",
+      "message_goal": "State model-form limitations",
+      "plain_language_statement": "The model does not fully represent behavioral adaptation or regime change",
+      "status": "review"
+    },
+    {
+      "audience": "future_user",
+      "communication_layer": "governance",
+      "communication_priority": 6.0,
+      "key": "use_limit",
+      "message_goal": "Prevent use outside the evidence base",
+      "plain_language_statement": "This model supports risk comparison and monitoring not automatic action outside the validated domain",
+      "status": "review"
+    }
+  ],
+  "core_principle": "Model outputs are conditional claims; communication should make uncertainty, assumptions, limits, and decision relevance visible.",
+  "diagnostic_checks": [
+    "uncertainty sources are named",
+    "intervals and ranges are labeled",
+    "scenarios are not misrepresented as forecasts",
+    "threshold risk is communicated",
+    "structural uncertainty is not hidden",
+    "use limits are stated"
+  ],
+  "uncertainty_messages": [
+    {
+      "decision_relevance": "Better evidence about sensitive parameters could change confidence",
+      "key": "parameter_uncertainty",
+      "plain_language_statement": "Some model inputs are estimated rather than known exactly",
+      "technical_statement": "Parameter estimates vary across plausible calibration ranges",
+      "uncertainty_type": "parameter"
+    },
+    {
+      "decision_relevance": "The decision should be tested across adverse and baseline futures",
+      "key": "scenario_uncertainty",
+      "plain_language_statement": "These scenarios explore different possible futures not guaranteed forecasts",
+      "technical_statement": "Outputs differ across named future conditions",
+      "uncertainty_type": "scenario"
+    },
+    {
+      "decision_relevance": "Model disagreement should be preserved in the decision summary",
+      "key": "structural_uncertainty",
+      "plain_language_statement": "Another plausible model structure could lead to a different conclusion",
+      "technical_statement": "Alternative model forms produce different threshold behavior",
+      "uncertainty_type": "model_form"
+    },
+    {
+      "decision_relevance": "Use monitoring buffer or adaptive response",
+      "key": "threshold_fragility",
+      "plain_language_statement": "The recommendation could change if conditions move slightly",
+      "technical_statement": "Some plausible model runs cross the action threshold",
+      "uncertainty_type": "decision_threshold"
+    }
+  ],
+  "use_limit_statement": "This model supports interpretation and decision support only within its stated assumptions, validation domain, uncertainty assessment, and use context."
+}

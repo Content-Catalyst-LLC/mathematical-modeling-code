@@ -1,0 +1,6 @@
+key,communication_layer,audience,message_goal,plain_language_statement,status,communication_priority
+central_result,result,decision_maker,State the baseline model result without overstating certainty,The baseline model projects the system above the minimum threshold but the result is conditional on current assumptions,active,2.0
+uncertainty_range,uncertainty,public,Explain plausible output variation,Across plausible model settings outcomes cover a range rather than a single exact number,review,7.0
+threshold_risk,decision_threshold,decision_maker,Explain whether uncertainty could reverse action,Some plausible runs cross the action threshold so the decision should be treated as fragile,review,8.0
+structural_limit,model_limit,technical_reviewer,State model-form limitations,The model does not fully represent behavioral adaptation or regime change,review,6.0
+use_limit,governance,future_user,Prevent use outside the evidence base,This model supports risk comparison and monitoring not automatic action outside the validated domain,review,6.0

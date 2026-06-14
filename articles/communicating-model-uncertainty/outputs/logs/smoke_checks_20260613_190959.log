@@ -1,0 +1,87 @@
+
+[1;34m[19:10:00][0m Python workflow
+Model uncertainty communication workflow complete.
+Records: 5
+Messages: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[19:10:00][0m R workflow
+null device 
+          1 
+                key communication_layer           audience
+3    threshold_risk  decision_threshold     decision_maker
+2 uncertainty_range         uncertainty             public
+4  structural_limit         model_limit technical_reviewer
+5         use_limit          governance        future_user
+1    central_result              result     decision_maker
+                                                   message_goal
+3              Explain whether uncertainty could reverse action
+2                            Explain plausible output variation
+4                                  State model-form limitations
+5                         Prevent use outside the evidence base
+1 State the baseline model result without overstating certainty
+                                                                                                 plain_language_statement
+3                             Some plausible runs cross the action threshold so the decision should be treated as fragile
+2                                Across plausible model settings outcomes cover a range rather than a single exact number
+4                                               The model does not fully represent behavioral adaptation or regime change
+5                    This model supports risk comparison and monitoring not automatic action outside the validated domain
+1 The baseline model projects the system above the minimum threshold but the result is conditional on current assumptions
+  status communication_priority
+3 review                      8
+2 review                      7
+4 review                      6
+5 review                      6
+1 active                      2
+                     key   uncertainty_type
+1  parameter_uncertainty          parameter
+2   scenario_uncertainty           scenario
+3 structural_uncertainty         model_form
+4    threshold_fragility decision_threshold
+                                           technical_statement
+1 Parameter estimates vary across plausible calibration ranges
+2                Outputs differ across named future conditions
+3 Alternative model forms produce different threshold behavior
+4         Some plausible model runs cross the action threshold
+                                                     plain_language_statement
+1                   Some model inputs are estimated rather than known exactly
+2 These scenarios explore different possible futures not guaranteed forecasts
+3      Another plausible model structure could lead to a different conclusion
+4                 The recommendation could change if conditions move slightly
+                                                  decision_relevance
+1 Better evidence about sensitive parameters could change confidence
+2  The decision should be tested across adverse and baseline futures
+3     Model disagreement should be preserved in the decision summary
+4                         Use monitoring buffer or adaptive response
+            audience mean_communication_priority
+1     decision_maker                           5
+2        future_user                           6
+3             public                           7
+4 technical_reviewer                           6
+
+[1;34m[19:10:00][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/communicating_model_uncertainty.sqlite < sql/schema.sql
+sqlite3 outputs/tables/communicating_model_uncertainty.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[19:10:01][0m Go workflow
+cd go && go run main.go
+key,communication_layer,audience,status,priority
+central_result,result,decision_maker,active,2.00
+uncertainty_range,uncertainty,public,review,6.00
+threshold_risk,decision_threshold,decision_maker,review,8.00
+structural_limit,model_limit,technical_reviewer,review,7.00
+use_limit,governance,future_user,review,7.00
+
+[1;34m[19:10:01][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 communication_summary.cpp -o communication_summary
+./communication_summary > ../outputs/tables/cpp_communication_summary.csv 2> ../outputs/logs/cpp_communication_stderr.log
+
+[1;34m[19:10:02][0m Fortran workflow
+gfortran -O2 fortran/communication_summary.f90 -o outputs/communication_summary_fortran
+./outputs/communication_summary_fortran > outputs/tables/fortran_communication_summary.txt
+
+[1;34m[19:10:03][0m C workflow
+cc -O2 -std=c11 c/communication_summary.c -o outputs/communication_summary_c -lm
+./outputs/communication_summary_c > outputs/tables/c_communication_summary.csv 2> outputs/logs/c_communication_stderr.log

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CommunicationRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "communication_layer",
+    "audience",
+    "message_goal",
+    "plain_language_statement",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "communication_layer": {
+      "type": "string",
+      "enum": ["result", "uncertainty", "decision_threshold", "model_limit", "governance", "scenario"]
+    },
+    "audience": {"type": "string"},
+    "message_goal": {"type": "string"},
+    "plain_language_statement": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

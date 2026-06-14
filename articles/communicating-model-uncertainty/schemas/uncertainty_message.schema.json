@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UncertaintyMessage",
+  "type": "object",
+  "required": [
+    "key",
+    "uncertainty_type",
+    "technical_statement",
+    "plain_language_statement",
+    "decision_relevance"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "uncertainty_type": {"type": "string"},
+    "technical_statement": {"type": "string"},
+    "plain_language_statement": {"type": "string"},
+    "decision_relevance": {"type": "string"}
+  }
+}
