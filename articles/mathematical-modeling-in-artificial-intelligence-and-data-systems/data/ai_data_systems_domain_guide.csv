@@ -1,0 +1,9 @@
+area,modeling_use,typical_model_forms
+predictive_analytics,Estimate likely outcomes from structured records,Regression classification ensembles calibrated models
+recommendation_systems,Rank and suggest items content actions or pathways,Collaborative filtering learning-to-rank embeddings
+generative_systems,Produce plausible text images code audio or structured outputs,Language models diffusion models sequence models
+anomaly_detection,Flag unusual patterns for review,Distance models isolation forests autoencoders statistical monitors
+monitoring_and_drift,Track deployment changes and model degradation,Drift detection calibration monitoring performance dashboards
+model_governance,Document purpose validation risk ownership and use limits,Model cards audit registers risk controls
+decision_support,Assist human review without replacing decision authority,Scoring models triage tools constrained optimization
+data_infrastructure,Maintain pipeline quality schema stability and reproducibility,Validation checks schemas lineage systems

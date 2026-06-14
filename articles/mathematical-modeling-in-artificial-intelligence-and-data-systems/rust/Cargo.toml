@@ -1,0 +1,6 @@
+[package]
+name = "mathematical-modeling-in-ai-data-systems-review"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

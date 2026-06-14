@@ -1,0 +1,6 @@
+"key","model_role","model_family","data_domain","decision_context","status","model_priority"
+"ranking_model","ranking","learning_to_rank","recommendation_logs","prioritization and visibility","review",7
+"monitoring_model","monitoring","drift_detection","deployment_streams","post-deployment governance","review",7
+"governance_model","governance","model_card_and_audit_register","model_lifecycle_records","accountability and review","review",7
+"generative_model","generation","language_model","text_corpus","drafting and synthesis support","review",6
+"prediction_model","prediction","supervised_learning","structured_records","risk scoring with human review","active",2

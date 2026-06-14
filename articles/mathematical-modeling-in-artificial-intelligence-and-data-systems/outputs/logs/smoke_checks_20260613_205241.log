@@ -1,0 +1,73 @@
+
+[1;34m[20:52:43][0m Python workflow
+AI and data systems workflow complete.
+Records: 5
+Candidates: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[20:52:43][0m R workflow
+null device 
+          1 
+               key model_role                  model_family
+2    ranking_model    ranking              learning_to_rank
+4 monitoring_model monitoring               drift_detection
+5 governance_model governance model_card_and_audit_register
+3 generative_model generation                language_model
+1 prediction_model prediction           supervised_learning
+              data_domain               decision_context status model_priority
+2     recommendation_logs  prioritization and visibility review              7
+4      deployment_streams     post-deployment governance review              7
+5 model_lifecycle_records      accountability and review review              7
+3             text_corpus drafting and synthesis support review              6
+1      structured_records risk scoring with human review active              2
+       best_governed_candidate mean_governance_score max_governance_score
+1 Constrained calibrated model               0.01375                0.339
+  min_governance_score review_required_count candidate_count
+1                -0.52                     2               4
+                key                   model_name validation_score
+4 constrained_model Constrained calibrated model             0.81
+1 baseline_logistic      Baseline logistic model             0.76
+2     tree_ensemble                Tree ensemble             0.83
+3      neural_model                 Neural model             0.86
+  calibration_error subgroup_error_gap drift_score interpretability_score
+4             0.035               0.06        0.10                   0.78
+1             0.050               0.08        0.12                   0.92
+2             0.070               0.14        0.18                   0.62
+3             0.095               0.19        0.24                   0.38
+  privacy_risk deployment_criticality governance_score requires_review
+4         0.09                   0.66            0.339           False
+1         0.08                   0.62            0.320           False
+2         0.13                   0.70           -0.084            True
+3         0.18                   0.82           -0.520            True
+                 review_class
+4        deployment_candidate
+1        deployment_candidate
+2  requires_governance_review
+3 high_stakes_review_required
+
+[1;34m[20:52:43][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling_in_artificial_intelligence_and_data_systems.sqlite < sql/schema.sql
+sqlite3 outputs/tables/mathematical_modeling_in_artificial_intelligence_and_data_systems.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[20:52:43][0m Go workflow
+cd go && go run main.go
+key,validation_score,calibration_error,subgroup_error_gap,drift_score,privacy_risk,governance_score,requires_review
+baseline_logistic,0.760000,0.050000,0.080000,0.120000,0.080000,0.320000,false
+tree_ensemble,0.830000,0.070000,0.140000,0.180000,0.130000,-0.084000,true
+neural_model,0.860000,0.095000,0.190000,0.240000,0.180000,-0.520000,true
+constrained_model,0.810000,0.035000,0.060000,0.100000,0.090000,0.339000,false
+
+[1;34m[20:52:44][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 ai_candidate_governance_summary.cpp -o ai_candidate_governance_summary
+./ai_candidate_governance_summary > ../outputs/tables/cpp_ai_candidate_governance_summary.csv 2> ../outputs/logs/cpp_ai_candidate_governance_stderr.log
+
+[1;34m[20:52:45][0m Fortran workflow
+gfortran -O2 fortran/ai_candidate_governance_summary.f90 -o outputs/ai_candidate_governance_summary_fortran
+./outputs/ai_candidate_governance_summary_fortran > outputs/tables/fortran_ai_candidate_governance_summary.txt
+
+[1;34m[20:52:46][0m C workflow
+cc -O2 -std=c11 c/ai_candidate_governance_summary.c -o outputs/ai_candidate_governance_summary_c -lm
+./outputs/ai_candidate_governance_summary_c > outputs/tables/c_ai_candidate_governance_summary.csv 2> outputs/logs/c_ai_candidate_governance_stderr.log

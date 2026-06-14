@@ -1,0 +1,5 @@
+"key","model_name","validation_score","calibration_error","subgroup_error_gap","drift_score","interpretability_score","privacy_risk","deployment_criticality","governance_score","requires_review","review_class"
+"constrained_model","Constrained calibrated model",0.81,0.035,0.06,0.1,0.78,0.09,0.66,0.339,"False","deployment_candidate"
+"baseline_logistic","Baseline logistic model",0.76,0.05,0.08,0.12,0.92,0.08,0.62,0.32,"False","deployment_candidate"
+"tree_ensemble","Tree ensemble",0.83,0.07,0.14,0.18,0.62,0.13,0.7,-0.084,"True","requires_governance_review"
+"neural_model","Neural model",0.86,0.095,0.19,0.24,0.38,0.18,0.82,-0.52,"True","high_stakes_review_required"

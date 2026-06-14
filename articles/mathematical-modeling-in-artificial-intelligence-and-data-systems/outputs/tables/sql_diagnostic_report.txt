@@ -1,0 +1,66 @@
+section            
+-------------------
+AI MODEL ROLE TYPES
+model_role  description                                                   typical_failure                                            
+----------  ------------------------------------------------------------  -----------------------------------------------------------
+generation  Produces plausible outputs from prompts or contexts.          Plausibility is mistaken for verification.                 
+
+governance  Documents model purpose, validation, risk, owner, use limits  Decision responsibility is shifted to the model.           
+            , and accountability.                                                                                                    
+
+monitoring  Tracks drift, incidents, quality, and degradation.            Deployment is treated as the end of modeling.              
+
+prediction  Estimates likely outcomes from inputs.                        Prediction is mistaken for causal explanation or certainty.
+
+ranking     Orders items, cases, or options by score.                     Visibility and opportunity effects are not reviewed.       
+section                          
+---------------------------------
+AI MODEL RECORDS REQUIRING REVIEW
+record_key        model_role  model_family                   data_domain              decision_context              
+----------------  ----------  -----------------------------  -----------------------  ------------------------------
+ranking_model     ranking     learning_to_rank               recommendation_logs      prioritization and visibility 
+generative_model  generation  language_model                 text_corpus              drafting and synthesis support
+monitoring_model  monitoring  drift_detection                deployment_streams       post-deployment governance    
+governance_model  governance  model_card_and_audit_register  model_lifecycle_records  accountability and review     
+section                             
+------------------------------------
+AI MODEL CANDIDATE GOVERNANCE REVIEW
+candidate_key      model_name                    validation_score  calibration_error  subgroup_error_gap  drift_score  privacy_risk  governance_score  review_class               
+-----------------  ----------------------------  ----------------  -----------------  ------------------  -----------  ------------  ----------------  ---------------------------
+constrained_model  Constrained calibrated model  0.81              0.035              0.06                0.1          0.09          0.339             deployment_candidate       
+baseline_logistic  Baseline logistic model       0.76              0.05               0.08                0.12         0.08          0.32              deployment_candidate       
+tree_ensemble      Tree ensemble                 0.83              0.07               0.14                0.18         0.13          -0.084            requires_governance_review 
+neural_model       Neural model                  0.86              0.095              0.19                0.24         0.18          -0.52             high_stakes_review_required
+section                     
+----------------------------
+AI DATA SYSTEMS DOMAIN GUIDE
+area                    modeling_use                                                  typical_model_forms                                         
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------
+anomaly_detection       Flag unusual patterns for review                              Distance models isolation forests autoencoders statistical m
+                                                                                      onitors                                                     
+
+data_infrastructure     Maintain pipeline quality schema stability and reproducibili  Validation checks schemas lineage systems                   
+                        ty                                                                                                                        
+
+decision_support        Assist human review without replacing decision authority      Scoring models triage tools constrained optimization        
+
+generative_systems      Produce plausible text images code audio or structured outpu  Language models diffusion models sequence models            
+                        ts                                                                                                                        
+
+model_governance        Document purpose validation risk ownership and use limits     Model cards audit registers risk controls                   
+
+monitoring_and_drift    Track deployment changes and model degradation                Drift detection calibration monitoring performance dashboard
+                                                                                      s                                                           
+
+predictive_analytics    Estimate likely outcomes from structured records              Regression classification ensembles calibrated models       
+
+recommendation_systems  Rank and suggest items content actions or pathways            Collaborative filtering learning-to-rank embeddings         
+section                         
+--------------------------------
+HIGH-ATTENTION AI REVIEW TARGETS
+record_key        model_role  model_family                   decision_context              
+----------------  ----------  -----------------------------  ------------------------------
+ranking_model     ranking     learning_to_rank               prioritization and visibility 
+generative_model  generation  language_model                 drafting and synthesis support
+monitoring_model  monitoring  drift_detection                post-deployment governance    
+governance_model  governance  model_card_and_audit_register  accountability and review     

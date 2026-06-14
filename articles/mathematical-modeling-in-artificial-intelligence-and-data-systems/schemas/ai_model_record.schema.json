@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "model_role",
+    "model_family",
+    "data_domain",
+    "decision_context",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "model_role": {
+      "type": "string",
+      "enum": ["prediction", "classification", "ranking", "generation", "monitoring", "governance"]
+    },
+    "model_family": {"type": "string"},
+    "data_domain": {"type": "string"},
+    "decision_context": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

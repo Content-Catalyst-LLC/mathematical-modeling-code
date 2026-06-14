@@ -1,0 +1,127 @@
+{
+  "ai_model_register": [
+    {
+      "data_domain": "structured_records",
+      "decision_context": "risk scoring with human review",
+      "key": "prediction_model",
+      "model_family": "supervised_learning",
+      "model_priority": 2.0,
+      "model_role": "prediction",
+      "status": "active"
+    },
+    {
+      "data_domain": "recommendation_logs",
+      "decision_context": "prioritization and visibility",
+      "key": "ranking_model",
+      "model_family": "learning_to_rank",
+      "model_priority": 7.0,
+      "model_role": "ranking",
+      "status": "review"
+    },
+    {
+      "data_domain": "text_corpus",
+      "decision_context": "drafting and synthesis support",
+      "key": "generative_model",
+      "model_family": "language_model",
+      "model_priority": 6.0,
+      "model_role": "generation",
+      "status": "review"
+    },
+    {
+      "data_domain": "deployment_streams",
+      "decision_context": "post-deployment governance",
+      "key": "monitoring_model",
+      "model_family": "drift_detection",
+      "model_priority": 7.0,
+      "model_role": "monitoring",
+      "status": "review"
+    },
+    {
+      "data_domain": "model_lifecycle_records",
+      "decision_context": "accountability and review",
+      "key": "governance_model",
+      "model_family": "model_card_and_audit_register",
+      "model_priority": 7.0,
+      "model_role": "governance",
+      "status": "review"
+    }
+  ],
+  "article": "Mathematical Modeling in Artificial Intelligence and Data Systems",
+  "candidate_review": [
+    {
+      "calibration_error": 0.05,
+      "deployment_criticality": 0.62,
+      "drift_score": 0.12,
+      "governance_score": 0.32,
+      "interpretability_score": 0.92,
+      "key": "baseline_logistic",
+      "model_name": "Baseline logistic model",
+      "privacy_risk": 0.08,
+      "requires_review": false,
+      "review_class": "deployment_candidate",
+      "subgroup_error_gap": 0.08,
+      "validation_score": 0.76
+    },
+    {
+      "calibration_error": 0.07,
+      "deployment_criticality": 0.7,
+      "drift_score": 0.18,
+      "governance_score": -0.084,
+      "interpretability_score": 0.62,
+      "key": "tree_ensemble",
+      "model_name": "Tree ensemble",
+      "privacy_risk": 0.13,
+      "requires_review": true,
+      "review_class": "requires_governance_review",
+      "subgroup_error_gap": 0.14,
+      "validation_score": 0.83
+    },
+    {
+      "calibration_error": 0.095,
+      "deployment_criticality": 0.82,
+      "drift_score": 0.24,
+      "governance_score": -0.52,
+      "interpretability_score": 0.38,
+      "key": "neural_model",
+      "model_name": "Neural model",
+      "privacy_risk": 0.18,
+      "requires_review": true,
+      "review_class": "high_stakes_review_required",
+      "subgroup_error_gap": 0.19,
+      "validation_score": 0.86
+    },
+    {
+      "calibration_error": 0.035,
+      "deployment_criticality": 0.66,
+      "drift_score": 0.1,
+      "governance_score": 0.339,
+      "interpretability_score": 0.78,
+      "key": "constrained_model",
+      "model_name": "Constrained calibrated model",
+      "privacy_risk": 0.09,
+      "requires_review": false,
+      "review_class": "deployment_candidate",
+      "subgroup_error_gap": 0.06,
+      "validation_score": 0.81
+    }
+  ],
+  "deployment_summary": {
+    "best_governed_candidate": "Constrained calibrated model",
+    "candidate_count": 4,
+    "max_governance_score": 0.339,
+    "mean_governance_score": 0.01375,
+    "min_governance_score": -0.52,
+    "review_required_count": 2
+  },
+  "diagnostic_checks": [
+    "model purpose is stated",
+    "data domain is documented",
+    "validation score is not the only criterion",
+    "calibration error is reviewed",
+    "subgroup error gap is reviewed",
+    "drift score is reviewed",
+    "privacy risk is reviewed",
+    "interpretability and human review remain required"
+  ],
+  "use_limit": "This workflow supports AI model governance review; it does not certify a model for deployment, automate high-stakes decisions, or replace domain, legal, security, privacy, and ethics review."
+}

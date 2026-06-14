@@ -1,0 +1,5 @@
+key,model_name,validation_score,calibration_error,subgroup_error_gap,drift_score,interpretability_score,privacy_risk,deployment_criticality
+baseline_logistic,Baseline logistic model,0.76,0.050,0.080,0.120,0.920,0.080,0.62
+tree_ensemble,Tree ensemble,0.83,0.070,0.140,0.180,0.620,0.130,0.70
+neural_model,Neural model,0.86,0.095,0.190,0.240,0.380,0.180,0.82
+constrained_model,Constrained calibrated model,0.81,0.035,0.060,0.100,0.780,0.090,0.66

@@ -1,0 +1,34 @@
+{
+  "article_slug": "mathematical-modeling-in-artificial-intelligence-and-data-systems",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "ai-data-systems-governance",
+  "cards": [
+    {
+      "card_id": "ai-model-register",
+      "title": "AI Model Register",
+      "description": "Tracks model role, model family, data domain, decision context, and review status."
+    },
+    {
+      "card_id": "ai-model-candidate-review",
+      "title": "AI Model Candidate Review",
+      "description": "Compares validation score, calibration error, subgroup error gap, drift score, interpretability, privacy risk, criticality, and governance score."
+    },
+    {
+      "card_id": "ai-model-governance-card",
+      "title": "AI Model Governance Card",
+      "description": "Documents model purpose, data domain, validation, calibration, subgroup error, drift, privacy, interpretability, human review, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_model_purpose_statement": true,
+    "requires_data_generating_process_review": true,
+    "requires_feature_and_label_audit": true,
+    "requires_validation_report": true,
+    "requires_calibration_review": true,
+    "requires_subgroup_error_review": true,
+    "requires_drift_monitoring": true,
+    "requires_privacy_review": true,
+    "requires_human_review_protocol": true,
+    "requires_use_limit_statement": true
+  }
+}
