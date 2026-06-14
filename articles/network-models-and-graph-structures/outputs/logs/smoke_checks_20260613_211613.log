@@ -1,0 +1,42 @@
+Network models and graph structures workflow complete.
+Network records: 6
+Edges: 10
+Outputs: outputs
+pytest: skipped_or_failed
+null device 
+          1 
+                node in_degree out_degree total_degree weighted_in_degree
+1 communications_hub         1          2            3               0.85
+2    emergency_depot         1          1            2               0.55
+3         fuel_depot         1          1            2               0.65
+4           hospital         5          0            5               3.70
+5   power_substation         1          3            4               0.60
+6      transport_hub         0          2            2               0.00
+7    water_treatment         1          1            2               0.90
+  weighted_out_degree reachable_nodes               structural_review
+1                1.25               2 high structural review priority
+2                0.75               1                  routine review
+3                0.60               5                  routine review
+4                0.00               0                  routine review
+5                2.70               4 high structural review priority
+6                1.15               6 high structural review priority
+7                0.80               1                  routine review
+mkdir -p outputs/tables
+sqlite3 outputs/tables/network_models_graph_structures.sqlite < sql/schema.sql
+sqlite3 outputs/tables/network_models_graph_structures.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+cd go && go run main.go
+go edge_count=10 node_count=7
+transport_hub in_degree=0 out_degree=2 weighted_out=1.15
+emergency_depot in_degree=1 out_degree=1 weighted_out=0.75
+power_substation in_degree=1 out_degree=3 weighted_out=2.70
+hospital in_degree=5 out_degree=0 weighted_out=0.00
+water_treatment in_degree=1 out_degree=1 weighted_out=0.80
+communications_hub in_degree=1 out_degree=2 weighted_out=1.25
+fuel_depot in_degree=1 out_degree=1 weighted_out=0.60
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 network_graph_diagnostics.cpp -o network_graph_diagnostics
+./network_graph_diagnostics > ../outputs/tables/cpp_network_graph_diagnostics.txt
+gfortran -O2 fortran/network_graph_diagnostics.f90 -o outputs/network_graph_diagnostics_fortran
+./outputs/network_graph_diagnostics_fortran > outputs/tables/fortran_network_diagnostics.txt
+cc -O2 -std=c11 c/network_graph_diagnostics.c -o outputs/network_graph_diagnostics_c
+./outputs/network_graph_diagnostics_c > outputs/tables/c_network_node_diagnostics.csv 2> outputs/logs/c_network_graph_stderr.log
