@@ -1,0 +1,5 @@
+assumption_key,concept_name,formal_role,systems_modeling_role,review_warning
+epsilon_delta,Epsilon-delta limit,Defines local convergence through quantified tolerances,Clarifies what it means for model outputs to approach a target under input refinement,Requires an admissible domain and a specified output metric
+sequential_limit,Sequential characterization,Tests limits through all admissible sequences approaching the target,Useful for identifying path-dependent or sequence-dependent model behavior,A single sequence is not enough to prove a limit but two conflicting sequences can disprove one
+uniform_convergence,Uniform convergence,Controls convergence across an entire domain using a supremum norm,Supports stronger claims about global approximation behavior,Pointwise convergence alone may not preserve continuity or stability
+interchange_limits,Interchange of limits and operations,Concerns when limits commute with integration differentiation expectation or optimization,Important for simulation aggregation uncertainty and sensitivity analysis,Requires additional hypotheses such as domination uniform convergence compactness or stability

@@ -1,0 +1,12 @@
+{
+  "advanced_standard": true,
+  "article": "Limits and the Formal Basis of Calculus",
+  "interpretive_warning": "Finite numerical approximations support but do not replace formal limiting arguments.",
+  "methods": [
+    "forward_difference",
+    "central_difference",
+    "richardson_extrapolation",
+    "epsilon_band_review"
+  ],
+  "series": "Calculus for Systems Modeling"
+}

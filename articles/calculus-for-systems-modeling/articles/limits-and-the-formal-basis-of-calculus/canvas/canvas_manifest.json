@@ -1,0 +1,35 @@
+{
+  "article_slug": "limits-and-the-formal-basis-of-calculus",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "limits-formal-basis",
+  "advanced_standard": true,
+  "cards": [
+    {
+      "card_id": "epsilon-delta",
+      "title": "Epsilon-Delta Limits",
+      "description": "Formal local convergence through quantified input and output tolerances."
+    },
+    {
+      "card_id": "sequential-formulation",
+      "title": "Sequential Formulation",
+      "description": "A limit can be tested by all admissible sequences approaching the target."
+    },
+    {
+      "card_id": "uniform-convergence",
+      "title": "Uniform Convergence",
+      "description": "A stronger convergence mode that preserves more structure than pointwise convergence."
+    },
+    {
+      "card_id": "numerical-convergence",
+      "title": "Numerical Convergence",
+      "description": "Finite approximations require convergence-order, stability, and roundoff review."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "counterexamples_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

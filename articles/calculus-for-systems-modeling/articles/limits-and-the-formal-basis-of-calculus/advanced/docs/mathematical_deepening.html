@@ -1,0 +1,63 @@
+<h2 id="mathematical-deepening">Mathematical Deepening</h2>
+
+<p>This section strengthens the article for mathematically advanced readers by clarifying formal definitions, propositions, counterexamples, convergence modes, and numerical-analysis warnings.</p>
+
+<section class="cc-method-section" id="advanced-formal-definitions">
+
+<h3>Formal Definitions</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Limit Point</h3>
+<p>A point \(a\) is a limit point of \(D\) if every neighborhood of \(a\) contains a point of \(D\setminus\{a\}\). A function limit at \(a\) is meaningful only through admissible points of the domain.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Metric-Space Limit</h3>
+<p>For metric spaces \((X,d_X)\) and \((Y,d_Y)\), the statement \(\lim_{x\to a}f(x)=L\) means output distance can be controlled by sufficiently small input distance.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Sequential Characterization</h3>
+<p>In metric spaces, \(f(x)\to L\) as \(x\to a\) if and only if every admissible sequence \(x_n\to a\), with \(x_n\neq a\), satisfies \(f(x_n)\to L\).</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Uniform Convergence</h3>
+<p>Uniform convergence controls the supremum of errors across a domain. It is stronger than pointwise convergence and preserves more structure.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cc-method-section" id="advanced-propositions-counterexamples">
+
+<h3>Propositions and Counterexamples</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Proposition: Uniqueness</h3>
+<p>In a Hausdorff space, a limit is unique. Metric spaces satisfy this condition.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Proposition: Compactness</h3>
+<p>A continuous real-valued function on a compact domain attains its extrema. Optimization claims require the relevant compactness and continuity assumptions.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Counterexample: Pointwise Is Not Uniform</h3>
+<p>The functions \(x^n\) on \([0,1]\) converge pointwise to a discontinuous limit. Pointwise convergence alone does not preserve continuity.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Numerical Counterexample</h3>
+<p>In finite precision, shrinking \(h\) in a difference quotient eventually worsens error because roundoff and cancellation dominate truncation error.</p>
+</div>
+
+</div>
+
+</section>

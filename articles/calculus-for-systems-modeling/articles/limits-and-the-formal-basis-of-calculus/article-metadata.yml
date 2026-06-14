@@ -1,0 +1,22 @@
+actual_title: "Limits and the Formal Basis of Calculus"
+suggested_seo_title: "Limits and the Formal Basis of Calculus in Systems Modeling"
+focus_keyword: "limits formal basis of calculus"
+slug: "limits-and-the-formal-basis-of-calculus"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "infinity-infinitesimals-and-the-historical-problem-of-change"
+  current: "limits-and-the-formal-basis-of-calculus"
+  next: "continuity-discontinuity-and-structural-breaks"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/limits-and-the-formal-basis-of-calculus"
+tags:
+  - Calculus
+  - Limits
+  - Real Analysis
+  - Continuity
+  - Systems Modeling
+  - Numerical Analysis
+  - Convergence
+  - Reproducible Workflows
+excerpt_139_words: "Limits provide the formal basis of calculus by making precise the ideas of local change, accumulation, convergence, continuity, and approximation. This article explains limits through intuitive, epsilon-delta, sequential, topological, one-sided, infinite, and function-convergence formulations, then connects those ideas to derivatives, integrals, numerical methods, and systems modeling. It is written for mathematically advanced readers as well as systems modelers, with sections on limit points, metric-space definitions, uniqueness, continuity, compactness, uniform convergence, counterexamples, noncommuting limits, and boundary behavior. The article shows why models of population growth, infrastructure fatigue, climate accumulation, disease transmission, resource depletion, and scientific computing depend on limiting arguments. Companion workflows in Python, R, SQL, and Haskell include convergence-order checks, epsilon bands, Richardson extrapolation, roundoff review, typed limit experiments, assumption registries, and advanced mathematical audit reports."
+advanced_standard: true

@@ -1,0 +1,5 @@
+epsilon,label
+0.1,coarse_tolerance
+0.01,moderate_tolerance
+0.001,fine_tolerance
+0.0001,strict_tolerance

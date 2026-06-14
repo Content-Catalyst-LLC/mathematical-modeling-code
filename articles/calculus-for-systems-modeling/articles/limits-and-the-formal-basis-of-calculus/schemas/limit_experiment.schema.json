@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LimitExperiment",
+  "type": "object",
+  "required": ["method", "x", "h", "estimate", "exact", "absolute_error"],
+  "properties": {
+    "method": {"type": "string"},
+    "x": {"type": "number"},
+    "h": {"type": "number", "exclusiveMinimum": 0},
+    "estimate": {"type": "number"},
+    "exact": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0}
+  }
+}

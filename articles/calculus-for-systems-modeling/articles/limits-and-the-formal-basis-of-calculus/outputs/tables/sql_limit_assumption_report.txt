@@ -1,0 +1,34 @@
+section                  
+-------------------------
+LIMIT ASSUMPTION REGISTRY
+concept_name                          formal_role                                                   systems_modeling_role                                         review_warning                                              
+------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Epsilon-delta limit                   Defines local convergence through quantified tolerances.      Clarifies what it means for model outputs to approach a targ  Requires an admissible domain and a specified output metric.
+                                                                                                    et under input refinement.                                                                                                
+
+Interchange of limits and operations  Concerns when limits commute with integration, differentiati  Important for simulation, aggregation, uncertainty, and sens  Requires additional hypotheses such as domination, uniform c
+                                      on, expectation, or optimization.                             itivity analysis.                                             onvergence, compactness, or stability.                      
+
+Sequential characterization           Tests limits through all admissible sequences approaching th  Useful for identifying path-dependent or sequence-dependent   A single sequence is not enough to prove a limit, but two co
+                                      e target.                                                     model behavior.                                               nflicting sequences can disprove one.                       
+
+Uniform convergence                   Controls convergence across an entire domain using a supremu  Supports stronger claims about global approximation behavior  Pointwise convergence alone may not preserve continuity or s
+                                      m norm.                                                       .                                                             tability.                                                   
+section      
+-------------
+EPSILON BANDS
+epsilon_key  epsilon_value  interpretation                                           
+-----------  -------------  ---------------------------------------------------------
+coarse       0.1            Coarse tolerance for exploratory checks.                 
+moderate     0.01           Moderate tolerance for computational review.             
+fine         0.001          Fine tolerance for convergence review.                   
+strict       0.0001         Strict tolerance; review roundoff and method assumptions.
+section          
+-----------------
+CONVERGENCE MODES
+mode_name              mathematical_strength                               modeling_warning                                            
+---------------------  --------------------------------------------------  ------------------------------------------------------------
+Norm convergence       Depends on chosen function-space norm.              Interpretation changes with norm selection.                 
+Pointwise convergence  Weak for global preservation.                       May fail to preserve continuity or stability.               
+Uniform convergence    Stronger global control over a domain.              Requires domain-wide error control, not only sampled checks.
+Weak convergence       Often used in probability and functional analysis.  May not control pointwise behavior or strong error.         

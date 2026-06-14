@@ -1,0 +1,47 @@
+{
+  "advanced_standard": true,
+  "article": "Limits and the Formal Basis of Calculus",
+  "formal_topics": [
+    "epsilon_delta_definition",
+    "sequential_characterization",
+    "metric_space_limits",
+    "uniform_vs_pointwise_convergence",
+    "noncommuting_limits",
+    "boundary_and_pathology_review"
+  ],
+  "invariant_failures": [
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": -0.05
+    },
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": 1.1
+    }
+  ],
+  "median_estimated_orders": {
+    "central_difference": 2.0000845328362873,
+    "forward_difference": 1.0090639159649584,
+    "richardson_central": 4.000984967303182
+  },
+  "numerical_methods": [
+    "forward_difference",
+    "central_difference",
+    "richardson_extrapolation",
+    "convergence_order_estimation",
+    "roundoff_review",
+    "invariant_interval_review"
+  ],
+  "warnings": [
+    "Finite numerical approximations do not prove formal limits.",
+    "Pointwise convergence does not imply uniform convergence.",
+    "Interchanging limits with derivatives, integrals, expectations, or optimization requires additional hypotheses.",
+    "Shrinking step size can eventually worsen finite-difference estimates because of roundoff and cancellation."
+  ]
+}
