@@ -1,0 +1,5 @@
+key,evidence_strength,uncertainty_level,consequence_level,automation_bias_risk,accountability_clarity,judgment_risk_score,review_class
+problem_frame,0.720000,0.580000,0.800000,0.450000,0.700000,0.512500,human_review_required
+data_fit,0.620000,0.660000,0.750000,0.500000,0.650000,0.557500,human_review_required
+model_use,0.680000,0.700000,0.880000,0.720000,0.550000,0.628000,human_review_required
+public_summary,0.760000,0.620000,0.820000,0.600000,0.720000,0.538000,human_review_required

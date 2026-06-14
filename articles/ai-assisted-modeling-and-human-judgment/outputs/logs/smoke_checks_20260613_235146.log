@@ -1,0 +1,89 @@
+
+[1;34m[23:51:48][0m Python workflow
+AI-assisted modeling and human judgment workflow complete.
+AI assistance records: 5
+Human judgment cases: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[23:51:48][0m R workflow
+null device 
+          1 
+                  key  modeling_stage                 ai_role
+2     code_generation     computation          code_assistant
+3  diagnostic_summary      validation         diagnostic_aide
+4 communication_draft   communication documentation_assistant
+1   scenario_drafting scenario_design          idea_generator
+5 governance_template      governance        review_companion
+        artifact_type provenance_required human_review_required status
+2        model_script                True                  True review
+3   diagnostic_report                True                  True review
+4      public_summary                True                  True review
+1       scenario_list                True                  True review
+5 use_limit_statement                True                  True active
+  review_priority
+2               8
+3               8
+4               8
+1               7
+5               4
+  highest_risk_judgment_point mean_judgment_risk_score max_judgment_risk_score
+1       approved use decision                    0.559                   0.628
+  escalation_count case_count
+1                0          4
+             key         judgment_point
+3      model_use  approved use decision
+2       data_fit  data fitness judgment
+4 public_summary communication approval
+1  problem_frame        problem framing
+                             decision_context evidence_strength
+3 moving from exploratory to decision support              0.68
+2                using administrative records              0.62
+4                    publishing model results              0.76
+1          public infrastructure stress model              0.72
+  uncertainty_level consequence_level automation_bias_risk
+3              0.70              0.88                 0.72
+2              0.66              0.75                 0.50
+4              0.62              0.82                 0.60
+1              0.58              0.80                 0.45
+  accountability_clarity judgment_risk_score          review_class
+3                   0.55              0.6280 human_review_required
+2                   0.65              0.5575 human_review_required
+4                   0.72              0.5380 human_review_required
+1                   0.70              0.5125 human_review_required
+  requires_use_limit_statement requires_uncertainty_brief
+3                         True                       True
+2                         True                       True
+4                         True                       True
+1                         True                      False
+  requires_accountability_owner
+3                          True
+2                          True
+4                         False
+1                         False
+
+[1;34m[23:51:48][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/ai_assisted_modeling_and_human_judgment.sqlite < sql/schema.sql
+sqlite3 outputs/tables/ai_assisted_modeling_and_human_judgment.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[23:51:48][0m Go workflow
+cd go && go run main.go
+key,evidence_strength,uncertainty_level,consequence_level,automation_bias_risk,accountability_clarity,judgment_risk_score,review_class
+problem_frame,0.720000,0.580000,0.800000,0.450000,0.700000,0.512500,human_review_required
+data_fit,0.620000,0.660000,0.750000,0.500000,0.650000,0.557500,human_review_required
+model_use,0.680000,0.700000,0.880000,0.720000,0.550000,0.628000,human_review_required
+public_summary,0.760000,0.620000,0.820000,0.600000,0.720000,0.538000,human_review_required
+
+[1;34m[23:51:49][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 human_judgment_risk_summary.cpp -o human_judgment_risk_summary
+./human_judgment_risk_summary > ../outputs/tables/cpp_human_judgment_risk_summary.csv 2> ../outputs/logs/cpp_human_judgment_risk_stderr.log
+
+[1;34m[23:51:50][0m Fortran workflow
+gfortran -O2 fortran/human_judgment_risk_summary.f90 -o outputs/human_judgment_risk_summary_fortran
+./outputs/human_judgment_risk_summary_fortran > outputs/tables/fortran_human_judgment_risk_summary.txt
+
+[1;34m[23:51:51][0m C workflow
+cc -O2 -std=c11 c/human_judgment_risk_summary.c -o outputs/human_judgment_risk_summary_c -lm
+./outputs/human_judgment_risk_summary_c > outputs/tables/c_human_judgment_risk_summary.csv 2> outputs/logs/c_human_judgment_risk_stderr.log

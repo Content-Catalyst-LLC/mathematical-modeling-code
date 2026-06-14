@@ -1,0 +1,134 @@
+{
+  "ai_assistance_register": [
+    {
+      "ai_role": "idea_generator",
+      "artifact_type": "scenario_list",
+      "human_review_required": true,
+      "key": "scenario_drafting",
+      "modeling_stage": "scenario_design",
+      "provenance_required": true,
+      "review_priority": 7.0,
+      "status": "review"
+    },
+    {
+      "ai_role": "code_assistant",
+      "artifact_type": "model_script",
+      "human_review_required": true,
+      "key": "code_generation",
+      "modeling_stage": "computation",
+      "provenance_required": true,
+      "review_priority": 8.0,
+      "status": "review"
+    },
+    {
+      "ai_role": "diagnostic_aide",
+      "artifact_type": "diagnostic_report",
+      "human_review_required": true,
+      "key": "diagnostic_summary",
+      "modeling_stage": "validation",
+      "provenance_required": true,
+      "review_priority": 8.0,
+      "status": "review"
+    },
+    {
+      "ai_role": "documentation_assistant",
+      "artifact_type": "public_summary",
+      "human_review_required": true,
+      "key": "communication_draft",
+      "modeling_stage": "communication",
+      "provenance_required": true,
+      "review_priority": 8.0,
+      "status": "review"
+    },
+    {
+      "ai_role": "review_companion",
+      "artifact_type": "use_limit_statement",
+      "human_review_required": true,
+      "key": "governance_template",
+      "modeling_stage": "governance",
+      "provenance_required": true,
+      "review_priority": 4.0,
+      "status": "active"
+    }
+  ],
+  "article": "AI-Assisted Modeling and Human Judgment",
+  "diagnostic_checks": [
+    "AI assistance role is recorded",
+    "artifact type is recorded",
+    "provenance requirement is explicit",
+    "human review requirement is explicit",
+    "judgment risk is scored",
+    "use-limit and uncertainty briefs are flagged",
+    "accountability owner requirement is preserved"
+  ],
+  "human_judgment_review": [
+    {
+      "accountability_clarity": 0.7,
+      "automation_bias_risk": 0.45,
+      "consequence_level": 0.8,
+      "decision_context": "public infrastructure stress model",
+      "evidence_strength": 0.72,
+      "judgment_point": "problem framing",
+      "judgment_risk_score": 0.5125,
+      "key": "problem_frame",
+      "requires_accountability_owner": false,
+      "requires_uncertainty_brief": false,
+      "requires_use_limit_statement": true,
+      "review_class": "human_review_required",
+      "uncertainty_level": 0.58
+    },
+    {
+      "accountability_clarity": 0.65,
+      "automation_bias_risk": 0.5,
+      "consequence_level": 0.75,
+      "decision_context": "using administrative records",
+      "evidence_strength": 0.62,
+      "judgment_point": "data fitness judgment",
+      "judgment_risk_score": 0.5575,
+      "key": "data_fit",
+      "requires_accountability_owner": true,
+      "requires_uncertainty_brief": true,
+      "requires_use_limit_statement": true,
+      "review_class": "human_review_required",
+      "uncertainty_level": 0.66
+    },
+    {
+      "accountability_clarity": 0.55,
+      "automation_bias_risk": 0.72,
+      "consequence_level": 0.88,
+      "decision_context": "moving from exploratory to decision support",
+      "evidence_strength": 0.68,
+      "judgment_point": "approved use decision",
+      "judgment_risk_score": 0.628,
+      "key": "model_use",
+      "requires_accountability_owner": true,
+      "requires_uncertainty_brief": true,
+      "requires_use_limit_statement": true,
+      "review_class": "human_review_required",
+      "uncertainty_level": 0.7
+    },
+    {
+      "accountability_clarity": 0.72,
+      "automation_bias_risk": 0.6,
+      "consequence_level": 0.82,
+      "decision_context": "publishing model results",
+      "evidence_strength": 0.76,
+      "judgment_point": "communication approval",
+      "judgment_risk_score": 0.538,
+      "key": "public_summary",
+      "requires_accountability_owner": false,
+      "requires_uncertainty_brief": true,
+      "requires_use_limit_statement": true,
+      "review_class": "human_review_required",
+      "uncertainty_level": 0.62
+    }
+  ],
+  "judgment_summary": {
+    "case_count": 4,
+    "escalation_count": 0,
+    "highest_risk_judgment_point": "approved use decision",
+    "max_judgment_risk_score": 0.628,
+    "mean_judgment_risk_score": 0.559
+  },
+  "use_limit": "This workflow supports AI-assisted modeling review, provenance tracking, and human judgment governance; it does not permit AI-generated artifacts to serve as final decision authority without human review, validation, and accountability."
+}

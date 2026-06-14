@@ -1,0 +1,60 @@
+section      
+-------------
+AI ROLE TYPES
+ai_role                  appropriate_use                                               role_boundary                                        
+-----------------------  ------------------------------------------------------------  -----------------------------------------------------
+code_assistant           Draft implementation tests and documentation                  Generated code must be inspected and reproduced.     
+diagnostic_aide          Summarize errors sensitivity anomalies and missing checks     Diagnostics require expert interpretation.           
+documentation_assistant  Draft assumptions limitations and governance records          Documentation must be verified by accountable humans.
+idea_generator           Suggest variables mechanisms scenarios and assumptions        Suggestions require evidence and review.             
+review_companion         Generate challenge questions and alternative interpretations  Final review authority remains human.                
+section                               
+--------------------------------------
+AI ASSISTANCE RECORDS REQUIRING REVIEW
+record_key           modeling_stage   ai_role                  artifact_type        provenance_required  human_review_required  status
+-------------------  ---------------  -----------------------  -------------------  -------------------  ---------------------  ------
+scenario_drafting    scenario_design  idea_generator           scenario_list        1                    1                      review
+code_generation      computation      code_assistant           model_script         1                    1                      review
+diagnostic_summary   validation       diagnostic_aide          diagnostic_report    1                    1                      review
+communication_draft  communication    documentation_assistant  public_summary       1                    1                      review
+governance_template  governance       review_companion         use_limit_statement  1                    1                      active
+section                   
+--------------------------
+HUMAN JUDGMENT RISK REVIEW
+case_key        judgment_point          decision_context                             judgment_risk_score  review_class           requires_use_limit_statement  requires_uncertainty_brief  requires_accountability_owner
+--------------  ----------------------  -------------------------------------------  -------------------  ---------------------  ----------------------------  --------------------------  -----------------------------
+model_use       approved use decision   moving from exploratory to decision support  0.628                human_review_required  yes                           yes                         yes                          
+data_fit        data fitness judgment   using administrative records                 0.557                human_review_required  yes                           yes                         yes                          
+public_summary  communication approval  publishing model results                     0.538                human_review_required  yes                           yes                         no                           
+problem_frame   problem framing         public infrastructure stress model           0.513                human_review_required  yes                           no                          no                           
+section                          
+---------------------------------
+AI-ASSISTED MODELING DOMAIN GUIDE
+area             review_use                                                    typical_artifacts                                           
+---------------  ------------------------------------------------------------  ------------------------------------------------------------
+ai_assistance    Track where AI was used and what it produced                  AI use log prompt log candidate artifact register           
+
+communication    Review generated summaries for overclaiming and missing unce  communication brief caveat review public summary status     
+                 rtainty                                                                                                                   
+
+data_review      Check data provenance measurement and missingness             data lineage data quality report proxy audit                
+
+governance       Assign responsibility escalation and use limits               governance card model owner decision owner use-limit stateme
+                                                                               nt                                                          
+
+model_design     Review generated equations code and model structures          model design rationale code review record                   
+
+monitoring       Track drift error misuse and revision needs                   monitoring plan incident log retirement criteria            
+
+problem_framing  Define purpose and modeling boundary                          purpose statement stakeholder note AI role policy           
+
+validation       Check model logic diagnostics and intended-use evidence       validation checklist test report sensitivity analysis       
+section                                    
+-------------------------------------------
+HIGH-ATTENTION AI-ASSISTED MODELING TARGETS
+case_key        judgment_point          decision_context                           
+--------------  ----------------------  -------------------------------------------
+problem_frame   problem framing         public infrastructure stress model         
+data_fit        data fitness judgment   using administrative records               
+model_use       approved use decision   moving from exploratory to decision support
+public_summary  communication approval  publishing model results                   

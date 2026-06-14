@@ -1,0 +1,19 @@
+actual_title: "AI-Assisted Modeling and Human Judgment"
+suggested_seo_title: "AI-Assisted Modeling and Human Judgment: How Mathematical Models, Artificial Intelligence, and Human Oversight Should Work Together"
+focus_keyword: "AI-assisted modeling and human judgment"
+slug: "ai-assisted-modeling-and-human-judgment"
+series: "Mathematical Modeling"
+article_order:
+  previous: "model-governance-and-accountability"
+  current: "ai-assisted-modeling-and-human-judgment"
+  next: "future-directions-in-mathematical-modeling"
+tags:
+  - Mathematical Modeling
+  - Artificial Intelligence
+  - Human Judgment
+  - Model Governance
+  - Responsible AI
+  - Decision Support
+  - Uncertainty
+  - Accountability
+excerpt_139_words: "AI-assisted modeling and human judgment examines how artificial intelligence can support mathematical modeling without replacing responsible interpretation, domain expertise, ethical review, and decision ownership. AI systems can help generate hypotheses, organize data, propose model structures, write code, compare scenarios, detect anomalies, summarize results, and accelerate documentation. But AI assistance also creates risks: hallucinated assumptions, hidden bias, weak provenance, automation bias, overconfident outputs, untested model logic, and blurred accountability. This article explains how AI should be used as a modeling assistant rather than a final authority. It emphasizes human review, transparent assumptions, reproducible workflows, uncertainty communication, validation, escalation rules, model governance, and accountable decision-making. In responsible modeling, AI belongs in the toolkit, but human judgment remains responsible for purpose, evidence, interpretation, values, consequences, and use."

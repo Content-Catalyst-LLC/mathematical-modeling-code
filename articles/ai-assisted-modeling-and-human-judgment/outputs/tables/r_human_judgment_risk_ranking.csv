@@ -1,0 +1,5 @@
+"key","judgment_point","decision_context","evidence_strength","uncertainty_level","consequence_level","automation_bias_risk","accountability_clarity","judgment_risk_score","review_class","requires_use_limit_statement","requires_uncertainty_brief","requires_accountability_owner"
+"model_use","approved use decision","moving from exploratory to decision support",0.68,0.7,0.88,0.72,0.55,0.628,"human_review_required","True","True","True"
+"data_fit","data fitness judgment","using administrative records",0.62,0.66,0.75,0.5,0.65,0.5575,"human_review_required","True","True","True"
+"public_summary","communication approval","publishing model results",0.76,0.62,0.82,0.6,0.72,0.538,"human_review_required","True","True","False"
+"problem_frame","problem framing","public infrastructure stress model",0.72,0.58,0.8,0.45,0.7,0.5125,"human_review_required","True","False","False"

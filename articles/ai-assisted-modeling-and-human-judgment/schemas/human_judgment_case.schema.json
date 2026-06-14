@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HumanJudgmentCase",
+  "type": "object",
+  "required": [
+    "key",
+    "judgment_point",
+    "decision_context",
+    "evidence_strength",
+    "uncertainty_level",
+    "consequence_level",
+    "automation_bias_risk",
+    "accountability_clarity"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "judgment_point": {"type": "string"},
+    "decision_context": {"type": "string"},
+    "evidence_strength": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "consequence_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "automation_bias_risk": {"type": "number", "minimum": 0, "maximum": 1},
+    "accountability_clarity": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

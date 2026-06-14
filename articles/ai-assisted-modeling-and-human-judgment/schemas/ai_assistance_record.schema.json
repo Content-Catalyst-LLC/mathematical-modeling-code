@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIAssistanceRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "modeling_stage",
+    "ai_role",
+    "artifact_type",
+    "provenance_required",
+    "human_review_required",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "modeling_stage": {"type": "string"},
+    "ai_role": {"type": "string"},
+    "artifact_type": {"type": "string"},
+    "provenance_required": {"type": "boolean"},
+    "human_review_required": {"type": "boolean"},
+    "status": {"type": "string", "enum": ["exploratory", "draft", "active", "review", "revise", "approved", "archive", "retired"]}
+  }
+}

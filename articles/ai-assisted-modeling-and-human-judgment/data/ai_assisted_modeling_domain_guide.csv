@@ -1,0 +1,9 @@
+area,review_use,typical_artifacts
+problem_framing,Define purpose and modeling boundary,purpose statement stakeholder note AI role policy
+data_review,Check data provenance measurement and missingness,data lineage data quality report proxy audit
+ai_assistance,Track where AI was used and what it produced,AI use log prompt log candidate artifact register
+model_design,Review generated equations code and model structures,model design rationale code review record
+validation,Check model logic diagnostics and intended-use evidence,validation checklist test report sensitivity analysis
+communication,Review generated summaries for overclaiming and missing uncertainty,communication brief caveat review public summary status
+governance,Assign responsibility escalation and use limits,governance card model owner decision owner use-limit statement
+monitoring,Track drift error misuse and revision needs,monitoring plan incident log retirement criteria

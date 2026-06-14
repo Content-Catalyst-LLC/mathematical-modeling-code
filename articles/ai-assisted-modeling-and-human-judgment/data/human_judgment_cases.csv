@@ -1,0 +1,5 @@
+key,judgment_point,decision_context,evidence_strength,uncertainty_level,consequence_level,automation_bias_risk,accountability_clarity
+problem_frame,problem framing,public infrastructure stress model,0.72,0.58,0.80,0.45,0.70
+data_fit,data fitness judgment,using administrative records,0.62,0.66,0.75,0.50,0.65
+model_use,approved use decision,moving from exploratory to decision support,0.68,0.70,0.88,0.72,0.55
+public_summary,communication approval,publishing model results,0.76,0.62,0.82,0.60,0.72

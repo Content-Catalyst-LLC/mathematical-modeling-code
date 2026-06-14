@@ -1,0 +1,6 @@
+key,modeling_stage,ai_role,artifact_type,provenance_required,human_review_required,status,review_priority
+scenario_drafting,scenario_design,idea_generator,scenario_list,True,True,review,7.0
+code_generation,computation,code_assistant,model_script,True,True,review,8.0
+diagnostic_summary,validation,diagnostic_aide,diagnostic_report,True,True,review,8.0
+communication_draft,communication,documentation_assistant,public_summary,True,True,review,8.0
+governance_template,governance,review_companion,use_limit_statement,True,True,active,4.0
