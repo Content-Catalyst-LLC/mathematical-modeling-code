@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EngineeringModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "engineering_domain",
+    "model_role",
+    "model_family",
+    "design_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "engineering_domain": {"type": "string"},
+    "model_role": {
+      "type": "string",
+      "enum": ["initial_design", "safety_review", "tradeoff_analysis", "uncertainty_review", "validation"]
+    },
+    "model_family": {"type": "string"},
+    "design_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

@@ -1,0 +1,9 @@
+engineering_field,modeling_use,typical_model_forms
+civil_engineering,Structures soils water systems transportation and infrastructure risk,Structural models hydrologic models network models
+mechanical_engineering,Motion stress heat vibration machines and manufacturing,Dynamics finite element models thermal models
+electrical_engineering,Circuits signals power systems communication and control,Circuit models signal models network flow control systems
+chemical_engineering,Reaction systems transport process design and safety,Mass balance reaction kinetics process simulations
+aerospace_engineering,Flight propulsion aerodynamics structures and control,Fluid dynamics control models structural simulations
+environmental_engineering,Water waste air quality remediation and sustainability systems,Transport models fate models system simulations
+software_engineering,Performance reliability networks queues and architecture,Queueing models reliability models formal models
+systems_engineering,Complex system integration requirements risk and lifecycle design,Architecture models optimization simulation decision models

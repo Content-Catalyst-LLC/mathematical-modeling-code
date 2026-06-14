@@ -1,0 +1,5 @@
+key max_stress_pa stress_margin_pa safety_factor estimated_mass_kg passes_stress_constraint
+light_design  9228515.625 ************  15.7122    301.440 T
+balanced_design  5833333.333 ************  24.8571    423.900 T
+stiff_design  3254132.231 ************  44.5587    621.720 T
+overloaded_case  9722222.222 ************  14.9143    423.900 T

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BeamDesign",
+  "type": "object",
+  "required": [
+    "key",
+    "width_m",
+    "height_m",
+    "span_m",
+    "load_n",
+    "allowable_stress_pa",
+    "material_density_kg_m3"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "width_m": {"type": "number"},
+    "height_m": {"type": "number"},
+    "span_m": {"type": "number"},
+    "load_n": {"type": "number"},
+    "allowable_stress_pa": {"type": "number"},
+    "material_density_kg_m3": {"type": "number"}
+  }
+}

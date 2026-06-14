@@ -1,0 +1,65 @@
+section                     
+----------------------------
+ENGINEERING MODEL ROLE TYPES
+model_role          description                                                   typical_failure                                            
+------------------  ------------------------------------------------------------  -----------------------------------------------------------
+initial_design      Rough sizing and feasibility analysis.                        Conceptual model is mistaken for validated design evidence.
+
+safety_review       Safety margins, constraints, and failure mode review.         Expected performance is checked without failure analysis.  
+
+tradeoff_analysis   Objective and constraint comparison across design alternativ  Optimization hides safety or value tradeoffs.              
+                    es.                                                                                                                      
+
+uncertainty_review  Sensitivity, tolerance, and robustness assessment.            Baseline assumptions are treated as certain.               
+
+validation          Testing and comparison with evidence.                         Simulation is treated as field validation.                 
+section                                   
+------------------------------------------
+ENGINEERING MODEL RECORDS REQUIRING REVIEW
+record_key          engineering_domain       model_role          model_family              design_question                                 
+------------------  -----------------------  ------------------  ------------------------  ------------------------------------------------
+safety_model        structural_engineering   safety_review       limit_state_model         Does the design maintain positive stress margin?
+optimization_model  engineering_design       tradeoff_analysis   constrained_optimization  Which design balances weight and safety margin? 
+uncertainty_model   reliability_engineering  uncertainty_review  sensitivity_analysis      Which assumptions most affect safety margin?    
+validation_model    engineering_testing      validation          test_comparison           What test evidence is needed before use?        
+section                  
+-------------------------
+BEAM DESIGN SAFETY REVIEW
+design_key       width_m  height_m  load_n  max_stress_pa  stress_margin_pa  safety_factor  review_class
+---------------  -------  --------  ------  -------------  ----------------  -------------  ------------
+stiff_design     0.12     0.22      4200.0  3254132.231    141745867.769     44.559         acceptable  
+balanced_design  0.1      0.18      4200.0  5833333.333    139166666.667     24.857         acceptable  
+light_design     0.08     0.16      4200.0  9228515.625    135771484.375     15.712         acceptable  
+overloaded_case  0.1      0.18      7000.0  9722222.222    135277777.778     14.914         acceptable  
+section                       
+------------------------------
+DISCIPLINARY ENGINEERING GUIDE
+engineering_field          modeling_use                                                  typical_model_forms                                        
+-------------------------  ------------------------------------------------------------  -----------------------------------------------------------
+aerospace_engineering      Flight propulsion aerodynamics structures and control         Fluid dynamics control models structural simulations       
+
+chemical_engineering       Reaction systems transport process design and safety          Mass balance reaction kinetics process simulations         
+
+civil_engineering          Structures soils water systems transportation and infrastruc  Structural models hydrologic models network models         
+                           ture risk                                                                                                                
+
+electrical_engineering     Circuits signals power systems communication and control      Circuit models signal models network flow control systems  
+
+environmental_engineering  Water waste air quality remediation and sustainability syste  Transport models fate models system simulations            
+                           ms                                                                                                                       
+
+mechanical_engineering     Motion stress heat vibration machines and manufacturing       Dynamics finite element models thermal models              
+
+software_engineering       Performance reliability networks queues and architecture      Queueing models reliability models formal models           
+
+systems_engineering        Complex system integration requirements risk and lifecycle d  Architecture models optimization simulation decision models
+                           esign                                                                                                                    
+section                                  
+-----------------------------------------
+HIGH-ATTENTION ENGINEERING REVIEW TARGETS
+record_key          engineering_domain       model_role          design_question                                 
+------------------  -----------------------  ------------------  ------------------------------------------------
+safety_model        structural_engineering   safety_review       Does the design maintain positive stress margin?
+optimization_model  engineering_design       tradeoff_analysis   Which design balances weight and safety margin? 
+uncertainty_model   reliability_engineering  uncertainty_review  Which assumptions most affect safety margin?    
+validation_model    engineering_testing      validation          What test evidence is needed before use?        

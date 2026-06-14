@@ -1,0 +1,31 @@
+{
+  "article_slug": "mathematical-modeling-in-engineering",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "engineering-design-safety-governance",
+  "cards": [
+    {
+      "card_id": "engineering-model-register",
+      "title": "Engineering Model Register",
+      "description": "Tracks engineering domain, model role, model family, design question, and review status."
+    },
+    {
+      "card_id": "beam-design-review",
+      "title": "Beam Design Review",
+      "description": "Compares stress, margin, safety factor, mass, and constraint status across design alternatives."
+    },
+    {
+      "card_id": "engineering-design-review-card",
+      "title": "Engineering Design Review Card",
+      "description": "Documents design constraints, safety review, validation needs, failed alternatives, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_engineering_purpose": true,
+    "requires_design_requirements": true,
+    "requires_constraint_register": true,
+    "requires_safety_margin": true,
+    "requires_failure_mode_note": true,
+    "requires_validation_record": true,
+    "requires_use_limit_statement": true
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "article": "Mathematical Modeling in Engineering",
+  "beam_design_review": [
+    {
+      "allowable_stress_pa": 145000000.0,
+      "bending_moment_nm": 3150.0,
+      "estimated_mass_kg": 301.44,
+      "height_m": 0.16,
+      "key": "light_design",
+      "load_n": 4200.0,
+      "material_density_kg_m3": 7850.0,
+      "max_stress_pa": 9228515.625,
+      "passes_stress_constraint": true,
+      "review_class": "acceptable",
+      "safety_factor": 15.71216931,
+      "second_moment_area_m4": 2.7306667e-05,
+      "span_m": 3.0,
+      "stress_margin_pa": 135771484.375,
+      "width_m": 0.08
+    },
+    {
+      "allowable_stress_pa": 145000000.0,
+      "bending_moment_nm": 3150.0,
+      "estimated_mass_kg": 423.9,
+      "height_m": 0.18,
+      "key": "balanced_design",
+      "load_n": 4200.0,
+      "material_density_kg_m3": 7850.0,
+      "max_stress_pa": 5833333.33333333,
+      "passes_stress_constraint": true,
+      "review_class": "acceptable",
+      "safety_factor": 24.85714286,
+      "second_moment_area_m4": 4.86e-05,
+      "span_m": 3.0,
+      "stress_margin_pa": 139166666.66666666,
+      "width_m": 0.1
+    },
+    {
+      "allowable_stress_pa": 145000000.0,
+      "bending_moment_nm": 3150.0,
+      "estimated_mass_kg": 621.72,
+      "height_m": 0.22,
+      "key": "stiff_design",
+      "load_n": 4200.0,
+      "material_density_kg_m3": 7850.0,
+      "max_stress_pa": 3254132.23140496,
+      "passes_stress_constraint": true,
+      "review_class": "acceptable",
+      "safety_factor": 44.55873016,
+      "second_moment_area_m4": 0.00010648,
+      "span_m": 3.0,
+      "stress_margin_pa": 141745867.76859504,
+      "width_m": 0.12
+    },
+    {
+      "allowable_stress_pa": 145000000.0,
+      "bending_moment_nm": 5250.0,
+      "estimated_mass_kg": 423.9,
+      "height_m": 0.18,
+      "key": "overloaded_case",
+      "load_n": 7000.0,
+      "material_density_kg_m3": 7850.0,
+      "max_stress_pa": 9722222.22222222,
+      "passes_stress_constraint": true,
+      "review_class": "acceptable",
+      "safety_factor": 14.91428571,
+      "second_moment_area_m4": 4.86e-05,
+      "span_m": 3.0,
+      "stress_margin_pa": 135277777.7777778,
+      "width_m": 0.1
+    }
+  ],
+  "design_summary": {
+    "design_count": 4,
+    "failed_design_count": 0,
+    "lightest_acceptable_design": "light_design",
+    "max_safety_factor": 44.55873016,
+    "mean_mass_kg": 442.74,
+    "mean_safety_factor": 25.01058201,
+    "min_safety_factor": 14.91428571
+  },
+  "diagnostic_checks": [
+    "requirements and constraints are stated",
+    "stress margin is computed",
+    "failed designs are flagged",
+    "tradeoff between mass and safety is visible",
+    "validation evidence is required before use",
+    "use limits are stated explicitly"
+  ],
+  "engineering_model_register": [
+    {
+      "design_question": "What beam dimensions are feasible under baseline load?",
+      "engineering_domain": "structural_engineering",
+      "engineering_priority": 1.0,
+      "key": "sizing_model",
+      "model_family": "algebraic_design_model",
+      "model_role": "initial_design",
+      "status": "active"
+    },
+    {
+      "design_question": "Does the design maintain positive stress margin?",
+      "engineering_domain": "structural_engineering",
+      "engineering_priority": 7.0,
+      "key": "safety_model",
+      "model_family": "limit_state_model",
+      "model_role": "safety_review",
+      "status": "review"
+    },
+    {
+      "design_question": "Which design balances weight and safety margin?",
+      "engineering_domain": "engineering_design",
+      "engineering_priority": 8.0,
+      "key": "optimization_model",
+      "model_family": "constrained_optimization",
+      "model_role": "tradeoff_analysis",
+      "status": "review"
+    },
+    {
+      "design_question": "Which assumptions most affect safety margin?",
+      "engineering_domain": "reliability_engineering",
+      "engineering_priority": 8.0,
+      "key": "uncertainty_model",
+      "model_family": "sensitivity_analysis",
+      "model_role": "uncertainty_review",
+      "status": "review"
+    },
+    {
+      "design_question": "What test evidence is needed before use?",
+      "engineering_domain": "engineering_testing",
+      "engineering_priority": 6.0,
+      "key": "validation_model",
+      "model_family": "test_comparison",
+      "model_role": "validation",
+      "status": "review"
+    }
+  ],
+  "use_limit": "This simplified beam workflow is illustrative and does not replace engineering standards, professional review, detailed structural analysis, or applicable design codes."
+}

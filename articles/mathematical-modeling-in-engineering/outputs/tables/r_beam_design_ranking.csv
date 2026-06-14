@@ -1,0 +1,5 @@
+"key","width_m","height_m","span_m","load_n","allowable_stress_pa","material_density_kg_m3","bending_moment_nm","second_moment_area_m4","max_stress_pa","stress_margin_pa","safety_factor","estimated_mass_kg","passes_stress_constraint","review_class"
+"stiff_design",0.12,0.22,3,4200,1.45e+08,7850,3150,0.00010648,3254132.23140496,141745867.768595,44.55873016,621.72,"True","acceptable"
+"balanced_design",0.1,0.18,3,4200,1.45e+08,7850,3150,4.86e-05,5833333.33333333,139166666.666667,24.85714286,423.9,"True","acceptable"
+"light_design",0.08,0.16,3,4200,1.45e+08,7850,3150,2.7306667e-05,9228515.625,135771484.375,15.71216931,301.44,"True","acceptable"
+"overloaded_case",0.1,0.18,3,7000,1.45e+08,7850,5250,4.86e-05,9722222.22222222,135277777.777778,14.91428571,423.9,"True","acceptable"

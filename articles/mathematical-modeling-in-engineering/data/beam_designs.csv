@@ -1,0 +1,5 @@
+key,width_m,height_m,span_m,load_n,allowable_stress_pa,material_density_kg_m3
+light_design,0.08,0.16,3.0,4200.0,145000000.0,7850.0
+balanced_design,0.10,0.18,3.0,4200.0,145000000.0,7850.0
+stiff_design,0.12,0.22,3.0,4200.0,145000000.0,7850.0
+overloaded_case,0.10,0.18,3.0,7000.0,145000000.0,7850.0

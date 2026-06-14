@@ -1,0 +1,6 @@
+key,engineering_domain,model_role,model_family,design_question,status
+sizing_model,structural_engineering,initial_design,algebraic_design_model,What beam dimensions are feasible under baseline load?,active
+safety_model,structural_engineering,safety_review,limit_state_model,Does the design maintain positive stress margin?,review
+optimization_model,engineering_design,tradeoff_analysis,constrained_optimization,Which design balances weight and safety margin?,review
+uncertainty_model,reliability_engineering,uncertainty_review,sensitivity_analysis,Which assumptions most affect safety margin?,review
+validation_model,engineering_testing,validation,test_comparison,What test evidence is needed before use?,review

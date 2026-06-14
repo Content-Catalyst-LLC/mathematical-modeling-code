@@ -1,0 +1,85 @@
+
+[1;34m[19:54:51][0m Python workflow
+Engineering modeling workflow complete.
+Records: 5
+Designs: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[19:54:51][0m R workflow
+null device 
+          1 
+                 key      engineering_domain         model_role
+3 optimization_model      engineering_design  tradeoff_analysis
+4  uncertainty_model reliability_engineering uncertainty_review
+2       safety_model  structural_engineering      safety_review
+5   validation_model     engineering_testing         validation
+1       sizing_model  structural_engineering     initial_design
+              model_family
+3 constrained_optimization
+4     sensitivity_analysis
+2        limit_state_model
+5          test_comparison
+1   algebraic_design_model
+                                         design_question status
+3        Which design balances weight and safety margin? review
+4           Which assumptions most affect safety margin? review
+2       Does the design maintain positive stress margin? review
+5               What test evidence is needed before use? review
+1 What beam dimensions are feasible under baseline load? active
+  engineering_priority
+3                    8
+4                    8
+2                    7
+5                    6
+1                    1
+  mean_safety_factor min_safety_factor max_safety_factor failed_design_count
+1           25.01058          14.91429          44.55873                   0
+  design_count
+1            4
+              key width_m height_m span_m load_n allowable_stress_pa
+3    stiff_design    0.12     0.22      3   4200            1.45e+08
+2 balanced_design    0.10     0.18      3   4200            1.45e+08
+1    light_design    0.08     0.16      3   4200            1.45e+08
+4 overloaded_case    0.10     0.18      3   7000            1.45e+08
+  material_density_kg_m3 bending_moment_nm second_moment_area_m4 max_stress_pa
+3                   7850              3150          1.064800e-04       3254132
+2                   7850              3150          4.860000e-05       5833333
+1                   7850              3150          2.730667e-05       9228516
+4                   7850              5250          4.860000e-05       9722222
+  stress_margin_pa safety_factor estimated_mass_kg passes_stress_constraint
+3        141745868      44.55873            621.72                     True
+2        139166667      24.85714            423.90                     True
+1        135771484      15.71217            301.44                     True
+4        135277778      14.91429            423.90                     True
+  review_class
+3   acceptable
+2   acceptable
+1   acceptable
+4   acceptable
+
+[1;34m[19:54:52][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling_in_engineering.sqlite < sql/schema.sql
+sqlite3 outputs/tables/mathematical_modeling_in_engineering.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[19:54:52][0m Go workflow
+cd go && go run main.go
+key,max_stress_pa,stress_margin_pa,safety_factor,estimated_mass_kg,passes_stress_constraint
+light_design,9228515.625000,135771484.375000,15.712169,301.440000,true
+balanced_design,5833333.333333,139166666.666667,24.857143,423.900000,true
+stiff_design,3254132.231405,141745867.768595,44.558730,621.720000,true
+overloaded_case,9722222.222222,135277777.777778,14.914286,423.900000,true
+
+[1;34m[19:54:52][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 engineering_design_summary.cpp -o engineering_design_summary
+./engineering_design_summary > ../outputs/tables/cpp_engineering_design_summary.csv 2> ../outputs/logs/cpp_engineering_design_stderr.log
+
+[1;34m[19:54:54][0m Fortran workflow
+gfortran -O2 fortran/engineering_design_summary.f90 -o outputs/engineering_design_summary_fortran
+./outputs/engineering_design_summary_fortran > outputs/tables/fortran_engineering_design_summary.txt
+
+[1;34m[19:54:54][0m C workflow
+cc -O2 -std=c11 c/engineering_design_summary.c -o outputs/engineering_design_summary_c -lm
+./outputs/engineering_design_summary_c > outputs/tables/c_engineering_design_summary.csv 2> outputs/logs/c_engineering_design_stderr.log
