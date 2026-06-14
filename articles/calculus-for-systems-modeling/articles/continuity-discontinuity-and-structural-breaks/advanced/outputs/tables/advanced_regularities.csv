@@ -1,0 +1,6 @@
+example,continuous,uniformly_continuous,lipschitz,differentiable_everywhere,note
+|x|,True,True,True,False,"Continuous everywhere, not differentiable at 0."
+x^2 on R,True,False,,True,Continuous but not uniformly continuous on unbounded domain.
+step function,False,False,False,False,Jump discontinuity at threshold.
+sin(1/x),False,False,False,False,Essential oscillatory discontinuity at 0.
+piecewise structural break,False,False,False,False,Synthetic level and slope break at x=5.

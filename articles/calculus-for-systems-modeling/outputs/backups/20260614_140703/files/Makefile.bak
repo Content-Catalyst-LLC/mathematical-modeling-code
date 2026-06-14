@@ -1,6 +1,6 @@
-.PHONY: smoke advanced what-is functions-variables domains-ranges infinity-infinitesimals limits continuity clean
+.PHONY: smoke advanced what-is functions-variables domains-ranges infinity-infinitesimals limits clean
 
-smoke: what-is functions-variables domains-ranges infinity-infinitesimals limits continuity
+smoke: what-is functions-variables domains-ranges infinity-infinitesimals limits
 
 advanced:
 	@for d in articles/*; do \
@@ -23,10 +23,7 @@ infinity-infinitesimals:
 	@if [ -d articles/infinity-infinitesimals-and-the-historical-problem-of-change ]; then $(MAKE) -C articles/infinity-infinitesimals-and-the-historical-problem-of-change smoke; else echo "Skipping missing article folder: infinity-infinitesimals-and-the-historical-problem-of-change"; fi
 
 limits:
-	@if [ -d articles/limits-and-the-formal-basis-of-calculus ]; then $(MAKE) -C articles/limits-and-the-formal-basis-of-calculus smoke; else echo "Skipping missing article folder: limits-and-the-formal-basis-of-calculus"; fi
-
-continuity:
-	$(MAKE) -C articles/continuity-discontinuity-and-structural-breaks smoke
+	$(MAKE) -C articles/limits-and-the-formal-basis-of-calculus smoke
 
 clean:
 	@for d in articles/*; do \

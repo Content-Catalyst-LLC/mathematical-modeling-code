@@ -1,0 +1,39 @@
+section                    
+---------------------------
+CONTINUITY CONCEPT REGISTRY
+concept_name              formal_role                                                   systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Absolute continuity       Allows recovery of a function from integration of its deriva  Supports stock-flow interpretation and accumulated-change mo  Jump trajectories require alternative representations.      
+                          tive almost everywhere.                                       dels.                                                                                                                     
+
+Epsilon-delta continuity  Defines local preservation of nearby values through input an  Supports local approximation, sensitivity, and derivative-ba  Requires a specified domain, codomain, and metric or topolog
+                          d output tolerances.                                          sed reasoning.                                                y.                                                          
+
+Jump discontinuity        Occurs when one-sided limits exist but differ.                Represents thresholds, switches, interventions, or regime bo  Derivative-based methods fail at the jump.                  
+                                                                                        undaries.                                                                                                                 
+
+Lipschitz continuity      Bounds output differences by a constant multiple of input di  Supports stability, uniqueness, and error control in dynamic  May fail near singularities, thresholds, or unbounded deriva
+                          fferences.                                                     models.                                                      tives.                                                      
+
+Structural break          Represents a change in the model relationship, not only outp  Indicates that pre-break and post-break dynamics may require  Can occur in slope, variance, parameters, governing equation
+                          ut level.                                                      different models.                                            s, or mechanism.                                            
+section              
+---------------------
+DIAGNOSTIC THRESHOLDS
+threshold_key    threshold_value  interpretation                                      
+---------------  ---------------  ----------------------------------------------------
+jump_threshold   1.0              Level change above this value is flagged for review.
+slope_threshold  0.5              Slope change above this value is flagged for review.
+section               
+----------------------
+STRUCTURAL BREAK TYPES
+break_name    diagnostic_signal                                             modeling_warning                                            
+------------  ------------------------------------------------------------  ------------------------------------------------------------
+Level break   Large one-step change in output.                              May represent a jump, reporting artifact, shock, or interven
+                                                                            tion.                                                       
+
+Regime break  Change in level and slope or parameters.                      Pre-break and post-break regions may require different model
+                                                                            s.                                                          
+
+Slope break   Large change between left and right finite-difference slopes  May preserve level continuity while changing mechanism.     
+              .                                                                                                                         

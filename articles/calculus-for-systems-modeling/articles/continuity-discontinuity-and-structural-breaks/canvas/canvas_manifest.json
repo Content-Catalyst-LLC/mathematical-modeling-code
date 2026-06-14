@@ -1,0 +1,35 @@
+{
+  "article_slug": "continuity-discontinuity-and-structural-breaks",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "continuity-discontinuity-structural-breaks",
+  "advanced_standard": true,
+  "cards": [
+    {
+      "card_id": "continuity-assumption",
+      "title": "Continuity as Assumption",
+      "description": "Continuity makes local approximation possible but must be justified as a model representation."
+    },
+    {
+      "card_id": "discontinuity-types",
+      "title": "Discontinuity Types",
+      "description": "Removable, jump, infinite, and essential discontinuities have different modeling meanings."
+    },
+    {
+      "card_id": "structural-break",
+      "title": "Structural Break",
+      "description": "A structural break can signal that the governing relationship has changed."
+    },
+    {
+      "card_id": "advanced-regularity",
+      "title": "Advanced Regularity",
+      "description": "Uniform, Lipschitz, absolute, and semicontinuity support different mathematical conclusions."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "counterexamples_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

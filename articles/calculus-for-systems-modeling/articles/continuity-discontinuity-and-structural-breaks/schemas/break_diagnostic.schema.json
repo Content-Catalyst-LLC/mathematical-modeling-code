@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BreakDiagnostic",
+  "type": "object",
+  "required": ["x", "y", "flag"],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "left_slope": {"type": ["number", "null"]},
+    "right_slope": {"type": ["number", "null"]},
+    "slope_change": {"type": ["number", "null"], "minimum": 0},
+    "level_jump": {"type": ["number", "null"], "minimum": 0},
+    "flag": {"type": "string"}
+  }
+}

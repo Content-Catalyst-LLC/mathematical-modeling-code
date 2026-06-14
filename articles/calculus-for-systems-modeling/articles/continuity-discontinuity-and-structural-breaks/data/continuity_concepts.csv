@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+epsilon_delta_continuity,Epsilon-delta continuity,Defines local preservation of nearby values through input and output tolerances,Supports local approximation sensitivity and derivative-based reasoning,Requires a specified domain codomain and metric or topology
+jump_discontinuity,Jump discontinuity,Occurs when one-sided limits exist but differ,Represents thresholds switches interventions or regime boundaries,Derivative-based methods fail at the jump
+structural_break,Structural break,Represents a change in model relationship not only output level,Indicates pre-break and post-break dynamics may require different models,Can occur in slope variance parameters governing equations or mechanism
+lipschitz_continuity,Lipschitz continuity,Bounds output differences by a constant multiple of input differences,Supports stability uniqueness and error control in dynamic models,May fail near singularities thresholds or unbounded derivatives
+absolute_continuity,Absolute continuity,Allows recovery of a function from integration of its derivative almost everywhere,Supports stock-flow interpretation and accumulated-change models,Jump trajectories require alternative representations

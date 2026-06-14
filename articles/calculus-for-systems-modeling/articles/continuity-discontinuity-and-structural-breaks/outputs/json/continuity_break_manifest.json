@@ -1,0 +1,12 @@
+{
+  "advanced_standard": true,
+  "article": "Continuity, Discontinuity, and Structural Breaks",
+  "interpretive_warning": "Synthetic break diagnostics flag review candidates; they do not prove real-world structural breaks.",
+  "methods": [
+    "piecewise_model",
+    "finite_difference_slope_checks",
+    "jump_detection",
+    "slope_break_detection"
+  ],
+  "series": "Calculus for Systems Modeling"
+}

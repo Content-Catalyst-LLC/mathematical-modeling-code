@@ -1,0 +1,22 @@
+actual_title: "Continuity, Discontinuity, and Structural Breaks"
+suggested_seo_title: "Continuity, Discontinuity, and Structural Breaks in Systems Modeling"
+focus_keyword: "continuity discontinuity structural breaks"
+slug: "continuity-discontinuity-and-structural-breaks"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "limits-and-the-formal-basis-of-calculus"
+  current: "continuity-discontinuity-and-structural-breaks"
+  next: "differentiability-and-local-behavior"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/continuity-discontinuity-and-structural-breaks"
+tags:
+  - Calculus
+  - Continuity
+  - Discontinuity
+  - Structural Breaks
+  - Real Analysis
+  - Systems Modeling
+  - Numerical Diagnostics
+  - Reproducible Workflows
+excerpt_139_words: "Continuity, discontinuity, and structural breaks determine whether a systems model can be interpreted through smooth change or must account for thresholds, jumps, rupture, and regime transition. This article explains epsilon-delta continuity, sequential and metric-space continuity, one-sided continuity, removable discontinuities, jump discontinuities, essential discontinuities, uniform continuity, Lipschitz continuity, absolute continuity, semicontinuity, and structural breaks. It is written for mathematically advanced readers as well as systems modelers, with sections on topological continuity, compactness, preservation results, counterexamples, boundary behavior, and piecewise model interpretation. The article connects these ideas to population dynamics, infrastructure failure, climate tipping points, epidemiology, resource systems, economics, policy thresholds, and scientific computing. Companion workflows in Python, R, SQL, and Haskell include jump detection, slope-break diagnostics, typed diagnostic records, concept registries, invariant checks, and advanced mathematical audit reports."
+advanced_standard: true

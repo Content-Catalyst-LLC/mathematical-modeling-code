@@ -1,0 +1,64 @@
+{
+  "advanced_standard": true,
+  "article": "Continuity, Discontinuity, and Structural Breaks",
+  "diagnostics": [
+    "level_jump_detection",
+    "slope_break_detection",
+    "piecewise_model_review",
+    "invariant_interval_review",
+    "regularity_examples"
+  ],
+  "flagged_breaks": [
+    {
+      "flag": "possible_slope_break",
+      "left_slope": 0.5,
+      "level_jump": 0.125,
+      "right_slope": 6.5,
+      "slope_change": 6.0,
+      "x": 4.75,
+      "y": 4.375
+    },
+    {
+      "flag": "level_and_slope_break",
+      "left_slope": 6.5,
+      "level_jump": 1.625,
+      "right_slope": 1.3999999999999986,
+      "slope_change": 5.100000000000001,
+      "x": 5.0,
+      "y": 6.0
+    }
+  ],
+  "formal_topics": [
+    "epsilon_delta_continuity",
+    "sequential_continuity",
+    "topological_continuity",
+    "subspace_continuity",
+    "uniform_continuity",
+    "lipschitz_continuity",
+    "absolute_continuity",
+    "semicontinuity",
+    "structural_breaks"
+  ],
+  "invariant_failures": [
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": -0.1
+    },
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": 1.2
+    }
+  ],
+  "warnings": [
+    "A diagnostic flag is not proof of a real structural break.",
+    "Noise, sampling frequency, smoothing, and measurement error affect discontinuity detection.",
+    "A function can be continuous but not differentiable.",
+    "A structural break can change slope, variance, parameters, or mechanism even when level remains continuous."
+  ]
+}
