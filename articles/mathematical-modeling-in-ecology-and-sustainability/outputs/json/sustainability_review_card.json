@@ -1,0 +1,155 @@
+{
+  "article": "Mathematical Modeling in Ecology and Sustainability",
+  "diagnostic_checks": [
+    "resource stock and regeneration are represented",
+    "climate stress is included as a scenario factor",
+    "minimum ecological threshold is explicit",
+    "resilience margin is computed",
+    "threshold breach is flagged",
+    "governance and monitoring remain required"
+  ],
+  "ecology_model_register": [
+    {
+      "domain": "renewable_resource_management",
+      "ecology_priority": 1.0,
+      "key": "resource_stock_model",
+      "model_family": "dynamic_resource_model",
+      "model_role": "stock_flow_review",
+      "status": "active",
+      "sustainability_question": "Does extraction remain within regenerative capacity?"
+    },
+    {
+      "domain": "ecosystem_resilience",
+      "ecology_priority": 7.0,
+      "key": "resilience_model",
+      "model_family": "resilience_margin_model",
+      "model_role": "threshold_review",
+      "status": "review",
+      "sustainability_question": "How close is the system to a minimum ecological threshold?"
+    },
+    {
+      "domain": "climate_adaptation",
+      "ecology_priority": 6.0,
+      "key": "climate_stress_model",
+      "model_family": "stress_test_model",
+      "model_role": "scenario_analysis",
+      "status": "review",
+      "sustainability_question": "How does climate stress change long-term stock viability?"
+    },
+    {
+      "domain": "conservation_planning",
+      "ecology_priority": 6.0,
+      "key": "biodiversity_model",
+      "model_family": "biodiversity_dependency_model",
+      "model_role": "network_review",
+      "status": "review",
+      "sustainability_question": "Which ecological interactions and dependencies need review?"
+    },
+    {
+      "domain": "sustainability_governance",
+      "ecology_priority": 5.0,
+      "key": "governance_model",
+      "model_family": "monitoring_trigger_model",
+      "model_role": "adaptive_management",
+      "status": "review",
+      "sustainability_question": "When should management action change as evidence updates?"
+    }
+  ],
+  "scenario_review": [
+    {
+      "carrying_capacity": 800.0,
+      "climate_stress": 0.04,
+      "effective_growth_rate": 0.2304,
+      "extraction": 36.0,
+      "final_stock": 569.347818,
+      "growth_rate": 0.24,
+      "initial_stock": 420.0,
+      "key": "baseline",
+      "minimum_observed_stock": 420.0,
+      "minimum_resilience_margin": 170.0,
+      "minimum_stock": 250.0,
+      "review_class": "above_threshold",
+      "scenario_name": "Baseline managed use",
+      "threshold_breach": false,
+      "years": 25
+    },
+    {
+      "carrying_capacity": 800.0,
+      "climate_stress": 0.04,
+      "effective_growth_rate": 0.2304,
+      "extraction": 64.0,
+      "final_stock": 0.0,
+      "growth_rate": 0.24,
+      "initial_stock": 420.0,
+      "key": "high_extraction",
+      "minimum_observed_stock": 0.0,
+      "minimum_resilience_margin": -250.0,
+      "minimum_stock": 250.0,
+      "review_class": "threshold_breach",
+      "scenario_name": "High extraction pressure",
+      "threshold_breach": true,
+      "years": 25
+    },
+    {
+      "carrying_capacity": 800.0,
+      "climate_stress": 0.22,
+      "effective_growth_rate": 0.1872,
+      "extraction": 42.0,
+      "final_stock": 290.08522479,
+      "growth_rate": 0.24,
+      "initial_stock": 420.0,
+      "key": "climate_stress",
+      "minimum_observed_stock": 290.08522479,
+      "minimum_resilience_margin": 40.08522479,
+      "minimum_stock": 250.0,
+      "review_class": "low_resilience_margin",
+      "scenario_name": "Climate stress with lower regeneration",
+      "threshold_breach": false,
+      "years": 25
+    },
+    {
+      "carrying_capacity": 860.0,
+      "climate_stress": 0.03,
+      "effective_growth_rate": 0.2716,
+      "extraction": 24.0,
+      "final_stock": 757.57896212,
+      "growth_rate": 0.28,
+      "initial_stock": 420.0,
+      "key": "restoration_pathway",
+      "minimum_observed_stock": 420.0,
+      "minimum_resilience_margin": 170.0,
+      "minimum_stock": 250.0,
+      "review_class": "above_threshold",
+      "scenario_name": "Restoration and reduced extraction",
+      "threshold_breach": false,
+      "years": 25
+    },
+    {
+      "carrying_capacity": 820.0,
+      "climate_stress": 0.08,
+      "effective_growth_rate": 0.23,
+      "extraction": 32.0,
+      "final_stock": 628.61311827,
+      "growth_rate": 0.25,
+      "initial_stock": 420.0,
+      "key": "adaptive_management",
+      "minimum_observed_stock": 420.0,
+      "minimum_resilience_margin": 170.0,
+      "minimum_stock": 250.0,
+      "review_class": "above_threshold",
+      "scenario_name": "Adaptive use with monitoring trigger",
+      "threshold_breach": false,
+      "years": 25
+    }
+  ],
+  "sustainability_summary": {
+    "best_resilience_scenario": "Baseline managed use",
+    "max_final_stock": 757.57896212,
+    "mean_final_stock": 449.12502464,
+    "min_final_stock": 0.0,
+    "scenario_count": 5,
+    "scenario_spread": 757.57896212,
+    "threshold_breach_count": 1
+  },
+  "use_limit": "This workflow supports ecological scenario interpretation and sustainability review; it is illustrative and does not replace field evidence, local knowledge, professional ecological assessment, or governance review."
+}

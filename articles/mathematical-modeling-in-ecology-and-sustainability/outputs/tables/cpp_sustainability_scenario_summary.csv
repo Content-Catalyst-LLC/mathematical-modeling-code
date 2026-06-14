@@ -1,0 +1,6 @@
+key,final_stock,minimum_observed_stock,minimum_resilience_margin,threshold_breach
+baseline,569.347818,420.000000,170.000000,false
+high_extraction,0.000000,0.000000,-250.000000,true
+climate_stress,290.085225,290.085225,40.085225,false
+restoration_pathway,757.578962,420.000000,170.000000,false
+adaptive_management,628.613118,420.000000,170.000000,false

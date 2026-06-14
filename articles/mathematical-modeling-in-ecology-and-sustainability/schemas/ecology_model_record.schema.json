@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EcologyModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "domain",
+    "model_role",
+    "model_family",
+    "sustainability_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "domain": {"type": "string"},
+    "model_role": {
+      "type": "string",
+      "enum": ["stock_flow_review", "threshold_review", "scenario_analysis", "network_review", "adaptive_management"]
+    },
+    "model_family": {"type": "string"},
+    "sustainability_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

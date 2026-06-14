@@ -1,0 +1,68 @@
+section                 
+------------------------
+ECOLOGY MODEL ROLE TYPES
+model_role           description                                                   typical_failure                                             
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------
+adaptive_management  Connects monitoring triggers to changed management action.    Model results are not linked to governance or update process
+                                                                                   .                                                           
+
+network_review       Reviews biodiversity dependencies and ecological interaction  Species or habitat interactions are omitted.                
+                     s.                                                                                                                        
+
+scenario_analysis    Compares ecological futures under stress, policy, or managem  One baseline is treated as destiny.                         
+                     ent pathways.                                                                                                             
+
+stock_flow_review    Reviews renewable stock, regeneration, extraction, and deple  Stock appears stable only because extraction or stress is un
+                     tion.                                                         derstated.                                                  
+
+threshold_review     Assesses distance to minimum ecological threshold.            Threshold is treated as exact or ignored entirely.          
+section                               
+--------------------------------------
+ECOLOGY MODEL RECORDS REQUIRING REVIEW
+record_key            domain                     model_role           model_family                   sustainability_question                                    
+--------------------  -------------------------  -------------------  -----------------------------  -----------------------------------------------------------
+resilience_model      ecosystem_resilience       threshold_review     resilience_margin_model        How close is the system to a minimum ecological threshold? 
+climate_stress_model  climate_adaptation         scenario_analysis    stress_test_model              How does climate stress change long-term stock viability?  
+biodiversity_model    conservation_planning      network_review       biodiversity_dependency_model  Which ecological interactions and dependencies need review?
+governance_model      sustainability_governance  adaptive_management  monitoring_trigger_model       When should management action change as evidence updates?  
+section           
+------------------
+RESOURCE SCENARIOS
+scenario_key         scenario_name                           initial_stock  growth_rate  carrying_capacity  extraction  climate_stress  minimum_stock  effective_growth_rate
+-------------------  --------------------------------------  -------------  -----------  -----------------  ----------  --------------  -------------  ---------------------
+adaptive_management  Adaptive use with monitoring trigger    420.0          0.25         820.0              32.0        0.08            250.0          0.23                 
+baseline             Baseline managed use                    420.0          0.24         800.0              36.0        0.04            250.0          0.2304               
+climate_stress       Climate stress with lower regeneration  420.0          0.24         800.0              42.0        0.22            250.0          0.1872               
+high_extraction      High extraction pressure                420.0          0.24         800.0              64.0        0.04            250.0          0.2304               
+restoration_pathway  Restoration and reduced extraction      420.0          0.28         860.0              24.0        0.03            250.0          0.2716               
+section             
+--------------------
+ECOLOGY DOMAIN GUIDE
+area                          modeling_use                                                  typical_model_forms                                         
+----------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+agriculture_and_food_systems  Represent yields soil water nutrients and climate stress      Crop models nutrient models sustainability assessment       
+
+biodiversity_planning         Evaluate habitat interaction and landscape connectivity       Network models species distribution models corridor models  
+
+climate_adaptation            Test vulnerability and adaptation pathways                    Scenario models risk models spatial exposure models         
+
+conservation_biology          Assess species viability habitat corridors and extinction ri  Population viability models spatial models metapopulation mo
+                              sk                                                            dels                                                        
+
+environmental_policy          Compare interventions standards incentives and long-term pat  Scenario modeling cost-effectiveness integrated assessment  
+                              hways                                                                                                                     
+
+fisheries_and_forestry        Balance harvest with regeneration                             Stock-recruitment models yield models age-structured models 
+
+urban_sustainability          Connect land use infrastructure transport energy and heat     Systems models geospatial models network models             
+
+water_systems                 Represent flow demand drought quality and allocation          Hydrologic models optimization watershed models             
+section                                     
+--------------------------------------------
+HIGH-ATTENTION SUSTAINABILITY REVIEW TARGETS
+record_key            domain                     model_role           sustainability_question                                    
+--------------------  -------------------------  -------------------  -----------------------------------------------------------
+resilience_model      ecosystem_resilience       threshold_review     How close is the system to a minimum ecological threshold? 
+climate_stress_model  climate_adaptation         scenario_analysis    How does climate stress change long-term stock viability?  
+biodiversity_model    conservation_planning      network_review       Which ecological interactions and dependencies need review?
+governance_model      sustainability_governance  adaptive_management  When should management action change as evidence updates?  

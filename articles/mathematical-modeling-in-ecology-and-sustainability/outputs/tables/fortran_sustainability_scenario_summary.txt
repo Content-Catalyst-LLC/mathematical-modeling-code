@@ -1,0 +1,6 @@
+key final_stock minimum_observed_stock minimum_resilience_margin threshold_breach
+baseline    569.348    420.000    170.000 F
+high_extraction      0.000      0.000   -250.000 T
+climate_stress    290.085    290.085     40.085 F
+restoration_pathway    757.579    420.000    170.000 F
+adaptive_management    628.613    420.000    170.000 F

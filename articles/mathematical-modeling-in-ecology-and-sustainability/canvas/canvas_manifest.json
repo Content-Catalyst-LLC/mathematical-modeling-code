@@ -1,0 +1,33 @@
+{
+  "article_slug": "mathematical-modeling-in-ecology-and-sustainability",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "ecology-sustainability-resilience-governance",
+  "cards": [
+    {
+      "card_id": "ecology-model-register",
+      "title": "Ecology Model Register",
+      "description": "Tracks ecology domain, model role, model family, sustainability question, and review status."
+    },
+    {
+      "card_id": "sustainability-scenario-review",
+      "title": "Sustainability Scenario Review",
+      "description": "Compares resource-stock scenarios, climate stress, final stock, resilience margin, and threshold breach."
+    },
+    {
+      "card_id": "sustainability-review-card",
+      "title": "Sustainability Review Card",
+      "description": "Documents resource dynamics, climate stress, thresholds, resilience margin, governance obligations, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_ecological_question": true,
+    "requires_boundary_and_scale_record": true,
+    "requires_stock_flow_structure": true,
+    "requires_threshold_record": true,
+    "requires_resilience_margin": true,
+    "requires_climate_stress_scenarios": true,
+    "requires_field_evidence_review": true,
+    "requires_adaptive_management_trigger": true,
+    "requires_use_limit_statement": true
+  }
+}

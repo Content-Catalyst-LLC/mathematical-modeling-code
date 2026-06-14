@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResourceScenario",
+  "type": "object",
+  "required": [
+    "key",
+    "scenario_name",
+    "initial_stock",
+    "growth_rate",
+    "carrying_capacity",
+    "extraction",
+    "climate_stress",
+    "years",
+    "minimum_stock"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "scenario_name": {"type": "string"},
+    "initial_stock": {"type": "number"},
+    "growth_rate": {"type": "number"},
+    "carrying_capacity": {"type": "number"},
+    "extraction": {"type": "number"},
+    "climate_stress": {"type": "number"},
+    "years": {"type": "integer"},
+    "minimum_stock": {"type": "number"}
+  }
+}

@@ -1,0 +1,6 @@
+"key","domain","model_role","model_family","sustainability_question","status","ecology_priority"
+"resilience_model","ecosystem_resilience","threshold_review","resilience_margin_model","How close is the system to a minimum ecological threshold?","review",7
+"climate_stress_model","climate_adaptation","scenario_analysis","stress_test_model","How does climate stress change long-term stock viability?","review",6
+"biodiversity_model","conservation_planning","network_review","biodiversity_dependency_model","Which ecological interactions and dependencies need review?","review",6
+"governance_model","sustainability_governance","adaptive_management","monitoring_trigger_model","When should management action change as evidence updates?","review",5
+"resource_stock_model","renewable_resource_management","stock_flow_review","dynamic_resource_model","Does extraction remain within regenerative capacity?","active",1

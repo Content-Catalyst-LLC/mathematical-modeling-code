@@ -1,0 +1,90 @@
+
+[1;34m[20:20:12][0m Python workflow
+Ecology and sustainability workflow complete.
+Records: 5
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[20:20:12][0m R workflow
+null device 
+          1 
+                   key                        domain          model_role
+2     resilience_model          ecosystem_resilience    threshold_review
+3 climate_stress_model            climate_adaptation   scenario_analysis
+4   biodiversity_model         conservation_planning      network_review
+5     governance_model     sustainability_governance adaptive_management
+1 resource_stock_model renewable_resource_management   stock_flow_review
+                   model_family
+2       resilience_margin_model
+3             stress_test_model
+4 biodiversity_dependency_model
+5      monitoring_trigger_model
+1        dynamic_resource_model
+                                      sustainability_question status
+2  How close is the system to a minimum ecological threshold? review
+3   How does climate stress change long-term stock viability? review
+4 Which ecological interactions and dependencies need review? review
+5   When should management action change as evidence updates? review
+1        Does extraction remain within regenerative capacity? active
+  ecology_priority
+2                7
+3                6
+4                6
+5                5
+1                1
+  best_resilience_scenario mean_final_stock min_final_stock max_final_stock
+1     Baseline managed use          449.125               0         757.579
+  scenario_spread threshold_breach_count scenario_count
+1         757.579                      1              5
+                  key                          scenario_name initial_stock
+1            baseline                   Baseline managed use           420
+4 restoration_pathway     Restoration and reduced extraction           420
+5 adaptive_management   Adaptive use with monitoring trigger           420
+3      climate_stress Climate stress with lower regeneration           420
+2     high_extraction               High extraction pressure           420
+  growth_rate carrying_capacity extraction climate_stress years minimum_stock
+1        0.24               800         36           0.04    25           250
+4        0.28               860         24           0.03    25           250
+5        0.25               820         32           0.08    25           250
+3        0.24               800         42           0.22    25           250
+2        0.24               800         64           0.04    25           250
+  effective_growth_rate final_stock minimum_observed_stock
+1                0.2304    569.3478               420.0000
+4                0.2716    757.5790               420.0000
+5                0.2300    628.6131               420.0000
+3                0.1872    290.0852               290.0852
+2                0.2304      0.0000                 0.0000
+  minimum_resilience_margin threshold_breach          review_class
+1                 170.00000            False       above_threshold
+4                 170.00000            False       above_threshold
+5                 170.00000            False       above_threshold
+3                  40.08522            False low_resilience_margin
+2                -250.00000             True      threshold_breach
+
+[1;34m[20:20:12][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling_in_ecology_and_sustainability.sqlite < sql/schema.sql
+sqlite3 outputs/tables/mathematical_modeling_in_ecology_and_sustainability.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[20:20:12][0m Go workflow
+cd go && go run main.go
+key,final_stock,minimum_observed_stock,minimum_resilience_margin,threshold_breach
+baseline,569.347818,420.000000,170.000000,false
+high_extraction,0.000000,0.000000,-250.000000,true
+climate_stress,290.085225,290.085225,40.085225,false
+restoration_pathway,757.578962,420.000000,170.000000,false
+adaptive_management,628.613118,420.000000,170.000000,false
+
+[1;34m[20:20:13][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 sustainability_scenario_summary.cpp -o sustainability_scenario_summary
+./sustainability_scenario_summary > ../outputs/tables/cpp_sustainability_scenario_summary.csv 2> ../outputs/logs/cpp_sustainability_scenario_stderr.log
+
+[1;34m[20:20:14][0m Fortran workflow
+gfortran -O2 fortran/sustainability_scenario_summary.f90 -o outputs/sustainability_scenario_summary_fortran
+./outputs/sustainability_scenario_summary_fortran > outputs/tables/fortran_sustainability_scenario_summary.txt
+
+[1;34m[20:20:15][0m C workflow
+cc -O2 -std=c11 c/sustainability_scenario_summary.c -o outputs/sustainability_scenario_summary_c -lm
+./outputs/sustainability_scenario_summary_c > outputs/tables/c_sustainability_scenario_summary.csv 2> outputs/logs/c_sustainability_scenario_stderr.log

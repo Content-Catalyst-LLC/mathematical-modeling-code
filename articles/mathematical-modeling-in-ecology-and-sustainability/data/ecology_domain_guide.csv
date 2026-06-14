@@ -1,0 +1,9 @@
+area,modeling_use,typical_model_forms
+conservation_biology,Assess species viability habitat corridors and extinction risk,Population viability models spatial models metapopulation models
+fisheries_and_forestry,Balance harvest with regeneration,Stock-recruitment models yield models age-structured models
+water_systems,Represent flow demand drought quality and allocation,Hydrologic models optimization watershed models
+climate_adaptation,Test vulnerability and adaptation pathways,Scenario models risk models spatial exposure models
+urban_sustainability,Connect land use infrastructure transport energy and heat,Systems models geospatial models network models
+agriculture_and_food_systems,Represent yields soil water nutrients and climate stress,Crop models nutrient models sustainability assessment
+biodiversity_planning,Evaluate habitat interaction and landscape connectivity,Network models species distribution models corridor models
+environmental_policy,Compare interventions standards incentives and long-term pathways,Scenario modeling cost-effectiveness integrated assessment
