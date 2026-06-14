@@ -1,0 +1,21 @@
+actual_title: "Domains, Ranges, and the Structure of Functional Models"
+suggested_seo_title: "Domains, Ranges, and Functional Model Structure in Systems Modeling"
+focus_keyword: "domains ranges functional models"
+slug: "domains-ranges-and-the-structure-of-functional-models"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "functions-variables-and-mathematical-representation"
+  current: "domains-ranges-and-the-structure-of-functional-models"
+  next: "infinity-infinitesimals-and-the-historical-problem-of-change"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/domains-ranges-and-the-structure-of-functional-models"
+tags:
+  - Calculus
+  - Domains and Ranges
+  - Functional Models
+  - Systems Modeling
+  - Mathematical Modeling
+  - Constraints
+  - Model Validation
+  - Reproducible Workflows
+excerpt_139_words: "Domains, ranges, and functional model structure determine what a systems model is allowed to say. A function does not operate on every possible input, and its outputs are not automatically meaningful in every context. In calculus for systems modeling, the domain defines valid inputs, states, parameters, scenarios, and conditions, while the range defines possible or interpretable outputs. This article explains how input spaces, output spaces, constraints, feasible regions, parameter ranges, state spaces, and boundary conditions shape model validity before derivatives, integrals, optimization, or simulation are applied. It connects domain and range reasoning to population dynamics, infrastructure modeling, epidemiology, climate systems, economics, and resource systems. It also introduces reproducible workflows in Python, R, SQL, and Haskell for validating inputs, checking outputs, documenting assumptions, and flagging scenarios that require review."

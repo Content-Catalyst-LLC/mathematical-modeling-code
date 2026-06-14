@@ -1,0 +1,21 @@
+section     
+------------
+DOMAIN RULES
+rule_key                   variable_name  lower_bound  upper_bound  rule_description                         
+-------------------------  -------------  -----------  -----------  -----------------------------------------
+capacity_positive          capacity       1.0e-06                   Capacity must be positive.               
+growth_rate_nonnegative    growth_rate    0.0                       Growth rate must be nonnegative.         
+initial_state_capacity     initial_state                            Initial state should not exceed capacity.
+initial_state_nonnegative  initial_state  0.0                       Initial state must be nonnegative.       
+time_horizon_nonnegative   time_horizon   0.0                       Time horizon must be nonnegative.        
+section            
+-------------------
+SCENARIO VALIDATION
+scenario_key            initial_state  growth_rate  capacity  time_horizon  validation_status                interpretation                                
+----------------------  -------------  -----------  --------  ------------  -------------------------------  ----------------------------------------------
+baseline                10.0           0.2          100.0     20.0          ok                               Valid bounded-growth scenario                 
+invalid_capacity        10.0           0.2          0.0       20.0          review_capacity                  Invalid because capacity is nonpositive       
+invalid_negative_state  -5.0           0.2          100.0     20.0          review_initial_state             Invalid because initial state is negative     
+near_capacity           95.0           0.2          100.0     20.0          ok                               Valid scenario near output capacity           
+negative_rate           10.0           -0.1         100.0     20.0          review_growth_rate               Invalid because rate is negative              
+outside_capacity        120.0          0.2          100.0     20.0          review_initial_exceeds_capacity  Invalid because initial state exceeds capacity

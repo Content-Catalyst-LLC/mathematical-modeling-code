@@ -1,0 +1,6 @@
+rule_key,variable_name,lower_bound,upper_bound,rule_description
+initial_state_nonnegative,initial_state,0,,Initial state must be nonnegative
+rate_nonnegative,rate,0,,Rate must be nonnegative
+capacity_positive,capacity,0.000001,,Capacity must be positive
+time_nonnegative,time_horizon,0,,Time horizon must be nonnegative
+initial_state_capacity,initial_state,,capacity,Initial state should not exceed capacity

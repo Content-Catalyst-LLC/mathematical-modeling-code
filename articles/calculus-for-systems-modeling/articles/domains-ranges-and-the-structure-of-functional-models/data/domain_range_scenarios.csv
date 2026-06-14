@@ -1,0 +1,7 @@
+scenario,initial_state,rate,capacity,time_horizon,interpretation
+baseline,10.0,0.20,100.0,20.0,Valid bounded-growth scenario
+near_capacity,95.0,0.20,100.0,20.0,Valid scenario near output capacity
+invalid_negative_state,-5.0,0.20,100.0,20.0,Invalid because initial state is negative
+invalid_capacity,10.0,0.20,0.0,20.0,Invalid because capacity is nonpositive
+outside_capacity,120.0,0.20,100.0,20.0,Invalid because initial state exceeds capacity
+negative_rate,10.0,-0.10,100.0,20.0,Invalid because rate is negative

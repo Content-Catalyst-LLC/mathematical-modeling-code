@@ -1,0 +1,66 @@
+{
+  "article": "Domains, Ranges, and the Structure of Functional Models",
+  "interpretive_warning": "Synthetic teaching workflow. Domain and range checks support interpretation but do not validate empirical accuracy.",
+  "model": "bounded growth with explicit domain and range validation",
+  "scenarios": [
+    {
+      "capacity": 100.0,
+      "initial_state": 10.0,
+      "interpretation": "Valid bounded-growth scenario",
+      "rate": 0.2,
+      "scenario": "baseline",
+      "time_horizon": 20.0
+    },
+    {
+      "capacity": 100.0,
+      "initial_state": 95.0,
+      "interpretation": "Valid scenario near output capacity",
+      "rate": 0.2,
+      "scenario": "near_capacity",
+      "time_horizon": 20.0
+    },
+    {
+      "capacity": 100.0,
+      "initial_state": -5.0,
+      "interpretation": "Invalid because initial state is negative",
+      "rate": 0.2,
+      "scenario": "invalid_negative_state",
+      "time_horizon": 20.0
+    },
+    {
+      "capacity": 0.0,
+      "initial_state": 10.0,
+      "interpretation": "Invalid because capacity is nonpositive",
+      "rate": 0.2,
+      "scenario": "invalid_capacity",
+      "time_horizon": 20.0
+    },
+    {
+      "capacity": 100.0,
+      "initial_state": 120.0,
+      "interpretation": "Invalid because initial state exceeds capacity",
+      "rate": 0.2,
+      "scenario": "outside_capacity",
+      "time_horizon": 20.0
+    },
+    {
+      "capacity": 100.0,
+      "initial_state": 10.0,
+      "interpretation": "Invalid because rate is negative",
+      "rate": -0.1,
+      "scenario": "negative_rate",
+      "time_horizon": 20.0
+    }
+  ],
+  "series": "Calculus for Systems Modeling",
+  "validation_summary": [
+    {
+      "count": 4,
+      "status": "domain_review"
+    },
+    {
+      "count": 2,
+      "status": "ok"
+    }
+  ]
+}

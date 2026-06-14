@@ -1,0 +1,5 @@
+scenario status value_or_issue
+baseline ok  85.848645
+near_capacity ok  99.903695
+invalid_negative_state domain_review initial_state_must_be_nonnegative
+outside_capacity domain_review initial_state_exceeds_capacity

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DomainRangeScenario",
+  "type": "object",
+  "required": ["scenario", "initial_state", "rate", "capacity", "time_horizon"],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_state": {"type": "number"},
+    "rate": {"type": "number"},
+    "capacity": {"type": "number"},
+    "time_horizon": {"type": "number"},
+    "interpretation": {"type": "string"}
+  }
+}

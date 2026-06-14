@@ -1,0 +1,18 @@
+{
+  "article_slug": "domains-ranges-and-the-structure-of-functional-models",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "domain-range-functional-structure",
+  "cards": [
+    {"card_id": "domain-as-boundary", "title": "Domain as Boundary", "description": "Domains define valid inputs, states, scenarios, and model-use conditions."},
+    {"card_id": "range-as-output-space", "title": "Range as Output Space", "description": "Ranges define possible, bounded, and interpretable model outputs."},
+    {"card_id": "feasible-region", "title": "Feasible Region", "description": "Constraints determine which inputs or decisions can be interpreted."},
+    {"card_id": "validation-before-interpretation", "title": "Validation Before Interpretation", "description": "Computed values should be checked before being treated as meaningful outputs."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "domain_rules_documented": true,
+    "range_checks_generated": true,
+    "invalid_scenarios_flagged": true,
+    "interpretation_required": true
+  }
+}

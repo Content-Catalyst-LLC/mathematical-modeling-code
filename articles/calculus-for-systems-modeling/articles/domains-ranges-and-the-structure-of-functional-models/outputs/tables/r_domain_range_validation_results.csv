@@ -1,0 +1,7 @@
+"scenario","status","value","issues","interpretation"
+"baseline","ok",85.8486449758214,"","Valid bounded-growth scenario"
+"near_capacity","ok",99.9036947370287,"","Valid scenario near output capacity"
+"invalid_negative_state","domain_review",NA,"initial_state must be nonnegative","Invalid because initial state is negative"
+"invalid_capacity","domain_review",NA,"capacity must be positive","Invalid because capacity is nonpositive"
+"outside_capacity","domain_review",NA,"initial_state exceeds capacity","Invalid because initial state exceeds capacity"
+"negative_rate","domain_review",NA,"rate must be nonnegative","Invalid because rate is negative"

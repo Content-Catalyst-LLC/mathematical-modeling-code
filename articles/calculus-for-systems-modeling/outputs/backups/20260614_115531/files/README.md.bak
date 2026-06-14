@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across continuous change, functions, variables, mathematical representation, domains, ranges, valid input spaces, output ranges, constraints, rates, accumulation, optimization, differential equations, numerical approximation, simulation, sensitivity analysis, responsible interpretation, and reproducible scientific-computing workflows.
+This folder supports calculus-based systems modeling across continuous change, functions, variables, mathematical representation, rates, accumulation, optimization, multivariable interaction, vector fields, differential equations, numerical approximation, simulation, sensitivity analysis, responsible interpretation, and reproducible scientific-computing workflows.
 
 ## Nested article folders
 
@@ -17,12 +17,34 @@ Current active article companion folders:
 ```text
 articles/calculus-for-systems-modeling/articles/what-is-calculus-for-systems-modeling/
 articles/calculus-for-systems-modeling/articles/functions-variables-and-mathematical-representation/
-articles/calculus-for-systems-modeling/articles/domains-ranges-and-the-structure-of-functional-models/
 ```
 
 ## Standard article folder structure
 
-Each nested article folder may include Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas artifacts, README.md, Makefile, article-metadata.yml, and github-embed-wordpress.html.
+Each nested article folder may include:
+
+```text
+python/
+r/
+julia/
+sql/
+haskell/
+c/
+cpp/
+fortran/
+rust/
+go/
+notebooks/
+docs/
+data/
+outputs/
+schemas/
+canvas/
+README.md
+Makefile
+article-metadata.yml
+github-embed-wordpress.html
+```
 
 ## General principles
 
@@ -33,6 +55,10 @@ Each nested article folder may include Python, R, Julia, SQL, Haskell, C, C++, F
 - Use reproducible workflows.
 - Treat computation as support for interpretation, not a substitute for judgment.
 - Keep examples educational, auditable, and extensible.
+
+## Default language standard
+
+This folder uses Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, schemas, generated outputs, and Canvas-ready workflow artifacts by default.
 
 ## Run smoke checks
 
