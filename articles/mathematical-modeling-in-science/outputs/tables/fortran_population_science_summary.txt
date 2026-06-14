@@ -1,0 +1,6 @@
+key growth_rate carrying_capacity initial_population years final_population crosses_capacity_midpoint
+baseline  0.280   500.00    40.00  20   481.5633 T
+lower_growth  0.180   500.00    40.00  20   372.3901 T
+higher_growth  0.380   500.00    40.00  20   498.5012 T
+lower_capacity  0.280   350.00    40.00  20   342.1212 T
+higher_capacity  0.280   700.00    40.00  20   659.7892 T

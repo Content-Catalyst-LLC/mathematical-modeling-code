@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PopulationScenario",
+  "type": "object",
+  "required": [
+    "key",
+    "growth_rate",
+    "carrying_capacity",
+    "initial_population",
+    "years",
+    "observation_noise"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "growth_rate": {"type": "number"},
+    "carrying_capacity": {"type": "number"},
+    "initial_population": {"type": "number"},
+    "years": {"type": "integer"},
+    "observation_noise": {"type": "number"}
+  }
+}

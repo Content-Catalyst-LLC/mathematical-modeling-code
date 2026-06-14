@@ -1,0 +1,128 @@
+{
+  "article": "Mathematical Modeling in Science",
+  "diagnostic_checks": [
+    "model purpose is stated",
+    "scientific domain is named",
+    "model family is identified",
+    "scenario spread is reported",
+    "measurement uncertainty is acknowledged",
+    "validation and domain of validity remain explicit"
+  ],
+  "evidence_summary": {
+    "max_final_population": 659.7892092,
+    "mean_final_population": 470.87301353,
+    "min_final_population": 342.12123382,
+    "scenario_count": 5,
+    "scenario_spread": 317.66797538
+  },
+  "scenario_summary": [
+    {
+      "carrying_capacity": 500.0,
+      "carrying_capacity_half": 250.0,
+      "crosses_capacity_midpoint": true,
+      "final_population": 481.56332446,
+      "growth_rate": 0.28,
+      "initial_population": 40.0,
+      "key": "baseline",
+      "observation_noise": 0.03,
+      "trajectory_points": 21,
+      "years": 20
+    },
+    {
+      "carrying_capacity": 500.0,
+      "carrying_capacity_half": 250.0,
+      "crosses_capacity_midpoint": true,
+      "final_population": 372.39007294,
+      "growth_rate": 0.18,
+      "initial_population": 40.0,
+      "key": "lower_growth",
+      "observation_noise": 0.03,
+      "trajectory_points": 21,
+      "years": 20
+    },
+    {
+      "carrying_capacity": 500.0,
+      "carrying_capacity_half": 250.0,
+      "crosses_capacity_midpoint": true,
+      "final_population": 498.50122725,
+      "growth_rate": 0.38,
+      "initial_population": 40.0,
+      "key": "higher_growth",
+      "observation_noise": 0.03,
+      "trajectory_points": 21,
+      "years": 20
+    },
+    {
+      "carrying_capacity": 350.0,
+      "carrying_capacity_half": 175.0,
+      "crosses_capacity_midpoint": true,
+      "final_population": 342.12123382,
+      "growth_rate": 0.28,
+      "initial_population": 40.0,
+      "key": "lower_capacity",
+      "observation_noise": 0.03,
+      "trajectory_points": 21,
+      "years": 20
+    },
+    {
+      "carrying_capacity": 700.0,
+      "carrying_capacity_half": 350.0,
+      "crosses_capacity_midpoint": true,
+      "final_population": 659.7892092,
+      "growth_rate": 0.28,
+      "initial_population": 40.0,
+      "key": "higher_capacity",
+      "observation_noise": 0.03,
+      "trajectory_points": 21,
+      "years": 20
+    }
+  ],
+  "scientific_model_register": [
+    {
+      "evidence_question": "Can resource limitation explain observed slowing growth?",
+      "key": "mechanism_model",
+      "model_family": "differential_equation",
+      "model_role": "explanation",
+      "scientific_domain": "ecology",
+      "scientific_priority": 1.0,
+      "status": "active"
+    },
+    {
+      "evidence_question": "What range of population outcomes is plausible after ten years?",
+      "key": "forecast_model",
+      "model_family": "dynamic_simulation",
+      "model_role": "prediction",
+      "scientific_domain": "population_science",
+      "scientific_priority": 6.0,
+      "status": "review"
+    },
+    {
+      "evidence_question": "How does measurement noise affect interpretation?",
+      "key": "measurement_model",
+      "model_family": "statistical_error_model",
+      "model_role": "observation",
+      "scientific_domain": "field_science",
+      "scientific_priority": 6.0,
+      "status": "review"
+    },
+    {
+      "evidence_question": "Does a logistic model explain observations better than exponential growth?",
+      "key": "comparison_model",
+      "model_family": "evidence_table",
+      "model_role": "model_comparison",
+      "scientific_domain": "scientific_inference",
+      "scientific_priority": 7.0,
+      "status": "review"
+    },
+    {
+      "evidence_question": "Which assumptions most affect scientific conclusions?",
+      "key": "uncertainty_model",
+      "model_family": "sensitivity_analysis",
+      "model_role": "uncertainty_quantification",
+      "scientific_domain": "scientific_computing",
+      "scientific_priority": 6.0,
+      "status": "review"
+    }
+  ],
+  "use_limit": "This workflow demonstrates scientific model interpretation; results are illustrative and should not be treated as empirical findings."
+}

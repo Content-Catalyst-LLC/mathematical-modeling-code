@@ -1,0 +1,66 @@
+
+[1;34m[19:36:14][0m Python workflow
+Scientific modeling workflow complete.
+Records: 5
+Scenarios: 5
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[19:36:14][0m R workflow
+null device 
+          1 
+                key    scientific_domain                 model_role
+4  comparison_model scientific_inference           model_comparison
+2    forecast_model   population_science                 prediction
+3 measurement_model        field_science                observation
+5 uncertainty_model scientific_computing uncertainty_quantification
+1   mechanism_model              ecology                explanation
+             model_family
+4          evidence_table
+2      dynamic_simulation
+3 statistical_error_model
+5    sensitivity_analysis
+1   differential_equation
+                                                           evidence_question
+4 Does a logistic model explain observations better than exponential growth?
+2            What range of population outcomes is plausible after ten years?
+3                          How does measurement noise affect interpretation?
+5                      Which assumptions most affect scientific conclusions?
+1                   Can resource limitation explain observed slowing growth?
+  status scientific_priority
+4 review                   7
+2 review                   6
+3 review                   6
+5 review                   6
+1 active                   1
+  mean_final_population min_final_population max_final_population
+1               470.873             342.1212             659.7892
+  scenario_spread scenario_count
+1         317.668              5
+
+[1;34m[19:36:15][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling_in_science.sqlite < sql/schema.sql
+sqlite3 outputs/tables/mathematical_modeling_in_science.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[19:36:15][0m Go workflow
+cd go && go run main.go
+key,growth_rate,carrying_capacity,initial_population,years,final_population,crosses_capacity_midpoint
+baseline,0.280,500.000,40.000,20,481.563324,true
+lower_growth,0.180,500.000,40.000,20,372.390073,true
+higher_growth,0.380,500.000,40.000,20,498.501227,true
+lower_capacity,0.280,350.000,40.000,20,342.121234,true
+higher_capacity,0.280,700.000,40.000,20,659.789209,true
+
+[1;34m[19:36:15][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 population_science_summary.cpp -o population_science_summary
+./population_science_summary > ../outputs/tables/cpp_population_science_summary.csv 2> ../outputs/logs/cpp_population_science_stderr.log
+
+[1;34m[19:36:16][0m Fortran workflow
+gfortran -O2 fortran/population_science_summary.f90 -o outputs/population_science_summary_fortran
+./outputs/population_science_summary_fortran > outputs/tables/fortran_population_science_summary.txt
+
+[1;34m[19:36:17][0m C workflow
+cc -O2 -std=c11 c/population_science_summary.c -o outputs/population_science_summary_c -lm
+./outputs/population_science_summary_c > outputs/tables/c_population_science_summary.csv 2> outputs/logs/c_population_science_stderr.log

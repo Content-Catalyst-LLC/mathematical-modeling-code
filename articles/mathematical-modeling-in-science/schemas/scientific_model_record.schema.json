@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScientificModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "scientific_domain",
+    "model_role",
+    "model_family",
+    "evidence_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "scientific_domain": {"type": "string"},
+    "model_role": {
+      "type": "string",
+      "enum": ["explanation", "prediction", "observation", "simulation", "model_comparison", "uncertainty_quantification"]
+    },
+    "model_family": {"type": "string"},
+    "evidence_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

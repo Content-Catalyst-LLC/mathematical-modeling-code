@@ -1,0 +1,6 @@
+key,growth_rate,carrying_capacity,initial_population,years,final_population,crosses_capacity_midpoint
+baseline,0.280,500.000,40.000,20,481.563324,true
+lower_growth,0.180,500.000,40.000,20,372.390073,true
+higher_growth,0.380,500.000,40.000,20,498.501227,true
+lower_capacity,0.280,350.000,40.000,20,342.121234,true
+higher_capacity,0.280,700.000,40.000,20,659.789209,true

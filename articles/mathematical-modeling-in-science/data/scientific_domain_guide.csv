@@ -1,0 +1,9 @@
+scientific_field,modeling_use,typical_model_forms
+physics,Represent laws forces energy fields and motion,Differential equations conservation laws field equations
+chemistry,Model reaction rates molecular interactions and equilibrium,Rate equations statistical mechanics quantum models
+biology,Represent growth regulation evolution and interaction,Population models gene regulation models stochastic processes
+ecology,Study populations food webs habitats and resilience,Dynamic systems network models spatial models
+earth_systems,Model climate oceans atmosphere geology and hydrology,Coupled simulations transport models geospatial models
+epidemiology,Represent transmission intervention and population risk,Compartmental models stochastic models agent-based models
+neuroscience,Model neurons networks signals and cognition,Dynamical systems network models statistical models
+astronomy,Infer structure motion age and composition from observations,Orbital models inverse models simulations

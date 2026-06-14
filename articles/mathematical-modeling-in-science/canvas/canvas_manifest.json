@@ -1,0 +1,31 @@
+{
+  "article_slug": "mathematical-modeling-in-science",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "scientific-modeling-evidence-governance",
+  "cards": [
+    {
+      "card_id": "scientific-model-register",
+      "title": "Scientific Model Register",
+      "description": "Tracks scientific domain, model role, model family, evidence question, and review status."
+    },
+    {
+      "card_id": "population-scenario-summary",
+      "title": "Population Scenario Summary",
+      "description": "Compares final populations, scenario spread, and midpoint crossing across scientific scenarios."
+    },
+    {
+      "card_id": "scientific-evidence-card",
+      "title": "Scientific Evidence Card",
+      "description": "Documents model purpose, uncertainty, scenario spread, validation needs, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_scientific_question": true,
+    "requires_model_purpose": true,
+    "requires_domain_of_validity": true,
+    "requires_measurement_note": true,
+    "requires_uncertainty_summary": true,
+    "requires_model_comparison_note": true,
+    "requires_reproducible_workflow": true
+  }
+}

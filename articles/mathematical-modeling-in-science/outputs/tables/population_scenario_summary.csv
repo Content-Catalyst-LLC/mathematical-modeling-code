@@ -1,0 +1,6 @@
+key,growth_rate,carrying_capacity,initial_population,years,observation_noise,final_population,carrying_capacity_half,crosses_capacity_midpoint,trajectory_points
+baseline,0.28,500.0,40.0,20,0.03,481.56332446,250.0,True,21
+lower_growth,0.18,500.0,40.0,20,0.03,372.39007294,250.0,True,21
+higher_growth,0.38,500.0,40.0,20,0.03,498.50122725,250.0,True,21
+lower_capacity,0.28,350.0,40.0,20,0.03,342.12123382,175.0,True,21
+higher_capacity,0.28,700.0,40.0,20,0.03,659.7892092,350.0,True,21

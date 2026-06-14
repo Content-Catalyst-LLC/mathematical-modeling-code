@@ -1,0 +1,6 @@
+key,growth_rate,carrying_capacity,initial_population,years,observation_noise
+baseline,0.28,500.0,40.0,20,0.03
+lower_growth,0.18,500.0,40.0,20,0.03
+higher_growth,0.38,500.0,40.0,20,0.03
+lower_capacity,0.28,350.0,40.0,20,0.03
+higher_capacity,0.28,700.0,40.0,20,0.03

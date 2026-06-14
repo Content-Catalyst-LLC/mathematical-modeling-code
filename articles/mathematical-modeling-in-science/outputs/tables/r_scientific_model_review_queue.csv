@@ -1,0 +1,6 @@
+"key","scientific_domain","model_role","model_family","evidence_question","status","scientific_priority"
+"comparison_model","scientific_inference","model_comparison","evidence_table","Does a logistic model explain observations better than exponential growth?","review",7
+"forecast_model","population_science","prediction","dynamic_simulation","What range of population outcomes is plausible after ten years?","review",6
+"measurement_model","field_science","observation","statistical_error_model","How does measurement noise affect interpretation?","review",6
+"uncertainty_model","scientific_computing","uncertainty_quantification","sensitivity_analysis","Which assumptions most affect scientific conclusions?","review",6
+"mechanism_model","ecology","explanation","differential_equation","Can resource limitation explain observed slowing growth?","active",1
