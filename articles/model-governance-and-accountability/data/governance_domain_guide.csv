@@ -1,0 +1,9 @@
+area,governance_use,typical_artifacts
+purpose_definition,Define what the model is for and not for,purpose statement use case record decision-context note
+ownership,Assign model owner data owner reviewer and decision owner,ownership register accountability card
+data_governance,Review data provenance quality access privacy and limits,data lineage report quality checklist
+validation,Assess whether the model is fit for intended use,validation report diagnostics sensitivity analysis
+use_limits,Specify approved and prohibited uses,use-limit statement approved-domain note
+monitoring,Detect drift error misuse incidents and context changes,monitoring dashboard incident log
+revision,Update model when evidence or conditions change,revision trigger record change log
+retirement,Stop use when evidence is insufficient or context changes,retirement criteria archive note

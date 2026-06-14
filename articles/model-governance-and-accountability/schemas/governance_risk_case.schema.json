@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GovernanceRiskCase",
+  "type": "object",
+  "required": [
+    "key",
+    "model_name",
+    "error_risk",
+    "uncertainty_level",
+    "consequence_level",
+    "scope_misuse_risk",
+    "accountability_gap"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "model_name": {"type": "string"},
+    "error_risk": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "consequence_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "scope_misuse_risk": {"type": "number", "minimum": 0, "maximum": 1},
+    "accountability_gap": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

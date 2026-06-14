@@ -1,0 +1,5 @@
+key,model_name,error_risk,uncertainty_level,consequence_level,scope_misuse_risk,accountability_gap,governance_risk_score,review_class,requires_uncertainty_brief,requires_use_limit_review,requires_accountability_review
+infrastructure_risk,Infrastructure risk prioritization model,0.38,0.56,0.82,0.42,0.24,0.513,standard_monitoring,False,False,False
+public_health_demand,Public health demand model,0.5,0.68,0.86,0.48,0.32,0.595,governance_review_required,True,True,True
+supply_chain_resilience,Supply chain resilience model,0.36,0.52,0.65,0.4,0.22,0.4515,standard_monitoring,False,False,False
+ai_triage_support,AI-assisted triage support model,0.62,0.72,0.95,0.7,0.55,0.728,escalation_required,True,True,True

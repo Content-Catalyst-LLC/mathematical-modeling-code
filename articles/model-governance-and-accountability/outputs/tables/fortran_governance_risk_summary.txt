@@ -1,0 +1,5 @@
+key error_risk uncertainty consequence scope_misuse accountability_gap governance_risk_score
+infrastructure_risk   0.3800   0.5600   0.8200   0.4200   0.2400     0.5130
+public_health_demand   0.5000   0.6800   0.8600   0.4800   0.3200     0.5950
+supply_chain_resilience   0.3600   0.5200   0.6500   0.4000   0.2200     0.4515
+ai_triage_support   0.6200   0.7200   0.9500   0.7000   0.5500     0.7280

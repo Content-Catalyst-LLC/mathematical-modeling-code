@@ -1,0 +1,128 @@
+{
+  "article": "Model Governance and Accountability",
+  "diagnostic_checks": [
+    "model purpose is recorded",
+    "risk tier is recorded",
+    "validation status is recorded",
+    "use-limit status is recorded",
+    "monitoring status is recorded",
+    "model owner and decision owner are recorded",
+    "risk review flags uncertainty, use-limit, and accountability review needs"
+  ],
+  "governance_summary": {
+    "case_count": 4,
+    "escalation_count": 1,
+    "highest_risk_model": "AI-assisted triage support model",
+    "max_governance_risk_score": 0.728,
+    "mean_governance_risk_score": 0.571875
+  },
+  "model_governance_register": [
+    {
+      "decision_owner": "capital planning office",
+      "governance_priority": 6.0,
+      "key": "infrastructure_risk",
+      "model_name": "Infrastructure risk prioritization model",
+      "model_owner": "infrastructure analytics team",
+      "model_purpose": "planning support for repair prioritization",
+      "monitoring_status": "active",
+      "risk_tier": "high",
+      "use_limit_status": "approved_with_limits",
+      "validation_status": "validated_with_limits"
+    },
+    {
+      "decision_owner": "public health operations",
+      "governance_priority": 11.5,
+      "key": "public_health_demand",
+      "model_name": "Public health demand model",
+      "model_owner": "health modeling team",
+      "model_purpose": "scenario planning for service demand",
+      "monitoring_status": "pending",
+      "risk_tier": "high",
+      "use_limit_status": "draft",
+      "validation_status": "review_required"
+    },
+    {
+      "decision_owner": "procurement leadership",
+      "governance_priority": 3.0,
+      "key": "supply_chain_resilience",
+      "model_name": "Supply chain resilience model",
+      "model_owner": "operations research group",
+      "model_purpose": "stress testing supplier dependency",
+      "monitoring_status": "active",
+      "risk_tier": "medium",
+      "use_limit_status": "approved_with_limits",
+      "validation_status": "validated_with_limits"
+    },
+    {
+      "decision_owner": "clinical governance board",
+      "governance_priority": 14.5,
+      "key": "ai_triage_support",
+      "model_name": "AI-assisted triage support model",
+      "model_owner": "clinical analytics team",
+      "model_purpose": "decision support under clinical review",
+      "monitoring_status": "pending",
+      "risk_tier": "critical",
+      "use_limit_status": "not_approved",
+      "validation_status": "review_required"
+    }
+  ],
+  "model_governance_risk_review": [
+    {
+      "accountability_gap": 0.24,
+      "consequence_level": 0.82,
+      "error_risk": 0.38,
+      "governance_risk_score": 0.513,
+      "key": "infrastructure_risk",
+      "model_name": "Infrastructure risk prioritization model",
+      "requires_accountability_review": false,
+      "requires_uncertainty_brief": false,
+      "requires_use_limit_review": false,
+      "review_class": "standard_monitoring",
+      "scope_misuse_risk": 0.42,
+      "uncertainty_level": 0.56
+    },
+    {
+      "accountability_gap": 0.32,
+      "consequence_level": 0.86,
+      "error_risk": 0.5,
+      "governance_risk_score": 0.595,
+      "key": "public_health_demand",
+      "model_name": "Public health demand model",
+      "requires_accountability_review": true,
+      "requires_uncertainty_brief": true,
+      "requires_use_limit_review": true,
+      "review_class": "governance_review_required",
+      "scope_misuse_risk": 0.48,
+      "uncertainty_level": 0.68
+    },
+    {
+      "accountability_gap": 0.22,
+      "consequence_level": 0.65,
+      "error_risk": 0.36,
+      "governance_risk_score": 0.4515,
+      "key": "supply_chain_resilience",
+      "model_name": "Supply chain resilience model",
+      "requires_accountability_review": false,
+      "requires_uncertainty_brief": false,
+      "requires_use_limit_review": false,
+      "review_class": "standard_monitoring",
+      "scope_misuse_risk": 0.4,
+      "uncertainty_level": 0.52
+    },
+    {
+      "accountability_gap": 0.55,
+      "consequence_level": 0.95,
+      "error_risk": 0.62,
+      "governance_risk_score": 0.728,
+      "key": "ai_triage_support",
+      "model_name": "AI-assisted triage support model",
+      "requires_accountability_review": true,
+      "requires_uncertainty_brief": true,
+      "requires_use_limit_review": true,
+      "review_class": "escalation_required",
+      "scope_misuse_risk": 0.7,
+      "uncertainty_level": 0.72
+    }
+  ],
+  "use_limit": "This workflow supports model governance review and accountability documentation; it does not replace domain validation, legal review, ethical review, stakeholder engagement, or accountable decision ownership."
+}

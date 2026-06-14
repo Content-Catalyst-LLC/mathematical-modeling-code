@@ -1,0 +1,70 @@
+section   
+----------
+RISK TIERS
+risk_tier  description                                                   review_requirement                                          
+---------  ------------------------------------------------------------  ------------------------------------------------------------
+low        Low consequence internal or exploratory model.                Basic documentation and owner review.                       
+
+medium     Model supports operational planning or moderate consequence   Validation, use limits, and monitoring required.            
+           decisions.                                                                                                                
+
+high       Model affects resources, safety, public systems, or institut  Independent review, uncertainty brief, monitoring, and appro
+           ional strategy.                                               val required.                                               
+
+critical   Model may affect rights, safety, clinical decisions, automat  Formal governance board review, strict use limits, monitorin
+           ed decisions, or major public consequences.                   g, incident process, and decision ownership required.       
+section                               
+--------------------------------------
+MODEL GOVERNANCE REGISTER REVIEW QUEUE
+record_key            model_name                                risk_tier  validation_status      use_limit_status      monitoring_status  model_owner                    decision_owner           
+--------------------  ----------------------------------------  ---------  ---------------------  --------------------  -----------------  -----------------------------  -------------------------
+infrastructure_risk   Infrastructure risk prioritization model  high       validated_with_limits  approved_with_limits  active             infrastructure analytics team  capital planning office  
+public_health_demand  Public health demand model                high       review_required        draft                 pending            health modeling team           public health operations 
+ai_triage_support     AI-assisted triage support model          critical   review_required        not_approved          pending            clinical analytics team        clinical governance board
+section                     
+----------------------------
+MODEL GOVERNANCE RISK REVIEW
+case_key                 model_name                                governance_risk_score  review_class                requires_uncertainty_brief  requires_use_limit_review  requires_accountability_review
+-----------------------  ----------------------------------------  ---------------------  --------------------------  --------------------------  -------------------------  ------------------------------
+ai_triage_support        AI-assisted triage support model          0.728                  escalation_required         yes                         yes                        yes                           
+public_health_demand     Public health demand model                0.595                  governance_review_required  yes                         yes                        yes                           
+infrastructure_risk      Infrastructure risk prioritization model  0.513                  standard_monitoring         no                          no                         no                            
+supply_chain_resilience  Supply chain resilience model             0.452                  standard_monitoring         no                          no                         no                            
+section                  
+-------------------------
+MODEL LIFECYCLE CHECKLIST
+lifecycle_stage   review_question                                               artifact                                   
+----------------  ------------------------------------------------------------  -------------------------------------------
+design            What problem is the model intended to address?                purpose_and_decision_context_statement     
+
+data_preparation  Are data sources appropriate documented and lawful to use?    data_lineage_and_quality_report            
+
+construction      What assumptions equations parameters and constraints are us  model_specification_and_assumption_register
+                  ed?                                                                                                      
+
+testing           Does the implementation match the intended logic?             unit_tests_diagnostics_and_code_review     
+
+validation        Is the model fit for its intended use?                        validation_report                          
+
+approval          Who approved the model and under what limits?                 approval_and_use_limit_record              
+
+deployment        How will users access interpret and apply the model?          deployment_and_communication_plan          
+
+monitoring        How will drift misuse or failure be detected?                 monitoring_dashboard_and_review_schedule   
+
+revision          What evidence triggers recalibration or redesign?             revision_trigger_log                       
+
+retirement        When should the model stop being used?                        retirement_decision_record                 
+section                
+-----------------------
+GOVERNANCE DOMAIN GUIDE
+area                governance_use                                             typical_artifacts                                      
+------------------  ---------------------------------------------------------  -------------------------------------------------------
+data_governance     Review data provenance quality access privacy and limits   data lineage report quality checklist                  
+monitoring          Detect drift error misuse incidents and context changes    monitoring dashboard incident log                      
+ownership           Assign model owner data owner reviewer and decision owner  ownership register accountability card                 
+purpose_definition  Define what the model is for and not for                   purpose statement use case record decision-context note
+retirement          Stop use when evidence is insufficient or context changes  retirement criteria archive note                       
+revision            Update model when evidence or conditions change            revision trigger record change log                     
+use_limits          Specify approved and prohibited uses                       use-limit statement approved-domain note               
+validation          Assess whether the model is fit for intended use           validation report diagnostics sensitivity analysis     

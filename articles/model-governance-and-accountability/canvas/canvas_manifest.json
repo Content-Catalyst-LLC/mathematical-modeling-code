@@ -1,0 +1,34 @@
+{
+  "article_slug": "model-governance-and-accountability",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "model-governance-accountability",
+  "cards": [
+    {
+      "card_id": "model-governance-register",
+      "title": "Model Governance Register",
+      "description": "Tracks model purpose, risk tier, validation status, use-limit status, monitoring status, model owner, and decision owner."
+    },
+    {
+      "card_id": "model-governance-risk-review",
+      "title": "Model Governance Risk Review",
+      "description": "Scores model risk from error risk, uncertainty, consequence, scope misuse, and accountability gaps."
+    },
+    {
+      "card_id": "model-lifecycle-card",
+      "title": "Model Lifecycle Card",
+      "description": "Documents design, data preparation, construction, testing, validation, approval, deployment, monitoring, revision, and retirement."
+    }
+  ],
+  "governance": {
+    "requires_model_owner": true,
+    "requires_decision_owner": true,
+    "requires_validation_report": true,
+    "requires_use_limit_statement": true,
+    "requires_monitoring_plan": true,
+    "requires_incident_review_path": true,
+    "requires_revision_triggers": true,
+    "requires_retirement_criteria": true,
+    "requires_uncertainty_brief": true,
+    "requires_accountability_record": true
+  }
+}

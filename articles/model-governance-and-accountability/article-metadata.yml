@@ -1,0 +1,19 @@
+actual_title: "Model Governance and Accountability"
+suggested_seo_title: "Model Governance and Accountability: How Mathematical Models Should Be Reviewed, Monitored, Documented, and Used Responsibly"
+focus_keyword: "model governance and accountability"
+slug: "model-governance-and-accountability"
+series: "Mathematical Modeling"
+article_order:
+  previous: "mathematical-modeling-in-an-age-of-complexity"
+  current: "model-governance-and-accountability"
+  next: "ai-assisted-modeling-and-human-judgment"
+tags:
+  - Mathematical Modeling
+  - Model Governance
+  - Accountability
+  - Model Risk
+  - Responsible Modeling
+  - Decision Support
+  - Validation
+  - Uncertainty
+excerpt_139_words: "Model governance and accountability examines how mathematical models should be documented, reviewed, approved, monitored, revised, and retired when they influence consequential decisions. Models can clarify evidence, test assumptions, compare scenarios, estimate uncertainty, and support planning, but they can also mislead when ownership, validation, use limits, monitoring, and decision responsibility are weak. This article explains why models require governance across their full lifecycle: purpose definition, data review, assumption documentation, validation, uncertainty communication, approval, deployment, monitoring, incident review, revision, and retirement. It also distinguishes model ownership from decision ownership, showing why accountability cannot be delegated to equations, software, dashboards, or artificial intelligence. Responsible governance keeps models useful without allowing them to become unchallengeable authorities. Models support judgment, but institutions remain responsible for how model-based claims are interpreted and used."

@@ -1,0 +1,5 @@
+"key","model_name","model_purpose","risk_tier","validation_status","use_limit_status","monitoring_status","model_owner","decision_owner","governance_priority"
+"ai_triage_support","AI-assisted triage support model","decision support under clinical review","critical","review_required","not_approved","pending","clinical analytics team","clinical governance board",14.5
+"public_health_demand","Public health demand model","scenario planning for service demand","high","review_required","draft","pending","health modeling team","public health operations",11.5
+"infrastructure_risk","Infrastructure risk prioritization model","planning support for repair prioritization","high","validated_with_limits","approved_with_limits","active","infrastructure analytics team","capital planning office",6
+"supply_chain_resilience","Supply chain resilience model","stress testing supplier dependency","medium","validated_with_limits","approved_with_limits","active","operations research group","procurement leadership",3

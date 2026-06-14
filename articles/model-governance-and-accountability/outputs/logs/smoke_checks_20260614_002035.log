@@ -1,0 +1,77 @@
+
+[1;34m[00:20:37][0m Python workflow
+Model governance and accountability workflow complete.
+Governance register records: 4
+Governance risk cases: 4
+Governance summary: {'highest_risk_model': 'AI-assisted triage support model', 'mean_governance_risk_score': 0.571875, 'max_governance_risk_score': 0.728, 'escalation_count': 1, 'case_count': 4}
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[00:20:37][0m R workflow
+null device 
+          1 
+                      key                               model_name
+4       ai_triage_support         AI-assisted triage support model
+2    public_health_demand               Public health demand model
+1     infrastructure_risk Infrastructure risk prioritization model
+3 supply_chain_resilience            Supply chain resilience model
+                               model_purpose risk_tier     validation_status
+4     decision support under clinical review  critical       review_required
+2       scenario planning for service demand      high       review_required
+1 planning support for repair prioritization      high validated_with_limits
+3         stress testing supplier dependency    medium validated_with_limits
+      use_limit_status monitoring_status                   model_owner
+4         not_approved           pending       clinical analytics team
+2                draft           pending          health modeling team
+1 approved_with_limits            active infrastructure analytics team
+3 approved_with_limits            active     operations research group
+             decision_owner governance_priority
+4 clinical governance board                14.5
+2  public health operations                11.5
+1   capital planning office                 6.0
+3    procurement leadership                 3.0
+                highest_risk_model mean_governance_risk_score
+1 AI-assisted triage support model                   0.571875
+  max_governance_risk_score escalation_count case_count
+1                     0.728                1          4
+                      key                               model_name error_risk
+4       ai_triage_support         AI-assisted triage support model       0.62
+2    public_health_demand               Public health demand model       0.50
+1     infrastructure_risk Infrastructure risk prioritization model       0.38
+3 supply_chain_resilience            Supply chain resilience model       0.36
+  uncertainty_level consequence_level scope_misuse_risk accountability_gap
+4              0.72              0.95              0.70               0.55
+2              0.68              0.86              0.48               0.32
+1              0.56              0.82              0.42               0.24
+3              0.52              0.65              0.40               0.22
+  governance_risk_score               review_class requires_uncertainty_brief
+4                0.7280        escalation_required                       True
+2                0.5950 governance_review_required                       True
+1                0.5130        standard_monitoring                      False
+3                0.4515        standard_monitoring                      False
+  requires_use_limit_review requires_accountability_review
+4                      True                           True
+2                      True                           True
+1                     False                          False
+3                     False                          False
+
+[1;34m[00:20:37][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/model_governance_and_accountability.sqlite < sql/schema.sql
+sqlite3 outputs/tables/model_governance_and_accountability.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[00:20:37][0m Go workflow
+cd go && go run main.go
+key,error_risk,uncertainty_level,consequence_level,scope_misuse_risk,accountability_gap,governance_risk_score,review_class
+infrastructure_risk,0.380000,0.560000,0.820000,0.420000,0.240000,0.513000,standard_monitoring
+public_health_demand,0.500000,0.680000,0.860000,0.480000,0.320000,0.595000,governance_review_required
+supply_chain_resilience,0.360000,0.520000,0.650000,0.400000,0.220000,0.451500,standard_monitoring
+ai_triage_support,0.620000,0.720000,0.950000,0.700000,0.550000,0.728000,escalation_required
+
+[1;34m[00:20:38][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 governance_risk_summary.cpp -o governance_risk_summary
+./governance_risk_summary > ../outputs/tables/cpp_governance_risk_summary.csv 2> ../outputs/logs/cpp_governance_risk_stderr.log
+
+[1;34m[00:20:39][0m Fortran workflow
+gfortran -O2 fortran/governance_risk_summary.f90 -o outputs/governance_risk_summary_fortran

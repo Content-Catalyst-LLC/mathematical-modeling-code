@@ -1,0 +1,5 @@
+key,error_risk,uncertainty_level,consequence_level,scope_misuse_risk,accountability_gap,governance_risk_score,review_class
+infrastructure_risk,0.380000,0.560000,0.820000,0.420000,0.240000,0.513000,standard_monitoring
+public_health_demand,0.500000,0.680000,0.860000,0.480000,0.320000,0.595000,governance_review_required
+supply_chain_resilience,0.360000,0.520000,0.650000,0.400000,0.220000,0.451500,standard_monitoring
+ai_triage_support,0.620000,0.720000,0.950000,0.700000,0.550000,0.728000,escalation_required

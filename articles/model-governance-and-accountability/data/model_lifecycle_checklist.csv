@@ -1,0 +1,11 @@
+lifecycle_stage,review_question,artifact
+design,What problem is the model intended to address?,purpose_and_decision_context_statement
+data_preparation,Are data sources appropriate documented and lawful to use?,data_lineage_and_quality_report
+construction,What assumptions equations parameters and constraints are used?,model_specification_and_assumption_register
+testing,Does the implementation match the intended logic?,unit_tests_diagnostics_and_code_review
+validation,Is the model fit for its intended use?,validation_report
+approval,Who approved the model and under what limits?,approval_and_use_limit_record
+deployment,How will users access interpret and apply the model?,deployment_and_communication_plan
+monitoring,How will drift misuse or failure be detected?,monitoring_dashboard_and_review_schedule
+revision,What evidence triggers recalibration or redesign?,revision_trigger_log
+retirement,When should the model stop being used?,retirement_decision_record
