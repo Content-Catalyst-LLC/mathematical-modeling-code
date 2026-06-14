@@ -1,0 +1,14 @@
+{
+  "advanced_standard": true,
+  "article": "Differentiability and Local Behavior",
+  "flagged_kink_records": 6,
+  "interpretive_warning": "Finite-difference diagnostics are evidence for review, not proof of differentiability or nondifferentiability.",
+  "methods": [
+    "local_linearization_error",
+    "forward_difference",
+    "backward_difference",
+    "central_difference",
+    "one_sided_gap"
+  ],
+  "series": "Calculus for Systems Modeling"
+}

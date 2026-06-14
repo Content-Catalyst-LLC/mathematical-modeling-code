@@ -1,0 +1,148 @@
+{
+  "advanced_standard": true,
+  "article": "Differentiability and Local Behavior",
+  "diagnostics": [
+    "local_linearization_error",
+    "one_sided_derivative_gap",
+    "kink_detection",
+    "boundary_saturation_review",
+    "invariant_interval_review"
+  ],
+  "flagged_kinks": [
+    {
+      "backward": -1.0,
+      "central": 0.0,
+      "forward": 1.0,
+      "function_name": "kink_abs_response",
+      "h": 1.0,
+      "kink_flag": true,
+      "one_sided_gap": 2.0,
+      "x0": 0.0
+    },
+    {
+      "backward": -1.0,
+      "central": 0.0,
+      "forward": 1.0,
+      "function_name": "kink_abs_response",
+      "h": 0.5,
+      "kink_flag": true,
+      "one_sided_gap": 2.0,
+      "x0": 0.0
+    },
+    {
+      "backward": -1.0,
+      "central": 0.0,
+      "forward": 1.0,
+      "function_name": "kink_abs_response",
+      "h": 0.25,
+      "kink_flag": true,
+      "one_sided_gap": 2.0,
+      "x0": 0.0
+    },
+    {
+      "backward": -1.0,
+      "central": 0.0,
+      "forward": 1.0,
+      "function_name": "kink_abs_response",
+      "h": 0.125,
+      "kink_flag": true,
+      "one_sided_gap": 2.0,
+      "x0": 0.0
+    },
+    {
+      "backward": -1.0,
+      "central": 0.0,
+      "forward": 1.0,
+      "function_name": "kink_abs_response",
+      "h": 0.0625,
+      "kink_flag": true,
+      "one_sided_gap": 2.0,
+      "x0": 0.0
+    },
+    {
+      "backward": 1.0,
+      "central": 0.5,
+      "forward": 0.0,
+      "function_name": "saturation_response_boundary",
+      "h": 1.0,
+      "kink_flag": true,
+      "one_sided_gap": 1.0,
+      "x0": 1.0
+    },
+    {
+      "backward": 1.0,
+      "central": 0.5,
+      "forward": 0.0,
+      "function_name": "saturation_response_boundary",
+      "h": 0.5,
+      "kink_flag": true,
+      "one_sided_gap": 1.0,
+      "x0": 1.0
+    },
+    {
+      "backward": 1.0,
+      "central": 0.5,
+      "forward": 0.0,
+      "function_name": "saturation_response_boundary",
+      "h": 0.25,
+      "kink_flag": true,
+      "one_sided_gap": 1.0,
+      "x0": 1.0
+    },
+    {
+      "backward": 1.0,
+      "central": 0.5,
+      "forward": 0.0,
+      "function_name": "saturation_response_boundary",
+      "h": 0.125,
+      "kink_flag": true,
+      "one_sided_gap": 1.0,
+      "x0": 1.0
+    },
+    {
+      "backward": 1.0,
+      "central": 0.5,
+      "forward": 0.0,
+      "function_name": "saturation_response_boundary",
+      "h": 0.0625,
+      "kink_flag": true,
+      "one_sided_gap": 1.0,
+      "x0": 1.0
+    }
+  ],
+  "formal_topics": [
+    "derivative_as_limit",
+    "local_linearization",
+    "differentiability_implies_continuity",
+    "one_sided_derivatives",
+    "partial_vs_full_differentiability",
+    "directional_derivatives",
+    "frechet_differentiability",
+    "gateaux_differentiability",
+    "jacobian_local_map",
+    "nonsmooth_analysis_warning"
+  ],
+  "invariant_failures": [
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": -0.05
+    },
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": 1.2
+    }
+  ],
+  "warnings": [
+    "A symbolic derivative does not establish empirical smoothness.",
+    "Partial derivatives do not guarantee full differentiability.",
+    "Finite-difference estimates can hide kinks at coarse resolution.",
+    "Derivatives are local approximations, not global models.",
+    "Boundary derivatives must respect the feasible domain."
+  ]
+}

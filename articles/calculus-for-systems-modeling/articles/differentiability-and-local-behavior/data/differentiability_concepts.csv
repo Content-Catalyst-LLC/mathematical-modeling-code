@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+ordinary_derivative,Ordinary derivative,Defines a stable limiting rate of change at a point,Supports marginal analysis and local sensitivity in one-dimensional models,Requires the difference quotient to converge from both sides
+local_linearization,Local linearization,Represents differentiability as first-order approximation with small remainder,Supports perturbation analysis calibration and local response estimates,Only valid near the operating point and inside the model domain
+jacobian,Jacobian matrix,Represents the derivative of a vector-valued function as a linear map,Supports local stability parameter sensitivity and Newton-type methods,May be undefined or misleading near thresholds kinks or discontinuities
+frechet_derivative,Fréchet derivative,Defines differentiability as a bounded linear approximation in normed spaces,Supports advanced function-space and trajectory-based models,Stronger than directional sensitivity and requires uniform small-remainder control
+nonsmooth_model,Nonsmooth model,Identifies cases where ordinary derivatives fail or are one-sided,Supports piecewise threshold and constrained systems modeling,Requires one-sided derivatives subgradients event logic or generalized tools

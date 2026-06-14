@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across continuous change, functions, variables, mathematical representation, domains, ranges, valid input spaces, infinity, infinitesimals, limits, continuity, discontinuity, structural breaks, differentiability, local behavior, approximation, rates, accumulation, optimization, differential equations, numerical methods, sensitivity analysis, responsible interpretation, and reproducible scientific-computing workflows.
+This folder supports calculus-based systems modeling across continuous change, functions, variables, mathematical representation, domains, ranges, valid input spaces, infinity, infinitesimals, limits, continuity, discontinuity, structural breaks, approximation, rates, accumulation, optimization, differential equations, numerical methods, sensitivity analysis, responsible interpretation, and reproducible scientific-computing workflows.
 
 ## Nested article folders
 
@@ -21,7 +21,6 @@ articles/calculus-for-systems-modeling/articles/domains-ranges-and-the-structure
 articles/calculus-for-systems-modeling/articles/infinity-infinitesimals-and-the-historical-problem-of-change/
 articles/calculus-for-systems-modeling/articles/limits-and-the-formal-basis-of-calculus/
 articles/calculus-for-systems-modeling/articles/continuity-discontinuity-and-structural-breaks/
-articles/calculus-for-systems-modeling/articles/differentiability-and-local-behavior/
 ```
 
 ## Advanced mathematical standard

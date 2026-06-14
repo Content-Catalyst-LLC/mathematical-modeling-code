@@ -1,0 +1,11 @@
+function_name x0 h forward backward central one_sided_gap kink_flag
+smooth_exp_response   5.0000   1.0000     0.601835     0.492741     0.547288     0.109094 false
+smooth_exp_response   5.0000   0.5000     0.571768     0.517357     0.544563     0.054411 false
+smooth_exp_response   5.0000   0.2500     0.557477     0.530289     0.543883     0.027188 false
+smooth_exp_response   5.0000   0.1250     0.550509     0.536917     0.543713     0.013592 false
+smooth_exp_response   5.0000   0.0625     0.547068     0.540273     0.543671     0.006796 false
+kink_abs_response   0.0000   1.0000     1.000000    -1.000000     0.000000     2.000000 true
+kink_abs_response   0.0000   0.5000     1.000000    -1.000000     0.000000     2.000000 true
+kink_abs_response   0.0000   0.2500     1.000000    -1.000000     0.000000     2.000000 true
+kink_abs_response   0.0000   0.1250     1.000000    -1.000000     0.000000     2.000000 true
+kink_abs_response   0.0000   0.0625     1.000000    -1.000000     0.000000     2.000000 true

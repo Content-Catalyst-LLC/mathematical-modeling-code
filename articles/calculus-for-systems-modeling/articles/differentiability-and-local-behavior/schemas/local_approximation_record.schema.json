@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LocalApproximationRecord",
+  "type": "object",
+  "required": ["function_name", "x0", "h", "actual_change", "linear_prediction", "absolute_error", "error_over_h"],
+  "properties": {
+    "function_name": {"type": "string"},
+    "x0": {"type": "number"},
+    "h": {"type": "number"},
+    "actual_change": {"type": "number"},
+    "linear_prediction": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0},
+    "error_over_h": {"type": "number", "minimum": 0}
+  }
+}

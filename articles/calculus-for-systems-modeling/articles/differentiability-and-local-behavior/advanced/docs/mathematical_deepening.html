@@ -1,0 +1,63 @@
+<h2 id="mathematical-deepening">Mathematical Deepening</h2>
+
+<p>This section strengthens the article for mathematically advanced readers by clarifying differentiability as a local approximation property rather than merely a symbolic derivative.</p>
+
+<section class="cc-method-section" id="advanced-formal-definitions">
+
+<h3>Formal Definitions</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Derivative as First-Order Approximation</h3>
+<p>A function \(f:\mathbb{R}\to\mathbb{R}\) is differentiable at \(a\) if \(f(a+h)=f(a)+f'(a)h+o(h)\).</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Fréchet Derivative</h3>
+<p>For normed spaces \(X\) and \(Y\), Fréchet differentiability requires a bounded linear operator \(A:X\to Y\) whose approximation error is \(o(\|h\|)\).</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Gâteaux Derivative</h3>
+<p>A Gâteaux derivative measures directional sensitivity. It may exist without a full Fréchet derivative.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Jacobian</h3>
+<p>For vector-valued models, the Jacobian is the local linear map when full differentiability holds.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cc-method-section" id="advanced-propositions-counterexamples">
+
+<h3>Propositions and Counterexamples</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Differentiability Implies Continuity</h3>
+<p>Any function differentiable at a point is continuous there. Discontinuity rules out differentiability.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Continuous but Not Differentiable</h3>
+<p>The function \(f(x)=|x|\) is continuous at \(0\) but not differentiable there.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Partial Derivatives Are Not Enough</h3>
+<p>A multivariable function may have partial derivatives at a point but fail to admit a coherent local linear approximation.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Modeling Warning</h3>
+<p>A numerical derivative can look stable on a coarse grid while missing a kink, threshold, or active-constraint change.</p>
+</div>
+
+</div>
+
+</section>

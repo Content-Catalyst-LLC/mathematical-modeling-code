@@ -1,0 +1,42 @@
+section                              
+-------------------------------------
+DIFFERENTIABILITY ASSUMPTION REGISTRY
+concept_name         formal_role                                                   systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Fréchet derivative   Defines differentiability as a bounded linear approximation   Supports advanced function-space and trajectory-based models  Stronger than directional sensitivity and requires uniform s
+                     in normed spaces.                                             .                                                             mall-remainder control.                                     
+
+Jacobian matrix      Represents the derivative of a vector-valued function as a l  Supports local stability, parameter sensitivity, and Newton-  May be undefined or misleading near thresholds, kinks, or di
+                     inear map.                                                    type methods.                                                 scontinuities.                                              
+
+Local linearization  Represents differentiability as first-order approximation wi  Supports perturbation analysis, calibration, and local respo  Only valid near the operating point and inside the model dom
+                     th small remainder.                                           nse estimates.                                                ain.                                                        
+
+Nonsmooth model      Identifies cases where ordinary derivatives fail or are one-  Supports piecewise, threshold, and constrained systems model  Requires one-sided derivatives, subgradients, event logic, o
+                     sided.                                                        ing.                                                          r generalized tools.                                        
+
+Ordinary derivative  Defines a stable limiting rate of change at a point.          Supports marginal analysis and local sensitivity in one-dime  Requires the difference quotient to converge from both sides
+                                                                                   nsional models.                                               .                                                           
+section              
+---------------------
+DIAGNOSTIC THRESHOLDS
+threshold_key                 threshold_value  interpretation                                              
+----------------------------  ---------------  ------------------------------------------------------------
+one_sided_gap                 0.5              Forward/backward finite-difference disagreement above this v
+                                               alue is flagged.                                            
+
+relative_linearization_error  0.1              Large local-linearization error relative to perturbation is 
+                                               flagged.                                                    
+section             
+--------------------
+NONSMOOTH CASE TYPES
+case_name              diagnostic_signal                                   modeling_warning                                            
+---------------------  --------------------------------------------------  ------------------------------------------------------------
+Boundary derivative    Only one side of the perturbation is feasible.      Use domain-relative or one-sided derivative logic.          
+
+Kink                   Forward and backward derivatives disagree.          Use one-sided derivatives, subgradients, or piecewise analys
+                                                                           is.                                                         
+
+Max/min nonsmoothness  Active branch changes.                              Use nonsmooth optimization or branch-wise derivatives.      
+
+Threshold rule         Local formula changes when an active rule changes.  Do not apply a single derivative across the threshold.      

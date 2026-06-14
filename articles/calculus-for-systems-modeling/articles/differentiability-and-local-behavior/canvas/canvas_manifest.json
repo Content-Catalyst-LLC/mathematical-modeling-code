@@ -1,0 +1,35 @@
+{
+  "article_slug": "differentiability-and-local-behavior",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "differentiability-local-behavior",
+  "advanced_standard": true,
+  "cards": [
+    {
+      "card_id": "local-linearization",
+      "title": "Local Linearization",
+      "description": "Differentiability means a model admits a first-order local linear approximation."
+    },
+    {
+      "card_id": "one-sided-derivatives",
+      "title": "One-Sided Derivatives",
+      "description": "Boundary and threshold behavior may require one-sided local rates."
+    },
+    {
+      "card_id": "jacobian-local-map",
+      "title": "Jacobian as Local Map",
+      "description": "A Jacobian maps small input perturbations to first-order output perturbations."
+    },
+    {
+      "card_id": "nonsmooth-behavior",
+      "title": "Nonsmooth Behavior",
+      "description": "Kinks, thresholds, max/min rules, and constraints require nonsmooth or piecewise analysis."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "counterexamples_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true
+  }
+}
