@@ -1,0 +1,6 @@
+stakeholder_group,decision_concern,interpretation_need,governance_question
+decision_owner,Accountable action,Decision summary and use limits,Who owns the final decision?
+technical_reviewer,Model credibility,Assumptions validation uncertainty and diagnostics,Has evidence been reviewed?
+affected_public,Consequences and fairness,Plain-language uncertainty and impact,Who bears risk?
+domain_expert,Mechanism plausibility,Model structure and omitted mechanisms,Does representation make sense?
+future_maintainer,Update and monitoring,Triggers and revalidation plan,When should the model be revised?

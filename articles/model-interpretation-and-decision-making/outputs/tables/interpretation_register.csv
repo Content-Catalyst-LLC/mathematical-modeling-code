@@ -1,0 +1,6 @@
+key,interpretation_layer,model_role,decision_question,status,interpretation_priority
+output_meaning,result,Explains what the output represents,What claim is being made from the model output?,active,1.0
+uncertainty_meaning,uncertainty,Connects uncertainty range to interpretation,Could uncertainty change the decision?,review,7.0
+threshold_review,decision_threshold,Reviews proximity to action boundary,Does the result cross or approach the threshold?,review,7.0
+value_tradeoff,values,Documents tradeoffs and objectives,Which values are represented or excluded?,review,6.0
+governance_review,governance,Documents decision ownership and use limits,Who owns the decision and monitoring plan?,review,8.0

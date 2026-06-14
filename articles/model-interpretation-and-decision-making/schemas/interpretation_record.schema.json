@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InterpretationRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "interpretation_layer",
+    "model_role",
+    "decision_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "interpretation_layer": {
+      "type": "string",
+      "enum": ["result", "uncertainty", "decision_threshold", "values", "governance", "communication"]
+    },
+    "model_role": {"type": "string"},
+    "decision_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

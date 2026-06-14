@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DecisionOption",
+  "type": "object",
+  "required": [
+    "key",
+    "option_name",
+    "expected_stock",
+    "lower_bound",
+    "upper_bound",
+    "implementation_burden",
+    "consequence_if_wrong",
+    "description"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "option_name": {"type": "string"},
+    "expected_stock": {"type": "number"},
+    "lower_bound": {"type": "number"},
+    "upper_bound": {"type": "number"},
+    "implementation_burden": {"type": "number"},
+    "consequence_if_wrong": {"type": "number"},
+    "description": {"type": "string"}
+  }
+}

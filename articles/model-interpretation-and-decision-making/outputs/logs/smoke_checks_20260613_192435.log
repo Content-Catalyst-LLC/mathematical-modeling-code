@@ -1,0 +1,88 @@
+
+[1;34m[19:24:36][0m Python workflow
+Model interpretation and decision workflow complete.
+Records: 5
+Options: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[19:24:37][0m R workflow
+null device 
+          1 
+   best_scored_option max_score min_score fragile_option_count option_count
+1 Strong intervention      59.2      32.4                    2            4
+                    key           option_name expected_stock lower_bound
+4   strong_intervention   Strong intervention             68          58
+3 moderate_intervention Moderate intervention             60          50
+2            monitoring     Formal monitoring             54          42
+1             no_action   No immediate action             52          38
+  upper_bound implementation_burden consequence_if_wrong
+4          78                     8                    2
+3          72                     5                    4
+2          68                     3                    6
+1          66                     1                    9
+                                                        description threshold
+4          Reduce extraction aggressively to maximize safety margin        45
+3 Reduce extraction moderately while preserving adaptive monitoring        45
+2    Increase measurement and update model if trigger values appear        45
+1                  Continue current behavior and monitor informally        45
+  threshold_margin crosses_threshold_under_uncertainty robustness_class
+4               23                               False           robust
+3               15                               False           robust
+2                9                                True          fragile
+1                7                                True          fragile
+  decision_score
+4           59.2
+3           51.2
+2           36.4
+1           32.4
+                  key interpretation_layer
+1      output_meaning               result
+2 uncertainty_meaning          uncertainty
+3    threshold_review   decision_threshold
+4      value_tradeoff               values
+5   governance_review           governance
+                                    model_role
+1          Explains what the output represents
+2 Connects uncertainty range to interpretation
+3         Reviews proximity to action boundary
+4           Documents tradeoffs and objectives
+5  Documents decision ownership and use limits
+                                 decision_question status
+1  What claim is being made from the model output? active
+2           Could uncertainty change the decision? review
+3 Does the result cross or approach the threshold? review
+4        Which values are represented or excluded? review
+5       Who owns the decision and monitoring plan? review
+  interpretation_priority priority_class
+1                       1            low
+2                       7         medium
+3                       7         medium
+4                       6         medium
+5                       8           high
+
+[1;34m[19:24:37][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/model_interpretation_and_decision_making.sqlite < sql/schema.sql
+sqlite3 outputs/tables/model_interpretation_and_decision_making.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[19:24:37][0m Go workflow
+cd go && go run main.go
+key,option_name,decision_score,threshold_margin,robustness_class
+no_action,No immediate action,32.400,7.000,fragile
+monitoring,Formal monitoring,36.400,9.000,fragile
+moderate_intervention,Moderate intervention,51.200,15.000,robust
+strong_intervention,Strong intervention,59.200,23.000,robust
+
+[1;34m[19:24:38][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 decision_summary.cpp -o decision_summary
+./decision_summary > ../outputs/tables/cpp_decision_summary.csv 2> ../outputs/logs/cpp_decision_stderr.log
+
+[1;34m[19:24:39][0m Fortran workflow
+gfortran -O2 fortran/decision_summary.f90 -o outputs/decision_summary_fortran
+./outputs/decision_summary_fortran > outputs/tables/fortran_decision_summary.txt
+
+[1;34m[19:24:40][0m C workflow
+cc -O2 -std=c11 c/decision_summary.c -o outputs/decision_summary_c -lm
+./outputs/decision_summary_c > outputs/tables/c_decision_summary.csv 2> outputs/logs/c_decision_stderr.log

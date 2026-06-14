@@ -1,0 +1,124 @@
+{
+  "article": "Model Interpretation and Decision-Making",
+  "decision_options": [
+    {
+      "consequence_if_wrong": 9.0,
+      "crosses_threshold_under_uncertainty": true,
+      "decision_score": 32.4,
+      "description": "Continue current behavior and monitor informally",
+      "expected_stock": 52.0,
+      "implementation_burden": 1.0,
+      "key": "no_action",
+      "lower_bound": 38.0,
+      "option_name": "No immediate action",
+      "robustness_class": "fragile",
+      "threshold": 45.0,
+      "threshold_margin": 7.0,
+      "upper_bound": 66.0
+    },
+    {
+      "consequence_if_wrong": 6.0,
+      "crosses_threshold_under_uncertainty": true,
+      "decision_score": 36.4,
+      "description": "Increase measurement and update model if trigger values appear",
+      "expected_stock": 54.0,
+      "implementation_burden": 3.0,
+      "key": "monitoring",
+      "lower_bound": 42.0,
+      "option_name": "Formal monitoring",
+      "robustness_class": "fragile",
+      "threshold": 45.0,
+      "threshold_margin": 9.0,
+      "upper_bound": 68.0
+    },
+    {
+      "consequence_if_wrong": 4.0,
+      "crosses_threshold_under_uncertainty": false,
+      "decision_score": 51.2,
+      "description": "Reduce extraction moderately while preserving adaptive monitoring",
+      "expected_stock": 60.0,
+      "implementation_burden": 5.0,
+      "key": "moderate_intervention",
+      "lower_bound": 50.0,
+      "option_name": "Moderate intervention",
+      "robustness_class": "robust",
+      "threshold": 45.0,
+      "threshold_margin": 15.0,
+      "upper_bound": 72.0
+    },
+    {
+      "consequence_if_wrong": 2.0,
+      "crosses_threshold_under_uncertainty": false,
+      "decision_score": 59.2,
+      "description": "Reduce extraction aggressively to maximize safety margin",
+      "expected_stock": 68.0,
+      "implementation_burden": 8.0,
+      "key": "strong_intervention",
+      "lower_bound": 58.0,
+      "option_name": "Strong intervention",
+      "robustness_class": "robust",
+      "threshold": 45.0,
+      "threshold_margin": 23.0,
+      "upper_bound": 78.0
+    }
+  ],
+  "decision_summary": {
+    "best_scored_option": "Strong intervention",
+    "fragile_option_count": 2,
+    "max_score": 59.2,
+    "mean_score": 44.8,
+    "min_score": 32.4,
+    "option_count": 4
+  },
+  "diagnostic_checks": [
+    "model output is separated from decision",
+    "threshold risk is reviewed",
+    "uncertainty is connected to action",
+    "tradeoffs are documented",
+    "decision ownership remains human or institutional",
+    "monitoring and update triggers are required"
+  ],
+  "interpretation_register": [
+    {
+      "decision_question": "What claim is being made from the model output?",
+      "interpretation_layer": "result",
+      "interpretation_priority": 1.0,
+      "key": "output_meaning",
+      "model_role": "Explains what the output represents",
+      "status": "active"
+    },
+    {
+      "decision_question": "Could uncertainty change the decision?",
+      "interpretation_layer": "uncertainty",
+      "interpretation_priority": 7.0,
+      "key": "uncertainty_meaning",
+      "model_role": "Connects uncertainty range to interpretation",
+      "status": "review"
+    },
+    {
+      "decision_question": "Does the result cross or approach the threshold?",
+      "interpretation_layer": "decision_threshold",
+      "interpretation_priority": 7.0,
+      "key": "threshold_review",
+      "model_role": "Reviews proximity to action boundary",
+      "status": "review"
+    },
+    {
+      "decision_question": "Which values are represented or excluded?",
+      "interpretation_layer": "values",
+      "interpretation_priority": 6.0,
+      "key": "value_tradeoff",
+      "model_role": "Documents tradeoffs and objectives",
+      "status": "review"
+    },
+    {
+      "decision_question": "Who owns the decision and monitoring plan?",
+      "interpretation_layer": "governance",
+      "interpretation_priority": 8.0,
+      "key": "governance_review",
+      "model_role": "Documents decision ownership and use limits",
+      "status": "review"
+    }
+  ],
+  "use_limit": "This workflow supports interpretation and decision review; it does not automate the final decision."
+}

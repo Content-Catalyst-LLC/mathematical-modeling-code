@@ -1,0 +1,53 @@
+section              
+---------------------
+INTERPRETATION LAYERS
+interpretation_layer  description                                                   typical_failure                                    
+--------------------  ------------------------------------------------------------  ---------------------------------------------------
+communication         How interpretation is conveyed to users.                      Conditional result is communicated as certainty.   
+
+decision_threshold    Action boundary or trigger condition.                         Threshold is hidden or treated as purely technical.
+
+governance            Decision ownership, use limits, monitoring, and accountabili  The model is treated as the decision owner.        
+                      ty.                                                                                                              
+
+result                Meaning of the model output.                                  Output is treated as direct reality.               
+
+uncertainty           Uncertainty and plausible range.                              Central estimate is interpreted alone.             
+
+values                Tradeoffs, objectives, and consequence weights.               Value judgments are hidden inside the model.       
+section                                
+---------------------------------------
+INTERPRETATION RECORDS REQUIRING REVIEW
+record_key           interpretation_layer  decision_question                               
+-------------------  --------------------  ------------------------------------------------
+uncertainty_meaning  uncertainty           Could uncertainty change the decision?          
+threshold_review     decision_threshold    Does the result cross or approach the threshold?
+value_tradeoff       values                Which values are represented or excluded?       
+governance_review    governance            Who owns the decision and monitoring plan?      
+section                               
+--------------------------------------
+DECISION OPTIONS WITH THRESHOLD REVIEW
+option_key             option_name            expected_stock  lower_bound  upper_bound  threshold_margin  robustness_class  decision_score
+---------------------  ---------------------  --------------  -----------  -----------  ----------------  ----------------  --------------
+strong_intervention    Strong intervention    68.0            58.0         78.0         23.0              robust            59.2          
+moderate_intervention  Moderate intervention  60.0            50.0         72.0         15.0              robust            51.2          
+monitoring             Formal monitoring      54.0            42.0         68.0         9.0               fragile           36.4          
+no_action              No immediate action    52.0            38.0         66.0         7.0               fragile           32.4          
+section                   
+--------------------------
+STAKEHOLDER DECISION GUIDE
+stakeholder_group   decision_concern           interpretation_need                                 governance_question              
+------------------  -------------------------  --------------------------------------------------  ---------------------------------
+affected_public     Consequences and fairness  Plain-language uncertainty and impact               Who bears risk?                  
+decision_owner      Accountable action         Decision summary and use limits                     Who owns the final decision?     
+domain_expert       Mechanism plausibility     Model structure and omitted mechanisms              Does representation make sense?  
+future_maintainer   Update and monitoring      Triggers and revalidation plan                      When should the model be revised?
+technical_reviewer  Model credibility          Assumptions validation uncertainty and diagnostics  Has evidence been reviewed?      
+section                  
+-------------------------
+GOVERNANCE REVIEW TARGETS
+record_key         interpretation_layer  model_role                                   decision_question                               
+-----------------  --------------------  -------------------------------------------  ------------------------------------------------
+threshold_review   decision_threshold    Reviews proximity to action boundary         Does the result cross or approach the threshold?
+value_tradeoff     values                Documents tradeoffs and objectives           Which values are represented or excluded?       
+governance_review  governance            Documents decision ownership and use limits  Who owns the decision and monitoring plan?      

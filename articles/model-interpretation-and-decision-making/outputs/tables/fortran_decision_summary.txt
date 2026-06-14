@@ -1,0 +1,5 @@
+key decision_score threshold_margin robustness_class
+no_action   32.400    7.000 fragile
+monitoring   36.400    9.000 fragile
+moderate_intervention   51.200   15.000 robust
+strong_intervention   59.200   23.000 robust

@@ -1,0 +1,5 @@
+key,option_name,expected_stock,lower_bound,upper_bound,implementation_burden,consequence_if_wrong,description,threshold,threshold_margin,crosses_threshold_under_uncertainty,robustness_class,decision_score
+no_action,No immediate action,52.0,38.0,66.0,1.0,9.0,Continue current behavior and monitor informally,45.0,7.0,True,fragile,32.4
+monitoring,Formal monitoring,54.0,42.0,68.0,3.0,6.0,Increase measurement and update model if trigger values appear,45.0,9.0,True,fragile,36.4
+moderate_intervention,Moderate intervention,60.0,50.0,72.0,5.0,4.0,Reduce extraction moderately while preserving adaptive monitoring,45.0,15.0,False,robust,51.2
+strong_intervention,Strong intervention,68.0,58.0,78.0,8.0,2.0,Reduce extraction aggressively to maximize safety margin,45.0,23.0,False,robust,59.2

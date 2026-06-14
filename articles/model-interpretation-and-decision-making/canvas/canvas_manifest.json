@@ -1,0 +1,31 @@
+{
+  "article_slug": "model-interpretation-and-decision-making",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "interpretation-decision-governance",
+  "cards": [
+    {
+      "card_id": "interpretation-register",
+      "title": "Interpretation Register",
+      "description": "Tracks output meaning, uncertainty, threshold, values, communication, and governance layers."
+    },
+    {
+      "card_id": "decision-option-review",
+      "title": "Decision Option Review",
+      "description": "Compares options by uncertainty, threshold margin, burden, consequence, robustness, and decision score."
+    },
+    {
+      "card_id": "decision-support-review-card",
+      "title": "Decision Support Review Card",
+      "description": "Documents decision evidence, interpretation obligations, use limits, and governance checks."
+    }
+  ],
+  "governance": {
+    "requires_output_interpretation": true,
+    "requires_uncertainty_to_action_summary": true,
+    "requires_threshold_review": true,
+    "requires_tradeoff_documentation": true,
+    "requires_decision_owner": true,
+    "requires_monitoring_trigger": true,
+    "requires_use_limit_statement": true
+  }
+}
