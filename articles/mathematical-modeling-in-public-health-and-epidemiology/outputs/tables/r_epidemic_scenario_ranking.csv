@@ -1,0 +1,5 @@
+"key","scenario_name","population","initial_infectious","initial_recovered","beta","gamma","days","hospital_capacity","hospitalization_rate","r0_simple","peak_infectious","peak_hospital_demand","capacity_margin","estimated_attack_rate","capacity_breach","review_class"
+"vaccination_plus_intervention","Vaccination plus intervention",1e+05,120,22000,0.2,0.12,120,850,0.03,1.66666667,2370.92567403,71.12777022,778.87222978,0.36981146,"False","high_transmission_review"
+"strong_intervention","Strong intervention",1e+05,120,4000,0.18,0.12,120,850,0.045,1.5,5183.76617478,233.26947787,616.73052213,0.39428378,"False","within_capacity"
+"moderate_intervention","Moderate intervention",1e+05,120,4000,0.24,0.12,120,850,0.045,2,13812.35439466,621.55594776,228.44405224,0.7798664,"False","high_transmission_review"
+"baseline","Baseline transmission",1e+05,120,4000,0.32,0.12,120,850,0.045,2.66666667,24211.0349007,1089.49657053,-239.49657053,0.91149044,"True","capacity_breach"

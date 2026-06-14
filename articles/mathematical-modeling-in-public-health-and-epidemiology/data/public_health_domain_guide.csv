@@ -1,0 +1,9 @@
+area,modeling_use,typical_model_forms
+infectious_disease,Transmission dynamics intervention scenarios and epidemic forecasting,SIR SEIR network models agent-based models
+public_health_surveillance,Trend detection nowcasting reporting delay and signal interpretation,Statistical surveillance models nowcasting anomaly detection
+health_system_planning,Hospital demand staffing ICU bed and supply planning,Capacity models queueing models demand forecasts
+vaccination_planning,Coverage strategy prioritization and immunity effects,Compartmental models optimization models
+screening_and_prevention,Risk detection program design and prevention planning,Risk models decision trees cost-effectiveness models
+environmental_health,Exposure risk burden estimation and intervention planning,Exposure models spatial models dose-response models
+health_equity,Subgroup risk access and distributional consequences,Stratified models subgroup validation equity diagnostics
+emergency_response,Preparedness response logistics and crisis allocation,Scenario models optimization stress tests

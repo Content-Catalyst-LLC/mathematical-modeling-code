@@ -1,0 +1,145 @@
+{
+  "article": "Mathematical Modeling in Public Health and Epidemiology",
+  "diagnostic_checks": [
+    "transmission assumptions are explicit",
+    "capacity demand is estimated",
+    "capacity breach is flagged",
+    "scenario comparison is preserved",
+    "equity and surveillance review remain required",
+    "uncertainty and use limits are stated"
+  ],
+  "epidemic_summary": {
+    "capacity_breach_count": 1,
+    "lowest_peak_hospital_demand_scenario": "Vaccination plus intervention",
+    "max_peak_infectious": 24211.0349007,
+    "mean_peak_infectious": 11394.52028604,
+    "min_peak_infectious": 2370.92567403,
+    "scenario_count": 4
+  },
+  "public_health_model_register": [
+    {
+      "domain": "infectious_disease",
+      "key": "transmission_model",
+      "model_family": "sir_compartmental_model",
+      "model_role": "transmission_analysis",
+      "public_health_priority": 2.0,
+      "public_health_question": "How does transmission change under different intervention assumptions?",
+      "status": "active"
+    },
+    {
+      "domain": "public_health_surveillance",
+      "key": "surveillance_model",
+      "model_family": "nowcasting_and_reporting_delay_model",
+      "model_role": "data_interpretation",
+      "public_health_priority": 5.0,
+      "public_health_question": "How should reported data be interpreted under delay and undercounting?",
+      "status": "review"
+    },
+    {
+      "domain": "health_system_planning",
+      "key": "capacity_model",
+      "model_family": "hospital_demand_model",
+      "model_role": "capacity_review",
+      "public_health_priority": 6.0,
+      "public_health_question": "Could projected severe cases exceed healthcare capacity?",
+      "status": "review"
+    },
+    {
+      "domain": "health_equity",
+      "key": "equity_model",
+      "model_family": "subgroup_risk_model",
+      "model_role": "distributional_review",
+      "public_health_priority": 5.0,
+      "public_health_question": "Which populations face unequal exposure severity or access?",
+      "status": "review"
+    },
+    {
+      "domain": "public_communication",
+      "key": "communication_model",
+      "model_family": "scenario_summary_model",
+      "model_role": "uncertainty_communication",
+      "public_health_priority": 7.0,
+      "public_health_question": "How should model uncertainty and use limits be communicated?",
+      "status": "review"
+    }
+  ],
+  "scenario_review": [
+    {
+      "beta": 0.32,
+      "capacity_breach": true,
+      "capacity_margin": -239.49657053,
+      "days": 120,
+      "estimated_attack_rate": 0.91149044,
+      "gamma": 0.12,
+      "hospital_capacity": 850.0,
+      "hospitalization_rate": 0.045,
+      "initial_infectious": 120.0,
+      "initial_recovered": 4000.0,
+      "key": "baseline",
+      "peak_hospital_demand": 1089.49657053,
+      "peak_infectious": 24211.0349007,
+      "population": 100000.0,
+      "r0_simple": 2.66666667,
+      "review_class": "capacity_breach",
+      "scenario_name": "Baseline transmission"
+    },
+    {
+      "beta": 0.24,
+      "capacity_breach": false,
+      "capacity_margin": 228.44405224,
+      "days": 120,
+      "estimated_attack_rate": 0.7798664,
+      "gamma": 0.12,
+      "hospital_capacity": 850.0,
+      "hospitalization_rate": 0.045,
+      "initial_infectious": 120.0,
+      "initial_recovered": 4000.0,
+      "key": "moderate_intervention",
+      "peak_hospital_demand": 621.55594776,
+      "peak_infectious": 13812.35439466,
+      "population": 100000.0,
+      "r0_simple": 2.0,
+      "review_class": "high_transmission_review",
+      "scenario_name": "Moderate intervention"
+    },
+    {
+      "beta": 0.18,
+      "capacity_breach": false,
+      "capacity_margin": 616.73052213,
+      "days": 120,
+      "estimated_attack_rate": 0.39428378,
+      "gamma": 0.12,
+      "hospital_capacity": 850.0,
+      "hospitalization_rate": 0.045,
+      "initial_infectious": 120.0,
+      "initial_recovered": 4000.0,
+      "key": "strong_intervention",
+      "peak_hospital_demand": 233.26947787,
+      "peak_infectious": 5183.76617478,
+      "population": 100000.0,
+      "r0_simple": 1.5,
+      "review_class": "within_capacity",
+      "scenario_name": "Strong intervention"
+    },
+    {
+      "beta": 0.2,
+      "capacity_breach": false,
+      "capacity_margin": 778.87222978,
+      "days": 120,
+      "estimated_attack_rate": 0.36981146,
+      "gamma": 0.12,
+      "hospital_capacity": 850.0,
+      "hospitalization_rate": 0.03,
+      "initial_infectious": 120.0,
+      "initial_recovered": 22000.0,
+      "key": "vaccination_plus_intervention",
+      "peak_hospital_demand": 71.12777022,
+      "peak_infectious": 2370.92567403,
+      "population": 100000.0,
+      "r0_simple": 1.66666667,
+      "review_class": "high_transmission_review",
+      "scenario_name": "Vaccination plus intervention"
+    }
+  ],
+  "use_limit": "This simplified SIR workflow supports public health modeling literacy and scenario review; it does not replace surveillance investigation, clinical evidence, local expertise, ethical review, or public health authority."
+}

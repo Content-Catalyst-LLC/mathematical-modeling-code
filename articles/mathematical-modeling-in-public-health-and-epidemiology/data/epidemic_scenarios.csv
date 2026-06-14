@@ -1,0 +1,5 @@
+key,scenario_name,population,initial_infectious,initial_recovered,beta,gamma,days,hospital_capacity,hospitalization_rate
+baseline,Baseline transmission,100000.0,120.0,4000.0,0.32,0.12,120,850.0,0.045
+moderate_intervention,Moderate intervention,100000.0,120.0,4000.0,0.24,0.12,120,850.0,0.045
+strong_intervention,Strong intervention,100000.0,120.0,4000.0,0.18,0.12,120,850.0,0.045
+vaccination_plus_intervention,Vaccination plus intervention,100000.0,120.0,22000.0,0.20,0.12,120,850.0,0.030

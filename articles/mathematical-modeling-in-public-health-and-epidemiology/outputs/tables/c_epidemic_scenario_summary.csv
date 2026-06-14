@@ -1,0 +1,5 @@
+key,r0_simple,peak_infectious,peak_hospital_demand,capacity_margin,capacity_breach
+baseline,2.666667,24211.034901,1089.496571,-239.496571,true
+moderate_intervention,2.000000,13812.354395,621.555948,228.444052,false
+strong_intervention,1.500000,5183.766175,233.269478,616.730522,false
+vaccination_plus_intervention,1.666667,2370.925674,71.127770,778.872230,false

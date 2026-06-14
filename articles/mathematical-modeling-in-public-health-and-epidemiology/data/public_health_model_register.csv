@@ -1,0 +1,6 @@
+key,domain,model_role,model_family,public_health_question,status
+transmission_model,infectious_disease,transmission_analysis,sir_compartmental_model,How does transmission change under different intervention assumptions?,active
+surveillance_model,public_health_surveillance,data_interpretation,nowcasting_and_reporting_delay_model,How should reported data be interpreted under delay and undercounting?,review
+capacity_model,health_system_planning,capacity_review,hospital_demand_model,Could projected severe cases exceed healthcare capacity?,review
+equity_model,health_equity,distributional_review,subgroup_risk_model,Which populations face unequal exposure severity or access?,review
+communication_model,public_communication,uncertainty_communication,scenario_summary_model,How should model uncertainty and use limits be communicated?,review

@@ -1,0 +1,74 @@
+section                       
+------------------------------
+PUBLIC HEALTH MODEL ROLE TYPES
+model_role                 description                                                   typical_failure                                         
+-------------------------  ------------------------------------------------------------  --------------------------------------------------------
+capacity_review            Connects infection dynamics to hospital demand and operation  Nominal capacity is mistaken for usable capacity.       
+                           al constraints.                                                                                                       
+
+data_interpretation        Reviews surveillance data under delay, undercounting, and bi  Reported cases are treated as true infections.          
+                           as.                                                                                                                   
+
+distributional_review      Assesses unequal exposure, severity, detection, and access.   Aggregate performance hides subgroup harm.              
+
+transmission_analysis      Represents disease spread under contact and intervention ass  Transmission assumptions are hidden or treated as fixed.
+                           umptions.                                                                                                             
+
+uncertainty_communication  Communicates scenarios, ranges, assumptions, and use limits.  Conditional model outputs are presented as certainty.   
+section                                     
+--------------------------------------------
+PUBLIC HEALTH MODEL RECORDS REQUIRING REVIEW
+record_key           domain                      model_role                 model_family                          public_health_question                                      
+-------------------  --------------------------  -------------------------  ------------------------------------  ------------------------------------------------------------
+surveillance_model   public_health_surveillance  data_interpretation        nowcasting_and_reporting_delay_model  How should reported data be interpreted under delay and unde
+                                                                                                                  rcounting?                                                  
+
+capacity_model       health_system_planning      capacity_review            hospital_demand_model                 Could projected severe cases exceed healthcare capacity?    
+
+equity_model         health_equity               distributional_review      subgroup_risk_model                   Which populations face unequal exposure severity or access? 
+
+communication_model  public_communication        uncertainty_communication  scenario_summary_model                How should model uncertainty and use limits be communicated?
+section           
+------------------
+EPIDEMIC SCENARIOS
+scenario_key                   scenario_name                  population  beta  gamma  r0_simple  hospital_capacity  hospitalization_rate
+-----------------------------  -----------------------------  ----------  ----  -----  ---------  -----------------  --------------------
+baseline                       Baseline transmission          100000.0    0.32  0.12   2.667      850.0              0.045               
+moderate_intervention          Moderate intervention          100000.0    0.24  0.12   2.0        850.0              0.045               
+vaccination_plus_intervention  Vaccination plus intervention  100000.0    0.2   0.12   1.667      850.0              0.03                
+strong_intervention            Strong intervention            100000.0    0.18  0.12   1.5        850.0              0.045               
+section                   
+--------------------------
+PUBLIC HEALTH DOMAIN GUIDE
+area                        modeling_use                                                  typical_model_forms                                         
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+emergency_response          Preparedness response logistics and crisis allocation         Scenario models optimization stress tests                   
+
+environmental_health        Exposure risk burden estimation and intervention planning     Exposure models spatial models dose-response models         
+
+health_equity               Subgroup risk access and distributional consequences          Stratified models subgroup validation equity diagnostics    
+
+health_system_planning      Hospital demand staffing ICU bed and supply planning          Capacity models queueing models demand forecasts            
+
+infectious_disease          Transmission dynamics intervention scenarios and epidemic fo  SIR SEIR network models agent-based models                  
+                            recasting                                                                                                                 
+
+public_health_surveillance  Trend detection nowcasting reporting delay and signal interp  Statistical surveillance models nowcasting anomaly detection
+                            retation                                                                                                                  
+
+screening_and_prevention    Risk detection program design and prevention planning         Risk models decision trees cost-effectiveness models        
+
+vaccination_planning        Coverage strategy prioritization and immunity effects         Compartmental models optimization models                    
+section                                    
+-------------------------------------------
+HIGH-ATTENTION PUBLIC HEALTH REVIEW TARGETS
+record_key           domain                      model_role                 public_health_question                                      
+-------------------  --------------------------  -------------------------  ------------------------------------------------------------
+surveillance_model   public_health_surveillance  data_interpretation        How should reported data be interpreted under delay and unde
+                                                                            rcounting?                                                  
+
+capacity_model       health_system_planning      capacity_review            Could projected severe cases exceed healthcare capacity?    
+
+equity_model         health_equity               distributional_review      Which populations face unequal exposure severity or access? 
+
+communication_model  public_communication        uncertainty_communication  How should model uncertainty and use limits be communicated?

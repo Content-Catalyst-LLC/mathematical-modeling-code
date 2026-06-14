@@ -1,0 +1,32 @@
+{
+  "article_slug": "mathematical-modeling-in-public-health-and-epidemiology",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "public-health-epidemiology-governance",
+  "cards": [
+    {
+      "card_id": "public-health-model-register",
+      "title": "Public Health Model Register",
+      "description": "Tracks public health domain, model role, model family, public health question, and review status."
+    },
+    {
+      "card_id": "epidemic-scenario-review",
+      "title": "Epidemic Scenario Review",
+      "description": "Compares SIR intervention scenarios, reproduction-number estimates, peak infectious burden, hospital demand, capacity margin, and review class."
+    },
+    {
+      "card_id": "public-health-model-review-card",
+      "title": "Public Health Model Review Card",
+      "description": "Documents transmission assumptions, surveillance review, capacity diagnostics, equity obligations, uncertainty communication, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_public_health_question": true,
+    "requires_population_boundary": true,
+    "requires_surveillance_review": true,
+    "requires_transmission_assumption_record": true,
+    "requires_capacity_review": true,
+    "requires_equity_review": true,
+    "requires_uncertainty_communication": true,
+    "requires_use_limit_statement": true
+  }
+}

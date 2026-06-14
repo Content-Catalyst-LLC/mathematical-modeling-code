@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PublicHealthModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "domain",
+    "model_role",
+    "model_family",
+    "public_health_question",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "domain": {"type": "string"},
+    "model_role": {
+      "type": "string",
+      "enum": ["transmission_analysis", "data_interpretation", "capacity_review", "distributional_review", "uncertainty_communication"]
+    },
+    "model_family": {"type": "string"},
+    "public_health_question": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

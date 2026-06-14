@@ -1,0 +1,90 @@
+
+[1;34m[20:40:01][0m Python workflow
+Public health and epidemiology workflow complete.
+Records: 5
+Scenarios: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[20:40:01][0m R workflow
+null device 
+          1 
+                  key                     domain                model_role
+5 communication_model       public_communication uncertainty_communication
+3      capacity_model     health_system_planning           capacity_review
+2  surveillance_model public_health_surveillance       data_interpretation
+4        equity_model              health_equity     distributional_review
+1  transmission_model         infectious_disease     transmission_analysis
+                          model_family
+5               scenario_summary_model
+3                hospital_demand_model
+2 nowcasting_and_reporting_delay_model
+4                  subgroup_risk_model
+1              sir_compartmental_model
+                                                  public_health_question status
+5           How should model uncertainty and use limits be communicated? review
+3               Could projected severe cases exceed healthcare capacity? review
+2 How should reported data be interpreted under delay and undercounting? review
+4            Which populations face unequal exposure severity or access? review
+1 How does transmission change under different intervention assumptions? active
+  public_health_priority
+5                      7
+3                      6
+2                      5
+4                      5
+1                      2
+  lowest_peak_hospital_demand_scenario mean_peak_infectious max_peak_infectious
+1        Vaccination plus intervention             11394.52            24211.03
+  min_peak_infectious capacity_breach_count scenario_count
+1            2370.926                     1              4
+                            key                 scenario_name population
+4 vaccination_plus_intervention Vaccination plus intervention      1e+05
+3           strong_intervention           Strong intervention      1e+05
+2         moderate_intervention         Moderate intervention      1e+05
+1                      baseline         Baseline transmission      1e+05
+  initial_infectious initial_recovered beta gamma days hospital_capacity
+4                120             22000 0.20  0.12  120               850
+3                120              4000 0.18  0.12  120               850
+2                120              4000 0.24  0.12  120               850
+1                120              4000 0.32  0.12  120               850
+  hospitalization_rate r0_simple peak_infectious peak_hospital_demand
+4                0.030  1.666667        2370.926             71.12777
+3                0.045  1.500000        5183.766            233.26948
+2                0.045  2.000000       13812.354            621.55595
+1                0.045  2.666667       24211.035           1089.49657
+  capacity_margin estimated_attack_rate capacity_breach
+4        778.8722             0.3698115           False
+3        616.7305             0.3942838           False
+2        228.4441             0.7798664           False
+1       -239.4966             0.9114904            True
+              review_class
+4 high_transmission_review
+3          within_capacity
+2 high_transmission_review
+1          capacity_breach
+
+[1;34m[20:40:02][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling_in_public_health_and_epidemiology.sqlite < sql/schema.sql
+sqlite3 outputs/tables/mathematical_modeling_in_public_health_and_epidemiology.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[20:40:02][0m Go workflow
+cd go && go run main.go
+key,r0_simple,peak_infectious,peak_hospital_demand,capacity_margin,capacity_breach
+baseline,2.666667,24211.034901,1089.496571,-239.496571,true
+moderate_intervention,2.000000,13812.354395,621.555948,228.444052,false
+strong_intervention,1.500000,5183.766175,233.269478,616.730522,false
+vaccination_plus_intervention,1.666667,2370.925674,71.127770,778.872230,false
+
+[1;34m[20:40:02][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 epidemic_scenario_summary.cpp -o epidemic_scenario_summary
+./epidemic_scenario_summary > ../outputs/tables/cpp_epidemic_scenario_summary.csv 2> ../outputs/logs/cpp_epidemic_scenario_stderr.log
+
+[1;34m[20:40:03][0m Fortran workflow
+gfortran -O2 fortran/epidemic_scenario_summary.f90 -o outputs/epidemic_scenario_summary_fortran
+./outputs/epidemic_scenario_summary_fortran > outputs/tables/fortran_epidemic_scenario_summary.txt
+
+[1;34m[20:40:04][0m C workflow
+cc -O2 -std=c11 c/epidemic_scenario_summary.c -o outputs/epidemic_scenario_summary_c -lm
+./outputs/epidemic_scenario_summary_c > outputs/tables/c_epidemic_scenario_summary.csv 2> outputs/logs/c_epidemic_scenario_stderr.log

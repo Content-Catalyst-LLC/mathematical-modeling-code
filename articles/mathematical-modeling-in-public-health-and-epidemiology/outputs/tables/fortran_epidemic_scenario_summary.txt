@@ -1,0 +1,5 @@
+key r0_simple peak_infectious peak_hospital_demand capacity_margin capacity_breach
+baseline   2.6667    24211.035     1089.497     -239.497 T
+moderate_intervention   2.0000    13812.354      621.556      228.444 F
+strong_intervention   1.5000     5183.766      233.269      616.731 F
+vaccination_plus_intervention   1.6667     2370.926       71.128      778.872 F
