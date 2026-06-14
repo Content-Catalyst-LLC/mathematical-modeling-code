@@ -1,0 +1,8 @@
+lifecycle_stage,review_question,artifact
+design,What is the model for and who is affected?,purpose_and_boundary_statement
+implementation,Can the workflow be rerun and tested?,repository_tests_environment
+validation,What evidence supports intended use?,validation_report
+deployment,What use is approved and prohibited?,use_limit_statement
+monitoring,How will drift error or misuse be detected?,monitoring_protocol
+revision,What evidence triggers update?,revision_trigger_record
+retirement,When should the model stop being used?,retirement_criteria

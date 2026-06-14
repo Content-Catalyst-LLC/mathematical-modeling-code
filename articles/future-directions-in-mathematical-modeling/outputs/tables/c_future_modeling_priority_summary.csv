@@ -1,0 +1,6 @@
+key,complexity_relevance,technical_maturity,governance_need,uncertainty_pressure,human_judgment_need,future_priority_score,review_class
+hybrid_models,0.880000,0.700000,0.740000,0.720000,0.800000,0.772000,monitor
+ai_assistance,0.820000,0.780000,0.900000,0.760000,0.920000,0.831000,governance_priority
+digital_twins,0.860000,0.750000,0.880000,0.700000,0.840000,0.807000,governance_priority
+uncertainty_workflows,0.900000,0.720000,0.820000,0.920000,0.860000,0.846000,uncertainty_priority
+participatory_modeling,0.780000,0.620000,0.860000,0.680000,0.940000,0.768000,governance_priority

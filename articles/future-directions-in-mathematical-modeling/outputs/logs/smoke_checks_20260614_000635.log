@@ -1,0 +1,88 @@
+
+[1;34m[00:06:37][0m Python workflow
+Future directions in mathematical modeling workflow complete.
+Portfolio summary: {'highest_priority_direction': 'Scenario modeling and deep uncertainty', 'mean_future_priority_score': 0.8035, 'max_future_priority_score': 0.872, 'governance_plan_count': 6, 'uncertainty_brief_count': 4, 'human_judgment_protocol_count': 7, 'direction_count': 8}
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[00:06:37][0m R workflow
+null device 
+          1 
+              highest_priority_direction mean_future_priority_score
+1 Scenario modeling and deep uncertainty                     0.8035
+  max_future_priority_score governance_plan_count uncertainty_brief_count
+1                     0.872                     6                       4
+  human_judgment_protocol_count direction_count
+1                             7               8
+                          key                             direction_name
+8   scenario_deep_uncertainty     Scenario modeling and deep uncertainty
+4       uncertainty_workflows                 Uncertainty-aware modeling
+2               ai_assistance                       AI-assisted modeling
+3               digital_twins            Digital twins and living models
+7                   causal_ml      Causal reasoning and machine learning
+1               hybrid_models        Hybrid modeling and model ensembles
+5      participatory_modeling Participatory and public-interest modeling
+6 reproducible_infrastructure       Reproducible modeling infrastructure
+              modeling_area complexity_relevance technical_maturity
+8          decision_support                 0.92               0.76
+4      uncertainty_analysis                 0.90               0.72
+2    computational_workflow                 0.82               0.78
+3      operational_modeling                 0.86               0.75
+7         causal_prediction                 0.84               0.74
+1        model_architecture                 0.88               0.70
+5 governance_and_legitimacy                 0.78               0.62
+6   research_infrastructure                 0.74               0.84
+  governance_need uncertainty_pressure human_judgment_need
+8            0.84                 0.95                0.88
+4            0.82                 0.92                0.86
+2            0.90                 0.76                0.92
+3            0.88                 0.70                0.84
+7            0.80                 0.78                0.86
+1            0.74                 0.72                0.80
+5            0.86                 0.68                0.94
+6            0.76                 0.58                0.72
+  future_priority_score         review_class requires_governance_plan
+8                 0.872 uncertainty_priority                     True
+4                 0.846 uncertainty_priority                     True
+2                 0.831  governance_priority                     True
+3                 0.807  governance_priority                     True
+7                 0.803   strategic_priority                     True
+1                 0.772              monitor                    False
+5                 0.768  governance_priority                     True
+6                 0.729              monitor                    False
+  requires_uncertainty_brief requires_human_judgment_protocol
+8                       True                             True
+4                       True                             True
+2                       True                             True
+3                      False                             True
+7                       True                             True
+1                      False                             True
+5                      False                             True
+6                      False                            False
+
+[1;34m[00:06:37][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/future_directions_in_mathematical_modeling.sqlite < sql/schema.sql
+sqlite3 outputs/tables/future_directions_in_mathematical_modeling.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[00:06:37][0m Go workflow
+cd go && go run main.go
+key,complexity_relevance,technical_maturity,governance_need,uncertainty_pressure,human_judgment_need,future_priority_score,review_class
+hybrid_models,0.880000,0.700000,0.740000,0.720000,0.800000,0.772000,monitor
+ai_assistance,0.820000,0.780000,0.900000,0.760000,0.920000,0.831000,governance_priority
+digital_twins,0.860000,0.750000,0.880000,0.700000,0.840000,0.807000,governance_priority
+uncertainty_workflows,0.900000,0.720000,0.820000,0.920000,0.860000,0.846000,uncertainty_priority
+participatory_modeling,0.780000,0.620000,0.860000,0.680000,0.940000,0.768000,governance_priority
+
+[1;34m[00:06:38][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 future_modeling_priority_summary.cpp -o future_modeling_priority_summary
+./future_modeling_priority_summary > ../outputs/tables/cpp_future_modeling_priority_summary.csv 2> ../outputs/logs/cpp_future_modeling_priority_stderr.log
+
+[1;34m[00:06:39][0m Fortran workflow
+gfortran -O2 fortran/future_modeling_priority_summary.f90 -o outputs/future_modeling_priority_summary_fortran
+./outputs/future_modeling_priority_summary_fortran > outputs/tables/fortran_future_modeling_priority_summary.txt
+
+[1;34m[00:06:40][0m C workflow
+cc -O2 -std=c11 c/future_modeling_priority_summary.c -o outputs/future_modeling_priority_summary_c -lm
+./outputs/future_modeling_priority_summary_c > outputs/tables/c_future_modeling_priority_summary.csv 2> outputs/logs/c_future_modeling_priority_stderr.log

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModelLifecycleStage",
+  "type": "object",
+  "required": ["lifecycle_stage","review_question","artifact"],
+  "properties": {
+    "lifecycle_stage": {"type": "string", "enum": ["design","implementation","validation","deployment","monitoring","revision","retirement"]},
+    "review_question": {"type": "string"},
+    "artifact": {"type": "string"}
+  }
+}

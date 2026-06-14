@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FutureModelingDirection",
+  "type": "object",
+  "required": ["key","direction_name","modeling_area","complexity_relevance","technical_maturity","governance_need","uncertainty_pressure","human_judgment_need"],
+  "properties": {
+    "key": {"type": "string"},
+    "direction_name": {"type": "string"},
+    "modeling_area": {"type": "string"},
+    "complexity_relevance": {"type": "number", "minimum": 0, "maximum": 1},
+    "technical_maturity": {"type": "number", "minimum": 0, "maximum": 1},
+    "governance_need": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty_pressure": {"type": "number", "minimum": 0, "maximum": 1},
+    "human_judgment_need": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

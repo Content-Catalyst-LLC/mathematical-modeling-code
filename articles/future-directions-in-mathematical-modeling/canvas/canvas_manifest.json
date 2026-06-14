@@ -1,0 +1,34 @@
+{
+  "article_slug": "future-directions-in-mathematical-modeling",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "future-modeling-strategy-governance",
+  "cards": [
+    {
+      "card_id": "future-modeling-direction-register",
+      "title": "Future Modeling Direction Register",
+      "description": "Tracks future direction, modeling area, complexity relevance, technical maturity, governance need, uncertainty pressure, and human judgment need."
+    },
+    {
+      "card_id": "future-modeling-priority-review",
+      "title": "Future Modeling Priority Review",
+      "description": "Scores strategic priority and flags governance plans, uncertainty briefs, and human judgment protocols."
+    },
+    {
+      "card_id": "future-modeling-lifecycle-card",
+      "title": "Future Modeling Lifecycle Card",
+      "description": "Documents design, implementation, validation, deployment, monitoring, revision, and retirement criteria."
+    }
+  ],
+  "governance": {
+    "requires_direction_register": true,
+    "requires_model_portfolio": true,
+    "requires_uncertainty_brief": true,
+    "requires_governance_plan": true,
+    "requires_human_judgment_protocol": true,
+    "requires_reproducible_infrastructure": true,
+    "requires_validation_report": true,
+    "requires_lifecycle_monitoring": true,
+    "requires_revision_triggers": true,
+    "requires_retirement_criteria": true
+  }
+}

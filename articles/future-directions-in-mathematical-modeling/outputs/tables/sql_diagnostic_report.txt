@@ -1,0 +1,33 @@
+section                        
+-------------------------------
+FUTURE MODELING PRIORITY REVIEW
+direction_key                direction_name                              modeling_area              future_priority_score  review_class        
+---------------------------  ------------------------------------------  -------------------------  ---------------------  --------------------
+scenario_deep_uncertainty    Scenario modeling and deep uncertainty      decision_support           0.872                  uncertainty_priority
+uncertainty_workflows        Uncertainty-aware modeling                  uncertainty_analysis       0.846                  uncertainty_priority
+ai_assistance                AI-assisted modeling                        computational_workflow     0.831                  governance_priority 
+digital_twins                Digital twins and living models             operational_modeling       0.807                  governance_priority 
+causal_ml                    Causal reasoning and machine learning       causal_prediction          0.803                  strategic_priority  
+hybrid_models                Hybrid modeling and model ensembles         model_architecture         0.772                  monitor             
+participatory_modeling       Participatory and public-interest modeling  governance_and_legitimacy  0.768                  governance_priority 
+reproducible_infrastructure  Reproducible modeling infrastructure        research_infrastructure    0.729                  monitor             
+section                  
+-------------------------
+MODEL LIFECYCLE CHECKLIST
+lifecycle_stage  review_question                              artifact                      
+---------------  -------------------------------------------  ------------------------------
+design           What is the model for and who is affected?   purpose_and_boundary_statement
+implementation   Can the workflow be rerun and tested?        repository_tests_environment  
+validation       What evidence supports intended use?         validation_report             
+deployment       What use is approved and prohibited?         use_limit_statement           
+monitoring       How will drift error or misuse be detected?  monitoring_protocol           
+revision         What evidence triggers update?               revision_trigger_record       
+retirement       When should the model stop being used?       retirement_criteria           
+section                          
+---------------------------------
+HIGH-GOVERNANCE FUTURE DIRECTIONS
+direction_key           direction_name                              governance_need  human_judgment_need
+----------------------  ------------------------------------------  ---------------  -------------------
+ai_assistance           AI-assisted modeling                        0.9              0.92               
+digital_twins           Digital twins and living models             0.88             0.84               
+participatory_modeling  Participatory and public-interest modeling  0.86             0.94               

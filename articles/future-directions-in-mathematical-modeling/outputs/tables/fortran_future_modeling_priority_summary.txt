@@ -1,0 +1,6 @@
+key complexity maturity governance uncertainty human_judgment future_priority_score
+hybrid_models   0.8800   0.7000   0.7400   0.7200   0.8000     0.7720
+ai_assistance   0.8200   0.7800   0.9000   0.7600   0.9200     0.8310
+digital_twins   0.8600   0.7500   0.8800   0.7000   0.8400     0.8070
+uncertainty_workflows   0.9000   0.7200   0.8200   0.9200   0.8600     0.8460
+participatory_modeling   0.7800   0.6200   0.8600   0.6800   0.9400     0.7680
