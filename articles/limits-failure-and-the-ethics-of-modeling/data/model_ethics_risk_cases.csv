@@ -1,0 +1,5 @@
+key,model_name,intended_use,severity,likelihood,detectability_gap,uncertainty_level,equity_concern,accountability_gap
+exploratory_model,Exploratory planning model,learning and scenario discussion,0.35,0.35,0.25,0.60,0.30,0.25
+allocation_model,Resource allocation model,prioritizing scarce resources,0.85,0.55,0.55,0.65,0.75,0.70
+public_dashboard,Public risk dashboard,communicating population risk,0.70,0.50,0.45,0.80,0.55,0.60
+automated_score,Automated scoring model,triggering institutional action,0.90,0.60,0.70,0.60,0.80,0.85

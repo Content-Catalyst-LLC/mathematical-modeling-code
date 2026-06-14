@@ -1,0 +1,5 @@
+key,severity,likelihood,detectability_gap,uncertainty_level,equity_concern,accountability_gap,ethical_risk_score,review_class
+exploratory_model,0.350000,0.350000,0.250000,0.600000,0.300000,0.250000,2.895000,standard_review
+allocation_model,0.850000,0.550000,0.550000,0.650000,0.750000,0.700000,5.865000,governance_review_required
+public_dashboard,0.700000,0.500000,0.450000,0.800000,0.550000,0.600000,5.115000,governance_review_required
+automated_score,0.900000,0.600000,0.700000,0.600000,0.800000,0.850000,6.460000,high_ethics_review_required

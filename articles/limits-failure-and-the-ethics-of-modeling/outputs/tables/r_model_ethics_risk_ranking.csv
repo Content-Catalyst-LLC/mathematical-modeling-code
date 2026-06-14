@@ -1,0 +1,5 @@
+"key","model_name","intended_use","severity","likelihood","detectability_gap","uncertainty_level","equity_concern","accountability_gap","ethical_risk_score","review_class","requires_use_limit_statement","requires_human_decision_owner","requires_equity_review"
+"automated_score","Automated scoring model","triggering institutional action",0.9,0.6,0.7,0.6,0.8,0.85,6.46,"high_ethics_review_required","True","True","True"
+"allocation_model","Resource allocation model","prioritizing scarce resources",0.85,0.55,0.55,0.65,0.75,0.7,5.865,"governance_review_required","True","True","True"
+"public_dashboard","Public risk dashboard","communicating population risk",0.7,0.5,0.45,0.8,0.55,0.6,5.115,"governance_review_required","True","True","True"
+"exploratory_model","Exploratory planning model","learning and scenario discussion",0.35,0.35,0.25,0.6,0.3,0.25,2.895,"standard_review","True","False","False"

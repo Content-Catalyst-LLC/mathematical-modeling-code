@@ -1,0 +1,94 @@
+
+[1;34m[21:03:34][0m Python workflow
+Model ethics and failure workflow complete.
+Failures: 6
+Risk cases: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[21:03:34][0m R workflow
+null device 
+          1 
+                 key
+5 accountability_gap
+6        scope_creep
+1   boundary_failure
+2          data_bias
+3     validation_gap
+4    false_precision
+                                                 failure_mode   model_stage
+5                       no clear owner for decisions or harms    governance
+6                           model spreads beyond approved use    deployment
+1                           important system effects excluded        design
+2              training or evidence data are unrepresentative          data
+3                             model used beyond tested domain    validation
+4 outputs communicated as more certain than evidence supports communication
+                               ethical_issue
+5                    responsibility shifting
+6           misuse and unsupported authority
+1                        hidden consequences
+2                unequal error and exclusion
+3             unsupported decision authority
+4 overconfidence and public misunderstanding
+                              likely_cause review_status failure_priority
+5    missing model owner or decision owner        revise                8
+6     weak approval and monitoring process        revise                8
+1          narrow boundary or scale choice        review                6
+2 measurement selection or historical bias        review                6
+3     scope creep or weak approval process        review                6
+4        missing uncertainty communication        review                6
+       highest_risk_model mean_ethical_risk_score max_ethical_risk_score
+1 Automated scoring model                 5.08375                   6.46
+  min_ethical_risk_score high_ethics_review_count case_count
+1                  2.895                        1          4
+                key                 model_name                     intended_use
+4   automated_score    Automated scoring model  triggering institutional action
+2  allocation_model  Resource allocation model    prioritizing scarce resources
+3  public_dashboard      Public risk dashboard    communicating population risk
+1 exploratory_model Exploratory planning model learning and scenario discussion
+  severity likelihood detectability_gap uncertainty_level equity_concern
+4     0.90       0.60              0.70              0.60           0.80
+2     0.85       0.55              0.55              0.65           0.75
+3     0.70       0.50              0.45              0.80           0.55
+1     0.35       0.35              0.25              0.60           0.30
+  accountability_gap ethical_risk_score                review_class
+4               0.85              6.460 high_ethics_review_required
+2               0.70              5.865  governance_review_required
+3               0.60              5.115  governance_review_required
+1               0.25              2.895             standard_review
+  requires_use_limit_statement requires_human_decision_owner
+4                         True                          True
+2                         True                          True
+3                         True                          True
+1                         True                         False
+  requires_equity_review
+4                   True
+2                   True
+3                   True
+1                  False
+
+[1;34m[21:03:34][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/limits_failure_and_the_ethics_of_modeling.sqlite < sql/schema.sql
+sqlite3 outputs/tables/limits_failure_and_the_ethics_of_modeling.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[21:03:34][0m Go workflow
+cd go && go run main.go
+key,severity,likelihood,detectability_gap,uncertainty_level,equity_concern,accountability_gap,ethical_risk_score,review_class
+exploratory_model,0.350000,0.350000,0.250000,0.600000,0.300000,0.250000,2.895000,standard_review
+allocation_model,0.850000,0.550000,0.550000,0.650000,0.750000,0.700000,5.865000,governance_review_required
+public_dashboard,0.700000,0.500000,0.450000,0.800000,0.550000,0.600000,5.115000,governance_review_required
+automated_score,0.900000,0.600000,0.700000,0.600000,0.800000,0.850000,6.460000,high_ethics_review_required
+
+[1;34m[21:03:35][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 model_ethics_risk_summary.cpp -o model_ethics_risk_summary
+./model_ethics_risk_summary > ../outputs/tables/cpp_model_ethics_risk_summary.csv 2> ../outputs/logs/cpp_model_ethics_risk_stderr.log
+
+[1;34m[21:03:36][0m Fortran workflow
+gfortran -O2 fortran/model_ethics_risk_summary.f90 -o outputs/model_ethics_risk_summary_fortran
+./outputs/model_ethics_risk_summary_fortran > outputs/tables/fortran_model_ethics_risk_summary.txt
+
+[1;34m[21:03:37][0m C workflow
+cc -O2 -std=c11 c/model_ethics_risk_summary.c -o outputs/model_ethics_risk_summary_c -lm
+./outputs/model_ethics_risk_summary_c > outputs/tables/c_model_ethics_risk_summary.csv 2> outputs/logs/c_model_ethics_risk_stderr.log

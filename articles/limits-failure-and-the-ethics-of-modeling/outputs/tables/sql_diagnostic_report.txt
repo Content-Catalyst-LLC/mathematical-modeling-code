@@ -1,0 +1,54 @@
+section            
+-------------------
+MODEL FAILURE TYPES
+failure_mode        description                                          typical_harm                                      
+------------------  ---------------------------------------------------  --------------------------------------------------
+accountability_gap  No clear owner for decisions or harms.               Responsibility shifting.                          
+boundary_failure    Important system effects are excluded.               Hidden consequences or externalized harm.         
+data_bias           Training or evidence data are unrepresentative.      Unequal error, exclusion, or distorted visibility.
+false_precision     Outputs appear more certain than evidence supports.  Overconfidence and weak monitoring.               
+scope_creep         Model spreads beyond approved use.                   Misuse and unsupported authority.                 
+validation_gap      Model is used beyond tested domain.                  Unsupported decision authority.                   
+section                               
+--------------------------------------
+MODEL FAILURE RECORDS REQUIRING REVIEW
+record_key          failure_mode        model_stage    ethical_issue                               likely_cause                              review_status
+------------------  ------------------  -------------  ------------------------------------------  ----------------------------------------  -------------
+boundary_failure    boundary_failure    design         hidden consequences                         narrow boundary or scale choice           review       
+data_bias           data_bias           data           unequal error and exclusion                 measurement selection or historical bias  review       
+validation_gap      validation_gap      validation     unsupported decision authority              scope creep or weak approval process      review       
+false_precision     false_precision     communication  overconfidence and public misunderstanding  missing uncertainty communication         review       
+accountability_gap  accountability_gap  governance     responsibility shifting                     missing model owner or decision owner     revise       
+scope_creep         scope_creep         deployment     misuse and unsupported authority            weak approval and monitoring process      revise       
+section                 
+------------------------
+MODEL ETHICS RISK REVIEW
+case_key           model_name                  intended_use                      ethical_risk_score  review_class                 requires_equity_review  requires_human_decision_owner
+-----------------  --------------------------  --------------------------------  ------------------  ---------------------------  ----------------------  -----------------------------
+automated_score    Automated scoring model     triggering institutional action   6.46                high_ethics_review_required  yes                     yes                          
+allocation_model   Resource allocation model   prioritizing scarce resources     5.865               governance_review_required   yes                     yes                          
+public_dashboard   Public risk dashboard       communicating population risk     5.115               governance_review_required   yes                     yes                          
+exploratory_model  Exploratory planning model  learning and scenario discussion  2.895               standard_review              no                      no                           
+section                  
+-------------------------
+MODEL ETHICS DOMAIN GUIDE
+area             review_use                                                typical_artifacts                                        
+---------------  --------------------------------------------------------  ---------------------------------------------------------
+accountability   Checks model owner decision owner and review process      governance register owner record use-limit statement     
+communication    Checks uncertainty and interpretation                     uncertainty brief communication guide dashboard caveats  
+data_review      Checks evidence quality representation and measurement    data provenance missingness report proxy audit           
+deployment       Checks approved use monitoring and incident response      approval record monitoring plan incident playbook        
+equity_review    Checks distributional harm and unequal error              subgroup diagnostics impact review contestability pathway
+model_design     Checks assumptions boundaries objectives and constraints  assumption log boundary record objective record          
+problem_framing  Checks whether the right problem is being modeled         purpose statement stakeholder note decision context      
+validation       Checks evidence for intended use                          validation report domain of use stress tests             
+section                            
+-----------------------------------
+HIGH-ATTENTION MODEL ETHICS TARGETS
+record_key          model_stage    ethical_issue                               likely_cause                            
+------------------  -------------  ------------------------------------------  ----------------------------------------
+data_bias           data           unequal error and exclusion                 measurement selection or historical bias
+validation_gap      validation     unsupported decision authority              scope creep or weak approval process    
+false_precision     communication  overconfidence and public misunderstanding  missing uncertainty communication       
+accountability_gap  governance     responsibility shifting                     missing model owner or decision owner   
+scope_creep         deployment     misuse and unsupported authority            weak approval and monitoring process    

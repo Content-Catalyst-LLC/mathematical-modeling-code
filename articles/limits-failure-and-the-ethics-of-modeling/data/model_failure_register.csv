@@ -1,0 +1,7 @@
+key,failure_mode,model_stage,ethical_issue,likely_cause,review_status
+boundary_failure,important system effects excluded,design,hidden consequences,narrow boundary or scale choice,review
+data_bias,training or evidence data are unrepresentative,data,unequal error and exclusion,measurement selection or historical bias,review
+validation_gap,model used beyond tested domain,validation,unsupported decision authority,scope creep or weak approval process,review
+false_precision,outputs communicated as more certain than evidence supports,communication,overconfidence and public misunderstanding,missing uncertainty communication,review
+accountability_gap,no clear owner for decisions or harms,governance,responsibility shifting,missing model owner or decision owner,revise
+scope_creep,model spreads beyond approved use,deployment,misuse and unsupported authority,weak approval and monitoring process,revise

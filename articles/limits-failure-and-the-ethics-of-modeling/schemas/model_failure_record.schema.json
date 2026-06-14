@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ModelFailureRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "failure_mode",
+    "model_stage",
+    "ethical_issue",
+    "likely_cause",
+    "review_status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "failure_mode": {"type": "string"},
+    "model_stage": {
+      "type": "string",
+      "enum": ["framing", "data", "design", "validation", "communication", "deployment", "monitoring", "governance"]
+    },
+    "ethical_issue": {"type": "string"},
+    "likely_cause": {"type": "string"},
+    "review_status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}

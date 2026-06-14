@@ -1,0 +1,35 @@
+{
+  "article_slug": "limits-failure-and-the-ethics-of-modeling",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "model-ethics-failure-governance",
+  "cards": [
+    {
+      "card_id": "model-failure-register",
+      "title": "Model Failure Register",
+      "description": "Tracks failure mode, lifecycle stage, ethical issue, likely cause, and review status."
+    },
+    {
+      "card_id": "model-ethics-risk-review",
+      "title": "Model Ethics Risk Review",
+      "description": "Scores severity, likelihood, detectability gap, uncertainty, equity concern, accountability gap, and review class."
+    },
+    {
+      "card_id": "model-ethics-governance-card",
+      "title": "Model Ethics Governance Card",
+      "description": "Documents failure modes, uncertainty, equity review, accountability gaps, use limits, and decision ownership."
+    }
+  ],
+  "governance": {
+    "requires_model_purpose_statement": true,
+    "requires_assumption_record": true,
+    "requires_boundary_record": true,
+    "requires_data_quality_review": true,
+    "requires_validation_and_domain_of_use": true,
+    "requires_uncertainty_communication": true,
+    "requires_equity_review": true,
+    "requires_failure_mode_register": true,
+    "requires_human_decision_owner": true,
+    "requires_use_limit_statement": true,
+    "requires_monitoring_and_retirement_plan": true
+  }
+}

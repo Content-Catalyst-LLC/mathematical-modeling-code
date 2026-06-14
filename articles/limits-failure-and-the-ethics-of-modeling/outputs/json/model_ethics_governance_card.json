@@ -1,0 +1,142 @@
+{
+  "article": "Limits, Failure, and the Ethics of Modeling",
+  "diagnostic_checks": [
+    "model purpose is explicit",
+    "failure modes are registered",
+    "uncertainty and false precision are reviewed",
+    "equity concern is scored",
+    "accountability gap is scored",
+    "use limits and decision ownership are required"
+  ],
+  "ethics_summary": {
+    "case_count": 4,
+    "high_ethics_review_count": 1,
+    "highest_risk_model": "Automated scoring model",
+    "max_ethical_risk_score": 6.46,
+    "mean_ethical_risk_score": 5.08375,
+    "min_ethical_risk_score": 2.895
+  },
+  "failure_register": [
+    {
+      "ethical_issue": "hidden consequences",
+      "failure_mode": "important system effects excluded",
+      "failure_priority": 6.0,
+      "key": "boundary_failure",
+      "likely_cause": "narrow boundary or scale choice",
+      "model_stage": "design",
+      "review_status": "review"
+    },
+    {
+      "ethical_issue": "unequal error and exclusion",
+      "failure_mode": "training or evidence data are unrepresentative",
+      "failure_priority": 6.0,
+      "key": "data_bias",
+      "likely_cause": "measurement selection or historical bias",
+      "model_stage": "data",
+      "review_status": "review"
+    },
+    {
+      "ethical_issue": "unsupported decision authority",
+      "failure_mode": "model used beyond tested domain",
+      "failure_priority": 6.0,
+      "key": "validation_gap",
+      "likely_cause": "scope creep or weak approval process",
+      "model_stage": "validation",
+      "review_status": "review"
+    },
+    {
+      "ethical_issue": "overconfidence and public misunderstanding",
+      "failure_mode": "outputs communicated as more certain than evidence supports",
+      "failure_priority": 6.0,
+      "key": "false_precision",
+      "likely_cause": "missing uncertainty communication",
+      "model_stage": "communication",
+      "review_status": "review"
+    },
+    {
+      "ethical_issue": "responsibility shifting",
+      "failure_mode": "no clear owner for decisions or harms",
+      "failure_priority": 8.0,
+      "key": "accountability_gap",
+      "likely_cause": "missing model owner or decision owner",
+      "model_stage": "governance",
+      "review_status": "revise"
+    },
+    {
+      "ethical_issue": "misuse and unsupported authority",
+      "failure_mode": "model spreads beyond approved use",
+      "failure_priority": 8.0,
+      "key": "scope_creep",
+      "likely_cause": "weak approval and monitoring process",
+      "model_stage": "deployment",
+      "review_status": "revise"
+    }
+  ],
+  "risk_review": [
+    {
+      "accountability_gap": 0.25,
+      "detectability_gap": 0.25,
+      "equity_concern": 0.3,
+      "ethical_risk_score": 2.895,
+      "intended_use": "learning and scenario discussion",
+      "key": "exploratory_model",
+      "likelihood": 0.35,
+      "model_name": "Exploratory planning model",
+      "requires_equity_review": false,
+      "requires_human_decision_owner": false,
+      "requires_use_limit_statement": true,
+      "review_class": "standard_review",
+      "severity": 0.35,
+      "uncertainty_level": 0.6
+    },
+    {
+      "accountability_gap": 0.7,
+      "detectability_gap": 0.55,
+      "equity_concern": 0.75,
+      "ethical_risk_score": 5.865,
+      "intended_use": "prioritizing scarce resources",
+      "key": "allocation_model",
+      "likelihood": 0.55,
+      "model_name": "Resource allocation model",
+      "requires_equity_review": true,
+      "requires_human_decision_owner": true,
+      "requires_use_limit_statement": true,
+      "review_class": "governance_review_required",
+      "severity": 0.85,
+      "uncertainty_level": 0.65
+    },
+    {
+      "accountability_gap": 0.6,
+      "detectability_gap": 0.45,
+      "equity_concern": 0.55,
+      "ethical_risk_score": 5.115,
+      "intended_use": "communicating population risk",
+      "key": "public_dashboard",
+      "likelihood": 0.5,
+      "model_name": "Public risk dashboard",
+      "requires_equity_review": true,
+      "requires_human_decision_owner": true,
+      "requires_use_limit_statement": true,
+      "review_class": "governance_review_required",
+      "severity": 0.7,
+      "uncertainty_level": 0.8
+    },
+    {
+      "accountability_gap": 0.85,
+      "detectability_gap": 0.7,
+      "equity_concern": 0.8,
+      "ethical_risk_score": 6.46,
+      "intended_use": "triggering institutional action",
+      "key": "automated_score",
+      "likelihood": 0.6,
+      "model_name": "Automated scoring model",
+      "requires_equity_review": true,
+      "requires_human_decision_owner": true,
+      "requires_use_limit_statement": true,
+      "review_class": "high_ethics_review_required",
+      "severity": 0.9,
+      "uncertainty_level": 0.6
+    }
+  ],
+  "use_limit": "This workflow supports model ethics review and failure-mode analysis; it does not certify a model for consequential deployment or replace domain, legal, institutional, stakeholder, or ethical review."
+}

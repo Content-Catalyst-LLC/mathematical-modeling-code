@@ -1,0 +1,9 @@
+area,review_use,typical_artifacts
+problem_framing,Checks whether the right problem is being modeled,purpose statement stakeholder note decision context
+data_review,Checks evidence quality representation and measurement,data provenance missingness report proxy audit
+model_design,Checks assumptions boundaries objectives and constraints,assumption log boundary record objective record
+validation,Checks evidence for intended use,validation report domain of use stress tests
+communication,Checks uncertainty and interpretation,uncertainty brief communication guide dashboard caveats
+deployment,Checks approved use monitoring and incident response,approval record monitoring plan incident playbook
+equity_review,Checks distributional harm and unequal error,subgroup diagnostics impact review contestability pathway
+accountability,Checks model owner decision owner and review process,governance register owner record use-limit statement
