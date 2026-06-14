@@ -1,0 +1,133 @@
+{
+  "article": "Mathematical Modeling in an Age of Complexity",
+  "complexity_model_register": [
+    {
+      "complexity_feature": "feedback_loops_and_delays",
+      "decision_context": "understanding nonlinear policy resistance",
+      "key": "feedback_model",
+      "model_family": "system_dynamics",
+      "model_priority": 1.0,
+      "model_role": "dynamic_explanation",
+      "status": "active"
+    },
+    {
+      "complexity_feature": "cascading_dependency",
+      "decision_context": "identifying systemic risk and fragile bridges",
+      "key": "network_model",
+      "model_family": "network_model",
+      "model_priority": 7.0,
+      "model_role": "interdependence_analysis",
+      "status": "review"
+    },
+    {
+      "complexity_feature": "adaptive_behavior",
+      "decision_context": "testing heterogeneous response and emergence",
+      "key": "agent_model",
+      "model_family": "agent_based_model",
+      "model_priority": 7.0,
+      "model_role": "emergence_analysis",
+      "status": "review"
+    },
+    {
+      "complexity_feature": "uncertain_future_pathways",
+      "decision_context": "comparing plausible futures",
+      "key": "scenario_model",
+      "model_family": "scenario_modeling",
+      "model_priority": 6.0,
+      "model_role": "deep_uncertainty_review",
+      "status": "review"
+    },
+    {
+      "complexity_feature": "robustness_under_uncertainty",
+      "decision_context": "choosing strategies across uncertainty",
+      "key": "robustness_model",
+      "model_family": "robust_decision_analysis",
+      "model_priority": 7.0,
+      "model_role": "decision_support",
+      "status": "review"
+    }
+  ],
+  "complexity_summary": {
+    "best_robust_value_scenario": "Baseline stress",
+    "highest_fragility_scenario": "Cascading failure",
+    "max_fragility_score": 0.8115,
+    "mean_fragility_score": 0.634125,
+    "mean_robust_value": 0.446675,
+    "scenario_count": 4
+  },
+  "diagnostic_checks": [
+    "multiple model roles are represented",
+    "complexity features are explicit",
+    "scenarios include stress and uncertainty",
+    "fragility and robust value are compared",
+    "adaptive triggers are flagged",
+    "equity and interdependence review are preserved"
+  ],
+  "scenario_review": [
+    {
+      "adaptability_score": 0.65,
+      "equity_score": 0.68,
+      "fragility_score": 0.3925,
+      "interdependence_level": 0.45,
+      "key": "baseline",
+      "requires_adaptive_trigger": false,
+      "requires_equity_review": false,
+      "requires_interdependence_review": false,
+      "resilience_score": 0.72,
+      "review_class": "standard_monitoring",
+      "robust_value": 0.6085,
+      "scenario_name": "Baseline stress",
+      "stress_level": 0.35,
+      "uncertainty_level": 0.4
+    },
+    {
+      "adaptability_score": 0.55,
+      "equity_score": 0.52,
+      "fragility_score": 0.708,
+      "interdependence_level": 0.7,
+      "key": "compound_shock",
+      "requires_adaptive_trigger": true,
+      "requires_equity_review": true,
+      "requires_interdependence_review": true,
+      "resilience_score": 0.48,
+      "review_class": "high_complexity_risk",
+      "robust_value": 0.3714,
+      "scenario_name": "Compound shock",
+      "stress_level": 0.78,
+      "uncertainty_level": 0.72
+    },
+    {
+      "adaptability_score": 0.42,
+      "equity_score": 0.4,
+      "fragility_score": 0.8115,
+      "interdependence_level": 0.86,
+      "key": "cascading_failure",
+      "requires_adaptive_trigger": true,
+      "requires_equity_review": true,
+      "requires_interdependence_review": true,
+      "resilience_score": 0.32,
+      "review_class": "high_complexity_risk",
+      "robust_value": 0.2117,
+      "scenario_name": "Cascading failure",
+      "stress_level": 0.88,
+      "uncertainty_level": 0.75
+    },
+    {
+      "adaptability_score": 0.82,
+      "equity_score": 0.7,
+      "fragility_score": 0.6245,
+      "interdependence_level": 0.68,
+      "key": "adaptive_pathway",
+      "requires_adaptive_trigger": true,
+      "requires_equity_review": false,
+      "requires_interdependence_review": true,
+      "resilience_score": 0.66,
+      "review_class": "complexity_review_required",
+      "robust_value": 0.5951,
+      "scenario_name": "Adaptive pathway",
+      "stress_level": 0.65,
+      "uncertainty_level": 0.7
+    }
+  ],
+  "use_limit": "This workflow supports complexity modeling literacy, scenario comparison, and governance review; it does not replace domain expertise, stakeholder deliberation, monitoring, or accountable decision-making."
+}

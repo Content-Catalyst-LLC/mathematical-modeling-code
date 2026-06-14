@@ -1,0 +1,56 @@
+section                 
+------------------------
+COMPLEXITY FEATURE TYPES
+complexity_feature            description                                                   modeling_risk                                            
+----------------------------  ------------------------------------------------------------  ---------------------------------------------------------
+adaptive_behavior             Actors change behavior in response to conditions and informa  Parameters may not remain stable.                        
+                              tion.                                                                                                                  
+
+cascading_dependency          Failure or stress can propagate through interdependent syste  Local risk can become systemic risk.                     
+                              ms.                                                                                                                    
+
+feedback_loops_and_delays     Outputs return as inputs over time.                           Policy resistance and delayed consequences can be missed.
+
+robustness_under_uncertainty  Strategies must remain acceptable across scenarios.           Optimizing one future can create fragility.              
+
+uncertain_future_pathways     Multiple futures remain plausible.                            One forecast can create false certainty.                 
+section                                  
+-----------------------------------------
+COMPLEXITY MODEL RECORDS REQUIRING REVIEW
+record_key        model_role                model_family              complexity_feature            decision_context                             
+----------------  ------------------------  ------------------------  ----------------------------  ---------------------------------------------
+network_model     interdependence_analysis  network_model             cascading_dependency          identifying systemic risk and fragile bridges
+agent_model       emergence_analysis        agent_based_model         adaptive_behavior             testing heterogeneous response and emergence 
+scenario_model    deep_uncertainty_review   scenario_modeling         uncertain_future_pathways     comparing plausible futures                  
+robustness_model  decision_support          robust_decision_analysis  robustness_under_uncertainty  choosing strategies across uncertainty       
+section                   
+--------------------------
+COMPLEXITY SCENARIO REVIEW
+scenario_key       scenario_name      stress_level  interdependence_level  uncertainty_level  fragility_score  robust_value  review_class              
+-----------------  -----------------  ------------  ---------------------  -----------------  ---------------  ------------  --------------------------
+cascading_failure  Cascading failure  0.88          0.86                   0.75               0.812            0.212         high_complexity_risk      
+compound_shock     Compound shock     0.78          0.7                    0.72               0.708            0.371         high_complexity_risk      
+adaptive_pathway   Adaptive pathway   0.65          0.68                   0.7                0.625            0.595         complexity_review_required
+baseline           Baseline stress    0.35          0.45                   0.4                0.393            0.609         standard_monitoring       
+section                
+-----------------------
+COMPLEXITY DOMAIN GUIDE
+area               modeling_use                                                typical_model_forms                                        
+-----------------  ----------------------------------------------------------  -----------------------------------------------------------
+deep_uncertainty   Compare plausible futures without one forecast              Scenario models exploratory modeling                       
+emergence          Explore system-level patterns from local behavior           Agent-based models cellular automata simulations           
+feedback_dynamics  Understand loops delays accumulation and policy resistance  System dynamics stock-flow models                          
+governance         Assign ownership use limits monitoring and accountability   Model registers audit trails adaptive trigger records      
+interdependence    Map dependencies and cascading risk                         Network models multilayer graphs dependency maps           
+participation      Incorporate stakeholder knowledge and legitimacy            Participatory modeling boundary critique scenario workshops
+resilience         Assess absorption recovery adaptation and transformation    Stress tests resilience metrics recovery models            
+robust_decisions   Find strategies that remain acceptable across futures       Robust decision analysis minimax regret adaptive pathways  
+section                                 
+----------------------------------------
+HIGH-ATTENTION COMPLEXITY REVIEW TARGETS
+record_key        model_family              complexity_feature            decision_context                             
+----------------  ------------------------  ----------------------------  ---------------------------------------------
+network_model     network_model             cascading_dependency          identifying systemic risk and fragile bridges
+agent_model       agent_based_model         adaptive_behavior             testing heterogeneous response and emergence 
+scenario_model    scenario_modeling         uncertain_future_pathways     comparing plausible futures                  
+robustness_model  robust_decision_analysis  robustness_under_uncertainty  choosing strategies across uncertainty       

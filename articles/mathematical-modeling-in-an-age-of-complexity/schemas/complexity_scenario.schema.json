@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComplexityScenario",
+  "type": "object",
+  "required": [
+    "key",
+    "scenario_name",
+    "stress_level",
+    "interdependence_level",
+    "uncertainty_level",
+    "resilience_score",
+    "equity_score",
+    "adaptability_score"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "scenario_name": {"type": "string"},
+    "stress_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "interdependence_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "uncertainty_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "resilience_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "equity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "adaptability_score": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

@@ -1,0 +1,109 @@
+
+[1;34m[21:27:33][0m Python workflow
+Complexity modeling workflow complete.
+Models: 5
+Scenarios: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[21:27:33][0m R workflow
+null device 
+          1 
+               key               model_role             model_family
+2    network_model interdependence_analysis            network_model
+3      agent_model       emergence_analysis        agent_based_model
+5 robustness_model         decision_support robust_decision_analysis
+4   scenario_model  deep_uncertainty_review        scenario_modeling
+1   feedback_model      dynamic_explanation          system_dynamics
+            complexity_feature                              decision_context
+2         cascading_dependency identifying systemic risk and fragile bridges
+3            adaptive_behavior  testing heterogeneous response and emergence
+5 robustness_under_uncertainty        choosing strategies across uncertainty
+4    uncertain_future_pathways                   comparing plausible futures
+1    feedback_loops_and_delays     understanding nonlinear policy resistance
+  status model_priority
+2 review              7
+3 review              7
+5 review              7
+4 review              6
+1 active              1
+  highest_fragility_scenario best_robust_value_scenario mean_fragility_score
+1          Cascading failure            Baseline stress             0.634125
+  mean_robust_value max_fragility_score scenario_count
+1          0.446675              0.8115              4
+                key     scenario_name stress_level interdependence_level
+3 cascading_failure Cascading failure         0.88                  0.86
+2    compound_shock    Compound shock         0.78                  0.70
+4  adaptive_pathway  Adaptive pathway         0.65                  0.68
+1          baseline   Baseline stress         0.35                  0.45
+  uncertainty_level resilience_score equity_score adaptability_score
+3              0.75             0.32         0.40               0.42
+2              0.72             0.48         0.52               0.55
+4              0.70             0.66         0.70               0.82
+1              0.40             0.72         0.68               0.65
+  fragility_score robust_value               review_class
+3          0.8115       0.2117       high_complexity_risk
+2          0.7080       0.3714       high_complexity_risk
+4          0.6245       0.5951 complexity_review_required
+1          0.3925       0.6085        standard_monitoring
+  requires_adaptive_trigger requires_interdependence_review
+3                      True                            True
+2                      True                            True
+4                      True                            True
+1                     False                           False
+  requires_equity_review
+3                   True
+2                   True
+4                  False
+1                  False
+                key     scenario_name stress_level interdependence_level
+1          baseline   Baseline stress         0.35                  0.45
+4  adaptive_pathway  Adaptive pathway         0.65                  0.68
+2    compound_shock    Compound shock         0.78                  0.70
+3 cascading_failure Cascading failure         0.88                  0.86
+  uncertainty_level resilience_score equity_score adaptability_score
+1              0.40             0.72         0.68               0.65
+4              0.70             0.66         0.70               0.82
+2              0.72             0.48         0.52               0.55
+3              0.75             0.32         0.40               0.42
+  fragility_score robust_value               review_class
+1          0.3925       0.6085        standard_monitoring
+4          0.6245       0.5951 complexity_review_required
+2          0.7080       0.3714       high_complexity_risk
+3          0.8115       0.2117       high_complexity_risk
+  requires_adaptive_trigger requires_interdependence_review
+1                     False                           False
+4                      True                            True
+2                      True                            True
+3                      True                            True
+  requires_equity_review
+1                  False
+4                  False
+2                   True
+3                   True
+
+[1;34m[21:27:33][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling_in_an_age_of_complexity.sqlite < sql/schema.sql
+sqlite3 outputs/tables/mathematical_modeling_in_an_age_of_complexity.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[21:27:34][0m Go workflow
+cd go && go run main.go
+key,stress_level,interdependence_level,uncertainty_level,resilience_score,equity_score,adaptability_score,fragility_score,robust_value
+baseline,0.350000,0.450000,0.400000,0.720000,0.680000,0.650000,0.392500,0.608500
+compound_shock,0.780000,0.700000,0.720000,0.480000,0.520000,0.550000,0.708000,0.371400
+cascading_failure,0.880000,0.860000,0.750000,0.320000,0.400000,0.420000,0.811500,0.211700
+adaptive_pathway,0.650000,0.680000,0.700000,0.660000,0.700000,0.820000,0.624500,0.595100
+
+[1;34m[21:27:34][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 complexity_scenario_summary.cpp -o complexity_scenario_summary
+./complexity_scenario_summary > ../outputs/tables/cpp_complexity_scenario_summary.csv 2> ../outputs/logs/cpp_complexity_scenario_stderr.log
+
+[1;34m[21:27:35][0m Fortran workflow
+gfortran -O2 fortran/complexity_scenario_summary.f90 -o outputs/complexity_scenario_summary_fortran
+./outputs/complexity_scenario_summary_fortran > outputs/tables/fortran_complexity_scenario_summary.txt
+
+[1;34m[21:27:36][0m C workflow
+cc -O2 -std=c11 c/complexity_scenario_summary.c -o outputs/complexity_scenario_summary_c -lm
+./outputs/complexity_scenario_summary_c > outputs/tables/c_complexity_scenario_summary.csv 2> outputs/logs/c_complexity_scenario_stderr.log

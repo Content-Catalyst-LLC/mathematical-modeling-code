@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComplexityModelRecord",
+  "type": "object",
+  "required": [
+    "key",
+    "model_role",
+    "model_family",
+    "complexity_feature",
+    "decision_context",
+    "status"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "model_role": {"type": "string"},
+    "model_family": {"type": "string"},
+    "complexity_feature": {"type": "string"},
+    "decision_context": {"type": "string"},
+    "status": {"type": "string", "enum": ["active", "review", "revise", "archive"]}
+  }
+}
