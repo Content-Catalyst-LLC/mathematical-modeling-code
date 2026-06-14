@@ -1,0 +1,5 @@
+scenario,final_state,max_state,steps,rate,capacity,interpretation
+baseline,97.8486562482,97.8486562482,300,0.2,100.0,Basic bounded continuous-change trajectory
+high_capacity,135.6630347021,135.6630347021,300,0.2,140.0,Higher upper constraint or carrying capacity
+slow_adjustment,68.9640517442,68.9640517442,300,0.1,100.0,Lower rate of system change
+stress_capacity,68.9958056217,68.9958056217,300,0.2,70.0,Lower upper constraint or capacity limit

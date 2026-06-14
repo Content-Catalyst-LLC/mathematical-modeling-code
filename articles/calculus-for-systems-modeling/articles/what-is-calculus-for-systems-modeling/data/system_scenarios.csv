@@ -1,0 +1,5 @@
+scenario,initial_state,rate,capacity,dt,steps,interpretation
+baseline,10.0,0.20,100.0,0.1,300,Basic bounded continuous-change trajectory
+slow_adjustment,10.0,0.10,100.0,0.1,300,Lower rate of system change
+high_capacity,10.0,0.20,140.0,0.1,300,Higher upper constraint or carrying capacity
+stress_capacity,10.0,0.20,70.0,0.1,300,Lower upper constraint or capacity limit

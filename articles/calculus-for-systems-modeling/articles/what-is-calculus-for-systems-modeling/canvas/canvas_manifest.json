@@ -1,0 +1,33 @@
+{
+  "article_slug": "what-is-calculus-for-systems-modeling",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "calculus-systems-modeling-foundation",
+  "cards": [
+    {
+      "card_id": "rates-of-change",
+      "title": "Rates of Change",
+      "description": "Derivatives represent local change, marginal response, and sensitivity."
+    },
+    {
+      "card_id": "accumulation",
+      "title": "Accumulation",
+      "description": "Integrals represent cumulative flows, exposure, burden, and stock formation."
+    },
+    {
+      "card_id": "dynamic-simulation",
+      "title": "Dynamic Simulation",
+      "description": "Differential equations and numerical methods turn rate rules into trajectories."
+    },
+    {
+      "card_id": "typed-model-states",
+      "title": "Typed Model States",
+      "description": "Haskell workflows preserve distinctions among states, parameters, rates, and outputs."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "assumptions_documented": true,
+    "outputs_generated": true,
+    "interpretation_required": true
+  }
+}

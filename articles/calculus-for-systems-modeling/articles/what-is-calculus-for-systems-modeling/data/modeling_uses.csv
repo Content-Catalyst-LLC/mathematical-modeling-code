@@ -1,0 +1,7 @@
+use_case,calculus_concept,systems_interpretation
+Rate modeling,Derivative,How quickly a system changes near a state
+Accumulation modeling,Integral,How local flows become cumulative totals
+Dynamic simulation,Differential equation,How rates determine trajectories over time
+Sensitivity analysis,Derivative or perturbation,How outputs respond to changes in assumptions
+Optimization,Gradient or critical point,How systems behave under objectives and constraints
+Spatial flow,Vector calculus,How fields flows and boundaries structure movement

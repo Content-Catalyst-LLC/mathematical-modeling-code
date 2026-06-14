@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SystemScenario",
+  "type": "object",
+  "required": ["scenario", "initial_state", "rate", "capacity", "dt", "steps"],
+  "properties": {
+    "scenario": {"type": "string"},
+    "initial_state": {"type": "number", "minimum": 0},
+    "rate": {"type": "number", "minimum": 0},
+    "capacity": {"type": "number", "exclusiveMinimum": 0},
+    "dt": {"type": "number", "exclusiveMinimum": 0},
+    "steps": {"type": "integer", "minimum": 1},
+    "interpretation": {"type": "string"}
+  }
+}

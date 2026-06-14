@@ -1,0 +1,82 @@
+{
+  "article": "What Is Calculus for Systems Modeling?",
+  "interpretive_warning": "Educational synthetic workflow. Do not treat as empirical model validation.",
+  "method": "Euler approximation",
+  "model": "dS/dt = rS(1 - S/K)",
+  "scenarios": [
+    {
+      "capacity": 100.0,
+      "dt": 0.1,
+      "initial_state": 10.0,
+      "interpretation": "Basic bounded continuous-change trajectory",
+      "rate": 0.2,
+      "scenario": "baseline",
+      "steps": 300
+    },
+    {
+      "capacity": 100.0,
+      "dt": 0.1,
+      "initial_state": 10.0,
+      "interpretation": "Lower rate of system change",
+      "rate": 0.1,
+      "scenario": "slow_adjustment",
+      "steps": 300
+    },
+    {
+      "capacity": 140.0,
+      "dt": 0.1,
+      "initial_state": 10.0,
+      "interpretation": "Higher upper constraint or carrying capacity",
+      "rate": 0.2,
+      "scenario": "high_capacity",
+      "steps": 300
+    },
+    {
+      "capacity": 70.0,
+      "dt": 0.1,
+      "initial_state": 10.0,
+      "interpretation": "Lower upper constraint or capacity limit",
+      "rate": 0.2,
+      "scenario": "stress_capacity",
+      "steps": 300
+    }
+  ],
+  "summary": [
+    {
+      "capacity": 100.0,
+      "final_state": 97.8486562482,
+      "interpretation": "Basic bounded continuous-change trajectory",
+      "max_state": 97.8486562482,
+      "rate": 0.2,
+      "scenario": "baseline",
+      "steps": 300
+    },
+    {
+      "capacity": 140.0,
+      "final_state": 135.6630347021,
+      "interpretation": "Higher upper constraint or carrying capacity",
+      "max_state": 135.6630347021,
+      "rate": 0.2,
+      "scenario": "high_capacity",
+      "steps": 300
+    },
+    {
+      "capacity": 100.0,
+      "final_state": 68.9640517442,
+      "interpretation": "Lower rate of system change",
+      "max_state": 68.9640517442,
+      "rate": 0.1,
+      "scenario": "slow_adjustment",
+      "steps": 300
+    },
+    {
+      "capacity": 70.0,
+      "final_state": 68.9958056217,
+      "interpretation": "Lower upper constraint or capacity limit",
+      "max_state": 68.9958056217,
+      "rate": 0.2,
+      "scenario": "stress_capacity",
+      "steps": 300
+    }
+  ]
+}

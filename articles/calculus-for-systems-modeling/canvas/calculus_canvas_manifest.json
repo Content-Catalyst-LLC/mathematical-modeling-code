@@ -1,0 +1,27 @@
+{
+  "series": "Calculus for Systems Modeling",
+  "parent_series": "Mathematical Modeling",
+  "folder": "articles/calculus-for-systems-modeling",
+  "nested_articles_folder": "articles/calculus-for-systems-modeling/articles",
+  "default_languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go",
+    "notebooks"
+  ],
+  "governance": {
+    "keep_models_transparent": true,
+    "make_assumptions_explicit": true,
+    "use_synthetic_teaching_data": true,
+    "document_parameters_uncertainty_limitations": true,
+    "use_reproducible_workflows": true,
+    "computation_supports_interpretation": true
+  }
+}

@@ -1,0 +1,1205 @@
+scenario,step,time,state,rate,capacity,interpretation
+baseline,0,0.0,10.0,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,1,0.1,10.18,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,2,0.2,10.36287352,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,3,0.3,10.5486531609,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,4,0.4,10.7373714074,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,5,0.5,10.9290606066,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,6,0.6,11.1237529456,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,7,0.7,11.3214804286,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,8,0.8,11.5222748533,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,9,0.9,11.7261677868,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,10,1.0,11.9331905404,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,11,1.1,12.1433741439,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,12,1.2,12.3567493196,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,13,1.3,12.5733464553,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,14,1.4,12.7931955762,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,15,1.5,13.0163263171,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,16,1.6,13.2427678933,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,17,1.7,13.4725490708,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,18,1.8,13.7056981366,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,19,1.9,13.942242867,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,20,2.0,14.1822104971,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,21,2.1,14.4256276882,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,22,2.2,14.6725204951,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,23,2.3,14.9229143334,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,24,2.4,15.1768339457,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,25,2.5,15.4343033669,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,26,2.6,15.6953458901,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,27,2.7,15.9599840314,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,28,2.8,16.228239494,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,29,2.9,16.5001331324,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,30,3.0,16.7756849164,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,31,3.1,17.0549138938,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,32,3.2,17.3378381541,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,33,3.3,17.6244747909,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,34,3.4,17.9148398643,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,35,3.5,18.2089483642,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,36,3.6,18.5068141713,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,37,3.7,18.8084500206,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,38,3.8,19.1138674626,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,39,3.9,19.423076826,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,40,4.0,19.7360871798,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,41,4.1,20.052906296,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,42,4.2,20.3735406117,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,43,4.3,20.6979951925,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,44,4.4,21.0262736954,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,45,4.5,21.3583783322,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,46,4.6,21.6943098338,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,47,4.7,22.0340674147,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,48,4.8,22.3776487376,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,49,4.9,22.7250498797,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,50,5.0,23.0762652989,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,51,5.1,23.4312878009,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,52,5.2,23.7901085073,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,53,5.3,24.1527168249,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,54,5.4,24.5191004154,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,55,5.5,24.8892451666,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,56,5.6,25.263135165,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,57,5.7,25.6407526686,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,58,5.8,26.0220780825,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,59,5.9,26.4070899346,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,60,6.0,26.7957648535,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,61,6.1,27.1880775478,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,62,6.2,27.5840007866,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,63,6.3,27.9835053824,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,64,6.4,28.3865601754,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,65,6.5,28.7931320192,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,66,6.6,29.2031857693,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,67,6.7,29.6166842728,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,68,6.8,30.0335883608,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,69,6.9,30.4538568421,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,70,7.0,30.8774464996,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,71,7.1,31.3043120891,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,72,7.2,31.7344063399,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,73,7.3,32.1676799575,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,74,7.4,32.6040816299,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,75,7.5,33.0435580347,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,76,7.6,33.4860538499,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,77,7.7,33.9315117664,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,78,7.8,34.3798725036,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,79,7.9,34.831074827,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,80,8.0,35.2850555688,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,81,8.1,35.7417496509,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,82,8.2,36.2010901102,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,83,8.3,36.6630081274,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,84,8.4,37.127433057,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,85,8.5,37.594292461,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,86,8.6,38.0635121451,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,87,8.7,38.5350161967,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,88,8.8,39.0087270259,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,89,8.9,39.4845654096,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,90,9.0,39.9624505367,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,91,9.1,40.4423000569,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,92,9.2,40.9240301312,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,93,9.3,41.4075554854,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,94,9.4,41.8927894649,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,95,9.5,42.3796440923,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,96,9.6,42.8680301275,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,97,9.7,43.3578571286,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,98,9.8,43.8490335163,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,99,9.9,44.3414666385,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,100,10.0,44.8350628386,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,101,10.1,45.3297275234,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,102,10.2,45.8253652344,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,103,10.3,46.3218797193,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,104,10.4,46.8191740055,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,105,10.5,47.3171504747,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,106,10.6,47.8157109384,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,107,10.7,48.3147567147,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,108,10.8,48.8141887057,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,109,10.9,49.313907476,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,110,11.0,49.8138133314,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,111,11.1,50.3138063983,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,112,11.2,50.8137867034,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,113,11.3,51.3136542537,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,114,11.4,51.8133091162,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,115,11.5,52.3126514982,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,116,11.6,52.8115818268,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,117,11.7,53.3100008283,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,118,11.8,53.8078096072,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,119,11.9,54.3049097244,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,120,12.0,54.8012032749,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,121,12.1,55.2965929643,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,122,12.2,55.7909821849,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,123,12.3,56.28427509,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,124,12.4,56.7763766673,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,125,12.5,57.2671928111,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,126,12.6,57.7566303929,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,127,12.7,58.2445973298,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,128,12.8,58.7310026528,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,129,12.9,59.2157565714,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,130,13.0,59.6987705375,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,131,13.1,60.1799573075,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,132,13.2,60.6592310014,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,133,13.3,61.1365071603,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,134,13.4,61.6117028019,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,135,13.5,62.0847364735,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,136,13.6,62.5555283024,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,137,13.7,63.0240000442,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,138,13.8,63.4900751288,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,139,13.9,63.9536787034,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,140,14.0,64.4147376735,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,141,14.1,64.8731807411,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,142,14.2,65.32893844,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,143,14.3,65.7819431693,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,144,14.4,66.2321292232,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,145,14.5,66.6794328194,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,146,14.6,67.1237921236,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,147,14.7,67.5651472722,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,148,14.8,68.0034403925,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,149,14.9,68.4386156193,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,150,15.0,68.8706191101,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,151,15.1,69.299399057,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,152,15.2,69.7249056962,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,153,15.3,70.1470913152,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,154,15.4,70.5659102576,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,155,15.5,70.9813189246,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,156,15.6,71.3932757758,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,157,15.7,71.8017413262,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,158,15.8,72.2066781412,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,159,15.9,72.6080508304,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,160,16.0,73.0058260379,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,161,16.1,73.3999724316,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,162,16.2,73.7904606896,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,163,16.3,74.1772634856,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,164,16.4,74.5603554717,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,165,16.5,74.9397132595,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,166,16.6,75.3153154,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,167,16.7,75.6871423613,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,168,16.8,76.0551765047,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,169,16.9,76.4194020602,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,170,17.0,76.7798050992,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,171,17.1,77.1363735069,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,172,17.2,77.4890969535,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,173,17.3,77.8379668632,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,174,17.4,78.1829763834,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,175,17.5,78.5241203519,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,176,17.6,78.8613952635,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,177,17.7,79.1947992362,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,178,17.8,79.5243319757,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,179,17.9,79.84999474,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,180,18.0,80.1717903028,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,181,18.1,80.4897229168,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,182,18.2,80.8037982761,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,183,18.3,81.1140234784,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,184,18.4,81.420406987,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,185,18.5,81.722958592,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,186,18.6,82.0216893716,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,187,18.7,82.3166116536,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,188,18.8,82.6077389758,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,189,18.9,82.8950860476,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,190,19.0,83.1786687104,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,191,19.1,83.4585038989,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,192,19.2,83.7346096023,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,193,19.3,84.0070048252,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,194,19.4,84.2757095498,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,195,19.5,84.5407446968,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,196,19.6,84.8021320879,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,197,19.7,85.0598944084,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,198,19.8,85.3140551692,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,199,19.9,85.5646386707,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,200,20.0,85.8116699659,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,201,20.1,86.0551748248,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,202,20.2,86.2951796984,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,203,20.3,86.5317116846,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,204,20.4,86.7647984929,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,205,20.5,86.9944684112,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,206,20.6,87.2207502726,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,207,20.7,87.4436734224,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,208,20.8,87.6632676866,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,209,20.9,87.87956334,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,210,21.0,88.0925910762,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,211,21.1,88.3023819773,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,212,21.2,88.5089674842,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,213,21.3,88.7123793689,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,214,21.4,88.9126497056,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,215,21.5,89.1098108442,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,216,21.6,89.3038953833,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,217,21.7,89.4949361449,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,218,21.8,89.6829661487,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,219,21.9,89.8680185882,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,220,22.0,90.050126807,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,221,22.1,90.2293242755,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,222,22.2,90.4056445692,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,223,22.3,90.5791213466,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,224,22.4,90.7497883287,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,225,22.5,90.9176792789,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,226,22.6,91.0828279834,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,227,22.7,91.2452682324,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,228,22.8,91.4050338021,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,229,22.9,91.5621584373,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,230,23.0,91.7166758345,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,231,23.1,91.8686196259,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,232,23.2,92.0180233641,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,233,23.3,92.1649205066,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,234,23.4,92.3093444023,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,235,23.5,92.4513282776,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,236,23.6,92.590905223,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,237,23.7,92.7281081815,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,238,23.8,92.8629699358,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,239,23.9,92.9955230974,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,240,24.0,93.1258000961,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,241,24.1,93.2538331693,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,242,24.2,93.3796543526,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,243,24.3,93.5032954702,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,244,24.4,93.6247881269,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,245,24.5,93.744163699,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,246,24.6,93.8614533275,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,247,24.7,93.9766879099,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,248,24.8,94.089898094,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,249,24.9,94.2011142712,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,250,25.0,94.3103665706,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,251,25.1,94.4176848535,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,252,25.2,94.523098708,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,253,25.3,94.6266374443,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,254,25.4,94.7283300903,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,255,25.5,94.8282053878,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,256,25.6,94.9262917881,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,257,25.7,95.0226174494,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,258,25.8,95.117210233,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,259,25.9,95.2100977011,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,260,26.0,95.3013071143,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,261,26.1,95.3908654291,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,262,26.2,95.4787992962,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,263,26.3,95.5651350591,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,264,26.4,95.6498987525,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,265,26.5,95.7331161013,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,266,26.6,95.8148125196,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,267,26.7,95.8950131104,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,268,26.8,95.9737426647,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,269,26.9,96.0510256618,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,270,27.0,96.1268862689,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,271,27.1,96.2013483415,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,272,27.2,96.2744354238,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,273,27.3,96.346170749,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,274,27.4,96.4165772404,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,275,27.5,96.4856775119,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,276,27.6,96.5534938691,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,277,27.7,96.6200483108,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,278,27.8,96.6853625299,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,279,27.9,96.749457915,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,280,28.0,96.812355552,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,281,28.1,96.8740762255,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,282,28.2,96.9346404211,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,283,28.3,96.9940683268,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,284,28.4,97.0523798352,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,285,28.5,97.1095945456,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,286,28.6,97.1657317659,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,287,28.7,97.2208105153,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,288,28.8,97.2748495262,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,289,28.9,97.3278672466,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,290,29.0,97.379881843,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,291,29.1,97.4309112023,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,292,29.2,97.4809729348,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,293,29.3,97.5300843767,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,294,29.4,97.5782625925,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,295,29.5,97.6255243782,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,296,29.6,97.6718862638,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,297,29.7,97.7173645158,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,298,29.8,97.7619751405,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,299,29.9,97.8057338866,0.2,100.0,Basic bounded continuous-change trajectory
+baseline,300,30.0,97.8486562482,0.2,100.0,Basic bounded continuous-change trajectory
+slow_adjustment,0,0.0,10.0,0.1,100.0,Lower rate of system change
+slow_adjustment,1,0.1,10.09,0.1,100.0,Lower rate of system change
+slow_adjustment,2,0.2,10.18071919,0.1,100.0,Lower rate of system change
+slow_adjustment,3,0.3,10.2721616776,0.1,100.0,Lower rate of system change
+slow_adjustment,4,0.4,10.3643315638,0.1,100.0,Lower rate of system change
+slow_adjustment,5,0.5,10.4572329426,0.1,100.0,Lower rate of system change
+slow_adjustment,6,0.6,10.5508698999,0.1,100.0,Lower rate of system change
+slow_adjustment,7,0.7,10.6452465133,0.1,100.0,Lower rate of system change
+slow_adjustment,8,0.8,10.7403668511,0.1,100.0,Lower rate of system change
+slow_adjustment,9,0.9,10.8362349716,0.1,100.0,Lower rate of system change
+slow_adjustment,10,1.0,10.9328549225,0.1,100.0,Lower rate of system change
+slow_adjustment,11,1.1,11.0302307401,0.1,100.0,Lower rate of system change
+slow_adjustment,12,1.2,11.1283664485,0.1,100.0,Lower rate of system change
+slow_adjustment,13,1.3,11.227266059,0.1,100.0,Lower rate of system change
+slow_adjustment,14,1.4,11.3269335692,0.1,100.0,Lower rate of system change
+slow_adjustment,15,1.5,11.4273729625,0.1,100.0,Lower rate of system change
+slow_adjustment,16,1.6,11.5285882069,0.1,100.0,Lower rate of system change
+slow_adjustment,17,1.7,11.6305832543,0.1,100.0,Lower rate of system change
+slow_adjustment,18,1.8,11.7333620402,0.1,100.0,Lower rate of system change
+slow_adjustment,19,1.9,11.8369284821,0.1,100.0,Lower rate of system change
+slow_adjustment,20,2.0,11.9412864793,0.1,100.0,Lower rate of system change
+slow_adjustment,21,2.1,12.0464399119,0.1,100.0,Lower rate of system change
+slow_adjustment,22,2.2,12.1523926395,0.1,100.0,Lower rate of system change
+slow_adjustment,23,2.3,12.2591485012,0.1,100.0,Lower rate of system change
+slow_adjustment,24,2.4,12.366711314,0.1,100.0,Lower rate of system change
+slow_adjustment,25,2.5,12.4750848723,0.1,100.0,Lower rate of system change
+slow_adjustment,26,2.6,12.5842729468,0.1,100.0,Lower rate of system change
+slow_adjustment,27,2.7,12.6942792837,0.1,100.0,Lower rate of system change
+slow_adjustment,28,2.8,12.8051076039,0.1,100.0,Lower rate of system change
+slow_adjustment,29,2.9,12.9167616018,0.1,100.0,Lower rate of system change
+slow_adjustment,30,3.0,13.0292449448,0.1,100.0,Lower rate of system change
+slow_adjustment,31,3.1,13.1425612719,0.1,100.0,Lower rate of system change
+slow_adjustment,32,3.2,13.2567141929,0.1,100.0,Lower rate of system change
+slow_adjustment,33,3.3,13.3717072877,0.1,100.0,Lower rate of system change
+slow_adjustment,34,3.4,13.487544105,0.1,100.0,Lower rate of system change
+slow_adjustment,35,3.5,13.6042281615,0.1,100.0,Lower rate of system change
+slow_adjustment,36,3.6,13.7217629407,0.1,100.0,Lower rate of system change
+slow_adjustment,37,3.7,13.8401518923,0.1,100.0,Lower rate of system change
+slow_adjustment,38,3.8,13.9593984308,0.1,100.0,Lower rate of system change
+slow_adjustment,39,3.9,14.0795059346,0.1,100.0,Lower rate of system change
+slow_adjustment,40,4.0,14.2004777452,0.1,100.0,Lower rate of system change
+slow_adjustment,41,4.1,14.3223171659,0.1,100.0,Lower rate of system change
+slow_adjustment,42,4.2,14.4450274606,0.1,100.0,Lower rate of system change
+slow_adjustment,43,4.3,14.5686118534,0.1,100.0,Lower rate of system change
+slow_adjustment,44,4.4,14.6930735268,0.1,100.0,Lower rate of system change
+slow_adjustment,45,4.5,14.8184156211,0.1,100.0,Lower rate of system change
+slow_adjustment,46,4.6,14.9446412332,0.1,100.0,Lower rate of system change
+slow_adjustment,47,4.7,15.0717534153,0.1,100.0,Lower rate of system change
+slow_adjustment,48,4.8,15.1997551744,0.1,100.0,Lower rate of system change
+slow_adjustment,49,4.9,15.3286494704,0.1,100.0,Lower rate of system change
+slow_adjustment,50,5.0,15.4584392157,0.1,100.0,Lower rate of system change
+slow_adjustment,51,5.1,15.5891272735,0.1,100.0,Lower rate of system change
+slow_adjustment,52,5.2,15.7207164573,0.1,100.0,Lower rate of system change
+slow_adjustment,53,5.3,15.8532095293,0.1,100.0,Lower rate of system change
+slow_adjustment,54,5.4,15.9866091994,0.1,100.0,Lower rate of system change
+slow_adjustment,55,5.5,16.120918124,0.1,100.0,Lower rate of system change
+slow_adjustment,56,5.6,16.2561389051,0.1,100.0,Lower rate of system change
+slow_adjustment,57,5.7,16.392274089,0.1,100.0,Lower rate of system change
+slow_adjustment,58,5.8,16.5293261649,0.1,100.0,Lower rate of system change
+slow_adjustment,59,5.9,16.6672975642,0.1,100.0,Lower rate of system change
+slow_adjustment,60,6.0,16.806190659,0.1,100.0,Lower rate of system change
+slow_adjustment,61,6.1,16.9460077611,0.1,100.0,Lower rate of system change
+slow_adjustment,62,6.2,17.0867511209,0.1,100.0,Lower rate of system change
+slow_adjustment,63,6.3,17.2284229257,0.1,100.0,Lower rate of system change
+slow_adjustment,64,6.4,17.3710252993,0.1,100.0,Lower rate of system change
+slow_adjustment,65,6.5,17.5145603003,0.1,100.0,Lower rate of system change
+slow_adjustment,66,6.6,17.659029921,0.1,100.0,Lower rate of system change
+slow_adjustment,67,6.7,17.8044360865,0.1,100.0,Lower rate of system change
+slow_adjustment,68,6.8,17.9507806529,0.1,100.0,Lower rate of system change
+slow_adjustment,69,6.9,18.0980654068,0.1,100.0,Lower rate of system change
+slow_adjustment,70,7.0,18.2462920637,0.1,100.0,Lower rate of system change
+slow_adjustment,71,7.1,18.395462267,0.1,100.0,Lower rate of system change
+slow_adjustment,72,7.2,18.5455775864,0.1,100.0,Lower rate of system change
+slow_adjustment,73,7.3,18.6966395175,0.1,100.0,Lower rate of system change
+slow_adjustment,74,7.4,18.8486494797,0.1,100.0,Lower rate of system change
+slow_adjustment,75,7.5,19.0016088158,0.1,100.0,Lower rate of system change
+slow_adjustment,76,7.6,19.1555187902,0.1,100.0,Lower rate of system change
+slow_adjustment,77,7.7,19.3103805881,0.1,100.0,Lower rate of system change
+slow_adjustment,78,7.8,19.4661953141,0.1,100.0,Lower rate of system change
+slow_adjustment,79,7.9,19.6229639913,0.1,100.0,Lower rate of system change
+slow_adjustment,80,8.0,19.7806875596,0.1,100.0,Lower rate of system change
+slow_adjustment,81,8.1,19.9393668752,0.1,100.0,Lower rate of system change
+slow_adjustment,82,8.2,20.0990027088,0.1,100.0,Lower rate of system change
+slow_adjustment,83,8.3,20.2595957449,0.1,100.0,Lower rate of system change
+slow_adjustment,84,8.4,20.4211465804,0.1,100.0,Lower rate of system change
+slow_adjustment,85,8.5,20.5836557234,0.1,100.0,Lower rate of system change
+slow_adjustment,86,8.6,20.7471235924,0.1,100.0,Lower rate of system change
+slow_adjustment,87,8.7,20.9115505145,0.1,100.0,Lower rate of system change
+slow_adjustment,88,8.8,21.0769367252,0.1,100.0,Lower rate of system change
+slow_adjustment,89,8.9,21.2432823663,0.1,100.0,Lower rate of system change
+slow_adjustment,90,9.0,21.4105874854,0.1,100.0,Lower rate of system change
+slow_adjustment,91,9.1,21.5788520346,0.1,100.0,Lower rate of system change
+slow_adjustment,92,9.2,21.7480758694,0.1,100.0,Lower rate of system change
+slow_adjustment,93,9.3,21.9182587477,0.1,100.0,Lower rate of system change
+slow_adjustment,94,9.4,22.0894003285,0.1,100.0,Lower rate of system change
+slow_adjustment,95,9.5,22.2615001711,0.1,100.0,Lower rate of system change
+slow_adjustment,96,9.6,22.4345577338,0.1,100.0,Lower rate of system change
+slow_adjustment,97,9.7,22.6085723731,0.1,100.0,Lower rate of system change
+slow_adjustment,98,9.8,22.7835433424,0.1,100.0,Lower rate of system change
+slow_adjustment,99,9.9,22.9594697911,0.1,100.0,Lower rate of system change
+slow_adjustment,100,10.0,23.1363507637,0.1,100.0,Lower rate of system change
+slow_adjustment,101,10.1,23.3141851986,0.1,100.0,Lower rate of system change
+slow_adjustment,102,10.2,23.4929719275,0.1,100.0,Lower rate of system change
+slow_adjustment,103,10.3,23.6727096738,0.1,100.0,Lower rate of system change
+slow_adjustment,104,10.4,23.8533970522,0.1,100.0,Lower rate of system change
+slow_adjustment,105,10.5,24.0350325676,0.1,100.0,Lower rate of system change
+slow_adjustment,106,10.6,24.2176146142,0.1,100.0,Lower rate of system change
+slow_adjustment,107,10.7,24.4011414746,0.1,100.0,Lower rate of system change
+slow_adjustment,108,10.8,24.5856113188,0.1,100.0,Lower rate of system change
+slow_adjustment,109,10.9,24.7710222036,0.1,100.0,Lower rate of system change
+slow_adjustment,110,11.0,24.9573720715,0.1,100.0,Lower rate of system change
+slow_adjustment,111,11.1,25.1446587502,0.1,100.0,Lower rate of system change
+slow_adjustment,112,11.2,25.3328799513,0.1,100.0,Lower rate of system change
+slow_adjustment,113,11.3,25.5220332702,0.1,100.0,Lower rate of system change
+slow_adjustment,114,11.4,25.7121161847,0.1,100.0,Lower rate of system change
+slow_adjustment,115,11.5,25.9031260546,0.1,100.0,Lower rate of system change
+slow_adjustment,116,11.6,26.0950601212,0.1,100.0,Lower rate of system change
+slow_adjustment,117,11.7,26.2879155062,0.1,100.0,Lower rate of system change
+slow_adjustment,118,11.8,26.4816892111,0.1,100.0,Lower rate of system change
+slow_adjustment,119,11.9,26.6763781168,0.1,100.0,Lower rate of system change
+slow_adjustment,120,12.0,26.8719789831,0.1,100.0,Lower rate of system change
+slow_adjustment,121,12.1,27.0684884474,0.1,100.0,Lower rate of system change
+slow_adjustment,122,12.2,27.2659030252,0.1,100.0,Lower rate of system change
+slow_adjustment,123,12.3,27.4642191087,0.1,100.0,Lower rate of system change
+slow_adjustment,124,12.4,27.6634329667,0.1,100.0,Lower rate of system change
+slow_adjustment,125,12.5,27.863540744,0.1,100.0,Lower rate of system change
+slow_adjustment,126,12.6,28.0645384611,0.1,100.0,Lower rate of system change
+slow_adjustment,127,12.7,28.2664220139,0.1,100.0,Lower rate of system change
+slow_adjustment,128,12.8,28.4691871726,0.1,100.0,Lower rate of system change
+slow_adjustment,129,12.9,28.6728295825,0.1,100.0,Lower rate of system change
+slow_adjustment,130,13.0,28.8773447627,0.1,100.0,Lower rate of system change
+slow_adjustment,131,13.1,29.0827281063,0.1,100.0,Lower rate of system change
+slow_adjustment,132,13.2,29.28897488,0.1,100.0,Lower rate of system change
+slow_adjustment,133,13.3,29.4960802238,0.1,100.0,Lower rate of system change
+slow_adjustment,134,13.4,29.7040391512,0.1,100.0,Lower rate of system change
+slow_adjustment,135,13.5,29.9128465485,0.1,100.0,Lower rate of system change
+slow_adjustment,136,13.6,30.1224971751,0.1,100.0,Lower rate of system change
+slow_adjustment,137,13.7,30.3329856633,0.1,100.0,Lower rate of system change
+slow_adjustment,138,13.8,30.544306518,0.1,100.0,Lower rate of system change
+slow_adjustment,139,13.9,30.7564541171,0.1,100.0,Lower rate of system change
+slow_adjustment,140,14.0,30.9694227113,0.1,100.0,Lower rate of system change
+slow_adjustment,141,14.1,31.1832064241,0.1,100.0,Lower rate of system change
+slow_adjustment,142,14.2,31.3977992521,0.1,100.0,Lower rate of system change
+slow_adjustment,143,14.3,31.6131950648,0.1,100.0,Lower rate of system change
+slow_adjustment,144,14.4,31.8293876052,0.1,100.0,Lower rate of system change
+slow_adjustment,145,14.5,32.0463704897,0.1,100.0,Lower rate of system change
+slow_adjustment,146,14.6,32.2641372085,0.1,100.0,Lower rate of system change
+slow_adjustment,147,14.7,32.4826811256,0.1,100.0,Lower rate of system change
+slow_adjustment,148,14.8,32.7019954795,0.1,100.0,Lower rate of system change
+slow_adjustment,149,14.9,32.9220733835,0.1,100.0,Lower rate of system change
+slow_adjustment,150,15.0,33.1429078257,0.1,100.0,Lower rate of system change
+slow_adjustment,151,15.1,33.3644916701,0.1,100.0,Lower rate of system change
+slow_adjustment,152,15.2,33.5868176563,0.1,100.0,Lower rate of system change
+slow_adjustment,153,15.3,33.8098784009,0.1,100.0,Lower rate of system change
+slow_adjustment,154,15.4,34.0336663971,0.1,100.0,Lower rate of system change
+slow_adjustment,155,15.5,34.2581740163,0.1,100.0,Lower rate of system change
+slow_adjustment,156,15.6,34.4833935077,0.1,100.0,Lower rate of system change
+slow_adjustment,157,15.7,34.709317,0.1,100.0,Lower rate of system change
+slow_adjustment,158,15.8,34.9359365014,0.1,100.0,Lower rate of system change
+slow_adjustment,159,15.9,35.1632439005,0.1,100.0,Lower rate of system change
+slow_adjustment,160,16.0,35.3912309673,0.1,100.0,Lower rate of system change
+slow_adjustment,161,16.1,35.619889354,0.1,100.0,Lower rate of system change
+slow_adjustment,162,16.2,35.8492105958,0.1,100.0,Lower rate of system change
+slow_adjustment,163,16.3,36.0791861117,0.1,100.0,Lower rate of system change
+slow_adjustment,164,16.4,36.3098072058,0.1,100.0,Lower rate of system change
+slow_adjustment,165,16.5,36.5410650679,0.1,100.0,Lower rate of system change
+slow_adjustment,166,16.6,36.772950775,0.1,100.0,Lower rate of system change
+slow_adjustment,167,16.7,37.0054552919,0.1,100.0,Lower rate of system change
+slow_adjustment,168,16.8,37.2385694726,0.1,100.0,Lower rate of system change
+slow_adjustment,169,16.9,37.4722840617,0.1,100.0,Lower rate of system change
+slow_adjustment,170,17.0,37.7065896951,0.1,100.0,Lower rate of system change
+slow_adjustment,171,17.1,37.9414769014,0.1,100.0,Lower rate of system change
+slow_adjustment,172,17.2,38.1769361035,0.1,100.0,Lower rate of system change
+slow_adjustment,173,17.3,38.4129576195,0.1,100.0,Lower rate of system change
+slow_adjustment,174,17.4,38.6495316643,0.1,100.0,Lower rate of system change
+slow_adjustment,175,17.5,38.8866483512,0.1,100.0,Lower rate of system change
+slow_adjustment,176,17.6,39.1242976927,0.1,100.0,Lower rate of system change
+slow_adjustment,177,17.7,39.3624696027,0.1,100.0,Lower rate of system change
+slow_adjustment,178,17.8,39.6011538974,0.1,100.0,Lower rate of system change
+slow_adjustment,179,17.9,39.8403402973,0.1,100.0,Lower rate of system change
+slow_adjustment,180,18.0,40.0800184288,0.1,100.0,Lower rate of system change
+slow_adjustment,181,18.1,40.3201778254,0.1,100.0,Lower rate of system change
+slow_adjustment,182,18.2,40.5608079296,0.1,100.0,Lower rate of system change
+slow_adjustment,183,18.3,40.8018980949,0.1,100.0,Lower rate of system change
+slow_adjustment,184,18.4,41.0434375871,0.1,100.0,Lower rate of system change
+slow_adjustment,185,18.5,41.285415586,0.1,100.0,Lower rate of system change
+slow_adjustment,186,18.6,41.5278211879,0.1,100.0,Lower rate of system change
+slow_adjustment,187,18.7,41.7706434065,0.1,100.0,Lower rate of system change
+slow_adjustment,188,18.8,42.0138711755,0.1,100.0,Lower rate of system change
+slow_adjustment,189,18.9,42.2574933502,0.1,100.0,Lower rate of system change
+slow_adjustment,190,19.0,42.5014987092,0.1,100.0,Lower rate of system change
+slow_adjustment,191,19.1,42.7458759571,0.1,100.0,Lower rate of system change
+slow_adjustment,192,19.2,42.9906137255,0.1,100.0,Lower rate of system change
+slow_adjustment,193,19.3,43.2357005759,0.1,100.0,Lower rate of system change
+slow_adjustment,194,19.4,43.4811250012,0.1,100.0,Lower rate of system change
+slow_adjustment,195,19.5,43.7268754281,0.1,100.0,Lower rate of system change
+slow_adjustment,196,19.6,43.9729402189,0.1,100.0,Lower rate of system change
+slow_adjustment,197,19.7,44.219307674,0.1,100.0,Lower rate of system change
+slow_adjustment,198,19.8,44.4659660336,0.1,100.0,Lower rate of system change
+slow_adjustment,199,19.9,44.7129034804,0.1,100.0,Lower rate of system change
+slow_adjustment,200,20.0,44.9601081414,0.1,100.0,Lower rate of system change
+slow_adjustment,201,20.1,45.2075680904,0.1,100.0,Lower rate of system change
+slow_adjustment,202,20.2,45.4552713501,0.1,100.0,Lower rate of system change
+slow_adjustment,203,20.3,45.7032058942,0.1,100.0,Lower rate of system change
+slow_adjustment,204,20.4,45.9513596503,0.1,100.0,Lower rate of system change
+slow_adjustment,205,20.5,46.1997205014,0.1,100.0,Lower rate of system change
+slow_adjustment,206,20.6,46.448276289,0.1,100.0,Lower rate of system change
+slow_adjustment,207,20.7,46.6970148148,0.1,100.0,Lower rate of system change
+slow_adjustment,208,20.8,46.9459238437,0.1,100.0,Lower rate of system change
+slow_adjustment,209,20.9,47.1949911056,0.1,100.0,Lower rate of system change
+slow_adjustment,210,21.0,47.4442042981,0.1,100.0,Lower rate of system change
+slow_adjustment,211,21.1,47.693551089,0.1,100.0,Lower rate of system change
+slow_adjustment,212,21.2,47.9430191183,0.1,100.0,Lower rate of system change
+slow_adjustment,213,21.3,48.1925960013,0.1,100.0,Lower rate of system change
+slow_adjustment,214,21.4,48.4422693303,0.1,100.0,Lower rate of system change
+slow_adjustment,215,21.5,48.6920266779,0.1,100.0,Lower rate of system change
+slow_adjustment,216,21.6,48.9418555984,0.1,100.0,Lower rate of system change
+slow_adjustment,217,21.7,49.1917436315,0.1,100.0,Lower rate of system change
+slow_adjustment,218,21.8,49.4416783036,0.1,100.0,Lower rate of system change
+slow_adjustment,219,21.9,49.6916471313,0.1,100.0,Lower rate of system change
+slow_adjustment,220,22.0,49.9416376232,0.1,100.0,Lower rate of system change
+slow_adjustment,221,22.1,50.1916372826,0.1,100.0,Lower rate of system change
+slow_adjustment,222,22.2,50.4416336101,0.1,100.0,Lower rate of system change
+slow_adjustment,223,22.3,50.6916141061,0.1,100.0,Lower rate of system change
+slow_adjustment,224,22.4,50.9415662731,0.1,100.0,Lower rate of system change
+slow_adjustment,225,22.5,51.1914776184,0.1,100.0,Lower rate of system change
+slow_adjustment,226,22.6,51.4413356565,0.1,100.0,Lower rate of system change
+slow_adjustment,227,22.7,51.6911279116,0.1,100.0,Lower rate of system change
+slow_adjustment,228,22.8,51.9408419203,0.1,100.0,Lower rate of system change
+slow_adjustment,229,22.9,52.1904652335,0.1,100.0,Lower rate of system change
+slow_adjustment,230,23.0,52.4399854197,0.1,100.0,Lower rate of system change
+slow_adjustment,231,23.1,52.6893900668,0.1,100.0,Lower rate of system change
+slow_adjustment,232,23.2,52.9386667849,0.1,100.0,Lower rate of system change
+slow_adjustment,233,23.3,53.1878032087,0.1,100.0,Lower rate of system change
+slow_adjustment,234,23.4,53.4367869998,0.1,100.0,Lower rate of system change
+slow_adjustment,235,23.5,53.6856058493,0.1,100.0,Lower rate of system change
+slow_adjustment,236,23.6,53.9342474802,0.1,100.0,Lower rate of system change
+slow_adjustment,237,23.7,54.1826996499,0.1,100.0,Lower rate of system change
+slow_adjustment,238,23.8,54.4309501523,0.1,100.0,Lower rate of system change
+slow_adjustment,239,23.9,54.6789868203,0.1,100.0,Lower rate of system change
+slow_adjustment,240,24.0,54.9267975286,0.1,100.0,Lower rate of system change
+slow_adjustment,241,24.1,55.1743701952,0.1,100.0,Lower rate of system change
+slow_adjustment,242,24.2,55.4216927845,0.1,100.0,Lower rate of system change
+slow_adjustment,243,24.3,55.6687533092,0.1,100.0,Lower rate of system change
+slow_adjustment,244,24.4,55.9155398328,0.1,100.0,Lower rate of system change
+slow_adjustment,245,24.5,56.1620404717,0.1,100.0,Lower rate of system change
+slow_adjustment,246,24.6,56.4082433974,0.1,100.0,Lower rate of system change
+slow_adjustment,247,24.7,56.6541368391,0.1,100.0,Lower rate of system change
+slow_adjustment,248,24.8,56.8997090853,0.1,100.0,Lower rate of system change
+slow_adjustment,249,24.9,57.1449484868,0.1,100.0,Lower rate of system change
+slow_adjustment,250,25.0,57.3898434579,0.1,100.0,Lower rate of system change
+slow_adjustment,251,25.1,57.6343824793,0.1,100.0,Lower rate of system change
+slow_adjustment,252,25.2,57.8785540997,0.1,100.0,Lower rate of system change
+slow_adjustment,253,25.3,58.1223469382,0.1,100.0,Lower rate of system change
+slow_adjustment,254,25.4,58.3657496862,0.1,100.0,Lower rate of system change
+slow_adjustment,255,25.5,58.6087511095,0.1,100.0,Lower rate of system change
+slow_adjustment,256,25.6,58.8513400499,0.1,100.0,Lower rate of system change
+slow_adjustment,257,25.7,59.0935054278,0.1,100.0,Lower rate of system change
+slow_adjustment,258,25.8,59.3352362437,0.1,100.0,Lower rate of system change
+slow_adjustment,259,25.9,59.5765215802,0.1,100.0,Lower rate of system change
+slow_adjustment,260,26.0,59.8173506036,0.1,100.0,Lower rate of system change
+slow_adjustment,261,26.1,60.0577125663,0.1,100.0,Lower rate of system change
+slow_adjustment,262,26.2,60.2975968081,0.1,100.0,Lower rate of system change
+slow_adjustment,263,26.3,60.5369927581,0.1,100.0,Lower rate of system change
+slow_adjustment,264,26.4,60.7758899365,0.1,100.0,Lower rate of system change
+slow_adjustment,265,26.5,61.0142779561,0.1,100.0,Lower rate of system change
+slow_adjustment,266,26.6,61.2521465242,0.1,100.0,Lower rate of system change
+slow_adjustment,267,26.7,61.489485444,0.1,100.0,Lower rate of system change
+slow_adjustment,268,26.8,61.7262846165,0.1,100.0,Lower rate of system change
+slow_adjustment,269,26.9,61.9625340414,0.1,100.0,Lower rate of system change
+slow_adjustment,270,27.0,62.1982238193,0.1,100.0,Lower rate of system change
+slow_adjustment,271,27.1,62.4333441529,0.1,100.0,Lower rate of system change
+slow_adjustment,272,27.2,62.6678853482,0.1,100.0,Lower rate of system change
+slow_adjustment,273,27.3,62.9018378163,0.1,100.0,Lower rate of system change
+slow_adjustment,274,27.4,63.1351920744,0.1,100.0,Lower rate of system change
+slow_adjustment,275,27.5,63.3679387473,0.1,100.0,Lower rate of system change
+slow_adjustment,276,27.6,63.6000685687,0.1,100.0,Lower rate of system change
+slow_adjustment,277,27.7,63.8315723821,0.1,100.0,Lower rate of system change
+slow_adjustment,278,27.8,64.0624411427,0.1,100.0,Lower rate of system change
+slow_adjustment,279,27.9,64.2926659176,0.1,100.0,Lower rate of system change
+slow_adjustment,280,28.0,64.5222378877,0.1,100.0,Lower rate of system change
+slow_adjustment,281,28.1,64.7511483484,0.1,100.0,Lower rate of system change
+slow_adjustment,282,28.2,64.9793887106,0.1,100.0,Lower rate of system change
+slow_adjustment,283,28.3,65.206950502,0.1,100.0,Lower rate of system change
+slow_adjustment,284,28.4,65.4338253676,0.1,100.0,Lower rate of system change
+slow_adjustment,285,28.5,65.6600050711,0.1,100.0,Lower rate of system change
+slow_adjustment,286,28.6,65.8854814952,0.1,100.0,Lower rate of system change
+slow_adjustment,287,28.7,66.110246643,0.1,100.0,Lower rate of system change
+slow_adjustment,288,28.8,66.3342926383,0.1,100.0,Lower rate of system change
+slow_adjustment,289,28.9,66.5576117267,0.1,100.0,Lower rate of system change
+slow_adjustment,290,29.0,66.7801962761,0.1,100.0,Lower rate of system change
+slow_adjustment,291,29.1,67.0020387774,0.1,100.0,Lower rate of system change
+slow_adjustment,292,29.2,67.2231318451,0.1,100.0,Lower rate of system change
+slow_adjustment,293,29.3,67.4434682181,0.1,100.0,Lower rate of system change
+slow_adjustment,294,29.4,67.6630407597,0.1,100.0,Lower rate of system change
+slow_adjustment,295,29.5,67.8818424588,0.1,100.0,Lower rate of system change
+slow_adjustment,296,29.6,68.0998664298,0.1,100.0,Lower rate of system change
+slow_adjustment,297,29.7,68.3171059134,0.1,100.0,Lower rate of system change
+slow_adjustment,298,29.8,68.5335542765,0.1,100.0,Lower rate of system change
+slow_adjustment,299,29.9,68.7492050131,0.1,100.0,Lower rate of system change
+slow_adjustment,300,30.0,68.9640517442,0.1,100.0,Lower rate of system change
+high_capacity,0,0.0,10.0,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,1,0.1,10.1857142857,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,2,0.2,10.3746073178,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,3,0.3,10.566723396,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,4,0.4,10.7621070577,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,5,0.5,10.9608030634,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,6,0.6,11.1628563813,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,7,0.7,11.3683121714,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,8,0.8,11.5772157689,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,9,0.9,11.7896126664,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,10,1.0,12.0055484959,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,11,1.1,12.2250690094,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,12,1.2,12.4482200593,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,13,1.3,12.6750475772,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,14,1.4,12.9055975529,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,15,1.5,13.1399160114,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,16,1.6,13.3780489898,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,17,1.7,13.6200425132,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,18,1.8,13.8659425694,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,19,1.9,14.1157950832,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,20,2.0,14.369645889,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,21,2.1,14.6275407035,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,22,2.2,14.8895250966,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,23,2.3,15.1556444617,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,24,2.4,15.4259439854,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,25,2.5,15.7004686154,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,26,2.6,15.9792630285,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,27,2.7,16.2623715966,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,28,2.8,16.5498383528,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,29,2.9,16.8417069557,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,30,3.0,17.1380206529,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,31,3.1,17.4388222443,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,32,3.2,17.7441540433,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,33,3.3,18.054057838,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,34,3.4,18.3685748513,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,35,3.5,18.6877456994,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,36,3.6,19.0116103507,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,37,3.7,19.3402080822,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,38,3.8,19.6735774369,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,39,3.9,20.0117561786,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,40,4.0,20.3547812472,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,41,4.1,20.7026887122,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,42,4.2,21.0555137264,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,43,4.3,21.4132904783,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,44,4.4,21.7760521437,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,45,4.5,22.1438308371,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,46,4.6,22.5166575618,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,47,4.7,22.8945621605,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,48,4.8,23.2775732642,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,49,4.9,23.6657182413,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,50,5.0,24.0590231462,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,51,5.1,24.457512667,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,52,5.2,24.8612100738,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,53,5.3,25.2701371658,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,54,5.4,25.6843142187,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,55,5.5,26.1037599321,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,56,5.6,26.5284913761,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,57,5.7,26.9585239387,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,58,5.8,27.3938712727,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,59,5.9,27.8345452434,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,60,6.0,28.2805558756,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,61,6.1,28.7319113016,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,62,6.2,29.1886177095,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,63,6.3,29.6506792917,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,64,6.4,30.1180981943,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,65,6.5,30.590874467,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,66,6.6,31.0690060133,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,67,6.7,31.5524885429,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,68,6.8,32.0413155233,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,69,6.9,32.5354781337,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,70,7.0,33.0349652196,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,71,7.1,33.5397632487,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,72,7.2,34.0498562682,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,73,7.3,34.5652258633,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,74,7.4,35.0858511178,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,75,7.5,35.6117085761,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,76,7.6,36.1427722065,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,77,7.7,36.6790133674,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,78,7.8,37.2204007745,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,79,7.9,37.7669004709,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,80,8.0,38.3184757987,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,81,8.1,38.8750873736,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,82,8.2,39.4366930613,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,83,8.3,40.0032479569,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,84,8.4,40.5747043664,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,85,8.5,41.1510117917,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,86,8.6,41.7321169173,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,87,8.7,42.317963601,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,88,8.8,42.9084928669,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,89,8.9,43.5036429013,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,90,9.0,44.1033490528,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,91,9.1,44.7075438342,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,92,9.2,45.3161569287,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,93,9.3,45.9291151988,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,94,9.4,46.5463426995,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,95,9.5,47.1677606937,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,96,9.6,47.793287672,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,97,9.7,48.422839376,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,98,9.8,49.0563288245,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,99,9.9,49.6936663441,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,100,10.0,50.3347596032,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,101,10.1,50.9795136489,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,102,10.2,51.6278309488,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,103,10.3,52.2796114351,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,104,10.4,52.9347525536,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,105,10.5,53.5931493149,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,106,10.6,54.2546943507,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,107,10.7,54.9192779722,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,108,10.8,55.5867882326,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,109,10.9,56.2571109936,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,110,11.0,56.9301299938,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,111,11.1,57.6057269221,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,112,11.2,58.2837814928,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,113,11.3,58.9641715248,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,114,11.4,59.6467730233,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,115,11.5,60.3314602649,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,116,11.6,61.0181058848,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,117,11.7,61.7065809674,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,118,11.8,62.396755139,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,119,11.9,63.0884966629,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,120,12.0,63.7816725374,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,121,12.1,64.4761485951,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,122,12.2,65.1717896044,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,123,12.3,65.8684593736,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,124,12.4,66.5660208554,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,125,12.5,67.2643362535,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,126,12.6,67.9632671312,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,127,12.7,68.6626745197,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,128,12.8,69.3624190283,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,129,12.9,70.0623609556,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,130,13.0,70.7623604,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,131,13.1,71.4622773724,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,132,13.2,72.1619719074,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,133,13.3,72.8613041756,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,134,13.4,73.5601345953,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,135,13.5,74.2583239442,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,136,13.6,74.9557334695,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,137,13.7,75.6522249989,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,138,13.8,76.3476610492,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,139,13.9,77.0419049348,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,140,14.0,77.7348208741,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,141,14.1,78.426274095,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,142,14.2,79.1161309385,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,143,14.3,79.8042589609,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,144,14.4,80.4905270332,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,145,14.5,81.1748054393,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,146,14.6,81.8569659712,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,147,14.7,82.5368820224,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,148,14.8,83.2144286779,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,149,14.9,83.8894828029,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,150,15.0,84.5619231268,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,151,15.1,85.2316303261,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,152,15.2,85.8984871029,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,153,15.3,86.5623782612,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,154,15.4,87.2231907792,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,155,15.5,87.8808138791,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,156,15.6,88.5351390927,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,157,15.7,89.186060324,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,158,15.8,89.8334739081,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,159,15.9,90.4772786671,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,160,16.0,91.1173759611,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,161,16.1,91.7536697372,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,162,16.2,92.3860665734,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,163,16.3,93.0144757196,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,164,16.4,93.6388091349,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,165,16.5,94.258981521,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,166,16.6,94.8749103518,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,167,16.7,95.4865158996,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,168,16.8,96.0937212578,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,169,16.9,96.6964523594,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,170,17.0,97.2946379924,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,171,17.1,97.888209812,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,172,17.2,98.4771023482,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,173,17.3,99.0612530113,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,174,17.4,99.6406020932,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,175,17.5,100.2150927658,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,176,17.6,100.7846710756,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,177,17.7,101.3492859366,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,178,17.8,101.9088891182,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,179,17.9,102.4634352318,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,180,18.0,103.0128817137,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,181,18.1,103.5571888052,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,182,18.2,104.0963195309,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,183,18.3,104.6302396729,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,184,18.4,105.1589177444,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,185,18.5,105.6823249591,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,186,18.6,106.2004351999,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,187,18.7,106.7132249844,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,188,18.8,107.2206734288,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,189,18.9,107.7227622102,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,190,19.0,108.2194755261,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,191,19.1,108.7108000533,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,192,19.2,109.1967249046,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,193,19.3,109.6772415842,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,194,19.4,110.1523439413,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,195,19.5,110.6220281236,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,196,19.6,111.0862925281,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,197,19.7,111.5451377518,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,198,19.8,111.9985665417,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,199,19.9,112.4465837429,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,200,20.0,112.889196247,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,201,20.1,113.3264129392,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,202,20.2,113.7582446452,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,203,20.3,114.1847040774,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,204,20.4,114.605805781,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,205,20.5,115.0215660797,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,206,20.6,115.4320030208,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,207,20.7,115.837136321,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,208,20.8,116.2369873116,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,209,20.9,116.6315788836,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,210,21.0,117.0209354337,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,211,21.1,117.4050828096,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,212,21.2,117.7840482559,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,213,21.3,118.1578603605,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,214,21.4,118.5265490013,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,215,21.5,118.890145293,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,216,21.6,119.2486815349,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,217,21.7,119.6021911587,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,218,21.8,119.9507086776,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,219,21.9,120.2942696351,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,220,22.0,120.6329105554,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,221,22.1,120.9666688938,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,222,22.2,121.2955829883,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,223,22.3,121.619692012,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,224,22.4,121.9390359258,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,225,22.5,122.2536554326,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,226,22.6,122.5635919317,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,227,22.7,122.868887475,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,228,22.8,123.1695847232,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,229,22.9,123.4657269032,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,230,23.0,123.757357767,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,231,23.1,124.0445215507,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,232,23.2,124.3272629351,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,233,23.3,124.6056270068,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,234,23.4,124.879659221,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,235,23.5,125.1494053644,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,236,23.6,125.4149115198,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,237,23.7,125.6762240314,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,238,23.8,125.9333894711,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,239,23.9,126.1864546057,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,240,24.0,126.4354663655,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,241,24.1,126.6804718135,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,242,24.2,126.9215181157,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,243,24.3,127.1586525121,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,244,24.4,127.3919222897,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,245,24.5,127.6213747548,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,246,24.6,127.8470572079,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,247,24.7,128.0690169182,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,248,24.8,128.2873011003,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,249,24.9,128.5019568903,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,250,25.0,128.7130313246,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,251,25.1,128.9205713178,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,252,25.2,129.1246236429,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,253,25.3,129.3252349114,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,254,25.4,129.5224515546,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,255,25.5,129.7163198062,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,256,25.6,129.9068856846,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,257,25.7,130.0941949771,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,258,25.8,130.2782932242,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,259,25.9,130.4592257051,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,260,26.0,130.6370374233,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,261,26.1,130.8117730936,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,262,26.2,130.9834771298,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,263,26.3,131.1521936322,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,264,26.4,131.3179663771,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,265,26.5,131.4808388056,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,266,26.6,131.6408540141,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,267,26.7,131.798054745,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,268,26.8,131.9524833778,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,269,26.9,132.1041819212,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,270,27.0,132.2531920052,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,271,27.1,132.3995548745,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,272,27.2,132.5433113818,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,273,27.3,132.684501982,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,274,27.4,132.8231667265,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,275,27.5,132.9593452583,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,276,27.6,133.0930768075,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,277,27.7,133.2244001874,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,278,27.8,133.3533537904,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,279,27.9,133.4799755851,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,280,28.0,133.6043031137,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,281,28.1,133.7263734887,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,282,28.2,133.8462233919,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,283,28.3,133.9638890717,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,284,28.4,134.0794063424,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,285,28.5,134.1928105828,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,286,28.6,134.3041367355,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,287,28.7,134.4134193068,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,288,28.8,134.5206923658,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,289,28.9,134.6259895453,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,290,29.0,134.7293440418,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,291,29.1,134.8307886161,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,292,29.2,134.9303555943,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,293,29.3,135.0280768689,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,294,29.4,135.1239839002,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,295,29.5,135.2181077174,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,296,29.6,135.3104789211,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,297,29.7,135.4011276844,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,298,29.8,135.4900837555,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,299,29.9,135.5773764597,0.2,140.0,Higher upper constraint or carrying capacity
+high_capacity,300,30.0,135.6630347021,0.2,140.0,Higher upper constraint or carrying capacity
+stress_capacity,0,0.0,10.0,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,1,0.1,10.1714285714,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,2,0.2,10.3452977259,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,3,0.3,10.5216250562,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,4,0.4,10.7004276733,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,5,0.5,10.8817221833,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,6,0.6,11.0655246619,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,7,0.7,11.2518506305,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,8,0.8,11.440715031,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,9,0.9,11.6321322,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,10,1.0,11.8261158442,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,11,1.1,12.0226790137,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,12,1.2,12.2218340766,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,13,1.3,12.4235926929,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,14,1.4,12.6279657881,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,15,1.5,12.8349635267,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,16,1.6,13.0445952862,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,17,1.7,13.2568696302,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,18,1.8,13.4717942821,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,19,1.9,13.6893760988,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,20,2.0,13.9096210442,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,21,2.1,14.1325341629,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,22,2.2,14.3581195542,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,23,2.3,14.5863803461,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,24,2.4,14.8173186697,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,25,2.5,15.0509356338,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,26,2.6,15.2872312998,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,27,2.7,15.526204657,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,28,2.8,15.7678535984,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,29,2.9,16.0121748969,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,30,3.0,16.259164182,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,31,3.1,16.5088159171,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,32,3.2,16.7611233775,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,33,3.3,17.0160786288,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,34,3.4,17.2736725065,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,35,3.5,17.5338945961,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,36,3.6,17.7967332138,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,37,3.7,18.0621753887,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,38,3.8,18.3302068451,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,39,3.9,18.6008119868,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,40,4.0,18.8739738818,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,41,4.1,19.149674248,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,42,4.2,19.4278934405,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,43,4.3,19.7086104397,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,44,4.4,19.9918028412,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,45,4.5,20.2774468464,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,46,4.6,20.5655172546,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,47,4.7,20.8559874568,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,48,4.8,21.1488294309,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,49,4.9,21.4440137377,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,50,5.0,21.7415095195,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,51,5.1,22.0412844996,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,52,5.2,22.3433049832,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,53,5.3,22.6475358607,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,54,5.4,22.953940612,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,55,5.5,23.2624813129,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,56,5.6,23.5731186429,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,57,5.7,23.8858118951,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,58,5.8,24.2005189873,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,59,5.9,24.5171964758,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,60,6.0,24.8357995702,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,61,6.1,25.1562821501,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,62,6.2,25.478596784,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,63,6.3,25.80269475,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,64,6.4,26.1285260575,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,65,6.5,26.4560394718,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,66,6.6,26.7851825399,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,67,6.7,27.1159016182,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,68,6.8,27.4481419018,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,69,6.9,27.7818474559,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,70,7.0,28.1169612485,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,71,7.1,28.4534251849,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,72,7.2,28.7911801444,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,73,7.3,29.1301660175,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,74,7.4,29.4703217458,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,75,7.5,29.8115853625,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,76,7.6,30.1538940349,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,77,7.7,30.4971841084,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,78,7.8,30.8413911509,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,79,7.9,31.1864500002,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,80,8.0,31.5322948106,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,81,8.1,31.8788591022,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,82,8.2,32.2260758107,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,83,8.3,32.5738773377,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,84,8.4,32.9221956031,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,85,8.5,33.270962097,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,86,8.6,33.6201079336,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,87,8.7,33.9695639044,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,88,8.8,34.3192605334,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,89,8.9,34.6691281316,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,90,9.0,35.0190968527,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,91,9.1,35.3690967485,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,92,9.2,35.719057825,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,93,9.3,36.0689100981,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,94,9.4,36.4185836498,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,95,9.5,36.7680086843,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,96,9.6,37.1171155829,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,97,9.7,37.4658349605,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,98,9.8,37.8140977199,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,99,9.9,38.1618351068,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,100,10.0,38.5089787636,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,101,10.1,38.855460783,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,102,10.2,39.2012137608,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,103,10.3,39.5461708473,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,104,10.4,39.8902657989,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,105,10.5,40.2334330276,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,106,10.6,40.5756076501,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,107,10.7,40.9167255356,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,108,10.8,41.2567233525,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,109,10.9,41.5955386133,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,110,11.0,41.9331097191,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,111,11.1,42.2693760019,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,112,11.2,42.6042777655,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,113,11.3,42.9377563254,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,114,11.4,43.2697540467,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,115,11.5,43.6002143804,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,116,11.6,43.9290818983,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,117,11.7,44.2563023258,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,118,11.8,44.5818225736,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,119,11.9,44.9055907668,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,120,12.0,45.227556273,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,121,12.1,45.547669728,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,122,12.2,45.8658830604,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,123,12.3,46.1821495133,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,124,12.4,46.4964236654,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,125,12.5,46.8086614491,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,126,12.6,47.1188201676,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,127,12.7,47.4268585098,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,128,12.8,47.7327365634,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,129,12.9,48.0364158262,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,130,13.0,48.3378592154,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,131,13.1,48.6370310759,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,132,13.2,48.9338971854,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,133,13.3,49.2284247595,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,134,13.4,49.5205824534,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,135,13.5,49.8103403635,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,136,13.6,50.0976700259,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,137,13.7,50.3825444144,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,138,13.8,50.6649379365,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,139,13.9,50.9448264278,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,140,14.0,51.222187145,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,141,14.1,51.4969987576,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,142,14.2,51.7692413382,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,143,14.3,52.038896351,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,144,14.4,52.3059466399,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,145,14.5,52.5703764144,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,146,14.6,52.8321712352,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,147,14.7,53.0913179978,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,148,14.8,53.3478049158,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,149,14.9,53.6016215029,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,150,15.0,53.8527585536,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,151,15.1,54.1012081236,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,152,15.2,54.3469635088,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,153,15.3,54.5900192239,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,154,15.4,54.8303709802,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,155,15.5,55.0680156621,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,156,15.6,55.3029513042,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,157,15.7,55.5351770666,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,158,15.8,55.7646932103,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,159,15.9,55.9915010719,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,160,16.0,56.2156030384,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,161,16.1,56.4370025206,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,162,16.2,56.6557039272,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,163,16.3,56.8717126379,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,164,16.4,57.0850349768,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,165,16.5,57.2956781854,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,166,16.6,57.5036503952,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,167,16.7,57.7089606006,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,168,16.8,57.9116186316,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,169,16.9,58.1116351263,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,170,17.0,58.309021504,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,171,17.1,58.5037899373,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,172,17.2,58.6959533255,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,173,17.3,58.8855252672,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,174,17.4,59.0725200337,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,175,17.5,59.256952542,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,176,17.6,59.4388383287,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,177,17.7,59.6181935233,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,178,17.8,59.7950348226,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,179,17.9,59.969379465,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,180,18.0,60.1412452047,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,181,18.1,60.3106502874,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,182,18.2,60.4776134252,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,183,18.3,60.6421537721,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,184,18.4,60.8042909006,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,185,18.5,60.9640447781,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,186,18.6,61.1214357434,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,187,18.7,61.2764844848,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,188,18.8,61.4292120171,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,189,18.9,61.5796396606,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,190,19.0,61.7277890193,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,191,19.1,61.8736819605,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,192,19.2,62.0173405942,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,193,19.3,62.1587872534,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,194,19.4,62.2980444748,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,195,19.5,62.4351349799,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,196,19.6,62.5700816566,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,197,19.7,62.7029075416,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,198,19.8,62.8336358027,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,199,19.9,62.9622897221,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,200,20.0,63.0888926803,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,201,20.1,63.2134681397,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,202,20.2,63.3360396298,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,203,20.3,63.4566307321,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,204,20.4,63.5752650657,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,205,20.5,63.6919662732,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,206,20.6,63.8067580079,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,207,20.7,63.9196639202,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,208,20.8,64.0307076456,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,209,20.9,64.1399127923,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,210,21.0,64.2473029302,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,211,21.1,64.3529015791,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,212,21.2,64.4567321988,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,213,21.3,64.5588181783,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,214,21.4,64.6591828262,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,215,21.5,64.7578493617,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,216,21.6,64.8548409049,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,217,21.7,64.9501804691,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,218,21.8,65.0438909519,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,219,21.9,65.135995128,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,220,22.0,65.2265156417,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,221,22.1,65.3154749994,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,222,22.2,65.4028955639,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,223,22.3,65.4887995471,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,224,22.4,65.5732090049,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,225,22.5,65.6561458309,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,226,22.6,65.7376317517,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,227,22.7,65.8176883215,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,228,22.8,65.8963369177,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,229,22.9,65.9735987362,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,230,23.0,66.0494947881,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,231,23.1,66.1240458947,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,232,23.2,66.1972726854,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,233,23.3,66.2691955931,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,234,23.4,66.3398348522,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,235,23.5,66.4092104955,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,236,23.6,66.4773423515,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,237,23.7,66.5442500425,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,238,23.8,66.6099529823,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,239,23.9,66.6744703744,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,240,24.0,66.7378212105,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,241,24.1,66.8000242691,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,242,24.2,66.8610981138,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,243,24.3,66.9210610929,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,244,24.4,66.9799313382,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,245,24.5,67.0377267644,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,246,24.6,67.0944650684,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,247,24.7,67.1501637289,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,248,24.8,67.2048400067,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,249,24.9,67.2585109439,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,250,25.0,67.3111933644,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,251,25.1,67.3629038739,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,252,25.2,67.4136588604,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,253,25.3,67.4634744945,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,254,25.4,67.5123667299,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,255,25.5,67.560351304,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,256,25.6,67.6074437392,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,257,25.7,67.6536593428,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,258,25.8,67.699013209,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,259,25.9,67.743520219,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,260,26.0,67.7871950429,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,261,26.1,67.8300521404,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,262,26.2,67.8721057623,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,263,26.3,67.9133699516,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,264,26.4,67.9538585455,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,265,26.5,67.993585176,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,266,26.6,68.0325632724,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,267,26.7,68.070806062,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,268,26.8,68.1083265724,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,269,26.9,68.1451376328,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,270,27.0,68.1812518761,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,271,27.1,68.21668174,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,272,27.2,68.2514394698,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,273,27.3,68.2855371193,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,274,27.4,68.3189865532,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,275,27.5,68.3517994489,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,276,27.6,68.3839872985,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,277,27.7,68.4155614105,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,278,27.8,68.4465329121,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,279,27.9,68.476912751,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,280,28.0,68.5067116975,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,281,28.1,68.5359403464,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,282,28.2,68.5646091193,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,283,28.3,68.5927282664,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,284,28.4,68.6203078685,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,285,28.5,68.6473578396,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,286,28.6,68.6738879283,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,287,28.7,68.6999077203,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,288,28.8,68.7254266402,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,289,28.9,68.7504539539,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,290,29.0,68.7749987704,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,291,29.1,68.7990700441,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,292,29.2,68.8226765767,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,293,29.3,68.8458270194,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,294,29.4,68.8685298746,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,295,29.5,68.8907934987,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,296,29.6,68.9126261032,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,297,29.7,68.9340357577,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,298,29.8,68.9550303912,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,299,29.9,68.9756177944,0.2,70.0,Lower upper constraint or capacity limit
+stress_capacity,300,30.0,68.9958056217,0.2,70.0,Lower upper constraint or capacity limit

@@ -1,0 +1,20 @@
+section         
+----------------
+SYSTEM SCENARIOS
+scenario         initial_state  rate  capacity  dt   steps  interpretation                              
+---------------  -------------  ----  --------  ---  -----  --------------------------------------------
+baseline         10.0           0.2   100.0     0.1  300    Basic bounded continuous-change trajectory  
+high_capacity    10.0           0.2   140.0     0.1  300    Higher upper constraint or carrying capacity
+slow_adjustment  10.0           0.1   100.0     0.1  300    Lower rate of system change                 
+stress_capacity  10.0           0.2   70.0      0.1  300    Lower upper constraint or capacity limit    
+section                  
+-------------------------
+MODELING USES OF CALCULUS
+use_case               calculus_concept            systems_interpretation                             
+---------------------  --------------------------  ---------------------------------------------------
+Accumulation modeling  Integral                    How local flows become cumulative totals           
+Dynamic simulation     Differential equation       How rates determine trajectories over time         
+Optimization           Gradient or critical point  How systems behave under objectives and constraints
+Rate modeling          Derivative                  How quickly a system changes near a state          
+Sensitivity analysis   Derivative or perturbation  How outputs respond to changes in assumptions      
+Spatial flow           Vector calculus             How fields flows and boundaries structure movement 
