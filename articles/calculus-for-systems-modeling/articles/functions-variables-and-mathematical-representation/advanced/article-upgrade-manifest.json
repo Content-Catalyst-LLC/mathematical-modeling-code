@@ -1,0 +1,17 @@
+{
+  "article_slug": "functions-variables-and-mathematical-representation",
+  "article_title": "Functions, Variables, and Mathematical Representation",
+  "upgrade": "advanced-mathematical-standard",
+  "focus": "formal function structure, variables, parameters, codomain, image, and model representation",
+  "added": [
+    "advanced Makefile",
+    "advanced numerical checks",
+    "advanced generated audit reports",
+    "advanced tests",
+    "mathematical deepening HTML template",
+    "convergence tables",
+    "roundoff review",
+    "invariant review"
+  ],
+  "future_article_requirement": "Use this advanced layer by default for all future Calculus for Systems Modeling articles."
+}

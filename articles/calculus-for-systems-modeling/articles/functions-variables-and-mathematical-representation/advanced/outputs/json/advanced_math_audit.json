@@ -1,0 +1,40 @@
+{
+  "advanced_focus": "formal function structure, variables, parameters, codomain, image, and model representation",
+  "article_slug": "functions-variables-and-mathematical-representation",
+  "article_title": "Functions, Variables, and Mathematical Representation",
+  "invariant_failures": [
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": -0.1
+    },
+    {
+      "inside": false,
+      "issue": "value outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": 1.2
+    }
+  ],
+  "median_estimated_orders": {
+    "central_difference": 2.0000845328362873,
+    "forward_difference": 1.0090639159649584,
+    "richardson_central": 4.000984967303182
+  },
+  "methods": [
+    "forward_difference",
+    "central_difference",
+    "richardson_extrapolation",
+    "convergence_order_estimation",
+    "roundoff_review",
+    "invariant_interval_review"
+  ],
+  "warnings": [
+    "Synthetic smooth function used for numerical review.",
+    "Convergence in the test function does not validate empirical modeling assumptions.",
+    "Small step sizes can increase roundoff and cancellation error.",
+    "Formal article sections should distinguish definition, proposition, counterexample, and boundary behavior."
+  ]
+}

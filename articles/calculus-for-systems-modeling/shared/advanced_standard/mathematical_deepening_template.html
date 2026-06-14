@@ -1,0 +1,65 @@
+<h2 id="mathematical-deepening">Mathematical Deepening</h2>
+
+<p>This section adds a more formal layer for mathematically advanced readers. It does not replace the article’s conceptual explanation; it clarifies the definitions, assumptions, counterexamples, and computational conditions under which the model can be interpreted.</p>
+
+<section class="cc-method-section" id="formal-definitions">
+
+<h3>Formal Definitions</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Definition</h3>
+<p>A function should be treated as a structured object with a domain, codomain, and graph satisfying the condition that each admissible input is assigned exactly one output.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Codomain and Image</h3>
+<p>The image or range of a function is the set of outputs actually attained. It may be a proper subset of the codomain. Confusing codomain with image can overstate what a model can produce.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Feasible Set</h3>
+<p>A feasible set is the subset of admissible inputs, states, or decisions satisfying the model’s constraints. Optimization and policy interpretation should usually occur over this set, not over an unconstrained ambient space.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Invariant Set</h3>
+<p>An invariant set is a region of state space that trajectories remain inside under the model dynamics. For population, stock, resource, and risk models, invariance often encodes nonnegativity and capacity constraints.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cc-method-section" id="propositions-and-counterexamples">
+
+<h3>Propositions and Counterexamples</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Proposition</h3>
+<p>If a model is differentiated, integrated, optimized, or simulated, the relevant operation should be valid on the domain or feasible region where the model is being interpreted.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Counterexample</h3>
+<p>A formula can be computable outside its modeling domain. The resulting number may be mathematically generated but uninterpretable as a systems-modeling output.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Boundary Case</h3>
+<p>Many modeling failures occur near zero, capacity limits, thresholds, discontinuities, singularities, or domain boundaries. These cases should be tested explicitly.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Numerical Warning</h3>
+<p>Smaller numerical steps do not automatically mean better interpretation. Roundoff, instability, stiffness, discontinuity, and model misspecification can dominate formal truncation-error improvements.</p>
+</div>
+
+</div>
+
+</section>
+
+<p class="cc-back-to-top"><a href="#top">Back to top ↑</a></p>

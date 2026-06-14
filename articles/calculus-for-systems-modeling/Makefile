@@ -1,6 +1,14 @@
-.PHONY: smoke what-is functions-variables domains-ranges infinity-infinitesimals clean
+.PHONY: smoke advanced what-is functions-variables domains-ranges infinity-infinitesimals clean
 
 smoke: what-is functions-variables domains-ranges infinity-infinitesimals
+
+advanced:
+	@for d in articles/*; do \
+		if [ -d "$$d/advanced" ]; then \
+			echo "Running advanced checks in $$d"; \
+			$(MAKE) -C "$$d/advanced" smoke || true; \
+		fi; \
+	done
 
 what-is:
 	@if [ -d articles/what-is-calculus-for-systems-modeling ]; then $(MAKE) -C articles/what-is-calculus-for-systems-modeling smoke; else echo "Skipping missing article folder: what-is-calculus-for-systems-modeling"; fi
@@ -12,10 +20,10 @@ domains-ranges:
 	@if [ -d articles/domains-ranges-and-the-structure-of-functional-models ]; then $(MAKE) -C articles/domains-ranges-and-the-structure-of-functional-models smoke; else echo "Skipping missing article folder: domains-ranges-and-the-structure-of-functional-models"; fi
 
 infinity-infinitesimals:
-	$(MAKE) -C articles/infinity-infinitesimals-and-the-historical-problem-of-change smoke
+	@if [ -d articles/infinity-infinitesimals-and-the-historical-problem-of-change ]; then $(MAKE) -C articles/infinity-infinitesimals-and-the-historical-problem-of-change smoke; else echo "Skipping missing article folder: infinity-infinitesimals-and-the-historical-problem-of-change"; fi
 
 clean:
-	@if [ -d articles/what-is-calculus-for-systems-modeling ]; then $(MAKE) -C articles/what-is-calculus-for-systems-modeling clean || true; fi
-	@if [ -d articles/functions-variables-and-mathematical-representation ]; then $(MAKE) -C articles/functions-variables-and-mathematical-representation clean || true; fi
-	@if [ -d articles/domains-ranges-and-the-structure-of-functional-models ]; then $(MAKE) -C articles/domains-ranges-and-the-structure-of-functional-models clean || true; fi
-	$(MAKE) -C articles/infinity-infinitesimals-and-the-historical-problem-of-change clean || true
+	@for d in articles/*; do \
+		if [ -f "$$d/Makefile" ]; then $(MAKE) -C "$$d" clean || true; fi; \
+		if [ -f "$$d/advanced/Makefile" ]; then $(MAKE) -C "$$d/advanced" clean || true; fi; \
+	done

@@ -1,8 +1,8 @@
-part,order,slug,title,status,folder
-I Foundations of Calculus,1,what-is-calculus-for-systems-modeling,What Is Calculus for Systems Modeling?,active,articles/what-is-calculus-for-systems-modeling
-I Foundations of Calculus,2,functions-variables-and-mathematical-representation,Functions Variables and Mathematical Representation,active,articles/functions-variables-and-mathematical-representation
-I Foundations of Calculus,3,domains-ranges-and-the-structure-of-functional-models,Domains Ranges and the Structure of Functional Models,active,articles/domains-ranges-and-the-structure-of-functional-models
-I Foundations of Calculus,4,infinity-infinitesimals-and-the-historical-problem-of-change,Infinity Infinitesimals and the Historical Problem of Change,active,articles/infinity-infinitesimals-and-the-historical-problem-of-change
-I Foundations of Calculus,5,limits-and-the-formal-basis-of-calculus,Limits and the Formal Basis of Calculus,planned,articles/limits-and-the-formal-basis-of-calculus
-I Foundations of Calculus,6,continuity-discontinuity-and-structural-breaks,Continuity Discontinuity and Structural Breaks,planned,articles/continuity-discontinuity-and-structural-breaks
-I Foundations of Calculus,7,differentiability-and-local-behavior,Differentiability and Local Behavior,planned,articles/differentiability-and-local-behavior
+part,order,slug,title,status,folder,advanced_standard
+I Foundations of Calculus,1,what-is-calculus-for-systems-modeling,What Is Calculus for Systems Modeling?,active,articles/what-is-calculus-for-systems-modeling,upgraded
+I Foundations of Calculus,2,functions-variables-and-mathematical-representation,Functions Variables and Mathematical Representation,active,articles/functions-variables-and-mathematical-representation,upgraded
+I Foundations of Calculus,3,domains-ranges-and-the-structure-of-functional-models,Domains Ranges and the Structure of Functional Models,active,articles/domains-ranges-and-the-structure-of-functional-models,upgraded
+I Foundations of Calculus,4,infinity-infinitesimals-and-the-historical-problem-of-change,Infinity Infinitesimals and the Historical Problem of Change,active,articles/infinity-infinitesimals-and-the-historical-problem-of-change,upgraded
+I Foundations of Calculus,5,limits-and-the-formal-basis-of-calculus,Limits and the Formal Basis of Calculus,planned,articles/limits-and-the-formal-basis-of-calculus,required
+I Foundations of Calculus,6,continuity-discontinuity-and-structural-breaks,Continuity Discontinuity and Structural Breaks,planned,articles/continuity-discontinuity-and-structural-breaks,required
+I Foundations of Calculus,7,differentiability-and-local-behavior,Differentiability and Local Behavior,planned,articles/differentiability-and-local-behavior,required

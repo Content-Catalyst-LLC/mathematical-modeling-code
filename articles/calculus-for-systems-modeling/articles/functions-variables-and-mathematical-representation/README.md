@@ -51,3 +51,15 @@ make all
 ## Principle
 
 Mathematical representation is part of the model, not a pre-modeling formality. Variables, functional forms, parameters, and boundaries should be explicit, documented, and reviewable.
+
+## Advanced mathematical layer
+
+This folder now includes an `advanced/` layer for mathematician-grade companion work.
+
+Run:
+
+```bash
+make -C advanced smoke
+```
+
+The advanced layer adds formal mathematical-deepening templates, central-difference and Richardson extrapolation checks, convergence-order estimates, roundoff review, invariant/domain checks, generated Markdown/JSON audit reports, and tests beyond basic smoke checks.

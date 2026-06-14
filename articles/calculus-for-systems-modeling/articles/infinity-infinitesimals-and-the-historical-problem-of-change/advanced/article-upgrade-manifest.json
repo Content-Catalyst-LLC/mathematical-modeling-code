@@ -1,0 +1,17 @@
+{
+  "article_slug": "infinity-infinitesimals-and-the-historical-problem-of-change",
+  "article_title": "Infinity, Infinitesimals, and the Historical Problem of Change",
+  "upgrade": "advanced-mathematical-standard",
+  "focus": "difference quotients, infinitesimals, limits, convergence, numerical approximation, and historical rigor",
+  "added": [
+    "advanced Makefile",
+    "advanced numerical checks",
+    "advanced generated audit reports",
+    "advanced tests",
+    "mathematical deepening HTML template",
+    "convergence tables",
+    "roundoff review",
+    "invariant review"
+  ],
+  "future_article_requirement": "Use this advanced layer by default for all future Calculus for Systems Modeling articles."
+}

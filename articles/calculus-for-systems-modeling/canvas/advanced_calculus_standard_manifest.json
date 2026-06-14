@@ -1,0 +1,29 @@
+{
+  "series": "Calculus for Systems Modeling",
+  "standard": "advanced-mathematical-article-and-code-standard",
+  "version": "2026-06-14",
+  "article_requirements": [
+    "five_button_article_map_navigation",
+    "mathematical_deepening_section",
+    "formal_definitions",
+    "propositions_or_lemmas_when_useful",
+    "counterexamples",
+    "pathology_and_boundary_behavior",
+    "Harvard_style_references_with_authoritative_links"
+  ],
+  "code_requirements": [
+    "advanced_layer",
+    "convergence_order_checks",
+    "central_difference",
+    "Richardson_extrapolation",
+    "roundoff_review",
+    "invariant_tests",
+    "typed_validation_patterns",
+    "generated_markdown_and_json_audit_reports"
+  ],
+  "do_not_include": [
+    "E-E-A-T_body_notes",
+    "source_authority_body_notes",
+    "writing_block_wrappers"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "article_slug": "what-is-calculus-for-systems-modeling",
+  "article_title": "What Is Calculus for Systems Modeling?",
+  "upgrade": "advanced-mathematical-standard",
+  "focus": "calculus for systems modeling",
+  "added": [
+    "advanced Makefile",
+    "advanced numerical checks",
+    "advanced generated audit reports",
+    "advanced tests",
+    "mathematical deepening HTML template",
+    "convergence tables",
+    "roundoff review",
+    "invariant review"
+  ],
+  "future_article_requirement": "Use this advanced layer by default for all future Calculus for Systems Modeling articles."
+}

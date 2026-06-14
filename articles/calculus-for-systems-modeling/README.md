@@ -21,9 +21,52 @@ articles/calculus-for-systems-modeling/articles/domains-ranges-and-the-structure
 articles/calculus-for-systems-modeling/articles/infinity-infinitesimals-and-the-historical-problem-of-change/
 ```
 
-## Standard article folder structure
+## Advanced mathematical standard
 
-Each nested article folder may include Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, data, outputs, schemas, Canvas metadata, a Makefile, article metadata, and a GitHub embed snippet.
+All active article folders now include an `advanced/` layer designed for mathematically mature readers. Future articles should include:
+
+- formal mathematical deepening sections;
+- definitions, propositions, counterexamples, and boundary cases;
+- codomain/image/range distinctions where relevant;
+- feasible sets, invariant sets, and state spaces where relevant;
+- convergence, stability, conditioning, and numerical-error notes where computation is involved;
+- stronger tests beyond smoke checks;
+- generated Markdown/JSON audit reports.
+
+The standard is documented in:
+
+```text
+docs/advanced-mathematical-article-standard.md
+shared/advanced_standard/advanced_code_standard.md
+```
+
+## Default article folder structure
+
+Each nested article folder may include:
+
+```text
+python/
+r/
+julia/
+sql/
+haskell/
+c/
+cpp/
+fortran/
+rust/
+go/
+notebooks/
+docs/
+data/
+outputs/
+schemas/
+canvas/
+advanced/
+README.md
+Makefile
+article-metadata.yml
+github-embed-wordpress.html
+```
 
 ## General principles
 
@@ -33,10 +76,16 @@ Each nested article folder may include Python, R, Julia, SQL, Haskell, C, C++, F
 - Document parameters, uncertainty, and limitations.
 - Use reproducible workflows.
 - Treat computation as support for interpretation, not a substitute for judgment.
-- Keep examples educational, auditable, and extensible.
+- Keep examples educational, auditable, extensible, and mathematically credible.
 
 ## Run smoke checks
 
 ```bash
 make smoke
+```
+
+## Run advanced checks
+
+```bash
+make advanced
 ```

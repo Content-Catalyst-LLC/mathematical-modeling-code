@@ -24,3 +24,15 @@ make smoke
 ## Principle
 
 A model output should not be interpreted merely because it was computed. Inputs, outputs, parameters, and trajectories should be checked against the model’s valid domain, meaningful range, and intended use.
+
+## Advanced mathematical layer
+
+This folder now includes an `advanced/` layer for mathematician-grade companion work.
+
+Run:
+
+```bash
+make -C advanced smoke
+```
+
+The advanced layer adds formal mathematical-deepening templates, central-difference and Richardson extrapolation checks, convergence-order estimates, roundoff review, invariant/domain checks, generated Markdown/JSON audit reports, and tests beyond basic smoke checks.

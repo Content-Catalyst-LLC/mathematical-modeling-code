@@ -1,0 +1,17 @@
+{
+  "article_slug": "domains-ranges-and-the-structure-of-functional-models",
+  "article_title": "Domains, Ranges, and the Structure of Functional Models",
+  "upgrade": "advanced-mathematical-standard",
+  "focus": "domains, codomains, images, feasible sets, invariant sets, constraints, and state spaces",
+  "added": [
+    "advanced Makefile",
+    "advanced numerical checks",
+    "advanced generated audit reports",
+    "advanced tests",
+    "mathematical deepening HTML template",
+    "convergence tables",
+    "roundoff review",
+    "invariant review"
+  ],
+  "future_article_requirement": "Use this advanced layer by default for all future Calculus for Systems Modeling articles."
+}

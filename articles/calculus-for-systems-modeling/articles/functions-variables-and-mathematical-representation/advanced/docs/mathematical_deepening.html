@@ -1,0 +1,65 @@
+<h2 id="mathematical-deepening">Mathematical Deepening</h2>
+
+<p>This section strengthens <strong>Functions, Variables, and Mathematical Representation</strong> for mathematically advanced readers. It clarifies formal structure, assumptions, counterexamples, boundary behavior, and numerical interpretation.</p>
+
+<section class="cc-method-section" id="formal-mathematical-structure">
+
+<h3>Formal Mathematical Structure</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Definition</h3>
+<p>A mathematical model should specify its domain, codomain, rule, assumptions, and intended interpretation. A computable expression alone is not a complete modeling object.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Proposition</h3>
+<p>Any derivative, integral, optimization result, or simulation trajectory should be interpreted only on the domain, feasible region, or state space where the model assumptions hold.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Counterexample</h3>
+<p>A function may return a numerical value outside the model’s intended domain. That value can be algebraically produced while remaining meaningless as a model output.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Boundary Case</h3>
+<p>Special care is required at zero, capacity limits, discontinuities, thresholds, singularities, and regime boundaries. These are common locations for modeling failure.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cc-method-section" id="numerical-analysis-notes">
+
+<h3>Numerical Analysis Notes</h3>
+
+<div class="cc-method-wrapper">
+
+<div class="cc-method-card">
+<h3>Forward Difference</h3>
+<p>The forward difference is usually first-order accurate for smooth functions, but it can be sensitive to step size and roundoff error.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Central Difference</h3>
+<p>The central difference is typically second-order accurate for smooth functions, making it a stronger default for local derivative estimation when symmetric evaluation is valid.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Richardson Extrapolation</h3>
+<p>Richardson extrapolation can improve estimates when the leading error term is known or behaves regularly under refinement.</p>
+</div>
+
+<div class="cc-method-card">
+<h3>Roundoff Warning</h3>
+<p>Smaller step sizes can eventually increase numerical error because subtraction cancellation and finite precision can dominate truncation error.</p>
+</div>
+
+</div>
+
+</section>
+
+<p class="cc-back-to-top"><a href="#top">Back to top ↑</a></p>

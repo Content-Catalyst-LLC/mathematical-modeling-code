@@ -40,3 +40,15 @@ make all
 ## Principle
 
 Calculus supports interpretation. It does not replace model assumptions, uncertainty analysis, validation, or responsible systems thinking.
+
+## Advanced mathematical layer
+
+This folder now includes an `advanced/` layer for mathematician-grade companion work.
+
+Run:
+
+```bash
+make -C advanced smoke
+```
+
+The advanced layer adds formal mathematical-deepening templates, central-difference and Richardson extrapolation checks, convergence-order estimates, roundoff review, invariant/domain checks, generated Markdown/JSON audit reports, and tests beyond basic smoke checks.

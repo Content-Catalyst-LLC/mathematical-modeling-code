@@ -48,3 +48,8 @@ clean:
 	$(MAKE) -C cpp clean || true
 	$(MAKE) -C haskell clean || true
 	cd rust && cargo clean || true
+
+.PHONY: advanced
+
+advanced:
+	$(MAKE) -C advanced smoke
