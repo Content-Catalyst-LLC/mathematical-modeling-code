@@ -1,0 +1,94 @@
+{
+  "article": "Infinity, Infinitesimals, and the Historical Problem of Change",
+  "interpretive_warning": "Synthetic teaching workflow. Convergence behavior in this smooth example does not guarantee empirical model validity.",
+  "model": "difference quotient convergence for exp(0.2x)",
+  "records": [
+    {
+      "absolute_error": 0.05817872858569395,
+      "estimate": 0.601835094277503,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 1.0,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 0.028112025282967523,
+      "estimate": 0.5717683909747766,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.5,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 0.005472989360717606,
+      "estimate": 0.5491293550525267,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.1,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 0.0027273654656158053,
+      "estimate": 0.5463837311574249,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.05,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 0.0005440189845652421,
+      "estimate": 0.5442003846763743,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.01,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 0.0002719188150136498,
+      "estimate": 0.5439282845068227,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.005,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 5.436926170843126e-05,
+      "estimate": 0.5437107349535175,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.001,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 2.7183724775725615e-05,
+      "estimate": 0.5436835494165848,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.0005,
+      "x": 5.0
+    },
+    {
+      "absolute_error": 5.436600674202374e-06,
+      "estimate": 0.5436618022924833,
+      "exact_value": 0.5436563656918091,
+      "function_name": "exp(0.2x)",
+      "h": 0.0001,
+      "x": 5.0
+    }
+  ],
+  "series": "Calculus for Systems Modeling",
+  "summary": [
+    {
+      "absolute_error": 5.436601e-06,
+      "estimate": 0.543661802292,
+      "h": 0.0001,
+      "summary_key": "best_step"
+    },
+    {
+      "absolute_error": 0.058178728586,
+      "estimate": 0.601835094278,
+      "h": 1.0,
+      "summary_key": "worst_step"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+summary_key,h,estimate,absolute_error
+best_step,0.0001,0.543661802292,5.436601e-06
+worst_step,1.0,0.601835094278,0.058178728586

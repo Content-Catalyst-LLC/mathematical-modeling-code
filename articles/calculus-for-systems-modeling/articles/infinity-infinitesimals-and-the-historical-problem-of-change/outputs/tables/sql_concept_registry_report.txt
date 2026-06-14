@@ -1,0 +1,25 @@
+section                  
+-------------------------
+CALCULUS CONCEPT REGISTRY
+concept_name         historical_role                                               systems_modeling_role                                         review_note                                                 
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Difference Quotient  Connects average change over finite intervals to local deriv  Used in finite differences rate estimation and numerical der  Step size affects accuracy noise sensitivity and interpretat
+                     ative reasoning.                                              ivatives.                                                     ion.                                                        
+
+Infinitesimal        Supported early reasoning about vanishingly small changes an  Supports intuition for local change marginal response and se  Use formal limit interpretation or validated infinitesimal f
+                     d differentials.                                              nsitivity.                                                    ramework when precision matters.                            
+
+Infinity             Raised foundational questions about infinite division motion  Appears in limiting processes long-run behavior refinement a  Do not confuse mathematical infinity with empirical measurem
+                      and accumulation.                                            nd asymptotic reasoning.                                      ent capacity.                                               
+
+Limit                Provided a rigorous foundation for derivatives integrals and  Connects approximation refinement local rates and numerical   Check whether refined approximations stabilize and remain me
+                      convergence.                                                 stability.                                                    aningful.                                                   
+section            
+-------------------
+APPROXIMATION STEPS
+step_key  h      interpretation                                  
+--------  -----  ------------------------------------------------
+h_1       1.0    Coarse average change interval.                 
+h_0_1     0.1    Finer local approximation interval.             
+h_0_01    0.01   Small interval used for convergence review.     
+h_0_001   0.001  Very small interval; review numerical precision.

@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across continuous change, functions, variables, mathematical representation, domains, ranges, valid input spaces, infinity, infinitesimals, limits, approximation, rates, accumulation, optimization, differential equations, numerical methods, sensitivity analysis, responsible interpretation, and reproducible scientific-computing workflows.
+This folder supports calculus-based systems modeling across continuous change, functions, variables, mathematical representation, domains, ranges, valid input spaces, output ranges, constraints, rates, accumulation, optimization, differential equations, numerical approximation, simulation, sensitivity analysis, responsible interpretation, and reproducible scientific-computing workflows.
 
 ## Nested article folders
 
@@ -18,12 +18,11 @@ Current active article companion folders:
 articles/calculus-for-systems-modeling/articles/what-is-calculus-for-systems-modeling/
 articles/calculus-for-systems-modeling/articles/functions-variables-and-mathematical-representation/
 articles/calculus-for-systems-modeling/articles/domains-ranges-and-the-structure-of-functional-models/
-articles/calculus-for-systems-modeling/articles/infinity-infinitesimals-and-the-historical-problem-of-change/
 ```
 
 ## Standard article folder structure
 
-Each nested article folder may include Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, data, outputs, schemas, Canvas metadata, a Makefile, article metadata, and a GitHub embed snippet.
+Each nested article folder may include Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas artifacts, README.md, Makefile, article-metadata.yml, and github-embed-wordpress.html.
 
 ## General principles
 
