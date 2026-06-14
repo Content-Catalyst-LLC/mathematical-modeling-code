@@ -1,0 +1,21 @@
+actual_title: "Functions, Variables, and Mathematical Representation"
+suggested_seo_title: "Functions, Variables, and Mathematical Representation in Systems Modeling"
+focus_keyword: "functions variables mathematical representation"
+slug: "functions-variables-and-mathematical-representation"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "what-is-calculus-for-systems-modeling"
+  current: "functions-variables-and-mathematical-representation"
+  next: "domains-ranges-and-the-structure-of-functional-models"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/functions-variables-and-mathematical-representation"
+tags:
+  - Calculus
+  - Mathematical Representation
+  - Functions
+  - Variables
+  - Systems Modeling
+  - Mathematical Modeling
+  - Scientific Computing
+  - Reproducible Workflows
+excerpt_139_words: "Functions, variables, and mathematical representation form the foundation of calculus for systems modeling. Before a model can describe rates of change, accumulation, feedback, optimization, or dynamic behavior, it must define what quantities matter, how those quantities are related, what inputs are valid, what outputs are meaningful, and what assumptions connect formal structure to the system being studied. This article explains functions as modeled relationships, variables as interpreted quantities, parameters as structural assumptions, and functional forms as choices that shape system behavior. It connects representation to examples from ecology, infrastructure, epidemiology, climate, economics, urban systems, and sustainability. It also introduces reproducible computational workflows in Python, R, SQL, and Haskell, showing how code can make variables, parameters, model registries, and functional assumptions inspectable, auditable, and easier to revise."

@@ -1,0 +1,5 @@
+model,minimum_value,maximum_value,final_value,functional_form,interpretation
+exponential_growth,10.0,60.49647464,60.49647464,y = a exp(bx),compounding change
+linear_growth,10.0,30.0,30.0,y = a + bx,constant marginal change
+logistic_growth,2.29773699,97.70226301,97.70226301,y = K / (1 + exp(-r(x-c))),bounded growth toward capacity
+threshold_response,20.0,80.0,80.0,piecewise threshold,regime-dependent response

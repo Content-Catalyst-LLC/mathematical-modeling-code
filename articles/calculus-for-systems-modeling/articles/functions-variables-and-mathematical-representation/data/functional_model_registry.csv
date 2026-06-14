@@ -1,0 +1,5 @@
+model_key,model_name,functional_form,primary_variable,output_variable,interpretation
+linear_growth,Linear Growth,y = a + bx,x,y,Constant marginal change
+exponential_growth,Exponential Growth,y = a exp(bx),x,y,Compounding change
+logistic_growth,Logistic Growth,y = K / (1 + exp(-r(x-c))),x,y,Bounded growth toward capacity
+threshold_response,Threshold Response,y = low if x < threshold else high,x,y,Regime-dependent response

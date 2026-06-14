@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FunctionalModel",
+  "type": "object",
+  "required": ["model_key", "model_name", "functional_form", "primary_variable", "output_variable", "interpretation"],
+  "properties": {
+    "model_key": {"type": "string"},
+    "model_name": {"type": "string"},
+    "functional_form": {"type": "string"},
+    "primary_variable": {"type": "string"},
+    "output_variable": {"type": "string"},
+    "interpretation": {"type": "string"}
+  }
+}

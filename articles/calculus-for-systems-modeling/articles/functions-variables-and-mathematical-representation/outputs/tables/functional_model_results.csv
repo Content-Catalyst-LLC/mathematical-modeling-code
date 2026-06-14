@@ -1,0 +1,85 @@
+x,model,functional_form,value,interpretation
+0.0,linear_growth,y = a + bx,10.0,constant marginal change
+0.0,exponential_growth,y = a exp(bx),10.0,compounding change
+0.0,logistic_growth,y = K / (1 + exp(-r(x-c))),2.2977369910025613,bounded growth toward capacity
+0.0,threshold_response,piecewise threshold,20.0,regime-dependent response
+0.5,linear_growth,y = a + bx,11.0,constant marginal change
+0.5,exponential_growth,y = a exp(bx),10.941742837052104,compounding change
+0.5,logistic_growth,y = K / (1 + exp(-r(x-c))),3.308597838870413,bounded growth toward capacity
+0.5,threshold_response,piecewise threshold,20.0,regime-dependent response
+1.0,linear_growth,y = a + bx,12.0,constant marginal change
+1.0,exponential_growth,y = a exp(bx),11.972173631218102,compounding change
+1.0,logistic_growth,y = K / (1 + exp(-r(x-c))),4.742587317756678,bounded growth toward capacity
+1.0,threshold_response,piecewise threshold,20.0,regime-dependent response
+1.5,linear_growth,y = a + bx,13.0,constant marginal change
+1.5,exponential_growth,y = a exp(bx),13.099644507332473,compounding change
+1.5,logistic_growth,y = K / (1 + exp(-r(x-c))),6.754669113962911,bounded growth toward capacity
+1.5,threshold_response,piecewise threshold,20.0,regime-dependent response
+2.0,linear_growth,y = a + bx,14.0,constant marginal change
+2.0,exponential_growth,y = a exp(bx),14.333294145603402,compounding change
+2.0,logistic_growth,y = K / (1 + exp(-r(x-c))),9.534946489910949,bounded growth toward capacity
+2.0,threshold_response,piecewise threshold,20.0,regime-dependent response
+2.5,linear_growth,y = a + bx,15.0,constant marginal change
+2.5,exponential_growth,y = a exp(bx),15.683121854901687,compounding change
+2.5,logistic_growth,y = K / (1 + exp(-r(x-c))),13.296424019782926,bounded growth toward capacity
+2.5,threshold_response,piecewise threshold,20.0,regime-dependent response
+3.0,linear_growth,y = a + bx,16.0,constant marginal change
+3.0,exponential_growth,y = a exp(bx),17.160068621848584,compounding change
+3.0,logistic_growth,y = K / (1 + exp(-r(x-c))),18.242552380635637,bounded growth toward capacity
+3.0,threshold_response,piecewise threshold,20.0,regime-dependent response
+3.5,linear_growth,y = a + bx,17.0,constant marginal change
+3.5,exponential_growth,y = a exp(bx),18.77610579264343,compounding change
+3.5,logistic_growth,y = K / (1 + exp(-r(x-c))),24.508501313237172,bounded growth toward capacity
+3.5,threshold_response,piecewise threshold,20.0,regime-dependent response
+4.0,linear_growth,y = a + bx,18.0,constant marginal change
+4.0,exponential_growth,y = a exp(bx),20.544332106438876,compounding change
+4.0,logistic_growth,y = K / (1 + exp(-r(x-c))),32.0821300824607,bounded growth toward capacity
+4.0,threshold_response,piecewise threshold,20.0,regime-dependent response
+4.5,linear_growth,y = a + bx,19.0,constant marginal change
+4.5,exponential_growth,y = a exp(bx),22.479079866764714,compounding change
+4.5,logistic_growth,y = K / (1 + exp(-r(x-c))),40.733340004593025,bounded growth toward capacity
+4.5,threshold_response,piecewise threshold,20.0,regime-dependent response
+5.0,linear_growth,y = a + bx,20.0,constant marginal change
+5.0,exponential_growth,y = a exp(bx),24.596031111569495,compounding change
+5.0,logistic_growth,y = K / (1 + exp(-r(x-c))),50.0,bounded growth toward capacity
+5.0,threshold_response,piecewise threshold,80.0,regime-dependent response
+5.5,linear_growth,y = a + bx,21.0,constant marginal change
+5.5,exponential_growth,y = a exp(bx),26.91234472349262,compounding change
+5.5,logistic_growth,y = K / (1 + exp(-r(x-c))),59.26665999540697,bounded growth toward capacity
+5.5,threshold_response,piecewise threshold,80.0,regime-dependent response
+6.0,linear_growth,y = a + bx,22.0,constant marginal change
+6.0,exponential_growth,y = a exp(bx),29.446795510655242,compounding change
+6.0,logistic_growth,y = K / (1 + exp(-r(x-c))),67.91786991753929,bounded growth toward capacity
+6.0,threshold_response,piecewise threshold,80.0,regime-dependent response
+6.5,linear_growth,y = a + bx,23.0,constant marginal change
+6.5,exponential_growth,y = a exp(bx),32.21992638528499,compounding change
+6.5,logistic_growth,y = K / (1 + exp(-r(x-c))),75.49149868676282,bounded growth toward capacity
+6.5,threshold_response,piecewise threshold,80.0,regime-dependent response
+7.0,linear_growth,y = a + bx,24.0,constant marginal change
+7.0,exponential_growth,y = a exp(bx),35.25421487365382,compounding change
+7.0,logistic_growth,y = K / (1 + exp(-r(x-c))),81.75744761936436,bounded growth toward capacity
+7.0,threshold_response,piecewise threshold,80.0,regime-dependent response
+7.5,linear_growth,y = a + bx,25.0,constant marginal change
+7.5,exponential_growth,y = a exp(bx),38.57425530696974,compounding change
+7.5,logistic_growth,y = K / (1 + exp(-r(x-c))),86.70357598021707,bounded growth toward capacity
+7.5,threshold_response,piecewise threshold,80.0,regime-dependent response
+8.0,linear_growth,y = a + bx,26.0,constant marginal change
+8.0,exponential_growth,y = a exp(bx),42.206958169965525,compounding change
+8.0,logistic_growth,y = K / (1 + exp(-r(x-c))),90.46505351008906,bounded growth toward capacity
+8.0,threshold_response,piecewise threshold,80.0,regime-dependent response
+8.5,linear_growth,y = a + bx,27.0,constant marginal change
+8.5,exponential_growth,y = a exp(bx),46.18176822299781,compounding change
+8.5,logistic_growth,y = K / (1 + exp(-r(x-c))),93.2453308860371,bounded growth toward capacity
+8.5,threshold_response,piecewise threshold,80.0,regime-dependent response
+9.0,linear_growth,y = a + bx,28.0,constant marginal change
+9.0,exponential_growth,y = a exp(bx),50.53090316563867,compounding change
+9.0,logistic_growth,y = K / (1 + exp(-r(x-c))),95.25741268224333,bounded growth toward capacity
+9.0,threshold_response,piecewise threshold,80.0,regime-dependent response
+9.5,linear_growth,y = a + bx,29.0,constant marginal change
+9.5,exponential_growth,y = a exp(bx),55.28961477624004,compounding change
+9.5,logistic_growth,y = K / (1 + exp(-r(x-c))),96.69140216112957,bounded growth toward capacity
+9.5,threshold_response,piecewise threshold,80.0,regime-dependent response
+10.0,linear_growth,y = a + bx,30.0,constant marginal change
+10.0,exponential_growth,y = a exp(bx),60.49647464412945,compounding change
+10.0,logistic_growth,y = K / (1 + exp(-r(x-c))),97.70226300899743,bounded growth toward capacity
+10.0,threshold_response,piecewise threshold,80.0,regime-dependent response

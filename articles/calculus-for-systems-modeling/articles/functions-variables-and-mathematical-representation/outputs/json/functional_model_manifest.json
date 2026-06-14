@@ -1,0 +1,40 @@
+{
+  "article": "Functions, Variables, and Mathematical Representation",
+  "interpretive_warning": "Synthetic teaching example. Functional forms are representation choices, not empirical claims.",
+  "models_compared": 4,
+  "series": "Calculus for Systems Modeling",
+  "summary": [
+    {
+      "final_value": 60.49647464,
+      "functional_form": "y = a exp(bx)",
+      "interpretation": "compounding change",
+      "maximum_value": 60.49647464,
+      "minimum_value": 10.0,
+      "model": "exponential_growth"
+    },
+    {
+      "final_value": 30.0,
+      "functional_form": "y = a + bx",
+      "interpretation": "constant marginal change",
+      "maximum_value": 30.0,
+      "minimum_value": 10.0,
+      "model": "linear_growth"
+    },
+    {
+      "final_value": 97.70226301,
+      "functional_form": "y = K / (1 + exp(-r(x-c)))",
+      "interpretation": "bounded growth toward capacity",
+      "maximum_value": 97.70226301,
+      "minimum_value": 2.29773699,
+      "model": "logistic_growth"
+    },
+    {
+      "final_value": 80.0,
+      "functional_form": "piecewise threshold",
+      "interpretation": "regime-dependent response",
+      "maximum_value": 80.0,
+      "minimum_value": 20.0,
+      "model": "threshold_response"
+    }
+  ]
+}

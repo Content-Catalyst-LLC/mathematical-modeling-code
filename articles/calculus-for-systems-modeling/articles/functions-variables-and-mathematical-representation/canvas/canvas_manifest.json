@@ -1,0 +1,34 @@
+{
+  "article_slug": "functions-variables-and-mathematical-representation",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "mathematical-representation-foundations",
+  "cards": [
+    {
+      "card_id": "functions-as-relationships",
+      "title": "Functions as Relationships",
+      "description": "Functions represent modeled relationships between inputs and outputs."
+    },
+    {
+      "card_id": "variables-as-quantities",
+      "title": "Variables as Quantities",
+      "description": "Variables require units, scale, measurement logic, and modeling roles."
+    },
+    {
+      "card_id": "functional-form",
+      "title": "Functional Form",
+      "description": "Linear, exponential, logistic, threshold, and mechanistic forms imply different system behavior."
+    },
+    {
+      "card_id": "typed-representation",
+      "title": "Typed Representation",
+      "description": "Strong types preserve distinctions among variables, parameters, inputs, and outputs."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "parameters_documented": true,
+    "functional_forms_named": true,
+    "outputs_generated": true,
+    "interpretation_required": true
+  }
+}

@@ -1,0 +1,5 @@
+model,final_value
+linear_growth,30.000000
+exponential_growth,60.496475
+logistic_growth,97.702263
+threshold_response,80.000000
