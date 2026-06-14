@@ -1,0 +1,33 @@
+{
+  "article_slug": "mathematical-modeling-in-policy-and-public-systems",
+  "series": "Mathematical Modeling",
+  "canvas_layer": "policy-public-systems-governance",
+  "cards": [
+    {
+      "card_id": "policy-model-register",
+      "title": "Policy Model Register",
+      "description": "Tracks policy domain, model role, model family, public question, and review status."
+    },
+    {
+      "card_id": "policy-option-review",
+      "title": "Policy Option Review",
+      "description": "Compares public benefit, cost, feasibility, equity, uncertainty, risk, budget margin, and review class."
+    },
+    {
+      "card_id": "policy-decision-support-card",
+      "title": "Policy Decision Support Card",
+      "description": "Documents public evidence, uncertainty, equity review, budget constraints, risk review, governance obligations, and use limits."
+    }
+  ],
+  "governance": {
+    "requires_public_problem_statement": true,
+    "requires_boundary_record": true,
+    "requires_policy_options": true,
+    "requires_budget_constraint": true,
+    "requires_equity_review": true,
+    "requires_uncertainty_summary": true,
+    "requires_model_owner": true,
+    "requires_decision_owner": true,
+    "requires_public_challenge_pathway": true
+  }
+}

@@ -1,0 +1,5 @@
+"key","option_name","projected_benefit","total_cost","implementation_feasibility","equity_score","uncertainty_width","public_risk","budget_limit","budget_margin","budget_violation","public_value_score","review_class"
+"adaptive_pathway","Adaptive pathway with monitoring triggers",73,38,0.7,0.82,16,0.24,40,2,"False",56.56,"within_budget"
+"targeted_prevention","Targeted prevention program",68,32,0.74,0.78,22,0.3,40,8,"False",54.2,"within_budget"
+"baseline","Maintain current services",42,18,0.86,0.52,18,0.42,40,22,"False",35.4,"requires_risk_review"
+"broad_expansion","Broad service expansion",81,49,0.58,0.69,28,0.34,40,-9,"True",28.64,"requires_budget_review"

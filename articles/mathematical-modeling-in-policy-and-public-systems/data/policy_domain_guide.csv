@@ -1,0 +1,9 @@
+policy_area,modeling_use,typical_model_forms
+public_health,Transmission demand resource allocation and intervention timing,Compartmental models forecasts optimization agent-based models
+infrastructure,Planning reliability maintenance and failure risk,Network models reliability models lifecycle simulations
+environmental_management,Risk adaptation emissions land water and ecosystem policy,Scenario models system dynamics spatial models
+housing_and_urban_policy,Need affordability mobility and land-use effects,Forecasting optimization spatial analysis
+transportation,Capacity ridership congestion access and safety,Network models simulation optimization
+social_programs,Eligibility demand service access and program impact,Impact evaluation queueing models allocation models
+emergency_management,Preparedness response capacity and cascading risk,Scenario models logistics models stress tests
+regulation,Risk thresholds compliance monitoring and public consequence,Risk models cost-benefit models decision analysis

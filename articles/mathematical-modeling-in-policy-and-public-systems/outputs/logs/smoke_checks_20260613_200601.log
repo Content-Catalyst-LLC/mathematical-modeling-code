@@ -1,0 +1,87 @@
+
+[1;34m[20:06:02][0m Python workflow
+Policy and public systems workflow complete.
+Records: 5
+Options: 4
+Outputs: outputs
+pytest: skipped_or_failed
+
+[1;34m[20:06:02][0m R workflow
+null device 
+          1 
+               key            policy_domain            model_role
+5 governance_model institutional_governance      model_governance
+3 allocation_model      resource_allocation     option_comparison
+2   forecast_model          public_planning           forecasting
+4     equity_model    public_accountability distributional_review
+1    problem_model           public_systems       problem_framing
+                model_family
+5            review_register
+3 constrained_decision_model
+2          scenario_forecast
+4          equity_diagnostic
+1                systems_map
+                                                           public_question
+5 Who owns the model decision update process and public challenge pathway?
+3               Which option balances benefit cost feasibility and equity?
+2                What demand or risk is plausible under future conditions?
+4        How are benefits and burdens distributed across groups or places?
+1                   What drivers and boundaries define the public problem?
+  status policy_priority
+5 review               8
+3 review               7
+2 review               6
+4 review               6
+1 active               2
+                         best_scored_option mean_public_value_score
+1 Adaptive pathway with monitoring triggers                    43.7
+  max_public_value_score min_public_value_score budget_violation_count
+1                  56.56                  28.64                      1
+  equity_review_count risk_review_count option_count
+1                   1                 1            4
+                  key                               option_name
+4    adaptive_pathway Adaptive pathway with monitoring triggers
+2 targeted_prevention               Targeted prevention program
+1            baseline                 Maintain current services
+3     broad_expansion                   Broad service expansion
+  projected_benefit total_cost implementation_feasibility equity_score
+4                73         38                       0.70         0.82
+2                68         32                       0.74         0.78
+1                42         18                       0.86         0.52
+3                81         49                       0.58         0.69
+  uncertainty_width public_risk budget_limit budget_margin budget_violation
+4                16        0.24           40             2            False
+2                22        0.30           40             8            False
+1                18        0.42           40            22            False
+3                28        0.34           40            -9             True
+  public_value_score           review_class
+4              56.56          within_budget
+2              54.20          within_budget
+1              35.40   requires_risk_review
+3              28.64 requires_budget_review
+
+[1;34m[20:06:03][0m SQL workflow
+mkdir -p outputs/tables
+sqlite3 outputs/tables/mathematical_modeling_in_policy_and_public_systems.sqlite < sql/schema.sql
+sqlite3 outputs/tables/mathematical_modeling_in_policy_and_public_systems.sqlite < sql/analysis_queries.sql > outputs/tables/sql_diagnostic_report.txt
+
+[1;34m[20:06:03][0m Go workflow
+cd go && go run main.go
+key,projected_benefit,total_cost,equity_score,public_risk,public_value_score,budget_violation
+baseline,42.000,18.000,0.520,0.420,35.400000,false
+targeted_prevention,68.000,32.000,0.780,0.300,54.200000,false
+broad_expansion,81.000,49.000,0.690,0.340,28.640000,true
+adaptive_pathway,73.000,38.000,0.820,0.240,56.560000,false
+
+[1;34m[20:06:03][0m C++ workflow
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
+c++ -O2 -std=c++17 policy_option_summary.cpp -o policy_option_summary
+./policy_option_summary > ../outputs/tables/cpp_policy_option_summary.csv 2> ../outputs/logs/cpp_policy_option_stderr.log
+
+[1;34m[20:06:05][0m Fortran workflow
+gfortran -O2 fortran/policy_option_summary.f90 -o outputs/policy_option_summary_fortran
+./outputs/policy_option_summary_fortran > outputs/tables/fortran_policy_option_summary.txt
+
+[1;34m[20:06:05][0m C workflow
+cc -O2 -std=c11 c/policy_option_summary.c -o outputs/policy_option_summary_c -lm
+./outputs/policy_option_summary_c > outputs/tables/c_policy_option_summary.csv 2> outputs/logs/c_policy_option_stderr.log

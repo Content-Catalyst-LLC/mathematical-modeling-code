@@ -1,0 +1,5 @@
+key projected_benefit total_cost equity_score public_risk public_value_score budget_violation
+baseline   42.000   18.000  0.520  0.420    35.4000 F
+targeted_prevention   68.000   32.000  0.780  0.300    54.2000 F
+broad_expansion   81.000   49.000  0.690  0.340    28.6400 T
+adaptive_pathway   73.000   38.000  0.820  0.240    56.5600 F

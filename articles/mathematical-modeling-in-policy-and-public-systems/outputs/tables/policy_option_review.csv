@@ -1,0 +1,5 @@
+key,option_name,projected_benefit,total_cost,implementation_feasibility,equity_score,uncertainty_width,public_risk,budget_limit,budget_margin,budget_violation,public_value_score,review_class
+baseline,Maintain current services,42.0,18.0,0.86,0.52,18.0,0.42,40.0,22.0,False,35.4,requires_risk_review
+targeted_prevention,Targeted prevention program,68.0,32.0,0.74,0.78,22.0,0.3,40.0,8.0,False,54.2,within_budget
+broad_expansion,Broad service expansion,81.0,49.0,0.58,0.69,28.0,0.34,40.0,-9.0,True,28.64,requires_budget_review
+adaptive_pathway,Adaptive pathway with monitoring triggers,73.0,38.0,0.7,0.82,16.0,0.24,40.0,2.0,False,56.56,within_budget

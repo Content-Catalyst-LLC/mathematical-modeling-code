@@ -1,0 +1,6 @@
+key,policy_domain,model_role,model_family,public_question,status,policy_priority
+problem_model,public_systems,problem_framing,systems_map,What drivers and boundaries define the public problem?,active,2.0
+forecast_model,public_planning,forecasting,scenario_forecast,What demand or risk is plausible under future conditions?,review,6.0
+allocation_model,resource_allocation,option_comparison,constrained_decision_model,Which option balances benefit cost feasibility and equity?,review,7.0
+equity_model,public_accountability,distributional_review,equity_diagnostic,How are benefits and burdens distributed across groups or places?,review,6.0
+governance_model,institutional_governance,model_governance,review_register,Who owns the model decision update process and public challenge pathway?,review,8.0

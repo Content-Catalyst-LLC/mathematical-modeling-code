@@ -1,0 +1,5 @@
+key,projected_benefit,total_cost,equity_score,public_risk,public_value_score,budget_violation
+baseline,42.000000,18.000000,0.520000,0.420000,35.400000,false
+targeted_prevention,68.000000,32.000000,0.780000,0.300000,54.200000,false
+broad_expansion,81.000000,49.000000,0.690000,0.340000,28.640000,true
+adaptive_pathway,73.000000,38.000000,0.820000,0.240000,56.560000,false

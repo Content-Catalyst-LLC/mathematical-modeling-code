@@ -1,0 +1,130 @@
+{
+  "article": "Mathematical Modeling in Policy and Public Systems",
+  "diagnostic_checks": [
+    "policy purpose is stated",
+    "model role is separated from decision authority",
+    "budget constraints are explicit",
+    "equity score is reviewed",
+    "public risk is reviewed",
+    "uncertainty width is reported",
+    "governance and accountability remain required"
+  ],
+  "policy_model_register": [
+    {
+      "key": "problem_model",
+      "model_family": "systems_map",
+      "model_role": "problem_framing",
+      "policy_domain": "public_systems",
+      "policy_priority": 2.0,
+      "public_question": "What drivers and boundaries define the public problem?",
+      "status": "active"
+    },
+    {
+      "key": "forecast_model",
+      "model_family": "scenario_forecast",
+      "model_role": "forecasting",
+      "policy_domain": "public_planning",
+      "policy_priority": 6.0,
+      "public_question": "What demand or risk is plausible under future conditions?",
+      "status": "review"
+    },
+    {
+      "key": "allocation_model",
+      "model_family": "constrained_decision_model",
+      "model_role": "option_comparison",
+      "policy_domain": "resource_allocation",
+      "policy_priority": 7.0,
+      "public_question": "Which option balances benefit cost feasibility and equity?",
+      "status": "review"
+    },
+    {
+      "key": "equity_model",
+      "model_family": "equity_diagnostic",
+      "model_role": "distributional_review",
+      "policy_domain": "public_accountability",
+      "policy_priority": 6.0,
+      "public_question": "How are benefits and burdens distributed across groups or places?",
+      "status": "review"
+    },
+    {
+      "key": "governance_model",
+      "model_family": "review_register",
+      "model_role": "model_governance",
+      "policy_domain": "institutional_governance",
+      "policy_priority": 8.0,
+      "public_question": "Who owns the model decision update process and public challenge pathway?",
+      "status": "review"
+    }
+  ],
+  "policy_option_review": [
+    {
+      "budget_limit": 40.0,
+      "budget_margin": 22.0,
+      "budget_violation": false,
+      "equity_score": 0.52,
+      "implementation_feasibility": 0.86,
+      "key": "baseline",
+      "option_name": "Maintain current services",
+      "projected_benefit": 42.0,
+      "public_risk": 0.42,
+      "public_value_score": 35.4,
+      "review_class": "requires_risk_review",
+      "total_cost": 18.0,
+      "uncertainty_width": 18.0
+    },
+    {
+      "budget_limit": 40.0,
+      "budget_margin": 8.0,
+      "budget_violation": false,
+      "equity_score": 0.78,
+      "implementation_feasibility": 0.74,
+      "key": "targeted_prevention",
+      "option_name": "Targeted prevention program",
+      "projected_benefit": 68.0,
+      "public_risk": 0.3,
+      "public_value_score": 54.2,
+      "review_class": "within_budget",
+      "total_cost": 32.0,
+      "uncertainty_width": 22.0
+    },
+    {
+      "budget_limit": 40.0,
+      "budget_margin": -9.0,
+      "budget_violation": true,
+      "equity_score": 0.69,
+      "implementation_feasibility": 0.58,
+      "key": "broad_expansion",
+      "option_name": "Broad service expansion",
+      "projected_benefit": 81.0,
+      "public_risk": 0.34,
+      "public_value_score": 28.64,
+      "review_class": "requires_budget_review",
+      "total_cost": 49.0,
+      "uncertainty_width": 28.0
+    },
+    {
+      "budget_limit": 40.0,
+      "budget_margin": 2.0,
+      "budget_violation": false,
+      "equity_score": 0.82,
+      "implementation_feasibility": 0.7,
+      "key": "adaptive_pathway",
+      "option_name": "Adaptive pathway with monitoring triggers",
+      "projected_benefit": 73.0,
+      "public_risk": 0.24,
+      "public_value_score": 56.56,
+      "review_class": "within_budget",
+      "total_cost": 38.0,
+      "uncertainty_width": 16.0
+    }
+  ],
+  "policy_summary": {
+    "best_scored_option": "Adaptive pathway with monitoring triggers",
+    "budget_violation_count": 1,
+    "max_public_value_score": 56.56,
+    "mean_public_value_score": 43.7,
+    "min_public_value_score": 28.64,
+    "option_count": 4
+  },
+  "use_limit": "This workflow supports policy option review and public reasoning; it does not automate public decisions or replace legal, ethical, stakeholder, and institutional judgment."
+}

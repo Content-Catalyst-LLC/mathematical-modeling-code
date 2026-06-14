@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PolicyOption",
+  "type": "object",
+  "required": [
+    "key",
+    "option_name",
+    "projected_benefit",
+    "total_cost",
+    "implementation_feasibility",
+    "equity_score",
+    "uncertainty_width",
+    "public_risk"
+  ],
+  "properties": {
+    "key": {"type": "string"},
+    "option_name": {"type": "string"},
+    "projected_benefit": {"type": "number"},
+    "total_cost": {"type": "number"},
+    "implementation_feasibility": {"type": "number"},
+    "equity_score": {"type": "number"},
+    "uncertainty_width": {"type": "number"},
+    "public_risk": {"type": "number"}
+  }
+}
