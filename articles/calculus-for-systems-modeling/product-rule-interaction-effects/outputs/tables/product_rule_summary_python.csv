@@ -1,0 +1,6 @@
+metric,value
+max_abs_residual,0.011772589219859242
+mean_abs_residual,0.00011056175783321709
+mean_abs_contribution_from_a,6.585849262634004
+mean_abs_contribution_from_b,4.319172971118866
+mean_direct_y_prime,10.575273603833878

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product Rule Article Card",
+  "type": "object",
+  "required": ["slug", "title", "series", "status", "concepts"],
+  "properties": {
+    "slug": {"type": "string"},
+    "title": {"type": "string"},
+    "series": {"type": "string"},
+    "status": {"type": "string"},
+    "article_url": {"type": "string"},
+    "repo_folder": {"type": "string"},
+    "concepts": {"type": "array", "items": {"type": "string"}},
+    "governance_notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "product-rule-interaction-effects",
+  "title": "The Product Rule and Interaction Effects",
+  "series": "Calculus for Systems Modeling",
+  "status": "draft",
+  "article_url": "https://sustainablecatalyst.com/the-product-rule-and-interaction-effects/",
+  "repo_folder": "articles/calculus-for-systems-modeling/product-rule-interaction-effects",
+  "concepts": [
+    "product rule",
+    "interaction effects",
+    "multiplicative models",
+    "change decomposition",
+    "finite differences",
+    "systems modeling"
+  ],
+  "governance_notes": [
+    "Decomposition is descriptive unless supported by causal evidence.",
+    "Multiplicative model structure must be justified.",
+    "Relative growth decomposition requires positive nonzero factors."
+  ]
+}

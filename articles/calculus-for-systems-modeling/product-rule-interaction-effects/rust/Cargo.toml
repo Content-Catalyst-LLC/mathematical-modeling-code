@@ -1,0 +1,4 @@
+[package]
+name = "product_rule_interaction_effects"
+version = "0.1.0"
+edition = "2021"
