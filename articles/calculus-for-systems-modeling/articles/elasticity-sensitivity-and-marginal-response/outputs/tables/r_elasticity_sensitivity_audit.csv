@@ -1,0 +1,7 @@
+"x","value","derivative","elasticity","finite_difference_derivative","absolute_error","response_class","warning"
+0,10,5,NA,4.99999999998835,1.16529008664656e-11,"elasticity undefined","input is zero; proportional input change requires care; near-zero baseline; normalize with caution"
+0.5,12.2474487139159,4.08248290463863,0.166666666666667,4.08248290471036,7.17301773534018e-11,"inelastic local response",""
+1,14.142135623731,3.53553390593274,0.25,3.53553390599615,6.34088337392313e-11,"inelastic local response",""
+4,22.3606797749979,2.23606797749979,0.4,2.23606797735698,1.42808431746744e-10,"inelastic local response",""
+9,31.6227766016838,1.58113883008419,0.45,1.58113882982036,2.63828736635219e-10,"inelastic local response",""
+24,50,1,0.48,0.999999999606871,3.93129195863651e-10,"inelastic local response",""

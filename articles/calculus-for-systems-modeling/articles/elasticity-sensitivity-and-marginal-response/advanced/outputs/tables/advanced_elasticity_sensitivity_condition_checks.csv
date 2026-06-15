@@ -1,0 +1,11 @@
+condition,value,passed,warning
+nonzero input for elasticity,0.0,False,elasticity requires careful interpretation at zero input
+nonzero input for elasticity,4.0,True,
+nonzero output for elasticity,0.0,False,elasticity is undefined at zero output
+nonzero output for elasticity,10.0,True,
+positive log domain,1.0,True,
+positive log domain,-1.0,False,log-derivative interpretation requires positive input and output
+finite-difference derivative error,1e-08,True,
+finite-difference derivative error,0.01,False,finite-difference sensitivity is unstable or inaccurate
+local scope stated,1.0,True,
+local scope stated,0.0,False,sensitivity claim lacks a stated baseline or local scope

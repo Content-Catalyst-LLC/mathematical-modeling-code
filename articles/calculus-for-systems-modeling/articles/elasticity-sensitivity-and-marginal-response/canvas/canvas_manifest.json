@@ -1,0 +1,19 @@
+{
+  "article_slug": "elasticity-sensitivity-and-marginal-response",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "elasticity-sensitivity-marginal-response",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "marginal-response", "title": "Marginal Response", "description": "Local derivative-based response at a stated operating point."},
+    {"card_id": "elasticity", "title": "Elasticity", "description": "Dimensionless proportional response where normalization is meaningful."},
+    {"card_id": "parameter-sensitivity", "title": "Parameter Sensitivity", "description": "Dependence of model output on parameter assumptions."},
+    {"card_id": "domain-warnings", "title": "Domain Warnings", "description": "Elasticity fails or becomes fragile near zero, sign changes, and boundaries."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

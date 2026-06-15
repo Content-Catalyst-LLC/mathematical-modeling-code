@@ -1,0 +1,18 @@
+section                        
+-------------------------------
+SENSITIVITY ASSUMPTION REGISTRY
+assumption_name              mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Baseline operating point     Derivative-based sensitivity is local to a point or paramete  Keeps marginal response tied to a specific system condition.  Do not generalize local sensitivity across the whole domain 
+                             r value.                                                                                                                    without evidence.                                           
+
+Nonzero normalization        Elasticity requires nonzero input and output for proportiona  Prevents undefined relative-change calculations.              Elasticity is unreliable or undefined near zero.            
+                             l interpretation.                                                                                                                                                                       
+
+Parameter range              Sensitivity depends on the range of values examined.          Supports robustness and scenario interpretation.              A narrow range may hide nonlinear or threshold behavior.    
+
+Positive log domain          Log-derivative interpretation requires positive input and ou  Supports proportional-change interpretation.                  Negative or sign-changing quantities require special handlin
+                             tput.                                                                                                                       g.                                                          
+
+Finite-difference step size  Numerical derivatives depend on perturbation size.            Supports reproducible sensitivity estimation.                 Step sizes that are too large or too small can distort the r
+                                                                                                                                                         esult.                                                      

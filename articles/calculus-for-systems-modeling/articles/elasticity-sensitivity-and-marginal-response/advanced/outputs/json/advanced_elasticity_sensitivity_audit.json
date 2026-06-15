@@ -1,0 +1,53 @@
+{
+  "advanced_standard": true,
+  "article": "Elasticity, Sensitivity, and Marginal Response",
+  "condition_failures": [
+    {
+      "condition": "nonzero input for elasticity",
+      "passed": false,
+      "value": 0.0,
+      "warning": "elasticity requires careful interpretation at zero input"
+    },
+    {
+      "condition": "nonzero output for elasticity",
+      "passed": false,
+      "value": 0.0,
+      "warning": "elasticity is undefined at zero output"
+    },
+    {
+      "condition": "positive log domain",
+      "passed": false,
+      "value": -1.0,
+      "warning": "log-derivative interpretation requires positive input and output"
+    },
+    {
+      "condition": "finite-difference derivative error",
+      "passed": false,
+      "value": 0.01,
+      "warning": "finite-difference sensitivity is unstable or inaccurate"
+    },
+    {
+      "condition": "local scope stated",
+      "passed": false,
+      "value": 0.0,
+      "warning": "sensitivity claim lacks a stated baseline or local scope"
+    }
+  ],
+  "topics": [
+    "marginal_response",
+    "point_elasticity",
+    "normalized_sensitivity",
+    "log_derivative_identity",
+    "local_global_distinction",
+    "near_zero_domain_warning",
+    "finite_difference_stability",
+    "parameter_range_review"
+  ],
+  "warnings": [
+    "Elasticity is undefined or fragile near zero input or output.",
+    "Log-derivative interpretation requires positive quantities.",
+    "Local sensitivity should not be generalized globally without evidence.",
+    "Numerical sensitivity depends on perturbation size.",
+    "Sensitivity is not causal proof without a causal design or mechanism."
+  ]
+}

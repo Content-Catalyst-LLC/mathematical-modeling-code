@@ -1,0 +1,13 @@
+{
+  "advanced_standard": true,
+  "article": "Elasticity, Sensitivity, and Marginal Response",
+  "diagnostics": [
+    "marginal_response",
+    "elasticity",
+    "finite_difference_check",
+    "near_zero_warning",
+    "domain_warning",
+    "baseline_record"
+  ],
+  "warning": "Sensitivity claims require baseline, units, perturbation size, local/global scope, and domain review."
+}

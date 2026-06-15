@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+baseline_operating_point,Baseline operating point,Derivative-based sensitivity is local to a point or parameter value,Keeps marginal response tied to a specific system condition,Do not generalize local sensitivity across the whole domain without evidence
+nonzero_normalization,Nonzero normalization,Elasticity requires nonzero input and output for proportional interpretation,Prevents undefined relative-change calculations,Elasticity is unreliable or undefined near zero
+positive_log_domain,Positive log domain,Log-derivative interpretation requires positive input and output,Supports proportional-change interpretation,Negative or sign-changing quantities require special handling
+step_size_choice,Finite-difference step size,Numerical derivatives depend on perturbation size,Supports reproducible sensitivity estimation,Step sizes that are too large or too small can distort the result
+parameter_range,Parameter range,Sensitivity depends on the range of values examined,Supports robustness and scenario interpretation,A narrow range may hide nonlinear or threshold behavior

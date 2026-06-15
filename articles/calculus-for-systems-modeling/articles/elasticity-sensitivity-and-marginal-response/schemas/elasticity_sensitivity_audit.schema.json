@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ElasticitySensitivityAudit",
+  "type": "object",
+  "required": ["x", "value", "derivative", "elasticity", "finite_difference_derivative", "absolute_error", "response_class", "warning"],
+  "properties": {
+    "x": {"type": "number"},
+    "value": {"type": "number"},
+    "derivative": {"type": "number"},
+    "elasticity": {"type": ["number", "null"]},
+    "finite_difference_derivative": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0},
+    "response_class": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

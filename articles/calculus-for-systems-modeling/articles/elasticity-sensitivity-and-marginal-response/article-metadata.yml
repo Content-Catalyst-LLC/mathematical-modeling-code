@@ -1,0 +1,22 @@
+actual_title: "Elasticity, Sensitivity, and Marginal Response"
+suggested_seo_title: "Elasticity, Sensitivity, and Marginal Response in Systems Modeling"
+focus_keyword: "elasticity sensitivity marginal response"
+slug: "elasticity-sensitivity-and-marginal-response"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "second-derivatives-curvature-and-acceleration"
+  current: "elasticity-sensitivity-and-marginal-response"
+  next: "antiderivatives-and-the-recovery-of-accumulation"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/elasticity-sensitivity-and-marginal-response"
+tags:
+  - Calculus
+  - Elasticity
+  - Sensitivity Analysis
+  - Marginal Response
+  - Parameter Dependence
+  - Relative Change
+  - Systems Modeling
+  - Numerical Derivatives
+excerpt_139_words: "Elasticity, sensitivity, and marginal response describe how strongly a system reacts when an input, parameter, condition, or policy variable changes. This article develops these ideas as a bridge between derivative-based calculus and systems modeling, connecting marginal change, relative responsiveness, parameter dependence, local and global sensitivity, scaling, units, nonlinear response, decision thresholds, numerical estimation, uncertainty, and responsible interpretation. It explains why the same absolute change can be minor at one scale and decisive at another, why local responsiveness depends on operating point, and why sensitivity should be documented before model conclusions are treated as stable. Companion workflows in Python, R, SQL, and Haskell include elasticity audits, marginal-response diagnostics, finite-difference checks, normalized parameter sensitivity, baseline records, typed sensitivity structures, assumption registries, domain warnings, and advanced mathematical audit reports for robust interpretation."
+advanced_standard: true

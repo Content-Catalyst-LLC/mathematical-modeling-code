@@ -1,6 +1,6 @@
-.PHONY: smoke advanced second-derivatives clean
+.PHONY: smoke advanced second-derivatives elasticity clean
 
-smoke: second-derivatives
+smoke: second-derivatives elasticity
 
 advanced:
 	@for d in articles/*; do \
@@ -12,6 +12,9 @@ advanced:
 
 second-derivatives:
 	$(MAKE) -C articles/second-derivatives-curvature-and-acceleration smoke
+
+elasticity:
+	$(MAKE) -C articles/elasticity-sensitivity-and-marginal-response smoke
 
 clean:
 	@for d in articles/*; do \
