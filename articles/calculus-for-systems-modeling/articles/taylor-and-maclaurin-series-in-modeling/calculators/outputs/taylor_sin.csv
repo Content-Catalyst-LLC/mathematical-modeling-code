@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_order,result_approximation,result_reference_value,result_absolute_error
+taylor-sin,"The sine Maclaurin series converges for all real x, though truncation error still matters.",,1.0,10,0.8414709848078965,0.8414709848078965,0.0

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_parameter_min,input_parameter_max,input_samples,result_min_response,result_max_response,result_rows_written
+sensitivity,Sensitivity sweeps show how model response changes across a parameter range.,,0.1,1.0,5,0.09090909090909091,0.5,5

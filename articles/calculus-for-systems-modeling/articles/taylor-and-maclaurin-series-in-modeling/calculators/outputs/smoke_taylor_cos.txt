@@ -1,0 +1,14 @@
+{
+  "calculator": "taylor-cos",
+  "inputs": {
+    "order": 10,
+    "x": 1.0
+  },
+  "interpretation": "The cosine Maclaurin series converges for all real x, though truncation error still matters.",
+  "result": {
+    "absolute_error": 0.0,
+    "approximation": 0.5403023058681398,
+    "reference_value": 0.5403023058681398
+  },
+  "warning": ""
+}

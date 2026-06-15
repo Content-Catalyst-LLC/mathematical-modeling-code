@@ -1,0 +1,8 @@
+condition,passed,warning
+expansion center stated,True,
+approximation order documented,True,
+derivative provenance noted,True,
+remainder logic included,True,
+local validity stated,True,
+multilanguage scaffold included,True,
+calculator layer included,True,

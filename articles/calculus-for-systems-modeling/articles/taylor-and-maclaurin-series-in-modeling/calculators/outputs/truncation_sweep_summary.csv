@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_max_order,input_function,result_rows_written,result_final_approximation,result_final_absolute_error
+truncation-sweep,A truncation sweep shows how retained order changes approximation error.,,1.0,12,exp(x),13,2.7182818282861687,1.7287637987806193e-10

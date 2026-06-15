@@ -1,0 +1,4 @@
+function_name,center,x_value,order,approximation,reference_value,absolute_error,warning
+exp(x),0.0,0.500000000000,2,1.625000000000,1.648721270700,0.023721270700,
+exp(x),0.0,1.000000000000,10,2.718281801146,2.718281828459,0.000000027313,
+exp(x),0.0,3.000000000000,10,20.079665178571,20.085536923188,0.005871744616,Evaluation is far from the Maclaurin center; review truncation error carefully.

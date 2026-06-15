@@ -1,0 +1,23 @@
+{
+  "article": "Taylor and Maclaurin Series in Modeling",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "A Taylor polynomial is not equal to the full function without remainder logic.",
+    "A local approximation may fail far from the center.",
+    "Smooth local expansion may miss thresholds, discontinuities, and regime shifts.",
+    "Convergence of a series and usefulness of a finite truncation are related but distinct."
+  ]
+}

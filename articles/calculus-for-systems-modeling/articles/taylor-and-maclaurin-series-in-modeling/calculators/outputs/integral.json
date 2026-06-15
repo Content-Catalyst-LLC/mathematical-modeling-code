@@ -1,0 +1,14 @@
+{
+  "calculator": "integral",
+  "inputs": {
+    "a": 0.0,
+    "b": 1.0,
+    "function": "x^2",
+    "steps": 100
+  },
+  "interpretation": "The trapezoid rule approximates accumulated change over an interval.",
+  "result": {
+    "trapezoid_integral": 0.33335000000000004
+  },
+  "warning": ""
+}

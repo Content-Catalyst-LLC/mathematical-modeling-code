@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_center,input_function,result_approximation,result_reference_value,result_absolute_error
+second-order,Second-order Taylor approximation adds curvature.,,1.1,1.0,x^2,1.2100000000000002,1.2100000000000002,0.0

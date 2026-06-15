@@ -1,0 +1,2 @@
+"calculator","x","order","approximation","reference_value","absolute_error"
+"taylor-exp",1,10,2.71828180114638,2.71828182845905,2.73126605776497e-08

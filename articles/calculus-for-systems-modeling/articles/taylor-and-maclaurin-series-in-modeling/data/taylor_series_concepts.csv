@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+expansion_center,Expansion center,Defines where derivative information is taken,Identifies the local reference state for interpretation,A Taylor approximation should not be interpreted without knowing its center
+approximation_order,Approximation order,Records the highest retained polynomial degree,Shows which derivative information was included or omitted,A first-order approximation may miss curvature or nonlinear response
+derivative_provenance,Derivative provenance,Documents how derivative values or coefficients were obtained,Separates symbolic numerical estimated and assumed derivative information,Derivative coefficients without provenance are difficult to audit
+remainder_logic,Remainder logic,Describes omitted terms or error estimate,Supports responsible interpretation of finite Taylor polynomials,A Taylor polynomial should not be trusted without error or validity review
+local_validity,Local validity,Defines the region where the approximation is intended to apply,Prevents local polynomial behavior from being treated as global system truth,Large shocks thresholds and regime changes may invalidate local approximation
+calculator_interface,Calculator interface,Provides command-line computational access to article concepts,Prepares article logic for future website widgets,Calculator outputs still require interpretation and assumption review

@@ -1,0 +1,26 @@
+{
+  "article_slug": "taylor-and-maclaurin-series-in-modeling",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "taylor-exp", "title": "Exponential Taylor Calculator"},
+    {"id": "taylor-sin", "title": "Sine Taylor Calculator"},
+    {"id": "taylor-cos", "title": "Cosine Taylor Calculator"},
+    {"id": "linearization", "title": "First-Order Linearization Calculator"},
+    {"id": "second-order", "title": "Second-Order Approximation Calculator"},
+    {"id": "truncation-sweep", "title": "Truncation Sweep"},
+    {"id": "derivative", "title": "Numerical Derivative Calculator"},
+    {"id": "integral", "title": "Numerical Integral Calculator"},
+    {"id": "euler", "title": "Euler ODE Stepper"},
+    {"id": "rk4", "title": "Runge-Kutta RK4 ODE Stepper"},
+    {"id": "logistic", "title": "Logistic Growth Calculator"},
+    {"id": "finite-diff", "title": "Finite Difference Calculator"},
+    {"id": "sensitivity", "title": "Parameter Sensitivity Sweep"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

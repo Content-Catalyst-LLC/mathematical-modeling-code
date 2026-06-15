@@ -1,0 +1,15 @@
+{
+  "calculator": "linearization",
+  "inputs": {
+    "center": 1.0,
+    "function": "x^2",
+    "x": 1.1
+  },
+  "interpretation": "First-order Taylor approximation uses the tangent line near the expansion center.",
+  "result": {
+    "absolute_error": 0.010000000000000009,
+    "approximation": 1.2000000000000002,
+    "reference_value": 1.2100000000000002
+  },
+  "warning": ""
+}

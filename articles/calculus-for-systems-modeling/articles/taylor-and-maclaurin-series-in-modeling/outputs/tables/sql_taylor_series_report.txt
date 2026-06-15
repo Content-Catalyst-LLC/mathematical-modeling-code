@@ -1,0 +1,33 @@
+section                                 
+----------------------------------------
+TAYLOR APPROXIMATION ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Approximation order    Records the highest retained polynomial degree.               Shows which derivative information was included or omitted.   A first-order approximation may miss important curvature or 
+                                                                                                                                                   nonlinear response.                                         
+
+Calculator interface   Provides reusable command-line computational logic.           Prepares calculator functions for future website interfaces.  Calculator outputs require interpretation and assumption rev
+                                                                                                                                                   iew.                                                        
+
+Derivative provenance  Documents how derivative values or coefficients were obtaine  Separates symbolic numerical estimated and assumed derivativ  Derivative coefficients without provenance are difficult to 
+                       d.                                                            e information.                                                audit.                                                      
+
+Expansion center       Defines the point where derivative information is taken.      Identifies the local reference state for interpretation.      A Taylor approximation should not be interpreted without kno
+                                                                                                                                                   wing its center.                                            
+
+Local validity         Defines the region where the approximation is intended to ap  Prevents local polynomial behavior from being treated as glo  Large shocks thresholds and regime changes may invalidate lo
+                       ply.                                                          bal system truth.                                             cal approximation.                                          
+
+Remainder logic        Describes the omitted terms or error estimate.                Supports responsible interpretation of finite Taylor polynom  A Taylor polynomial should not be trusted without error or v
+                                                                                     ials.                                                         alidity review.                                             
+section                   
+--------------------------
+TAYLOR APPROXIMATION CASES
+function_name  center  x_value  approximation_order  review_warning                                              
+-------------  ------  -------  -------------------  ------------------------------------------------------------
+exp(x)         0.0     0.5      5                                                                                
+
+exp(x)         0.0     3.0      10                   Evaluation is far from the Maclaurin center; review truncati
+                                                     on error carefully.                                         
+
+sin(x)         0.0     1.0      5                                                                                

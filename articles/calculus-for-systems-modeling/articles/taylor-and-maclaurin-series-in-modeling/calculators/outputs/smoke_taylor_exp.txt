@@ -1,0 +1,14 @@
+{
+  "calculator": "taylor-exp",
+  "inputs": {
+    "order": 10,
+    "x": 1.0
+  },
+  "interpretation": "The exponential Maclaurin series converges for all real x, though truncation error still matters.",
+  "result": {
+    "absolute_error": 2.7312660577649694e-08,
+    "approximation": 2.7182818011463845,
+    "reference_value": 2.718281828459045
+  },
+  "warning": ""
+}

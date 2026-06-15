@@ -1,0 +1,15 @@
+{
+  "calculator": "second-order",
+  "inputs": {
+    "center": 1.0,
+    "function": "x^2",
+    "x": 1.1
+  },
+  "interpretation": "Second-order Taylor approximation adds curvature.",
+  "result": {
+    "absolute_error": 0.0,
+    "approximation": 1.2100000000000002,
+    "reference_value": 1.2100000000000002
+  },
+  "warning": ""
+}

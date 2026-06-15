@@ -1,0 +1,2 @@
+  calculator x order approximation reference_value absolute_error
+1 taylor-sin 1    10      0.841471        0.841471              0

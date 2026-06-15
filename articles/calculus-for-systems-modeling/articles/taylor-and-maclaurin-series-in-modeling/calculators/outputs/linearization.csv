@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_center,input_function,result_approximation,result_reference_value,result_absolute_error
+linearization,First-order Taylor approximation uses the tangent line near the expansion center.,,1.1,1.0,x^2,1.2000000000000002,1.2100000000000002,0.010000000000000009

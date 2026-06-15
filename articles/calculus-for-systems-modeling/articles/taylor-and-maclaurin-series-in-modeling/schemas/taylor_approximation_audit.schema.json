@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TaylorApproximationAudit",
+  "type": "object",
+  "required": ["function_name", "center", "x_value", "order", "approximation", "reference_value", "absolute_error", "warning"],
+  "properties": {
+    "function_name": {"type": "string"},
+    "center": {"type": "number"},
+    "x_value": {"type": "number"},
+    "order": {"type": "integer"},
+    "approximation": {"type": "number"},
+    "reference_value": {"type": "number"},
+    "absolute_error": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

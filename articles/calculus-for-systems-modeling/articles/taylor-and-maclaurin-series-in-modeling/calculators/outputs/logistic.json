@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "initial": 10.0,
+    "rate": 0.25,
+    "steps": 5
+  },
+  "interpretation": "The logistic calculator demonstrates bounded growth toward a carrying capacity.",
+  "result": {
+    "final_x": 26.087064372919638,
+    "rows_written": 6
+  },
+  "warning": ""
+}
