@@ -3,16 +3,18 @@
   "series": "Calculus for Systems Modeling",
   "canvas_layer": "convergence-tests-infinite-approximation",
   "advanced_standard": true,
+  "calculators_layer": true,
   "cards": [
     {"card_id": "term-test", "title": "Term Test", "description": "Terms must approach zero, but that alone does not prove convergence."},
     {"card_id": "comparison-bound", "title": "Comparison Bound", "description": "Bounding logic connects finite approximations to known convergent or divergent benchmarks."},
-    {"card_id": "ratio-root-tests", "title": "Ratio and Root Tests", "description": "Long-run shrinkage rates classify many factorial, power, and exponential series."},
-    {"card_id": "remainder-rule", "title": "Remainder Rule", "description": "Finite partial sums need tail or error estimates before supporting infinite claims."}
+    {"card_id": "remainder-rule", "title": "Remainder Rule", "description": "Finite partial sums need tail or error estimates before supporting infinite claims."},
+    {"card_id": "article-calculators", "title": "Article Calculators", "description": "Command-line calculators provide reusable computational logic for future website widgets."}
   ],
   "governance": {
     "synthetic_data_only": true,
     "formal_definitions_included": true,
     "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
     "generated_audit_reports": true,
     "large_backup_archives_excluded": true
   }

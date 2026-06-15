@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_a,input_r,input_terms,result_partial_sum,result_last_term,result_converges,result_reference_value,result_estimated_tail_error
+geometric,Geometric convergence is supported exactly when |r| < 1.,,10.0,0.6,25,24.999928924279924,4.7383813383216124e-05,True,25.0,7.107572007569729e-05

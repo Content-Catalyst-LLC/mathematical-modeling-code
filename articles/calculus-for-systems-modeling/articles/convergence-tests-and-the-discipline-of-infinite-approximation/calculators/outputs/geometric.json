@@ -1,0 +1,17 @@
+{
+  "calculator": "geometric",
+  "inputs": {
+    "a": 10.0,
+    "r": 0.6,
+    "terms": 25
+  },
+  "interpretation": "Geometric convergence is supported exactly when |r| < 1.",
+  "result": {
+    "converges": true,
+    "estimated_tail_error": 7.107572007569729e-05,
+    "last_term": 4.7383813383216124e-05,
+    "partial_sum": 24.999928924279924,
+    "reference_value": 25.0
+  },
+  "warning": ""
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_terms,result_partial_sum,result_last_term,result_next_term_error_bound,result_converges_conditionally
+alternating,"The alternating harmonic series converges conditionally, with error bounded by the first omitted term.",Net convergence depends on sign cancellation; absolute convergence fails.,1000,0.6926474305598203,-0.001,0.000999000999000999,True

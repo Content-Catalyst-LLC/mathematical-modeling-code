@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_h,input_function,result_central_difference
+derivative,Central finite differences approximate local rate of change.,,2.0,0.0001,x^2,4.000000000004

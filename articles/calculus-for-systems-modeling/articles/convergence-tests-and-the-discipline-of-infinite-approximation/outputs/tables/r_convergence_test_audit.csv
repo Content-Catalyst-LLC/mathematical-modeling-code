@@ -4,4 +4,3 @@
 "p_series_1.25","p-series test",10000,4.19511682573879,1e-05,"converges",NA,"fixed term count with p-series classification",""
 "p_series_0.75","p-series test",10000,36.559214606805,0.001,"diverges",NA,"fixed term count with p-series classification","p-series diverges for p less than or equal to one"
 "p_series_1","p-series test",10000,9.78760603604435,1e-04,"diverges",NA,"fixed term count with p-series classification","p-series diverges for p less than or equal to one"
-"alternating_harmonic","alternating-series test",10000,0.693097183059958,-1e-04,"converges conditionally",9.99900009999e-05,"fixed term count with alternating-series next-term error bound","net convergence depends on sign cancellation; absolute series diverges"

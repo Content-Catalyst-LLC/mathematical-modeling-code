@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_initial,input_carrying_capacity,input_rate,input_steps,result_final_x,result_rows_written
+logistic,The logistic calculator demonstrates bounded growth toward a carrying capacity.,,10.0,100.0,0.25,5,26.087064372919638,6

@@ -1,27 +1,27 @@
-part,order,slug,title,status,folder,advanced_standard
-I Foundations of Calculus,1,what-is-calculus-for-systems-modeling,What Is Calculus for Systems Modeling?,active,articles/what-is-calculus-for-systems-modeling,upgraded
-I Foundations of Calculus,2,functions-variables-and-mathematical-representation,Functions Variables and Mathematical Representation,active,articles/functions-variables-and-mathematical-representation,upgraded
-I Foundations of Calculus,3,domains-ranges-and-the-structure-of-functional-models,Domains Ranges and the Structure of Functional Models,active,articles/domains-ranges-and-the-structure-of-functional-models,upgraded
-I Foundations of Calculus,4,infinity-infinitesimals-and-the-historical-problem-of-change,Infinity Infinitesimals and the Historical Problem of Change,active,articles/infinity-infinitesimals-and-the-historical-problem-of-change,upgraded
-I Foundations of Calculus,5,limits-and-the-formal-basis-of-calculus,Limits and the Formal Basis of Calculus,active,articles/limits-and-the-formal-basis-of-calculus,upgraded
-I Foundations of Calculus,6,continuity-discontinuity-and-structural-breaks,Continuity Discontinuity and Structural Breaks,active,articles/continuity-discontinuity-and-structural-breaks,upgraded
-I Foundations of Calculus,7,differentiability-and-local-behavior,Differentiability and Local Behavior,active,articles/differentiability-and-local-behavior,upgraded
-I Foundations of Calculus,8,derivatives-and-rates-of-change,Derivatives and Rates of Change,active,articles/derivatives-and-rates-of-change,upgraded
-I Foundations of Calculus,9,rules-of-differentiation-and-model-structure,Rules of Differentiation and Model Structure,active,articles/rules-of-differentiation-and-model-structure,upgraded
-I Foundations of Calculus,10,quotient-rule-and-relative-change,The Quotient Rule and Relative Change,active,articles/quotient-rule-and-relative-change,upgraded
-I Foundations of Calculus,11,chain-rule-and-composite-change-in-interacting-systems,The Chain Rule and Composite Change in Interacting Systems,active,articles/chain-rule-and-composite-change-in-interacting-systems,upgraded
-I Foundations of Calculus,12,implicit-differentiation-and-coupled-relationships,Implicit Differentiation and Coupled Relationships,active,articles/implicit-differentiation-and-coupled-relationships,upgraded
-I Foundations of Calculus,13,inverse-functions-and-system-interpretation,Inverse Functions and System Interpretation,active,articles/inverse-functions-and-system-interpretation,upgraded
-I Foundations of Calculus,14,related-rates-and-interdependent-motion,Related Rates and Interdependent Motion,active,articles/related-rates-and-interdependent-motion,upgraded
-I Foundations of Calculus,15,second-derivatives-curvature-and-acceleration,Second Derivatives Curvature and Acceleration,active,articles/second-derivatives-curvature-and-acceleration,upgraded
-I Foundations of Calculus,16,elasticity-sensitivity-and-marginal-response,Elasticity Sensitivity and Marginal Response,active,articles/elasticity-sensitivity-and-marginal-response,upgraded
-III Integration and Accumulation,17,antiderivatives-and-the-recovery-of-accumulation,Antiderivatives and the Recovery of Accumulation,active,articles/antiderivatives-and-the-recovery-of-accumulation,upgraded
-III Integration and Accumulation,18,definite-integrals-and-total-change,Definite Integrals and Total Change,active,articles/definite-integrals-and-total-change,upgraded
-III Integration and Accumulation,19,the-fundamental-theorem-of-calculus,The Fundamental Theorem of Calculus,active,articles/the-fundamental-theorem-of-calculus,upgraded
-III Integration and Accumulation,20,substitution-and-transformations-of-accumulation,Substitution and Transformations of Accumulation,active,articles/substitution-and-transformations-of-accumulation,upgraded
-III Integration and Accumulation,21,integration-by-parts-and-structured-decomposition,Integration by Parts and Structured Decomposition,active,articles/integration-by-parts-and-structured-decomposition,upgraded
-III Integration and Accumulation,22,improper-integrals-and-unbounded-quantities,Improper Integrals and Unbounded Quantities,active,articles/improper-integrals-and-unbounded-quantities,upgraded
-III Integration and Accumulation,23,accumulation-exposure-and-flow-to-stock-reasoning,Accumulation Exposure and Flow-to-Stock Reasoning,active,articles/accumulation-exposure-and-flow-to-stock-reasoning,upgraded
-IV Sequences Series and Convergence,24,sequences-series-and-the-logic-of-convergence,Sequences Series and the Logic of Convergence,active,articles/sequences-series-and-the-logic-of-convergence,upgraded
-IV Sequences Series and Convergence,25,convergence-tests-and-the-discipline-of-infinite-approximation,Convergence Tests and the Discipline of Infinite Approximation,active,articles/convergence-tests-and-the-discipline-of-infinite-approximation,upgraded
-IV Sequences Series and Convergence,26,power-series-and-taylor-approximation,Power Series and Taylor Approximation,planned,articles/power-series-and-taylor-approximation,required
+part,order,slug,title,status,folder,advanced_standard,calculators
+I Foundations of Calculus,1,what-is-calculus-for-systems-modeling,What Is Calculus for Systems Modeling?,active,articles/what-is-calculus-for-systems-modeling,upgraded,
+I Foundations of Calculus,2,functions-variables-and-mathematical-representation,Functions Variables and Mathematical Representation,active,articles/functions-variables-and-mathematical-representation,upgraded,
+I Foundations of Calculus,3,domains-ranges-and-the-structure-of-functional-models,Domains Ranges and the Structure of Functional Models,active,articles/domains-ranges-and-the-structure-of-functional-models,upgraded,
+I Foundations of Calculus,4,infinity-infinitesimals-and-the-historical-problem-of-change,Infinity Infinitesimals and the Historical Problem of Change,active,articles/infinity-infinitesimals-and-the-historical-problem-of-change,upgraded,
+I Foundations of Calculus,5,limits-and-the-formal-basis-of-calculus,Limits and the Formal Basis of Calculus,active,articles/limits-and-the-formal-basis-of-calculus,upgraded,
+I Foundations of Calculus,6,continuity-discontinuity-and-structural-breaks,Continuity Discontinuity and Structural Breaks,active,articles/continuity-discontinuity-and-structural-breaks,upgraded,
+I Foundations of Calculus,7,differentiability-and-local-behavior,Differentiability and Local Behavior,active,articles/differentiability-and-local-behavior,upgraded,
+I Foundations of Calculus,8,derivatives-and-rates-of-change,Derivatives and Rates of Change,active,articles/derivatives-and-rates-of-change,upgraded,
+I Foundations of Calculus,9,rules-of-differentiation-and-model-structure,Rules of Differentiation and Model Structure,active,articles/rules-of-differentiation-and-model-structure,upgraded,
+I Foundations of Calculus,10,quotient-rule-and-relative-change,The Quotient Rule and Relative Change,active,articles/quotient-rule-and-relative-change,upgraded,
+I Foundations of Calculus,11,chain-rule-and-composite-change-in-interacting-systems,The Chain Rule and Composite Change in Interacting Systems,active,articles/chain-rule-and-composite-change-in-interacting-systems,upgraded,
+I Foundations of Calculus,12,implicit-differentiation-and-coupled-relationships,Implicit Differentiation and Coupled Relationships,active,articles/implicit-differentiation-and-coupled-relationships,upgraded,
+I Foundations of Calculus,13,inverse-functions-and-system-interpretation,Inverse Functions and System Interpretation,active,articles/inverse-functions-and-system-interpretation,upgraded,
+I Foundations of Calculus,14,related-rates-and-interdependent-motion,Related Rates and Interdependent Motion,active,articles/related-rates-and-interdependent-motion,upgraded,
+I Foundations of Calculus,15,second-derivatives-curvature-and-acceleration,Second Derivatives Curvature and Acceleration,active,articles/second-derivatives-curvature-and-acceleration,upgraded,
+I Foundations of Calculus,16,elasticity-sensitivity-and-marginal-response,Elasticity Sensitivity and Marginal Response,active,articles/elasticity-sensitivity-and-marginal-response,upgraded,
+III Integration and Accumulation,17,antiderivatives-and-the-recovery-of-accumulation,Antiderivatives and the Recovery of Accumulation,active,articles/antiderivatives-and-the-recovery-of-accumulation,upgraded,
+III Integration and Accumulation,18,definite-integrals-and-total-change,Definite Integrals and Total Change,active,articles/definite-integrals-and-total-change,upgraded,
+III Integration and Accumulation,19,the-fundamental-theorem-of-calculus,The Fundamental Theorem of Calculus,active,articles/the-fundamental-theorem-of-calculus,upgraded,
+III Integration and Accumulation,20,substitution-and-transformations-of-accumulation,Substitution and Transformations of Accumulation,active,articles/substitution-and-transformations-of-accumulation,upgraded,
+III Integration and Accumulation,21,integration-by-parts-and-structured-decomposition,Integration by Parts and Structured Decomposition,active,articles/integration-by-parts-and-structured-decomposition,upgraded,
+III Integration and Accumulation,22,improper-integrals-and-unbounded-quantities,Improper Integrals and Unbounded Quantities,active,articles/improper-integrals-and-unbounded-quantities,upgraded,
+III Integration and Accumulation,23,accumulation-exposure-and-flow-to-stock-reasoning,Accumulation Exposure and Flow-to-Stock Reasoning,active,articles/accumulation-exposure-and-flow-to-stock-reasoning,upgraded,
+IV Sequences Series and Convergence,24,sequences-series-and-the-logic-of-convergence,Sequences Series and the Logic of Convergence,active,articles/sequences-series-and-the-logic-of-convergence,upgraded,
+IV Sequences Series and Convergence,25,convergence-tests-and-the-discipline-of-infinite-approximation,Convergence Tests and the Discipline of Infinite Approximation,active,articles/convergence-tests-and-the-discipline-of-infinite-approximation,upgraded,included
+IV Sequences Series and Convergence,26,power-series-and-taylor-approximation,Power Series and Taylor Approximation,planned,articles/power-series-and-taylor-approximation,required,

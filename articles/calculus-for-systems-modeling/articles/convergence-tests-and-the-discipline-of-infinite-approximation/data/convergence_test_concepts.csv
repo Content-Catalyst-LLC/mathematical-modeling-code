@@ -3,4 +3,4 @@ test_selected,Test selected,Identifies which convergence test or bounding argume
 test_conditions,Test conditions,Documents the assumptions required by the selected test,Prevents tests from being applied outside their valid structure,A correct test used under false conditions gives misleading confidence
 partial_sum,Partial sum,Records the finite computation actually performed,Separates computed finite totals from infinite limiting claims,A partial sum is not the same as an infinite series
 remainder_estimate,Remainder estimate,Documents the omitted tail or error bound after truncation,Supports responsible finite approximation,A small last term does not always bound the full tail
-inconclusive_result,Inconclusive result,Records when a test fails to classify convergence,Prevents unsupported conclusions after an inconclusive test,An inconclusive test should lead to another test or a limited claim
+calculator_interface,Calculator interface,Provides command-line computational access to article concepts,Prepares article logic for future website widgets,Calculator outputs still require interpretation and assumption review

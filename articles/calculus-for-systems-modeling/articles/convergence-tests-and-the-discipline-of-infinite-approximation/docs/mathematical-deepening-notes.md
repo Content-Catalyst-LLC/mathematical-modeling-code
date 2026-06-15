@@ -10,15 +10,5 @@
 - ratio/root inconclusive case versus divergence;
 - absolute convergence versus conditional convergence;
 - stopping rule versus remainder bound;
-- convergence result versus modeling validity.
-
-## Pathology checklist
-
-- term test used backward;
-- small latest term treated as small total tail;
-- ratio test with limit one forced into a conclusion;
-- alternating signs used without checking monotone decay to zero;
-- conditional convergence hides large gross activity;
-- comparison benchmark chosen incorrectly;
-- finite numerical evidence overread as convergence proof;
-- convergent mathematical form extended beyond credible model domain.
+- convergence result versus modeling validity;
+- command-line calculator result versus article interpretation.

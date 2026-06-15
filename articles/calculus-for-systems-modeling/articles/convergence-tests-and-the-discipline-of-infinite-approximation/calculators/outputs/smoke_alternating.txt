@@ -1,0 +1,14 @@
+{
+  "calculator": "alternating",
+  "inputs": {
+    "terms": 1000
+  },
+  "interpretation": "The alternating harmonic series converges conditionally, with error bounded by the first omitted term.",
+  "result": {
+    "converges_conditionally": true,
+    "last_term": -0.001,
+    "next_term_error_bound": 0.000999000999000999,
+    "partial_sum": 0.6926474305598203
+  },
+  "warning": "Net convergence depends on sign cancellation; absolute convergence fails."
+}

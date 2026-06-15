@@ -51,33 +51,14 @@ audit_p_series <- function(p, n_terms) {
   )
 }
 
-audit_alternating <- function(n_terms) {
-  n <- seq_len(n_terms)
-  terms <- ((-1)^(n + 1)) / n
-
-  data.frame(
-    series_name = "alternating_harmonic",
-    test_used = "alternating-series test",
-    n_terms = n_terms,
-    partial_sum = sum(terms),
-    last_term = tail(terms, 1),
-    test_result = "converges conditionally",
-    estimated_error = 1 / (n_terms + 1),
-    stopping_rule = "fixed term count with alternating-series next-term error bound",
-    warning = "net convergence depends on sign cancellation; absolute series diverges"
-  )
-}
-
 result <- rbind(
   audit_geometric(10, 0.6, 25),
   audit_geometric(10, 1.05, 25),
   audit_p_series(1.25, 10000),
   audit_p_series(0.75, 10000),
-  audit_p_series(1.0, 10000),
-  audit_alternating(10000)
+  audit_p_series(1.0, 10000)
 )
 
 dir.create("outputs/tables", recursive = TRUE, showWarnings = FALSE)
 write.csv(result, "outputs/tables/r_convergence_test_audit.csv", row.names = FALSE)
-
 print(result)

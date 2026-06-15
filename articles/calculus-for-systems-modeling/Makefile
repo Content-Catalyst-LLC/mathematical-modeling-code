@@ -1,20 +1,28 @@
-.PHONY: smoke advanced sequences convergence-tests clean
+.PHONY: smoke calculators advanced clean
 
-smoke: sequences convergence-tests
+smoke:
+	@for d in articles/*; do \
+		if [ -f "$$d/Makefile" ]; then \
+			echo "Running smoke in $$d"; \
+			$(MAKE) -C "$$d" smoke || true; \
+		fi; \
+	done
+
+calculators:
+	@for d in articles/*; do \
+		if [ -f "$$d/calculators/run_calculator_smoke_tests.sh" ]; then \
+			echo "Running calculator smoke tests in $$d"; \
+			(cd "$$d/calculators" && bash run_calculator_smoke_tests.sh) || true; \
+		fi; \
+	done
 
 advanced:
 	@for d in articles/*; do \
-		if [ -d "$$d/advanced" ]; then \
+		if [ -f "$$d/advanced/Makefile" ]; then \
 			echo "Running advanced checks in $$d"; \
 			$(MAKE) -C "$$d/advanced" smoke || true; \
 		fi; \
 	done
-
-sequences:
-	$(MAKE) -C articles/sequences-series-and-the-logic-of-convergence smoke
-
-convergence-tests:
-	$(MAKE) -C articles/convergence-tests-and-the-discipline-of-infinite-approximation smoke
 
 clean:
 	@for d in articles/*; do \

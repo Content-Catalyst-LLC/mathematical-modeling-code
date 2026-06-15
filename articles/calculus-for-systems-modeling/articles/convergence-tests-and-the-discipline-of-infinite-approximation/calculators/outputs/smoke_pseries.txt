@@ -1,0 +1,14 @@
+{
+  "calculator": "pseries",
+  "inputs": {
+    "p": 1.25,
+    "terms": 1000
+  },
+  "interpretation": "The p-series test classifies convergence by p > 1.",
+  "result": {
+    "converges": true,
+    "last_term": 0.00017782794100389227,
+    "partial_sum": 3.8838889572741344
+  },
+  "warning": ""
+}

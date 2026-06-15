@@ -1,0 +1,23 @@
+{
+  "calculator": "finite-diff",
+  "inputs": {
+    "values": [
+      1.0,
+      2.0,
+      4.0,
+      7.0,
+      11.0
+    ]
+  },
+  "interpretation": "Finite differences approximate discrete change between adjacent observations.",
+  "result": {
+    "count": 4,
+    "differences": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ]
+  },
+  "warning": ""
+}

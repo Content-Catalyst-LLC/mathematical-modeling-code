@@ -1,0 +1,63 @@
+{
+  "article_slug": "convergence-tests-and-the-discipline-of-infinite-approximation",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {
+      "id": "geometric",
+      "title": "Geometric Series Calculator",
+      "description": "Computes finite partial sums, convergence classification, reference value, and tail error for geometric series."
+    },
+    {
+      "id": "pseries",
+      "title": "p-Series Calculator",
+      "description": "Computes p-series partial sums and classifies convergence according to p > 1."
+    },
+    {
+      "id": "alternating",
+      "title": "Alternating Harmonic Calculator",
+      "description": "Computes alternating-harmonic partial sums and next-term error bounds."
+    },
+    {
+      "id": "derivative",
+      "title": "Numerical Derivative Calculator",
+      "description": "Uses central finite differences for a default quadratic function."
+    },
+    {
+      "id": "integral",
+      "title": "Numerical Integral Calculator",
+      "description": "Uses the trapezoid rule for a default quadratic function."
+    },
+    {
+      "id": "euler",
+      "title": "Euler ODE Stepper",
+      "description": "Computes Euler steps for dx/dt = rate*x."
+    },
+    {
+      "id": "rk4",
+      "title": "Runge-Kutta RK4 ODE Stepper",
+      "description": "Computes RK4 steps for dx/dt = rate*x."
+    },
+    {
+      "id": "logistic",
+      "title": "Logistic Growth Calculator",
+      "description": "Computes discrete logistic growth trajectory."
+    },
+    {
+      "id": "finite-diff",
+      "title": "Finite Difference Calculator",
+      "description": "Computes first differences from comma-separated values."
+    },
+    {
+      "id": "sensitivity",
+      "title": "Parameter Sensitivity Sweep",
+      "description": "Sweeps a parameter range through a simple bounded-response model."
+    }
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

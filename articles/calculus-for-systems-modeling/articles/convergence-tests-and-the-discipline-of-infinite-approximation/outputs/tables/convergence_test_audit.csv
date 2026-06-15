@@ -1,7 +1,7 @@
 series_name,test_used,n_terms,partial_sum,last_term,test_result,estimated_error,stopping_rule,warning
 geometric_r_0.6,geometric-series test,25,24.999928924279924,4.7383813383216124e-05,converges by geometric-series test,7.107572007569729e-05,fixed term count with geometric tail check,
-geometric_r_1.05,geometric-series test,25,477.27098817987724,32.250999437137025,diverges or lacks geometric convergence,,fixed term count with geometric tail check,ratio magnitude is not below one
-harmonic,p-series test with p=1,10000,9.787606036044382,0.0001,diverges,,fixed term count; no finite infinite-total claim,terms approach zero but the series diverges
+geometric_r_1.05,geometric-series test,25,477.27098817987724,32.250999437137025,diverges or lacks geometric convergence,,fixed term count; no finite infinite-total claim,ratio magnitude is not below one
+p_series_1,p-series test,10000,9.787606036044382,0.0001,diverges,,fixed term count with p-series classification,p-series diverges for p less than or equal to one
 p_series_1.25,p-series test,10000,4.1951168257387765,1e-05,converges,,fixed term count with p-series classification,
 p_series_0.75,p-series test,10000,36.55921460680478,0.001,diverges,,fixed term count with p-series classification,p-series diverges for p less than or equal to one
-alternating_harmonic,alternating-series test,10000,0.6930971830599453,-0.0001,converges conditionally,9.999000099990002e-05,fixed term count with alternating-series next-term error bound,net convergence depends on sign cancellation; absolute series diverges
+alternating_harmonic,alternating-series test,10000,0.6930971830599453,-0.0001,converges conditionally,9.999000099990002e-05,fixed term count with next-term error bound,net convergence depends on sign cancellation; absolute series diverges

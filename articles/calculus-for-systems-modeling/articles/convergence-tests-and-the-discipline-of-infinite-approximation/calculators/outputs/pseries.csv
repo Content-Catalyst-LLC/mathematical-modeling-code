@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_p,input_terms,result_partial_sum,result_last_term,result_converges
+pseries,The p-series test classifies convergence by p > 1.,,1.25,1000,3.8838889572741344,0.00017782794100389227,True
