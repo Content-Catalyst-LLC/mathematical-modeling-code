@@ -1,0 +1,87 @@
+{
+  "advanced_standard": true,
+  "article": "Convergence Tests and the Discipline of Infinite Approximation",
+  "diagnostics": [
+    "test_selected",
+    "test_conditions",
+    "term_test",
+    "geometric_test",
+    "p_series_test",
+    "comparison_logic",
+    "ratio_root_inconclusive_cases",
+    "integral_tail_bounds",
+    "alternating_series_error_bound",
+    "absolute_vs_conditional_convergence",
+    "stopping_rule",
+    "remainder_estimate"
+  ],
+  "records": [
+    {
+      "estimated_error": 7.107572007569729e-05,
+      "last_term": 4.7383813383216124e-05,
+      "n_terms": 25,
+      "partial_sum": 24.999928924279924,
+      "series_name": "geometric_r_0.6",
+      "stopping_rule": "fixed term count with geometric tail check",
+      "test_result": "converges by geometric-series test",
+      "test_used": "geometric-series test",
+      "warning": ""
+    },
+    {
+      "estimated_error": null,
+      "last_term": 32.250999437137025,
+      "n_terms": 25,
+      "partial_sum": 477.27098817987724,
+      "series_name": "geometric_r_1.05",
+      "stopping_rule": "fixed term count with geometric tail check",
+      "test_result": "diverges or lacks geometric convergence",
+      "test_used": "geometric-series test",
+      "warning": "ratio magnitude is not below one"
+    },
+    {
+      "estimated_error": null,
+      "last_term": 0.0001,
+      "n_terms": 10000,
+      "partial_sum": 9.787606036044382,
+      "series_name": "harmonic",
+      "stopping_rule": "fixed term count; no finite infinite-total claim",
+      "test_result": "diverges",
+      "test_used": "p-series test with p=1",
+      "warning": "terms approach zero but the series diverges"
+    },
+    {
+      "estimated_error": null,
+      "last_term": 1e-05,
+      "n_terms": 10000,
+      "partial_sum": 4.1951168257387765,
+      "series_name": "p_series_1.25",
+      "stopping_rule": "fixed term count with p-series classification",
+      "test_result": "converges",
+      "test_used": "p-series test",
+      "warning": ""
+    },
+    {
+      "estimated_error": null,
+      "last_term": 0.001,
+      "n_terms": 10000,
+      "partial_sum": 36.55921460680478,
+      "series_name": "p_series_0.75",
+      "stopping_rule": "fixed term count with p-series classification",
+      "test_result": "diverges",
+      "test_used": "p-series test",
+      "warning": "p-series diverges for p less than or equal to one"
+    },
+    {
+      "estimated_error": 9.999000099990002e-05,
+      "last_term": -0.0001,
+      "n_terms": 10000,
+      "partial_sum": 0.6930971830599453,
+      "series_name": "alternating_harmonic",
+      "stopping_rule": "fixed term count with alternating-series next-term error bound",
+      "test_result": "converges conditionally",
+      "test_used": "alternating-series test",
+      "warning": "net convergence depends on sign cancellation; absolute series diverges"
+    }
+  ],
+  "warning": "A finite partial sum is not an infinite-series conclusion without test conditions and remainder logic."
+}

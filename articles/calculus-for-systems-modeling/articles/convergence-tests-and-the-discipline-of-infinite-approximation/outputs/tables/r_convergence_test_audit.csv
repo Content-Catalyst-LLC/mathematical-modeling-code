@@ -1,0 +1,7 @@
+"series_name","test_used","n_terms","partial_sum","last_term","test_result","estimated_error","stopping_rule","warning"
+"geometric_r_0.6","geometric-series test",25,24.9999289242799,4.73838133832161e-05,"converges by geometric-series test",7.10757200685919e-05,"fixed term count with geometric tail check",""
+"geometric_r_1.05","geometric-series test",25,477.270988179877,32.250999437137,"diverges or lacks geometric convergence",NA,"fixed term count with geometric tail check","ratio magnitude is not below one"
+"p_series_1.25","p-series test",10000,4.19511682573879,1e-05,"converges",NA,"fixed term count with p-series classification",""
+"p_series_0.75","p-series test",10000,36.559214606805,0.001,"diverges",NA,"fixed term count with p-series classification","p-series diverges for p less than or equal to one"
+"p_series_1","p-series test",10000,9.78760603604435,1e-04,"diverges",NA,"fixed term count with p-series classification","p-series diverges for p less than or equal to one"
+"alternating_harmonic","alternating-series test",10000,0.693097183059958,-1e-04,"converges conditionally",9.99900009999e-05,"fixed term count with alternating-series next-term error bound","net convergence depends on sign cancellation; absolute series diverges"

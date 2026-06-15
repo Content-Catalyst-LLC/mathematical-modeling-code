@@ -1,0 +1,26 @@
+section                             
+------------------------------------
+CONVERGENCE TEST ASSUMPTION REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Inconclusive result  Records when a test fails to classify convergence.            Prevents unsupported conclusions after an inconclusive test.  An inconclusive test should lead to another test or a limite
+                                                                                                                                                 d claim.                                                    
+
+Partial sum          Records the finite computation actually performed.            Separates computed finite totals from infinite limiting clai  A partial sum is not the same as an infinite series.        
+                                                                                   ms.                                                                                                                       
+
+Remainder estimate   Documents the omitted tail or error bound after truncation.   Supports responsible finite approximation.                    A small last term does not always bound the full tail.      
+
+Test conditions      Documents the assumptions required by the selected test.      Prevents tests from being applied outside their valid struct  A correct test used under false conditions gives misleading 
+                                                                                   ure.                                                          confidence.                                                 
+
+Test selected        Identifies which convergence test or bounding argument is us  Makes the infinite-approximation claim auditable.             A convergence claim without a named test or bound is weak.  
+                     ed.                                                                                                                                                                                     
+section                       
+------------------------------
+CONVERGENCE TEST AUDIT RECORDS
+series_name       test_used               n_terms  partial_sum  last_term  test_result                              estimated_error  stopping_rule                                     warning                                    
+----------------  ----------------------  -------  -----------  ---------  ---------------------------------------  ---------------  ------------------------------------------------  -------------------------------------------
+geometric_r_0.6   geometric-series test   25       24.999574    0.000284   converges by geometric-series test       0.000426         fixed term count with geometric tail check                                                   
+geometric_r_1.05  geometric-series test   25       477.270547   32.251002  diverges or lacks geometric convergence                   fixed term count with geometric tail check        ratio magnitude is not below one           
+harmonic          p-series test with p=1  10000    9.787606     0.0001     diverges                                                  fixed term count; no finite infinite-total claim  terms approach zero but the series diverges

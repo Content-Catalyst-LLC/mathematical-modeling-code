@@ -1,0 +1,57 @@
+{
+  "advanced_standard": true,
+  "article": "Convergence Tests and the Discipline of Infinite Approximation",
+  "condition_failures": [
+    {
+      "condition": "convergence test selected",
+      "passed": false,
+      "value": 0.0,
+      "warning": "infinite approximation lacks a named test or bound"
+    },
+    {
+      "condition": "test conditions verified",
+      "passed": false,
+      "value": 0.0,
+      "warning": "selected test conditions were not verified"
+    },
+    {
+      "condition": "term test not used backward",
+      "passed": false,
+      "value": 1.0,
+      "warning": "terms going to zero is not sufficient to prove convergence"
+    },
+    {
+      "condition": "remainder estimate documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "finite partial sum lacks tail or error estimate"
+    },
+    {
+      "condition": "inconclusive result handled",
+      "passed": false,
+      "value": 0.0,
+      "warning": "inconclusive test result was overread as a conclusion"
+    }
+  ],
+  "topics": [
+    "term_test",
+    "geometric_series",
+    "p_series",
+    "comparison_tests",
+    "limit_comparison",
+    "ratio_test",
+    "root_test",
+    "integral_test",
+    "alternating_series_test",
+    "absolute_vs_conditional_convergence",
+    "remainder_bounds",
+    "stopping_rules"
+  ],
+  "warnings": [
+    "Terms going to zero does not prove convergence.",
+    "A finite partial sum is not an infinite total.",
+    "Ratio and root tests can be inconclusive.",
+    "Conditional convergence may hide large gross activity.",
+    "A correct test used under false conditions gives misleading confidence."
+  ]
+}

@@ -1,6 +1,6 @@
-.PHONY: smoke advanced flow-to-stock convergence clean
+.PHONY: smoke advanced sequences convergence-tests clean
 
-smoke: flow-to-stock convergence
+smoke: sequences convergence-tests
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-flow-to-stock:
-	$(MAKE) -C articles/accumulation-exposure-and-flow-to-stock-reasoning smoke
-
-convergence:
+sequences:
 	$(MAKE) -C articles/sequences-series-and-the-logic-of-convergence smoke
+
+convergence-tests:
+	$(MAKE) -C articles/convergence-tests-and-the-discipline-of-infinite-approximation smoke
 
 clean:
 	@for d in articles/*; do \

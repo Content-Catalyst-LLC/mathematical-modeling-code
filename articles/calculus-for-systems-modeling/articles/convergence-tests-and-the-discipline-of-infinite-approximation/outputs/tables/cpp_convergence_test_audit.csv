@@ -1,0 +1,4 @@
+series_name,test_used,n_terms,partial_sum,last_term,test_result,estimated_error
+geometric_r_0.6,geometric-series test,25,24.999928924280,0.000047383813,converges by geometric-series test,0.000071075720
+p_series_1.25,p-series test,10000,4.195116825739,0.000010000000,converges,
+p_series_0.75,p-series test,10000,36.559214606805,0.001000000000,diverges,

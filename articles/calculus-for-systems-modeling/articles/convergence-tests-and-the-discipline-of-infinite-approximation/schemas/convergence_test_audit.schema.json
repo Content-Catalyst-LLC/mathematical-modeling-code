@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConvergenceTestAudit",
+  "type": "object",
+  "required": ["series_name", "test_used", "n_terms", "partial_sum", "last_term", "test_result", "stopping_rule", "warning"],
+  "properties": {
+    "series_name": {"type": "string"},
+    "test_used": {"type": "string"},
+    "n_terms": {"type": "integer"},
+    "partial_sum": {"type": "number"},
+    "last_term": {"type": "number"},
+    "test_result": {"type": "string"},
+    "estimated_error": {"type": ["number", "null"]},
+    "stopping_rule": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

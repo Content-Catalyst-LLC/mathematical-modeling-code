@@ -1,0 +1,4 @@
+series_name test_used n_terms partial_sum last_term test_result estimated_error
+geometric_r_0.6 geometric     25    24.999929     0.000047 converges     0.000071
+p_series_1.25 p-series  10000     4.195117     0.000010 converges
+p_series_0.75 p-series  10000    36.559215     0.001000 diverges

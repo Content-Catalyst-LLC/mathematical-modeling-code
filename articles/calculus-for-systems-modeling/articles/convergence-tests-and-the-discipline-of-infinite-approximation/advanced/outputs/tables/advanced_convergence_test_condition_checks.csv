@@ -1,0 +1,11 @@
+condition,value,passed,warning
+convergence test selected,1.0,True,
+convergence test selected,0.0,False,infinite approximation lacks a named test or bound
+test conditions verified,1.0,True,
+test conditions verified,0.0,False,selected test conditions were not verified
+term test not used backward,0.0,True,
+term test not used backward,1.0,False,terms going to zero is not sufficient to prove convergence
+remainder estimate documented,1.0,True,
+remainder estimate documented,0.0,False,finite partial sum lacks tail or error estimate
+inconclusive result handled,1.0,True,
+inconclusive result handled,0.0,False,inconclusive test result was overread as a conclusion

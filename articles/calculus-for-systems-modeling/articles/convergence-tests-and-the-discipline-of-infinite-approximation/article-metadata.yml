@@ -1,0 +1,22 @@
+actual_title: "Convergence Tests and the Discipline of Infinite Approximation"
+suggested_seo_title: "Convergence Tests and Infinite Approximation in Systems Modeling"
+focus_keyword: "convergence tests infinite approximation"
+slug: "convergence-tests-and-the-discipline-of-infinite-approximation"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "sequences-series-and-the-logic-of-convergence"
+  current: "convergence-tests-and-the-discipline-of-infinite-approximation"
+  next: "power-series-and-taylor-approximation"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/convergence-tests-and-the-discipline-of-infinite-approximation"
+tags:
+  - Calculus
+  - Convergence Tests
+  - Infinite Approximation
+  - Series
+  - Partial Sums
+  - Error Bounds
+  - Systems Modeling
+  - Numerical Interpretation
+excerpt_139_words: "Convergence tests provide the discipline that keeps infinite approximation from becoming unsupported extrapolation. This article treats tests for series and limiting processes as modeling tools for judging whether partial sums, tail estimates, iterative corrections, feedback effects, discounted futures, and numerical approximations can support stable conclusions. It explains the term test, geometric series, p-series, comparison tests, limit comparison, ratio and root tests, the integral test, alternating series, absolute convergence, conditional convergence, remainders, and stopping rules. In systems modeling, convergence tests help distinguish finite computations from justified infinite claims, small terms from small tails, and net cancellation from bounded total magnitude. The article emphasizes that every convergence claim should state the test used, the conditions checked, the finite approximation computed, the omitted remainder, and the practical meaning of convergence, divergence, or inconclusive evidence."
+advanced_standard: true
