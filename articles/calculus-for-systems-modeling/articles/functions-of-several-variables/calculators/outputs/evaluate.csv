@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_budget,result_output,result_feasible
+evaluate,The output is computed from a two-input response function with an interaction term.,,evaluate,4.0,3.0,10,24.0,True

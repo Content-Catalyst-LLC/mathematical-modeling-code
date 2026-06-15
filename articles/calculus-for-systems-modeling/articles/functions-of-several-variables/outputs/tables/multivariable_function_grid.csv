@@ -1,0 +1,37 @@
+x,y,output,feasible,warning
+0.0,0.0,0.0,True,
+0.0,2.0,4.0,True,
+0.0,4.0,8.0,True,
+0.0,6.0,12.0,True,
+0.0,8.0,16.0,True,
+0.0,10.0,20.0,True,
+2.0,0.0,6.0,True,
+2.0,2.0,12.0,True,
+2.0,4.0,18.0,True,
+2.0,6.0,24.0,True,
+2.0,8.0,30.0,True,
+2.0,10.0,36.0,False,Input combination is outside the feasible region.
+4.0,0.0,12.0,True,
+4.0,2.0,20.0,True,
+4.0,4.0,28.0,True,
+4.0,6.0,36.0,True,
+4.0,8.0,44.0,False,Input combination is outside the feasible region.
+4.0,10.0,52.0,False,Input combination is outside the feasible region.
+6.0,0.0,18.0,True,
+6.0,2.0,28.0,True,
+6.0,4.0,38.0,True,
+6.0,6.0,48.0,False,Input combination is outside the feasible region.
+6.0,8.0,58.0,False,Input combination is outside the feasible region.
+6.0,10.0,68.0,False,Input combination is outside the feasible region.
+8.0,0.0,24.0,True,
+8.0,2.0,36.0,True,
+8.0,4.0,48.0,False,Input combination is outside the feasible region.
+8.0,6.0,60.0,False,Input combination is outside the feasible region.
+8.0,8.0,72.0,False,Input combination is outside the feasible region.
+8.0,10.0,84.0,False,Input combination is outside the feasible region.
+10.0,0.0,30.0,True,
+10.0,2.0,44.0,False,Input combination is outside the feasible region.
+10.0,4.0,58.0,False,Input combination is outside the feasible region.
+10.0,6.0,72.0,False,Input combination is outside the feasible region.
+10.0,8.0,86.0,False,Input combination is outside the feasible region.
+10.0,10.0,100.0,False,Input combination is outside the feasible region.

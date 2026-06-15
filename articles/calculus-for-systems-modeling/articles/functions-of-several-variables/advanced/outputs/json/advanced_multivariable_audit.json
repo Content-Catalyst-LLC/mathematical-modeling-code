@@ -1,0 +1,23 @@
+{
+  "article": "Functions of Several Variables",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Computable input combinations may not be meaningful scenarios.",
+    "Feasible regions should be stated whenever inputs cannot vary independently.",
+    "Interaction terms should be identified and interpreted.",
+    "Surface and contour visualizations show selected dimensions, not the full system."
+  ]
+}

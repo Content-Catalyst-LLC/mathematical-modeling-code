@@ -1,0 +1,4 @@
+x,y,output,feasible,warning
+2.000000,4.000000,18.000000000000,1,
+8.000000,4.000000,48.000000000000,0,Input combination is outside the feasible region.
+6.000000,3.000000,33.000000000000,1,

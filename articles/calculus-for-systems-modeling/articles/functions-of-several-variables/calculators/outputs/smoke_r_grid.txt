@@ -1,0 +1,37 @@
+    x  y output feasible                                           warning
+1   0  0      0     TRUE                                                  
+2   2  0      6     TRUE                                                  
+3   4  0     12     TRUE                                                  
+4   6  0     18     TRUE                                                  
+5   8  0     24     TRUE                                                  
+6  10  0     30     TRUE                                                  
+7   0  2      4     TRUE                                                  
+8   2  2     12     TRUE                                                  
+9   4  2     20     TRUE                                                  
+10  6  2     28     TRUE                                                  
+11  8  2     36     TRUE                                                  
+12 10  2     44    FALSE Input combination is outside the feasible region.
+13  0  4      8     TRUE                                                  
+14  2  4     18     TRUE                                                  
+15  4  4     28     TRUE                                                  
+16  6  4     38     TRUE                                                  
+17  8  4     48    FALSE Input combination is outside the feasible region.
+18 10  4     58    FALSE Input combination is outside the feasible region.
+19  0  6     12     TRUE                                                  
+20  2  6     24     TRUE                                                  
+21  4  6     36     TRUE                                                  
+22  6  6     48    FALSE Input combination is outside the feasible region.
+23  8  6     60    FALSE Input combination is outside the feasible region.
+24 10  6     72    FALSE Input combination is outside the feasible region.
+25  0  8     16     TRUE                                                  
+26  2  8     30     TRUE                                                  
+27  4  8     44    FALSE Input combination is outside the feasible region.
+28  6  8     58    FALSE Input combination is outside the feasible region.
+29  8  8     72    FALSE Input combination is outside the feasible region.
+30 10  8     86    FALSE Input combination is outside the feasible region.
+31  0 10     20     TRUE                                                  
+32  2 10     36    FALSE Input combination is outside the feasible region.
+33  4 10     52    FALSE Input combination is outside the feasible region.
+34  6 10     68    FALSE Input combination is outside the feasible region.
+35  8 10     84    FALSE Input combination is outside the feasible region.
+36 10 10    100    FALSE Input combination is outside the feasible region.

@@ -1,0 +1,4 @@
+  calculator x y budget feasible remaining_budget
+1   feasible 8 4     10    FALSE               -2
+                                  warning
+1 Input combination violates constraints.

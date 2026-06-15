@@ -1,0 +1,2 @@
+  calculator x y budget output feasible warning
+1   evaluate 4 3     10     24     TRUE        

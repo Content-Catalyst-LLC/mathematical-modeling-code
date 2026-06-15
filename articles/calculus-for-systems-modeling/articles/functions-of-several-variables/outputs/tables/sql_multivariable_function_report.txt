@@ -1,0 +1,27 @@
+section                                   
+------------------------------------------
+MULTIVARIABLE FUNCTION ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Domain region          Defines the set of input combinations where the function is   Separates mathematically computable inputs from meaningful s  Outputs outside the modeling domain may be invalid even when
+                       defined.                                                      ystem scenarios.                                               the formula computes.                                      
+
+Feasible region        Records constraints on allowable input combinations.          Prevents impossible scenarios from being treated as valid mo  Inputs may be mathematically valid but infeasible under phys
+                                                                                     del outputs.                                                  ical budgetary or ethical constraints.                      
+
+Input definition       Defines each variable in the input space.                     Clarifies what each input represents in the modeled system.   A multivariable function should not be interpreted without c
+                                                                                                                                                   lear input definitions.                                     
+
+Interaction structure  Identifies whether input effects are additive multiplicative  Clarifies whether variables act independently or jointly.     Omitted interactions may distort system interpretation.     
+                        nonlinear or conditional.                                                                                                                                                              
+
+Local validity         Defines where the multivariable relationship is intended to   Prevents local response surfaces from being treated as globa  A function calibrated in one region may not be valid under e
+                       hold.                                                         l system truth.                                               xtrapolation.                                               
+section                     
+----------------------------
+MULTIVARIABLE FUNCTION CASES
+x    y    output  feasible  warning                                          
+---  ---  ------  --------  -------------------------------------------------
+2.0  4.0  18.0    1                                                          
+6.0  3.0  33.0    1                                                          
+8.0  4.0  48.0    0         Input combination is outside the feasible region.

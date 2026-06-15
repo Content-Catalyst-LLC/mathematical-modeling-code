@@ -1,0 +1,17 @@
+{
+  "calculator": "local-neighborhood",
+  "inputs": {
+    "center_x": 3.0,
+    "center_y": 3.0,
+    "command": "local-neighborhood",
+    "radius": 2.0,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Local-neighborhood checks help distinguish local interpretation from broader extrapolation.",
+  "result": {
+    "distance": 1.0,
+    "inside_neighborhood": true
+  },
+  "warning": ""
+}

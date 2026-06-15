@@ -1,0 +1,15 @@
+{
+  "calculator": "feasible",
+  "inputs": {
+    "budget": 10.0,
+    "command": "feasible",
+    "x": 8.0,
+    "y": 4.0
+  },
+  "interpretation": "Feasible-region checks prevent impossible input combinations from being treated as valid scenarios.",
+  "result": {
+    "feasible": false,
+    "remaining_budget": -2.0
+  },
+  "warning": "Input combination violates constraints."
+}

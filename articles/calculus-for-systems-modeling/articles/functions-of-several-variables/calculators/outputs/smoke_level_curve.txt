@@ -1,0 +1,16 @@
+{
+  "calculator": "level-curve",
+  "inputs": {
+    "command": "level-curve",
+    "max_x": 10.0,
+    "max_y": 10.0,
+    "step": 1.0,
+    "target": 30.0,
+    "tolerance": 1.0
+  },
+  "interpretation": "Level-curve candidates identify input combinations that produce approximately equal output.",
+  "result": {
+    "candidate_count": 4
+  },
+  "warning": ""
+}

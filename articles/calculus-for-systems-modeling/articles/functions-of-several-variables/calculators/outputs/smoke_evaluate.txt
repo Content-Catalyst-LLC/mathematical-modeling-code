@@ -1,0 +1,15 @@
+{
+  "calculator": "evaluate",
+  "inputs": {
+    "budget": 10,
+    "command": "evaluate",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "The output is computed from a two-input response function with an interaction term.",
+  "result": {
+    "feasible": true,
+    "output": 24.0
+  },
+  "warning": ""
+}

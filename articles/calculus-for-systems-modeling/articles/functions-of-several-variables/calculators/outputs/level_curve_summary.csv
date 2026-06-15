@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_target,input_max_x,input_max_y,input_step,input_tolerance,result_candidate_count
+level-curve,Level-curve candidates identify input combinations that produce approximately equal output.,,level-curve,30.0,10.0,10.0,1.0,1.0,4

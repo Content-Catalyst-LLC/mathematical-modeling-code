@@ -1,0 +1,14 @@
+{
+  "calculator": "partial-y",
+  "inputs": {
+    "command": "partial-y",
+    "h": 0.001,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Numerical partial derivatives approximate local sensitivity along one axis while holding the other input fixed.",
+  "result": {
+    "central_difference_partial": 3.999999999997783
+  },
+  "warning": ""
+}

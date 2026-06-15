@@ -1,0 +1,18 @@
+{
+  "article_slug": "functions-of-several-variables",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "evaluate", "title": "Multivariable Function Evaluator"},
+    {"id": "feasible", "title": "Feasible Region Checker"},
+    {"id": "grid", "title": "Input Grid Evaluator"},
+    {"id": "level-curve", "title": "Level Curve Finder"},
+    {"id": "interaction", "title": "Interaction Term Inspector"},
+    {"id": "local-neighborhood", "title": "Local Neighborhood Checker"},
+    {"id": "partial-x", "title": "Partial Derivative in x"},
+    {"id": "partial-y", "title": "Partial Derivative in y"},
+    {"id": "sensitivity", "title": "One-Input Sensitivity Sweep"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {"synthetic_examples": true, "requires_interpretation": true, "safe_for_future_widget_wrapping": true}
+}

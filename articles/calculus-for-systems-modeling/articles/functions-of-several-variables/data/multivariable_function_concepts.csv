@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+input_definition,Input definition,Defines each variable in the input space,Clarifies what each input represents,A multivariable function should not be interpreted without clear input definitions
+domain_region,Domain region,Defines input combinations where the function is defined,Separates computable inputs from meaningful scenarios,Outputs outside the modeling domain may be invalid even when the formula computes
+feasible_region,Feasible region,Records constraints on allowable input combinations,Prevents impossible scenarios from being treated as valid outputs,Inputs may be mathematically valid but physically or ethically infeasible
+interaction_structure,Interaction structure,Identifies combined effects,Clarifies whether variables act independently or jointly,Omitted interactions may distort system interpretation
+level_curve,Level curve,Identifies input combinations that produce equal output,Supports tradeoff threshold and contour reasoning,Contours require domain and feasibility interpretation
+local_validity,Local validity,Defines where the relationship is intended to hold,Prevents local response surfaces from becoming global truth,A function calibrated in one region may not be valid under extrapolation

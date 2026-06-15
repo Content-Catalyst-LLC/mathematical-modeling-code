@@ -1,0 +1,8 @@
+condition,passed,warning
+input definitions included,True,
+domain review included,True,
+feasible-region check included,True,
+interaction term included,True,
+local validity warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,

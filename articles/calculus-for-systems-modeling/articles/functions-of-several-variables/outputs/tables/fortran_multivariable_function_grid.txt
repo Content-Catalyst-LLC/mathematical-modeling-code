@@ -1,0 +1,4 @@
+x y output feasible
+   2.000    4.000    18.000000 feasible
+   8.000    4.000    48.000000 infeasible
+   6.000    3.000    33.000000 feasible

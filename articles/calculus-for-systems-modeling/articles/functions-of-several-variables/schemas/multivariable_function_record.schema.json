@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MultivariableFunctionRecord",
+  "type": "object",
+  "required": ["x", "y", "output", "feasible", "warning"],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "output": {"type": "number"},
+    "feasible": {"type": "boolean"},
+    "warning": {"type": "string"}
+  }
+}

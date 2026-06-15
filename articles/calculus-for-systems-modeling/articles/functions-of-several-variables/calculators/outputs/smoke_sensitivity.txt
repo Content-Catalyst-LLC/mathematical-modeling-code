@@ -1,0 +1,17 @@
+{
+  "calculator": "sensitivity",
+  "inputs": {
+    "command": "sensitivity",
+    "samples": 10,
+    "x_max": 10.0,
+    "x_min": 0.0,
+    "y": 3.0
+  },
+  "interpretation": "A one-input sensitivity sweep varies x while holding y fixed.",
+  "result": {
+    "max_output": 51.0,
+    "min_output": 6.0,
+    "rows_written": 10
+  },
+  "warning": ""
+}

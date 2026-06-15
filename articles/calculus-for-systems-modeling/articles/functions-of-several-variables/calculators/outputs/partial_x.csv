@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_h,result_central_difference_partial
+partial-x,Numerical partial derivatives approximate local sensitivity along one axis while holding the other input fixed.,,partial-x,4.0,3.0,0.001,4.5000000000001705

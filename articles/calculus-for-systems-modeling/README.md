@@ -2,20 +2,10 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, integration, improper integrals, accumulation, exposure, flow-to-stock reasoning, sequences, series, convergence, convergence tests, power series, functional representation, Taylor and Maclaurin approximation, approximation error, multivariable calculus, numerical methods, calculators, and responsible mathematical interpretation.
-
-## Nested article folders
-
 Article-specific code lives under:
 
 ```text
 articles/calculus-for-systems-modeling/articles/
 ```
 
-## Calculator standard
-
-All new article folders should include a reusable `calculators/` layer with Python and R command-line calculators, a manifest, smoke tests, and output folders.
-
-## Multilanguage standard
-
-Article folders should preserve the full computational standard: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas, advanced audit logic, and calculators.
+Full article folders preserve Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas, advanced audit logic, and calculators.
