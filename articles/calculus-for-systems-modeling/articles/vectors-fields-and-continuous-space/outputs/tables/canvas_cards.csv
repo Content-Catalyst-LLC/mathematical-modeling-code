@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+vector-components,Vector Components,formal concept,95,active,2026-06-15,"Document component units, coordinate convention, magnitude, and direction."
+scalar-field,Scalar Field,spatial concept,96,active,2026-06-15,"State scalar units, field source, domain, and interpolation assumptions."
+vector-field,Vector Field,spatial concept,96,active,2026-06-15,"State vector components, magnitude units, direction convention, and domain validity."
+field-domain,Field Domain,boundary,94,review,2026-06-15,"Field claims require explicit region, boundary, and valid coordinate system."
+field-resolution,Field Resolution,computation,92,review,2026-06-15,"Report grid spacing, sensor density, mesh structure, or raster resolution."

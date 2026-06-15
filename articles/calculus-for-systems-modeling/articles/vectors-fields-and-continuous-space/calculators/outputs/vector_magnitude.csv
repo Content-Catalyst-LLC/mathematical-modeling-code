@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_vx,input_vy,result_magnitude
+vector-magnitude,Computes vector magnitude from components.,,vector-magnitude,3.0,4.0,5.0

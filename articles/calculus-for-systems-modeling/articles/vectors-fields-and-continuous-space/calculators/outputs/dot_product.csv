@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_ax,input_ay,input_bx,input_by,result_dot_product
+dot-product,Measures directional alignment between two vectors.,,dot-product,1.0,2.0,3.0,4.0,11.0

@@ -37,5 +37,6 @@ V Multivariable Calculus,34,hessians-curvature-and-local-structure,"Hessians, Cu
 V Multivariable Calculus,35,constrained-optimization-and-lagrange-multipliers,Constrained Optimization and Lagrange Multipliers,active,articles/constrained-optimization-and-lagrange-multipliers,upgraded,included
 V Multivariable Calculus,36,multiple-integrals-and-spatial-accumulation,Multiple Integrals and Spatial Accumulation,active,articles/multiple-integrals-and-spatial-accumulation,upgraded,included
 V Multivariable Calculus,37,change-of-variables-in-multidimensional-systems,Change of Variables in Multidimensional Systems,active,articles/change-of-variables-in-multidimensional-systems,upgraded,included
-V Multivariable Calculus,38,vectors-fields-and-continuous-space,"Vectors, Fields, and Continuous Space",planned,articles/vectors-fields-and-continuous-space,required,required
-V Multivariable Calculus,39,vector-valued-functions-and-motion,Vector-Valued Functions and Motion,planned,articles/vector-valued-functions-and-motion,required,required
+VI Vector Calculus and Continuous Space,38,vectors-fields-and-continuous-space,"Vectors, Fields, and Continuous Space",active,articles/vectors-fields-and-continuous-space,upgraded,included
+VI Vector Calculus and Continuous Space,39,vector-valued-functions-and-motion,Vector-Valued Functions and Motion,planned,articles/vector-valued-functions-and-motion,required,required
+VI Vector Calculus and Continuous Space,40,line-integrals-and-paths-through-space,Line Integrals and Paths Through Space,planned,articles/line-integrals-and-paths-through-space,required,required

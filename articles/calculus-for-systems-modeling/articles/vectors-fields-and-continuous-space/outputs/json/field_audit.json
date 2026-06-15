@@ -1,0 +1,38 @@
+[
+  {
+    "domain_description": "square domain [-3,3] x [-3,3]",
+    "grid_step": 1.0,
+    "point_count": 49,
+    "scalar_average": 22.0,
+    "scalar_maximum": 26.318594853651362,
+    "scalar_minimum": 18.181405146348638,
+    "scenario": "coarse_grid",
+    "vector_magnitude_average": 2.6524959347349295,
+    "vector_magnitude_maximum": 4.242640687119285,
+    "warning": "Grid resolution is coarse; field structure may be undersampled."
+  },
+  {
+    "domain_description": "square domain [-3,3] x [-3,3]",
+    "grid_step": 0.5,
+    "point_count": 169,
+    "scalar_average": 21.75,
+    "scalar_maximum": 26.49498997320811,
+    "scalar_minimum": 18.00501002679189,
+    "scenario": "medium_grid",
+    "vector_magnitude_average": 2.480556576606895,
+    "vector_magnitude_maximum": 4.242640687119285,
+    "warning": "Synthetic field audit; document domain, units, and interpolation assumptions."
+  },
+  {
+    "domain_description": "square domain [-3,3] x [-3,3]",
+    "grid_step": 0.25,
+    "point_count": 625,
+    "scalar_average": 21.625,
+    "scalar_maximum": 26.49498997320811,
+    "scalar_minimum": 18.00501002679189,
+    "scenario": "fine_grid",
+    "vector_magnitude_average": 2.389675939798658,
+    "vector_magnitude_maximum": 4.242640687119285,
+    "warning": "Synthetic field audit; document domain, units, and interpolation assumptions."
+  }
+]

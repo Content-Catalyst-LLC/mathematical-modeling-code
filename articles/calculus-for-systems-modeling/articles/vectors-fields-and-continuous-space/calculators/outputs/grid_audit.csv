@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_point_count,result_scalar_average,result_scalar_minimum,result_scalar_maximum,result_vector_magnitude_average,result_vector_magnitude_maximum
+grid-audit,Audits scalar and vector values across a grid.,,grid-audit,0.5,169,21.75,18.00501002679189,26.49498997320811,2.480556576606895,4.242640687119285

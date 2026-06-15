@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_magnitude,input_angle_degrees,result_vx,result_vy
+vector-components,Computes vector components from magnitude and angle.,,vector-components,5.0,53.130102354,3.0000000000108895,3.9999999999918328

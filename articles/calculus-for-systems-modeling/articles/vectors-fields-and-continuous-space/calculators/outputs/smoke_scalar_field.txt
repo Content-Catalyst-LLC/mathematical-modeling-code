@@ -1,0 +1,13 @@
+{
+  "calculator": "scalar-field",
+  "inputs": {
+    "command": "scalar-field",
+    "x": 1.0,
+    "y": 2.0
+  },
+  "interpretation": "Evaluates the synthetic scalar field.",
+  "result": {
+    "scalar_value": 23.682941969615793
+  },
+  "warning": ""
+}

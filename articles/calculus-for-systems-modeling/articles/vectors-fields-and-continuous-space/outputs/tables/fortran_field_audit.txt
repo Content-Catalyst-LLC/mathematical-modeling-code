@@ -1,0 +1,4 @@
+scenario grid_step point_count scalar_average scalar_minimum scalar_maximum vector_magnitude_average vector_magnitude_maximum domain warning
+coarse_grid    1.000       49     22.000000     18.181405     26.318595      2.652496      4.242641 square_domain coarse_grid
+medium_grid    0.500      169     21.750000     18.005010     26.494990      2.480557      4.242641 square_domain synthetic_field_audit
+fine_grid    0.250      625     21.625000     18.005010     26.494990      2.389676      4.242641 square_domain synthetic_field_audit

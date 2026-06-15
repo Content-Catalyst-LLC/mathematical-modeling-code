@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FieldAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "grid_step", "point_count", "scalar_average",
+    "scalar_minimum", "scalar_maximum", "vector_magnitude_average",
+    "vector_magnitude_maximum", "domain_description", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "grid_step": {"type": "number"},
+    "point_count": {"type": "integer"},
+    "scalar_average": {"type": "number"},
+    "scalar_minimum": {"type": "number"},
+    "scalar_maximum": {"type": "number"},
+    "vector_magnitude_average": {"type": "number"},
+    "vector_magnitude_maximum": {"type": "number"},
+    "domain_description": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

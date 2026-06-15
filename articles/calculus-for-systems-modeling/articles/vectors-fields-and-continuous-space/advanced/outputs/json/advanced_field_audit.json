@@ -1,0 +1,25 @@
+{
+  "article": "Vectors, Fields, and Continuous Space",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Field claims require explicit domain and units.",
+    "Vector component interpretation depends on coordinate convention.",
+    "Continuous fields can hide discontinuities, boundaries, and network structure.",
+    "Grid resolution can hide hotspots or directional changes.",
+    "Field visualizations should not be interpreted as more precise than the model supports."
+  ]
+}

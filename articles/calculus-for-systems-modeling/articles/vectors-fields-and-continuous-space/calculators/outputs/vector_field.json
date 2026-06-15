@@ -1,0 +1,14 @@
+{
+  "calculator": "vector-field",
+  "inputs": {
+    "command": "vector-field",
+    "x": 1.0,
+    "y": 2.0
+  },
+  "interpretation": "Evaluates the synthetic vector field.",
+  "result": {
+    "vx": -2.0,
+    "vy": 1.0
+  },
+  "warning": ""
+}

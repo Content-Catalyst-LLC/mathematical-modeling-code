@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+vector,Vector,Represents magnitude and direction,Describes velocity force displacement flow or directional change,Component meaning depends on coordinate convention and units
+scalar_field,Scalar field,Assigns a scalar value to each point in a domain,Represents temperature density exposure risk pressure cost or suitability,Scalar units and source assumptions must be documented
+vector_field,Vector field,Assigns a vector to each point in a domain,Represents velocity flow force displacement or direction of change,Vector component units and coordinate conventions must be documented
+domain_definition,Domain definition,Specifies where the field is defined,Determines what spatial region or state space the model covers,Field claims are incomplete without a valid domain
+grid_resolution,Grid resolution,Defines computational sampling of a continuous field,Shapes how field structure appears in numerical outputs,Coarse grids may hide hotspots discontinuities or directional changes
+smoothness_assumption,Smoothness assumption,Allows derivatives gradients and continuous spatial reasoning,Supports calculus-based field analysis,Smooth field assumptions may hide thresholds breaks or network boundaries
+visualization_choice,Visualization choice,Maps field values to arrows contours streamlines surfaces or colors,Communicates field structure,Visual choices can exaggerate or hide variation

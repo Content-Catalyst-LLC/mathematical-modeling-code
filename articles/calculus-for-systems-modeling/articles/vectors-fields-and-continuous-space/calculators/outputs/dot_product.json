@@ -1,0 +1,15 @@
+{
+  "calculator": "dot-product",
+  "inputs": {
+    "ax": 1.0,
+    "ay": 2.0,
+    "bx": 3.0,
+    "by": 4.0,
+    "command": "dot-product"
+  },
+  "interpretation": "Measures directional alignment between two vectors.",
+  "result": {
+    "dot_product": 11.0
+  },
+  "warning": ""
+}

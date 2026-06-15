@@ -1,0 +1,35 @@
+section                  
+-------------------------
+FIELD ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Domain definition        Specifies where the scalar or vector field is defined.        Determines what spatial region or state space the model cove  Field claims are incomplete without a valid domain.         
+                                                                                       rs.                                                                                                                       
+
+Grid resolution          Defines computational sampling of a continuous field.         Shapes how field structure appears in numerical outputs.      Coarse grids may hide local hotspots discontinuities or dire
+                                                                                                                                                     ctional changes.                                            
+
+Scalar field definition  Assigns a scalar value to each point in a domain.             Represents temperature density exposure risk pressure cost o  Scalar units and source assumptions must be documented.     
+                                                                                       r suitability.                                                                                                            
+
+Smoothness assumption    Allows derivatives gradients and continuous spatial reasonin  Supports calculus-based field analysis.                       Smooth field assumptions may hide thresholds breaks or netwo
+                         g.                                                                                                                          rk boundaries.                                              
+
+Vector field definition  Assigns a vector to each point in a domain.                   Represents velocity flow force displacement or direction of   Vector component units and coordinate conventions must be do
+                                                                                       change.                                                       cumented.                                                   
+
+Visualization choice     Maps field values to arrows contours streamlines surfaces or  Communicates field structure.                                 Visual choices can exaggerate or hide variation.            
+                          colors.                                                                                                                                                                                
+section          
+-----------------
+FIELD AUDIT CASES
+scenario     grid_step  point_count  scalar_average  vector_magnitude_average  vector_magnitude_maximum  warning                                                     
+-----------  ---------  -----------  --------------  ------------------------  ------------------------  ------------------------------------------------------------
+coarse_grid  1.0        49           21.999          2.7                       4.242641                  Grid resolution is coarse; field structure may be undersampl
+                                                                                                         ed.                                                         
+
+medium_grid  0.5        169          21.75           2.52                      4.242641                  Synthetic field audit; document domain units and interpolati
+                                                                                                         on assumptions.                                             
+
+fine_grid    0.25       625          21.625          2.42                      4.242641                  Synthetic field audit; document domain units and interpolati
+                                                                                                         on assumptions.                                             

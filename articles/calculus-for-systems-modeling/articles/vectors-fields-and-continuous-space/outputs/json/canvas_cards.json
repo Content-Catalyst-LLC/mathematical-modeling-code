@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "vector-components",
+    "category": "formal concept",
+    "governance_note": "Document component units, coordinate convention, magnitude, and direction.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Vector Components"
+  },
+  {
+    "card_id": "scalar-field",
+    "category": "spatial concept",
+    "governance_note": "State scalar units, field source, domain, and interpolation assumptions.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Scalar Field"
+  },
+  {
+    "card_id": "vector-field",
+    "category": "spatial concept",
+    "governance_note": "State vector components, magnitude units, direction convention, and domain validity.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Vector Field"
+  },
+  {
+    "card_id": "field-domain",
+    "category": "boundary",
+    "governance_note": "Field claims require explicit region, boundary, and valid coordinate system.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Field Domain"
+  },
+  {
+    "card_id": "field-resolution",
+    "category": "computation",
+    "governance_note": "Report grid spacing, sensor density, mesh structure, or raster resolution.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Field Resolution"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "calculator": "unit-vector",
+  "inputs": {
+    "command": "unit-vector",
+    "vx": 3.0,
+    "vy": 4.0
+  },
+  "interpretation": "Computes a unit vector in the same direction.",
+  "result": {
+    "magnitude": 5.0,
+    "ux": 0.6,
+    "uy": 0.8
+  },
+  "warning": ""
+}

@@ -1,0 +1,23 @@
+{
+  "article_slug": "vectors-fields-and-continuous-space",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "vector-magnitude", "title": "Vector Magnitude"},
+    {"id": "vector-components", "title": "Components from Magnitude and Angle"},
+    {"id": "dot-product", "title": "Dot Product"},
+    {"id": "scalar-field", "title": "Scalar Field Evaluator"},
+    {"id": "vector-field", "title": "Vector Field Evaluator"},
+    {"id": "field-magnitude", "title": "Vector Field Magnitude"},
+    {"id": "grid-audit", "title": "Field Grid Audit"},
+    {"id": "resolution-scan", "title": "Resolution Sensitivity Scan"},
+    {"id": "unit-vector", "title": "Unit Vector"},
+    {"id": "projection", "title": "Vector Projection"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

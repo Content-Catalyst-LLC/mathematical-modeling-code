@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_vx,input_vy,result_ux,result_uy,result_magnitude
+unit-vector,Computes a unit vector in the same direction.,,unit-vector,3.0,4.0,0.6,0.8,5.0

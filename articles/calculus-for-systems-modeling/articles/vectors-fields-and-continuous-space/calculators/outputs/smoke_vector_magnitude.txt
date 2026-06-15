@@ -1,0 +1,13 @@
+{
+  "calculator": "vector-magnitude",
+  "inputs": {
+    "command": "vector-magnitude",
+    "vx": 3.0,
+    "vy": 4.0
+  },
+  "interpretation": "Computes vector magnitude from components.",
+  "result": {
+    "magnitude": 5.0
+  },
+  "warning": ""
+}

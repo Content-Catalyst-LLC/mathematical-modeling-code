@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_cases
+resolution-scan,Scans field diagnostics across grid resolutions.,Resolution can change field summaries.,resolution-scan,3

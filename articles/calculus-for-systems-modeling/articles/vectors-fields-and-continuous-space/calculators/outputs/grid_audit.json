@@ -1,0 +1,17 @@
+{
+  "calculator": "grid-audit",
+  "inputs": {
+    "command": "grid-audit",
+    "step": 0.5
+  },
+  "interpretation": "Audits scalar and vector values across a grid.",
+  "result": {
+    "point_count": 169,
+    "scalar_average": 21.75,
+    "scalar_maximum": 26.49498997320811,
+    "scalar_minimum": 18.00501002679189,
+    "vector_magnitude_average": 2.480556576606895,
+    "vector_magnitude_maximum": 4.242640687119285
+  },
+  "warning": ""
+}

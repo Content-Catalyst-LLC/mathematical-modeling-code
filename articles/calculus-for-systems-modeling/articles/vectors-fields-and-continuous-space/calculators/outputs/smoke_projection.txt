@@ -1,0 +1,17 @@
+{
+  "calculator": "projection",
+  "inputs": {
+    "ax": 3.0,
+    "ay": 4.0,
+    "bx": 1.0,
+    "by": 0.0,
+    "command": "projection"
+  },
+  "interpretation": "Projects vector a onto vector b.",
+  "result": {
+    "projection_x": 3.0,
+    "projection_y": 0.0,
+    "scale": 3.0
+  },
+  "warning": ""
+}

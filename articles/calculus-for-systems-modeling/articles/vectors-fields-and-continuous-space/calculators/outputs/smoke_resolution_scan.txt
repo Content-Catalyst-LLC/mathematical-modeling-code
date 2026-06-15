@@ -1,0 +1,45 @@
+{
+  "calculator": "resolution-scan",
+  "inputs": {
+    "command": "resolution-scan",
+    "steps": [
+      1.0,
+      0.5,
+      0.25
+    ]
+  },
+  "interpretation": "Scans field diagnostics across grid resolutions.",
+  "result": {
+    "cases": 3,
+    "scan": [
+      {
+        "point_count": 49,
+        "scalar_average": 22.0,
+        "scalar_maximum": 26.318594853651362,
+        "scalar_minimum": 18.181405146348638,
+        "step": 1.0,
+        "vector_magnitude_average": 2.6524959347349295,
+        "vector_magnitude_maximum": 4.242640687119285
+      },
+      {
+        "point_count": 169,
+        "scalar_average": 21.75,
+        "scalar_maximum": 26.49498997320811,
+        "scalar_minimum": 18.00501002679189,
+        "step": 0.5,
+        "vector_magnitude_average": 2.480556576606895,
+        "vector_magnitude_maximum": 4.242640687119285
+      },
+      {
+        "point_count": 625,
+        "scalar_average": 21.625,
+        "scalar_maximum": 26.49498997320811,
+        "scalar_minimum": 18.00501002679189,
+        "step": 0.25,
+        "vector_magnitude_average": 2.389675939798658,
+        "vector_magnitude_maximum": 4.242640687119285
+      }
+    ]
+  },
+  "warning": "Resolution can change field summaries."
+}

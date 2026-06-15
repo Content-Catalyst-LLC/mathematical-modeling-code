@@ -1,0 +1,10 @@
+condition,passed,warning
+vector components documented,True,
+scalar field documented,True,
+vector field documented,True,
+domain and coordinate convention documented,True,
+grid resolution warnings included,True,
+smoothness assumption warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

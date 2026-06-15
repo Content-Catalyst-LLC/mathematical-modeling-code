@@ -1,0 +1,15 @@
+{
+  "calculator": "field-magnitude",
+  "inputs": {
+    "command": "field-magnitude",
+    "x": 1.0,
+    "y": 2.0
+  },
+  "interpretation": "Computes vector-field magnitude at a point.",
+  "result": {
+    "magnitude": 2.23606797749979,
+    "vx": -2.0,
+    "vy": 1.0
+  },
+  "warning": ""
+}

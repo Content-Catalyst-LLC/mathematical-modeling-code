@@ -1,0 +1,14 @@
+{
+  "calculator": "vector-components",
+  "inputs": {
+    "angle_degrees": 53.130102354,
+    "command": "vector-components",
+    "magnitude": 5.0
+  },
+  "interpretation": "Computes vector components from magnitude and angle.",
+  "result": {
+    "vx": 3.0000000000108895,
+    "vy": 3.9999999999918328
+  },
+  "warning": ""
+}

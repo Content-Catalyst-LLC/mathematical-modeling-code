@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_vx,result_vy,result_magnitude
+field-magnitude,Computes vector-field magnitude at a point.,,field-magnitude,1.0,2.0,-2.0,1.0,2.23606797749979

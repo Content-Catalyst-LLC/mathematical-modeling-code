@@ -1,0 +1,2 @@
+        calculator vx vy magnitude
+1 vector-magnitude  3  4         5

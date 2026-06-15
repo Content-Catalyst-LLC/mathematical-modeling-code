@@ -1,0 +1,4 @@
+scenario,grid_step,point_count,scalar_average,scalar_minimum,scalar_maximum,vector_magnitude_average,vector_magnitude_maximum,domain_description,warning
+coarse_grid,1.000000000000,49,22.000000000000,18.181405146349,26.318594853651,2.652495934735,4.242640687119,square domain [-3,3] x [-3,3],Grid resolution is coarse; field structure may be undersampled.
+medium_grid,0.500000000000,169,21.750000000000,18.005010026792,26.494989973208,2.480556576607,4.242640687119,square domain [-3,3] x [-3,3],Synthetic field audit; document domain units and interpolation assumptions.
+fine_grid,0.250000000000,625,21.625000000000,18.005010026792,26.494989973208,2.389675939799,4.242640687119,square domain [-3,3] x [-3,3],Synthetic field audit; document domain units and interpolation assumptions.
