@@ -1,0 +1,4 @@
+"scenario","segment_count","approximate_flux","approximate_circulation","mean_tangential_alignment","mean_normal_alignment","field_description","geometry_description","warning"
+"coarse_circle",16,0,6.12293491784144,0.98078528040323,0,"rotating field F=<-y,x>","counterclockwise circle with radius 1","Coarse path sampling; circulation and flux should be checked with more segments."
+"medium_circle",64,0,6.27309698109188,0.998795456205172,0,"rotating field F=<-y,x>","counterclockwise circle with radius 1","Synthetic flow audit; document field meaning, orientation, units, and boundary choice."
+"fine_circle",256,0,6.28255450186552,0.999924701839145,0,"rotating field F=<-y,x>","counterclockwise circle with radius 1","Synthetic flow audit; document field meaning, orientation, units, and boundary choice."

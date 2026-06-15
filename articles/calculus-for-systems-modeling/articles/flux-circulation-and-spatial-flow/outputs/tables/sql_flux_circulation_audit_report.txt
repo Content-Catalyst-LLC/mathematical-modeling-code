@@ -1,0 +1,35 @@
+section                 
+------------------------
+FLOW ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary meaning         Connects geometry to a system boundary or pathway.            Supports responsible interpretation of crossing looping or e  Arbitrary boundaries can answer irrelevant questions.       
+                                                                                       xchange.                                                                                                                  
+
+Curve orientation        Defines positive direction for circulation.                   Determines whether loop flow is counted as positive or negat  Reversing path direction reverses circulation sign.         
+                                                                                       ive.                                                                                                                      
+
+Normal orientation       Defines positive direction for flux.                          Determines whether crossing is interpreted as inflow or outf  Reversing the normal reverses flux sign.                    
+                                                                                       low.                                                                                                                      
+
+Sampling resolution      Defines curve segments or surface patches used in numerical   Shapes computed flux and circulation values.                  Coarse sampling may miss local flow variation.              
+                         approximation.                                                                                                                                                                          
+
+Surface boundary         Defines where flux crossing is measured.                      Represents a control surface system boundary envelope thresh  Flux answers a boundary-crossing question only if the bounda
+                                                                                       old or interface.                                             ry is meaningful.                                           
+
+Vector field definition  Defines the field used for flux and circulation.              Determines what movement force pressure transport or tendenc  Flux and circulation are not interpretable without meaningfu
+                                                                                       y means.                                                      l vector components and units.                              
+section         
+----------------
+FLOW AUDIT CASES
+scenario       segment_count  approximate_flux  approximate_circulation  mean_tangential_alignment  mean_normal_alignment  warning                                                     
+-------------  -------------  ----------------  -----------------------  -------------------------  ---------------------  ------------------------------------------------------------
+coarse_circle  16             0.0               6.122                    0.98                       0.0                    Coarse path sampling; circulation and flux should be checked
+                                                                                                                            with more segments.                                        
+
+medium_circle  64             0.0               6.273                    0.998                      0.0                    Synthetic flow audit; document field meaning orientation uni
+                                                                                                                           ts and boundary choice.                                     
+
+fine_circle    256            0.0               6.282                    1.0                        0.0                    Synthetic flow audit; document field meaning orientation uni
+                                                                                                                           ts and boundary choice.                                     

@@ -1,0 +1,22 @@
+{
+  "article_slug": "flux-circulation-and-spatial-flow",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "flux-circulation-spatial-flow",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "flux", "title": "Flux", "description": "Vector-field crossing through an oriented surface or boundary."},
+    {"card_id": "circulation", "title": "Circulation", "description": "Vector-field alignment around an oriented closed curve."},
+    {"card_id": "orientation", "title": "Orientation", "description": "Normal direction and path direction determine signs."},
+    {"card_id": "sampling-resolution", "title": "Sampling Resolution", "description": "Path segments and surface patches shape numerical estimates."},
+    {"card_id": "boundary-meaning", "title": "Boundary Meaning", "description": "Geometry must match the modeled system question."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

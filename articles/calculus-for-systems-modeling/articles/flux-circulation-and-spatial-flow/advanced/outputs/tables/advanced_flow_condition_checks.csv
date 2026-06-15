@@ -1,0 +1,10 @@
+condition,passed,warning
+vector field definition documented,True,
+flux and circulation distinction included,True,
+orientation and sign convention included,True,
+boundary meaning warning included,True,
+sampling resolution warning included,True,
+divergence and curl theorem connection included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

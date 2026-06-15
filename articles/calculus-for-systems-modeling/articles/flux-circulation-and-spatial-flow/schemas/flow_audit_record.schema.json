@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FlowAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "segment_count", "approximate_flux", "approximate_circulation",
+    "mean_tangential_alignment", "mean_normal_alignment", "field_description",
+    "geometry_description", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "segment_count": {"type": "integer"},
+    "approximate_flux": {"type": "number"},
+    "approximate_circulation": {"type": "number"},
+    "mean_tangential_alignment": {"type": "number"},
+    "mean_normal_alignment": {"type": "number"},
+    "field_description": {"type": "string"},
+    "geometry_description": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "calculator": "normal-alignment",
+  "inputs": {
+    "command": "normal-alignment",
+    "x": 1.0,
+    "y": 0.0
+  },
+  "interpretation": "Measures field alignment with outward radial normal.",
+  "result": {
+    "normal_alignment": 0.0
+  },
+  "warning": ""
+}

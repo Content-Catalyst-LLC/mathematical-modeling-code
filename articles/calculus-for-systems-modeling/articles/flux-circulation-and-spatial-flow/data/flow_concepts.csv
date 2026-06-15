@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+vector_field_definition,Vector field definition,Defines the field used for flux and circulation,Determines what movement force pressure transport or tendency means,Flux and circulation require meaningful vector components and units
+flux,Flux,Measures vector-field crossing through an oriented surface,Supports outflow inflow exchange transport and boundary crossing,Flux depends on surface choice normal direction and units
+circulation,Circulation,Measures vector-field alignment around a curve,Supports loop movement rotation eddies feedback and cyclic structure,Circulation depends on path orientation and sampling resolution
+normal_orientation,Normal orientation,Defines positive direction for flux,Determines whether crossing is interpreted as inflow or outflow,Reversing the normal reverses flux sign
+path_orientation,Path orientation,Defines positive direction for circulation,Determines whether loop movement is positive or negative,Reversing path direction reverses circulation sign
+sampling_resolution,Sampling resolution,Defines curve segments or surface patches in numerical approximation,Shapes computed flux and circulation values,Coarse sampling may miss local flow variation
+boundary_meaning,Boundary meaning,Connects the mathematical geometry to a modeled system boundary,Supports responsible interpretation of crossing or looping,Arbitrary boundaries may answer irrelevant questions

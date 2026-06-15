@@ -1,0 +1,13 @@
+{
+  "calculator": "tangent-alignment",
+  "inputs": {
+    "command": "tangent-alignment",
+    "x": 1.0,
+    "y": 0.0
+  },
+  "interpretation": "Measures field alignment with counterclockwise tangent.",
+  "result": {
+    "tangent_alignment": 1.0
+  },
+  "warning": ""
+}

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+flux,Flux,boundary crossing,96,active,2026-06-15,"Flux requires a vector field, surface, normal direction, units, and boundary meaning."
+circulation,Circulation,path movement,95,active,2026-06-15,"Circulation requires a vector field, path, orientation, units, and loop meaning."
+orientation,Orientation,sign convention,94,review,2026-06-15,Reversing normal or path direction reverses the sign.
+sampling,Sampling Resolution,numerical method,92,review,2026-06-15,Path and surface sampling should be tested through refinement.
+boundary-meaning,Boundary Meaning,governance,95,active,2026-06-15,The chosen boundary or loop should match the system question.

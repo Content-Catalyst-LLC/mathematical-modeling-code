@@ -42,5 +42,6 @@ VI Vector Calculus and Continuous Space,39,vector-valued-functions-and-motion,Ve
 VI Vector Calculus and Continuous Space,40,line-integrals-and-paths-through-space,Line Integrals and Paths Through Space,active,articles/line-integrals-and-paths-through-space,upgraded,included
 VI Vector Calculus and Continuous Space,41,surface-integrals-and-distributed-accumulation,Surface Integrals and Distributed Accumulation,active,articles/surface-integrals-and-distributed-accumulation,upgraded,included
 VI Vector Calculus and Continuous Space,42,gradient-divergence-and-curl,"Gradient, Divergence, and Curl",active,articles/gradient-divergence-and-curl,upgraded,included
-VI Vector Calculus and Continuous Space,43,flux-circulation-and-spatial-flow,"Flux, Circulation, and Spatial Flow",planned,articles/flux-circulation-and-spatial-flow,required,required
+VI Vector Calculus and Continuous Space,43,flux-circulation-and-spatial-flow,"Flux, Circulation, and Spatial Flow",active,articles/flux-circulation-and-spatial-flow,upgraded,included
 VI Vector Calculus and Continuous Space,44,greens-theorem-and-planar-systems,Green's Theorem and Planar Systems,planned,articles/greens-theorem-and-planar-systems,required,required
+VI Vector Calculus and Continuous Space,45,stokes-theorem-and-rotational-structure,Stokes' Theorem and Rotational Structure,planned,articles/stokes-theorem-and-rotational-structure,required,required

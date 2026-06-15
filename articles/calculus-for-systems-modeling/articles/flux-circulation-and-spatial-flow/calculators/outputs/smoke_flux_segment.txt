@@ -1,0 +1,14 @@
+{
+  "calculator": "flux-segment",
+  "inputs": {
+    "command": "flux-segment",
+    "index": 0,
+    "radius": 1.0,
+    "segments": 64
+  },
+  "interpretation": "Computes one segment contribution to outward flux.",
+  "result": {
+    "flux_segment": 0.0
+  },
+  "warning": ""
+}

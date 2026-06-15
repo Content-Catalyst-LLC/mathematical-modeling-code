@@ -1,0 +1,25 @@
+{
+  "article": "Flux, Circulation, and Spatial Flow",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Flux measures crossing through a surface; circulation measures movement around a path.",
+    "Flux sign depends on normal orientation.",
+    "Circulation sign depends on path orientation.",
+    "Sampling resolution affects numerical estimates.",
+    "The chosen boundary or loop must match the system question."
+  ]
+}

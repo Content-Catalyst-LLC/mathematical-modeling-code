@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_segments,result_approximate_circulation
+circle-circulation,Approximates circulation around a circular path.,,circle-circulation,1.0,64,6.273096981091875

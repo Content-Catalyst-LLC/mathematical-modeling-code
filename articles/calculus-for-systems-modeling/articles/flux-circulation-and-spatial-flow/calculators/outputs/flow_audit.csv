@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_segments,result_approximate_flux,result_approximate_circulation,result_mean_tangential_alignment,result_mean_normal_alignment,result_segment_count
+flow-audit,"Audits flux, circulation, tangent alignment, and normal alignment.",,flow-audit,1.0,64,0.0,6.273096981091875,0.9987954562051724,0.0,64

@@ -1,0 +1,13 @@
+{
+  "calculator": "circle-circulation",
+  "inputs": {
+    "command": "circle-circulation",
+    "radius": 1.0,
+    "segments": 64
+  },
+  "interpretation": "Approximates circulation around a circular path.",
+  "result": {
+    "approximate_circulation": 6.273096981091875
+  },
+  "warning": ""
+}

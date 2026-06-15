@@ -1,0 +1,17 @@
+{
+  "calculator": "flow-audit",
+  "inputs": {
+    "command": "flow-audit",
+    "radius": 1.0,
+    "segments": 64
+  },
+  "interpretation": "Audits flux, circulation, tangent alignment, and normal alignment.",
+  "result": {
+    "approximate_circulation": 6.273096981091875,
+    "approximate_flux": 0.0,
+    "mean_normal_alignment": 0.0,
+    "mean_tangential_alignment": 0.9987954562051724,
+    "segment_count": 64
+  },
+  "warning": ""
+}

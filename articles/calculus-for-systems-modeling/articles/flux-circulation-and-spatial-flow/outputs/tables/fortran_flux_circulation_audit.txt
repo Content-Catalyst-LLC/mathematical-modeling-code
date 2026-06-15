@@ -1,0 +1,4 @@
+scenario segment_count approximate_flux approximate_circulation mean_tangential_alignment mean_normal_alignment field_description geometry_description warning
+coarse_circle       16      0.000000      6.122935      0.980785      0.000000 field circle coarse_path
+medium_circle       64      0.000000      6.273097      0.998795      0.000000 field circle synthetic_flow
+fine_circle      256      0.000000      6.282555      0.999925      0.000000 field circle synthetic_flow

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "flux",
+    "category": "boundary crossing",
+    "governance_note": "Flux requires a vector field, surface, normal direction, units, and boundary meaning.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Flux"
+  },
+  {
+    "card_id": "circulation",
+    "category": "path movement",
+    "governance_note": "Circulation requires a vector field, path, orientation, units, and loop meaning.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Circulation"
+  },
+  {
+    "card_id": "orientation",
+    "category": "sign convention",
+    "governance_note": "Reversing normal or path direction reverses the sign.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Orientation"
+  },
+  {
+    "card_id": "sampling",
+    "category": "numerical method",
+    "governance_note": "Path and surface sampling should be tested through refinement.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Sampling Resolution"
+  },
+  {
+    "card_id": "boundary-meaning",
+    "category": "governance",
+    "governance_note": "The chosen boundary or loop should match the system question.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Boundary Meaning"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "approximate_circulation": 6.122934917841437,
+    "approximate_flux": 0.0,
+    "field_description": "rotating field F=<-y,x>",
+    "geometry_description": "counterclockwise circle with radius 1.0",
+    "mean_normal_alignment": 0.0,
+    "mean_tangential_alignment": 0.9807852804032304,
+    "scenario": "coarse_circle",
+    "segment_count": 16,
+    "warning": "Coarse path sampling; circulation and flux should be checked with more segments."
+  },
+  {
+    "approximate_circulation": 6.273096981091875,
+    "approximate_flux": 0.0,
+    "field_description": "rotating field F=<-y,x>",
+    "geometry_description": "counterclockwise circle with radius 1.0",
+    "mean_normal_alignment": 0.0,
+    "mean_tangential_alignment": 0.9987954562051724,
+    "scenario": "medium_circle",
+    "segment_count": 64,
+    "warning": "Synthetic flow audit; document field meaning, orientation, units, and boundary choice."
+  },
+  {
+    "approximate_circulation": 6.282554501865524,
+    "approximate_flux": 0.0,
+    "field_description": "rotating field F=<-y,x>",
+    "geometry_description": "counterclockwise circle with radius 1.0",
+    "mean_normal_alignment": 0.0,
+    "mean_tangential_alignment": 0.9999247018391445,
+    "scenario": "fine_circle",
+    "segment_count": 256,
+    "warning": "Synthetic flow audit; document field meaning, orientation, units, and boundary choice."
+  }
+]

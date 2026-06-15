@@ -1,0 +1,13 @@
+{
+  "calculator": "circle-flux",
+  "inputs": {
+    "command": "circle-flux",
+    "radius": 1.0,
+    "segments": 64
+  },
+  "interpretation": "Approximates outward flux through a circular boundary.",
+  "result": {
+    "approximate_flux": 0.0
+  },
+  "warning": ""
+}

@@ -1,0 +1,14 @@
+{
+  "calculator": "circulation-segment",
+  "inputs": {
+    "command": "circulation-segment",
+    "index": 0,
+    "radius": 1.0,
+    "segments": 64
+  },
+  "interpretation": "Computes one segment contribution to circulation.",
+  "result": {
+    "circulation_segment": 0.0980171403295606
+  },
+  "warning": ""
+}

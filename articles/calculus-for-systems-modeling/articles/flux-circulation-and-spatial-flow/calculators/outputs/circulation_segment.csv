@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_segments,input_index,result_circulation_segment
+circulation-segment,Computes one segment contribution to circulation.,,circulation-segment,1.0,64,0,0.0980171403295606

@@ -1,0 +1,21 @@
+{
+  "article_slug": "flux-circulation-and-spatial-flow",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "vector-field", "title": "Vector Field Evaluator"},
+    {"id": "normal-alignment", "title": "Normal Alignment"},
+    {"id": "tangent-alignment", "title": "Tangent Alignment"},
+    {"id": "flux-segment", "title": "Flux Segment Contribution"},
+    {"id": "circulation-segment", "title": "Circulation Segment Contribution"},
+    {"id": "circle-flux", "title": "Circle Flux Approximation"},
+    {"id": "circle-circulation", "title": "Circle Circulation Approximation"},
+    {"id": "flow-audit", "title": "Flux and Circulation Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}
