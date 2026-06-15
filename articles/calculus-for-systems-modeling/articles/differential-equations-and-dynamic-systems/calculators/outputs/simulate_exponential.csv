@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_growth_rate,input_dt,input_steps,result_final_state,result_records
+simulate-exponential,Simulates exponential growth with explicit Euler.,Check step-size sensitivity before interpretation.,simulate-exponential,10.0,0.35,0.1,20,19.897888634658454,21

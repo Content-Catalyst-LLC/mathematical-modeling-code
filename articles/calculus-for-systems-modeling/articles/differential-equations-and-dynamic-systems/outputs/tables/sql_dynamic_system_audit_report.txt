@@ -1,0 +1,28 @@
+section                                  
+-----------------------------------------
+DIFFERENTIAL EQUATION ASSUMPTION REGISTRY
+assumption_name            mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary condition         Defines behavior at the edge of a spatial domain.             Controls interaction with surroundings.                       Unrealistic boundaries can distort spatial behavior.        
+
+Initial condition          Sets the starting state for trajectory generation.            Determines where the modeled system begins.                   Different initial states may produce different outcomes.    
+
+Numerical method           Defines how the continuous equation is approximated.          Shapes the computed trajectory.                               Step size stiffness and solver tolerance can change results.
+
+Parameter values           Control growth decay coupling forcing and sensitivity.        Represent empirical estimates assumptions or scenario settin  Uncertain parameters should be tested for sensitivity.      
+                                                                                         gs.                                                                                                                       
+
+Rate law                   Defines how the derivative depends on state time inputs or p  Represents the mechanism of change.                           A convenient equation is not necessarily a credible mechanis
+                           arameters.                                                                                                                  m.                                                          
+
+State variable definition  Defines the quantity whose change is modeled.                 Determines what the dynamic system actually tracks.           Unclear state variables make trajectories uninterpretable.  
+
+Validity scope             Defines where the equation is intended to apply.              Prevents overextending the model beyond assumptions.          Dynamic equations can mislead when used outside their domain
+                                                                                                                                                       .                                                           
+section                   
+--------------------------
+DYNAMIC SYSTEM AUDIT CASES
+scenario            model_type                           initial_state  growth_rate  carrying_capacity  time_step  steps  method          warning                                           
+------------------  -----------------------------------  -------------  -----------  -----------------  ---------  -----  --------------  --------------------------------------------------
+exponential_growth  dx_dt_equals_r_x                     10.0           0.35                            0.1        100    explicit_euler  Exponential growth assumes no capacity constraint.
+logistic_growth     dx_dt_equals_r_x_one_minus_x_over_K  10.0           0.35         100.0              0.1        100    explicit_euler  Logistic growth assumes a fixed carrying capacity.

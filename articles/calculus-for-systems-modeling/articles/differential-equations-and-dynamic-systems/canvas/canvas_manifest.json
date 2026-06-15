@@ -1,0 +1,22 @@
+{
+  "article_slug": "differential-equations-and-dynamic-systems",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "differential-equations-dynamic-systems",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "state-variable", "title": "State Variable", "description": "Defines what the dynamic model tracks."},
+    {"card_id": "rate-law", "title": "Rate Law", "description": "Defines how the system changes."},
+    {"card_id": "initial-condition", "title": "Initial Condition", "description": "Defines where the trajectory begins."},
+    {"card_id": "numerical-method", "title": "Numerical Method", "description": "Defines how continuous change is approximated."},
+    {"card_id": "dynamic-audit", "title": "Dynamic System Audit", "description": "Checks assumptions, solver settings, and interpretive limits."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

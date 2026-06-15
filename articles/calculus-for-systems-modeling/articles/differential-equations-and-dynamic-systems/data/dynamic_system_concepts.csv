@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_variable_definition,State variable definition,Defines the quantity whose change is modeled,Determines what the dynamic system actually tracks,Unclear state variables make trajectories uninterpretable
+rate_law,Rate law,Defines how the derivative depends on state time inputs or parameters,Represents the mechanism of change,A convenient equation is not necessarily a credible mechanism
+initial_condition,Initial condition,Sets the starting state for trajectory generation,Determines where the modeled system begins,Different initial states may produce different outcomes
+boundary_condition,Boundary condition,Defines behavior at the edge of a spatial domain,Controls interaction with surroundings,Unrealistic boundaries can distort spatial behavior
+parameter_values,Parameter values,Control growth decay coupling forcing and sensitivity,Represent empirical estimates assumptions or scenario settings,Uncertain parameters should be tested for sensitivity
+numerical_method,Numerical method,Defines how the continuous equation is approximated,Shapes the computed trajectory,Step size stiffness and solver tolerance can change results
+validity_scope,Validity scope,Defines where the equation is intended to apply,Prevents overextending the model beyond assumptions,Dynamic equations can mislead when used outside their domain

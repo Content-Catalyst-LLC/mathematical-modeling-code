@@ -1,0 +1,2 @@
+     calculator state growth_rate capacity rate
+1 logistic-rate    10        0.35      100 3.15

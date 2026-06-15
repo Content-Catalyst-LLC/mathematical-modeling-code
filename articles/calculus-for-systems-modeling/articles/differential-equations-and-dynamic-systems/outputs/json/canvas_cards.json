@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-variable",
+    "category": "model structure",
+    "governance_note": "State variables define what the dynamic model tracks.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "State Variable"
+  },
+  {
+    "card_id": "rate-law",
+    "category": "model structure",
+    "governance_note": "Rate laws express the mechanism of change.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Rate Law"
+  },
+  {
+    "card_id": "initial-condition",
+    "category": "assumption",
+    "governance_note": "Initial states shape trajectory generation.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Initial Condition"
+  },
+  {
+    "card_id": "numerical-method",
+    "category": "computation",
+    "governance_note": "Solver method and step size require review.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Numerical Method"
+  },
+  {
+    "card_id": "validity-scope",
+    "category": "governance",
+    "governance_note": "Dynamic models should state where the equation applies.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Validity Scope"
+  }
+]

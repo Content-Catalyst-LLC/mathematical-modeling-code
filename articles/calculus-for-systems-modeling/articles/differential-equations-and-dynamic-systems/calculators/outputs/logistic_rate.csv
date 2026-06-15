@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_growth_rate,input_capacity,result_rate
+logistic-rate,Computes dx/dt = r x (1 - x/K).,Logistic growth assumes a fixed carrying capacity.,logistic-rate,10.0,0.35,100.0,3.15

@@ -1,0 +1,17 @@
+{
+  "calculator": "simulate-logistic",
+  "inputs": {
+    "capacity": 100.0,
+    "command": "simulate-logistic",
+    "dt": 0.1,
+    "growth_rate": 0.35,
+    "state": 10.0,
+    "steps": 20
+  },
+  "interpretation": "Simulates logistic growth with explicit Euler.",
+  "result": {
+    "final_state": 18.153575682110855,
+    "records": 21
+  },
+  "warning": "Check capacity assumption and step-size sensitivity."
+}

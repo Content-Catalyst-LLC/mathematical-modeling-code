@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-variable,State Variable,model structure,96,active,2026-06-15,State variables define what the dynamic model tracks.
+rate-law,Rate Law,model structure,96,active,2026-06-15,Rate laws express the mechanism of change.
+initial-condition,Initial Condition,assumption,94,active,2026-06-15,Initial states shape trajectory generation.
+numerical-method,Numerical Method,computation,93,review,2026-06-15,Solver method and step size require review.
+validity-scope,Validity Scope,governance,92,review,2026-06-15,Dynamic models should state where the equation applies.

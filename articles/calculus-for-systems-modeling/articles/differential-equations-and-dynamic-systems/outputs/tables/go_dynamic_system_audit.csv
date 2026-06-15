@@ -1,0 +1,203 @@
+scenario,model_type,time,state,rate,growth_rate,carrying_capacity,method,warning
+exponential_growth,dx_dt_equals_r_x,0.000000,10.000000,3.500000,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.100000,10.350000,3.622500,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.200000,10.712250,3.749287,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.300000,11.087179,3.880513,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.400000,11.475230,4.016331,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.500000,11.876863,4.156902,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.600000,12.292553,4.302394,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.700000,12.722793,4.452977,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.800000,13.168090,4.608832,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,0.900000,13.628974,4.770141,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.000000,14.105988,4.937096,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.100000,14.599697,5.109894,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.200000,15.110687,5.288740,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.300000,15.639561,5.473846,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.400000,16.186945,5.665431,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.500000,16.753488,5.863721,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.600000,17.339860,6.068951,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.700000,17.946756,6.281364,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.800000,18.574892,6.501212,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,1.900000,19.225013,6.728755,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.000000,19.897889,6.964261,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.100000,20.594315,7.208010,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.200000,21.315116,7.460291,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.300000,22.061145,7.721401,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.400000,22.833285,7.991650,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.500000,23.632450,8.271357,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.600000,24.459586,8.560855,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.700000,25.315671,8.860485,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.800000,26.201720,9.170602,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,2.900000,27.118780,9.491573,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.000000,28.067937,9.823778,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.100000,29.050315,10.167610,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.200000,30.067076,10.523477,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.300000,31.119424,10.891798,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.400000,32.208603,11.273011,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.500000,33.335904,11.667567,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.600000,34.502661,12.075931,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.700000,35.710254,12.498589,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.800000,36.960113,12.936040,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,3.900000,38.253717,13.388801,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.000000,39.592597,13.857409,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.100000,40.978338,14.342418,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.200000,42.412580,14.844403,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.300000,43.897020,15.363957,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.400000,45.433416,15.901696,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.500000,47.023586,16.458255,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.600000,48.669411,17.034294,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.700000,50.372840,17.630494,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.800000,52.135890,18.247561,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,4.900000,53.960646,18.886226,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.000000,55.849269,19.547244,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.100000,57.803993,20.231398,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.200000,59.827133,20.939496,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.300000,61.921082,21.672379,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.400000,64.088320,22.430912,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.500000,66.331411,23.215994,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.600000,68.653011,24.028554,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.700000,71.055866,24.869553,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.800000,73.542822,25.739988,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,5.900000,76.116820,26.640887,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.000000,78.780909,27.573318,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.100000,81.538241,28.538384,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.200000,84.392079,29.537228,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.300000,87.345802,30.571031,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.400000,90.402905,31.641017,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.500000,93.567007,32.748452,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.600000,96.841852,33.894648,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.700000,100.231317,35.080961,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.800000,103.739413,36.308795,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,6.900000,107.370292,37.579602,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.000000,111.128253,38.894888,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.100000,115.017741,40.256210,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.200000,119.043362,41.665177,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.300000,123.209880,43.123458,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.400000,127.522226,44.632779,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.500000,131.985504,46.194926,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.600000,136.604996,47.811749,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.700000,141.386171,49.485160,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.800000,146.334687,51.217141,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,7.900000,151.456401,53.009740,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.000000,156.757375,54.865081,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.100000,162.243884,56.785359,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.200000,167.922419,58.772847,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.300000,173.799704,60.829896,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.400000,179.882694,62.958943,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.500000,186.178588,65.162506,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.600000,192.694839,67.443194,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.700000,199.439158,69.803705,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.800000,206.419529,72.246835,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,8.900000,213.644212,74.775474,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.000000,221.121759,77.392616,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.100000,228.861021,80.101357,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.200000,236.871157,82.904905,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.300000,245.161647,85.806577,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.400000,253.742305,88.809807,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.500000,262.623286,91.918150,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.600000,271.815101,95.135285,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.700000,281.328629,98.465020,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.800000,291.175131,101.911296,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,9.900000,301.366261,105.478191,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+exponential_growth,dx_dt_equals_r_x,10.000000,311.914080,109.169928,0.350000,-1.000000,explicit_euler,Exponential growth assumes no capacity constraint.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.000000,10.000000,3.150000,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.100000,10.315000,3.237853,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.200000,10.638785,3.327432,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.300000,10.971528,3.418724,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.400000,11.313401,3.511715,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.500000,11.664572,3.606382,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.600000,12.025211,3.702704,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.700000,12.395481,3.800651,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.800000,12.775546,3.900190,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,0.900000,13.165565,4.001285,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.000000,13.565694,4.103895,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.100000,13.976083,4.207971,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.200000,14.396880,4.313462,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.300000,14.828226,4.420312,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.400000,15.270258,4.528457,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.500000,15.723103,4.637830,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.600000,16.186886,4.748357,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.700000,16.661722,4.859957,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.800000,17.147718,4.972546,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,1.900000,17.644972,5.086033,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.000000,18.153576,5.200318,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.100000,18.673608,5.315300,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.200000,19.205138,5.430868,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.300000,19.748224,5.546905,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.400000,20.302915,5.663291,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.500000,20.869244,5.779897,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.600000,21.447234,5.896588,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.700000,22.036892,6.013226,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.800000,22.638215,6.129665,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,2.900000,23.251181,6.245752,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.000000,23.875757,6.361334,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.100000,24.511890,6.476247,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.200000,25.159515,6.590326,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.300000,25.818547,6.703401,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.400000,26.488887,6.815297,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.500000,27.170417,6.925836,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.600000,27.863001,7.034836,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.700000,28.566484,7.142115,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.800000,29.280696,7.247487,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,3.900000,30.005444,7.350762,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.000000,30.740521,7.451754,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.100000,31.485696,7.550272,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.200000,32.240723,7.646128,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.300000,33.005336,7.739135,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.400000,33.779250,7.829105,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.500000,34.562160,7.915856,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.600000,35.353746,7.999205,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.700000,36.153666,8.078977,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.800000,36.961564,8.154997,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,4.900000,37.777064,8.227099,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.000000,38.599774,8.295122,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.100000,39.429286,8.358910,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.200000,40.265177,8.418316,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.300000,41.107008,8.473201,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.400000,41.954329,8.523435,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.500000,42.806672,8.568896,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.600000,43.663562,8.609473,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.700000,44.524509,8.645066,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.800000,45.389016,8.675586,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,5.900000,46.256574,8.700954,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.000000,47.126670,8.721104,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.100000,47.998780,8.735983,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.200000,48.872378,8.745550,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.300000,49.746933,8.749776,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.400000,50.621911,8.748646,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.500000,51.496775,8.742159,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.600000,52.370991,8.730324,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.700000,53.244024,8.713167,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.800000,54.115340,8.690724,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,6.900000,54.984413,8.663045,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.000000,55.850717,8.630192,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.100000,56.713737,8.592240,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.200000,57.572961,8.549276,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.300000,58.427888,8.501397,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.400000,59.278028,8.448714,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.500000,60.122899,8.391344,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.600000,60.962034,8.329418,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.700000,61.794975,8.263075,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.800000,62.621283,8.192461,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,7.900000,63.440529,8.117733,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.000000,64.252302,8.039052,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.100000,65.056208,7.956587,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.200000,65.851866,7.870514,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.300000,66.638918,7.781012,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.400000,67.417019,7.688266,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.500000,68.185846,7.592463,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.600000,68.945092,7.493792,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.700000,69.694471,7.392447,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.800000,70.433716,7.288621,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,8.900000,71.162578,7.182509,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.000000,71.880829,7.074303,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.100000,72.588259,6.964197,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.200000,73.284679,6.852383,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.300000,73.969917,6.739051,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.400000,74.643822,6.624387,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.500000,75.306261,6.508576,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.600000,75.957118,6.391798,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.700000,76.596298,6.274229,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.800000,77.223721,6.156042,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,9.900000,77.839325,6.037402,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.
+logistic_growth,dx_dt_equals_r_x_one_minus_x_over_K,10.000000,78.443065,5.918472,0.350000,100.000000,explicit_euler,Logistic growth assumes a fixed carrying capacity.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_growth_rate,input_capacity,input_dt,input_steps,result_final_state,result_records
+simulate-logistic,Simulates logistic growth with explicit Euler.,Check capacity assumption and step-size sensitivity.,simulate-logistic,10.0,0.35,100.0,0.1,20,18.153575682110855,21

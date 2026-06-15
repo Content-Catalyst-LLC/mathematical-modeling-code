@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_growth_rate,result_rate
+exponential-rate,Computes dx/dt = r x.,Exponential growth assumes no capacity constraint.,exponential-rate,10.0,0.35,3.5

@@ -1,0 +1,14 @@
+{
+  "calculator": "euler-step",
+  "inputs": {
+    "command": "euler-step",
+    "dt": 0.1,
+    "rate": 3.5,
+    "state": 10.0
+  },
+  "interpretation": "Computes one explicit Euler update.",
+  "result": {
+    "next_state": 10.35
+  },
+  "warning": ""
+}

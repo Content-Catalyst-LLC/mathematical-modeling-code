@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DynamicAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "model_type", "time", "state", "rate",
+    "growth_rate", "method", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "model_type": {"type": "string"},
+    "time": {"type": "number"},
+    "state": {"type": "number"},
+    "rate": {"type": "number"},
+    "growth_rate": {"type": "number"},
+    "carrying_capacity": {"type": ["number", "null"]},
+    "method": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

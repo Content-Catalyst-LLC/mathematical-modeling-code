@@ -1,0 +1,16 @@
+{
+  "calculator": "simulate-exponential",
+  "inputs": {
+    "command": "simulate-exponential",
+    "dt": 0.1,
+    "growth_rate": 0.35,
+    "state": 10.0,
+    "steps": 20
+  },
+  "interpretation": "Simulates exponential growth with explicit Euler.",
+  "result": {
+    "final_state": 19.897888634658454,
+    "records": 21
+  },
+  "warning": "Check step-size sensitivity before interpretation."
+}

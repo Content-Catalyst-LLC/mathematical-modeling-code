@@ -1,0 +1,13 @@
+{
+  "calculator": "exponential-rate",
+  "inputs": {
+    "command": "exponential-rate",
+    "growth_rate": 0.35,
+    "state": 10.0
+  },
+  "interpretation": "Computes dx/dt = r x.",
+  "result": {
+    "rate": 3.5
+  },
+  "warning": "Exponential growth assumes no capacity constraint."
+}

@@ -1,0 +1,25 @@
+{
+  "article": "Differential Equations and Dynamic Systems",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Rate laws should be justified by mechanism or evidence.",
+    "Initial conditions can shape trajectories.",
+    "Parameters should be reviewed for uncertainty and sensitivity.",
+    "Solver method, step size, and time horizon should be documented.",
+    "Numerical trajectories should not be treated as self-validating."
+  ]
+}

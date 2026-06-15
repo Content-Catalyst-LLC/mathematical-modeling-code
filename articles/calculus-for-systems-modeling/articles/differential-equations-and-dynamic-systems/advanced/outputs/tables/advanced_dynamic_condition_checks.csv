@@ -1,0 +1,10 @@
+condition,passed,warning
+state variables documented,True,
+rate laws documented,True,
+initial conditions included,True,
+parameters and units checklist included,True,
+solver method and step size included,True,
+interpretive warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,
