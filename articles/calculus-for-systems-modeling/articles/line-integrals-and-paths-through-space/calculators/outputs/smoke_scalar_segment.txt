@@ -1,0 +1,14 @@
+{
+  "calculator": "scalar-segment",
+  "inputs": {
+    "command": "scalar-segment",
+    "segment_length": 0.5,
+    "x": 1.0,
+    "y": 2.0
+  },
+  "interpretation": "Computes one scalar line-integral segment contribution.",
+  "result": {
+    "contribution": 2.5
+  },
+  "warning": ""
+}

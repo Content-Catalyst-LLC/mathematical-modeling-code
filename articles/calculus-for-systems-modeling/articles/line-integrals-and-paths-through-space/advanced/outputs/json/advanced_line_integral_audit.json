@@ -1,0 +1,25 @@
+{
+  "article": "Line Integrals and Paths Through Space",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Line integrals require explicit path, field, direction, and units.",
+    "Scalar line integrals and vector line integrals answer different questions.",
+    "Vector line-integral sign depends on path direction.",
+    "Path sampling can miss turns or field variation.",
+    "Path-based totals should not be interpreted as regional totals."
+  ]
+}

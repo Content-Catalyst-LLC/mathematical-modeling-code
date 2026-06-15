@@ -1,0 +1,12 @@
+{
+  "calculator": "vector-line-approx",
+  "inputs": {
+    "command": "vector-line-approx",
+    "step": 0.25
+  },
+  "interpretation": "Approximates vector line integral along the directed path.",
+  "result": {
+    "vector_line_integral": 6.046229587475677
+  },
+  "warning": ""
+}

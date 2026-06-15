@@ -1,0 +1,10 @@
+condition,passed,warning
+path definition documented,True,
+path direction documented,True,
+scalar and vector integral distinction included,True,
+field-path alignment diagnostics included,True,
+sampling resolution warning included,True,
+path dependence warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

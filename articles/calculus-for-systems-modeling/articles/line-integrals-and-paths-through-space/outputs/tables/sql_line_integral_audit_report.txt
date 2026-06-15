@@ -1,0 +1,32 @@
+section                          
+---------------------------------
+LINE INTEGRAL ASSUMPTION REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Path definition      Specifies the curve or trajectory over which the integral is  Determines the route corridor boundary or state-space path b  A line integral is not interpretable without a clearly defin
+                      computed.                                                    eing analyzed.                                                ed path.                                                    
+
+Path direction       Defines the orientation of a parameterized curve.             Determines sign and interpretation for vector line integrals  Reversing direction changes vector line-integral sign.      
+                                                                                   .                                                                                                                         
+
+Sampling resolution  Defines how the continuous path is approximated by segments.  Shapes computed path length scalar accumulation and vector a  Coarse sampling can miss turns or field variation.          
+                                                                                   lignment.                                                                                                                 
+
+Scalar field units   Defines the quantity accumulated per unit path length.        Supports exposure cost burden resistance or risk interpretat  Scalar line-integral units combine field units and distance 
+                                                                                   ion.                                                          units.                                                      
+
+Vector field units   Defines the directed field being dotted with displacement.    Supports work flow support resistance or circulation interpr  Component units and coordinate units must be compatible.    
+                                                                                   etation.                                                                                                                  
+section                  
+-------------------------
+LINE INTEGRAL AUDIT CASES
+scenario     time_step  point_count  path_length  scalar_line_integral  vector_line_integral  average_alignment  warning                                                     
+-----------  ---------  -----------  -----------  --------------------  --------------------  -----------------  ------------------------------------------------------------
+coarse_path  1.0        7            7.42         11.2                  17.6                  2.3                Time step is coarse; path turns and field variation may be u
+                                                                                                                 ndersampled.                                                
+
+medium_path  0.5        13           7.6          11.5                  18.2                  2.4                Synthetic line-integral audit; document path field units and
+                                                                                                                  interpolation.                                             
+
+fine_path    0.25       26           7.63         11.7                  18.5                  2.4                Synthetic line-integral audit; document path field units and
+                                                                                                                  interpolation.                                             

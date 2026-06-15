@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LineIntegralAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "time_step", "point_count", "path_length",
+    "scalar_line_integral", "vector_line_integral", "average_alignment",
+    "maximum_segment_length", "path_description", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "time_step": {"type": "number"},
+    "point_count": {"type": "integer"},
+    "path_length": {"type": "number"},
+    "scalar_line_integral": {"type": "number"},
+    "vector_line_integral": {"type": "number"},
+    "average_alignment": {"type": "number"},
+    "maximum_segment_length": {"type": "number"},
+    "path_description": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

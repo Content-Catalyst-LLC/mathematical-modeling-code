@@ -1,0 +1,23 @@
+{
+  "article_slug": "line-integrals-and-paths-through-space",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "path-point", "title": "Path Point"},
+    {"id": "scalar-field", "title": "Scalar Field Evaluator"},
+    {"id": "vector-field", "title": "Vector Field Evaluator"},
+    {"id": "segment-length", "title": "Segment Length"},
+    {"id": "scalar-segment", "title": "Scalar Segment Contribution"},
+    {"id": "vector-segment", "title": "Vector Segment Contribution"},
+    {"id": "line-audit", "title": "Line Integral Audit"},
+    {"id": "path-length", "title": "Path Length Approximation"},
+    {"id": "scalar-line-approx", "title": "Scalar Line Integral Approximation"},
+    {"id": "vector-line-approx", "title": "Vector Line Integral Approximation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

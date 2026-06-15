@@ -1,0 +1,13 @@
+{
+  "calculator": "path-point",
+  "inputs": {
+    "command": "path-point",
+    "t": 1.0
+  },
+  "interpretation": "Evaluates the parameterized path r(t)=<t,sin(t)>.",
+  "result": {
+    "x": 1.0,
+    "y": 0.8414709848078965
+  },
+  "warning": ""
+}

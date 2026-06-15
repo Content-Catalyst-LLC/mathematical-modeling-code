@@ -1,0 +1,15 @@
+{
+  "calculator": "vector-segment",
+  "inputs": {
+    "command": "vector-segment",
+    "dx": 0.25,
+    "dy": 0.1,
+    "x": 1.0,
+    "y": 2.0
+  },
+  "interpretation": "Computes one vector line-integral dot-product segment contribution.",
+  "result": {
+    "contribution": 0.35
+  },
+  "warning": ""
+}

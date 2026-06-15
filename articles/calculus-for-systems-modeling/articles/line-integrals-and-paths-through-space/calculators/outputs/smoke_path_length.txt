@@ -1,0 +1,12 @@
+{
+  "calculator": "path-length",
+  "inputs": {
+    "command": "path-length",
+    "step": 0.25
+  },
+  "interpretation": "Approximates path length by segment sampling.",
+  "result": {
+    "path_length": 7.587238042992842
+  },
+  "warning": ""
+}

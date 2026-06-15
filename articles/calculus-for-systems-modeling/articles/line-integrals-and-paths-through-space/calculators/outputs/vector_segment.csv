@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_dx,input_dy,result_contribution
+vector-segment,Computes one vector line-integral dot-product segment contribution.,,vector-segment,1.0,2.0,0.25,0.1,0.35

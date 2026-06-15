@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_segment_length,result_contribution
+scalar-segment,Computes one scalar line-integral segment contribution.,,scalar-segment,1.0,2.0,0.5,2.5

@@ -1,0 +1,4 @@
+"scenario","time_step","point_count","path_length","scalar_line_integral","vector_line_integral","average_alignment","maximum_segment_length","path_description","warning"
+"coarse_path",1,7,7.14343753036875,10.6185875744211,4.42676085928299,0.661651548528652,1.34397351984862,"path r(t) = <t, sin(t)> for 0 <= t <= 2pi","Time step is coarse; path turns and field variation may be undersampled."
+"medium_path",0.5,13,7.21776427660956,10.692020427608,4.35436443585117,0.647614101808422,0.70140487119838,"path r(t) = <t, sin(t)> for 0 <= t <= 2pi","Synthetic line-integral audit; document path, field, units, and interpolation."
+"fine_path",0.25,26,7.58723804299284,11.0909592750868,6.04622958747568,0.812840433910694,0.3530694553833,"path r(t) = <t, sin(t)> for 0 <= t <= 2pi","Synthetic line-integral audit; document path, field, units, and interpolation."

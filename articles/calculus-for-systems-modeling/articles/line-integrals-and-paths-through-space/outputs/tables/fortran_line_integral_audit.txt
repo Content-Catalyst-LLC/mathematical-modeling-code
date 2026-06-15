@@ -1,0 +1,4 @@
+scenario time_step point_count path_length scalar_line_integral vector_line_integral average_alignment maximum_segment_length path_description warning
+coarse_path    1.000        7      7.143438     10.618588      4.426761      0.661652      1.343974 path coarse_path
+medium_path    0.500       13      7.217764     10.692020      4.354364      0.647614      0.701405 path synthetic_line_integral
+fine_path    0.250       26      7.587238     11.090959      6.046230      0.812840      0.353069 path synthetic_line_integral

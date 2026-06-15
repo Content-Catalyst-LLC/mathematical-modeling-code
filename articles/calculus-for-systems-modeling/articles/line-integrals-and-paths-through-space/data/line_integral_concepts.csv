@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+path_definition,Path definition,Specifies the curve or trajectory over which the integral is computed,Determines the route corridor boundary or state-space path being analyzed,A line integral is not interpretable without a clearly defined path
+path_direction,Path direction,Defines the orientation of a parameterized curve,Determines sign and interpretation for vector line integrals,Reversing direction changes vector line-integral sign
+scalar_line_integral,Scalar line integral,Accumulates scalar field values along arc length,Supports exposure cost burden resistance or risk interpretation,Units combine field units with distance units
+vector_line_integral,Vector line integral,Accumulates vector-field alignment with displacement,Supports work flow support resistance and circulation interpretation,Component units and coordinate units must be compatible
+circulation,Closed line integral,Measures net vector-field alignment around a closed loop,Supports rotation feedback and cyclic pathway interpretation,Loop orientation and path shape affect sign and value
+path_dependence,Path dependence,Tests whether different curves between endpoints produce different totals,Supports route-history exposure and irreversibility interpretation,Endpoint-only summaries can hide path effects
+sampling_resolution,Sampling resolution,Defines how the continuous path is approximated by segments,Shapes computed path length scalar accumulation and vector alignment,Coarse sampling can miss turns or field variation

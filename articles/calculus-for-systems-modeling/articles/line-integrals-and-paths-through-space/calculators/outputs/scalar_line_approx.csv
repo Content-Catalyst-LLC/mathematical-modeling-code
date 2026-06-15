@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_scalar_line_integral
+scalar-line-approx,Approximates scalar line integral along the path.,,scalar-line-approx,0.25,11.09095927508679

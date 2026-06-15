@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_vector_line_integral
+vector-line-approx,Approximates vector line integral along the directed path.,,vector-line-approx,0.25,6.046229587475677

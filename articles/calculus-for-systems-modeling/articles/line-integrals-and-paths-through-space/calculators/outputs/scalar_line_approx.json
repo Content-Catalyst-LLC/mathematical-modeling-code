@@ -1,0 +1,12 @@
+{
+  "calculator": "scalar-line-approx",
+  "inputs": {
+    "command": "scalar-line-approx",
+    "step": 0.25
+  },
+  "interpretation": "Approximates scalar line integral along the path.",
+  "result": {
+    "scalar_line_integral": 11.09095927508679
+  },
+  "warning": ""
+}

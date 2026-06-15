@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,result_x,result_y
+path-point,"Evaluates the parameterized path r(t)=<t,sin(t)>.",,path-point,1.0,1.0,0.8414709848078965

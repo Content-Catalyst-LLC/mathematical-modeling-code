@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_point_count,result_path_length,result_scalar_line_integral,result_vector_line_integral,result_average_alignment
+line-audit,Audits scalar and vector line-integral approximations.,,line-audit,0.25,26,7.587238042992842,11.09095927508679,6.046229587475677,0.8128404339106942

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "path-definition",
+    "category": "boundary",
+    "governance_note": "State curve, parameterization, interval, direction, and path meaning.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Path Definition"
+  },
+  {
+    "card_id": "scalar-line-integral",
+    "category": "accumulation",
+    "governance_note": "Document scalar units and whether the result means exposure, cost, burden, or risk.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Scalar Line Integral"
+  },
+  {
+    "card_id": "vector-line-integral",
+    "category": "field interaction",
+    "governance_note": "Document vector components, dot-product interpretation, direction, and units.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Vector Line Integral"
+  },
+  {
+    "card_id": "circulation",
+    "category": "closed path",
+    "governance_note": "Report loop orientation and whether circulation is interpreted as rotation or feedback.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Circulation"
+  },
+  {
+    "card_id": "path-dependence",
+    "category": "governance",
+    "governance_note": "Compare routes where endpoint-only summaries could hide path effects.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Path Dependence"
+  }
+]

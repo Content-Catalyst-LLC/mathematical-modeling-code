@@ -1,0 +1,16 @@
+{
+  "calculator": "line-audit",
+  "inputs": {
+    "command": "line-audit",
+    "step": 0.25
+  },
+  "interpretation": "Audits scalar and vector line-integral approximations.",
+  "result": {
+    "average_alignment": 0.8128404339106942,
+    "path_length": 7.587238042992842,
+    "point_count": 26,
+    "scalar_line_integral": 11.09095927508679,
+    "vector_line_integral": 6.046229587475677
+  },
+  "warning": ""
+}

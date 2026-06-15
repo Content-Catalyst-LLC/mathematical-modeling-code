@@ -1,0 +1,38 @@
+[
+  {
+    "average_alignment": 0.6616515485286515,
+    "maximum_segment_length": 1.34397351984862,
+    "path_description": "path r(t) = <t, sin(t)> for 0 <= t <= 2pi",
+    "path_length": 7.143437530368749,
+    "point_count": 7,
+    "scalar_line_integral": 10.618587574421081,
+    "scenario": "coarse_path",
+    "time_step": 1.0,
+    "vector_line_integral": 4.426760859282992,
+    "warning": "Time step is coarse; path turns and field variation may be undersampled."
+  },
+  {
+    "average_alignment": 0.6476141018084219,
+    "maximum_segment_length": 0.7014048711983796,
+    "path_description": "path r(t) = <t, sin(t)> for 0 <= t <= 2pi",
+    "path_length": 7.217764276609561,
+    "point_count": 13,
+    "scalar_line_integral": 10.692020427607993,
+    "scenario": "medium_path",
+    "time_step": 0.5,
+    "vector_line_integral": 4.354364435851166,
+    "warning": "Synthetic line-integral audit; document path, field, units, and interpolation."
+  },
+  {
+    "average_alignment": 0.8128404339106942,
+    "maximum_segment_length": 0.3530694553832997,
+    "path_description": "path r(t) = <t, sin(t)> for 0 <= t <= 2pi",
+    "path_length": 7.587238042992842,
+    "point_count": 26,
+    "scalar_line_integral": 11.09095927508679,
+    "scenario": "fine_path",
+    "time_step": 0.25,
+    "vector_line_integral": 6.046229587475677,
+    "warning": "Synthetic line-integral audit; document path, field, units, and interpolation."
+  }
+]

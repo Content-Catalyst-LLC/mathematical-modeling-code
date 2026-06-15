@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+path-definition,Path Definition,boundary,96,active,2026-06-15,"State curve, parameterization, interval, direction, and path meaning."
+scalar-line-integral,Scalar Line Integral,accumulation,95,active,2026-06-15,"Document scalar units and whether the result means exposure, cost, burden, or risk."
+vector-line-integral,Vector Line Integral,field interaction,95,active,2026-06-15,"Document vector components, dot-product interpretation, direction, and units."
+circulation,Circulation,closed path,92,review,2026-06-15,Report loop orientation and whether circulation is interpreted as rotation or feedback.
+path-dependence,Path Dependence,governance,93,review,2026-06-15,Compare routes where endpoint-only summaries could hide path effects.

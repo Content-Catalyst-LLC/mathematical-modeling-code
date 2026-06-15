@@ -1,0 +1,24 @@
+actual_title: "Line Integrals and Paths Through Space"
+suggested_seo_title: "Line Integrals and Paths Through Space in Systems Modeling"
+focus_keyword: "line integrals paths through space"
+slug: "line-integrals-and-paths-through-space"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "vector-valued-functions-and-motion"
+  current: "line-integrals-and-paths-through-space"
+  next: "surface-integrals-and-distributed-accumulation"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/line-integrals-and-paths-through-space"
+tags:
+  - Calculus
+  - Vector Calculus
+  - Line Integrals
+  - Path Integrals
+  - Work
+  - Circulation
+  - Scalar Fields
+  - Vector Fields
+excerpt_139_words: "Line integrals measure accumulation along a path rather than across an area or volume. This article explains scalar line integrals, vector line integrals, parameterized curves, arc-length elements, field-path interaction, work, circulation, path dependence, conservative fields, state-space line integrals, computational approximation, segment sampling, scalar accumulation, vector dot products, alignment diagnostics, and responsible interpretation. It shows why line integrals are not merely integrals drawn over curves: they answer path-based questions about exposure, work, cost, resistance, flow support, circulation, and route history. In computational workflows, line-integral audits support path sampling, path-length approximation, scalar-field accumulation, vector-field interaction, alignment review, SQL assumption registries, calculator scripts, and governance of path-based claims. The article emphasizes documenting the path, field, direction, units, parameterization, interpolation, sampling resolution, accumulated quantity, and interpretive limits."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]
