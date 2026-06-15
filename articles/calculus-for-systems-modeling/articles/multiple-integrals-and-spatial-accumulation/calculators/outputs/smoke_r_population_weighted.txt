@@ -1,0 +1,4 @@
+           calculator step population_weighted_average_exposure
+1 population-weighted  0.5                             11.22454
+  population_weighted_burden population_total
+1                   31709.33             2825

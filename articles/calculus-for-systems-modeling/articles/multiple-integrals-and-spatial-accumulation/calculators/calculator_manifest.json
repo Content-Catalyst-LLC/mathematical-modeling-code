@@ -1,0 +1,23 @@
+{
+  "article_slug": "multiple-integrals-and-spatial-accumulation",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "rectangle-total", "title": "Rectangular Area Total"},
+    {"id": "volume-total", "title": "Volume Density Total"},
+    {"id": "polar-area", "title": "Polar Area Calculator"},
+    {"id": "polar-density-total", "title": "Polar Density Total"},
+    {"id": "grid-total", "title": "Gridded Spatial Total"},
+    {"id": "area-average", "title": "Area-Weighted Average"},
+    {"id": "population-weighted", "title": "Population-Weighted Exposure"},
+    {"id": "cell-sum", "title": "Cell Sum Calculator"},
+    {"id": "weighted-average", "title": "Weighted Average Calculator"},
+    {"id": "resolution-scan", "title": "Resolution Sensitivity Scan"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

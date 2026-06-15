@@ -1,0 +1,10 @@
+condition,passed,warning
+integrand documented,True,
+region and mask documented,True,
+cell area and measure element documented,True,
+weighted aggregation included,True,
+grid resolution warning included,True,
+boundary sensitivity warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

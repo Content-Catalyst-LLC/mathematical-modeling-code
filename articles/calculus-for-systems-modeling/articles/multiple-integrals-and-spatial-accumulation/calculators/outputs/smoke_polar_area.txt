@@ -1,0 +1,12 @@
+{
+  "calculator": "polar-area",
+  "inputs": {
+    "command": "polar-area",
+    "radius": 3.0
+  },
+  "interpretation": "Computes circular area using the polar area element.",
+  "result": {
+    "area": 28.274333882308138
+  },
+  "warning": ""
+}

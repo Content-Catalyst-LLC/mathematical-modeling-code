@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_cell_area,result_cell_count,result_total
+cell-sum,Computes a simple cell-value sum multiplied by cell area.,,cell-sum,0.25,4,2.5

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_population_weighted_average_exposure,result_population_weighted_burden,result_population_total
+population-weighted,Computes population-weighted exposure and total burden.,,population-weighted,0.5,11.224540999651385,31709.32832401519,2825.0000000000023

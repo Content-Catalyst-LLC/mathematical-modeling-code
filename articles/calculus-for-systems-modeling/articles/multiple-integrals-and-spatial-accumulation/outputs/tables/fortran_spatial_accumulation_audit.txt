@@ -1,0 +1,4 @@
+scenario cells cell_area total_area total_density area_average population_burden population_total population_average warning
+coarse_grid     29      1.000000     29.000000    324.000000     11.172414  32674.473784   2900.000000     11.267060 coarse_grid
+medium_grid    113      0.250000     28.250000    314.312500     11.126106  31709.328324   2825.000000     11.224541 synthetic_grid_audit
+fine_grid    441      0.062500     27.562500    305.851562     11.096655  30852.148045   2756.250000     11.193523 synthetic_grid_audit

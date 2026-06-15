@@ -1,0 +1,24 @@
+actual_title: "Multiple Integrals and Spatial Accumulation"
+suggested_seo_title: "Multiple Integrals and Spatial Accumulation in Systems Modeling"
+focus_keyword: "multiple integrals spatial accumulation"
+slug: "multiple-integrals-and-spatial-accumulation"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "constrained-optimization-and-lagrange-multipliers"
+  current: "multiple-integrals-and-spatial-accumulation"
+  next: "change-of-variables-in-multidimensional-systems"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/multiple-integrals-and-spatial-accumulation"
+tags:
+  - Calculus
+  - Multivariable Calculus
+  - Multiple Integrals
+  - Spatial Accumulation
+  - Density Fields
+  - Gridded Data
+  - Systems Modeling
+  - Computational Modeling
+excerpt_139_words: "Multiple integrals extend accumulation from one-dimensional change to regions, surfaces, volumes, fields, and spatially distributed systems. This article explains how double integrals, triple integrals, density functions, regions, boundaries, domains, iterated integrals, coordinate systems, area and volume elements, spatial averages, weighted aggregation, gridded data, numerical integration, masks, resolution, and units shape systems modeling. It shows why multiple integrals are not merely larger definite integrals: they turn local quantities into totals over spatial domains, and those totals depend on what is being accumulated, where boundaries are drawn, how density is measured, and how geometry is represented. In computational workflows, multiple integrals support spatial accumulation audits, exposure-burden calculations, gridded approximation, population weighting, region-mask diagnostics, and governance of spatial aggregation claims. The article emphasizes documenting density, region, measure, resolution, boundary, weighting, and uncertainty."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

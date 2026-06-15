@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_density,input_width,input_height,result_area,result_total
+rectangle-total,Computes density times rectangular area.,,rectangle-total,12.0,4.0,3.0,12.0,144.0

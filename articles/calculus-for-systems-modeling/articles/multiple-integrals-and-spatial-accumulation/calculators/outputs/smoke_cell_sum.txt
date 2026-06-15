@@ -1,0 +1,19 @@
+{
+  "calculator": "cell-sum",
+  "inputs": {
+    "cell_area": 0.25,
+    "command": "cell-sum",
+    "values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ]
+  },
+  "interpretation": "Computes a simple cell-value sum multiplied by cell area.",
+  "result": {
+    "cell_count": 4,
+    "total": 2.5
+  },
+  "warning": ""
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_area_weighted_average,result_total_area
+area-average,Computes an area-weighted spatial average.,,area-average,0.5,11.126106194690266,28.25

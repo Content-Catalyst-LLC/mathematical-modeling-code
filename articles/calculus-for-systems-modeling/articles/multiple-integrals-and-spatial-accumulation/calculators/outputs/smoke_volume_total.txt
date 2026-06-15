@@ -1,0 +1,16 @@
+{
+  "calculator": "volume-total",
+  "inputs": {
+    "command": "volume-total",
+    "density": 5.0,
+    "height": 2.0,
+    "length": 4.0,
+    "width": 3.0
+  },
+  "interpretation": "Computes density times rectangular volume.",
+  "result": {
+    "total": 120.0,
+    "volume": 24.0
+  },
+  "warning": ""
+}

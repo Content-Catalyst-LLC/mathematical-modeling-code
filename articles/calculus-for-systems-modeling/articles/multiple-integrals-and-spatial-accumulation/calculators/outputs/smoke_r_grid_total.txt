@@ -1,0 +1,6 @@
+  calculator step cells_in_region cell_area total_area
+1 grid-total  0.5             113      0.25      28.25
+  total_density_accumulation area_weighted_average population_total
+1                   314.3125              11.12611             2825
+  population_weighted_burden population_weighted_average_exposure
+1                   31709.33                             11.22454

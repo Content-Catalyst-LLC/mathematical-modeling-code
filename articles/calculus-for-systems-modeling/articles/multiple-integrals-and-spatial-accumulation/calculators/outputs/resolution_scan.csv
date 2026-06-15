@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_cases
+resolution-scan,Scans spatial accumulation across grid resolutions.,Resolution can materially change totals.,resolution-scan,3

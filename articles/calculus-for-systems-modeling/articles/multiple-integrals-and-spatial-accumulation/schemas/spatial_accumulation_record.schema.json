@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpatialAccumulationRecord",
+  "type": "object",
+  "required": [
+    "scenario", "cells_in_region", "cell_area", "total_area",
+    "total_density_accumulation", "area_weighted_average",
+    "population_weighted_burden", "population_total",
+    "population_weighted_average_exposure", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "cells_in_region": {"type": "integer"},
+    "cell_area": {"type": "number"},
+    "total_area": {"type": "number"},
+    "total_density_accumulation": {"type": "number"},
+    "area_weighted_average": {"type": "number"},
+    "population_weighted_burden": {"type": "number"},
+    "population_total": {"type": "number"},
+    "population_weighted_average_exposure": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

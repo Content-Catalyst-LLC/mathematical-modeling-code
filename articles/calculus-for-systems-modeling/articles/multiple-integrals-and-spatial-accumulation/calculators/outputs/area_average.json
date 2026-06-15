@@ -1,0 +1,13 @@
+{
+  "calculator": "area-average",
+  "inputs": {
+    "command": "area-average",
+    "step": 0.5
+  },
+  "interpretation": "Computes an area-weighted spatial average.",
+  "result": {
+    "area_weighted_average": 11.126106194690266,
+    "total_area": 28.25
+  },
+  "warning": ""
+}

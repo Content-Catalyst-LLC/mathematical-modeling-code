@@ -1,0 +1,19 @@
+{
+  "calculator": "grid-total",
+  "inputs": {
+    "command": "grid-total",
+    "step": 0.5
+  },
+  "interpretation": "Approximates spatial accumulation by summing gridded cells.",
+  "result": {
+    "area_weighted_average": 11.126106194690266,
+    "cell_area": 0.25,
+    "cells_in_region": 113,
+    "population_total": 2825.0000000000023,
+    "population_weighted_average_exposure": 11.224540999651385,
+    "population_weighted_burden": 31709.32832401519,
+    "total_area": 28.25,
+    "total_density_accumulation": 314.3125
+  },
+  "warning": ""
+}

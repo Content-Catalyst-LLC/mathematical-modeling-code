@@ -1,0 +1,25 @@
+{
+  "article": "Multiple Integrals and Spatial Accumulation",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Spatial totals depend on integrand definition and units.",
+    "Changing region boundaries can change the total and interpretation.",
+    "Grid resolution and masks can hide hotspots or edge effects.",
+    "Weighted averages can clarify burden but may hide distributional inequality.",
+    "Coordinate transformations require correct area or volume scaling."
+  ]
+}

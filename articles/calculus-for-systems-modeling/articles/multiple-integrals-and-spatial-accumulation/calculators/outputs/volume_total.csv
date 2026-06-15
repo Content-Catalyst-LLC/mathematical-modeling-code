@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_density,input_length,input_width,input_height,result_volume,result_total
+volume-total,Computes density times rectangular volume.,,volume-total,5.0,4.0,3.0,2.0,24.0,120.0

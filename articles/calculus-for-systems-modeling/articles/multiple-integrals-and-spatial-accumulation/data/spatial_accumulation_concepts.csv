@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+integrand_definition,Integrand definition,Specifies the local density or intensity being accumulated,Determines what the spatial total actually measures,The integral is meaningful only if the integrand represents the intended quantity
+region_definition,Region definition,Defines the spatial domain of integration,Determines what is included excluded and aggregated,Changing the boundary can change the total and interpretation
+measure_element,Measure element,Defines the area or volume element used in accumulation,Ensures density units combine correctly with spatial units,Coordinate transformations require correct area or volume scaling
+grid_resolution,Grid resolution,Controls approximation of a continuous integral by cells,Shapes how local variation appears in spatial totals,Coarse grids may hide hotspots or edge effects
+region_mask,Region mask,Selects cells or points inside a modeled domain,Separates included from excluded spatial units,Mask logic can drive the final total
+weighted_aggregation,Weighted aggregation,Combines one spatial field with a weighting field,Supports population-weighted exposure demand-weighted burden or risk-weighted summaries,Weighted averages can clarify burden but may hide inequality
+boundary_sensitivity,Boundary sensitivity,Tests how totals change when domains shift,Reveals robustness of spatial accumulation claims,Administrative or computational boundaries may not match system boundaries

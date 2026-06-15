@@ -1,0 +1,14 @@
+{
+  "calculator": "population-weighted",
+  "inputs": {
+    "command": "population-weighted",
+    "step": 0.5
+  },
+  "interpretation": "Computes population-weighted exposure and total burden.",
+  "result": {
+    "population_total": 2825.0000000000023,
+    "population_weighted_average_exposure": 11.224540999651385,
+    "population_weighted_burden": 31709.32832401519
+  },
+  "warning": ""
+}

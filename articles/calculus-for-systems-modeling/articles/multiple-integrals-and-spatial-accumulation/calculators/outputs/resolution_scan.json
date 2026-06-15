@@ -1,0 +1,51 @@
+{
+  "calculator": "resolution-scan",
+  "inputs": {
+    "command": "resolution-scan",
+    "steps": [
+      1.0,
+      0.5,
+      0.25
+    ]
+  },
+  "interpretation": "Scans spatial accumulation across grid resolutions.",
+  "result": {
+    "cases": 3,
+    "scan": [
+      {
+        "area_weighted_average": 11.172413793103448,
+        "cell_area": 1.0,
+        "cells_in_region": 29,
+        "population_total": 2899.9999999999995,
+        "population_weighted_average_exposure": 11.26705992563087,
+        "population_weighted_burden": 32674.473784329515,
+        "step": 1.0,
+        "total_area": 29.0,
+        "total_density_accumulation": 324.0
+      },
+      {
+        "area_weighted_average": 11.126106194690266,
+        "cell_area": 0.25,
+        "cells_in_region": 113,
+        "population_total": 2825.0000000000023,
+        "population_weighted_average_exposure": 11.224540999651385,
+        "population_weighted_burden": 31709.32832401519,
+        "step": 0.5,
+        "total_area": 28.25,
+        "total_density_accumulation": 314.3125
+      },
+      {
+        "area_weighted_average": 11.096655328798185,
+        "cell_area": 0.0625,
+        "cells_in_region": 441,
+        "population_total": 2756.2500000000095,
+        "population_weighted_average_exposure": 11.19352310020777,
+        "population_weighted_burden": 30852.148044947775,
+        "step": 0.25,
+        "total_area": 27.5625,
+        "total_density_accumulation": 305.8515625
+      }
+    ]
+  },
+  "warning": "Resolution can materially change totals."
+}

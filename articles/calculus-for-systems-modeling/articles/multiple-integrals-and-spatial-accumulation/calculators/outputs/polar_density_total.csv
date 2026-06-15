@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_density,input_radius,result_area,result_total
+polar-density-total,Computes constant density over a circular polar region.,,polar-density-total,2.0,3.0,28.274333882308138,56.548667764616276

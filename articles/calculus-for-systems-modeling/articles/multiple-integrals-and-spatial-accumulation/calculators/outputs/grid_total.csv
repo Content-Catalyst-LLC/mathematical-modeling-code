@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_cells_in_region,result_cell_area,result_total_area,result_total_density_accumulation,result_area_weighted_average,result_population_total,result_population_weighted_burden,result_population_weighted_average_exposure
+grid-total,Approximates spatial accumulation by summing gridded cells.,,grid-total,0.5,113,0.25,28.25,314.3125,11.126106194690266,2825.0000000000023,31709.32832401519,11.224540999651385

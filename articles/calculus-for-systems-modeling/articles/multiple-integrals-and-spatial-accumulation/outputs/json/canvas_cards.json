@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "integrand-definition",
+    "category": "formal concept",
+    "governance_note": "Document local density, intensity, units, and what the total means.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Integrand Definition"
+  },
+  {
+    "card_id": "region-definition",
+    "category": "boundary",
+    "governance_note": "State the domain, boundary source, mask logic, and excluded areas.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Region Definition"
+  },
+  {
+    "card_id": "measure-element",
+    "category": "geometry",
+    "governance_note": "Confirm area/volume scaling and coordinate transformation factors.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Measure Element"
+  },
+  {
+    "card_id": "gridded-approximation",
+    "category": "computation",
+    "governance_note": "Report grid resolution, cell area, projection assumptions, and missing data handling.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Gridded Approximation"
+  },
+  {
+    "card_id": "weighted-aggregation",
+    "category": "decision support",
+    "governance_note": "Preserve distributional context when reporting weighted spatial averages.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "active",
+    "title": "Weighted Aggregation"
+  }
+]

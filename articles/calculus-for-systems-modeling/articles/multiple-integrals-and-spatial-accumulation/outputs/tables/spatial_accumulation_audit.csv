@@ -1,0 +1,4 @@
+scenario,cells_in_region,cell_area,total_area,total_density_accumulation,area_weighted_average,population_weighted_burden,population_total,population_weighted_average_exposure,warning
+coarse_grid,29,1.0,29.0,324.0,11.172413793103448,32674.473784329515,2899.9999999999995,11.26705992563087,Grid resolution is coarse; spatial accumulation may smooth local variation.
+medium_grid,113,0.25,28.25,314.3125,11.126106194690266,31709.32832401519,2825.0000000000023,11.224540999651385,"Synthetic grid audit; region mask, cell area, and units should be documented."
+fine_grid,441,0.0625,27.5625,305.8515625,11.096655328798185,30852.148044947775,2756.2500000000095,11.19352310020777,"Synthetic grid audit; region mask, cell area, and units should be documented."

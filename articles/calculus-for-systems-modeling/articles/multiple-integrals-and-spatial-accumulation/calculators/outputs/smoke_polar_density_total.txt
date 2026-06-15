@@ -1,0 +1,14 @@
+{
+  "calculator": "polar-density-total",
+  "inputs": {
+    "command": "polar-density-total",
+    "density": 2.0,
+    "radius": 3.0
+  },
+  "interpretation": "Computes constant density over a circular polar region.",
+  "result": {
+    "area": 28.274333882308138,
+    "total": 56.548667764616276
+  },
+  "warning": ""
+}
