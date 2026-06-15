@@ -1,0 +1,53 @@
+{
+  "advanced_standard": true,
+  "article": "Integration by Parts and Structured Decomposition",
+  "condition_failures": [
+    {
+      "condition": "decomposition residual tolerance",
+      "passed": false,
+      "value": 0.1,
+      "warning": "direct and decomposed accumulation differ beyond tolerance"
+    },
+    {
+      "condition": "unit consistency documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "direct boundary and residual terms lack shared product units"
+    },
+    {
+      "condition": "boundary term interpreted",
+      "passed": false,
+      "value": 0.0,
+      "warning": "boundary term lacks endpoint interpretation"
+    },
+    {
+      "condition": "residual integral interpreted",
+      "passed": false,
+      "value": 0.0,
+      "warning": "residual integral lacks system interpretation"
+    },
+    {
+      "condition": "causal overclaim avoided",
+      "passed": false,
+      "value": 1.0,
+      "warning": "decomposition identity is being overread as causal proof"
+    }
+  ],
+  "topics": [
+    "product_rule_origin",
+    "choice_of_parts",
+    "boundary_term",
+    "residual_integral",
+    "weighted_accumulation",
+    "unit_consistency",
+    "direct_vs_decomposed_residual",
+    "causal_overclaim_review"
+  ],
+  "warnings": [
+    "Integration by parts is an accounting identity, not causal proof.",
+    "Boundary terms depend strongly on interval choice.",
+    "Residual terms may be unstable when derivatives are estimated from noisy data.",
+    "A valid algebraic decomposition may still lack system meaning.",
+    "Direct and decomposed calculations should be compared when used computationally."
+  ]
+}

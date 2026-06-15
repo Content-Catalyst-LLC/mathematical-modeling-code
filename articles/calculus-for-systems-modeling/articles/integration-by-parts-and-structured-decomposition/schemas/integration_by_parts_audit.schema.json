@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntegrationByPartsAudit",
+  "type": "object",
+  "required": ["interval_start", "interval_end", "direct_integral", "boundary_term", "residual_integral", "decomposed_value", "decomposition_residual", "method", "unit_check", "warning"],
+  "properties": {
+    "interval_start": {"type": "number"},
+    "interval_end": {"type": "number"},
+    "direct_integral": {"type": "number"},
+    "boundary_term": {"type": "number"},
+    "residual_integral": {"type": "number"},
+    "decomposed_value": {"type": "number"},
+    "decomposition_residual": {"type": "number"},
+    "method": {"type": "string"},
+    "unit_check": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

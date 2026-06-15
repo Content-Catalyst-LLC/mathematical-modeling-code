@@ -1,0 +1,11 @@
+condition,value,passed,warning
+decomposition residual tolerance,1e-05,True,
+decomposition residual tolerance,0.1,False,direct and decomposed accumulation differ beyond tolerance
+unit consistency documented,1.0,True,
+unit consistency documented,0.0,False,direct boundary and residual terms lack shared product units
+boundary term interpreted,1.0,True,
+boundary term interpreted,0.0,False,boundary term lacks endpoint interpretation
+residual integral interpreted,1.0,True,
+residual integral interpreted,0.0,False,residual integral lacks system interpretation
+causal overclaim avoided,0.0,True,
+causal overclaim avoided,1.0,False,decomposition identity is being overread as causal proof

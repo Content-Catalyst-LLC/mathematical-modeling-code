@@ -1,0 +1,22 @@
+actual_title: "Integration by Parts and Structured Decomposition"
+suggested_seo_title: "Integration by Parts and Structured Decomposition in Systems Modeling"
+focus_keyword: "integration by parts structured decomposition"
+slug: "integration-by-parts-and-structured-decomposition"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "substitution-and-transformations-of-accumulation"
+  current: "integration-by-parts-and-structured-decomposition"
+  next: "improper-integrals-and-unbounded-quantities"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/integration-by-parts-and-structured-decomposition"
+tags:
+  - Calculus
+  - Integration by Parts
+  - Structured Decomposition
+  - Product Rule
+  - Boundary Terms
+  - Accumulation
+  - Systems Modeling
+  - Mathematical Interpretation
+excerpt_139_words: "Integration by parts explains how accumulated quantities can be decomposed when two changing factors interact. This article treats the method as a modeling principle for structured decomposition, not only as a technique for evaluating integrals. It shows how product relationships can be reorganized into boundary terms and residual accumulation, clarifying how endpoint conditions, changing weights, changing quantities, and internal variation shape a total. In systems modeling, integration by parts helps interpret weighted exposure, price and quantity change, force and displacement, discounted cost, reliability and hazard, and policy-weighted indicators. The article emphasizes that decompositions are accounting identities rather than automatic causal explanations. It also explains why units, interval choice, derivative stability, numerical residuals, and interpretability matter when product-based accumulation is used to communicate how a system changes over time, space, or another modeling interval."
+advanced_standard: true

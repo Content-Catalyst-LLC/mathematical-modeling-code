@@ -1,0 +1,19 @@
+{
+  "article_slug": "integration-by-parts-and-structured-decomposition",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "integration-by-parts-structured-decomposition",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "product-rule-origin", "title": "Product Rule Origin", "description": "Integration by parts reorganizes the accumulated change of a product."},
+    {"card_id": "boundary-term", "title": "Boundary Term", "description": "Endpoint product differences shape the decomposition."},
+    {"card_id": "residual-integral", "title": "Residual Integral", "description": "Complementary product-change accumulation explains internal variation."},
+    {"card_id": "decomposition-audit", "title": "Decomposition Audit", "description": "Direct and decomposed calculations should reconcile within tolerance."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

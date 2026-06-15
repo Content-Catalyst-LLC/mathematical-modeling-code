@@ -1,6 +1,6 @@
-.PHONY: smoke advanced fundamental-theorem substitution clean
+.PHONY: smoke advanced substitution integration-by-parts clean
 
-smoke: fundamental-theorem substitution
+smoke: substitution integration-by-parts
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-fundamental-theorem:
-	$(MAKE) -C articles/the-fundamental-theorem-of-calculus smoke
-
 substitution:
 	$(MAKE) -C articles/substitution-and-transformations-of-accumulation smoke
+
+integration-by-parts:
+	$(MAKE) -C articles/integration-by-parts-and-structured-decomposition smoke
 
 clean:
 	@for d in articles/*; do \

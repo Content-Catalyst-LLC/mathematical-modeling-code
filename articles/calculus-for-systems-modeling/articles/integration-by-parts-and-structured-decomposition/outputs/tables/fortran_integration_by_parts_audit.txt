@@ -1,0 +1,2 @@
+interval_start interval_end direct_integral boundary_term residual_integral decomposed_value decomposition_residual
+   0.000    4.000      -2.300507      -1.139723       1.160784      -2.300507      -0.000000

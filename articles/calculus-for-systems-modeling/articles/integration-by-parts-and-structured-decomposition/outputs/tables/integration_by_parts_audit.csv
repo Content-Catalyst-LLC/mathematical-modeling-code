@@ -1,0 +1,2 @@
+interval_start,interval_end,direct_integral,boundary_term,residual_integral,decomposed_value,decomposition_residual,method,unit_check,warning
+0.0,4.0,-2.3005066358503115,-1.1397226557372977,1.1607839192547023,-2.300506574992,-6.085831127933261e-08,trapezoidal comparison,"u times v units are shared by direct, boundary, and residual terms",
