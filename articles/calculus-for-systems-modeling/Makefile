@@ -1,6 +1,6 @@
-.PHONY: smoke advanced chain clean
+.PHONY: smoke advanced implicit clean
 
-smoke: chain
+smoke: implicit
 
 advanced:
 	@for d in articles/*; do \
@@ -10,8 +10,8 @@ advanced:
 		fi; \
 	done
 
-chain:
-	$(MAKE) -C articles/chain-rule-and-composite-change-in-interacting-systems smoke
+implicit:
+	$(MAKE) -C articles/implicit-differentiation-and-coupled-relationships smoke
 
 clean:
 	@for d in articles/*; do \

@@ -1,0 +1,47 @@
+{
+  "advanced_standard": true,
+  "article": "Implicit Differentiation and Coupled Relationships",
+  "condition_failures": [
+    {
+      "condition": "regularity condition",
+      "passed": false,
+      "value": 0.0,
+      "warning": "partial derivative or Jacobian block is singular or near singular"
+    },
+    {
+      "condition": "Jacobian conditioning",
+      "passed": false,
+      "value": 10000000000.0,
+      "warning": "Jacobian is ill-conditioned"
+    },
+    {
+      "condition": "local branch validity",
+      "passed": false,
+      "value": 3.0,
+      "warning": "local derivative may be overextended from its branch"
+    },
+    {
+      "condition": "constraint residual",
+      "passed": false,
+      "value": 0.01,
+      "warning": "constraint residual is too large"
+    }
+  ],
+  "topics": [
+    "implicit_relation",
+    "local_branch",
+    "total_differential",
+    "implicit_function_theorem",
+    "regularity_condition",
+    "equilibrium_sensitivity",
+    "jacobian_conditioning",
+    "singular_cases"
+  ],
+  "warnings": [
+    "Implicit derivatives are local and branch-specific.",
+    "The relationship held fixed must be stated.",
+    "Regularity requires a nonzero partial derivative or invertible Jacobian block.",
+    "Ill-conditioned Jacobians can make sensitivity unreliable.",
+    "Co-adjustment is not the same as independent causal response."
+  ]
+}

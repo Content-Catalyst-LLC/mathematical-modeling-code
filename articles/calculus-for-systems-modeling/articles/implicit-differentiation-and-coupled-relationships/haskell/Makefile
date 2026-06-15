@@ -1,0 +1,10 @@
+.PHONY: run build clean
+
+run:
+	@if command -v runhaskell >/dev/null 2>&1; then runhaskell Main.hs; elif command -v ghc >/dev/null 2>&1; then $(MAKE) build && ./implicit-haskell; else echo "Haskell toolchain not found; skipping."; fi
+
+build:
+	ghc -O2 Main.hs -o implicit-haskell
+
+clean:
+	rm -f implicit-haskell *.hi *.o

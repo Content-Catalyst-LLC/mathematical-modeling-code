@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+constraint_equation,Constraint equation,Defines F(x,y)=0 or F(x,p)=0,Identifies the relationship held fixed,Derivative is meaningful only relative to the stated constraint
+regularity_condition,Regularity condition,Requires nonzero partial derivative or invertible Jacobian block,Supports local solvability and co-adjustment interpretation,Failure implies unstable undefined or branch-dependent derivative
+coadjustment_rate,Co-adjustment rate,dy/dx=-F_x/F_y when F_y is nonzero,Shows how variables move together to preserve a relationship,Co-adjustment is not independent causal response
+equilibrium_sensitivity,Equilibrium sensitivity,dx/dp=-G_p/G_x when G_x is nonzero,Shows how equilibrium shifts when a parameter changes,Sensitivity can become unstable near singular or bifurcation points
+jacobian_conditioning,Jacobian conditioning,Vector systems solve F_x S=-F_p,Supports multivariable coupled-system sensitivity analysis,Ill-conditioned Jacobians can make numerical sensitivity unreliable

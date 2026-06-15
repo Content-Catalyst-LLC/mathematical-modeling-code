@@ -1,0 +1,22 @@
+actual_title: "Implicit Differentiation and Coupled Relationships"
+suggested_seo_title: "Implicit Differentiation and Coupled Relationships in Systems Modeling"
+focus_keyword: "implicit differentiation coupled relationships"
+slug: "implicit-differentiation-and-coupled-relationships"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "chain-rule-and-composite-change-in-interacting-systems"
+  current: "implicit-differentiation-and-coupled-relationships"
+  next: "partial-derivatives-and-multivariable-change"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/implicit-differentiation-and-coupled-relationships"
+tags:
+  - Calculus
+  - Implicit Differentiation
+  - Coupled Relationships
+  - Equilibrium Sensitivity
+  - Constraint Modeling
+  - Jacobians
+  - Systems Modeling
+  - Reproducible Workflows
+excerpt_139_words: "Implicit differentiation explains how coupled variables co-adjust when a constraint, equilibrium condition, conservation law, feasibility boundary, or feedback relationship must remain true. This article develops implicit differentiation as both a formal calculus technique and a systems-modeling tool for relationships that cannot honestly be reduced to a simple explicit function. It covers explicit versus implicit models, total differentials, constraint motion, the implicit function theorem, coupled variables, equilibrium sensitivity, feedback co-adjustment, systems of equations, Jacobian formulations, singular cases, and loss of local solvability. Examples include market equilibrium, resource-population coupling, infrastructure utilization, epidemiological thresholds, climate balance conditions, calibration, and inverse problems. Companion workflows in Python, R, SQL, and Haskell include implicit sensitivity audits, finite-difference checks, regularity-condition review, typed coupled records, assumption registries, Jacobian conditioning warnings, and advanced mathematical audit reports."
+advanced_standard: true

@@ -1,0 +1,19 @@
+{
+  "article_slug": "implicit-differentiation-and-coupled-relationships",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "implicit-differentiation-coupled-relationships",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "constraint-equation", "title": "Constraint Equation", "description": "Variables are coupled by a relationship that must remain true."},
+    {"card_id": "regularity-condition", "title": "Regularity Condition", "description": "Local solvability requires a nonzero partial derivative or invertible Jacobian block."},
+    {"card_id": "coadjustment-rate", "title": "Co-Adjustment Rate", "description": "Implicit derivatives describe how variables move together along a relationship."},
+    {"card_id": "jacobian-conditioning", "title": "Jacobian Conditioning", "description": "Coupled systems require conditioning checks for stable sensitivity interpretation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

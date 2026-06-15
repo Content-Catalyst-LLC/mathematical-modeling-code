@@ -1,0 +1,19 @@
+section                       
+------------------------------
+IMPLICIT RELATIONSHIP REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Co-adjustment rate       For F(x,y)=0, dy/dx=-F_x/F_y when F_y is nonzero.             Shows how variables must move together to preserve the relat  Co-adjustment is not the same as independent causal response
+                                                                                       ionship.                                                      .                                                           
+
+Constraint equation      An implicit relationship is written as F(x,y)=0 or F(x,p)=0.  Identifies the relationship that must remain satisfied.       The derivative is meaningful only relative to the stated con
+                                                                                                                                                     straint.                                                    
+
+Equilibrium sensitivity  For G(x,p)=0, dx/dp=-G_p/G_x when G_x is nonzero.             Shows how an equilibrium shifts when a parameter changes.     Sensitivity can become unstable near singular or bifurcation
+                                                                                                                                                      points.                                                    
+
+Jacobian conditioning    Vector systems require solving F_x S=-F_p.                    Supports multivariable coupled-system sensitivity analysis.   Ill-conditioned Jacobians can make numerical sensitivity unr
+                                                                                                                                                     eliable.                                                    
+
+Regularity condition     Local solvability requires a nonzero partial derivative or i  Supports interpretation of one variable as locally adjusting  If the condition fails, the derivative may be undefined, uns
+                         nvertible Jacobian block.                                      to another.                                                  table, or branch-dependent.                                 

@@ -1,0 +1,12 @@
+{
+  "advanced_standard": true,
+  "article": "Implicit Differentiation and Coupled Relationships",
+  "diagnostics": [
+    "constraint_residual",
+    "regularity_condition",
+    "implicit_sensitivity",
+    "finite_difference_check",
+    "conditioning_warning"
+  ],
+  "warning": "Implicit derivatives describe local co-adjustment under a stated relationship, not unconstrained causal response."
+}

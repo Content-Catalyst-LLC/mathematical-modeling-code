@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ImplicitAudit",
+  "type": "object",
+  "required": ["parameter", "equilibrium_state", "constraint_value", "partial_state", "partial_parameter", "implicit_sensitivity", "finite_difference_check", "absolute_error", "warning"],
+  "properties": {
+    "parameter": {"type": "number"},
+    "equilibrium_state": {"type": "number"},
+    "constraint_value": {"type": "number"},
+    "partial_state": {"type": "number"},
+    "partial_parameter": {"type": "number"},
+    "implicit_sensitivity": {"type": "number"},
+    "finite_difference_check": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0},
+    "warning": {"type": "string"}
+  }
+}
