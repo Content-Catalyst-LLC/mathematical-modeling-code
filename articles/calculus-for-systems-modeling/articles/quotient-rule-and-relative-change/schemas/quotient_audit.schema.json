@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QuotientAudit",
+  "type": "object",
+  "required": ["t", "numerator", "denominator", "ratio", "numerator_rate", "denominator_rate", "quotient_derivative", "warning"],
+  "properties": {
+    "t": {"type": "number"},
+    "numerator": {"type": "number"},
+    "denominator": {"type": "number"},
+    "ratio": {"type": "number"},
+    "numerator_rate": {"type": "number"},
+    "denominator_rate": {"type": "number"},
+    "numerator_effect": {"type": "number"},
+    "denominator_effect": {"type": "number"},
+    "quotient_derivative": {"type": "number"},
+    "numerator_relative_rate": {"type": "number"},
+    "denominator_relative_rate": {"type": "number"},
+    "ratio_relative_rate": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

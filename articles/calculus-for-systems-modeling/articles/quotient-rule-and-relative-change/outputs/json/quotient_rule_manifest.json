@@ -1,0 +1,11 @@
+{
+  "advanced_standard": true,
+  "article": "The Quotient Rule and Relative Change",
+  "diagnostics": [
+    "numerator_effect",
+    "denominator_effect",
+    "relative_rate_identity",
+    "denominator_warning"
+  ],
+  "warning": "Ratio indicators require denominator validity, positivity checks, and absolute as well as relative interpretation."
+}

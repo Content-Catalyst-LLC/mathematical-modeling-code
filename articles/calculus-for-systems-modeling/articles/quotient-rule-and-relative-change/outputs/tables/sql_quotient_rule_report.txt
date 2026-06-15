@@ -1,0 +1,18 @@
+section                          
+---------------------------------
+QUOTIENT RULE ASSUMPTION REGISTRY
+assumption_name         mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Denominator effect      The term -f(x)g'(x)/g(x)^2 isolates denominator-driven local  Shows how normalization changes the indicator.                Denominator change can dominate the ratio derivative.       
+                         change.                                                                                                                                                                                
+
+Indicator validity      A quotient is mathematically valid only where defined.        A ratio is substantively useful only when the denominator is  A ratio can be formal but poorly motivated as a systems indi
+                                                                                       meaningful.                                                  cator.                                                      
+
+Nonzero denominator     The quotient rule requires g(x) != 0.                         Ensures the ratio and derivative are defined.                 Near-zero denominators can create numerical and interpretive
+                                                                                                                                                     instability.                                               
+
+Numerator effect        The term f'(x)/g(x) isolates numerator-driven local change.   Shows how the ratio changes because the numerator changes.    Numerator improvement can be offset by denominator growth.  
+
+Relative-rate identity  For positive f and g R'/R = f'/f - g'/g.                      Explains ratio change through competing proportional rates.   Requires positivity and meaningful proportional interpretati
+                                                                                                                                                    on.                                                         

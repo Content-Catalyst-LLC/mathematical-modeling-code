@@ -1,0 +1,40 @@
+{
+  "advanced_standard": true,
+  "article": "The Quotient Rule and Relative Change",
+  "condition_failures": [
+    {
+      "condition": "nonzero denominator",
+      "passed": false,
+      "value": 0.0,
+      "warning": "denominator is zero or near zero"
+    },
+    {
+      "condition": "positive quantity for logarithmic relative-rate interpretation",
+      "passed": false,
+      "value": -2.0,
+      "warning": "relative-rate logarithmic interpretation requires positivity"
+    },
+    {
+      "condition": "relative-rate identity",
+      "passed": false,
+      "value": 0.009999999999999998,
+      "warning": "R'/R does not match f'/f - g'/g within tolerance"
+    }
+  ],
+  "topics": [
+    "quotient_as_product_with_reciprocal",
+    "nonzero_denominator_condition",
+    "numerator_denominator_decomposition",
+    "relative_rate_identity",
+    "elasticity_of_ratio",
+    "near_zero_denominator_instability",
+    "indicator_validity"
+  ],
+  "warnings": [
+    "A ratio is not automatically substantively meaningful.",
+    "The denominator must be nonzero and meaningful.",
+    "Near-zero denominators can dominate interpretation.",
+    "Relative-rate interpretations require positivity.",
+    "Ratio improvement can coexist with absolute deterioration."
+  ]
+}

@@ -1,0 +1,7 @@
+condition,value,passed,warning
+nonzero denominator,100.0,True,
+nonzero denominator,0.0,False,denominator is zero or near zero
+positive quantity for logarithmic relative-rate interpretation,10.0,True,
+positive quantity for logarithmic relative-rate interpretation,-2.0,False,relative-rate logarithmic interpretation requires positivity
+relative-rate identity,0.0,True,
+relative-rate identity,0.009999999999999998,False,R'/R does not match f'/f - g'/g within tolerance

@@ -1,6 +1,6 @@
-.PHONY: smoke advanced rules clean
+.PHONY: smoke advanced quotient clean
 
-smoke: rules
+smoke: quotient
 
 advanced:
 	@for d in articles/*; do \
@@ -10,8 +10,8 @@ advanced:
 		fi; \
 	done
 
-rules:
-	$(MAKE) -C articles/rules-of-differentiation-and-model-structure smoke
+quotient:
+	$(MAKE) -C articles/quotient-rule-and-relative-change smoke
 
 clean:
 	@for d in articles/*; do \

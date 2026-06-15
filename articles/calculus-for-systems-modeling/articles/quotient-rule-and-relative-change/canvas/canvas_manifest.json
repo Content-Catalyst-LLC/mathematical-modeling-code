@@ -1,0 +1,18 @@
+{
+  "article_slug": "quotient-rule-and-relative-change",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "quotient-rule-relative-change",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "numerator-effect", "title": "Numerator Effect", "description": "Ratio change caused by change in the numerator."},
+    {"card_id": "denominator-effect", "title": "Denominator Effect", "description": "Ratio change caused by change in the normalizing denominator."},
+    {"card_id": "relative-rate", "title": "Relative-Rate Identity", "description": "Ratio relative change equals numerator relative change minus denominator relative change."},
+    {"card_id": "denominator-risk", "title": "Denominator Risk", "description": "Near-zero denominators can destabilize interpretation and computation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true
+  }
+}
