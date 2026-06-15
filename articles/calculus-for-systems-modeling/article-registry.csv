@@ -33,5 +33,6 @@ V Multivariable Calculus,30,partial-derivatives-and-interaction-effects,Partial 
 V Multivariable Calculus,31,total-differentials-and-local-approximation-in-higher-dimensions,Total Differentials and Local Approximation in Higher Dimensions,active,articles/total-differentials-and-local-approximation-in-higher-dimensions,upgraded,included
 V Multivariable Calculus,32,directional-derivatives-and-gradients,Directional Derivatives and Gradients,active,articles/directional-derivatives-and-gradients,upgraded,included
 V Multivariable Calculus,33,jacobians-and-multivariable-transformation,Jacobians and Multivariable Transformation,active,articles/jacobians-and-multivariable-transformation,upgraded,included
-V Multivariable Calculus,34,hessians-curvature-and-local-structure,"Hessians, Curvature, and Local Structure",planned,articles/hessians-curvature-and-local-structure,required,required
+V Multivariable Calculus,34,hessians-curvature-and-local-structure,"Hessians, Curvature, and Local Structure",active,articles/hessians-curvature-and-local-structure,upgraded,included
 V Multivariable Calculus,35,constrained-optimization-and-lagrange-multipliers,Constrained Optimization and Lagrange Multipliers,planned,articles/constrained-optimization-and-lagrange-multipliers,required,required
+V Multivariable Calculus,36,multiple-integrals-and-spatial-accumulation,Multiple Integrals and Spatial Accumulation,planned,articles/multiple-integrals-and-spatial-accumulation,required,required

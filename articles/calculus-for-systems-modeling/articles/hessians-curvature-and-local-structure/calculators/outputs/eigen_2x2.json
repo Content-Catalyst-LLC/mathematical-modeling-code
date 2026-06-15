@@ -1,0 +1,14 @@
+{
+  "calculator": "eigen-2x2",
+  "inputs": {
+    "command": "eigen-2x2",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes principal curvature eigenvalues for a symmetric 2x2 Hessian.",
+  "result": {
+    "lambda_1": 6.745584412271572,
+    "lambda_2": 1.6544155877284288
+  },
+  "warning": ""
+}

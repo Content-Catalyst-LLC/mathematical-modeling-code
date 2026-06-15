@@ -1,0 +1,16 @@
+{
+  "calculator": "hessian",
+  "inputs": {
+    "command": "hessian",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes the Hessian curvature matrix.",
+  "result": {
+    "h11": 2.4,
+    "h12": 1.8,
+    "h21": 1.8,
+    "h22": 6.0
+  },
+  "warning": ""
+}

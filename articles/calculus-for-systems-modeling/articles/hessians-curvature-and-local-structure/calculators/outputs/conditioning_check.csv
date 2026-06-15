@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_condition_estimate,result_lambda_1,result_lambda_2
+conditioning-check,Estimates curvature conditioning from eigenvalues.,,conditioning-check,2.0,1.0,4.077321600634517,6.745584412271572,1.6544155877284288

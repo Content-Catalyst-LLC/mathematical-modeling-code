@@ -1,0 +1,27 @@
+section                    
+---------------------------
+HESSIAN ASSUMPTION REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Conditioning              Assesses curvature spread and numerical fragility.            Flags weak identification narrow valleys and unstable optimi  Conditioning depends on scaling units and parameterization. 
+                                                                                        zation.                                                                                                                   
+
+Cross partials            Measure how sensitivity to one variable changes as another v  Support interaction review in multivariable systems.          Interaction structure should not be treated as causal withou
+                          ariable changes.                                                                                                            t model justification.                                      
+
+Definiteness              Classifies local curvature using Hessian signs determinants   Helps distinguish minima maxima saddle points and inconclusi  Local classification does not imply global optimality.      
+                          or eigenvalues.                                               ve regions.                                                                                                               
+
+Reference state           Identifies where the Hessian is evaluated.                    Anchors curvature analysis to a baseline critical point scen  A Hessian should not be interpreted without its reference st
+                                                                                        ario or calibration region.                                   ate.                                                        
+
+Second-order derivatives  Record how first-order sensitivities change with input movem  Reveal curvature acceleration and changing marginal response  Second derivatives are local and depend on smoothness assump
+                          ent.                                                          .                                                             tions.                                                      
+section      
+-------------
+HESSIAN CASES
+x     y    dx   dy     h11  h12   h21   h22  determinant  classification     second_order_error  warning
+----  ---  ---  -----  ---  ----  ----  ---  -----------  -----------------  ------------------  -------
+-5.0  0.0  0.2  0.1    2.0  -1.0  -1.0  6.0  11.0         positive definite  0.002                      
+2.0   1.0  0.1  -0.05  2.4  1.8   1.8   6.0  11.16        positive definite  0.0005                     
+2.0   1.0  0.5  0.5    2.4  1.8   1.8   6.0  11.16        positive definite  0.05                       

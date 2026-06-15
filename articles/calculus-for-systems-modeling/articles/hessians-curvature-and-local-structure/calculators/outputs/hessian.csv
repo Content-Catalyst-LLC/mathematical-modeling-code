@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_h11,result_h12,result_h21,result_h22
+hessian,Computes the Hessian curvature matrix.,,hessian,2.0,1.0,2.4,1.8,1.8,6.0

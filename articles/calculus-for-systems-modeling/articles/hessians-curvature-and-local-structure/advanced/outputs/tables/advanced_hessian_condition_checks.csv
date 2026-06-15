@@ -1,0 +1,10 @@
+condition,passed,warning
+reference state documented,True,
+gradient and Hessian included,True,
+cross-partial review included,True,
+curvature classification included,True,
+first-order versus second-order approximation included,True,
+conditioning and scaling warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

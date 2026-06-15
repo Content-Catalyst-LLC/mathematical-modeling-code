@@ -1,0 +1,15 @@
+{
+  "calculator": "first-order",
+  "inputs": {
+    "command": "first-order",
+    "dx": 0.1,
+    "dy": -0.05,
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes the linear gradient-based change estimate.",
+  "result": {
+    "first_order_change": 0.1399999999999999
+  },
+  "warning": ""
+}

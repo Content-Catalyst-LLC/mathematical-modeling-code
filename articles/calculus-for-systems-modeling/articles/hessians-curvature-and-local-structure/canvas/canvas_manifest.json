@@ -1,0 +1,22 @@
+{
+  "article_slug": "hessians-curvature-and-local-structure",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "hessians-curvature-local-structure",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "hessian-matrix", "title": "Hessian Matrix", "description": "Matrix of second partial derivatives for scalar-valued functions."},
+    {"card_id": "second-order-approximation", "title": "Second-Order Approximation", "description": "Quadratic local correction beyond the gradient."},
+    {"card_id": "cross-partials", "title": "Cross Partials", "description": "Second-order interaction among inputs."},
+    {"card_id": "curvature-classification", "title": "Curvature Classification", "description": "Positive definite, negative definite, indefinite, or inconclusive local shape."},
+    {"card_id": "conditioning", "title": "Conditioning", "description": "Curvature spread and numerical fragility diagnostics."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

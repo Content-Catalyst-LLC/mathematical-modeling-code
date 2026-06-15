@@ -1,0 +1,14 @@
+{
+  "calculator": "cross-partial",
+  "inputs": {
+    "command": "cross-partial",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Reports off-diagonal Hessian entries as local second-order interaction terms.",
+  "result": {
+    "cross_partial_xy": 1.8,
+    "cross_partial_yx": 1.8
+  },
+  "warning": ""
+}

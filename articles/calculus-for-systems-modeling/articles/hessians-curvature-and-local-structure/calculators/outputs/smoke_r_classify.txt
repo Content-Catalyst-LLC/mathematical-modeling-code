@@ -1,0 +1,2 @@
+  calculator x y determinant trace    classification
+1   classify 2 1       11.16   8.4 positive definite

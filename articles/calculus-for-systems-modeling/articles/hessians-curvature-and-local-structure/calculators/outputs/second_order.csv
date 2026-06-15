@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_dx,input_dy,result_first_order_change,result_second_order_change
+second-order,Computes the second-order Taylor change estimate.,,second-order,2.0,1.0,0.1,-0.05,0.1399999999999999,0.1504999999999999

@@ -1,0 +1,15 @@
+{
+  "calculator": "conditioning-check",
+  "inputs": {
+    "command": "conditioning-check",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Estimates curvature conditioning from eigenvalues.",
+  "result": {
+    "condition_estimate": 4.077321600634517,
+    "lambda_1": 6.745584412271572,
+    "lambda_2": 1.6544155877284288
+  },
+  "warning": ""
+}

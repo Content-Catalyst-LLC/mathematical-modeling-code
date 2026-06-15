@@ -1,0 +1,25 @@
+{
+  "article": "Hessians, Curvature, and Local Structure",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Hessians are local curvature maps, not global nonlinear explanations.",
+    "Curvature values depend on input units and scaling.",
+    "Cross partials require careful interpretation and do not prove causality.",
+    "Local optima or saddle points may not imply global conclusions.",
+    "Second-order approximation can fail near thresholds, discontinuities, or large movements."
+  ]
+}

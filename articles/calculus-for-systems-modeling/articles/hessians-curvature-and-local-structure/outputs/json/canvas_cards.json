@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "hessian-matrix",
+    "category": "formal concept",
+    "governance_note": "State function, input units, derivative method, and reference point.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Hessian Matrix"
+  },
+  {
+    "card_id": "second-order-approximation",
+    "category": "approximation",
+    "governance_note": "Compare first-order and second-order estimates against actual model change.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Second-Order Approximation"
+  },
+  {
+    "card_id": "cross-partials",
+    "category": "interaction",
+    "governance_note": "Do not treat second-order interaction as causal without model justification.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Cross Partials"
+  },
+  {
+    "card_id": "curvature-classification",
+    "category": "diagnostic",
+    "governance_note": "Flag positive definite, negative definite, indefinite, and inconclusive local shape.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Curvature Classification"
+  },
+  {
+    "card_id": "conditioning",
+    "category": "governance",
+    "governance_note": "Curvature interpretation depends on scaling, units, and numerical stability.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Conditioning"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "calculator": "determinant",
+  "inputs": {
+    "command": "determinant",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes the Hessian determinant for two-variable curvature classification.",
+  "result": {
+    "determinant": 11.159999999999998
+  },
+  "warning": ""
+}

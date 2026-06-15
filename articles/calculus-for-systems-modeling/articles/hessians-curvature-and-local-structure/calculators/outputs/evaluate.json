@@ -1,0 +1,13 @@
+{
+  "calculator": "evaluate",
+  "inputs": {
+    "command": "evaluate",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Evaluates the scalar function at the reference point.",
+  "result": {
+    "output": 9.8
+  },
+  "warning": ""
+}

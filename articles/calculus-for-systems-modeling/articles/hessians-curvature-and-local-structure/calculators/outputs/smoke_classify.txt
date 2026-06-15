@@ -1,0 +1,15 @@
+{
+  "calculator": "classify",
+  "inputs": {
+    "command": "classify",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Classifies local curvature using the two-variable Hessian test.",
+  "result": {
+    "classification": "positive definite",
+    "determinant": 11.159999999999998,
+    "trace": 8.4
+  },
+  "warning": ""
+}

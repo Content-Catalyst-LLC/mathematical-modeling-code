@@ -1,0 +1,2 @@
+"calculator","x","y","dx","dy","first_order_change","second_order_change","actual_change","second_order_error"
+"second-order",2,1,0.1,-0.05,0.14,0.1505,0.150399999999999,0.000100000000000489

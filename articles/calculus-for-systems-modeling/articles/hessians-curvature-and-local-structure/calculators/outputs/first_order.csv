@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_dx,input_dy,result_first_order_change
+first-order,Computes the linear gradient-based change estimate.,,first-order,2.0,1.0,0.1,-0.05,0.1399999999999999

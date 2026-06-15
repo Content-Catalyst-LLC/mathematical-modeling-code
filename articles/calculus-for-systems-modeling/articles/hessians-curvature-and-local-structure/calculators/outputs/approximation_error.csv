@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_dx,input_dy,result_actual_change,result_first_order_change,result_second_order_change,result_first_order_error,result_second_order_error
+approximation-error,Compares first-order and second-order approximations with actual nonlinear change.,,approximation-error,2.0,1.0,0.5,0.5,8.825,7.300000000000001,8.8,1.5249999999999986,0.02499999999999858

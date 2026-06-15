@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_gradient_x,result_gradient_y
+gradient,Computes first-order local sensitivity.,,gradient,2.0,1.0,5.8,8.8

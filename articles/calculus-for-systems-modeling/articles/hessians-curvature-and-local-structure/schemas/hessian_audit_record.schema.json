@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HessianAuditRecord",
+  "type": "object",
+  "required": [
+    "x", "y", "dx", "dy", "gradient_x", "gradient_y",
+    "h11", "h12", "h21", "h22", "determinant", "trace",
+    "classification", "first_order_change", "second_order_change",
+    "actual_change", "first_order_error", "second_order_error", "warning"
+  ],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "dx": {"type": "number"},
+    "dy": {"type": "number"},
+    "gradient_x": {"type": "number"},
+    "gradient_y": {"type": "number"},
+    "h11": {"type": "number"},
+    "h12": {"type": "number"},
+    "h21": {"type": "number"},
+    "h22": {"type": "number"},
+    "determinant": {"type": "number"},
+    "trace": {"type": "number"},
+    "classification": {"type": "string"},
+    "first_order_change": {"type": "number"},
+    "second_order_change": {"type": "number"},
+    "actual_change": {"type": "number"},
+    "first_order_error": {"type": "number"},
+    "second_order_error": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_lambda_1,result_lambda_2
+eigen-2x2,Computes principal curvature eigenvalues for a symmetric 2x2 Hessian.,,eigen-2x2,2.0,1.0,6.745584412271572,1.6544155877284288

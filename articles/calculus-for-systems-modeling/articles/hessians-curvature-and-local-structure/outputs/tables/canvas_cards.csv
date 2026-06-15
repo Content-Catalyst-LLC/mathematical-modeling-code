@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+hessian-matrix,Hessian Matrix,formal concept,95,active,2026-06-15,"State function, input units, derivative method, and reference point."
+second-order-approximation,Second-Order Approximation,approximation,92,active,2026-06-15,Compare first-order and second-order estimates against actual model change.
+cross-partials,Cross Partials,interaction,90,review,2026-06-15,Do not treat second-order interaction as causal without model justification.
+curvature-classification,Curvature Classification,diagnostic,94,active,2026-06-15,"Flag positive definite, negative definite, indefinite, and inconclusive local shape."
+conditioning,Conditioning,governance,91,review,2026-06-15,"Curvature interpretation depends on scaling, units, and numerical stability."

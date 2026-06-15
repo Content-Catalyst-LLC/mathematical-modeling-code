@@ -1,0 +1,4 @@
+"x","y","dx","dy","gradient_x","gradient_y","h11","h12","h21","h22","determinant","trace","classification","first_order_change","second_order_change","actual_change","first_order_error","second_order_error","warning"
+2,1,0.1,-0.05,5.8,8.8,2.4,1.8,1.8,6,11.16,8.4,"positive definite",0.14,0.1505,0.150399999999999,0.0103999999999995,0.000100000000000489,""
+2,1,0.5,0.5,5.8,8.8,2.4,1.8,1.8,6,11.16,8.4,"positive definite",7.3,8.8,8.825,1.525,0.0249999999999986,""
+-5,0,0.2,0.1,-10,0,2,-1,-1,6,11,8,"positive definite",-2,-1.95,-1.9492,0.0507999999999988,0.000799999999998802,""

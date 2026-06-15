@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_dx,input_dy,result_quadratic_term
+quadratic-term,Computes the second-order curvature correction.,,quadratic-term,2.0,1.0,0.1,-0.05,0.0105

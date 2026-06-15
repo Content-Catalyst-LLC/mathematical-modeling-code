@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_classification,result_determinant,result_trace
+classify,Classifies local curvature using the two-variable Hessian test.,,classify,2.0,1.0,positive definite,11.159999999999998,8.4

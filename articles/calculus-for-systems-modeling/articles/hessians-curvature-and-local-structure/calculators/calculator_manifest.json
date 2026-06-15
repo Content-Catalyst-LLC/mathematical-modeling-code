@@ -1,0 +1,25 @@
+{
+  "article_slug": "hessians-curvature-and-local-structure",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "evaluate", "title": "Scalar Function Evaluator"},
+    {"id": "gradient", "title": "Gradient Calculator"},
+    {"id": "hessian", "title": "Hessian Matrix Calculator"},
+    {"id": "determinant", "title": "Hessian Determinant Calculator"},
+    {"id": "classify", "title": "Curvature Classification"},
+    {"id": "quadratic-term", "title": "Quadratic Curvature Term"},
+    {"id": "first-order", "title": "First-Order Change"},
+    {"id": "second-order", "title": "Second-Order Approximation"},
+    {"id": "approximation-error", "title": "Approximation Error Checker"},
+    {"id": "eigen-2x2", "title": "Two-by-Two Eigenvalue Calculator"},
+    {"id": "conditioning-check", "title": "Conditioning Checker"},
+    {"id": "cross-partial", "title": "Cross-Partial Calculator"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

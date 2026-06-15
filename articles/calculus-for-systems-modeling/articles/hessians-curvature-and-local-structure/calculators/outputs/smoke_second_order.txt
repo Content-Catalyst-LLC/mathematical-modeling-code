@@ -1,0 +1,16 @@
+{
+  "calculator": "second-order",
+  "inputs": {
+    "command": "second-order",
+    "dx": 0.1,
+    "dy": -0.05,
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes the second-order Taylor change estimate.",
+  "result": {
+    "first_order_change": 0.1399999999999999,
+    "second_order_change": 0.1504999999999999
+  },
+  "warning": ""
+}

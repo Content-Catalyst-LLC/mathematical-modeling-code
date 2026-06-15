@@ -1,0 +1,4 @@
+    calculator x y  dx    dy first_order_change second_order_change
+1 second-order 2 1 0.1 -0.05               0.14              0.1505
+  actual_change second_order_error
+1        0.1504              1e-04

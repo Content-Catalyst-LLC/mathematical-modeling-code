@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_determinant
+determinant,Computes the Hessian determinant for two-variable curvature classification.,,determinant,2.0,1.0,11.159999999999998
