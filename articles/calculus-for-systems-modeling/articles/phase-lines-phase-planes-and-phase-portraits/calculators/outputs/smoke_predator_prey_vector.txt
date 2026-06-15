@@ -1,0 +1,19 @@
+{
+  "calculator": "predator-prey-vector",
+  "inputs": {
+    "alpha": 0.7,
+    "beta": 0.05,
+    "command": "predator-prey-vector",
+    "delta": 0.02,
+    "gamma": 0.5,
+    "x": 40.0,
+    "y": 9.0
+  },
+  "interpretation": "Computes one vector-field point for a predator-prey phase plane.",
+  "result": {
+    "dxdt": 10.0,
+    "dydt": 2.7,
+    "speed": 10.358088626768938
+  },
+  "warning": "Vector-field values depend on parameter values and state ranges."
+}

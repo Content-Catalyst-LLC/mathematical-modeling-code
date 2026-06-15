@@ -1,0 +1,2 @@
+            calculator  x y dxdt dydt    speed
+1 predator-prey-vector 40 9   10  2.7 10.35809

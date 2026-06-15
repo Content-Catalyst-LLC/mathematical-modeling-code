@@ -1,0 +1,13 @@
+{
+  "calculator": "phase-speed",
+  "inputs": {
+    "command": "phase-speed",
+    "dxdt": 3.0,
+    "dydt": 4.0
+  },
+  "interpretation": "Computes the magnitude of a phase-plane vector.",
+  "result": {
+    "speed": 5.0
+  },
+  "warning": "Speed is a modeling and scaling-dependent quantity."
+}

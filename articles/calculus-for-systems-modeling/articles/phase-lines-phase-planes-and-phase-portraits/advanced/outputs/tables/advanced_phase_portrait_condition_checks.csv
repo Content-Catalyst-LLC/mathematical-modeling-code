@@ -1,0 +1,10 @@
+condition,passed,warning
+phase-line and phase-plane concepts documented,True,
+vector-field audit included,True,
+nullcline residuals included,True,
+equilibrium candidates included,True,
+state-range and grid-resolution warnings included,True,
+trajectory and solver warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

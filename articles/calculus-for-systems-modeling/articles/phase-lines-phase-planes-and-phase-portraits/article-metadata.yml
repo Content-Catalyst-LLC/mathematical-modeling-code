@@ -1,0 +1,24 @@
+actual_title: "Phase Lines, Phase Planes, and Phase Portraits"
+suggested_seo_title: "Phase Lines, Phase Planes, and Phase Portraits in Systems Modeling"
+focus_keyword: "phase lines phase planes phase portraits"
+slug: "phase-lines-phase-planes-and-phase-portraits"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "equilibrium-stability-and-local-dynamics"
+  current: "phase-lines-phase-planes-and-phase-portraits"
+  next: "bifurcation-and-qualitative-change"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/phase-lines-phase-planes-and-phase-portraits"
+tags:
+  - Calculus
+  - Differential Equations
+  - Phase Lines
+  - Phase Planes
+  - Phase Portraits
+  - Vector Fields
+  - Nullclines
+  - Systems Modeling
+excerpt_139_words: "Phase lines, phase planes, and phase portraits help modelers see the qualitative structure of dynamic systems. This article explains one-dimensional phase lines, equilibrium points, direction arrows, two-dimensional phase planes, vector fields, trajectories, nullclines, phase portraits, stability patterns, separatrices, basins of attraction, numerical simulation, and responsible interpretation. It shows why phase reasoning matters for systems modeling: it reveals direction of change, threshold structure, convergence, divergence, oscillation, alternative outcomes, and the relationship between initial conditions and possible futures. In computational workflows, phase-portrait audits support predator-prey vector-field examples, nullcline records, equilibrium candidates, trajectory diagnostics, solver-method documentation, SQL assumption registries, calculator scripts, and generated outputs. The article emphasizes documenting state ranges, equations, parameters, grid resolution, initial conditions, solver choice, nullcline assumptions, equilibrium interpretation, sensitivity, uncertainty, and visual limits."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

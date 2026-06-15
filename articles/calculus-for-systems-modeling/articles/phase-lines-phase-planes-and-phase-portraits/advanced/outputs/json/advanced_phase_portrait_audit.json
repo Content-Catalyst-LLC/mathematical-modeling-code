@@ -1,0 +1,25 @@
+{
+  "article": "Phase Lines, Phase Planes, and Phase Portraits",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Phase portraits are model-based constructions, not direct pictures of reality.",
+    "Vector-field arrows depend on equations, parameters, scaling, and grid resolution.",
+    "Selected trajectories may overrepresent some outcomes and hide others.",
+    "State-space ranges should be meaningful and documented.",
+    "Step size and solver choice can distort phase behavior."
+  ]
+}

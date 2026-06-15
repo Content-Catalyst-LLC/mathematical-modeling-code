@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PhaseRecord",
+  "type": "object",
+  "required": [
+    "x", "y", "dxdt", "dydt",
+    "x_nullcline_residual", "y_nullcline_residual",
+    "speed", "warning"
+  ],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "dxdt": {"type": "number"},
+    "dydt": {"type": "number"},
+    "x_nullcline_residual": {"type": "number"},
+    "y_nullcline_residual": {"type": "number"},
+    "speed": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

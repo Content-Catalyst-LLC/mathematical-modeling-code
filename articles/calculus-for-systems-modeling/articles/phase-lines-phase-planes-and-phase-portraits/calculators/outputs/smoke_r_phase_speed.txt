@@ -1,0 +1,2 @@
+   calculator dxdt dydt speed
+1 phase-speed    3    4     5

@@ -1,0 +1,16 @@
+{
+  "calculator": "coexistence-equilibrium",
+  "inputs": {
+    "alpha": 0.7,
+    "beta": 0.05,
+    "command": "coexistence-equilibrium",
+    "delta": 0.02,
+    "gamma": 0.5
+  },
+  "interpretation": "Computes the positive coexistence equilibrium for the illustrative system.",
+  "result": {
+    "coexistence_x": 25.0,
+    "coexistence_y": 13.999999999999998
+  },
+  "warning": "Equilibrium interpretation is conditional on model form and parameters."
+}

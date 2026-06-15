@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_space_range,State-space range,Defines the domain shown in the phase line or phase plane,Determines which system states are treated as relevant or meaningful,A phase portrait can mislead if important regions are cropped or invalid regions are shown
+vector_field,Vector field,Assigns a derivative vector to each state-space point,Shows the local direction and speed of system change,Vector-field arrows depend on equations parameters scaling and grid resolution
+nullclines,Nullclines,Identify where one component of motion is zero,Reveal directional boundaries and equilibrium candidates,Nullclines require domain checks and parameter documentation
+trajectory_selection,Trajectory selection,Chooses initial conditions for simulated paths,Shows possible histories through state space,Selected trajectories may overrepresent some outcomes and hide others
+stability_classification,Stability classification,Labels local behavior near equilibria,Supports interpretation of recovery instability spirals cycles or thresholds,Local stability labels should not be treated as global guarantees
+solver_method,Solver method,Defines how trajectories are approximated computationally,Supports reproducible phase-portrait construction,Step size and solver choice can distort phase behavior

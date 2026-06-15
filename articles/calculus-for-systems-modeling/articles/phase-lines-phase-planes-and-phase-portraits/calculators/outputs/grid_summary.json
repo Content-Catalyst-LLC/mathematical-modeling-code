@@ -1,0 +1,17 @@
+{
+  "calculator": "grid-summary",
+  "inputs": {
+    "command": "grid-summary",
+    "x_max": 60,
+    "x_step": 5,
+    "y_max": 30,
+    "y_step": 3
+  },
+  "interpretation": "Summarizes a phase-portrait vector-field grid.",
+  "result": {
+    "total_grid_points": 143,
+    "x_points": 13,
+    "y_points": 11
+  },
+  "warning": "Grid resolution affects the apparent density and smoothness of a phase portrait."
+}

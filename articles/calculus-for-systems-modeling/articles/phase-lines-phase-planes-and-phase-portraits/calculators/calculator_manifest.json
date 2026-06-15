@@ -1,0 +1,17 @@
+{
+  "article_slug": "phase-lines-phase-planes-and-phase-portraits",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "predator-prey-vector", "title": "Predator-Prey Vector Field Point"},
+    {"id": "phase-speed", "title": "Phase Vector Speed"},
+    {"id": "coexistence-equilibrium", "title": "Coexistence Equilibrium"},
+    {"id": "grid-summary", "title": "Phase Grid Summary"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

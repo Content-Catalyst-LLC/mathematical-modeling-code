@@ -1,0 +1,2 @@
+               calculator coexistence_x coexistence_y
+1 coexistence-equilibrium            25            14

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x_max,input_y_max,input_x_step,input_y_step,result_x_points,result_y_points,result_total_grid_points
+grid-summary,Summarizes a phase-portrait vector-field grid.,Grid resolution affects the apparent density and smoothness of a phase portrait.,grid-summary,60,30,5,3,13,11,143

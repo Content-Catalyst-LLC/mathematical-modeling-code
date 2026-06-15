@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+phase-line,Phase Line,qualitative dynamics,96,active,2026-06-15,"Phase lines should document equilibria, intervals, signs, and meaningful state domains."
+phase-plane,Phase Plane,state space,95,active,2026-06-15,"Phase planes should document state variables, ranges, and units."
+vector-field,Vector Field,local motion,94,review,2026-06-15,"Vector-field arrows depend on equations, parameter values, scaling, and grid resolution."
+nullclines,Nullclines,equilibrium analysis,93,review,2026-06-15,Nullclines require domain checks and parameter documentation.
+phase-portrait-governance,Phase Portrait Governance,governance,92,active,2026-06-15,Phase portraits should be presented as model-based constructions rather than direct pictures of reality.

@@ -1,0 +1,1432 @@
+[
+  {
+    "dxdt": 0.0,
+    "dydt": 0.0,
+    "speed": 0.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -1.5,
+    "speed": 1.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 3.0,
+    "y_nullcline_residual": -1.5
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -3.0,
+    "speed": 3.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 6.0,
+    "y_nullcline_residual": -3.0
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -4.5,
+    "speed": 4.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 9.0,
+    "y_nullcline_residual": -4.5
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -6.0,
+    "speed": 6.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 12.0,
+    "y_nullcline_residual": -6.0
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -7.5,
+    "speed": 7.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 15.0,
+    "y_nullcline_residual": -7.5
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -9.0,
+    "speed": 9.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 18.0,
+    "y_nullcline_residual": -9.0
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -10.5,
+    "speed": 10.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 21.0,
+    "y_nullcline_residual": -10.5
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -12.0,
+    "speed": 12.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 24.0,
+    "y_nullcline_residual": -12.0
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -13.5,
+    "speed": 13.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 27.0,
+    "y_nullcline_residual": -13.5
+  },
+  {
+    "dxdt": 0.0,
+    "dydt": -15.0,
+    "speed": 15.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 0.0,
+    "x_nullcline_residual": 0.0,
+    "y": 30.0,
+    "y_nullcline_residual": -15.0
+  },
+  {
+    "dxdt": 3.5,
+    "dydt": 0.0,
+    "speed": 3.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": 3.5,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 2.75,
+    "dydt": -1.2,
+    "speed": 3.0004166377354995,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": 2.75,
+    "y": 3.0,
+    "y_nullcline_residual": -1.2
+  },
+  {
+    "dxdt": 2.0,
+    "dydt": -2.4,
+    "speed": 3.1240998703626617,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": 2.0,
+    "y": 6.0,
+    "y_nullcline_residual": -2.4
+  },
+  {
+    "dxdt": 1.25,
+    "dydt": -3.6,
+    "speed": 3.8108398024582457,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": 1.25,
+    "y": 9.0,
+    "y_nullcline_residual": -3.6
+  },
+  {
+    "dxdt": 0.5,
+    "dydt": -4.8,
+    "speed": 4.825971404805461,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": 0.5,
+    "y": 12.0,
+    "y_nullcline_residual": -4.8
+  },
+  {
+    "dxdt": -0.25,
+    "dydt": -6.0,
+    "speed": 6.005206074732157,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": -0.25,
+    "y": 15.0,
+    "y_nullcline_residual": -6.0
+  },
+  {
+    "dxdt": -1.0,
+    "dydt": -7.2,
+    "speed": 7.269112738154499,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": -1.0,
+    "y": 18.0,
+    "y_nullcline_residual": -7.2
+  },
+  {
+    "dxdt": -1.75,
+    "dydt": -8.4,
+    "speed": 8.580355470491885,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": -1.75,
+    "y": 21.0,
+    "y_nullcline_residual": -8.4
+  },
+  {
+    "dxdt": -2.5,
+    "dydt": -9.6,
+    "speed": 9.920181449953423,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": -2.5,
+    "y": 24.0,
+    "y_nullcline_residual": -9.6
+  },
+  {
+    "dxdt": -3.25,
+    "dydt": -10.8,
+    "speed": 11.278408575681235,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": -3.25,
+    "y": 27.0,
+    "y_nullcline_residual": -10.8
+  },
+  {
+    "dxdt": -4.0,
+    "dydt": -12.0,
+    "speed": 12.649110640673518,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 5.0,
+    "x_nullcline_residual": -4.0,
+    "y": 30.0,
+    "y_nullcline_residual": -12.0
+  },
+  {
+    "dxdt": 7.0,
+    "dydt": 0.0,
+    "speed": 7.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": 7.0,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 5.5,
+    "dydt": -0.8999999999999999,
+    "speed": 5.573149917237109,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": 5.5,
+    "y": 3.0,
+    "y_nullcline_residual": -0.8999999999999999
+  },
+  {
+    "dxdt": 4.0,
+    "dydt": -1.7999999999999998,
+    "speed": 4.386342439892261,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": 4.0,
+    "y": 6.0,
+    "y_nullcline_residual": -1.7999999999999998
+  },
+  {
+    "dxdt": 2.5,
+    "dydt": -2.7,
+    "speed": 3.67967389859482,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": 2.5,
+    "y": 9.0,
+    "y_nullcline_residual": -2.7
+  },
+  {
+    "dxdt": 1.0,
+    "dydt": -3.5999999999999996,
+    "speed": 3.7363083384538807,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": 1.0,
+    "y": 12.0,
+    "y_nullcline_residual": -3.5999999999999996
+  },
+  {
+    "dxdt": -0.5,
+    "dydt": -4.5,
+    "speed": 4.527692569068709,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": -0.5,
+    "y": 15.0,
+    "y_nullcline_residual": -4.5
+  },
+  {
+    "dxdt": -2.0,
+    "dydt": -5.4,
+    "speed": 5.758472019555188,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": -2.0,
+    "y": 18.0,
+    "y_nullcline_residual": -5.4
+  },
+  {
+    "dxdt": -3.5,
+    "dydt": -6.3,
+    "speed": 7.2069410986909,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": -3.5,
+    "y": 21.0,
+    "y_nullcline_residual": -6.3
+  },
+  {
+    "dxdt": -5.0,
+    "dydt": -7.199999999999999,
+    "speed": 8.76584280032445,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": -5.0,
+    "y": 24.0,
+    "y_nullcline_residual": -7.199999999999999
+  },
+  {
+    "dxdt": -6.5,
+    "dydt": -8.1,
+    "speed": 10.385566907973777,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": -6.5,
+    "y": 27.0,
+    "y_nullcline_residual": -8.1
+  },
+  {
+    "dxdt": -8.0,
+    "dydt": -9.0,
+    "speed": 12.041594578792296,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 10.0,
+    "x_nullcline_residual": -8.0,
+    "y": 30.0,
+    "y_nullcline_residual": -9.0
+  },
+  {
+    "dxdt": 10.5,
+    "dydt": 0.0,
+    "speed": 10.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": 10.5,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 8.25,
+    "dydt": -0.6000000000000001,
+    "speed": 8.271789407377343,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": 8.25,
+    "y": 3.0,
+    "y_nullcline_residual": -0.6000000000000001
+  },
+  {
+    "dxdt": 6.0,
+    "dydt": -1.2000000000000002,
+    "speed": 6.118823416311342,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": 6.0,
+    "y": 6.0,
+    "y_nullcline_residual": -1.2000000000000002
+  },
+  {
+    "dxdt": 3.75,
+    "dydt": -1.8000000000000003,
+    "speed": 4.159627387158615,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": 3.75,
+    "y": 9.0,
+    "y_nullcline_residual": -1.8000000000000003
+  },
+  {
+    "dxdt": 1.5,
+    "dydt": -2.4000000000000004,
+    "speed": 2.8301943396169813,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": 1.5,
+    "y": 12.0,
+    "y_nullcline_residual": -2.4000000000000004
+  },
+  {
+    "dxdt": -0.75,
+    "dydt": -3.0,
+    "speed": 3.092329219213245,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": -0.75,
+    "y": 15.0,
+    "y_nullcline_residual": -3.0
+  },
+  {
+    "dxdt": -3.0,
+    "dydt": -3.6000000000000005,
+    "speed": 4.686149805543993,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": -3.0,
+    "y": 18.0,
+    "y_nullcline_residual": -3.6000000000000005
+  },
+  {
+    "dxdt": -5.25,
+    "dydt": -4.2,
+    "speed": 6.723280449304491,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": -5.25,
+    "y": 21.0,
+    "y_nullcline_residual": -4.2
+  },
+  {
+    "dxdt": -7.5,
+    "dydt": -4.800000000000001,
+    "speed": 8.904493247793498,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": -7.5,
+    "y": 24.0,
+    "y_nullcline_residual": -4.800000000000001
+  },
+  {
+    "dxdt": -9.75,
+    "dydt": -5.4,
+    "speed": 11.145514792955954,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": -9.75,
+    "y": 27.0,
+    "y_nullcline_residual": -5.4
+  },
+  {
+    "dxdt": -12.0,
+    "dydt": -6.0,
+    "speed": 13.416407864998739,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 15.0,
+    "x_nullcline_residual": -12.0,
+    "y": 30.0,
+    "y_nullcline_residual": -6.0
+  },
+  {
+    "dxdt": 14.0,
+    "dydt": 0.0,
+    "speed": 14.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": 14.0,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 11.0,
+    "dydt": -0.2999999999999998,
+    "speed": 11.00409014866745,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": 11.0,
+    "y": 3.0,
+    "y_nullcline_residual": -0.2999999999999998
+  },
+  {
+    "dxdt": 8.0,
+    "dydt": -0.5999999999999996,
+    "speed": 8.022468448052631,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": 8.0,
+    "y": 6.0,
+    "y_nullcline_residual": -0.5999999999999996
+  },
+  {
+    "dxdt": 5.0,
+    "dydt": -0.8999999999999999,
+    "speed": 5.080354318352215,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": 5.0,
+    "y": 9.0,
+    "y_nullcline_residual": -0.8999999999999999
+  },
+  {
+    "dxdt": 2.0,
+    "dydt": -1.1999999999999993,
+    "speed": 2.33238075793812,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": 2.0,
+    "y": 12.0,
+    "y_nullcline_residual": -1.1999999999999993
+  },
+  {
+    "dxdt": -1.0,
+    "dydt": -1.5,
+    "speed": 1.8027756377319946,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": -1.0,
+    "y": 15.0,
+    "y_nullcline_residual": -1.5
+  },
+  {
+    "dxdt": -4.0,
+    "dydt": -1.7999999999999998,
+    "speed": 4.386342439892261,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": -4.0,
+    "y": 18.0,
+    "y_nullcline_residual": -1.7999999999999998
+  },
+  {
+    "dxdt": -7.0,
+    "dydt": -2.0999999999999996,
+    "speed": 7.308214556237385,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": -7.0,
+    "y": 21.0,
+    "y_nullcline_residual": -2.0999999999999996
+  },
+  {
+    "dxdt": -10.0,
+    "dydt": -2.3999999999999986,
+    "speed": 10.283968105745952,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": -10.0,
+    "y": 24.0,
+    "y_nullcline_residual": -2.3999999999999986
+  },
+  {
+    "dxdt": -13.0,
+    "dydt": -2.6999999999999993,
+    "speed": 13.277424449041312,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": -13.0,
+    "y": 27.0,
+    "y_nullcline_residual": -2.6999999999999993
+  },
+  {
+    "dxdt": -16.0,
+    "dydt": -3.0,
+    "speed": 16.278820596099706,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 20.0,
+    "x_nullcline_residual": -16.0,
+    "y": 30.0,
+    "y_nullcline_residual": -3.0
+  },
+  {
+    "dxdt": 17.5,
+    "dydt": 0.0,
+    "speed": 17.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": 17.5,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 13.75,
+    "dydt": 0.0,
+    "speed": 13.75,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": 13.75,
+    "y": 3.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 10.0,
+    "dydt": 0.0,
+    "speed": 10.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": 10.0,
+    "y": 6.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 6.25,
+    "dydt": 0.0,
+    "speed": 6.25,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": 6.25,
+    "y": 9.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 2.5,
+    "dydt": 0.0,
+    "speed": 2.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": 2.5,
+    "y": 12.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": -1.25,
+    "dydt": 0.0,
+    "speed": 1.25,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": -1.25,
+    "y": 15.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": -5.0,
+    "dydt": 0.0,
+    "speed": 5.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": -5.0,
+    "y": 18.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": -8.75,
+    "dydt": 0.0,
+    "speed": 8.75,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": -8.75,
+    "y": 21.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": -12.5,
+    "dydt": 0.0,
+    "speed": 12.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": -12.5,
+    "y": 24.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": -16.25,
+    "dydt": 0.0,
+    "speed": 16.25,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": -16.25,
+    "y": 27.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": -20.0,
+    "dydt": 0.0,
+    "speed": 20.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 25.0,
+    "x_nullcline_residual": -20.0,
+    "y": 30.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 21.0,
+    "dydt": 0.0,
+    "speed": 21.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": 21.0,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 16.5,
+    "dydt": 0.2999999999999998,
+    "speed": 16.50272704737008,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": 16.5,
+    "y": 3.0,
+    "y_nullcline_residual": 0.2999999999999998
+  },
+  {
+    "dxdt": 12.0,
+    "dydt": 0.5999999999999996,
+    "speed": 12.014990636700473,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": 12.0,
+    "y": 6.0,
+    "y_nullcline_residual": 0.5999999999999996
+  },
+  {
+    "dxdt": 7.5,
+    "dydt": 0.8999999999999995,
+    "speed": 7.553806987208503,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": 7.5,
+    "y": 9.0,
+    "y_nullcline_residual": 0.8999999999999995
+  },
+  {
+    "dxdt": 3.0,
+    "dydt": 1.1999999999999993,
+    "speed": 3.2310988842807022,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": 3.0,
+    "y": 12.0,
+    "y_nullcline_residual": 1.1999999999999993
+  },
+  {
+    "dxdt": -1.5,
+    "dydt": 1.5,
+    "speed": 2.1213203435596424,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": -1.5,
+    "y": 15.0,
+    "y_nullcline_residual": 1.5
+  },
+  {
+    "dxdt": -6.0,
+    "dydt": 1.799999999999999,
+    "speed": 6.2641839053463295,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": -6.0,
+    "y": 18.0,
+    "y_nullcline_residual": 1.799999999999999
+  },
+  {
+    "dxdt": -10.5,
+    "dydt": 2.0999999999999996,
+    "speed": 10.707940978544848,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": -10.5,
+    "y": 21.0,
+    "y_nullcline_residual": 2.0999999999999996
+  },
+  {
+    "dxdt": -15.0,
+    "dydt": 2.3999999999999986,
+    "speed": 15.190786681406594,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": -15.0,
+    "y": 24.0,
+    "y_nullcline_residual": 2.3999999999999986
+  },
+  {
+    "dxdt": -19.5,
+    "dydt": 2.6999999999999993,
+    "speed": 19.686035659827503,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": -19.5,
+    "y": 27.0,
+    "y_nullcline_residual": 2.6999999999999993
+  },
+  {
+    "dxdt": -24.0,
+    "dydt": 3.0,
+    "speed": 24.186773244895647,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 30.0,
+    "x_nullcline_residual": -24.0,
+    "y": 30.0,
+    "y_nullcline_residual": 3.0
+  },
+  {
+    "dxdt": 24.5,
+    "dydt": 0.0,
+    "speed": 24.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": 24.5,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 19.25,
+    "dydt": 0.6000000000000001,
+    "speed": 19.259348379423432,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": 19.25,
+    "y": 3.0,
+    "y_nullcline_residual": 0.6000000000000001
+  },
+  {
+    "dxdt": 14.0,
+    "dydt": 1.2000000000000002,
+    "speed": 14.051334456200237,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": 14.0,
+    "y": 6.0,
+    "y_nullcline_residual": 1.2000000000000002
+  },
+  {
+    "dxdt": 8.75,
+    "dydt": 1.8000000000000007,
+    "speed": 8.933224501824636,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": 8.75,
+    "y": 9.0,
+    "y_nullcline_residual": 1.8000000000000007
+  },
+  {
+    "dxdt": 3.5,
+    "dydt": 2.4000000000000004,
+    "speed": 4.243819034784589,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": 3.5,
+    "y": 12.0,
+    "y_nullcline_residual": 2.4000000000000004
+  },
+  {
+    "dxdt": -1.75,
+    "dydt": 3.0000000000000018,
+    "speed": 3.4731109973624528,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": -1.75,
+    "y": 15.0,
+    "y_nullcline_residual": 3.0000000000000018
+  },
+  {
+    "dxdt": -7.0,
+    "dydt": 3.6000000000000014,
+    "speed": 7.871467461661771,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": -7.0,
+    "y": 18.0,
+    "y_nullcline_residual": 3.6000000000000014
+  },
+  {
+    "dxdt": -12.25,
+    "dydt": 4.200000000000001,
+    "speed": 12.950000000000001,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": -12.25,
+    "y": 21.0,
+    "y_nullcline_residual": 4.200000000000001
+  },
+  {
+    "dxdt": -17.5,
+    "dydt": 4.800000000000001,
+    "speed": 18.1463494951464,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": -17.5,
+    "y": 24.0,
+    "y_nullcline_residual": 4.800000000000001
+  },
+  {
+    "dxdt": -22.75,
+    "dydt": 5.400000000000002,
+    "speed": 23.3820978528446,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": -22.75,
+    "y": 27.0,
+    "y_nullcline_residual": 5.400000000000002
+  },
+  {
+    "dxdt": -28.0,
+    "dydt": 6.0000000000000036,
+    "speed": 28.635642126552707,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 35.0,
+    "x_nullcline_residual": -28.0,
+    "y": 30.0,
+    "y_nullcline_residual": 6.0000000000000036
+  },
+  {
+    "dxdt": 28.0,
+    "dydt": 0.0,
+    "speed": 28.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": 28.0,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 22.0,
+    "dydt": 0.9000000000000004,
+    "speed": 22.0184013951967,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": 22.0,
+    "y": 3.0,
+    "y_nullcline_residual": 0.9000000000000004
+  },
+  {
+    "dxdt": 16.0,
+    "dydt": 1.8000000000000007,
+    "speed": 16.100931650062986,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": 16.0,
+    "y": 6.0,
+    "y_nullcline_residual": 1.8000000000000007
+  },
+  {
+    "dxdt": 10.0,
+    "dydt": 2.7,
+    "speed": 10.358088626768938,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": 10.0,
+    "y": 9.0,
+    "y_nullcline_residual": 2.7
+  },
+  {
+    "dxdt": 4.0,
+    "dydt": 3.6000000000000014,
+    "speed": 5.3814496188294845,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": 4.0,
+    "y": 12.0,
+    "y_nullcline_residual": 3.6000000000000014
+  },
+  {
+    "dxdt": -2.0,
+    "dydt": 4.5,
+    "speed": 4.924428900898052,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": -2.0,
+    "y": 15.0,
+    "y_nullcline_residual": 4.5
+  },
+  {
+    "dxdt": -8.0,
+    "dydt": 5.4,
+    "speed": 9.651942809610922,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": -8.0,
+    "y": 18.0,
+    "y_nullcline_residual": 5.4
+  },
+  {
+    "dxdt": -14.0,
+    "dydt": 6.300000000000001,
+    "speed": 15.352198539622917,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": -14.0,
+    "y": 21.0,
+    "y_nullcline_residual": 6.300000000000001
+  },
+  {
+    "dxdt": -20.0,
+    "dydt": 7.200000000000003,
+    "speed": 21.256528408938276,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": -20.0,
+    "y": 24.0,
+    "y_nullcline_residual": 7.200000000000003
+  },
+  {
+    "dxdt": -26.0,
+    "dydt": 8.100000000000001,
+    "speed": 27.232517327636092,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": -26.0,
+    "y": 27.0,
+    "y_nullcline_residual": 8.100000000000001
+  },
+  {
+    "dxdt": -32.0,
+    "dydt": 9.0,
+    "speed": 33.24154027718932,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 40.0,
+    "x_nullcline_residual": -32.0,
+    "y": 30.0,
+    "y_nullcline_residual": 9.0
+  },
+  {
+    "dxdt": 31.499999999999996,
+    "dydt": 0.0,
+    "speed": 31.499999999999996,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": 31.499999999999996,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 24.749999999999996,
+    "dydt": 1.2000000000000002,
+    "speed": 24.779073832570898,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": 24.749999999999996,
+    "y": 3.0,
+    "y_nullcline_residual": 1.2000000000000002
+  },
+  {
+    "dxdt": 17.999999999999996,
+    "dydt": 2.4000000000000004,
+    "speed": 18.159295140505865,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": 17.999999999999996,
+    "y": 6.0,
+    "y_nullcline_residual": 2.4000000000000004
+  },
+  {
+    "dxdt": 11.249999999999996,
+    "dydt": 3.5999999999999996,
+    "speed": 11.811964273566016,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": 11.249999999999996,
+    "y": 9.0,
+    "y_nullcline_residual": 3.5999999999999996
+  },
+  {
+    "dxdt": 4.4999999999999964,
+    "dydt": 4.800000000000001,
+    "speed": 6.5795136598383905,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": 4.4999999999999964,
+    "y": 12.0,
+    "y_nullcline_residual": 4.800000000000001
+  },
+  {
+    "dxdt": -2.2500000000000036,
+    "dydt": 6.0,
+    "speed": 6.408002808988149,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": -2.2500000000000036,
+    "y": 15.0,
+    "y_nullcline_residual": 6.0
+  },
+  {
+    "dxdt": -9.000000000000004,
+    "dydt": 7.199999999999999,
+    "speed": 11.52562362737913,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": -9.000000000000004,
+    "y": 18.0,
+    "y_nullcline_residual": 7.199999999999999
+  },
+  {
+    "dxdt": -15.750000000000004,
+    "dydt": 8.400000000000002,
+    "speed": 17.850000000000005,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": -15.750000000000004,
+    "y": 21.0,
+    "y_nullcline_residual": 8.400000000000002
+  },
+  {
+    "dxdt": -22.500000000000004,
+    "dydt": 9.600000000000001,
+    "speed": 24.46242015827543,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": -22.500000000000004,
+    "y": 24.0,
+    "y_nullcline_residual": 9.600000000000001
+  },
+  {
+    "dxdt": -29.250000000000004,
+    "dydt": 10.8,
+    "speed": 31.180161962376015,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": -29.250000000000004,
+    "y": 27.0,
+    "y_nullcline_residual": 10.8
+  },
+  {
+    "dxdt": -36.0,
+    "dydt": 12.0,
+    "speed": 37.94733192202055,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 45.0,
+    "x_nullcline_residual": -36.0,
+    "y": 30.0,
+    "y_nullcline_residual": 12.0
+  },
+  {
+    "dxdt": 35.0,
+    "dydt": 0.0,
+    "speed": 35.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": 35.0,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 27.5,
+    "dydt": 1.5,
+    "speed": 27.54087870784082,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": 27.5,
+    "y": 3.0,
+    "y_nullcline_residual": 1.5
+  },
+  {
+    "dxdt": 20.0,
+    "dydt": 3.0,
+    "speed": 20.223748416156685,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": 20.0,
+    "y": 6.0,
+    "y_nullcline_residual": 3.0
+  },
+  {
+    "dxdt": 12.5,
+    "dydt": 4.5,
+    "speed": 13.285330255586423,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": 12.5,
+    "y": 9.0,
+    "y_nullcline_residual": 4.5
+  },
+  {
+    "dxdt": 5.0,
+    "dydt": 6.0,
+    "speed": 7.810249675906654,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": 5.0,
+    "y": 12.0,
+    "y_nullcline_residual": 6.0
+  },
+  {
+    "dxdt": -2.5,
+    "dydt": 7.5,
+    "speed": 7.905694150420948,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": -2.5,
+    "y": 15.0,
+    "y_nullcline_residual": 7.5
+  },
+  {
+    "dxdt": -10.0,
+    "dydt": 9.0,
+    "speed": 13.45362404707371,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": -10.0,
+    "y": 18.0,
+    "y_nullcline_residual": 9.0
+  },
+  {
+    "dxdt": -17.5,
+    "dydt": 10.5,
+    "speed": 20.40833163195855,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": -17.5,
+    "y": 21.0,
+    "y_nullcline_residual": 10.5
+  },
+  {
+    "dxdt": -25.0,
+    "dydt": 12.0,
+    "speed": 27.730849247724095,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": -25.0,
+    "y": 24.0,
+    "y_nullcline_residual": 12.0
+  },
+  {
+    "dxdt": -32.5,
+    "dydt": 13.5,
+    "speed": 35.19232870953555,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": -32.5,
+    "y": 27.0,
+    "y_nullcline_residual": 13.5
+  },
+  {
+    "dxdt": -40.0,
+    "dydt": 15.0,
+    "speed": 42.720018726587654,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 50.0,
+    "x_nullcline_residual": -40.0,
+    "y": 30.0,
+    "y_nullcline_residual": 15.0
+  },
+  {
+    "dxdt": 38.5,
+    "dydt": 0.0,
+    "speed": 38.5,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": 38.5,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 30.25,
+    "dydt": 1.8000000000000003,
+    "speed": 30.30350639777516,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": 30.25,
+    "y": 3.0,
+    "y_nullcline_residual": 1.8000000000000003
+  },
+  {
+    "dxdt": 22.0,
+    "dydt": 3.6000000000000005,
+    "speed": 22.292599668948437,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": 22.0,
+    "y": 6.0,
+    "y_nullcline_residual": 3.6000000000000005
+  },
+  {
+    "dxdt": 13.75,
+    "dydt": 5.4,
+    "speed": 14.77235593938895,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": 13.75,
+    "y": 9.0,
+    "y_nullcline_residual": 5.4
+  },
+  {
+    "dxdt": 5.5,
+    "dydt": 7.200000000000001,
+    "speed": 9.060353193998566,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": 5.5,
+    "y": 12.0,
+    "y_nullcline_residual": 7.200000000000001
+  },
+  {
+    "dxdt": -2.75,
+    "dydt": 9.0,
+    "speed": 9.410765112359355,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": -2.75,
+    "y": 15.0,
+    "y_nullcline_residual": 9.0
+  },
+  {
+    "dxdt": -11.0,
+    "dydt": 10.8,
+    "speed": 15.41557653803451,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": -11.0,
+    "y": 18.0,
+    "y_nullcline_residual": 10.8
+  },
+  {
+    "dxdt": -19.25,
+    "dydt": 12.600000000000001,
+    "speed": 23.007009801362713,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": -19.25,
+    "y": 21.0,
+    "y_nullcline_residual": 12.600000000000001
+  },
+  {
+    "dxdt": -27.5,
+    "dydt": 14.400000000000002,
+    "speed": 31.042068230064828,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": -27.5,
+    "y": 24.0,
+    "y_nullcline_residual": 14.400000000000002
+  },
+  {
+    "dxdt": -35.75,
+    "dydt": 16.200000000000003,
+    "speed": 39.2492356613476,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": -35.75,
+    "y": 27.0,
+    "y_nullcline_residual": 16.200000000000003
+  },
+  {
+    "dxdt": -44.0,
+    "dydt": 18.0,
+    "speed": 47.53945729601885,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 55.0,
+    "x_nullcline_residual": -44.0,
+    "y": 30.0,
+    "y_nullcline_residual": 18.0
+  },
+  {
+    "dxdt": 42.0,
+    "dydt": 0.0,
+    "speed": 42.0,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": 42.0,
+    "y": 0.0,
+    "y_nullcline_residual": 0.0
+  },
+  {
+    "dxdt": 33.0,
+    "dydt": 2.0999999999999996,
+    "speed": 33.066750671936305,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": 33.0,
+    "y": 3.0,
+    "y_nullcline_residual": 2.0999999999999996
+  },
+  {
+    "dxdt": 24.0,
+    "dydt": 4.199999999999999,
+    "speed": 24.364728605096342,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": 24.0,
+    "y": 6.0,
+    "y_nullcline_residual": 4.199999999999999
+  },
+  {
+    "dxdt": 15.0,
+    "dydt": 6.299999999999999,
+    "speed": 16.269296235547497,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": 15.0,
+    "y": 9.0,
+    "y_nullcline_residual": 6.299999999999999
+  },
+  {
+    "dxdt": 6.0,
+    "dydt": 8.399999999999999,
+    "speed": 10.322790320451151,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": 6.0,
+    "y": 12.0,
+    "y_nullcline_residual": 8.399999999999999
+  },
+  {
+    "dxdt": -3.0,
+    "dydt": 10.5,
+    "speed": 10.920164833920778,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": -3.0,
+    "y": 15.0,
+    "y_nullcline_residual": 10.5
+  },
+  {
+    "dxdt": -12.0,
+    "dydt": 12.599999999999998,
+    "speed": 17.4,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": -12.0,
+    "y": 18.0,
+    "y_nullcline_residual": 12.599999999999998
+  },
+  {
+    "dxdt": -21.0,
+    "dydt": 14.7,
+    "speed": 25.633766793040774,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": -21.0,
+    "y": 21.0,
+    "y_nullcline_residual": 14.7
+  },
+  {
+    "dxdt": -30.0,
+    "dydt": 16.799999999999997,
+    "speed": 34.38371707654657,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": -30.0,
+    "y": 24.0,
+    "y_nullcline_residual": 16.799999999999997
+  },
+  {
+    "dxdt": -39.0,
+    "dydt": 18.9,
+    "speed": 43.338320225869396,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": -39.0,
+    "y": 27.0,
+    "y_nullcline_residual": 18.9
+  },
+  {
+    "dxdt": -48.0,
+    "dydt": 21.0,
+    "speed": 52.392747589718944,
+    "warning": "Vector-field values depend on parameter values, state ranges, and the assumed interaction structure.",
+    "x": 60.0,
+    "x_nullcline_residual": -48.0,
+    "y": 30.0,
+    "y_nullcline_residual": 21.0
+  }
+]

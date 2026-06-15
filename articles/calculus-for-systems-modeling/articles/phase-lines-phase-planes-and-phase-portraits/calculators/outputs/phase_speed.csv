@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_dxdt,input_dydt,result_speed
+phase-speed,Computes the magnitude of a phase-plane vector.,Speed is a modeling and scaling-dependent quantity.,phase-speed,3.0,4.0,5.0

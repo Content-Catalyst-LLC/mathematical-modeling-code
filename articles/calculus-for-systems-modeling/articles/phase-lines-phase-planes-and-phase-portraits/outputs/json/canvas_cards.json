@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "phase-line",
+    "category": "qualitative dynamics",
+    "governance_note": "Phase lines should document equilibria, intervals, signs, and meaningful state domains.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Phase Line"
+  },
+  {
+    "card_id": "phase-plane",
+    "category": "state space",
+    "governance_note": "Phase planes should document state variables, ranges, and units.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Phase Plane"
+  },
+  {
+    "card_id": "vector-field",
+    "category": "local motion",
+    "governance_note": "Vector-field arrows depend on equations, parameter values, scaling, and grid resolution.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Vector Field"
+  },
+  {
+    "card_id": "nullclines",
+    "category": "equilibrium analysis",
+    "governance_note": "Nullclines require domain checks and parameter documentation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Nullclines"
+  },
+  {
+    "card_id": "phase-portrait-governance",
+    "category": "governance",
+    "governance_note": "Phase portraits should be presented as model-based constructions rather than direct pictures of reality.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Phase Portrait Governance"
+  }
+]

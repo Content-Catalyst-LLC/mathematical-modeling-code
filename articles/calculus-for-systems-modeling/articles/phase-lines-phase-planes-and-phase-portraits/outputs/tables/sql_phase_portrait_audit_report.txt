@@ -1,0 +1,28 @@
+section                        
+-------------------------------
+PHASE SPACE ASSUMPTION REGISTRY
+assumption_name           mathematical_role                                           systems_modeling_role                                         review_warning                                              
+------------------------  ----------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Nullclines                Identify where one component of motion is zero.             Reveal directional boundaries and equilibrium candidates.     Nullclines require domain checks and parameter documentation
+                                                                                                                                                    .                                                           
+
+Solver method             Defines how trajectories are approximated computationally.  Supports reproducible phase-portrait construction.            Step size and solver choice can distort phase behavior.     
+
+Stability classification  Labels local behavior near equilibria.                      Supports interpretation of recovery instability spirals cycl  Local stability labels should not be treated as global guara
+                                                                                      es or thresholds.                                             ntees.                                                      
+
+State-space range         Defines the domain shown in the phase line or phase plane.  Determines which system states are treated as relevant or me  A phase portrait can mislead if important regions are croppe
+                                                                                      aningful.                                                     d or invalid regions are shown.                             
+
+Trajectory selection      Chooses initial conditions for simulated paths.             Shows possible histories through state space.                 Selected trajectories may overrepresent some outcomes and hi
+                                                                                                                                                    de others.                                                  
+
+Vector field              Assigns a derivative vector to each state-space point.      Shows the local direction and speed of system change.         Vector-field arrows depend on equations parameters scaling a
+                                                                                                                                                    nd grid resolution.                                         
+section                   
+--------------------------
+PHASE PORTRAIT AUDIT CASES
+scenario                   alpha  beta  delta  gamma  x_min  x_max  y_min  y_max  grid_step_x  grid_step_y  warning                                                     
+-------------------------  -----  ----  -----  -----  -----  -----  -----  -----  -----------  -----------  ------------------------------------------------------------
+predator_prey_phase_plane  0.7    0.05  0.02   0.5    0.0    60.0   0.0    30.0   5.0          3.0          Vector-field values depend on parameter values, state ranges
+                                                                                                            , scaling, and the assumed interaction structure.           
