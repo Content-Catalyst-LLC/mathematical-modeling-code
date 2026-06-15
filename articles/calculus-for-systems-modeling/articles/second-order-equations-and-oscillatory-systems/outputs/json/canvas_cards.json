@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "second-derivative",
+    "category": "model structure",
+    "governance_note": "Acceleration interpretation should be explicitly tied to system meaning.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Second Derivative"
+  },
+  {
+    "card_id": "damping-regime",
+    "category": "dynamic interpretation",
+    "governance_note": "Damping ratio controls oscillation, return speed, and overshoot.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Damping Regime"
+  },
+  {
+    "card_id": "forcing-resonance",
+    "category": "scenario interpretation",
+    "governance_note": "Forcing inputs should be documented as measured, estimated, or scenario-based.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Forcing and Resonance"
+  },
+  {
+    "card_id": "phase-state",
+    "category": "computation",
+    "governance_note": "Second-order equations should be represented with position and velocity states.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Phase State"
+  },
+  {
+    "card_id": "solver-sensitivity",
+    "category": "governance",
+    "governance_note": "Oscillatory systems require step-size and solver-method review.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Solver Sensitivity"
+  }
+]

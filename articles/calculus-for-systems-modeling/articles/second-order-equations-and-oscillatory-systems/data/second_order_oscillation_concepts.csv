@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_variable_definition,State variable definition,Defines the quantity governed by the second-order equation,Determines what the model tracks through position level or deviation,Unclear state definitions make oscillatory behavior uninterpretable
+velocity_state,Velocity or rate state,Represents the first derivative of the state variable,Captures movement momentum or adjustment speed,Second-order models require both state and rate initial conditions
+damping_assumption,Damping assumption,Represents velocity-dependent loss or resistance,Models friction dissipation adjustment cost or institutional resistance,Damping may not be linear or constant in real systems
+restoring_assumption,Restoring assumption,Represents state-dependent pull toward equilibrium,Models stiffness correction pressure target seeking or feedback,Linear restoring force may fail far from equilibrium
+forcing_term,Forcing term,Represents external input shock or periodic driver,Models demand policy environment load or intervention,Forcing should be measured estimated or clearly labeled as scenario input
+numerical_method,Numerical method,Defines how the second-order equation is approximated as a first-order system,Supports reproducible simulation and solver review,Oscillatory systems are sensitive to step size and solver choice

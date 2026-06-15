@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_scenario,input_position,input_velocity,input_damping_ratio,input_natural_frequency,input_forcing_amplitude,input_forcing_frequency,input_dt,input_steps,result_records,result_final_position,result_final_velocity
+simulate-oscillator,Simulates a second-order oscillator as a first-order system.,Check solver sensitivity before interpreting oscillation.,simulate-oscillator,underdamped,1.0,0.0,0.2,1.0,0.0,1.0,0.02,50,51,0.5867116628001825,-0.6956932466204667

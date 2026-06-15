@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+second-derivative,Second Derivative,model structure,96,active,2026-06-15,Acceleration interpretation should be explicitly tied to system meaning.
+damping-regime,Damping Regime,dynamic interpretation,95,active,2026-06-15,"Damping ratio controls oscillation, return speed, and overshoot."
+forcing-resonance,Forcing and Resonance,scenario interpretation,94,review,2026-06-15,"Forcing inputs should be documented as measured, estimated, or scenario-based."
+phase-state,Phase State,computation,93,active,2026-06-15,Second-order equations should be represented with position and velocity states.
+solver-sensitivity,Solver Sensitivity,governance,92,review,2026-06-15,Oscillatory systems require step-size and solver-method review.

@@ -1,0 +1,2 @@
+"calculator","position","velocity","time","damping_ratio","natural_frequency","forcing_amplitude","forcing_frequency","acceleration"
+"acceleration",1,0,0,0.2,1,0,1,-1

@@ -1,0 +1,32 @@
+section                         
+--------------------------------
+SECOND-ORDER ASSUMPTION REGISTRY
+assumption_name            mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Damping assumption         Represents velocity-dependent loss or resistance.             Models friction dissipation adjustment cost or institutional  Damping may not be linear or constant in real systems.      
+                                                                                          resistance.                                                                                                              
+
+Forcing term               Represents external input shock or periodic driver.           Models demand policy environment load or intervention.        Forcing should be measured estimated or clearly labeled as s
+                                                                                                                                                       cenario input.                                              
+
+Numerical method           Defines how the second-order equation is approximated as a f  Supports reproducible simulation and solver review.           Oscillatory systems are sensitive to step size and solver ch
+                           irst-order system.                                                                                                          oice.                                                       
+
+Restoring assumption       Represents state-dependent pull toward equilibrium.           Models stiffness correction pressure target seeking or feedb  Linear restoring force may fail far from equilibrium.       
+                                                                                         ack.                                                                                                                      
+
+State variable definition  Defines the quantity governed by the second-order equation.   Determines what the model tracks through position or deviati  Unclear state definitions make oscillatory behavior uninterp
+                                                                                         on.                                                           retable.                                                    
+
+Velocity or rate state     Represents the first derivative of the state variable.        Captures movement momentum or adjustment speed.               Second-order models require both state and rate initial cond
+                                                                                                                                                       itions.                                                     
+section                 
+------------------------
+SECOND-ORDER AUDIT CASES
+scenario               initial_position  initial_velocity  damping_ratio  natural_frequency  forcing_amplitude  forcing_frequency  time_step  steps  method                             warning                                                     
+---------------------  ----------------  ----------------  -------------  -----------------  -----------------  -----------------  ---------  -----  ---------------------------------  ------------------------------------------------------------
+forced_near_resonance  1.0               0.0               0.1            1.0                0.2                1.0                0.02       500    explicit_euler_first_order_system  External forcing near natural frequency can amplify response
+                                                                                                                                                                                        .                                                           
+
+underdamped_unforced   1.0               0.0               0.2            1.0                0.0                1.0                0.02       500    explicit_euler_first_order_system  Explicit Euler is transparent but can distort oscillatory sy
+                                                                                                                                                                                        stems if the step size is too large.                        

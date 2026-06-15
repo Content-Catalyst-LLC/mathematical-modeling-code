@@ -1,0 +1,25 @@
+{
+  "article": "Second-Order Equations and Oscillatory Systems",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "The second derivative must have a credible system interpretation.",
+    "Damping and restoring terms should be justified rather than inserted for convenience.",
+    "Forcing inputs should be documented as measured, estimated, or scenario-based.",
+    "Oscillatory systems are sensitive to solver method and step size.",
+    "Resonance is a structural amplification concept and should not be inferred casually."
+  ]
+}

@@ -1,0 +1,2 @@
+  calculator natural_frequency   period
+1     period                 1 6.283185

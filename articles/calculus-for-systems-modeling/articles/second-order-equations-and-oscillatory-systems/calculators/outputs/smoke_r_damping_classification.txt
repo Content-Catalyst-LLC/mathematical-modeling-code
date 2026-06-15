@@ -1,0 +1,2 @@
+              calculator damping_ratio classification
+1 damping-classification           0.2    underdamped

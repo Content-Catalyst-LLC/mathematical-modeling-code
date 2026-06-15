@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_natural_frequency,result_period
+period,Computes T = 2*pi/omega.,Period assumes the stated natural frequency is valid.,period,1.0,6.283185307179586

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_position,input_velocity,input_time,input_damping_ratio,input_natural_frequency,input_forcing_amplitude,input_forcing_frequency,result_acceleration,result_forcing
+acceleration,Computes second-order oscillator acceleration.,"Acceleration combines forcing, damping, and restoring terms.",acceleration,1.0,0.0,0.0,0.2,1.0,0.0,1.0,-1.0,0.0

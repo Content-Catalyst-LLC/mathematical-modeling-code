@@ -1,0 +1,18 @@
+{
+  "article_slug": "second-order-equations-and-oscillatory-systems",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "damping-classification", "title": "Damping Classification"},
+    {"id": "period", "title": "Oscillation Period"},
+    {"id": "acceleration", "title": "Oscillator Acceleration"},
+    {"id": "euler-step", "title": "Second-Order Euler Step"},
+    {"id": "simulate-oscillator", "title": "Oscillator Simulation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_damping_ratio,result_classification
+damping-classification,Classifies oscillator damping regime.,Damping classification depends on normalized model form.,damping-classification,0.2,underdamped

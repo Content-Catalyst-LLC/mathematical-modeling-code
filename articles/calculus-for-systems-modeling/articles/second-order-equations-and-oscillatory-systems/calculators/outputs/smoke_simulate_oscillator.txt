@@ -1,0 +1,22 @@
+{
+  "calculator": "simulate-oscillator",
+  "inputs": {
+    "command": "simulate-oscillator",
+    "damping_ratio": 0.2,
+    "dt": 0.02,
+    "forcing_amplitude": 0.0,
+    "forcing_frequency": 1.0,
+    "natural_frequency": 1.0,
+    "position": 1.0,
+    "scenario": "underdamped",
+    "steps": 50,
+    "velocity": 0.0
+  },
+  "interpretation": "Simulates a second-order oscillator as a first-order system.",
+  "result": {
+    "final_position": 0.5867116628001825,
+    "final_velocity": -0.6956932466204667,
+    "records": 51
+  },
+  "warning": "Check solver sensitivity before interpreting oscillation."
+}

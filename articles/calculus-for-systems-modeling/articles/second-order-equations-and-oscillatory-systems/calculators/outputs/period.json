@@ -1,0 +1,12 @@
+{
+  "calculator": "period",
+  "inputs": {
+    "command": "period",
+    "natural_frequency": 1.0
+  },
+  "interpretation": "Computes T = 2*pi/omega.",
+  "result": {
+    "period": 6.283185307179586
+  },
+  "warning": "Period assumes the stated natural frequency is valid."
+}

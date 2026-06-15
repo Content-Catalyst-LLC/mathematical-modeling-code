@@ -1,0 +1,10 @@
+condition,passed,warning
+second derivative interpretation documented,True,
+position and velocity states documented,True,
+damping regimes included,True,
+forcing and resonance examples included,True,
+phase-space transformation included,True,
+solver and step-size warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

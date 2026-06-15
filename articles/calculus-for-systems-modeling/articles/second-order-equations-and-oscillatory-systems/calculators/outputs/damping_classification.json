@@ -1,0 +1,12 @@
+{
+  "calculator": "damping-classification",
+  "inputs": {
+    "command": "damping-classification",
+    "damping_ratio": 0.2
+  },
+  "interpretation": "Classifies oscillator damping regime.",
+  "result": {
+    "classification": "underdamped"
+  },
+  "warning": "Damping classification depends on normalized model form."
+}

@@ -1,0 +1,19 @@
+{
+  "calculator": "acceleration",
+  "inputs": {
+    "command": "acceleration",
+    "damping_ratio": 0.2,
+    "forcing_amplitude": 0.0,
+    "forcing_frequency": 1.0,
+    "natural_frequency": 1.0,
+    "position": 1.0,
+    "time": 0.0,
+    "velocity": 0.0
+  },
+  "interpretation": "Computes second-order oscillator acceleration.",
+  "result": {
+    "acceleration": -1.0,
+    "forcing": 0.0
+  },
+  "warning": "Acceleration combines forcing, damping, and restoring terms."
+}

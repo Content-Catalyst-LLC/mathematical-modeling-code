@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_position,input_velocity,input_dt,input_damping_ratio,input_natural_frequency,input_forcing_amplitude,input_forcing_frequency,result_next_position,result_next_velocity,result_acceleration
+euler-step,Computes one explicit Euler step for position and velocity.,Euler error depends on step size.,euler-step,1.0,0.0,0.02,0.2,1.0,0.0,1.0,0.9996,-0.02,-1.0

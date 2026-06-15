@@ -1,0 +1,20 @@
+{
+  "calculator": "euler-step",
+  "inputs": {
+    "command": "euler-step",
+    "damping_ratio": 0.2,
+    "dt": 0.02,
+    "forcing_amplitude": 0.0,
+    "forcing_frequency": 1.0,
+    "natural_frequency": 1.0,
+    "position": 1.0,
+    "velocity": 0.0
+  },
+  "interpretation": "Computes one explicit Euler step for position and velocity.",
+  "result": {
+    "acceleration": -1.0,
+    "next_position": 0.9996,
+    "next_velocity": -0.02
+  },
+  "warning": "Euler error depends on step size."
+}
