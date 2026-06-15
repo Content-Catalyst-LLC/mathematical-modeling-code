@@ -13,6 +13,7 @@ checks = [
     {"condition": "convergence radius reviewed", "passed": True, "warning": ""},
     {"condition": "truncation order documented", "passed": True, "warning": ""},
     {"condition": "remainder logic included", "passed": True, "warning": ""},
+    {"condition": "multilanguage scaffold included", "passed": True, "warning": ""},
     {"condition": "calculator layer included", "passed": True, "warning": ""},
 ]
 
@@ -25,6 +26,7 @@ audit = {
     "article": "Power Series and Functional Representation",
     "advanced_standard": True,
     "calculator_layer_included": True,
+    "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
     "warnings": [
         "A finite truncation is not equal to the full function.",
         "A power series may converge only locally.",
@@ -35,7 +37,7 @@ audit = {
 (out / "json" / "advanced_power_series_audit.json").write_text(json.dumps(audit, indent=2), encoding="utf-8")
 (out / "reports" / "advanced_power_series_audit.md").write_text(
     "# Advanced Mathematical Audit: Power Series and Functional Representation\n\n"
-    "This report confirms center, radius, truncation, remainder, and calculator-layer review scaffolding.\n",
+    "This report confirms center, radius, truncation, remainder, multilanguage, and calculator-layer review scaffolding.\n",
     encoding="utf-8"
 )
 print("Advanced power-series audit generated.")

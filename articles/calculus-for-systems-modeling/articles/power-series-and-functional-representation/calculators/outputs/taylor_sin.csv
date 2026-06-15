@@ -1,2 +1,2 @@
 calculator,interpretation,warning,input_x,input_terms,result_partial_sum,result_reference_value,result_absolute_error
-taylor-sin,"The sine Taylor series converges for all real x, but finite truncations remain local approximations.",,1.0,12,0.8414709848078965,0.8414709848078965,0.0
+taylor-sin,The sine Taylor series converges for all real x.,,1.0,12,0.8414709848078965,0.8414709848078965,0.0

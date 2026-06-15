@@ -4,7 +4,7 @@
     "terms": 12,
     "x": 1.0
   },
-  "interpretation": "The exponential Taylor series converges for all real x, though truncation error still matters.",
+  "interpretation": "The exponential Taylor series converges for all real x.",
   "result": {
     "absolute_error": 2.260552189881082e-09,
     "partial_sum": 2.718281826198493,

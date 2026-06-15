@@ -1,2 +1,2 @@
 calculator,interpretation,warning,input_x,input_terms,result_partial_sum,result_reference_value,result_absolute_error
-taylor-exp,"The exponential Taylor series converges for all real x, though truncation error still matters.",,1.0,12,2.718281826198493,2.718281828459045,2.260552189881082e-09
+taylor-exp,The exponential Taylor series converges for all real x.,,1.0,12,2.718281826198493,2.718281828459045,2.260552189881082e-09

@@ -13,14 +13,39 @@ Companion code and reproducible workflows for **Power Series and Functional Repr
 - polynomial truncation;
 - approximation error;
 - local versus global validity;
+- full multilanguage reproducible workflows;
 - website-ready calculator scaffolding.
 
 ## Run
 
 ```bash
 make smoke
+make all
 make calculators
 make advanced
+```
+
+## Languages included
+
+```text
+python/
+r/
+julia/
+sql/
+haskell/
+c/
+cpp/
+fortran/
+rust/
+go/
+notebooks/
+docs/
+data/
+outputs/
+schemas/
+canvas/
+advanced/
+calculators/
 ```
 
 ## Self-contained calculators

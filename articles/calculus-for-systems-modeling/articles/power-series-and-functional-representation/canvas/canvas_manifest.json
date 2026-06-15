@@ -4,6 +4,7 @@
   "canvas_layer": "power-series-functional-representation",
   "advanced_standard": true,
   "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
   "cards": [
     {"card_id": "power-series", "title": "Power Series", "description": "Functions can be represented locally through infinite weighted powers."},
     {"card_id": "center-of-expansion", "title": "Center of Expansion", "description": "The expansion center defines the local reference point."},

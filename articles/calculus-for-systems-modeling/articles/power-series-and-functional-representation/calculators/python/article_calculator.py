@@ -59,13 +59,7 @@ def calc_power_series(args: argparse.Namespace) -> CalculatorResult:
     payload = CalculatorResult(
         "power-series",
         {"x": args.x, "terms": args.terms, "series": "sum x^n"},
-        {
-            "partial_sum": partial,
-            "last_term": terms[-1],
-            "inside_radius": converges,
-            "reference_value": reference,
-            "absolute_error": error,
-        },
+        {"partial_sum": partial, "last_term": terms[-1], "inside_radius": converges, "reference_value": reference, "absolute_error": error},
         "The geometric power series represents 1/(1-x) only when |x| < 1.",
         "" if converges else "This x value is outside the radius of convergence.",
     )
@@ -76,12 +70,7 @@ def calc_power_series(args: argparse.Namespace) -> CalculatorResult:
 def calc_taylor_exp(args: argparse.Namespace) -> CalculatorResult:
     partial = sum((args.x ** n) / math.factorial(n) for n in range(args.terms))
     reference = math.exp(args.x)
-    payload = CalculatorResult(
-        "taylor-exp",
-        {"x": args.x, "terms": args.terms},
-        {"partial_sum": partial, "reference_value": reference, "absolute_error": abs(reference - partial)},
-        "The exponential Taylor series converges for all real x, though truncation error still matters.",
-    )
+    payload = CalculatorResult("taylor-exp", {"x": args.x, "terms": args.terms}, {"partial_sum": partial, "reference_value": reference, "absolute_error": abs(reference - partial)}, "The exponential Taylor series converges for all real x.")
     write_outputs("taylor_exp", payload)
     return payload
 
@@ -89,12 +78,7 @@ def calc_taylor_exp(args: argparse.Namespace) -> CalculatorResult:
 def calc_taylor_sin(args: argparse.Namespace) -> CalculatorResult:
     partial = sum(((-1) ** n) * (args.x ** (2*n + 1)) / math.factorial(2*n + 1) for n in range(args.terms))
     reference = math.sin(args.x)
-    payload = CalculatorResult(
-        "taylor-sin",
-        {"x": args.x, "terms": args.terms},
-        {"partial_sum": partial, "reference_value": reference, "absolute_error": abs(reference - partial)},
-        "The sine Taylor series converges for all real x, but finite truncations remain local approximations.",
-    )
+    payload = CalculatorResult("taylor-sin", {"x": args.x, "terms": args.terms}, {"partial_sum": partial, "reference_value": reference, "absolute_error": abs(reference - partial)}, "The sine Taylor series converges for all real x.")
     write_outputs("taylor_sin", payload)
     return payload
 
@@ -102,21 +86,12 @@ def calc_taylor_sin(args: argparse.Namespace) -> CalculatorResult:
 def calc_radius_check(args: argparse.Namespace) -> CalculatorResult:
     distance = abs(args.x - args.center)
     if distance < args.radius:
-        status = "inside radius"
-        warning = ""
+        status, warning = "inside radius", ""
     elif distance == args.radius:
-        status = "on boundary"
-        warning = "Endpoint behavior requires a separate convergence test."
+        status, warning = "on boundary", "Endpoint behavior requires a separate convergence test."
     else:
-        status = "outside radius"
-        warning = "Power-series representation is not justified outside the convergence radius."
-    payload = CalculatorResult(
-        "radius-check",
-        {"x": args.x, "center": args.center, "radius": args.radius},
-        {"distance_from_center": distance, "status": status},
-        "Radius checks make local domain validity explicit.",
-        warning,
-    )
+        status, warning = "outside radius", "Power-series representation is not justified outside the convergence radius."
+    payload = CalculatorResult("radius-check", {"x": args.x, "center": args.center, "radius": args.radius}, {"distance_from_center": distance, "status": status}, "Radius checks make local domain validity explicit.", warning)
     write_outputs("radius_check", payload)
     return payload
 
@@ -133,25 +108,14 @@ def calc_truncation_sweep(args: argparse.Namespace) -> CalculatorResult:
         writer = csv.DictWriter(handle, fieldnames=["terms", "partial_sum", "absolute_error"])
         writer.writeheader()
         writer.writerows(rows)
-    payload = CalculatorResult(
-        "truncation-sweep",
-        {"x": args.x, "max_terms": args.max_terms},
-        {"rows_written": len(rows), "final_partial_sum": rows[-1]["partial_sum"], "final_absolute_error": rows[-1]["absolute_error"]},
-        "A truncation sweep shows how retained terms change approximation error.",
-        "" if reference is not None else "No reference value is reported because x is outside the convergence radius.",
-    )
+    payload = CalculatorResult("truncation-sweep", {"x": args.x, "max_terms": args.max_terms}, {"rows_written": len(rows), "final_partial_sum": rows[-1]["partial_sum"], "final_absolute_error": rows[-1]["absolute_error"]}, "A truncation sweep shows how retained terms change approximation error.")
     write_outputs("truncation_sweep_summary", payload)
     return payload
 
 
 def calc_derivative(args: argparse.Namespace) -> CalculatorResult:
     derivative = (default_function(args.x + args.h) - default_function(args.x - args.h)) / (2 * args.h)
-    payload = CalculatorResult(
-        "derivative",
-        {"x": args.x, "h": args.h, "function": "x^2"},
-        {"central_difference": derivative},
-        "Central finite differences approximate local rate of change.",
-    )
+    payload = CalculatorResult("derivative", {"x": args.x, "h": args.h, "function": "x^2"}, {"central_difference": derivative}, "Central finite differences approximate local rate of change.")
     write_outputs("derivative", payload)
     return payload
 
@@ -162,12 +126,7 @@ def calc_integral(args: argparse.Namespace) -> CalculatorResult:
     for i in range(1, args.steps):
         total += default_function(args.a + i * h)
     integral = total * h
-    payload = CalculatorResult(
-        "integral",
-        {"a": args.a, "b": args.b, "steps": args.steps, "function": "x^2"},
-        {"trapezoid_integral": integral},
-        "The trapezoid rule approximates accumulated change over an interval.",
-    )
+    payload = CalculatorResult("integral", {"a": args.a, "b": args.b, "steps": args.steps, "function": "x^2"}, {"trapezoid_integral": integral}, "The trapezoid rule approximates accumulated change over an interval.")
     write_outputs("integral", payload)
     return payload
 
@@ -195,12 +154,7 @@ def ode_steps(method: str, x0: float, rate: float, dt: float, steps: int) -> lis
 
 def calc_ode(args: argparse.Namespace, method: str) -> CalculatorResult:
     rows = ode_steps(method, args.x0, args.rate, args.dt, args.steps)
-    payload = CalculatorResult(
-        method,
-        {"x0": args.x0, "rate": args.rate, "dt": args.dt, "steps": args.steps, "equation": "dx/dt = rate*x"},
-        {"final_x": rows[-1]["x"], "rows_written": len(rows)},
-        f"{method.upper()} approximates repeated change in a simple exponential growth/decay model.",
-    )
+    payload = CalculatorResult(method, {"x0": args.x0, "rate": args.rate, "dt": args.dt, "steps": args.steps, "equation": "dx/dt = rate*x"}, {"final_x": rows[-1]["x"], "rows_written": len(rows)}, f"{method.upper()} approximates repeated change in a simple exponential growth/decay model.")
     write_outputs(method, payload)
     ensure_output_dir()
     with (OUTPUT_DIR / f"{method}_trajectory.csv").open("w", newline="", encoding="utf-8") as handle:
@@ -216,12 +170,7 @@ def calc_logistic(args: argparse.Namespace) -> CalculatorResult:
     for step in range(1, args.steps + 1):
         x = x + args.rate * x * (1 - x / args.carrying_capacity)
         rows.append({"step": step, "x": x})
-    payload = CalculatorResult(
-        "logistic",
-        {"initial": args.initial, "carrying_capacity": args.carrying_capacity, "rate": args.rate, "steps": args.steps},
-        {"final_x": rows[-1]["x"], "rows_written": len(rows)},
-        "The logistic calculator demonstrates bounded growth toward a carrying capacity.",
-    )
+    payload = CalculatorResult("logistic", {"initial": args.initial, "carrying_capacity": args.carrying_capacity, "rate": args.rate, "steps": args.steps}, {"final_x": rows[-1]["x"], "rows_written": len(rows)}, "The logistic calculator demonstrates bounded growth toward a carrying capacity.")
     write_outputs("logistic", payload)
     ensure_output_dir()
     with (OUTPUT_DIR / "logistic_trajectory.csv").open("w", newline="", encoding="utf-8") as handle:
@@ -234,12 +183,7 @@ def calc_logistic(args: argparse.Namespace) -> CalculatorResult:
 def calc_finite_diff(args: argparse.Namespace) -> CalculatorResult:
     values = [float(v.strip()) for v in args.values.split(",") if v.strip()]
     diffs = [values[i+1] - values[i] for i in range(len(values)-1)]
-    payload = CalculatorResult(
-        "finite-diff",
-        {"values": values},
-        {"differences": diffs, "count": len(diffs)},
-        "Finite differences approximate discrete change between adjacent observations.",
-    )
+    payload = CalculatorResult("finite-diff", {"values": values}, {"differences": diffs, "count": len(diffs)}, "Finite differences approximate discrete change between adjacent observations.")
     write_outputs("finite_diff", payload)
     return payload
 
@@ -253,12 +197,7 @@ def calc_sensitivity(args: argparse.Namespace) -> CalculatorResult:
         p = args.parameter_min + i * step
         response = p / (1 + p)
         rows.append({"sample": i + 1, "parameter": p, "response": response})
-    payload = CalculatorResult(
-        "sensitivity",
-        {"parameter_min": args.parameter_min, "parameter_max": args.parameter_max, "samples": args.samples},
-        {"min_response": rows[0]["response"], "max_response": rows[-1]["response"], "rows_written": len(rows)},
-        "Sensitivity sweeps show how model response changes across a parameter range.",
-    )
+    payload = CalculatorResult("sensitivity", {"parameter_min": args.parameter_min, "parameter_max": args.parameter_max, "samples": args.samples}, {"min_response": rows[0]["response"], "max_response": rows[-1]["response"], "rows_written": len(rows)}, "Sensitivity sweeps show how model response changes across a parameter range.")
     write_outputs("sensitivity", payload)
     ensure_output_dir()
     with (OUTPUT_DIR / "sensitivity_sweep.csv").open("w", newline="", encoding="utf-8") as handle:

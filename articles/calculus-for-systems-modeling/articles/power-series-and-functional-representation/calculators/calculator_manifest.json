@@ -3,66 +3,18 @@
   "calculator_layer_version": "1.0.0",
   "website_widget_ready": true,
   "calculators": [
-    {
-      "id": "power-series",
-      "title": "Geometric Power Series Calculator",
-      "description": "Computes finite partial sums for the geometric power series representation of 1/(1-x)."
-    },
-    {
-      "id": "taylor-exp",
-      "title": "Exponential Taylor Calculator",
-      "description": "Approximates exp(x) using finite Taylor partial sums."
-    },
-    {
-      "id": "taylor-sin",
-      "title": "Sine Taylor Calculator",
-      "description": "Approximates sin(x) using finite Taylor partial sums."
-    },
-    {
-      "id": "radius-check",
-      "title": "Radius of Convergence Checker",
-      "description": "Checks whether an evaluation point is inside, on, or outside a convergence radius."
-    },
-    {
-      "id": "truncation-sweep",
-      "title": "Truncation Sweep",
-      "description": "Shows how approximation error changes as more terms are retained."
-    },
-    {
-      "id": "derivative",
-      "title": "Numerical Derivative Calculator",
-      "description": "Uses central finite differences for a default quadratic function."
-    },
-    {
-      "id": "integral",
-      "title": "Numerical Integral Calculator",
-      "description": "Uses the trapezoid rule for a default quadratic function."
-    },
-    {
-      "id": "euler",
-      "title": "Euler ODE Stepper",
-      "description": "Computes Euler steps for dx/dt = rate*x."
-    },
-    {
-      "id": "rk4",
-      "title": "Runge-Kutta RK4 ODE Stepper",
-      "description": "Computes RK4 steps for dx/dt = rate*x."
-    },
-    {
-      "id": "logistic",
-      "title": "Logistic Growth Calculator",
-      "description": "Computes a discrete logistic growth trajectory."
-    },
-    {
-      "id": "finite-diff",
-      "title": "Finite Difference Calculator",
-      "description": "Computes first differences from comma-separated values."
-    },
-    {
-      "id": "sensitivity",
-      "title": "Parameter Sensitivity Sweep",
-      "description": "Sweeps a parameter range through a simple bounded-response model."
-    }
+    {"id": "power-series", "title": "Geometric Power Series Calculator"},
+    {"id": "taylor-exp", "title": "Exponential Taylor Calculator"},
+    {"id": "taylor-sin", "title": "Sine Taylor Calculator"},
+    {"id": "radius-check", "title": "Radius of Convergence Checker"},
+    {"id": "truncation-sweep", "title": "Truncation Sweep"},
+    {"id": "derivative", "title": "Numerical Derivative Calculator"},
+    {"id": "integral", "title": "Numerical Integral Calculator"},
+    {"id": "euler", "title": "Euler ODE Stepper"},
+    {"id": "rk4", "title": "Runge-Kutta RK4 ODE Stepper"},
+    {"id": "logistic", "title": "Logistic Growth Calculator"},
+    {"id": "finite-diff", "title": "Finite Difference Calculator"},
+    {"id": "sensitivity", "title": "Parameter Sensitivity Sweep"}
   ],
   "outputs": ["csv", "json"],
   "governance": {

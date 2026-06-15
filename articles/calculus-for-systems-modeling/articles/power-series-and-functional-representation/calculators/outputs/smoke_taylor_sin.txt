@@ -4,7 +4,7 @@
     "terms": 12,
     "x": 1.0
   },
-  "interpretation": "The sine Taylor series converges for all real x, but finite truncations remain local approximations.",
+  "interpretation": "The sine Taylor series converges for all real x.",
   "result": {
     "absolute_error": 0.0,
     "partial_sum": 0.8414709848078965,

@@ -1,4 +1,6 @@
 DROP TABLE IF EXISTS power_series_assumption_registry;
+DROP TABLE IF EXISTS power_series_approximation_cases;
+
 CREATE TABLE power_series_assumption_registry (
     assumption_key TEXT PRIMARY KEY,
     assumption_name TEXT NOT NULL,
@@ -14,3 +16,17 @@ INSERT INTO power_series_assumption_registry VALUES
 ('truncation_order','Truncation order','Records how many terms are retained in the finite approximation.','Separates the computed polynomial from the infinite representation.','A finite truncation is not the same as the full function.'),
 ('remainder_logic','Remainder logic','Documents the omitted terms or error estimate.','Supports responsible use of finite polynomial approximations.','A polynomial approximation should not be trusted without error or validity review.'),
 ('calculator_interface','Calculator interface','Provides reusable command-line computational logic.','Prepares calculator functions for future website interfaces.','Calculator outputs require interpretation and assumption review.');
+
+CREATE TABLE power_series_approximation_cases (
+    function_name TEXT NOT NULL,
+    center REAL NOT NULL,
+    x_value REAL NOT NULL,
+    n_terms INTEGER NOT NULL,
+    convergence_status TEXT NOT NULL,
+    review_warning TEXT NOT NULL
+);
+
+INSERT INTO power_series_approximation_cases VALUES
+('1/(1-x)',0,0.25,5,'inside radius of convergence',''),
+('1/(1-x)',0,0.75,20,'inside radius of convergence',''),
+('1/(1-x)',0,1.25,10,'outside radius of convergence','Power series does not converge for this x value.');

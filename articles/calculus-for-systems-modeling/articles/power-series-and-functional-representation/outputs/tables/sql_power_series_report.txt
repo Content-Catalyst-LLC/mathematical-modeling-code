@@ -1,3 +1,6 @@
+section                         
+--------------------------------
+POWER SERIES ASSUMPTION REGISTRY
 assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
 ---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
 Calculator interface   Provides reusable command-line computational logic.           Prepares calculator functions for future website interfaces.  Calculator outputs require interpretation and assumption rev
@@ -17,3 +20,11 @@ Remainder logic        Documents the omitted terms or error estimate.           
 
 Truncation order       Records how many terms are retained in the finite approximat  Separates the computed polynomial from the infinite represen  A finite truncation is not the same as the full function.   
                        ion.                                                          tation.                                                                                                                   
+section                         
+--------------------------------
+POWER SERIES APPROXIMATION CASES
+function_name  center  x_value  n_terms  convergence_status             review_warning                                  
+-------------  ------  -------  -------  -----------------------------  ------------------------------------------------
+1/(1-x)        0.0     0.25     5        inside radius of convergence                                                   
+1/(1-x)        0.0     0.75     20       inside radius of convergence                                                   
+1/(1-x)        0.0     1.25     10       outside radius of convergence  Power series does not converge for this x value.

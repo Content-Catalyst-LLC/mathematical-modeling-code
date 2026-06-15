@@ -18,6 +18,17 @@ tags:
   - Truncation Error
   - Systems Modeling
   - Computational Modeling
-excerpt_139_words: "Power series represent functions through infinite polynomial expansions, turning local functional behavior into structured approximation, analysis, and computation. This article explains how centers of expansion, coefficients, partial sums, convergence radius, interval of convergence, analytic representation, term-by-term operations, truncation, and remainder logic shape the responsible use of power series in systems modeling. It shows how constant, linear, quadratic, and higher-order terms reveal baseline behavior, sensitivity, curvature, and nonlinear response near a chosen reference point. In modeling workflows, power series support local approximation, equilibrium analysis, numerical function evaluation, uncertainty propagation, and model reduction. The article emphasizes that finite polynomial truncations are not global truth: they require a stated center, valid domain, coefficient provenance, convergence review, and error logic before they can support interpretation across complex systems."
+excerpt_139_words: "Power series represent functions through infinite polynomial expansions, turning local behavior into structured approximation, analysis, and computation. This article explains how centers of expansion, coefficients, partial sums, convergence radius, interval of convergence, analytic representation, term-by-term operations, truncation, and remainder logic shape the responsible use of power series in systems modeling. It shows how constant, linear, quadratic, and higher-order terms reveal baseline behavior, sensitivity, curvature, and nonlinear response near a chosen reference point. In modeling workflows, power series support local approximation, equilibrium analysis, numerical function evaluation, uncertainty propagation, and model reduction. The article emphasizes that finite polynomial truncations are not global truth: they require a stated center, valid domain, coefficient provenance, convergence review, and error logic before they can support interpretation across complex systems."
 advanced_standard: true
 calculators_layer: true
+languages:
+  - python
+  - r
+  - julia
+  - sql
+  - haskell
+  - c
+  - cpp
+  - fortran
+  - rust
+  - go

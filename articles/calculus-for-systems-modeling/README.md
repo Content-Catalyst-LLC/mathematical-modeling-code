@@ -16,6 +16,6 @@ articles/calculus-for-systems-modeling/articles/
 
 All new article folders should include a reusable `calculators/` layer with Python and R command-line calculators, a manifest, smoke tests, and output folders. The calculator layer is designed to become the computational source layer for future website widgets.
 
-## Advanced mathematical standard
+## Multilanguage standard
 
-Each active article folder should include an `advanced/` layer with formal definitions, counterexamples, numerical checks, generated audit reports, and tests beyond smoke checks.
+Article folders should preserve the full computational standard: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas, advanced audit logic, and calculators.
