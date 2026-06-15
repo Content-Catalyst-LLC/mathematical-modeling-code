@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_center_x,input_center_y,input_radius,result_distance,result_inside_neighborhood
+local-neighborhood,Local-neighborhood checks show whether derivative interpretation is near the stated reference state.,,local-neighborhood,4.0,3.0,3.0,3.0,2.0,1.0,True

@@ -1,0 +1,13 @@
+{
+  "calculator": "partial-x",
+  "inputs": {
+    "command": "partial-x",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Partial x measures local sensitivity to x while y is held fixed.",
+  "result": {
+    "partial_x": 4.5
+  },
+  "warning": ""
+}

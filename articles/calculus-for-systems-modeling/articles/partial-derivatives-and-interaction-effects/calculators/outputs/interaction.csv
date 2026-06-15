@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_additive_component,result_interaction_component,result_total_output,result_interaction_share
+interaction,The interaction term shows how combined effects differ from a purely additive model.,,interaction,4.0,3.0,18.0,6.0,24.0,0.25

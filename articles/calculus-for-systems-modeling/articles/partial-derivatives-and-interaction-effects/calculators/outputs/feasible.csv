@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_budget,result_feasible,result_remaining_budget
+feasible,Feasible-change checks separate coordinate sensitivity from practical intervention.,Input combination violates constraints.,feasible,8.0,4.0,10.0,False,-2.0

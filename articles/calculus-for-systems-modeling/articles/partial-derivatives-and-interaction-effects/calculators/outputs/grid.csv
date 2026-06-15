@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_max_x,input_max_y,input_step,input_budget,result_rows_written,result_feasible_rows
+grid,A derivative grid maps local sensitivities and interactions across input space.,,grid,10.0,10.0,2.0,10,36,21

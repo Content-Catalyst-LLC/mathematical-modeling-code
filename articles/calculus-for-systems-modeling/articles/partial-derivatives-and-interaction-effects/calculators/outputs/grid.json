@@ -1,0 +1,16 @@
+{
+  "calculator": "grid",
+  "inputs": {
+    "budget": 10,
+    "command": "grid",
+    "max_x": 10.0,
+    "max_y": 10.0,
+    "step": 2.0
+  },
+  "interpretation": "A derivative grid maps local sensitivities and interactions across input space.",
+  "result": {
+    "feasible_rows": 21,
+    "rows_written": 36
+  },
+  "warning": ""
+}

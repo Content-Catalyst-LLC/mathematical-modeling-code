@@ -1,0 +1,16 @@
+{
+  "calculator": "numeric-partial-y",
+  "inputs": {
+    "command": "numeric-partial-y",
+    "h": 0.001,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "A central difference estimates the partial derivative numerically and compares it with the analytic value.",
+  "result": {
+    "absolute_error": 2.2168933355715126e-12,
+    "analytic_reference": 4.0,
+    "numeric_estimate": 3.999999999997783
+  },
+  "warning": ""
+}

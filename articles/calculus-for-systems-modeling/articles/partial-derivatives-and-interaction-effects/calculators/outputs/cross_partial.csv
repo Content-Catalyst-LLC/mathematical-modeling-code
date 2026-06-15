@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_cross_partial_xy
+cross-partial,The cross partial measures how one partial derivative changes with the other variable.,,cross-partial,4.0,3.0,0.5

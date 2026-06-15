@@ -1,0 +1,13 @@
+{
+  "calculator": "evaluate",
+  "inputs": {
+    "command": "evaluate",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "The function output includes additive and interaction components.",
+  "result": {
+    "output": 24.0
+  },
+  "warning": ""
+}

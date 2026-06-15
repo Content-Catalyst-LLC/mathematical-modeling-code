@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_partial_y
+partial-y,Partial y measures local sensitivity to y while x is held fixed.,,partial-y,4.0,3.0,4.0

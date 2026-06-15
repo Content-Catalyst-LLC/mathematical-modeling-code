@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_h,result_numeric_estimate,result_analytic_reference,result_absolute_error
+numeric-partial-x,A central difference estimates the partial derivative numerically and compares it with the analytic value.,,numeric-partial-x,4.0,3.0,0.001,4.5000000000001705,4.5,1.7053025658242404e-13

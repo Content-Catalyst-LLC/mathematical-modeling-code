@@ -1,0 +1,362 @@
+[
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 0.0,
+    "partial_x": 3.0,
+    "partial_y": 2.0,
+    "warning": "",
+    "x": 0.0,
+    "y": 0.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 4.0,
+    "partial_x": 4.0,
+    "partial_y": 2.0,
+    "warning": "",
+    "x": 0.0,
+    "y": 2.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 8.0,
+    "partial_x": 5.0,
+    "partial_y": 2.0,
+    "warning": "",
+    "x": 0.0,
+    "y": 4.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 12.0,
+    "partial_x": 6.0,
+    "partial_y": 2.0,
+    "warning": "",
+    "x": 0.0,
+    "y": 6.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 16.0,
+    "partial_x": 7.0,
+    "partial_y": 2.0,
+    "warning": "",
+    "x": 0.0,
+    "y": 8.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 20.0,
+    "partial_x": 8.0,
+    "partial_y": 2.0,
+    "warning": "",
+    "x": 0.0,
+    "y": 10.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 6.0,
+    "partial_x": 3.0,
+    "partial_y": 3.0,
+    "warning": "",
+    "x": 2.0,
+    "y": 0.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 12.0,
+    "partial_x": 4.0,
+    "partial_y": 3.0,
+    "warning": "",
+    "x": 2.0,
+    "y": 2.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 18.0,
+    "partial_x": 5.0,
+    "partial_y": 3.0,
+    "warning": "",
+    "x": 2.0,
+    "y": 4.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 24.0,
+    "partial_x": 6.0,
+    "partial_y": 3.0,
+    "warning": "",
+    "x": 2.0,
+    "y": 6.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 30.0,
+    "partial_x": 7.0,
+    "partial_y": 3.0,
+    "warning": "",
+    "x": 2.0,
+    "y": 8.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 36.0,
+    "partial_x": 8.0,
+    "partial_y": 3.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 2.0,
+    "y": 10.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 12.0,
+    "partial_x": 3.0,
+    "partial_y": 4.0,
+    "warning": "",
+    "x": 4.0,
+    "y": 0.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 20.0,
+    "partial_x": 4.0,
+    "partial_y": 4.0,
+    "warning": "",
+    "x": 4.0,
+    "y": 2.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 28.0,
+    "partial_x": 5.0,
+    "partial_y": 4.0,
+    "warning": "",
+    "x": 4.0,
+    "y": 4.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 36.0,
+    "partial_x": 6.0,
+    "partial_y": 4.0,
+    "warning": "",
+    "x": 4.0,
+    "y": 6.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 44.0,
+    "partial_x": 7.0,
+    "partial_y": 4.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 4.0,
+    "y": 8.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 52.0,
+    "partial_x": 8.0,
+    "partial_y": 4.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 4.0,
+    "y": 10.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 18.0,
+    "partial_x": 3.0,
+    "partial_y": 5.0,
+    "warning": "",
+    "x": 6.0,
+    "y": 0.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 28.0,
+    "partial_x": 4.0,
+    "partial_y": 5.0,
+    "warning": "",
+    "x": 6.0,
+    "y": 2.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 38.0,
+    "partial_x": 5.0,
+    "partial_y": 5.0,
+    "warning": "",
+    "x": 6.0,
+    "y": 4.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 48.0,
+    "partial_x": 6.0,
+    "partial_y": 5.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 6.0,
+    "y": 6.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 58.0,
+    "partial_x": 7.0,
+    "partial_y": 5.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 6.0,
+    "y": 8.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 68.0,
+    "partial_x": 8.0,
+    "partial_y": 5.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 6.0,
+    "y": 10.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 24.0,
+    "partial_x": 3.0,
+    "partial_y": 6.0,
+    "warning": "",
+    "x": 8.0,
+    "y": 0.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 36.0,
+    "partial_x": 4.0,
+    "partial_y": 6.0,
+    "warning": "",
+    "x": 8.0,
+    "y": 2.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 48.0,
+    "partial_x": 5.0,
+    "partial_y": 6.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 8.0,
+    "y": 4.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 60.0,
+    "partial_x": 6.0,
+    "partial_y": 6.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 8.0,
+    "y": 6.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 72.0,
+    "partial_x": 7.0,
+    "partial_y": 6.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 8.0,
+    "y": 8.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 84.0,
+    "partial_x": 8.0,
+    "partial_y": 6.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 8.0,
+    "y": 10.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": true,
+    "output": 30.0,
+    "partial_x": 3.0,
+    "partial_y": 7.0,
+    "warning": "",
+    "x": 10.0,
+    "y": 0.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 44.0,
+    "partial_x": 4.0,
+    "partial_y": 7.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 10.0,
+    "y": 2.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 58.0,
+    "partial_x": 5.0,
+    "partial_y": 7.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 10.0,
+    "y": 4.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 72.0,
+    "partial_x": 6.0,
+    "partial_y": 7.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 10.0,
+    "y": 6.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 86.0,
+    "partial_x": 7.0,
+    "partial_y": 7.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 10.0,
+    "y": 8.0
+  },
+  {
+    "cross_partial_xy": 0.5,
+    "feasible": false,
+    "output": 100.0,
+    "partial_x": 8.0,
+    "partial_y": 7.0,
+    "warning": "Input combination is outside the feasible region.",
+    "x": 10.0,
+    "y": 10.0
+  }
+]

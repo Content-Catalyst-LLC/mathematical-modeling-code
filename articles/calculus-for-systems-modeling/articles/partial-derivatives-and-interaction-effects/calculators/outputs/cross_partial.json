@@ -1,0 +1,13 @@
+{
+  "calculator": "cross-partial",
+  "inputs": {
+    "command": "cross-partial",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "The cross partial measures how one partial derivative changes with the other variable.",
+  "result": {
+    "cross_partial_xy": 0.5
+  },
+  "warning": ""
+}

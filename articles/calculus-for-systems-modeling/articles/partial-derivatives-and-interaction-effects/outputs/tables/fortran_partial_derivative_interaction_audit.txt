@@ -1,0 +1,4 @@
+x y output partial_x partial_y cross_partial_xy feasible
+   2.000    4.000    18.000000     5.000000     3.000000     0.500000 feasible
+   8.000    4.000    48.000000     5.000000     6.000000     0.500000 infeasible
+   6.000    3.000    33.000000     4.500000     5.000000     0.500000 feasible

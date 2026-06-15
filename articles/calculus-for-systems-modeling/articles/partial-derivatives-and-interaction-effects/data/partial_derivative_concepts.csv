@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+reference_state,Reference state,Identifies where the partial derivative is evaluated,Anchors sensitivity to a baseline scenario equilibrium or operating condition,A partial derivative should not be interpreted without its evaluation point
+fixed_variables,Fixed variables,Identifies which variables are held constant during differentiation,Clarifies the ceteris paribus comparison being made,Holding variables fixed may be infeasible in coupled systems
+partial_x,Partial derivative in x,Measures local change along the x coordinate direction,Estimates local sensitivity to one input,Coordinate sensitivity may not equal feasible intervention effect
+partial_y,Partial derivative in y,Measures local change along the y coordinate direction,Estimates local sensitivity to another input,Coordinate sensitivity may vary across the input space
+interaction_structure,Interaction structure,Records whether one input changes the effect of another,Connects partial derivatives to combined system behavior,Omitted interactions may distort local sensitivity interpretation
+cross_partial,Cross partial,Measures how one partial derivative changes with another variable,Helps identify complementarity substitution reinforcement or damping,Cross-partial interpretation depends on units smoothness and model structure
+feasible_change,Feasible change,Distinguishes coordinate change from allowed movement under constraints,Prevents mathematical sensitivity from becoming practical leverage,A large partial derivative may not imply feasible leverage

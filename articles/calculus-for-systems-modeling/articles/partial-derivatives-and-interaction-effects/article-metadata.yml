@@ -1,0 +1,24 @@
+actual_title: "Partial Derivatives and Interaction Effects"
+suggested_seo_title: "Partial Derivatives and Interaction Effects in Systems Modeling"
+focus_keyword: "partial derivatives interaction effects"
+slug: "partial-derivatives-and-interaction-effects"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "functions-of-several-variables"
+  current: "partial-derivatives-and-interaction-effects"
+  next: "total-differentials-and-local-approximation-in-higher-dimensions"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/partial-derivatives-and-interaction-effects"
+tags:
+  - Calculus
+  - Multivariable Calculus
+  - Partial Derivatives
+  - Interaction Effects
+  - Cross Partials
+  - Local Sensitivity
+  - Systems Modeling
+  - Computational Modeling
+excerpt_139_words: "Partial derivatives measure how a multivariable system changes when one input changes while other inputs are held fixed. This article explains how coordinate slices, fixed-variable assumptions, local sensitivity, marginal response, interaction terms, cross-partial derivatives, feasible regions, constraints, contour interpretation, reference states, and local validity shape systems modeling. It shows why partial derivatives are not context-free numbers: they depend on where they are evaluated, which variables are held constant, whether inputs can vary independently, and whether interactions change sensitivity across the input space. In modeling workflows, partial derivatives support sensitivity grids, interaction diagnostics, feasible-change checks, cross-partial review, and local approximation. The article emphasizes that derivative claims should state the reference point, fixed variables, units, constraints, and interaction structure before supporting responsible interpretation across complex systems."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

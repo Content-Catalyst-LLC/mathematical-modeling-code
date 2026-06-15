@@ -1,0 +1,23 @@
+{
+  "article": "Partial Derivatives and Interaction Effects",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Partial derivatives are local to a reference point.",
+    "Holding variables fixed may be infeasible in coupled systems.",
+    "Cross partials identify derivative interaction, not full causal explanation.",
+    "Coordinate sensitivity should not be treated as practical intervention leverage without feasibility review."
+  ]
+}

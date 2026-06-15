@@ -1,0 +1,27 @@
+section                               
+--------------------------------------
+PARTIAL DERIVATIVE ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Cross partial          Measures how one partial derivative changes with another var  Helps identify complementarity substitution reinforcement or  Cross-partial interpretation depends on units smoothness and
+                       iable.                                                         damping.                                                      model structure.                                           
+
+Feasible change        Distinguishes coordinate change from allowed movement under   Prevents mathematical sensitivity from being treated as prac  A large partial derivative may not imply feasible leverage. 
+                       constraints.                                                  tical intervention effect.                                                                                                
+
+Fixed variables        Identifies which variables are held constant during differen  Clarifies the ceteris paribus comparison being made.          Holding variables fixed may be infeasible in coupled systems
+                       tiation.                                                                                                                    .                                                           
+
+Interaction structure  Records whether one input changes the effect of another.      Connects partial derivatives to combined system behavior.     Omitted interactions may distort local sensitivity interpret
+                                                                                                                                                   ation.                                                      
+
+Reference state        Identifies where the partial derivative is evaluated.         Anchors sensitivity to a baseline scenario equilibrium or op  A partial derivative should not be interpreted without its e
+                                                                                     erating condition.                                            valuation point.                                            
+section                 
+------------------------
+PARTIAL DERIVATIVE CASES
+x    y    output  partial_x  partial_y  cross_partial_xy  feasible  warning                                          
+---  ---  ------  ---------  ---------  ----------------  --------  -------------------------------------------------
+2.0  4.0  18.0    5.0        3.0        0.5               1                                                          
+6.0  3.0  33.0    4.5        5.0        0.5               1                                                          
+8.0  4.0  48.0    5.0        6.0        0.5               0         Input combination is outside the feasible region.

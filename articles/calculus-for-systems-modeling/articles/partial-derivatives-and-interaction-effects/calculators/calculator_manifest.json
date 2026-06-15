@@ -1,0 +1,24 @@
+{
+  "article_slug": "partial-derivatives-and-interaction-effects",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "evaluate", "title": "Two-Input Function Evaluator"},
+    {"id": "partial-x", "title": "Analytic Partial Derivative in x"},
+    {"id": "partial-y", "title": "Analytic Partial Derivative in y"},
+    {"id": "cross-partial", "title": "Cross-Partial Derivative"},
+    {"id": "interaction", "title": "Interaction Effect Inspector"},
+    {"id": "grid", "title": "Partial Derivative Grid"},
+    {"id": "numeric-partial-x", "title": "Numerical Partial in x"},
+    {"id": "numeric-partial-y", "title": "Numerical Partial in y"},
+    {"id": "feasible", "title": "Feasible Change Checker"},
+    {"id": "local-neighborhood", "title": "Local Neighborhood Checker"},
+    {"id": "sensitivity", "title": "Sensitivity Sweep"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

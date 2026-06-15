@@ -1,0 +1,16 @@
+{
+  "calculator": "interaction",
+  "inputs": {
+    "command": "interaction",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "The interaction term shows how combined effects differ from a purely additive model.",
+  "result": {
+    "additive_component": 18.0,
+    "interaction_component": 6.0,
+    "interaction_share": 0.25,
+    "total_output": 24.0
+  },
+  "warning": ""
+}

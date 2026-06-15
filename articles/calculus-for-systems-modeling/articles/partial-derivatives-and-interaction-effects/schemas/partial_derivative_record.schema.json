@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PartialDerivativeRecord",
+  "type": "object",
+  "required": ["x", "y", "output", "partial_x", "partial_y", "cross_partial_xy", "feasible", "warning"],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "output": {"type": "number"},
+    "partial_x": {"type": "number"},
+    "partial_y": {"type": "number"},
+    "cross_partial_xy": {"type": "number"},
+    "feasible": {"type": "boolean"},
+    "warning": {"type": "string"}
+  }
+}

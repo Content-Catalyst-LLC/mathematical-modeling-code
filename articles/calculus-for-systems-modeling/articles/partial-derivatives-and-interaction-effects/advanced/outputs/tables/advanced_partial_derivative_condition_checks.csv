@@ -1,0 +1,8 @@
+condition,passed,warning
+reference state required,True,
+fixed-variable assumptions included,True,
+partial derivative grid included,True,
+cross-partial review included,True,
+feasible-region check included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,

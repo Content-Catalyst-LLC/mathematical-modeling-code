@@ -1,0 +1,15 @@
+{
+  "calculator": "feasible",
+  "inputs": {
+    "budget": 10.0,
+    "command": "feasible",
+    "x": 8.0,
+    "y": 4.0
+  },
+  "interpretation": "Feasible-change checks separate coordinate sensitivity from practical intervention.",
+  "result": {
+    "feasible": false,
+    "remaining_budget": -2.0
+  },
+  "warning": "Input combination violates constraints."
+}

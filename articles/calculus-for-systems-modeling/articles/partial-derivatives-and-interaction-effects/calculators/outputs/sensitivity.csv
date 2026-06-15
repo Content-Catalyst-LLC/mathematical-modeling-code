@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x_min,input_x_max,input_y,input_samples,result_rows_written,result_min_output,result_max_output
+sensitivity,A sensitivity sweep varies one input while holding another fixed.,,sensitivity,0.0,10.0,3.0,10,10,6.0,51.0

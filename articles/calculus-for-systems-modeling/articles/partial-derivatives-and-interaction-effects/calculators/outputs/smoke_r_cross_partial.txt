@@ -1,0 +1,4 @@
+     calculator x y output partial_x partial_y cross_partial_xy
+1 cross-partial 4 3     24       4.5         4              0.5
+  interaction_component
+1                     6
