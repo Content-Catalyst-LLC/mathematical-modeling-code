@@ -1,0 +1,54 @@
+{
+  "advanced_standard": true,
+  "article": "The Fundamental Theorem of Calculus",
+  "condition_failures": [
+    {
+      "condition": "rate-state residual tolerance",
+      "passed": false,
+      "value": 0.05,
+      "warning": "accumulated rate does not match endpoint difference within tolerance"
+    },
+    {
+      "condition": "positive interval length",
+      "passed": false,
+      "value": 0.0,
+      "warning": "FTC audit requires a nonzero interval"
+    },
+    {
+      "condition": "unit consistency documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "rate units and state units are not reconciled"
+    },
+    {
+      "condition": "baseline state documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "state reconstruction lacks a baseline"
+    },
+    {
+      "condition": "grid spacing",
+      "passed": false,
+      "value": 2.0,
+      "warning": "coarse grid may distort accumulated rate"
+    }
+  ],
+  "topics": [
+    "ftc_part_i",
+    "ftc_part_ii",
+    "accumulation_function",
+    "endpoint_difference",
+    "rate_state_reconciliation",
+    "baseline_state",
+    "unit_consistency",
+    "numerical_residual",
+    "tolerance_review"
+  ],
+  "warnings": [
+    "FTC Part I needs continuity or more advanced hypotheses for pointwise recovery.",
+    "Endpoint difference gives net change, not full trajectory history.",
+    "Rate-state reconciliation requires shared interval and units.",
+    "Numerical residuals require tolerance and grid documentation.",
+    "Endpoint agreement is not causal proof by itself."
+  ]
+}

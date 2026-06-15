@@ -1,0 +1,21 @@
+{
+  "advanced_standard": true,
+  "article": "The Fundamental Theorem of Calculus",
+  "diagnostics": [
+    "rate_state_consistency",
+    "endpoint_difference",
+    "accumulated_rate",
+    "numerical_residual",
+    "unit_check",
+    "grid_step_review"
+  ],
+  "endpoint_difference": 6.727892280477043,
+  "interval": [
+    0,
+    2.0
+  ],
+  "left_rectangle_accumulated_rate": 7.244724750067344,
+  "residual": 0.01422259411487925,
+  "trapezoidal_accumulated_rate": 6.713669686362164,
+  "warning": "If Q'(t)=r(t), accumulated rate and endpoint difference should reconcile within documented tolerance."
+}

@@ -1,0 +1,11 @@
+condition,value,passed,warning
+rate-state residual tolerance,0.0001,True,
+rate-state residual tolerance,0.05,False,accumulated rate does not match endpoint difference within tolerance
+positive interval length,2.0,True,
+positive interval length,0.0,False,FTC audit requires a nonzero interval
+unit consistency documented,1.0,True,
+unit consistency documented,0.0,False,rate units and state units are not reconciled
+baseline state documented,1.0,True,
+baseline state documented,0.0,False,state reconstruction lacks a baseline
+grid spacing,0.25,True,
+grid spacing,2.0,False,coarse grid may distort accumulated rate

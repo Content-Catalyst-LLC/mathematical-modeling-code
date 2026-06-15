@@ -1,0 +1,19 @@
+section                                
+---------------------------------------
+FUNDAMENTAL THEOREM ASSUMPTION REGISTRY
+assumption_name         mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Baseline state          Recovered state requires a starting value when using accumul  Connects accumulation to stock-flow interpretation.           A wrong baseline shifts the recovered trajectory.           
+                        ated rate.                                                                                                                                                                              
+
+Interval bounds         The theorem relates accumulated change to endpoint differenc  Keeps cumulative claims tied to declared start and end point  Changing bounds changes both the integral and endpoint compa
+                        e over a specific interval.                                   s.                                                            rison.                                                      
+
+Numerical tolerance     Approximate integration may not exactly equal endpoint diffe  Supports transparent computational audit.                     Tolerance should reflect grid size, method, smoothness, nois
+                        rence.                                                                                                                      e, and measurement uncertainty.                             
+
+Rate-state consistency  If Q prime equals r, accumulated r over an interval should m  Checks whether a modeled rate and state trajectory reconcile  A large residual may indicate missing flows, measurement err
+                        atch Q(b)-Q(a).                                               .                                                             or, sign error, or numerical error.                         
+
+Unit consistency        Rate units times integration-variable units should match sta  Prevents invalid reconciliation between rates and states.     Unit mismatch can create false residuals or false agreement.
+                        te units.                                                                                                                                                                               

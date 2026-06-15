@@ -1,0 +1,19 @@
+{
+  "article_slug": "the-fundamental-theorem-of-calculus",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "fundamental-theorem-calculus",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "ftc-part-i", "title": "FTC Part I", "description": "The derivative of an accumulation function recovers the local rate."},
+    {"card_id": "ftc-part-ii", "title": "FTC Part II", "description": "A definite integral equals endpoint difference of an antiderivative."},
+    {"card_id": "rate-state-reconciliation", "title": "Rate-State Reconciliation", "description": "Accumulated rate should match endpoint change when Q prime equals r."},
+    {"card_id": "residual-diagnostics", "title": "Residual Diagnostics", "description": "Differences reveal numerical error, unit mismatch, missing flows, or model inconsistency."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

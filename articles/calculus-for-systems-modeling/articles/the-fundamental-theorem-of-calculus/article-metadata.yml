@@ -1,0 +1,22 @@
+actual_title: "The Fundamental Theorem of Calculus"
+suggested_seo_title: "The Fundamental Theorem of Calculus in Systems Modeling"
+focus_keyword: "fundamental theorem of calculus"
+slug: "the-fundamental-theorem-of-calculus"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "definite-integrals-and-total-change"
+  current: "the-fundamental-theorem-of-calculus"
+  next: "substitution-and-transformations-of-accumulation"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/the-fundamental-theorem-of-calculus"
+tags:
+  - Calculus
+  - Fundamental Theorem of Calculus
+  - Accumulation
+  - Net Change
+  - Rates of Change
+  - Definite Integrals
+  - Systems Modeling
+  - Numerical Integration
+excerpt_139_words: "The Fundamental Theorem of Calculus connects rates, accumulation, and net change. This article develops the theorem as a systems-modeling principle, explaining why differentiation and integration are inverse perspectives on continuous change under appropriate conditions. It connects local rates to accumulated consequences, accumulated quantities to their generating rates, endpoint differences to interval totals, and state trajectories to flow laws. The article examines the two parts of the theorem, accumulation functions, net change, rate recovery, constants, initial conditions, signed accumulation, units, numerical approximation, residual diagnostics, and responsible interpretation. Companion workflows in Python, R, SQL, and Haskell include Fundamental Theorem audits, rate-accumulation consistency checks, endpoint comparisons, numerical residuals, unit checks, typed rate and accumulation records, assumption registries, and advanced mathematical audit reports for reconciling model rates, states, intervals, and cumulative claims."
+advanced_standard: true

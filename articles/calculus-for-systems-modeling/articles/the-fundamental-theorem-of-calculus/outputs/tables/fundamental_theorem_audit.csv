@@ -1,0 +1,2 @@
+interval_start,interval_end,state_start,state_end,endpoint_difference,accumulated_rate,residual,method,unit_check,warning
+0,2.0,50.0,56.72789228047704,6.727892280477043,6.713669686362164,0.01422259411487925,trapezoidal approximation,rate units times time units = state units,endpoint difference and accumulated rate do not closely match

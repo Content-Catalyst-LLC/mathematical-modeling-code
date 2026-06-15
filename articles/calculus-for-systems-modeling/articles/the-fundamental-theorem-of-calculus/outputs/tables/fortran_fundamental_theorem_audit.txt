@@ -1,0 +1,2 @@
+interval_start interval_end endpoint_difference accumulated_rate residual
+   0.000    2.000       6.727892       6.713670       0.014223

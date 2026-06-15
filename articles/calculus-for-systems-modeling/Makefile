@@ -1,6 +1,6 @@
-.PHONY: smoke advanced antiderivatives definite-integrals clean
+.PHONY: smoke advanced definite-integrals fundamental-theorem clean
 
-smoke: antiderivatives definite-integrals
+smoke: definite-integrals fundamental-theorem
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-antiderivatives:
-	$(MAKE) -C articles/antiderivatives-and-the-recovery-of-accumulation smoke
-
 definite-integrals:
 	$(MAKE) -C articles/definite-integrals-and-total-change smoke
+
+fundamental-theorem:
+	$(MAKE) -C articles/the-fundamental-theorem-of-calculus smoke
 
 clean:
 	@for d in articles/*; do \
