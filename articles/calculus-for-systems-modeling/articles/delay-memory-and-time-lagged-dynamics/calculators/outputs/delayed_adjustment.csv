@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_initial_state,input_target,input_adjustment_rate,input_delay,input_dt,input_steps,result_records,result_max_gap,result_final_gap
+delayed-adjustment,Runs a delayed adjustment simulation.,Delayed feedback can generate overshoot or oscillation depending on timing and strength.,delayed-adjustment,80.0,100.0,0.2,5.0,0.1,300,301,20.0,1.1091811840000503

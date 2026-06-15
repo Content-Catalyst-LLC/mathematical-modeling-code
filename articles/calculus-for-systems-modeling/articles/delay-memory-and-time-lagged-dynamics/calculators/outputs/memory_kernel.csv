@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_age,input_decay_rate,result_kernel_weight
+memory-kernel,Computes an exponential memory-kernel weight.,Kernel shape should be justified and sensitivity tested.,memory-kernel,3.0,0.4,0.301194211912202

@@ -1,0 +1,19 @@
+{
+  "calculator": "delayed-adjustment",
+  "inputs": {
+    "adjustment_rate": 0.2,
+    "command": "delayed-adjustment",
+    "delay": 5.0,
+    "dt": 0.1,
+    "initial_state": 80.0,
+    "steps": 300,
+    "target": 100.0
+  },
+  "interpretation": "Runs a delayed adjustment simulation.",
+  "result": {
+    "final_gap": 1.1091811840000503,
+    "max_gap": 20.0,
+    "records": 301
+  },
+  "warning": "Delayed feedback can generate overshoot or oscillation depending on timing and strength."
+}

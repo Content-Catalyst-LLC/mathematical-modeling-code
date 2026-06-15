@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_initial_state,input_delay_steps,input_step,result_delayed_index,result_uses_history,result_lookup_value_if_history
+delayed-lookup,Checks whether a delayed lookup uses pre-simulation history.,History assumptions should be documented.,delayed-lookup,80.0,50,10,-40,True,80.0

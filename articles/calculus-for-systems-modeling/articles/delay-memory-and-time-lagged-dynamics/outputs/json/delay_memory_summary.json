@@ -1,0 +1,11 @@
+{
+  "adjustment_rate": 0.2,
+  "delay": 5.0,
+  "delay_steps": 50,
+  "dt": 0.1,
+  "final_gap": 1.1091811840000503,
+  "initial_state": 80.0,
+  "interpretation": "Delayed adjustment can generate overshoot or oscillation when feedback responds to old information.",
+  "max_gap": 20.0,
+  "target": 100.0
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "delay-length",
+    "category": "model structure",
+    "governance_note": "Delay length should have units, mechanism, and sensitivity checks.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Delay Length"
+  },
+  {
+    "card_id": "history-function",
+    "category": "model setup",
+    "governance_note": "Delay models require pre-simulation history assumptions.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "History Function"
+  },
+  {
+    "card_id": "lagged-state",
+    "category": "dynamic interpretation",
+    "governance_note": "Lagged states should represent a real mechanism, not only curve fitting.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Lagged State"
+  },
+  {
+    "card_id": "memory-kernel",
+    "category": "memory structure",
+    "governance_note": "Kernel shape should be interpreted and tested.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Memory Kernel"
+  },
+  {
+    "card_id": "delay-governance",
+    "category": "governance",
+    "governance_note": "Numerical lookup, time step, interpolation, and response metrics should be recorded.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Delay Governance"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "calculator": "delayed-lookup",
+  "inputs": {
+    "command": "delayed-lookup",
+    "delay_steps": 50,
+    "initial_state": 80.0,
+    "step": 10
+  },
+  "interpretation": "Checks whether a delayed lookup uses pre-simulation history.",
+  "result": {
+    "delayed_index": -40,
+    "lookup_value_if_history": 80.0,
+    "uses_history": true
+  },
+  "warning": "History assumptions should be documented."
+}

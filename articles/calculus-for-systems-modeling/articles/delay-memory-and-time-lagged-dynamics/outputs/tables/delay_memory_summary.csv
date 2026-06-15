@@ -1,0 +1,2 @@
+initial_state,target,adjustment_rate,delay,dt,delay_steps,max_gap,final_gap,interpretation
+80.0,100.0,0.2,5.0,0.1,50,20.0,1.1091811840000503,Delayed adjustment can generate overshoot or oscillation when feedback responds to old information.

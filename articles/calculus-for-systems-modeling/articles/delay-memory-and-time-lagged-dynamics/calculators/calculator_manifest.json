@@ -1,0 +1,17 @@
+{
+  "article_slug": "delay-memory-and-time-lagged-dynamics",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "delay-steps", "title": "Delay Steps"},
+    {"id": "delayed-lookup", "title": "Delayed State Lookup"},
+    {"id": "memory-kernel", "title": "Exponential Memory Kernel"},
+    {"id": "delayed-adjustment", "title": "Delayed Adjustment Simulation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,10 @@
+condition,passed,warning
+delay length documented,True,
+history function included,True,
+lagged state lookup included,True,
+delayed adjustment simulation included,True,
+response metrics included,True,
+delay governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

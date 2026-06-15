@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DelayRecord",
+  "type": "object",
+  "required": [
+    "step", "time", "current_state", "delayed_state",
+    "derivative_value", "target", "absolute_gap", "warning"
+  ],
+  "properties": {
+    "step": {"type": "integer"},
+    "time": {"type": "number"},
+    "current_state": {"type": "number"},
+    "delayed_state": {"type": "number"},
+    "derivative_value": {"type": "number"},
+    "target": {"type": "number"},
+    "absolute_gap": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "calculator": "delay-steps",
+  "inputs": {
+    "command": "delay-steps",
+    "delay": 5.0,
+    "dt": 0.1
+  },
+  "interpretation": "Converts continuous delay into discrete simulation steps.",
+  "result": {
+    "delay_steps": 50
+  },
+  "warning": "This assumes the delay aligns with or is rounded to the time step."
+}

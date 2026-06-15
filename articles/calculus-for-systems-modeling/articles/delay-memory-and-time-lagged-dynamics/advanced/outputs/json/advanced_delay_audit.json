@@ -1,0 +1,25 @@
+{
+  "article": "Delay, Memory, and Time-Lagged Dynamics",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Delay terms should represent a mechanism, not only a fitted lag.",
+    "History-function assumptions can strongly shape early simulation behavior.",
+    "Delay length, time step, and interpolation method should be documented.",
+    "Delayed feedback can create artificial oscillation if timing assumptions are weak.",
+    "Compare delayed and non-delayed model variants before interpretation."
+  ]
+}

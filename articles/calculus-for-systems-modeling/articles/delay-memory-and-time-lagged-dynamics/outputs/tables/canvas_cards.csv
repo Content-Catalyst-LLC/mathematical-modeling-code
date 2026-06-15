@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+delay-length,Delay Length,model structure,96,active,2026-06-15,"Delay length should have units, mechanism, and sensitivity checks."
+history-function,History Function,model setup,95,review,2026-06-15,Delay models require pre-simulation history assumptions.
+lagged-state,Lagged State,dynamic interpretation,94,active,2026-06-15,"Lagged states should represent a real mechanism, not only curve fitting."
+memory-kernel,Memory Kernel,memory structure,93,review,2026-06-15,Kernel shape should be interpreted and tested.
+delay-governance,Delay Governance,governance,92,active,2026-06-15,"Numerical lookup, time step, interpolation, and response metrics should be recorded."

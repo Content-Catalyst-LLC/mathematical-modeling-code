@@ -1,0 +1,3012 @@
+[
+  {
+    "absolute_gap": 20.0,
+    "current_state": 80.0,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 0,
+    "target": 100.0,
+    "time": 0.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 19.599999999999994,
+    "current_state": 80.4,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 1,
+    "target": 100.0,
+    "time": 0.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 19.19999999999999,
+    "current_state": 80.80000000000001,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 2,
+    "target": 100.0,
+    "time": 0.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 18.799999999999983,
+    "current_state": 81.20000000000002,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 3,
+    "target": 100.0,
+    "time": 0.30000000000000004,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 18.399999999999977,
+    "current_state": 81.60000000000002,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 4,
+    "target": 100.0,
+    "time": 0.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 17.99999999999997,
+    "current_state": 82.00000000000003,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 5,
+    "target": 100.0,
+    "time": 0.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 17.599999999999966,
+    "current_state": 82.40000000000003,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 6,
+    "target": 100.0,
+    "time": 0.6000000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 17.19999999999996,
+    "current_state": 82.80000000000004,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 7,
+    "target": 100.0,
+    "time": 0.7000000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 16.799999999999955,
+    "current_state": 83.20000000000005,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 8,
+    "target": 100.0,
+    "time": 0.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 16.39999999999995,
+    "current_state": 83.60000000000005,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 9,
+    "target": 100.0,
+    "time": 0.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 15.999999999999943,
+    "current_state": 84.00000000000006,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 10,
+    "target": 100.0,
+    "time": 1.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 15.599999999999937,
+    "current_state": 84.40000000000006,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 11,
+    "target": 100.0,
+    "time": 1.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 15.199999999999932,
+    "current_state": 84.80000000000007,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 12,
+    "target": 100.0,
+    "time": 1.2000000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 14.799999999999926,
+    "current_state": 85.20000000000007,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 13,
+    "target": 100.0,
+    "time": 1.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 14.39999999999992,
+    "current_state": 85.60000000000008,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 14,
+    "target": 100.0,
+    "time": 1.4000000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 13.999999999999915,
+    "current_state": 86.00000000000009,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 15,
+    "target": 100.0,
+    "time": 1.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 13.599999999999909,
+    "current_state": 86.40000000000009,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 16,
+    "target": 100.0,
+    "time": 1.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 13.199999999999903,
+    "current_state": 86.8000000000001,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 17,
+    "target": 100.0,
+    "time": 1.7000000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 12.799999999999898,
+    "current_state": 87.2000000000001,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 18,
+    "target": 100.0,
+    "time": 1.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 12.399999999999892,
+    "current_state": 87.60000000000011,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 19,
+    "target": 100.0,
+    "time": 1.9000000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 11.999999999999886,
+    "current_state": 88.00000000000011,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 20,
+    "target": 100.0,
+    "time": 2.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 11.59999999999988,
+    "current_state": 88.40000000000012,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 21,
+    "target": 100.0,
+    "time": 2.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 11.199999999999875,
+    "current_state": 88.80000000000013,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 22,
+    "target": 100.0,
+    "time": 2.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.79999999999987,
+    "current_state": 89.20000000000013,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 23,
+    "target": 100.0,
+    "time": 2.3000000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.399999999999864,
+    "current_state": 89.60000000000014,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 24,
+    "target": 100.0,
+    "time": 2.4000000000000004,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.999999999999858,
+    "current_state": 90.00000000000014,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 25,
+    "target": 100.0,
+    "time": 2.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.599999999999852,
+    "current_state": 90.40000000000015,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 26,
+    "target": 100.0,
+    "time": 2.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.199999999999847,
+    "current_state": 90.80000000000015,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 27,
+    "target": 100.0,
+    "time": 2.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.79999999999984,
+    "current_state": 91.20000000000016,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 28,
+    "target": 100.0,
+    "time": 2.8000000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.399999999999835,
+    "current_state": 91.60000000000016,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 29,
+    "target": 100.0,
+    "time": 2.9000000000000004,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.9999999999998295,
+    "current_state": 92.00000000000017,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 30,
+    "target": 100.0,
+    "time": 3.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.599999999999824,
+    "current_state": 92.40000000000018,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 31,
+    "target": 100.0,
+    "time": 3.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.199999999999818,
+    "current_state": 92.80000000000018,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 32,
+    "target": 100.0,
+    "time": 3.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.799999999999812,
+    "current_state": 93.20000000000019,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 33,
+    "target": 100.0,
+    "time": 3.3000000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.399999999999807,
+    "current_state": 93.6000000000002,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 34,
+    "target": 100.0,
+    "time": 3.4000000000000004,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.999999999999801,
+    "current_state": 94.0000000000002,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 35,
+    "target": 100.0,
+    "time": 3.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.599999999999795,
+    "current_state": 94.4000000000002,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 36,
+    "target": 100.0,
+    "time": 3.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.19999999999979,
+    "current_state": 94.80000000000021,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 37,
+    "target": 100.0,
+    "time": 3.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.799999999999784,
+    "current_state": 95.20000000000022,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 38,
+    "target": 100.0,
+    "time": 3.8000000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.399999999999778,
+    "current_state": 95.60000000000022,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 39,
+    "target": 100.0,
+    "time": 3.9000000000000004,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.9999999999997726,
+    "current_state": 96.00000000000023,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 40,
+    "target": 100.0,
+    "time": 4.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.599999999999767,
+    "current_state": 96.40000000000023,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 41,
+    "target": 100.0,
+    "time": 4.1000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.1999999999997613,
+    "current_state": 96.80000000000024,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 42,
+    "target": 100.0,
+    "time": 4.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.7999999999997556,
+    "current_state": 97.20000000000024,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 43,
+    "target": 100.0,
+    "time": 4.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.39999999999975,
+    "current_state": 97.60000000000025,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 44,
+    "target": 100.0,
+    "time": 4.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.9999999999997442,
+    "current_state": 98.00000000000026,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 45,
+    "target": 100.0,
+    "time": 4.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.5999999999997385,
+    "current_state": 98.40000000000026,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 46,
+    "target": 100.0,
+    "time": 4.6000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.1999999999997328,
+    "current_state": 98.80000000000027,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 47,
+    "target": 100.0,
+    "time": 4.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.7999999999997272,
+    "current_state": 99.20000000000027,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 48,
+    "target": 100.0,
+    "time": 4.800000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.39999999999972147,
+    "current_state": 99.60000000000028,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 49,
+    "target": 100.0,
+    "time": 4.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.8421709430404007e-13,
+    "current_state": 100.00000000000028,
+    "delayed_state": 80.0,
+    "derivative_value": 4.0,
+    "step": 50,
+    "target": 100.0,
+    "time": 5.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.4000000000002899,
+    "current_state": 100.40000000000029,
+    "delayed_state": 80.4,
+    "derivative_value": 3.919999999999999,
+    "step": 51,
+    "target": 100.0,
+    "time": 5.1000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.7920000000002858,
+    "current_state": 100.79200000000029,
+    "delayed_state": 80.80000000000001,
+    "derivative_value": 3.839999999999998,
+    "step": 52,
+    "target": 100.0,
+    "time": 5.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.1760000000002861,
+    "current_state": 101.17600000000029,
+    "delayed_state": 81.20000000000002,
+    "derivative_value": 3.7599999999999967,
+    "step": 53,
+    "target": 100.0,
+    "time": 5.300000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.552000000000291,
+    "current_state": 101.55200000000029,
+    "delayed_state": 81.60000000000002,
+    "derivative_value": 3.6799999999999957,
+    "step": 54,
+    "target": 100.0,
+    "time": 5.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.920000000000286,
+    "current_state": 101.92000000000029,
+    "delayed_state": 82.00000000000003,
+    "derivative_value": 3.5999999999999943,
+    "step": 55,
+    "target": 100.0,
+    "time": 5.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.2800000000002854,
+    "current_state": 102.28000000000029,
+    "delayed_state": 82.40000000000003,
+    "derivative_value": 3.5199999999999934,
+    "step": 56,
+    "target": 100.0,
+    "time": 5.6000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.632000000000289,
+    "current_state": 102.63200000000029,
+    "delayed_state": 82.80000000000004,
+    "derivative_value": 3.4399999999999924,
+    "step": 57,
+    "target": 100.0,
+    "time": 5.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.9760000000002833,
+    "current_state": 102.97600000000028,
+    "delayed_state": 83.20000000000005,
+    "derivative_value": 3.359999999999991,
+    "step": 58,
+    "target": 100.0,
+    "time": 5.800000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.312000000000282,
+    "current_state": 103.31200000000028,
+    "delayed_state": 83.60000000000005,
+    "derivative_value": 3.27999999999999,
+    "step": 59,
+    "target": 100.0,
+    "time": 5.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.640000000000285,
+    "current_state": 103.64000000000028,
+    "delayed_state": 84.00000000000006,
+    "derivative_value": 3.1999999999999886,
+    "step": 60,
+    "target": 100.0,
+    "time": 6.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.960000000000278,
+    "current_state": 103.96000000000028,
+    "delayed_state": 84.40000000000006,
+    "derivative_value": 3.1199999999999877,
+    "step": 61,
+    "target": 100.0,
+    "time": 6.1000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.272000000000276,
+    "current_state": 104.27200000000028,
+    "delayed_state": 84.80000000000007,
+    "derivative_value": 3.0399999999999867,
+    "step": 62,
+    "target": 100.0,
+    "time": 6.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.576000000000278,
+    "current_state": 104.57600000000028,
+    "delayed_state": 85.20000000000007,
+    "derivative_value": 2.9599999999999853,
+    "step": 63,
+    "target": 100.0,
+    "time": 6.300000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.87200000000027,
+    "current_state": 104.87200000000027,
+    "delayed_state": 85.60000000000008,
+    "derivative_value": 2.8799999999999844,
+    "step": 64,
+    "target": 100.0,
+    "time": 6.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.160000000000267,
+    "current_state": 105.16000000000027,
+    "delayed_state": 86.00000000000009,
+    "derivative_value": 2.799999999999983,
+    "step": 65,
+    "target": 100.0,
+    "time": 6.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.440000000000268,
+    "current_state": 105.44000000000027,
+    "delayed_state": 86.40000000000009,
+    "derivative_value": 2.719999999999982,
+    "step": 66,
+    "target": 100.0,
+    "time": 6.6000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.712000000000259,
+    "current_state": 105.71200000000026,
+    "delayed_state": 86.8000000000001,
+    "derivative_value": 2.639999999999981,
+    "step": 67,
+    "target": 100.0,
+    "time": 6.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.976000000000255,
+    "current_state": 105.97600000000025,
+    "delayed_state": 87.2000000000001,
+    "derivative_value": 2.5599999999999796,
+    "step": 68,
+    "target": 100.0,
+    "time": 6.800000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.232000000000255,
+    "current_state": 106.23200000000026,
+    "delayed_state": 87.60000000000011,
+    "derivative_value": 2.4799999999999787,
+    "step": 69,
+    "target": 100.0,
+    "time": 6.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.48000000000026,
+    "current_state": 106.48000000000026,
+    "delayed_state": 88.00000000000011,
+    "derivative_value": 2.3999999999999773,
+    "step": 70,
+    "target": 100.0,
+    "time": 7.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.720000000000255,
+    "current_state": 106.72000000000025,
+    "delayed_state": 88.40000000000012,
+    "derivative_value": 2.3199999999999763,
+    "step": 71,
+    "target": 100.0,
+    "time": 7.1000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.952000000000254,
+    "current_state": 106.95200000000025,
+    "delayed_state": 88.80000000000013,
+    "derivative_value": 2.239999999999975,
+    "step": 72,
+    "target": 100.0,
+    "time": 7.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.176000000000258,
+    "current_state": 107.17600000000026,
+    "delayed_state": 89.20000000000013,
+    "derivative_value": 2.159999999999974,
+    "step": 73,
+    "target": 100.0,
+    "time": 7.300000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.392000000000252,
+    "current_state": 107.39200000000025,
+    "delayed_state": 89.60000000000014,
+    "derivative_value": 2.079999999999973,
+    "step": 74,
+    "target": 100.0,
+    "time": 7.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.60000000000025,
+    "current_state": 107.60000000000025,
+    "delayed_state": 90.00000000000014,
+    "derivative_value": 1.9999999999999716,
+    "step": 75,
+    "target": 100.0,
+    "time": 7.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.800000000000253,
+    "current_state": 107.80000000000025,
+    "delayed_state": 90.40000000000015,
+    "derivative_value": 1.9199999999999706,
+    "step": 76,
+    "target": 100.0,
+    "time": 7.6000000000000005,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.992000000000246,
+    "current_state": 107.99200000000025,
+    "delayed_state": 90.80000000000015,
+    "derivative_value": 1.8399999999999694,
+    "step": 77,
+    "target": 100.0,
+    "time": 7.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.176000000000244,
+    "current_state": 108.17600000000024,
+    "delayed_state": 91.20000000000016,
+    "derivative_value": 1.7599999999999683,
+    "step": 78,
+    "target": 100.0,
+    "time": 7.800000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.352000000000245,
+    "current_state": 108.35200000000025,
+    "delayed_state": 91.60000000000016,
+    "derivative_value": 1.679999999999967,
+    "step": 79,
+    "target": 100.0,
+    "time": 7.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.520000000000238,
+    "current_state": 108.52000000000024,
+    "delayed_state": 92.00000000000017,
+    "derivative_value": 1.599999999999966,
+    "step": 80,
+    "target": 100.0,
+    "time": 8.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.680000000000234,
+    "current_state": 108.68000000000023,
+    "delayed_state": 92.40000000000018,
+    "derivative_value": 1.519999999999965,
+    "step": 81,
+    "target": 100.0,
+    "time": 8.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.832000000000235,
+    "current_state": 108.83200000000024,
+    "delayed_state": 92.80000000000018,
+    "derivative_value": 1.4399999999999638,
+    "step": 82,
+    "target": 100.0,
+    "time": 8.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.976000000000226,
+    "current_state": 108.97600000000023,
+    "delayed_state": 93.20000000000019,
+    "derivative_value": 1.3599999999999626,
+    "step": 83,
+    "target": 100.0,
+    "time": 8.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.112000000000222,
+    "current_state": 109.11200000000022,
+    "delayed_state": 93.6000000000002,
+    "derivative_value": 1.2799999999999614,
+    "step": 84,
+    "target": 100.0,
+    "time": 8.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.240000000000222,
+    "current_state": 109.24000000000022,
+    "delayed_state": 94.0000000000002,
+    "derivative_value": 1.1999999999999602,
+    "step": 85,
+    "target": 100.0,
+    "time": 8.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.360000000000213,
+    "current_state": 109.36000000000021,
+    "delayed_state": 94.4000000000002,
+    "derivative_value": 1.119999999999959,
+    "step": 86,
+    "target": 100.0,
+    "time": 8.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.472000000000207,
+    "current_state": 109.47200000000021,
+    "delayed_state": 94.80000000000021,
+    "derivative_value": 1.039999999999958,
+    "step": 87,
+    "target": 100.0,
+    "time": 8.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.576000000000207,
+    "current_state": 109.5760000000002,
+    "delayed_state": 95.20000000000022,
+    "derivative_value": 0.9599999999999569,
+    "step": 88,
+    "target": 100.0,
+    "time": 8.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.672000000000196,
+    "current_state": 109.6720000000002,
+    "delayed_state": 95.60000000000022,
+    "derivative_value": 0.8799999999999557,
+    "step": 89,
+    "target": 100.0,
+    "time": 8.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.76000000000019,
+    "current_state": 109.76000000000019,
+    "delayed_state": 96.00000000000023,
+    "derivative_value": 0.7999999999999545,
+    "step": 90,
+    "target": 100.0,
+    "time": 9.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.840000000000188,
+    "current_state": 109.84000000000019,
+    "delayed_state": 96.40000000000023,
+    "derivative_value": 0.7199999999999535,
+    "step": 91,
+    "target": 100.0,
+    "time": 9.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.912000000000177,
+    "current_state": 109.91200000000018,
+    "delayed_state": 96.80000000000024,
+    "derivative_value": 0.6399999999999523,
+    "step": 92,
+    "target": 100.0,
+    "time": 9.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.97600000000017,
+    "current_state": 109.97600000000017,
+    "delayed_state": 97.20000000000024,
+    "derivative_value": 0.5599999999999511,
+    "step": 93,
+    "target": 100.0,
+    "time": 9.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.032000000000167,
+    "current_state": 110.03200000000017,
+    "delayed_state": 97.60000000000025,
+    "derivative_value": 0.47999999999995,
+    "step": 94,
+    "target": 100.0,
+    "time": 9.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.080000000000169,
+    "current_state": 110.08000000000017,
+    "delayed_state": 98.00000000000026,
+    "derivative_value": 0.39999999999994884,
+    "step": 95,
+    "target": 100.0,
+    "time": 9.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.12000000000016,
+    "current_state": 110.12000000000016,
+    "delayed_state": 98.40000000000026,
+    "derivative_value": 0.3199999999999477,
+    "step": 96,
+    "target": 100.0,
+    "time": 9.600000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.152000000000157,
+    "current_state": 110.15200000000016,
+    "delayed_state": 98.80000000000027,
+    "derivative_value": 0.2399999999999466,
+    "step": 97,
+    "target": 100.0,
+    "time": 9.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.176000000000158,
+    "current_state": 110.17600000000016,
+    "delayed_state": 99.20000000000027,
+    "derivative_value": 0.15999999999994544,
+    "step": 98,
+    "target": 100.0,
+    "time": 9.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.19200000000015,
+    "current_state": 110.19200000000015,
+    "delayed_state": 99.60000000000028,
+    "derivative_value": 0.0799999999999443,
+    "step": 99,
+    "target": 100.0,
+    "time": 9.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.200000000000145,
+    "current_state": 110.20000000000014,
+    "delayed_state": 100.00000000000028,
+    "derivative_value": -5.684341886080802e-14,
+    "step": 100,
+    "target": 100.0,
+    "time": 10.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.200000000000145,
+    "current_state": 110.20000000000014,
+    "delayed_state": 100.40000000000029,
+    "derivative_value": -0.08000000000005798,
+    "step": 101,
+    "target": 100.0,
+    "time": 10.100000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.192000000000135,
+    "current_state": 110.19200000000014,
+    "delayed_state": 100.79200000000029,
+    "derivative_value": -0.15840000000005716,
+    "step": 102,
+    "target": 100.0,
+    "time": 10.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.176160000000124,
+    "current_state": 110.17616000000012,
+    "delayed_state": 101.17600000000029,
+    "derivative_value": -0.23520000000005725,
+    "step": 103,
+    "target": 100.0,
+    "time": 10.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.152640000000119,
+    "current_state": 110.15264000000012,
+    "delayed_state": 101.55200000000029,
+    "derivative_value": -0.3104000000000582,
+    "step": 104,
+    "target": 100.0,
+    "time": 10.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.121600000000115,
+    "current_state": 110.12160000000011,
+    "delayed_state": 101.92000000000029,
+    "derivative_value": -0.3840000000000572,
+    "step": 105,
+    "target": 100.0,
+    "time": 10.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.083200000000105,
+    "current_state": 110.0832000000001,
+    "delayed_state": 102.28000000000029,
+    "derivative_value": -0.4560000000000571,
+    "step": 106,
+    "target": 100.0,
+    "time": 10.600000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 10.037600000000097,
+    "current_state": 110.0376000000001,
+    "delayed_state": 102.63200000000029,
+    "derivative_value": -0.5264000000000578,
+    "step": 107,
+    "target": 100.0,
+    "time": 10.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.984960000000086,
+    "current_state": 109.98496000000009,
+    "delayed_state": 102.97600000000028,
+    "derivative_value": -0.5952000000000567,
+    "step": 108,
+    "target": 100.0,
+    "time": 10.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.92544000000008,
+    "current_state": 109.92544000000008,
+    "delayed_state": 103.31200000000028,
+    "derivative_value": -0.6624000000000564,
+    "step": 109,
+    "target": 100.0,
+    "time": 10.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.859200000000072,
+    "current_state": 109.85920000000007,
+    "delayed_state": 103.64000000000028,
+    "derivative_value": -0.728000000000057,
+    "step": 110,
+    "target": 100.0,
+    "time": 11.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.786400000000071,
+    "current_state": 109.78640000000007,
+    "delayed_state": 103.96000000000028,
+    "derivative_value": -0.7920000000000557,
+    "step": 111,
+    "target": 100.0,
+    "time": 11.100000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.707200000000071,
+    "current_state": 109.70720000000007,
+    "delayed_state": 104.27200000000028,
+    "derivative_value": -0.8544000000000551,
+    "step": 112,
+    "target": 100.0,
+    "time": 11.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.621760000000066,
+    "current_state": 109.62176000000007,
+    "delayed_state": 104.57600000000028,
+    "derivative_value": -0.9152000000000555,
+    "step": 113,
+    "target": 100.0,
+    "time": 11.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.530240000000063,
+    "current_state": 109.53024000000006,
+    "delayed_state": 104.87200000000027,
+    "derivative_value": -0.974400000000054,
+    "step": 114,
+    "target": 100.0,
+    "time": 11.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.432800000000057,
+    "current_state": 109.43280000000006,
+    "delayed_state": 105.16000000000027,
+    "derivative_value": -1.0320000000000533,
+    "step": 115,
+    "target": 100.0,
+    "time": 11.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.329600000000056,
+    "current_state": 109.32960000000006,
+    "delayed_state": 105.44000000000027,
+    "derivative_value": -1.0880000000000536,
+    "step": 116,
+    "target": 100.0,
+    "time": 11.600000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.220800000000054,
+    "current_state": 109.22080000000005,
+    "delayed_state": 105.71200000000026,
+    "derivative_value": -1.1424000000000518,
+    "step": 117,
+    "target": 100.0,
+    "time": 11.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 9.106560000000044,
+    "current_state": 109.10656000000004,
+    "delayed_state": 105.97600000000025,
+    "derivative_value": -1.195200000000051,
+    "step": 118,
+    "target": 100.0,
+    "time": 11.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.987040000000036,
+    "current_state": 108.98704000000004,
+    "delayed_state": 106.23200000000026,
+    "derivative_value": -1.246400000000051,
+    "step": 119,
+    "target": 100.0,
+    "time": 11.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.862400000000036,
+    "current_state": 108.86240000000004,
+    "delayed_state": 106.48000000000026,
+    "derivative_value": -1.296000000000052,
+    "step": 120,
+    "target": 100.0,
+    "time": 12.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.732800000000026,
+    "current_state": 108.73280000000003,
+    "delayed_state": 106.72000000000025,
+    "derivative_value": -1.344000000000051,
+    "step": 121,
+    "target": 100.0,
+    "time": 12.100000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.598400000000026,
+    "current_state": 108.59840000000003,
+    "delayed_state": 106.95200000000025,
+    "derivative_value": -1.390400000000051,
+    "step": 122,
+    "target": 100.0,
+    "time": 12.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.459360000000018,
+    "current_state": 108.45936000000002,
+    "delayed_state": 107.17600000000026,
+    "derivative_value": -1.4352000000000515,
+    "step": 123,
+    "target": 100.0,
+    "time": 12.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.315840000000009,
+    "current_state": 108.31584000000001,
+    "delayed_state": 107.39200000000025,
+    "derivative_value": -1.4784000000000503,
+    "step": 124,
+    "target": 100.0,
+    "time": 12.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.168000000000006,
+    "current_state": 108.168,
+    "delayed_state": 107.60000000000025,
+    "derivative_value": -1.5200000000000502,
+    "step": 125,
+    "target": 100.0,
+    "time": 12.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 8.016000000000005,
+    "current_state": 108.016,
+    "delayed_state": 107.80000000000025,
+    "derivative_value": -1.5600000000000507,
+    "step": 126,
+    "target": 100.0,
+    "time": 12.600000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.859999999999999,
+    "current_state": 107.86,
+    "delayed_state": 107.99200000000025,
+    "derivative_value": -1.5984000000000493,
+    "step": 127,
+    "target": 100.0,
+    "time": 12.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.700159999999997,
+    "current_state": 107.70016,
+    "delayed_state": 108.17600000000024,
+    "derivative_value": -1.6352000000000488,
+    "step": 128,
+    "target": 100.0,
+    "time": 12.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.536639999999991,
+    "current_state": 107.53663999999999,
+    "delayed_state": 108.35200000000025,
+    "derivative_value": -1.6704000000000492,
+    "step": 129,
+    "target": 100.0,
+    "time": 12.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.369599999999991,
+    "current_state": 107.36959999999999,
+    "delayed_state": 108.52000000000024,
+    "derivative_value": -1.7040000000000477,
+    "step": 130,
+    "target": 100.0,
+    "time": 13.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.1991999999999905,
+    "current_state": 107.19919999999999,
+    "delayed_state": 108.68000000000023,
+    "derivative_value": -1.7360000000000468,
+    "step": 131,
+    "target": 100.0,
+    "time": 13.100000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 7.025599999999983,
+    "current_state": 107.02559999999998,
+    "delayed_state": 108.83200000000024,
+    "derivative_value": -1.766400000000047,
+    "step": 132,
+    "target": 100.0,
+    "time": 13.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.848959999999977,
+    "current_state": 106.84895999999998,
+    "delayed_state": 108.97600000000023,
+    "derivative_value": -1.7952000000000454,
+    "step": 133,
+    "target": 100.0,
+    "time": 13.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.669439999999966,
+    "current_state": 106.66943999999997,
+    "delayed_state": 109.11200000000022,
+    "derivative_value": -1.8224000000000444,
+    "step": 134,
+    "target": 100.0,
+    "time": 13.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.487199999999959,
+    "current_state": 106.48719999999996,
+    "delayed_state": 109.24000000000022,
+    "derivative_value": -1.8480000000000445,
+    "step": 135,
+    "target": 100.0,
+    "time": 13.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.302399999999949,
+    "current_state": 106.30239999999995,
+    "delayed_state": 109.36000000000021,
+    "derivative_value": -1.8720000000000425,
+    "step": 136,
+    "target": 100.0,
+    "time": 13.600000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 6.115199999999945,
+    "current_state": 106.11519999999994,
+    "delayed_state": 109.47200000000021,
+    "derivative_value": -1.8944000000000416,
+    "step": 137,
+    "target": 100.0,
+    "time": 13.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.92575999999994,
+    "current_state": 105.92575999999994,
+    "delayed_state": 109.5760000000002,
+    "derivative_value": -1.9152000000000413,
+    "step": 138,
+    "target": 100.0,
+    "time": 13.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.734239999999943,
+    "current_state": 105.73423999999994,
+    "delayed_state": 109.6720000000002,
+    "derivative_value": -1.9344000000000392,
+    "step": 139,
+    "target": 100.0,
+    "time": 13.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.540799999999933,
+    "current_state": 105.54079999999993,
+    "delayed_state": 109.76000000000019,
+    "derivative_value": -1.9520000000000381,
+    "step": 140,
+    "target": 100.0,
+    "time": 14.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.3455999999999335,
+    "current_state": 105.34559999999993,
+    "delayed_state": 109.84000000000019,
+    "derivative_value": -1.9680000000000377,
+    "step": 141,
+    "target": 100.0,
+    "time": 14.100000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 5.148799999999923,
+    "current_state": 105.14879999999992,
+    "delayed_state": 109.91200000000018,
+    "derivative_value": -1.9824000000000355,
+    "step": 142,
+    "target": 100.0,
+    "time": 14.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.950559999999925,
+    "current_state": 104.95055999999992,
+    "delayed_state": 109.97600000000017,
+    "derivative_value": -1.995200000000034,
+    "step": 143,
+    "target": 100.0,
+    "time": 14.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.751039999999918,
+    "current_state": 104.75103999999992,
+    "delayed_state": 110.03200000000017,
+    "derivative_value": -2.0064000000000335,
+    "step": 144,
+    "target": 100.0,
+    "time": 14.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.550399999999911,
+    "current_state": 104.55039999999991,
+    "delayed_state": 110.08000000000017,
+    "derivative_value": -2.0160000000000338,
+    "step": 145,
+    "target": 100.0,
+    "time": 14.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.348799999999912,
+    "current_state": 104.34879999999991,
+    "delayed_state": 110.12000000000016,
+    "derivative_value": -2.0240000000000324,
+    "step": 146,
+    "target": 100.0,
+    "time": 14.600000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.146399999999915,
+    "current_state": 104.14639999999991,
+    "delayed_state": 110.15200000000016,
+    "derivative_value": -2.0304000000000317,
+    "step": 147,
+    "target": 100.0,
+    "time": 14.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.943359999999913,
+    "current_state": 103.94335999999991,
+    "delayed_state": 110.17600000000016,
+    "derivative_value": -2.0352000000000317,
+    "step": 148,
+    "target": 100.0,
+    "time": 14.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.7398399999999157,
+    "current_state": 103.73983999999992,
+    "delayed_state": 110.19200000000015,
+    "derivative_value": -2.03840000000003,
+    "step": 149,
+    "target": 100.0,
+    "time": 14.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.535999999999916,
+    "current_state": 103.53599999999992,
+    "delayed_state": 110.20000000000014,
+    "derivative_value": -2.040000000000029,
+    "step": 150,
+    "target": 100.0,
+    "time": 15.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.3319999999999084,
+    "current_state": 103.33199999999991,
+    "delayed_state": 110.20000000000014,
+    "derivative_value": -2.040000000000029,
+    "step": 151,
+    "target": 100.0,
+    "time": 15.100000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.1279999999999006,
+    "current_state": 103.1279999999999,
+    "delayed_state": 110.19200000000014,
+    "derivative_value": -2.0384000000000273,
+    "step": 152,
+    "target": 100.0,
+    "time": 15.200000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.924159999999901,
+    "current_state": 102.9241599999999,
+    "delayed_state": 110.17616000000012,
+    "derivative_value": -2.035232000000025,
+    "step": 153,
+    "target": 100.0,
+    "time": 15.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.7206367999998946,
+    "current_state": 102.7206367999999,
+    "delayed_state": 110.15264000000012,
+    "derivative_value": -2.030528000000024,
+    "step": 154,
+    "target": 100.0,
+    "time": 15.4,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.5175839999998857,
+    "current_state": 102.51758399999989,
+    "delayed_state": 110.12160000000011,
+    "derivative_value": -2.024320000000023,
+    "step": 155,
+    "target": 100.0,
+    "time": 15.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.315151999999884,
+    "current_state": 102.31515199999988,
+    "delayed_state": 110.0832000000001,
+    "derivative_value": -2.016640000000021,
+    "step": 156,
+    "target": 100.0,
+    "time": 15.600000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.113487999999876,
+    "current_state": 102.11348799999988,
+    "delayed_state": 110.0376000000001,
+    "derivative_value": -2.0075200000000195,
+    "step": 157,
+    "target": 100.0,
+    "time": 15.700000000000001,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.9127359999998674,
+    "current_state": 101.91273599999987,
+    "delayed_state": 109.98496000000009,
+    "derivative_value": -1.9969920000000174,
+    "step": 158,
+    "target": 100.0,
+    "time": 15.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.7130367999998697,
+    "current_state": 101.71303679999987,
+    "delayed_state": 109.92544000000008,
+    "derivative_value": -1.9850880000000162,
+    "step": 159,
+    "target": 100.0,
+    "time": 15.9,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.5145279999998706,
+    "current_state": 101.51452799999987,
+    "delayed_state": 109.85920000000007,
+    "derivative_value": -1.9718400000000145,
+    "step": 160,
+    "target": 100.0,
+    "time": 16.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.3173439999998635,
+    "current_state": 101.31734399999986,
+    "delayed_state": 109.78640000000007,
+    "derivative_value": -1.9572800000000143,
+    "step": 161,
+    "target": 100.0,
+    "time": 16.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.121615999999861,
+    "current_state": 101.12161599999986,
+    "delayed_state": 109.70720000000007,
+    "derivative_value": -1.9414400000000143,
+    "step": 162,
+    "target": 100.0,
+    "time": 16.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.9274719999998524,
+    "current_state": 100.92747199999985,
+    "delayed_state": 109.62176000000007,
+    "derivative_value": -1.9243520000000132,
+    "step": 163,
+    "target": 100.0,
+    "time": 16.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.7350367999998468,
+    "current_state": 100.73503679999985,
+    "delayed_state": 109.53024000000006,
+    "derivative_value": -1.9060480000000126,
+    "step": 164,
+    "target": 100.0,
+    "time": 16.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.5444319999998442,
+    "current_state": 100.54443199999984,
+    "delayed_state": 109.43280000000006,
+    "derivative_value": -1.8865600000000116,
+    "step": 165,
+    "target": 100.0,
+    "time": 16.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.35577599999984955,
+    "current_state": 100.35577599999985,
+    "delayed_state": 109.32960000000006,
+    "derivative_value": -1.8659200000000113,
+    "step": 166,
+    "target": 100.0,
+    "time": 16.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.16918399999984501,
+    "current_state": 100.16918399999985,
+    "delayed_state": 109.22080000000005,
+    "derivative_value": -1.844160000000011,
+    "step": 167,
+    "target": 100.0,
+    "time": 16.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.01523200000015379,
+    "current_state": 99.98476799999985,
+    "delayed_state": 109.10656000000004,
+    "derivative_value": -1.821312000000009,
+    "step": 168,
+    "target": 100.0,
+    "time": 16.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.1973632000001544,
+    "current_state": 99.80263679999985,
+    "delayed_state": 108.98704000000004,
+    "derivative_value": -1.7974080000000072,
+    "step": 169,
+    "target": 100.0,
+    "time": 16.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.3771040000001591,
+    "current_state": 99.62289599999984,
+    "delayed_state": 108.86240000000004,
+    "derivative_value": -1.7724800000000074,
+    "step": 170,
+    "target": 100.0,
+    "time": 17.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.5543520000001649,
+    "current_state": 99.44564799999984,
+    "delayed_state": 108.73280000000003,
+    "derivative_value": -1.7465600000000052,
+    "step": 171,
+    "target": 100.0,
+    "time": 17.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.7290080000001637,
+    "current_state": 99.27099199999984,
+    "delayed_state": 108.59840000000003,
+    "derivative_value": -1.7196800000000054,
+    "step": 172,
+    "target": 100.0,
+    "time": 17.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.9009760000001705,
+    "current_state": 99.09902399999983,
+    "delayed_state": 108.45936000000002,
+    "derivative_value": -1.6918720000000036,
+    "step": 173,
+    "target": 100.0,
+    "time": 17.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.0701632000001666,
+    "current_state": 98.92983679999983,
+    "delayed_state": 108.31584000000001,
+    "derivative_value": -1.6631680000000018,
+    "step": 174,
+    "target": 100.0,
+    "time": 17.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.2364800000001708,
+    "current_state": 98.76351999999983,
+    "delayed_state": 108.168,
+    "derivative_value": -1.6336000000000013,
+    "step": 175,
+    "target": 100.0,
+    "time": 17.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.399840000000168,
+    "current_state": 98.60015999999983,
+    "delayed_state": 108.016,
+    "derivative_value": -1.603200000000001,
+    "step": 176,
+    "target": 100.0,
+    "time": 17.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.5601600000001667,
+    "current_state": 98.43983999999983,
+    "delayed_state": 107.86,
+    "derivative_value": -1.572,
+    "step": 177,
+    "target": 100.0,
+    "time": 17.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.7173600000001699,
+    "current_state": 98.28263999999983,
+    "delayed_state": 107.70016,
+    "derivative_value": -1.5400319999999994,
+    "step": 178,
+    "target": 100.0,
+    "time": 17.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.8713632000001752,
+    "current_state": 98.12863679999982,
+    "delayed_state": 107.53663999999999,
+    "derivative_value": -1.5073279999999984,
+    "step": 179,
+    "target": 100.0,
+    "time": 17.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.0220960000001753,
+    "current_state": 97.97790399999982,
+    "delayed_state": 107.36959999999999,
+    "derivative_value": -1.4739199999999983,
+    "step": 180,
+    "target": 100.0,
+    "time": 18.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.1694880000001717,
+    "current_state": 97.83051199999983,
+    "delayed_state": 107.19919999999999,
+    "derivative_value": -1.4398399999999982,
+    "step": 181,
+    "target": 100.0,
+    "time": 18.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.313472000000175,
+    "current_state": 97.68652799999983,
+    "delayed_state": 107.02559999999998,
+    "derivative_value": -1.4051199999999966,
+    "step": 182,
+    "target": 100.0,
+    "time": 18.2,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.453984000000176,
+    "current_state": 97.54601599999982,
+    "delayed_state": 106.84895999999998,
+    "derivative_value": -1.3697919999999955,
+    "step": 183,
+    "target": 100.0,
+    "time": 18.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.590963200000175,
+    "current_state": 97.40903679999983,
+    "delayed_state": 106.66943999999997,
+    "derivative_value": -1.3338879999999933,
+    "step": 184,
+    "target": 100.0,
+    "time": 18.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.724352000000181,
+    "current_state": 97.27564799999982,
+    "delayed_state": 106.48719999999996,
+    "derivative_value": -1.297439999999992,
+    "step": 185,
+    "target": 100.0,
+    "time": 18.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.854096000000183,
+    "current_state": 97.14590399999982,
+    "delayed_state": 106.30239999999995,
+    "derivative_value": -1.2604799999999898,
+    "step": 186,
+    "target": 100.0,
+    "time": 18.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.9801440000001804,
+    "current_state": 97.01985599999982,
+    "delayed_state": 106.11519999999994,
+    "derivative_value": -1.223039999999989,
+    "step": 187,
+    "target": 100.0,
+    "time": 18.7,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.10244800000018,
+    "current_state": 96.89755199999982,
+    "delayed_state": 105.92575999999994,
+    "derivative_value": -1.185151999999988,
+    "step": 188,
+    "target": 100.0,
+    "time": 18.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.2209632000001847,
+    "current_state": 96.77903679999982,
+    "delayed_state": 105.73423999999994,
+    "derivative_value": -1.1468479999999885,
+    "step": 189,
+    "target": 100.0,
+    "time": 18.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.3356480000001767,
+    "current_state": 96.66435199999982,
+    "delayed_state": 105.54079999999993,
+    "derivative_value": -1.1081599999999867,
+    "step": 190,
+    "target": 100.0,
+    "time": 19.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.4464640000001765,
+    "current_state": 96.55353599999982,
+    "delayed_state": 105.34559999999993,
+    "derivative_value": -1.0691199999999867,
+    "step": 191,
+    "target": 100.0,
+    "time": 19.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.5533760000001706,
+    "current_state": 96.44662399999983,
+    "delayed_state": 105.14879999999992,
+    "derivative_value": -1.0297599999999847,
+    "step": 192,
+    "target": 100.0,
+    "time": 19.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.656352000000169,
+    "current_state": 96.34364799999983,
+    "delayed_state": 104.95055999999992,
+    "derivative_value": -0.990111999999985,
+    "step": 193,
+    "target": 100.0,
+    "time": 19.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.7553632000001613,
+    "current_state": 96.24463679999984,
+    "delayed_state": 104.75103999999992,
+    "derivative_value": -0.9502079999999836,
+    "step": 194,
+    "target": 100.0,
+    "time": 19.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.8503840000001617,
+    "current_state": 96.14961599999984,
+    "delayed_state": 104.55039999999991,
+    "derivative_value": -0.9100799999999822,
+    "step": 195,
+    "target": 100.0,
+    "time": 19.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.941392000000164,
+    "current_state": 96.05860799999984,
+    "delayed_state": 104.34879999999991,
+    "derivative_value": -0.8697599999999824,
+    "step": 196,
+    "target": 100.0,
+    "time": 19.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.028368000000157,
+    "current_state": 95.97163199999984,
+    "delayed_state": 104.14639999999991,
+    "derivative_value": -0.8292799999999829,
+    "step": 197,
+    "target": 100.0,
+    "time": 19.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.111296000000152,
+    "current_state": 95.88870399999985,
+    "delayed_state": 103.94335999999991,
+    "derivative_value": -0.7886719999999827,
+    "step": 198,
+    "target": 100.0,
+    "time": 19.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.190163200000157,
+    "current_state": 95.80983679999984,
+    "delayed_state": 103.73983999999992,
+    "derivative_value": -0.7479679999999832,
+    "step": 199,
+    "target": 100.0,
+    "time": 19.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.264960000000158,
+    "current_state": 95.73503999999984,
+    "delayed_state": 103.53599999999992,
+    "derivative_value": -0.7071999999999833,
+    "step": 200,
+    "target": 100.0,
+    "time": 20.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.335680000000153,
+    "current_state": 95.66431999999985,
+    "delayed_state": 103.33199999999991,
+    "derivative_value": -0.6663999999999817,
+    "step": 201,
+    "target": 100.0,
+    "time": 20.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.402320000000145,
+    "current_state": 95.59767999999985,
+    "delayed_state": 103.1279999999999,
+    "derivative_value": -0.6255999999999802,
+    "step": 202,
+    "target": 100.0,
+    "time": 20.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.46488000000015,
+    "current_state": 95.53511999999985,
+    "delayed_state": 102.9241599999999,
+    "derivative_value": -0.5848319999999803,
+    "step": 203,
+    "target": 100.0,
+    "time": 20.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.523363200000148,
+    "current_state": 95.47663679999985,
+    "delayed_state": 102.7206367999999,
+    "derivative_value": -0.544127359999979,
+    "step": 204,
+    "target": 100.0,
+    "time": 20.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.577775936000151,
+    "current_state": 95.42222406399985,
+    "delayed_state": 102.51758399999989,
+    "derivative_value": -0.5035167999999771,
+    "step": 205,
+    "target": 100.0,
+    "time": 20.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.6281276160001426,
+    "current_state": 95.37187238399986,
+    "delayed_state": 102.31515199999988,
+    "derivative_value": -0.4630303999999768,
+    "step": 206,
+    "target": 100.0,
+    "time": 20.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.6744306560001405,
+    "current_state": 95.32556934399986,
+    "delayed_state": 102.11348799999988,
+    "derivative_value": -0.4226975999999752,
+    "step": 207,
+    "target": 100.0,
+    "time": 20.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.716700416000137,
+    "current_state": 95.28329958399986,
+    "delayed_state": 101.91273599999987,
+    "derivative_value": -0.3825471999999735,
+    "step": 208,
+    "target": 100.0,
+    "time": 20.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.7549551360001345,
+    "current_state": 95.24504486399987,
+    "delayed_state": 101.71303679999987,
+    "derivative_value": -0.34260735999997394,
+    "step": 209,
+    "target": 100.0,
+    "time": 20.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.789215872000128,
+    "current_state": 95.21078412799987,
+    "delayed_state": 101.51452799999987,
+    "derivative_value": -0.30290559999997413,
+    "step": 210,
+    "target": 100.0,
+    "time": 21.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.819506432000125,
+    "current_state": 95.18049356799987,
+    "delayed_state": 101.31734399999986,
+    "derivative_value": -0.2634687999999727,
+    "step": 211,
+    "target": 100.0,
+    "time": 21.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.845853312000116,
+    "current_state": 95.15414668799988,
+    "delayed_state": 101.12161599999986,
+    "derivative_value": -0.2243231999999722,
+    "step": 212,
+    "target": 100.0,
+    "time": 21.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.868285632000109,
+    "current_state": 95.13171436799989,
+    "delayed_state": 100.92747199999985,
+    "derivative_value": -0.1854943999999705,
+    "step": 213,
+    "target": 100.0,
+    "time": 21.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.88683507200011,
+    "current_state": 95.11316492799989,
+    "delayed_state": 100.73503679999985,
+    "derivative_value": -0.14700735999996936,
+    "step": 214,
+    "target": 100.0,
+    "time": 21.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.901535808000105,
+    "current_state": 95.0984641919999,
+    "delayed_state": 100.54443199999984,
+    "derivative_value": -0.10888639999996884,
+    "step": 215,
+    "target": 100.0,
+    "time": 21.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.912424448000095,
+    "current_state": 95.0875755519999,
+    "delayed_state": 100.35577599999985,
+    "derivative_value": -0.07115519999996991,
+    "step": 216,
+    "target": 100.0,
+    "time": 21.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.919539968000095,
+    "current_state": 95.0804600319999,
+    "delayed_state": 100.16918399999985,
+    "derivative_value": -0.033836799999969004,
+    "step": 217,
+    "target": 100.0,
+    "time": 21.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.9229236480000935,
+    "current_state": 95.0770763519999,
+    "delayed_state": 99.98476799999985,
+    "derivative_value": 0.003046400000030758,
+    "step": 218,
+    "target": 100.0,
+    "time": 21.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.922619008000083,
+    "current_state": 95.07738099199992,
+    "delayed_state": 99.80263679999985,
+    "derivative_value": 0.03947264000003088,
+    "step": 219,
+    "target": 100.0,
+    "time": 21.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.918671744000079,
+    "current_state": 95.08132825599992,
+    "delayed_state": 99.62289599999984,
+    "derivative_value": 0.07542080000003182,
+    "step": 220,
+    "target": 100.0,
+    "time": 22.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.911129664000072,
+    "current_state": 95.08887033599993,
+    "delayed_state": 99.44564799999984,
+    "derivative_value": 0.110870400000033,
+    "step": 221,
+    "target": 100.0,
+    "time": 22.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.900042624000065,
+    "current_state": 95.09995737599994,
+    "delayed_state": 99.27099199999984,
+    "derivative_value": 0.14580160000003276,
+    "step": 222,
+    "target": 100.0,
+    "time": 22.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.885462464000057,
+    "current_state": 95.11453753599994,
+    "delayed_state": 99.09902399999983,
+    "derivative_value": 0.1801952000000341,
+    "step": 223,
+    "target": 100.0,
+    "time": 22.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.867442944000047,
+    "current_state": 95.13255705599995,
+    "delayed_state": 98.92983679999983,
+    "derivative_value": 0.21403264000003333,
+    "step": 224,
+    "target": 100.0,
+    "time": 22.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.846039680000047,
+    "current_state": 95.15396031999995,
+    "delayed_state": 98.76351999999983,
+    "derivative_value": 0.24729600000003416,
+    "step": 225,
+    "target": 100.0,
+    "time": 22.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.821310080000046,
+    "current_state": 95.17868991999995,
+    "delayed_state": 98.60015999999983,
+    "derivative_value": 0.27996800000003363,
+    "step": 226,
+    "target": 100.0,
+    "time": 22.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.793313280000049,
+    "current_state": 95.20668671999995,
+    "delayed_state": 98.43983999999983,
+    "derivative_value": 0.3120320000000334,
+    "step": 227,
+    "target": 100.0,
+    "time": 22.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.762110080000042,
+    "current_state": 95.23788991999996,
+    "delayed_state": 98.28263999999983,
+    "derivative_value": 0.343472000000034,
+    "step": 228,
+    "target": 100.0,
+    "time": 22.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.727762880000043,
+    "current_state": 95.27223711999996,
+    "delayed_state": 98.12863679999982,
+    "derivative_value": 0.3742726400000351,
+    "step": 229,
+    "target": 100.0,
+    "time": 22.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.690335616000041,
+    "current_state": 95.30966438399996,
+    "delayed_state": 97.97790399999982,
+    "derivative_value": 0.40441920000003506,
+    "step": 230,
+    "target": 100.0,
+    "time": 23.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.649893696000035,
+    "current_state": 95.35010630399997,
+    "delayed_state": 97.83051199999983,
+    "derivative_value": 0.43389760000003436,
+    "step": 231,
+    "target": 100.0,
+    "time": 23.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.606503936000038,
+    "current_state": 95.39349606399996,
+    "delayed_state": 97.68652799999983,
+    "derivative_value": 0.46269440000003503,
+    "step": 232,
+    "target": 100.0,
+    "time": 23.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.560234496000035,
+    "current_state": 95.43976550399996,
+    "delayed_state": 97.54601599999982,
+    "derivative_value": 0.4907968000000352,
+    "step": 233,
+    "target": 100.0,
+    "time": 23.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.51115481600003,
+    "current_state": 95.48884518399997,
+    "delayed_state": 97.40903679999983,
+    "derivative_value": 0.5181926400000351,
+    "step": 234,
+    "target": 100.0,
+    "time": 23.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.459335552000027,
+    "current_state": 95.54066444799997,
+    "delayed_state": 97.27564799999982,
+    "derivative_value": 0.5448704000000362,
+    "step": 235,
+    "target": 100.0,
+    "time": 23.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.404848512000029,
+    "current_state": 95.59515148799997,
+    "delayed_state": 97.14590399999982,
+    "derivative_value": 0.5708192000000366,
+    "step": 236,
+    "target": 100.0,
+    "time": 23.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.347766592000028,
+    "current_state": 95.65223340799997,
+    "delayed_state": 97.01985599999982,
+    "derivative_value": 0.5960288000000361,
+    "step": 237,
+    "target": 100.0,
+    "time": 23.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.288163712000028,
+    "current_state": 95.71183628799997,
+    "delayed_state": 96.89755199999982,
+    "derivative_value": 0.6204896000000361,
+    "step": 238,
+    "target": 100.0,
+    "time": 23.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.226114752000029,
+    "current_state": 95.77388524799997,
+    "delayed_state": 96.77903679999982,
+    "derivative_value": 0.644192640000037,
+    "step": 239,
+    "target": 100.0,
+    "time": 23.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.161695488000021,
+    "current_state": 95.83830451199998,
+    "delayed_state": 96.66435199999982,
+    "derivative_value": 0.6671296000000354,
+    "step": 240,
+    "target": 100.0,
+    "time": 24.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.094982528000017,
+    "current_state": 95.90501747199998,
+    "delayed_state": 96.55353599999982,
+    "derivative_value": 0.6892928000000353,
+    "step": 241,
+    "target": 100.0,
+    "time": 24.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 4.026053248000011,
+    "current_state": 95.97394675199999,
+    "delayed_state": 96.44662399999983,
+    "derivative_value": 0.7106752000000341,
+    "step": 242,
+    "target": 100.0,
+    "time": 24.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.954985728000011,
+    "current_state": 96.04501427199999,
+    "delayed_state": 96.34364799999983,
+    "derivative_value": 0.7312704000000338,
+    "step": 243,
+    "target": 100.0,
+    "time": 24.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.8818586880000083,
+    "current_state": 96.11814131199999,
+    "delayed_state": 96.24463679999984,
+    "derivative_value": 0.7510726400000323,
+    "step": 244,
+    "target": 100.0,
+    "time": 24.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.806751423999998,
+    "current_state": 96.193248576,
+    "delayed_state": 96.14961599999984,
+    "derivative_value": 0.7700768000000324,
+    "step": 245,
+    "target": 100.0,
+    "time": 24.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.7297437439999896,
+    "current_state": 96.27025625600001,
+    "delayed_state": 96.05860799999984,
+    "derivative_value": 0.7882784000000328,
+    "step": 246,
+    "target": 100.0,
+    "time": 24.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.6509159039999872,
+    "current_state": 96.34908409600001,
+    "delayed_state": 95.97163199999984,
+    "derivative_value": 0.8056736000000314,
+    "step": 247,
+    "target": 100.0,
+    "time": 24.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.570348543999984,
+    "current_state": 96.42965145600002,
+    "delayed_state": 95.88870399999985,
+    "derivative_value": 0.8222592000000305,
+    "step": 248,
+    "target": 100.0,
+    "time": 24.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.4881226239999847,
+    "current_state": 96.51187737600002,
+    "delayed_state": 95.80983679999984,
+    "derivative_value": 0.8380326400000314,
+    "step": 249,
+    "target": 100.0,
+    "time": 24.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.404319359999988,
+    "current_state": 96.59568064000001,
+    "delayed_state": 95.73503999999984,
+    "derivative_value": 0.8529920000000317,
+    "step": 250,
+    "target": 100.0,
+    "time": 25.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.3190201599999796,
+    "current_state": 96.68097984000002,
+    "delayed_state": 95.66431999999985,
+    "derivative_value": 0.8671360000000305,
+    "step": 251,
+    "target": 100.0,
+    "time": 25.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.2323065599999836,
+    "current_state": 96.76769344000002,
+    "delayed_state": 95.59767999999985,
+    "derivative_value": 0.8804640000000291,
+    "step": 252,
+    "target": 100.0,
+    "time": 25.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.1442601599999875,
+    "current_state": 96.85573984000001,
+    "delayed_state": 95.53511999999985,
+    "derivative_value": 0.8929760000000301,
+    "step": 253,
+    "target": 100.0,
+    "time": 25.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 3.0549625599999786,
+    "current_state": 96.94503744000002,
+    "delayed_state": 95.47663679999985,
+    "derivative_value": 0.9046726400000296,
+    "step": 254,
+    "target": 100.0,
+    "time": 25.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.9644952959999813,
+    "current_state": 97.03550470400002,
+    "delayed_state": 95.42222406399985,
+    "derivative_value": 0.9155551872000303,
+    "step": 255,
+    "target": 100.0,
+    "time": 25.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.8729397772799814,
+    "current_state": 97.12706022272002,
+    "delayed_state": 95.37187238399986,
+    "derivative_value": 0.9256255232000286,
+    "step": 256,
+    "target": 100.0,
+    "time": 25.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.7803772249599774,
+    "current_state": 97.21962277504002,
+    "delayed_state": 95.32556934399986,
+    "derivative_value": 0.9348861312000282,
+    "step": 257,
+    "target": 100.0,
+    "time": 25.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.6868886118399757,
+    "current_state": 97.31311138816002,
+    "delayed_state": 95.28329958399986,
+    "derivative_value": 0.9433400832000274,
+    "step": 258,
+    "target": 100.0,
+    "time": 25.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.5925546035199716,
+    "current_state": 97.40744539648003,
+    "delayed_state": 95.24504486399987,
+    "derivative_value": 0.9509910272000269,
+    "step": 259,
+    "target": 100.0,
+    "time": 25.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.4974555007999726,
+    "current_state": 97.50254449920003,
+    "delayed_state": 95.21078412799987,
+    "derivative_value": 0.9578431744000255,
+    "step": 260,
+    "target": 100.0,
+    "time": 26.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.4016711833599658,
+    "current_state": 97.59832881664003,
+    "delayed_state": 95.18049356799987,
+    "derivative_value": 0.963901286400025,
+    "step": 261,
+    "target": 100.0,
+    "time": 26.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.30528105471997,
+    "current_state": 97.69471894528003,
+    "delayed_state": 95.15414668799988,
+    "derivative_value": 0.9691706624000234,
+    "step": 262,
+    "target": 100.0,
+    "time": 26.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.2083639884799737,
+    "current_state": 97.79163601152003,
+    "delayed_state": 95.13171436799989,
+    "derivative_value": 0.9736571264000219,
+    "step": 263,
+    "target": 100.0,
+    "time": 26.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.1109982758399752,
+    "current_state": 97.88900172416002,
+    "delayed_state": 95.11316492799989,
+    "derivative_value": 0.9773670144000222,
+    "step": 264,
+    "target": 100.0,
+    "time": 26.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 2.0132615743999764,
+    "current_state": 97.98673842560002,
+    "delayed_state": 95.0984641919999,
+    "derivative_value": 0.9803071616000211,
+    "step": 265,
+    "target": 100.0,
+    "time": 26.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.9152308582399797,
+    "current_state": 98.08476914176002,
+    "delayed_state": 95.0875755519999,
+    "derivative_value": 0.9824848896000191,
+    "step": 266,
+    "target": 100.0,
+    "time": 26.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.8169823692799838,
+    "current_state": 98.18301763072002,
+    "delayed_state": 95.0804600319999,
+    "derivative_value": 0.983907993600019,
+    "step": 267,
+    "target": 100.0,
+    "time": 26.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.7185915699199796,
+    "current_state": 98.28140843008002,
+    "delayed_state": 95.0770763519999,
+    "derivative_value": 0.9845847296000187,
+    "step": 268,
+    "target": 100.0,
+    "time": 26.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.6201330969599752,
+    "current_state": 98.37986690304002,
+    "delayed_state": 95.07738099199992,
+    "derivative_value": 0.9845238016000167,
+    "step": 269,
+    "target": 100.0,
+    "time": 26.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.5216807167999775,
+    "current_state": 98.47831928320002,
+    "delayed_state": 95.08132825599992,
+    "derivative_value": 0.9837343488000159,
+    "step": 270,
+    "target": 100.0,
+    "time": 27.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.4233072819199748,
+    "current_state": 98.57669271808003,
+    "delayed_state": 95.08887033599993,
+    "derivative_value": 0.9822259328000144,
+    "step": 271,
+    "target": 100.0,
+    "time": 27.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.3250846886399756,
+    "current_state": 98.67491531136002,
+    "delayed_state": 95.09995737599994,
+    "derivative_value": 0.980008524800013,
+    "step": 272,
+    "target": 100.0,
+    "time": 27.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.2270838361599772,
+    "current_state": 98.77291616384002,
+    "delayed_state": 95.11453753599994,
+    "derivative_value": 0.9770924928000113,
+    "step": 273,
+    "target": 100.0,
+    "time": 27.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.129374586879976,
+    "current_state": 98.87062541312002,
+    "delayed_state": 95.13255705599995,
+    "derivative_value": 0.9734885888000093,
+    "step": 274,
+    "target": 100.0,
+    "time": 27.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.0320257279999794,
+    "current_state": 98.96797427200002,
+    "delayed_state": 95.15396031999995,
+    "derivative_value": 0.9692079360000094,
+    "step": 275,
+    "target": 100.0,
+    "time": 27.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.9351049343999733,
+    "current_state": 99.06489506560003,
+    "delayed_state": 95.17868991999995,
+    "derivative_value": 0.9642620160000093,
+    "step": 276,
+    "target": 100.0,
+    "time": 27.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.838678732799977,
+    "current_state": 99.16132126720002,
+    "delayed_state": 95.20668671999995,
+    "derivative_value": 0.9586626560000099,
+    "step": 277,
+    "target": 100.0,
+    "time": 27.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.7428124671999825,
+    "current_state": 99.25718753280002,
+    "delayed_state": 95.23788991999996,
+    "derivative_value": 0.9524220160000084,
+    "step": 278,
+    "target": 100.0,
+    "time": 27.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.6475702655999811,
+    "current_state": 99.35242973440002,
+    "delayed_state": 95.27223711999996,
+    "derivative_value": 0.9455525760000086,
+    "step": 279,
+    "target": 100.0,
+    "time": 27.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.5530150079999743,
+    "current_state": 99.44698499200003,
+    "delayed_state": 95.30966438399996,
+    "derivative_value": 0.9380671232000083,
+    "step": 280,
+    "target": 100.0,
+    "time": 28.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.45920829567997146,
+    "current_state": 99.54079170432003,
+    "delayed_state": 95.35010630399997,
+    "derivative_value": 0.9299787392000071,
+    "step": 281,
+    "target": 100.0,
+    "time": 28.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.3662104217599733,
+    "current_state": 99.63378957824003,
+    "delayed_state": 95.39349606399996,
+    "derivative_value": 0.9213007872000077,
+    "step": 282,
+    "target": 100.0,
+    "time": 28.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.2740803430399694,
+    "current_state": 99.72591965696003,
+    "delayed_state": 95.43976550399996,
+    "derivative_value": 0.912046899200007,
+    "step": 283,
+    "target": 100.0,
+    "time": 28.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.18287565311996445,
+    "current_state": 99.81712434688004,
+    "delayed_state": 95.48884518399997,
+    "derivative_value": 0.902230963200006,
+    "step": 284,
+    "target": 100.0,
+    "time": 28.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.09265255679996187,
+    "current_state": 99.90734744320004,
+    "delayed_state": 95.54066444799997,
+    "derivative_value": 0.8918671104000055,
+    "step": 285,
+    "target": 100.0,
+    "time": 28.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.003465845759961894,
+    "current_state": 99.99653415424004,
+    "delayed_state": 95.59515148799997,
+    "derivative_value": 0.8809697024000059,
+    "step": 286,
+    "target": 100.0,
+    "time": 28.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.0846311244800404,
+    "current_state": 100.08463112448004,
+    "delayed_state": 95.65223340799997,
+    "derivative_value": 0.8695533184000056,
+    "step": 287,
+    "target": 100.0,
+    "time": 28.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.17158645632004266,
+    "current_state": 100.17158645632004,
+    "delayed_state": 95.71183628799997,
+    "derivative_value": 0.8576327424000056,
+    "step": 288,
+    "target": 100.0,
+    "time": 28.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.25734973056003696,
+    "current_state": 100.25734973056004,
+    "delayed_state": 95.77388524799997,
+    "derivative_value": 0.845222950400006,
+    "step": 289,
+    "target": 100.0,
+    "time": 28.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.3418720256000398,
+    "current_state": 100.34187202560004,
+    "delayed_state": 95.83830451199998,
+    "derivative_value": 0.8323390976000042,
+    "step": 290,
+    "target": 100.0,
+    "time": 29.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.4251059353600368,
+    "current_state": 100.42510593536004,
+    "delayed_state": 95.90501747199998,
+    "derivative_value": 0.8189965056000035,
+    "step": 291,
+    "target": 100.0,
+    "time": 29.1,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.5070055859200409,
+    "current_state": 100.50700558592004,
+    "delayed_state": 95.97394675199999,
+    "derivative_value": 0.8052106496000022,
+    "step": 292,
+    "target": 100.0,
+    "time": 29.200000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.5875266508800365,
+    "current_state": 100.58752665088004,
+    "delayed_state": 96.04501427199999,
+    "derivative_value": 0.7909971456000022,
+    "step": 293,
+    "target": 100.0,
+    "time": 29.3,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.6666263654400382,
+    "current_state": 100.66662636544004,
+    "delayed_state": 96.11814131199999,
+    "derivative_value": 0.7763717376000017,
+    "step": 294,
+    "target": 100.0,
+    "time": 29.400000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.7442635392000341,
+    "current_state": 100.74426353920003,
+    "delayed_state": 96.193248576,
+    "derivative_value": 0.7613502847999997,
+    "step": 295,
+    "target": 100.0,
+    "time": 29.5,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.82039856768003,
+    "current_state": 100.82039856768003,
+    "delayed_state": 96.27025625600001,
+    "derivative_value": 0.745948748799998,
+    "step": 296,
+    "target": 100.0,
+    "time": 29.6,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.8949934425600361,
+    "current_state": 100.89499344256004,
+    "delayed_state": 96.34908409600001,
+    "derivative_value": 0.7301831807999974,
+    "step": 297,
+    "target": 100.0,
+    "time": 29.700000000000003,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 0.9680117606400387,
+    "current_state": 100.96801176064004,
+    "delayed_state": 96.42965145600002,
+    "derivative_value": 0.7140697087999968,
+    "step": 298,
+    "target": 100.0,
+    "time": 29.8,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.039418731520044,
+    "current_state": 101.03941873152004,
+    "delayed_state": 96.51187737600002,
+    "derivative_value": 0.697624524799997,
+    "step": 299,
+    "target": 100.0,
+    "time": 29.900000000000002,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  },
+  {
+    "absolute_gap": 1.1091811840000503,
+    "current_state": 101.10918118400005,
+    "delayed_state": 96.59568064000001,
+    "derivative_value": 0.6808638719999976,
+    "step": 300,
+    "target": 100.0,
+    "time": 30.0,
+    "warning": "Delayed adjustment depends on delay length, history function, time step, and feedback strength."
+  }
+]

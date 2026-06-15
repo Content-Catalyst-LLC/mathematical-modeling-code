@@ -1,0 +1,13 @@
+{
+  "calculator": "memory-kernel",
+  "inputs": {
+    "age": 3.0,
+    "command": "memory-kernel",
+    "decay_rate": 0.4
+  },
+  "interpretation": "Computes an exponential memory-kernel weight.",
+  "result": {
+    "kernel_weight": 0.301194211912202
+  },
+  "warning": "Kernel shape should be justified and sensitivity tested."
+}

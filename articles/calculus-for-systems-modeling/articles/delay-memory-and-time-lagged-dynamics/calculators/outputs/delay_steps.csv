@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_delay,input_dt,result_delay_steps
+delay-steps,Converts continuous delay into discrete simulation steps.,This assumes the delay aligns with or is rounded to the time step.,delay-steps,5.0,0.1,50
