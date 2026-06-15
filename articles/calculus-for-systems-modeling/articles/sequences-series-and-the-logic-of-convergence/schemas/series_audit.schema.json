@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SeriesAudit",
+  "type": "object",
+  "required": ["series_name", "n_terms", "last_term", "partial_sum", "convergence_classification", "stopping_rule", "warning"],
+  "properties": {
+    "series_name": {"type": "string"},
+    "n_terms": {"type": "integer"},
+    "last_term": {"type": "number"},
+    "partial_sum": {"type": "number"},
+    "reference_value": {"type": ["number", "null"]},
+    "estimated_error": {"type": ["number", "null"]},
+    "convergence_classification": {"type": "string"},
+    "stopping_rule": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

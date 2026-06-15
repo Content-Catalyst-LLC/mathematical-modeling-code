@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+sequence_definition,Sequence definition,Defines the ordered values being analyzed,Clarifies whether values represent states estimates terms errors or iterations,A convergence claim is not auditable unless the sequence is defined
+partial_sum_definition,Partial sum definition,Defines finite cumulative totals before the infinite limit,Keeps computed finite sums separate from infinite-series claims,A partial sum should not be reported as an infinite total without convergence evidence
+stopping_rule,Stopping rule,Explains why the computation ended,Documents whether stopping was based on term count tolerance error bound or runtime,A stopped computation is not necessarily a converged computation
+remainder_bound,Remainder bound,Estimates the uncomputed tail contribution,Supports responsible interpretation of finite approximations,Small latest term does not always imply small remainder
+absolute_convergence,Absolute convergence,Checks whether the magnitudes of terms form a convergent series,Distinguishes bounded total magnitude from net cancellation,Conditional convergence can hide large gross activity

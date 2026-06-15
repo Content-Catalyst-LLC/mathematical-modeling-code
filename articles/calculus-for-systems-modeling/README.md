@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, rates of change, differentiation rules, quotient rules, chain rules, implicit differentiation, inverse functions, related rates, second derivatives, curvature, acceleration, elasticity, sensitivity, marginal response, antiderivatives, definite integrals, the Fundamental Theorem of Calculus, substitution, integration by parts, improper integrals, accumulation, exposure, flow-to-stock reasoning, transformed accumulation, structured decomposition, total change, multivariable change, numerical methods, and responsible mathematical interpretation.
+This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, rates of change, differentiation rules, quotient rules, chain rules, implicit differentiation, inverse functions, related rates, second derivatives, curvature, acceleration, elasticity, sensitivity, marginal response, antiderivatives, definite integrals, the Fundamental Theorem of Calculus, substitution, integration by parts, improper integrals, accumulation, exposure, flow-to-stock reasoning, sequences, series, convergence, transformed accumulation, structured decomposition, total change, multivariable change, numerical methods, and responsible mathematical interpretation.
 
 ## Nested article folders
 
@@ -15,8 +15,8 @@ articles/calculus-for-systems-modeling/articles/
 Current active folders include:
 
 ```text
-articles/improper-integrals-and-unbounded-quantities/
 articles/accumulation-exposure-and-flow-to-stock-reasoning/
+articles/sequences-series-and-the-logic-of-convergence/
 ```
 
 ## Advanced mathematical standard

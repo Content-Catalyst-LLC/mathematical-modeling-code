@@ -1,0 +1,53 @@
+{
+  "advanced_standard": true,
+  "article": "Sequences, Series, and the Logic of Convergence",
+  "condition_failures": [
+    {
+      "condition": "sequence definition documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "convergence claim lacks a defined sequence or series"
+    },
+    {
+      "condition": "stopping rule documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "computation stopped without a documented stopping rule"
+    },
+    {
+      "condition": "remainder bound documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "finite approximation lacks a tail or error estimate"
+    },
+    {
+      "condition": "latest term not used as tail proof",
+      "passed": false,
+      "value": 0.0001,
+      "warning": "small latest term alone does not bound the full remaining tail"
+    },
+    {
+      "condition": "absolute convergence reviewed",
+      "passed": false,
+      "value": 0.0,
+      "warning": "signed convergence may hide large gross activity"
+    }
+  ],
+  "topics": [
+    "sequence_definition",
+    "series_as_partial_sum_limit",
+    "geometric_series",
+    "harmonic_series_warning",
+    "p_series_classification",
+    "stopping_rule",
+    "remainder_bound",
+    "absolute_vs_conditional_convergence"
+  ],
+  "warnings": [
+    "A stopped computation is not automatically a converged computation.",
+    "Small latest terms do not always imply small tails.",
+    "A finite partial sum is not an infinite series.",
+    "Conditional convergence may hide large gross activity.",
+    "Stable-looking early terms can conceal slow divergence."
+  ]
+}

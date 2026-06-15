@@ -1,0 +1,27 @@
+section                        
+-------------------------------
+CONVERGENCE ASSUMPTION REGISTRY
+assumption_name         mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Absolute convergence    Checks whether the magnitudes of terms form a convergent ser  Distinguishes bounded total magnitude from net cancellation.  Conditional convergence can hide large gross activity.      
+                        ies.                                                                                                                                                                                    
+
+Partial sum definition  Defines finite cumulative totals before the infinite limit.   Keeps computed finite sums separate from infinite-series cla  A partial sum should not be reported as an infinite total wi
+                                                                                      ims.                                                          thout convergence evidence.                                 
+
+Remainder bound         Estimates the uncomputed tail contribution.                   Supports responsible interpretation of finite approximations  Small latest term does not always imply small remainder.    
+                                                                                      .                                                                                                                         
+
+Sequence definition     Defines the ordered values being analyzed.                    Clarifies whether values represent states, estimates, terms,  A convergence claim is not auditable unless the sequence is 
+                                                                                       errors, or iterations.                                       defined.                                                    
+
+Stopping rule           Explains why the computation ended.                           Documents whether stopping was based on term count, toleranc  A stopped computation is not necessarily a converged computa
+                                                                                      e, error bound, or runtime.                                   tion.                                                       
+section             
+--------------------
+SERIES AUDIT RECORDS
+series_name       n_terms  last_term  partial_sum  convergence_classification                stopping_rule                               warning                                                
+----------------  -------  ---------  -----------  ----------------------------------------  ------------------------------------------  -------------------------------------------------------
+geometric_r_0.6   25       0.000284   24.999574    convergent geometric series               fixed term count with analytic tail check                                                          
+geometric_r_1.05  25       32.251002  477.270547   divergent or inconclusive                 fixed term count with analytic tail check   geometric ratio does not support convergence           
+harmonic          10000    0.0001     9.787606     divergent despite terms approaching zero  fixed term count; no finite limiting total  small last term does not imply finite accumulated total

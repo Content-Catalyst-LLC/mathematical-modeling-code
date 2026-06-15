@@ -1,0 +1,4 @@
+"series_name","n_terms","last_term","partial_sum","reference_value","estimated_error","convergence_classification","stopping_rule","warning"
+"geometric_r_0.6",25,4.73838133832161e-05,24.9999289242799,25,7.10757200685919e-05,"convergent geometric series","fixed term count with analytic tail check",""
+"geometric_r_1.05",25,32.250999437137,477.270988179877,NA,NA,"divergent or inconclusive","fixed term count with analytic tail check","geometric ratio does not support convergence"
+"harmonic",10000,1e-04,9.78760603604435,NA,NA,"divergent despite terms approaching zero","fixed term count; no finite limiting total","small last term does not imply finite accumulated total"

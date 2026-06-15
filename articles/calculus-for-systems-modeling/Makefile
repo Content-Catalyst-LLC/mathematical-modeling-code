@@ -1,6 +1,6 @@
-.PHONY: smoke advanced improper-integrals flow-to-stock clean
+.PHONY: smoke advanced flow-to-stock convergence clean
 
-smoke: improper-integrals flow-to-stock
+smoke: flow-to-stock convergence
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-improper-integrals:
-	$(MAKE) -C articles/improper-integrals-and-unbounded-quantities smoke
-
 flow-to-stock:
 	$(MAKE) -C articles/accumulation-exposure-and-flow-to-stock-reasoning smoke
+
+convergence:
+	$(MAKE) -C articles/sequences-series-and-the-logic-of-convergence smoke
 
 clean:
 	@for d in articles/*; do \

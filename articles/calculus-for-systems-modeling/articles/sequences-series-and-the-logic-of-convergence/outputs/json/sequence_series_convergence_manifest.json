@@ -1,0 +1,71 @@
+{
+  "advanced_standard": true,
+  "article": "Sequences, Series, and the Logic of Convergence",
+  "diagnostics": [
+    "sequence_definition",
+    "partial_sum_definition",
+    "convergence_classification",
+    "stopping_rule",
+    "remainder_bound",
+    "absolute_vs_conditional_convergence",
+    "finite_computation_vs_limit_claim"
+  ],
+  "records": [
+    {
+      "convergence_classification": "convergent geometric series",
+      "estimated_error": 7.107572007569729e-05,
+      "last_term": 4.7383813383216124e-05,
+      "n_terms": 25,
+      "partial_sum": 24.999928924279924,
+      "reference_value": 25.0,
+      "series_name": "geometric",
+      "stopping_rule": "fixed term count with analytic tail check",
+      "warning": ""
+    },
+    {
+      "convergence_classification": "divergent or inconclusive",
+      "estimated_error": null,
+      "last_term": 32.250999437137025,
+      "n_terms": 25,
+      "partial_sum": 477.27098817987724,
+      "reference_value": null,
+      "series_name": "geometric",
+      "stopping_rule": "fixed term count with analytic tail check",
+      "warning": "geometric ratio does not support convergence"
+    },
+    {
+      "convergence_classification": "divergent despite terms approaching zero",
+      "estimated_error": null,
+      "last_term": 0.0001,
+      "n_terms": 10000,
+      "partial_sum": 9.787606036044382,
+      "reference_value": null,
+      "series_name": "harmonic",
+      "stopping_rule": "fixed term count; no finite limiting total",
+      "warning": "small last term does not imply finite accumulated total"
+    },
+    {
+      "convergence_classification": "divergent p-series",
+      "estimated_error": null,
+      "last_term": 0.001,
+      "n_terms": 10000,
+      "partial_sum": 36.55921460680478,
+      "reference_value": null,
+      "series_name": "p_series_p_0.75",
+      "stopping_rule": "fixed term count with p-series classification",
+      "warning": "p-series diverges for p <= 1 even though terms may approach zero"
+    },
+    {
+      "convergence_classification": "convergent p-series",
+      "estimated_error": null,
+      "last_term": 1e-05,
+      "n_terms": 10000,
+      "partial_sum": 4.1951168257387765,
+      "reference_value": null,
+      "series_name": "p_series_p_1.25",
+      "stopping_rule": "fixed term count with p-series classification",
+      "warning": ""
+    }
+  ],
+  "warning": "A stopped computation is not automatically a converged computation."
+}

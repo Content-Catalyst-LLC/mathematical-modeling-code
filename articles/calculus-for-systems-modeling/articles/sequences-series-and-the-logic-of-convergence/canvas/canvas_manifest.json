@@ -1,0 +1,19 @@
+{
+  "article_slug": "sequences-series-and-the-logic-of-convergence",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "sequences-series-convergence",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "sequence-limit", "title": "Sequence Limit", "description": "Ordered states or estimates may approach a stable limiting value."},
+    {"card_id": "partial-sum", "title": "Partial Sum", "description": "Finite cumulative totals must be separated from infinite-series claims."},
+    {"card_id": "geometric-decay", "title": "Geometric Decay", "description": "Repeated proportional effects converge only when the feedback factor is small enough."},
+    {"card_id": "stopping-rule", "title": "Stopping Rule", "description": "A stopped computation is not automatically a converged computation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

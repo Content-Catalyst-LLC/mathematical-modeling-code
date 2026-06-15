@@ -1,0 +1,11 @@
+condition,value,passed,warning
+sequence definition documented,1.0,True,
+sequence definition documented,0.0,False,convergence claim lacks a defined sequence or series
+stopping rule documented,1.0,True,
+stopping rule documented,0.0,False,computation stopped without a documented stopping rule
+remainder bound documented,1.0,True,
+remainder bound documented,0.0,False,finite approximation lacks a tail or error estimate
+latest term not used as tail proof,0.0001,True,
+latest term not used as tail proof,0.0001,False,small latest term alone does not bound the full remaining tail
+absolute convergence reviewed,1.0,True,
+absolute convergence reviewed,0.0,False,signed convergence may hide large gross activity

@@ -1,0 +1,3 @@
+series_name n_terms last_term partial_sum reference_value estimated_error classification
+geometric_r_0.6     25     0.000047    24.999929    25.000000     0.000071 convergent
+harmonic  10000     0.000100     9.787606 divergent
