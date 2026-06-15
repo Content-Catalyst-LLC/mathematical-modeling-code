@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+vector_field_definition,Vector field definition,Defines the field used for boundary flux and divergence,Determines what movement force flow transport or tendency means,The divergence theorem is not interpretable without a meaningful vector field
+closed_surface,Closed surface,Defines the boundary across which outward flux is measured,Represents the system boundary control surface envelope or interface,The surface must fully enclose the volume used in the theorem
+enclosed_volume,Enclosed volume,Defines the region over which divergence is accumulated,Represents the system interior compartment region or control volume,The volume must match the closed surface used for boundary flux
+outward_normals,Outward normals,Define positive direction for flux through the boundary,Determine whether crossing is interpreted as export or import,Inverted normals can reverse conservation conclusions
+divergence_computation,Divergence computation,Defines local source-sink behavior,Supports comparison between interior source balance and boundary exchange,Finite-difference divergence estimates may amplify noise
+surface_mesh_resolution,Surface mesh resolution,Defines surface patches for boundary flux approximation,Shapes numerical surface integral estimates,Coarse surface meshes can miss boundary variation
+volume_grid_resolution,Volume grid resolution,Defines volume cells for divergence integration,Shapes numerical volume integral estimates,Coarse volume grids can miss interior source-sink variation
+boundary_volume_match,Boundary-volume match,Links the closed surface to the volume it encloses,Ensures conservation comparison covers one system,Mismatched geometry invalidates interpretation

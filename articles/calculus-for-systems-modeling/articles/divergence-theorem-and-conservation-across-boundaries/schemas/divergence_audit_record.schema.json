@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DivergenceAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "grid_steps", "boundary_flux", "volume_divergence_integral",
+    "absolute_gap", "field_description", "volume_description", "normal_note", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "grid_steps": {"type": "integer"},
+    "boundary_flux": {"type": "number"},
+    "volume_divergence_integral": {"type": "number"},
+    "absolute_gap": {"type": "number"},
+    "field_description": {"type": "string"},
+    "volume_description": {"type": "string"},
+    "normal_note": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

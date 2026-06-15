@@ -1,0 +1,14 @@
+{
+  "calculator": "divergence",
+  "inputs": {
+    "command": "divergence",
+    "x": 1.0,
+    "y": 2.0,
+    "z": 3.0
+  },
+  "interpretation": "Evaluates divergence of F=<x,y,z>.",
+  "result": {
+    "divergence": 3.0
+  },
+  "warning": ""
+}

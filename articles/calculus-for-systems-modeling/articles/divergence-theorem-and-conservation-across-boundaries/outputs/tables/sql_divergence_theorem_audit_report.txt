@@ -1,0 +1,35 @@
+section                               
+--------------------------------------
+DIVERGENCE THEOREM ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                            systems_modeling_role                                         review_warning                                              
+-----------------------  -----------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Closed surface           Defines the boundary across which outward flux is measured.  Represents the system boundary control surface envelope or i  The surface must fully enclose the volume used in the theore
+                                                                                      nterface.                                                     m.                                                          
+
+Divergence computation   Defines how local source-sink behavior is computed.          Supports comparison between interior source balance and boun  Finite-difference divergence estimates may amplify noise.   
+                                                                                      dary exchange.                                                                                                            
+
+Enclosed volume          Defines the region over which divergence is accumulated.     Represents the system interior compartment region or control  The volume must match the closed surface used for boundary f
+                                                                                       volume.                                                      lux.                                                        
+
+Mesh resolution          Defines surface patches and volume cells.                    Shapes numerical comparison between boundary and volume esti  Coarse meshes can make conservation comparisons misleading. 
+                                                                                      mates.                                                                                                                    
+
+Outward normals          Define positive direction for flux through the boundary.     Determine whether crossing is interpreted as export or impor  Inverted normals can reverse conservation conclusions.      
+                                                                                      t.                                                                                                                        
+
+Vector field definition  Defines the field used for boundary flux and divergence.     Determines what flow transport force movement or tendency me  The divergence theorem is not interpretable without a meanin
+                                                                                      ans.                                                          gful vector field.                                          
+section                       
+------------------------------
+DIVERGENCE THEOREM AUDIT CASES
+scenario      grid_steps  boundary_flux  volume_divergence_integral  absolute_gap  normal_note                             warning                                                     
+------------  ----------  -------------  --------------------------  ------------  --------------------------------------  ------------------------------------------------------------
+coarse_audit  4           3.0            3.0                         0.0           all six cube faces use outward normals  Coarse grid; refine before interpreting the boundary-volume 
+                                                                                                                           comparison.                                                 
+
+medium_audit  16          3.0            3.0                         0.0           all six cube faces use outward normals  Synthetic divergence theorem audit; document field volume bo
+                                                                                                                           undary normals units and numerical method.                  
+
+fine_audit    64          3.0            3.0                         0.0           all six cube faces use outward normals  Synthetic divergence theorem audit; document field volume bo
+                                                                                                                           undary normals units and numerical method.                  

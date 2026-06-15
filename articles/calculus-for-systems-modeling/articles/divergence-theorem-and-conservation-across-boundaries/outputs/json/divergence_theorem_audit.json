@@ -1,0 +1,35 @@
+[
+  {
+    "absolute_gap": 0.0,
+    "boundary_flux": 3.0,
+    "field_description": "F=<x,y,z>; divergence = 3",
+    "grid_steps": 4,
+    "normal_note": "all six cube faces use outward normals",
+    "scenario": "coarse_audit",
+    "volume_description": "unit cube [0,1] x [0,1] x [0,1]",
+    "volume_divergence_integral": 3.0,
+    "warning": "Coarse grid; refine before interpreting the boundary-volume comparison."
+  },
+  {
+    "absolute_gap": 0.0,
+    "boundary_flux": 3.0,
+    "field_description": "F=<x,y,z>; divergence = 3",
+    "grid_steps": 16,
+    "normal_note": "all six cube faces use outward normals",
+    "scenario": "medium_audit",
+    "volume_description": "unit cube [0,1] x [0,1] x [0,1]",
+    "volume_divergence_integral": 3.0,
+    "warning": "Synthetic divergence theorem audit; document field, volume, boundary, normals, units, and numerical method."
+  },
+  {
+    "absolute_gap": 0.0,
+    "boundary_flux": 3.0,
+    "field_description": "F=<x,y,z>; divergence = 3",
+    "grid_steps": 64,
+    "normal_note": "all six cube faces use outward normals",
+    "scenario": "fine_audit",
+    "volume_description": "unit cube [0,1] x [0,1] x [0,1]",
+    "volume_divergence_integral": 3.0,
+    "warning": "Synthetic divergence theorem audit; document field, volume, boundary, normals, units, and numerical method."
+  }
+]

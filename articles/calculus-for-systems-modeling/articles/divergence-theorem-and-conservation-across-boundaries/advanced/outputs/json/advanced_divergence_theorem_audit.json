@@ -1,0 +1,25 @@
+{
+  "article": "The Divergence Theorem and Conservation Across Boundaries",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Surface must be closed and fully enclose the selected volume.",
+    "All normals must point outward for standard positive flux.",
+    "Boundary flux and volume divergence should be checked under refinement.",
+    "Missing faces or inverted normals can reverse conservation conclusions.",
+    "Field meaning and units are required for interpretation."
+  ]
+}

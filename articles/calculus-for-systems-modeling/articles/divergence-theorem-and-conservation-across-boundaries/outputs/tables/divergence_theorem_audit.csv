@@ -1,0 +1,4 @@
+scenario,grid_steps,boundary_flux,volume_divergence_integral,absolute_gap,field_description,volume_description,normal_note,warning
+coarse_audit,4,3.0,3.0,0.0,"F=<x,y,z>; divergence = 3","unit cube [0,1] x [0,1] x [0,1]",all six cube faces use outward normals,Coarse grid; refine before interpreting the boundary-volume comparison.
+medium_audit,16,3.0,3.0,0.0,"F=<x,y,z>; divergence = 3","unit cube [0,1] x [0,1] x [0,1]",all six cube faces use outward normals,"Synthetic divergence theorem audit; document field, volume, boundary, normals, units, and numerical method."
+fine_audit,64,3.0,3.0,0.0,"F=<x,y,z>; divergence = 3","unit cube [0,1] x [0,1] x [0,1]",all six cube faces use outward normals,"Synthetic divergence theorem audit; document field, volume, boundary, normals, units, and numerical method."

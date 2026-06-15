@@ -1,0 +1,12 @@
+{
+  "calculator": "boundary-flux",
+  "inputs": {
+    "command": "boundary-flux",
+    "grid_steps": 16
+  },
+  "interpretation": "Approximates outward boundary flux through the unit cube.",
+  "result": {
+    "boundary_flux": 3.0
+  },
+  "warning": ""
+}

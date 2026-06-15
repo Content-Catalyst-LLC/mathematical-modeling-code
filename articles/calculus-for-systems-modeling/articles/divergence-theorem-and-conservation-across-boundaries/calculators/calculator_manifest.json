@@ -1,0 +1,18 @@
+{
+  "article_slug": "divergence-theorem-and-conservation-across-boundaries",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "vector-field", "title": "Vector Field Evaluator"},
+    {"id": "divergence", "title": "Divergence Evaluator"},
+    {"id": "boundary-flux", "title": "Closed-Surface Boundary Flux"},
+    {"id": "volume-divergence", "title": "Volume Divergence Integral"},
+    {"id": "conservation-audit", "title": "Divergence Theorem Conservation Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

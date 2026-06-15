@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_z,result_divergence
+divergence,"Evaluates divergence of F=<x,y,z>.",,divergence,1.0,2.0,3.0,3.0

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_grid_steps,result_boundary_flux
+boundary-flux,Approximates outward boundary flux through the unit cube.,,boundary-flux,16,3.0

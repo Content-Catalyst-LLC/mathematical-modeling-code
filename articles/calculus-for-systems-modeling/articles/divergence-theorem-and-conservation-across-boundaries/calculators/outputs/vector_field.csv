@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_z,result_fx,result_fy,result_fz
+vector-field,"Evaluates F=<x,y,z>.",,vector-field,1.0,2.0,3.0,1.0,2.0,3.0

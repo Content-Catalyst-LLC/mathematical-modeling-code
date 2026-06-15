@@ -1,0 +1,4 @@
+scenario grid_steps boundary_flux volume_divergence_integral absolute_gap field_description volume_description normal_note warning
+coarse_audit        4      3.000000      3.000000      0.000000 field cube outward coarse_audit
+medium_audit       16      3.000000      3.000000      0.000000 field cube outward synthetic_audit
+fine_audit       64      3.000000      3.000000      0.000000 field cube outward synthetic_audit

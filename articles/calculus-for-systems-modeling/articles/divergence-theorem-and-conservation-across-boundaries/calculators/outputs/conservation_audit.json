@@ -1,0 +1,14 @@
+{
+  "calculator": "conservation-audit",
+  "inputs": {
+    "command": "conservation-audit",
+    "grid_steps": 16
+  },
+  "interpretation": "Compares divergence theorem boundary and volume quantities.",
+  "result": {
+    "absolute_gap": 0.0,
+    "boundary_flux": 3.0,
+    "volume_divergence_integral": 3.0
+  },
+  "warning": ""
+}

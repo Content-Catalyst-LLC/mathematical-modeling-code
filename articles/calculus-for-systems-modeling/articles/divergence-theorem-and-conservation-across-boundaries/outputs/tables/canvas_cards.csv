@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+closed-surface,Closed Surface,geometry,96,active,2026-06-15,Surface must fully enclose the selected volume.
+outward-normal,Outward Normal,sign convention,96,active,2026-06-15,Outward normals define positive boundary flux.
+boundary-flux,Boundary Flux,theorem,95,active,2026-06-15,Boundary flux measures net crossing through the closed surface.
+interior-divergence,Interior Divergence,theorem,95,active,2026-06-15,Interior divergence measures accumulated source-sink behavior.
+resolution,Resolution Review,numerical method,92,review,2026-06-15,Surface and volume estimates should be checked under refinement.

@@ -1,0 +1,10 @@
+condition,passed,warning
+vector field definition documented,True,
+closed surface and enclosed volume included,True,
+outward normal convention included,True,
+boundary flux and volume divergence compared,True,
+mesh and grid resolution warning included,True,
+conservation interpretation included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

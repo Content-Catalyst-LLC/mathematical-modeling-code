@@ -1,0 +1,12 @@
+{
+  "calculator": "volume-divergence",
+  "inputs": {
+    "command": "volume-divergence",
+    "grid_steps": 16
+  },
+  "interpretation": "Approximates divergence integral over the unit cube.",
+  "result": {
+    "volume_divergence_integral": 3.0
+  },
+  "warning": ""
+}
