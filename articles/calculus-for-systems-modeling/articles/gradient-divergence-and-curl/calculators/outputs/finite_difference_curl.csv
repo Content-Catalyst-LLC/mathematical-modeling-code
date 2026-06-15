@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_h,result_curl_2d
+finite-difference-curl,Approximates 2D curl by central differences.,,finite-difference-curl,1.0,1.0,0.01,2.0000000000000018

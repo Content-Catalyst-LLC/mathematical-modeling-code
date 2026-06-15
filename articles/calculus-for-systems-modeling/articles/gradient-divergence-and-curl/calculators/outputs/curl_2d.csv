@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_curl_2d
+curl-2d,"Computes 2D curl scalar of F=<-y,x>.",,curl-2d,1.0,1.0,2.0

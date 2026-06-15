@@ -1,0 +1,38 @@
+[
+  {
+    "field_description": "scalar f=x^2+y^2; vector F=<-y,x>",
+    "grid_step": 1.0,
+    "maximum_abs_curl": 2.0,
+    "maximum_gradient_magnitude": 2.8284271247461903,
+    "mean_curl": 2.0,
+    "mean_divergence": 0.0,
+    "mean_gradient_magnitude": 2.145967610998307,
+    "point_count": 9,
+    "scenario": "coarse_grid",
+    "warning": "Grid step is coarse; local derivative structure may be undersampled."
+  },
+  {
+    "field_description": "scalar f=x^2+y^2; vector F=<-y,x>",
+    "grid_step": 0.5,
+    "maximum_abs_curl": 2.0,
+    "maximum_gradient_magnitude": 2.8284271247461903,
+    "mean_curl": 2.0,
+    "mean_divergence": 0.0,
+    "mean_gradient_magnitude": 1.8743642627390185,
+    "point_count": 25,
+    "scenario": "medium_grid",
+    "warning": "Synthetic field-operator audit; document field definitions, units, grid, and boundary rules."
+  },
+  {
+    "field_description": "scalar f=x^2+y^2; vector F=<-y,x>",
+    "grid_step": 0.25,
+    "maximum_abs_curl": 2.0,
+    "maximum_gradient_magnitude": 2.8284271247461903,
+    "mean_curl": 2.0,
+    "mean_divergence": 0.0,
+    "mean_gradient_magnitude": 1.7121089533636975,
+    "point_count": 81,
+    "scenario": "fine_grid",
+    "warning": "Synthetic field-operator audit; document field definitions, units, grid, and boundary rules."
+  }
+]

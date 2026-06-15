@@ -1,0 +1,25 @@
+{
+  "article": "Gradient, Divergence, and Curl",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Gradient requires a scalar field; divergence and curl require vector fields.",
+    "Operator units depend on field units and coordinate units.",
+    "Finite differences depend on grid spacing, smoothing, interpolation, and boundary rules.",
+    "Divergence should not be interpreted as literal creation without a conservation context.",
+    "Curl is local rotation, not necessarily full-system circulation."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "calculator": "finite-difference-gradient",
+  "inputs": {
+    "command": "finite-difference-gradient",
+    "h": 0.01,
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Approximates gradient by central differences.",
+  "result": {
+    "df_dx": 2.000000000000013,
+    "df_dy": 2.000000000000013
+  },
+  "warning": ""
+}

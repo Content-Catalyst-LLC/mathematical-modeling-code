@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_point_count,result_mean_gradient_magnitude,result_maximum_gradient_magnitude,result_mean_divergence,result_mean_curl,result_maximum_abs_curl
+field-audit,"Audits gradient, divergence, and curl across a grid.",,field-audit,0.25,81,1.7121089533636975,2.8284271247461903,0.0,2.0,2.0

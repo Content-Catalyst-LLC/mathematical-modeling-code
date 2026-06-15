@@ -1,0 +1,14 @@
+{
+  "calculator": "gradient",
+  "inputs": {
+    "command": "gradient",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes analytic gradient of f=x^2+y^2.",
+  "result": {
+    "df_dx": 2.0,
+    "df_dy": 2.0
+  },
+  "warning": ""
+}

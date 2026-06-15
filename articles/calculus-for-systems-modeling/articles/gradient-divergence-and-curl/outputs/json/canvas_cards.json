@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "gradient",
+    "category": "operator",
+    "governance_note": "Gradient requires a scalar field, units, coordinates, and derivative method.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Gradient"
+  },
+  {
+    "card_id": "divergence",
+    "category": "operator",
+    "governance_note": "Divergence requires meaningful vector components and a conservation-aware interpretation.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Divergence"
+  },
+  {
+    "card_id": "curl",
+    "category": "operator",
+    "governance_note": "Curl describes local rotation and should not be overstated as full circulation.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Curl"
+  },
+  {
+    "card_id": "grid-resolution",
+    "category": "numerical method",
+    "governance_note": "Finite differences depend on grid spacing, smoothing, interpolation, and boundary handling.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Grid Resolution"
+  },
+  {
+    "card_id": "field-meaning",
+    "category": "governance",
+    "governance_note": "Operator interpretation depends on what the field represents and how it was measured or modeled.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Field Meaning"
+  }
+]

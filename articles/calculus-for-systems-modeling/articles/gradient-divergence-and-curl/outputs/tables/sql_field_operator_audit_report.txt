@@ -1,0 +1,32 @@
+section                           
+----------------------------------
+FIELD OPERATOR ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                            systems_modeling_role                                         review_warning                                              
+-----------------------  -----------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary handling        Defines how derivatives are estimated near domain edges.     Shapes edge behavior and operator summaries.                  Boundary estimates may be unstable or method-dependent.     
+
+Coordinate system        Defines derivative directions and spatial units.             Controls distance direction and operator interpretation.      Coordinate distortion can mislead derivative-based interpret
+                                                                                                                                                    ation.                                                      
+
+Grid spacing             Defines numerical derivative resolution.                     Shapes computed gradient divergence and curl values.          Coarse grids can miss local derivative structure.           
+
+Scalar field definition  Defines the field to which the gradient is applied.          Determines what steepest increase means in the modeled syste  A gradient is not interpretable without a meaningful scalar 
+                                                                                      m.                                                            field.                                                      
+
+Smoothing                Controls noise reduction before derivative estimation.       Shapes operator signals and may hide local structure.         Smoothing choices must be documented.                       
+
+Vector field definition  Defines the field to which divergence and curl are applied.  Determines what spreading convergence or rotation means.      Divergence and curl require meaningful vector components and
+                                                                                                                                                     units.                                                     
+section                   
+--------------------------
+FIELD OPERATOR AUDIT CASES
+scenario     grid_step  point_count  mean_gradient_magnitude  maximum_gradient_magnitude  mean_divergence  mean_curl  warning                                                     
+-----------  ---------  -----------  -----------------------  --------------------------  ---------------  ---------  ------------------------------------------------------------
+coarse_grid  1.0        9            2.145                    2.828                       0.0              2.0        Grid step is coarse; local derivative structure may be under
+                                                                                                                      sampled.                                                    
+
+medium_grid  0.5        25           1.875                    2.828                       0.0              2.0        Synthetic field-operator audit; document field definitions u
+                                                                                                                      nits grid and boundary rules.                               
+
+fine_grid    0.25       81           1.7                      2.828                       0.0              2.0        Synthetic field-operator audit; document field definitions u
+                                                                                                                      nits grid and boundary rules.                               

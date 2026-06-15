@@ -1,0 +1,14 @@
+{
+  "calculator": "vector-field",
+  "inputs": {
+    "command": "vector-field",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Evaluates vector field F=<-y,x>.",
+  "result": {
+    "P": -1.0,
+    "Q": 1.0
+  },
+  "warning": ""
+}

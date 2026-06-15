@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_df_dx,result_df_dy
+gradient,Computes analytic gradient of f=x^2+y^2.,,gradient,1.0,1.0,2.0,2.0

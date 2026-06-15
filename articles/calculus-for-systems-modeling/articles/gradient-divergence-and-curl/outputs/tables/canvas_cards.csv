@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+gradient,Gradient,operator,96,active,2026-06-15,"Gradient requires a scalar field, units, coordinates, and derivative method."
+divergence,Divergence,operator,95,active,2026-06-15,Divergence requires meaningful vector components and a conservation-aware interpretation.
+curl,Curl,operator,95,active,2026-06-15,Curl describes local rotation and should not be overstated as full circulation.
+grid-resolution,Grid Resolution,numerical method,92,review,2026-06-15,"Finite differences depend on grid spacing, smoothing, interpolation, and boundary handling."
+field-meaning,Field Meaning,governance,94,review,2026-06-15,Operator interpretation depends on what the field represents and how it was measured or modeled.

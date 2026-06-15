@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_h,result_divergence
+finite-difference-divergence,Approximates divergence by central differences.,,finite-difference-divergence,1.0,1.0,0.01,0.0

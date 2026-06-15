@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FieldOperatorAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "grid_step", "point_count", "mean_gradient_magnitude",
+    "maximum_gradient_magnitude", "mean_divergence", "mean_curl",
+    "maximum_abs_curl", "field_description", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "grid_step": {"type": "number"},
+    "point_count": {"type": "integer"},
+    "mean_gradient_magnitude": {"type": "number"},
+    "maximum_gradient_magnitude": {"type": "number"},
+    "mean_divergence": {"type": "number"},
+    "mean_curl": {"type": "number"},
+    "maximum_abs_curl": {"type": "number"},
+    "field_description": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,10 @@
+condition,passed,warning
+scalar field definition documented,True,
+vector field definition documented,True,
+gradient divergence curl distinction included,True,
+grid spacing warning included,True,
+coordinate and units warning included,True,
+boundary handling warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

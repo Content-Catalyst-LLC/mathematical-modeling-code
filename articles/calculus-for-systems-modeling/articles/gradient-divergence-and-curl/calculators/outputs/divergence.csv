@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_divergence
+divergence,"Computes analytic divergence of F=<-y,x>.",,divergence,1.0,1.0,0.0

@@ -1,0 +1,17 @@
+{
+  "calculator": "field-audit",
+  "inputs": {
+    "command": "field-audit",
+    "step": 0.25
+  },
+  "interpretation": "Audits gradient, divergence, and curl across a grid.",
+  "result": {
+    "maximum_abs_curl": 2.0,
+    "maximum_gradient_magnitude": 2.8284271247461903,
+    "mean_curl": 2.0,
+    "mean_divergence": 0.0,
+    "mean_gradient_magnitude": 1.7121089533636975,
+    "point_count": 81
+  },
+  "warning": ""
+}

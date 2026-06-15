@@ -1,0 +1,14 @@
+{
+  "calculator": "finite-difference-divergence",
+  "inputs": {
+    "command": "finite-difference-divergence",
+    "h": 0.01,
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Approximates divergence by central differences.",
+  "result": {
+    "divergence": 0.0
+  },
+  "warning": ""
+}

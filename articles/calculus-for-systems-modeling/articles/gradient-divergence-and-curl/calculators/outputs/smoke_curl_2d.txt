@@ -1,0 +1,13 @@
+{
+  "calculator": "curl-2d",
+  "inputs": {
+    "command": "curl-2d",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes 2D curl scalar of F=<-y,x>.",
+  "result": {
+    "curl_2d": 2.0
+  },
+  "warning": ""
+}

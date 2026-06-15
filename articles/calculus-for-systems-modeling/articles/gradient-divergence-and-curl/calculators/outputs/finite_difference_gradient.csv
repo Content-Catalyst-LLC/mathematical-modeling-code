@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_h,result_df_dx,result_df_dy
+finite-difference-gradient,Approximates gradient by central differences.,,finite-difference-gradient,1.0,1.0,0.01,2.000000000000013,2.000000000000013

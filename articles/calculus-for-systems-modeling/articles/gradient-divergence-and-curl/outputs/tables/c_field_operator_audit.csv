@@ -1,0 +1,4 @@
+scenario,grid_step,point_count,mean_gradient_magnitude,maximum_gradient_magnitude,mean_divergence,mean_curl,maximum_abs_curl,field_description,warning
+coarse_grid,1.000000000000,9,2.145967610998,2.828427124746,0.000000000000,2.000000000000,2.000000000000,scalar f=x^2+y^2; vector F=<-y,x>,Grid step is coarse; local derivative structure may be undersampled.
+medium_grid,0.500000000000,25,1.874364262739,2.828427124746,0.000000000000,2.000000000000,2.000000000000,scalar f=x^2+y^2; vector F=<-y,x>,Synthetic field-operator audit; document field definitions units grid and boundary rules.
+fine_grid,0.250000000000,81,1.712108953364,2.828427124746,0.000000000000,2.000000000000,2.000000000000,scalar f=x^2+y^2; vector F=<-y,x>,Synthetic field-operator audit; document field definitions units grid and boundary rules.

@@ -1,0 +1,24 @@
+actual_title: "Gradient, Divergence, and Curl"
+suggested_seo_title: "Gradient, Divergence, and Curl in Systems Modeling"
+focus_keyword: "gradient divergence curl"
+slug: "gradient-divergence-and-curl"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "surface-integrals-and-distributed-accumulation"
+  current: "gradient-divergence-and-curl"
+  next: "flux-circulation-and-spatial-flow"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/gradient-divergence-and-curl"
+tags:
+  - Calculus
+  - Vector Calculus
+  - Gradient
+  - Divergence
+  - Curl
+  - Scalar Fields
+  - Vector Fields
+  - Systems Modeling
+excerpt_139_words: "Gradient, divergence, and curl are local vector-calculus operators that reveal how fields change, spread, converge, rotate, and organize motion through continuous space. This article explains scalar fields, vector fields, the del operator, gradient, divergence, curl, gradient magnitude, source-sink behavior, rotational tendency, finite-difference approximation, grid spacing, coordinate systems, units, boundary handling, smoothing, flux, circulation, and responsible interpretation. It shows why these operators are not interchangeable: gradient maps scalar fields to directional change, divergence maps vector fields to local spreading or convergence, and curl maps vector fields to local rotation. In computational workflows, field-operator audits support gradient diagnostics, divergence checks, curl summaries, grid-resolution review, SQL assumption registries, calculator scripts, and governance of spatial-field claims. The article emphasizes documenting field meaning, units, coordinates, derivative method, smoothing, boundary rules, and interpretive limits."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

@@ -1,0 +1,23 @@
+{
+  "article_slug": "gradient-divergence-and-curl",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "scalar-field", "title": "Scalar Field Evaluator"},
+    {"id": "vector-field", "title": "Vector Field Evaluator"},
+    {"id": "gradient", "title": "Gradient"},
+    {"id": "gradient-magnitude", "title": "Gradient Magnitude"},
+    {"id": "divergence", "title": "Divergence"},
+    {"id": "curl-2d", "title": "Two-Dimensional Curl"},
+    {"id": "finite-difference-gradient", "title": "Finite-Difference Gradient"},
+    {"id": "finite-difference-divergence", "title": "Finite-Difference Divergence"},
+    {"id": "finite-difference-curl", "title": "Finite-Difference Curl"},
+    {"id": "field-audit", "title": "Field Operator Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

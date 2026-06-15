@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+scalar_field_definition,Scalar field definition,Defines the field to which gradient is applied,Determines what steepest increase means,A gradient is not interpretable without a meaningful scalar field
+vector_field_definition,Vector field definition,Defines the field to which divergence and curl are applied,Determines what spreading convergence or rotation means,Divergence and curl require meaningful vector components and units
+gradient,Gradient,Maps a scalar field to a vector field of steepest local increase,Supports directional pressure slope and local increase interpretation,Gradient units combine scalar-field units and coordinate units
+divergence,Divergence,Maps a vector field to a scalar field of local source-sink behavior,Supports spreading convergence and conservation interpretation,Divergence is not literal creation unless conservation context supports it
+curl,Curl,Maps a vector field to local rotational structure,Supports circulation rotation and feedback interpretation,Curl is local rotation not full-system circulation by itself
+grid_spacing,Grid spacing,Defines numerical derivative resolution,Shapes computed operator values,Coarse grids can miss local derivative structure
+boundary_handling,Boundary handling,Defines derivative estimates near domain edges,Shapes edge behavior and operator summaries,Boundary estimates may be unstable or method-dependent
