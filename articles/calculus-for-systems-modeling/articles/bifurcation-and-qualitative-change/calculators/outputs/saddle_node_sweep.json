@@ -1,0 +1,14 @@
+{
+  "calculator": "saddle-node-sweep",
+  "inputs": {
+    "command": "saddle-node-sweep",
+    "mu_max": 4.0,
+    "mu_min": -2.0,
+    "mu_step": 0.5
+  },
+  "interpretation": "Builds a saddle-node bifurcation parameter sweep.",
+  "result": {
+    "records": 21
+  },
+  "warning": "Sweep resolution affects critical value detection."
+}

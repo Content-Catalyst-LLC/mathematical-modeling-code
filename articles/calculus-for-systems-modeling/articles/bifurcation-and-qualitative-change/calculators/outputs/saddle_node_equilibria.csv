@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_mu,result_count
+saddle-node-equilibria,Computes equilibria for x' = mu - x^2.,"For mu < 0, no real equilibria exist in this normal form.",saddle-node-equilibria,4.0,2

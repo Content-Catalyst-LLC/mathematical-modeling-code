@@ -1,0 +1,10 @@
+condition,passed,warning
+bifurcation parameter documented,True,
+saddle-node audit included,True,
+equilibrium branches recorded,True,
+stability classifications included,True,
+critical value warnings included,True,
+parameter sweep resolution documented,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

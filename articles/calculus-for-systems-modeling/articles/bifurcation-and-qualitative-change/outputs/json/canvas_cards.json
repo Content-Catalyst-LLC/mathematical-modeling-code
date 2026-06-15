@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "bifurcation-parameter",
+    "category": "model structure",
+    "governance_note": "The varied parameter should have a clear systems interpretation and documented range.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Bifurcation Parameter"
+  },
+  {
+    "card_id": "critical-value",
+    "category": "threshold interpretation",
+    "governance_note": "Critical values should be labeled as mathematical, estimated, scenario-based, or policy-defined.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Critical Value"
+  },
+  {
+    "card_id": "equilibrium-branch",
+    "category": "qualitative dynamics",
+    "governance_note": "Branches should be checked against meaningful domains and units.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Equilibrium Branch"
+  },
+  {
+    "card_id": "hysteresis",
+    "category": "path dependence",
+    "governance_note": "Hysteresis claims require parameter-path documentation and evidence.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Hysteresis"
+  },
+  {
+    "card_id": "bifurcation-governance",
+    "category": "governance",
+    "governance_note": "Bifurcation diagrams should be presented as model-based conditional evidence.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Bifurcation Governance"
+  }
+]

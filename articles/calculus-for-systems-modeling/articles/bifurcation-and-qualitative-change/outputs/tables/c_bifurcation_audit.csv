@@ -1,0 +1,102 @@
+model,parameter_mu,equilibrium,derivative_value,stability,branch_status,warning
+saddle_node_normal_form,-2.000000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.900000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.800000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.700000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.600000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.500000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.400000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.300000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.200000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.100000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-1.000000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.900000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.800000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.700000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.600000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.500000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.400000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.300000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.200000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,-0.100000,,,no_real_equilibrium,equilibrium_absent,For mu below zero the saddle-node normal form has no real equilibrium.
+saddle_node_normal_form,0.000000,0.000000,-0.000000,inconclusive_at_critical_value,critical_branch,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.100000,-0.316228,0.632456,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.100000,0.316228,-0.632456,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.200000,-0.447214,0.894427,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.200000,0.447214,-0.894427,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.300000,-0.547723,1.095445,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.300000,0.547723,-1.095445,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.400000,-0.632456,1.264911,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.400000,0.632456,-1.264911,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.500000,-0.707107,1.414214,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.500000,0.707107,-1.414214,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.600000,-0.774597,1.549193,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.600000,0.774597,-1.549193,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.700000,-0.836660,1.673320,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.700000,0.836660,-1.673320,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.800000,-0.894427,1.788854,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.800000,0.894427,-1.788854,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.900000,-0.948683,1.897367,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,0.900000,0.948683,-1.897367,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.000000,-1.000000,2.000000,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.000000,1.000000,-2.000000,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.100000,-1.048809,2.097618,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.100000,1.048809,-2.097618,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.200000,-1.095445,2.190890,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.200000,1.095445,-2.190890,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.300000,-1.140175,2.280351,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.300000,1.140175,-2.280351,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.400000,-1.183216,2.366432,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.400000,1.183216,-2.366432,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.500000,-1.224745,2.449490,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.500000,1.224745,-2.449490,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.600000,-1.264911,2.529822,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.600000,1.264911,-2.529822,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.700000,-1.303840,2.607681,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.700000,1.303840,-2.607681,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.800000,-1.341641,2.683282,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.800000,1.341641,-2.683282,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.900000,-1.378405,2.756810,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,1.900000,1.378405,-2.756810,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.000000,-1.414214,2.828427,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.000000,1.414214,-2.828427,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.100000,-1.449138,2.898275,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.100000,1.449138,-2.898275,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.200000,-1.483240,2.966479,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.200000,1.483240,-2.966479,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.300000,-1.516575,3.033150,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.300000,1.516575,-3.033150,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.400000,-1.549193,3.098387,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.400000,1.549193,-3.098387,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.500000,-1.581139,3.162278,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.500000,1.581139,-3.162278,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.600000,-1.612452,3.224903,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.600000,1.612452,-3.224903,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.700000,-1.643168,3.286335,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.700000,1.643168,-3.286335,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.800000,-1.673320,3.346640,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.800000,1.673320,-3.346640,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.900000,-1.702939,3.405877,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,2.900000,1.702939,-3.405877,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.000000,-1.732051,3.464102,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.000000,1.732051,-3.464102,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.100000,-1.760682,3.521363,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.100000,1.760682,-3.521363,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.200000,-1.788854,3.577709,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.200000,1.788854,-3.577709,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.300000,-1.816590,3.633180,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.300000,1.816590,-3.633180,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.400000,-1.843909,3.687818,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.400000,1.843909,-3.687818,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.500000,-1.870829,3.741657,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.500000,1.870829,-3.741657,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.600000,-1.897367,3.794733,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.600000,1.897367,-3.794733,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.700000,-1.923538,3.847077,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.700000,1.923538,-3.847077,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.800000,-1.949359,3.898718,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.800000,1.949359,-3.898718,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.900000,-1.974842,3.949684,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,3.900000,1.974842,-3.949684,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,4.000000,-2.000000,4.000000,locally_unstable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.
+saddle_node_normal_form,4.000000,2.000000,-4.000000,locally_stable,equilibrium_present,Bifurcation interpretation depends on model form parameter meaning and domain validity.

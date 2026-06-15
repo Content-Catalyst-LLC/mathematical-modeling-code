@@ -1,0 +1,911 @@
+[
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -2.0,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.9,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.8,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.7,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.6,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.5,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.4,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.3,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.2,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.1,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -1.0,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.9,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.8,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.7,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.6,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.5,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.4,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.3,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.2,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "equilibrium_absent",
+    "derivative_value": null,
+    "equilibrium": null,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": -0.1,
+    "stability": "no_real_equilibrium",
+    "warning": "For mu below zero, the saddle-node normal form has no real equilibrium."
+  },
+  {
+    "branch_status": "critical_branch",
+    "derivative_value": -0.0,
+    "equilibrium": 0.0,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.0,
+    "stability": "inconclusive_at_critical_value",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 0.6324555320336759,
+    "equilibrium": -0.31622776601683794,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.1,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -0.6324555320336759,
+    "equilibrium": 0.31622776601683794,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.1,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 0.8944271909999159,
+    "equilibrium": -0.4472135954999579,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.2,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -0.8944271909999159,
+    "equilibrium": 0.4472135954999579,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.2,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 1.0954451150103321,
+    "equilibrium": -0.5477225575051661,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.3,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -1.0954451150103321,
+    "equilibrium": 0.5477225575051661,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.3,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 1.2649110640673518,
+    "equilibrium": -0.6324555320336759,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.4,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -1.2649110640673518,
+    "equilibrium": 0.6324555320336759,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.4,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 1.4142135623730951,
+    "equilibrium": -0.7071067811865476,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.5,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -1.4142135623730951,
+    "equilibrium": 0.7071067811865476,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.5,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 1.5491933384829668,
+    "equilibrium": -0.7745966692414834,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.6,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -1.5491933384829668,
+    "equilibrium": 0.7745966692414834,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.6,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 1.6733200530681511,
+    "equilibrium": -0.8366600265340756,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.7,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -1.6733200530681511,
+    "equilibrium": 0.8366600265340756,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.7,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 1.7888543819998317,
+    "equilibrium": -0.8944271909999159,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.8,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -1.7888543819998317,
+    "equilibrium": 0.8944271909999159,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.8,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 1.8973665961010275,
+    "equilibrium": -0.9486832980505138,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.9,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -1.8973665961010275,
+    "equilibrium": 0.9486832980505138,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 0.9,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.0,
+    "equilibrium": -1.0,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.0,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.0,
+    "equilibrium": 1.0,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.0,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.0976176963403033,
+    "equilibrium": -1.0488088481701516,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.1,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.0976176963403033,
+    "equilibrium": 1.0488088481701516,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.1,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.1908902300206643,
+    "equilibrium": -1.0954451150103321,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.2,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.1908902300206643,
+    "equilibrium": 1.0954451150103321,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.2,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.280350850198276,
+    "equilibrium": -1.140175425099138,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.3,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.280350850198276,
+    "equilibrium": 1.140175425099138,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.3,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.3664319132398464,
+    "equilibrium": -1.1832159566199232,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.4,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.3664319132398464,
+    "equilibrium": 1.1832159566199232,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.4,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.449489742783178,
+    "equilibrium": -1.224744871391589,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.5,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.449489742783178,
+    "equilibrium": 1.224744871391589,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.5,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.5298221281347035,
+    "equilibrium": -1.2649110640673518,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.6,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.5298221281347035,
+    "equilibrium": 1.2649110640673518,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.6,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.6076809620810595,
+    "equilibrium": -1.3038404810405297,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.7,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.6076809620810595,
+    "equilibrium": 1.3038404810405297,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.7,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.6832815729997477,
+    "equilibrium": -1.3416407864998738,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.8,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.6832815729997477,
+    "equilibrium": 1.3416407864998738,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.8,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.756809750418044,
+    "equilibrium": -1.378404875209022,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.9,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.756809750418044,
+    "equilibrium": 1.378404875209022,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 1.9,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.8284271247461903,
+    "equilibrium": -1.4142135623730951,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.0,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.8284271247461903,
+    "equilibrium": 1.4142135623730951,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.0,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.898275349237888,
+    "equilibrium": -1.449137674618944,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.1,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.898275349237888,
+    "equilibrium": 1.449137674618944,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.1,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 2.9664793948382653,
+    "equilibrium": -1.4832396974191326,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.2,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -2.9664793948382653,
+    "equilibrium": 1.4832396974191326,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.2,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.03315017762062,
+    "equilibrium": -1.51657508881031,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.3,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.03315017762062,
+    "equilibrium": 1.51657508881031,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.3,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.0983866769659336,
+    "equilibrium": -1.5491933384829668,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.4,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.0983866769659336,
+    "equilibrium": 1.5491933384829668,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.4,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.1622776601683795,
+    "equilibrium": -1.5811388300841898,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.5,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.1622776601683795,
+    "equilibrium": 1.5811388300841898,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.5,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.22490309931942,
+    "equilibrium": -1.61245154965971,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.6,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.22490309931942,
+    "equilibrium": 1.61245154965971,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.6,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.286335345030997,
+    "equilibrium": -1.6431676725154984,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.7,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.286335345030997,
+    "equilibrium": 1.6431676725154984,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.7,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.3466401061363023,
+    "equilibrium": -1.6733200530681511,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.8,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.3466401061363023,
+    "equilibrium": 1.6733200530681511,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.8,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.40587727318528,
+    "equilibrium": -1.70293863659264,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.9,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.40587727318528,
+    "equilibrium": 1.70293863659264,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 2.9,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.4641016151377544,
+    "equilibrium": -1.7320508075688772,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.0,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.4641016151377544,
+    "equilibrium": 1.7320508075688772,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.0,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.521363372331802,
+    "equilibrium": -1.760681686165901,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.1,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.521363372331802,
+    "equilibrium": 1.760681686165901,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.1,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.5777087639996634,
+    "equilibrium": -1.7888543819998317,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.2,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.5777087639996634,
+    "equilibrium": 1.7888543819998317,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.2,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.63318042491699,
+    "equilibrium": -1.816590212458495,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.3,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.63318042491699,
+    "equilibrium": 1.816590212458495,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.3,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.687817782917155,
+    "equilibrium": -1.8439088914585775,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.4,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.687817782917155,
+    "equilibrium": 1.8439088914585775,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.4,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.7416573867739413,
+    "equilibrium": -1.8708286933869707,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.5,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.7416573867739413,
+    "equilibrium": 1.8708286933869707,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.5,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.794733192202055,
+    "equilibrium": -1.8973665961010275,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.6,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.794733192202055,
+    "equilibrium": 1.8973665961010275,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.6,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.847076812334269,
+    "equilibrium": -1.9235384061671346,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.7,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.847076812334269,
+    "equilibrium": 1.9235384061671346,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.7,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.8987177379235853,
+    "equilibrium": -1.9493588689617927,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.8,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.8987177379235853,
+    "equilibrium": 1.9493588689617927,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.8,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 3.9496835316262997,
+    "equilibrium": -1.9748417658131499,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.9,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -3.9496835316262997,
+    "equilibrium": 1.9748417658131499,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 3.9,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": 4.0,
+    "equilibrium": -2.0,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 4.0,
+    "stability": "locally_unstable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  },
+  {
+    "branch_status": "equilibrium_present",
+    "derivative_value": -4.0,
+    "equilibrium": 2.0,
+    "model": "saddle_node_normal_form",
+    "parameter_mu": 4.0,
+    "stability": "locally_stable",
+    "warning": "Bifurcation interpretation depends on model form, parameter meaning, and domain validity."
+  }
+]

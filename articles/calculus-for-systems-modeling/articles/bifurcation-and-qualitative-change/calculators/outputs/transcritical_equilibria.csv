@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_mu,result_count
+transcritical-equilibria,Computes equilibria for x' = mu*x - x^2.,Stability exchange interpretation depends on model domain.,transcritical-equilibria,2.0,2

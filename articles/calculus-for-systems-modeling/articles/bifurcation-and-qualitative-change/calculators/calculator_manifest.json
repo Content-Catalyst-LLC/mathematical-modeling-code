@@ -1,0 +1,18 @@
+{
+  "article_slug": "bifurcation-and-qualitative-change",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "saddle-node-equilibria", "title": "Saddle-Node Equilibria"},
+    {"id": "transcritical-equilibria", "title": "Transcritical Equilibria"},
+    {"id": "pitchfork-equilibria", "title": "Pitchfork Equilibria"},
+    {"id": "classify-derivative", "title": "Derivative Stability Classifier"},
+    {"id": "saddle-node-sweep", "title": "Saddle-Node Parameter Sweep"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

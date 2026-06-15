@@ -1,0 +1,25 @@
+{
+  "article": "Bifurcation and Qualitative Change",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Bifurcation analysis is conditional on model form and parameter meaning.",
+    "Critical values may be mathematical, estimated, scenario-based, or policy-defined.",
+    "Equilibrium branches must be checked against meaningful domains and units.",
+    "Coarse parameter sweeps can miss or misplace bifurcations.",
+    "Bifurcation diagrams should not be presented as certain forecasts."
+  ]
+}

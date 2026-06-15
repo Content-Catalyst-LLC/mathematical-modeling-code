@@ -1,0 +1,12 @@
+{
+  "calculator": "classify-derivative",
+  "inputs": {
+    "command": "classify-derivative",
+    "derivative_value": -2.0
+  },
+  "interpretation": "Classifies scalar local stability from derivative sign.",
+  "result": {
+    "stability": "locally_stable"
+  },
+  "warning": "Derivative-based classification is local."
+}

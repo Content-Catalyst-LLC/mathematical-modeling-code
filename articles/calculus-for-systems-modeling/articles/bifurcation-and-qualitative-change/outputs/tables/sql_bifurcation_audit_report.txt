@@ -1,0 +1,29 @@
+section                        
+-------------------------------
+BIFURCATION ASSUMPTION REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Bifurcation parameter     Identifies the parameter varied to study qualitative change.  Represents stress forcing growth coupling recovery policy or  The parameter must have a clear interpretation and documente
+                                                                                         external condition.                                          d range.                                                    
+
+Critical value            Marks where the model changes qualitative behavior.           Represents a possible threshold tipping condition or regime   Critical values may be theoretical estimated scenario-based 
+                                                                                        boundary.                                                     or policy-defined.                                          
+
+Equilibrium branch        Tracks equilibrium values as the parameter changes.           Shows possible steady states under changing conditions.       Branches must be checked against meaningful domains and unit
+                                                                                                                                                      s.                                                          
+
+Hysteresis                Represents path-dependent behavior where recovery differs fr  Explains why undoing stress may not restore the previous sta  Hysteresis claims require careful evidence and parameter-pat
+                          om collapse.                                                  te.                                                           h documentation.                                            
+
+Numerical resolution      Defines the parameter grid or continuation step used in comp  Shapes how precisely critical values and branches are detect  Coarse parameter sweeps can miss or misplace bifurcations.  
+                          utation.                                                      ed.                                                                                                                       
+
+Stability classification  Labels branches as stable unstable or inconclusive.           Supports interpretation of attraction fragility threshold be  Local stability labels should not be treated as global resil
+                                                                                        havior or collapse.                                           ience claims.                                               
+section                
+-----------------------
+BIFURCATION AUDIT CASES
+model                    parameter_min  parameter_max  parameter_step  normal_form               critical_value  warning                                                     
+-----------------------  -------------  -------------  --------------  ------------------------  --------------  ------------------------------------------------------------
+saddle_node_normal_form  -2.0           4.0            0.1             x_prime = mu - x_squared  0.0             Bifurcation interpretation depends on model form, parameter 
+                                                                                                                 meaning, numerical resolution, and domain validity.         

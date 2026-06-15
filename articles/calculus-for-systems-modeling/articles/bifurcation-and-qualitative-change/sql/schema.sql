@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS bifurcation_assumption_registry;
+DROP TABLE IF EXISTS bifurcation_audit_cases;
+
+CREATE TABLE bifurcation_assumption_registry (
+    assumption_key TEXT PRIMARY KEY,
+    assumption_name TEXT NOT NULL,
+    mathematical_role TEXT NOT NULL,
+    systems_modeling_role TEXT NOT NULL,
+    review_warning TEXT NOT NULL
+);
+
+INSERT INTO bifurcation_assumption_registry VALUES
+('bifurcation_parameter','Bifurcation parameter','Identifies the parameter varied to study qualitative change.','Represents stress forcing growth coupling recovery policy or external condition.','The parameter must have a clear interpretation and documented range.'),
+('critical_value','Critical value','Marks where the model changes qualitative behavior.','Represents a possible threshold tipping condition or regime boundary.','Critical values may be theoretical estimated scenario-based or policy-defined.'),
+('equilibrium_branch','Equilibrium branch','Tracks equilibrium values as the parameter changes.','Shows possible steady states under changing conditions.','Branches must be checked against meaningful domains and units.'),
+('stability_classification','Stability classification','Labels branches as stable unstable or inconclusive.','Supports interpretation of attraction fragility threshold behavior or collapse.','Local stability labels should not be treated as global resilience claims.'),
+('hysteresis','Hysteresis','Represents path-dependent behavior where recovery differs from collapse.','Explains why undoing stress may not restore the previous state.','Hysteresis claims require careful evidence and parameter-path documentation.'),
+('numerical_resolution','Numerical resolution','Defines the parameter grid or continuation step used in computation.','Shapes how precisely critical values and branches are detected.','Coarse parameter sweeps can miss or misplace bifurcations.');
+
+CREATE TABLE bifurcation_audit_cases (
+    model TEXT NOT NULL,
+    parameter_min REAL NOT NULL,
+    parameter_max REAL NOT NULL,
+    parameter_step REAL NOT NULL,
+    normal_form TEXT NOT NULL,
+    critical_value REAL NOT NULL,
+    warning TEXT NOT NULL
+);
+
+INSERT INTO bifurcation_audit_cases VALUES
+('saddle_node_normal_form',-2.0,4.0,0.1,'x_prime = mu - x_squared',0.0,'Bifurcation interpretation depends on model form, parameter meaning, numerical resolution, and domain validity.');

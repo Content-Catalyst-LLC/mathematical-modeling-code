@@ -1,0 +1,3 @@
+                calculator mu equilibrium
+1 transcritical-equilibria  2           0
+2 transcritical-equilibria  2           2

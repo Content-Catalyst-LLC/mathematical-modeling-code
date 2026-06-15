@@ -1,0 +1,4 @@
+            calculator mu equilibrium
+1 pitchfork-equilibria  4           0
+2 pitchfork-equilibria  4          -2
+3 pitchfork-equilibria  4           2

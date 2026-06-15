@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+bifurcation-parameter,Bifurcation Parameter,model structure,96,active,2026-06-15,The varied parameter should have a clear systems interpretation and documented range.
+critical-value,Critical Value,threshold interpretation,95,review,2026-06-15,"Critical values should be labeled as mathematical, estimated, scenario-based, or policy-defined."
+equilibrium-branch,Equilibrium Branch,qualitative dynamics,94,active,2026-06-15,Branches should be checked against meaningful domains and units.
+hysteresis,Hysteresis,path dependence,93,review,2026-06-15,Hysteresis claims require parameter-path documentation and evidence.
+bifurcation-governance,Bifurcation Governance,governance,92,active,2026-06-15,Bifurcation diagrams should be presented as model-based conditional evidence.

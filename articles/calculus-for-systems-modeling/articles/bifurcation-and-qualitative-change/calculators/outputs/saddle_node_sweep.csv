@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_mu_min,input_mu_max,input_mu_step,result_records
+saddle-node-sweep,Builds a saddle-node bifurcation parameter sweep.,Sweep resolution affects critical value detection.,saddle-node-sweep,-2.0,4.0,0.5,21

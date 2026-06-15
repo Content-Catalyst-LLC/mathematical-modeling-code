@@ -1,0 +1,17 @@
+{
+  "calculator": "pitchfork-equilibria",
+  "inputs": {
+    "command": "pitchfork-equilibria",
+    "mu": 4.0
+  },
+  "interpretation": "Computes equilibria for x' = mu*x - x^3.",
+  "result": {
+    "count": 3,
+    "equilibria": [
+      0.0,
+      -2.0,
+      2.0
+    ]
+  },
+  "warning": "Pitchfork models often assume symmetry that may not hold in real systems."
+}
