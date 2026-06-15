@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AntiderivativeRecoveryAudit",
+  "type": "object",
+  "required": ["time", "net_flow", "recovered_stock", "method", "unit_check", "warning"],
+  "properties": {
+    "time": {"type": "number"},
+    "net_flow": {"type": "number"},
+    "recovered_stock": {"type": "number"},
+    "method": {"type": "string"},
+    "unit_check": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

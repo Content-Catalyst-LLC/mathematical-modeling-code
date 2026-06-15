@@ -1,0 +1,54 @@
+{
+  "advanced_standard": true,
+  "article": "Antiderivatives and the Recovery of Accumulation",
+  "condition_failures": [
+    {
+      "condition": "initial condition documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "recovered accumulation lacks a documented baseline"
+    },
+    {
+      "condition": "unit consistency documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "rate-variable accumulation units are not documented"
+    },
+    {
+      "condition": "time-step size",
+      "passed": false,
+      "value": 5.0,
+      "warning": "large time step may distort numerical accumulation"
+    },
+    {
+      "condition": "missing-flow review documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "missing inflows or outflows may invalidate recovered stock"
+    },
+    {
+      "condition": "domain interval documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "accumulation interval exceeds or lacks documented model support"
+    }
+  ],
+  "topics": [
+    "antiderivative_family",
+    "constant_of_integration",
+    "initial_condition",
+    "flow_to_stock_recovery",
+    "marginal_to_total_recovery",
+    "unit_consistency",
+    "numerical_accumulation",
+    "domain_interval_review",
+    "missing_flow_review"
+  ],
+  "warnings": [
+    "A rate function determines a family of possible accumulated quantities, not a unique state.",
+    "Initial conditions select recovered trajectories.",
+    "Unit mismatch invalidates accumulation.",
+    "Numerical accumulation depends on time step and method.",
+    "Missing inflows or outflows can produce false stock recovery."
+  ]
+}

@@ -1,0 +1,22 @@
+actual_title: "Antiderivatives and the Recovery of Accumulation"
+suggested_seo_title: "Antiderivatives and the Recovery of Accumulation in Systems Modeling"
+focus_keyword: "antiderivatives recovery of accumulation"
+slug: "antiderivatives-and-the-recovery-of-accumulation"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "elasticity-sensitivity-and-marginal-response"
+  current: "antiderivatives-and-the-recovery-of-accumulation"
+  next: "definite-integrals-and-total-change"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/antiderivatives-and-the-recovery-of-accumulation"
+tags:
+  - Calculus
+  - Antiderivatives
+  - Accumulation
+  - Integration
+  - Flow-to-Stock Reasoning
+  - Initial Conditions
+  - Systems Modeling
+  - Numerical Integration
+excerpt_139_words: "Antiderivatives recover accumulated quantities from rates of change. This article develops antiderivatives as a systems-modeling tool for reconstructing stocks from flows, exposure from intensity, distance from velocity, burden from rate, cumulative cost from marginal cost, and system state from observed change. It explains primitive functions, constants of integration, initial conditions, flow-to-stock reasoning, marginal-to-total reasoning, unit consistency, numerical accumulation, reconstruction from data, calibration, uncertainty, and responsible interpretation. The article emphasizes that a rate alone does not determine an absolute quantity without a baseline, interval, domain, and accumulation assumption. Companion workflows in Python, R, SQL, and Haskell include antiderivative recovery audits, flow-to-stock reconstruction, trapezoidal accumulation, baseline records, typed accumulation structures, unit checks, assumption registries, and advanced mathematical audit reports for responsible recovery of accumulated system quantities."
+advanced_standard: true

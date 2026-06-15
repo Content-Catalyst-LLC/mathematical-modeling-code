@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+rate_definition,Rate definition,The antiderivative recovers accumulation from a specified rate function,Clarifies what flow or marginal quantity is being accumulated,If the rate omits important inflows or outflows the recovered quantity is wrong
+initial_condition,Initial condition,The constant of integration is fixed by a baseline value,Selects one recovered state trajectory from the family of possible antiderivatives,Uncertain baselines shift the entire recovered trajectory
+unit_consistency,Unit consistency,Accumulating a rate over its variable should recover the intended quantity unit,Prevents invalid flow-to-stock or marginal-to-total conversions,Unit mismatch can invalidate the accumulation
+time_step_method,Time step and method,Numerical antiderivatives depend on the accumulation rule and grid spacing,Supports reproducible recovery from discrete data,Coarse irregular or noisy data can distort recovered accumulation
+domain_interval,Domain interval,Recovery is valid only over the interval where the rate model is valid,Prevents extrapolating accumulated quantities beyond supported conditions,Accumulation across unsupported intervals can create false cumulative claims

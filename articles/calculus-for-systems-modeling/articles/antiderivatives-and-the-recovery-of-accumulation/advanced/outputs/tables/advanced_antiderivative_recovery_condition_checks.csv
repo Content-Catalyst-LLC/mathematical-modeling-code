@@ -1,0 +1,11 @@
+condition,value,passed,warning
+initial condition documented,1.0,True,
+initial condition documented,0.0,False,recovered accumulation lacks a documented baseline
+unit consistency documented,1.0,True,
+unit consistency documented,0.0,False,rate-variable accumulation units are not documented
+time-step size,1.0,True,
+time-step size,5.0,False,large time step may distort numerical accumulation
+missing-flow review documented,1.0,True,
+missing-flow review documented,0.0,False,missing inflows or outflows may invalidate recovered stock
+domain interval documented,1.0,True,
+domain interval documented,0.0,False,accumulation interval exceeds or lacks documented model support

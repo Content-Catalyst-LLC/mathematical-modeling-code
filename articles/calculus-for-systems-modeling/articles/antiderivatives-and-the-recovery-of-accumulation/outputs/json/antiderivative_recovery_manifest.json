@@ -1,0 +1,27 @@
+{
+  "advanced_standard": true,
+  "article": "Antiderivatives and the Recovery of Accumulation",
+  "diagnostics": [
+    "baseline_record",
+    "net_flow_definition",
+    "unit_check",
+    "method_warning",
+    "time_step_check",
+    "missing_flow_review"
+  ],
+  "initial_stock": 100.0,
+  "methods": [
+    "trapezoidal accumulation",
+    "left-rectangle accumulation"
+  ],
+  "time_grid": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "warning": "Recovered accumulation depends on initial condition, rate definition, interval, units, and numerical method."
+}

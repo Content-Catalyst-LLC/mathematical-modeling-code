@@ -1,0 +1,8 @@
+time,net_flow,recovered_stock,method,unit_check,warning
+0,5.0,100.0,initial condition,stock units = initial stock units,baseline determines recovered level
+1,5.3,105.0,left-rectangle accumulation,flow units times time units = stock units,lower-order method; compare with trapezoidal recovery
+2,5.6,110.3,left-rectangle accumulation,flow units times time units = stock units,lower-order method; compare with trapezoidal recovery
+3,5.9,115.89999999999999,left-rectangle accumulation,flow units times time units = stock units,lower-order method; compare with trapezoidal recovery
+4,6.2,121.8,left-rectangle accumulation,flow units times time units = stock units,lower-order method; compare with trapezoidal recovery
+5,6.5,128.0,left-rectangle accumulation,flow units times time units = stock units,lower-order method; compare with trapezoidal recovery
+6,6.800000000000001,134.5,left-rectangle accumulation,flow units times time units = stock units,lower-order method; compare with trapezoidal recovery

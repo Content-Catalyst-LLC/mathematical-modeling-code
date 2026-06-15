@@ -1,0 +1,8 @@
+"time","net_flow","recovered_stock","method","unit_check","warning"
+0,5,100,"initial condition","stock units = initial stock units","baseline determines recovered level"
+1,5.3,105.15,"trapezoidal accumulation","flow units times time units = stock units",""
+2,5.6,110.6,"trapezoidal accumulation","flow units times time units = stock units",""
+3,5.9,116.35,"trapezoidal accumulation","flow units times time units = stock units",""
+4,6.2,122.4,"trapezoidal accumulation","flow units times time units = stock units",""
+5,6.5,128.75,"trapezoidal accumulation","flow units times time units = stock units",""
+6,6.8,135.4,"trapezoidal accumulation","flow units times time units = stock units",""

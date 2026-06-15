@@ -1,0 +1,19 @@
+{
+  "article_slug": "antiderivatives-and-the-recovery-of-accumulation",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "antiderivatives-recovery-accumulation",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "rate-to-quantity", "title": "Rate to Quantity", "description": "Antiderivatives recover possible accumulated quantities from rates."},
+    {"card_id": "initial-condition", "title": "Initial Condition", "description": "A baseline selects one recovered trajectory from a family."},
+    {"card_id": "flow-to-stock", "title": "Flow to Stock", "description": "Stocks equal baseline plus accumulated net flow."},
+    {"card_id": "unit-check", "title": "Unit Check", "description": "Rate times integration variable must recover the intended quantity unit."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

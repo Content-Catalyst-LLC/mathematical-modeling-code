@@ -1,0 +1,19 @@
+section                                    
+-------------------------------------------
+ANTIDERIVATIVE RECOVERY ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Domain interval       Recovery is valid only over the interval where the rate mode  Prevents extrapolating accumulated quantities beyond support  Accumulation across unsupported intervals can create false c
+                      l is valid.                                                   ed conditions.                                                umulative claims.                                           
+
+Initial condition     The constant of integration is fixed by a baseline value.     Selects one recovered state trajectory from the family of po  Uncertain baselines shift the entire recovered trajectory.  
+                                                                                    ssible antiderivatives.                                                                                                   
+
+Rate definition       The antiderivative recovers accumulation from a specified ra  Clarifies what flow or marginal quantity is being accumulate  If the rate omits important inflows or outflows, the recover
+                      te function.                                                  d.                                                            ed quantity is wrong.                                       
+
+Time step and method  Numerical antiderivatives depend on the accumulation rule an  Supports reproducible recovery from discrete data.            Coarse, irregular, or noisy data can distort recovered accum
+                      d grid spacing.                                                                                                             ulation.                                                    
+
+Unit consistency      Accumulating a rate over its variable should recover the int  Prevents invalid flow-to-stock or marginal-to-total conversi  Unit mismatch can invalidate the accumulation.              
+                      ended quantity unit.                                          ons.                                                                                                                      
