@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_time,input_initial,input_input_rate,input_loss_rate,result_state
+analytical-solution,Computes y(t)=I/k+(y0-I/k)exp(-kt).,Assumes constant input and proportional loss.,analytical-solution,2.0,20.0,12.0,0.4,25.506710358827785

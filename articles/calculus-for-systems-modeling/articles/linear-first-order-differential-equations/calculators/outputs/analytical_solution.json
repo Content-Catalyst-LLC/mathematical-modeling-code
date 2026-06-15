@@ -1,0 +1,15 @@
+{
+  "calculator": "analytical-solution",
+  "inputs": {
+    "command": "analytical-solution",
+    "initial": 20.0,
+    "input_rate": 12.0,
+    "loss_rate": 0.4,
+    "time": 2.0
+  },
+  "interpretation": "Computes y(t)=I/k+(y0-I/k)exp(-kt).",
+  "result": {
+    "state": 25.506710358827785
+  },
+  "warning": "Assumes constant input and proportional loss."
+}

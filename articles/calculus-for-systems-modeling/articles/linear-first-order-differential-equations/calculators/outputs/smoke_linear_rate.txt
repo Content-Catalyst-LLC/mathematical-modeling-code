@@ -1,0 +1,14 @@
+{
+  "calculator": "linear-rate",
+  "inputs": {
+    "command": "linear-rate",
+    "input_rate": 12.0,
+    "loss_rate": 0.4,
+    "state": 20.0
+  },
+  "interpretation": "Computes dy/dt = input - loss*y.",
+  "result": {
+    "rate": 4.0
+  },
+  "warning": "Assumes proportional loss and additive input."
+}

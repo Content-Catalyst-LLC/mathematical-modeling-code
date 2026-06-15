@@ -1,0 +1,15 @@
+{
+  "calculator": "euler-step",
+  "inputs": {
+    "command": "euler-step",
+    "dt": 0.1,
+    "input_rate": 12.0,
+    "loss_rate": 0.4,
+    "state": 20.0
+  },
+  "interpretation": "Computes one explicit Euler update.",
+  "result": {
+    "next_state": 20.4
+  },
+  "warning": "Euler error depends on step size."
+}

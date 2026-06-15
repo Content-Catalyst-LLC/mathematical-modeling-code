@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "standard-form",
+    "category": "model structure",
+    "governance_note": "Use dy/dt + p(t)y = q(t) to expose coefficient and forcing assumptions.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Standard Form"
+  },
+  {
+    "card_id": "integrating-factor",
+    "category": "solution method",
+    "governance_note": "Integrating factor documents how proportional terms weight input history.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Integrating Factor"
+  },
+  {
+    "card_id": "input-loss-balance",
+    "category": "systems interpretation",
+    "governance_note": "Input and proportional loss should be measured or justified.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Input-Loss Balance"
+  },
+  {
+    "card_id": "equilibrium-transient",
+    "category": "dynamic interpretation",
+    "governance_note": "Separate long-run balance from decaying initial deviation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Equilibrium and Transient"
+  },
+  {
+    "card_id": "linearity-scope",
+    "category": "governance",
+    "governance_note": "State where linear approximation is valid and where it fails.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Linearity Scope"
+  }
+]

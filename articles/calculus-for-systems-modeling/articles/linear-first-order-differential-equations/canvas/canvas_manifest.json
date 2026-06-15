@@ -1,0 +1,22 @@
+{
+  "article_slug": "linear-first-order-differential-equations",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "linear-first-order-differential-equations",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "standard-form", "title": "Standard Form", "description": "Linear first-order equations are written as dy/dt + p(t)y = q(t)."},
+    {"card_id": "integrating-factor", "title": "Integrating Factor", "description": "The integrating factor transforms the left side into a product derivative."},
+    {"card_id": "input-loss-balance", "title": "Input-Loss Balance", "description": "A stock changes through input and proportional loss."},
+    {"card_id": "equilibrium-transient", "title": "Equilibrium and Transient", "description": "Long-run balance is separated from decaying initial deviation."},
+    {"card_id": "linear-model-governance", "title": "Linear Model Governance", "description": "Linearity, forcing, units, and scope require documentation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

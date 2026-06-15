@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_input_rate,input_loss_rate,result_equilibrium
+equilibrium,Computes the balance point input/loss.,Equilibrium is conditional on constant input and loss.,equilibrium,12.0,0.4,30.0

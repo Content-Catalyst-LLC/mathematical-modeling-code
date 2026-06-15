@@ -1,0 +1,170 @@
+[
+  {
+    "absolute_error": 0.0,
+    "analytical_state": 20.0,
+    "euler_state": 20.0,
+    "rate": 4.0,
+    "step": 0,
+    "time": 0.0
+  },
+  {
+    "absolute_error": 0.007894391523230126,
+    "analytical_state": 20.39210560847677,
+    "euler_state": 20.4,
+    "rate": 3.84,
+    "step": 1,
+    "time": 0.1
+  },
+  {
+    "absolute_error": 0.015163463866358029,
+    "analytical_state": 20.76883653613364,
+    "euler_state": 20.784,
+    "rate": 3.686400000000001,
+    "step": 2,
+    "time": 0.2
+  },
+  {
+    "absolute_error": 0.021844367171574675,
+    "analytical_state": 21.130795632828423,
+    "euler_state": 21.152639999999998,
+    "rate": 3.5389440000000008,
+    "step": 3,
+    "time": 0.30000000000000004
+  },
+  {
+    "absolute_error": 0.02797228966211307,
+    "analytical_state": 21.478562110337887,
+    "euler_state": 21.5065344,
+    "rate": 3.3973862399999994,
+    "step": 4,
+    "time": 0.4
+  },
+  {
+    "absolute_error": 0.03358055477981736,
+    "analytical_state": 21.81269246922018,
+    "euler_state": 21.846273024,
+    "rate": 3.2614907904,
+    "step": 5,
+    "time": 0.5
+  },
+  {
+    "absolute_error": 0.03870071370553063,
+    "analytical_state": 22.133721389334468,
+    "euler_state": 22.17242210304,
+    "rate": 3.1310311587839994,
+    "step": 6,
+    "time": 0.6000000000000001
+  },
+  {
+    "absolute_error": 0.0433626334756525,
+    "analytical_state": 22.442162585442745,
+    "euler_state": 22.485525218918397,
+    "rate": 3.0057899124326415,
+    "step": 7,
+    "time": 0.7000000000000001
+  },
+  {
+    "absolute_error": 0.047594580898568495,
+    "analytical_state": 22.738509629263092,
+    "euler_state": 22.78610421016166,
+    "rate": 2.885558315935336,
+    "step": 8,
+    "time": 0.8
+  },
+  {
+    "absolute_error": 0.05142330246550486,
+    "analytical_state": 23.02323673928969,
+    "euler_state": 23.074660041755195,
+    "rate": 2.770135983297921,
+    "step": 9,
+    "time": 0.9
+  },
+  {
+    "absolute_error": 0.05487410044137775,
+    "analytical_state": 23.296799539643608,
+    "euler_state": 23.351673640084986,
+    "rate": 2.6593305439660053,
+    "step": 10,
+    "time": 1.0
+  },
+  {
+    "absolute_error": 0.057970905312998866,
+    "analytical_state": 23.55963578916859,
+    "euler_state": 23.617606694481587,
+    "rate": 2.552957322207364,
+    "step": 11,
+    "time": 1.1
+  },
+  {
+    "absolute_error": 0.060736344763732575,
+    "analytical_state": 23.812166081938592,
+    "euler_state": 23.872902426702325,
+    "rate": 2.45083902931907,
+    "step": 12,
+    "time": 1.2000000000000002
+  },
+  {
+    "absolute_error": 0.06319180933617474,
+    "analytical_state": 24.054794520298056,
+    "euler_state": 24.11798632963423,
+    "rate": 2.3528054681463075,
+    "step": 13,
+    "time": 1.3
+  },
+  {
+    "absolute_error": 0.0653575149370127,
+    "analytical_state": 24.28790936151185,
+    "euler_state": 24.353266876448863,
+    "rate": 2.2586932494204532,
+    "step": 14,
+    "time": 1.4000000000000001
+  },
+  {
+    "absolute_error": 0.0672525623311735,
+    "analytical_state": 24.511883639059736,
+    "euler_state": 24.57913620139091,
+    "rate": 2.168345519443635,
+    "step": 15,
+    "time": 1.5
+  },
+  {
+    "absolute_error": 0.06889499376575614,
+    "analytical_state": 24.727075759569516,
+    "euler_state": 24.795970753335272,
+    "rate": 2.08161169866589,
+    "step": 16,
+    "time": 1.6
+  },
+  {
+    "absolute_error": 0.07030184685775609,
+    "analytical_state": 24.933830076344105,
+    "euler_state": 25.00413192320186,
+    "rate": 1.9983472307192542,
+    "step": 17,
+    "time": 1.7000000000000002
+  },
+  {
+    "absolute_error": 0.0714892058735046,
+    "analytical_state": 25.132477440400283,
+    "euler_state": 25.203966646273788,
+    "rate": 1.918413341490485,
+    "step": 18,
+    "time": 1.8
+  },
+  {
+    "absolute_error": 0.07247225052192974,
+    "analytical_state": 25.323335729900908,
+    "euler_state": 25.395807980422838,
+    "rate": 1.841676807830865,
+    "step": 19,
+    "time": 1.9000000000000001
+  },
+  {
+    "absolute_error": 0.07326530237813955,
+    "analytical_state": 25.506710358827785,
+    "euler_state": 25.579975661205925,
+    "rate": 1.76800973551763,
+    "step": 20,
+    "time": 2.0
+  }
+]

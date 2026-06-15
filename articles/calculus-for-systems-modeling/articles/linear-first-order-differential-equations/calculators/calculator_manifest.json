@@ -1,0 +1,18 @@
+{
+  "article_slug": "linear-first-order-differential-equations",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "linear-rate", "title": "Input-Loss Rate"},
+    {"id": "equilibrium", "title": "Equilibrium Balance"},
+    {"id": "analytical-solution", "title": "Analytical Solution"},
+    {"id": "euler-step", "title": "Euler Step"},
+    {"id": "compare-euler", "title": "Analytical versus Euler Comparison"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

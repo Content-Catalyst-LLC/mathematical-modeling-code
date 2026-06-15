@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_input_rate,input_loss_rate,result_rate
+linear-rate,Computes dy/dt = input - loss*y.,Assumes proportional loss and additive input.,linear-rate,20.0,12.0,0.4,4.0

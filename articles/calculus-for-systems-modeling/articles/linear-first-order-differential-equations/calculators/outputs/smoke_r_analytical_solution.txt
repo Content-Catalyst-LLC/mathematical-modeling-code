@@ -1,0 +1,2 @@
+           calculator time initial input_rate loss_rate equilibrium    state
+1 analytical-solution    2      20         12       0.4          30 25.50671

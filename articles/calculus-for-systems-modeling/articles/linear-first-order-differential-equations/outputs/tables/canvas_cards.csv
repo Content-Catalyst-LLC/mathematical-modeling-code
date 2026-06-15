@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+standard-form,Standard Form,model structure,96,active,2026-06-15,Use dy/dt + p(t)y = q(t) to expose coefficient and forcing assumptions.
+integrating-factor,Integrating Factor,solution method,95,active,2026-06-15,Integrating factor documents how proportional terms weight input history.
+input-loss-balance,Input-Loss Balance,systems interpretation,94,active,2026-06-15,Input and proportional loss should be measured or justified.
+equilibrium-transient,Equilibrium and Transient,dynamic interpretation,93,review,2026-06-15,Separate long-run balance from decaying initial deviation.
+linearity-scope,Linearity Scope,governance,92,review,2026-06-15,State where linear approximation is valid and where it fails.

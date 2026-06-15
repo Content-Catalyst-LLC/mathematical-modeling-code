@@ -1,0 +1,2 @@
+   calculator input_rate loss_rate equilibrium
+1 equilibrium         12       0.4          30

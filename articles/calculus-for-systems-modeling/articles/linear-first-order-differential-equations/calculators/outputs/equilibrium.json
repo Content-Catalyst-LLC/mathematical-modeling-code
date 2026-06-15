@@ -1,0 +1,13 @@
+{
+  "calculator": "equilibrium",
+  "inputs": {
+    "command": "equilibrium",
+    "input_rate": 12.0,
+    "loss_rate": 0.4
+  },
+  "interpretation": "Computes the balance point input/loss.",
+  "result": {
+    "equilibrium": 30.0
+  },
+  "warning": "Equilibrium is conditional on constant input and loss."
+}

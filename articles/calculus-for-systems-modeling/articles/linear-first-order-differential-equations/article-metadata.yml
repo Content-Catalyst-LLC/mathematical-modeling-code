@@ -1,0 +1,24 @@
+actual_title: "Linear First-Order Differential Equations"
+suggested_seo_title: "Linear First-Order Differential Equations in Systems Modeling"
+focus_keyword: "linear first-order differential equations"
+slug: "linear-first-order-differential-equations"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "separable-equations-and-simple-dynamic-laws"
+  current: "linear-first-order-differential-equations"
+  next: "second-order-equations-and-oscillatory-systems"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/linear-first-order-differential-equations"
+tags:
+  - Calculus
+  - Differential Equations
+  - Linear Differential Equations
+  - First-Order Systems
+  - Dynamic Systems
+  - Input-Loss Balance
+  - Integrating Factors
+  - Systems Modeling
+excerpt_139_words: "Linear first-order differential equations describe dynamic systems where the rate of change depends linearly on the current state, time-varying coefficients, and external inputs. This article explains standard form, homogeneous equations, nonhomogeneous forcing, integrating factors, solution structure, input-loss balance, equilibrium, transients, time-varying coefficients, analytical solutions, numerical approximation, and responsible interpretation. It shows why linear first-order equations matter for systems modeling: they formalize proportional adjustment, decay, recovery, accumulation, forcing, and movement toward equilibrium. In computational workflows, linear-equation audits support analytical-versus-Euler comparison, input-loss diagnostics, equilibrium review, parameter checks, solver-method documentation, SQL assumption registries, calculator scripts, and generated outputs. The article emphasizes documenting state definitions, coefficient meanings, forcing terms, initial conditions, parameter units, equilibrium assumptions, time horizon, numerical method, sensitivity, and the limits of linear approximation."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

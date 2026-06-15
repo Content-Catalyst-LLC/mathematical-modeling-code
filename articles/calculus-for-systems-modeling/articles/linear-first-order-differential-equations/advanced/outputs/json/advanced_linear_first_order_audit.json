@@ -1,0 +1,25 @@
+{
+  "article": "Linear First-Order Differential Equations",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Linearity is an approximation and should be justified.",
+    "Forcing terms should be measured, estimated, or clearly labeled as scenarios.",
+    "Equilibrium is conditional on input and loss assumptions.",
+    "Solver method and step size should be documented.",
+    "Proportional loss may fail near thresholds, saturation, or structural breaks."
+  ]
+}
