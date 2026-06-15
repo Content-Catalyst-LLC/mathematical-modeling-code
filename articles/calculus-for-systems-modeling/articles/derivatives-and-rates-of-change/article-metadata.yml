@@ -1,0 +1,22 @@
+actual_title: "Derivatives and Rates of Change"
+suggested_seo_title: "Derivatives and Rates of Change in Systems Modeling"
+focus_keyword: "derivatives rates of change"
+slug: "derivatives-and-rates-of-change"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "differentiability-and-local-behavior"
+  current: "derivatives-and-rates-of-change"
+  next: "partial-derivatives-and-multivariable-change"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/derivatives-and-rates-of-change"
+tags:
+  - Calculus
+  - Derivatives
+  - Rates of Change
+  - Sensitivity Analysis
+  - Elasticity
+  - Systems Modeling
+  - Numerical Derivatives
+  - Reproducible Workflows
+excerpt_139_words: "Derivatives and rates of change explain how systems move, respond, accelerate, and react locally to perturbations. This article develops average and instantaneous rates, derivatives as limits, derivatives as local linear maps, units and dimensional interpretation, one-sided rates, relative rates, elasticities, vector-valued rates, state-space motion, higher-order derivatives, weak derivatives, generalized derivatives, and numerical approximation. It connects derivative interpretation to population growth, resource depletion, climate forcing, infrastructure stress, epidemiological transmission, economic marginal analysis, policy thresholds, optimization, stability, and scientific computing. Companion workflows in Python, R, SQL, and Haskell include finite-difference diagnostics, average-rate comparisons, central-difference error checks, elasticity estimates, typed rate records, derivative assumption registries, vector-field notes, invariant-domain review, and advanced mathematical audit reports for responsible interpretation of rate-based claims across constrained domains, finite precision, noisy data, and idealized continuous-system models."
+advanced_standard: true

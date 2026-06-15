@@ -1,0 +1,7 @@
+state,parameter,rate,inside_invariant_domain,warning
+-0.1,0.6,-0.066,False,"state outside invariant domain [0,1]"
+0.0,0.6,0.0,True,
+0.25,0.6,0.11249999999999999,True,
+0.5,0.6,0.15,True,
+1.0,0.6,0.0,True,
+1.1,0.6,-0.06600000000000006,False,"state outside invariant domain [0,1]"

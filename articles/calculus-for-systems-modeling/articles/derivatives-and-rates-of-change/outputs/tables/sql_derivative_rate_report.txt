@@ -1,0 +1,44 @@
+section                            
+-----------------------------------
+DERIVATIVE RATE ASSUMPTION REGISTRY
+concept_name                  formal_role                                                   systems_modeling_role                                         review_warning                                              
+----------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Average rate of change        Measures finite output change over finite input interval.     Useful for observed data intervals and coarse-scale model su  May conceal local thresholds, shocks, or nonlinear behavior 
+                                                                                            mmaries.                                                      inside the interval.                                        
+
+Instantaneous rate of change  Defined as the limit of average rates as interval length app  Supports local sensitivity, velocity, marginal analysis, and  Requires differentiability at the operating point.          
+                              roaches zero.                                                  dynamic interpretation.                                                                                                  
+
+Relative rate and elasticity  Scales derivative by output or by input-output ratio.         Supports proportional sensitivity and dimensionless comparis  Can be unstable near zero values or outside positive domains
+                                                                                            on.                                                           .                                                           
+
+State-space rate vector       Defines system motion as a derivative of state with respect   Supports differential equation modeling, simulation, and loc  Requires invariant-domain checks and careful numerical discr
+                              to time.                                                      al stability analysis.                                        etization.                                                  
+section                   
+--------------------------
+DERIVATIVE METHOD REGISTRY
+method_name                approximation_role                                            numerical_warning                                           
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Automatic differentiation  Computes exact derivative of implemented program under diffe  Derivative of code may not equal derivative of the intended 
+                           rentiable operations.                                         real-world system.                                          
+
+Backward difference        One-sided finite derivative estimate from the left.           First-order truncation error and boundary sensitivity.      
+
+Central difference         Symmetric finite derivative estimate.                         Usually second-order for smooth functions but invalid across
+                                                                                          discontinuities or boundaries.                             
+
+Forward difference         One-sided finite derivative estimate.                         First-order truncation error and boundary sensitivity.      
+section                    
+---------------------------
+DERIVATIVE WARNING REGISTRY
+warning_name       interpretation                                              
+-----------------  ------------------------------------------------------------
+Finite precision   Numerical derivatives require step-size and roundoff review.
+
+Local validity     A derivative is local and should not be used as a global cla
+                   im without further argument.                                
+
+Threshold warning  Derivatives may fail or change across kinks, thresholds, and
+                    structural breaks.                                         
+
+Units required     A derivative must state output units per input unit.        

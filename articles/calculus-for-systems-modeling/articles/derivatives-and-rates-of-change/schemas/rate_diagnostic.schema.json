@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RateDiagnostic",
+  "type": "object",
+  "required": ["method", "x0", "h", "estimate", "exact", "absolute_error"],
+  "properties": {
+    "method": {"type": "string"},
+    "x0": {"type": "number"},
+    "h": {"type": "number", "exclusiveMinimum": 0},
+    "estimate": {"type": "number"},
+    "exact": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0},
+    "relative_rate": {"type": ["number", "null"]},
+    "warning": {"type": "string"}
+  }
+}

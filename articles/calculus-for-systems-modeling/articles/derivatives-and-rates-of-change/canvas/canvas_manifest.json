@@ -1,0 +1,18 @@
+{
+  "article_slug": "derivatives-and-rates-of-change",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "derivatives-rates-change",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "average-instantaneous", "title": "Average vs Instantaneous Rates", "description": "Average rates summarize intervals; derivatives describe local limiting rates."},
+    {"card_id": "local-linear-map", "title": "Derivative as Local Map", "description": "A derivative maps small perturbations to first-order output changes."},
+    {"card_id": "elasticity", "title": "Elasticity", "description": "Elasticity expresses proportional local response under positivity and domain assumptions."},
+    {"card_id": "finite-difference-audit", "title": "Finite-Difference Audit", "description": "Numerical derivatives require step-size, truncation, roundoff, and domain review."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

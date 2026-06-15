@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+average_rate,Average rate of change,Measures finite output change over finite input interval,Useful for observed data intervals and coarse-scale model summaries,May conceal local thresholds shocks or nonlinear behavior inside the interval
+instantaneous_rate,Instantaneous rate of change,Defined as the limit of average rates as interval length approaches zero,Supports local sensitivity velocity marginal analysis and dynamic interpretation,Requires differentiability at the operating point
+relative_rate,Relative rate and elasticity,Scales derivative by output or by input-output ratio,Supports proportional sensitivity and dimensionless comparison,Can be unstable near zero values or outside positive domains
+vector_field,State-space rate vector,Defines system motion as a derivative of state with respect to time,Supports differential equation modeling simulation and local stability analysis,Requires invariant-domain checks and careful numerical discretization
+finite_difference,Numerical finite difference,Approximates derivatives using finite increments,Supports computation when symbolic derivatives are unavailable,Requires step-size convergence and roundoff review

@@ -1,6 +1,6 @@
-.PHONY: smoke advanced what-is functions-variables domains-ranges infinity-infinitesimals limits continuity differentiability clean
+.PHONY: smoke advanced derivatives clean
 
-smoke: what-is functions-variables domains-ranges infinity-infinitesimals limits continuity differentiability
+smoke: derivatives
 
 advanced:
 	@for d in articles/*; do \
@@ -10,26 +10,8 @@ advanced:
 		fi; \
 	done
 
-what-is:
-	@if [ -d articles/what-is-calculus-for-systems-modeling ]; then $(MAKE) -C articles/what-is-calculus-for-systems-modeling smoke; else echo "Skipping missing article folder: what-is-calculus-for-systems-modeling"; fi
-
-functions-variables:
-	@if [ -d articles/functions-variables-and-mathematical-representation ]; then $(MAKE) -C articles/functions-variables-and-mathematical-representation smoke; else echo "Skipping missing article folder: functions-variables-and-mathematical-representation"; fi
-
-domains-ranges:
-	@if [ -d articles/domains-ranges-and-the-structure-of-functional-models ]; then $(MAKE) -C articles/domains-ranges-and-the-structure-of-functional-models smoke; else echo "Skipping missing article folder: domains-ranges-and-the-structure-of-functional-models"; fi
-
-infinity-infinitesimals:
-	@if [ -d articles/infinity-infinitesimals-and-the-historical-problem-of-change ]; then $(MAKE) -C articles/infinity-infinitesimals-and-the-historical-problem-of-change smoke; else echo "Skipping missing article folder: infinity-infinitesimals-and-the-historical-problem-of-change"; fi
-
-limits:
-	@if [ -d articles/limits-and-the-formal-basis-of-calculus ]; then $(MAKE) -C articles/limits-and-the-formal-basis-of-calculus smoke; else echo "Skipping missing article folder: limits-and-the-formal-basis-of-calculus"; fi
-
-continuity:
-	@if [ -d articles/continuity-discontinuity-and-structural-breaks ]; then $(MAKE) -C articles/continuity-discontinuity-and-structural-breaks smoke; else echo "Skipping missing article folder: continuity-discontinuity-and-structural-breaks"; fi
-
-differentiability:
-	$(MAKE) -C articles/differentiability-and-local-behavior smoke
+derivatives:
+	$(MAKE) -C articles/derivatives-and-rates-of-change smoke
 
 clean:
 	@for d in articles/*; do \

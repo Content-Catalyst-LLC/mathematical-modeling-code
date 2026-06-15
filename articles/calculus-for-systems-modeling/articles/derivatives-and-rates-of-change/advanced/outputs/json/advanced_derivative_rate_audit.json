@@ -1,0 +1,62 @@
+{
+  "advanced_standard": true,
+  "article": "Derivatives and Rates of Change",
+  "invariant_failures": [
+    {
+      "inside": false,
+      "issue": "outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": -0.1
+    },
+    {
+      "inside": false,
+      "issue": "outside invariant interval",
+      "lower": 0.0,
+      "upper": 1.0,
+      "value": 1.1
+    }
+  ],
+  "roundoff_warnings": [
+    {
+      "absolute_error": 3.0954189667031784e-07,
+      "estimate": 0.5436566752337058,
+      "h": 1e-09,
+      "warning": "error increased after refinement; possible roundoff/cancellation"
+    },
+    {
+      "absolute_error": 2.0858987360705683e-06,
+      "estimate": 0.5436584515905452,
+      "h": 1e-10,
+      "warning": "error increased after refinement; possible roundoff/cancellation"
+    },
+    {
+      "absolute_error": 2.354993362430058e-06,
+      "estimate": 0.5436540106984467,
+      "h": 1e-11,
+      "warning": "error increased after refinement; possible roundoff/cancellation"
+    },
+    {
+      "absolute_error": 0.00035291637451762004,
+      "estimate": 0.5440092820663267,
+      "h": 1e-12,
+      "warning": "error increased after refinement; possible roundoff/cancellation"
+    }
+  ],
+  "topics": [
+    "average_vs_instantaneous_rate",
+    "derivative_as_limit",
+    "derivative_as_local_linear_map",
+    "units_and_dimensions",
+    "one_sided_rates",
+    "relative_rates_and_elasticity",
+    "vector_fields",
+    "finite_difference_error"
+  ],
+  "warnings": [
+    "A derivative is local, not global.",
+    "Rates require units and a variable of differentiation.",
+    "Elasticity requires positivity and domain checks.",
+    "Finite differences require step-size and roundoff review."
+  ]
+}

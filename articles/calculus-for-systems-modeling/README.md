@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across continuous change, functions, variables, mathematical representation, domains, ranges, valid input spaces, infinity, infinitesimals, limits, continuity, discontinuity, structural breaks, differentiability, local behavior, approximation, rates, accumulation, optimization, differential equations, numerical methods, sensitivity analysis, responsible interpretation, and reproducible scientific-computing workflows.
+This folder supports calculus-based systems modeling across continuous change, functions, variables, domains, ranges, limits, continuity, discontinuity, differentiability, derivatives, rates of change, elasticity, vector fields, accumulation, optimization, differential equations, numerical methods, sensitivity analysis, and responsible mathematical interpretation.
 
 ## Nested article folders
 
@@ -12,41 +12,19 @@ Article-specific code lives under:
 articles/calculus-for-systems-modeling/articles/
 ```
 
-Current active article companion folders:
+Current active folders include:
 
 ```text
-articles/calculus-for-systems-modeling/articles/what-is-calculus-for-systems-modeling/
-articles/calculus-for-systems-modeling/articles/functions-variables-and-mathematical-representation/
-articles/calculus-for-systems-modeling/articles/domains-ranges-and-the-structure-of-functional-models/
-articles/calculus-for-systems-modeling/articles/infinity-infinitesimals-and-the-historical-problem-of-change/
-articles/calculus-for-systems-modeling/articles/limits-and-the-formal-basis-of-calculus/
-articles/calculus-for-systems-modeling/articles/continuity-discontinuity-and-structural-breaks/
-articles/calculus-for-systems-modeling/articles/differentiability-and-local-behavior/
+articles/what-is-calculus-for-systems-modeling/
+articles/functions-variables-and-mathematical-representation/
+articles/domains-ranges-and-the-structure-of-functional-models/
+articles/infinity-infinitesimals-and-the-historical-problem-of-change/
+articles/limits-and-the-formal-basis-of-calculus/
+articles/continuity-discontinuity-and-structural-breaks/
+articles/differentiability-and-local-behavior/
+articles/derivatives-and-rates-of-change/
 ```
 
 ## Advanced mathematical standard
 
-All active article folders should include an `advanced/` layer designed for mathematicians, applied mathematicians, numerical analysts, and mathematically mature scientific-computing readers.
-
-Future articles should include:
-
-- formal mathematical deepening sections;
-- definitions, propositions, counterexamples, and boundary cases;
-- codomain/image/range distinctions where relevant;
-- feasible sets, invariant sets, and state spaces where relevant;
-- continuity, differentiability, compactness, smoothness, boundedness, or measurability assumptions where relevant;
-- convergence, stability, conditioning, and numerical-error notes where computation is involved;
-- stronger tests beyond smoke checks;
-- generated Markdown/JSON audit reports.
-
-## Run smoke checks
-
-```bash
-make smoke
-```
-
-## Run advanced checks
-
-```bash
-make advanced
-```
+Each article folder should include an `advanced/` layer with formal definitions, propositions, counterexamples, numerical checks, invariant/domain review, generated audit reports, and tests beyond smoke checks.

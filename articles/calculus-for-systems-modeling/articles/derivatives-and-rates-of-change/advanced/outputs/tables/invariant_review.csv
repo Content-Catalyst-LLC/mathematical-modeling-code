@@ -1,0 +1,7 @@
+value,lower,upper,inside,issue
+-0.1,0.0,1.0,False,outside invariant interval
+0.0,0.0,1.0,True,
+0.25,0.0,1.0,True,
+0.8,0.0,1.0,True,
+1.0,0.0,1.0,True,
+1.1,0.0,1.0,False,outside invariant interval
