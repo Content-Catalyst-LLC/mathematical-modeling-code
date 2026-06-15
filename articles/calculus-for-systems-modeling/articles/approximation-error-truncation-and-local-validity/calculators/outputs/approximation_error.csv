@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_true_value,input_approximation,result_signed_error,result_absolute_error
+approximation-error,Absolute error measures the size of the difference between reference and approximation.,,2.718281828,2.716666667,0.0016151609999996985,0.0016151609999996985

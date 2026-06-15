@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ApproximationErrorAudit",
+  "type": "object",
+  "required": ["method", "function_name", "center", "x_value", "order", "approximation", "reference_value", "absolute_error", "relative_error", "warning"],
+  "properties": {
+    "method": {"type": "string"},
+    "function_name": {"type": "string"},
+    "center": {"type": "number"},
+    "x_value": {"type": "number"},
+    "order": {"type": "integer"},
+    "approximation": {"type": "number"},
+    "reference_value": {"type": "number"},
+    "absolute_error": {"type": "number"},
+    "relative_error": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

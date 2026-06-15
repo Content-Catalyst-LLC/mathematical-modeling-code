@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_h,input_function,result_central_difference,result_reference_value,result_absolute_error
+derivative-step,Central finite differences approximate local rate of change; step size affects error.,,2.0,0.01,x^2,3.999999999999937,4.0,6.306066779870889e-14

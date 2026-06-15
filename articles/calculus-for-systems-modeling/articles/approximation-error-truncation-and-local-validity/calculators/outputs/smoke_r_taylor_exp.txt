@@ -1,0 +1,4 @@
+  calculator x order approximation reference_value absolute_error
+1 taylor-exp 1    10      2.718282        2.718282   2.731266e-08
+  relative_error
+1   1.004777e-08

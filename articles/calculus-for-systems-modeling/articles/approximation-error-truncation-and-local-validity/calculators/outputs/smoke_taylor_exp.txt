@@ -1,0 +1,15 @@
+{
+  "calculator": "taylor-exp",
+  "inputs": {
+    "order": 10,
+    "x": 1.0
+  },
+  "interpretation": "Taylor truncation error should be interpreted with respect to order and distance from the center.",
+  "result": {
+    "absolute_error": 2.7312660577649694e-08,
+    "approximation": 2.7182818011463845,
+    "reference_value": 2.718281828459045,
+    "relative_error": 1.0047766310211053e-08
+  },
+  "warning": ""
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "absolute_error": 0.023721270700128194,
+    "approximation": 1.625,
+    "center": 0.0,
+    "function_name": "exp(x)",
+    "method": "Maclaurin truncation",
+    "order": 2,
+    "reference_value": 1.6487212707001282,
+    "relative_error": 0.014387677966970715,
+    "warning": "",
+    "x_value": 0.5
+  },
+  {
+    "absolute_error": 2.33540334615423e-05,
+    "approximation": 1.6486979166666667,
+    "center": 0.0,
+    "function_name": "exp(x)",
+    "method": "Maclaurin truncation",
+    "order": 5,
+    "reference_value": 1.6487212707001282,
+    "relative_error": 1.4164937322380167e-05,
+    "warning": "",
+    "x_value": 0.5
+  },
+  {
+    "absolute_error": 0.0016151617923783057,
+    "approximation": 2.716666666666667,
+    "center": 0.0,
+    "function_name": "exp(x)",
+    "method": "Maclaurin truncation",
+    "order": 5,
+    "reference_value": 2.718281828459045,
+    "relative_error": 0.0005941848175815963,
+    "warning": "",
+    "x_value": 1.0
+  },
+  {
+    "absolute_error": 2.7312660577649694e-08,
+    "approximation": 2.7182818011463845,
+    "center": 0.0,
+    "function_name": "exp(x)",
+    "method": "Maclaurin truncation",
+    "order": 10,
+    "reference_value": 2.718281828459045,
+    "relative_error": 1.0047766310211053e-08,
+    "warning": "",
+    "x_value": 1.0
+  },
+  {
+    "absolute_error": 0.005871744616239738,
+    "approximation": 20.079665178571428,
+    "center": 0.0,
+    "function_name": "exp(x)",
+    "method": "Maclaurin truncation",
+    "order": 10,
+    "reference_value": 20.085536923187668,
+    "relative_error": 0.00029233695064736484,
+    "warning": "Evaluation is far from the expansion center; review local validity.",
+    "x_value": 3.0
+  }
+]

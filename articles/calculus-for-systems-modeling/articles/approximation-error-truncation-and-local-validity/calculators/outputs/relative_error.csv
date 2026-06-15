@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_true_value,input_approximation,result_absolute_error,result_relative_error,result_percent_error
+relative-error,Relative error scales approximation error by the reference value.,,2.718281828,2.716666667,0.0016151609999996985,0.000594184526182139,0.0594184526182139

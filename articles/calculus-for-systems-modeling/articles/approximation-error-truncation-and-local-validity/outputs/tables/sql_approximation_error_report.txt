@@ -1,0 +1,29 @@
+section                          
+---------------------------------
+APPROXIMATION ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Approximation method   Identifies the mathematical simplification used.              Clarifies whether the result comes from truncation discretiz  A model result should not be interpreted without knowing the
+                                                                                     ation linearization or another approximation.                  approximation method.                                      
+
+Error measure          Defines whether error is absolute relative estimated bounded  Connects numerical accuracy to modeling interpretation.       Error should be reported in a scale meaningful for the model
+                        or empirical.                                                                                                              ing purpose.                                                
+
+Local validity region  Defines where the approximation is intended to hold.          Prevents local approximations from becoming global claims.    Large shocks thresholds and regime changes may invalidate lo
+                                                                                                                                                   cal approximations.                                         
+
+Step size              Defines the resolution of a numerical approximation.          Controls the local scale of discretization in derivative int  A step size that is too large may miss important system beha
+                                                                                     egral or dynamic workflows.                                   vior.                                                       
+
+Truncation order       Records where a finite approximation stops.                   Identifies which terms steps or mechanisms were retained.     Truncation should be reported with error or remainder logic.
+section                  
+-------------------------
+APPROXIMATION ERROR CASES
+method                function_name  center  x_value  approximation_order  warning                                                     
+--------------------  -------------  ------  -------  -------------------  ------------------------------------------------------------
+Maclaurin truncation  exp(x)         0.0     0.5      5                                                                                
+
+Maclaurin truncation  exp(x)         0.0     1.0      10                                                                               
+
+Maclaurin truncation  exp(x)         0.0     3.0      10                   Evaluation is far from the expansion center; review local va
+                                                                           lidity.                                                     

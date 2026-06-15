@@ -1,0 +1,15 @@
+{
+  "calculator": "sensitivity",
+  "inputs": {
+    "parameter_max": 1.0,
+    "parameter_min": 0.1,
+    "samples": 5
+  },
+  "interpretation": "Sensitivity sweeps show how model response changes across a parameter range.",
+  "result": {
+    "max_response": 0.5,
+    "min_response": 0.09090909090909091,
+    "rows_written": 5
+  },
+  "warning": ""
+}

@@ -1,0 +1,24 @@
+{
+  "article_slug": "approximation-error-truncation-and-local-validity",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "approximation-error", "title": "Absolute Error Calculator"},
+    {"id": "relative-error", "title": "Relative Error Calculator"},
+    {"id": "taylor-exp", "title": "Taylor Truncation Calculator"},
+    {"id": "truncation-sweep", "title": "Truncation Sweep"},
+    {"id": "derivative-step", "title": "Derivative Step-Size Calculator"},
+    {"id": "integral-step", "title": "Integral Step-Size Calculator"},
+    {"id": "euler", "title": "Euler ODE Stepper"},
+    {"id": "rk4", "title": "Runge-Kutta RK4 ODE Stepper"},
+    {"id": "logistic", "title": "Logistic Growth Calculator"},
+    {"id": "finite-diff", "title": "Finite Difference Calculator"},
+    {"id": "sensitivity", "title": "Parameter Sensitivity Sweep"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

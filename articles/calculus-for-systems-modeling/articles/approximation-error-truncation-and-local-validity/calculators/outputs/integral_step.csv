@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_a,input_b,input_steps,input_function,result_trapezoid_integral,result_reference_value,result_absolute_error
+integral-step,The trapezoid rule approximates accumulated change; grid size affects error.,,0.0,1.0,100,x^2,0.33335000000000004,0.3333333333333333,1.6666666666720342e-05

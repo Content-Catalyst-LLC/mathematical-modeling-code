@@ -1,0 +1,13 @@
+{
+  "calculator": "approximation-error",
+  "inputs": {
+    "approximation": 2.716666667,
+    "true_value": 2.718281828
+  },
+  "interpretation": "Absolute error measures the size of the difference between reference and approximation.",
+  "result": {
+    "absolute_error": 0.0016151609999996985,
+    "signed_error": 0.0016151609999996985
+  },
+  "warning": ""
+}

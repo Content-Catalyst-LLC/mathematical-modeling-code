@@ -1,0 +1,15 @@
+{
+  "calculator": "derivative-step",
+  "inputs": {
+    "function": "x^2",
+    "h": 0.01,
+    "x": 2.0
+  },
+  "interpretation": "Central finite differences approximate local rate of change; step size affects error.",
+  "result": {
+    "absolute_error": 6.306066779870889e-14,
+    "central_difference": 3.999999999999937,
+    "reference_value": 4.0
+  },
+  "warning": ""
+}

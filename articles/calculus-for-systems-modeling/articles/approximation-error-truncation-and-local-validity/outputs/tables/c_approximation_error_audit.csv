@@ -1,0 +1,4 @@
+method,function_name,center,x_value,order,approximation,reference_value,absolute_error,relative_error,warning
+Maclaurin truncation,exp(x),0.0,0.500000,2,1.625000000000,1.648721270700,0.023721270700,0.014387677967,
+Maclaurin truncation,exp(x),0.0,1.000000,10,2.718281801146,2.718281828459,0.000000027313,0.000000010048,
+Maclaurin truncation,exp(x),0.0,3.000000,10,20.079665178571,20.085536923188,0.005871744616,0.000292336951,Evaluation is far from the expansion center; review local validity.

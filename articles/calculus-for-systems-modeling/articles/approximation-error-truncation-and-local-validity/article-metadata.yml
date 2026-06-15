@@ -1,0 +1,34 @@
+actual_title: "Approximation Error, Truncation, and Local Validity"
+suggested_seo_title: "Approximation Error, Truncation, and Local Validity in Systems Modeling"
+focus_keyword: "approximation error truncation local validity"
+slug: "approximation-error-truncation-and-local-validity"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "taylor-and-maclaurin-series-in-modeling"
+  current: "approximation-error-truncation-and-local-validity"
+  next: "functions-of-several-variables"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/approximation-error-truncation-and-local-validity"
+tags:
+  - Calculus
+  - Approximation Error
+  - Truncation
+  - Local Validity
+  - Taylor Remainders
+  - Numerical Error
+  - Systems Modeling
+  - Computational Modeling
+excerpt_139_words: "Approximation error, truncation, and local validity determine whether a simplified mathematical representation can support responsible modeling claims. This article explains how absolute error, relative error, Taylor remainders, omitted terms, finite-step methods, discretization, roundoff, tolerance, stopping rules, and local validity regions shape interpretation in systems modeling. It shows why finite approximations are useful but incomplete: they preserve selected structure while omitting tails, curvature, fine-scale dynamics, thresholds, or mechanisms outside model scope. In modeling workflows, approximation-error analysis supports numerical methods, sensitivity checks, stability reasoning, uncertainty propagation, and governance review. The article emphasizes that an approximation should state what was simplified, where it is intended to hold, how error was estimated or bounded, and whether plausible error could change interpretation across complex dynamic systems."
+advanced_standard: true
+calculators_layer: true
+languages:
+  - python
+  - r
+  - julia
+  - sql
+  - haskell
+  - c
+  - cpp
+  - fortran
+  - rust
+  - go

@@ -1,0 +1,23 @@
+{
+  "article_slug": "approximation-error-truncation-and-local-validity",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "approximation-error-truncation-local-validity",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "absolute-error", "title": "Absolute Error", "description": "Measures distance between reference and approximation."},
+    {"card_id": "relative-error", "title": "Relative Error", "description": "Scales error by the reference value."},
+    {"card_id": "truncation", "title": "Truncation", "description": "Finite approximations omit terms, steps, or mechanisms."},
+    {"card_id": "local-validity", "title": "Local Validity", "description": "Approximations hold in specific neighborhoods or domains."},
+    {"card_id": "stopping-rules", "title": "Stopping Rules", "description": "Tolerances define when approximation is acceptable for purpose."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

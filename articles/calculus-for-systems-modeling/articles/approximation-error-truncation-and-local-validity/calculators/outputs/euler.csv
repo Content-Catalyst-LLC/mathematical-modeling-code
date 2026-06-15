@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x0,input_rate,input_dt,input_steps,input_equation,result_final_x,result_reference_value,result_absolute_error,result_rows_written
+euler,EULER approximates repeated change in a simple exponential growth/decay model.,,1.0,0.5,0.1,5,dx/dt = rate*x,1.2762815625000004,1.2840254166877414,0.007743854187741039,6

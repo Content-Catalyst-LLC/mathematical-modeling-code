@@ -1,0 +1,23 @@
+{
+  "article": "Approximation Error, Truncation, and Local Validity",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "An approximation should state what was simplified or omitted.",
+    "A local approximation should not be treated as a global claim.",
+    "Absolute error and relative error answer different questions.",
+    "Tolerance and stopping rules should be tied to modeling purpose."
+  ]
+}

@@ -1,0 +1,4 @@
+method function_name center x_value order approximation reference_value absolute_error relative_error warning
+Maclaurin_truncation exp(x)   0.0   0.5000    2     1.62500000     1.64872127     0.02372127     0.01438768
+Maclaurin_truncation exp(x)   0.0   1.0000   10     2.71828180     2.71828183     0.00000003     0.00000001
+Maclaurin_truncation exp(x)   0.0   3.0000   10    20.07966518    20.08553692     0.00587174     0.00029234 far_from_center

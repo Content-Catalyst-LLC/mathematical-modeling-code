@@ -14,7 +14,7 @@ articles/calculus-for-systems-modeling/articles/
 
 ## Calculator standard
 
-All new article folders should include a reusable `calculators/` layer with Python and R command-line calculators, a manifest, smoke tests, and output folders. The calculator layer is designed to become the computational source layer for future website widgets.
+All new article folders should include a reusable `calculators/` layer with Python and R command-line calculators, a manifest, smoke tests, and output folders.
 
 ## Multilanguage standard
 

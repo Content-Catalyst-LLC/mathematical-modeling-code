@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_order,result_approximation,result_reference_value,result_absolute_error,result_relative_error
+taylor-exp,Taylor truncation error should be interpreted with respect to order and distance from the center.,,1.0,10,2.7182818011463845,2.718281828459045,2.7312660577649694e-08,1.0047766310211053e-08

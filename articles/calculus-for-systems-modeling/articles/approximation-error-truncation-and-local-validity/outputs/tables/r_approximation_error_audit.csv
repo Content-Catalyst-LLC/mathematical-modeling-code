@@ -1,0 +1,6 @@
+"method","function_name","center","x_value","order","approximation","reference_value","absolute_error","relative_error","warning"
+"Maclaurin truncation","exp(x)",0,0.5,2,1.625,1.64872127070013,0.0237212707001282,0.0143876779669707,""
+"Maclaurin truncation","exp(x)",0,0.5,5,1.64869791666667,1.64872127070013,2.33540334615423e-05,1.41649373223802e-05,""
+"Maclaurin truncation","exp(x)",0,1,5,2.71666666666667,2.71828182845905,0.00161516179237875,0.00059418481758176,""
+"Maclaurin truncation","exp(x)",0,1,10,2.71828180114638,2.71828182845905,2.73126605776497e-08,1.00477663102111e-08,""
+"Maclaurin truncation","exp(x)",0,3,10,20.0796651785714,20.0855369231877,0.00587174461624329,0.000292336950647542,"Evaluation is far from the expansion center; review local validity."

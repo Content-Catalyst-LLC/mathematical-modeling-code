@@ -1,0 +1,16 @@
+{
+  "calculator": "truncation-sweep",
+  "inputs": {
+    "function": "exp(x)",
+    "max_order": 12,
+    "x": 1.0
+  },
+  "interpretation": "A truncation sweep shows how retained order changes approximation error.",
+  "result": {
+    "final_absolute_error": 1.7287637987806193e-10,
+    "final_approximation": 2.7182818282861687,
+    "final_relative_error": 6.35976660212834e-11,
+    "rows_written": 13
+  },
+  "warning": ""
+}

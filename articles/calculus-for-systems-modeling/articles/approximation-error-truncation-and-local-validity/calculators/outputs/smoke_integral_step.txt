@@ -1,0 +1,16 @@
+{
+  "calculator": "integral-step",
+  "inputs": {
+    "a": 0.0,
+    "b": 1.0,
+    "function": "x^2",
+    "steps": 100
+  },
+  "interpretation": "The trapezoid rule approximates accumulated change; grid size affects error.",
+  "result": {
+    "absolute_error": 1.6666666666720342e-05,
+    "reference_value": 0.3333333333333333,
+    "trapezoid_integral": 0.33335000000000004
+  },
+  "warning": ""
+}

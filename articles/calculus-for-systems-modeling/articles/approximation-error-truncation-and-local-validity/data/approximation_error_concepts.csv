@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+absolute_error,Absolute error,Measures the magnitude of difference between reference and approximation,Shows how far the computed value is from a target value,Absolute error must be interpreted in context of scale
+relative_error,Relative error,Scales error by the magnitude of the reference value,Supports comparison across different quantities,Relative error can be unstable near zero
+truncation_order,Truncation order,Records where a finite approximation stops,Identifies which terms or steps were retained,Truncation should be paired with error or remainder logic
+step_size,Step size,Defines numerical resolution,Controls finite difference integration and simulation accuracy,Too large a step can miss important system behavior
+local_validity_region,Local validity region,Defines where an approximation is intended to hold,Prevents local approximations from becoming global claims,Large shocks thresholds and regime changes may invalidate local approximations
+stopping_rule,Stopping rule,Defines when an iterative approximation should stop,Connects computation to tolerance and purpose,Stopping rules should be documented with outputs
