@@ -1,0 +1,12 @@
+{
+  "calculator": "boundary-condition-note",
+  "inputs": {
+    "command": "boundary-condition-note",
+    "kind": "dirichlet"
+  },
+  "interpretation": "Returns a boundary-condition interpretation note.",
+  "result": {
+    "note": "A Dirichlet boundary fixes the field value at the domain edge."
+  },
+  "warning": "Boundary conditions should be justified and sensitivity-tested."
+}

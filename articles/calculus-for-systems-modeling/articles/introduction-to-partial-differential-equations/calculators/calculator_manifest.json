@@ -1,0 +1,17 @@
+{
+  "article_slug": "introduction-to-partial-differential-equations",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "stability-ratio", "title": "Explicit Diffusion Stability Ratio"},
+    {"id": "diffusion-step", "title": "One-Cell Diffusion Update"},
+    {"id": "explicit-diffusion", "title": "Explicit Diffusion Grid Simulation"},
+    {"id": "boundary-condition-note", "title": "Boundary Condition Interpretation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

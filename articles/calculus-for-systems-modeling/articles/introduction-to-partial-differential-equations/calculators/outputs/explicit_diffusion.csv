@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_grid_points,input_diffusivity,input_dx,input_dt,input_steps,result_records,result_final_center_value,result_stability_ratio
+explicit-diffusion,Runs a simple finite-difference diffusion grid simulation.,Use this as a teaching calculator; real PDE workflows require validation and stability checks.,explicit-diffusion,51,0.1,1.0,0.25,100,101,0.18275456461883455,0.025

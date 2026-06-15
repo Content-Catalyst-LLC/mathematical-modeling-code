@@ -1,0 +1,15 @@
+{
+  "calculator": "diffusion-step",
+  "inputs": {
+    "center": 1.0,
+    "command": "diffusion-step",
+    "left": 0.0,
+    "right": 0.0,
+    "stability_ratio": 0.025
+  },
+  "interpretation": "Computes one finite-difference diffusion update for one grid cell.",
+  "result": {
+    "updated_center": 0.95
+  },
+  "warning": "Boundary and grid assumptions shape finite-difference results."
+}

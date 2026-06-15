@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_left,input_center,input_right,input_stability_ratio,result_updated_center
+diffusion-step,Computes one finite-difference diffusion update for one grid cell.,Boundary and grid assumptions shape finite-difference results.,diffusion-step,0.0,1.0,0.0,0.025,0.95

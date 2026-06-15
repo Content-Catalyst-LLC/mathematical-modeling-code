@@ -1,0 +1,18 @@
+{
+  "calculator": "explicit-diffusion",
+  "inputs": {
+    "command": "explicit-diffusion",
+    "diffusivity": 0.1,
+    "dt": 0.25,
+    "dx": 1.0,
+    "grid_points": 51,
+    "steps": 100
+  },
+  "interpretation": "Runs a simple finite-difference diffusion grid simulation.",
+  "result": {
+    "final_center_value": 0.18275456461883455,
+    "records": 101,
+    "stability_ratio": 0.025
+  },
+  "warning": "Use this as a teaching calculator; real PDE workflows require validation and stability checks."
+}

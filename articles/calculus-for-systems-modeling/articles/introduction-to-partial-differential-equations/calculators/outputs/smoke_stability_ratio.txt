@@ -1,0 +1,15 @@
+{
+  "calculator": "stability-ratio",
+  "inputs": {
+    "command": "stability-ratio",
+    "diffusivity": 0.1,
+    "dt": 0.25,
+    "dx": 1.0
+  },
+  "interpretation": "Computes the explicit one-dimensional diffusion stability ratio.",
+  "result": {
+    "stability_ratio": 0.025,
+    "usually_stable_for_1d_explicit_diffusion": true
+  },
+  "warning": "This rule applies to a simple teaching scheme, not every PDE solver."
+}

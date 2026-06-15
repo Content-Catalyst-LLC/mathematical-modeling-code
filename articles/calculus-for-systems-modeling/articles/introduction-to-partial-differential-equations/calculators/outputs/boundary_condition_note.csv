@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_kind,result_note
+boundary-condition-note,Returns a boundary-condition interpretation note.,Boundary conditions should be justified and sensitivity-tested.,boundary-condition-note,dirichlet,A Dirichlet boundary fixes the field value at the domain edge.

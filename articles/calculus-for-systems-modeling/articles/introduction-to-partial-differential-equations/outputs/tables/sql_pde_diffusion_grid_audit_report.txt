@@ -1,0 +1,29 @@
+section                
+-----------------------
+PDE ASSUMPTION REGISTRY
+assumption_name     mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary condition  Defines field behavior at the edge of the domain.             Represents fixed values, flux, insulation, exchange, inflow,  Boundary conditions should be justified and tested.         
+                                                                                   outflow, or periodicity.                                                                                                 
+
+Domain geometry     Defines where the field exists.                               Represents a line, grid, surface, region, volume, or modeled  Domain shape and scale can strongly affect results.         
+                                                                                   space.                                                                                                                   
+
+Grid resolution     Defines spatial approximation of the continuous domain.       Controls detail, computational cost, and approximation error  Grid refinement should be tested where results influence int
+                                                                                  .                                                             erpretation.                                                
+
+Initial condition   Defines the starting field.                                   Represents the spatial distribution at the beginning of simu  Initial-field uncertainty can strongly affect early dynamics
+                                                                                  lation.                                                       .                                                           
+
+Stability ratio     Controls numerical stability in explicit finite-difference s  Helps distinguish valid approximation from numerical artifac  Unstable numerical output should not be interpreted as syste
+                    chemes.                                                       t.                                                            m behavior.                                                 
+
+State field         Defines the distributed variable being modeled.               Represents temperature, concentration, pressure, density, ri  The field should have clear units, domain, and interpretatio
+                                                                                  sk, load, or another field.                                   n.                                                          
+section        
+---------------
+PDE AUDIT CASES
+scenario                                          grid_points  diffusivity  dx   dt    steps  stability_ratio  warning                                                     
+------------------------------------------------  -----------  -----------  ---  ----  -----  ---------------  ------------------------------------------------------------
+explicit_one_dimensional_diffusion_teaching_grid  51           0.1          1.0  0.25  100    0.025            Explicit diffusion schemes require stability checks; boundar
+                                                                                                               y and grid assumptions shape results.                       

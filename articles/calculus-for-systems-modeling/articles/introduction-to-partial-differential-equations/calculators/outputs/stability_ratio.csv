@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_diffusivity,input_dt,input_dx,result_stability_ratio,result_usually_stable_for_1d_explicit_diffusion
+stability-ratio,Computes the explicit one-dimensional diffusion stability ratio.,"This rule applies to a simple teaching scheme, not every PDE solver.",stability-ratio,0.1,0.25,1.0,0.025,True

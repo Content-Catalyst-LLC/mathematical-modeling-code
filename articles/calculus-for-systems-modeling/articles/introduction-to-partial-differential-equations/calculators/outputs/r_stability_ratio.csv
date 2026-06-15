@@ -1,0 +1,2 @@
+"calculator","diffusivity","dt","dx","stability_ratio","usually_stable_for_1d_explicit_diffusion"
+"stability-ratio",0.1,0.25,1,0.025,TRUE

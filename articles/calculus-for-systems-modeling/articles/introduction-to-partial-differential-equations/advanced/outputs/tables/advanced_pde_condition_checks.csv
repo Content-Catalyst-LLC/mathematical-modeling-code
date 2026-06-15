@@ -1,0 +1,10 @@
+condition,passed,warning
+state-field definition included,True,
+domain and boundary assumptions included,True,
+finite-difference diffusion example included,True,
+stability ratio included,True,
+grid and time-step documentation included,True,
+PDE governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

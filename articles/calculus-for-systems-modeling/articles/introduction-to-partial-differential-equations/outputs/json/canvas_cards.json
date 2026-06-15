@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-field",
+    "category": "model structure",
+    "governance_note": "Field meaning, units, and domain should be explicit.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "State Field"
+  },
+  {
+    "card_id": "boundary-condition",
+    "category": "model setup",
+    "governance_note": "Boundary assumptions can strongly shape PDE behavior.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Boundary Condition"
+  },
+  {
+    "card_id": "diffusion-equation",
+    "category": "teaching model",
+    "governance_note": "Diffusion models should represent gradient-driven smoothing or spread.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Diffusion Equation"
+  },
+  {
+    "card_id": "stability-ratio",
+    "category": "numerical method",
+    "governance_note": "Explicit schemes require stability checks before interpretation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Stability Ratio"
+  },
+  {
+    "card_id": "pde-governance",
+    "category": "governance",
+    "governance_note": "Grid, time step, domain, boundary, and solver should be documented.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "PDE Governance"
+  }
+]

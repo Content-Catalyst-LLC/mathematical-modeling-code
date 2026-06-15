@@ -1,0 +1,6 @@
+[package]
+name = "introduction-to-partial-differential-equations"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

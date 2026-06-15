@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-field,State Field,model structure,96,active,2026-06-15,"Field meaning, units, and domain should be explicit."
+boundary-condition,Boundary Condition,model setup,95,review,2026-06-15,Boundary assumptions can strongly shape PDE behavior.
+diffusion-equation,Diffusion Equation,teaching model,94,active,2026-06-15,Diffusion models should represent gradient-driven smoothing or spread.
+stability-ratio,Stability Ratio,numerical method,93,review,2026-06-15,Explicit schemes require stability checks before interpretation.
+pde-governance,PDE Governance,governance,92,active,2026-06-15,"Grid, time step, domain, boundary, and solver should be documented."

@@ -1,0 +1,25 @@
+{
+  "article": "Introduction to Partial Differential Equations",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "State fields need units, domain, and interpretation.",
+    "Boundary conditions can dominate PDE behavior.",
+    "Numerical stability checks are required before interpretation.",
+    "Grid spacing and time step should be documented.",
+    "Visually persuasive field outputs should not be treated as direct observations without validation."
+  ]
+}

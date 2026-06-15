@@ -1,0 +1,2 @@
+"grid_points","diffusivity","dx","dt","stability_ratio","interpretation"
+51,0.1,1,0.25,0.025,"The grid audit records how a concentrated initial field spreads under diffusion-like dynamics."
