@@ -1,0 +1,14 @@
+{
+  "calculator": "transport-ratio",
+  "inputs": {
+    "command": "transport-ratio",
+    "dt": 0.2,
+    "dx": 1.0,
+    "velocity": 0.4
+  },
+  "interpretation": "Computes a finite-difference transport ratio.",
+  "result": {
+    "transport_ratio": 0.08000000000000002
+  },
+  "warning": "Velocity direction, units, and boundary behavior should be documented."
+}

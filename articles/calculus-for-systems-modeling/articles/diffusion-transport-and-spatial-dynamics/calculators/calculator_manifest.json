@@ -1,0 +1,17 @@
+{
+  "article_slug": "diffusion-transport-and-spatial-dynamics",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "diffusion-ratio", "title": "Diffusion Ratio"},
+    {"id": "transport-ratio", "title": "Transport Ratio"},
+    {"id": "advection-diffusion-step", "title": "One-Cell Advection-Diffusion Update"},
+    {"id": "advection-diffusion-simulation", "title": "Advection-Diffusion Grid Simulation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

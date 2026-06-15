@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_grid_points,input_diffusivity,input_velocity,input_dx,input_dt,input_steps,result_records,result_final_center_value,result_diffusion_ratio,result_transport_ratio
+advection-diffusion-simulation,Runs a simple advection-diffusion grid simulation.,"Boundary, grid, source, sink, and numerical assumptions shape results.",advection-diffusion-simulation,61,0.08,0.4,1.0,0.2,120,121,0.0021340176097108597,0.016,0.08000000000000002

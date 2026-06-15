@@ -1,0 +1,29 @@
+section                             
+------------------------------------
+SPATIAL DYNAMICS ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary condition     Defines behavior at the domain edge.                          Represents inflow, outflow, containment, reflection, absorpt  Boundary assumptions can dominate results and should be test
+                                                                                     ion, or exchange.                                             ed.                                                         
+
+Diffusion coefficient  Controls spreading or smoothing strength.                     Represents mixing, dispersal, conductivity, permeability, or  Diffusion should be tied to a plausible mechanism.          
+                                                                                      local spread.                                                                                                            
+
+Grid and time step     Define numerical approximation resolution.                    Control computational stability, detail, cost, and artifact   Stability and grid-refinement checks should be recorded.    
+                                                                                     risk.                                                                                                                     
+
+Source and sink terms  Add or remove quantity from the field.                        Represent emissions, injection, decay, absorption, recovery,  Sources and sinks should be tied to evidence or scenario ass
+                                                                                      or extraction.                                               umptions.                                                   
+
+State field            Defines the distributed quantity modeled over space and time  Represents concentration, temperature, density, risk, pressu  Field meaning, units, and measurement basis should be explic
+                       .                                                             re, or another field.                                         it.                                                         
+
+Transport velocity     Controls directional movement through the domain.             Represents flow, wind, current, traffic speed, or directed m  Velocity magnitude, direction, and units should be documente
+                                                                                     ovement.                                                      d.                                                          
+section            
+-------------------
+SPATIAL AUDIT CASES
+scenario                                           grid_points  diffusivity  velocity  dx   dt   steps  diffusion_ratio  transport_ratio  warning                                                     
+-------------------------------------------------  -----------  -----------  --------  ---  ---  -----  ---------------  ---------------  ------------------------------------------------------------
+one_dimensional_advection_diffusion_teaching_grid  61           0.08         0.4       1.0  0.2  120    0.016            0.08             Spatial dynamics depend on field meaning, boundary condition
+                                                                                                                                          s, grid spacing, time step, and numerical stability.        

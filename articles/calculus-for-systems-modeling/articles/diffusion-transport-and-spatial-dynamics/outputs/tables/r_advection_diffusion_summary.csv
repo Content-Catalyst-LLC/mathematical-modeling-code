@@ -1,0 +1,2 @@
+"grid_points","diffusivity","velocity","dx","dt","diffusion_ratio","transport_ratio","interpretation"
+61,0.08,0.4,1,0.2,0.016,0.08,"The audit records how a localized field moves and spreads under transport and diffusion."

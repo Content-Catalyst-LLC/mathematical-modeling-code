@@ -1,0 +1,16 @@
+{
+  "calculator": "advection-diffusion-step",
+  "inputs": {
+    "center": 1.0,
+    "command": "advection-diffusion-step",
+    "diffusion_ratio": 0.016,
+    "left": 0.0,
+    "right": 0.0,
+    "transport_ratio": 0.08
+  },
+  "interpretation": "Computes one one-cell advection-diffusion update.",
+  "result": {
+    "updated_center": 0.888
+  },
+  "warning": "Use as a teaching calculator; real workflows need stability and validation."
+}

@@ -1,0 +1,10 @@
+condition,passed,warning
+state-field definition included,True,
+diffusion and transport mechanisms included,True,
+advection-diffusion example included,True,
+source-sink and boundary governance included,True,
+diffusion and transport ratios included,True,
+spatial governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

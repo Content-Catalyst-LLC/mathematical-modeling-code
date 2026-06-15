@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_field,State field,Defines the distributed quantity modeled over space and time,Represents concentration temperature density risk pressure or another field,Field meaning units and measurement basis should be explicit
+diffusion_coefficient,Diffusion coefficient,Controls spreading or smoothing strength,Represents mixing dispersal conductivity permeability or local spread,Diffusion should be tied to a plausible mechanism
+transport_velocity,Transport velocity,Controls directional movement through the domain,Represents flow wind current traffic speed or directed movement,Velocity magnitude direction and units should be documented
+source_sink_terms,Source and sink terms,Add or remove quantity from the field,Represent emissions injection decay absorption recovery or extraction,Sources and sinks should be tied to evidence or scenario assumptions
+boundary_condition,Boundary condition,Defines behavior at the domain edge,Represents inflow outflow containment reflection absorption or exchange,Boundary assumptions can dominate results and should be tested
+grid_and_time_step,Grid and time step,Define numerical approximation resolution,Control computational stability detail cost and artifact risk,Stability and grid-refinement checks should be recorded

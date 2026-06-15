@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-field",
+    "category": "model structure",
+    "governance_note": "Field meaning, units, and domain should be explicit.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "State Field"
+  },
+  {
+    "card_id": "diffusion",
+    "category": "spatial mechanism",
+    "governance_note": "Diffusion should represent plausible spreading, smoothing, or mixing.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Diffusion"
+  },
+  {
+    "card_id": "transport",
+    "category": "spatial mechanism",
+    "governance_note": "Velocity magnitude, direction, and units should be documented.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Transport"
+  },
+  {
+    "card_id": "flux",
+    "category": "conservation",
+    "governance_note": "Flux terms should connect movement, boundary exchange, and accumulation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Flux"
+  },
+  {
+    "card_id": "spatial-governance",
+    "category": "governance",
+    "governance_note": "Boundary, grid, stability, and source assumptions should be recorded.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Spatial Governance"
+  }
+]

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_left,input_center,input_right,input_diffusion_ratio,input_transport_ratio,result_updated_center
+advection-diffusion-step,Computes one one-cell advection-diffusion update.,Use as a teaching calculator; real workflows need stability and validation.,advection-diffusion-step,0.0,1.0,0.0,0.016,0.08,0.888

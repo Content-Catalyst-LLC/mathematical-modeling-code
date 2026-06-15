@@ -1,0 +1,25 @@
+{
+  "article": "Diffusion, Transport, and Spatial Dynamics",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Diffusion should not be used as a generic metaphor without a plausible mechanism.",
+    "Transport velocity requires direction, magnitude, units, and interpretation.",
+    "Boundary assumptions can dominate spatial results.",
+    "Grid spacing and time step should be documented.",
+    "Model-generated spatial fields should be distinguished from measured spatial data."
+  ]
+}

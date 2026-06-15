@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-field,State Field,model structure,96,active,2026-06-15,"Field meaning, units, and domain should be explicit."
+diffusion,Diffusion,spatial mechanism,95,active,2026-06-15,"Diffusion should represent plausible spreading, smoothing, or mixing."
+transport,Transport,spatial mechanism,94,review,2026-06-15,"Velocity magnitude, direction, and units should be documented."
+flux,Flux,conservation,93,review,2026-06-15,"Flux terms should connect movement, boundary exchange, and accumulation."
+spatial-governance,Spatial Governance,governance,92,active,2026-06-15,"Boundary, grid, stability, and source assumptions should be recorded."

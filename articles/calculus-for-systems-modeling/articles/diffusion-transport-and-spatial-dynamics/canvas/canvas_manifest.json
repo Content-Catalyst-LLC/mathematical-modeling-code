@@ -1,0 +1,22 @@
+{
+  "article_slug": "diffusion-transport-and-spatial-dynamics",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "diffusion-transport-spatial-dynamics",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "state-field", "title": "State Field", "description": "A distributed quantity across a domain."},
+    {"card_id": "diffusion", "title": "Diffusion", "description": "Gradient-driven smoothing, spreading, or mixing."},
+    {"card_id": "transport", "title": "Transport", "description": "Velocity-driven movement through a domain."},
+    {"card_id": "flux", "title": "Flux", "description": "Movement through a point, surface, or boundary."},
+    {"card_id": "spatial-governance", "title": "Spatial Governance", "description": "Fields, boundaries, grids, and stability require documentation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

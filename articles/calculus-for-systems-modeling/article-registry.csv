@@ -28,6 +28,8 @@ IV Sequences Series and Convergence,26,power-series-and-taylor-approximation,Pow
 IV Sequences Series and Convergence,26,power-series-and-functional-representation,Power Series and Functional Representation,active,articles/power-series-and-functional-representation,upgraded,included
 IV Sequences Series and Convergence,27,taylor-and-maclaurin-series-in-modeling,Taylor and Maclaurin Series in Modeling,active,articles/taylor-and-maclaurin-series-in-modeling,upgraded,included
 IV Sequences Series and Convergence,28,approximation-error-truncation-and-local-validity,Approximation Error Truncation and Local Validity,active,articles/approximation-error-truncation-and-local-validity,upgraded,included
+IX Numerical Calculus and Computational Methods,61,numerical-differentiation-for-systems-modeling,Numerical Differentiation for Systems Modeling,planned,articles/numerical-differentiation-for-systems-modeling,required,required
+IX Numerical Calculus and Computational Methods,62,numerical-integration-for-systems-modeling,Numerical Integration for Systems Modeling,planned,articles/numerical-integration-for-systems-modeling,required,required
 V Multivariable Calculus,29,functions-of-several-variables,Functions of Several Variables,active,articles/functions-of-several-variables,upgraded,included
 V Multivariable Calculus,30,partial-derivatives-and-interaction-effects,Partial Derivatives and Interaction Effects,active,articles/partial-derivatives-and-interaction-effects,upgraded,included
 V Multivariable Calculus,31,total-differentials-and-local-approximation-in-higher-dimensions,Total Differentials and Local Approximation in Higher Dimensions,active,articles/total-differentials-and-local-approximation-in-higher-dimensions,upgraded,included
@@ -59,5 +61,4 @@ VII Differential Equations and Dynamic Systems,56,chaos-and-sensitivity-to-initi
 VII Differential Equations and Dynamic Systems,57,forced-systems-and-external-shock,Forced Systems and External Shock,active,articles/forced-systems-and-external-shock,upgraded,included
 VII Differential Equations and Dynamic Systems,58,delay-memory-and-time-lagged-dynamics,"Delay, Memory, and Time-Lagged Dynamics",active,articles/delay-memory-and-time-lagged-dynamics,upgraded,included
 VIII Partial Differential Equations and Spatial Dynamics,59,introduction-to-partial-differential-equations,Introduction to Partial Differential Equations,active,articles/introduction-to-partial-differential-equations,upgraded,included
-VIII Partial Differential Equations and Spatial Dynamics,60,diffusion-transport-and-spatial-dynamics,"Diffusion, Transport, and Spatial Dynamics",planned,articles/diffusion-transport-and-spatial-dynamics,required,required
-VIII Partial Differential Equations and Spatial Dynamics,61,numerical-differentiation-for-systems-modeling,Numerical Differentiation for Systems Modeling,planned,articles/numerical-differentiation-for-systems-modeling,required,required
+VIII Partial Differential Equations and Spatial Dynamics,60,diffusion-transport-and-spatial-dynamics,"Diffusion, Transport, and Spatial Dynamics",active,articles/diffusion-transport-and-spatial-dynamics,upgraded,included

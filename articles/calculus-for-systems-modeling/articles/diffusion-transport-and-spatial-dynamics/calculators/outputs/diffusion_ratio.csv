@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_diffusivity,input_dt,input_dx,result_diffusion_ratio
+diffusion-ratio,Computes a finite-difference diffusion ratio.,Check scheme-specific stability before interpretation.,diffusion-ratio,0.08,0.2,1.0,0.016
