@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+parameterized-curve,Parameterized Curve,formal concept,95,active,2026-06-15,"Document parameter interval, component functions, and curve interpretation."
+velocity-acceleration,Velocity and Acceleration,motion,96,active,2026-06-15,"Separate position, velocity, acceleration, speed, and direction claims."
+arc-length-displacement,Arc Length and Displacement,accumulation,94,active,2026-06-15,Distinguish total distance traveled from net displacement.
+state-space-trajectory,State-Space Trajectory,systems,93,review,2026-06-15,Document variable scaling and normalization for nonphysical state-space paths.
+sampling-diagnostics,Sampling Diagnostics,computation,92,review,2026-06-15,"Report time step, smoothing, finite differences, and missing observations."

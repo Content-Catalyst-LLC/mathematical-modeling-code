@@ -1,0 +1,32 @@
+section                   
+--------------------------
+MOTION ASSUMPTION REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Component units      Defines units for each coordinate or state component.         Supports meaningful velocity distance and state-space compar  Unclear units make trajectory diagnostics difficult to inter
+                                                                                   ison.                                                         pret.                                                       
+
+Parameter meaning    Defines what the trajectory parameter represents.             Distinguishes time distance scenario stage and simulation st  Velocity and speed interpretation depend on the parameter.  
+                                                                                   ep.                                                                                                                       
+
+Path domain          Defines the interval where the vector-valued function applie  Determines the modeled portion of motion or system evolution  Changing the interval changes total distance and trajectory 
+                     s.                                                            .                                                             interpretation.                                             
+
+Sampling resolution  Defines the step size used to approximate the continuous pat  Shapes computed speed arc length acceleration and curvature.  Coarse sampling may miss turns or underestimate path length.
+                     h.                                                                                                                                                                                      
+
+State-space scaling  Defines how different state variables are compared or normal  Supports trajectory analysis outside physical space.          Unscaled variables can dominate state-space distance and cur
+                     ized.                                                                                                                       vature.                                                     
+section               
+----------------------
+TRAJECTORY AUDIT CASES
+scenario          time_step  point_count  approximate_arc_length  displacement_magnitude  path_efficiency  warning                                                     
+----------------  ---------  -----------  ----------------------  ----------------------  ---------------  ------------------------------------------------------------
+coarse_time_step  1.0        7            7.42                    6.28                    0.846            Time step is coarse; turns and speed variation may be unders
+                                                                                                           ampled.                                                     
+
+medium_time_step  0.5        13           7.6                     6.28                    0.826            Synthetic trajectory audit; document units parameter meaning
+                                                                                                            and sampling.                                              
+
+fine_time_step    0.25       26           7.63                    6.25                    0.819            Synthetic trajectory audit; document units parameter meaning
+                                                                                                            and sampling.                                              

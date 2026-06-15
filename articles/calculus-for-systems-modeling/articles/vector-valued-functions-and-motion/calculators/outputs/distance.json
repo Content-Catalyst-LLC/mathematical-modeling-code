@@ -1,0 +1,15 @@
+{
+  "calculator": "distance",
+  "inputs": {
+    "command": "distance",
+    "x1": 0.0,
+    "x2": 3.0,
+    "y1": 0.0,
+    "y2": 4.0
+  },
+  "interpretation": "Computes distance between two points.",
+  "result": {
+    "distance": 5.0
+  },
+  "warning": ""
+}

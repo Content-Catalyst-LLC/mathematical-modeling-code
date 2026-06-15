@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "parameterized-curve",
+    "category": "formal concept",
+    "governance_note": "Document parameter interval, component functions, and curve interpretation.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Parameterized Curve"
+  },
+  {
+    "card_id": "velocity-acceleration",
+    "category": "motion",
+    "governance_note": "Separate position, velocity, acceleration, speed, and direction claims.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Velocity and Acceleration"
+  },
+  {
+    "card_id": "arc-length-displacement",
+    "category": "accumulation",
+    "governance_note": "Distinguish total distance traveled from net displacement.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Arc Length and Displacement"
+  },
+  {
+    "card_id": "state-space-trajectory",
+    "category": "systems",
+    "governance_note": "Document variable scaling and normalization for nonphysical state-space paths.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "State-Space Trajectory"
+  },
+  {
+    "card_id": "sampling-diagnostics",
+    "category": "computation",
+    "governance_note": "Report time step, smoothing, finite differences, and missing observations.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Sampling Diagnostics"
+  }
+]

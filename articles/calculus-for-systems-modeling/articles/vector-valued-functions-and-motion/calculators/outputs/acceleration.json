@@ -1,0 +1,13 @@
+{
+  "calculator": "acceleration",
+  "inputs": {
+    "command": "acceleration",
+    "t": 1.0
+  },
+  "interpretation": "Evaluates r''(t)=<0,-sin(t)>.",
+  "result": {
+    "ax": 0.0,
+    "ay": -0.8414709848078965
+  },
+  "warning": ""
+}

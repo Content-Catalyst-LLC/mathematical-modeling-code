@@ -1,0 +1,13 @@
+{
+  "calculator": "velocity",
+  "inputs": {
+    "command": "velocity",
+    "t": 1.0
+  },
+  "interpretation": "Evaluates r'(t)=<1,cos(t)>.",
+  "result": {
+    "vx": 1.0,
+    "vy": 0.5403023058681398
+  },
+  "warning": ""
+}

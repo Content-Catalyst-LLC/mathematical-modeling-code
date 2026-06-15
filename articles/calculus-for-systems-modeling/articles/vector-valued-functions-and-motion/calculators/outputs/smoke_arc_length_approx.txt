@@ -1,0 +1,12 @@
+{
+  "calculator": "arc-length-approx",
+  "inputs": {
+    "command": "arc-length-approx",
+    "step": 0.25
+  },
+  "interpretation": "Approximates arc length from sampled segments.",
+  "result": {
+    "approximate_arc_length": 7.587238042992841
+  },
+  "warning": ""
+}

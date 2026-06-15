@@ -1,0 +1,13 @@
+{
+  "calculator": "displacement",
+  "inputs": {
+    "command": "displacement",
+    "start": 0.0,
+    "stop": 6.283185307
+  },
+  "interpretation": "Computes net displacement magnitude.",
+  "result": {
+    "displacement_magnitude": 6.283185307
+  },
+  "warning": ""
+}

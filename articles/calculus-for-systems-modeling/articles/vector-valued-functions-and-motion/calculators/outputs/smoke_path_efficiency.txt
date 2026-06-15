@@ -1,0 +1,14 @@
+{
+  "calculator": "path-efficiency",
+  "inputs": {
+    "command": "path-efficiency",
+    "step": 0.25
+  },
+  "interpretation": "Compares displacement to distance traveled.",
+  "result": {
+    "approximate_arc_length": 7.587238042992841,
+    "displacement_magnitude": 6.250088068212376,
+    "path_efficiency": 0.8237632762800445
+  },
+  "warning": ""
+}

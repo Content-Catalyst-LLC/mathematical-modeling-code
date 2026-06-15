@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_approximate_arc_length
+arc-length-approx,Approximates arc length from sampled segments.,,arc-length-approx,0.25,7.587238042992841

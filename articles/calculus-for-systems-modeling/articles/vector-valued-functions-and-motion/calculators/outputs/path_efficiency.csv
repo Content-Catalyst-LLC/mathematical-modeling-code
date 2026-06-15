@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_path_efficiency,result_displacement_magnitude,result_approximate_arc_length
+path-efficiency,Compares displacement to distance traveled.,,path-efficiency,0.25,0.8237632762800445,6.250088068212376,7.587238042992841

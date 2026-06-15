@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_start,input_stop,result_displacement_magnitude
+displacement,Computes net displacement magnitude.,,displacement,0.0,6.283185307,6.283185307

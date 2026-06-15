@@ -1,0 +1,38 @@
+[
+  {
+    "approximate_arc_length": 7.14343753036875,
+    "average_speed": 1.1905729217281251,
+    "displacement_magnitude": 6.006502561444035,
+    "domain_description": "trajectory r(t) = <t, sin(t)> for 0 <= t <= 2pi",
+    "maximum_speed": 1.34397351984862,
+    "path_efficiency": 0.8408420366117451,
+    "point_count": 7,
+    "scenario": "coarse_time_step",
+    "time_step": 1.0,
+    "warning": "Time step is coarse; turns and speed variation may be undersampled."
+  },
+  {
+    "approximate_arc_length": 7.21776427660956,
+    "average_speed": 1.20296071276826,
+    "displacement_magnitude": 6.006502561444035,
+    "domain_description": "trajectory r(t) = <t, sin(t)> for 0 <= t <= 2pi",
+    "maximum_speed": 1.4028097423967592,
+    "path_efficiency": 0.8321832538794828,
+    "point_count": 13,
+    "scenario": "medium_time_step",
+    "time_step": 0.5,
+    "warning": "Synthetic trajectory audit; document units, parameter meaning, and sampling."
+  },
+  {
+    "approximate_arc_length": 7.587238042992841,
+    "average_speed": 1.2139580868788546,
+    "displacement_magnitude": 6.250088068212376,
+    "domain_description": "trajectory r(t) = <t, sin(t)> for 0 <= t <= 2pi",
+    "maximum_speed": 1.4122778215331988,
+    "path_efficiency": 0.8237632762800445,
+    "point_count": 26,
+    "scenario": "fine_time_step",
+    "time_step": 0.25,
+    "warning": "Synthetic trajectory audit; document units, parameter meaning, and sampling."
+  }
+]

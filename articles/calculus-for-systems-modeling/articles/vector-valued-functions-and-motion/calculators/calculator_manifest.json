@@ -1,0 +1,23 @@
+{
+  "article_slug": "vector-valued-functions-and-motion",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "position", "title": "Position Vector"},
+    {"id": "velocity", "title": "Velocity Vector"},
+    {"id": "acceleration", "title": "Acceleration Vector"},
+    {"id": "speed", "title": "Speed"},
+    {"id": "distance", "title": "Distance Between Two Points"},
+    {"id": "displacement", "title": "Displacement Magnitude"},
+    {"id": "arc-length-approx", "title": "Approximate Arc Length"},
+    {"id": "path-efficiency", "title": "Path Efficiency"},
+    {"id": "finite-difference-velocity", "title": "Finite-Difference Velocity"},
+    {"id": "trajectory-audit", "title": "Trajectory Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

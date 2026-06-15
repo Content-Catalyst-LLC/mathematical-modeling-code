@@ -1,0 +1,4 @@
+scenario time_step point_count approximate_arc_length displacement_magnitude path_efficiency average_speed maximum_speed domain warning
+coarse_time_step    1.000        7      7.143438      6.006503      0.840842      1.190573      1.343974 trajectory coarse_time_step
+medium_time_step    0.500       13      7.217764      6.006503      0.832183      1.202961      1.402810 trajectory synthetic_trajectory
+fine_time_step    0.250       26      7.587238      6.250088      0.823763      1.213958      1.412278 trajectory synthetic_trajectory

@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+parameter_meaning,Parameter meaning,Defines what the trajectory parameter represents,Distinguishes time distance scenario stage and simulation step,Velocity and speed interpretation depend on the parameter
+component_units,Component units,Defines units for each coordinate or state component,Supports meaningful velocity distance and state-space comparison,Unclear units make trajectory diagnostics difficult to interpret
+position_vector,Position vector,Assigns a point or state vector to a parameter value,Represents location or system state at each time or stage,Position interpretation depends on coordinate or state-space convention
+velocity,Velocity,Derivative of position,Represents local direction and rate of motion,Finite-difference estimates depend on sampling resolution
+acceleration,Acceleration,Derivative of velocity,Represents change in velocity through time,Noise and coarse sampling can distort acceleration
+arc_length,Arc length,Accumulated speed over a parameter interval,Represents total distance traveled along the path,Arc length differs from displacement
+state_space_scaling,State-space scaling,Defines how different state variables are compared or normalized,Supports trajectory analysis outside physical space,Unscaled variables can dominate state-space distance and curvature
+sampling_resolution,Sampling resolution,Defines the step size used to approximate the continuous path,Shapes computed speed arc length acceleration and curvature,Coarse sampling may miss turns or underestimate path length

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,result_x,result_y
+position,"Evaluates r(t)=<t,sin(t)>.",,position,1.0,1.0,0.8414709848078965

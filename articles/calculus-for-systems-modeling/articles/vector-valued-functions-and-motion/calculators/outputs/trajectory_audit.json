@@ -1,0 +1,17 @@
+{
+  "calculator": "trajectory-audit",
+  "inputs": {
+    "command": "trajectory-audit",
+    "step": 0.25
+  },
+  "interpretation": "Audits a sampled vector-valued trajectory.",
+  "result": {
+    "approximate_arc_length": 7.587238042992841,
+    "average_speed": 1.2139580868788546,
+    "displacement_magnitude": 6.250088068212376,
+    "maximum_speed": 1.4122778215331988,
+    "path_efficiency": 0.8237632762800445,
+    "point_count": 26
+  },
+  "warning": ""
+}

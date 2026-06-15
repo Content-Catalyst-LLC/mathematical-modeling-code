@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,result_ax,result_ay
+acceleration,"Evaluates r''(t)=<0,-sin(t)>.",,acceleration,1.0,0.0,-0.8414709848078965

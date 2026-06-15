@@ -1,0 +1,10 @@
+condition,passed,warning
+parameter meaning documented,True,
+component functions documented,True,
+velocity and acceleration diagnostics included,True,
+arc length and displacement distinction included,True,
+sampling resolution warning included,True,
+state-space scaling warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_point_count,result_approximate_arc_length,result_displacement_magnitude,result_path_efficiency,result_average_speed,result_maximum_speed
+trajectory-audit,Audits a sampled vector-valued trajectory.,,trajectory-audit,0.25,26,7.587238042992841,6.250088068212376,0.8237632762800445,1.2139580868788546,1.4122778215331988

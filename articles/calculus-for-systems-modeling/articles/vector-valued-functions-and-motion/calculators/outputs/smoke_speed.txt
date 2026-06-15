@@ -1,0 +1,12 @@
+{
+  "calculator": "speed",
+  "inputs": {
+    "command": "speed",
+    "t": 1.0
+  },
+  "interpretation": "Computes the magnitude of velocity.",
+  "result": {
+    "speed": 1.1366294830446855
+  },
+  "warning": ""
+}

@@ -1,0 +1,4 @@
+"scenario","time_step","point_count","approximate_arc_length","displacement_magnitude","path_efficiency","average_speed","maximum_speed","domain_description","warning"
+"coarse_time_step",1,7,7.14343753036875,6.00650256144403,0.840842036611745,1.19057292172812,1.34397351984862,"trajectory r(t) = <t, sin(t)> for 0 <= t <= 2pi","Time step is coarse; turns and speed variation may be undersampled."
+"medium_time_step",0.5,13,7.21776427660956,6.00650256144403,0.832183253879483,1.20296071276826,1.40280974239676,"trajectory r(t) = <t, sin(t)> for 0 <= t <= 2pi","Synthetic trajectory audit; document units, parameter meaning, and sampling."
+"fine_time_step",0.25,26,7.58723804299284,6.25008806821238,0.823763276280044,1.21395808687885,1.4122778215332,"trajectory r(t) = <t, sin(t)> for 0 <= t <= 2pi","Synthetic trajectory audit; document units, parameter meaning, and sampling."

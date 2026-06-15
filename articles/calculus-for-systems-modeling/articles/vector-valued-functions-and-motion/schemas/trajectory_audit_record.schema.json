@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TrajectoryAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "time_step", "point_count", "approximate_arc_length",
+    "displacement_magnitude", "path_efficiency", "average_speed",
+    "maximum_speed", "domain_description", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "time_step": {"type": "number"},
+    "point_count": {"type": "integer"},
+    "approximate_arc_length": {"type": "number"},
+    "displacement_magnitude": {"type": "number"},
+    "path_efficiency": {"type": "number"},
+    "average_speed": {"type": "number"},
+    "maximum_speed": {"type": "number"},
+    "domain_description": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

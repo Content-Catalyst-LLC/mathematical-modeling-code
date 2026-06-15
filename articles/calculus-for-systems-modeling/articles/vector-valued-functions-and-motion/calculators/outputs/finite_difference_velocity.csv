@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,input_dt,result_vx,result_vy
+finite-difference-velocity,Approximates velocity by finite difference.,Smaller dt may reduce truncation error but amplify noise.,finite-difference-velocity,1.0,0.01,1.0000000000000009,0.536085981011869

@@ -1,0 +1,25 @@
+{
+  "article": "Vector-Valued Functions and Motion",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Vector-valued functions describe coordinated motion, not unrelated scalar outputs.",
+    "Velocity is vector-valued; speed is its magnitude.",
+    "Arc length differs from displacement.",
+    "Trajectory sampling can miss turns, speed changes, or curvature.",
+    "State-space trajectories require scaling and normalization documentation."
+  ]
+}

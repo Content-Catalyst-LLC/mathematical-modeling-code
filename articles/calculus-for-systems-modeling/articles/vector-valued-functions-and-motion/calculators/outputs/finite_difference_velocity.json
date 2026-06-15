@@ -1,0 +1,14 @@
+{
+  "calculator": "finite-difference-velocity",
+  "inputs": {
+    "command": "finite-difference-velocity",
+    "dt": 0.01,
+    "t": 1.0
+  },
+  "interpretation": "Approximates velocity by finite difference.",
+  "result": {
+    "vx": 1.0000000000000009,
+    "vy": 0.536085981011869
+  },
+  "warning": "Smaller dt may reduce truncation error but amplify noise."
+}
