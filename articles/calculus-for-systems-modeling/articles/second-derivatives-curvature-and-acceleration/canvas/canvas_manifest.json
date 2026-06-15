@@ -1,0 +1,19 @@
+{
+  "article_slug": "second-derivatives-curvature-and-acceleration",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "second-derivatives-curvature-acceleration",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "acceleration", "title": "Acceleration", "description": "The second derivative measures change in rate over time."},
+    {"card_id": "concavity", "title": "Concavity", "description": "The sign of the second derivative describes local bending."},
+    {"card_id": "curvature", "title": "Curvature", "description": "Curvature measures local bending while accounting for slope."},
+    {"card_id": "inflection-review", "title": "Inflection Review", "description": "Inflection requires concavity sign change, not just f double prime equals zero."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

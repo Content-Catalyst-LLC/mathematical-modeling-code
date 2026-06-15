@@ -1,0 +1,13 @@
+{
+  "advanced_standard": true,
+  "article": "Second Derivatives, Curvature, and Acceleration",
+  "diagnostics": [
+    "first_derivative",
+    "second_derivative",
+    "curvature",
+    "concavity",
+    "finite_difference_check",
+    "noise_warning"
+  ],
+  "warning": "Second-derivative claims require smoothness, local validity, finite-difference robustness, and noise review."
+}

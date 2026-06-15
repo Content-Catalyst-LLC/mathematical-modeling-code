@@ -1,6 +1,6 @@
-.PHONY: smoke advanced related-rates clean
+.PHONY: smoke advanced second-derivatives clean
 
-smoke: related-rates
+smoke: second-derivatives
 
 advanced:
 	@for d in articles/*; do \
@@ -10,8 +10,8 @@ advanced:
 		fi; \
 	done
 
-related-rates:
-	$(MAKE) -C articles/related-rates-and-interdependent-motion smoke
+second-derivatives:
+	$(MAKE) -C articles/second-derivatives-curvature-and-acceleration smoke
 
 clean:
 	@for d in articles/*; do \

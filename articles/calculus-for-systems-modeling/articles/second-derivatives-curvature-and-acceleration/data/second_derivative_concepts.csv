@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+twice_differentiability,Twice differentiability,Requires first derivative to be differentiable,Supports acceleration concavity and curvature interpretation,Nonsmooth systems may not support second-derivative claims
+operating_point,Operating point,Second derivatives are evaluated locally,Keeps acceleration and curvature claims state-specific,Curvature may change across regimes or thresholds
+concavity_sign,Concavity sign,Sign of second derivative indicates local bending,Supports increasing or diminishing marginal effects,A zero second derivative alone does not prove inflection
+finite_difference_step,Finite-difference step size,Numerical second derivatives depend on local difference formulas,Supports reproducible curvature and acceleration estimation,Step sizes that are too large or too small can distort estimates
+noise_sensitivity,Noise sensitivity,Second derivatives amplify measurement noise,Warns against overinterpreting acceleration in noisy data,Smoothing and uncertainty assumptions must be documented

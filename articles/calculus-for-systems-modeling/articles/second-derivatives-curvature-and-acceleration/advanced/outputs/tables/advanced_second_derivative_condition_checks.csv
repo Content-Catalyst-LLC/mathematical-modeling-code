@@ -1,0 +1,9 @@
+condition,value,passed,warning
+twice differentiability,1.0,True,
+twice differentiability,0.0,False,second derivative claim lacks smoothness support
+inflection sign change,1.0,True,
+inflection sign change,0.0,False,f''=0 alone does not prove inflection
+finite-difference second-derivative error,1e-08,True,
+finite-difference second-derivative error,0.01,False,second derivative estimate is unstable or inaccurate
+noise and smoothing review,1.0,True,
+noise and smoothing review,0.0,False,noise or smoothing assumptions are not documented

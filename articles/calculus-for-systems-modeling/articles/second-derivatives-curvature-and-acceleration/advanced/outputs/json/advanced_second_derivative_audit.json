@@ -1,0 +1,48 @@
+{
+  "advanced_standard": true,
+  "article": "Second Derivatives, Curvature, and Acceleration",
+  "condition_failures": [
+    {
+      "condition": "twice differentiability",
+      "passed": false,
+      "value": 0.0,
+      "warning": "second derivative claim lacks smoothness support"
+    },
+    {
+      "condition": "inflection sign change",
+      "passed": false,
+      "value": 0.0,
+      "warning": "f''=0 alone does not prove inflection"
+    },
+    {
+      "condition": "finite-difference second-derivative error",
+      "passed": false,
+      "value": 0.01,
+      "warning": "second derivative estimate is unstable or inaccurate"
+    },
+    {
+      "condition": "noise and smoothing review",
+      "passed": false,
+      "value": 0.0,
+      "warning": "noise or smoothing assumptions are not documented"
+    }
+  ],
+  "topics": [
+    "twice_differentiability",
+    "acceleration",
+    "concavity",
+    "curvature",
+    "inflection_review",
+    "second_order_approximation",
+    "critical_point_classification",
+    "finite_difference_stability",
+    "noise_sensitivity"
+  ],
+  "warnings": [
+    "Second derivative claims require stronger smoothness assumptions than first derivative claims.",
+    "Inflection requires concavity sign change, not only f''=0.",
+    "Numerical second derivatives amplify noise.",
+    "Finite-difference step size and smoothing assumptions must be documented.",
+    "Curvature should not be overread as tipping-point evidence without structural support."
+  ]
+}

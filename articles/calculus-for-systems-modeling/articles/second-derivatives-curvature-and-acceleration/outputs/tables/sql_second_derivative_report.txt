@@ -1,0 +1,17 @@
+section                              
+-------------------------------------
+SECOND DERIVATIVE ASSUMPTION REGISTRY
+assumption_name              mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Concavity sign               The sign of the second derivative indicates local bending.    Supports interpretation of increasing or diminishing margina  A zero second derivative at a point does not alone prove inf
+                                                                                           l effects.                                                    lection.                                                    
+
+Finite-difference step size  Numerical second derivatives depend on local difference form  Supports reproducible curvature and acceleration estimation.  Step sizes that are too large or too small can distort estim
+                             ulas.                                                                                                                       ates.                                                       
+
+Noise sensitivity            Second derivatives amplify measurement noise.                 Warns against overinterpreting acceleration in noisy data.    Smoothing and uncertainty assumptions must be documented.   
+
+Operating point              Second derivatives are evaluated locally.                     Keeps acceleration and curvature claims state-specific.       Curvature may change across regimes or thresholds.          
+
+Twice differentiability      A second derivative requires the first derivative to be diff  Supports acceleration, concavity, and curvature interpretati  Nonsmooth systems may not support second-derivative claims. 
+                             erentiable.                                                   on.                                                                                                                       

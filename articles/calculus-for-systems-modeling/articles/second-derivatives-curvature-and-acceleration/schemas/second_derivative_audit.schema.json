@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SecondDerivativeAudit",
+  "type": "object",
+  "required": ["x", "value", "first_derivative", "second_derivative", "curvature", "concavity", "finite_difference_second", "absolute_error", "warning"],
+  "properties": {
+    "x": {"type": "number"},
+    "value": {"type": "number"},
+    "first_derivative": {"type": "number"},
+    "second_derivative": {"type": "number"},
+    "curvature": {"type": "number", "minimum": 0},
+    "concavity": {"type": "string"},
+    "finite_difference_second": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0},
+    "warning": {"type": "string"}
+  }
+}
