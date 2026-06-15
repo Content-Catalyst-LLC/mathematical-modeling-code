@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StokesAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "radius", "boundary_segments", "radial_steps",
+    "boundary_circulation", "surface_curl_flux", "absolute_gap",
+    "field_description", "surface_description", "orientation_note", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "radius": {"type": "number"},
+    "boundary_segments": {"type": "integer"},
+    "radial_steps": {"type": "integer"},
+    "boundary_circulation": {"type": "number"},
+    "surface_curl_flux": {"type": "number"},
+    "absolute_gap": {"type": "number"},
+    "field_description": {"type": "string"},
+    "surface_description": {"type": "string"},
+    "orientation_note": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,10 @@
+condition,passed,warning
+vector field definition documented,True,
+oriented surface definition included,True,
+boundary curve and surface match included,True,
+right hand rule orientation included,True,
+boundary circulation and surface curl flux compared,True,
+mesh and sampling resolution warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

@@ -1,0 +1,25 @@
+{
+  "article": "Stokes' Theorem and Rotational Structure",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Boundary curve must bound the selected surface.",
+    "Surface normal and boundary direction must satisfy the right-hand rule.",
+    "Curl flux is the normal component of curl accumulated through the surface.",
+    "Boundary and surface estimates should be checked under refinement.",
+    "Field meaning and units are required for interpretation."
+  ]
+}

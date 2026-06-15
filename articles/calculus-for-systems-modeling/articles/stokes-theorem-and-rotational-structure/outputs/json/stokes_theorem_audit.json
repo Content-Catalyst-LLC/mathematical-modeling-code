@@ -1,0 +1,41 @@
+[
+  {
+    "absolute_gap": 0.04029500266347874,
+    "boundary_circulation": 6.2428903045161075,
+    "boundary_segments": 32,
+    "field_description": "F=<-y,x,0>; curl F=<0,0,2>",
+    "orientation_note": "counterclockwise boundary orientation viewed from positive z",
+    "radial_steps": 8,
+    "radius": 1.0,
+    "scenario": "coarse_audit",
+    "surface_curl_flux": 6.283185307179586,
+    "surface_description": "horizontal disk with upward normal",
+    "warning": "Coarse boundary or surface sampling; refine before interpreting the theorem comparison."
+  },
+  {
+    "absolute_gap": 0.0025229932700767677,
+    "boundary_circulation": 6.2806623139095095,
+    "boundary_segments": 128,
+    "field_description": "F=<-y,x,0>; curl F=<0,0,2>",
+    "orientation_note": "counterclockwise boundary orientation viewed from positive z",
+    "radial_steps": 32,
+    "radius": 1.0,
+    "scenario": "medium_audit",
+    "surface_curl_flux": 6.283185307179586,
+    "surface_description": "horizontal disk with upward normal",
+    "warning": "Synthetic Stokes theorem audit; document field, surface, boundary, orientation, units, and numerical method."
+  },
+  {
+    "absolute_gap": 0.00015770489103239527,
+    "boundary_circulation": 6.283027602288554,
+    "boundary_segments": 512,
+    "field_description": "F=<-y,x,0>; curl F=<0,0,2>",
+    "orientation_note": "counterclockwise boundary orientation viewed from positive z",
+    "radial_steps": 128,
+    "radius": 1.0,
+    "scenario": "fine_audit",
+    "surface_curl_flux": 6.283185307179586,
+    "surface_description": "horizontal disk with upward normal",
+    "warning": "Synthetic Stokes theorem audit; document field, surface, boundary, orientation, units, and numerical method."
+  }
+]

@@ -1,0 +1,4 @@
+scenario,radius,boundary_segments,radial_steps,boundary_circulation,surface_curl_flux,absolute_gap,field_description,surface_description,orientation_note,warning
+coarse_audit,1.000000000000,32,8,6.242890304516,6.283185307180,0.040295002663,F=<-y,x,0>; curl F=<0,0,2>,horizontal disk with upward normal,counterclockwise boundary orientation viewed from positive z,Coarse boundary or surface sampling.
+medium_audit,1.000000000000,128,32,6.280662313910,6.283185307180,0.002522993270,F=<-y,x,0>; curl F=<0,0,2>,horizontal disk with upward normal,counterclockwise boundary orientation viewed from positive z,Synthetic Stokes theorem audit.
+fine_audit,1.000000000000,512,128,6.283027602289,6.283185307180,0.000157704891,F=<-y,x,0>; curl F=<0,0,2>,horizontal disk with upward normal,counterclockwise boundary orientation viewed from positive z,Synthetic Stokes theorem audit.

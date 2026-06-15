@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_segments,result_boundary_circulation
+boundary-circulation,Approximates boundary circulation around a circle.,,boundary-circulation,1.0,128,6.2806623139095095

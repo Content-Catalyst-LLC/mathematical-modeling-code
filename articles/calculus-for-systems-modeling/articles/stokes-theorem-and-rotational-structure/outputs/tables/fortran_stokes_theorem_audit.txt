@@ -1,0 +1,4 @@
+scenario radius boundary_segments radial_steps boundary_circulation surface_curl_flux absolute_gap field_description surface_description orientation_note warning
+coarse_audit    1.000      32       8      6.242890      6.283185      0.040295 field disk ccw_up coarse_audit
+medium_audit    1.000     128      32      6.280662      6.283185      0.002523 field disk ccw_up synthetic_audit
+fine_audit    1.000     512     128      6.283028      6.283185      0.000158 field disk ccw_up synthetic_audit

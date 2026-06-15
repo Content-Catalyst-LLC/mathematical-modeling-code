@@ -1,0 +1,16 @@
+{
+  "calculator": "vector-field",
+  "inputs": {
+    "command": "vector-field",
+    "x": 1.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "interpretation": "Evaluates F=<-y,x,0>.",
+  "result": {
+    "fx": -0.0,
+    "fy": 1.0,
+    "fz": 0.0
+  },
+  "warning": ""
+}

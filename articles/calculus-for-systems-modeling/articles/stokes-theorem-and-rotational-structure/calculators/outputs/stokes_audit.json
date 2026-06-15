@@ -1,0 +1,16 @@
+{
+  "calculator": "stokes-audit",
+  "inputs": {
+    "command": "stokes-audit",
+    "radial_steps": 32,
+    "radius": 1.0,
+    "segments": 128
+  },
+  "interpretation": "Compares Stokes theorem boundary and surface quantities.",
+  "result": {
+    "absolute_gap": 0.0025229932700767677,
+    "boundary_circulation": 6.2806623139095095,
+    "surface_curl_flux": 6.283185307179586
+  },
+  "warning": ""
+}

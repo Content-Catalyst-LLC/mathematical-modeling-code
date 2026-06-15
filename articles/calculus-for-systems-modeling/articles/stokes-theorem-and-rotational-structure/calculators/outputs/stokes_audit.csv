@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_segments,input_radial_steps,result_boundary_circulation,result_surface_curl_flux,result_absolute_gap
+stokes-audit,Compares Stokes theorem boundary and surface quantities.,,stokes-audit,1.0,128,32,6.2806623139095095,6.283185307179586,0.0025229932700767677

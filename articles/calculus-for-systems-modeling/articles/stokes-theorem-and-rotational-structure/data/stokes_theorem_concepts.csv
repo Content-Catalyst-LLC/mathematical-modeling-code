@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+vector_field_definition,Vector field definition,Defines the field used for boundary circulation and curl,Determines what movement force flow transport or tendency means,Stokes theorem is not interpretable without a meaningful vector field
+surface_definition,Surface definition,Defines the oriented surface across which curl is accumulated,Represents an interface slice membrane control surface or conceptual surface,The surface must be connected to the boundary curve used in the theorem
+boundary_curve,Boundary curve,Defines the closed path around which circulation is measured,Represents the loop edge or system boundary where circulation is interpreted,The curve must be the boundary of the selected surface
+orientation_consistency,Orientation consistency,Links surface normal and boundary direction by the right-hand rule,Determines sign for rotational interpretation,Orientation errors can reverse the conclusion
+curl_computation,Curl computation,Defines local rotational structure,Supports comparison between local rotation and boundary circulation,Finite-difference curl estimates may amplify noise
+surface_mesh_resolution,Surface mesh resolution,Defines surface patches for curl-flux approximation,Shapes numerical surface integral estimates,Coarse surface meshes can miss rotational structure
+boundary_sampling,Boundary sampling,Defines path segments for line-integral approximation,Shapes numerical boundary circulation estimates,Coarse boundary sampling can hide local alignment changes

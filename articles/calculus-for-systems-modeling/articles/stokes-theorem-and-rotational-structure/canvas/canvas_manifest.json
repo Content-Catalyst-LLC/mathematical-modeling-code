@@ -1,0 +1,22 @@
+{
+  "article_slug": "stokes-theorem-and-rotational-structure",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "stokes-theorem-rotational-structure",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "oriented-surface", "title": "Oriented Surface", "description": "Surface normal defines positive curl-flux direction."},
+    {"card_id": "boundary-curve", "title": "Boundary Curve", "description": "Closed curve defines where circulation is measured."},
+    {"card_id": "right-hand-rule", "title": "Right-Hand Rule", "description": "Boundary direction and surface normal must be consistent."},
+    {"card_id": "curl-flux", "title": "Curl Flux", "description": "Accumulated curl-normal component through the surface."},
+    {"card_id": "stokes-audit", "title": "Stokes Audit", "description": "Boundary circulation should match surface curl flux under valid assumptions."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

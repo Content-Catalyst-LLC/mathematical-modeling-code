@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "oriented-surface",
+    "category": "geometry",
+    "governance_note": "Surface normal defines positive curl-flux direction.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Oriented Surface"
+  },
+  {
+    "card_id": "boundary-curve",
+    "category": "geometry",
+    "governance_note": "Boundary curve must bound the selected surface.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Boundary Curve"
+  },
+  {
+    "card_id": "right-hand-rule",
+    "category": "sign convention",
+    "governance_note": "Boundary direction and surface normal must be paired consistently.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Right-Hand Rule"
+  },
+  {
+    "card_id": "curl-flux",
+    "category": "theorem",
+    "governance_note": "Surface curl flux should match boundary circulation.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Curl Flux"
+  },
+  {
+    "card_id": "resolution",
+    "category": "numerical method",
+    "governance_note": "Boundary and surface estimates should be checked under refinement.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Resolution Review"
+  }
+]

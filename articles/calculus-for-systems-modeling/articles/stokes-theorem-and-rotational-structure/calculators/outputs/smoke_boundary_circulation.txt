@@ -1,0 +1,13 @@
+{
+  "calculator": "boundary-circulation",
+  "inputs": {
+    "command": "boundary-circulation",
+    "radius": 1.0,
+    "segments": 128
+  },
+  "interpretation": "Approximates boundary circulation around a circle.",
+  "result": {
+    "boundary_circulation": 6.2806623139095095
+  },
+  "warning": ""
+}

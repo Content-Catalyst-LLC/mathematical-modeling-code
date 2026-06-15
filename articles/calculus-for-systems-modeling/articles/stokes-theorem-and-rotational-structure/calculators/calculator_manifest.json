@@ -1,0 +1,18 @@
+{
+  "article_slug": "stokes-theorem-and-rotational-structure",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "vector-field", "title": "Vector Field Evaluator"},
+    {"id": "curl-field", "title": "Curl Field Evaluator"},
+    {"id": "boundary-circulation", "title": "Boundary Circulation"},
+    {"id": "surface-curl-flux", "title": "Surface Curl Flux"},
+    {"id": "stokes-audit", "title": "Stokes Theorem Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

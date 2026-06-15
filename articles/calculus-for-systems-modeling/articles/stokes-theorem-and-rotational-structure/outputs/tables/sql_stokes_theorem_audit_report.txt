@@ -1,0 +1,35 @@
+section                           
+----------------------------------
+STOKES THEOREM ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary curve           Defines the closed path around which circulation is measured  Represents the loop edge or system boundary where circulatio  The curve must be the boundary of the selected surface.     
+                         .                                                             n is interpreted.                                                                                                         
+
+Curl computation         Defines how local rotational structure is computed.           Supports comparison between local rotation and boundary circ  Finite-difference curl estimates may amplify noise.         
+                                                                                       ulation.                                                                                                                  
+
+Orientation consistency  Links surface normal and boundary direction by the right-han  Determines sign for rotational interpretation.                Orientation errors can reverse the conclusion.              
+                         d rule.                                                                                                                                                                                 
+
+Sampling resolution      Defines boundary segments and surface patches.                Shapes numerical comparison between line and surface estimat  Coarse sampling can make theorem comparisons misleading.    
+                                                                                       es.                                                                                                                       
+
+Surface definition       Defines the oriented surface across which curl is accumulate  Represents an interface slice membrane control surface or co  The surface must be connected to the boundary curve used in 
+                         d.                                                            nceptual surface.                                             the theorem.                                                
+
+Vector field definition  Defines the field used for boundary circulation and curl.     Determines what flow force movement transport or tendency me  Stokes theorem is not interpretable without a meaningful vec
+                                                                                       ans.                                                          tor field.                                                  
+section                   
+--------------------------
+STOKES THEOREM AUDIT CASES
+scenario      radius  boundary_segments  radial_steps  boundary_circulation  surface_curl_flux  absolute_gap  orientation_note                                              warning                                                     
+------------  ------  -----------------  ------------  --------------------  -----------------  ------------  ------------------------------------------------------------  ------------------------------------------------------------
+coarse_audit  1.0     32                 8             6.24289               6.283185           0.040295      counterclockwise boundary orientation viewed from positive z  Coarse boundary or surface sampling; refine before interpret
+                                                                                                                                                                            ing the theorem comparison.                                 
+
+medium_audit  1.0     128                32            6.280662              6.283185           0.002523      counterclockwise boundary orientation viewed from positive z  Synthetic Stokes theorem audit; document field surface bound
+                                                                                                                                                                            ary orientation units and numerical method.                 
+
+fine_audit    1.0     512                128           6.283027              6.283185           0.000158      counterclockwise boundary orientation viewed from positive z  Synthetic Stokes theorem audit; document field surface bound
+                                                                                                                                                                            ary orientation units and numerical method.                 

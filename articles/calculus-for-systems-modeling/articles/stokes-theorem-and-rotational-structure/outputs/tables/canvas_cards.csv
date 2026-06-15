@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+oriented-surface,Oriented Surface,geometry,96,active,2026-06-15,Surface normal defines positive curl-flux direction.
+boundary-curve,Boundary Curve,geometry,96,active,2026-06-15,Boundary curve must bound the selected surface.
+right-hand-rule,Right-Hand Rule,sign convention,95,active,2026-06-15,Boundary direction and surface normal must be paired consistently.
+curl-flux,Curl Flux,theorem,95,active,2026-06-15,Surface curl flux should match boundary circulation.
+resolution,Resolution Review,numerical method,92,review,2026-06-15,Boundary and surface estimates should be checked under refinement.

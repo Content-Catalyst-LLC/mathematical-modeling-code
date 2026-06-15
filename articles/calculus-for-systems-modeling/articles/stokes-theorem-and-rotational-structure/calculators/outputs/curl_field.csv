@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_z,result_curl_x,result_curl_y,result_curl_z
+curl-field,"Evaluates curl F=<0,0,2>.",,curl-field,1.0,0.0,0.0,0.0,0.0,2.0

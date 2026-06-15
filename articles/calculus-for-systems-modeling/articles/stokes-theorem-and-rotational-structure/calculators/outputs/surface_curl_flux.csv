@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_radial_steps,result_surface_curl_flux
+surface-curl-flux,Approximates curl flux through an upward-oriented disk.,,surface-curl-flux,1.0,32,6.283185307179586

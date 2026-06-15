@@ -1,0 +1,16 @@
+{
+  "calculator": "curl-field",
+  "inputs": {
+    "command": "curl-field",
+    "x": 1.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "interpretation": "Evaluates curl F=<0,0,2>.",
+  "result": {
+    "curl_x": 0.0,
+    "curl_y": 0.0,
+    "curl_z": 2.0
+  },
+  "warning": ""
+}

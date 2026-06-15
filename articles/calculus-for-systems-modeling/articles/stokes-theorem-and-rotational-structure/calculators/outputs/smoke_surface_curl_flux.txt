@@ -1,0 +1,13 @@
+{
+  "calculator": "surface-curl-flux",
+  "inputs": {
+    "command": "surface-curl-flux",
+    "radial_steps": 32,
+    "radius": 1.0
+  },
+  "interpretation": "Approximates curl flux through an upward-oriented disk.",
+  "result": {
+    "surface_curl_flux": 6.283185307179586
+  },
+  "warning": ""
+}

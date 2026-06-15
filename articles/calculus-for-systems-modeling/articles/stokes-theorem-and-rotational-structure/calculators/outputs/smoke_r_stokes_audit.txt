@@ -1,0 +1,4 @@
+    calculator radius segments radial_steps boundary_circulation
+1 stokes-audit      1      128           32             6.280662
+  surface_curl_flux absolute_gap
+1          6.283185  0.002522993
