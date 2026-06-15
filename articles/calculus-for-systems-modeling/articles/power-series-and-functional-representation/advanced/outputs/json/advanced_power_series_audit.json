@@ -1,0 +1,11 @@
+{
+  "article": "Power Series and Functional Representation",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "warnings": [
+    "A finite truncation is not equal to the full function.",
+    "A power series may converge only locally.",
+    "Smoothness alone does not guarantee analytic representation.",
+    "Endpoint behavior requires separate review."
+  ]
+}

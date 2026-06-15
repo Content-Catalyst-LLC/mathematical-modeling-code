@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_center,input_radius,result_distance_from_center,result_status
+radius-check,Radius checks make local domain validity explicit.,Power-series representation is not justified outside the convergence radius.,1.25,0.0,1.0,1.25,outside radius

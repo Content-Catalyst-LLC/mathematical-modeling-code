@@ -1,0 +1,14 @@
+{
+  "calculator": "truncation-sweep",
+  "inputs": {
+    "max_terms": 20,
+    "x": 0.75
+  },
+  "interpretation": "A truncation sweep shows how retained terms change approximation error.",
+  "result": {
+    "final_absolute_error": 0.012684847755735973,
+    "final_partial_sum": 3.987315152244264,
+    "rows_written": 20
+  },
+  "warning": ""
+}

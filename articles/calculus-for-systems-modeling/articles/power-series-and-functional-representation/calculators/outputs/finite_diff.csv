@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_values,result_differences,result_count
+finite-diff,Finite differences approximate discrete change between adjacent observations.,,"[1.0, 2.0, 4.0, 7.0, 11.0]","[1.0, 2.0, 3.0, 4.0]",4

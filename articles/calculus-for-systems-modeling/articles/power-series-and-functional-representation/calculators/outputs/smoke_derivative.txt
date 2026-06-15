@@ -1,0 +1,13 @@
+{
+  "calculator": "derivative",
+  "inputs": {
+    "function": "x^2",
+    "h": 0.0001,
+    "x": 2.0
+  },
+  "interpretation": "Central finite differences approximate local rate of change.",
+  "result": {
+    "central_difference": 4.000000000004
+  },
+  "warning": ""
+}

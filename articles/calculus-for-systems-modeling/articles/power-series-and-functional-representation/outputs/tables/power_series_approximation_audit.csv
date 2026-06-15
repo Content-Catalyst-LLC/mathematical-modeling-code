@@ -1,0 +1,6 @@
+function_name,center,x_value,n_terms,partial_sum,reference_value,absolute_error,convergence_status,warning
+1/(1-x),0.0,0.25,5,1.33203125,1.3333333333333333,0.0013020833333332593,inside radius of convergence,
+1/(1-x),0.0,0.25,10,1.3333320617675781,1.3333333333333333,1.2715657551343185e-06,inside radius of convergence,
+1/(1-x),0.0,0.75,5,3.05078125,4.0,0.94921875,inside radius of convergence,
+1/(1-x),0.0,0.75,20,3.987315152244264,4.0,0.012684847755735973,inside radius of convergence,
+1/(1-x),0.0,1.25,10,33.25290298461914,,,outside radius of convergence,Power series does not converge for this x value.

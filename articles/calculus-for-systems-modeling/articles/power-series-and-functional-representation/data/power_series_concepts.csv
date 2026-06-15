@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+expansion_center,Expansion center,Defines the point around which powers are measured,Identifies the local operating condition for interpretation,A power-series approximation should not be interpreted without knowing its center
+radius_of_convergence,Radius of convergence,Defines where the infinite series converges around the center,Sets a mathematical boundary for functional representation,Computing outside the convergence radius does not justify interpretation
+coefficient_rule,Coefficient rule,Explains how coefficients are generated,Distinguishes Taylor-derived coefficients from fitted or assumed coefficients,Coefficients without provenance are difficult to audit
+truncation_order,Truncation order,Records how many terms are retained in the finite approximation,Separates the computed polynomial from the infinite representation,A finite truncation is not the same as the full function
+remainder_logic,Remainder logic,Documents the omitted terms or error estimate,Supports responsible use of finite polynomial approximations,A polynomial approximation should not be trusted without error or validity review
+calculator_interface,Calculator interface,Provides command-line computational access to article concepts,Prepares article logic for future website widgets,Calculator outputs still require interpretation and assumption review

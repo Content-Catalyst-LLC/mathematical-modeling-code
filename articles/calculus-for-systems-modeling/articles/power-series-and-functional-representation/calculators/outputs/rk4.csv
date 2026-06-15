@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x0,input_rate,input_dt,input_steps,input_equation,result_final_x,result_rows_written
+rk4,RK4 approximates repeated change in a simple exponential growth/decay model.,,1.0,0.5,0.1,5,dx/dt = rate*x,1.284025400650577,6

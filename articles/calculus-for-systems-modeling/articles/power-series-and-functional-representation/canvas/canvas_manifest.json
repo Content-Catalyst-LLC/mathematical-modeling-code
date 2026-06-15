@@ -1,0 +1,22 @@
+{
+  "article_slug": "power-series-and-functional-representation",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "power-series-functional-representation",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "power-series", "title": "Power Series", "description": "Functions can be represented locally through infinite weighted powers."},
+    {"card_id": "center-of-expansion", "title": "Center of Expansion", "description": "The expansion center defines the local reference point."},
+    {"card_id": "radius-of-convergence", "title": "Radius of Convergence", "description": "The radius defines where the series representation is valid."},
+    {"card_id": "truncation-error", "title": "Truncation Error", "description": "Finite polynomial approximations require remainder review."},
+    {"card_id": "article-calculators", "title": "Article Calculators", "description": "Command-line calculators provide reusable computational logic for future website widgets."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

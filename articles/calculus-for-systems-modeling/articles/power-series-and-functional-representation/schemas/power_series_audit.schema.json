@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PowerSeriesAudit",
+  "type": "object",
+  "required": ["function_name", "center", "x_value", "n_terms", "partial_sum", "convergence_status", "warning"],
+  "properties": {
+    "function_name": {"type": "string"},
+    "center": {"type": "number"},
+    "x_value": {"type": "number"},
+    "n_terms": {"type": "integer"},
+    "partial_sum": {"type": "number"},
+    "reference_value": {"type": ["number", "null"]},
+    "absolute_error": {"type": ["number", "null"]},
+    "convergence_status": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

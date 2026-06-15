@@ -1,0 +1,4 @@
+    calculator    x terms partial_sum   last_term inside_radius reference_value
+1 power-series 0.75    20    3.987315 0.004228283          TRUE               4
+  absolute_error
+1     0.01268485

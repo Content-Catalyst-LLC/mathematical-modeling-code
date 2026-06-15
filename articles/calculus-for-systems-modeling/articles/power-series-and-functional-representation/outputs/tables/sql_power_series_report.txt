@@ -1,0 +1,19 @@
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Calculator interface   Provides reusable command-line computational logic.           Prepares calculator functions for future website interfaces.  Calculator outputs require interpretation and assumption rev
+                                                                                                                                                   iew.                                                        
+
+Coefficient rule       Explains how coefficients are generated.                      Distinguishes Taylor-derived coefficients from fitted or ass  Coefficients without provenance are difficult to audit.     
+                                                                                     umed coefficients.                                                                                                        
+
+Expansion center       Defines the point around which powers are measured.           Identifies the local operating condition for interpretation.  A power-series approximation should not be interpreted witho
+                                                                                                                                                   ut knowing its center.                                      
+
+Radius of convergence  Defines where the infinite series converges around the cente  Sets a mathematical boundary for functional representation.   Computing outside the convergence radius does not justify in
+                       r.                                                                                                                          terpretation.                                               
+
+Remainder logic        Documents the omitted terms or error estimate.                Supports responsible use of finite polynomial approximations  A polynomial approximation should not be trusted without err
+                                                                                     .                                                             or or validity review.                                      
+
+Truncation order       Records how many terms are retained in the finite approximat  Separates the computed polynomial from the infinite represen  A finite truncation is not the same as the full function.   
+                       ion.                                                          tation.                                                                                                                   

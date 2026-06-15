@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_max_terms,result_rows_written,result_final_partial_sum,result_final_absolute_error
+truncation-sweep,A truncation sweep shows how retained terms change approximation error.,,0.75,20,20,3.987315152244264,0.012684847755735973

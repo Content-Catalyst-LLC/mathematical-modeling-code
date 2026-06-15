@@ -1,0 +1,2 @@
+  calculator x terms partial_sum reference_value absolute_error
+1 taylor-exp 1    12    2.718282        2.718282   2.260552e-09

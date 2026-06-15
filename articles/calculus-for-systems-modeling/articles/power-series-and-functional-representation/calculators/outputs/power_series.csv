@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_x,input_terms,input_series,result_partial_sum,result_last_term,result_inside_radius,result_reference_value,result_absolute_error
+power-series,The geometric power series represents 1/(1-x) only when |x| < 1.,,0.75,20,sum x^n,3.987315152244264,0.004228282585245324,True,4.0,0.012684847755735973

@@ -1,0 +1,14 @@
+{
+  "calculator": "radius-check",
+  "inputs": {
+    "center": 0.0,
+    "radius": 1.0,
+    "x": 1.25
+  },
+  "interpretation": "Radius checks make local domain validity explicit.",
+  "result": {
+    "distance_from_center": 1.25,
+    "status": "outside radius"
+  },
+  "warning": "Power-series representation is not justified outside the convergence radius."
+}

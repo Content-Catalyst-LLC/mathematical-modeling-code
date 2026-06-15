@@ -1,0 +1,16 @@
+{
+  "calculator": "euler",
+  "inputs": {
+    "dt": 0.1,
+    "equation": "dx/dt = rate*x",
+    "rate": 0.5,
+    "steps": 5,
+    "x0": 1.0
+  },
+  "interpretation": "EULER approximates repeated change in a simple exponential growth/decay model.",
+  "result": {
+    "final_x": 1.2762815625000004,
+    "rows_written": 6
+  },
+  "warning": ""
+}

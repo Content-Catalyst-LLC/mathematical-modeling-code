@@ -1,0 +1,14 @@
+{
+  "calculator": "taylor-sin",
+  "inputs": {
+    "terms": 12,
+    "x": 1.0
+  },
+  "interpretation": "The sine Taylor series converges for all real x, but finite truncations remain local approximations.",
+  "result": {
+    "absolute_error": 0.0,
+    "partial_sum": 0.8414709848078965,
+    "reference_value": 0.8414709848078965
+  },
+  "warning": ""
+}

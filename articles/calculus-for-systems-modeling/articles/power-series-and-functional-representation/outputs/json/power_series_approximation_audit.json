@@ -1,0 +1,57 @@
+[
+  {
+    "absolute_error": 0.0013020833333332593,
+    "center": 0.0,
+    "convergence_status": "inside radius of convergence",
+    "function_name": "1/(1-x)",
+    "n_terms": 5,
+    "partial_sum": 1.33203125,
+    "reference_value": 1.3333333333333333,
+    "warning": "",
+    "x_value": 0.25
+  },
+  {
+    "absolute_error": 1.2715657551343185e-06,
+    "center": 0.0,
+    "convergence_status": "inside radius of convergence",
+    "function_name": "1/(1-x)",
+    "n_terms": 10,
+    "partial_sum": 1.3333320617675781,
+    "reference_value": 1.3333333333333333,
+    "warning": "",
+    "x_value": 0.25
+  },
+  {
+    "absolute_error": 0.94921875,
+    "center": 0.0,
+    "convergence_status": "inside radius of convergence",
+    "function_name": "1/(1-x)",
+    "n_terms": 5,
+    "partial_sum": 3.05078125,
+    "reference_value": 4.0,
+    "warning": "",
+    "x_value": 0.75
+  },
+  {
+    "absolute_error": 0.012684847755735973,
+    "center": 0.0,
+    "convergence_status": "inside radius of convergence",
+    "function_name": "1/(1-x)",
+    "n_terms": 20,
+    "partial_sum": 3.987315152244264,
+    "reference_value": 4.0,
+    "warning": "",
+    "x_value": 0.75
+  },
+  {
+    "absolute_error": null,
+    "center": 0.0,
+    "convergence_status": "outside radius of convergence",
+    "function_name": "1/(1-x)",
+    "n_terms": 10,
+    "partial_sum": 33.25290298461914,
+    "reference_value": null,
+    "warning": "Power series does not converge for this x value.",
+    "x_value": 1.25
+  }
+]

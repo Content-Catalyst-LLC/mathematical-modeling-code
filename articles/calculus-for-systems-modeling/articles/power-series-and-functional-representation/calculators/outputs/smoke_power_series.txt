@@ -1,0 +1,17 @@
+{
+  "calculator": "power-series",
+  "inputs": {
+    "series": "sum x^n",
+    "terms": 20,
+    "x": 0.75
+  },
+  "interpretation": "The geometric power series represents 1/(1-x) only when |x| < 1.",
+  "result": {
+    "absolute_error": 0.012684847755735973,
+    "inside_radius": true,
+    "last_term": 0.004228282585245324,
+    "partial_sum": 3.987315152244264,
+    "reference_value": 4.0
+  },
+  "warning": ""
+}

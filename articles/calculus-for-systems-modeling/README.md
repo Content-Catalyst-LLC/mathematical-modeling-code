@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, integration, improper integrals, accumulation, exposure, flow-to-stock reasoning, sequences, series, convergence, convergence tests, infinite approximation, numerical methods, calculators, and responsible mathematical interpretation.
+This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, integration, improper integrals, accumulation, exposure, flow-to-stock reasoning, sequences, series, convergence, convergence tests, power series, functional representation, Taylor and Maclaurin approximation, approximation error, multivariable calculus, numerical methods, calculators, and responsible mathematical interpretation.
 
 ## Nested article folders
 

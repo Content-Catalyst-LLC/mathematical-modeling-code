@@ -1,0 +1,6 @@
+condition,passed,warning
+expansion center stated,True,
+convergence radius reviewed,True,
+truncation order documented,True,
+remainder logic included,True,
+calculator layer included,True,

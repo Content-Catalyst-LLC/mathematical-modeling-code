@@ -1,0 +1,2 @@
+"calculator","x","terms","partial_sum","reference_value","absolute_error"
+"taylor-exp",1,12,2.71828182619849,2.71828182845905,2.26055218988108e-09
