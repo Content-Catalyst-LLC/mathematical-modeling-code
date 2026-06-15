@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RuleAudit",
+  "type": "object",
+  "required": ["rule", "model_structure", "x", "derivative_value", "component_a", "component_b", "warning"],
+  "properties": {
+    "rule": {"type": "string"},
+    "model_structure": {"type": "string"},
+    "x": {"type": "number"},
+    "derivative_value": {"type": "number"},
+    "component_a": {"type": "number"},
+    "component_b": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "advanced_standard": true,
+  "article": "Rules of Differentiation and Model Structure",
+  "condition_failures": [
+    {
+      "condition": "denominator nonzero and not near zero",
+      "passed": false,
+      "rule": "quotient_rule",
+      "warning": "denominator near zero"
+    },
+    {
+      "condition": "all nested links differentiable",
+      "passed": false,
+      "rule": "chain_rule",
+      "warning": "at least one chain link is not differentiable"
+    },
+    {
+      "condition": "regularity condition F_y != 0",
+      "passed": false,
+      "rule": "implicit_differentiation",
+      "warning": "implicit derivative may be undefined"
+    },
+    {
+      "condition": "positive argument for logarithm",
+      "passed": false,
+      "rule": "logarithmic_differentiation",
+      "warning": "logarithmic differentiation requires positive quantity"
+    }
+  ],
+  "topics": [
+    "linearity",
+    "product_rule_as_leibniz_rule",
+    "quotient_denominator_conditions",
+    "chain_rule_composition",
+    "implicit_regular_conditions",
+    "logarithmic_positivity_conditions",
+    "automatic_differentiation_warning"
+  ],
+  "warnings": [
+    "Structural derivative decomposition is not the same as causal attribution.",
+    "The quotient rule requires nonzero denominators.",
+    "The chain rule requires differentiable links.",
+    "Implicit differentiation requires regularity conditions.",
+    "Logarithmic differentiation requires positivity."
+  ]
+}

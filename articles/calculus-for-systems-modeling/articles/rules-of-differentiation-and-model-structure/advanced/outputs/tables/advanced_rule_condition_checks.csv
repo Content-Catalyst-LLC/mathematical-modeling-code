@@ -1,0 +1,9 @@
+rule,condition,passed,warning
+quotient_rule,denominator nonzero and not near zero,True,
+quotient_rule,denominator nonzero and not near zero,False,denominator near zero
+chain_rule,all nested links differentiable,True,
+chain_rule,all nested links differentiable,False,at least one chain link is not differentiable
+implicit_differentiation,regularity condition F_y != 0,True,
+implicit_differentiation,regularity condition F_y != 0,False,implicit derivative may be undefined
+logarithmic_differentiation,positive argument for logarithm,True,
+logarithmic_differentiation,positive argument for logarithm,False,logarithmic differentiation requires positive quantity

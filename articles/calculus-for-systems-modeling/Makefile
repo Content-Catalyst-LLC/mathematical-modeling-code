@@ -1,6 +1,6 @@
-.PHONY: smoke advanced derivatives clean
+.PHONY: smoke advanced rules clean
 
-smoke: derivatives
+smoke: rules
 
 advanced:
 	@for d in articles/*; do \
@@ -10,8 +10,8 @@ advanced:
 		fi; \
 	done
 
-derivatives:
-	$(MAKE) -C articles/derivatives-and-rates-of-change smoke
+rules:
+	$(MAKE) -C articles/rules-of-differentiation-and-model-structure smoke
 
 clean:
 	@for d in articles/*; do \

@@ -1,0 +1,5 @@
+rule,model_structure,t,derivative_value,component_a,component_b,warning
+product_rule,impact = population * affluence,0.000000,6.000000000000,2.000000000000,4.000000000000,
+product_rule,impact = population * affluence,5.000000,6.971005456370,2.323668485457,4.647336970913,
+product_rule,impact = population * affluence,10.000000,8.099152845456,2.699717615152,5.399435230304,
+product_rule,impact = population * affluence,20.000000,10.932712802343,3.644237600781,7.288475201562,

@@ -1,0 +1,17 @@
+{
+  "advanced_standard": true,
+  "article": "Rules of Differentiation and Model Structure",
+  "counts_by_rule": {
+    "chain_rule": 4,
+    "product_rule": 4,
+    "quotient_rule": 4,
+    "sum_rule": 4
+  },
+  "rules": [
+    "chain_rule",
+    "product_rule",
+    "quotient_rule",
+    "sum_rule"
+  ],
+  "warning": "Differentiation rules expose model structure but do not prove causal interpretation."
+}

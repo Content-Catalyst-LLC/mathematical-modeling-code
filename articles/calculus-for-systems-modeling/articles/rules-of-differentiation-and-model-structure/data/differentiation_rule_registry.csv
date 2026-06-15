@@ -1,0 +1,7 @@
+rule_key,rule_name,formula_summary,model_structure,systems_modeling_role,review_warning
+sum_rule,Sum rule,D(f+g)=Df+Dg,Additive decomposition,Supports component-wise rate attribution,Hidden interactions require other rules
+product_rule,Product rule,D(fg)=fDg+gDf,Interaction of factors,Separates local change into factor-specific contributions,Both factors must be differentiable
+quotient_rule,Quotient rule,D(f/g)=(gDf-fDg)/g^2,Ratio or normalized quantity,Explains how numerator and denominator drive ratio change,Requires nonzero denominator and careful near-zero interpretation
+chain_rule,Chain rule,D(f∘g)=(Df∘g)Dg,Nested process or transformation,Tracks how change propagates through linked mechanisms,Every relevant link must be differentiable
+implicit_differentiation,Implicit differentiation,dy/dx=-F_x/F_y for F(x,y)=0 under regularity conditions,Constraint relationship,Shows co-adjustment while maintaining a constraint,Requires regularity conditions such as nonzero F_y
+logarithmic_differentiation,Logarithmic differentiation,D log f = f'/f,Multiplicative or proportional structure,Supports relative-rate and elasticity interpretation,Requires positivity and domain checks

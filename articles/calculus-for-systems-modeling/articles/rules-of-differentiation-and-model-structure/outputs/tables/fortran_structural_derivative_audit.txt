@@ -1,0 +1,5 @@
+rule model_structure t derivative_value component_a component_b warning
+product_rule impact=population*affluence    0.000     6.00000000     2.00000000     4.00000000
+product_rule impact=population*affluence    5.000     6.97100546     2.32366849     4.64733697
+product_rule impact=population*affluence   10.000     8.09915285     2.69971762     5.39943523
+product_rule impact=population*affluence   20.000    10.93271280     3.64423760     7.28847520

@@ -1,0 +1,36 @@
+section                      
+-----------------------------
+DIFFERENTIATION RULE REGISTRY
+rule_name                    model_structure                           systems_modeling_role                                         review_warning                                              
+---------------------------  ----------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Chain rule                   Nested process or transformation          Tracks how change propagates through linked mechanisms.       Every relevant link must be differentiable.                 
+
+Implicit differentiation     Constraint relationship                   Shows how variables co-adjust while maintaining a constraint  Requires regularity conditions such as nonzero F_y.         
+                                                                       .                                                                                                                         
+
+Logarithmic differentiation  Multiplicative or proportional structure  Supports growth-rate and elasticity interpretation.           Requires positivity and domain checks.                      
+
+Product rule                 Interaction of factors                    Separates local change into factor-specific contributions.    Both factors must be differentiable at the point of interpre
+                                                                                                                                     tation.                                                     
+
+Quotient rule                Ratio or normalized quantity              Explains how numerator and denominator drive ratio change.    Requires nonzero denominator and careful near-zero interpret
+                                                                                                                                     ation.                                                      
+
+Sum rule                     Additive decomposition                    Supports component-wise rate attribution.                     Only reflects additive structure; hidden interactions requir
+                                                                                                                                     e other rules.                                              
+section             
+--------------------
+RULE REVIEW WARNINGS
+warning_name                      interpretation                                              
+--------------------------------  ------------------------------------------------------------
+Structural does not imply causal  A derivative decomposition identifies local pathways in the 
+                                  model but does not by itself prove causal interpretation.   
+
+Every link matters                A chain-rule pathway requires differentiability at every rel
+                                  evant link.                                                 
+
+Near-zero denominator             Ratio derivatives can become unstable when denominators are 
+                                  small.                                                      
+
+Domain required                   Symbolic differentiation must respect the domain where the m
+                                  odel is meaningful.                                         

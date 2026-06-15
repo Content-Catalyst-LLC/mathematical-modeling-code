@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across continuous change, functions, variables, domains, ranges, limits, continuity, discontinuity, differentiability, derivatives, rates of change, elasticity, vector fields, accumulation, optimization, differential equations, numerical methods, sensitivity analysis, and responsible mathematical interpretation.
+This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, rates of change, rules of differentiation, model structure, elasticity, vector fields, numerical methods, sensitivity analysis, and responsible mathematical interpretation.
 
 ## Nested article folders
 
@@ -23,6 +23,7 @@ articles/limits-and-the-formal-basis-of-calculus/
 articles/continuity-discontinuity-and-structural-breaks/
 articles/differentiability-and-local-behavior/
 articles/derivatives-and-rates-of-change/
+articles/rules-of-differentiation-and-model-structure/
 ```
 
 ## Advanced mathematical standard

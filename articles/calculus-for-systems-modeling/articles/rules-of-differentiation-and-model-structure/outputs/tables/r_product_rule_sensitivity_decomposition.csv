@@ -1,0 +1,5 @@
+"rule","model_structure","t","derivative_total","population_component","affluence_component","population_share","affluence_share"
+"product_rule","impact = population * affluence",0,6,2,4,0.333333333333333,0.666666666666667
+"product_rule","impact = population * affluence",5,6.9710054563697,2.32366848545657,4.64733697091313,0.333333333333333,0.666666666666667
+"product_rule","impact = population * affluence",10,8.09915284545602,2.69971761515201,5.39943523030401,0.333333333333333,0.666666666666667
+"product_rule","impact = population * affluence",20,10.9327128023431,3.64423760078102,7.28847520156204,0.333333333333333,0.666666666666667

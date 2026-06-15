@@ -1,0 +1,19 @@
+{
+  "article_slug": "rules-of-differentiation-and-model-structure",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "differentiation-rules-model-structure",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "sum-rule", "title": "Sum Rule", "description": "Additive models differentiate into sums of component rates."},
+    {"card_id": "product-rule", "title": "Product Rule", "description": "Interaction models change through multiple factor pathways."},
+    {"card_id": "quotient-rule", "title": "Quotient Rule", "description": "Ratio indicators depend on numerator and denominator change."},
+    {"card_id": "chain-rule", "title": "Chain Rule", "description": "Nested systems transmit change through linked transformations."},
+    {"card_id": "implicit-rule", "title": "Implicit Differentiation", "description": "Constraint systems reveal co-adjustment rates under regularity assumptions."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true
+  }
+}
