@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_growth_rate,input_carrying_capacity,result_rate
+logistic-rate,Computes the logistic nonlinear rate.,Assumes fixed carrying capacity and smooth density limitation.,logistic-rate,10.0,0.6,100.0,5.4

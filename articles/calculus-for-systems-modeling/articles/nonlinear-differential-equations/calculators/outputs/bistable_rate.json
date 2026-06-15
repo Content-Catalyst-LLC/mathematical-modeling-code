@@ -1,0 +1,13 @@
+{
+  "calculator": "bistable-rate",
+  "inputs": {
+    "command": "bistable-rate",
+    "state": 0.35,
+    "threshold": 0.4
+  },
+  "interpretation": "Computes a bistable threshold nonlinear rate.",
+  "result": {
+    "rate": -0.011375000000000008
+  },
+  "warning": "Threshold requires evidence or explicit scenario labeling."
+}

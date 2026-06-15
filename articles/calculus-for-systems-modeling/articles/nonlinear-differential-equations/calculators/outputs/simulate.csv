@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_model,input_state,input_dt,input_steps,input_growth_rate,input_carrying_capacity,input_threshold,result_records,result_final_state,result_final_rate
+simulate,Simulates a nonlinear scalar differential equation.,Check solver sensitivity and parameter uncertainty before interpretation.,simulate,logistic,10.0,0.05,100,0.6,100.0,0.4,101,68.77648724144794,12.884661161230456

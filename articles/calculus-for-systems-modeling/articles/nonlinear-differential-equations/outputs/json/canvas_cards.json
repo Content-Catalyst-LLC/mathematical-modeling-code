@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "nonlinear-rate-law",
+    "category": "model structure",
+    "governance_note": "Nonlinear terms should map to mechanism, evidence, or explicit scenario logic.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Nonlinear Rate Law"
+  },
+  {
+    "card_id": "saturation",
+    "category": "systems interpretation",
+    "governance_note": "Carrying capacity or upper limits should be interpreted and sourced.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Saturation"
+  },
+  {
+    "card_id": "threshold",
+    "category": "regime behavior",
+    "governance_note": "Thresholds should be observed, estimated, policy-defined, or clearly hypothetical.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Threshold"
+  },
+  {
+    "card_id": "equilibrium-stability",
+    "category": "qualitative analysis",
+    "governance_note": "Multiple equilibria and local stability require careful communication.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Equilibrium and Stability"
+  },
+  {
+    "card_id": "solver-sensitivity",
+    "category": "governance",
+    "governance_note": "Nonlinear trajectories require step-size, solver, and domain checks.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Solver Sensitivity"
+  }
+]

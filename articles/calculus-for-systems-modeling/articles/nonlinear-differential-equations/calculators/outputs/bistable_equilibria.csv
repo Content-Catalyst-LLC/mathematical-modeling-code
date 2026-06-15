@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_threshold
+bistable-equilibria,Returns bistable threshold equilibrium points.,Stability and interpretation require domain review.,bistable-equilibria,0.4

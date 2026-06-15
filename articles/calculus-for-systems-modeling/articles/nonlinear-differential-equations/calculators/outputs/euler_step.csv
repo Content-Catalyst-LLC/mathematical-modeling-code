@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_model,input_state,input_dt,input_growth_rate,input_carrying_capacity,input_threshold,result_rate,result_next_state
+euler-step,Computes one explicit Euler update for a nonlinear scalar equation.,Euler error depends on step size.,euler-step,logistic,10.0,0.05,0.6,100.0,0.4,5.4,10.27

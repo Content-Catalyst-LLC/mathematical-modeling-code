@@ -1,0 +1,25 @@
+{
+  "article": "Nonlinear Differential Equations",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Nonlinear terms should be justified by mechanism, evidence, or explicit scenario design.",
+    "Thresholds should be observed, estimated, policy-defined, or clearly hypothetical.",
+    "Parameter uncertainty can strongly alter nonlinear trajectories.",
+    "Step size and solver choice can create misleading nonlinear behavior.",
+    "Equilibria may be unstable, outside the meaningful domain, or conditional on assumptions."
+  ]
+}

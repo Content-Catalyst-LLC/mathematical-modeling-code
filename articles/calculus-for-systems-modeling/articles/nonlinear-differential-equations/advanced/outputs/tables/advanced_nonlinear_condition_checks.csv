@@ -1,0 +1,10 @@
+condition,passed,warning
+nonlinear rate laws documented,True,
+logistic saturation example included,True,
+bistable threshold example included,True,
+equilibrium calculations included,True,
+domain and threshold warnings included,True,
+solver and step-size warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

@@ -1,0 +1,19 @@
+{
+  "article_slug": "nonlinear-differential-equations",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-rate", "title": "Logistic Rate"},
+    {"id": "logistic-equilibria", "title": "Logistic Equilibria"},
+    {"id": "bistable-rate", "title": "Bistable Threshold Rate"},
+    {"id": "bistable-equilibria", "title": "Bistable Equilibria"},
+    {"id": "euler-step", "title": "Nonlinear Euler Step"},
+    {"id": "simulate", "title": "Nonlinear Simulation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

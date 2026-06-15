@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_threshold,result_rate
+bistable-rate,Computes a bistable threshold nonlinear rate.,Threshold requires evidence or explicit scenario labeling.,bistable-rate,0.35,0.4,-0.011375000000000008

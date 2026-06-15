@@ -1,0 +1,16 @@
+{
+  "calculator": "bistable-equilibria",
+  "inputs": {
+    "command": "bistable-equilibria",
+    "threshold": 0.4
+  },
+  "interpretation": "Returns bistable threshold equilibrium points.",
+  "result": {
+    "equilibria": [
+      0.0,
+      0.4,
+      1.0
+    ]
+  },
+  "warning": "Stability and interpretation require domain review."
+}

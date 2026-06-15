@@ -1,0 +1,603 @@
+scenario,time,state,rate,parameter_a,parameter_b,parameter_c,method,warning
+logistic_growth,0.0,10.0,5.4,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.05,10.27,5.5291626,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.1,10.54645813,5.660508203472941,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.15000000000000002,10.829483540173646,5.7940238416228365,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.2,11.119184732254787,5.929693224692825,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.25,11.415669393489429,6.06749658988495,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.30000000000000004,11.719044222983676,6.207410548788723,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.35000000000000003,12.029414750423113,6.349407934827685,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.4,12.346885147164498,6.493457651275071,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.45,12.671558029728251,6.639524520432328,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.5,13.003534255749868,6.787569134607158,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.55,13.342912712480226,6.9375477095709375,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.6000000000000001,13.689790097958772,7.089411941218242,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.65,14.044260695019684,7.2431088661937615,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.7000000000000001,14.406416138329373,7.398580727293322,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.75,14.77634517469404,7.555764844486201,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.8,15.15413341691835,7.714593492444442,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.8500000000000001,15.539863091540573,7.874993785501394,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.9,15.933612780815643,8.036887570995557,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,0.9500000000000001,16.335457159365422,8.200191331986476,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.0,16.745466725964747,8.364816100356492,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.05,17.16370753098257,8.530667381334895,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.1,17.590240900049317,8.697645090498984,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.1500000000000001,18.025123154574267,8.865643504319143,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.2000000000000002,18.468405329790222,9.03455122532159,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.25,18.9201328910563,9.204251162942398,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.3,19.38034544920342,9.374620531139294,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.35,19.849076475760388,9.545530863812726,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.4000000000000001,20.326353018951025,9.716848049064497,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.4500000000000002,20.81219542140425,9.88843238329023,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.5,21.306617040568764,10.060138646060526,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.55,21.80962397287179,10.23181619669469,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.6,22.321214782706527,10.403309093369618,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.6500000000000001,22.841380237375006,10.57445623553493,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.7000000000000002,23.37010304915175,10.74509153032322,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.75,23.907357625667913,10.915044083551258,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.8,24.453109829845477,11.084138415804372,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.85,25.007316750635695,11.252194703981669,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.9000000000000001,25.569926485834777,11.419029048554897,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,1.9500000000000002,26.140877938262523,11.584453766658672,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.0,26.720100626595457,11.74827771098495,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.0500000000000003,27.307514512144703,11.91030661430086,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.1,27.903029842859745,12.070343459246715,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.15,28.50654701582208,12.2281888729016,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.2,29.11795645946716,12.383641545427745,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.25,29.737138536738545,12.536498671924045,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.3000000000000003,30.36396347033475,12.686556416433913,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.35,30.998291291156445,12.833610396865552,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.4000000000000004,31.63997181099972,12.97745618939469,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.45,32.288844620469455,13.117889850732757,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.5,32.944739113006094,13.254708456459456,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.5500000000000003,33.60747453582907,13.387710653439047,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.6,34.27686006850102,13.516697224167013,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.6500000000000004,34.952694929709374,13.641471660729637,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.7,35.63476851274586,13.761840745905614,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.75,36.32286055004114,13.877615138798273,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.8000000000000003,37.016741306981054,13.988609962260888,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.85,37.7161718050941,14.094645389268209,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.9000000000000004,38.42090407455751,14.195547225296405,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,2.95,39.13068143582233,14.291147483702536,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.0,39.84523881000746,14.381284951045327,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.0500000000000003,40.56430305755973,14.465805739262539,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.1,41.287593344522854,14.544563821617583,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.1500000000000004,42.01482153560373,14.617421549350452,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.2,42.745692613071256,14.684250146015705,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.25,43.47990512037204,14.744930176563896,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.3000000000000003,44.21715162920023,14.79935198832203,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.35,44.957119228616335,14.847416121153653,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.4000000000000004,45.69949003467402,14.889033684228792,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.45,46.44394171888546,14.9241266970079,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.5,47.190148053735854,14.952628392240456,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.5500000000000003,47.937779473347874,14.974483478996726,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.6,48.68650364729771,14.989648363988625,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.6500000000000004,49.43598606549715,14.998091329690117,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.7,50.18589063198165,14.99979266803765,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.75,50.93588026538353,14.994744768773195,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.8000000000000003,51.68561750382219,14.98295216178485,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.85,52.43476511191144,14.964431513098912,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.9000000000000004,53.182986687566384,14.939211574480652,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,3.95,53.92994726629042,14.907333086905055,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.0,54.67531392063567,14.86884863846106,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.05,55.418756352558724,14.823822477549626,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.1000000000000005,56.1599474764362,14.772330282525283,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.15,56.898563990562465,14.71445888920869,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.2,57.6342869350229,14.65030597796243,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.25,58.36680223392102,14.579979722270725,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.3,59.09580122003456,14.503598400993706,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.3500000000000005,59.82098114008424,14.421289976676658,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.4,60.542045638918076,14.33319164248181,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.45,61.25870522104216,14.239449340474067,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.5,61.97067768806587,14.140217254130652,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.55,62.6776885507724,14.035657278057684,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.6000000000000005,63.37947141467529,13.925938467983324,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.65,64.07576833807445,13.811236474157164,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.7,64.7663301617823,13.691732961319428,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.75,65.45091680984828,13.567615018410885,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.800000000000001,66.12929756076882,13.439074561177062,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.8500000000000005,66.80125128882767,13.306307730778,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.9,67.46656667536658,13.169514291449842,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,4.95,68.12504238993907,13.028897030177468,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.0,68.77648724144794,12.884661161230456,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.050000000000001,69.42072029950945,12.737013738289328,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.1000000000000005,70.05757098642393,12.586163076747392,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.15,70.6868791402613,12.432318188617334,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.2,71.30849504969217,12.275688232303466,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.25,71.92227946130734,12.116481979322057,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.300000000000001,72.52810356027344,11.95490729986557,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.3500000000000005,73.12584892526671,11.791170668914443,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.4,73.71540745871243,11.62547669440348,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.45,74.29668129343261,11.458027668752173,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.5,74.86958267687022,11.289023144869898,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.550000000000001,75.43403383411372,11.11865953755095,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.6000000000000005,75.98996681099126,10.947129750981436,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.65,76.53732329854033,10.774622832892492,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.7,77.07605444018495,10.601323655712845,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.75,77.6061206229706,10.427412624899983,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.800000000000001,78.1274912542156,10.253065414464151,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.8500000000000005,78.6401445249388,10.078452729543706,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.9,79.14406716141599,9.903740095745245,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,5.95,79.63925416620326,9.729087674827218,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.0,80.12570854994462,9.554650106182761,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.050000000000001,80.60344105525375,9.380576373465653,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.1000000000000005,81.07246987392703,9.20700969560338,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.15,81.5328203587072,9.034087441353002,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.2,81.98452473077485,8.861941066478709,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.25,82.42762178409879,8.690696072564648,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.300000000000001,82.86215658772703,8.520471986422253,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.3500000000000005,83.28818018704814,8.351382359007692,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.4,83.70574930499852,8.183534782731549,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.45,84.1149260441351,8.017030926019153,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.5,84.51577759043606,7.851966583965312,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.550000000000001,84.90837591963432,7.688431743920965,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.6000000000000005,85.29279750683037,7.526510664851211,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.65,85.66912304007293,7.366281969312827,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.7,86.03743713853858,7.207818746915285,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.75,86.39782807588435,7.051188668150187,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.800000000000001,86.75038750929185,6.896454107501309,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.8500000000000005,87.09521021466692,6.743672274778027,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.9,87.43239382840582,6.592895353650755,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,6.95,87.76203859608836,6.444170646405201,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.0,88.08424712840862,6.297540723973798,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.050000000000001,88.39912416460731,6.1530435803464245,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.1000000000000005,88.70677634362464,6.0107127905077204,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.15,89.00731198315003,5.870577671095202,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.2,89.30084086670479,5.73266344301968,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.25,89.58747403885577,5.59699139533752,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.300000000000001,89.86732360862266,5.463579049712154,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.3500000000000005,90.14050256110826,5.332440324849967,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.4,90.40712457735076,5.203585700342736,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.45,90.66730386236789,5.077022379395027,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.5,90.92115498133764,4.952754449960075,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.550000000000001,91.16879270383563,4.83078304385166,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.6000000000000005,91.41033185602822,4.711106493441683,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.65,91.6458871807003,4.593720485594293,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.7,91.87557320498001,4.478618212526161,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.75,92.09950411560632,4.365790519320278,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.800000000000001,92.31779364157234,4.255226047855802,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.8500000000000005,92.53055494396513,4.1469113769501815,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.9,92.73790051281264,4.040831158541573,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,7.95,92.93994207073972,3.9369682497691008,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.0,93.13679048322817,3.835303840836453,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.05,93.32855567527,3.7358175785701686,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.1,93.5153465541985,3.63848768560803,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.15,93.69727093847891,3.5432910751750017,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.200000000000001,93.87443549223765,3.4502034614248625,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.25,94.0469456653089,3.359199465343952,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.3,94.2149056385761,3.2702527162308703,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.35,94.37841827438764,3.183335948780981,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.4,94.5375850718267,3.0984210958187957,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.450000000000001,94.69250612661764,3.0154793767334636,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.5,94.84328009545432,2.9344813816837827,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.55,94.9900041645385,2.8553971516488508,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.6,95.13277402212094,2.7781962544089933,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.65,95.2716838348414,2.7028478565489635,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.700000000000001,95.40682622766884,2.629320791581711,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.75,95.53829226724793,2.5575836242962464,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.8,95.66617144846273,2.4876047114376423,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.85,95.79055168403461,2.4193522588305316,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.9,95.91151929697614,2.352794375060329,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,8.950000000000001,96.02915901572915,2.2878991218283202,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.0,96.14355397182057,2.2246345610980973,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.05,96.25478569987547,2.162968799151576,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.1,96.36293413983304,2.102870027673021,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.15,96.4680776412167,2.0443065619791403,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.200000000000001,96.57029296931564,1.9872468765126612,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.25,96.66965531314128,1.9316596377155042,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.3,96.76623829502705,1.8775137343964716,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.35,96.86011398174688,1.8247783057061457,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.4,96.95135289703218,1.7734227668300853,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.450000000000001,97.04002403537369,1.72341683250879,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.5,97.12619487699914,1.6747305384906006,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.55,97.20993140392366,1.627334261020932,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.600000000000001,97.2912981169747,1.581198734468551,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.65,97.37035805369813,1.536295067186623,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.700000000000001,97.44717280705746,1.4925947557033634,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.75,97.52180254484263,1.450069697333932,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.8,97.59430602970933,1.4086922013022432,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.850000000000001,97.66474063977444,1.36843499845821,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.9,97.73316238969734,1.329271249672702,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,9.950000000000001,97.79962595218097,1.2911745529895193,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.0,97.86418467983044,1.2541189496105065,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.05,97.92689062731097,1.2180789287866316,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.100000000000001,97.98779457375029,1.1830294316852488,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.15,98.04694604533455,1.1489458543002646,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.200000000000001,98.10439333804956,1.1158040494692745,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.25,98.16018354052302,1.0835803280588092,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.3,98.21436255692596,1.052251459375776,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.350000000000001,98.26697512989475,1.021794670860729,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.4,98.31806486343778,0.9921876471157154,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.450000000000001,98.36767424579357,0.9634085283167855,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.5,98.4158446722094,0.9354359080589517,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.55,98.46261646761235,0.9082488306786487,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.600000000000001,98.50802890914628,0.8818267880965769,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.65,98.5521202485511,0.8561497162214053,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.700000000000001,98.59492773436217,0.8311979909527103,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.75,98.63648763390981,0.8069524238192296,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.8,98.67683525510077,0.7833942572866726,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.850000000000001,98.7160049679651,0.7605051597671925,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.9,98.75403022595347,0.7382672203608921,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,10.950000000000001,98.79094358697152,0.7166629433577735,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.0,98.82677673413941,0.6956752425270145,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.05,98.86156049626577,0.6752874352185646,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.100000000000001,98.89532486802669,0.6554832363007841,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.15,98.92809902984173,0.6362467519560034,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.200000000000001,98.95991136743953,0.6175624733547901,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.25,98.99078949110726,0.5994152702280825,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.3,99.02076025461866,0.5817903843551927,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.350000000000001,99.04984977383643,0.5646734229844703,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.4,99.07808344498565,0.5480503522021505,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.450000000000001,99.10548596259576,0.5319074902638629,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.5,99.13208133710896,0.5162315009022583,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.55,99.15789291215407,0.501009386623158,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.600000000000001,99.18294338148523,0.48622848200170715,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.65,99.20725480558532,0.471876446989202,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.700000000000001,99.23084862793478,0.4579412602402357,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.75,99.25374569094679,0.4444112124692479,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.8,99.27596625157025,0.4312748998446539,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.850000000000001,99.29752999656249,0.4185212174281328,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.9,99.31845605743389,0.4061393526657744,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,11.950000000000001,99.33876302506718,0.3941187789375832,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.0,99.35846896401407,0.38244924917075984,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.05,99.3775914264726,0.3711207895220375,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.100000000000001,99.3961474659487,0.360123693133497,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.15,99.41415365060537,0.3494485139661811,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.200000000000001,99.43162607630369,0.3390860607149572,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.25,99.44858037933943,0.3290273908080422,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.3,99.46503174887984,0.3192638044938568,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.350000000000001,99.48099493910453,0.30978683901786597,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.4,99.49648428105543,0.300588262891396,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.450000000000001,99.5115136942,0.29166007025427254,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.5,99.52609669771272,0.2829944753328563,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.55,99.54024642147937,0.27458390699460794,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.600000000000001,99.55397561682909,0.266421003400246,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.65,99.5672966669991,0.2584986067542028,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.700000000000001,99.5802215973368,0.2508097581538626,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.75,99.5927620852445,0.24334769253801256,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.8,99.60492946987141,0.23610583373449984,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.850000000000001,99.61673476155813,0.2290777896071319,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.9,99.62818865103849,0.22225734730160945,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,12.950000000000001,99.63930151840357,0.21563846859010405,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.0,99.65008344183308,0.20921528531408132,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.05,99.66054420609878,0.20298209492465463,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.100000000000001,99.67069331084501,0.19693335611985738,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.15,99.680539978651,0.19106368457796122,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.200000000000001,99.69009316287989,0.18536784878590373,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.25,99.69936155531919,0.17984076596196655,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.3,99.70835359361729,0.17447749807148805,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.350000000000001,99.71707746852087,0.16927324793456966,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.4,99.7255411309176,0.16422335542452882,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.450000000000001,99.73375229868883,0.15932329375598292,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.5,99.74171846337663,0.15456866586106038,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.55,99.74944689666968,0.1499552008526612,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.600000000000001,99.75694465671232,0.14547875057320336,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.65,99.76421859424099,0.1411352862275999,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.700000000000001,99.77127535855237,0.13692089509894634,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.75,99.77812140330732,0.1328317773455805,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.8,99.7847629921746,0.12886424287801262,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.850000000000001,99.79120620431851,0.12501470831419953,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.9,99.79745693973422,0.12127969401189746,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,13.950000000000001,99.8035209244348,0.11765582117630571,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.0,99.80940371549362,0.11413980904182429,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.05,99.81511070594571,0.11072847212623937,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.100000000000001,99.82064712955203,0.10741871755595357,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.15,99.82601806542982,0.10420754246076588,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.200000000000001,99.83122844255286,0.10109203143666813,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.25,99.83628304412468,0.09806935407534244,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.3,99.84118651182845,0.09513676255877854,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.350000000000001,99.84594334995639,0.09229158931763018,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.4,99.85055792942227,0.08953124475188795,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.450000000000001,99.85503449165986,0.08685321501243025,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.5,99.85937715241049,0.08425505984212152,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.55,99.86358990540259,0.08173441047499491,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.600000000000001,99.86767662592634,0.07928896759223965,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.65,99.87164107430594,0.07691649933360456,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.700000000000001,99.87548689927262,0.07461483936291502,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.75,99.87921764124076,0.07238188498642027,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.8,99.88283673549007,0.07021559532265005,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.850000000000001,99.8863475152562,0.06811398952254821,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.9,99.88975321473234,0.06607514503862771,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,14.950000000000001,99.89305697198427,0.06409719594199573,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+logistic_growth,15.0,99.89626183178136,0.062178331285909855,0.6,100.0,0.0,explicit_euler,Logistic growth assumes a fixed carrying capacity and smooth density limitation.
+bistable_threshold,0.0,0.35,-0.011375000000000008,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.05,0.34943124999999997,-0.01149574597422584,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.1,0.34885646270128867,-0.011617542493454364,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.15000000000000002,0.348275585576616,-0.011740392175455328,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.2,0.3476885659678432,-0.011864297427921899,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.25,0.3470953510964471,-0.011989260440686506,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.30000000000000004,0.3464958880744128,-0.012115283177760956,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.35000000000000003,0.34589012391552476,-0.012242367369198976,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.4,0.34527800554706484,-0.012370514502779992,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.45,0.34465947982192585,-0.012499725815512511,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.5,0.34403449353115023,-0.012630002284956058,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.55,0.34340299341690245,-0.012761344620360462,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.6000000000000001,0.34276492618588444,-0.012893753253621623,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.65,0.3421202385232034,-0.013027228330052883,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.7000000000000001,0.34146887710670076,-0.013161769698971443,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.75,0.3408107886217522,-0.013297376904099331,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.8,0.34014591977654723,-0.013434049173778669,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.8500000000000001,0.3394742173178583,-0.013571785411001248,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.9,0.33879562804730823,-0.013710584183252463,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,0.9500000000000001,0.3381100988381456,-0.013850443712170056,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.0,0.3374175766525371,-0.013991361863018319,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.05,0.33671800855938616,-0.01413333613397861,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.1,0.3360113417526872,-0.014276363645257287,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.1500000000000001,0.33529752357042436,-0.01442044112801258,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.2000000000000002,0.33457650151402374,-0.014565564913102102,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.25,0.33384822326836866,-0.014711730919652994,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.3,0.333112636722386,-0.014858934643457184,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.35,0.33236968999021316,-0.015007171145194368,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.4000000000000001,0.3316193314329534,-0.015156435038485908,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.4500000000000002,0.3308615096810291,-0.015306720477783016,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.5,0.33009617365713995,-0.015458021146093185,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.55,0.3293232725998353,-0.015610330242549045,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.6,0.32854275608770783,-0.015763640469824463,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.6500000000000001,0.3277545740642166,-0.015917944021402976,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.7000000000000002,0.32695867686314645,-0.016073232568704205,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.75,0.32615501523471124,-0.016229497248074466,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.8,0.3253435403723075,-0.0163867286476481,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.85,0.3245242039399251,-0.016544916794086775,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.9000000000000001,0.32369695810022076,-0.01670405113920448,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,1.9500000000000002,0.3228617555432605,-0.016864120546486464,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.0,0.32201854951593617,-0.01702511327751109,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.0500000000000003,0.3211672938520606,-0.017187016978284002,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.1,0.3203079430031464,-0.017349818665494857,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.15,0.31944045206987165,-0.017513504712707312,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.2,0.3185647768342363,-0.017678060836493818,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.25,0.3176808737924116,-0.01784347208252732,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.3000000000000003,0.31678870018828525,-0.018009722811642793,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.35,0.3158882140477031,-0.018176796685882166,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.4000000000000004,0.314979374213409,-0.01834467665453712,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.45,0.31406214038068214,-0.01851334494020476,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.5,0.3131364731336719,-0.018682783024872248,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.5500000000000003,0.31220233398242825,-0.018852971636047065,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.6,0.3112596854006259,-0.019023890732950518,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.6500000000000004,0.3103084908639783,-0.019195519492792943,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.7,0.3093487148893387,-0.019367836297149922,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.75,0.3083803230744812,-0.019540818718459616,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.8000000000000003,0.3074032821385582,-0.019714443506662467,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.85,0.3064175599632251,-0.019888686576005,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.9000000000000004,0.30542312563442486,-0.020063522992030944,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,2.95,0.3044199494848233,-0.020238926958783227,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.0,0.30340800313688415,-0.020414871806241804,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.0500000000000003,0.3023872595465721,-0.020591329978022994,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.1,0.30135769304767096,-0.02076827301936698,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.1500000000000004,0.3003192793967026,-0.02094567156544111,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.2,0.29927199581843056,-0.02112349532998762,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.25,0.2982158210519312,-0.021301713094345275,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.3000000000000003,0.2971507353972139,-0.021480292696875458,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.35,0.2960767207623701,-0.021659201022824145,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.4000000000000004,0.2949937607112289,-0.02183840399465204,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.45,0.2939018405114963,-0.02201786656286633,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.5,0.292800947183353,-0.022197552697388136,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.5500000000000003,0.29169106954848356,-0.022377425379490754,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.6,0.29057219827950903,-0.02255744659434468,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.6500000000000004,0.2894443259497918,-0.022737577324206205,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.7,0.28830744708358147,-0.022917777542287146,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.75,0.2871615582064671,-0.023098006207344042,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.8000000000000003,0.2860066578960999,-0.02327822125902607,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.85,0.2848427468331486,-0.023458379614021328,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.9000000000000004,0.28366982785244754,-0.023638437163041925,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,3.95,0.28248790599429546,-0.02381834876868904,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.0,0.281296988555861,-0.02399806826423935,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.05,0.280097085142649,-0.024177548453394954,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.1000000000000005,0.2788882077199793,-0.024356741111039186,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.15,0.27767037066442735,-0.024535596985041108,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.2,0.2764435908151753,-0.024714065799151582,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.25,0.2752078875252177,-0.024892096257034237,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.3,0.273963282712366,-0.02506963604747446,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.3500000000000005,0.27270980090999225,-0.025246631850809623,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.4,0.2714474693174518,-0.02542302934662371,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.45,0.2701763178501206,-0.025598773222749092,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.5,0.2688963791889831,-0.025773807185618006,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.55,0.2676076888297022,-0.02594807397200571,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.6000000000000005,0.26631028513110194,-0.026121515362206808,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.65,0.2650042093629916,-0.026294072194685367,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.7,0.26368950575325734,-0.026465684382238692,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.75,0.2623662215341454,-0.026636290929713497,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.800000000000001,0.26103440698765973,-0.02680582995331223,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.8500000000000005,0.2596941154899941,-0.02697423870152581,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.9,0.2583454035549178,-0.027141453577727584,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,4.95,0.2569883308760314,-0.027307410164461816,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.0,0.2556229603678083,-0.027472043249458015,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.050000000000001,0.2542493582053354,-0.027635286853400564,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.1000000000000005,0.2528675938626654,-0.027797074259480862,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.15,0.2514777401496913,-0.027957338044756964,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.2,0.25007987324745345,-0.028116010113342884,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.25,0.24867407274178632,-0.028273021731447596,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.300000000000001,0.24726042165521395,-0.02842830356428014,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.3500000000000005,0.24583900647699994,-0.028581785714834666,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.4,0.2444099171912582,-0.02873339776456591,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.45,0.2429732473030299,-0.028883068815961848,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.5,0.24152909386223181,-0.029030727537016972,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.550000000000001,0.24007755748538095,-0.029176302207605528,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.6000000000000005,0.2386187423750007,-0.02931972076775022,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.65,0.23715275633661317,-0.029460910867777558,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.7,0.2356797107932243,-0.02959979992034667,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.75,0.23419972079720697,-0.02973631515433393,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.800000000000001,0.23271290503949027,-0.029870383670550987,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.8500000000000005,0.23121938585596272,-0.030001932499268826,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.9,0.22971928923099927,-0.030130888659515728,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,5.95,0.22821274479802348,-0.03025717922011152,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.0,0.2266998858370179,-0.030380731362395556,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.050000000000001,0.22518084926889811,-0.03050147244460018,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.1000000000000005,0.2236557756466681,-0.030619330067816232,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.15,0.22212480914327729,-0.030734232143491257,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.2,0.22058809753610273,-0.03084610696239573,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.25,0.21904579218798295,-0.030954883264986723,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.300000000000001,0.2174980480247336,-0.031060490313092704,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.3500000000000005,0.21594502350907896,-0.03116285796283749,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.4,0.21438688061093708,-0.03126191673871555,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.45,0.2128237847740013,-0.03135759790872507,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.5,0.21125590487856505,-0.031449833560459724,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.550000000000001,0.20968341320054207,-0.031538556678053976,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.6000000000000005,0.20810648536663937,-0.03162370121987185,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.65,0.20652530030564578,-0.031705202196823074,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.7,0.20494004019580464,-0.03178299575118568,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.75,0.20335089040824536,-0.03185701923580852,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.800000000000001,0.20175803944645493,-0.03192721129356283,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.8500000000000005,0.2001616788817768,-0.031993511936906575,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.9,0.19856200328493148,-0.03205586262742141,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,6.95,0.1969592101535604,-0.032114206355177394,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.0,0.19535349983580155,-0.03216848771777699,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.050000000000001,0.1937450754499127,-0.03221865299892613,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.1000000000000005,0.1921341427999664,-0.03226465024637671,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.15,0.19052091028764756,-0.03230642934908243,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.2,0.18890558882019343,-0.03234394211340664,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.25,0.1872883917145231,-0.03237714233821963,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.300000000000001,0.18566953459761212,-0.032405985888720366,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.3500000000000005,0.1840492353031761,-0.032430430768816874,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.4,0.18242771376473527,-0.032450437191898725,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.45,0.18080519190514033,-0.03246596764983481,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.5,0.1791818935226486,-0.032476986980029675,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.550000000000001,0.17755804417364712,-0.03248346243037281,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.6000000000000005,0.1759338710521285,-0.03248536372191657,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.65,0.17430960286603267,-0.03248266310911999,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.7,0.17268546971057666,-0.032475335437498705,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.75,0.17106170293870174,-0.03246335819852386,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.800000000000001,0.16943853502877554,-0.03244671158161667,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.8500000000000005,0.1678161994496947,-0.03242537852308928,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.9,0.16619493052354023,-0.032399344751887646,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,7.95,0.16457496328594584,-0.032368598831996956,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.0,0.16295653334434598,-0.032333132201376555,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.05,0.16133987673427716,-0.03229293920729722,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.1,0.1597252297739123,-0.03224801713796092,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.15,0.15811282891701425,-0.03219836625029044,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.200000000000001,0.15650291060449972,-0.03214398979378447,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.25,0.15489571111481049,-0.032084894030341725,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.3,0.1532914664132934,-0.03202108824996713,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.35,0.15169041200079503,-0.03195258478228196,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.4,0.15009278276168092,-0.03187939900376976,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.450000000000001,0.14849881281149244,-0.03180154934069983,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.5,0.14690873534445745,-0.03171905726768065,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.55,0.14532278248107341,-0.03163194730180596,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.6,0.1437411851159831,-0.031540246992367606,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.65,0.14216417276636473,-0.031443986906120026,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.700000000000001,0.14059197342105872,-0.031343200608092855,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.75,0.1390248133906541,-0.031237924637959446,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.8,0.1374629171587561,-0.031128198481980642,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.85,0.13590650723465708,-0.03101406454055487,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.9,0.13435580400762934,-0.03089556809141686,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,8.950000000000001,0.1328110256030585,-0.030772757248539378,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.0,0.13127238774063152,-0.030645682916802915,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.05,0.12974010359479138,-0.030514398742510558,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.1,0.12821438365766585,-0.030378961059835324,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.15,0.12669543560467408,-0.03023942883329881,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.200000000000001,0.12518346416300916,-0.030095863596390163,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.25,0.12367867098318965,-0.029948329386444535,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.3,0.12218125451386742,-0.029796892675910305,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.35,0.1206914098800719,-0.02964162230014341,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.4,0.11920932876506474,-0.029482589381876298,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.450000000000001,0.11773519929597093,-0.029319867252517357,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.5,0.11626920593334505,-0.02915353137044473,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.55,0.11481152936482282,-0.02898365923646559,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.600000000000001,0.11336234640299954,-0.02881033030661908,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.65,0.11192182988766859,-0.028633625902506933,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.700000000000001,0.11049014859254325,-0.028453629119341597,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.75,0.10906746713657617,-0.02827042473190653,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.8,0.10765394589998084,-0.028084099098627503,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.850000000000001,0.10624974094504946,-0.027894740063957427,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.9,0.1048550039418516,-0.027702436859279922,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,9.950000000000001,0.1034698820988876,-0.027507280002539176,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.0,0.10209451809876065,-0.027309361196805066,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.05,0.1007290500389204,-0.027108773227983156,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.100000000000001,0.09937361137752124,-0.026905609861879648,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.15,0.09802833088442725,-0.026699965740830178,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.200000000000001,0.09669333259738574,-0.02649193628010076,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.25,0.0953687357833807,-0.0262816175642667,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.3,0.09405465490516737,-0.026069106243772955,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.350000000000001,0.09275119959297873,-0.02585449943187642,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.4,0.09145847462138491,-0.02563789460216634,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.450000000000001,0.0901765798912766,-0.025419389486855258,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.5,0.08890561041693384,-0.02519908197602756,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.55,0.08764565631813247,-0.02497707001802742,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.600000000000001,0.0863968028172311,-0.024753451521162182,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.65,0.08515913024117298,-0.02452832425689048,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.700000000000001,0.08393271402832846,-0.024301785764658076,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.75,0.08271762474009556,-0.02407393325853685,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.8,0.08151392807716872,-0.023844863535815025,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.850000000000001,0.08032168490037797,-0.02361467288767896,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.9,0.07914095125599402,-0.023383457012118636,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,10.950000000000001,0.07797177840538809,-0.02315131092918065,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.0,0.07681421285892906,-0.022918328898684073,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.05,0.07566829641399486,-0.022684604340505874,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.100000000000001,0.07453406619696956,-0.022450229757533656,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.15,0.07341155470909289,-0.022215296661374857,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.200000000000001,0.07230078987602415,-0.021979895500902315,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.25,0.07120179510097903,-0.02174411559370752,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.3,0.07011458932129365,-0.02150804506052362,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.350000000000001,0.06903918706826746,-0.021271770762671754,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.4,0.06797559853013388,-0.021035378242575196,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.450000000000001,0.06692382961800512,-0.020798951667377445,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.5,0.06588388203463626,-0.020562573775691668,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.55,0.06485575334585167,-0.020326325827500814,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.600000000000001,0.06383943705447663,-0.020090287557219418,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.65,0.06283492267661565,-0.019854537129920295,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.700000000000001,0.06184219582011964,-0.01961915110072179,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.75,0.06086123826508355,-0.019384204377323633,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.8,0.05989202804621737,-0.019149770185672627,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.850000000000001,0.05893453953693374,-0.018915920038732412,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.9,0.05798874353499712,-0.018682723708325067,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,11.950000000000001,0.057054607349580864,-0.018450249200006374,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.0,0.05613209488958055,-0.018218562730930355,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.05,0.05522116675303403,-0.017987728710653652,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.100000000000001,0.05432178031750135,-0.01775780972482476,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.15,0.053433889831260115,-0.017528866521698723,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.200000000000001,0.05255744650517518,-0.017300958001413128,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.25,0.05169239860510452,-0.01707414120795741,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.3,0.05083869154470665,-0.01684847132376365,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.350000000000001,0.04999626797851847,-0.01662400166684366,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.4,0.04916506789517629,-0.016400783690394206,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.450000000000001,0.048345028710656573,-0.016178866984789483,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.5,0.047536085361417096,-0.015958299281877662,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.55,0.04673817039732321,-0.015739126461496236,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.600000000000001,0.0459512140742484,-0.015521392560119395,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.65,0.04517514444624243,-0.015305139781549038,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.700000000000001,0.04440988745716498,-0.01509040850956022,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.75,0.04365536703168697,-0.014877237322410836,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.8,0.04291150516556643,-0.014665663009125038,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.850000000000001,0.04217822201511018,-0.014455720587459543,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.9,0.0414554359857372,-0.014247443323462054,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,12.950000000000001,0.04074306381956409,-0.01404086275253135,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.0,0.040041020681937524,-0.013836008701889009,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.05,0.03934922024684307,-0.013632909314373616,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.100000000000001,0.03866757478112439,-0.013431591073469046,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.15,0.03799599522745094,-0.01323207882947972,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.200000000000001,0.03733439128597695,-0.013034395826766963,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.25,0.0366826714946386,-0.012838563731961988,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.3,0.0360407433080405,-0.012644602663072855,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.350000000000001,0.03540851317488686,-0.012452531219404248,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.4,0.03478588661391664,-0.012262366512211022,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.450000000000001,0.034172768288306093,-0.012074124196008371,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.5,0.03356906207850568,-0.011887818500463537,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.55,0.0329746711534825,-0.011703462262796237,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.600000000000001,0.03238949804034269,-0.0115210669606172,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.65,0.03181344469231183,-0.011340642745136506,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.700000000000001,0.031246412555055003,-0.011162198474675904,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.75,0.030688302631321208,-0.010985741748421585,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.8,0.030139015543900128,-0.010811278940356397,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.850000000000001,0.02959845159688231,-0.010638815233313018,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.9,0.029066510835216657,-0.010468354653092,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,13.950000000000001,0.028543093102562058,-0.010299900102591205,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.0,0.028028098097432497,-0.010133453395895584,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.05,0.02752142542763772,-0.009969015292278782,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.100000000000001,0.02702297466302378,-0.009806585530070524,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.15,0.026532645386520254,-0.009646162860346218,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.200000000000001,0.026050337243502943,-0.009487745080397588,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.25,0.025575949989483066,-0.009331329066945634,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.3,0.025109383536135784,-0.009176910809059491,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.350000000000001,0.02465053799568281,-0.009024485440747132,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.4,0.024199313723645453,-0.00887404727318614,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.450000000000001,0.023755611359986144,-0.00872558982656495,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.5,0.023319331868657898,-0.008579105861507175,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.55,0.02289037657558254,-0.00843458741005369,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.600000000000001,0.022468647205079857,-0.008292025806179305,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.65,0.022054045914770892,-0.008151411715822739,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.700000000000001,0.021646475328979755,-0.008012735166410535,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.75,0.021245838570659228,-0.007875985575857584,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.8,0.02085203929186635,-0.007741151781028498,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.850000000000001,0.020464981702814924,-0.007608222065645973,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.9,0.020084570599532624,-0.0074771841876338785,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,14.950000000000001,0.01971071139015093,-0.00734802540588443,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.
+bistable_threshold,15.0,0.01934331011985671,-0.0072207325064403095,0.4,0.0,0.0,explicit_euler,Threshold behavior is illustrative and should not be interpreted without evidence for the threshold.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_carrying_capacity
+logistic-equilibria,Returns logistic equilibrium points.,Equilibria are conditional on model form and domain.,logistic-equilibria,100.0

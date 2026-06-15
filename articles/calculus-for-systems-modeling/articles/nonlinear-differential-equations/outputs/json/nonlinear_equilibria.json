@@ -1,0 +1,11 @@
+{
+  "bistable_threshold": [
+    0.0,
+    0.4,
+    1.0
+  ],
+  "logistic_growth": [
+    0.0,
+    100.0
+  ]
+}

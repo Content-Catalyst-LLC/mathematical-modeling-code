@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+nonlinear-rate-law,Nonlinear Rate Law,model structure,96,active,2026-06-15,"Nonlinear terms should map to mechanism, evidence, or explicit scenario logic."
+saturation,Saturation,systems interpretation,95,active,2026-06-15,Carrying capacity or upper limits should be interpreted and sourced.
+threshold,Threshold,regime behavior,94,review,2026-06-15,"Thresholds should be observed, estimated, policy-defined, or clearly hypothetical."
+equilibrium-stability,Equilibrium and Stability,qualitative analysis,93,active,2026-06-15,Multiple equilibria and local stability require careful communication.
+solver-sensitivity,Solver Sensitivity,governance,92,review,2026-06-15,"Nonlinear trajectories require step-size, solver, and domain checks."

@@ -1,0 +1,22 @@
+{
+  "article_slug": "nonlinear-differential-equations",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "nonlinear-differential-equations",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "nonlinear-rate-law", "title": "Nonlinear Rate Law", "description": "Rates depend on powers, products, ratios, thresholds, or state-dependent response."},
+    {"card_id": "saturation", "title": "Saturation", "description": "Bounded response, carrying capacity, or diminishing return."},
+    {"card_id": "threshold", "title": "Threshold", "description": "A critical level where behavior changes."},
+    {"card_id": "equilibrium-stability", "title": "Equilibrium and Stability", "description": "Nonlinear systems may have multiple equilibria and local stability changes."},
+    {"card_id": "nonlinear-governance", "title": "Nonlinear Governance", "description": "Nonlinear terms, parameters, thresholds, domains, and solvers require documentation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

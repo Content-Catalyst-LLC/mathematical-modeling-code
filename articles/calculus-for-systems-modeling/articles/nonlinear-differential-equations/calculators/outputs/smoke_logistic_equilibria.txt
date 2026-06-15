@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-equilibria",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "logistic-equilibria"
+  },
+  "interpretation": "Returns logistic equilibrium points.",
+  "result": {
+    "equilibria": [
+      0.0,
+      100.0
+    ]
+  },
+  "warning": "Equilibria are conditional on model form and domain."
+}

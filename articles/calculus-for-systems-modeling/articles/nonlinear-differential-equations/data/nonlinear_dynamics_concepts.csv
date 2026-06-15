@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+nonlinear_rate_law,Nonlinear rate law,Defines how the state enters the derivative through nonlinear terms,Represents saturation interaction amplification thresholds or changing response,The nonlinear form should be tied to mechanism evidence or explicit scenario design
+parameter_meaning,Parameter meaning,Controls growth carrying capacity threshold interaction or feedback strength,Determines how strongly the system responds under the modeled structure,Parameter uncertainty can strongly alter nonlinear trajectories
+equilibrium_points,Equilibrium points,Identify states where the rate of change is zero,Support interpretation of balance extinction persistence saturation or regime state,Equilibria may be unstable outside the meaningful domain or conditional on assumptions
+threshold_definition,Threshold definition,Defines where the rate law changes sign or structure,Represents activation tipping failure intervention or regime change,Thresholds should be observed estimated policy-defined or clearly hypothetical
+domain_constraints,Domain constraints,Restrict states to meaningful values such as nonnegative or bounded intervals,Preserve physical ecological social or institutional interpretability,Numerical solvers can produce invalid states if constraints are ignored
+numerical_method,Numerical method,Defines how the nonlinear equation is approximated over time,Supports reproducible simulation and solver review,Step size and solver choice can create misleading nonlinear behavior

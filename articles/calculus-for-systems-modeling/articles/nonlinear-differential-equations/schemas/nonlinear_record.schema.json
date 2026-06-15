@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NonlinearRecord",
+  "type": "object",
+  "required": [
+    "scenario", "time", "state", "rate", "parameter_a",
+    "parameter_b", "parameter_c", "method", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "time": {"type": "number"},
+    "state": {"type": "number"},
+    "rate": {"type": "number"},
+    "parameter_a": {"type": "number"},
+    "parameter_b": {"type": "number"},
+    "parameter_c": {"type": "number"},
+    "method": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

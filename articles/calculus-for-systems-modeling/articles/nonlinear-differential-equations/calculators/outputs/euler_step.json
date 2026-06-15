@@ -1,0 +1,18 @@
+{
+  "calculator": "euler-step",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "euler-step",
+    "dt": 0.05,
+    "growth_rate": 0.6,
+    "model": "logistic",
+    "state": 10.0,
+    "threshold": 0.4
+  },
+  "interpretation": "Computes one explicit Euler update for a nonlinear scalar equation.",
+  "result": {
+    "next_state": 10.27,
+    "rate": 5.4
+  },
+  "warning": "Euler error depends on step size."
+}

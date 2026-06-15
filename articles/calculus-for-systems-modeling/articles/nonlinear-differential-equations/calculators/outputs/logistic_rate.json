@@ -1,0 +1,14 @@
+{
+  "calculator": "logistic-rate",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "logistic-rate",
+    "growth_rate": 0.6,
+    "state": 10.0
+  },
+  "interpretation": "Computes the logistic nonlinear rate.",
+  "result": {
+    "rate": 5.4
+  },
+  "warning": "Assumes fixed carrying capacity and smooth density limitation."
+}

@@ -1,0 +1,32 @@
+section                      
+-----------------------------
+NONLINEAR ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Domain constraints    Restrict states to meaningful values such as nonnegative or   Preserve physical ecological social or institutional interpr  Numerical solvers can produce invalid states if constraints 
+                      bounded intervals.                                            etability.                                                    are ignored.                                                
+
+Equilibrium points    Identify states where the rate of change is zero.             Support interpretation of balance extinction persistence sat  Equilibria may be unstable outside the meaningful domain or 
+                                                                                    uration or regime state.                                      conditional on assumptions.                                 
+
+Nonlinear rate law    Defines how the state enters the derivative through nonlinea  Represents saturation interaction amplification thresholds o  The nonlinear form should be tied to mechanism evidence or e
+                      r terms.                                                      r changing response.                                          xplicit scenario design.                                    
+
+Numerical method      Defines how the nonlinear equation is approximated over time  Supports reproducible simulation and solver review.           Step size and solver choice can create misleading nonlinear 
+                      .                                                                                                                           behavior.                                                   
+
+Parameter meaning     Controls growth carrying capacity threshold interaction or f  Determines how strongly the system responds under the modele  Parameter uncertainty can strongly alter nonlinear trajector
+                      eedback strength.                                             d structure.                                                  ies.                                                        
+
+Threshold definition  Defines where the rate law changes sign or structure.         Represents activation tipping failure intervention or regime  Thresholds should be observed estimated policy-defined or cl
+                                                                                     change.                                                      early hypothetical.                                         
+section              
+---------------------
+NONLINEAR AUDIT CASES
+scenario            initial_state  parameter_a  parameter_b  parameter_c  time_step  steps  method          warning                                                     
+------------------  -------------  -----------  -----------  -----------  ---------  -----  --------------  ------------------------------------------------------------
+bistable_threshold  0.35           0.4          0.0          0.0          0.05       300    explicit_euler  Threshold behavior is illustrative and should not be interpr
+                                                                                                            eted without evidence for the threshold.                    
+
+logistic_growth     10.0           0.6          100.0        0.0          0.05       300    explicit_euler  Logistic growth assumes a fixed carrying capacity and smooth
+                                                                                                             density limitation.                                        
