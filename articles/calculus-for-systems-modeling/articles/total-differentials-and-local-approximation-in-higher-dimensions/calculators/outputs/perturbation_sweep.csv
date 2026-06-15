@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_scale_max,input_samples,result_rows_written,result_max_error
+perturbation-sweep,Perturbation sweeps show how local approximation error changes with displacement size.,,perturbation-sweep,4.0,3.0,2.0,10,10,0.03999999999999915

@@ -1,0 +1,8 @@
+condition,passed,warning
+reference point documented,True,
+displacement vector documented,True,
+partial derivatives included,True,
+differential estimate compared to actual change,True,
+feasible movement check included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,

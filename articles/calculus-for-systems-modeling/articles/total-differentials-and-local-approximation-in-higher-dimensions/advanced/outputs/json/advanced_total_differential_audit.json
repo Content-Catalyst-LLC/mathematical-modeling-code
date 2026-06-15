@@ -1,0 +1,23 @@
+{
+  "article": "Total Differentials and Local Approximation in Higher Dimensions",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Total differentials are first-order local approximations.",
+    "The displacement vector must be stated explicitly.",
+    "Feasible movement may differ from arbitrary coordinate movement.",
+    "Curvature, thresholds, and regime shifts can invalidate tangent-plane interpretation."
+  ]
+}

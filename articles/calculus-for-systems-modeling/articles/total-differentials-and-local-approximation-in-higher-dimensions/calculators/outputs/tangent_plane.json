@@ -1,0 +1,17 @@
+{
+  "calculator": "tangent-plane",
+  "inputs": {
+    "command": "tangent-plane",
+    "x": 4.2,
+    "x0": 4.0,
+    "y": 2.9,
+    "y0": 3.0
+  },
+  "interpretation": "Evaluates the tangent-plane approximation at a nearby point.",
+  "result": {
+    "absolute_error": 0.00999999999999801,
+    "actual_output": 24.490000000000002,
+    "tangent_plane_estimate": 24.5
+  },
+  "warning": ""
+}

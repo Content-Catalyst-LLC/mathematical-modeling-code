@@ -1,0 +1,22 @@
+{
+  "article_slug": "total-differentials-and-local-approximation-in-higher-dimensions",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "total-differentials-local-approximation",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "total-differential", "title": "Total Differential", "description": "Combines partial sensitivities with small input changes."},
+    {"card_id": "local-linearization", "title": "Local Linearization", "description": "Approximates a nonlinear model near a reference state."},
+    {"card_id": "tangent-plane", "title": "Tangent Plane", "description": "Geometric first-order approximation to a response surface."},
+    {"card_id": "gradient-displacement", "title": "Gradient and Displacement", "description": "Uses a dot product to estimate local output change."},
+    {"card_id": "feasible-movement", "title": "Feasible Movement", "description": "Checks whether perturbations obey model constraints."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x0,input_y0,input_x,input_y,result_tangent_plane_estimate,result_actual_output,result_absolute_error
+tangent-plane,Evaluates the tangent-plane approximation at a nearby point.,,tangent-plane,4.0,3.0,4.2,2.9,24.5,24.490000000000002,0.00999999999999801

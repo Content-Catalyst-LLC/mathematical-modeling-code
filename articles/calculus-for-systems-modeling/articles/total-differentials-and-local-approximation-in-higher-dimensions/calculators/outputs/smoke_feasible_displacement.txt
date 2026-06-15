@@ -1,0 +1,18 @@
+{
+  "calculator": "feasible-displacement",
+  "inputs": {
+    "budget": 10.0,
+    "command": "feasible-displacement",
+    "dx": 1.0,
+    "dy": 1.0,
+    "x": 8.0,
+    "y": 1.0
+  },
+  "interpretation": "Checks whether a displacement stays within nonnegative and budget constraints.",
+  "result": {
+    "end_sum": 11.0,
+    "feasible_displacement": false,
+    "start_sum": 9.0
+  },
+  "warning": "Displacement is outside the feasible region."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_dx,input_dy,input_budget,result_feasible_displacement,result_start_sum,result_end_sum
+feasible-displacement,Checks whether a displacement stays within nonnegative and budget constraints.,Displacement is outside the feasible region.,feasible-displacement,8.0,1.0,1.0,1.0,10.0,False,9.0,11.0

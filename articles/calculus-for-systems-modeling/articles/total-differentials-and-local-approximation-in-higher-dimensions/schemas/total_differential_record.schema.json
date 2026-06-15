@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TotalDifferentialRecord",
+  "type": "object",
+  "required": [
+    "x", "y", "dx", "dy", "baseline_output", "actual_output",
+    "actual_change", "differential_estimate", "absolute_error",
+    "feasible_displacement", "warning"
+  ],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "dx": {"type": "number"},
+    "dy": {"type": "number"},
+    "baseline_output": {"type": "number"},
+    "actual_output": {"type": "number"},
+    "actual_change": {"type": "number"},
+    "differential_estimate": {"type": "number"},
+    "absolute_error": {"type": "number"},
+    "feasible_displacement": {"type": "boolean"},
+    "warning": {"type": "string"}
+  }
+}

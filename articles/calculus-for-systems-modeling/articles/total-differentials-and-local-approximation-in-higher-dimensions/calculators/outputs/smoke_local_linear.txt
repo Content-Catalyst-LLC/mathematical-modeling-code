@@ -1,0 +1,21 @@
+{
+  "calculator": "local-linear",
+  "inputs": {
+    "command": "local-linear",
+    "dx": 0.2,
+    "dy": -0.1,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Compares total differential approximation with actual function change.",
+  "result": {
+    "absolute_error": 0.00999999999999801,
+    "actual_change": 0.490000000000002,
+    "actual_output": 24.490000000000002,
+    "baseline_output": 24.0,
+    "differential_estimate": 0.5,
+    "feasible_displacement": true,
+    "local_linear_output": 24.5
+  },
+  "warning": ""
+}

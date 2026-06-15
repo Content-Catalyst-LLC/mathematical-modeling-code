@@ -1,0 +1,16 @@
+{
+  "calculator": "uncertainty-propagation",
+  "inputs": {
+    "command": "uncertainty-propagation",
+    "dx_error": 0.1,
+    "dy_error": 0.2,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Propagates small input uncertainty through local partial sensitivities.",
+  "result": {
+    "root_sum_square_output_error": 0.9178779875342911,
+    "worst_case_output_error": 1.25
+  },
+  "warning": ""
+}

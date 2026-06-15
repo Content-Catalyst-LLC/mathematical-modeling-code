@@ -1,0 +1,16 @@
+{
+  "calculator": "perturbation-sweep",
+  "inputs": {
+    "command": "perturbation-sweep",
+    "samples": 10,
+    "scale_max": 2.0,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Perturbation sweeps show how local approximation error changes with displacement size.",
+  "result": {
+    "max_error": 0.03999999999999915,
+    "rows_written": 10
+  },
+  "warning": ""
+}

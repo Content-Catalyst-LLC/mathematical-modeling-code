@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_dx_error,input_dy_error,result_worst_case_output_error,result_root_sum_square_output_error
+uncertainty-propagation,Propagates small input uncertainty through local partial sensitivities.,,uncertainty-propagation,4.0,3.0,0.1,0.2,1.25,0.9178779875342911

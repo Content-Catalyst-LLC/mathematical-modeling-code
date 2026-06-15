@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_gradient,input_displacement,result_gradient_dot_displacement
+gradient-dot,Computes the first-order dot product between a gradient and a displacement vector.,,gradient-dot,"4.5,4","0.2,-0.1",0.5

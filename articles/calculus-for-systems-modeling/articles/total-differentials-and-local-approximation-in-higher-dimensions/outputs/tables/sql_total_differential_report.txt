@@ -1,0 +1,27 @@
+section                               
+--------------------------------------
+TOTAL DIFFERENTIAL ASSUMPTION REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Displacement vector  Records the small input changes being evaluated.              Defines the modeled movement from the reference state.        A differential estimate is meaningful only for the stated di
+                                                                                                                                                 splacement.                                                 
+
+Feasible movement    Checks whether the displacement respects constraints.         Separates mathematical movement from plausible system moveme  An infeasible displacement should not be treated as a practi
+                                                                                   nt.                                                           cal scenario.                                               
+
+Local validity       Defines where the first-order approximation is intended to h  Prevents tangent-plane reasoning from becoming global model   Large perturbations thresholds and nonlinear curvature can i
+                     old.                                                          interpretation.                                               nvalidate the approximation.                                
+
+Partial derivatives  Provide local sensitivities used in the differential estimat  Show how each input contributes to output change near the re  Partial derivatives may change across the input space.      
+                     e.                                                            ference state.                                                                                                            
+
+Reference state      Identifies where the total differential is evaluated.         Anchors the local approximation to a baseline scenario equil  A differential estimate should not be interpreted without it
+                                                                                   ibrium or operating condition.                                s reference point.                                          
+section                 
+------------------------
+TOTAL DIFFERENTIAL CASES
+x    y    dx   dy    actual_change  differential_estimate  absolute_error  feasible_displacement  warning                                     
+---  ---  ---  ----  -------------  ---------------------  --------------  ---------------------  --------------------------------------------
+4.0  3.0  0.2  -0.1  0.49           0.5                    0.01            1                                                                  
+4.0  3.0  1.0  1.0   8.5            8.5                    0.0             1                                                                  
+8.0  1.0  1.0  1.0   11.5           10.5                   1.0             0                      Displacement is outside the feasible region.

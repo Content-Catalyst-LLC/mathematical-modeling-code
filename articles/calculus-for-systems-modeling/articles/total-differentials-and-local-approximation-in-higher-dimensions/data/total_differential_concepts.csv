@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+reference_state,Reference state,Identifies where the total differential is evaluated,Anchors the local approximation to a baseline scenario equilibrium or operating condition,A differential estimate should not be interpreted without its reference point
+partial_derivatives,Partial derivatives,Provide local sensitivities used in the differential estimate,Show how each input contributes to output change near the reference state,Partial derivatives may change across the input space
+displacement_vector,Displacement vector,Records the small input changes being evaluated,Defines the modeled movement from the reference state,A differential estimate is meaningful only for the stated displacement
+gradient_dot_displacement,Gradient dot displacement,Computes first-order scalar output change in higher dimensions,Combines local sensitivity and input movement direction,Large gradients do not imply change if movement is orthogonal or infeasible
+feasible_movement,Feasible movement,Checks whether displacement respects constraints,Separates mathematical movement from plausible system movement,An infeasible displacement should not be treated as a practical scenario
+local_validity,Local validity,Defines where the first-order approximation is intended to hold,Prevents tangent-plane reasoning from becoming global model interpretation,Large perturbations thresholds and nonlinear curvature can invalidate the approximation
+approximation_error,Approximation error,Compares actual function change with total differential estimate,Shows how much nonlinear behavior is omitted by first-order approximation,Error often grows with displacement size curvature and interaction strength

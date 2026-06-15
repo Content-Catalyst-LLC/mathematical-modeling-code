@@ -1,0 +1,15 @@
+{
+  "calculator": "evaluate",
+  "inputs": {
+    "command": "evaluate",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Evaluates the baseline function and local partial sensitivities.",
+  "result": {
+    "output": 24.0,
+    "partial_x": 4.5,
+    "partial_y": 4.0
+  },
+  "warning": ""
+}

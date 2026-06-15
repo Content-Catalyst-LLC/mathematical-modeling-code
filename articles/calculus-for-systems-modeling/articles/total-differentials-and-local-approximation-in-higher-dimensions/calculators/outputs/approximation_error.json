@@ -1,0 +1,21 @@
+{
+  "calculator": "approximation-error",
+  "inputs": {
+    "command": "approximation-error",
+    "dx": 1.0,
+    "dy": 1.0,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Compares total differential approximation with actual function change.",
+  "result": {
+    "absolute_error": 0.5,
+    "actual_change": 9.0,
+    "actual_output": 33.0,
+    "baseline_output": 24.0,
+    "differential_estimate": 8.5,
+    "feasible_displacement": true,
+    "local_linear_output": 32.5
+  },
+  "warning": ""
+}

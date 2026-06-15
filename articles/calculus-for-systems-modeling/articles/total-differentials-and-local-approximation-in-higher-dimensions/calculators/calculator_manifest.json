@@ -1,0 +1,22 @@
+{
+  "article_slug": "total-differentials-and-local-approximation-in-higher-dimensions",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "evaluate", "title": "Function Evaluator"},
+    {"id": "total-differential", "title": "Total Differential Calculator"},
+    {"id": "local-linear", "title": "Local Linear Approximation"},
+    {"id": "approximation-error", "title": "Approximation Error Checker"},
+    {"id": "gradient-dot", "title": "Gradient Dot Displacement Calculator"},
+    {"id": "feasible-displacement", "title": "Feasible Displacement Checker"},
+    {"id": "perturbation-sweep", "title": "Perturbation Sweep"},
+    {"id": "uncertainty-propagation", "title": "Uncertainty Propagation Calculator"},
+    {"id": "tangent-plane", "title": "Tangent Plane Evaluator"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

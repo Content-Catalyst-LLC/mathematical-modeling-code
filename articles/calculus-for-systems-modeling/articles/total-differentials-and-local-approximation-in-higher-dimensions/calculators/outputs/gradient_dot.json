@@ -1,0 +1,13 @@
+{
+  "calculator": "gradient-dot",
+  "inputs": {
+    "command": "gradient-dot",
+    "displacement": "0.2,-0.1",
+    "gradient": "4.5,4"
+  },
+  "interpretation": "Computes the first-order dot product between a gradient and a displacement vector.",
+  "result": {
+    "gradient_dot_displacement": 0.5
+  },
+  "warning": ""
+}
