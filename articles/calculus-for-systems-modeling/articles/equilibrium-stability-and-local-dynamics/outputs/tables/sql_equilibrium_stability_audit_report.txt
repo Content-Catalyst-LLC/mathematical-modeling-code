@@ -1,0 +1,41 @@
+section                      
+-----------------------------
+STABILITY ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Basin of attraction    Identifies initial conditions that approach a stable state o  Supports resilience threshold and recovery interpretation.    Basin boundaries are often uncertain and may depend on unmod
+                       r attractor.                                                                                                                eled variables.                                             
+
+Domain constraints     Restrict states to meaningful values such as nonnegative or   Preserve physical ecological social or institutional interpr  Mathematically valid equilibria may be invalid outside the s
+                       bounded intervals.                                            etability.                                                    ystem domain.                                               
+
+Equilibrium candidate  Identifies a state where the modeled rate of change is zero.  Represents a possible balance point boundary state threshold  Equilibrium candidates must be checked against the meaningfu
+                                                                                      or operating condition.                                      l domain of the model.                                      
+
+Linearization method   Approximates nonlinear behavior near equilibrium using deriv  Supports local interpretation of recovery instability oscill  Linearization may fail when first derivatives vanish or nonl
+                       atives or Jacobians.                                          ation or saddle behavior.                                     inear terms dominate.                                       
+
+Local stability        Describes behavior after small perturbations near equilibriu  Indicates whether small disturbances tend to shrink grow or   Local stability does not guarantee global resilience.       
+                       m.                                                            remain inconclusive.                                                                                                      
+
+Numerical method       Defines how equilibrium and local dynamics are explored comp  Supports reproducible simulation initial-condition sweeps an  Step size and solver choice can create misleading stability 
+                       utationally.                                                  d solver review.                                              behavior.                                                   
+section              
+---------------------
+STABILITY AUDIT CASES
+scenario            equilibrium  derivative_value  stability         domain_min  domain_max  warning                                                     
+------------------  -----------  ----------------  ----------------  ----------  ----------  ------------------------------------------------------------
+bistable_threshold  0.0          -0.4              locally_stable    0.0         1.0         Threshold stability depends on the assumed threshold and dom
+                                                                                             ain.                                                        
+
+bistable_threshold  0.4          0.24              locally_unstable  0.0         1.0         Threshold stability depends on the assumed threshold and dom
+                                                                                             ain.                                                        
+
+bistable_threshold  1.0          -0.6              locally_stable    0.0         1.0         Threshold stability depends on the assumed threshold and dom
+                                                                                             ain.                                                        
+
+logistic_growth     0.0          0.6               locally_unstable  0.0         100.0       Logistic stability assumes fixed carrying capacity and smoot
+                                                                                             h density limitation.                                       
+
+logistic_growth     100.0        -0.6              locally_stable    0.0         100.0       Logistic stability assumes fixed carrying capacity and smoot
+                                                                                             h density limitation.                                       

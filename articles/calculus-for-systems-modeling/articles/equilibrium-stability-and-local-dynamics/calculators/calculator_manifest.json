@@ -1,0 +1,18 @@
+{
+  "article_slug": "equilibrium-stability-and-local-dynamics",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "classify-derivative", "title": "Derivative Stability Classifier"},
+    {"id": "logistic-stability", "title": "Logistic Equilibrium Stability"},
+    {"id": "bistable-stability", "title": "Bistable Threshold Stability"},
+    {"id": "numerical-derivative", "title": "Numerical Local Derivative"},
+    {"id": "equilibrium-table", "title": "Equilibrium Stability Table"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_equilibrium,input_growth_rate,input_carrying_capacity,result_derivative_value,result_stability
+logistic-stability,Evaluates local stability for a logistic equilibrium.,Logistic stability assumes fixed carrying capacity and smooth density limitation.,logistic-stability,100.0,0.6,100.0,-0.6,locally_stable

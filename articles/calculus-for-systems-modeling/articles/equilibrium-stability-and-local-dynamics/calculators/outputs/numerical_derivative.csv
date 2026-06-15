@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_model,input_state,input_threshold,result_derivative_value
+numerical-derivative,Computes a central-difference local derivative.,Numerical derivatives depend on step size and smoothness.,numerical-derivative,bistable,0.4,0.4,0.23999999990023999

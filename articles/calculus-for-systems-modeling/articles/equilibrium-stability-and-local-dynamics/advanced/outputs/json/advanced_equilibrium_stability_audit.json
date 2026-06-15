@@ -1,0 +1,25 @@
+{
+  "article": "Equilibrium, Stability, and Local Dynamics",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Stable, resilient, persistent, and desirable should not be treated as synonyms.",
+    "Local stability only describes small disturbances unless broader analysis is provided.",
+    "Equilibrium candidates must be checked against meaningful domains.",
+    "Derivative and Jacobian tests are conditional on parameter values.",
+    "Step size and solver choice can create misleading stability behavior."
+  ]
+}

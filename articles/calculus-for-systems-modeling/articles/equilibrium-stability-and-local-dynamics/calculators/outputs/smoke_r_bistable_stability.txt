@@ -1,0 +1,2 @@
+          calculator equilibrium threshold derivative_value        stability
+1 bistable-stability         0.4       0.4             0.24 locally_unstable

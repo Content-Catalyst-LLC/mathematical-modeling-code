@@ -1,0 +1,6 @@
+scenario,equilibrium,derivative_value,stability,domain_min,domain_max,warning
+logistic_growth,0.000000,0.600000,locally_unstable,0.000000,100.000000,Logistic stability assumes fixed carrying capacity and smooth density limitation.
+logistic_growth,100.000000,-0.600000,locally_stable,0.000000,100.000000,Logistic stability assumes fixed carrying capacity and smooth density limitation.
+bistable_threshold,0.000000,-0.400000,locally_stable,0.000000,1.000000,Threshold stability depends on the assumed threshold and domain.
+bistable_threshold,0.400000,0.240000,locally_unstable,0.000000,1.000000,Threshold stability depends on the assumed threshold and domain.
+bistable_threshold,1.000000,-0.600000,locally_stable,0.000000,1.000000,Threshold stability depends on the assumed threshold and domain.

@@ -1,0 +1,14 @@
+{
+  "calculator": "bistable-stability",
+  "inputs": {
+    "command": "bistable-stability",
+    "equilibrium": 0.4,
+    "threshold": 0.4
+  },
+  "interpretation": "Evaluates local stability for a bistable threshold equilibrium.",
+  "result": {
+    "derivative_value": 0.23999999990023999,
+    "stability": "locally_unstable"
+  },
+  "warning": "Threshold stability depends on the assumed threshold and domain."
+}

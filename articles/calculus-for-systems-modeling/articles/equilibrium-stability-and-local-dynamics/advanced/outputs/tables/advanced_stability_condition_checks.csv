@@ -1,0 +1,10 @@
+condition,passed,warning
+equilibrium candidates documented,True,
+derivative based stability classifications included,True,
+bistable threshold diagnostics included,True,
+domain and local-stability warnings included,True,
+phase-line and basin concepts documented,True,
+solver and perturbation scale warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

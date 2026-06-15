@@ -1,0 +1,22 @@
+{
+  "article_slug": "equilibrium-stability-and-local-dynamics",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "equilibrium-stability-local-dynamics",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "equilibrium-candidate", "title": "Equilibrium Candidate", "description": "A state where the modeled rate of change is zero."},
+    {"card_id": "local-stability", "title": "Local Stability", "description": "Behavior after small perturbations near equilibrium."},
+    {"card_id": "linearization", "title": "Local Linearization", "description": "Derivative or Jacobian approximation near equilibrium."},
+    {"card_id": "basin-of-attraction", "title": "Basin of Attraction", "description": "Initial conditions that approach a stable state."},
+    {"card_id": "stability-governance", "title": "Stability Governance", "description": "State domains, perturbation scale, parameters, and solvers require documentation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

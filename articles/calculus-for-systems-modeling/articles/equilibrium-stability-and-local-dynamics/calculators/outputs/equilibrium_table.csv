@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_growth_rate,input_carrying_capacity,input_threshold,result_records
+equilibrium-table,Builds a stability table for logistic and bistable examples.,"Stable, resilient, persistent, and desirable are not synonyms.",equilibrium-table,0.6,100.0,0.4,5

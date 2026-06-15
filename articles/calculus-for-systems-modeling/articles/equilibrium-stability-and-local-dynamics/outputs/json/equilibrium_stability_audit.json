@@ -1,0 +1,47 @@
+[
+  {
+    "derivative_value": 0.6,
+    "domain_max": 100.0,
+    "domain_min": 0.0,
+    "equilibrium": 0.0,
+    "scenario": "logistic_growth",
+    "stability": "locally_unstable",
+    "warning": "Logistic stability assumes fixed carrying capacity and smooth density limitation."
+  },
+  {
+    "derivative_value": -0.6,
+    "domain_max": 100.0,
+    "domain_min": 0.0,
+    "equilibrium": 100.0,
+    "scenario": "logistic_growth",
+    "stability": "locally_stable",
+    "warning": "Logistic stability assumes fixed carrying capacity and smooth density limitation."
+  },
+  {
+    "derivative_value": -0.4000000001000001,
+    "domain_max": 1.0,
+    "domain_min": 0.0,
+    "equilibrium": 0.0,
+    "scenario": "bistable_threshold",
+    "stability": "locally_stable",
+    "warning": "Threshold stability depends on the assumed threshold and domain."
+  },
+  {
+    "derivative_value": 0.23999999990023999,
+    "domain_max": 1.0,
+    "domain_min": 0.0,
+    "equilibrium": 0.4,
+    "scenario": "bistable_threshold",
+    "stability": "locally_unstable",
+    "warning": "Threshold stability depends on the assumed threshold and domain."
+  },
+  {
+    "derivative_value": -0.6000000001006002,
+    "domain_max": 1.0,
+    "domain_min": 0.0,
+    "equilibrium": 1.0,
+    "scenario": "bistable_threshold",
+    "stability": "locally_stable",
+    "warning": "Threshold stability depends on the assumed threshold and domain."
+  }
+]

@@ -1,0 +1,5 @@
+logistic_growth    0.000000     0.600000 locally_unstable
+logistic_growth  100.000000    -0.600000 locally_stable
+bistable_threshold    0.000000    -0.400000 locally_stable
+bistable_threshold    0.400000     0.240000 locally_unstable
+bistable_threshold    1.000000    -0.600000 locally_stable

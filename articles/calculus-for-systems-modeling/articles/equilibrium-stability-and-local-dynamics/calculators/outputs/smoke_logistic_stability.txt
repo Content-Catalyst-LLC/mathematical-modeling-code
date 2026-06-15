@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-stability",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "logistic-stability",
+    "equilibrium": 100.0,
+    "growth_rate": 0.6
+  },
+  "interpretation": "Evaluates local stability for a logistic equilibrium.",
+  "result": {
+    "derivative_value": -0.6,
+    "stability": "locally_stable"
+  },
+  "warning": "Logistic stability assumes fixed carrying capacity and smooth density limitation."
+}

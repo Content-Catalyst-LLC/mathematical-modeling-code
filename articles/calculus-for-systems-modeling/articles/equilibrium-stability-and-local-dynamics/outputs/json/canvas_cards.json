@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "equilibrium-candidate",
+    "category": "model structure",
+    "governance_note": "Equilibrium candidates should be checked against domain and residual conditions.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Equilibrium Candidate"
+  },
+  {
+    "card_id": "local-stability",
+    "category": "dynamic interpretation",
+    "governance_note": "Local stability only describes small perturbations near the analyzed state.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Local Stability"
+  },
+  {
+    "card_id": "linearization",
+    "category": "calculus method",
+    "governance_note": "Derivative and Jacobian tests should be documented with parameter conditions.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Local Linearization"
+  },
+  {
+    "card_id": "basin-of-attraction",
+    "category": "resilience interpretation",
+    "governance_note": "Basin boundaries are often uncertain and may depend on unmodeled variables.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Basin of Attraction"
+  },
+  {
+    "card_id": "stability-governance",
+    "category": "governance",
+    "governance_note": "Stable, resilient, persistent, and desirable should not be treated as synonyms.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Stability Governance"
+  }
+]

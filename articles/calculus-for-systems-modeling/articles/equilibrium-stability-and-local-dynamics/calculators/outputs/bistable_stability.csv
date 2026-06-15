@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_equilibrium,input_threshold,result_derivative_value,result_stability
+bistable-stability,Evaluates local stability for a bistable threshold equilibrium.,Threshold stability depends on the assumed threshold and domain.,bistable-stability,0.4,0.4,0.23999999990023999,locally_unstable

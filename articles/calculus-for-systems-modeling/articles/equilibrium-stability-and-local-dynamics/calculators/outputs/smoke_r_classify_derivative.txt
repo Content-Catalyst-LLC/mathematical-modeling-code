@@ -1,0 +1,2 @@
+           calculator derivative_value      stability
+1 classify-derivative             -0.6 locally_stable

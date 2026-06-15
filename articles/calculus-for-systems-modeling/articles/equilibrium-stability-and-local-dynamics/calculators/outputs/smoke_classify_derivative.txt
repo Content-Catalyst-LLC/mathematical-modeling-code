@@ -1,0 +1,12 @@
+{
+  "calculator": "classify-derivative",
+  "inputs": {
+    "command": "classify-derivative",
+    "derivative_value": -0.6
+  },
+  "interpretation": "Classifies scalar local stability from the derivative at equilibrium.",
+  "result": {
+    "stability": "locally_stable"
+  },
+  "warning": "Derivative tests are local and conditional on model form."
+}

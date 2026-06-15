@@ -1,0 +1,14 @@
+{
+  "calculator": "numerical-derivative",
+  "inputs": {
+    "command": "numerical-derivative",
+    "model": "bistable",
+    "state": 0.4,
+    "threshold": 0.4
+  },
+  "interpretation": "Computes a central-difference local derivative.",
+  "result": {
+    "derivative_value": 0.23999999990023999
+  },
+  "warning": "Numerical derivatives depend on step size and smoothness."
+}

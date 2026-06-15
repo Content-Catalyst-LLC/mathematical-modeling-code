@@ -1,0 +1,14 @@
+{
+  "calculator": "equilibrium-table",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "equilibrium-table",
+    "growth_rate": 0.6,
+    "threshold": 0.4
+  },
+  "interpretation": "Builds a stability table for logistic and bistable examples.",
+  "result": {
+    "records": 5
+  },
+  "warning": "Stable, resilient, persistent, and desirable are not synonyms."
+}
