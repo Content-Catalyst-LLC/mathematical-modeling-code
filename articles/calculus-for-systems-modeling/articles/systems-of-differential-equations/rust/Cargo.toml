@@ -1,0 +1,6 @@
+[package]
+name = "systems-of-differential-equations"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

@@ -1,0 +1,21 @@
+{
+  "calculator": "simulate-predator-prey",
+  "inputs": {
+    "alpha": 0.7,
+    "beta": 0.05,
+    "command": "simulate-predator-prey",
+    "delta": 0.02,
+    "dt": 0.01,
+    "gamma": 0.5,
+    "predator": 9.0,
+    "prey": 40.0,
+    "steps": 100
+  },
+  "interpretation": "Simulates an illustrative predator-prey coupled system.",
+  "result": {
+    "final_predator": 13.17461099744472,
+    "final_prey": 46.91852994052116,
+    "records": 101
+  },
+  "warning": "Check solver sensitivity and parameter uncertainty before interpretation."
+}

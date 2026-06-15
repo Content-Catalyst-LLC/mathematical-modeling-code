@@ -1,0 +1,25 @@
+{
+  "article": "Systems of Differential Equations",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "State selection is a modeling judgment.",
+    "Coupling terms should be justified by mechanism, data, or explicit scenario logic.",
+    "Different initial states can produce different qualitative outcomes.",
+    "Step size and solver choice can distort oscillation, stability, and domain constraints.",
+    "Parameter uncertainty can strongly affect coupled dynamics."
+  ]
+}

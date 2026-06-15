@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-vector,State Vector,model structure,96,active,2026-06-15,All state variables should be defined with units and domain constraints.
+coupling-terms,Coupling Terms,interaction structure,95,active,2026-06-15,"Coupling terms should be tied to mechanism, data, or explicit scenario logic."
+equilibrium-analysis,Equilibrium Analysis,qualitative analysis,94,review,2026-06-15,Equilibria are conditional on model structure and parameter values.
+phase-plane,Phase Plane,dynamic interpretation,93,active,2026-06-15,Phase-plane records reveal state-to-state trajectory structure.
+solver-domain-check,Solver and Domain Check,governance,92,review,2026-06-15,"Step size, solver method, and domain validity require review."

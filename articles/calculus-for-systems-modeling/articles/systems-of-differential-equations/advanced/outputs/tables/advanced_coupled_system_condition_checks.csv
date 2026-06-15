@@ -1,0 +1,10 @@
+condition,passed,warning
+state vector documented,True,
+coupling terms documented,True,
+initial conditions for all states included,True,
+equilibrium calculation included,True,
+domain checks included,True,
+solver and step-size warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

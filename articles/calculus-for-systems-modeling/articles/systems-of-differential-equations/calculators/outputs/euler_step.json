@@ -1,0 +1,21 @@
+{
+  "calculator": "euler-step",
+  "inputs": {
+    "alpha": 0.7,
+    "beta": 0.05,
+    "command": "euler-step",
+    "delta": 0.02,
+    "dt": 0.01,
+    "gamma": 0.5,
+    "predator": 9.0,
+    "prey": 40.0
+  },
+  "interpretation": "Computes one explicit Euler step for a coupled system.",
+  "result": {
+    "next_predator": 9.027,
+    "next_prey": 40.1,
+    "predator_rate": 2.7,
+    "prey_rate": 10.0
+  },
+  "warning": "Euler error depends on step size."
+}

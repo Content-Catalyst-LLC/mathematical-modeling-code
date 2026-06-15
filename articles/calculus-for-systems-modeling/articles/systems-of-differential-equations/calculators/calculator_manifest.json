@@ -1,0 +1,17 @@
+{
+  "article_slug": "systems-of-differential-equations",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "predator-prey-rates", "title": "Predator-Prey Rates"},
+    {"id": "coexistence-equilibrium", "title": "Coexistence Equilibrium"},
+    {"id": "euler-step", "title": "Coupled-System Euler Step"},
+    {"id": "simulate-predator-prey", "title": "Predator-Prey Simulation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

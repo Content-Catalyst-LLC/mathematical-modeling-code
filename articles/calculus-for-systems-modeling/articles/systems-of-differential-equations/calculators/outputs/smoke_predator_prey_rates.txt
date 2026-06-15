@@ -1,0 +1,18 @@
+{
+  "calculator": "predator-prey-rates",
+  "inputs": {
+    "alpha": 0.7,
+    "beta": 0.05,
+    "command": "predator-prey-rates",
+    "delta": 0.02,
+    "gamma": 0.5,
+    "predator": 9.0,
+    "prey": 40.0
+  },
+  "interpretation": "Computes coupled predator-prey derivative values.",
+  "result": {
+    "predator_rate": 2.7,
+    "prey_rate": 10.0
+  },
+  "warning": "Assumes continuous well-mixed interaction."
+}

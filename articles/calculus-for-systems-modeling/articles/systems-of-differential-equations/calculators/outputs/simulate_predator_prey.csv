@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_prey,input_predator,input_alpha,input_beta,input_delta,input_gamma,input_dt,input_steps,result_records,result_final_prey,result_final_predator
+simulate-predator-prey,Simulates an illustrative predator-prey coupled system.,Check solver sensitivity and parameter uncertainty before interpretation.,simulate-predator-prey,40.0,9.0,0.7,0.05,0.02,0.5,0.01,100,101,46.91852994052116,13.17461099744472

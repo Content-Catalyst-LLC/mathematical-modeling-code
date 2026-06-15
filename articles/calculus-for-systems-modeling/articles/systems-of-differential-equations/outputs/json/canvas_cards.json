@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-vector",
+    "category": "model structure",
+    "governance_note": "All state variables should be defined with units and domain constraints.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "State Vector"
+  },
+  {
+    "card_id": "coupling-terms",
+    "category": "interaction structure",
+    "governance_note": "Coupling terms should be tied to mechanism, data, or explicit scenario logic.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Coupling Terms"
+  },
+  {
+    "card_id": "equilibrium-analysis",
+    "category": "qualitative analysis",
+    "governance_note": "Equilibria are conditional on model structure and parameter values.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Equilibrium Analysis"
+  },
+  {
+    "card_id": "phase-plane",
+    "category": "dynamic interpretation",
+    "governance_note": "Phase-plane records reveal state-to-state trajectory structure.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Phase Plane"
+  },
+  {
+    "card_id": "solver-domain-check",
+    "category": "governance",
+    "governance_note": "Step size, solver method, and domain validity require review.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Solver and Domain Check"
+  }
+]

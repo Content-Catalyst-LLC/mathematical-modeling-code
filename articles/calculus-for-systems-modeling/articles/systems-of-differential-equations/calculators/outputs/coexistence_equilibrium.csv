@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_alpha,input_beta,input_delta,input_gamma,result_coexistence_prey,result_coexistence_predator
+coexistence-equilibrium,Computes the positive coexistence equilibrium for the illustrative system.,Equilibrium is conditional on parameter values and model structure.,coexistence-equilibrium,0.7,0.05,0.02,0.5,25.0,13.999999999999998

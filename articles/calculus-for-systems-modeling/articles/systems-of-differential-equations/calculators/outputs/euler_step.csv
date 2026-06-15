@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_prey,input_predator,input_alpha,input_beta,input_delta,input_gamma,input_dt,result_next_prey,result_next_predator,result_prey_rate,result_predator_rate
+euler-step,Computes one explicit Euler step for a coupled system.,Euler error depends on step size.,euler-step,40.0,9.0,0.7,0.05,0.02,0.5,0.01,40.1,9.027,10.0,2.7

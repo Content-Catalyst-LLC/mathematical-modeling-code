@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_vector_definition,State vector definition,Defines all state variables governed by the system,Determines what the model treats as dynamically relevant,Omitted state variables can distort coupled behavior
+coupling_terms,Coupling terms,Represent how one state affects another state rate,Encode interaction transfer feedback contagion or competition,Coupling terms should be tied to mechanism data or explicit scenario logic
+initial_conditions,Initial conditions,Assign starting values to all state variables,Determine the trajectory through state space,Different initial states can produce different qualitative outcomes
+parameter_values,Parameter values,Control growth interaction transfer decay and recovery rates,Define the strength and direction of system interactions,Parameter uncertainty can strongly affect coupled dynamics
+equilibrium_analysis,Equilibrium analysis,Identifies states where all derivatives are zero,Supports interpretation of steady states coexistence and balance points,Equilibria are conditional on model structure and parameter values
+numerical_method,Numerical method,Defines how the coupled system is approximated over time,Supports reproducible simulation and solver review,Step size and solver choice can distort oscillation stability and domain constraints
