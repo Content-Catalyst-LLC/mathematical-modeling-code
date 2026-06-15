@@ -1,0 +1,19 @@
+{
+  "article_slug": "related-rates-and-interdependent-motion",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "related-rates-interdependent-motion",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "time-dependent-variables", "title": "Time-Dependent Variables", "description": "Variables are treated as paths through state space."},
+    {"card_id": "driving-rate", "title": "Driving Rate", "description": "The known rate that drives an inferred target rate."},
+    {"card_id": "structural-derivative", "title": "Structural Derivative", "description": "The local conversion between variable motion and target motion."},
+    {"card_id": "operating-point", "title": "Operating Point", "description": "The current state at which the rate relationship is evaluated."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

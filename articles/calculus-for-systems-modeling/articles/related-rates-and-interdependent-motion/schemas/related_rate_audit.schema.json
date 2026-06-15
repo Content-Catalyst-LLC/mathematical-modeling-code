@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RelatedRateAudit",
+  "type": "object",
+  "required": ["time", "height", "height_rate", "volume", "structural_derivative", "inferred_volume_rate", "finite_difference_check", "absolute_error", "warning"],
+  "properties": {
+    "time": {"type": "number"},
+    "height": {"type": "number"},
+    "height_rate": {"type": "number"},
+    "volume": {"type": "number"},
+    "structural_derivative": {"type": "number"},
+    "inferred_volume_rate": {"type": "number"},
+    "finite_difference_check": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0},
+    "warning": {"type": "string"}
+  }
+}

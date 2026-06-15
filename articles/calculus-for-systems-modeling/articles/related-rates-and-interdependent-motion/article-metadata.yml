@@ -1,0 +1,22 @@
+actual_title: "Related Rates and Interdependent Motion"
+suggested_seo_title: "Related Rates and Interdependent Motion in Systems Modeling"
+focus_keyword: "related rates interdependent motion"
+slug: "related-rates-and-interdependent-motion"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "inverse-functions-and-system-interpretation"
+  current: "related-rates-and-interdependent-motion"
+  next: "partial-derivatives-and-multivariable-change"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/related-rates-and-interdependent-motion"
+tags:
+  - Calculus
+  - Related Rates
+  - Interdependent Motion
+  - Chain Rule
+  - Implicit Differentiation
+  - Systems Modeling
+  - Numerical Derivatives
+  - Reproducible Workflows
+excerpt_139_words: "Related rates explain how one rate of change is linked to another when system variables move together under a shared relationship. This article develops related rates as the calculus of interdependent motion, connecting time-dependent variables, differentiated constraints, the chain rule, implicit differentiation, tangent-space motion, units, measurement error, numerical derivatives, and systems interpretation. It shows how reservoir height implies volume change, infrastructure load and capacity determine utilization motion, epidemiological flows shift prevalence, environmental emissions affect concentration, economic variables move through product and quotient structures, and feature drift propagates through computational pipelines. Companion workflows in Python, R, SQL, and Haskell include related-rates audits, interdependent-motion diagnostics, finite-difference checks, operating-point records, unit review, typed rate relationships, assumption registries, conditioning warnings, and advanced mathematical audit reports for responsible interpretation of linked rates."
+advanced_standard: true

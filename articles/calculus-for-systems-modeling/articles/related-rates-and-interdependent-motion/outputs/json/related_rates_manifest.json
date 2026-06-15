@@ -1,0 +1,12 @@
+{
+  "advanced_standard": true,
+  "article": "Related Rates and Interdependent Motion",
+  "diagnostics": [
+    "driving_rate",
+    "structural_derivative",
+    "inferred_target_rate",
+    "finite_difference_check",
+    "unit_review"
+  ],
+  "warning": "A related-rates result is local to a relationship, operating point, and driving rate."
+}

@@ -1,0 +1,47 @@
+{
+  "advanced_standard": true,
+  "article": "Related Rates and Interdependent Motion",
+  "condition_failures": [
+    {
+      "condition": "physical domain",
+      "passed": false,
+      "value": -1.0,
+      "warning": "state outside physical domain"
+    },
+    {
+      "condition": "rate-conversion derivative",
+      "passed": false,
+      "value": 0.0,
+      "warning": "rate conversion is zero or near singular"
+    },
+    {
+      "condition": "finite-difference error",
+      "passed": false,
+      "value": 0.01,
+      "warning": "finite-difference check differs from analytic related rate"
+    },
+    {
+      "condition": "unit review",
+      "passed": false,
+      "value": 0.0,
+      "warning": "units not documented or inconsistent"
+    }
+  ],
+  "topics": [
+    "time_parametrized_variables",
+    "rate_propagation",
+    "implicit_rate_coupling",
+    "constraint_velocity",
+    "tangent_space",
+    "operating_point",
+    "unit_review",
+    "finite_difference_stability"
+  ],
+  "warnings": [
+    "Related rates require a stated relationship.",
+    "All time-dependent variables must be identified.",
+    "Driving rate uncertainty propagates into inferred rates.",
+    "Rate conversions are local to operating points.",
+    "Noisy numerical differentiation can amplify measurement error."
+  ]
+}

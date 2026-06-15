@@ -1,6 +1,6 @@
-.PHONY: smoke advanced inverse clean
+.PHONY: smoke advanced related-rates clean
 
-smoke: inverse
+smoke: related-rates
 
 advanced:
 	@for d in articles/*; do \
@@ -10,8 +10,8 @@ advanced:
 		fi; \
 	done
 
-inverse:
-	$(MAKE) -C articles/inverse-functions-and-system-interpretation smoke
+related-rates:
+	$(MAKE) -C articles/related-rates-and-interdependent-motion smoke
 
 clean:
 	@for d in articles/*; do \

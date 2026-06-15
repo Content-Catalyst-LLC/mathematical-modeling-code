@@ -1,0 +1,9 @@
+condition,value,passed,warning
+physical domain,2.0,True,
+physical domain,-1.0,False,state outside physical domain
+rate-conversion derivative,24.0,True,
+rate-conversion derivative,0.0,False,rate conversion is zero or near singular
+finite-difference error,1e-08,True,
+finite-difference error,0.01,False,finite-difference check differs from analytic related rate
+unit review,1.0,True,
+unit review,0.0,False,units not documented or inconsistent

@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+time_dependent_variables,Time-dependent variables,Variables are functions of time,Clarifies changing quantities and fixed quantities,Forgetting time dependence produces incorrect derivatives
+model_relationship,Model relationship,Relationship y=f(x) or F(x,y)=0 links variables,Defines the structure through which rates convert,Invalid relationship produces invalid inferred rate
+driving_rate,Driving rate,Known or estimated rate dx/dt is supplied,Identifies the motion that drives the inference,Noisy driving rates propagate into target rates
+operating_point,Operating point,Derivatives are evaluated at the current state,Keeps related-rate claim local and state-specific,Nonlinear systems imply different conversions at different points
+conditioning,Conditioning,Derivative or Jacobian determines rate-conversion stability,Shows robustness to measurement and model error,Near-singular derivatives destabilize inferred rates

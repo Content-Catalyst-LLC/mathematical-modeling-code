@@ -1,0 +1,19 @@
+section                          
+---------------------------------
+RELATED RATES ASSUMPTION REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Conditioning              Derivative or Jacobian values determine stability of rate co  Shows whether inferred rates are robust to measurement and m  Small denominators or near-singular derivatives can destabil
+                          nversion.                                                     odel error.                                                   ize the inference.                                          
+
+Driving rate              A known or estimated rate such as dx/dt is supplied.          Identifies the motion that drives the inferred rate.          Noisy or uncertain driving rates propagate into the target r
+                                                                                                                                                      ate.                                                        
+
+Model relationship        A relationship such as y=f(x) or F(x,y)=0 links the variable  Defines the structure through which rates are converted.      If the relationship is invalid, the inferred rate is invalid
+                          s.                                                                                                                          .                                                           
+
+Operating point           Derivatives are evaluated at the current state.               Keeps the related-rate claim local and state-specific.        Nonlinear systems may imply different rate conversions at di
+                                                                                                                                                      fferent points.                                             
+
+Time-dependent variables  Variables are treated as functions of time.                   Clarifies which quantities are changing and which are held f  Forgetting that a variable depends on time produces incorrec
+                                                                                        ixed.                                                         t derivatives.                                              
