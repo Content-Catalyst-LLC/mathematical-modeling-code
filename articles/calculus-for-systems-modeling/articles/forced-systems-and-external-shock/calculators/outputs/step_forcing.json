@@ -1,0 +1,14 @@
+{
+  "calculator": "step-forcing",
+  "inputs": {
+    "command": "step-forcing",
+    "level": 5.0,
+    "start_time": 10.0,
+    "time": 12.0
+  },
+  "interpretation": "Computes a step-forcing value at one time.",
+  "result": {
+    "forcing_value": 5.0
+  },
+  "warning": "Step forcing represents a persistent shift, not a temporary event."
+}

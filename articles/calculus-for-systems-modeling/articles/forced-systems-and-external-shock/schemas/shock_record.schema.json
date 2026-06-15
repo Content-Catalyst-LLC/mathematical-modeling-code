@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ShockRecord",
+  "type": "object",
+  "required": [
+    "step", "time", "baseline_state", "forced_state",
+    "shock_value", "absolute_deviation", "warning"
+  ],
+  "properties": {
+    "step": {"type": "integer"},
+    "time": {"type": "number"},
+    "baseline_state": {"type": "number"},
+    "forced_state": {"type": "number"},
+    "shock_value": {"type": "number"},
+    "absolute_deviation": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

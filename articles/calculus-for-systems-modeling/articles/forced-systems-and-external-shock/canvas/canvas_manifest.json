@@ -1,0 +1,22 @@
+{
+  "article_slug": "forced-systems-and-external-shock",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "forced-systems-external-shock",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "forcing-function", "title": "Forcing Function", "description": "An external input, disturbance, or intervention over time."},
+    {"card_id": "impulse-shock", "title": "Impulse Shock", "description": "A short, sharp displacement applied to a state variable."},
+    {"card_id": "step-change", "title": "Step Change", "description": "A persistent shift in external condition or input."},
+    {"card_id": "shock-response", "title": "Shock Response", "description": "Baseline-versus-forced behavior after disturbance."},
+    {"card_id": "shock-governance", "title": "Shock Governance", "description": "Boundary, timing, magnitude, duration, recovery, and scenario rationale require documentation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

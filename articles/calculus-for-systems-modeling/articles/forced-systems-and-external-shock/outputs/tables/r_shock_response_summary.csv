@@ -1,0 +1,2 @@
+"max_deviation","cumulative_deviation","shock_time","shock_magnitude","recovery_rate","interpretation"
+29.55,187.412346598438,10,-30,0.15,"The same shock magnitude can produce different recovery paths under different internal dynamics."

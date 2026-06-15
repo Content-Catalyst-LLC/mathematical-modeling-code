@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+forcing-function,Forcing Function,model structure,96,active,2026-06-15,The external input should be justified and documented.
+impulse-shock,Impulse Shock,scenario design,95,review,2026-06-15,"Impulse shocks should document timing, magnitude, duration, units, and time-scale assumptions."
+step-change,Step Change,scenario design,94,active,2026-06-15,Step changes should distinguish temporary disturbance from persistent new conditions.
+shock-response,Shock Response,diagnostic method,93,review,2026-06-15,"Response metrics should define deviation, recovery time, cumulative loss, or threshold crossing."
+shock-governance,Shock Governance,governance,92,active,2026-06-15,Shock scenarios should be labeled as stress tests unless evidence supports forecast claims.

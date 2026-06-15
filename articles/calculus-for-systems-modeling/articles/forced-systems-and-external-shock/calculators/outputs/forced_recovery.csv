@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_initial_state,input_equilibrium,input_recovery_rate,input_shock_time,input_shock_magnitude,input_dt,input_steps,result_records,result_max_deviation,result_cumulative_deviation
+forced-recovery,Runs a baseline-versus-shocked recovery simulation.,"Shock response depends on forcing form, timing, magnitude, recovery rate, and step size.",forced-recovery,100.0,100.0,0.15,10.0,-30.0,0.1,300,301,29.549999999999997,187.41234659843772

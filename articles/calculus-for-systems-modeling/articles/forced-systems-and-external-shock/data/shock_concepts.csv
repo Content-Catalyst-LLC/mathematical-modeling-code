@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+forcing_function,Forcing function,Defines the external input applied to the dynamic system,Represents shock intervention stress seasonality policy or disturbance,The forcing function should be justified and documented
+shock_timing,Shock timing,Identifies when the external disturbance occurs,Determines whether the system is shocked during a stable or fragile state,Timing assumptions can strongly affect response and recovery
+shock_magnitude,Shock magnitude,Defines the size of the external disturbance,Represents severity intensity intervention strength or loss,Magnitude should include units scaling and scenario rationale
+recovery_rate,Recovery rate,Controls how quickly the system returns toward a reference state,Represents resilience repair adaptation damping or institutional response,Recovery-rate estimates should not be treated as universal constants
+response_metric,Response metric,Measures deviation loss recovery time overshoot or threshold crossing,Defines what counts as impact or resilience,Different metrics can support different conclusions
+model_boundary,Model boundary,Defines why the driver is treated as external,Clarifies which causes are inside or outside the model scope,External forcing may become endogenous in a larger model

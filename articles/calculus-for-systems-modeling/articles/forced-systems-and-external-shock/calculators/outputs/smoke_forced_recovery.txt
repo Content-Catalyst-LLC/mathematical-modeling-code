@@ -1,0 +1,20 @@
+{
+  "calculator": "forced-recovery",
+  "inputs": {
+    "command": "forced-recovery",
+    "dt": 0.1,
+    "equilibrium": 100.0,
+    "initial_state": 100.0,
+    "recovery_rate": 0.15,
+    "shock_magnitude": -30.0,
+    "shock_time": 10.0,
+    "steps": 300
+  },
+  "interpretation": "Runs a baseline-versus-shocked recovery simulation.",
+  "result": {
+    "cumulative_deviation": 187.41234659843772,
+    "max_deviation": 29.549999999999997,
+    "records": 301
+  },
+  "warning": "Shock response depends on forcing form, timing, magnitude, recovery rate, and step size."
+}

@@ -1,0 +1,14 @@
+{
+  "calculator": "impulse-shock",
+  "inputs": {
+    "command": "impulse-shock",
+    "shock_magnitude": -30.0,
+    "shock_time": 10.0,
+    "time": 10.0
+  },
+  "interpretation": "Computes an impulse-shock value at one time.",
+  "result": {
+    "shock_value": -30.0
+  },
+  "warning": "Impulse shocks require time-scale and magnitude justification."
+}

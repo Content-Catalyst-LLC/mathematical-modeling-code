@@ -1,0 +1,10 @@
+condition,passed,warning
+forced-system scenario documented,True,
+baseline-versus-forced simulation included,True,
+impulse shock audit included,True,
+recovery metrics included,True,
+cumulative deviation included,True,
+model-boundary governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

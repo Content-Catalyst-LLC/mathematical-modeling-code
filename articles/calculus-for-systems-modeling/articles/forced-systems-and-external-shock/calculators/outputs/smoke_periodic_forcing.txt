@@ -1,0 +1,15 @@
+{
+  "calculator": "periodic-forcing",
+  "inputs": {
+    "amplitude": 2.0,
+    "angular_frequency": 1.0,
+    "command": "periodic-forcing",
+    "phase": 0.0,
+    "time": 1.57079632679
+  },
+  "interpretation": "Computes periodic forcing at one time.",
+  "result": {
+    "forcing_value": 2.0
+  },
+  "warning": "Amplitude, frequency, and phase should be documented."
+}

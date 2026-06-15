@@ -1,0 +1,2 @@
+        calculator     time amplitude angular_frequency phase forcing_value
+1 periodic-forcing 1.570796         2                 1     0             2

@@ -1,0 +1,2 @@
+max_deviation,cumulative_deviation,shock_time,shock_magnitude,recovery_rate,recovery_threshold,first_recovery_time,interpretation
+29.549999999999997,187.41234659843772,10.0,-30.0,0.15,1.4775,10.0,The same shock magnitude can produce different recovery paths under different internal dynamics.

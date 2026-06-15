@@ -1,0 +1,29 @@
+section                  
+-------------------------
+SHOCK ASSUMPTION REGISTRY
+assumption_name   mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Forcing function  Defines the external input applied to the dynamic system.     Represents shock intervention stress seasonality policy or d  The forcing function should be justified and documented.    
+                                                                                isturbance.                                                                                                               
+
+Model boundary    Defines why the driver is treated as external.                Clarifies which causes are inside or outside the model scope  External forcing may become endogenous in a larger model.   
+                                                                                .                                                                                                                         
+
+Recovery rate     Controls how quickly the system returns toward a reference s  Represents resilience repair adaptation damping or instituti  Recovery-rate estimates should not be treated as universal c
+                  tate.                                                         onal response.                                                onstants.                                                   
+
+Response metric   Measures deviation loss recovery time overshoot or threshold  Defines what counts as impact or resilience.                  Different metrics can support different conclusions.        
+                   crossing.                                                                                                                                                                              
+
+Shock magnitude   Defines the size of the external disturbance.                 Represents severity intensity intervention strength or loss.  Magnitude should include units scaling and scenario rational
+                                                                                                                                              e.                                                          
+
+Shock timing      Identifies when the external disturbance occurs.              Determines whether the system is shocked during a stable or   Timing assumptions can strongly affect response and recovery
+                                                                                fragile state.                                                .                                                           
+section                  
+-------------------------
+FORCED SYSTEM AUDIT CASES
+scenario                   initial_state  equilibrium  recovery_rate  shock_time  shock_magnitude  dt   steps  warning                                                     
+-------------------------  -------------  -----------  -------------  ----------  ---------------  ---  -----  ------------------------------------------------------------
+baseline_vs_impulse_shock  100.0          100.0        0.15           10.0        -30.0            0.1  300    Shock response depends on forcing form, timing, magnitude, r
+                                                                                                               ecovery rate, numerical step size, and model boundary.      

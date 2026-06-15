@@ -1,0 +1,2 @@
+     calculator time shock_time shock_magnitude shock_value
+1 impulse-shock   10         10             -30         -30

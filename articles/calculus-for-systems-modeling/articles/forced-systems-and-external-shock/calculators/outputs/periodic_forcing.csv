@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_time,input_amplitude,input_angular_frequency,input_phase,result_forcing_value
+periodic-forcing,Computes periodic forcing at one time.,"Amplitude, frequency, and phase should be documented.",periodic-forcing,1.57079632679,2.0,1.0,0.0,2.0

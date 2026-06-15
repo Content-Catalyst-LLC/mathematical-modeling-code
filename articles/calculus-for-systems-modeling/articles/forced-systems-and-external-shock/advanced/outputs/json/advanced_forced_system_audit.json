@@ -1,0 +1,25 @@
+{
+  "article": "Forced Systems and External Shock",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Shock scenarios should be distinguished from forecasts.",
+    "Forcing functions require scenario rationale and units.",
+    "Model boundaries determine whether a driver is treated as external.",
+    "Shock response depends on timing, magnitude, state, and recovery assumptions.",
+    "Solver step size and discontinuity handling should be documented."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "article_slug": "forced-systems-and-external-shock",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "impulse-shock", "title": "Impulse Shock Value"},
+    {"id": "step-forcing", "title": "Step Forcing Value"},
+    {"id": "periodic-forcing", "title": "Periodic Forcing Value"},
+    {"id": "forced-recovery", "title": "Forced Recovery Simulation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

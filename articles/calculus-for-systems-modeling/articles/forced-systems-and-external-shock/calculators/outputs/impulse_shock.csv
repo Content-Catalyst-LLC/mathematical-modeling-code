@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_time,input_shock_time,input_shock_magnitude,result_shock_value
+impulse-shock,Computes an impulse-shock value at one time.,Impulse shocks require time-scale and magnitude justification.,impulse-shock,10.0,10.0,-30.0,-30.0

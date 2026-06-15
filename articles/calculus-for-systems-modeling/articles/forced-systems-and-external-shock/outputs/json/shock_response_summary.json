@@ -1,0 +1,10 @@
+{
+  "cumulative_deviation": 187.41234659843772,
+  "first_recovery_time": 10.0,
+  "interpretation": "The same shock magnitude can produce different recovery paths under different internal dynamics.",
+  "max_deviation": 29.549999999999997,
+  "recovery_rate": 0.15,
+  "recovery_threshold": 1.4775,
+  "shock_magnitude": -30.0,
+  "shock_time": 10.0
+}
