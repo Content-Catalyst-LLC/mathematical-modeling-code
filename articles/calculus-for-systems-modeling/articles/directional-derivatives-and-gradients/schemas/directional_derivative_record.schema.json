@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DirectionalDerivativeRecord",
+  "type": "object",
+  "required": [
+    "x", "y", "direction_x", "direction_y", "unit_x", "unit_y",
+    "gradient_x", "gradient_y", "directional_derivative", "step_size",
+    "estimated_change", "actual_change", "absolute_error",
+    "feasible_direction", "warning"
+  ],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "direction_x": {"type": "number"},
+    "direction_y": {"type": "number"},
+    "unit_x": {"type": "number"},
+    "unit_y": {"type": "number"},
+    "gradient_x": {"type": "number"},
+    "gradient_y": {"type": "number"},
+    "directional_derivative": {"type": "number"},
+    "step_size": {"type": "number"},
+    "estimated_change": {"type": "number"},
+    "actual_change": {"type": "number"},
+    "absolute_error": {"type": "number"},
+    "feasible_direction": {"type": "boolean"},
+    "warning": {"type": "string"}
+  }
+}

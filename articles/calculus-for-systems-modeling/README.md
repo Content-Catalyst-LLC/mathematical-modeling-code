@@ -8,4 +8,4 @@ Article-specific code lives under:
 articles/calculus-for-systems-modeling/articles/
 ```
 
-Full article folders preserve Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas, advanced audit logic, and calculators.
+Full article folders preserve Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas, advanced audit logic, python/catalyst_canvas, and calculators.

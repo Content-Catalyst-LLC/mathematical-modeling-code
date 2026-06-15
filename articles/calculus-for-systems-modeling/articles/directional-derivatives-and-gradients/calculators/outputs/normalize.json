@@ -1,0 +1,15 @@
+{
+  "calculator": "normalize",
+  "inputs": {
+    "command": "normalize",
+    "vx": 2.0,
+    "vy": -1.0
+  },
+  "interpretation": "Normalizes a direction vector for rate comparison.",
+  "result": {
+    "norm": 1.0,
+    "unit_x": 0.8944271909999159,
+    "unit_y": -0.4472135954999579
+  },
+  "warning": ""
+}

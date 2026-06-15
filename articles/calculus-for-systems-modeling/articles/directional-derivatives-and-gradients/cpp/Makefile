@@ -1,0 +1,7 @@
+.PHONY: run clean
+
+run:
+	@if command -v c++ >/dev/null 2>&1; then c++ -O2 -std=c++17 directional_derivative_audit.cpp -o directional_derivative_audit; mkdir -p ../outputs/tables; ./directional_derivative_audit > ../outputs/tables/cpp_directional_derivative_gradient_audit.csv; else echo "c++ compiler not found; skipping."; fi
+
+clean:
+	rm -f directional_derivative_audit

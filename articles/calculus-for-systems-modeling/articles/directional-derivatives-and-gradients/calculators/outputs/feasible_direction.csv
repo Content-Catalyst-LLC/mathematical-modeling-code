@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_vx,input_vy,input_step,input_budget,result_unit_x,result_unit_y,result_directional_derivative,result_feasible_direction
+feasible-direction,Checks whether direction and step remain in the feasible region.,Direction and step move outside the feasible region.,feasible-direction,8.0,1.0,1.0,1.0,1.0,10.0,0.7071067811865475,0.7071067811865475,6.717514421272201,False

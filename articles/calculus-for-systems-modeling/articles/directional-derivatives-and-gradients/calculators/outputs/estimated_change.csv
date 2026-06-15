@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_vx,input_vy,input_step,result_unit_x,result_unit_y,result_directional_derivative,result_estimated_change,result_actual_change,result_absolute_error
+estimated-change,Compares local directional estimate with actual finite change.,,estimated-change,4.0,3.0,1.0,1.0,0.25,0.7071067811865475,0.7071067811865475,6.010407640085654,1.5026019100214134,1.5182269100214114,0.015624999999998002

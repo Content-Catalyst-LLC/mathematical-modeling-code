@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_tangent_x,result_tangent_y,result_directional_derivative
+contour-tangent,"Computes a direction tangent to the local contour, producing zero first-order change.",,contour-tangent,4.0,3.0,-0.6643638388299198,0.7474093186836597,-4.440892098500626e-16

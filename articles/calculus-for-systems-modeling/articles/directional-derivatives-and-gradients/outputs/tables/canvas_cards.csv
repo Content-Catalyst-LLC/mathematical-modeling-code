@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+directional-derivative,Directional Derivative,formal concept,92,active,2026-06-15,"State reference point, unit direction, and local-validity conditions."
+gradient,Gradient,sensitivity vector,94,active,2026-06-15,"Document units, scaling, and input-space metric."
+gradient-norm,Gradient Norm,diagnostic,88,review,2026-06-15,Do not treat steepest mathematical direction as feasible leverage without constraints.
+feasible-direction,Feasible Direction,governance,95,active,2026-06-15,Separate arbitrary mathematical movement from allowed system movement.
+scaling-and-units,Scaling and Units,governance,90,active,2026-06-15,Gradient interpretation depends on normalization and measurement choices.

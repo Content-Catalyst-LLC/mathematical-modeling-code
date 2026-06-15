@@ -1,0 +1,25 @@
+{
+  "article": "Directional Derivatives and Gradients",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Directional derivatives are local and require a stated reference point.",
+    "Directions must be normalized before rate comparisons.",
+    "Gradient direction depends on units, scaling, and metric choices.",
+    "Steepest mathematical directions may not be feasible or desirable.",
+    "Large movements require nonlinear or scenario-based analysis beyond local directional derivatives."
+  ]
+}

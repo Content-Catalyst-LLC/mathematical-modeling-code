@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_step,result_unit_x,result_unit_y,result_estimated_change,result_next_x,result_next_y
+gradient-descent-step,Computes a local step along the positive or negative gradient.,,gradient-descent-step,4.0,3.0,0.25,-0.7474093186836597,-0.6643638388299198,-1.505199322349037,3.813147670329085,2.83390904029252

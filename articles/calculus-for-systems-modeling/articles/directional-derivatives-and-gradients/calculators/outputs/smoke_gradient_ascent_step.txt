@@ -1,0 +1,18 @@
+{
+  "calculator": "gradient-ascent-step",
+  "inputs": {
+    "command": "gradient-ascent-step",
+    "step": 0.25,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Computes a local step along the positive or negative gradient.",
+  "result": {
+    "estimated_change": 1.505199322349037,
+    "next_x": 4.186852329670915,
+    "next_y": 3.16609095970748,
+    "unit_x": 0.7474093186836597,
+    "unit_y": 0.6643638388299198
+  },
+  "warning": ""
+}

@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+reference_state,Reference state,Identifies where the gradient and directional derivative are evaluated,Anchors directional sensitivity to a baseline scenario equilibrium or operating condition,A directional derivative should not be interpreted without its reference point
+direction_vector,Direction vector,Defines movement direction through input space,Connects derivative interpretation to a scenario pathway perturbation or intervention profile,An undocumented direction makes the derivative uninterpretable
+normalization_rule,Normalization rule,Specifies how the direction vector is converted to a unit vector,Allows rate comparisons across directions,Directional derivatives are not comparable if directions are not normalized consistently
+gradient,Gradient,Collects all local partial derivatives of a scalar-valued function,Organizes local sensitivity across all input dimensions,The gradient is local and depends on units scaling and reference state
+gradient_norm,Gradient norm,Measures maximum local rate of increase under a chosen metric,Identifies overall local sensitivity intensity,Steepest mathematical direction may not be feasible or desirable
+feasible_direction,Feasible direction,Checks whether movement respects constraints,Separates arbitrary mathematical direction from plausible system movement,The steepest mathematical direction may not be feasible ethical or implementable
+scale_units,Scale and units,Records variable units and the input-space metric,Prevents unit artifacts from being mistaken for meaningful sensitivity,Gradient direction depends on scaling and the metric used in input space
+local_validity,Local validity,Defines where the derivative and linear approximation are intended to hold,Prevents local directional reasoning from becoming global interpretation,Large movements thresholds and nonlinear curvature can invalidate the approximation

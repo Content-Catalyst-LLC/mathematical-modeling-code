@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_vx,input_vy,result_unit_x,result_unit_y,result_norm
+normalize,Normalizes a direction vector for rate comparison.,,normalize,2.0,-1.0,0.8944271909999159,-0.4472135954999579,1.0

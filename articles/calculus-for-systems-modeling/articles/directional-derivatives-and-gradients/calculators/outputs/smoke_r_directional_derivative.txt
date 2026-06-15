@@ -1,0 +1,6 @@
+              calculator x y direction_x direction_y    unit_x    unit_y
+1 directional-derivative 4 3           1           1 0.7071068 0.7071068
+  gradient_x gradient_y directional_derivative estimated_change actual_change
+1        4.5          4               6.010408         1.502602      1.518227
+  absolute_error
+1       0.015625

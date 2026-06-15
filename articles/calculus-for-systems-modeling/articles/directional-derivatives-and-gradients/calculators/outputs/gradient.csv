@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_gradient_x,result_gradient_y
+gradient,The gradient collects local partial sensitivities.,,gradient,4.0,3.0,4.5,4.0

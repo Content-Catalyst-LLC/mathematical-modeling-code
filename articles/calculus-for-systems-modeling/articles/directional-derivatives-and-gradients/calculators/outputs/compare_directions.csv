@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_directions_written,result_best_directional_derivative,result_best_direction_x,result_best_direction_y
+compare-directions,Compares several scenario directions at one reference point.,,compare-directions,4.0,3.0,5,6.010407640085654,1,1

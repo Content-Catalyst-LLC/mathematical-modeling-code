@@ -1,0 +1,10 @@
+condition,passed,warning
+reference point documented,True,
+direction vector documented,True,
+normalization rule included,True,
+gradient and gradient norm reviewed,True,
+feasible direction check included,True,
+scaling and unit warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

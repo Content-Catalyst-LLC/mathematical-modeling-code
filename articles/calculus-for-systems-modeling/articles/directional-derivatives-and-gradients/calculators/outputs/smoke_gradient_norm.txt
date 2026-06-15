@@ -1,0 +1,13 @@
+{
+  "calculator": "gradient-norm",
+  "inputs": {
+    "command": "gradient-norm",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "The gradient norm is the maximum local rate under Euclidean scaling.",
+  "result": {
+    "gradient_norm": 6.020797289396148
+  },
+  "warning": ""
+}

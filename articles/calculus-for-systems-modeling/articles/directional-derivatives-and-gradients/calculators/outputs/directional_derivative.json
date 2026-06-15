@@ -1,0 +1,17 @@
+{
+  "calculator": "directional-derivative",
+  "inputs": {
+    "command": "directional-derivative",
+    "vx": 1.0,
+    "vy": 1.0,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Computes local rate of change along a unit direction.",
+  "result": {
+    "directional_derivative": 6.010407640085654,
+    "unit_x": 0.7071067811865475,
+    "unit_y": 0.7071067811865475
+  },
+  "warning": ""
+}

@@ -1,0 +1,2 @@
+"calculator","x","y","direction_x","direction_y","unit_x","unit_y","gradient_x","gradient_y","directional_derivative","estimated_change","actual_change","absolute_error"
+"directional-derivative",4,3,1,1,0.707106781186547,0.707106781186547,4.5,4,6.01040764008565,1.50260191002141,1.51822691002141,0.015624999999998

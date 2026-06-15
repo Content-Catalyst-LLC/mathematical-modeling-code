@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_gradient_norm
+gradient-norm,The gradient norm is the maximum local rate under Euclidean scaling.,,gradient-norm,4.0,3.0,6.020797289396148

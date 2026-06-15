@@ -1,0 +1,53 @@
+[
+  {
+    "absolute_error": 0.015624999999998002,
+    "actual_change": 1.5182269100214114,
+    "direction_x": 1.0,
+    "direction_y": 1.0,
+    "directional_derivative": 6.010407640085654,
+    "estimated_change": 1.5026019100214134,
+    "feasible_direction": true,
+    "gradient_x": 4.5,
+    "gradient_y": 4.0,
+    "step_size": 0.25,
+    "unit_x": 0.7071067811865475,
+    "unit_y": 0.7071067811865475,
+    "warning": "",
+    "x": 4.0,
+    "y": 3.0
+  },
+  {
+    "absolute_error": 0.012500000000000178,
+    "actual_change": 0.5465169943749473,
+    "direction_x": 2.0,
+    "direction_y": -1.0,
+    "directional_derivative": 2.23606797749979,
+    "estimated_change": 0.5590169943749475,
+    "feasible_direction": true,
+    "gradient_x": 4.5,
+    "gradient_y": 4.0,
+    "step_size": 0.25,
+    "unit_x": 0.8944271909999159,
+    "unit_y": -0.4472135954999579,
+    "warning": "",
+    "x": 4.0,
+    "y": 3.0
+  },
+  {
+    "absolute_error": 0.25000000000000533,
+    "actual_change": 6.967514421272206,
+    "direction_x": 1.0,
+    "direction_y": 1.0,
+    "directional_derivative": 6.717514421272201,
+    "estimated_change": 6.717514421272201,
+    "feasible_direction": false,
+    "gradient_x": 3.5,
+    "gradient_y": 6.0,
+    "step_size": 1.0,
+    "unit_x": 0.7071067811865475,
+    "unit_y": 0.7071067811865475,
+    "warning": "Direction and step move outside the feasible region.",
+    "x": 8.0,
+    "y": 1.0
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "article_slug": "directional-derivatives-and-gradients",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "directional-derivatives-gradients",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "directional-derivative", "title": "Directional Derivative", "description": "Local rate of change along a chosen unit direction."},
+    {"card_id": "gradient", "title": "Gradient", "description": "Vector of local partial sensitivities."},
+    {"card_id": "gradient-norm", "title": "Gradient Norm", "description": "Maximum local rate under a chosen metric."},
+    {"card_id": "feasible-direction", "title": "Feasible Direction", "description": "Movement that respects model constraints."},
+    {"card_id": "scaling-and-units", "title": "Scaling and Units", "description": "Context needed for gradient interpretation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

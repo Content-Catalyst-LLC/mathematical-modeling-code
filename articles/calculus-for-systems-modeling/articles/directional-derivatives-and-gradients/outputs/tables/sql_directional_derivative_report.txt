@@ -1,0 +1,27 @@
+section                                   
+------------------------------------------
+DIRECTIONAL DERIVATIVE ASSUMPTION REGISTRY
+assumption_name     mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Direction vector    Defines the movement direction through input space.           Connects derivative interpretation to a scenario pathway per  An undocumented direction makes the derivative uninterpretab
+                                                                                  turbation or intervention profile.                            le.                                                         
+
+Feasible direction  Checks whether movement respects constraints.                 Separates arbitrary mathematical direction from plausible sy  The steepest mathematical direction may not be feasible ethi
+                                                                                  stem movement.                                                cal or implementable.                                       
+
+Gradient scale      Records the units and scaling used for gradient components.   Prevents unit artifacts from being mistaken for meaningful s  Gradient direction depends on scaling and the metric used in
+                                                                                  ensitivity.                                                    input space.                                               
+
+Normalization rule  Specifies how the direction vector is converted to a unit ve  Allows rate comparisons across directions.                    Directional derivatives are not comparable if directions are
+                    ctor.                                                                                                                        not normalized consistently.                               
+
+Reference state     Identifies where the gradient and directional derivative are  Anchors directional sensitivity to a baseline scenario equil  A directional derivative should not be interpreted without i
+                     evaluated.                                                   ibrium or operating condition.                                ts reference point.                                         
+section                     
+----------------------------
+DIRECTIONAL DERIVATIVE CASES
+x    y    direction_x  direction_y  gradient_x  gradient_y  directional_derivative  step_size  absolute_error  feasible_direction  warning                                             
+---  ---  -----------  -----------  ----------  ----------  ----------------------  ---------  --------------  ------------------  ----------------------------------------------------
+4.0  3.0  1.0          1.0          4.5         4.0         6.01040764              0.25       0.015625        1                                                                       
+4.0  3.0  2.0          -1.0         4.5         4.0         2.2360679775            0.25       0.025           1                                                                       
+8.0  1.0  1.0          1.0          3.5         6.0         6.717514421             1.0        0.25            0                   Direction and step move outside the feasible region.

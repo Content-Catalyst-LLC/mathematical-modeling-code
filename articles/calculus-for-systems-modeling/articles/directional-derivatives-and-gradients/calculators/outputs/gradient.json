@@ -1,0 +1,14 @@
+{
+  "calculator": "gradient",
+  "inputs": {
+    "command": "gradient",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "The gradient collects local partial sensitivities.",
+  "result": {
+    "gradient_x": 4.5,
+    "gradient_y": 4.0
+  },
+  "warning": ""
+}

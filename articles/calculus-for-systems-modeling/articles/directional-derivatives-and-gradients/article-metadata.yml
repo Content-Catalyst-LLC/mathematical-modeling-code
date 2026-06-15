@@ -1,0 +1,24 @@
+actual_title: "Directional Derivatives and Gradients"
+suggested_seo_title: "Directional Derivatives and Gradients in Systems Modeling"
+focus_keyword: "directional derivatives gradients"
+slug: "directional-derivatives-and-gradients"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "total-differentials-and-local-approximation-in-higher-dimensions"
+  current: "directional-derivatives-and-gradients"
+  next: "jacobians-and-multivariable-transformation"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/directional-derivatives-and-gradients"
+tags:
+  - Calculus
+  - Multivariable Calculus
+  - Directional Derivatives
+  - Gradients
+  - Local Sensitivity
+  - Feasible Directions
+  - Systems Modeling
+  - Computational Modeling
+excerpt_139_words: "Directional derivatives and gradients extend local sensitivity from coordinate-by-coordinate change to movement in any chosen direction through multivariable input space. This article explains how direction vectors, unit normalization, gradients, gradient norms, dot products, steepest increase, steepest decrease, contour geometry, feasible directions, scaling, units, reference states, and local validity shape systems modeling. It shows why directional derivatives are not merely formulas: they depend on where the gradient is evaluated, how the direction is defined, whether units have been normalized, whether movement is feasible, and whether the approximation remains local. In computational workflows, directional derivatives support scenario-path analysis, gradient diagnostics, feasible-direction checks, approximation-error review, and sensitivity interpretation. The article emphasizes that gradient claims should state the reference point, direction vector, normalization rule, units, constraints, and local-validity region before supporting responsible interpretation across complex systems."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

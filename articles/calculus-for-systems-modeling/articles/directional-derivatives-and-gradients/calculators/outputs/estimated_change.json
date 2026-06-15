@@ -1,0 +1,21 @@
+{
+  "calculator": "estimated-change",
+  "inputs": {
+    "command": "estimated-change",
+    "step": 0.25,
+    "vx": 1.0,
+    "vy": 1.0,
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Compares local directional estimate with actual finite change.",
+  "result": {
+    "absolute_error": 0.015624999999998002,
+    "actual_change": 1.5182269100214114,
+    "directional_derivative": 6.010407640085654,
+    "estimated_change": 1.5026019100214134,
+    "unit_x": 0.7071067811865475,
+    "unit_y": 0.7071067811865475
+  },
+  "warning": ""
+}

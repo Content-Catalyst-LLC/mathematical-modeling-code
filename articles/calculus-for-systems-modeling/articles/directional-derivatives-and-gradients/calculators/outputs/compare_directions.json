@@ -1,0 +1,16 @@
+{
+  "calculator": "compare-directions",
+  "inputs": {
+    "command": "compare-directions",
+    "x": 4.0,
+    "y": 3.0
+  },
+  "interpretation": "Compares several scenario directions at one reference point.",
+  "result": {
+    "best_direction_x": 1,
+    "best_direction_y": 1,
+    "best_directional_derivative": 6.010407640085654,
+    "directions_written": 5
+  },
+  "warning": ""
+}

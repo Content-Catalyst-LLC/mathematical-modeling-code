@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_vx,input_vy,result_unit_x,result_unit_y,result_directional_derivative
+directional-derivative,Computes local rate of change along a unit direction.,,directional-derivative,4.0,3.0,1.0,1.0,0.7071067811865475,0.7071067811865475,6.010407640085654

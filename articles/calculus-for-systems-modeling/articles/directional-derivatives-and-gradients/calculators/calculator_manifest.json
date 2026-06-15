@@ -1,0 +1,24 @@
+{
+  "article_slug": "directional-derivatives-and-gradients",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "evaluate", "title": "Function Evaluator"},
+    {"id": "gradient", "title": "Gradient Calculator"},
+    {"id": "gradient-norm", "title": "Gradient Norm Calculator"},
+    {"id": "normalize", "title": "Direction Normalizer"},
+    {"id": "directional-derivative", "title": "Directional Derivative Calculator"},
+    {"id": "estimated-change", "title": "Estimated Change Along Direction"},
+    {"id": "feasible-direction", "title": "Feasible Direction Checker"},
+    {"id": "gradient-ascent-step", "title": "Gradient Ascent Step"},
+    {"id": "gradient-descent-step", "title": "Gradient Descent Step"},
+    {"id": "compare-directions", "title": "Direction Comparison"},
+    {"id": "contour-tangent", "title": "Contour Tangent Direction"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}
