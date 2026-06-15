@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_z
+height,Evaluates graph surface height z=0.1x^2+0.05y^2.,,height,1.0,1.0,0.15000000000000002

@@ -1,0 +1,15 @@
+{
+  "calculator": "surface-audit",
+  "inputs": {
+    "command": "surface-audit",
+    "step": 0.25
+  },
+  "interpretation": "Audits surface area, scalar accumulation, and flux.",
+  "result": {
+    "approximate_surface_area": 4.034144002742271,
+    "patch_count": 64,
+    "scalar_surface_integral": 4.075928691287174,
+    "vector_flux_integral": 3.9587500000000007
+  },
+  "warning": ""
+}

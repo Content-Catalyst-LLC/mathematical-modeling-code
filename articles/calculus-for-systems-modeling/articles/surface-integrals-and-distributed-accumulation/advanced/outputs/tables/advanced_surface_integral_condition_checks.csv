@@ -1,0 +1,10 @@
+condition,passed,warning
+surface definition documented,True,
+surface orientation documented,True,
+surface area element distinction included,True,
+scalar surface and vector flux distinction included,True,
+normal orientation warning included,True,
+mesh resolution warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

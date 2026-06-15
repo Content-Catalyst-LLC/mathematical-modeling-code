@@ -1,0 +1,4 @@
+scenario grid_step patch_count approximate_surface_area scalar_surface_integral vector_flux_integral average_flux_density maximum_patch_area surface_description warning
+coarse_surface_mesh    1.000        4      4.049487      4.110673      3.940000      0.973170      1.024695 surface coarse_mesh
+medium_surface_mesh    0.500       16      4.037210      4.082879      3.955000      0.979754      0.256174 surface synthetic_surface
+fine_surface_mesh    0.250       64      4.034144      4.075929      3.958750      0.981397      0.064043 surface synthetic_surface

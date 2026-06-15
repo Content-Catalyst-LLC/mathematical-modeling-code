@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "surface-definition",
+    "category": "boundary",
+    "governance_note": "State surface, boundary, parameterization, and interface meaning.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Surface Definition"
+  },
+  {
+    "card_id": "area-element",
+    "category": "geometry",
+    "governance_note": "Document actual surface area rather than projected area.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Surface Area Element"
+  },
+  {
+    "card_id": "scalar-surface-integral",
+    "category": "accumulation",
+    "governance_note": "Document scalar units and accumulated burden meaning.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Scalar Surface Integral"
+  },
+  {
+    "card_id": "vector-flux-integral",
+    "category": "flux",
+    "governance_note": "Document vector units, normal direction, and crossing interpretation.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Vector Flux Integral"
+  },
+  {
+    "card_id": "normal-orientation",
+    "category": "governance",
+    "governance_note": "Check normal consistency and whether signs represent inflow or outflow.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Normal Orientation"
+  }
+]

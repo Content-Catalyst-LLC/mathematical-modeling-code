@@ -1,0 +1,23 @@
+{
+  "article_slug": "surface-integrals-and-distributed-accumulation",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "height", "title": "Graph Surface Height"},
+    {"id": "scalar-field", "title": "Scalar Surface Field"},
+    {"id": "vector-field", "title": "Vector Field Evaluator"},
+    {"id": "normal-area-vector", "title": "Normal Area Vector"},
+    {"id": "patch-area", "title": "Surface Patch Area"},
+    {"id": "scalar-patch", "title": "Scalar Patch Contribution"},
+    {"id": "flux-patch", "title": "Flux Patch Contribution"},
+    {"id": "surface-audit", "title": "Surface Integral Audit"},
+    {"id": "surface-area", "title": "Surface Area Approximation"},
+    {"id": "flux-approx", "title": "Flux Approximation"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

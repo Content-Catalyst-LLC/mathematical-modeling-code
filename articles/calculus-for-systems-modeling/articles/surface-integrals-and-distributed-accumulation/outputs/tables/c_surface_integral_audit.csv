@@ -1,0 +1,4 @@
+scenario,grid_step,patch_count,approximate_surface_area,scalar_surface_integral,vector_flux_integral,average_flux_density,maximum_patch_area,surface_description,warning
+coarse_surface_mesh,1.000000000000,4,4.049486541427,4.110673347400,3.940000000000,0.973169737811,1.024695076596,graph z=0.1x^2+0.05y^2,Grid step is coarse; curvature and field variation may be undersampled.
+medium_surface_mesh,0.500000000000,16,4.037210309485,4.082878974580,3.955000000000,0.979753593354,0.256173769149,graph z=0.1x^2+0.05y^2,Synthetic surface-integral audit; document surface normal units and mesh.
+fine_surface_mesh,0.250000000000,64,4.034144002742,4.075928691287,3.958750000000,0.981396633912,0.064043442287,graph z=0.1x^2+0.05y^2,Synthetic surface-integral audit; document surface normal units and mesh.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_step,result_nx,result_ny,result_nz
+normal-area-vector,Computes oriented normal area vector for a graph-surface patch.,,normal-area-vector,1.0,1.0,0.25,-0.0125,-0.00625,0.0625

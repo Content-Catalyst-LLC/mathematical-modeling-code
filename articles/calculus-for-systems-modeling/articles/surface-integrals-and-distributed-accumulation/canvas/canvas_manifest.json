@@ -1,0 +1,22 @@
+{
+  "article_slug": "surface-integrals-and-distributed-accumulation",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "surface-integrals-distributed-accumulation",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "surface-definition", "title": "Surface Definition", "description": "Surface, boundary, parameterization, and modeled interface."},
+    {"card_id": "surface-area-element", "title": "Surface Area Element", "description": "Area scaling from parameter or projected surface to actual surface."},
+    {"card_id": "scalar-surface-integral", "title": "Scalar Surface Integral", "description": "Distributed scalar accumulation over a surface."},
+    {"card_id": "vector-flux-integral", "title": "Vector Flux Integral", "description": "Vector-field crossing through an oriented surface."},
+    {"card_id": "normal-orientation", "title": "Normal Orientation", "description": "Normal direction, flux sign, and inflow/outflow interpretation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

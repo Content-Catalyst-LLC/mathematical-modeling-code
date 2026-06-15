@@ -1,0 +1,14 @@
+{
+  "calculator": "patch-area",
+  "inputs": {
+    "command": "patch-area",
+    "step": 0.25,
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes actual surface patch area.",
+  "result": {
+    "patch_area": 0.0640434422872475
+  },
+  "warning": ""
+}

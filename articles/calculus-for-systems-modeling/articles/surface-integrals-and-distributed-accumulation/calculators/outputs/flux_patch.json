@@ -1,0 +1,14 @@
+{
+  "calculator": "flux-patch",
+  "inputs": {
+    "command": "flux-patch",
+    "step": 0.25,
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes vector flux patch contribution.",
+  "result": {
+    "flux_contribution": 0.060625
+  },
+  "warning": ""
+}

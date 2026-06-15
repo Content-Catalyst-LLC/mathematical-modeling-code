@@ -1,0 +1,25 @@
+{
+  "article": "Surface Integrals and Distributed Accumulation",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Surface integrals require explicit surface, field, area element, units, and orientation.",
+    "Scalar surface integrals and vector flux integrals answer different questions.",
+    "Flux sign depends on normal direction.",
+    "Projected area can underestimate curved or sloped surfaces.",
+    "Mesh resolution can miss curvature or field variation."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "calculator": "flux-approx",
+  "inputs": {
+    "command": "flux-approx",
+    "step": 0.25
+  },
+  "interpretation": "Approximates vector flux through the surface.",
+  "result": {
+    "vector_flux_integral": 3.9587500000000007
+  },
+  "warning": ""
+}

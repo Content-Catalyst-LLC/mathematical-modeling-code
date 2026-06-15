@@ -1,0 +1,15 @@
+{
+  "calculator": "scalar-patch",
+  "inputs": {
+    "command": "scalar-patch",
+    "step": 0.25,
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes scalar surface-integral patch contribution.",
+  "result": {
+    "contribution": 0.06596474555586493,
+    "patch_area": 0.0640434422872475
+  },
+  "warning": ""
+}

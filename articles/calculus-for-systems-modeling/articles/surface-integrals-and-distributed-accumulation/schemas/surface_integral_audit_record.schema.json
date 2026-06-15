@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SurfaceIntegralAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "grid_step", "patch_count", "approximate_surface_area",
+    "scalar_surface_integral", "vector_flux_integral", "average_flux_density",
+    "maximum_patch_area", "surface_description", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "grid_step": {"type": "number"},
+    "patch_count": {"type": "integer"},
+    "approximate_surface_area": {"type": "number"},
+    "scalar_surface_integral": {"type": "number"},
+    "vector_flux_integral": {"type": "number"},
+    "average_flux_density": {"type": "number"},
+    "maximum_patch_area": {"type": "number"},
+    "surface_description": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "calculator": "height",
+  "inputs": {
+    "command": "height",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Evaluates graph surface height z=0.1x^2+0.05y^2.",
+  "result": {
+    "z": 0.15000000000000002
+  },
+  "warning": ""
+}

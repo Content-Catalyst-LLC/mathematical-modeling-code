@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+surface_definition,Surface definition,Specifies the surface over which the integral is computed,Determines the boundary membrane terrain envelope or control surface being analyzed,A surface integral is not interpretable without a clearly defined surface
+surface_orientation,Surface orientation,Defines the normal direction for flux calculations,Determines what counts as positive crossing outflow or inflow,Reversing the normal reverses flux sign
+surface_area_element,Surface area element,Converts parameter or projected area into actual surface area,Accounts for curvature slope and geometry,Projected area can underestimate curved or sloped surfaces
+scalar_surface_integral,Scalar surface integral,Accumulates scalar field values over surface area,Supports pressure load exposure radiation contamination or burden interpretation,Units combine scalar field units and area units
+vector_flux_integral,Vector flux integral,Measures vector-field crossing through an oriented surface,Supports flow energy water material air or emissions accounting,Vector-field units normal direction and area units must be compatible
+mesh_resolution,Mesh resolution,Defines how the continuous surface is approximated by patches,Shapes computed area scalar accumulation and flux,Coarse meshes can miss curvature or field variation
+normal_consistency,Normal consistency,Checks whether normals point in a coherent direction,Supports inflow outflow and conservation accounting,Inconsistent normals can cancel or invert flux

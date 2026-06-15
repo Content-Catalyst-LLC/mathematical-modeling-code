@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_vector_flux_integral
+flux-approx,Approximates vector flux through the surface.,,flux-approx,0.25,3.9587500000000007

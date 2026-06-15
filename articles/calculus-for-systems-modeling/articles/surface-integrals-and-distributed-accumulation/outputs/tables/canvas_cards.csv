@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+surface-definition,Surface Definition,boundary,96,active,2026-06-15,"State surface, boundary, parameterization, and interface meaning."
+area-element,Surface Area Element,geometry,95,active,2026-06-15,Document actual surface area rather than projected area.
+scalar-surface-integral,Scalar Surface Integral,accumulation,95,active,2026-06-15,Document scalar units and accumulated burden meaning.
+vector-flux-integral,Vector Flux Integral,flux,96,active,2026-06-15,"Document vector units, normal direction, and crossing interpretation."
+normal-orientation,Normal Orientation,governance,93,review,2026-06-15,Check normal consistency and whether signs represent inflow or outflow.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_step,result_contribution,result_patch_area
+scalar-patch,Computes scalar surface-integral patch contribution.,,scalar-patch,1.0,1.0,0.25,0.06596474555586493,0.0640434422872475

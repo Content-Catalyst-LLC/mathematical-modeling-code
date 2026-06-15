@@ -1,0 +1,12 @@
+{
+  "calculator": "surface-area",
+  "inputs": {
+    "command": "surface-area",
+    "step": 0.25
+  },
+  "interpretation": "Approximates total surface area.",
+  "result": {
+    "approximate_surface_area": 4.034144002742271
+  },
+  "warning": ""
+}

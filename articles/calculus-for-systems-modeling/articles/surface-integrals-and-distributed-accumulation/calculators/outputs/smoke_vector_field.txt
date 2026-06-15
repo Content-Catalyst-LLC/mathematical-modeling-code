@@ -1,0 +1,15 @@
+{
+  "calculator": "vector-field",
+  "inputs": {
+    "command": "vector-field",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Evaluates the vector field used for flux.",
+  "result": {
+    "vx": 0.1,
+    "vy": 0.1,
+    "vz": 1.0
+  },
+  "warning": ""
+}

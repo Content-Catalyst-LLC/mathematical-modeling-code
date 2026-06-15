@@ -1,0 +1,35 @@
+section                             
+------------------------------------
+SURFACE INTEGRAL ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Flux units            Defines vector-field crossing through an oriented surface.    Supports flow energy water material air or emissions account  Vector-field units normal direction and area units must be c
+                                                                                    ing.                                                          ompatible.                                                  
+
+Mesh resolution       Defines how the continuous surface is approximated by patche  Shapes computed area scalar accumulation and flux.            Coarse meshes can miss curvature or field variation.        
+                      s.                                                                                                                                                                                      
+
+Scalar surface units  Defines the quantity accumulated per unit surface area.       Supports pressure load exposure radiation contamination or b  Scalar surface-integral units combine field units and area u
+                                                                                    urden interpretation.                                         nits.                                                       
+
+Surface area element  Converts parameter or projected area into actual surface are  Accounts for curvature slope and geometry.                    Projected area can underestimate curved or sloped surfaces. 
+                      a.                                                                                                                                                                                      
+
+Surface definition    Specifies the surface over which the integral is computed.    Determines the boundary membrane terrain envelope or control  A surface integral is not interpretable without a clearly de
+                                                                                     surface being analyzed.                                      fined surface.                                              
+
+Surface orientation   Defines the normal direction for flux calculations.           Determines what counts as positive crossing outflow or inflo  Reversing the normal reverses flux sign.                    
+                                                                                    w.                                                                                                                        
+section                     
+----------------------------
+SURFACE INTEGRAL AUDIT CASES
+scenario             grid_step  patch_count  approximate_surface_area  scalar_surface_integral  vector_flux_integral  average_flux_density  warning                                                     
+-------------------  ---------  -----------  ------------------------  -----------------------  --------------------  --------------------  ------------------------------------------------------------
+coarse_surface_mesh  1.0        4            4.05                      4.15                     3.9                   0.963                 Grid step is coarse; curvature and field variation may be un
+                                                                                                                                            dersampled.                                                 
+
+medium_surface_mesh  0.5        16           4.03                      4.12                     3.95                  0.98                  Synthetic surface-integral audit; document surface normal un
+                                                                                                                                            its and mesh.                                               
+
+fine_surface_mesh    0.25       64           4.02                      4.105                    3.975                 0.989                 Synthetic surface-integral audit; document surface normal un
+                                                                                                                                            its and mesh.                                               

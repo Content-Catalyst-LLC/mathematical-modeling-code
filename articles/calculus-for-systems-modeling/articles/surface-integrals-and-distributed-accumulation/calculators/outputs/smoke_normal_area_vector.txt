@@ -1,0 +1,16 @@
+{
+  "calculator": "normal-area-vector",
+  "inputs": {
+    "command": "normal-area-vector",
+    "step": 0.25,
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes oriented normal area vector for a graph-surface patch.",
+  "result": {
+    "nx": -0.0125,
+    "ny": -0.00625,
+    "nz": 0.0625
+  },
+  "warning": ""
+}

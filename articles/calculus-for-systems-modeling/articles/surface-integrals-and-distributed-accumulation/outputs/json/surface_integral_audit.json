@@ -1,0 +1,38 @@
+[
+  {
+    "approximate_surface_area": 4.049486541426606,
+    "average_flux_density": 0.973169737811267,
+    "grid_step": 1.0,
+    "maximum_patch_area": 1.02469507659596,
+    "patch_count": 4,
+    "scalar_surface_integral": 4.1106733473999775,
+    "scenario": "coarse_surface_mesh",
+    "surface_description": "graph z = 0.1x^2 + 0.05y^2 over [-1,1] x [-1,1]",
+    "vector_flux_integral": 3.94,
+    "warning": "Grid step is coarse; curvature and field variation may be undersampled."
+  },
+  {
+    "approximate_surface_area": 4.037210309484778,
+    "average_flux_density": 0.9797535933541748,
+    "grid_step": 0.5,
+    "maximum_patch_area": 0.25617376914899,
+    "patch_count": 16,
+    "scalar_surface_integral": 4.082878974580263,
+    "scenario": "medium_surface_mesh",
+    "surface_description": "graph z = 0.1x^2 + 0.05y^2 over [-1,1] x [-1,1]",
+    "vector_flux_integral": 3.9549999999999996,
+    "warning": "Synthetic surface-integral audit; document surface, normal, units, and mesh."
+  },
+  {
+    "approximate_surface_area": 4.034144002742271,
+    "average_flux_density": 0.9813966339116261,
+    "grid_step": 0.25,
+    "maximum_patch_area": 0.0640434422872475,
+    "patch_count": 64,
+    "scalar_surface_integral": 4.075928691287174,
+    "scenario": "fine_surface_mesh",
+    "surface_description": "graph z = 0.1x^2 + 0.05y^2 over [-1,1] x [-1,1]",
+    "vector_flux_integral": 3.9587500000000007,
+    "warning": "Synthetic surface-integral audit; document surface, normal, units, and mesh."
+  }
+]
