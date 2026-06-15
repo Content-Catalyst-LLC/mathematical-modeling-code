@@ -1,0 +1,14 @@
+{
+  "calculator": "polar-area-element",
+  "inputs": {
+    "command": "polar-area-element",
+    "dr": 0.1,
+    "dtheta": 0.05,
+    "radius": 3.0
+  },
+  "interpretation": "Computes local polar area element r dr dtheta.",
+  "result": {
+    "area_element": 0.015000000000000003
+  },
+  "warning": ""
+}

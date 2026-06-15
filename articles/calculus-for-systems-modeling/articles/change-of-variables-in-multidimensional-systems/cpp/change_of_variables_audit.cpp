@@ -1,0 +1,58 @@
+#include <cmath>
+#include <iomanip>
+#include <iostream>
+#include <string>
+
+constexpr double PI = 3.14159265358979323846;
+
+double exposure_cartesian(double x, double y){
+  double r = std::sqrt(x*x + y*y);
+  return 20.0 * std::exp(-0.4 * r);
+}
+
+double exposure_polar(double r, double theta){
+  (void)theta;
+  return 20.0 * std::exp(-0.4 * r);
+}
+
+double polar_total(double radius, double dr, double dtheta){
+  double total = 0.0;
+  for(double r = dr / 2.0; r < radius; r += dr){
+    for(double theta = dtheta / 2.0; theta < 2.0 * PI; theta += dtheta){
+      total += exposure_polar(r, theta) * r * dr * dtheta;
+    }
+  }
+  return total;
+}
+
+double cartesian_grid_total(double radius, double step){
+  double total = 0.0;
+  int n = static_cast<int>((2.0 * radius) / step);
+  for(int i=0; i<=n; i++){
+    double x = -radius + i * step;
+    for(int j=0; j<=n; j++){
+      double y = -radius + j * step;
+      if(x*x + y*y <= radius*radius){
+        total += exposure_cartesian(x,y) * step * step;
+      }
+    }
+  }
+  return total;
+}
+
+void audit(double radius, double dr, double dtheta, const std::string& scenario){
+  double p = polar_total(radius, dr, dtheta);
+  double c = cartesian_grid_total(radius, dr);
+  double diff = std::abs(p - c);
+  double rel = diff / std::max(std::abs(p), 1e-12);
+  std::string warning = dr > 0.5 ? "Resolution is coarse; transformed and Cartesian approximations may differ." : "Polar Jacobian factor r included; compare domain and resolution assumptions.";
+  std::cout << scenario << "," << radius << "," << dr << "," << dtheta << "," << p << "," << c << "," << diff << "," << rel << ",dA = r dr dtheta," << warning << "\n";
+}
+
+int main(){
+  std::cout << std::fixed << std::setprecision(12);
+  std::cout << "scenario,radius,radial_step,angular_step,polar_total,cartesian_grid_total,absolute_difference,relative_difference,jacobian_rule,warning\n";
+  audit(3.0, 0.5, PI / 24.0, "medium_polar_grid");
+  audit(3.0, 0.25, PI / 48.0, "fine_polar_grid");
+  audit(3.0, 0.125, PI / 96.0, "very_fine_polar_grid");
+}

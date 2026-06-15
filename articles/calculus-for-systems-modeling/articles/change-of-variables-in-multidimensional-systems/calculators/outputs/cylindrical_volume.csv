@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_height,result_volume
+cylindrical-volume,Computes cylinder volume using cylindrical-coordinate scaling.,,cylindrical-volume,3.0,4.0,113.09733552923255

@@ -1,0 +1,10 @@
+condition,passed,warning
+transformation map documented,True,
+original and transformed domains documented,True,
+Jacobian determinant included,True,
+density conservation warning included,True,
+invertibility and singularity warnings included,True,
+original-system interpretation included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

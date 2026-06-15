@@ -1,0 +1,38 @@
+[
+  {
+    "absolute_difference": 1.3918760634268779,
+    "angular_step": 0.1308996938995747,
+    "cartesian_grid_total": 264.9641514986206,
+    "jacobian_rule": "dA = r dr dtheta",
+    "polar_total": 266.3560275620475,
+    "radial_step": 0.5,
+    "radius": 3.0,
+    "relative_difference": 0.005225622548011012,
+    "scenario": "medium_polar_grid",
+    "warning": "Polar Jacobian factor r included; compare domain and resolution assumptions."
+  },
+  {
+    "absolute_difference": 4.63663624461941,
+    "angular_step": 0.06544984694978735,
+    "cartesian_grid_total": 260.6820171075384,
+    "jacobian_rule": "dA = r dr dtheta",
+    "polar_total": 265.3186533521578,
+    "radial_step": 0.25,
+    "radius": 3.0,
+    "relative_difference": 0.017475726587776685,
+    "scenario": "fine_polar_grid",
+    "warning": "Polar Jacobian factor r included; compare domain and resolution assumptions."
+  },
+  {
+    "absolute_difference": 1.6454769331031684,
+    "angular_step": 0.032724923474893676,
+    "cartesian_grid_total": 263.4131744951234,
+    "jacobian_rule": "dA = r dr dtheta",
+    "polar_total": 265.0586514282266,
+    "radial_step": 0.125,
+    "radius": 3.0,
+    "relative_difference": 0.006207972930658088,
+    "scenario": "very_fine_polar_grid",
+    "warning": "Polar Jacobian factor r included; compare domain and resolution assumptions."
+  }
+]

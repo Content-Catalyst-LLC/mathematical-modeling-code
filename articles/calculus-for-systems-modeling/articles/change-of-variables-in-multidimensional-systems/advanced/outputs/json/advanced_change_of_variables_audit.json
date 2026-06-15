@@ -1,0 +1,25 @@
+{
+  "article": "Change of Variables in Multidimensional Systems",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Changing variables is not merely changing notation.",
+    "The Jacobian determinant is required for area and volume scaling.",
+    "Domain mapping errors can omit or double-count parts of a system.",
+    "Singular transformations can break local invertibility.",
+    "Density, probability, mass, and burden claims require conservation checks."
+  ]
+}

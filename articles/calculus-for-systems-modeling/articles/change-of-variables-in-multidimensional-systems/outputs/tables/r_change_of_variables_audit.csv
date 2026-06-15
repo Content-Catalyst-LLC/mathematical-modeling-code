@@ -1,0 +1,4 @@
+"scenario","radius","radial_step","angular_step","polar_total","cartesian_grid_total","absolute_difference","relative_difference","jacobian_rule","warning"
+"medium_polar_grid",3,0.5,0.130899693899575,266.356027562047,264.964151498621,1.39187606342688,0.00522562254801101,"dA = r dr dtheta","Polar Jacobian factor r included; compare domain and resolution assumptions."
+"fine_polar_grid",3,0.25,0.0654498469497874,265.318653352158,260.682017107538,4.63663624461941,0.0174757265877767,"dA = r dr dtheta","Polar Jacobian factor r included; compare domain and resolution assumptions."
+"very_fine_polar_grid",3,0.125,0.0327249234748937,265.058651428227,263.413174495123,1.64547693310317,0.00620797293065809,"dA = r dr dtheta","Polar Jacobian factor r included; compare domain and resolution assumptions."

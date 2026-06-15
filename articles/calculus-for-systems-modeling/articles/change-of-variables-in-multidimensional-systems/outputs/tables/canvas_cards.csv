@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+transformation-map,Transformation Map,formal concept,96,active,2026-06-15,"State original variables, transformed variables, and the explicit mapping."
+domain-mapping,Domain Mapping,boundary,95,active,2026-06-15,"Document source region, transformed region, coverage, and possible double counting."
+jacobian-determinant,Jacobian Determinant,geometry,94,active,2026-06-15,"Report determinant formula and where it is zero, negative, or highly variable."
+density-conservation,Density Conservation,governance,92,review,2026-06-15,"Check that mass, probability, exposure, or burden totals are preserved."
+singularity-check,Singularity Check,diagnostic,91,review,2026-06-15,"Flag non-invertibility, near-zero determinant, orientation reversal, and domain restrictions."

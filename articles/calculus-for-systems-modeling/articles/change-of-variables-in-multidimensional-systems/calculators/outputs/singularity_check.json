@@ -1,0 +1,14 @@
+{
+  "calculator": "singularity-check",
+  "inputs": {
+    "command": "singularity-check",
+    "determinant": 1e-06,
+    "tolerance": 1e-05
+  },
+  "interpretation": "Checks determinant against singularity tolerance.",
+  "result": {
+    "absolute_measure_factor": 1e-06,
+    "singular_or_near_singular": true
+  },
+  "warning": "Transformation is singular or near singular."
+}

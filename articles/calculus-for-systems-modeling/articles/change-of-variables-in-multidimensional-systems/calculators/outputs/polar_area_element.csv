@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_dr,input_dtheta,result_area_element
+polar-area-element,Computes local polar area element r dr dtheta.,,polar-area-element,3.0,0.1,0.05,0.015000000000000003

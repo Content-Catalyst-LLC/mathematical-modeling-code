@@ -1,0 +1,12 @@
+{
+  "calculator": "spherical-volume",
+  "inputs": {
+    "command": "spherical-volume",
+    "radius": 3.0
+  },
+  "interpretation": "Computes sphere volume using spherical-coordinate scaling.",
+  "result": {
+    "volume": 113.09733552923254
+  },
+  "warning": ""
+}

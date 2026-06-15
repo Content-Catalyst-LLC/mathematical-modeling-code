@@ -1,0 +1,16 @@
+{
+  "calculator": "linear-det",
+  "inputs": {
+    "a": 2.0,
+    "b": 1.0,
+    "c": 0.0,
+    "command": "linear-det",
+    "d": 3.0
+  },
+  "interpretation": "Computes determinant and absolute measure factor for a 2x2 linear transformation.",
+  "result": {
+    "absolute_measure_factor": 6.0,
+    "determinant": 6.0
+  },
+  "warning": ""
+}

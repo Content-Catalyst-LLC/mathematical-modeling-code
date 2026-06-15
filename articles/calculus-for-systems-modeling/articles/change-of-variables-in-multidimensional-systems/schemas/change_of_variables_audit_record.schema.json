@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChangeOfVariablesAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "radius", "radial_step", "angular_step", "polar_total",
+    "cartesian_grid_total", "absolute_difference", "relative_difference",
+    "jacobian_rule", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "radius": {"type": "number"},
+    "radial_step": {"type": "number"},
+    "angular_step": {"type": "number"},
+    "polar_total": {"type": "number"},
+    "cartesian_grid_total": {"type": "number"},
+    "absolute_difference": {"type": "number"},
+    "relative_difference": {"type": "number"},
+    "jacobian_rule": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

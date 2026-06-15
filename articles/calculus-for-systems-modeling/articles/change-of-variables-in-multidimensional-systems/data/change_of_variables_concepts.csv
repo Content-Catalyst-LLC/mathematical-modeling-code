@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+transformation_map,Transformation map,Defines how new variables map into original variables,Specifies how model states coordinates or parameters are translated,A transformation cannot be audited if the map is unclear
+domain_mapping,Domain mapping,Relates the transformed domain to the original region,Determines what spatial or state-space region is included,Incorrect domain mapping can omit or double-count parts of the system
+jacobian_determinant,Jacobian determinant,Provides local area or volume scaling,Preserves accumulated quantities under transformation,Omitting the Jacobian factor usually changes the modeled total
+measure_element,Measure element,Defines transformed area or volume scaling,Connects coordinate geometry to physical accumulation,Units can become invalid when measure is missing
+invertibility,Invertibility,Determines whether parameter points map uniquely to original points,Prevents double counting or ambiguous density transformation,Non-invertible transformations require domain restrictions or special handling
+density_conservation,Density conservation,Ensures transformed density preserves total mass probability or burden,Supports meaningful comparison before and after transformation,Density claims should include units and measure elements
+singularity,Singularity,Identifies determinant zero or near-zero regions,Flags collapsed dimensions and numerical instability,Local inverse and interpretation may fail near singularities

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,result_volume
+spherical-volume,Computes sphere volume using spherical-coordinate scaling.,,spherical-volume,3.0,113.09733552923254

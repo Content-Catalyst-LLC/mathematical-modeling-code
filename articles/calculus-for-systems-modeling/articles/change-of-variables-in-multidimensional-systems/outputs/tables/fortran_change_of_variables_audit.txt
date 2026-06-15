@@ -1,0 +1,4 @@
+scenario radius radial_step angular_step polar_total cartesian_total absolute_difference relative_difference jacobian_rule warning
+medium_polar_grid      3.000000      0.500000      0.130900    266.356028    264.964151      1.391876      0.005226      0.000000 jacobian_r review_domain_resolution
+fine_polar_grid      3.000000      0.250000      0.065450    265.318653    260.682017      4.636636      0.017476      0.000000 jacobian_r review_domain_resolution
+very_fine_polar_grid      3.000000      0.125000      0.032725    265.058651    263.413174      1.645477      0.006208      0.000000 jacobian_r review_domain_resolution

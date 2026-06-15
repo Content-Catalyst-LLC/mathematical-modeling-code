@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "transformation-map",
+    "category": "formal concept",
+    "governance_note": "State original variables, transformed variables, and the explicit mapping.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Transformation Map"
+  },
+  {
+    "card_id": "domain-mapping",
+    "category": "boundary",
+    "governance_note": "Document source region, transformed region, coverage, and possible double counting.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Domain Mapping"
+  },
+  {
+    "card_id": "jacobian-determinant",
+    "category": "geometry",
+    "governance_note": "Report determinant formula and where it is zero, negative, or highly variable.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Jacobian Determinant"
+  },
+  {
+    "card_id": "density-conservation",
+    "category": "governance",
+    "governance_note": "Check that mass, probability, exposure, or burden totals are preserved.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Density Conservation"
+  },
+  {
+    "card_id": "singularity-check",
+    "category": "diagnostic",
+    "governance_note": "Flag non-invertibility, near-zero determinant, orientation reversal, and domain restrictions.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Singularity Check"
+  }
+]

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,result_area
+circular-area,Computes circular area using the polar Jacobian factor.,,circular-area,3.0,28.274333882308138

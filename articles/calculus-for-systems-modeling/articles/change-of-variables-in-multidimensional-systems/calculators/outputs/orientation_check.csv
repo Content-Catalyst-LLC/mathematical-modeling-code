@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_determinant,result_status,result_absolute_measure_factor
+orientation-check,Classifies orientation and measure factor.,,orientation-check,-2.0,orientation reversed,2.0

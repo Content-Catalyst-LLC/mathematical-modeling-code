@@ -1,0 +1,13 @@
+{
+  "calculator": "cylindrical-volume",
+  "inputs": {
+    "command": "cylindrical-volume",
+    "height": 4.0,
+    "radius": 3.0
+  },
+  "interpretation": "Computes cylinder volume using cylindrical-coordinate scaling.",
+  "result": {
+    "volume": 113.09733552923255
+  },
+  "warning": ""
+}

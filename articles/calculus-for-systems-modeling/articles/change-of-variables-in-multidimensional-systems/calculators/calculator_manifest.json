@@ -1,0 +1,23 @@
+{
+  "article_slug": "change-of-variables-in-multidimensional-systems",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "polar-jacobian", "title": "Polar Jacobian Factor"},
+    {"id": "polar-area-element", "title": "Polar Area Element"},
+    {"id": "circular-area", "title": "Circular Area by Change of Variables"},
+    {"id": "polar-density-total", "title": "Polar Density Total"},
+    {"id": "cylindrical-volume", "title": "Cylindrical Volume"},
+    {"id": "spherical-volume", "title": "Spherical Volume"},
+    {"id": "linear-det", "title": "Linear Transformation Determinant"},
+    {"id": "orientation-check", "title": "Orientation and Measure Check"},
+    {"id": "singularity-check", "title": "Singularity Diagnostic"},
+    {"id": "polar-audit", "title": "Polar Change-of-Variables Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

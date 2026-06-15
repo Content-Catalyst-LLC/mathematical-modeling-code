@@ -1,0 +1,12 @@
+{
+  "calculator": "circular-area",
+  "inputs": {
+    "command": "circular-area",
+    "radius": 3.0
+  },
+  "interpretation": "Computes circular area using the polar Jacobian factor.",
+  "result": {
+    "area": 28.274333882308138
+  },
+  "warning": ""
+}

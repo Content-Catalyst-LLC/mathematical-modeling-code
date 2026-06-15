@@ -1,0 +1,12 @@
+{
+  "calculator": "polar-jacobian",
+  "inputs": {
+    "command": "polar-jacobian",
+    "radius": 3.0
+  },
+  "interpretation": "In polar coordinates, dA = r dr dtheta.",
+  "result": {
+    "jacobian_factor": 3.0
+  },
+  "warning": ""
+}

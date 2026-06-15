@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_determinant,input_tolerance,result_singular_or_near_singular,result_absolute_measure_factor
+singularity-check,Checks determinant against singularity tolerance.,Transformation is singular or near singular.,singularity-check,1e-06,1e-05,True,1e-06

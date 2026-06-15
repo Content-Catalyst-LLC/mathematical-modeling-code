@@ -1,0 +1,13 @@
+{
+  "calculator": "orientation-check",
+  "inputs": {
+    "command": "orientation-check",
+    "determinant": -2.0
+  },
+  "interpretation": "Classifies orientation and measure factor.",
+  "result": {
+    "absolute_measure_factor": 2.0,
+    "status": "orientation reversed"
+  },
+  "warning": ""
+}

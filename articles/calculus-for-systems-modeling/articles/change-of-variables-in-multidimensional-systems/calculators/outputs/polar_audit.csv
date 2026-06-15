@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_radius,input_dr,input_dtheta,result_polar_total,result_jacobian_rule
+polar-audit,Performs a radial polar accumulation using the Jacobian factor.,,polar-audit,3.0,0.25,0.0654498469,265.3186531503309,dA = r dr dtheta

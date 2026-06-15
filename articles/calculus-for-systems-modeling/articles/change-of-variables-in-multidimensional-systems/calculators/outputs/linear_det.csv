@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_a,input_b,input_c,input_d,result_determinant,result_absolute_measure_factor
+linear-det,Computes determinant and absolute measure factor for a 2x2 linear transformation.,,linear-det,2.0,1.0,0.0,3.0,6.0,6.0

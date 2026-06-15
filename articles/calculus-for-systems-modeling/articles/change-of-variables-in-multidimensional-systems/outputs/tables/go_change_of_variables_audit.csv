@@ -1,0 +1,4 @@
+scenario,radius,radial_step,angular_step,polar_total,cartesian_grid_total,absolute_difference,relative_difference,jacobian_rule,warning
+medium_polar_grid,3.000000000000,0.500000000000,0.130899693900,266.356027562047,264.964151498621,1.391876063427,0.005225622548,dA = r dr dtheta,Polar Jacobian factor r included; compare domain and resolution assumptions.
+fine_polar_grid,3.000000000000,0.250000000000,0.065449846950,265.318653352158,260.682017107538,4.636636244619,0.017475726588,dA = r dr dtheta,Polar Jacobian factor r included; compare domain and resolution assumptions.
+very_fine_polar_grid,3.000000000000,0.125000000000,0.032724923475,265.058651428227,263.413174495123,1.645476933103,0.006207972931,dA = r dr dtheta,Polar Jacobian factor r included; compare domain and resolution assumptions.
