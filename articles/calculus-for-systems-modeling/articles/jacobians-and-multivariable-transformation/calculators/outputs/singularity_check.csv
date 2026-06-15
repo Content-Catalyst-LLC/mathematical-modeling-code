@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_determinant,result_singular_or_near_singular
+singularity-check,Flags whether a square Jacobian is singular or near singular.,Jacobian is singular or near singular.,singularity-check,0.0,0.0,0.0,True

@@ -1,0 +1,27 @@
+section                     
+----------------------------
+JACOBIAN ASSUMPTION REGISTRY
+assumption_name               mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Conditioning                  Assesses whether the transformation amplifies error.          Flags unstable inverse problems fragile calibration and high  Ill-conditioned Jacobians can make conclusions numerically f
+                                                                                             sensitivity.                                                 ragile.                                                     
+
+Determinant scaling           Measures local area or volume scaling for square transformat  Supports coordinate transformations integration and density   Singular or near-singular determinants require caution.     
+                              ions.                                                         changes.                                                                                                                  
+
+Input and output definitions  Clarifies the dimensions units and components of the transfo  Prevents matrix entries from being treated as context-free n  Rows and columns are uninterpretable without documented vari
+                              rmation.                                                      umbers.                                                       ables.                                                      
+
+Local linearization           Uses the Jacobian to approximate nearby output movement.      Supports perturbation analysis sensitivity review and numeri  Large movements may require nonlinear analysis.             
+                                                                                            cal methods.                                                                                                              
+
+Reference state               Identifies where the Jacobian is evaluated.                   Anchors local transformation to a baseline scenario equilibr  A Jacobian should not be interpreted without its reference s
+                                                                                            ium or calibration point.                                     tate.                                                       
+section       
+--------------
+JACOBIAN CASES
+x    y    dx   dy     j11  j12  j21  j22  determinant  error_norm    warning                               
+---  ---  ---  -----  ---  ---  ---  ---  -----------  ------------  --------------------------------------
+0.0  0.0  0.1  0.1    0.0  1.0  0.0  3.0  0.0          0.0141421356  Jacobian is singular or near singular.
+2.0  1.0  0.1  -0.05  4.0  1.0  1.0  5.0  19.0         0.0111803399                                        
+2.0  1.0  0.5  0.5    4.0  1.0  1.0  5.0  19.0         0.3535533906                                        

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "jacobian-matrix",
+    "category": "formal concept",
+    "governance_note": "State row and column conventions, input-output definitions, and units.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Jacobian Matrix"
+  },
+  {
+    "card_id": "local-linear-map",
+    "category": "approximation",
+    "governance_note": "Report reference state and perturbation size before interpreting local change.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Local Linear Map"
+  },
+  {
+    "card_id": "determinant-scaling",
+    "category": "diagnostic",
+    "governance_note": "Use determinant only for square maps and document orientation/scaling.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Determinant Scaling"
+  },
+  {
+    "card_id": "singularity-conditioning",
+    "category": "governance",
+    "governance_note": "Flag fragile transformations, unstable inversion, and small determinant warnings.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Singularity and Conditioning"
+  },
+  {
+    "card_id": "dynamic-stability",
+    "category": "systems modeling",
+    "governance_note": "Jacobian eigenvalue analysis is local to an equilibrium or reference state.",
+    "review_date": "2026-06-15",
+    "score": 89,
+    "status": "review",
+    "title": "Dynamic Stability"
+  }
+]

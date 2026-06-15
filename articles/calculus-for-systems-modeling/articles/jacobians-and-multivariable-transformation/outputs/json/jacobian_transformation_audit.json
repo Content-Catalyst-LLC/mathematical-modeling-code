@@ -1,0 +1,53 @@
+[
+  {
+    "actual_change_1": 0.3600000000000003,
+    "actual_change_2": -0.15500000000000025,
+    "approximate_change_1": 0.35000000000000003,
+    "approximate_change_2": -0.15,
+    "determinant": 19.0,
+    "dx": 0.1,
+    "dy": -0.05,
+    "error_norm": 0.011180339887499318,
+    "j11": 4.0,
+    "j12": 1.0,
+    "j21": 1.0,
+    "j22": 5.0,
+    "warning": "",
+    "x": 2.0,
+    "y": 1.0
+  },
+  {
+    "actual_change_1": 2.75,
+    "actual_change_2": 3.25,
+    "approximate_change_1": 2.5,
+    "approximate_change_2": 3.0,
+    "determinant": 19.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "error_norm": 0.3535533905932738,
+    "j11": 4.0,
+    "j12": 1.0,
+    "j21": 1.0,
+    "j22": 5.0,
+    "warning": "",
+    "x": 2.0,
+    "y": 1.0
+  },
+  {
+    "actual_change_1": 0.11000000000000001,
+    "actual_change_2": 0.31000000000000005,
+    "approximate_change_1": 0.1,
+    "approximate_change_2": 0.30000000000000004,
+    "determinant": 0.0,
+    "dx": 0.1,
+    "dy": 0.1,
+    "error_norm": 0.014142135623730963,
+    "j11": 0.0,
+    "j12": 1.0,
+    "j21": 0.0,
+    "j22": 3.0,
+    "warning": "Jacobian is singular or near singular.",
+    "x": 0.0,
+    "y": 0.0
+  }
+]

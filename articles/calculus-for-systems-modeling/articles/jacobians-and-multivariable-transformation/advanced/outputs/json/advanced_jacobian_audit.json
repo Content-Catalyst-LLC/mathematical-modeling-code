@@ -1,0 +1,25 @@
+{
+  "article": "Jacobians and Multivariable Transformation",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Jacobians are local linear maps, not global descriptions of nonlinear systems.",
+    "Rows, columns, inputs, outputs, and units must be documented.",
+    "Determinants apply to square transformations and require interpretation.",
+    "Singular and ill-conditioned Jacobians can make inverse problems fragile.",
+    "Jacobian eigenvalue stability analysis is local to a reference state."
+  ]
+}

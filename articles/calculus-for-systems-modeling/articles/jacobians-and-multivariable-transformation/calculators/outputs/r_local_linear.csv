@@ -1,0 +1,2 @@
+"calculator","x","y","dx","dy","approximate_change_1","approximate_change_2","actual_change_1","actual_change_2","error_norm"
+"local-linear",2,1,0.1,-0.05,0.35,-0.15,0.36,-0.155,0.0111803398874993

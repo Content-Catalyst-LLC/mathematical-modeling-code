@@ -1,0 +1,2 @@
+   calculator x y determinant absolute_determinant
+1 determinant 2 1          19                   19

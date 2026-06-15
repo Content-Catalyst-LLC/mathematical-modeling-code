@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+jacobian-matrix,Jacobian Matrix,formal concept,95,active,2026-06-15,"State row and column conventions, input-output definitions, and units."
+local-linear-map,Local Linear Map,approximation,92,active,2026-06-15,Report reference state and perturbation size before interpreting local change.
+determinant-scaling,Determinant Scaling,diagnostic,90,review,2026-06-15,Use determinant only for square maps and document orientation/scaling.
+singularity-conditioning,Singularity and Conditioning,governance,96,active,2026-06-15,"Flag fragile transformations, unstable inversion, and small determinant warnings."
+dynamic-stability,Dynamic Stability,systems modeling,89,review,2026-06-15,Jacobian eigenvalue analysis is local to an equilibrium or reference state.

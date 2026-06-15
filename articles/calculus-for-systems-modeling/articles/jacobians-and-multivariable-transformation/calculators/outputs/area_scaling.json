@@ -1,0 +1,16 @@
+{
+  "calculator": "area-scaling",
+  "inputs": {
+    "area": 3.0,
+    "command": "area-scaling",
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Scales a small input area by the absolute determinant.",
+  "result": {
+    "absolute_determinant": 19.0,
+    "input_area": 3.0,
+    "scaled_area": 57.0
+  },
+  "warning": ""
+}

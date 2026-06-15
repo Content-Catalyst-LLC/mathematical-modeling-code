@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JacobianAuditRecord",
+  "type": "object",
+  "required": [
+    "x", "y", "dx", "dy", "j11", "j12", "j21", "j22",
+    "determinant", "approximate_change_1", "approximate_change_2",
+    "actual_change_1", "actual_change_2", "error_norm", "warning"
+  ],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "dx": {"type": "number"},
+    "dy": {"type": "number"},
+    "j11": {"type": "number"},
+    "j12": {"type": "number"},
+    "j21": {"type": "number"},
+    "j22": {"type": "number"},
+    "determinant": {"type": "number"},
+    "approximate_change_1": {"type": "number"},
+    "approximate_change_2": {"type": "number"},
+    "actual_change_1": {"type": "number"},
+    "actual_change_2": {"type": "number"},
+    "error_norm": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

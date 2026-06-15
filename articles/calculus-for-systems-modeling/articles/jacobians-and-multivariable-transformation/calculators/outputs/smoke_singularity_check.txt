@@ -1,0 +1,14 @@
+{
+  "calculator": "singularity-check",
+  "inputs": {
+    "command": "singularity-check",
+    "x": 0.0,
+    "y": 0.0
+  },
+  "interpretation": "Flags whether a square Jacobian is singular or near singular.",
+  "result": {
+    "determinant": 0.0,
+    "singular_or_near_singular": true
+  },
+  "warning": "Jacobian is singular or near singular."
+}

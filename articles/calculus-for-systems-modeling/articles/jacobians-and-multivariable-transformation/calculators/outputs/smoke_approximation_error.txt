@@ -1,0 +1,19 @@
+{
+  "calculator": "approximation-error",
+  "inputs": {
+    "command": "approximation-error",
+    "dx": 0.5,
+    "dy": 0.5,
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Compares Jacobian-based local linear approximation with actual nonlinear change.",
+  "result": {
+    "actual_change_1": 2.75,
+    "actual_change_2": 3.25,
+    "approximate_change_1": 2.5,
+    "approximate_change_2": 3.0,
+    "error_norm": 0.3535533905932738
+  },
+  "warning": ""
+}

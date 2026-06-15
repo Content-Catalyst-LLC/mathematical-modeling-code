@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_r,input_theta,result_j11,result_j12,result_j21,result_j22,result_determinant
+polar-jacobian,Computes the polar-to-Cartesian Jacobian and area scaling factor.,,polar-jacobian,3.0,0.785398163,0.707106781467586,-2.1213203427165275,0.7071067809055092,2.1213203444027577,3.0

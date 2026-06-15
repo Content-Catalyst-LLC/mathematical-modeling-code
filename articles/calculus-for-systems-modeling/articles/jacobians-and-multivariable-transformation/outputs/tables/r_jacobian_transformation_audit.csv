@@ -1,0 +1,4 @@
+"x","y","dx","dy","j11","j12","j21","j22","determinant","approximate_change_1","approximate_change_2","actual_change_1","actual_change_2","error_norm","warning"
+2,1,0.1,-0.05,4,1,1,5,19,0.35,-0.15,0.36,-0.155,0.0111803398874993,""
+2,1,0.5,0.5,4,1,1,5,19,2.5,3,2.75,3.25,0.353553390593274,""
+0,0,0.1,0.1,0,1,0,3,0,0.1,0.3,0.11,0.31,0.014142135623731,"Jacobian is singular or near singular."

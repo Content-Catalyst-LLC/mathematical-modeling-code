@@ -1,0 +1,19 @@
+{
+  "calculator": "local-linear",
+  "inputs": {
+    "command": "local-linear",
+    "dx": 0.1,
+    "dy": -0.05,
+    "x": 2.0,
+    "y": 1.0
+  },
+  "interpretation": "Compares Jacobian-based local linear approximation with actual nonlinear change.",
+  "result": {
+    "actual_change_1": 0.3600000000000003,
+    "actual_change_2": -0.15500000000000025,
+    "approximate_change_1": 0.35000000000000003,
+    "approximate_change_2": -0.15,
+    "error_norm": 0.011180339887499318
+  },
+  "warning": ""
+}

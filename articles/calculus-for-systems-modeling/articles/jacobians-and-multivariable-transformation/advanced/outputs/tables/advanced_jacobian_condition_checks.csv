@@ -1,0 +1,10 @@
+condition,passed,warning
+reference state documented,True,
+input-output definitions documented,True,
+matrix orientation stated,True,
+determinant and singularity review included,True,
+approximation-error comparison included,True,
+conditioning warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

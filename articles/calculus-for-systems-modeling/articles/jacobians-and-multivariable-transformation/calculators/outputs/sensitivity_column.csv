@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_input_index,result_component_1,result_component_2
+sensitivity-column,Returns one input column: the local effect of one input across outputs.,,sensitivity-column,2.0,1.0,1,4.0,1.0

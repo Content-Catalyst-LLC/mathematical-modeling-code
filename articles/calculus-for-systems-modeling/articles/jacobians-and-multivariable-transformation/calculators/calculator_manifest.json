@@ -1,0 +1,23 @@
+{
+  "article_slug": "jacobians-and-multivariable-transformation",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "evaluate", "title": "Vector Function Evaluator"},
+    {"id": "jacobian", "title": "Jacobian Matrix Calculator"},
+    {"id": "determinant", "title": "Jacobian Determinant Calculator"},
+    {"id": "local-linear", "title": "Local Linear Transformation"},
+    {"id": "approximation-error", "title": "Approximation Error Checker"},
+    {"id": "area-scaling", "title": "Area Scaling Calculator"},
+    {"id": "singularity-check", "title": "Singularity Checker"},
+    {"id": "polar-jacobian", "title": "Polar Coordinate Jacobian"},
+    {"id": "sensitivity-column", "title": "Input Sensitivity Column"},
+    {"id": "sensitivity-row", "title": "Output Sensitivity Row"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "calculator": "polar-jacobian",
+  "inputs": {
+    "command": "polar-jacobian",
+    "r": 3.0,
+    "theta": 0.785398163
+  },
+  "interpretation": "Computes the polar-to-Cartesian Jacobian and area scaling factor.",
+  "result": {
+    "determinant": 3.0,
+    "j11": 0.707106781467586,
+    "j12": -2.1213203427165275,
+    "j21": 0.7071067809055092,
+    "j22": 2.1213203444027577
+  },
+  "warning": ""
+}

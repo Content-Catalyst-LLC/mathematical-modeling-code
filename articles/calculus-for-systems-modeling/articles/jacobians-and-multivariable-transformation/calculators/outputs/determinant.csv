@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_determinant,result_absolute_determinant
+determinant,Computes local signed and absolute area scaling.,,determinant,2.0,1.0,19.0,19.0

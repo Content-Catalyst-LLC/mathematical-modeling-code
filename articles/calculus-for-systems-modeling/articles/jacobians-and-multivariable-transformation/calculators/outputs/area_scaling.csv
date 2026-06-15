@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_area,result_input_area,result_scaled_area,result_absolute_determinant
+area-scaling,Scales a small input area by the absolute determinant.,,area-scaling,2.0,1.0,3.0,3.0,57.0,19.0
