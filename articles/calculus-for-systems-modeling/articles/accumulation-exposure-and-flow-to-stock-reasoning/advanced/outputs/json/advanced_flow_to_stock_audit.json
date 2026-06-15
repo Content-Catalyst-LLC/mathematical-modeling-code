@@ -1,0 +1,53 @@
+{
+  "advanced_standard": true,
+  "article": "Accumulation, Exposure, and Flow-to-Stock Reasoning",
+  "condition_failures": [
+    {
+      "condition": "initial stock documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "ending-stock claim lacks documented initial condition"
+    },
+    {
+      "condition": "sign convention documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "net-flow sign convention is ambiguous"
+    },
+    {
+      "condition": "gross flows reported",
+      "passed": false,
+      "value": 0.0,
+      "warning": "net change may hide large offsetting activity"
+    },
+    {
+      "condition": "exposure window documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "cumulative exposure lacks measurement window"
+    },
+    {
+      "condition": "unit consistency documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "rate-time units do not reconcile with stock or exposure units"
+    }
+  ],
+  "topics": [
+    "initial_condition",
+    "stock_flow_equation",
+    "net_flow",
+    "gross_flows",
+    "exposure_window",
+    "unit_consistency",
+    "measurement_window",
+    "accumulated_exposure_vs_consequence"
+  ],
+  "warnings": [
+    "Rate reduction is not the same as stock reduction.",
+    "Net stock change can hide large gross flows.",
+    "Peak exposure is not cumulative exposure.",
+    "Exposure is not harm without a response model.",
+    "Measurement windows shape cumulative claims."
+  ]
+}

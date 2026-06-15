@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+initial_stock,Initial stock,Defines the starting value before interval accumulation begins,Keeps inherited burden separate from new accumulated change,Omitting the initial stock can make ending-stock claims misleading
+net_flow,Net flow,Defines the rate of stock change as inflow minus outflow,Explains why the stock grows declines or stabilizes,Sign conventions must be explicit
+gross_flows,Gross flows,Records cumulative inflow and cumulative outflow separately,Prevents large offsetting activity from being hidden by net change,Net change alone can conceal high stress or turnover
+exposure_window,Exposure window,Defines the interval over which exposure is accumulated,Clarifies whether the result is event-based annual lifetime or moving-window exposure,Changing the window changes the cumulative claim
+unit_consistency,Unit consistency,Checks that rate multiplied by time produces stock or exposure units,Prevents flow stock concentration and exposure from being confused,Unit mismatch indicates an invalid cumulative interpretation

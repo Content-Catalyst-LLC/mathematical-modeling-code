@@ -1,0 +1,19 @@
+{
+  "article_slug": "accumulation-exposure-and-flow-to-stock-reasoning",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "accumulation-exposure-flow-to-stock",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "stock-flow-equation", "title": "Stock-Flow Equation", "description": "Stocks change through accumulated net flows."},
+    {"card_id": "exposure-window", "title": "Exposure Window", "description": "Exposure claims depend on intensity, duration, pathway, and measurement window."},
+    {"card_id": "gross-vs-net", "title": "Gross versus Net", "description": "Net change can hide large offsetting flows and activity."},
+    {"card_id": "unit-audit", "title": "Unit Audit", "description": "Flow multiplied by time must produce the stated stock or exposure units."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

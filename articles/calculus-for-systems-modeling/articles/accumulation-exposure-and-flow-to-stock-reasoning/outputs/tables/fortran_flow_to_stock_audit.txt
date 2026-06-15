@@ -1,0 +1,2 @@
+initial_stock cumulative_inflow cumulative_outflow net_accumulation ending_stock cumulative_exposure population_weighted_exposure gross_activity
+    50.000     46.000     39.000      7.000     57.000     77.000      78850.000     85.000

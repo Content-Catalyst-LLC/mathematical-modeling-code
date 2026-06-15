@@ -1,0 +1,20 @@
+{
+  "advanced_standard": true,
+  "article": "Accumulation, Exposure, and Flow-to-Stock Reasoning",
+  "cumulative_exposure": 77.0,
+  "diagnostics": [
+    "initial_condition",
+    "net_flow",
+    "gross_flows",
+    "exposure_window",
+    "unit_consistency",
+    "measurement_window",
+    "gross_vs_net_activity"
+  ],
+  "ending_stock": 57.0,
+  "gross_activity": 85.0,
+  "initial_stock": 50.0,
+  "net_accumulation": 7.0,
+  "population_weighted_exposure": 78850.0,
+  "warning": "Net stock change should not be confused with gross activity, cumulative exposure, or modeled consequence."
+}

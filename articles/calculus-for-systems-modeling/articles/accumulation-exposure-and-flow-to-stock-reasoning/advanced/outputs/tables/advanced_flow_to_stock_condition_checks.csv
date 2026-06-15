@@ -1,0 +1,11 @@
+condition,value,passed,warning
+initial stock documented,1.0,True,
+initial stock documented,0.0,False,ending-stock claim lacks documented initial condition
+sign convention documented,1.0,True,
+sign convention documented,0.0,False,net-flow sign convention is ambiguous
+gross flows reported,1.0,True,
+gross flows reported,0.0,False,net change may hide large offsetting activity
+exposure window documented,1.0,True,
+exposure window documented,0.0,False,cumulative exposure lacks measurement window
+unit consistency documented,1.0,True,
+unit consistency documented,0.0,False,rate-time units do not reconcile with stock or exposure units

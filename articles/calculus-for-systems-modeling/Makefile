@@ -1,6 +1,6 @@
-.PHONY: smoke advanced integration-by-parts improper-integrals clean
+.PHONY: smoke advanced improper-integrals flow-to-stock clean
 
-smoke: integration-by-parts improper-integrals
+smoke: improper-integrals flow-to-stock
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-integration-by-parts:
-	$(MAKE) -C articles/integration-by-parts-and-structured-decomposition smoke
-
 improper-integrals:
 	$(MAKE) -C articles/improper-integrals-and-unbounded-quantities smoke
+
+flow-to-stock:
+	$(MAKE) -C articles/accumulation-exposure-and-flow-to-stock-reasoning smoke
 
 clean:
 	@for d in articles/*; do \

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StockExposureAudit",
+  "type": "object",
+  "required": ["initial_stock", "cumulative_inflow", "cumulative_outflow", "net_accumulation", "ending_stock", "cumulative_exposure", "population_weighted_exposure", "method", "unit_check", "warning"],
+  "properties": {
+    "initial_stock": {"type": "number"},
+    "cumulative_inflow": {"type": "number"},
+    "cumulative_outflow": {"type": "number"},
+    "net_accumulation": {"type": "number"},
+    "ending_stock": {"type": "number"},
+    "cumulative_exposure": {"type": "number"},
+    "population_weighted_exposure": {"type": "number"},
+    "method": {"type": "string"},
+    "unit_check": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

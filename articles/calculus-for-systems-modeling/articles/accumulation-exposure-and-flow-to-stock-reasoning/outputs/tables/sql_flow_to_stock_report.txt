@@ -1,0 +1,24 @@
+section                         
+--------------------------------
+ACCUMULATION ASSUMPTION REGISTRY
+assumption_name   mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Exposure window   Defines the interval over which exposure is accumulated.      Clarifies whether the result is event-based, annual, lifetim  Changing the window changes the cumulative claim.           
+                                                                                e, or moving-window exposure.                                                                                             
+
+Gross flows       Records cumulative inflow and cumulative outflow separately.  Prevents large offsetting activity from being hidden by net   Net change alone can conceal high stress or turnover.       
+                                                                                change.                                                                                                                   
+
+Initial stock     Defines the starting value before interval accumulation begi  Keeps inherited burden separate from new accumulated change.  Omitting the initial stock can make ending-stock claims misl
+                  ns.                                                                                                                         eading.                                                     
+
+Net flow          Defines the rate of stock change as inflow minus outflow.     Explains why the stock grows, declines, or stabilizes.        Sign conventions must be explicit.                          
+
+Unit consistency  Checks that rate multiplied by time produces stock or exposu  Prevents flow, stock, concentration, and exposure from being  Unit mismatch indicates an invalid cumulative interpretation
+                  re units.                                                      confused.                                                    .                                                           
+section            
+-------------------
+FLOW TO STOCK AUDIT
+initial_stock  cumulative_inflow  cumulative_outflow  net_accumulation  ending_stock  cumulative_exposure  population_weighted_exposure  gross_activity
+-------------  -----------------  ------------------  ----------------  ------------  -------------------  ----------------------------  --------------
+50.0           46.0               39.0                7.0               57.0          77.0                 78850.0                       85.0          

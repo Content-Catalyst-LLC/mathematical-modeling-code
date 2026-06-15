@@ -1,0 +1,2 @@
+"initial_stock","cumulative_inflow","cumulative_outflow","net_accumulation","ending_stock","cumulative_exposure","population_weighted_exposure","gross_activity","method","unit_check","warning"
+50,46,39,7,57,77,78850,85,"discrete time-step accumulation","flow multiplied by duration gives stock units; intensity multiplied by duration gives exposure units",""
