@@ -1,0 +1,25 @@
+{
+  "article": "Constrained Optimization and Lagrange Multipliers",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Optimization results inherit the objective definition.",
+    "Feasibility depends on explicit and hidden constraints.",
+    "Multipliers are local, unit-dependent, and scaling-sensitive.",
+    "Active constraint status can change under uncertainty or scenario change.",
+    "Local stationarity does not imply global optimality or ethical sufficiency."
+  ]
+}

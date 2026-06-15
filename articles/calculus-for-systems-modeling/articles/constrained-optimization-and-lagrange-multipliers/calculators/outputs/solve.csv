@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_target,result_x,result_y,result_lambda_value,result_objective_value
+solve,Solves the teaching equality-constrained problem.,,solve,12.0,8.0,4.0,16.0,96.0

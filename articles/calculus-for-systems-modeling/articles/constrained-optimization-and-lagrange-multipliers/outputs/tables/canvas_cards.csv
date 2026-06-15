@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+objective-definition,Objective Definition,formal concept,96,active,2026-06-15,"State what the objective includes, excludes, minimizes, or maximizes."
+constraint-definition,Constraint Definition,feasibility,95,active,2026-06-15,"Document equality, inequality, units, boundary meaning, and hidden assumptions."
+lagrange-multiplier,Lagrange Multiplier,diagnostic,92,review,2026-06-15,Interpret as local and unit-dependent; do not treat as a universal value.
+active-boundary,Active Boundary,governance,93,active,2026-06-15,"Flag active, inactive, violated, and near-active constraints."
+shadow-value,Shadow Value,decision support,89,review,2026-06-15,"Shadow values require objective, constraint, scaling, and local-validity documentation."

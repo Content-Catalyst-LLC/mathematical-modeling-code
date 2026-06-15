@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_gradient_f_x,result_gradient_f_y,result_gradient_g_x,result_gradient_g_y
+gradients,Computes objective and constraint gradients.,,gradients,8.0,4.0,16.0,16.0,1.0,1.0

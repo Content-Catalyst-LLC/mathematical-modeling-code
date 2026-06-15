@@ -1,0 +1,14 @@
+{
+  "calculator": "multiplier",
+  "inputs": {
+    "command": "multiplier",
+    "target": 12.0
+  },
+  "interpretation": "Computes the Lagrange multiplier for the teaching problem.",
+  "result": {
+    "lambda_value": 16.0,
+    "x": 8.0,
+    "y": 4.0
+  },
+  "warning": "Multiplier interpretation is local and unit-dependent."
+}

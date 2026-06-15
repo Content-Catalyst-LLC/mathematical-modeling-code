@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_targets,result_cases
+tradeoff-scan,Scans optimized values across constraint targets.,Scan is synthetic and local to the example structure.,tradeoff-scan,"[12.0, 18.0, 24.0]",3

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "objective-definition",
+    "category": "formal concept",
+    "governance_note": "State what the objective includes, excludes, minimizes, or maximizes.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Objective Definition"
+  },
+  {
+    "card_id": "constraint-definition",
+    "category": "feasibility",
+    "governance_note": "Document equality, inequality, units, boundary meaning, and hidden assumptions.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Constraint Definition"
+  },
+  {
+    "card_id": "lagrange-multiplier",
+    "category": "diagnostic",
+    "governance_note": "Interpret as local and unit-dependent; do not treat as a universal value.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Lagrange Multiplier"
+  },
+  {
+    "card_id": "active-boundary",
+    "category": "governance",
+    "governance_note": "Flag active, inactive, violated, and near-active constraints.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Active Boundary"
+  },
+  {
+    "card_id": "shadow-value",
+    "category": "decision support",
+    "governance_note": "Shadow values require objective, constraint, scaling, and local-validity documentation.",
+    "review_date": "2026-06-15",
+    "score": 89,
+    "status": "review",
+    "title": "Shadow Value"
+  }
+]

@@ -1,0 +1,29 @@
+section                                     
+--------------------------------------------
+CONSTRAINED OPTIMIZATION ASSUMPTION REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Constraint definition     Defines the feasible set.                                     Represents resource capacity conservation legal policy or et  Hidden constraints can make a formal optimum infeasible in p
+                                                                                        hical limits.                                                 ractice.                                                    
+
+Constraint status         Identifies active inactive violated or near-active constrain  Shows which boundaries shape feasible improvement.            Inactive constraints may become active under uncertainty or 
+                          ts.                                                                                                                         scenario change.                                            
+
+Feasible region           Identifies allowed states.                                    Separates implementable choices from unconstrained mathemati  Feasible regions depend on boundary definitions and assumpti
+                                                                                        cal directions.                                               ons.                                                        
+
+Lagrange multiplier       Balances objective and constraint gradients at candidate opt  Supports local shadow-value and tradeoff interpretation.      Multiplier meaning depends on units scaling and local validi
+                          ima.                                                                                                                        ty.                                                         
+
+Objective definition      Specifies what is being minimized or maximized.               Determines what the optimization treats as success.           Optimization results inherit omissions and value choices in 
+                                                                                                                                                      the objective.                                              
+
+Second-order feasibility  Checks curvature along feasible directions.                   Helps classify constrained local candidates.                  Unconstrained Hessian classification may be misleading.     
+section                       
+------------------------------
+CONSTRAINED OPTIMIZATION CASES
+x     y    objective_value  constraint_target  lambda_value  stationarity_residual_norm  feasible  warning                                               
+----  ---  ---------------  -----------------  ------------  --------------------------  --------  ------------------------------------------------------
+8.0   4.0  96.0             12.0               16.0          0.0                         1         Multiplier interpretation is local and unit-dependent.
+12.0  6.0  216.0            18.0               24.0          0.0                         1         Multiplier interpretation is local and unit-dependent.
+16.0  8.0  384.0            24.0               32.0          0.0                         1         Multiplier interpretation is local and unit-dependent.

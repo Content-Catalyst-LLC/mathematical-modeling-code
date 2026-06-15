@@ -1,0 +1,15 @@
+{
+  "calculator": "solve",
+  "inputs": {
+    "command": "solve",
+    "target": 12.0
+  },
+  "interpretation": "Solves the teaching equality-constrained problem.",
+  "result": {
+    "lambda_value": 16.0,
+    "objective_value": 96.0,
+    "x": 8.0,
+    "y": 4.0
+  },
+  "warning": ""
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_target,result_lambda_value,result_x,result_y
+multiplier,Computes the Lagrange multiplier for the teaching problem.,Multiplier interpretation is local and unit-dependent.,multiplier,12.0,16.0,8.0,4.0

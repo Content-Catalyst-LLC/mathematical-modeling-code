@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_objective_value
+objective,Evaluates the objective function.,,objective,8.0,4.0,96.0

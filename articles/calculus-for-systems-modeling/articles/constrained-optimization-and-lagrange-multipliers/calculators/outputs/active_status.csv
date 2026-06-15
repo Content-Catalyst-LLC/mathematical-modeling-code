@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_value,input_limit,input_tolerance,result_residual,result_status
+active-status,Classifies inequality boundary status.,,active-status,12.0,12.0,1e-09,0.0,active

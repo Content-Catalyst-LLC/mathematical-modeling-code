@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_target,result_constraint_value,result_constraint_residual,result_feasible
+feasibility,Checks whether a point satisfies the equality constraint.,,feasibility,8.0,4.0,12.0,12.0,0.0,True

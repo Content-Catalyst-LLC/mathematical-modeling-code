@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_target,input_delta,result_lambda_value,result_linear_shadow_estimate,result_exact_objective_change
+shadow-value,Compares multiplier-based local shadow estimate with exact small target change.,Shadow-value interpretation is local.,shadow-value,12.0,0.1,16.0,1.6,1.606666666666655

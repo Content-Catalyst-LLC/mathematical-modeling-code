@@ -1,0 +1,16 @@
+{
+  "calculator": "gradients",
+  "inputs": {
+    "command": "gradients",
+    "x": 8.0,
+    "y": 4.0
+  },
+  "interpretation": "Computes objective and constraint gradients.",
+  "result": {
+    "gradient_f_x": 16.0,
+    "gradient_f_y": 16.0,
+    "gradient_g_x": 1.0,
+    "gradient_g_y": 1.0
+  },
+  "warning": ""
+}

@@ -1,0 +1,4 @@
+x,y,objective_value,constraint_value,constraint_target,constraint_residual,lambda_value,gradient_f_x,gradient_f_y,gradient_g_x,gradient_g_y,stationarity_residual_norm,feasible,warning
+8.0,4.0,96.0,12.0,12.0,0.0,16.0,16.0,16.0,1.0,1.0,0.0,True,Multiplier interpretation is local and unit-dependent.
+12.0,6.0,216.0,18.0,18.0,0.0,24.0,24.0,24.0,1.0,1.0,0.0,True,Multiplier interpretation is local and unit-dependent.
+16.0,8.0,384.0,24.0,24.0,0.0,32.0,32.0,32.0,1.0,1.0,0.0,True,Multiplier interpretation is local and unit-dependent.

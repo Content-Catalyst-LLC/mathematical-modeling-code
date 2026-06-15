@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConstraintAuditRecord",
+  "type": "object",
+  "required": [
+    "x", "y", "objective_value", "constraint_value", "constraint_target",
+    "constraint_residual", "lambda_value", "gradient_f_x", "gradient_f_y",
+    "gradient_g_x", "gradient_g_y", "stationarity_residual_norm",
+    "feasible", "warning"
+  ],
+  "properties": {
+    "x": {"type": "number"},
+    "y": {"type": "number"},
+    "objective_value": {"type": "number"},
+    "constraint_value": {"type": "number"},
+    "constraint_target": {"type": "number"},
+    "constraint_residual": {"type": "number"},
+    "lambda_value": {"type": "number"},
+    "gradient_f_x": {"type": "number"},
+    "gradient_f_y": {"type": "number"},
+    "gradient_g_x": {"type": "number"},
+    "gradient_g_y": {"type": "number"},
+    "stationarity_residual_norm": {"type": "number"},
+    "feasible": {"type": "boolean"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "article_slug": "constrained-optimization-and-lagrange-multipliers",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "solve", "title": "Equality-Constrained Solution"},
+    {"id": "objective", "title": "Objective Evaluator"},
+    {"id": "constraint", "title": "Constraint Residual Checker"},
+    {"id": "gradients", "title": "Objective and Constraint Gradients"},
+    {"id": "stationarity", "title": "Stationarity Residual Checker"},
+    {"id": "multiplier", "title": "Lagrange Multiplier Calculator"},
+    {"id": "shadow-value", "title": "Local Shadow-Value Approximation"},
+    {"id": "feasibility", "title": "Feasibility Checker"},
+    {"id": "active-status", "title": "Active Constraint Status"},
+    {"id": "tradeoff-scan", "title": "Constraint Target Tradeoff Scan"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_target,result_x,result_y,result_lambda_value,result_stationarity_residual_norm
+stationarity,Computes the Lagrange stationarity residual.,,stationarity,12.0,8.0,4.0,16.0,0.0

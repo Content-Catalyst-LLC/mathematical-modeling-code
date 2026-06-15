@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+objective_definition,Objective definition,Specifies what is minimized or maximized,Determines what the optimization treats as success,Optimization results inherit omissions and value choices in the objective
+constraint_definition,Constraint definition,Defines the feasible set,Represents resource capacity conservation legal policy or ethical limits,Hidden constraints can make a formal optimum infeasible in practice
+feasible_region,Feasible region,Set of allowed states satisfying constraints,Restricts decision space to implementable or admissible options,Feasible region depends on assumptions and boundary definitions
+lagrange_multiplier,Lagrange multiplier,Balances objective and constraint gradients at candidate optima,Supports local shadow-value and tradeoff interpretation,Multiplier meaning depends on units scaling and local validity
+constraint_status,Constraint status,Identifies active inactive violated or near-active constraints,Shows which boundaries shape feasible improvement,Inactive constraints may become active under uncertainty or scenario change
+stationarity_residual,Stationarity residual,Measures violation of first-order conditions,Supports diagnostic review of candidate solutions,Small residual does not guarantee global optimality
+second_order_feasibility,Second-order feasibility,Checks curvature along feasible directions,Helps classify constrained local candidates,Unconstrained Hessian classification may be misleading

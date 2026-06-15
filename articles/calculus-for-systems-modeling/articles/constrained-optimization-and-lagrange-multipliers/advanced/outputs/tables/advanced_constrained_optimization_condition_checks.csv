@@ -1,0 +1,10 @@
+condition,passed,warning
+objective documented,True,
+constraints documented,True,
+feasibility residual included,True,
+stationarity residual included,True,
+multiplier interpretation warning included,True,
+active/inactive constraint registry included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

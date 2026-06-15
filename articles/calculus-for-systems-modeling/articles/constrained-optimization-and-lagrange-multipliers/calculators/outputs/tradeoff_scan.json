@@ -1,0 +1,39 @@
+{
+  "calculator": "tradeoff-scan",
+  "inputs": {
+    "command": "tradeoff-scan",
+    "targets": [
+      12.0,
+      18.0,
+      24.0
+    ]
+  },
+  "interpretation": "Scans optimized values across constraint targets.",
+  "result": {
+    "cases": 3,
+    "scan": [
+      {
+        "lambda_value": 16.0,
+        "objective_value": 96.0,
+        "target": 12.0,
+        "x": 8.0,
+        "y": 4.0
+      },
+      {
+        "lambda_value": 24.0,
+        "objective_value": 216.0,
+        "target": 18.0,
+        "x": 12.0,
+        "y": 6.0
+      },
+      {
+        "lambda_value": 32.0,
+        "objective_value": 384.0,
+        "target": 24.0,
+        "x": 16.0,
+        "y": 8.0
+      }
+    ]
+  },
+  "warning": "Scan is synthetic and local to the example structure."
+}

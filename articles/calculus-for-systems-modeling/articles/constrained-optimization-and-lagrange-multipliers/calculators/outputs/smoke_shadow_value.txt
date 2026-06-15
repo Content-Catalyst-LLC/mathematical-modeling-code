@@ -1,0 +1,15 @@
+{
+  "calculator": "shadow-value",
+  "inputs": {
+    "command": "shadow-value",
+    "delta": 0.1,
+    "target": 12.0
+  },
+  "interpretation": "Compares multiplier-based local shadow estimate with exact small target change.",
+  "result": {
+    "exact_objective_change": 1.606666666666655,
+    "lambda_value": 16.0,
+    "linear_shadow_estimate": 1.6
+  },
+  "warning": "Shadow-value interpretation is local."
+}
