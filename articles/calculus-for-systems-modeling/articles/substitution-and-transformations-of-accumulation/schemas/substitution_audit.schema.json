@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SubstitutionAudit",
+  "type": "object",
+  "required": ["original_start", "original_end", "transformed_start", "transformed_end", "direct_integral", "transformed_integral", "residual", "method", "unit_check", "warning"],
+  "properties": {
+    "original_start": {"type": "number"},
+    "original_end": {"type": "number"},
+    "transformed_start": {"type": "number"},
+    "transformed_end": {"type": "number"},
+    "direct_integral": {"type": "number"},
+    "transformed_integral": {"type": "number"},
+    "residual": {"type": "number"},
+    "method": {"type": "string"},
+    "unit_check": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

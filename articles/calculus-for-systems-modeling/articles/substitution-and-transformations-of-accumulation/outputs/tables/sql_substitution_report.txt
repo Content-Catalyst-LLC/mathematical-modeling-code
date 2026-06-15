@@ -1,0 +1,19 @@
+section                         
+--------------------------------
+SUBSTITUTION ASSUMPTION REGISTRY
+assumption_name               mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Orientation and monotonicity  The transformation may preserve orientation, reverse orienta  Prevents path-dependent or nonmonotonic transformations from  Nonmonotonic transformations may require splitting the inter
+                              tion, or require piecewise treatment.                          being misread.                                               val or adding state information.                            
+
+Original variable             Defines the variable over which accumulation was first expre  Clarifies the original scale of the modeled process.          Unclear original variables make transformed accumulation imp
+                              ssed.                                                                                                                       ossible to audit.                                           
+
+Scale factor                  The derivative of the transformation converts differentials   Preserves accumulated quantity across representations.        Omitting the scale factor usually changes units and accumula
+                              between variables.                                                                                                          ted totals.                                                 
+
+Transformed bounds            Original bounds must be mapped into bounds for the new varia  Preserves interval meaning under transformation.              Keeping old bounds after changing variables mixes incompatib
+                              ble.                                                                                                                        le intervals.                                               
+
+Transformed variable          Defines the new variable used for the change of variables.    Clarifies the new scale, clock, coordinate, or state represe  A transformed variable without interpretation can obscure mo
+                                                                                            ntation.                                                      del meaning.                                                

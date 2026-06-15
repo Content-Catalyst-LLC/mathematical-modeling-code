@@ -1,6 +1,6 @@
-.PHONY: smoke advanced definite-integrals fundamental-theorem clean
+.PHONY: smoke advanced fundamental-theorem substitution clean
 
-smoke: definite-integrals fundamental-theorem
+smoke: fundamental-theorem substitution
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-definite-integrals:
-	$(MAKE) -C articles/definite-integrals-and-total-change smoke
-
 fundamental-theorem:
 	$(MAKE) -C articles/the-fundamental-theorem-of-calculus smoke
+
+substitution:
+	$(MAKE) -C articles/substitution-and-transformations-of-accumulation smoke
 
 clean:
 	@for d in articles/*; do \

@@ -1,0 +1,22 @@
+actual_title: "Substitution and Transformations of Accumulation"
+suggested_seo_title: "Substitution and Transformations of Accumulation in Systems Modeling"
+focus_keyword: "substitution transformations of accumulation"
+slug: "substitution-and-transformations-of-accumulation"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "the-fundamental-theorem-of-calculus"
+  current: "substitution-and-transformations-of-accumulation"
+  next: "integration-by-parts-and-structured-decomposition"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/substitution-and-transformations-of-accumulation"
+tags:
+  - Calculus
+  - Substitution
+  - Change of Variables
+  - Accumulation
+  - Transformation
+  - Definite Integrals
+  - Systems Modeling
+  - Unit Consistency
+excerpt_139_words: "Substitution and transformations of accumulation explain how accumulated quantities change when a model changes variables, scales, coordinates, clocks, or state representations. This article treats substitution as more than a symbolic integration technique: it is a rule for preserving meaning when accumulation moves from one variable to another. It shows why transformed bounds, scale factors, differentials, orientation, monotonicity, and unit consistency matter for interpreting rates, densities, exposure, cost, distance, process time, normalized states, and transformed coordinates. In systems modeling, substitution helps prevent errors that arise when a convenient variable change silently alters what is being accumulated. The article also explains why nonmonotonic transformations may require piecewise treatment, why signed rates and nonnegative densities behave differently, and how transformed accumulation can be audited through comparison between original and transformed representations."
+advanced_standard: true

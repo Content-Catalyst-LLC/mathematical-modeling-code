@@ -1,0 +1,2 @@
+"original_start","original_end","transformed_start","transformed_end","direct_integral","transformed_integral","residual","method","unit_check","warning"
+1,3,2,10,19.1962491804894,19.1962264699893,2.27105000654149e-05,"trapezoidal comparison","f(u) du equals f(g(x)) g_prime(x) dx",""

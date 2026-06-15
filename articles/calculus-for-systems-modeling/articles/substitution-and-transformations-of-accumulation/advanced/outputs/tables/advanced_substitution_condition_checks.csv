@@ -1,0 +1,11 @@
+condition,value,passed,warning
+direct-transformed residual tolerance,1e-05,True,
+direct-transformed residual tolerance,0.1,False,direct and transformed accumulation differ beyond tolerance
+scale factor documented,1.0,True,
+scale factor documented,0.0,False,substitution lacks documented differential scale factor
+transformed bounds documented,1.0,True,
+transformed bounds documented,0.0,False,definite integral uses changed variable without transformed bounds
+unit consistency documented,1.0,True,
+unit consistency documented,0.0,False,units do not show preservation of accumulated quantity
+monotonicity over interval,0.2,True,
+monotonicity over interval,-0.2,False,transformation may require piecewise treatment or orientation review

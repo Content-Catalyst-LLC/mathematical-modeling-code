@@ -1,0 +1,19 @@
+{
+  "article_slug": "substitution-and-transformations-of-accumulation",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "substitution-transformations-accumulation",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "change-of-variables", "title": "Change of Variables", "description": "Substitution rewrites accumulation across transformed variables."},
+    {"card_id": "scale-factor", "title": "Scale Factor", "description": "The derivative of the transformation preserves differential meaning."},
+    {"card_id": "transformed-bounds", "title": "Transformed Bounds", "description": "Definite integrals require transformed interval endpoints."},
+    {"card_id": "monotonicity-review", "title": "Monotonicity Review", "description": "Nonmonotonic transformations may require piecewise treatment."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

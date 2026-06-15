@@ -1,0 +1,25 @@
+{
+  "advanced_standard": true,
+  "article": "Substitution and Transformations of Accumulation",
+  "diagnostics": [
+    "original_variable",
+    "transformed_variable",
+    "scale_factor",
+    "transformed_bounds",
+    "unit_check",
+    "orientation_review",
+    "monotonicity_review"
+  ],
+  "direct_integral": 19.196249180489346,
+  "original_interval": [
+    1.0,
+    3.0
+  ],
+  "residual": 2.271050005475672e-05,
+  "transformed_integral": 19.19622646998929,
+  "transformed_interval": [
+    2.0,
+    10.0
+  ],
+  "warning": "Transformed accumulation should preserve the same quantity only when scale factors, bounds, units, and orientation are handled correctly."
+}

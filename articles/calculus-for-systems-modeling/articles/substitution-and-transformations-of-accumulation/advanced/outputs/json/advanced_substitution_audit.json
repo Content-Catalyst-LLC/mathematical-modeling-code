@@ -1,0 +1,54 @@
+{
+  "advanced_standard": true,
+  "article": "Substitution and Transformations of Accumulation",
+  "condition_failures": [
+    {
+      "condition": "direct-transformed residual tolerance",
+      "passed": false,
+      "value": 0.1,
+      "warning": "direct and transformed accumulation differ beyond tolerance"
+    },
+    {
+      "condition": "scale factor documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "substitution lacks documented differential scale factor"
+    },
+    {
+      "condition": "transformed bounds documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "definite integral uses changed variable without transformed bounds"
+    },
+    {
+      "condition": "unit consistency documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "units do not show preservation of accumulated quantity"
+    },
+    {
+      "condition": "monotonicity over interval",
+      "passed": false,
+      "value": -0.2,
+      "warning": "transformation may require piecewise treatment or orientation review"
+    }
+  ],
+  "topics": [
+    "change_of_variables",
+    "scale_factor",
+    "transformed_bounds",
+    "differential_meaning",
+    "unit_consistency",
+    "orientation",
+    "monotonicity",
+    "density_transformation",
+    "residual_diagnostics"
+  ],
+  "warnings": [
+    "Omitting the scale factor usually changes the accumulated quantity.",
+    "Keeping old bounds after changing variables mixes incompatible intervals.",
+    "Nonmonotonic transformations may require piecewise treatment.",
+    "Signed rates and nonnegative densities require different orientation conventions.",
+    "Transformed accumulation should be audited against the original representation when possible."
+  ]
+}
