@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+separability,Separability,model structure,96,active,2026-06-15,Rate law must factor into independent-variable and state-variable components.
+state-domain,State Domain,assumption,95,active,2026-06-15,Excluded states and domain restrictions should be documented.
+initial-condition,Initial Condition,assumption,94,active,2026-06-15,Initial states select specific trajectories.
+simple-dynamic-law,Simple Dynamic Law,model structure,93,review,2026-06-15,Simple laws clarify mechanism but can hide interactions and changing capacity.
+solver-comparison,Solver Comparison,computation,92,review,2026-06-15,Analytical and Euler solutions should be compared under step-size review.

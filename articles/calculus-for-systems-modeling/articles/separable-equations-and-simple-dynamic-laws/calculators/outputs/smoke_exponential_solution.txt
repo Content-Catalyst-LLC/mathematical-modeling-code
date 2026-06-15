@@ -1,0 +1,14 @@
+{
+  "calculator": "exponential-solution",
+  "inputs": {
+    "command": "exponential-solution",
+    "growth_rate": 0.25,
+    "initial": 10.0,
+    "time": 2.0
+  },
+  "interpretation": "Computes P(t)=P0 exp(rt).",
+  "result": {
+    "state": 16.487212707001284
+  },
+  "warning": "Exponential growth assumes no capacity constraint."
+}

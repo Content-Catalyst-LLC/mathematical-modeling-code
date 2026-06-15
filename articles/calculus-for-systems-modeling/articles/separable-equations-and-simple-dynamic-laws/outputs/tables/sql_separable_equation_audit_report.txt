@@ -1,0 +1,17 @@
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Initial condition     Selects one solution from a family of trajectories.           Anchors the scenario to a starting state.                     Arbitrary starting values can mislead.                      
+
+Numerical comparison  Compares analytical solutions with discrete solver approxima  Supports reproducibility and solver-error review.             Solver agreement with an equation does not validate real-wor
+                      tions.                                                                                                                      ld fit.                                                     
+
+Parameter values      Control growth, decay, capacity, loss, and adjustment.        Represent estimates or scenario choices.                      Parameter uncertainty should be tested.                     
+
+Separability          Requires factoring the rate law into independent-variable an  Claims temporal and state effects can be decomposed cleanly.  Not every dynamic system has a separable structure.         
+                      d state-variable components.                                                                                                                                                            
+
+Simple dynamic law    Defines mechanism of change in compact form.                  Explains growth, decay, recovery, saturation, or input-loss   Simplicity can hide thresholds, delays, and interactions.   
+                                                                                    balance.                                                                                                                  
+
+State domain          Defines where division by the state-dependent factor is vali  Protects interpretation near equilibrium and singular values  Separating variables can hide excluded states.              
+                      d.                                                            .                                                                                                                         

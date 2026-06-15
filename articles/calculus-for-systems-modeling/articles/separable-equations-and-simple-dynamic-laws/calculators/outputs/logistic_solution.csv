@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_time,input_initial,input_growth_rate,input_capacity,result_state
+logistic-solution,Computes the analytical logistic solution.,Logistic growth assumes fixed carrying capacity.,logistic-solution,2.0,10.0,0.25,100.0,15.482809896025467

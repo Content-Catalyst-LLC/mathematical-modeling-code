@@ -1,0 +1,6 @@
+condition,passed,warning
+separability assumption documented,True,
+state domain restrictions included,True,
+analytical and numerical comparison included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

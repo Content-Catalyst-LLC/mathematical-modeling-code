@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "separability",
+    "category": "model structure",
+    "governance_note": "Rate law must factor into independent-variable and state-variable components.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Separability"
+  },
+  {
+    "card_id": "state-domain",
+    "category": "assumption",
+    "governance_note": "Excluded states and domain restrictions should be documented.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "State Domain"
+  },
+  {
+    "card_id": "initial-condition",
+    "category": "assumption",
+    "governance_note": "Initial states select specific trajectories.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Initial Condition"
+  },
+  {
+    "card_id": "simple-dynamic-law",
+    "category": "model structure",
+    "governance_note": "Simple laws clarify mechanism but can hide interactions and changing capacity.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Simple Dynamic Law"
+  },
+  {
+    "card_id": "solver-comparison",
+    "category": "computation",
+    "governance_note": "Analytical and Euler solutions should be compared under step-size review.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Solver Comparison"
+  }
+]

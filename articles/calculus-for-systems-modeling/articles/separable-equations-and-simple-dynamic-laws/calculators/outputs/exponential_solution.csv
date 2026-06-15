@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_time,input_initial,input_growth_rate,result_state
+exponential-solution,Computes P(t)=P0 exp(rt).,Exponential growth assumes no capacity constraint.,exponential-solution,2.0,10.0,0.25,16.487212707001284

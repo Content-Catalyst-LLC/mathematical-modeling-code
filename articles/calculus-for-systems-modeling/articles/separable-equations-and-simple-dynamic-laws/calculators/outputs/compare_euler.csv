@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_model,input_initial,input_growth_rate,input_capacity,input_dt,input_steps,result_final_analytical_state,result_final_euler_state,result_final_absolute_error,result_records
+compare-euler,Compares analytical solution and explicit Euler approximation.,Euler error depends on step size.,compare-euler,logistic,10.0,0.25,100.0,0.1,20,15.482809896025467,15.422322525598476,0.060487370426990594,21

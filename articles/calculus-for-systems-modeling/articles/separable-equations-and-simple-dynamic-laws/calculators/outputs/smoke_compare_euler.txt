@@ -1,0 +1,20 @@
+{
+  "calculator": "compare-euler",
+  "inputs": {
+    "capacity": 100.0,
+    "command": "compare-euler",
+    "dt": 0.1,
+    "growth_rate": 0.25,
+    "initial": 10.0,
+    "model": "logistic",
+    "steps": 20
+  },
+  "interpretation": "Compares analytical solution and explicit Euler approximation.",
+  "result": {
+    "final_absolute_error": 0.060487370426990594,
+    "final_analytical_state": 15.482809896025467,
+    "final_euler_state": 15.422322525598476,
+    "records": 21
+  },
+  "warning": "Euler error depends on step size."
+}

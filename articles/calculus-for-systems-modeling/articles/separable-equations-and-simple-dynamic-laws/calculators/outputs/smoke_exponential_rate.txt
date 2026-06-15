@@ -1,0 +1,13 @@
+{
+  "calculator": "exponential-rate",
+  "inputs": {
+    "command": "exponential-rate",
+    "growth_rate": 0.25,
+    "state": 10.0
+  },
+  "interpretation": "Computes dP/dt = rP.",
+  "result": {
+    "rate": 2.5
+  },
+  "warning": "Proportional growth assumes current state drives rate."
+}

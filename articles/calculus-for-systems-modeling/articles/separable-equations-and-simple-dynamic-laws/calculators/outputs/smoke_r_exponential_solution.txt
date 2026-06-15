@@ -1,0 +1,2 @@
+            calculator time initial growth_rate    state
+1 exponential-solution    2      10        0.25 16.48721

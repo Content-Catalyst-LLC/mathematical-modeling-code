@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_state,input_growth_rate,input_capacity,result_rate
+logistic-rate,Computes dP/dt = rP(1-P/K).,Capacity should be justified and sensitivity-tested.,logistic-rate,10.0,0.25,100.0,2.25

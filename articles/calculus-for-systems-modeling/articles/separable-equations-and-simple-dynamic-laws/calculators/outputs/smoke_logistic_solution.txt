@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-solution",
+  "inputs": {
+    "capacity": 100.0,
+    "command": "logistic-solution",
+    "growth_rate": 0.25,
+    "initial": 10.0,
+    "time": 2.0
+  },
+  "interpretation": "Computes the analytical logistic solution.",
+  "result": {
+    "state": 15.482809896025467
+  },
+  "warning": "Logistic growth assumes fixed carrying capacity."
+}
