@@ -1,0 +1,19 @@
+section                              
+-------------------------------------
+DEFINITE INTEGRAL ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                 review_warning                                              
+--------------------  ------------------------------------------------------------  ----------------------------------------------------  ------------------------------------------------------------
+Integrand definition  The integral accumulates a specified rate, density, intensit  Clarifies what is being accumulated.                  If the integrand is misdefined, the total-change estimate is
+                      y, or marginal quantity.                                                                                             invalid.                                                   
+
+Interval bounds       The lower and upper limits define the accumulation period or  Keeps cumulative claims tied to a specific interval.  Changing bounds changes the result and may change the conclu
+                       domain.                                                                                                            sion.                                                       
+
+Numerical method      Approximate integrals depend on grid, method, and interpolat  Supports reproducible computational accumulation.     Coarse grids, missing data, or noise can distort total chang
+                      ion.                                                                                                                e.                                                          
+
+Sign convention       A definite integral is signed unless the absolute value is i  Distinguishes net change from total activity.         Signed cancellation can hide large offsetting movement.     
+                      ntegrated.                                                                                                                                                                      
+
+Unit consistency      Rate units times integration-variable units should produce a  Prevents invalid total-change claims.                 Unit mismatch can invalidate the integral interpretation.   
+                      ccumulated quantity units.                                                                                                                                                      

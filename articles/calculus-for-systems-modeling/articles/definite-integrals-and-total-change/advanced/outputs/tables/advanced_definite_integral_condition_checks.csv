@@ -1,0 +1,11 @@
+condition,value,passed,warning
+positive interval length,4.0,True,
+positive interval length,0.0,False,definite integral requires a nonzero oriented interval for total-change interpretation
+unit consistency documented,1.0,True,
+unit consistency documented,0.0,False,integrand units and integration variable units are not documented
+sign convention documented,1.0,True,
+sign convention documented,0.0,False,signed accumulation may be confused with total activity
+numerical method documented,1.0,True,
+numerical method documented,0.0,False,approximate total change lacks method documentation
+grid spacing,0.5,True,
+grid spacing,2.0,False,"coarse grid may miss bursts, peaks, or discontinuities"

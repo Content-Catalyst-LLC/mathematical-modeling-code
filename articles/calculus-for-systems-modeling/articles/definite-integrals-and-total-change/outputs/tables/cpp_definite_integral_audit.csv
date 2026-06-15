@@ -1,0 +1,2 @@
+interval_start,interval_end,method,signed_accumulation,absolute_accumulation
+0.000000000000,4.000000000000,trapezoidal approximation,15.270107017873,15.270107017873

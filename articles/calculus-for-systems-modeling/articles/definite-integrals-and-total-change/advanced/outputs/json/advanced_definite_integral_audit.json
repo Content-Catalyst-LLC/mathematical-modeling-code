@@ -1,0 +1,54 @@
+{
+  "advanced_standard": true,
+  "article": "Definite Integrals and Total Change",
+  "condition_failures": [
+    {
+      "condition": "positive interval length",
+      "passed": false,
+      "value": 0.0,
+      "warning": "definite integral requires a nonzero oriented interval for total-change interpretation"
+    },
+    {
+      "condition": "unit consistency documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "integrand units and integration variable units are not documented"
+    },
+    {
+      "condition": "sign convention documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "signed accumulation may be confused with total activity"
+    },
+    {
+      "condition": "numerical method documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "approximate total change lacks method documentation"
+    },
+    {
+      "condition": "grid spacing",
+      "passed": false,
+      "value": 2.0,
+      "warning": "coarse grid may miss bursts, peaks, or discontinuities"
+    }
+  ],
+  "topics": [
+    "definite_integral",
+    "riemann_sum",
+    "signed_accumulation",
+    "absolute_accumulation",
+    "net_change",
+    "total_activity",
+    "interval_bounds",
+    "unit_consistency",
+    "numerical_method_review"
+  ],
+  "warnings": [
+    "A definite integral is interval-specific.",
+    "Signed accumulation may hide large offsetting activity.",
+    "Unit mismatch invalidates total-change interpretation.",
+    "Coarse numerical grids can miss spikes, discontinuities, or bursts.",
+    "Cumulative estimates require integrand, bounds, sign convention, units, and method documentation."
+  ]
+}

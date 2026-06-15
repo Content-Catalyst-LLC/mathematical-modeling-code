@@ -1,0 +1,20 @@
+{
+  "advanced_standard": true,
+  "article": "Definite Integrals and Total Change",
+  "diagnostics": [
+    "integrand_definition",
+    "interval_bounds",
+    "sign_convention",
+    "signed_vs_absolute_accumulation",
+    "unit_check",
+    "method_comparison"
+  ],
+  "interval": [
+    0,
+    4.0
+  ],
+  "rectangle_signed": 14.36080959104707,
+  "trapezoidal_absolute": 15.27010701787275,
+  "trapezoidal_signed": 15.27010701787275,
+  "warning": "Definite-integral claims require integrand, bounds, sign convention, units, and method documentation."
+}

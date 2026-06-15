@@ -1,0 +1,2 @@
+"interval_start","interval_end","method","signed_accumulation","absolute_accumulation","unit_check","interpretation","warning"
+0,4,"trapezoidal approximation",15.2701070178727,15.2701070178727,"rate units times time units = accumulated quantity units","signed accumulation estimates net change; absolute accumulation estimates total activity",""

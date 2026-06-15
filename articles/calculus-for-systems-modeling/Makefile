@@ -1,6 +1,6 @@
-.PHONY: smoke advanced elasticity antiderivatives clean
+.PHONY: smoke advanced antiderivatives definite-integrals clean
 
-smoke: elasticity antiderivatives
+smoke: antiderivatives definite-integrals
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-elasticity:
-	$(MAKE) -C articles/elasticity-sensitivity-and-marginal-response smoke
-
 antiderivatives:
 	$(MAKE) -C articles/antiderivatives-and-the-recovery-of-accumulation smoke
+
+definite-integrals:
+	$(MAKE) -C articles/definite-integrals-and-total-change smoke
 
 clean:
 	@for d in articles/*; do \

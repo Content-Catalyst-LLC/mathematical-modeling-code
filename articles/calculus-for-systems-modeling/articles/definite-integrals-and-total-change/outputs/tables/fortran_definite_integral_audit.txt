@@ -1,0 +1,2 @@
+interval_start interval_end signed_accumulation absolute_accumulation
+   0.000    4.000      15.270107      15.270107

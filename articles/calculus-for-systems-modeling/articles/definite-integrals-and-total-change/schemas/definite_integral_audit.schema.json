@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DefiniteIntegralAudit",
+  "type": "object",
+  "required": ["interval_start", "interval_end", "method", "signed_accumulation", "absolute_accumulation", "unit_check", "interpretation", "warning"],
+  "properties": {
+    "interval_start": {"type": "number"},
+    "interval_end": {"type": "number"},
+    "method": {"type": "string"},
+    "signed_accumulation": {"type": "number"},
+    "absolute_accumulation": {"type": "number"},
+    "unit_check": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

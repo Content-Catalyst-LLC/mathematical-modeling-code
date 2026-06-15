@@ -1,0 +1,19 @@
+{
+  "article_slug": "definite-integrals-and-total-change",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "definite-integrals-total-change",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "total-change", "title": "Total Change", "description": "Definite integrals accumulate local rates over an interval."},
+    {"card_id": "signed-accumulation", "title": "Signed Accumulation", "description": "Positive and negative contributions can offset in net change."},
+    {"card_id": "riemann-sums", "title": "Riemann Sums", "description": "Accumulation is approximated by summing local pieces."},
+    {"card_id": "unit-check", "title": "Unit Check", "description": "Integrand units times integration-variable units must produce the intended total."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

@@ -1,0 +1,22 @@
+actual_title: "Definite Integrals and Total Change"
+suggested_seo_title: "Definite Integrals and Total Change in Systems Modeling"
+focus_keyword: "definite integrals total change"
+slug: "definite-integrals-and-total-change"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "antiderivatives-and-the-recovery-of-accumulation"
+  current: "definite-integrals-and-total-change"
+  next: "the-fundamental-theorem-of-calculus"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/definite-integrals-and-total-change"
+tags:
+  - Calculus
+  - Definite Integrals
+  - Total Change
+  - Accumulation
+  - Riemann Sums
+  - Net Change
+  - Systems Modeling
+  - Numerical Integration
+excerpt_139_words: "Definite integrals measure total change accumulated over an interval. This article develops definite integrals as a systems-modeling tool for cumulative emissions, total exposure, net flow, aggregate burden, distance traveled, work performed, energy transferred, total cost, and accumulated change in system state. It explains signed accumulation, net change, area under a curve, Riemann sums, interval boundaries, orientation, units, net change versus total variation, numerical approximation, uncertainty, and responsible interpretation. The article emphasizes that definite integrals translate local rates, densities, intensities, and marginal quantities into interval-based totals only when the integrand, bounds, sign convention, units, and method are documented. Companion workflows in Python, R, SQL, and Haskell include definite-integral audits, signed and absolute accumulation, interval records, unit checks, trapezoidal approximation, assumption registries, and advanced mathematical audit reports."
+advanced_standard: true
