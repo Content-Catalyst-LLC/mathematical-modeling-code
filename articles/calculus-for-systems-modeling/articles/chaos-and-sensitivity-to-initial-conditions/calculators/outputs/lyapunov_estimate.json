@@ -1,0 +1,15 @@
+{
+  "calculator": "lyapunov-estimate",
+  "inputs": {
+    "burn_in": 100,
+    "command": "lyapunov-estimate",
+    "r": 3.9,
+    "sample_steps": 1000,
+    "x0": 0.2
+  },
+  "interpretation": "Estimates average local trajectory divergence.",
+  "result": {
+    "lyapunov_estimate": 0.477034392247437
+  },
+  "warning": "Lyapunov estimates depend on burn-in, sample length, and precision."
+}

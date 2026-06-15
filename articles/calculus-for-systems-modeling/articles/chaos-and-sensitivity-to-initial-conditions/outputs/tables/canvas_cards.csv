@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+initial-condition,Initial Condition,model setup,96,active,2026-06-15,Starting values and perturbation sizes should be documented.
+sensitive-dependence,Sensitive Dependence,dynamic interpretation,95,review,2026-06-15,Divergence claims should be supported by trajectory comparisons or diagnostics.
+logistic-map,Logistic Map,teaching model,94,active,2026-06-15,Logistic-map examples are illustrative and should not be overgeneralized.
+lyapunov-exponent,Lyapunov Exponent,diagnostic method,93,review,2026-06-15,"Lyapunov estimates depend on burn-in, sample length, and numerical precision."
+forecast-horizon,Forecast Horizon,governance,92,active,2026-06-15,Forecast limits should be communicated as horizon-dependent rather than absolute unknowability.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_r,result_next_state
+logistic-next,Computes one logistic-map update.,The logistic map is an illustrative nonlinear model.,logistic-next,0.2,3.9,0.6240000000000001

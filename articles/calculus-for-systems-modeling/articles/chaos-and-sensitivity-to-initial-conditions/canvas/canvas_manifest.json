@@ -1,0 +1,22 @@
+{
+  "article_slug": "chaos-and-sensitivity-to-initial-conditions",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "chaos-sensitivity-initial-conditions",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "initial-condition", "title": "Initial Condition", "description": "The starting state from which a trajectory evolves."},
+    {"card_id": "sensitive-dependence", "title": "Sensitive Dependence", "description": "Small starting differences amplify over time."},
+    {"card_id": "logistic-map", "title": "Logistic Map", "description": "A simple nonlinear iteration that can exhibit chaos."},
+    {"card_id": "lyapunov-exponent", "title": "Lyapunov Exponent", "description": "A diagnostic for average trajectory divergence."},
+    {"card_id": "chaos-governance", "title": "Chaos Governance", "description": "Initial states, perturbations, precision, burn-in, and forecast horizons require documentation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

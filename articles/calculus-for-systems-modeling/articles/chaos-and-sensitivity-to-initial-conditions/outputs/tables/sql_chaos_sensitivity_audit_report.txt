@@ -1,0 +1,29 @@
+section                  
+-------------------------
+CHAOS ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Forecast horizon       Identifies the time range over which prediction remains usef  Supports responsible communication of prediction limits.      Forecast horizons depend on acceptable error and uncertainty
+                       ul.                                                                                                                          growth.                                                    
+
+Initial condition      Defines the starting state of a trajectory.                   Determines the baseline path used in sensitivity analysis.    Initial-condition uncertainty should be documented and teste
+                                                                                                                                                   d.                                                          
+
+Lyapunov estimate      Measures average divergence of nearby trajectories.           Supports claims about sensitivity to initial conditions.      Lyapunov estimates depend on burn-in sample length and numer
+                                                                                                                                                   ical precision.                                             
+
+Nonlinear update rule  Defines how the system evolves from one state to the next.    Represents feedback self-limitation interaction or amplifica  Chaos claims depend on model form and parameter values.     
+                                                                                     tion.                                                                                                                     
+
+Numerical precision    Defines computational limits of simulation.                   Affects long-run trajectory reproducibility in sensitive sys  Rounding and solver choices can affect chaotic simulations. 
+                                                                                     tems.                                                                                                                     
+
+Perturbation size      Defines the small difference between nearby starting states.  Tests whether small uncertainty grows over time.              Different perturbation sizes may reveal different numerical 
+                                                                                                                                                   behavior.                                                   
+section          
+-----------------
+CHAOS AUDIT CASES
+model         r    x0   perturbation  steps  burn_in  sample_steps  warning                                                     
+------------  ---  ---  ------------  -----  -------  ------------  ------------------------------------------------------------
+logistic_map  3.9  0.2  1.0e-08       100    100      1000          Trajectory divergence depends on parameter value, initial un
+                                                                    certainty, numerical precision, and iteration count.        

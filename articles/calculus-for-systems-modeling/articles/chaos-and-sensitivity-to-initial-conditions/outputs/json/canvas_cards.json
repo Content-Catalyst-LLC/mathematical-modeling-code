@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "initial-condition",
+    "category": "model setup",
+    "governance_note": "Starting values and perturbation sizes should be documented.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Initial Condition"
+  },
+  {
+    "card_id": "sensitive-dependence",
+    "category": "dynamic interpretation",
+    "governance_note": "Divergence claims should be supported by trajectory comparisons or diagnostics.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Sensitive Dependence"
+  },
+  {
+    "card_id": "logistic-map",
+    "category": "teaching model",
+    "governance_note": "Logistic-map examples are illustrative and should not be overgeneralized.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Logistic Map"
+  },
+  {
+    "card_id": "lyapunov-exponent",
+    "category": "diagnostic method",
+    "governance_note": "Lyapunov estimates depend on burn-in, sample length, and numerical precision.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Lyapunov Exponent"
+  },
+  {
+    "card_id": "forecast-horizon",
+    "category": "governance",
+    "governance_note": "Forecast limits should be communicated as horizon-dependent rather than absolute unknowability.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Forecast Horizon"
+  }
+]

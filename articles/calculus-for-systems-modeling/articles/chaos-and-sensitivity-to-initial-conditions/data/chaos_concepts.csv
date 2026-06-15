@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+initial_condition,Initial condition,Defines the starting state of a trajectory,Determines the baseline path used in sensitivity analysis,Initial-condition uncertainty should be documented and tested
+perturbation_size,Perturbation size,Defines the small difference between nearby starting states,Tests whether small uncertainty grows over time,Different perturbation sizes may reveal different numerical behavior
+nonlinear_update_rule,Nonlinear update rule,Defines how the system evolves from one state to the next,Represents feedback self-limitation interaction or amplification,Chaos claims depend on model form and parameter values
+lyapunov_estimate,Lyapunov estimate,Measures average divergence of nearby trajectories,Supports claims about sensitivity to initial conditions,Lyapunov estimates depend on burn-in sample length and numerical precision
+forecast_horizon,Forecast horizon,Identifies the time range over which prediction remains useful,Supports responsible communication of prediction limits,Forecast horizons depend on acceptable error and uncertainty growth
+numerical_precision,Numerical precision,Defines computational limits of simulation,Affects long-run trajectory reproducibility in sensitive systems,Rounding and solver choices can affect chaotic simulations

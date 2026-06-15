@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_initial_uncertainty,input_acceptable_error,input_lyapunov,result_forecast_horizon
+forecast-horizon,Estimates a rough forecast horizon from uncertainty growth.,Forecast horizons depend on acceptable error and the validity of the divergence estimate.,forecast-horizon,1e-08,0.01,0.5,27.631021115928547

@@ -1,0 +1,2 @@
+"model","r","x0","burn_in","sample_steps","lyapunov_estimate","interpretation"
+"logistic_map",3.9,0.2,100,1000,0.477034392247437,"Positive values suggest sensitive dependence on initial conditions."

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x0,input_perturbation,input_r,input_steps,result_records,result_final_difference
+trajectory-divergence,Compares two nearby initial conditions.,"Divergence depends on parameter value, perturbation size, and numerical precision.",trajectory-divergence,0.2,1e-08,3.9,30,31,0.08294777570283562

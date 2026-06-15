@@ -1,0 +1,16 @@
+{
+  "calculator": "trajectory-divergence",
+  "inputs": {
+    "command": "trajectory-divergence",
+    "perturbation": 1e-08,
+    "r": 3.9,
+    "steps": 30,
+    "x0": 0.2
+  },
+  "interpretation": "Compares two nearby initial conditions.",
+  "result": {
+    "final_difference": 0.08294777570283562,
+    "records": 31
+  },
+  "warning": "Divergence depends on parameter value, perturbation size, and numerical precision."
+}

@@ -1,0 +1,25 @@
+{
+  "article": "Chaos and Sensitivity to Initial Conditions",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Chaos should not be used loosely as a synonym for disorder.",
+    "Sensitivity claims require diagnostics rather than visual impression alone.",
+    "Lyapunov estimates depend on burn-in, sample length, and numerical precision.",
+    "Deterministic models can still have limited forecast horizons.",
+    "Initial conditions, perturbation sizes, and solver choices should be documented."
+  ]
+}

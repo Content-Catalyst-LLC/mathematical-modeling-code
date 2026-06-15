@@ -1,0 +1,10 @@
+condition,passed,warning
+initial-condition divergence audit included,True,
+logistic-map example included,True,
+Lyapunov estimate included,True,
+forecast horizon warning included,True,
+numerical precision governance included,True,
+burn-in and sample-step documentation included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

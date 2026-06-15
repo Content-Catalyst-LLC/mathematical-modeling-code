@@ -1,0 +1,2 @@
+model,r,x0,burn_in,sample_steps,lyapunov_estimate,forecast_horizon_for_1e-8_to_1e-2,interpretation
+logistic_map,3.9,0.2,100,1000,0.477034392247437,28.961246363969057,Positive values suggest sensitive dependence on initial conditions.

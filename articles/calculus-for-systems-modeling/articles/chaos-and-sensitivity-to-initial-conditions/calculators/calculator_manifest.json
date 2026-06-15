@@ -1,0 +1,17 @@
+{
+  "article_slug": "chaos-and-sensitivity-to-initial-conditions",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-next", "title": "Logistic Map Next State"},
+    {"id": "trajectory-divergence", "title": "Initial-Condition Divergence"},
+    {"id": "lyapunov-estimate", "title": "Lyapunov Estimate"},
+    {"id": "forecast-horizon", "title": "Forecast Horizon Estimate"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "calculator": "logistic-next",
+  "inputs": {
+    "command": "logistic-next",
+    "r": 3.9,
+    "x": 0.2
+  },
+  "interpretation": "Computes one logistic-map update.",
+  "result": {
+    "next_state": 0.6240000000000001
+  },
+  "warning": "The logistic map is an illustrative nonlinear model."
+}

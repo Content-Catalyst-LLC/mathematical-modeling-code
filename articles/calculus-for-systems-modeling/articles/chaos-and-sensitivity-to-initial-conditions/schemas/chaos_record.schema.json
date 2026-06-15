@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChaosRecord",
+  "type": "object",
+  "required": [
+    "step", "x_reference", "x_perturbed",
+    "absolute_difference", "log_difference", "warning"
+  ],
+  "properties": {
+    "step": {"type": "integer"},
+    "x_reference": {"type": "number"},
+    "x_perturbed": {"type": "number"},
+    "absolute_difference": {"type": "number"},
+    "log_difference": {"type": ["number", "null"]},
+    "warning": {"type": "string"}
+  }
+}

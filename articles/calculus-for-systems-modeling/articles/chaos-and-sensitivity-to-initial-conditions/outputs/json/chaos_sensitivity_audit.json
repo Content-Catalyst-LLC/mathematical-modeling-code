@@ -1,0 +1,810 @@
+[
+  {
+    "absolute_difference": 9.999999994736442e-09,
+    "log_difference": -18.420680744478723,
+    "step": 0,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.20000001,
+    "x_reference": 0.2
+  },
+  {
+    "absolute_difference": 2.3399999493634027e-08,
+    "log_difference": -17.570529836222327,
+    "step": 1,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.6240000233999996,
+    "x_reference": 0.6240000000000001
+  },
+  {
+    "absolute_difference": 2.2632481555540096e-08,
+    "log_difference": -17.603879725533883,
+    "step": 2,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9150335773675182,
+    "x_reference": 0.9150335999999998
+  },
+  {
+    "absolute_difference": 7.326727224921115e-08,
+    "log_difference": -16.429151818221317,
+    "step": 3,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.303213805664329,
+    "x_reference": 0.30321373239705673
+  },
+  {
+    "absolute_difference": 1.1246032483036572e-07,
+    "log_difference": -16.00066534567851,
+    "step": 4,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8239732555036458,
+    "x_reference": 0.8239731430433209
+  },
+  {
+    "absolute_difference": 2.8418622355363965e-07,
+    "log_difference": -15.073636096935326,
+    "step": 5,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.5656611859016409,
+    "x_reference": 0.5656614700878645
+  },
+  {
+    "absolute_difference": 1.4554834981694853e-07,
+    "log_difference": -15.74275750438725,
+    "step": 6,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9581855737973616,
+    "x_reference": 0.9581854282490118
+  },
+  {
+    "absolute_difference": 5.20167519946213e-07,
+    "log_difference": -14.469114923508595,
+    "step": 7,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.15625732185953187,
+    "x_reference": 0.1562578420270518
+  },
+  {
+    "absolute_difference": 1.3946684005450294e-06,
+    "log_difference": -13.482853876649912,
+    "step": 8,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.5141797877767923,
+    "x_reference": 0.5141811824451928
+  },
+  {
+    "absolute_difference": 1.5426118105121844e-07,
+    "log_difference": -15.684618690232226,
+    "step": 9,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.97421584111256,
+    "x_reference": 0.9742156868513789
+  },
+  {
+    "absolute_difference": 5.705940538253129e-07,
+    "log_difference": -14.37658781913734,
+    "step": 10,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.09796541054783832,
+    "x_reference": 0.09796598114189214
+  },
+  {
+    "absolute_difference": 1.7893073904207135e-06,
+    "log_difference": -13.233681945715253,
+    "step": 11,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.344635936647724,
+    "x_reference": 0.34463772595511444
+  },
+  {
+    "absolute_difference": 2.1683412344541964e-06,
+    "log_difference": -13.041548090806362,
+    "step": 12,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8808618304928129,
+    "x_reference": 0.8808639988340473
+  },
+  {
+    "absolute_difference": 6.441557947822751e-06,
+    "log_difference": -11.952740129741517,
+    "step": 13,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.4092826376872892,
+    "x_reference": 0.40927619612934135
+  },
+  {
+    "absolute_difference": 4.558178765989851e-06,
+    "log_difference": -12.298587407640055,
+    "step": 14,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9429044046825951,
+    "x_reference": 0.9428998465038291
+  },
+  {
+    "absolute_difference": 1.5746851101478e-05,
+    "log_difference": -11.058870142746201,
+    "step": 15,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.20995918441974865,
+    "x_reference": 0.20997493127085012
+  },
+  {
+    "absolute_difference": 3.562342332619206e-05,
+    "log_difference": -10.24250717786525,
+    "step": 16,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.6469176686604162,
+    "x_reference": 0.6469532920837424
+  },
+  {
+    "absolute_difference": 4.082788958770234e-05,
+    "log_difference": -10.106145141754533,
+    "step": 17,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8908192746780138,
+    "x_reference": 0.8907784467884261
+  },
+  {
+    "absolute_difference": 0.0001244528433487213,
+    "log_difference": -8.9915836820937,
+    "step": 18,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.37931514870658967,
+    "x_reference": 0.3794396015499384
+  },
+  {
+    "absolute_difference": 0.00011709226337230927,
+    "log_difference": -9.052548358097374,
+    "step": 19,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.918197150006321,
+    "x_reference": 0.9183142422696933
+  },
+  {
+    "absolute_difference": 0.00038200114780745364,
+    "log_difference": -7.870086944630659,
+    "step": 20,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.29293346053370367,
+    "x_reference": 0.2925514593858962
+  },
+  {
+    "absolute_difference": 0.0006175464218594051,
+    "log_difference": -7.389756315187547,
+    "step": 21,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8077814481104656,
+    "x_reference": 0.8071639016886062
+  },
+  {
+    "absolute_difference": 0.001481053471589222,
+    "log_difference": -6.515001639291379,
+    "step": 22,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.6055552627761966,
+    "x_reference": 0.6070363162477859
+  },
+  {
+    "absolute_difference": 0.0012279520349619544,
+    "log_difference": -6.702407509497263,
+    "step": 23,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9315465373509675,
+    "x_reference": 0.9303185853160055
+  },
+  {
+    "absolute_difference": 0.004127483221842393,
+    "log_difference": -5.490087447146783,
+    "step": 24,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.2486935857915211,
+    "x_reference": 0.2528210690133635
+  },
+  {
+    "absolute_difference": 0.008024210604646087,
+    "log_difference": -4.825291981826704,
+    "step": 25,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.728695836092938,
+    "x_reference": 0.7367200466975841
+  },
+  {
+    "absolute_difference": 0.014564920742807796,
+    "log_difference": -4.229139330205332,
+    "step": 26,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7710230367596329,
+    "x_reference": 0.7564581160168251
+  },
+  {
+    "absolute_difference": 0.029962612615704654,
+    "log_difference": -3.507804920673682,
+    "step": 27,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.688531402827788,
+    "x_reference": 0.7184940154434927
+  },
+  {
+    "absolute_difference": 0.04756262523638932,
+    "log_difference": -3.045708010272728,
+    "step": 28,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8363780495763666,
+    "x_reference": 0.7888154243399773
+  },
+  {
+    "absolute_difference": 0.1159697873104657,
+    "log_difference": -2.1544255760199866,
+    "step": 29,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.5337142502764778,
+    "x_reference": 0.6496840375869435
+  },
+  {
+    "absolute_difference": 0.08294777570283562,
+    "log_difference": -2.4895440776197892,
+    "step": 30,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9705670623803505,
+    "x_reference": 0.8876192866775149
+  },
+  {
+    "absolute_difference": 0.2776201302922602,
+    "log_difference": -1.2815015375165744,
+    "step": 31,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.11140989523063652,
+    "x_reference": 0.38903002552289667
+  },
+  {
+    "absolute_difference": 0.5408829437279421,
+    "log_difference": -0.6145523937357087,
+    "step": 32,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.38609114885380696,
+    "x_reference": 0.9269740925817491
+  },
+  {
+    "absolute_difference": 0.6603934325295937,
+    "log_difference": -0.4149195116712674,
+    "step": 33,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9243966171591622,
+    "x_reference": 0.2640031846295685
+  },
+  {
+    "absolute_difference": 0.48523016798550445,
+    "log_difference": -0.7231319274528952,
+    "step": 34,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.272561294241052,
+    "x_reference": 0.7577914622265565
+  },
+  {
+    "absolute_difference": 0.05743948516644304,
+    "log_difference": -2.857023317262088,
+    "step": 35,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7732593769785093,
+    "x_reference": 0.7158198918120663
+  },
+  {
+    "absolute_difference": 0.1095605994791532,
+    "log_difference": -2.2112774629049565,
+    "step": 36,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.683784320283936,
+    "x_reference": 0.7933449197630892
+  },
+  {
+    "absolute_difference": 0.20387080571748095,
+    "log_difference": -1.5902687910669002,
+    "step": 37,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8432709621093094,
+    "x_reference": 0.6394001563918285
+  },
+  {
+    "absolute_difference": 0.38376994431900024,
+    "log_difference": -0.9577120092644605,
+    "step": 38,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.5154436816329414,
+    "x_reference": 0.8992136259519417
+  },
+  {
+    "absolute_difference": 0.6206187461889368,
+    "log_difference": -0.47703832086760983,
+    "step": 39,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9740698215207193,
+    "x_reference": 0.35345107533178255
+  },
+  {
+    "absolute_difference": 0.7927358725855755,
+    "log_difference": -0.23226518649121947,
+    "step": 40,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.09850543686092204,
+    "x_reference": 0.8912413094464976
+  },
+  {
+    "absolute_difference": 0.03169967585003303,
+    "log_difference": -3.451448823702192,
+    "step": 41,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.34632825150206764,
+    "x_reference": 0.37802792735210067
+  },
+  {
+    "absolute_difference": 0.034077497143510604,
+    "log_difference": -3.3791180203426054,
+    "step": 42,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8829014754829941,
+    "x_reference": 0.9169789726265047
+  },
+  {
+    "absolute_difference": 0.10630590237384557,
+    "log_difference": -2.24143446955159,
+    "step": 43,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.40320719428448953,
+    "x_reference": 0.29690129191064396
+  },
+  {
+    "absolute_difference": 0.12433292815821129,
+    "log_difference": -2.0847924067928836,
+    "step": 44,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9384614957707059,
+    "x_reference": 0.8141285676124946
+  },
+  {
+    "absolute_difference": 0.36492973250450794,
+    "log_difference": -1.0080504576190634,
+    "step": 45,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.22523091523340938,
+    "x_reference": 0.5901606477379173
+  },
+  {
+    "absolute_difference": 0.2627395194175012,
+    "log_difference": -1.336592158060583,
+    "step": 46,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.6805576052204676,
+    "x_reference": 0.9432971246379688
+  },
+  {
+    "absolute_difference": 0.6392540384464284,
+    "log_difference": -0.4474533473549599,
+    "step": 47,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8478559096684941,
+    "x_reference": 0.20860187122206578
+  },
+  {
+    "absolute_difference": 0.14075437130045454,
+    "log_difference": -1.960738955247767,
+    "step": 48,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.5030854378239474,
+    "x_reference": 0.643839809124402
+  },
+  {
+    "absolute_difference": 0.08065344597327806,
+    "log_difference": -2.5175937478187156,
+    "step": 49,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9749628722863948,
+    "x_reference": 0.8943094263131167
+  },
+  {
+    "absolute_difference": 0.2734282448475355,
+    "log_difference": -1.2967160504177675,
+    "step": 50,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.09520005280288558,
+    "x_reference": 0.36862829765042104
+  },
+  {
+    "absolute_difference": 0.571757444982985,
+    "log_difference": -0.5590404247683355,
+    "step": 51,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.3359343107219322,
+    "x_reference": 0.9076917557049171
+  },
+  {
+    "absolute_difference": 0.5432505673587343,
+    "log_difference": -0.6101846154674332,
+    "step": 52,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8700215534466789,
+    "x_reference": 0.3267709860879445
+  },
+  {
+    "absolute_difference": 0.4169398691411862,
+    "log_difference": -0.8748132662831594,
+    "step": 53,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.44102779494113564,
+    "x_reference": 0.8579676640823218
+  },
+  {
+    "absolute_difference": 0.48618619748029207,
+    "log_difference": -0.721163606066853,
+    "step": 54,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9614368882189315,
+    "x_reference": 0.4752506907386394
+  },
+  {
+    "absolute_difference": 0.8280147466509992,
+    "log_difference": -0.18872431479049806,
+    "step": 55,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.14459639294423443,
+    "x_reference": 0.9726111395952336
+  },
+  {
+    "absolute_difference": 0.37849330490889976,
+    "log_difference": -0.971556894744829,
+    "step": 56,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.4823842767578288,
+    "x_reference": 0.10389097184892901
+  },
+  {
+    "absolute_difference": 0.6107089890620205,
+    "log_difference": -0.49313471958510147,
+    "step": 57,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9737897765491553,
+    "x_reference": 0.3630807874871348
+  },
+  {
+    "absolute_difference": 0.8023465382686861,
+    "log_difference": -0.22021467183640278,
+    "step": 58,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.0995406657862557,
+    "x_reference": 0.9018872040549417
+  },
+  {
+    "absolute_difference": 0.004468021054313764,
+    "log_difference": -5.410809685540591,
+    "step": 59,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.34956605440023014,
+    "x_reference": 0.3450980333459164
+  },
+  {
+    "absolute_difference": 0.005320564409894479,
+    "log_difference": -5.236175889170523,
+    "step": 60,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8867415492440134,
+    "x_reference": 0.8814209848341189
+  },
+  {
+    "absolute_difference": 0.015939527135338805,
+    "log_difference": -4.13895327134624,
+    "step": 61,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.39168079894452745,
+    "x_reference": 0.40762032607986626
+  },
+  {
+    "absolute_difference": 0.012476276138451814,
+    "log_difference": -4.38392634690892,
+    "step": 62,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9292411076625461,
+    "x_reference": 0.9417173838009979
+  },
+  {
+    "absolute_difference": 0.04237864271405156,
+    "log_difference": -3.1611107532227654,
+    "step": 63,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.25643307882125904,
+    "x_reference": 0.21405443610720748
+  },
+  {
+    "absolute_difference": 0.08751607962815677,
+    "log_difference": -2.4359327353227536,
+    "step": 64,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7436331041392852,
+    "x_reference": 0.6561170245111284
+  },
+  {
+    "absolute_difference": 0.13643979995230848,
+    "log_difference": -1.991871787628102,
+    "step": 65,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7435073512130792,
+    "x_reference": 0.8799471511653877
+  },
+  {
+    "absolute_difference": 0.3317496295771478,
+    "log_difference": -1.1033747223427184,
+    "step": 66,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7437462626302414,
+    "x_reference": 0.41199663305309353
+  },
+  {
+    "absolute_difference": 0.201503827013653,
+    "log_difference": -1.6019469051521689,
+    "step": 67,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7432922618697787,
+    "x_reference": 0.9447960888834317
+  },
+  {
+    "absolute_difference": 0.5407445004011102,
+    "log_difference": -0.6148083845176352,
+    "step": 68,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7441546137257193,
+    "x_reference": 0.2034101133246091
+  },
+  {
+    "absolute_difference": 0.11058093335080754,
+    "log_difference": -2.2020075976050992,
+    "step": 69,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7425152459261347,
+    "x_reference": 0.6319343125753272
+  },
+  {
+    "absolute_difference": 0.1614872285203689,
+    "log_difference": -1.8233292198156759,
+    "step": 70,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7456267864242069,
+    "x_reference": 0.9071140149445758
+  },
+  {
+    "absolute_difference": 0.4110962815253163,
+    "log_difference": -0.8889278303020964,
+    "step": 71,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7397031789845765,
+    "x_reference": 0.3286068974592602
+  },
+  {
+    "absolute_difference": 0.10951987182540834,
+    "log_difference": -2.2116492683330855,
+    "step": 72,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7509153053402835,
+    "x_reference": 0.8604351771656918
+  },
+  {
+    "absolute_difference": 0.2611246032893783,
+    "log_difference": -1.3427575783430254,
+    "step": 73,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.72946188722937,
+    "x_reference": 0.4683372839399917
+  },
+  {
+    "absolute_difference": 0.2014358974000129,
+    "log_difference": -1.6022840752556253,
+    "step": 74,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7696542450056298,
+    "x_reference": 0.9710901424056427
+  },
+  {
+    "absolute_difference": 0.5819287906466287,
+    "log_difference": -0.5414071915772628,
+    "step": 75,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.6914176937867306,
+    "x_reference": 0.10948890314010189
+  },
+  {
+    "absolute_difference": 0.4518469147767516,
+    "log_difference": -0.7944118406385573,
+    "step": 76,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.8321011393709408,
+    "x_reference": 0.38025422459418917
+  },
+  {
+    "absolute_difference": 0.37421325257135885,
+    "log_difference": -0.9829294500253932,
+    "step": 77,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.5448644495912396,
+    "x_reference": 0.9190777021625984
+  },
+  {
+    "absolute_difference": 0.6770918762897589,
+    "log_difference": -0.38994830436230643,
+    "step": 78,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.967150006535213,
+    "x_reference": 0.2900581302454541
+  },
+  {
+    "absolute_difference": 0.6791988057262779,
+    "log_difference": -0.3868414023400821,
+    "step": 79,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.12390639843718679,
+    "x_reference": 0.8031052041634646
+  },
+  {
+    "absolute_difference": 0.19333716614749874,
+    "log_difference": -1.643319639405437,
+    "step": 80,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.42335905116769645,
+    "x_reference": 0.6166962173151952
+  },
+  {
+    "absolute_difference": 0.03020227118126184,
+    "log_difference": -3.4998381527514986,
+    "step": 81,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9520920433521284,
+    "x_reference": 0.9218897721708665
+  },
+  {
+    "absolute_difference": 0.10294531961967651,
+    "log_difference": -2.273557309196711,
+    "step": 82,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.17788985891701936,
+    "x_reference": 0.2808351785366959
+  },
+  {
+    "absolute_difference": 0.21731472368367744,
+    "log_difference": -1.5264086366121568,
+    "step": 83,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.570355722344859,
+    "x_reference": 0.7876704460285364
+  },
+  {
+    "absolute_difference": 0.30343699562120174,
+    "log_difference": -1.1925812827143054,
+    "step": 84,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9556952820999991,
+    "x_reference": 0.6522582864787974
+  },
+  {
+    "absolute_difference": 0.7194548568742791,
+    "log_difference": -0.3292614969799031,
+    "step": 85,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.16513305850002874,
+    "x_reference": 0.8845879153743078
+  },
+  {
+    "absolute_difference": 0.1395107849554012,
+    "log_difference": -1.969613369200845,
+    "step": 86,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.5376701128127738,
+    "x_reference": 0.39815932785737257
+  },
+  {
+    "absolute_difference": 0.03491469190222651,
+    "log_difference": -3.3548475669468583,
+    "step": 87,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9694657541426243,
+    "x_reference": 0.9345510622403977
+  },
+  {
+    "absolute_difference": 0.12309752761193507,
+    "log_difference": -2.094778330380628,
+    "step": 88,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.11544743218045858,
+    "x_reference": 0.23854495979239365
+  },
+  {
+    "absolute_difference": 0.3101355635299036,
+    "log_difference": -1.1707457753821047,
+    "step": 89,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.39826535807524827,
+    "x_reference": 0.7084009216051519
+  },
+  {
+    "absolute_difference": 0.12901592635744497,
+    "log_difference": -2.047819422105808,
+    "step": 90,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.934635244266526,
+    "x_reference": 0.805619317909081
+  },
+  {
+    "absolute_difference": 0.372468049509702,
+    "log_difference": -0.9876040179695647,
+    "step": 91,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.2382595973213714,
+    "x_reference": 0.6107276468310734
+  },
+  {
+    "absolute_difference": 0.21936496382433257,
+    "log_difference": -1.5170184347574331,
+    "step": 92,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7078186502619545,
+    "x_reference": 0.927183614086287
+  },
+  {
+    "absolute_difference": 0.5432592701137731,
+    "log_difference": -0.6101685958148929,
+    "step": 93,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.806564493552868,
+    "x_reference": 0.26330522343909496
+  },
+  {
+    "absolute_difference": 0.1480337486788278,
+    "log_difference": -1.9103149995995774,
+    "step": 94,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.6084710240414269,
+    "x_reference": 0.7565047727202547
+  },
+  {
+    "absolute_difference": 0.21071206794952746,
+    "log_difference": -1.5572626843042117,
+    "step": 95,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.9291127440792762,
+    "x_reference": 0.7184006761297488
+  },
+  {
+    "absolute_difference": 0.5321116780095285,
+    "log_difference": -0.6309018906002952,
+    "step": 96,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.2568627861881389,
+    "x_reference": 0.7889744641976674
+  },
+  {
+    "absolute_difference": 0.0951230912507236,
+    "log_difference": -2.3525835286970214,
+    "step": 97,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7444487515132407,
+    "x_reference": 0.6493256602625171
+  },
+  {
+    "absolute_difference": 0.14608245328382707,
+    "log_difference": -1.923584068164867,
+    "step": 98,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7419547507461097,
+    "x_reference": 0.8880372040299368
+  },
+  {
+    "absolute_difference": 0.35892000418075887,
+    "log_difference": -1.0246557449041165,
+    "step": 99,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7466858045064128,
+    "x_reference": 0.3877658003256539
+  },
+  {
+    "absolute_difference": 0.18820374521689687,
+    "log_difference": -1.6702301518328126,
+    "step": 100,
+    "warning": "Trajectory divergence depends on parameter value, initial uncertainty, numerical precision, and iteration count.",
+    "x_perturbed": 0.7376698440345932,
+    "x_reference": 0.9258735892514901
+  }
+]

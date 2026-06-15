@@ -1,0 +1,14 @@
+{
+  "calculator": "forecast-horizon",
+  "inputs": {
+    "acceptable_error": 0.01,
+    "command": "forecast-horizon",
+    "initial_uncertainty": 1e-08,
+    "lyapunov": 0.5
+  },
+  "interpretation": "Estimates a rough forecast horizon from uncertainty growth.",
+  "result": {
+    "forecast_horizon": 27.631021115928547
+  },
+  "warning": "Forecast horizons depend on acceptable error and the validity of the divergence estimate."
+}
