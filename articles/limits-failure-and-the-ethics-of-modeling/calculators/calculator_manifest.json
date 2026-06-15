@@ -1,0 +1,16 @@
+{
+  "article_slug": "limits-failure-and-the-ethics-of-modeling",
+  "calculator_layer": "self-contained",
+  "languages": ["python", "r"],
+  "requires_third_party_packages": false,
+  "commands": [
+    "derivative",
+    "integral",
+    "euler",
+    "rk4",
+    "logistic",
+    "finite-difference",
+    "sensitivity"
+  ],
+  "smoke_test": "bash calculators/run_calculator_smoke_tests.sh"
+}

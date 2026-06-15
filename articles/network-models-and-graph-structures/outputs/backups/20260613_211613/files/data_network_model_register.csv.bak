@@ -1,7 +1,0 @@
-key,component_type,expression_or_structure,interpretation,review_question,status
-node_definition,node,facility_or_service_asset,Nodes represent infrastructure assets,Are critical assets included at the right scale?,review
-directed_dependency_edge,edge,source_to_target,Directed edge indicates dependency or service flow,Does edge direction match operational reality?,review
-edge_weight,edge_weight,w_ij,Weight represents dependency strength or criticality,How was weight estimated and validated?,review
-centrality_diagnostic,diagnostic,"in_degree out_degree reachability",Diagnostics identify structurally important nodes,Does structural centrality match practical importance?,active
-edge_evidence_quality,validation_diagnostic,evidence_quality,Each edge receives an evidence-quality flag,Are low-evidence edges reviewed before decision use?,review
-boundary_definition,network_boundary,V_and_E_scope,The model states included nodes and edges,What relationships are excluded?,review

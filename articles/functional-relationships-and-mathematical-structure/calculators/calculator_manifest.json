@@ -1,0 +1,16 @@
+{
+  "article_slug": "functional-relationships-and-mathematical-structure",
+  "calculator_layer": "self-contained",
+  "languages": ["python", "r"],
+  "requires_third_party_packages": false,
+  "commands": [
+    "derivative",
+    "integral",
+    "euler",
+    "rk4",
+    "logistic",
+    "finite-difference",
+    "sensitivity"
+  ],
+  "smoke_test": "bash calculators/run_calculator_smoke_tests.sh"
+}
