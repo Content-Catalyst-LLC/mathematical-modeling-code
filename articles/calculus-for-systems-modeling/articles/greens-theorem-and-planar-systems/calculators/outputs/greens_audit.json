@@ -1,0 +1,18 @@
+{
+  "calculator": "greens-audit",
+  "inputs": {
+    "command": "greens-audit",
+    "segments": 32,
+    "step": 0.25
+  },
+  "interpretation": "Compares Green's theorem boundary and interior quantities.",
+  "result": {
+    "boundary_circulation": 8.0,
+    "boundary_flux": 8.0,
+    "circulation_gap": 0.0,
+    "flux_gap": 0.0,
+    "interior_curl_integral": 8.0,
+    "interior_divergence_integral": 8.0
+  },
+  "warning": ""
+}

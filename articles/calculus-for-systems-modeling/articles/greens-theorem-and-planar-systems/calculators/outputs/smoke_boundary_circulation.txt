@@ -1,0 +1,12 @@
+{
+  "calculator": "boundary-circulation",
+  "inputs": {
+    "command": "boundary-circulation",
+    "segments": 32
+  },
+  "interpretation": "Approximates boundary circulation around the square.",
+  "result": {
+    "boundary_circulation": 8.0
+  },
+  "warning": ""
+}

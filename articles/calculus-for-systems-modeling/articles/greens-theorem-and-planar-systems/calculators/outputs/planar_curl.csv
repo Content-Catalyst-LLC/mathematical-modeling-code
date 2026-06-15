@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_planar_curl
+planar-curl,"Computes planar curl for F=<-y,x>.",,planar-curl,1.0,1.0,2.0

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+closed-boundary,Closed Boundary,geometry,96,active,2026-06-15,Curve must be closed and matched to the region.
+circulation-form,Circulation Form,theorem,96,active,2026-06-15,Boundary circulation should match accumulated planar curl.
+flux-form,Flux Form,theorem,95,active,2026-06-15,Boundary flux should match accumulated planar divergence.
+orientation,Orientation,sign convention,94,review,2026-06-15,Positive orientation and outward normal determine signs.
+resolution,Resolution Review,numerical method,92,review,2026-06-15,Boundary and interior estimates should be checked under refinement.

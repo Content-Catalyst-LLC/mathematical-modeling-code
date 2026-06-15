@@ -1,0 +1,13 @@
+{
+  "calculator": "planar-curl",
+  "inputs": {
+    "command": "planar-curl",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes planar curl for F=<-y,x>.",
+  "result": {
+    "planar_curl": 2.0
+  },
+  "warning": ""
+}

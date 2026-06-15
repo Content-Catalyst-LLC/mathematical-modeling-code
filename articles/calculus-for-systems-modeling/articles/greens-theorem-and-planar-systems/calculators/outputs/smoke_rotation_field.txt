@@ -1,0 +1,14 @@
+{
+  "calculator": "rotation-field",
+  "inputs": {
+    "command": "rotation-field",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Evaluates circulation-form field F=<-y,x>.",
+  "result": {
+    "P": -1.0,
+    "Q": 1.0
+  },
+  "warning": ""
+}

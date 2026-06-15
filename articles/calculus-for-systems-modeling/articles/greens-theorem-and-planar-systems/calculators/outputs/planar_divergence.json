@@ -1,0 +1,13 @@
+{
+  "calculator": "planar-divergence",
+  "inputs": {
+    "command": "planar-divergence",
+    "x": 1.0,
+    "y": 1.0
+  },
+  "interpretation": "Computes planar divergence for G=<x,y>.",
+  "result": {
+    "planar_divergence": 2.0
+  },
+  "warning": ""
+}

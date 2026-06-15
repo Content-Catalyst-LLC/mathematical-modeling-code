@@ -1,0 +1,10 @@
+condition,passed,warning
+vector field definition documented,True,
+closed boundary and region match included,True,
+circulation and flux forms distinguished,True,
+orientation and sign convention included,True,
+boundary and interior estimates compared,True,
+resolution warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

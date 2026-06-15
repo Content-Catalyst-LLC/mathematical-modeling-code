@@ -1,0 +1,4 @@
+scenario,boundary_segments_per_side,interior_grid_step,boundary_circulation,interior_curl_integral,boundary_flux,interior_divergence_integral,circulation_gap,flux_gap,field_description,region_description,warning
+coarse_audit,8,0.500000000000,8.000000000000,8.000000000000,8.000000000000,8.000000000000,0.000000000000,0.000000000000,circulation F=<-y,x>; flux G=<x,y>,square [-1,1]x[-1,1],Coarse boundary or interior sampling.
+medium_audit,32,0.250000000000,8.000000000000,8.000000000000,8.000000000000,8.000000000000,0.000000000000,0.000000000000,circulation F=<-y,x>; flux G=<x,y>,square [-1,1]x[-1,1],Synthetic Greens theorem audit.
+fine_audit,128,0.125000000000,8.000000000000,8.000000000000,8.000000000000,8.000000000000,0.000000000000,0.000000000000,circulation F=<-y,x>; flux G=<x,y>,square [-1,1]x[-1,1],Synthetic Greens theorem audit.

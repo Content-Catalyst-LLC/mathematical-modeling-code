@@ -1,0 +1,12 @@
+{
+  "calculator": "interior-curl",
+  "inputs": {
+    "command": "interior-curl",
+    "step": 0.25
+  },
+  "interpretation": "Approximates interior curl integral over the square.",
+  "result": {
+    "interior_curl_integral": 8.0
+  },
+  "warning": ""
+}

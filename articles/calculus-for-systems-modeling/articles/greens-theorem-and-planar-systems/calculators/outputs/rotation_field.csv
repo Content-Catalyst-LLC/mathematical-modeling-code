@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_P,result_Q
+rotation-field,"Evaluates circulation-form field F=<-y,x>.",,rotation-field,1.0,1.0,-1.0,1.0

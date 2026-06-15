@@ -1,0 +1,4 @@
+scenario boundary_segments_per_side interior_grid_step boundary_circulation interior_curl_integral boundary_flux interior_divergence_integral circulation_gap flux_gap field_description region_description warning
+coarse_audit        8      0.500000      8.000000      8.000000      8.000000      8.000000      0.000000      0.000000 field square coarse_audit
+medium_audit       32      0.250000      8.000000      8.000000      8.000000      8.000000      0.000000      0.000000 field square synthetic_audit
+fine_audit      128      0.125000      8.000000      8.000000      8.000000      8.000000      0.000000      0.000000 field square synthetic_audit

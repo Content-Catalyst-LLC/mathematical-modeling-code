@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+vector_field_definition,Vector field definition,Defines P and Q in the planar vector field,Determines what movement force flow or tendency means,Green's theorem is not interpretable without a meaningful vector field
+closed_boundary,Closed boundary,Defines the curve C that encloses region R,Represents a system boundary threshold district patch or region edge,The boundary must match the region used in the area integral
+positive_orientation,Positive orientation,Defines the sign convention for circulation,Determines whether boundary movement is counted positive or negative,Reversing orientation reverses circulation sign
+circulation_form,Circulation form,Connects boundary circulation to interior curl,Supports loop movement rotation and planar circulation interpretation,Do not confuse circulation with net boundary crossing
+flux_form,Flux form,Connects boundary flux to interior divergence,Supports export import source sink and boundary-crossing interpretation,Do not confuse flux with loop movement
+sampling_resolution,Sampling resolution,Defines boundary segments and interior grid cells,Shapes numerical comparison between boundary and interior estimates,Coarse sampling can make theorem-side comparisons misleading
+boundary_region_match,Boundary-region match,Links the curve to the area it encloses,Ensures the theorem compares the same system boundary and interior,Mismatched geometry invalidates interpretation

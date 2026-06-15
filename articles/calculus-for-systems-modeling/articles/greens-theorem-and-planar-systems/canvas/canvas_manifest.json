@@ -1,0 +1,22 @@
+{
+  "article_slug": "greens-theorem-and-planar-systems",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "greens-theorem-planar-systems",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "closed-boundary", "title": "Closed Boundary", "description": "The boundary curve must enclose the region being integrated."},
+    {"card_id": "circulation-form", "title": "Circulation Form", "description": "Boundary circulation equals accumulated planar curl."},
+    {"card_id": "flux-form", "title": "Flux Form", "description": "Boundary flux equals accumulated planar divergence."},
+    {"card_id": "orientation", "title": "Orientation", "description": "Positive orientation and outward normal determine sign."},
+    {"card_id": "theorem-audit", "title": "Theorem Audit", "description": "Boundary and area calculations should agree under valid assumptions."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "calculator": "boundary-flux",
+  "inputs": {
+    "command": "boundary-flux",
+    "segments": 32
+  },
+  "interpretation": "Approximates outward boundary flux around the square.",
+  "result": {
+    "boundary_flux": 8.0
+  },
+  "warning": ""
+}

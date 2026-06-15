@@ -1,0 +1,35 @@
+section                           
+----------------------------------
+GREENS THEOREM ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary-region match    Links the curve to the area it encloses.                      Ensures the theorem compares the same system boundary and in  Mismatched geometry invalidates interpretation.             
+                                                                                       terior.                                                                                                                   
+
+Closed boundary          Defines the curve C that encloses region R.                   Represents the system boundary threshold district patch or r  The boundary must match the region used in the area integral
+                                                                                       egion edge.                                                   .                                                           
+
+Curl or divergence form  Specifies whether circulation form or flux form is being use  Separates loop movement from boundary crossing.               Flux and circulation forms answer different modeling questio
+                         d.                                                                                                                          ns.                                                         
+
+Positive orientation     Defines the sign convention for circulation.                  Determines whether boundary movement is counted as positive   Reversing orientation reverses circulation sign.            
+                                                                                       or negative.                                                                                                              
+
+Sampling resolution      Defines boundary segments and interior grid cells.            Shapes numerical comparison between boundary and interior es  Coarse sampling can make theorem-side comparisons misleading
+                                                                                       timates.                                                      .                                                           
+
+Vector field definition  Defines P and Q in the planar vector field.                   Determines what flow movement force or tendency means.        Green's theorem is not interpretable without a meaningful ve
+                                                                                                                                                     ctor field.                                                 
+section                   
+--------------------------
+GREENS THEOREM AUDIT CASES
+scenario      boundary_segments_per_side  interior_grid_step  boundary_circulation  interior_curl_integral  boundary_flux  interior_divergence_integral  circulation_gap  flux_gap  warning                                                     
+------------  --------------------------  ------------------  --------------------  ----------------------  -------------  ----------------------------  ---------------  --------  ------------------------------------------------------------
+coarse_audit  8                           0.5                 8.0                   8.0                     8.0            8.0                           0.0              0.0       Coarse boundary or interior sampling; refine before interpre
+                                                                                                                                                                                    ting the theorem comparison.                                
+
+medium_audit  32                          0.25                8.0                   8.0                     8.0            8.0                           0.0              0.0       Synthetic Green's theorem audit; document field region orien
+                                                                                                                                                                                    tation units and numerical method.                          
+
+fine_audit    128                         0.125               8.0                   8.0                     8.0            8.0                           0.0              0.0       Synthetic Green's theorem audit; document field region orien
+                                                                                                                                                                                    tation units and numerical method.                          

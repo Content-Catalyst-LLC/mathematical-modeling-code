@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_segments,result_boundary_flux
+boundary-flux,Approximates outward boundary flux around the square.,,boundary-flux,32,8.0

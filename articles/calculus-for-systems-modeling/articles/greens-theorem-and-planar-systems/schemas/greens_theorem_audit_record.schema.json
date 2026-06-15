@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GreensTheoremAuditRecord",
+  "type": "object",
+  "required": [
+    "scenario", "boundary_segments_per_side", "interior_grid_step",
+    "boundary_circulation", "interior_curl_integral",
+    "boundary_flux", "interior_divergence_integral",
+    "circulation_gap", "flux_gap", "field_description",
+    "region_description", "warning"
+  ],
+  "properties": {
+    "scenario": {"type": "string"},
+    "boundary_segments_per_side": {"type": "integer"},
+    "interior_grid_step": {"type": "number"},
+    "boundary_circulation": {"type": "number"},
+    "interior_curl_integral": {"type": "number"},
+    "boundary_flux": {"type": "number"},
+    "interior_divergence_integral": {"type": "number"},
+    "circulation_gap": {"type": "number"},
+    "flux_gap": {"type": "number"},
+    "field_description": {"type": "string"},
+    "region_description": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

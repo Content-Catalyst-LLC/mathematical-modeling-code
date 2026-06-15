@@ -1,0 +1,44 @@
+[
+  {
+    "boundary_circulation": 8.0,
+    "boundary_flux": 8.0,
+    "boundary_segments_per_side": 8,
+    "circulation_gap": 0.0,
+    "field_description": "circulation field F=<-y,x>; flux field G=<x,y>; planar curl and divergence equal 2",
+    "flux_gap": 0.0,
+    "interior_curl_integral": 8.0,
+    "interior_divergence_integral": 8.0,
+    "interior_grid_step": 0.5,
+    "region_description": "positively oriented square [-1,1] x [-1,1]",
+    "scenario": "coarse_audit",
+    "warning": "Coarse boundary or interior sampling; refine before interpreting the theorem comparison."
+  },
+  {
+    "boundary_circulation": 8.0,
+    "boundary_flux": 8.0,
+    "boundary_segments_per_side": 32,
+    "circulation_gap": 0.0,
+    "field_description": "circulation field F=<-y,x>; flux field G=<x,y>; planar curl and divergence equal 2",
+    "flux_gap": 0.0,
+    "interior_curl_integral": 8.0,
+    "interior_divergence_integral": 8.0,
+    "interior_grid_step": 0.25,
+    "region_description": "positively oriented square [-1,1] x [-1,1]",
+    "scenario": "medium_audit",
+    "warning": "Synthetic Green's theorem audit; document field, region, orientation, units, and numerical method."
+  },
+  {
+    "boundary_circulation": 8.0,
+    "boundary_flux": 8.0,
+    "boundary_segments_per_side": 128,
+    "circulation_gap": 0.0,
+    "field_description": "circulation field F=<-y,x>; flux field G=<x,y>; planar curl and divergence equal 2",
+    "flux_gap": 0.0,
+    "interior_curl_integral": 8.0,
+    "interior_divergence_integral": 8.0,
+    "interior_grid_step": 0.125,
+    "region_description": "positively oriented square [-1,1] x [-1,1]",
+    "scenario": "fine_audit",
+    "warning": "Synthetic Green's theorem audit; document field, region, orientation, units, and numerical method."
+  }
+]

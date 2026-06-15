@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_interior_curl_integral
+interior-curl,Approximates interior curl integral over the square.,,interior-curl,0.25,8.0

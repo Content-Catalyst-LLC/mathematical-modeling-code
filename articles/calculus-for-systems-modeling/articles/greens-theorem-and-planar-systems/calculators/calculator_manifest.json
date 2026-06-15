@@ -1,0 +1,22 @@
+{
+  "article_slug": "greens-theorem-and-planar-systems",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "rotation-field", "title": "Circulation Field Evaluator"},
+    {"id": "expansion-field", "title": "Flux Field Evaluator"},
+    {"id": "planar-curl", "title": "Planar Curl"},
+    {"id": "planar-divergence", "title": "Planar Divergence"},
+    {"id": "boundary-circulation", "title": "Boundary Circulation"},
+    {"id": "interior-curl", "title": "Interior Curl Integral"},
+    {"id": "boundary-flux", "title": "Boundary Flux"},
+    {"id": "interior-divergence", "title": "Interior Divergence Integral"},
+    {"id": "greens-audit", "title": "Green's Theorem Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

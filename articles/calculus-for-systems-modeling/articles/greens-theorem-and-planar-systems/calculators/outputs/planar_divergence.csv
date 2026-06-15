@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,result_planar_divergence
+planar-divergence,"Computes planar divergence for G=<x,y>.",,planar-divergence,1.0,1.0,2.0

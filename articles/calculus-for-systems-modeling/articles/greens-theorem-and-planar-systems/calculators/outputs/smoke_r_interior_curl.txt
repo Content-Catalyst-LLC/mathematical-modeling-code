@@ -1,0 +1,2 @@
+     calculator step interior_curl_integral
+1 interior-curl 0.25                      8

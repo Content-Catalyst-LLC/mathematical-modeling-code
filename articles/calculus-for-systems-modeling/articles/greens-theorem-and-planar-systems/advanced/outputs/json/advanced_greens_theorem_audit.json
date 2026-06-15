@@ -1,0 +1,25 @@
+{
+  "article": "Green's Theorem and Planar Systems",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Boundary curve must match the enclosed region.",
+    "Circulation form and flux form answer different modeling questions.",
+    "Orientation and outward-normal conventions determine signs.",
+    "Boundary and interior estimates should be checked under refinement.",
+    "Field meaning and units are required for interpretation."
+  ]
+}

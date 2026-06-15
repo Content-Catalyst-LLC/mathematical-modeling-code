@@ -1,0 +1,12 @@
+{
+  "calculator": "interior-divergence",
+  "inputs": {
+    "command": "interior-divergence",
+    "step": 0.25
+  },
+  "interpretation": "Approximates interior divergence integral over the square.",
+  "result": {
+    "interior_divergence_integral": 8.0
+  },
+  "warning": ""
+}

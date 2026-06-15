@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_segments,input_step,result_boundary_circulation,result_interior_curl_integral,result_boundary_flux,result_interior_divergence_integral,result_circulation_gap,result_flux_gap
+greens-audit,Compares Green's theorem boundary and interior quantities.,,greens-audit,32,0.25,8.0,8.0,8.0,8.0,0.0,0.0

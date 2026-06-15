@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "closed-boundary",
+    "category": "geometry",
+    "governance_note": "Curve must be closed and matched to the region.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Closed Boundary"
+  },
+  {
+    "card_id": "circulation-form",
+    "category": "theorem",
+    "governance_note": "Boundary circulation should match accumulated planar curl.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Circulation Form"
+  },
+  {
+    "card_id": "flux-form",
+    "category": "theorem",
+    "governance_note": "Boundary flux should match accumulated planar divergence.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Flux Form"
+  },
+  {
+    "card_id": "orientation",
+    "category": "sign convention",
+    "governance_note": "Positive orientation and outward normal determine signs.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Orientation"
+  },
+  {
+    "card_id": "resolution",
+    "category": "numerical method",
+    "governance_note": "Boundary and interior estimates should be checked under refinement.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Resolution Review"
+  }
+]

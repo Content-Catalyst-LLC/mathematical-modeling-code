@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step,result_interior_divergence_integral
+interior-divergence,Approximates interior divergence integral over the square.,,interior-divergence,0.25,8.0
