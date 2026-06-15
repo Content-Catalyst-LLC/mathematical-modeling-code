@@ -1,0 +1,46 @@
+{
+  "advanced_standard": true,
+  "article": "The Chain Rule and Composite Change in Interacting Systems",
+  "condition_failures": [
+    {
+      "condition": "domain compatibility",
+      "passed": false,
+      "value": "1.5 in [0.0, 1.0]",
+      "warning": "inner value outside outer function domain"
+    },
+    {
+      "condition": "differentiable links",
+      "passed": false,
+      "value": "[True, False, True]",
+      "warning": "at least one pathway link is not differentiable"
+    },
+    {
+      "condition": "local validity",
+      "passed": false,
+      "value": "5.0",
+      "warning": "local derivative may be overextended"
+    },
+    {
+      "condition": "automatic differentiation implementation",
+      "passed": false,
+      "value": "True",
+      "warning": "implementation contains branches or conditionals requiring review"
+    }
+  ],
+  "topics": [
+    "composite_function",
+    "derivative_as_local_linear_map",
+    "domain_compatibility",
+    "differentiable_links",
+    "jacobian_composition",
+    "feedback_direct_indirect_terms",
+    "automatic_differentiation_warning"
+  ],
+  "warnings": [
+    "A chain-rule derivative is local, not global.",
+    "Every pathway link must be differentiable.",
+    "The image of each inner function must lie in the next domain.",
+    "Automatic differentiation differentiates implemented code.",
+    "Pathway decomposition is not automatic causal proof."
+  ]
+}

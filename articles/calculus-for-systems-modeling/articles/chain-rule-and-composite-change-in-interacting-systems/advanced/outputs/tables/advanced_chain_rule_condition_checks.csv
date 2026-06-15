@@ -1,0 +1,9 @@
+condition,value,passed,warning
+domain compatibility,"0.5 in [0.0, 1.0]",True,
+domain compatibility,"1.5 in [0.0, 1.0]",False,inner value outside outer function domain
+differentiable links,"[True, True, True]",True,
+differentiable links,"[True, False, True]",False,at least one pathway link is not differentiable
+local validity,0.2,True,
+local validity,5.0,False,local derivative may be overextended
+automatic differentiation implementation,False,True,
+automatic differentiation implementation,True,False,implementation contains branches or conditionals requiring review

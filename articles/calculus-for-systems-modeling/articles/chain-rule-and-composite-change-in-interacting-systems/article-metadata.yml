@@ -1,0 +1,22 @@
+actual_title: "The Chain Rule and Composite Change in Interacting Systems"
+suggested_seo_title: "The Chain Rule and Composite Change in Interacting Systems"
+focus_keyword: "chain rule composite change"
+slug: "chain-rule-and-composite-change-in-interacting-systems"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "quotient-rule-and-relative-change"
+  current: "chain-rule-and-composite-change-in-interacting-systems"
+  next: "partial-derivatives-and-multivariable-change"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/chain-rule-and-composite-change-in-interacting-systems"
+tags:
+  - Calculus
+  - Chain Rule
+  - Composite Change
+  - Interacting Systems
+  - Pathway Sensitivity
+  - Jacobians
+  - Automatic Differentiation
+  - Systems Modeling
+excerpt_139_words: "The chain rule explains how change moves through composite pathways in interacting systems. This article develops the chain rule as a formal theorem about composite functions and as a modeling tool for mediated change, nested mechanisms, pathway sensitivity, feedback, Jacobian composition, and automatic differentiation. It shows how emissions can affect concentration, forcing, temperature, and ecological stress; how policy can affect behavior, contact, transmission, and outcomes; and how computational graphs propagate gradients through intermediate values. The article emphasizes that a composite derivative is a product or composition of local sensitivities, not a black-box response. Companion workflows in Python, R, SQL, and Haskell include chain-rule pathway audits, composite sensitivity decompositions, finite-difference checks, typed pathway records, assumption registries, Jacobian notes, implementation warnings, and advanced mathematical audit reports for responsible interpretation of mediated system change."
+advanced_standard: true

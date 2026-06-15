@@ -1,5 +1,0 @@
-concept_key,concept_name,historical_role,systems_modeling_role,review_note
-infinity,Infinity,Raised foundational questions about infinite division motion and accumulation,Appears in limiting processes long-run behavior refinement and asymptotic reasoning,Do not confuse mathematical infinity with empirical measurement capacity
-infinitesimal,Infinitesimal,Supported early reasoning about vanishingly small changes and differentials,Supports intuition for local change marginal response and sensitivity,Use formal limit interpretation or validated infinitesimal framework when precision matters
-limit,Limit,Provided a rigorous foundation for derivatives integrals and convergence,Connects approximation refinement local rates and numerical stability,Check whether refined approximations stabilize and remain meaningful
-difference_quotient,Difference Quotient,Connects average change over finite intervals to local derivative reasoning,Used in finite differences rate estimation and numerical derivatives,Step size affects accuracy noise sensitivity and interpretation

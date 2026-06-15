@@ -1,6 +1,6 @@
-.PHONY: smoke advanced quotient clean
+.PHONY: smoke advanced chain clean
 
-smoke: quotient
+smoke: chain
 
 advanced:
 	@for d in articles/*; do \
@@ -10,8 +10,8 @@ advanced:
 		fi; \
 	done
 
-quotient:
-	$(MAKE) -C articles/quotient-rule-and-relative-change smoke
+chain:
+	$(MAKE) -C articles/chain-rule-and-composite-change-in-interacting-systems smoke
 
 clean:
 	@for d in articles/*; do \

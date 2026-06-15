@@ -9,3 +9,9 @@ target/
 outputs/*.png
 outputs/*.pdf
 .ipynb_checkpoints/
+
+# Generated local backup archives
+articles/*/outputs/backups/
+articles/**/outputs/backups/
+**/outputs/backups/
+*.tar.gz

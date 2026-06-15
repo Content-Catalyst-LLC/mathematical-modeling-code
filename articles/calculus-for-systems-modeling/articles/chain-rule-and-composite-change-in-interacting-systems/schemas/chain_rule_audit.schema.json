@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChainRuleAudit",
+  "type": "object",
+  "required": ["t", "emissions", "concentration", "forcing", "temperature", "total_derivative", "finite_difference_check", "absolute_error", "warning"],
+  "properties": {
+    "t": {"type": "number"},
+    "emissions": {"type": "number"},
+    "concentration": {"type": "number"},
+    "forcing": {"type": "number"},
+    "temperature": {"type": "number"},
+    "emissions_rate": {"type": "number"},
+    "d_concentration_d_emissions": {"type": "number"},
+    "d_forcing_d_concentration": {"type": "number"},
+    "d_temperature_d_forcing": {"type": "number"},
+    "total_derivative": {"type": "number"},
+    "finite_difference_check": {"type": "number"},
+    "absolute_error": {"type": "number", "minimum": 0},
+    "warning": {"type": "string"}
+  }
+}

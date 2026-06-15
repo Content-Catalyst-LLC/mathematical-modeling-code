@@ -1,0 +1,18 @@
+{
+  "article_slug": "chain-rule-and-composite-change-in-interacting-systems",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "chain-rule-composite-change",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "composite-function", "title": "Composite Function", "description": "A modeled output depends on nested transformations."},
+    {"card_id": "pathway-sensitivity", "title": "Pathway Sensitivity", "description": "Total response is built from local sensitivities."},
+    {"card_id": "jacobian-composition", "title": "Jacobian Composition", "description": "Multivariable chain rules compose local linear maps."},
+    {"card_id": "automatic-differentiation", "title": "Automatic Differentiation", "description": "Computational graphs propagate derivatives through code."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

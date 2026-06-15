@@ -1,0 +1,11 @@
+{
+  "advanced_standard": true,
+  "article": "The Chain Rule and Composite Change in Interacting Systems",
+  "diagnostics": [
+    "local_sensitivity_records",
+    "chain_rule_product",
+    "finite_difference_check",
+    "pathway_warning"
+  ],
+  "warning": "A chain-rule derivative is a local pathway claim and should not be treated as global or causal without additional evidence."
+}

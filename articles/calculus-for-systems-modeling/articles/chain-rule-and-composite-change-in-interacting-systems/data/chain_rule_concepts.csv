@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+composite_function,Composite function,Represents f(g(x)) or deeper nesting,Models mediated change through intermediate states,Requires domain compatibility between links
+local_sensitivity,Local sensitivity,Derivative of one link in a pathway,Shows amplification damping or sign reversal at a link,Local value may not hold globally
+chain_rule_product,Chain-rule product,Product of scalar pathway derivatives,Combines local pathway sensitivities,Every link must be differentiable at relevant point
+jacobian_composition,Jacobian composition,Matrix product of local linear maps,Supports multivariable pathway sensitivity and feedback analysis,Can be ill-conditioned or direction-dependent
+automatic_differentiation,Automatic differentiation,Applies chain rule to computational graphs,Supports reproducible derivatives of implemented models,Derivative of code is not automatically derivative of the real system

@@ -2,7 +2,7 @@
 
 Companion repository folder for the **Calculus for Systems Modeling** article map and nested article-level workflows.
 
-This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, rates of change, rules of differentiation, quotient rules, relative change, chain rules, multivariable change, numerical methods, sensitivity analysis, and responsible mathematical interpretation.
+This folder supports calculus-based systems modeling across functions, domains, limits, continuity, differentiability, derivatives, rates of change, rules of differentiation, quotient rules, chain rules, composite change, interacting systems, multivariable change, numerical methods, sensitivity analysis, and responsible mathematical interpretation.
 
 ## Nested article folders
 
@@ -12,10 +12,11 @@ Article-specific code lives under:
 articles/calculus-for-systems-modeling/articles/
 ```
 
-Current active folders include the quotient-rule article:
+Current active folders include:
 
 ```text
 articles/quotient-rule-and-relative-change/
+articles/chain-rule-and-composite-change-in-interacting-systems/
 ```
 
 ## Advanced mathematical standard
