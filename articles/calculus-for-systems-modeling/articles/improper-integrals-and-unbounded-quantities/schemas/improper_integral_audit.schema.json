@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ImproperIntegralAudit",
+  "type": "object",
+  "required": ["cutoff", "truncated_value", "reference_value", "tail_error", "method", "convergence_interpretation", "warning"],
+  "properties": {
+    "cutoff": {"type": "number"},
+    "truncated_value": {"type": "number"},
+    "reference_value": {"type": "number"},
+    "tail_error": {"type": "number"},
+    "method": {"type": "string"},
+    "convergence_interpretation": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

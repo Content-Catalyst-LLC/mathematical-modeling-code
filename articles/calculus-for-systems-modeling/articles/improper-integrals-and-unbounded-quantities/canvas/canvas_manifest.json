@@ -1,0 +1,19 @@
+{
+  "article_slug": "improper-integrals-and-unbounded-quantities",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "improper-integrals-unbounded-quantities",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "limiting-process", "title": "Limiting Process", "description": "Improper integrals are defined by approaching problematic boundaries through limits."},
+    {"card_id": "convergence", "title": "Convergence", "description": "A finite limit is required before an improper integral can be interpreted as a finite total."},
+    {"card_id": "tail-behavior", "title": "Tail Behavior", "description": "Long-run accumulation depends on how fast the tail decays."},
+    {"card_id": "truncation-audit", "title": "Truncation Audit", "description": "Finite cutoffs must be separated from infinite-horizon claims."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

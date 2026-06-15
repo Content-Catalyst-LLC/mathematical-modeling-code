@@ -1,0 +1,6 @@
+"cutoff","truncated_value","reference_value","tail_error","method","convergence_interpretation","warning"
+2,1.37667759429587,2.5,1.12332240570413,"trapezoidal truncation audit","exponential decay produces finite infinite-horizon accumulation","tail contribution remains material at this cutoff"
+4,1.99525873161681,2.5,0.504741268383193,"trapezoidal truncation audit","exponential decay produces finite infinite-horizon accumulation","tail contribution remains material at this cutoff"
+8,2.39809461795246,2.5,0.10190538204754,"trapezoidal truncation audit","exponential decay produces finite infinite-horizon accumulation","tail contribution remains material at this cutoff"
+12,2.47942592990852,2.5,0.0205740700914805,"trapezoidal truncation audit","exponential decay produces finite infinite-horizon accumulation",""
+20,2.49916217648397,2.5,0.000837823516034675,"trapezoidal truncation audit","exponential decay produces finite infinite-horizon accumulation",""

@@ -1,0 +1,6 @@
+epsilon,truncated_value,reference_value,excluded_endpoint_error,method,convergence_interpretation,warning
+0.1,1.3675445325612134,2.0,0.6324554674387866,trapezoidal singular-endpoint audit,x^(-1/2) has finite accumulation near zero,excluded singular endpoint contribution remains material
+0.05,1.5527866123631737,2.0,0.4472133876368263,trapezoidal singular-endpoint audit,x^(-1/2) has finite accumulation near zero,excluded singular endpoint contribution remains material
+0.01,1.8000025496937162,2.0,0.1999974503062838,trapezoidal singular-endpoint audit,x^(-1/2) has finite accumulation near zero,excluded singular endpoint contribution remains material
+0.005,1.858585932280326,2.0,0.14141406771967402,trapezoidal singular-endpoint audit,x^(-1/2) has finite accumulation near zero,excluded singular endpoint contribution remains material
+0.001,1.936836317273129,2.0,0.0631636827268709,trapezoidal singular-endpoint audit,x^(-1/2) has finite accumulation near zero,excluded singular endpoint contribution remains material

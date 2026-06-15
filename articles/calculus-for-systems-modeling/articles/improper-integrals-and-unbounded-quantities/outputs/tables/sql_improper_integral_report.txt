@@ -1,0 +1,18 @@
+section                              
+-------------------------------------
+IMPROPER INTEGRAL ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Convergence evidence     Documents why the defining limit is finite.                   Supports responsible interpretation of cumulative totals.     Numerical stability alone may not prove convergence.        
+
+Limiting process         Defines how the improper boundary is approached.              Clarifies whether the model uses an infinite horizon, singul  A reported value without a limiting process is not an audita
+                                                                                       ar endpoint, or both.                                         ble improper integral.                                      
+
+Model validity boundary  Identifies whether the mathematical limit extends beyond the  Prevents idealized singularities or infinite horizons from b  Divergence may indicate a model-domain problem rather than a
+                          credible model domain.                                       eing overinterpreted.                                          literal infinite real-world quantity.                      
+
+Tail behavior            Describes how the integrand behaves far from the finite star  Determines long-run accumulation and convergence.             A rate that approaches zero may still diverge.              
+                         ting point.                                                                                                                                                                             
+
+Truncation cutoff        Records the finite cutoff used for numerical approximation.   Keeps computational approximation separate from infinite-hor  A cutoff can hide material tail contribution if not tested. 
+                                                                                       izon interpretation.                                                                                                      

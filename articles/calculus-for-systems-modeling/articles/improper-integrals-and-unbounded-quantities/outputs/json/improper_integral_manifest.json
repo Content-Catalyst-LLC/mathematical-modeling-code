@@ -1,0 +1,33 @@
+{
+  "advanced_standard": true,
+  "article": "Improper Integrals and Unbounded Quantities",
+  "diagnostics": [
+    "limiting_process",
+    "convergence_evidence",
+    "tail_behavior",
+    "truncation_cutoff",
+    "singular_endpoint",
+    "model_validity_boundary"
+  ],
+  "infinite_horizon_cutoffs": [
+    2,
+    4,
+    8,
+    12,
+    20
+  ],
+  "p_tail_classification": {
+    "0.75": "divergent slow tail",
+    "1.0": "divergent harmonic boundary",
+    "1.25": "convergent tail",
+    "2.0": "convergent tail"
+  },
+  "singular_endpoint_epsilons": [
+    0.1,
+    0.05,
+    0.01,
+    0.005,
+    0.001
+  ],
+  "warning": "A finite numerical cutoff is not an infinite-horizon result without tail evidence."
+}

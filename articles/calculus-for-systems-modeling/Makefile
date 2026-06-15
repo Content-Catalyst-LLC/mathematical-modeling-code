@@ -1,6 +1,6 @@
-.PHONY: smoke advanced substitution integration-by-parts clean
+.PHONY: smoke advanced integration-by-parts improper-integrals clean
 
-smoke: substitution integration-by-parts
+smoke: integration-by-parts improper-integrals
 
 advanced:
 	@for d in articles/*; do \
@@ -10,11 +10,11 @@ advanced:
 		fi; \
 	done
 
-substitution:
-	$(MAKE) -C articles/substitution-and-transformations-of-accumulation smoke
-
 integration-by-parts:
 	$(MAKE) -C articles/integration-by-parts-and-structured-decomposition smoke
+
+improper-integrals:
+	$(MAKE) -C articles/improper-integrals-and-unbounded-quantities smoke
 
 clean:
 	@for d in articles/*; do \

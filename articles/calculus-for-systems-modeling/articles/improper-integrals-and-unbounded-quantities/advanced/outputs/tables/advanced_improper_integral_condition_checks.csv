@@ -1,0 +1,11 @@
+condition,value,passed,warning
+limiting process documented,1.0,True,
+limiting process documented,0.0,False,improper boundary lacks a defined limiting process
+convergence evidence documented,1.0,True,
+convergence evidence documented,0.0,False,finite value lacks convergence evidence
+truncation tail error,0.01,True,
+truncation tail error,0.2,False,tail contribution remains material at selected cutoff
+p-tail convergence,2.0,True,
+p-tail convergence,1.0,False,p-tail integral diverges for p <= 1
+model validity boundary documented,1.0,True,
+model validity boundary documented,0.0,False,limit may extend beyond credible model domain

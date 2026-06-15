@@ -1,0 +1,53 @@
+{
+  "advanced_standard": true,
+  "article": "Improper Integrals and Unbounded Quantities",
+  "condition_failures": [
+    {
+      "condition": "limiting process documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "improper boundary lacks a defined limiting process"
+    },
+    {
+      "condition": "convergence evidence documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "finite value lacks convergence evidence"
+    },
+    {
+      "condition": "truncation tail error",
+      "passed": false,
+      "value": 0.2,
+      "warning": "tail contribution remains material at selected cutoff"
+    },
+    {
+      "condition": "p-tail convergence",
+      "passed": false,
+      "value": 1.0,
+      "warning": "p-tail integral diverges for p <= 1"
+    },
+    {
+      "condition": "model validity boundary documented",
+      "passed": false,
+      "value": 0.0,
+      "warning": "limit may extend beyond credible model domain"
+    }
+  ],
+  "topics": [
+    "limiting_process",
+    "infinite_interval",
+    "singular_endpoint",
+    "convergence",
+    "divergence",
+    "tail_behavior",
+    "truncation_sensitivity",
+    "model_validity_boundary"
+  ],
+  "warnings": [
+    "A finite cutoff is not an infinite-horizon result.",
+    "A rate approaching zero may still diverge.",
+    "An unbounded integrand may still have finite accumulation.",
+    "Numerical stability alone does not prove convergence.",
+    "Mathematical limits can extend beyond credible model domain."
+  ]
+}
