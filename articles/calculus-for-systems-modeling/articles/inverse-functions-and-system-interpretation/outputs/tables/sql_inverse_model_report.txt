@@ -1,0 +1,19 @@
+section                          
+---------------------------------
+INVERSE MODEL ASSUMPTION REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Conditioning         Inverse sensitivity depends on the reciprocal derivative or   Shows whether recovered inputs are stable under output noise  Ill-conditioned inverse maps can make precise recovery misle
+                     inverse Jacobian.                                             .                                                             ading.                                                      
+
+Domain restriction   The inverse is defined relative to a specified admissible do  Identifies the regime, branch, or feasible set under which r  Changing the domain can change or destroy the inverse.      
+                     main.                                                         ecovery is meaningful.                                                                                                    
+
+Identifiability      Parameters or states must be recoverable from available outp  Connects inverse functions with calibration and diagnosis.    Similar outputs from different inputs weaken interpretive cl
+                     uts.                                                                                                                        aims.                                                       
+
+Injectivity          Different admissible inputs must produce different outputs.   Supports uniqueness of recovered states or parameters.        If the forward model is many-to-one, inverse interpretation 
+                                                                                                                                                 is ambiguous.                                               
+
+Local invertibility  A nonzero derivative or invertible Jacobian supports local i  Allows local reconstruction near an operating point.          Local invertibility does not imply global invertibility.    
+                     nverse recovery.                                                                                                                                                                        

@@ -1,0 +1,9 @@
+condition,value,passed,warning
+nonzero derivative for local inverse,0.5,True,
+nonzero derivative for local inverse,0.0,False,forward derivative is zero or near zero
+Jacobian conditioning,100.0,True,
+Jacobian conditioning,10000000000.0,False,inverse map may be unstable under output noise
+domain validity,0.2,True,
+domain validity,-2.0,False,recovered input is outside admissible domain
+forward consistency residual,1e-10,True,
+forward consistency residual,0.01,False,forward check does not reproduce target output

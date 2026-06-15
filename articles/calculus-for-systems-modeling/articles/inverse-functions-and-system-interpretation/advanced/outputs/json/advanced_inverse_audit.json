@@ -1,0 +1,47 @@
+{
+  "advanced_standard": true,
+  "article": "Inverse Functions and System Interpretation",
+  "condition_failures": [
+    {
+      "condition": "nonzero derivative for local inverse",
+      "passed": false,
+      "value": 0.0,
+      "warning": "forward derivative is zero or near zero"
+    },
+    {
+      "condition": "Jacobian conditioning",
+      "passed": false,
+      "value": 10000000000.0,
+      "warning": "inverse map may be unstable under output noise"
+    },
+    {
+      "condition": "domain validity",
+      "passed": false,
+      "value": -2.0,
+      "warning": "recovered input is outside admissible domain"
+    },
+    {
+      "condition": "forward consistency residual",
+      "passed": false,
+      "value": 0.01,
+      "warning": "forward check does not reproduce target output"
+    }
+  ],
+  "topics": [
+    "injectivity",
+    "domain_codomain_image",
+    "inverse_derivative_formula",
+    "inverse_function_theorem",
+    "local_global_inverse_distinction",
+    "identifiability",
+    "conditioning",
+    "branch_selection"
+  ],
+  "warnings": [
+    "Inverse claims must specify domain and branch.",
+    "A local inverse is not automatically global.",
+    "A recovered input is not automatically the true cause.",
+    "Small forward derivatives amplify inverse uncertainty.",
+    "Ill-conditioned Jacobians weaken recoverability and interpretation."
+  ]
+}

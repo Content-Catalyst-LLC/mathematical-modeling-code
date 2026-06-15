@@ -1,0 +1,19 @@
+{
+  "article_slug": "inverse-functions-and-system-interpretation",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "inverse-functions-system-interpretation",
+  "advanced_standard": true,
+  "cards": [
+    {"card_id": "injectivity", "title": "Injectivity", "description": "Unique recovery requires distinct admissible inputs to produce distinct outputs."},
+    {"card_id": "domain-restriction", "title": "Domain Restriction", "description": "Inverse interpretation depends on an admissible domain, branch, or regime."},
+    {"card_id": "inverse-sensitivity", "title": "Inverse Sensitivity", "description": "Recovered inputs can be unstable when forward sensitivity is small."},
+    {"card_id": "identifiability", "title": "Identifiability", "description": "Inverse reasoning asks whether states or parameters can be recovered from outputs."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "generated_audit_reports": true,
+    "large_backup_archives_excluded": true
+  }
+}

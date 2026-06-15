@@ -1,0 +1,6 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+domain_restriction,Domain restriction,Defines the admissible set for inversion,Identifies the regime or branch under which recovery is meaningful,Changing the domain can change or destroy the inverse
+injectivity,Injectivity,Different admissible inputs produce different outputs,Supports uniqueness of recovered states or parameters,Many-to-one models make inverse interpretation ambiguous
+local_invertibility,Local invertibility,Nonzero derivative or invertible Jacobian supports local inverse recovery,Allows local reconstruction near an operating point,Local invertibility does not imply global invertibility
+conditioning,Conditioning,Inverse sensitivity depends on reciprocal derivative or inverse Jacobian,Shows stability under output noise,Ill-conditioned inverse maps make precise recovery misleading
+identifiability,Identifiability,Parameters or states must be recoverable from outputs,Connects inverse functions with calibration and diagnosis,Similar outputs from different inputs weaken interpretive claims

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InverseAudit",
+  "type": "object",
+  "required": ["target_output", "recovered_input", "forward_check", "residual", "forward_derivative", "inverse_sensitivity", "domain_valid", "warning"],
+  "properties": {
+    "target_output": {"type": "number"},
+    "recovered_input": {"type": "number"},
+    "forward_check": {"type": "number"},
+    "residual": {"type": "number"},
+    "forward_derivative": {"type": "number"},
+    "inverse_sensitivity": {"type": "number"},
+    "domain_valid": {"type": "boolean"},
+    "warning": {"type": "string"}
+  }
+}

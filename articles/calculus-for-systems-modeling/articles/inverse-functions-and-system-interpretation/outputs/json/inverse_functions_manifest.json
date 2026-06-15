@@ -1,0 +1,12 @@
+{
+  "advanced_standard": true,
+  "article": "Inverse Functions and System Interpretation",
+  "diagnostics": [
+    "forward_check",
+    "domain_validity",
+    "inverse_sensitivity",
+    "conditioning_warning",
+    "identifiability_review"
+  ],
+  "warning": "A recovered input is model-dependent and should not be treated as causal proof without identifiability, uncertainty, and domain review."
+}

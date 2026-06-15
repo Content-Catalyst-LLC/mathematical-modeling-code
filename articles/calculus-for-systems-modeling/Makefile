@@ -1,6 +1,6 @@
-.PHONY: smoke advanced implicit clean
+.PHONY: smoke advanced inverse clean
 
-smoke: implicit
+smoke: inverse
 
 advanced:
 	@for d in articles/*; do \
@@ -10,8 +10,8 @@ advanced:
 		fi; \
 	done
 
-implicit:
-	$(MAKE) -C articles/implicit-differentiation-and-coupled-relationships smoke
+inverse:
+	$(MAKE) -C articles/inverse-functions-and-system-interpretation smoke
 
 clean:
 	@for d in articles/*; do \
