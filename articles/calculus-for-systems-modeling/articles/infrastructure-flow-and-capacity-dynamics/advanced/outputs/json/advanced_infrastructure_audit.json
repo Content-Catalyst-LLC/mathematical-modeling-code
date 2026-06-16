@@ -1,0 +1,22 @@
+{
+  "article": "Infrastructure Flow and Capacity Dynamics",
+  "advanced_standard": true,
+  "features": [
+    "queue balance",
+    "utilization ratio",
+    "nonlinear delay",
+    "bottleneck effective capacity",
+    "buffer saturation",
+    "maintenance decay",
+    "resilience records",
+    "peak-load scenarios",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Nominal capacity may differ from effective capacity.",
+    "Average throughput can hide waiting-time and backlog effects.",
+    "Capacity should not be assumed fixed without maintenance records.",
+    "Spare capacity may be essential resilience, not waste."
+  ]
+}

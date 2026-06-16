@@ -1,0 +1,2 @@
+record_name,stage_capacities,effective_capacity,bottleneck_stage,warning
+series_process_bottleneck,"140.0,120.0,90.0,130.0",90.0,3,Effective capacity is limited by the smallest stage capacity.

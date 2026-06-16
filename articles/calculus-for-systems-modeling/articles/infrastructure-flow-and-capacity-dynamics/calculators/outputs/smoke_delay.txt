@@ -1,0 +1,14 @@
+{
+  "calculator": "delay",
+  "inputs": {
+    "alpha": 0.8,
+    "base_delay": 1.0,
+    "command": "delay",
+    "utilization": 0.95
+  },
+  "interpretation": "Computes illustrative nonlinear delay as utilization approaches capacity.",
+  "result": {
+    "delay": 16.19999999999999
+  },
+  "warning": "Delay functions are model assumptions and should be calibrated."
+}

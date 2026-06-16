@@ -1,0 +1,7 @@
+scenario_name,system_type,final_time,final_queue,average_utilization,maximum_delay,interpretation
+baseline_spare_capacity,queue_capacity,24.0,0.0,0.75,3.4000000000000004,spare capacity keeps queues low
+near_capacity_operation,queue_capacity,24.0,0.0,0.9499999999999961,16.19999999999999,near-capacity operation creates high delay sensitivity
+over_capacity_backlog,queue_capacity,24.0,360.0,1.1500000000000021,800.1999999999994,arrival rate above capacity causes backlog accumulation
+series_bottleneck,network_bottleneck,24.0,120.0,1.05555555555555,800.1999999999994,minimum stage capacity limits effective throughput
+capacity_decay_case,maintenance_capacity,24.0,427.4467884879054,1.2307338789685847,800.1999999999994,capacity decay can create congestion even if demand is unchanged
+peak_load_case,peak_load_capacity,24.0,0.0,0.9499999999999961,16.19999999999999,peak-load scenario tests stress conditions beyond average demand

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_initial_capacity,input_maintenance,input_decay_rate,input_years,result_final_capacity
+capacity-decay,Computes capacity after maintenance and decay.,Capacity should not be assumed fixed without maintenance records.,capacity-decay,100.0,1.5,0.03,20,77.18971714633736

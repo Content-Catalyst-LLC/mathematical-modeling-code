@@ -1,0 +1,6 @@
+arrival_rate,capacity,utilization,delay_index,governance_status,warning
+70,100.0,0.7,2.8666666666666663,stable,Near-capacity operation increases delay sensitivity.
+85,100.0,0.85,5.533333333333333,stable,Near-capacity operation increases delay sensitivity.
+95,100.0,0.95,16.19999999999999,review,Near-capacity operation increases delay sensitivity.
+105,100.0,1.05,800.1999999999994,review,Near-capacity operation increases delay sensitivity.
+120,100.0,1.2,800.1999999999994,review,Near-capacity operation increases delay sensitivity.

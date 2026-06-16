@@ -1,0 +1,2 @@
+"calculator","arrival","capacity","utilization","over_capacity","warning"
+"utilization",95,100,0.95,FALSE,"Peak and average demand should be documented separately."

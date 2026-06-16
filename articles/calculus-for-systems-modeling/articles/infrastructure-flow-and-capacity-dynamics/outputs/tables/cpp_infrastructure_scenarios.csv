@@ -1,0 +1,4 @@
+scenario_name,system_type,utilization,delay_warning
+baseline_spare_capacity,queue_capacity,0.75,3.4
+near_capacity_operation,queue_capacity,0.95,16.2
+over_capacity_backlog,queue_capacity,1.15,800.2

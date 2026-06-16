@@ -1,0 +1,15 @@
+{
+  "calculator": "capacity-decay",
+  "inputs": {
+    "command": "capacity-decay",
+    "decay_rate": 0.03,
+    "initial_capacity": 100.0,
+    "maintenance": 1.5,
+    "years": 20
+  },
+  "interpretation": "Computes capacity after maintenance and decay.",
+  "result": {
+    "final_capacity": 77.18971714633736
+  },
+  "warning": "Capacity should not be assumed fixed without maintenance records."
+}

@@ -1,0 +1,14 @@
+{
+  "calculator": "utilization",
+  "inputs": {
+    "arrival": 95.0,
+    "capacity": 100.0,
+    "command": "utilization"
+  },
+  "interpretation": "Computes demand or arrivals as a ratio of capacity.",
+  "result": {
+    "over_capacity": false,
+    "utilization": 0.95
+  },
+  "warning": "Peak and average demand should be documented separately."
+}

@@ -1,0 +1,4 @@
+   calculator arrival capacity utilization over_capacity
+1 utilization      95      100        0.95         FALSE
+                                                   warning
+1 Peak and average demand should be documented separately.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_queue,input_arrival,input_service,input_dt,result_served,result_next_queue
+queue-step,Computes one queue-balance step.,"Queue dynamics depend on arrival, service, and queue discipline.",queue-step,20.0,95.0,100.0,1.0,100.0,15.0

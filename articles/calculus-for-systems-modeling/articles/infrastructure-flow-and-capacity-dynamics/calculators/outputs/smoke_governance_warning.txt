@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "nominal_capacity"
+  },
+  "interpretation": "Creates an infrastructure-governance warning.",
+  "result": {
+    "note": "Nominal capacity may differ from effective capacity."
+  },
+  "warning": "Infrastructure conclusions should not exceed flow definitions, capacity evidence, operating conditions, uncertainty, governance feasibility, and tested scope."
+}

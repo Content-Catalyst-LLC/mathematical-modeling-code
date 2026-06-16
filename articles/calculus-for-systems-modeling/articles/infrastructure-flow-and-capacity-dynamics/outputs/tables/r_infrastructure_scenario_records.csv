@@ -1,0 +1,5 @@
+"scenario_name","final_queue","average_utilization","maximum_delay","warning"
+"baseline_spare_capacity",0,0.75,3.4,"spare capacity keeps queues low"
+"near_capacity_operation",0,0.949999999999996,16.2,"near-capacity operation creates high delay sensitivity"
+"over_capacity_backlog",360,1.15,800.199999999999,"arrival rate above capacity causes backlog accumulation"
+"series_bottleneck",120,1.05555555555555,800.199999999999,"minimum stage capacity limits effective throughput"

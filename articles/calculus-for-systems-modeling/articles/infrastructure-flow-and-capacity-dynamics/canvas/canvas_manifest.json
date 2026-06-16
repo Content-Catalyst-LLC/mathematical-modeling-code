@@ -1,0 +1,16 @@
+{
+  "article_slug": "infrastructure-flow-and-capacity-dynamics",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "infrastructure-flow-capacity-dynamics",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "flow-record", "title": "Flow Record", "description": "What moves through the system, including units, time scale, origin, destination, and boundary."},
+    {"card_id": "capacity-record", "title": "Capacity Record", "description": "Physical, operational, effective, regulatory, and stress-condition capacity assumptions."},
+    {"card_id": "queue-record", "title": "Queue Record", "description": "Visible and hidden backlogs, waiting times, queue discipline, and service constraints."},
+    {"card_id": "bottleneck-record", "title": "Bottleneck Record", "description": "Limiting stages, downstream constraints, routing assumptions, and effective capacity."},
+    {"card_id": "maintenance-record", "title": "Maintenance Record", "description": "Asset condition, capacity decay, repair rates, inspection uncertainty, and deferred maintenance."},
+    {"card_id": "resilience-record", "title": "Resilience Record", "description": "Buffers, redundancy, failure modes, cascading dependencies, and recovery rates."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, monitoring, scenario comparison, investment planning, emergency planning, or decision support."}
+  ]
+}

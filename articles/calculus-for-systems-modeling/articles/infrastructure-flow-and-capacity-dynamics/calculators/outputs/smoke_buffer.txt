@@ -1,0 +1,16 @@
+{
+  "calculator": "buffer",
+  "inputs": {
+    "capacity": 300.0,
+    "command": "buffer",
+    "inflow": 120.0,
+    "outflow": 100.0,
+    "time": 24.0
+  },
+  "interpretation": "Computes simplified buffer accumulation and saturation.",
+  "result": {
+    "final_buffer": 300.0,
+    "saturated": true
+  },
+  "warning": "Buffers can saturate under sustained imbalance."
+}

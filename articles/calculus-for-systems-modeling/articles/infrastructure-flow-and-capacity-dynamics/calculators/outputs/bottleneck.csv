@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_capacities,result_effective_capacity,result_bottleneck_stage
+bottleneck,Computes effective capacity for a simple series process.,Effective capacity is limited by the smallest stage capacity.,bottleneck,"140,120,90,130",90.0,3

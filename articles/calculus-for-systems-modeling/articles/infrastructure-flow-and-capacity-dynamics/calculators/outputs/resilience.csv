@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_delivered,input_required,result_service_resilience_ratio
+resilience,Computes service delivered as a fraction of required service.,Service resilience should be interpreted with stress conditions and equity context.,resilience,80.0,100.0,0.8

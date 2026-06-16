@@ -1,0 +1,8 @@
+card_id,title,category,score,status,review_date,governance_note
+flow-record,Flow Record,model definition,96,active,2026-06-15,Infrastructure outputs cannot be interpreted responsibly if flow definitions are unclear.
+capacity-record,Capacity Record,capacity governance,95,review,2026-06-15,Nominal capacity may differ from effective capacity.
+queue-record,Queue Record,service governance,94,review,2026-06-15,Average throughput can hide waiting-time and backlog effects.
+bottleneck-record,Bottleneck Record,network governance,93,review,2026-06-15,The apparent bottleneck may shift under disruption or demand change.
+maintenance-record,Maintenance Record,asset governance,92,review,2026-06-15,Capacity should not be assumed fixed without maintenance records.
+resilience-record,Resilience Record,stress governance,91,review,2026-06-15,"Spare capacity may be essential resilience, not waste."
+claim-boundary,Claim Boundary,governance,90,review,2026-06-15,"Infrastructure conclusions should not exceed flow definitions, capacity evidence, operating conditions, uncertainty, governance feasibility, and tested scope."

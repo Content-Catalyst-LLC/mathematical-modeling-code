@@ -1,0 +1,4 @@
+  calculator utilization delay
+1      delay        0.95  16.2
+                                                          warning
+1 Delay functions are model assumptions and should be calibrated.

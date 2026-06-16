@@ -1,0 +1,4 @@
+scenario utilization delay_warning
+1     0.750000     3.400000
+2     0.950000    16.200000
+3     1.150000   999.000000

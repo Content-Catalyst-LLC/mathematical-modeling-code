@@ -1,0 +1,65 @@
+section                           
+----------------------------------
+INFRASTRUCTURE GOVERNANCE REGISTRY
+registry_name       analytical_role                                               systems_modeling_role                                         review_warning                                              
+------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Bottleneck record   Documents limiting stages, downstream constraints, routing a  Identifies where local constraints limit system throughput.   The apparent bottleneck may shift under disruption or demand
+                    ssumptions, and effective capacity.                                                                                          change.                                                    
+
+Capacity record     Documents physical, operational, effective, regulatory, and   Separates nominal capacity from reliable service capacity.    Nominal capacity may differ from effective capacity.        
+                    stress-condition capacity assumptions.                                                                                                                                                  
+
+Claim boundary      Defines whether the model supports teaching, monitoring, sce  Prevents overclaiming and scope drift.                        Infrastructure conclusions should not exceed flow definition
+                    nario comparison, investment planning, emergency planning, o                                                                s, capacity evidence, operating conditions, uncertainty, gov
+                    r decision support.                                                                                                         ernance feasibility, and tested scope.                      
+
+Flow record         Defines what moves through the system, including units, time  Makes arrival, service, and throughput dynamics explicit.     Infrastructure outputs cannot be interpreted responsibly if 
+                     scale, origin, destination, and measurement boundary.                                                                      flow definitions are unclear.                               
+
+Maintenance record  Documents asset condition, capacity decay, repair rates, ins  Connects present capacity to future reliability.              Capacity should not be assumed fixed without maintenance rec
+                    pection uncertainty, and deferred maintenance.                                                                              ords.                                                       
+
+Queue record        Documents visible and hidden backlogs, waiting times, queue   Connects rate imbalance to user delay and accumulated backlo  Average throughput can hide waiting-time and backlog effects
+                    discipline, and service constraints.                          g.                                                            .                                                           
+
+Resilience record   Documents buffers, redundancy, failure modes, cascading depe  Connects normal operation to stress performance.              Spare capacity may be essential resilience, not waste.      
+                    ndencies, and recovery rates.                                                                                                                                                           
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name   value  unit            interpretation                      warning                                                     
+---------------  -----  --------------  ----------------------------------  ------------------------------------------------------------
+base_delay       1.0    time units      delay under low utilization         Delay rises nonlinearly near capacity.                      
+
+buffer_capacity  300.0  units           maximum buffer or storage capacity  Buffers can saturate under sustained imbalance.             
+
+decay_rate       0.03   per year        capacity decay rate                 Capacity should not be assumed fixed without maintenance rec
+                                                                            ords.                                                       
+
+lambda           95.0   units per hour  arrival or demand rate              Peak and average demand should be documented separately.    
+
+mu               100.0  units per hour  service capacity                    Nominal capacity may differ from effective capacity.        
+
+recovery_rate    0.15   per period      post-disruption recovery rate       Recovery depends on labor, parts, finance, and governance.  
+section         
+----------------
+SCENARIO RECORDS
+scenario_name            system_type           final_queue  average_utilization  maximum_delay  interpretation                                                warning                                                     
+-----------------------  --------------------  -----------  -------------------  -------------  ------------------------------------------------------------  ------------------------------------------------------------
+baseline_spare_capacity  queue_capacity        0.0          0.75                 3.4            spare capacity keeps queues low                               Spare capacity may be essential resilience, not waste.      
+
+capacity_decay_case      maintenance_capacity  50.0         1.05                 800.2          capacity decay can create congestion even if demand is uncha  Capacity should not be assumed fixed without maintenance rec
+                                                                                                nged                                                          ords.                                                       
+
+near_capacity_operation  queue_capacity        0.0          0.95                 16.2           near-capacity operation creates high delay sensitivity        Near-capacity operation increases fragility.                
+
+over_capacity_backlog    queue_capacity        360.0        1.15                 800.2          arrival rate above capacity causes backlog accumulation       Over-capacity operation creates accumulated delay.          
+
+series_bottleneck        network_bottleneck    120.0        1.06                 800.2          minimum stage capacity limits effective throughput            The apparent bottleneck may shift under disruption.         
+section           
+------------------
+BOTTLENECK RECORDS
+record_name                stage_capacities  effective_capacity  bottleneck_stage  warning                                                     
+-------------------------  ----------------  ------------------  ----------------  ------------------------------------------------------------
+series_process_bottleneck  140,120,90,130    90.0                3                 Effective capacity is limited by the smallest stage capacity
+                                                                                   .                                                           

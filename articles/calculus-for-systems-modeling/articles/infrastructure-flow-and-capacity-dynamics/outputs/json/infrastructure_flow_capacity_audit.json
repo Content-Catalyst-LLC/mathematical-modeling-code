@@ -1,0 +1,119 @@
+{
+  "bottleneck_records": [
+    {
+      "bottleneck_stage": 3,
+      "effective_capacity": 90.0,
+      "record_name": "series_process_bottleneck",
+      "stage_capacities": "140.0,120.0,90.0,130.0",
+      "warning": "Effective capacity is limited by the smallest stage capacity."
+    }
+  ],
+  "interpretation_warning": "Infrastructure model outputs depend on flow definitions, effective capacity, queues, bottlenecks, buffers, maintenance, failure modes, recovery assumptions, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "arrival or demand rate",
+      "parameter_name": "lambda",
+      "unit": "units per hour",
+      "value": 95.0,
+      "warning": "Peak and average demand should be documented separately."
+    },
+    {
+      "interpretation": "service capacity",
+      "parameter_name": "mu",
+      "unit": "units per hour",
+      "value": 100.0,
+      "warning": "Nominal capacity may differ from effective capacity."
+    },
+    {
+      "interpretation": "maximum buffer or storage capacity",
+      "parameter_name": "buffer_capacity",
+      "unit": "units",
+      "value": 300.0,
+      "warning": "Buffers can saturate under sustained imbalance."
+    },
+    {
+      "interpretation": "delay under low utilization",
+      "parameter_name": "base_delay",
+      "unit": "time units",
+      "value": 1.0,
+      "warning": "Delay rises nonlinearly near capacity."
+    },
+    {
+      "interpretation": "capacity decay rate",
+      "parameter_name": "decay_rate",
+      "unit": "per year",
+      "value": 0.03,
+      "warning": "Capacity should not be assumed fixed without maintenance records."
+    },
+    {
+      "interpretation": "post-disruption recovery rate",
+      "parameter_name": "recovery_rate",
+      "unit": "per period",
+      "value": 0.15,
+      "warning": "Recovery depends on labor, parts, finance, and governance."
+    },
+    {
+      "interpretation": "peak-load multiplier",
+      "parameter_name": "peak_multiplier",
+      "unit": "factor",
+      "value": 1.25,
+      "warning": "Average demand can hide peak stress."
+    }
+  ],
+  "scenario_records": [
+    {
+      "average_utilization": 0.75,
+      "final_queue": 0.0,
+      "final_time": 24.0,
+      "interpretation": "spare capacity keeps queues low",
+      "maximum_delay": 3.4000000000000004,
+      "scenario_name": "baseline_spare_capacity",
+      "system_type": "queue_capacity"
+    },
+    {
+      "average_utilization": 0.9499999999999961,
+      "final_queue": 0.0,
+      "final_time": 24.0,
+      "interpretation": "near-capacity operation creates high delay sensitivity",
+      "maximum_delay": 16.19999999999999,
+      "scenario_name": "near_capacity_operation",
+      "system_type": "queue_capacity"
+    },
+    {
+      "average_utilization": 1.1500000000000021,
+      "final_queue": 360.0,
+      "final_time": 24.0,
+      "interpretation": "arrival rate above capacity causes backlog accumulation",
+      "maximum_delay": 800.1999999999994,
+      "scenario_name": "over_capacity_backlog",
+      "system_type": "queue_capacity"
+    },
+    {
+      "average_utilization": 1.05555555555555,
+      "final_queue": 120.0,
+      "final_time": 24.0,
+      "interpretation": "minimum stage capacity limits effective throughput",
+      "maximum_delay": 800.1999999999994,
+      "scenario_name": "series_bottleneck",
+      "system_type": "network_bottleneck"
+    },
+    {
+      "average_utilization": 1.2307338789685847,
+      "final_queue": 427.4467884879054,
+      "final_time": 24.0,
+      "interpretation": "capacity decay can create congestion even if demand is unchanged",
+      "maximum_delay": 800.1999999999994,
+      "scenario_name": "capacity_decay_case",
+      "system_type": "maintenance_capacity"
+    },
+    {
+      "average_utilization": 0.9499999999999961,
+      "final_queue": 0.0,
+      "final_time": 24.0,
+      "interpretation": "peak-load scenario tests stress conditions beyond average demand",
+      "maximum_delay": 16.19999999999999,
+      "scenario_name": "peak_load_case",
+      "system_type": "peak_load_capacity"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_context,result_note
+governance-warning,Creates an infrastructure-governance warning.,"Infrastructure conclusions should not exceed flow definitions, capacity evidence, operating conditions, uncertainty, governance feasibility, and tested scope.",governance-warning,nominal_capacity,Nominal capacity may differ from effective capacity.

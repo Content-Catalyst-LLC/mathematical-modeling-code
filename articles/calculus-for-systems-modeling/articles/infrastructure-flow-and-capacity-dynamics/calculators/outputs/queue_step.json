@@ -1,0 +1,16 @@
+{
+  "calculator": "queue-step",
+  "inputs": {
+    "arrival": 95.0,
+    "command": "queue-step",
+    "dt": 1.0,
+    "queue": 20.0,
+    "service": 100.0
+  },
+  "interpretation": "Computes one queue-balance step.",
+  "result": {
+    "next_queue": 15.0,
+    "served": 100.0
+  },
+  "warning": "Queue dynamics depend on arrival, service, and queue discipline."
+}

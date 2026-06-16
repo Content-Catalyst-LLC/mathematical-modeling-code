@@ -1,0 +1,13 @@
+{
+  "calculator": "resilience",
+  "inputs": {
+    "command": "resilience",
+    "delivered": 80.0,
+    "required": 100.0
+  },
+  "interpretation": "Computes service delivered as a fraction of required service.",
+  "result": {
+    "service_resilience_ratio": 0.8
+  },
+  "warning": "Service resilience should be interpreted with stress conditions and equity context."
+}

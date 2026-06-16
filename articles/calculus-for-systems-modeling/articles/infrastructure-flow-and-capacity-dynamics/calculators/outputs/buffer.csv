@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_inflow,input_outflow,input_capacity,input_time,result_final_buffer,result_saturated
+buffer,Computes simplified buffer accumulation and saturation.,Buffers can saturate under sustained imbalance.,buffer,120.0,100.0,300.0,24.0,300.0,True

@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+lambda,95.0,units per hour,arrival or demand rate,Peak and average demand should be documented separately
+mu,100.0,units per hour,service capacity,Nominal capacity may differ from effective capacity
+buffer_capacity,300.0,units,maximum buffer or storage capacity,Buffers can saturate under sustained imbalance
+base_delay,1.0,time units,delay under low utilization,Delay rises nonlinearly near capacity
+decay_rate,0.03,per year,capacity decay rate,Capacity should not be assumed fixed without maintenance records
+recovery_rate,0.15,per period,post-disruption recovery rate,Recovery depends on labor parts finance and governance
+peak_multiplier,1.25,factor,peak-load multiplier,Average demand can hide peak stress

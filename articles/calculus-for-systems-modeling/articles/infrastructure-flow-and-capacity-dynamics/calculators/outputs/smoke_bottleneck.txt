@@ -1,0 +1,13 @@
+{
+  "calculator": "bottleneck",
+  "inputs": {
+    "capacities": "140,120,90,130",
+    "command": "bottleneck"
+  },
+  "interpretation": "Computes effective capacity for a simple series process.",
+  "result": {
+    "bottleneck_stage": 3,
+    "effective_capacity": 90.0
+  },
+  "warning": "Effective capacity is limited by the smallest stage capacity."
+}

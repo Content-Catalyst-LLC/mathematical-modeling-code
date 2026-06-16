@@ -1,0 +1,21 @@
+{
+  "article_slug": "infrastructure-flow-and-capacity-dynamics",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "utilization", "title": "Utilization Calculator"},
+    {"id": "delay", "title": "Nonlinear Delay Calculator"},
+    {"id": "queue-step", "title": "Queue Step Calculator"},
+    {"id": "bottleneck", "title": "Effective Bottleneck Capacity Calculator"},
+    {"id": "buffer", "title": "Buffer Saturation Calculator"},
+    {"id": "capacity-decay", "title": "Maintenance and Capacity Decay Calculator"},
+    {"id": "resilience", "title": "Service Resilience Ratio Calculator"},
+    {"id": "governance-warning", "title": "Infrastructure Governance Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

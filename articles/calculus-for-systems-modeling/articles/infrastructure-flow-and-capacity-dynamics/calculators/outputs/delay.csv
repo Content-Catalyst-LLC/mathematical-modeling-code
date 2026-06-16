@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_utilization,input_base_delay,input_alpha,result_delay
+delay,Computes illustrative nonlinear delay as utilization approaches capacity.,Delay functions are model assumptions and should be calibrated.,delay,0.95,1.0,0.8,16.19999999999999

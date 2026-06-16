@@ -1,0 +1,65 @@
+[
+  {
+    "card_id": "flow-record",
+    "category": "model definition",
+    "governance_note": "Infrastructure outputs cannot be interpreted responsibly if flow definitions are unclear.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Flow Record"
+  },
+  {
+    "card_id": "capacity-record",
+    "category": "capacity governance",
+    "governance_note": "Nominal capacity may differ from effective capacity.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Capacity Record"
+  },
+  {
+    "card_id": "queue-record",
+    "category": "service governance",
+    "governance_note": "Average throughput can hide waiting-time and backlog effects.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Queue Record"
+  },
+  {
+    "card_id": "bottleneck-record",
+    "category": "network governance",
+    "governance_note": "The apparent bottleneck may shift under disruption or demand change.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Bottleneck Record"
+  },
+  {
+    "card_id": "maintenance-record",
+    "category": "asset governance",
+    "governance_note": "Capacity should not be assumed fixed without maintenance records.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Maintenance Record"
+  },
+  {
+    "card_id": "resilience-record",
+    "category": "stress governance",
+    "governance_note": "Spare capacity may be essential resilience, not waste.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Resilience Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Infrastructure conclusions should not exceed flow definitions, capacity evidence, operating conditions, uncertainty, governance feasibility, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]
