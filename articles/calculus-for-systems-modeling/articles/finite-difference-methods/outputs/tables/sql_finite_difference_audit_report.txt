@@ -1,0 +1,18 @@
+assumption_name            mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary condition         Defines behavior at the domain edge.                          Represents fixed, no-flux, inflow, outflow, reflective, or p  Boundary assumptions can dominate results and should be comp
+                                                                                         eriodic boundaries.                                           ared.                                                       
+
+Convergence check          Compares solutions across grid or time-step refinements.      Tests whether modeled conclusions persist under numerical re  Lack of convergence is a warning.                           
+                                                                                         finement.                                                                                                                 
+
+Grid spacing               Defines spatial resolution of the finite difference approxim  Controls what spatial structure the model can represent.      Grid refinement should be tested when gradients or boundarie
+                           ation.                                                                                                                      s matter.                                                   
+
+Stability condition        Defines whether numerical errors remain controlled under rep  Protects against simulation artifacts being mistaken for sys  Scheme-specific stability checks should be recorded.        
+                           eated updates.                                                tem behavior.                                                                                                             
+
+Finite difference stencil  Defines which neighboring values approximate derivatives.     Encodes local interaction, smoothing, transport, or curvatur  Stencil choice affects accuracy, stability, and boundary beh
+                                                                                         e.                                                            avior.                                                      
+
+Time step                  Defines temporal resolution of the update scheme.             Controls simulation pace, stability, and temporal detail.     Time-step sensitivity should be tested and documented.      

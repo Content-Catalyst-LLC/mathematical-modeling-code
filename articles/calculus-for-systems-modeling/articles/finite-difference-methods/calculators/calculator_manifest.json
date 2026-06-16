@@ -1,0 +1,14 @@
+{
+  "article_slug": "finite-difference-methods",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "diffusion-ratio", "title": "Diffusion Stability Ratio"},
+    {"id": "forward-difference", "title": "Forward Difference"},
+    {"id": "central-difference", "title": "Central Difference"},
+    {"id": "second-central-difference", "title": "Second Central Difference"},
+    {"id": "explicit-diffusion-step", "title": "Explicit Diffusion Step"},
+    {"id": "stability-check", "title": "Explicit Diffusion Stability Check"},
+    {"id": "diffusion-simulation", "title": "Finite Difference Diffusion Simulation"}
+  ]
+}

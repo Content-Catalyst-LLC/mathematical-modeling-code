@@ -1,0 +1,4 @@
+- **Grid** (active): Grid spacing and time step should be documented.
+- **Stencil** (active): Stencil choice encodes local interaction and derivative approximation.
+- **Explicit Update** (review): Explicit schemes require stability checks before interpretation.
+- **Boundary Rule** (review): Boundary assumptions can dominate modeled behavior.

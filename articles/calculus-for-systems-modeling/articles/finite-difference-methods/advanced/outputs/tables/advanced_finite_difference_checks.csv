@@ -1,0 +1,7 @@
+condition,passed,warning
+finite-difference formulas included,True,
+explicit diffusion example included,True,
+stencil and boundary governance included,True,
+stability ratio included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

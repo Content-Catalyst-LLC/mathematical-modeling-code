@@ -1,0 +1,18 @@
+{
+  "calculator": "diffusion-simulation",
+  "inputs": {
+    "command": "diffusion-simulation",
+    "diffusivity": 0.08,
+    "dt": 0.2,
+    "dx": 1.0,
+    "grid_points": 61,
+    "steps": 120
+  },
+  "result": {
+    "diffusion_ratio": 0.016,
+    "final_center_value": 0.2108704152295842,
+    "records": 121,
+    "stability_status": "stable_for_basic_explicit_1d_diffusion"
+  },
+  "warning": "Finite difference outputs depend on grid spacing, time step, stencil, boundary condition, stability, and convergence checks."
+}

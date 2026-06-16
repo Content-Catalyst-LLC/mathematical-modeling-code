@@ -1,0 +1,2 @@
+  diffusion_ratio                       stability_status
+1           0.016 stable_for_basic_explicit_1d_diffusion

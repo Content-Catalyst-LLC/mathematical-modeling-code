@@ -1,0 +1,21 @@
+Finite difference audit complete.
+Catalyst Canvas cards generated.
+/Library/Developer/CommandLineTools/usr/bin/make -C advanced smoke
+python3 python/generate_advanced_report.py
+Advanced finite difference audit generated.
+[calculator smoke] done
+  step time center_value total_mass max_value left_boundary right_boundary
+1    0  0.0    1.0000000          1 1.0000000             0              0
+2    1  0.2    0.9680000          1 0.9680000             0              0
+3    2  0.4    0.9375360          1 0.9375360             0              0
+4    3  0.6    0.9085261          1 0.9085261             0              0
+5    4  0.8    0.8808929          1 0.8808929             0              0
+6    5  1.0    0.8545635          1 0.8545635             0              0
+  diffusion_ratio                       stability_status
+1           0.016 stable_for_basic_explicit_1d_diffusion
+2           0.016 stable_for_basic_explicit_1d_diffusion
+3           0.016 stable_for_basic_explicit_1d_diffusion
+4           0.016 stable_for_basic_explicit_1d_diffusion
+5           0.016 stable_for_basic_explicit_1d_diffusion
+6           0.016 stable_for_basic_explicit_1d_diffusion
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run

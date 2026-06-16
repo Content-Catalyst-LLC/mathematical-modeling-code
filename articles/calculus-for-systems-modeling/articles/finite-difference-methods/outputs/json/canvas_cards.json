@@ -1,0 +1,38 @@
+[
+  {
+    "card_id": "grid",
+    "category": "model structure",
+    "governance_note": "Grid spacing and time step should be documented.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Grid"
+  },
+  {
+    "card_id": "stencil",
+    "category": "method",
+    "governance_note": "Stencil choice encodes local interaction and derivative approximation.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Stencil"
+  },
+  {
+    "card_id": "explicit-update",
+    "category": "method",
+    "governance_note": "Explicit schemes require stability checks before interpretation.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Explicit Update"
+  },
+  {
+    "card_id": "boundary-rule",
+    "category": "governance",
+    "governance_note": "Boundary assumptions can dominate modeled behavior.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Boundary Rule"
+  }
+]

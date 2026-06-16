@@ -1,0 +1,13 @@
+{
+  "calculator": "forward-difference",
+  "inputs": {
+    "command": "forward-difference",
+    "dx": 0.1,
+    "f_current": 1.0,
+    "f_next": 1.2
+  },
+  "result": {
+    "derivative_estimate": 1.9999999999999996
+  },
+  "warning": "Finite difference outputs depend on grid spacing, time step, stencil, boundary condition, stability, and convergence checks."
+}

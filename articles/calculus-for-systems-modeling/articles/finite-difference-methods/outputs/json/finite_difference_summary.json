@@ -1,0 +1,10 @@
+{
+  "diffusion_ratio": 0.016,
+  "diffusivity": 0.08,
+  "dt": 0.2,
+  "dx": 1.0,
+  "grid_points": 61,
+  "interpretation": "The workflow audits how a local finite difference stencil evolves a synthetic diffusion field.",
+  "stability_note": "For a basic explicit one-dimensional diffusion scheme, diffusion_ratio <= 0.5 is a common stability condition.",
+  "steps": 120
+}

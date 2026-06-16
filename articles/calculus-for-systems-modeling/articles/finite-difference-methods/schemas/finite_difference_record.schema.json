@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FiniteDifferenceRecord",
+  "type": "object",
+  "required": ["step", "time", "center_value", "total_mass", "max_value", "left_boundary", "right_boundary", "diffusion_ratio", "stability_status", "warning"],
+  "properties": {
+    "step": {"type": "integer"},
+    "time": {"type": "number"},
+    "center_value": {"type": "number"},
+    "total_mass": {"type": "number"},
+    "max_value": {"type": "number"},
+    "left_boundary": {"type": "number"},
+    "right_boundary": {"type": "number"},
+    "diffusion_ratio": {"type": "number"},
+    "stability_status": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

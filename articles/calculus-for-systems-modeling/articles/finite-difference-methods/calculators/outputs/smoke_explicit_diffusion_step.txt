@@ -1,0 +1,14 @@
+{
+  "calculator": "explicit-diffusion-step",
+  "inputs": {
+    "center": 1.0,
+    "command": "explicit-diffusion-step",
+    "left": 0.0,
+    "ratio": 0.016,
+    "right": 0.0
+  },
+  "result": {
+    "updated_center": 0.968
+  },
+  "warning": "Finite difference outputs depend on grid spacing, time step, stencil, boundary condition, stability, and convergence checks."
+}

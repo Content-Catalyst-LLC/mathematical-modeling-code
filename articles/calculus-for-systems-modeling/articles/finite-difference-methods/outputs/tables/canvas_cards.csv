@@ -1,0 +1,5 @@
+card_id,title,category,score,status,review_date,governance_note
+grid,Grid,model structure,96,active,2026-06-15,Grid spacing and time step should be documented.
+stencil,Stencil,method,95,active,2026-06-15,Stencil choice encodes local interaction and derivative approximation.
+explicit-update,Explicit Update,method,94,review,2026-06-15,Explicit schemes require stability checks before interpretation.
+boundary-rule,Boundary Rule,governance,93,review,2026-06-15,Boundary assumptions can dominate modeled behavior.

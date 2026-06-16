@@ -1,0 +1,13 @@
+{
+  "calculator": "central-difference",
+  "inputs": {
+    "command": "central-difference",
+    "dx": 0.1,
+    "f_next": 1.2,
+    "f_previous": 1.0
+  },
+  "result": {
+    "derivative_estimate": 0.9999999999999998
+  },
+  "warning": "Finite difference outputs depend on grid spacing, time step, stencil, boundary condition, stability, and convergence checks."
+}

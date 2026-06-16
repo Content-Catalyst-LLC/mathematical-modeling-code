@@ -1,0 +1,3 @@
+package main
+import "fmt"
+func main(){n:=61; steps:=120; dx:=1.0; dt:=0.2; ratio:=0.08*dt/(dx*dx); field:=make([]float64,n); field[n/2]=1; fmt.Println("step,time,center_value,total_mass,max_value,left_boundary,right_boundary,diffusion_ratio"); for s:=0;s<=steps;s++{total:=0.0; maxv:=field[0]; for _,v:=range field{total+=v*dx; if v>maxv{maxv=v}}; fmt.Printf("%d,%.6f,%.6f,%.6f,%.6f,%.6f,%.6f,%.6f\n",s,float64(s)*dt,field[n/2],total,maxv,field[0],field[n-1],ratio); updated:=make([]float64,n); copy(updated,field); for i:=1;i<n-1;i++{updated[i]=field[i]+ratio*(field[i+1]-2*field[i]+field[i-1])}; updated[0]=0; updated[n-1]=0; field=updated}}
