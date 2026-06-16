@@ -1,0 +1,15 @@
+{
+  "calculator": "induced-demand-step",
+  "inputs": {
+    "adjustment_rate": 0.15,
+    "command": "induced-demand-step",
+    "dt": 1.0,
+    "target_volume": 2600.0,
+    "volume": 2300.0
+  },
+  "interpretation": "Computes one induced-demand adjustment step.",
+  "result": {
+    "next_volume": 2345.0
+  },
+  "warning": "Fixed-demand assumptions can mislead in long-run planning."
+}

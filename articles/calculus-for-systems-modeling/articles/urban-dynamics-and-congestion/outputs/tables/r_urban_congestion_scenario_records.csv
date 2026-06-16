@@ -1,0 +1,5 @@
+"scenario_name","model_type","demand","capacity","final_queue","total_delay","travel_time","warning"
+"below_capacity_corridor","queue_and_bpr",1800,2000,0,0,21.9683,"demand below capacity produces limited queue accumulation"
+"over_capacity_bottleneck","queue_and_bpr",2300,2000,900,1354.5,25.24701875,"demand above capacity produces persistent queue and delay"
+"capacity_expansion_with_induced_demand","capacity_adjustment",2540.93767869778,2600,0,0,22.7365533292855,"capacity expansion may reduce delay while long-run demand adjusts upward"
+"transit_priority_case","multimodal_capacity",1200,1600,0,0,20.94921875,"transit priority should be evaluated through person throughput"

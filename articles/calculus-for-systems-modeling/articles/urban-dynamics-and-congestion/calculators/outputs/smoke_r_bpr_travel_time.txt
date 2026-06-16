@@ -1,0 +1,4 @@
+       calculator free_flow_time volume capacity travel_time    delay
+1 bpr-travel-time             20   2300     2000    25.24702 5.247019
+                                                                   warning
+1 Travel-time functions should be calibrated and not treated as universal.

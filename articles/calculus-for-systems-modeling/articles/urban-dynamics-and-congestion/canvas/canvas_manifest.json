@@ -1,0 +1,16 @@
+{
+  "article_slug": "urban-dynamics-and-congestion",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "urban-dynamics-and-congestion",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "boundary-record", "title": "Boundary Record", "description": "Link, corridor, intersection, station, curb zone, district, or metropolitan system."},
+    {"card_id": "flow-record", "title": "Flow Record", "description": "Vehicle flows, person flows, freight flows, transit flows, pedestrian flows, and inflow-outflow timing."},
+    {"card_id": "capacity-record", "title": "Capacity Record", "description": "Physical, operational, institutional, curbside, transit, signal, or service constraints."},
+    {"card_id": "behavior-record", "title": "Behavior Record", "description": "Route choice, mode choice, departure-time choice, parking behavior, induced demand, and land-use adjustment."},
+    {"card_id": "multimodal-record", "title": "Multimodal Record", "description": "Transit, walking, cycling, ride-hail, freight, curbside, and emergency access assumptions."},
+    {"card_id": "equity-record", "title": "Equity Record", "description": "Travel burden, access, exposure, affordability, mode constraints, safety, and neighborhood impacts."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, operations, scenario comparison, infrastructure planning, or decision support."}
+  ]
+}

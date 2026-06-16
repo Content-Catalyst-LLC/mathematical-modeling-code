@@ -1,0 +1,4 @@
+    calculator density free_flow_speed jam_density flow
+1 traffic-flow      35              60         140 1575
+                                                        warning
+1 Fundamental diagrams are context-specific not universal laws.

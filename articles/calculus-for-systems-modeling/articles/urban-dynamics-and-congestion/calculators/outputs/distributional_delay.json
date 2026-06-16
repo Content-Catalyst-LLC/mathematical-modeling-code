@@ -1,0 +1,13 @@
+{
+  "calculator": "distributional-delay",
+  "inputs": {
+    "command": "distributional-delay",
+    "delays": "10,20,35",
+    "weights": "1,1.5,2"
+  },
+  "interpretation": "Computes weighted delay burden.",
+  "result": {
+    "distributional_delay_burden": 110.0
+  },
+  "warning": "Average travel-time improvements can hide unequal burden or local harm."
+}

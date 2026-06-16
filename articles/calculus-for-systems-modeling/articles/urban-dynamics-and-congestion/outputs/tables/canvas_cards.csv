@@ -1,0 +1,8 @@
+card_id,title,category,score,status,review_date,governance_note
+boundary-record,Boundary Record,model definition,96,active,2026-06-15,Urban congestion conclusions are not meaningful without a defined boundary and spillover context.
+flow-record,Flow Record,flow governance,95,review,2026-06-15,Vehicle flow should not be treated as the only mobility outcome.
+capacity-record,Capacity Record,capacity governance,94,review,2026-06-15,"Capacity depends on design, operations, behavior, incidents, and curb use."
+behavior-record,Behavior Record,behavior governance,93,review,2026-06-15,Fixed-demand assumptions can mislead in long-run planning.
+multimodal-record,Multimodal Record,access governance,92,review,2026-06-15,Ignoring non-auto modes can distort congestion and equity interpretation.
+equity-record,Equity Record,equity governance,91,review,2026-06-15,Average travel-time improvements can hide unequal burden or local harm.
+claim-boundary,Claim Boundary,governance,90,review,2026-06-15,"Urban conclusions should not exceed boundary definitions, data evidence, behavioral assumptions, uncertainty, equity review, and tested scope."

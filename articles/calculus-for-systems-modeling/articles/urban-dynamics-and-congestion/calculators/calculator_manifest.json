@@ -1,0 +1,21 @@
+{
+  "article_slug": "urban-dynamics-and-congestion",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "traffic-flow", "title": "Traffic Flow Calculator"},
+    {"id": "critical-density", "title": "Critical Density Calculator"},
+    {"id": "queue-step", "title": "Queue Step Calculator"},
+    {"id": "bpr-travel-time", "title": "BPR Travel Time Calculator"},
+    {"id": "accessibility", "title": "Accessibility Calculator"},
+    {"id": "induced-demand-step", "title": "Induced Demand Step Calculator"},
+    {"id": "distributional-delay", "title": "Distributional Delay Burden Calculator"},
+    {"id": "governance-warning", "title": "Urban Modeling Governance Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

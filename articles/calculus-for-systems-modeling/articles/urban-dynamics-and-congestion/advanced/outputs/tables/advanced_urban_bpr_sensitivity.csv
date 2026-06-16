@@ -1,0 +1,6 @@
+volume,capacity,volume_capacity_ratio,travel_time,delay_above_free_flow,governance_status,warning
+1400,2000.0,0.7,20.720299999999998,0.7202999999999982,review,"Travel-time sensitivity should be interpreted with capacity, route choice, and multimodal assumptions."
+1700,2000.0,0.85,21.566018749999998,1.5660187499999978,review,"Travel-time sensitivity should be interpreted with capacity, route choice, and multimodal assumptions."
+2000,2000.0,1.0,23.0,3.0,review,"Travel-time sensitivity should be interpreted with capacity, route choice, and multimodal assumptions."
+2300,2000.0,1.15,25.24701875,5.247018749999999,review,"Travel-time sensitivity should be interpreted with capacity, route choice, and multimodal assumptions."
+2600,2000.0,1.3,28.5683,8.5683,review,"Travel-time sensitivity should be interpreted with capacity, route choice, and multimodal assumptions."

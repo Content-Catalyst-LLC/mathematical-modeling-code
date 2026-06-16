@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_free_flow_time,input_volume,input_capacity,input_alpha,input_beta,result_travel_time,result_delay
+bpr-travel-time,Computes BPR travel time.,Travel-time functions should be calibrated and not treated as universal.,bpr-travel-time,20.0,2300.0,2000.0,0.15,4.0,25.24701875,5.247018749999999

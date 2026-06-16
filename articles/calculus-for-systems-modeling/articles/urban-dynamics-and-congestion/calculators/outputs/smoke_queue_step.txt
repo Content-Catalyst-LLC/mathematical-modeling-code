@@ -1,0 +1,15 @@
+{
+  "calculator": "queue-step",
+  "inputs": {
+    "arrival_rate": 2300.0,
+    "command": "queue-step",
+    "dt": 0.01,
+    "queue": 0.0,
+    "service_rate": 2000.0
+  },
+  "interpretation": "Computes one queue accumulation step.",
+  "result": {
+    "next_queue": 3.0
+  },
+  "warning": "Over-capacity delays can spill back upstream."
+}

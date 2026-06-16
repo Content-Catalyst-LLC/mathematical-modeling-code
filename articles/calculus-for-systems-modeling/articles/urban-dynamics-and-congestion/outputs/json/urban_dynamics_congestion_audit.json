@@ -1,0 +1,133 @@
+{
+  "diagnostics": [
+    {
+      "diagnostic_name": "critical_density_example",
+      "interpretation": "density at maximum flow in simple parabolic model",
+      "unit": "vehicles per kilometer",
+      "value": 70.0,
+      "warning": "Critical density depends on the selected flow-density relation."
+    },
+    {
+      "diagnostic_name": "flow_at_density_example",
+      "interpretation": "flow estimated from density, free-flow speed, and jam density",
+      "unit": "vehicles per hour",
+      "value": 1575.0,
+      "warning": "Fundamental diagrams are context-specific, not universal laws."
+    },
+    {
+      "diagnostic_name": "accessibility_example",
+      "interpretation": "accessibility from opportunities and travel times",
+      "unit": "weighted opportunities",
+      "value": 523.827536347351,
+      "warning": "Accessibility depends on opportunity definition and travel-cost assumptions."
+    },
+    {
+      "diagnostic_name": "distributional_delay_burden_example",
+      "interpretation": "delay burden weighted across groups",
+      "unit": "weighted minutes",
+      "value": 110.0,
+      "warning": "Average delay can hide unequal burden."
+    },
+    {
+      "diagnostic_name": "curb_occupancy_step_example",
+      "interpretation": "curb occupancy after use and release",
+      "unit": "occupied spaces",
+      "value": 19.0,
+      "warning": "Curb dynamics can reduce effective road and transit capacity."
+    }
+  ],
+  "interpretation_warning": "Urban congestion model outputs depend on system boundaries, flow definitions, capacity assumptions, behavioral response, mode options, land-use feedback, equity outputs, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "traffic flow",
+      "parameter_name": "q",
+      "unit": "vehicles per hour",
+      "value": 1800.0,
+      "warning": "Flow unit and mode must be documented."
+    },
+    {
+      "interpretation": "density",
+      "parameter_name": "k",
+      "unit": "vehicles per kilometer",
+      "value": 35.0,
+      "warning": "Density depends on vehicle mix, lane definition, and measurement method."
+    },
+    {
+      "interpretation": "free-flow speed",
+      "parameter_name": "v_f",
+      "unit": "kilometers per hour",
+      "value": 60.0,
+      "warning": "Free-flow speed should not be treated as a universal target."
+    },
+    {
+      "interpretation": "jam density",
+      "parameter_name": "k_j",
+      "unit": "vehicles per kilometer",
+      "value": 140.0,
+      "warning": "Jam density represents near-standstill conditions."
+    },
+    {
+      "interpretation": "capacity",
+      "parameter_name": "C",
+      "unit": "vehicles per hour",
+      "value": 2000.0,
+      "warning": "Capacity depends on design, signals, incidents, weather, and curb use."
+    },
+    {
+      "interpretation": "demand adjustment rate",
+      "parameter_name": "mu",
+      "unit": "per year",
+      "value": 0.1,
+      "warning": "Long-run demand can change after capacity or accessibility changes."
+    },
+    {
+      "interpretation": "accessibility decay",
+      "parameter_name": "theta",
+      "unit": "per minute",
+      "value": 0.08,
+      "warning": "Accessibility assumptions shape equity interpretation."
+    }
+  ],
+  "scenario_records": [
+    {
+      "capacity": 2000.0,
+      "demand": 1800.0,
+      "final_queue": 0.0,
+      "interpretation": "demand below capacity produces limited queue accumulation",
+      "model_type": "queue_and_bpr",
+      "scenario_name": "below_capacity_corridor",
+      "total_delay": 0.0,
+      "travel_time": 21.9683
+    },
+    {
+      "capacity": 2000.0,
+      "demand": 2300.0,
+      "final_queue": 900.0,
+      "interpretation": "demand above capacity produces persistent queue and delay",
+      "model_type": "queue_and_bpr",
+      "scenario_name": "over_capacity_bottleneck",
+      "total_delay": 1354.5000000000002,
+      "travel_time": 25.24701875
+    },
+    {
+      "capacity": 2600.0,
+      "demand": 2540.937678697783,
+      "final_queue": 0.0,
+      "interpretation": "capacity expansion may reduce delay while long-run demand adjusts upward",
+      "model_type": "capacity_adjustment",
+      "scenario_name": "capacity_expansion_with_induced_demand",
+      "total_delay": 0.0,
+      "travel_time": 22.736553329285503
+    },
+    {
+      "capacity": 1600.0,
+      "demand": 1200.0,
+      "final_queue": 0.0,
+      "interpretation": "transit priority can reduce person-delay when person throughput is considered",
+      "model_type": "multimodal_capacity",
+      "scenario_name": "transit_priority_case",
+      "total_delay": 0.0,
+      "travel_time": 20.94921875
+    }
+  ]
+}

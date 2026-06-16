@@ -1,0 +1,14 @@
+{
+  "calculator": "traffic-flow",
+  "inputs": {
+    "command": "traffic-flow",
+    "density": 35.0,
+    "free_flow_speed": 60.0,
+    "jam_density": 140.0
+  },
+  "interpretation": "Computes flow from density, free-flow speed, and jam density.",
+  "result": {
+    "flow": 1575.0
+  },
+  "warning": "Fundamental diagrams are context-specific, not universal laws."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_queue,input_arrival_rate,input_service_rate,input_dt,result_next_queue
+queue-step,Computes one queue accumulation step.,Over-capacity delays can spill back upstream.,queue-step,0.0,2300.0,2000.0,0.01,3.0

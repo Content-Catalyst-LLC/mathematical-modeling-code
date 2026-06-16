@@ -1,0 +1,22 @@
+{
+  "article": "Urban Dynamics and Congestion",
+  "advanced_standard": true,
+  "features": [
+    "traffic flow identity",
+    "fundamental diagram",
+    "queue accumulation",
+    "BPR travel-time functions",
+    "induced demand",
+    "accessibility",
+    "curbside occupancy",
+    "distributional delay burden",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Vehicle flow should not be treated as the only mobility outcome.",
+    "Fixed-demand assumptions can mislead in long-run planning.",
+    "Average travel-time improvements can hide unequal burden or local harm.",
+    "Urban conclusions should not exceed boundary definitions, data evidence, behavioral assumptions, uncertainty, equity review, and tested scope."
+  ]
+}

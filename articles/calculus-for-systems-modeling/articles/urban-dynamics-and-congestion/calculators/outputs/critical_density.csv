@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_jam_density,result_critical_density
+critical-density,Computes critical density in the simple parabolic model.,Critical density depends on the selected flow-density relation.,critical-density,140.0,70.0

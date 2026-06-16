@@ -1,0 +1,6 @@
+diagnostic_name,value,unit,interpretation,warning
+critical_density_example,70.0,vehicles per kilometer,density at maximum flow in simple parabolic model,Critical density depends on the selected flow-density relation.
+flow_at_density_example,1575.0,vehicles per hour,"flow estimated from density, free-flow speed, and jam density","Fundamental diagrams are context-specific, not universal laws."
+accessibility_example,523.827536347351,weighted opportunities,accessibility from opportunities and travel times,Accessibility depends on opportunity definition and travel-cost assumptions.
+distributional_delay_burden_example,110.0,weighted minutes,delay burden weighted across groups,Average delay can hide unequal burden.
+curb_occupancy_step_example,19.0,occupied spaces,curb occupancy after use and release,Curb dynamics can reduce effective road and transit capacity.

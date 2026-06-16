@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "equity"
+  },
+  "interpretation": "Creates an urban modeling governance warning.",
+  "result": {
+    "note": "Average travel-time improvements can hide unequal burden or local harm."
+  },
+  "warning": "Urban conclusions should not exceed boundary definitions, data evidence, behavioral assumptions, uncertainty, equity review, and tested scope."
+}

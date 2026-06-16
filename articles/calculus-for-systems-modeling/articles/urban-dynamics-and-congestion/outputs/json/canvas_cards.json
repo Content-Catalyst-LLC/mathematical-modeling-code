@@ -1,0 +1,65 @@
+[
+  {
+    "card_id": "boundary-record",
+    "category": "model definition",
+    "governance_note": "Urban congestion conclusions are not meaningful without a defined boundary and spillover context.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Boundary Record"
+  },
+  {
+    "card_id": "flow-record",
+    "category": "flow governance",
+    "governance_note": "Vehicle flow should not be treated as the only mobility outcome.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Flow Record"
+  },
+  {
+    "card_id": "capacity-record",
+    "category": "capacity governance",
+    "governance_note": "Capacity depends on design, operations, behavior, incidents, and curb use.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Capacity Record"
+  },
+  {
+    "card_id": "behavior-record",
+    "category": "behavior governance",
+    "governance_note": "Fixed-demand assumptions can mislead in long-run planning.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Behavior Record"
+  },
+  {
+    "card_id": "multimodal-record",
+    "category": "access governance",
+    "governance_note": "Ignoring non-auto modes can distort congestion and equity interpretation.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Multimodal Record"
+  },
+  {
+    "card_id": "equity-record",
+    "category": "equity governance",
+    "governance_note": "Average travel-time improvements can hide unequal burden or local harm.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Equity Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Urban conclusions should not exceed boundary definitions, data evidence, behavioral assumptions, uncertainty, equity review, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "calculator": "bpr-travel-time",
+  "inputs": {
+    "alpha": 0.15,
+    "beta": 4.0,
+    "capacity": 2000.0,
+    "command": "bpr-travel-time",
+    "free_flow_time": 20.0,
+    "volume": 2300.0
+  },
+  "interpretation": "Computes BPR travel time.",
+  "result": {
+    "delay": 5.247018749999999,
+    "travel_time": 25.24701875
+  },
+  "warning": "Travel-time functions should be calibrated and not treated as universal."
+}

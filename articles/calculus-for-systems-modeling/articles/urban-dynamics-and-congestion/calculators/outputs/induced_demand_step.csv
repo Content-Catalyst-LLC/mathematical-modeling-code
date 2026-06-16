@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_volume,input_target_volume,input_adjustment_rate,input_dt,result_next_volume
+induced-demand-step,Computes one induced-demand adjustment step.,Fixed-demand assumptions can mislead in long-run planning.,induced-demand-step,2300.0,2600.0,0.15,1.0,2345.0

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_opportunities,input_travel_times,input_theta,result_accessibility
+accessibility,Computes an exponential-decay accessibility measure.,Accessibility depends on opportunity definition and travel-cost assumptions.,accessibility,"1000,500,250","10,25,45",0.08,523.827536347351

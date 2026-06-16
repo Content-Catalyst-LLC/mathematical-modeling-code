@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_delays,input_weights,result_distributional_delay_burden
+distributional-delay,Computes weighted delay burden.,Average travel-time improvements can hide unequal burden or local harm.,distributional-delay,"10,20,35","1,1.5,2",110.0

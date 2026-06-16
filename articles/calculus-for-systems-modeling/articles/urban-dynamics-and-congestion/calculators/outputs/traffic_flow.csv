@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_density,input_free_flow_speed,input_jam_density,result_flow
+traffic-flow,"Computes flow from density, free-flow speed, and jam density.","Fundamental diagrams are context-specific, not universal laws.",traffic-flow,35.0,60.0,140.0,1575.0

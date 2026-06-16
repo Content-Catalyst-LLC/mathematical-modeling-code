@@ -1,0 +1,35 @@
+actual_title: "Urban Dynamics and Congestion"
+suggested_seo_title: "Urban Dynamics and Congestion"
+focus_keyword: "urban dynamics and congestion"
+slug: "urban-dynamics-and-congestion"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "energy-balance-models"
+  current: "urban-dynamics-and-congestion"
+  next: "coupled-human-natural-systems"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/urban-dynamics-and-congestion"
+tags:
+  - Calculus
+  - Urban Dynamics
+  - Congestion
+  - Traffic Flow
+  - Transportation Modeling
+  - Accessibility
+  - Infrastructure Capacity
+  - Systems Modeling
+excerpt_139_words: "Urban Dynamics and Congestion shows how calculus turns movement, density, flow, delay, capacity, feedback, accessibility, and infrastructure stress into a structured systems model. This article introduces urban congestion reasoning for calculus-based systems modeling, including urban stocks and flows, density-speed-flow relationships, traffic flow, bottlenecks, queues, travel time, generalized cost, route choice, network equilibrium, induced demand, public transit, multimodal access, land-use interaction, freight, curbside dynamics, environmental effects, distributional burden, calibration, uncertainty, sensitivity, and responsible interpretation. It shows why congestion is not merely too many vehicles, but a dynamic interaction among demand, capacity, behavior, land use, institutions, and alternatives. Computational workflows support queue scenarios, BPR travel-time functions, accessibility calculators, induced-demand adjustment, SQL governance registries, Haskell typed urban records, calculator scripts, Canvas artifacts, and generated reports."
+advanced_features:
+  - traffic flow identity
+  - fundamental diagram
+  - queue accumulation
+  - BPR travel-time functions
+  - generalized cost
+  - route choice and feedback
+  - induced demand
+  - accessibility
+  - distributional delay burden
+  - curbside occupancy
+  - calculators layer
+  - Catalyst Canvas governance
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

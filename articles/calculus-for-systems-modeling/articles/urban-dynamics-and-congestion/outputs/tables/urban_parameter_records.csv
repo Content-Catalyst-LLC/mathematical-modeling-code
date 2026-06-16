@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+q,1800.0,vehicles per hour,traffic flow,Flow unit and mode must be documented.
+k,35.0,vehicles per kilometer,density,"Density depends on vehicle mix, lane definition, and measurement method."
+v_f,60.0,kilometers per hour,free-flow speed,Free-flow speed should not be treated as a universal target.
+k_j,140.0,vehicles per kilometer,jam density,Jam density represents near-standstill conditions.
+C,2000.0,vehicles per hour,capacity,"Capacity depends on design, signals, incidents, weather, and curb use."
+mu,0.1,per year,demand adjustment rate,Long-run demand can change after capacity or accessibility changes.
+theta,0.08,per minute,accessibility decay,Accessibility assumptions shape equity interpretation.

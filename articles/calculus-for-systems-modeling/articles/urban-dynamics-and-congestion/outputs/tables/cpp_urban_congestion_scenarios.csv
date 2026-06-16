@@ -1,0 +1,3 @@
+scenario_name,model_type,flow,travel_time,queue_step,warning
+below_capacity_corridor,link_flow,1575,21.9683,0,flow_unit_and_boundary_must_be_documented
+over_capacity_bottleneck,queue_and_bpr,2100,25.247,3,over_capacity_delays_can_spill_back_upstream

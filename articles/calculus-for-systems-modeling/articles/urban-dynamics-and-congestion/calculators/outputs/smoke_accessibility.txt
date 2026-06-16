@@ -1,0 +1,14 @@
+{
+  "calculator": "accessibility",
+  "inputs": {
+    "command": "accessibility",
+    "opportunities": "1000,500,250",
+    "theta": 0.08,
+    "travel_times": "10,25,45"
+  },
+  "interpretation": "Computes an exponential-decay accessibility measure.",
+  "result": {
+    "accessibility": 523.827536347351
+  },
+  "warning": "Accessibility depends on opportunity definition and travel-cost assumptions."
+}

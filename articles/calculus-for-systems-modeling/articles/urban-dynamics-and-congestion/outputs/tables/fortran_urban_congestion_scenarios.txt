@@ -1,0 +1,2 @@
+scenario flow travel_time
+below_capacity_corridor  1575.000000    21.968300

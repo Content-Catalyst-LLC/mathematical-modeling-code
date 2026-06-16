@@ -24,8 +24,8 @@ III Integration and Accumulation,22,improper-integrals-and-unbounded-quantities,
 III Integration and Accumulation,23,accumulation-exposure-and-flow-to-stock-reasoning,Accumulation Exposure and Flow-to-Stock Reasoning,active,articles/accumulation-exposure-and-flow-to-stock-reasoning,upgraded,
 IV Sequences Series and Convergence,24,sequences-series-and-the-logic-of-convergence,Sequences Series and the Logic of Convergence,active,articles/sequences-series-and-the-logic-of-convergence,upgraded,
 IV Sequences Series and Convergence,25,convergence-tests-and-the-discipline-of-infinite-approximation,Convergence Tests and the Discipline of Infinite Approximation,active,articles/convergence-tests-and-the-discipline-of-infinite-approximation,upgraded,included
-IV Sequences Series and Convergence,26,power-series-and-taylor-approximation,Power Series and Taylor Approximation,planned,articles/power-series-and-taylor-approximation,required,
 IV Sequences Series and Convergence,26,power-series-and-functional-representation,Power Series and Functional Representation,active,articles/power-series-and-functional-representation,upgraded,included
+IV Sequences Series and Convergence,26,power-series-and-taylor-approximation,Power Series and Taylor Approximation,planned,articles/power-series-and-taylor-approximation,required,
 IV Sequences Series and Convergence,27,taylor-and-maclaurin-series-in-modeling,Taylor and Maclaurin Series in Modeling,active,articles/taylor-and-maclaurin-series-in-modeling,upgraded,included
 IV Sequences Series and Convergence,28,approximation-error-truncation-and-local-validity,Approximation Error Truncation and Local Validity,active,articles/approximation-error-truncation-and-local-validity,upgraded,included
 V Multivariable Calculus,29,functions-of-several-variables,Functions of Several Variables,active,articles/functions-of-several-variables,upgraded,included
@@ -89,5 +89,6 @@ X Applied Continuous Systems,86,infrastructure-flow-and-capacity-dynamics,Infras
 X Applied Continuous Systems,87,economic-growth-and-adjustment-models,Economic Growth and Adjustment Models,active,articles/economic-growth-and-adjustment-models,upgraded,included
 X Applied Continuous Systems,88,financial-dynamics-and-continuous-compounding,Financial Dynamics and Continuous Compounding,active,articles/financial-dynamics-and-continuous-compounding,upgraded,included
 X Applied Continuous Systems,89,continuous-time-epidemiological-models,Continuous-Time Epidemiological Models,active,articles/continuous-time-epidemiological-models,upgraded,included
-X Applied Continuous Systems,90,energy-balance-models,Energy Balance Models,planned,articles/energy-balance-models,required,required
-X Applied Continuous Systems,91,urban-dynamics-and-congestion,Urban Dynamics and Congestion,planned,articles/urban-dynamics-and-congestion,required,required
+X Applied Continuous Systems,90,energy-balance-models,Energy Balance Models,active,articles/energy-balance-models,upgraded,included
+X Applied Continuous Systems,91,urban-dynamics-and-congestion,Urban Dynamics and Congestion,active,articles/urban-dynamics-and-congestion,upgraded,included
+X Applied Continuous Systems,92,coupled-human-natural-systems,Coupled Human-Natural Systems,planned,articles/coupled-human-natural-systems,required,required

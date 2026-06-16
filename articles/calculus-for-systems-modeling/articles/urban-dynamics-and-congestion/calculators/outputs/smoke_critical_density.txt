@@ -1,0 +1,12 @@
+{
+  "calculator": "critical-density",
+  "inputs": {
+    "command": "critical-density",
+    "jam_density": 140.0
+  },
+  "interpretation": "Computes critical density in the simple parabolic model.",
+  "result": {
+    "critical_density": 70.0
+  },
+  "warning": "Critical density depends on the selected flow-density relation."
+}
