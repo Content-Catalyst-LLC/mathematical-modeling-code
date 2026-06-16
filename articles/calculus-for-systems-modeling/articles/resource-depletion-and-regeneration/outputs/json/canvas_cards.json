@@ -1,0 +1,56 @@
+[
+  {
+    "card_id": "stock-flow-record",
+    "category": "model definition",
+    "governance_note": "Resource outputs cannot be interpreted responsibly if stock-flow definitions are unclear.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Stock-Flow Record"
+  },
+  {
+    "card_id": "regeneration-record",
+    "category": "renewal governance",
+    "governance_note": "Renewable does not mean unlimited.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Regeneration Record"
+  },
+  {
+    "card_id": "extraction-record",
+    "category": "use governance",
+    "governance_note": "Extraction should not be treated as controllable without governance assumptions.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Extraction Record"
+  },
+  {
+    "card_id": "threshold-record",
+    "category": "risk governance",
+    "governance_note": "Threshold values require evidence and precaution.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Threshold Record"
+  },
+  {
+    "card_id": "yield-record",
+    "category": "harvest governance",
+    "governance_note": "MSY is not a safe target under uncertainty by default.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Yield Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Resource conclusions should not exceed stock definitions, evidence, assumptions, governance feasibility, uncertainty, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

@@ -1,0 +1,4 @@
+             calculator stock    r    k regeneration
+1 logistic-regeneration   500 0.18 1000           45
+                                                                                      warning
+1 Logistic regeneration is a simplifying assumption and should be validated for the resource.

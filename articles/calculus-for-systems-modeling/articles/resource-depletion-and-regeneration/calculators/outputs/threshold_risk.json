@@ -1,0 +1,14 @@
+{
+  "calculator": "threshold-risk",
+  "inputs": {
+    "command": "threshold-risk",
+    "stock": 150.0,
+    "threshold": 180.0
+  },
+  "interpretation": "Flags whether stock is below a critical recovery threshold.",
+  "result": {
+    "stock_gap": -30.0,
+    "threshold_status": "below_threshold"
+  },
+  "warning": "Threshold values require evidence and precaution."
+}

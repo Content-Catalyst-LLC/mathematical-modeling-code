@@ -1,0 +1,19 @@
+{
+  "calculator": "simulate-renewable",
+  "inputs": {
+    "command": "simulate-renewable",
+    "dt": 0.1,
+    "harvest": 35.0,
+    "k": 1000.0,
+    "loss_rate": 0.0,
+    "r": 0.18,
+    "steps": 800,
+    "stock0": 600.0
+  },
+  "interpretation": "Simulates a renewable resource with logistic regeneration.",
+  "result": {
+    "cumulative_extraction": 2800.0,
+    "final_stock": 735.4931259570167
+  },
+  "warning": "Simulation output depends on stock definition, regeneration assumptions, and harvest governance."
+}

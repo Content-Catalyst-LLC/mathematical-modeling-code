@@ -1,0 +1,5 @@
+harvest,msy,harvest_to_msy_ratio,governance_status,warning
+25.0,45.0,0.5555555555555556,precautionary,MSY is not a safe target under uncertainty by default.
+35.0,45.0,0.7777777777777778,precautionary,MSY is not a safe target under uncertainty by default.
+45.0,45.0,1.0,review,MSY is not a safe target under uncertainty by default.
+60.0,45.0,1.3333333333333333,review,MSY is not a safe target under uncertainty by default.

@@ -1,0 +1,7 @@
+scenario_name,resource_type,final_time,final_stock,cumulative_extraction,interpretation
+renewable_precautionary_harvest,renewable_logistic,80.0,735.4931259570167,2800.0,harvest below idealized maximum yield allows persistence under baseline assumptions
+renewable_high_harvest,renewable_logistic,80.0,0.0,1598.0749548287304,higher harvest pressure can push stock downward
+threshold_recovery_risk,threshold_regeneration,80.0,936.478953815287,3600.0,threshold-dependent recovery can slow or fail under depletion
+degradation_loss_case,renewable_with_loss,80.0,0.0,1848.7448030943133,additional loss or degradation can undermine apparent sustainability
+nonrenewable_drawdown,nonrenewable,80.0,0.0,600.0,nonrenewable resource declines through extraction without regeneration
+efficiency_with_rebound,efficiency_rebound,80.0,0.0,1850.1589756734977,efficiency gains are partly offset by rebound demand

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_stock,input_r,input_k,result_regeneration
+logistic-regeneration,Computes logistic resource regeneration.,Logistic regeneration is a simplifying assumption and should be validated for the resource.,logistic-regeneration,500.0,0.18,1000.0,45.0

@@ -1,0 +1,2 @@
+"calculator","stock","r","k","regeneration","warning"
+"logistic-regeneration",500,0.18,1000,45,"Logistic regeneration is a simplifying assumption and should be validated for the resource."

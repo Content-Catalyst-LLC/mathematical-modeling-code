@@ -1,0 +1,15 @@
+{
+  "article_slug": "resource-depletion-and-regeneration",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "resource-depletion-regeneration",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "stock-flow-record", "title": "Stock-Flow Record", "description": "Resource stock, extraction, regeneration, loss, units, measurement status, and system boundary."},
+    {"card_id": "regeneration-record", "title": "Regeneration Record", "description": "Constant, proportional, logistic, threshold-dependent, seasonal, or environment-dependent renewal."},
+    {"card_id": "extraction-record", "title": "Extraction Record", "description": "Harvest, pumping, mining, demand, leakage, waste, efficiency, substitution, and governance rules."},
+    {"card_id": "threshold-record", "title": "Threshold Record", "description": "Critical stock levels, slow recovery, collapse risk, and irreversibility assumptions."},
+    {"card_id": "yield-record", "title": "Yield Record", "description": "Sustainable yield, maximum sustainable yield, precautionary harvest, and uncertainty."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, monitoring, scenario comparison, management, policy analysis, or decision support."}
+  ]
+}

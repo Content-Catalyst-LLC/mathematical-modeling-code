@@ -1,0 +1,15 @@
+{
+  "calculator": "depletion-condition",
+  "inputs": {
+    "command": "depletion-condition",
+    "harvest": 45.0,
+    "loss": 5.0,
+    "regeneration": 35.0
+  },
+  "interpretation": "Checks whether extraction and losses exceed regeneration.",
+  "result": {
+    "depleting": true,
+    "net_change_rate": -15.0
+  },
+  "warning": "A positive or negative rate must be interpreted with uncertainty and governance context."
+}

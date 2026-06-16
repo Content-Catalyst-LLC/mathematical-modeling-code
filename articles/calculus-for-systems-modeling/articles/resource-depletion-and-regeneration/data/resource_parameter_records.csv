@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+R0,600.0,stock units,initial resource stock,Stock definition and measurement boundary must be documented
+r,0.18,per year,regeneration rate,Regeneration may be seasonal climate-dependent or threshold-dependent
+K,1000.0,stock units,carrying capacity,Capacity can change with degradation habitat climate or management
+H,45.0,stock units per year,constant extraction or harvest,Harvest should not be treated as controllable without governance assumptions
+A,180.0,stock units,critical recovery threshold,Threshold values require evidence and precaution
+loss_rate,0.02,per year,additional degradation or leakage loss,Hidden loss terms can make sustainability claims misleading
+efficiency_gain,0.15,fraction,resource-use efficiency improvement,Efficiency can create rebound if demand rises

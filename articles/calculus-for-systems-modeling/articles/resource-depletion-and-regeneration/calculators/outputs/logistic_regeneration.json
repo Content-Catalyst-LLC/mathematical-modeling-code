@@ -1,0 +1,14 @@
+{
+  "calculator": "logistic-regeneration",
+  "inputs": {
+    "command": "logistic-regeneration",
+    "k": 1000.0,
+    "r": 0.18,
+    "stock": 500.0
+  },
+  "interpretation": "Computes logistic resource regeneration.",
+  "result": {
+    "regeneration": 45.0
+  },
+  "warning": "Logistic regeneration is a simplifying assumption and should be validated for the resource."
+}

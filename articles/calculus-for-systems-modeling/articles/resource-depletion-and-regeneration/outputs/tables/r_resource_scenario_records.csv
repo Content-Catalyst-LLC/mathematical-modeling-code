@@ -1,0 +1,5 @@
+"scenario_name","final_stock","cumulative_extraction","warning"
+"renewable_precautionary_harvest",735.493125957017,2800,"harvest below idealized maximum yield allows persistence under baseline assumptions"
+"renewable_high_harvest",0,1598.07495482873,"higher harvest pressure can push stock downward"
+"threshold_recovery_risk",936.478953815287,3600,"threshold-dependent recovery can slow or fail under depletion"
+"degradation_loss_case",0,1848.74480309431,"additional loss or degradation can undermine apparent sustainability"

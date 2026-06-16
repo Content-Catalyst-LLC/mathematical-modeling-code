@@ -1,0 +1,2 @@
+scenario_name,resource_type,final_stock,cumulative_extraction,warning
+renewable_precautionary_harvest,renewable_logistic,735.493,2800,precautionary_harvest

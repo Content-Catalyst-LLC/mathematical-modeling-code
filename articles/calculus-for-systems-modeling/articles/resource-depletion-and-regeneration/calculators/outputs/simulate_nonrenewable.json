@@ -1,0 +1,16 @@
+{
+  "calculator": "simulate-nonrenewable",
+  "inputs": {
+    "command": "simulate-nonrenewable",
+    "dt": 0.1,
+    "extraction_rate": 30.0,
+    "steps": 800,
+    "stock0": 600.0
+  },
+  "interpretation": "Simulates nonrenewable resource drawdown.",
+  "result": {
+    "cumulative_extraction": 600.0,
+    "final_stock": 0.0
+  },
+  "warning": "Nonrenewable drawdown should be modeled separately from renewable recovery."
+}

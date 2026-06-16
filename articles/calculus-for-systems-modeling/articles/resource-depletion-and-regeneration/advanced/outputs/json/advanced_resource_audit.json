@@ -1,0 +1,22 @@
+{
+  "article": "Resource Depletion and Regeneration",
+  "advanced_standard": true,
+  "features": [
+    "stock-flow resource model",
+    "renewable logistic regeneration",
+    "nonrenewable drawdown",
+    "threshold recovery",
+    "maximum sustainable yield",
+    "precautionary harvest",
+    "degradation loss",
+    "efficiency and rebound",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Renewable does not mean unlimited.",
+    "MSY is not a safe target under uncertainty by default.",
+    "Threshold values require evidence and precaution.",
+    "Extraction should not be treated as controllable without governance assumptions."
+  ]
+}

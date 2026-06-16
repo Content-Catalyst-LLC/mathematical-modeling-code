@@ -1,0 +1,16 @@
+{
+  "calculator": "efficiency-rebound",
+  "inputs": {
+    "command": "efficiency-rebound",
+    "demand": 60.0,
+    "efficiency_gain": 0.15,
+    "rebound_factor": 0.6
+  },
+  "interpretation": "Estimates extraction after efficiency and rebound.",
+  "result": {
+    "adjusted_extraction": 56.4,
+    "rebound": 5.3999999999999995,
+    "technical_reduction": 9.0
+  },
+  "warning": "Efficiency can create rebound if total demand rises."
+}

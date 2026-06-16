@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "msy"
+  },
+  "interpretation": "Creates a resource-governance warning.",
+  "result": {
+    "note": "MSY is not a safe target under uncertainty by default."
+  },
+  "warning": "Resource conclusions should not exceed stock definitions, evidence, assumptions, governance feasibility, uncertainty, and tested scope."
+}

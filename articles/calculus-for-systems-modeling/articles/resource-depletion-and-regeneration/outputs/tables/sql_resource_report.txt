@@ -1,0 +1,66 @@
+section                     
+----------------------------
+RESOURCE GOVERNANCE REGISTRY
+registry_name        analytical_role                                               systems_modeling_role                                   review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------  ------------------------------------------------------------
+Claim boundary       Defines whether the model supports teaching, monitoring, sce  Prevents overclaiming and scope drift.                  Resource conclusions should not exceed stock definitions, ev
+                     nario comparison, management, policy analysis, or decision s                                                          idence, assumptions, governance feasibility, uncertainty, an
+                     upport.                                                                                                               d tested scope.                                             
+
+Extraction record    Documents harvest, pumping, mining, demand, leakage, waste,   Separates resource use from recovery capacity.          Extraction should not be treated as controllable without gov
+                     efficiency, substitution, and governance rules.                                                                       ernance assumptions.                                        
+
+Regeneration record  Documents whether regeneration is constant, proportional, lo  Connects recovery assumptions to resource dynamics.     Renewable does not mean unlimited.                          
+                     gistic, threshold-dependent, seasonal, or environment-depend                                                                                                                      
+                     ent.                                                                                                                                                                              
+
+Stock-flow record    Defines resource stock, extraction, regeneration, loss, unit  Makes depletion and recovery dynamics explicit.         Resource outputs cannot be interpreted responsibly if stock-
+                     s, measurement status, and system boundary.                                                                           flow definitions are unclear.                               
+
+Threshold record     Documents critical stock levels, slow recovery, collapse ris  Connects overshoot to recovery risk.                    Threshold values require evidence and precaution.           
+                     k, and irreversibility assumptions.                                                                                                                                               
+
+Yield record         Documents sustainable yield, maximum sustainable yield, prec  Connects extraction rules to regeneration assumptions.  MSY is not a safe target under uncertainty by default.      
+                     autionary harvest, and uncertainty.                                                                                                                                               
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value   unit                  interpretation                          warning                                                     
+--------------  ------  --------------------  --------------------------------------  ------------------------------------------------------------
+A               180.0   stock units           critical recovery threshold             Threshold values require evidence and precaution.           
+
+H               45.0    stock units per year  constant extraction or harvest          Harvest should not be treated as controllable without govern
+                                                                                      ance assumptions.                                           
+
+K               1000.0  stock units           carrying capacity                       Capacity can change with degradation, habitat, climate, or m
+                                                                                      anagement.                                                  
+
+R0              600.0   stock units           initial resource stock                  Stock definition and measurement boundary must be documented
+                                                                                      .                                                           
+
+loss_rate       0.02    per year              additional degradation or leakage loss  Hidden loss terms can make sustainability claims misleading.
+
+r               0.18    per year              regeneration rate                       Regeneration may be seasonal, climate-dependent, or threshol
+                                                                                      d-dependent.                                                
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                    resource_type           final_stock  cumulative_extraction  interpretation                                                warning                                                     
+-------------------------------  ----------------------  -----------  ---------------------  ------------------------------------------------------------  ------------------------------------------------------------
+nonrenewable_drawdown            nonrenewable            0.0          600.0                  nonrenewable resource declines through extraction without re  Nonrenewable drawdown should be modeled separately from rene
+                                                                                             generation                                                    wable recovery.                                             
+
+renewable_high_harvest           renewable_logistic      250.0        4200.0                 higher harvest pressure can push stock downward               High harvest can move stock toward thresholds.              
+
+renewable_precautionary_harvest  renewable_logistic      600.0        2800.0                 harvest below idealized maximum yield allows persistence und  Sustainable yield is model-dependent.                       
+                                                                                             er baseline assumptions                                                                                                   
+
+threshold_recovery_risk          threshold_regeneration  150.0        3000.0                 threshold-dependent recovery can slow or fail under depletio  Threshold values require evidence and precaution.           
+                                                                                             n                                                                                                                         
+section      
+-------------
+YIELD RECORDS
+record_name            maximum_sustainable_yield  precautionary_yield  warning                                                     
+---------------------  -------------------------  -------------------  ------------------------------------------------------------
+logistic_msy_baseline  45.0                       31.5                 MSY is not a safe target under uncertainty by default; preca
+                                                                       utionary harvest is lower.                                  

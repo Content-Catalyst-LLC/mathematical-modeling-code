@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_stock0,input_extraction_rate,input_dt,input_steps,result_final_stock,result_cumulative_extraction
+simulate-nonrenewable,Simulates nonrenewable resource drawdown.,Nonrenewable drawdown should be modeled separately from renewable recovery.,simulate-nonrenewable,600.0,30.0,0.1,800,0.0,600.0

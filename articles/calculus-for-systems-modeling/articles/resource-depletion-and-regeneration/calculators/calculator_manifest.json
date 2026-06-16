@@ -1,0 +1,21 @@
+{
+  "article_slug": "resource-depletion-and-regeneration",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-regeneration", "title": "Logistic Regeneration Calculator"},
+    {"id": "msy", "title": "Maximum Sustainable Yield Calculator"},
+    {"id": "depletion-condition", "title": "Depletion Condition Calculator"},
+    {"id": "simulate-renewable", "title": "Renewable Resource Scenario Simulator"},
+    {"id": "simulate-nonrenewable", "title": "Nonrenewable Drawdown Simulator"},
+    {"id": "threshold-risk", "title": "Threshold Recovery Risk Calculator"},
+    {"id": "efficiency-rebound", "title": "Efficiency and Rebound Calculator"},
+    {"id": "governance-warning", "title": "Resource Governance Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_regeneration,input_harvest,input_loss,result_net_change_rate,result_depleting
+depletion-condition,Checks whether extraction and losses exceed regeneration.,A positive or negative rate must be interpreted with uncertainty and governance context.,depletion-condition,35.0,45.0,5.0,-15.0,True

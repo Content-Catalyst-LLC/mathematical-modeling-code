@@ -1,0 +1,4 @@
+  calculator    r    k maximum_sustainable_yield precautionary_yield
+1        msy 0.18 1000                        45                31.5
+                                                 warning
+1 MSY is not a safe target under uncertainty by default.

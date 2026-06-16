@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_r,input_k,input_precautionary_fraction,result_maximum_sustainable_yield,result_precautionary_yield
+msy,Computes idealized maximum sustainable yield and a precautionary yield.,MSY is not a safe target under uncertainty by default.,msy,0.18,1000.0,0.7,45.0,31.499999999999996

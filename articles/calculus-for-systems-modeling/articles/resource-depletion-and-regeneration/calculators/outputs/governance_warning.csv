@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_context,result_note
+governance-warning,Creates a resource-governance warning.,"Resource conclusions should not exceed stock definitions, evidence, assumptions, governance feasibility, uncertainty, and tested scope.",governance-warning,msy,MSY is not a safe target under uncertainty by default.

@@ -1,0 +1,15 @@
+{
+  "calculator": "msy",
+  "inputs": {
+    "command": "msy",
+    "k": 1000.0,
+    "precautionary_fraction": 0.7,
+    "r": 0.18
+  },
+  "interpretation": "Computes idealized maximum sustainable yield and a precautionary yield.",
+  "result": {
+    "maximum_sustainable_yield": 45.0,
+    "precautionary_yield": 31.499999999999996
+  },
+  "warning": "MSY is not a safe target under uncertainty by default."
+}

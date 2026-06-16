@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_stock0,input_harvest,input_r,input_k,input_dt,input_steps,input_loss_rate,result_final_stock,result_cumulative_extraction
+simulate-renewable,Simulates a renewable resource with logistic regeneration.,"Simulation output depends on stock definition, regeneration assumptions, and harvest governance.",simulate-renewable,600.0,35.0,0.18,1000.0,0.1,800,0.0,735.4931259570167,2800.0

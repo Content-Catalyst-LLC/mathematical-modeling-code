@@ -1,0 +1,2 @@
+record_name,regeneration_rate,carrying_capacity,maximum_sustainable_yield,precautionary_yield,warning
+logistic_msy_baseline,0.18,1000.0,45.0,31.499999999999996,MSY is not a safe target under uncertainty by default; precautionary harvest is lower.

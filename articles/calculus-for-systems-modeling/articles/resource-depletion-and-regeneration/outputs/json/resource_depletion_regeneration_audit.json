@@ -1,0 +1,114 @@
+{
+  "interpretation_warning": "Resource model outputs depend on stock definitions, regeneration assumptions, extraction records, thresholds, governance, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "initial resource stock",
+      "parameter_name": "R0",
+      "unit": "stock units",
+      "value": 600.0,
+      "warning": "Stock definition and measurement boundary must be documented."
+    },
+    {
+      "interpretation": "regeneration rate",
+      "parameter_name": "r",
+      "unit": "per year",
+      "value": 0.18,
+      "warning": "Regeneration may be seasonal, climate-dependent, or threshold-dependent."
+    },
+    {
+      "interpretation": "carrying capacity",
+      "parameter_name": "K",
+      "unit": "stock units",
+      "value": 1000.0,
+      "warning": "Capacity can change with degradation, habitat, climate, or management."
+    },
+    {
+      "interpretation": "constant extraction or harvest",
+      "parameter_name": "H",
+      "unit": "stock units per year",
+      "value": 45.0,
+      "warning": "Harvest should not be treated as controllable without governance assumptions."
+    },
+    {
+      "interpretation": "critical recovery threshold",
+      "parameter_name": "A",
+      "unit": "stock units",
+      "value": 180.0,
+      "warning": "Threshold values require evidence and precaution."
+    },
+    {
+      "interpretation": "additional degradation or leakage loss",
+      "parameter_name": "loss_rate",
+      "unit": "per year",
+      "value": 0.02,
+      "warning": "Hidden loss terms can make sustainability claims misleading."
+    },
+    {
+      "interpretation": "resource-use efficiency improvement",
+      "parameter_name": "efficiency_gain",
+      "unit": "fraction",
+      "value": 0.15,
+      "warning": "Efficiency can create rebound if demand rises."
+    }
+  ],
+  "scenario_records": [
+    {
+      "cumulative_extraction": 2800.0,
+      "final_stock": 735.4931259570167,
+      "final_time": 80.0,
+      "interpretation": "harvest below idealized maximum yield allows persistence under baseline assumptions",
+      "resource_type": "renewable_logistic",
+      "scenario_name": "renewable_precautionary_harvest"
+    },
+    {
+      "cumulative_extraction": 1598.0749548287304,
+      "final_stock": 0.0,
+      "final_time": 80.0,
+      "interpretation": "higher harvest pressure can push stock downward",
+      "resource_type": "renewable_logistic",
+      "scenario_name": "renewable_high_harvest"
+    },
+    {
+      "cumulative_extraction": 3600.0,
+      "final_stock": 936.478953815287,
+      "final_time": 80.0,
+      "interpretation": "threshold-dependent recovery can slow or fail under depletion",
+      "resource_type": "threshold_regeneration",
+      "scenario_name": "threshold_recovery_risk"
+    },
+    {
+      "cumulative_extraction": 1848.7448030943133,
+      "final_stock": 0.0,
+      "final_time": 80.0,
+      "interpretation": "additional loss or degradation can undermine apparent sustainability",
+      "resource_type": "renewable_with_loss",
+      "scenario_name": "degradation_loss_case"
+    },
+    {
+      "cumulative_extraction": 600.0,
+      "final_stock": 0.0,
+      "final_time": 80.0,
+      "interpretation": "nonrenewable resource declines through extraction without regeneration",
+      "resource_type": "nonrenewable",
+      "scenario_name": "nonrenewable_drawdown"
+    },
+    {
+      "cumulative_extraction": 1850.1589756734977,
+      "final_stock": 0.0,
+      "final_time": 80.0,
+      "interpretation": "efficiency gains are partly offset by rebound demand",
+      "resource_type": "efficiency_rebound",
+      "scenario_name": "efficiency_with_rebound"
+    }
+  ],
+  "yield_records": [
+    {
+      "carrying_capacity": 1000.0,
+      "maximum_sustainable_yield": 45.0,
+      "precautionary_yield": 31.499999999999996,
+      "record_name": "logistic_msy_baseline",
+      "regeneration_rate": 0.18,
+      "warning": "MSY is not a safe target under uncertainty by default; precautionary harvest is lower."
+    }
+  ]
+}

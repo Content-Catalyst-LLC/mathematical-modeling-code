@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_demand,input_efficiency_gain,input_rebound_factor,result_technical_reduction,result_rebound,result_adjusted_extraction
+efficiency-rebound,Estimates extraction after efficiency and rebound.,Efficiency can create rebound if total demand rises.,efficiency-rebound,60.0,0.15,0.6,9.0,5.3999999999999995,56.4
