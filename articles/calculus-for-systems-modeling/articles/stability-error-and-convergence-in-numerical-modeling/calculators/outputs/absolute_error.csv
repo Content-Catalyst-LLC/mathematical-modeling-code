@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_numeric,input_exact,result_absolute_error
+absolute-error,Computes absolute numerical error.,Small numerical error does not imply empirical validity.,absolute-error,0.912,0.9119,9.999999999998899e-05

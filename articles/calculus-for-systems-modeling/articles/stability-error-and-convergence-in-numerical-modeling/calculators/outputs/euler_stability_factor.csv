@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step_size,input_eigenvalue,result_amplification_factor,result_status
+euler-stability-factor,Computes a simple Euler amplification factor for a linear test problem.,"This is a test-problem diagnostic, not a full stability proof.",euler-stability-factor,0.1,-1.0,0.9,stable_for_linear_test

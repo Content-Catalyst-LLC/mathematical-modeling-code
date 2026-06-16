@@ -1,0 +1,13 @@
+{
+  "calculator": "convergence-ratio",
+  "inputs": {
+    "command": "convergence-ratio",
+    "current_error": 0.000625,
+    "previous_error": 0.01
+  },
+  "interpretation": "Compares error reduction between refinements.",
+  "result": {
+    "error_ratio": 16.0
+  },
+  "warning": "Convergence evidence supports numerical reliability, not empirical validity."
+}

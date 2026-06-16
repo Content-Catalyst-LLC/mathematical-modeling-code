@@ -1,0 +1,13 @@
+{
+  "calculator": "relative-error",
+  "inputs": {
+    "command": "relative-error",
+    "exact": 0.9119,
+    "numeric": 0.912
+  },
+  "interpretation": "Computes relative numerical error.",
+  "result": {
+    "relative_error": 0.00010966114705558613
+  },
+  "warning": "Relative error can be misleading near zero."
+}

@@ -1,0 +1,5 @@
+"step_size","steps","solver_method","final_numeric_value","final_exact_value","final_absolute_error","warning","error_ratio_to_previous"
+1,20,"fixed_step_rk4",0.0912952391225372,0.0911881965554516,0.000107042567085547,"Convergence evidence supports numerical reliability, not empirical validity.",NA
+0.5,40,"fixed_step_rk4",0.0911939706821023,0.0911881965554516,5.77412665071775e-06,"Convergence evidence supports numerical reliability, not empirical validity.",18.5383129883791
+0.25,80,"fixed_step_rk4",0.0911885319751426,0.0911881965554516,3.35419690938865e-07,"Convergence evidence supports numerical reliability, not empirical validity.",17.2146323149829
+0.125,160,"fixed_step_rk4",0.091188216767465,0.0911881965554516,2.02120134240591e-08,"Convergence evidence supports numerical reliability, not empirical validity.",16.5950657117417

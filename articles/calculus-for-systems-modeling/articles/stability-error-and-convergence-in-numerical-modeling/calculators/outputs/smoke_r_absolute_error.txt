@@ -1,0 +1,4 @@
+      calculator numeric  exact absolute_error
+1 absolute-error   0.912 0.9119          1e-04
+                                                   warning
+1 Small numerical error does not imply empirical validity.

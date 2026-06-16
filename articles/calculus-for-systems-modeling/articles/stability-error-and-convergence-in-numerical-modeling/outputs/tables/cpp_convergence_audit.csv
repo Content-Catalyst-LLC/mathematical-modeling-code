@@ -1,0 +1,5 @@
+step_size,steps,solver_method,final_numeric_value,final_exact_value,final_absolute_error,warning
+1.000000000000,20,fixed_step_rk4,0.091295239123,0.091188196555,0.000107042567,Convergence evidence supports numerical reliability not empirical validity.
+0.500000000000,40,fixed_step_rk4,0.091193970682,0.091188196555,0.000005774127,Convergence evidence supports numerical reliability not empirical validity.
+0.250000000000,80,fixed_step_rk4,0.091188531975,0.091188196555,0.000000335420,Convergence evidence supports numerical reliability not empirical validity.
+0.125000000000,160,fixed_step_rk4,0.091188216767,0.091188196555,0.000000020212,Convergence evidence supports numerical reliability not empirical validity.

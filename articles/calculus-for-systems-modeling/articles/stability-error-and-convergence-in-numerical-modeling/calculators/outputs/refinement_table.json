@@ -1,0 +1,12 @@
+{
+  "calculator": "refinement-table",
+  "inputs": {
+    "command": "refinement-table"
+  },
+  "interpretation": "Generates a step-size refinement table.",
+  "result": {
+    "records": 4,
+    "smallest_step_error": 2.0212013424059094e-08
+  },
+  "warning": "A refinement table tests numerical behavior, not real-world truth."
+}

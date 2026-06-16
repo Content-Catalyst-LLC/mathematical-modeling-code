@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_records,result_smallest_step_error
+refinement-table,Generates a step-size refinement table.,"A refinement table tests numerical behavior, not real-world truth.",refinement-table,4,2.0212013424059094e-08

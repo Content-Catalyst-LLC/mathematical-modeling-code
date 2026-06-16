@@ -1,0 +1,19 @@
+{
+  "article_slug": "stability-error-and-convergence-in-numerical-modeling",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "absolute-error", "title": "Absolute Error"},
+    {"id": "relative-error", "title": "Relative Error"},
+    {"id": "euler-stability-factor", "title": "Euler Stability Amplification Factor"},
+    {"id": "convergence-ratio", "title": "Convergence Error Ratio"},
+    {"id": "rk4-final-error", "title": "RK4 Final Benchmark Error"},
+    {"id": "refinement-table", "title": "Step-Size Refinement Table"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

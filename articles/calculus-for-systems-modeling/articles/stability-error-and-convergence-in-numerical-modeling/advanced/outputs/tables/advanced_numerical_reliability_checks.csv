@@ -1,0 +1,10 @@
+condition,passed,warning
+local error distinction included,True,
+global error distinction included,True,
+step-size refinement included,True,
+stability warning included,True,
+convergence audit included,True,
+diagnostic governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

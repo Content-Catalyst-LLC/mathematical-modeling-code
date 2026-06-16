@@ -1,0 +1,14 @@
+{
+  "calculator": "euler-stability-factor",
+  "inputs": {
+    "command": "euler-stability-factor",
+    "eigenvalue": -1.0,
+    "step_size": 0.1
+  },
+  "interpretation": "Computes a simple Euler amplification factor for a linear test problem.",
+  "result": {
+    "amplification_factor": 0.9,
+    "status": "stable_for_linear_test"
+  },
+  "warning": "This is a test-problem diagnostic, not a full stability proof."
+}

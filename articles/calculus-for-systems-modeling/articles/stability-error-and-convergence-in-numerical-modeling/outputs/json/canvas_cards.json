@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "local-error",
+    "category": "error analysis",
+    "governance_note": "Single-step error can accumulate and should not be interpreted alone.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Local Error"
+  },
+  {
+    "card_id": "global-error",
+    "category": "error analysis",
+    "governance_note": "Trajectory-level error shapes endpoints and threshold interpretation.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Global Error"
+  },
+  {
+    "card_id": "stability",
+    "category": "method review",
+    "governance_note": "Unstable methods can create artificial blow-up or oscillation.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Numerical Stability"
+  },
+  {
+    "card_id": "convergence",
+    "category": "refinement review",
+    "governance_note": "Convergence supports numerical reliability, not empirical validity.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Convergence"
+  },
+  {
+    "card_id": "diagnostics",
+    "category": "governance",
+    "governance_note": "Warnings, residuals, and constraint checks should be preserved.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Solver Diagnostics"
+  }
+]

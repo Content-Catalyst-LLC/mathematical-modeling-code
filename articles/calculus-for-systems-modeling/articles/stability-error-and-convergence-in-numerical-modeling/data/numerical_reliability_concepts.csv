@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+local_error,Local error,Error introduced by one numerical step,Helps evaluate step-level approximation quality,Small local error can still accumulate into important global error
+global_error,Global error,Accumulated error across the simulation horizon,Shapes interpretation of trajectories endpoints and thresholds,Global error often matters more than a single-step estimate
+stability,Numerical stability,Controls whether numerical perturbations grow or remain bounded,Helps distinguish solver artifact from system behavior,Unstable methods can create artificial oscillation or blow-up
+convergence,Convergence,Checks whether outputs approach a stable result under refinement,Supports confidence that the method approximates the intended model,Convergence is not empirical validation
+roundoff,Round-off error,Error from finite-precision arithmetic,Can matter in long simulations ill-conditioned systems or extreme scaling,Smaller step sizes do not always improve results indefinitely
+diagnostics,Solver diagnostics,Record warnings residuals step behavior and constraint checks,Supports reproducible review of numerical reliability,A completed solver run is not automatically a trustworthy result

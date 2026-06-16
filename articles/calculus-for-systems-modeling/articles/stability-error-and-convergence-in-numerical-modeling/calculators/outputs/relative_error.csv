@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_numeric,input_exact,result_relative_error
+relative-error,Computes relative numerical error.,Relative error can be misleading near zero.,relative-error,0.912,0.9119,0.00010966114705558613

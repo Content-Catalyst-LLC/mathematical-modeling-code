@@ -1,0 +1,25 @@
+{
+  "article": "Stability, Error, and Convergence in Numerical Modeling",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Convergence evidence supports numerical reliability, not empirical validity.",
+    "A solver can converge numerically while the model remains wrong.",
+    "Numerical stability is not identical to model stability.",
+    "Smaller step sizes do not always improve results indefinitely.",
+    "A completed solver run is not automatically a validated result."
+  ]
+}

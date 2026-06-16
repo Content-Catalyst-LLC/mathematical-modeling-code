@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConvergenceRecord",
+  "type": "object",
+  "required": [
+    "step_size", "steps", "solver_method", "final_numeric_value",
+    "final_exact_value", "final_absolute_error", "error_ratio_to_previous", "warning"
+  ],
+  "properties": {
+    "step_size": {"type": "number"},
+    "steps": {"type": "integer"},
+    "solver_method": {"type": "string"},
+    "final_numeric_value": {"type": "number"},
+    "final_exact_value": {"type": "number"},
+    "final_absolute_error": {"type": "number"},
+    "error_ratio_to_previous": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

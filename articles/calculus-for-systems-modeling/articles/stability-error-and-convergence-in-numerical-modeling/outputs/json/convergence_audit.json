@@ -1,0 +1,42 @@
+[
+  {
+    "error_ratio_to_previous": "not_applicable",
+    "final_absolute_error": 0.00010704256708554682,
+    "final_exact_value": 0.09118819655545163,
+    "final_numeric_value": 0.09129523912253718,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 1.0,
+    "steps": 20,
+    "warning": "Convergence evidence supports numerical reliability, not empirical validity."
+  },
+  {
+    "error_ratio_to_previous": "18.5383",
+    "final_absolute_error": 5.774126650717748e-06,
+    "final_exact_value": 0.09118819655545163,
+    "final_numeric_value": 0.09119397068210235,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 0.5,
+    "steps": 40,
+    "warning": "Convergence evidence supports numerical reliability, not empirical validity."
+  },
+  {
+    "error_ratio_to_previous": "17.2146",
+    "final_absolute_error": 3.3541969093886514e-07,
+    "final_exact_value": 0.09118819655545163,
+    "final_numeric_value": 0.09118853197514257,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 0.25,
+    "steps": 80,
+    "warning": "Convergence evidence supports numerical reliability, not empirical validity."
+  },
+  {
+    "error_ratio_to_previous": "16.5951",
+    "final_absolute_error": 2.0212013424059094e-08,
+    "final_exact_value": 0.09118819655545163,
+    "final_numeric_value": 0.09118821676746505,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 0.125,
+    "steps": 160,
+    "warning": "Convergence evidence supports numerical reliability, not empirical validity."
+  }
+]

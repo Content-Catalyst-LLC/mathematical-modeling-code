@@ -1,0 +1,22 @@
+{
+  "article_slug": "stability-error-and-convergence-in-numerical-modeling",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "stability-error-and-convergence-in-numerical-modeling",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "local-error", "title": "Local Error", "description": "Error introduced by one numerical step."},
+    {"card_id": "global-error", "title": "Global Error", "description": "Accumulated error across the simulation horizon."},
+    {"card_id": "stability", "title": "Numerical Stability", "description": "Control of perturbations under repeated computation."},
+    {"card_id": "convergence", "title": "Convergence", "description": "Refinement behavior toward the intended solution."},
+    {"card_id": "diagnostics", "title": "Solver Diagnostics", "description": "Warnings, residuals, steps, and constraint checks."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

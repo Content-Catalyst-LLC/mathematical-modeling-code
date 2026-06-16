@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+local-error,Local Error,error analysis,96,active,2026-06-15,Single-step error can accumulate and should not be interpreted alone.
+global-error,Global Error,error analysis,95,active,2026-06-15,Trajectory-level error shapes endpoints and threshold interpretation.
+stability,Numerical Stability,method review,94,review,2026-06-15,Unstable methods can create artificial blow-up or oscillation.
+convergence,Convergence,refinement review,93,active,2026-06-15,"Convergence supports numerical reliability, not empirical validity."
+diagnostics,Solver Diagnostics,governance,92,active,2026-06-15,"Warnings, residuals, and constraint checks should be preserved."

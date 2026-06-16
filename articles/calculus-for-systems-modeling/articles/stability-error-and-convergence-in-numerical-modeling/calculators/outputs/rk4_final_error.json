@@ -1,0 +1,14 @@
+{
+  "calculator": "rk4-final-error",
+  "inputs": {
+    "command": "rk4-final-error",
+    "step_size": 0.5
+  },
+  "interpretation": "Computes final RK4 benchmark error for exponential decay.",
+  "result": {
+    "final_absolute_error": 5.774126650717748e-06,
+    "final_exact_value": 0.09118819655545163,
+    "final_numeric_value": 0.09119397068210235
+  },
+  "warning": "Benchmark accuracy does not validate model assumptions."
+}

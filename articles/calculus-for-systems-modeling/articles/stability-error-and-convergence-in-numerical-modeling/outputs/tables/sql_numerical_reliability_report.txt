@@ -1,0 +1,35 @@
+section                       
+------------------------------
+NUMERICAL RELIABILITY REGISTRY
+reliability_name     numerical_role                                                systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Convergence          Checks whether outputs approach a stable result under refine  Supports confidence that the numerical method is approximati  Convergence is not empirical validation.                    
+                     ment.                                                         ng the intended model.                                                                                                    
+
+Solver diagnostics   Record warnings, residuals, step behavior, and constraint ch  Supports reproducible review of numerical reliability.        A completed solver run is not automatically a trustworthy re
+                     ecks.                                                                                                                       sult.                                                       
+
+Global error         Accumulated error across the simulation horizon.              Shapes interpretation of trajectories, endpoints, and thresh  Global error often matters more than a single-step estimate.
+                                                                                   olds.                                                                                                                     
+
+Local error          Error introduced by one numerical step.                       Helps evaluate step-level approximation quality.              Small local error can still accumulate into important global
+                                                                                                                                                  error.                                                     
+
+Round-off error      Error from finite-precision arithmetic.                       Can matter in long simulations, ill-conditioned systems, or   Smaller step sizes do not always improve results indefinitel
+                                                                                   extreme scaling.                                              y.                                                          
+
+Numerical stability  Controls whether numerical perturbations grow or remain boun  Helps distinguish solver artifact from system behavior.       Unstable methods can create artificial oscillation or blow-u
+                     ded.                                                                                                                        p.                                                          
+section                
+-----------------------
+CONVERGENCE AUDIT CASES
+case_id      solver_method   step_size  diagnostic_type       interpretation_warning                                      
+-----------  --------------  ---------  --------------------  ------------------------------------------------------------
+rk4_h_1      fixed_step_rk4  1.0        step_size_refinement  Coarse numerical outputs should not be treated as verified. 
+
+rk4_h_0_5    fixed_step_rk4  0.5        step_size_refinement  Refinement tests numerical behavior, not empirical validity.
+
+rk4_h_0_25   fixed_step_rk4  0.25       convergence_review    Convergence should be documented with assumptions and solver
+                                                               settings.                                                  
+
+rk4_h_0_125  fixed_step_rk4  0.125      diagnostic_review     Numerical confidence remains separate from model validity.  

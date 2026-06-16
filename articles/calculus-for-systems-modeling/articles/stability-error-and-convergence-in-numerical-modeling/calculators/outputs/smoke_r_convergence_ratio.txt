@@ -1,0 +1,4 @@
+         calculator previous_error current_error error_ratio
+1 convergence-ratio           0.01      0.000625          16
+                                                                      warning
+1 Convergence evidence supports numerical reliability not empirical validity.

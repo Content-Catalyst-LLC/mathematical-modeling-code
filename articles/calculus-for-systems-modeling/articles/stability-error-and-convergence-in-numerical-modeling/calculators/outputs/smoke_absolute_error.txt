@@ -1,0 +1,13 @@
+{
+  "calculator": "absolute-error",
+  "inputs": {
+    "command": "absolute-error",
+    "exact": 0.9119,
+    "numeric": 0.912
+  },
+  "interpretation": "Computes absolute numerical error.",
+  "result": {
+    "absolute_error": 9.999999999998899e-05
+  },
+  "warning": "Small numerical error does not imply empirical validity."
+}

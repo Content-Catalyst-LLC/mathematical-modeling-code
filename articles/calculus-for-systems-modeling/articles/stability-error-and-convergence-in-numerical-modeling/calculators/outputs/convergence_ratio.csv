@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_previous_error,input_current_error,result_error_ratio
+convergence-ratio,Compares error reduction between refinements.,"Convergence evidence supports numerical reliability, not empirical validity.",convergence-ratio,0.01,0.000625,16.0
