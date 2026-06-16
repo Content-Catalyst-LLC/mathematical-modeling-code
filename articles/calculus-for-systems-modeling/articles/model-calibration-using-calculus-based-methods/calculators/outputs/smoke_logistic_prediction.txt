@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-prediction",
+  "inputs": {
+    "carrying_capacity": 105.0,
+    "command": "logistic-prediction",
+    "growth_rate": 0.34,
+    "initial_value": 10.0,
+    "time": 8.0
+  },
+  "interpretation": "Computes a logistic-model prediction for one parameter set.",
+  "result": {
+    "predicted_value": 64.58318574207647
+  },
+  "warning": "Prediction from calibrated parameters is not validation."
+}

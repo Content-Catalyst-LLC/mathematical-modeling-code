@@ -1,0 +1,14 @@
+{
+  "calculator": "grid-search",
+  "inputs": {
+    "command": "grid-search"
+  },
+  "interpretation": "Runs a simple calibration grid search.",
+  "result": {
+    "best_carrying_capacity": 95.0,
+    "best_growth_rate": 0.34,
+    "best_loss": 1.827391794203483,
+    "records": 30
+  },
+  "warning": "Grid search depends on tested bounds and resolution."
+}

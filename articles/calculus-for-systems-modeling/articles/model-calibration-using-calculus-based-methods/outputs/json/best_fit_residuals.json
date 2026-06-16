@@ -1,0 +1,51 @@
+[
+  {
+    "observed_value": 10.0,
+    "predicted_value": 10.0,
+    "residual": 0.0,
+    "squared_residual": 0.0,
+    "time": 0.0
+  },
+  {
+    "observed_value": 17.5,
+    "predicted_value": 17.903434559375924,
+    "residual": -0.4034345593759241,
+    "squared_residual": 0.162759443698846,
+    "time": 2.0
+  },
+  {
+    "observed_value": 29.2,
+    "predicted_value": 29.85903451642223,
+    "residual": -0.6590345164222313,
+    "squared_residual": 0.4343264938358843,
+    "time": 4.0
+  },
+  {
+    "observed_value": 44.1,
+    "predicted_value": 45.12540973097482,
+    "residual": -1.0254097309748218,
+    "squared_residual": 1.0514651163778563,
+    "time": 6.0
+  },
+  {
+    "observed_value": 60.5,
+    "predicted_value": 60.89995728744476,
+    "residual": -0.39995728744475656,
+    "squared_residual": 0.15996583178016763,
+    "time": 8.0
+  },
+  {
+    "observed_value": 74.0,
+    "predicted_value": 74.00639819975079,
+    "residual": -0.006398199750790923,
+    "squared_residual": 4.0936960051021025e-05,
+    "time": 10.0
+  },
+  {
+    "observed_value": 83.2,
+    "predicted_value": 83.0627630824061,
+    "residual": 0.13723691759390988,
+    "squared_residual": 0.018833971550677613,
+    "time": 12.0
+  }
+]

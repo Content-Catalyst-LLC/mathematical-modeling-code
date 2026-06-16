@@ -1,0 +1,2 @@
+"calculator","observed","predicted","residual","squared_residual","warning"
+"residual",17.5,17.2,0.300000000000001,0.0900000000000004,"Residuals should be inspected as a pattern not only summarized."

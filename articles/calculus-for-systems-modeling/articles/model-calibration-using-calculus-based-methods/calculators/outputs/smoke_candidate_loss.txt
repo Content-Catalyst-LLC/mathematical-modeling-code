@@ -1,0 +1,15 @@
+{
+  "calculator": "candidate-loss",
+  "inputs": {
+    "carrying_capacity": 105.0,
+    "command": "candidate-loss",
+    "growth_rate": 0.34
+  },
+  "interpretation": "Computes candidate calibration loss against synthetic teaching data.",
+  "result": {
+    "loss": 112.64045414450295,
+    "max_absolute_residual": 7.268815317581939,
+    "mean_absolute_residual": 3.121705497922044
+  },
+  "warning": "Candidate loss does not prove model validity."
+}

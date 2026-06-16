@@ -1,0 +1,14 @@
+{
+  "calculator": "residual",
+  "inputs": {
+    "command": "residual",
+    "observed": 17.5,
+    "predicted": 17.2
+  },
+  "interpretation": "Computes an observed-minus-predicted residual.",
+  "result": {
+    "residual": 0.3000000000000007,
+    "squared_residual": 0.09000000000000043
+  },
+  "warning": "Residuals should be inspected as a pattern, not only summarized."
+}

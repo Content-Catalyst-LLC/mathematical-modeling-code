@@ -1,0 +1,19 @@
+{
+  "article_slug": "model-calibration-using-calculus-based-methods",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "residual", "title": "Residual"},
+    {"id": "squared-loss", "title": "Squared Loss"},
+    {"id": "logistic-prediction", "title": "Logistic Model Prediction"},
+    {"id": "candidate-loss", "title": "Calibration Candidate Loss"},
+    {"id": "grid-search", "title": "Calibration Grid Search"},
+    {"id": "calibration-warning", "title": "Calibration Warning Note"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

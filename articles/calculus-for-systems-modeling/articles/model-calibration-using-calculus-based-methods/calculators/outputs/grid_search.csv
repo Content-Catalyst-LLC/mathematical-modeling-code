@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_records,result_best_growth_rate,result_best_carrying_capacity,result_best_loss
+grid-search,Runs a simple calibration grid search.,Grid search depends on tested bounds and resolution.,grid-search,30,0.34,95.0,1.827391794203483

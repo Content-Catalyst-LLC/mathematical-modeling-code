@@ -1,0 +1,242 @@
+[
+  {
+    "carrying_capacity": 95.0,
+    "growth_rate": 0.34,
+    "loss": 1.827391794203483,
+    "max_absolute_residual": 1.0254097309748218,
+    "mean_absolute_residual": 0.3759244587946335,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 105.0,
+    "growth_rate": 0.3,
+    "loss": 39.19134936947341,
+    "max_absolute_residual": 4.103587548995954,
+    "mean_absolute_residual": 1.8342092130375762,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 115.0,
+    "growth_rate": 0.3,
+    "loss": 49.82164060637601,
+    "max_absolute_residual": 6.162096281040448,
+    "mean_absolute_residual": 1.91634121583843,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 85.0,
+    "growth_rate": 0.38,
+    "loss": 51.727251536707904,
+    "max_absolute_residual": 4.38430810689475,
+    "mean_absolute_residual": 2.2863552299283767,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 85.0,
+    "growth_rate": 0.34,
+    "loss": 110.718911244749,
+    "max_absolute_residual": 7.765541385422864,
+    "mean_absolute_residual": 2.68657928735778,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 105.0,
+    "growth_rate": 0.34,
+    "loss": 112.64045414450295,
+    "max_absolute_residual": 7.268815317581939,
+    "mean_absolute_residual": 3.121705497922044,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 95.0,
+    "growth_rate": 0.38,
+    "loss": 163.67392894812042,
+    "max_absolute_residual": 7.038911052559683,
+    "mean_absolute_residual": 4.17759312346601,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 95.0,
+    "growth_rate": 0.3,
+    "loss": 164.91002628993976,
+    "max_absolute_residual": 7.248551082662431,
+    "mean_absolute_residual": 4.0086331364766306,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "growth_rate": 0.3,
+    "loss": 175.1244144248878,
+    "max_absolute_residual": 11.91324809264502,
+    "mean_absolute_residual": 2.9555762520480937,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 85.0,
+    "growth_rate": 0.42,
+    "loss": 183.4120644558252,
+    "max_absolute_residual": 8.910793195231577,
+    "mean_absolute_residual": 4.170399395989665,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "growth_rate": 0.26,
+    "loss": 207.3729222605888,
+    "max_absolute_residual": 9.201058271130044,
+    "mean_absolute_residual": 4.23797026977145,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 115.0,
+    "growth_rate": 0.26,
+    "loss": 318.6219157051571,
+    "max_absolute_residual": 10.754507199993107,
+    "mean_absolute_residual": 5.631272639596491,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 115.0,
+    "growth_rate": 0.34,
+    "loss": 414.23008724061077,
+    "max_absolute_residual": 14.462188903273784,
+    "mean_absolute_residual": 5.748777742504706,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 85.0,
+    "growth_rate": 0.3,
+    "loss": 453.4871563512216,
+    "max_absolute_residual": 12.656361077544076,
+    "mean_absolute_residual": 6.4050869447516545,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 105.0,
+    "growth_rate": 0.26,
+    "loss": 506.78101001055893,
+    "max_absolute_residual": 12.48544782385919,
+    "mean_absolute_residual": 7.145878849938048,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 95.0,
+    "growth_rate": 0.42,
+    "loss": 534.0881549307712,
+    "max_absolute_residual": 12.84493103872893,
+    "mean_absolute_residual": 7.524751065179186,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 105.0,
+    "growth_rate": 0.38,
+    "loss": 558.0340070658378,
+    "max_absolute_residual": 12.596343155133638,
+    "mean_absolute_residual": 7.493958016091254,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 95.0,
+    "growth_rate": 0.26,
+    "loss": 789.5017505450636,
+    "max_absolute_residual": 15.765144380849826,
+    "mean_absolute_residual": 8.800342205867585,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "growth_rate": 0.34,
+    "loss": 882.2146959033452,
+    "max_absolute_residual": 21.451915359121983,
+    "mean_absolute_residual": 8.23473237129131,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "growth_rate": 0.22,
+    "loss": 1160.715901029679,
+    "max_absolute_residual": 19.036494740411847,
+    "mean_absolute_residual": 10.811754589925314,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 85.0,
+    "growth_rate": 0.26,
+    "loss": 1189.195147268608,
+    "max_absolute_residual": 19.409653036858728,
+    "mean_absolute_residual": 10.61775145479929,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 115.0,
+    "growth_rate": 0.38,
+    "loss": 1205.2440846889083,
+    "max_absolute_residual": 20.417454839016614,
+    "mean_absolute_residual": 10.655060107862534,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 105.0,
+    "growth_rate": 0.42,
+    "loss": 1230.6973126530518,
+    "max_absolute_residual": 18.448261190842643,
+    "mean_absolute_residual": 11.32359282880807,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 115.0,
+    "growth_rate": 0.22,
+    "loss": 1379.8796471907528,
+    "max_absolute_residual": 20.84374725451513,
+    "mean_absolute_residual": 11.730393626740703,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 105.0,
+    "growth_rate": 0.22,
+    "loss": 1652.0499800510117,
+    "max_absolute_residual": 22.846114607715144,
+    "mean_absolute_residual": 12.746975861435871,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 95.0,
+    "growth_rate": 0.22,
+    "loss": 1990.5662770302615,
+    "max_absolute_residual": 25.07699731735294,
+    "mean_absolute_residual": 13.879038321756315,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "growth_rate": 0.38,
+    "loss": 2079.8449992177216,
+    "max_absolute_residual": 28.375893851402594,
+    "mean_absolute_residual": 13.676272889452905,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 115.0,
+    "growth_rate": 0.42,
+    "loss": 2244.3506412108254,
+    "max_absolute_residual": 25.356038385089605,
+    "mean_absolute_residual": 14.973664745166356,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 85.0,
+    "growth_rate": 0.22,
+    "loss": 2413.0006606842517,
+    "max_absolute_residual": 27.832964556279762,
+    "mean_absolute_residual": 15.148894483469263,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "growth_rate": 0.42,
+    "loss": 3549.8114487487883,
+    "max_absolute_residual": 33.13879695211358,
+    "mean_absolute_residual": 18.488995187770314,
+    "warning": "Calibration fit does not prove model validity; validation and sensitivity review remain required."
+  }
+]

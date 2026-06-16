@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_time,input_growth_rate,input_carrying_capacity,input_initial_value,result_predicted_value
+logistic-prediction,Computes a logistic-model prediction for one parameter set.,Prediction from calibrated parameters is not validation.,logistic-prediction,8.0,0.34,105.0,10.0,64.58318574207647

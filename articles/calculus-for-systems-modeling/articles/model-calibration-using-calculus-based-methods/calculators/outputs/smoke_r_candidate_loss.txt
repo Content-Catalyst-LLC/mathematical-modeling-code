@@ -1,0 +1,4 @@
+      calculator growth_rate carrying_capacity     loss mean_absolute_residual
+1 candidate-loss        0.34               105 112.6405               3.121705
+  max_absolute_residual                                       warning
+1              7.268815 Candidate loss does not prove model validity.

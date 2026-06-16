@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CalibrationCandidate",
+  "type": "object",
+  "required": [
+    "growth_rate", "carrying_capacity", "loss",
+    "mean_absolute_residual", "max_absolute_residual", "warning"
+  ],
+  "properties": {
+    "growth_rate": {"type": "number"},
+    "carrying_capacity": {"type": "number"},
+    "loss": {"type": "number"},
+    "mean_absolute_residual": {"type": "number"},
+    "max_absolute_residual": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

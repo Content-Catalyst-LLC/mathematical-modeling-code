@@ -1,0 +1,10 @@
+condition,passed,warning
+calibration data documented,True,
+residual table included,True,
+loss function included,True,
+parameter bounds documented,True,
+identifiability warning included,True,
+validation boundary warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

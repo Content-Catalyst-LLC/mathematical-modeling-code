@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_observed,input_predicted,result_residual,result_squared_residual
+residual,Computes an observed-minus-predicted residual.,"Residuals should be inspected as a pattern, not only summarized.",residual,17.5,17.2,0.3000000000000007,0.09000000000000043

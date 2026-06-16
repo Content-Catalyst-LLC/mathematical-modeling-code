@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_growth_rate,input_carrying_capacity,result_loss,result_mean_absolute_residual,result_max_absolute_residual
+candidate-loss,Computes candidate calibration loss against synthetic teaching data.,Candidate loss does not prove model validity.,candidate-loss,0.34,105.0,112.64045414450295,3.121705497922044,7.268815317581939

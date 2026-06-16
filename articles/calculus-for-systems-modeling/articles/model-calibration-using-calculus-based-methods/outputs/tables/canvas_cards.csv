@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+calibration-data,Calibration Data,data review,96,active,2026-06-15,"Data sources, preprocessing, exclusions, and measurement limits should be preserved."
+residuals,Residuals,diagnostics,95,active,2026-06-15,"Residual patterns should be inspected, not only summarized."
+loss-function,Loss Function,objective review,94,review,2026-06-15,Loss-function choice encodes judgment and should be documented.
+identifiability,Identifiability,parameter review,93,review,2026-06-15,Poor identifiability should narrow claims and widen uncertainty.
+validation-boundary,Validation Boundary,governance,92,active,2026-06-15,Calibration is not validation.

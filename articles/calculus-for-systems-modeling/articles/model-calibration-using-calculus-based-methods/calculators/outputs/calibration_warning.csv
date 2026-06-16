@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+calibration-warning,Creates a calibration interpretation warning.,"Calibration should improve transparency, not hide uncertainty.",calibration-warning,validation,validation,Calibration is not validation; held-out or independent evidence is still required.

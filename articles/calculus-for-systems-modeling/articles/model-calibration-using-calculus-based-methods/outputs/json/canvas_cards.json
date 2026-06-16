@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "calibration-data",
+    "category": "data review",
+    "governance_note": "Data sources, preprocessing, exclusions, and measurement limits should be preserved.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Calibration Data"
+  },
+  {
+    "card_id": "residuals",
+    "category": "diagnostics",
+    "governance_note": "Residual patterns should be inspected, not only summarized.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Residuals"
+  },
+  {
+    "card_id": "loss-function",
+    "category": "objective review",
+    "governance_note": "Loss-function choice encodes judgment and should be documented.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Loss Function"
+  },
+  {
+    "card_id": "identifiability",
+    "category": "parameter review",
+    "governance_note": "Poor identifiability should narrow claims and widen uncertainty.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Identifiability"
+  },
+  {
+    "card_id": "validation-boundary",
+    "category": "governance",
+    "governance_note": "Calibration is not validation.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Validation Boundary"
+  }
+]

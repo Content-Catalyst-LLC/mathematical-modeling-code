@@ -1,0 +1,13 @@
+{
+  "calculator": "squared-loss",
+  "inputs": {
+    "command": "squared-loss",
+    "residuals": "1.0,-0.5,0.25"
+  },
+  "interpretation": "Computes sum of squared residuals.",
+  "result": {
+    "loss": 1.3125,
+    "residual_count": 3
+  },
+  "warning": "Loss-function choice affects calibration interpretation."
+}

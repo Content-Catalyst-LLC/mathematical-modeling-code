@@ -1,0 +1,13 @@
+{
+  "calculator": "calibration-warning",
+  "inputs": {
+    "command": "calibration-warning",
+    "pattern": "validation"
+  },
+  "interpretation": "Creates a calibration interpretation warning.",
+  "result": {
+    "note": "Calibration is not validation; held-out or independent evidence is still required.",
+    "pattern": "validation"
+  },
+  "warning": "Calibration should improve transparency, not hide uncertainty."
+}

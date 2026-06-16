@@ -1,0 +1,25 @@
+{
+  "article": "Model Calibration Using Calculus-Based Methods",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Calibration is not validation.",
+    "Residual reduction does not prove model truth.",
+    "Loss-function choice encodes judgment.",
+    "Poor identifiability should narrow claims.",
+    "Boundary optima and overfitting require diagnostic review."
+  ]
+}

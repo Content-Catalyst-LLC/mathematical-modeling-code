@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+calibration_data,Calibration data,Observed or target values used to fit parameters,Connects model structure to evidence,Calibration data may be incomplete biased noisy or context-specific
+residuals,Residuals,Differences between observed and predicted values,Shows where model fit is strong or weak,Residual patterns should be inspected not only summarized
+loss_function,Loss function,Aggregates residuals into an optimization objective,Defines what kind of mismatch the calibration minimizes,Loss-function choice encodes judgment and should be documented
+parameter_bounds,Parameter bounds,Restrict parameter search to plausible values,Prevents unrealistic fits and supports interpretability,Bounds can drive results and should not be hidden
+identifiability_review,Identifiability review,Checks whether data can meaningfully constrain parameters,Protects against overconfident parameter estimates,Poor identifiability should narrow claims
+validation_boundary,Validation boundary,Separates fitted behavior from tested generalization,Clarifies what the calibrated model has and has not demonstrated,Calibration is not validation

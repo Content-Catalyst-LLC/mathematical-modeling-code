@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_residuals,result_loss,result_residual_count
+squared-loss,Computes sum of squared residuals.,Loss-function choice affects calibration interpretation.,squared-loss,"1.0,-0.5,0.25",1.3125,3

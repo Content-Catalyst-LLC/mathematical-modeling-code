@@ -1,0 +1,4 @@
+  calculator observed predicted residual squared_residual
+1   residual     17.5      17.2      0.3             0.09
+                                                          warning
+1 Residuals should be inspected as a pattern not only summarized.
