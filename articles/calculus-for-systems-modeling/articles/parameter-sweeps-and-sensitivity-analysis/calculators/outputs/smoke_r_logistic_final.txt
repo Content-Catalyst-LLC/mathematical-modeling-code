@@ -1,0 +1,4 @@
+      calculator growth_rate carrying_capacity final_value
+1 logistic-final        0.35               100    99.18599
+                                           warning
+1 A single parameter set does not show robustness.

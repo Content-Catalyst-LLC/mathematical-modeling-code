@@ -1,0 +1,15 @@
+{
+  "calculator": "local-sensitivity",
+  "inputs": {
+    "command": "local-sensitivity",
+    "parameter": "growth_rate"
+  },
+  "interpretation": "Computes local finite-difference sensitivity.",
+  "result": {
+    "baseline_output": 99.18598678672114,
+    "baseline_value": 0.35,
+    "elasticity_estimate": 0.05734297722839611,
+    "finite_difference_sensitivity": 16.25034223339128
+  },
+  "warning": "Local sensitivity depends on baseline and perturbation size."
+}

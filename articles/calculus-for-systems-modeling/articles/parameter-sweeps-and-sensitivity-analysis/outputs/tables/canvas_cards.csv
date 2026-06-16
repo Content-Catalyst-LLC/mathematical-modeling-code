@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+one-at-a-time-sweep,One-at-a-Time Sweep,sweep design,96,active,2026-06-15,State which parameters were held fixed and why.
+grid-sweep,Grid Sweep,interaction review,95,review,2026-06-15,Document parameter combinations and computational cost.
+local-sensitivity,Local Sensitivity,derivative review,94,active,2026-06-15,Local sensitivity depends on baseline and perturbation size.
+global-sensitivity,Global Sensitivity,uncertainty review,93,review,2026-06-15,"Justify parameter ranges, distributions, and sampling design."
+robustness-review,Robustness Review,governance,92,active,2026-06-15,Align claims with tested ranges and fragility evidence.

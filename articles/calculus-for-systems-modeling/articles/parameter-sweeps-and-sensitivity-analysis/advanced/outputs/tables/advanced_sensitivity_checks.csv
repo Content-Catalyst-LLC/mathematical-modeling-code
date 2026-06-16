@@ -1,0 +1,10 @@
+condition,passed,warning
+parameter range documentation included,True,
+grid sweep included,True,
+local sensitivity included,True,
+elasticity estimates included,True,
+robustness and fragility warnings included,True,
+parameter governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

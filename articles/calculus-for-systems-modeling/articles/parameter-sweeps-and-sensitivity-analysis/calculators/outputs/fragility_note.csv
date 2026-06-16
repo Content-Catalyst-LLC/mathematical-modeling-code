@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+fragility-note,Creates a fragility interpretation note.,"Fragility is a warning for interpretation, not automatic model rejection.",fragility-note,threshold,threshold,Threshold-dependent conclusions require boundary mapping and uncertainty disclosure.

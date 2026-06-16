@@ -1,0 +1,24 @@
+[
+  {
+    "backward_output": 99.00755065567651,
+    "baseline_output": 99.18598678672114,
+    "baseline_value": 0.35,
+    "elasticity_estimate": 0.05734297722839611,
+    "finite_difference_sensitivity": 16.25034223339128,
+    "forward_output": 99.33255750034434,
+    "parameter": "growth_rate",
+    "perturbation": 0.01,
+    "warning": "Local sensitivity depends on baseline and perturbation size."
+  },
+  {
+    "backward_output": 98.20300897961984,
+    "baseline_output": 99.18598678672114,
+    "baseline_value": 100.0,
+    "elasticity_estimate": 0.9909554168478255,
+    "finite_difference_sensitivity": 0.9828889088169817,
+    "forward_output": 100.1687867972538,
+    "parameter": "carrying_capacity",
+    "perturbation": 1.0,
+    "warning": "Local sensitivity depends on baseline and perturbation size."
+  }
+]

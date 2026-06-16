@@ -1,0 +1,19 @@
+{
+  "article_slug": "parameter-sweeps-and-sensitivity-analysis",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-final", "title": "Logistic Final Output"},
+    {"id": "local-sensitivity", "title": "Local Sensitivity Estimate"},
+    {"id": "elasticity", "title": "Elasticity-Style Sensitivity"},
+    {"id": "grid-sweep", "title": "Parameter Grid Sweep"},
+    {"id": "robustness-range", "title": "Robustness Range"},
+    {"id": "fragility-note", "title": "Fragility Interpretation Note"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

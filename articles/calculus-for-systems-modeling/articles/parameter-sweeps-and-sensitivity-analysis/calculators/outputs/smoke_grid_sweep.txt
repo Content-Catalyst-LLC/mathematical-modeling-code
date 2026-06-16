@@ -1,0 +1,13 @@
+{
+  "calculator": "grid-sweep",
+  "inputs": {
+    "command": "grid-sweep"
+  },
+  "interpretation": "Generates a two-parameter grid sweep.",
+  "result": {
+    "max_final_value": 149.9649346274595,
+    "min_final_value": 67.15544316998819,
+    "records": 20
+  },
+  "warning": "Grid-sweep evidence only applies to tested ranges."
+}

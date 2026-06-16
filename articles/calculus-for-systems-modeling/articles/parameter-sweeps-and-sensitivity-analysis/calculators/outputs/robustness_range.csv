@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_low,input_high,result_range_width,result_relative_width
+robustness-range,Summarizes a tested robustness range.,Robustness only applies within the tested parameter range.,robustness-range,80.0,100.0,20.0,0.2222222222222222

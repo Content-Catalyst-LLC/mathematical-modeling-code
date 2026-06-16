@@ -1,0 +1,182 @@
+[
+  {
+    "carrying_capacity": 80.0,
+    "final_value": 67.15544316998819,
+    "growth_rate": 0.18,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "final_value": 80.26239368737704,
+    "growth_rate": 0.18,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "final_value": 95.11324809264502,
+    "growth_rate": 0.18,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 150.0,
+    "final_value": 108.49657556060464,
+    "growth_rate": 0.18,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 80.0,
+    "final_value": 76.39670151978324,
+    "growth_rate": 0.25,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "final_value": 94.28256185740149,
+    "growth_rate": 0.25,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "final_value": 116.01074603198906,
+    "growth_rate": 0.25,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 150.0,
+    "final_value": 137.07001322058096,
+    "growth_rate": 0.25,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 80.0,
+    "final_value": 79.49258501729196,
+    "growth_rate": 0.35,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "final_value": 99.18598678672114,
+    "growth_rate": 0.35,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "final_value": 123.70277322804901,
+    "growth_rate": 0.35,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 150.0,
+    "final_value": 148.1091866526194,
+    "growth_rate": 0.35,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 80.0,
+    "final_value": 79.9309501597023,
+    "growth_rate": 0.45,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "final_value": 99.88905440229227,
+    "growth_rate": 0.45,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "final_value": 124.8228498204184,
+    "growth_rate": 0.45,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 150.0,
+    "final_value": 149.7412864005427,
+    "growth_rate": 0.45,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 80.0,
+    "final_value": 79.99064814090113,
+    "growth_rate": 0.55,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "final_value": 99.98497072841835,
+    "growth_rate": 0.55,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 125.0,
+    "final_value": 124.97599591556794,
+    "growth_rate": 0.55,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  },
+  {
+    "carrying_capacity": 150.0,
+    "final_value": 149.9649346274595,
+    "growth_rate": 0.55,
+    "initial_value": 10.0,
+    "output_metric": "final_state_value",
+    "stop_time": 20.0,
+    "warning": "Sweep results depend on tested ranges, baseline assumptions, and model structure."
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "one-at-a-time-sweep",
+    "category": "sweep design",
+    "governance_note": "State which parameters were held fixed and why.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "One-at-a-Time Sweep"
+  },
+  {
+    "card_id": "grid-sweep",
+    "category": "interaction review",
+    "governance_note": "Document parameter combinations and computational cost.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Grid Sweep"
+  },
+  {
+    "card_id": "local-sensitivity",
+    "category": "derivative review",
+    "governance_note": "Local sensitivity depends on baseline and perturbation size.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Local Sensitivity"
+  },
+  {
+    "card_id": "global-sensitivity",
+    "category": "uncertainty review",
+    "governance_note": "Justify parameter ranges, distributions, and sampling design.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Global Sensitivity"
+  },
+  {
+    "card_id": "robustness-review",
+    "category": "governance",
+    "governance_note": "Align claims with tested ranges and fragility evidence.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Robustness Review"
+  }
+]

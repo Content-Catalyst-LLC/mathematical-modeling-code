@@ -1,0 +1,13 @@
+{
+  "calculator": "fragility-note",
+  "inputs": {
+    "command": "fragility-note",
+    "pattern": "threshold"
+  },
+  "interpretation": "Creates a fragility interpretation note.",
+  "result": {
+    "note": "Threshold-dependent conclusions require boundary mapping and uncertainty disclosure.",
+    "pattern": "threshold"
+  },
+  "warning": "Fragility is a warning for interpretation, not automatic model rejection."
+}

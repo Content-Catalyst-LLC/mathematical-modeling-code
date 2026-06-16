@@ -1,0 +1,33 @@
+section                       
+------------------------------
+PARAMETER SENSITIVITY REGISTRY
+sensitivity_name     analytical_role                                               systems_modeling_role                                        review_warning                                              
+-------------------  ------------------------------------------------------------  -----------------------------------------------------------  ------------------------------------------------------------
+Fragility review     Identifies thresholds, reversals, and assumption-dependent c  Helps narrow claims and prioritize further data collection.  Fragility is a warning for interpretation, not automatic mod
+                     onclusions.                                                                                                                el rejection.                                               
+
+Global sensitivity   Assesses influence across broader ranges or distributions.    Ranks uncertain drivers and interaction effects.             Requires justified ranges, sampling design, and interpretati
+                                                                                                                                                on discipline.                                              
+
+Grid sweep           Evaluates combinations of parameter values.                   Reveals interactions, thresholds, and response surfaces.     Computational cost grows quickly with parameter dimension.  
+
+Local sensitivity    Estimates response near a baseline parameter value.           Identifies influential parameters around a chosen scenario.  Should not be generalized beyond the local neighborhood.    
+
+One-at-a-time sweep  Varies one parameter while holding others fixed.              Supports intuition, debugging, and simple communication.     Can miss parameter interactions and depends on baseline valu
+                                                                                                                                                es.                                                         
+
+Robustness review    Checks whether conclusions persist across plausible assumpti  Separates robust conclusions from fragile claims.            Robustness only applies to tested ranges and model structure
+                     ons.                                                                                                                       s.                                                          
+section               
+----------------------
+PARAMETER SWEEP DESIGN
+parameter_name     baseline_value  minimum_value  maximum_value  unit_note      review_warning                                              
+-----------------  --------------  -------------  -------------  -------------  ------------------------------------------------------------
+carrying_capacity  100.0           80.0           150.0          state units    Capacity sensitivity should not be generalized beyond the te
+                                                                                sted range.                                                 
+
+growth_rate        0.35            0.18           0.55           per time unit  Growth-rate sensitivity depends on time horizon and baseline
+                                                                                 assumptions.                                               
+
+initial_value      10.0            5.0            25.0           state units    Initial conditions can affect transients and threshold cross
+                                                                                ing.                                                        

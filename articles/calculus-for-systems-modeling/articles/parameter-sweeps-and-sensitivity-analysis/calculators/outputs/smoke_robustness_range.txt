@@ -1,0 +1,14 @@
+{
+  "calculator": "robustness-range",
+  "inputs": {
+    "command": "robustness-range",
+    "high": 100.0,
+    "low": 80.0
+  },
+  "interpretation": "Summarizes a tested robustness range.",
+  "result": {
+    "range_width": 20.0,
+    "relative_width": 0.2222222222222222
+  },
+  "warning": "Robustness only applies within the tested parameter range."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_parameter,result_baseline_value,result_baseline_output,result_finite_difference_sensitivity,result_elasticity_estimate
+local-sensitivity,Computes local finite-difference sensitivity.,Local sensitivity depends on baseline and perturbation size.,local-sensitivity,growth_rate,0.35,99.18598678672114,16.25034223339128,0.05734297722839611

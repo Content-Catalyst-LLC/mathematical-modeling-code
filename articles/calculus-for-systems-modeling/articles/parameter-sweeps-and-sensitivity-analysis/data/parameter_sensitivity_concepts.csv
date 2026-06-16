@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+one_at_a_time_sweep,One-at-a-time sweep,Varies one parameter while holding others fixed,Supports intuition debugging and simple communication,Can miss parameter interactions and depends on baseline values
+grid_sweep,Grid sweep,Evaluates combinations of parameter values,Reveals interactions thresholds and response surfaces,Computational cost grows quickly with parameter dimension
+local_sensitivity,Local sensitivity,Estimates response near a baseline value,Identifies influential parameters around a chosen scenario,Should not be generalized beyond the local neighborhood
+global_sensitivity,Global sensitivity,Assesses influence across broader ranges or distributions,Ranks uncertain drivers and interaction effects,Requires justified ranges sampling design and interpretation discipline
+robustness_review,Robustness review,Checks whether conclusions persist across plausible assumptions,Separates robust conclusions from fragile claims,Robustness only applies to tested ranges and model structures
+fragility_review,Fragility review,Identifies thresholds reversals and assumption-dependent conclusions,Helps narrow claims and prioritize further data collection,Fragility is a warning for interpretation not automatic model rejection

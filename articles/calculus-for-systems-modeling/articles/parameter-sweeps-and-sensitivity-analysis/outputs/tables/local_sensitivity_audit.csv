@@ -1,0 +1,3 @@
+parameter,baseline_value,perturbation,baseline_output,forward_output,backward_output,finite_difference_sensitivity,elasticity_estimate,warning
+growth_rate,0.35,0.01,99.18598678672114,99.33255750034434,99.00755065567651,16.25034223339128,0.05734297722839611,Local sensitivity depends on baseline and perturbation size.
+carrying_capacity,100.0,1.0,99.18598678672114,100.1687867972538,98.20300897961984,0.9828889088169817,0.9909554168478255,Local sensitivity depends on baseline and perturbation size.

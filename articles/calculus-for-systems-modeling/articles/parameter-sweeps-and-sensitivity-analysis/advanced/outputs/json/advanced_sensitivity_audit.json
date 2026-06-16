@@ -1,0 +1,25 @@
+{
+  "article": "Parameter Sweeps and Sensitivity Analysis",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Sensitivity evidence depends on tested parameter ranges.",
+    "One-at-a-time sweeps can miss parameter interactions.",
+    "Local sensitivity depends on baseline and perturbation size.",
+    "Scenario envelopes are not probability forecasts unless probability assumptions are defined.",
+    "Robustness only applies to tested ranges and model structures."
+  ]
+}

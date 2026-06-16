@@ -1,0 +1,15 @@
+{
+  "calculator": "elasticity",
+  "inputs": {
+    "command": "elasticity",
+    "parameter": "carrying_capacity"
+  },
+  "interpretation": "Computes an elasticity-style sensitivity estimate.",
+  "result": {
+    "baseline_output": 99.18598678672114,
+    "baseline_value": 100.0,
+    "elasticity_estimate": 0.9909554168478255,
+    "raw_sensitivity": 0.9828889088169817
+  },
+  "warning": "Elasticity helps compare units but remains local."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_growth_rate,input_carrying_capacity,input_initial_value,input_stop_time,result_final_value
+logistic-final,Computes final logistic-model output for one parameter set.,A single parameter set does not show robustness.,logistic-final,0.35,100.0,10.0,20.0,99.18598678672114

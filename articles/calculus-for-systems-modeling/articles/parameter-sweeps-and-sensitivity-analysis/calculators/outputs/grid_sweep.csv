@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_records,result_min_final_value,result_max_final_value
+grid-sweep,Generates a two-parameter grid sweep.,Grid-sweep evidence only applies to tested ranges.,grid-sweep,20,67.15544316998819,149.9649346274595

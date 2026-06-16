@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SensitivityRecord",
+  "type": "object",
+  "required": [
+    "parameter", "baseline_value", "perturbation", "baseline_output",
+    "forward_output", "backward_output", "finite_difference_sensitivity",
+    "elasticity_estimate", "warning"
+  ],
+  "properties": {
+    "parameter": {"type": "string"},
+    "baseline_value": {"type": "number"},
+    "perturbation": {"type": "number"},
+    "baseline_output": {"type": "number"},
+    "forward_output": {"type": "number"},
+    "backward_output": {"type": "number"},
+    "finite_difference_sensitivity": {"type": "number"},
+    "elasticity_estimate": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

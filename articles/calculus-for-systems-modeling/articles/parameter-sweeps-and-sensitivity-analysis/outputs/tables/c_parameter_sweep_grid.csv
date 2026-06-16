@@ -1,0 +1,21 @@
+growth_rate,carrying_capacity,initial_value,stop_time,final_value,output_metric,warning
+0.180000,80.000000,10.000000,20.000000,67.155443169988,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.180000,100.000000,10.000000,20.000000,80.262393687377,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.180000,125.000000,10.000000,20.000000,95.113248092645,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.180000,150.000000,10.000000,20.000000,108.496575560605,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.250000,80.000000,10.000000,20.000000,76.396701519783,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.250000,100.000000,10.000000,20.000000,94.282561857401,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.250000,125.000000,10.000000,20.000000,116.010746031989,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.250000,150.000000,10.000000,20.000000,137.070013220581,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.350000,80.000000,10.000000,20.000000,79.492585017292,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.350000,100.000000,10.000000,20.000000,99.185986786721,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.350000,125.000000,10.000000,20.000000,123.702773228049,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.350000,150.000000,10.000000,20.000000,148.109186652619,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.450000,80.000000,10.000000,20.000000,79.930950159702,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.450000,100.000000,10.000000,20.000000,99.889054402292,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.450000,125.000000,10.000000,20.000000,124.822849820418,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.450000,150.000000,10.000000,20.000000,149.741286400543,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.550000,80.000000,10.000000,20.000000,79.990648140901,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.550000,100.000000,10.000000,20.000000,99.984970728418,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.550000,125.000000,10.000000,20.000000,124.975995915568,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.
+0.550000,150.000000,10.000000,20.000000,149.964934627460,final_state_value,Sweep results depend on tested ranges baseline assumptions and model structure.

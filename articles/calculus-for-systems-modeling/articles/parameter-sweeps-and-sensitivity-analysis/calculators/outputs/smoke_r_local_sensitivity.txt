@@ -1,0 +1,6 @@
+         calculator   parameter baseline_value finite_difference_sensitivity
+1 local-sensitivity growth_rate           0.35                      16.25034
+  elasticity_estimate
+1          0.05734298
+                                                       warning
+1 Local sensitivity depends on baseline and perturbation size.

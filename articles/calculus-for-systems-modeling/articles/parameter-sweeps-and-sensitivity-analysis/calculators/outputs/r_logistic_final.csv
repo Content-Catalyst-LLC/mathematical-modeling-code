@@ -1,0 +1,2 @@
+"calculator","growth_rate","carrying_capacity","final_value","warning"
+"logistic-final",0.35,100,99.1859867867211,"A single parameter set does not show robustness."
