@@ -1,0 +1,24 @@
+actual_title: "Numerical Differentiation for Systems Modeling"
+suggested_seo_title: "Numerical Differentiation for Systems Modeling"
+focus_keyword: "numerical differentiation systems modeling"
+slug: "numerical-differentiation-for-systems-modeling"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "diffusion-transport-and-spatial-dynamics"
+  current: "numerical-differentiation-for-systems-modeling"
+  next: "numerical-integration-for-systems-modeling"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/numerical-differentiation-for-systems-modeling"
+tags:
+  - Calculus
+  - Numerical Differentiation
+  - Finite Differences
+  - Derivatives
+  - Scientific Computing
+  - Error Analysis
+  - Sensitivity Analysis
+  - Systems Modeling
+excerpt_139_words: "Numerical differentiation estimates rates of change from discrete, noisy, incomplete, or simulated data. This article introduces finite differences, forward differences, backward differences, central differences, local slopes, truncation error, roundoff error, noisy data, smoothing, time-step sensitivity, spatial gradients, derivative audits, and responsible interpretation. It shows why numerical differentiation matters for systems modeling: climate data, population models, epidemiology, economics, traffic systems, infrastructure monitoring, ecological change, energy systems, financial dynamics, urban systems, numerical PDEs, calibration workflows, and computational model inspection often require approximate rates rather than exact formulas. In computational workflows, derivative audits support finite-difference comparisons, step-size sensitivity checks, synthetic benchmark functions, boundary-method review, SQL assumption registries, calculator scripts, and generated outputs. The article emphasizes documenting data source, sampling interval, difference formula, step size, smoothing method, boundary handling, validation benchmark, uncertainty, and interpretive limits."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

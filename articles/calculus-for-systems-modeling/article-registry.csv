@@ -28,8 +28,9 @@ IV Sequences Series and Convergence,26,power-series-and-taylor-approximation,Pow
 IV Sequences Series and Convergence,26,power-series-and-functional-representation,Power Series and Functional Representation,active,articles/power-series-and-functional-representation,upgraded,included
 IV Sequences Series and Convergence,27,taylor-and-maclaurin-series-in-modeling,Taylor and Maclaurin Series in Modeling,active,articles/taylor-and-maclaurin-series-in-modeling,upgraded,included
 IV Sequences Series and Convergence,28,approximation-error-truncation-and-local-validity,Approximation Error Truncation and Local Validity,active,articles/approximation-error-truncation-and-local-validity,upgraded,included
-IX Numerical Calculus and Computational Methods,61,numerical-differentiation-for-systems-modeling,Numerical Differentiation for Systems Modeling,planned,articles/numerical-differentiation-for-systems-modeling,required,required
+IX Numerical Calculus and Computational Methods,61,numerical-differentiation-for-systems-modeling,Numerical Differentiation for Systems Modeling,active,articles/numerical-differentiation-for-systems-modeling,upgraded,included
 IX Numerical Calculus and Computational Methods,62,numerical-integration-for-systems-modeling,Numerical Integration for Systems Modeling,planned,articles/numerical-integration-for-systems-modeling,required,required
+IX Numerical Calculus and Computational Methods,63,finite-difference-methods,Finite Difference Methods,planned,articles/finite-difference-methods,required,required
 V Multivariable Calculus,29,functions-of-several-variables,Functions of Several Variables,active,articles/functions-of-several-variables,upgraded,included
 V Multivariable Calculus,30,partial-derivatives-and-interaction-effects,Partial Derivatives and Interaction Effects,active,articles/partial-derivatives-and-interaction-effects,upgraded,included
 V Multivariable Calculus,31,total-differentials-and-local-approximation-in-higher-dimensions,Total Differentials and Local Approximation in Higher Dimensions,active,articles/total-differentials-and-local-approximation-in-higher-dimensions,upgraded,included

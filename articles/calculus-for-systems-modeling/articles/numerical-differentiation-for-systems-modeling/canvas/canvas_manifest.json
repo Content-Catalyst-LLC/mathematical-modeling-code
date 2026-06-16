@@ -1,0 +1,22 @@
+{
+  "article_slug": "numerical-differentiation-for-systems-modeling",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "numerical-differentiation-for-systems-modeling",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "finite-difference", "title": "Finite Difference", "description": "A finite quotient used to estimate local change."},
+    {"card_id": "central-difference", "title": "Central Difference", "description": "A derivative estimate using values on both sides."},
+    {"card_id": "step-size", "title": "Step Size", "description": "The spacing controlling approximation and error."},
+    {"card_id": "noise-amplification", "title": "Noise Amplification", "description": "Differentiation can magnify small data errors."},
+    {"card_id": "derivative-governance", "title": "Derivative Governance", "description": "Formula, step, smoothing, boundaries, and interpretation need documentation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

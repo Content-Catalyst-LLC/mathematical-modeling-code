@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_f_previous,input_f_current,input_f_next,input_h,result_second_derivative_estimate
+second-central-difference,Estimates a second derivative using a central stencil.,Second derivatives are especially sensitive to noise.,second-central-difference,0.89,1.0,1.12,0.1,1.0000000000000118

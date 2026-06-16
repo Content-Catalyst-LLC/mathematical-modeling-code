@@ -1,0 +1,29 @@
+section                                      
+---------------------------------------------
+NUMERICAL DIFFERENTIATION ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary handling     Defines derivative estimates at the beginning, end, or edge   Controls interpretation near time-series endpoints or spatia  Boundary derivatives are often less reliable than interior d
+                      of data.                                                      l boundaries.                                                 erivatives.                                                 
+
+Difference formula    Defines how nearby values estimate a derivative.              Controls whether the estimate is forward, backward, central,  The formula should be documented, especially near boundaries
+                                                                                     or higher-order.                                             .                                                           
+
+Interpretation scope  Defines whether derivative estimates are exploratory, diagno  Clarifies how strongly rate estimates should be used in conc  Derivative estimates should not be overstated when data qual
+                      stic, or decision-supporting.                                 lusions.                                                      ity is weak.                                                
+
+Noise treatment       Defines smoothing, filtering, interpolation, or statistical   Prevents derivative estimates from amplifying measurement no  Smoothing choices should be justified and not used to hide u
+                      estimation.                                                   ise unchecked.                                                ncertainty.                                                 
+
+Step size             Defines spacing between sampled values or perturbations.      Controls the balance between truncation error, roundoff erro  Step-size sensitivity should be tested.                     
+                                                                                    r, and data noise.                                                                                                        
+
+Validation benchmark  Compares derivative estimates against known or simulated tru  Helps identify formula, step-size, or implementation errors.  Synthetic benchmarks do not guarantee empirical validity.   
+                      th when available.                                                                                                                                                                      
+section                              
+-------------------------------------
+NUMERICAL DIFFERENTIATION AUDIT CASES
+scenario                           start_value  stop_value  step_size  formula_family            warning                                                     
+---------------------------------  -----------  ----------  ---------  ------------------------  ------------------------------------------------------------
+smooth_synthetic_signal_benchmark  0.0          10.0        0.1        forward_backward_central  Numerical derivatives depend on step size, formula choice, b
+                                                                                                 oundary handling, smoothness, and noise.                    

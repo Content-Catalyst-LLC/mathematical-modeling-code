@@ -1,0 +1,16 @@
+{
+  "calculator": "benchmark-audit",
+  "inputs": {
+    "command": "benchmark-audit",
+    "h": 0.1,
+    "start": 0.0,
+    "stop": 10.0
+  },
+  "interpretation": "Runs a smooth synthetic benchmark for central differences.",
+  "result": {
+    "max_central_absolute_error": 0.0016655980434623352,
+    "mean_central_absolute_error": 0.0010856946054248575,
+    "records": 101
+  },
+  "warning": "Synthetic accuracy does not guarantee empirical derivative reliability."
+}

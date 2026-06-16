@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "finite-difference",
+    "category": "method",
+    "governance_note": "Difference formula and derivative order should be documented.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Finite Difference"
+  },
+  {
+    "card_id": "central-difference",
+    "category": "method",
+    "governance_note": "Central differences often improve accuracy for smooth interior points.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Central Difference"
+  },
+  {
+    "card_id": "step-size",
+    "category": "error analysis",
+    "governance_note": "Step-size sensitivity should be tested and recorded.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Step Size"
+  },
+  {
+    "card_id": "noise-amplification",
+    "category": "data quality",
+    "governance_note": "Derivative estimates can amplify measurement noise.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Noise Amplification"
+  },
+  {
+    "card_id": "derivative-governance",
+    "category": "governance",
+    "governance_note": "Formula, step, smoothing, boundary handling, validation, and scope should be recorded.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Derivative Governance"
+  }
+]

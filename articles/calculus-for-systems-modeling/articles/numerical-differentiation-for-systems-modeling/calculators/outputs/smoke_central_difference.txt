@@ -1,0 +1,14 @@
+{
+  "calculator": "central-difference",
+  "inputs": {
+    "command": "central-difference",
+    "f_next": 1.12,
+    "f_previous": 0.89,
+    "h": 0.1
+  },
+  "interpretation": "Estimates a derivative using values on both sides.",
+  "result": {
+    "derivative_estimate": 1.1500000000000004
+  },
+  "warning": "Central differences require neighboring values on both sides."
+}

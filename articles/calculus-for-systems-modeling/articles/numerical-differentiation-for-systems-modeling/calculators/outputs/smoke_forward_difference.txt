@@ -1,0 +1,14 @@
+{
+  "calculator": "forward-difference",
+  "inputs": {
+    "command": "forward-difference",
+    "f_current": 1.0,
+    "f_next": 1.12,
+    "h": 0.1
+  },
+  "interpretation": "Estimates a derivative using current and next values.",
+  "result": {
+    "derivative_estimate": 1.200000000000001
+  },
+  "warning": "Forward differences are one-sided and step-size dependent."
+}

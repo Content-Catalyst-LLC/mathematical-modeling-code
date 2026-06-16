@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DifferentiationRecord",
+  "type": "object",
+  "required": [
+    "index", "x", "value", "true_derivative",
+    "forward_difference", "backward_difference", "central_difference",
+    "central_absolute_error", "step_size", "warning"
+  ],
+  "properties": {
+    "index": {"type": "integer"},
+    "x": {"type": "number"},
+    "value": {"type": "number"},
+    "true_derivative": {"type": "number"},
+    "forward_difference": {"type": ["number", "null"]},
+    "backward_difference": {"type": ["number", "null"]},
+    "central_difference": {"type": ["number", "null"]},
+    "central_absolute_error": {"type": ["number", "null"]},
+    "step_size": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

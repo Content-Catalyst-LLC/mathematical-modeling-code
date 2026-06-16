@@ -1,0 +1,10 @@
+condition,passed,warning
+finite-difference formulas included,True,
+synthetic benchmark included,True,
+central-error diagnostics included,True,
+step-size governance included,True,
+boundary-method review included,True,
+noise warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

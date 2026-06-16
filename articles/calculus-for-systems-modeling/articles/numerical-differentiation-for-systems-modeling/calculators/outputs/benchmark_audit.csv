@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_start,input_stop,input_h,result_records,result_mean_central_absolute_error,result_max_central_absolute_error
+benchmark-audit,Runs a smooth synthetic benchmark for central differences.,Synthetic accuracy does not guarantee empirical derivative reliability.,benchmark-audit,0.0,10.0,0.1,101,0.0010856946054248575,0.0016655980434623352

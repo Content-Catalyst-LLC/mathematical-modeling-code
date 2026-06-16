@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+finite-difference,Finite Difference,method,96,active,2026-06-15,Difference formula and derivative order should be documented.
+central-difference,Central Difference,method,95,active,2026-06-15,Central differences often improve accuracy for smooth interior points.
+step-size,Step Size,error analysis,94,review,2026-06-15,Step-size sensitivity should be tested and recorded.
+noise-amplification,Noise Amplification,data quality,93,review,2026-06-15,Derivative estimates can amplify measurement noise.
+derivative-governance,Derivative Governance,governance,92,active,2026-06-15,"Formula, step, smoothing, boundary handling, validation, and scope should be recorded."

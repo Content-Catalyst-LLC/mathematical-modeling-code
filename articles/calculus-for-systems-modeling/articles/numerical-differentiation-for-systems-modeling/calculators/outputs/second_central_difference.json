@@ -1,0 +1,15 @@
+{
+  "calculator": "second-central-difference",
+  "inputs": {
+    "command": "second-central-difference",
+    "f_current": 1.0,
+    "f_next": 1.12,
+    "f_previous": 0.89,
+    "h": 0.1
+  },
+  "interpretation": "Estimates a second derivative using a central stencil.",
+  "result": {
+    "second_derivative_estimate": 1.0000000000000118
+  },
+  "warning": "Second derivatives are especially sensitive to noise."
+}

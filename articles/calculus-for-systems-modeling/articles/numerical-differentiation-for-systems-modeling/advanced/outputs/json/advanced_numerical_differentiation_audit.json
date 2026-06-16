@@ -1,0 +1,25 @@
+{
+  "article": "Numerical Differentiation for Systems Modeling",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Numerical differentiation amplifies noise.",
+    "Step size balances truncation error, roundoff error, and data quality.",
+    "Boundary derivatives are often less reliable than interior derivatives.",
+    "Smoothing choices should be documented.",
+    "Derivative estimates should not be overstated when data quality is weak."
+  ]
+}

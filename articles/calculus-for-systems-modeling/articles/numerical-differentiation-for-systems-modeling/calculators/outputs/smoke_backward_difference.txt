@@ -1,0 +1,14 @@
+{
+  "calculator": "backward-difference",
+  "inputs": {
+    "command": "backward-difference",
+    "f_current": 1.0,
+    "f_previous": 0.89,
+    "h": 0.1
+  },
+  "interpretation": "Estimates a derivative using previous and current values.",
+  "result": {
+    "derivative_estimate": 1.0999999999999999
+  },
+  "warning": "Backward differences are one-sided and step-size dependent."
+}

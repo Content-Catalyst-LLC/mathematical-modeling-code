@@ -1,0 +1,18 @@
+{
+  "article_slug": "numerical-differentiation-for-systems-modeling",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "forward-difference", "title": "Forward Difference"},
+    {"id": "backward-difference", "title": "Backward Difference"},
+    {"id": "central-difference", "title": "Central Difference"},
+    {"id": "second-central-difference", "title": "Second Central Difference"},
+    {"id": "benchmark-audit", "title": "Synthetic Derivative Benchmark Audit"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

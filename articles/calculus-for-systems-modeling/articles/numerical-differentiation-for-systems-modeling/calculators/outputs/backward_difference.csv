@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_f_previous,input_f_current,input_h,result_derivative_estimate
+backward-difference,Estimates a derivative using previous and current values.,Backward differences are one-sided and step-size dependent.,backward-difference,0.89,1.0,0.1,1.0999999999999999

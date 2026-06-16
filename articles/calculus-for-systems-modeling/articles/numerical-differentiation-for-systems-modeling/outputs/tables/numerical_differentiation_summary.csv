@@ -1,0 +1,2 @@
+start,stop,step_size,records,mean_central_absolute_error,max_central_absolute_error,interpretation
+0.0,10.0,0.1,101,0.0010856946054248575,0.0016655980434623352,"Central differences provide a useful derivative estimate for smooth synthetic data, but boundary and noise behavior require separate review."
