@@ -1,0 +1,65 @@
+[
+  {
+    "card_id": "output-record",
+    "category": "model definition",
+    "governance_note": "Output growth should not be treated as complete social progress.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Output Record"
+  },
+  {
+    "card_id": "growth-record",
+    "category": "growth governance",
+    "governance_note": "Growth-rate assumptions compound strongly over time.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Growth Record"
+  },
+  {
+    "card_id": "capital-record",
+    "category": "accumulation governance",
+    "governance_note": "Capital stock measures can hide quality, maintenance, and obsolescence.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Capital Record"
+  },
+  {
+    "card_id": "productivity-record",
+    "category": "productivity governance",
+    "governance_note": "Productivity should not be used as a residual without interpretation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Productivity Record"
+  },
+  {
+    "card_id": "adjustment-record",
+    "category": "dynamic governance",
+    "governance_note": "Instant adjustment assumptions can hide overshoot and persistence.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Adjustment Record"
+  },
+  {
+    "card_id": "constraint-record",
+    "category": "systems governance",
+    "governance_note": "Unconstrained growth assumptions should be compared with constrained scenarios.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Constraint Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Economic conclusions should not exceed output definitions, data evidence, structural assumptions, uncertainty, distributional interpretation, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

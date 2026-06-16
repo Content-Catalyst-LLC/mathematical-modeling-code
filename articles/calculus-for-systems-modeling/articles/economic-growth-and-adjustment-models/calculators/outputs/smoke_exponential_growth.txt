@@ -1,0 +1,14 @@
+{
+  "calculator": "exponential-growth",
+  "inputs": {
+    "command": "exponential-growth",
+    "g": 0.025,
+    "y0": 100.0,
+    "years": 40.0
+  },
+  "interpretation": "Computes continuous exponential growth.",
+  "result": {
+    "final_output": 271.8281828459045
+  },
+  "warning": "Growth-rate assumptions compound strongly over time."
+}

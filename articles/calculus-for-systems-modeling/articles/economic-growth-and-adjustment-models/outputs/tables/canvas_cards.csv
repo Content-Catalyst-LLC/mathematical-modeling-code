@@ -1,0 +1,8 @@
+card_id,title,category,score,status,review_date,governance_note
+output-record,Output Record,model definition,96,active,2026-06-15,Output growth should not be treated as complete social progress.
+growth-record,Growth Record,growth governance,95,review,2026-06-15,Growth-rate assumptions compound strongly over time.
+capital-record,Capital Record,accumulation governance,94,review,2026-06-15,"Capital stock measures can hide quality, maintenance, and obsolescence."
+productivity-record,Productivity Record,productivity governance,93,review,2026-06-15,Productivity should not be used as a residual without interpretation.
+adjustment-record,Adjustment Record,dynamic governance,92,review,2026-06-15,Instant adjustment assumptions can hide overshoot and persistence.
+constraint-record,Constraint Record,systems governance,91,review,2026-06-15,Unconstrained growth assumptions should be compared with constrained scenarios.
+claim-boundary,Claim Boundary,governance,90,review,2026-06-15,"Economic conclusions should not exceed output definitions, data evidence, structural assumptions, uncertainty, distributional interpretation, and tested scope."

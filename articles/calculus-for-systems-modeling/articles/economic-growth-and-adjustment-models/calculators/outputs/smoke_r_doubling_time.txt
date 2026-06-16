@@ -1,0 +1,4 @@
+     calculator     g doubling_time
+1 doubling-time 0.025      27.72589
+                                              warning
+1 Doubling time assumes constant proportional growth.

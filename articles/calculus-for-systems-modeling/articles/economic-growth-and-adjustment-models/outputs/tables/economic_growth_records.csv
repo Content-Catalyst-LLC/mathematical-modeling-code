@@ -1,0 +1,4 @@
+record_name,initial_output,growth_rate,horizon,final_output,doubling_time,warning
+growth_rate_0.010,100.0,0.01,40.0,149.18246976412703,69.31471805599453,Growth-rate assumptions compound strongly over time.
+growth_rate_0.025,100.0,0.025,40.0,271.8281828459045,27.72588722239781,Growth-rate assumptions compound strongly over time.
+growth_rate_0.040,100.0,0.04,40.0,495.3032424395115,17.328679513998633,Growth-rate assumptions compound strongly over time.

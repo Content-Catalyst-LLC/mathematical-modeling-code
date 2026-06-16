@@ -1,0 +1,34 @@
+actual_title: "Economic Growth and Adjustment Models"
+suggested_seo_title: "Economic Growth and Adjustment Models"
+focus_keyword: "economic growth and adjustment models"
+slug: "economic-growth-and-adjustment-models"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "infrastructure-flow-and-capacity-dynamics"
+  current: "economic-growth-and-adjustment-models"
+  next: "financial-dynamics-and-continuous-compounding"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/economic-growth-and-adjustment-models"
+tags:
+  - Calculus
+  - Economic Growth
+  - Adjustment Models
+  - Capital Accumulation
+  - Productivity
+  - Dynamic Systems
+  - Growth Modeling
+  - Systems Modeling
+excerpt_139_words: "Economic Growth and Adjustment Models shows how calculus turns output, capital accumulation, productivity, investment, depreciation, demand, supply, adjustment, shocks, and long-term change into a structured systems model. This article introduces economic dynamics for calculus-based systems modeling, including growth rates, exponential growth, logistic constraints, capital accumulation, investment, depreciation, production functions, productivity, labor growth, adjustment toward equilibrium, demand and supply response, shocks, delays, overshoot, capacity constraints, resource constraints, infrastructure limits, distribution, welfare, calibration, uncertainty, sensitivity, and responsible interpretation. It shows why output growth is not the same as welfare and why growth assumptions compound strongly over time. In computational workflows, economic growth audits support parameter records, growth scenarios, capital stock-flow models, productivity assumptions, adjustment equations, SQL governance registries, Haskell typed economic records, calculator scripts, Canvas artifacts, and generated reports."
+advanced_features:
+  - exponential growth
+  - doubling time
+  - logistic constrained growth
+  - capital accumulation
+  - depreciation and investment
+  - production functions
+  - target adjustment
+  - shocks and delays
+  - distribution and welfare warnings
+  - calculators layer
+  - Catalyst Canvas governance
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

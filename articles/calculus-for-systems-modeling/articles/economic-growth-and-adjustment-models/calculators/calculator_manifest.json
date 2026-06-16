@@ -1,0 +1,21 @@
+{
+  "article_slug": "economic-growth-and-adjustment-models",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "exponential-growth", "title": "Exponential Growth Calculator"},
+    {"id": "doubling-time", "title": "Doubling Time Calculator"},
+    {"id": "logistic-growth", "title": "Constrained Growth Calculator"},
+    {"id": "capital-step", "title": "Capital Accumulation Step Calculator"},
+    {"id": "cobb-douglas", "title": "Cobb-Douglas Production Calculator"},
+    {"id": "growth-accounting", "title": "Growth Accounting Calculator"},
+    {"id": "adjustment-step", "title": "Adjustment Toward Target Calculator"},
+    {"id": "governance-warning", "title": "Economic Growth Governance Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

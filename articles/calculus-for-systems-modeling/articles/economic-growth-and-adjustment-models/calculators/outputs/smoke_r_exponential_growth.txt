@@ -1,0 +1,4 @@
+          calculator  y0     g years final_output
+1 exponential-growth 100 0.025    40     271.8282
+                                               warning
+1 Growth-rate assumptions compound strongly over time.

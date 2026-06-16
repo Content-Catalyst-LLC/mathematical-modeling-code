@@ -1,0 +1,15 @@
+{
+  "calculator": "growth-accounting",
+  "inputs": {
+    "a_growth": 0.01,
+    "alpha": 0.35,
+    "command": "growth-accounting",
+    "k_growth": 0.03,
+    "l_growth": 0.02
+  },
+  "interpretation": "Computes Cobb-Douglas-style growth accounting.",
+  "result": {
+    "output_growth": 0.0335
+  },
+  "warning": "Productivity should not be used as an unexplained residual without interpretation."
+}

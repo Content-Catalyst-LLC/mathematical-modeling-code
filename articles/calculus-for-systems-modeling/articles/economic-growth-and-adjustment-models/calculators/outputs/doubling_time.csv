@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_g,result_doubling_time
+doubling-time,Computes continuous-growth doubling time.,Doubling time assumes constant proportional growth.,doubling-time,0.025,27.72588722239781

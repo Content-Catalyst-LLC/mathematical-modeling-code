@@ -1,0 +1,12 @@
+{
+  "calculator": "doubling-time",
+  "inputs": {
+    "command": "doubling-time",
+    "g": 0.025
+  },
+  "interpretation": "Computes continuous-growth doubling time.",
+  "result": {
+    "doubling_time": 27.72588722239781
+  },
+  "warning": "Doubling time assumes constant proportional growth."
+}

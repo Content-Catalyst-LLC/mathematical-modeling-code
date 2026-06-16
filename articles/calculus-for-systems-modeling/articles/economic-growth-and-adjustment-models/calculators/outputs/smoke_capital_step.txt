@@ -1,0 +1,17 @@
+{
+  "calculator": "capital-step",
+  "inputs": {
+    "capital": 300.0,
+    "command": "capital-step",
+    "depreciation": 0.05,
+    "dt": 1.0,
+    "output": 100.0,
+    "savings_rate": 0.22
+  },
+  "interpretation": "Computes one capital accumulation step.",
+  "result": {
+    "investment": 22.0,
+    "next_capital": 307.0
+  },
+  "warning": "Savings does not automatically become productive investment."
+}

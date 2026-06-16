@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_a_growth,input_k_growth,input_l_growth,input_alpha,result_output_growth
+growth-accounting,Computes Cobb-Douglas-style growth accounting.,Productivity should not be used as an unexplained residual without interpretation.,growth-accounting,0.01,0.03,0.02,0.35,0.0335

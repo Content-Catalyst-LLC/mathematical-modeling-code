@@ -1,0 +1,4 @@
+"scenario_name","final_output","final_capital","warning"
+"constant_growth_projection",271.828182845905,NA,"constant proportional growth compounds over time"
+"capacity_constrained_growth",213.017774321252,NA,"growth slows near a defined capacity or saturation limit"
+"capital_accumulation_case",NA,NA,"investment and depreciation shape long-run output capacity"

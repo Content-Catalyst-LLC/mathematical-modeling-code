@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-growth",
+  "inputs": {
+    "command": "logistic-growth",
+    "k": 240.0,
+    "r": 0.06,
+    "y0": 100.0,
+    "years": 40
+  },
+  "interpretation": "Computes constrained logistic growth.",
+  "result": {
+    "final_output": 213.59857489075884
+  },
+  "warning": "Constrained growth requires a defined mechanism and boundary."
+}

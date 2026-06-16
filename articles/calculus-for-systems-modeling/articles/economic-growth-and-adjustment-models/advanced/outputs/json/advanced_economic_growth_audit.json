@@ -1,0 +1,22 @@
+{
+  "article": "Economic Growth and Adjustment Models",
+  "advanced_standard": true,
+  "features": [
+    "exponential growth",
+    "doubling time",
+    "logistic constrained growth",
+    "capital accumulation",
+    "depreciation and investment",
+    "production functions",
+    "adjustment dynamics",
+    "shock response",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Output growth should not be treated as complete social progress.",
+    "Growth-rate assumptions compound strongly over time.",
+    "Productivity should not be used as a residual without interpretation.",
+    "Unconstrained growth assumptions should be compared with constrained scenarios."
+  ]
+}

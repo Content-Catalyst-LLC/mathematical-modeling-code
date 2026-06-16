@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_y0,input_r,input_k,input_years,result_final_output
+logistic-growth,Computes constrained logistic growth.,Constrained growth requires a defined mechanism and boundary.,logistic-growth,100.0,0.06,240.0,40,213.59857489075884

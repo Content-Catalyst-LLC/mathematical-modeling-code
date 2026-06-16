@@ -1,0 +1,16 @@
+{
+  "article_slug": "economic-growth-and-adjustment-models",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "economic-growth-adjustment-models",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "output-record", "title": "Output Record", "description": "Output measure, price basis, sector boundary, data source, and time horizon."},
+    {"card_id": "growth-record", "title": "Growth Record", "description": "Growth rate, compounding assumption, horizon, and scenario or historical status."},
+    {"card_id": "capital-record", "title": "Capital Record", "description": "Capital stock, investment, depreciation, maintenance, and asset quality."},
+    {"card_id": "productivity-record", "title": "Productivity Record", "description": "Productivity assumptions, technology, institutions, skills, organization, and residual interpretation."},
+    {"card_id": "adjustment-record", "title": "Adjustment Record", "description": "Adjustment speed, target, lag, shock response, and disequilibrium process."},
+    {"card_id": "constraint-record", "title": "Constraint Record", "description": "Infrastructure, labor, resource, energy, financial, institutional, and ecological constraints."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, scenario comparison, forecasting, policy analysis, development planning, or decision support."}
+  ]
+}

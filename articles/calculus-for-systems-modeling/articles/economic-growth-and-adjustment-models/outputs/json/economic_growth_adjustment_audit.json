@@ -1,0 +1,125 @@
+{
+  "growth_records": [
+    {
+      "doubling_time": 69.31471805599453,
+      "final_output": 149.18246976412703,
+      "growth_rate": 0.01,
+      "horizon": 40.0,
+      "initial_output": 100.0,
+      "record_name": "growth_rate_0.010",
+      "warning": "Growth-rate assumptions compound strongly over time."
+    },
+    {
+      "doubling_time": 27.72588722239781,
+      "final_output": 271.8281828459045,
+      "growth_rate": 0.025,
+      "horizon": 40.0,
+      "initial_output": 100.0,
+      "record_name": "growth_rate_0.025",
+      "warning": "Growth-rate assumptions compound strongly over time."
+    },
+    {
+      "doubling_time": 17.328679513998633,
+      "final_output": 495.3032424395115,
+      "growth_rate": 0.04,
+      "horizon": 40.0,
+      "initial_output": 100.0,
+      "record_name": "growth_rate_0.040",
+      "warning": "Growth-rate assumptions compound strongly over time."
+    }
+  ],
+  "interpretation_warning": "Economic growth model outputs depend on output definitions, growth mechanisms, productivity assumptions, capital measurement, depreciation, constraints, shocks, distribution, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "initial output index",
+      "parameter_name": "Y0",
+      "unit": "index",
+      "value": 100.0,
+      "warning": "Output measure and price basis must be documented."
+    },
+    {
+      "interpretation": "baseline output growth rate",
+      "parameter_name": "g",
+      "unit": "per year",
+      "value": 0.025,
+      "warning": "Growth-rate assumptions compound strongly over time."
+    },
+    {
+      "interpretation": "investment or savings share",
+      "parameter_name": "s",
+      "unit": "share of output",
+      "value": 0.22,
+      "warning": "Savings does not automatically become productive investment."
+    },
+    {
+      "interpretation": "depreciation rate",
+      "parameter_name": "delta",
+      "unit": "per year",
+      "value": 0.05,
+      "warning": "Depreciation should include maintenance and obsolescence assumptions."
+    },
+    {
+      "interpretation": "productivity growth rate",
+      "parameter_name": "A_growth",
+      "unit": "per year",
+      "value": 0.012,
+      "warning": "Productivity should not be used as an unexplained residual without interpretation."
+    },
+    {
+      "interpretation": "adjustment speed",
+      "parameter_name": "lambda",
+      "unit": "per year",
+      "value": 0.35,
+      "warning": "Adjustment speed depends on institutions, frictions, contracts, and expectations."
+    },
+    {
+      "interpretation": "illustrative output constraint",
+      "parameter_name": "capacity_limit",
+      "unit": "output index",
+      "value": 240.0,
+      "warning": "Constrained growth requires a defined mechanism and boundary."
+    }
+  ],
+  "scenario_records": [
+    {
+      "final_capital": 0.0,
+      "final_output": 271.8281828459045,
+      "final_time": 40.0,
+      "interpretation": "constant proportional growth compounds over time",
+      "model_type": "exponential_growth",
+      "scenario_name": "constant_growth_projection"
+    },
+    {
+      "final_capital": 0.0,
+      "final_output": 213.01777432125246,
+      "final_time": 40.0,
+      "interpretation": "growth slows near a defined capacity or saturation limit",
+      "model_type": "logistic_constraint",
+      "scenario_name": "capacity_constrained_growth"
+    },
+    {
+      "final_capital": Infinity,
+      "final_output": Infinity,
+      "final_time": 40.0,
+      "interpretation": "investment and depreciation shape long-run output capacity",
+      "model_type": "capital_stock_flow",
+      "scenario_name": "capital_accumulation_case"
+    },
+    {
+      "final_capital": 0.0,
+      "final_output": 159.99994900498788,
+      "final_time": 40.0,
+      "interpretation": "adjustment speed and shocks shape convergence dynamics",
+      "model_type": "target_adjustment",
+      "scenario_name": "adjustment_after_shock"
+    },
+    {
+      "final_capital": 450.0,
+      "final_output": 297.6684144608428,
+      "final_time": 40.0,
+      "interpretation": "production function output depends on productivity, capital, labor, and elasticity assumptions",
+      "model_type": "cobb_douglas",
+      "scenario_name": "production_function_case"
+    }
+  ]
+}

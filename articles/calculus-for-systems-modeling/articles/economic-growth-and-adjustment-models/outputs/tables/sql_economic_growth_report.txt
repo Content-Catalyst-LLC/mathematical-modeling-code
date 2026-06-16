@@ -1,0 +1,69 @@
+section                            
+-----------------------------------
+ECONOMIC GROWTH GOVERNANCE REGISTRY
+registry_name        analytical_role                                               systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Adjustment record    Documents adjustment speed, target, lag, shock response, and  Connects short-run dynamics to delayed system response.       Instant adjustment assumptions can hide overshoot and persis
+                      disequilibrium process.                                                                                                    tence.                                                      
+
+Capital record       Documents capital stock, investment, depreciation, maintenan  Connects output growth to accumulation and capacity.          Capital stock measures can hide quality, maintenance, and ob
+                     ce, and asset quality.                                                                                                      solescence.                                                 
+
+Claim boundary       Defines whether the model supports teaching, scenario compar  Prevents overclaiming and scope drift.                        Economic conclusions should not exceed output definitions, d
+                     ison, forecasting, policy analysis, development planning, or                                                                ata evidence, structural assumptions, uncertainty, distribut
+                      decision support.                                                                                                          ional interpretation, and tested scope.                     
+
+Constraint record    Documents infrastructure, labor, resource, energy, financial  Connects growth pathways to system limits and bottlenecks.    Unconstrained growth assumptions should be compared with con
+                     , institutional, and ecological constraints.                                                                                strained scenarios.                                         
+
+Growth record        Documents growth rate, time horizon, compounding assumption,  Makes rate assumptions and compounding visible.               Growth-rate assumptions compound strongly over time.        
+                      and whether the rate is historical, assumed, or scenario-ba                                                                                                                            
+                     sed.                                                                                                                                                                                    
+
+Output record        Defines output measure, price basis, sector boundary, data s  Prevents confusion between output, welfare, distribution, an  Output growth should not be treated as complete social progr
+                     ource, and time horizon.                                      d sustainability.                                             ess.                                                        
+
+Productivity record  Documents productivity assumptions, technology, organization  Prevents productivity from becoming an unexplained placehold  Productivity should not be used as a residual without interp
+                     , institutions, skills, and measurement residuals.            er.                                                           retation.                                                   
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value  unit             interpretation               warning                                                     
+--------------  -----  ---------------  ---------------------------  ------------------------------------------------------------
+A_growth        0.012  per year         productivity growth rate     Productivity should not be used as an unexplained residual w
+                                                                     ithout interpretation.                                      
+
+Y0              100.0  index            initial output index         Output measure and price basis must be documented.          
+
+delta           0.05   per year         depreciation rate            Depreciation should include maintenance and obsolescence ass
+                                                                     umptions.                                                   
+
+g               0.025  per year         baseline output growth rate  Growth-rate assumptions compound strongly over time.        
+
+lambda          0.35   per year         adjustment speed             Adjustment speed depends on institutions, frictions, contrac
+                                                                     ts, and expectations.                                       
+
+s               0.22   share of output  investment or savings share  Savings does not automatically become productive investment.
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                model_type           final_output  final_capital  interpretation                                              warning                                                     
+---------------------------  -------------------  ------------  -------------  ----------------------------------------------------------  ------------------------------------------------------------
+adjustment_after_shock       target_adjustment    160.0         0.0            adjustment speed and shocks shape convergence dynamics      Instant adjustment assumptions can hide overshoot and persis
+                                                                                                                                           tence.                                                      
+
+capacity_constrained_growth  logistic_constraint  224.0         0.0            growth slows near a defined capacity or saturation limit    Constrained growth requires a defined mechanism and boundary
+                                                                                                                                           .                                                           
+
+capital_accumulation_case    capital_stock_flow   180.0         420.0          investment and depreciation shape long-run output capacity  Capital stock measures can hide quality, maintenance, and ob
+                                                                                                                                           solescence.                                                 
+
+constant_growth_projection   exponential_growth   271.83        0.0            constant proportional growth compounds over time            Growth-rate assumptions compound strongly over time.        
+section       
+--------------
+GROWTH RECORDS
+record_name        growth_rate  horizon  final_output  doubling_time  warning                                             
+-----------------  -----------  -------  ------------  -------------  ----------------------------------------------------
+growth_rate_0_010  0.01         40.0     149.18        69.31          Growth-rate assumptions compound strongly over time.
+growth_rate_0_025  0.025        40.0     271.83        27.73          Growth-rate assumptions compound strongly over time.
+growth_rate_0_040  0.04         40.0     495.3         17.33          Growth-rate assumptions compound strongly over time.

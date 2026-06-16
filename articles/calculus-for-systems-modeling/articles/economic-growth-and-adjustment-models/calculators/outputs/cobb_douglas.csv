@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_a,input_k,input_l,input_alpha,result_output
+cobb-douglas,Computes Cobb-Douglas output.,"Production functions simplify complex institutions, energy, skills, and organization.",cobb-douglas,1.2,450.0,180.0,0.35,297.6684144608428

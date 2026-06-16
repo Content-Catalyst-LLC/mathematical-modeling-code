@@ -1,0 +1,15 @@
+{
+  "calculator": "adjustment-step",
+  "inputs": {
+    "command": "adjustment-step",
+    "dt": 1.0,
+    "lambda_rate": 0.35,
+    "target": 160.0,
+    "x": 100.0
+  },
+  "interpretation": "Computes one adjustment step toward a target.",
+  "result": {
+    "next_value": 121.0
+  },
+  "warning": "Instant adjustment assumptions can hide overshoot and persistence."
+}

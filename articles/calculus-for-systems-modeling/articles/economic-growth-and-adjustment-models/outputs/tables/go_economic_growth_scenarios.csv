@@ -1,0 +1,4 @@
+scenario_name,model_type,growth_rate,final_output,doubling_time,warning
+growth_rate_case,exponential_growth,0.010000,149.182470,69.314718,growth_rate_assumptions_compound
+growth_rate_case,exponential_growth,0.025000,271.828183,27.725887,growth_rate_assumptions_compound
+growth_rate_case,exponential_growth,0.040000,495.303242,17.328680,growth_rate_assumptions_compound

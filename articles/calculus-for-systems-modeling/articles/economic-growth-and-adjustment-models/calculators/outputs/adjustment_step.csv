@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_target,input_lambda_rate,input_dt,result_next_value
+adjustment-step,Computes one adjustment step toward a target.,Instant adjustment assumptions can hide overshoot and persistence.,adjustment-step,100.0,160.0,0.35,1.0,121.0

@@ -1,0 +1,6 @@
+scenario_name,model_type,final_time,final_output,final_capital,interpretation
+constant_growth_projection,exponential_growth,40.0,271.8281828459045,0.0,constant proportional growth compounds over time
+capacity_constrained_growth,logistic_constraint,40.0,213.01777432125246,0.0,growth slows near a defined capacity or saturation limit
+capital_accumulation_case,capital_stock_flow,40.0,inf,inf,investment and depreciation shape long-run output capacity
+adjustment_after_shock,target_adjustment,40.0,159.99994900498788,0.0,adjustment speed and shocks shape convergence dynamics
+production_function_case,cobb_douglas,40.0,297.6684144608428,450.0,"production function output depends on productivity, capital, labor, and elasticity assumptions"

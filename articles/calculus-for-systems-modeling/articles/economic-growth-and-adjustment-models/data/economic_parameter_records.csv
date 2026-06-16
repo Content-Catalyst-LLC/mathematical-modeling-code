@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+Y0,100.0,index,initial output index,Output measure and price basis must be documented
+g,0.025,per year,baseline output growth rate,Growth-rate assumptions compound strongly over time
+s,0.22,share of output,investment or savings share,Savings does not automatically become productive investment
+delta,0.05,per year,depreciation rate,Depreciation should include maintenance and obsolescence assumptions
+A_growth,0.012,per year,productivity growth rate,Productivity should not be used as an unexplained residual without interpretation
+lambda,0.35,per year,adjustment speed,Adjustment speed depends on institutions frictions contracts and expectations
+capacity_limit,240.0,output index,illustrative output constraint,Constrained growth requires a defined mechanism and boundary

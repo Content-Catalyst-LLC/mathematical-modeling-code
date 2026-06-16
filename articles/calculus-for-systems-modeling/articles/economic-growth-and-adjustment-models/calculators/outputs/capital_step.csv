@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_capital,input_output,input_savings_rate,input_depreciation,input_dt,result_investment,result_next_capital
+capital-step,Computes one capital accumulation step.,Savings does not automatically become productive investment.,capital-step,300.0,100.0,0.22,0.05,1.0,22.0,307.0

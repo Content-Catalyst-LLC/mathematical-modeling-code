@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_y0,input_g,input_years,result_final_output
+exponential-growth,Computes continuous exponential growth.,Growth-rate assumptions compound strongly over time.,exponential-growth,100.0,0.025,40.0,271.8281828459045

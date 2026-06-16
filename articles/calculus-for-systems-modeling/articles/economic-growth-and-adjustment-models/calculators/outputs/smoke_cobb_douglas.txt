@@ -1,0 +1,15 @@
+{
+  "calculator": "cobb-douglas",
+  "inputs": {
+    "a": 1.2,
+    "alpha": 0.35,
+    "command": "cobb-douglas",
+    "k": 450.0,
+    "l": 180.0
+  },
+  "interpretation": "Computes Cobb-Douglas output.",
+  "result": {
+    "output": 297.6684144608428
+  },
+  "warning": "Production functions simplify complex institutions, energy, skills, and organization."
+}

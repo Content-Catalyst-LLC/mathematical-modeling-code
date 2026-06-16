@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "output_welfare"
+  },
+  "interpretation": "Creates an economic-growth governance warning.",
+  "result": {
+    "note": "Output growth should not be treated as complete social progress."
+  },
+  "warning": "Economic conclusions should not exceed output definitions, data evidence, structural assumptions, uncertainty, distributional interpretation, and tested scope."
+}
