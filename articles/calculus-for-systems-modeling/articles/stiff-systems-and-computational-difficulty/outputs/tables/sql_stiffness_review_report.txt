@@ -1,0 +1,36 @@
+section                  
+-------------------------
+STIFFNESS REVIEW REGISTRY
+stiffness_name            numerical_role                                                systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Explicit stability limit  Explicit methods may require small steps to remain stable.    Helps distinguish numerical artifact from system behavior.    An unstable explicit run is not necessarily real system inst
+                                                                                                                                                      ability.                                                    
+
+Implicit method           Uses next-state information and often improves stability for  Supports computation when fast stable dynamics constrain exp  Implicit stability does not remove accuracy or interpretatio
+                           stiff systems.                                               licit solvers.                                                n review.                                                   
+
+Jacobian review           Local derivatives reveal coupling and rate separation.        Helps diagnose stiffness in nonlinear systems.                Jacobian conditioning and scaling should be reviewed.       
+
+Scaling review            Checks units, nondimensionalization, variable magnitudes, an  Helps distinguish real stiffness from poor numerical scaling  Bad scaling can create avoidable computational difficulty.  
+                          d tolerances.                                                 .                                                                                                                         
+
+Solver warning            Records step rejection, convergence failure, or stiffness de  Provides evidence of computational difficulty.                Warnings should be preserved, not suppressed.               
+                          tection.                                                                                                                                                                                
+
+Time-scale separation     Fast and slow processes coexist in the same model.            Explains why a solver may struggle even when the visible tra  Time-scale separation should be documented rather than hidde
+                                                                                        jectory changes slowly.                                       n in solver behavior.                                       
+section              
+---------------------
+STIFFNESS AUDIT CASES
+case_id           step_size  eigenvalue  method          diagnostic_type              interpretation_warning                                      
+----------------  ---------  ----------  --------------  ---------------------------  ------------------------------------------------------------
+explicit_h_0_1    0.1        -50.0       explicit_euler  amplification_factor_review  Explicit methods may require very small steps on stiff syste
+                                                                                      ms.                                                         
+
+explicit_h_0_025  0.025      -50.0       explicit_euler  step_size_refinement         A smaller explicit step may improve stability but increase r
+                                                                                      untime.                                                     
+
+implicit_h_0_1    0.1        -50.0       implicit_euler  amplification_factor_review  Implicit stability does not remove accuracy review.         
+
+implicit_h_0_025  0.025      -50.0       implicit_euler  stiff_solver_review          Solver diagnostics should be preserved with stiff simulation
+                                                                                      s.                                                          

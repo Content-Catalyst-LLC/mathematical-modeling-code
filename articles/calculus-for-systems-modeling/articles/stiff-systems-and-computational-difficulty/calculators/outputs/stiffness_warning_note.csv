@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_symptom,result_symptom,result_note
+stiffness-warning-note,Creates a stiffness warning interpretation note.,"Warnings should be preserved, not suppressed.",stiffness-warning-note,step_rejection,step_rejection,"Repeated rejected steps can indicate stiffness, discontinuity, or poor scaling."

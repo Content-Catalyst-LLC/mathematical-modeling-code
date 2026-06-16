@@ -1,0 +1,4 @@
+       calculator eigenvalues stiffness_ratio
+1 stiffness-ratio      -1,-50              50
+                                                            warning
+1 A stiffness ratio is a heuristic diagnostic not a complete proof.

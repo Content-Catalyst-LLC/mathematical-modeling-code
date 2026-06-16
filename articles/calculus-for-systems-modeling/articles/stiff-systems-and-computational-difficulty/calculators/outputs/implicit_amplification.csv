@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step_size,input_eigenvalue,result_amplification_factor,result_status
+implicit-amplification,Computes implicit Euler stability factor for a linear test problem.,Implicit stability does not remove accuracy or interpretation review.,implicit-amplification,0.1,-50.0,0.16666666666666666,stable_for_test_problem

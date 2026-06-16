@@ -1,0 +1,13 @@
+{
+  "calculator": "stiffness-ratio",
+  "inputs": {
+    "command": "stiffness-ratio",
+    "eigenvalues": "-1,-50"
+  },
+  "interpretation": "Computes a simple eigenvalue magnitude ratio.",
+  "result": {
+    "eigenvalues_count": 2,
+    "stiffness_ratio": 50.0
+  },
+  "warning": "A stiffness ratio is a heuristic diagnostic, not a complete stiffness proof."
+}

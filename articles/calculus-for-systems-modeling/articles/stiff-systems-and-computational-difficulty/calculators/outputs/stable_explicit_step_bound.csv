@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_eigenvalue,result_maximum_stable_step_for_explicit_euler_test
+stable-explicit-step-bound,Computes the simple explicit Euler stability bound for y'=lambda y with negative lambda.,Accuracy may require an even smaller step.,stable-explicit-step-bound,-50.0,0.04

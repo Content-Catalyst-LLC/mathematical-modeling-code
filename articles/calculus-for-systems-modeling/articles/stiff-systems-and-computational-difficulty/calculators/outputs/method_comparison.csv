@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step_size,input_eigenvalue,result_explicit_amplification,result_implicit_amplification,result_explicit_status,result_implicit_status
+method-comparison,Compares explicit and implicit stability factors.,"Method comparison is a diagnostic, not empirical validation.",method-comparison,0.1,-50.0,4.0,0.16666666666666666,unstable_for_test_problem,stable_for_test_problem

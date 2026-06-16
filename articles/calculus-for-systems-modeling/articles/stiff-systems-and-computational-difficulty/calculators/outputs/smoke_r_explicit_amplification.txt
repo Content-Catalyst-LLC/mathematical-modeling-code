@@ -1,0 +1,6 @@
+              calculator step_size eigenvalue amplification_factor
+1 explicit-amplification       0.1        -50                    4
+                     status
+1 unstable_for_test_problem
+                                                                              warning
+1 Explicit instability may be numerical artifact rather than real system instability.

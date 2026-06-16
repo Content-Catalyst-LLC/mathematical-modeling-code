@@ -1,0 +1,25 @@
+{
+  "article": "Stiff Systems and Computational Difficulty",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Explicit instability may be a numerical artifact rather than real system instability.",
+    "Implicit stability does not remove the need for accuracy review.",
+    "Stiffness can reflect real time-scale separation, poor scaling, or solver mismatch.",
+    "Solver warnings, rejected steps, and nonlinear solver status should be preserved.",
+    "Computational difficulty is not empirical validation."
+  ]
+}

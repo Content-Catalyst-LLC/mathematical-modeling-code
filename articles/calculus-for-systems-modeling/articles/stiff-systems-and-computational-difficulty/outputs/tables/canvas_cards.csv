@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+time-scale-separation,Time-Scale Separation,model structure,96,active,2026-06-15,Fast and slow dynamics should be documented as model structure.
+explicit-stability-limit,Explicit Stability Limit,solver review,95,review,2026-06-15,Explicit instability may be a numerical artifact rather than system instability.
+implicit-method,Implicit Method,solver review,94,active,2026-06-15,Implicit stability does not remove accuracy or interpretation review.
+jacobian-review,Jacobian Review,diagnostics,93,review,2026-06-15,"Eigenvalues, conditioning, and scaling should be preserved when available."
+solver-warning,Solver Warning,governance,92,active,2026-06-15,"Warnings, rejected steps, and nonlinear solver status should be recorded."

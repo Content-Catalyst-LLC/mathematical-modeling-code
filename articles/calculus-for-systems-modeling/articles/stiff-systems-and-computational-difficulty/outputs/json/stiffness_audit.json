@@ -1,0 +1,90 @@
+[
+  {
+    "absolute_error": 1048576.0,
+    "amplification_factor": 4.0,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 1048576.0,
+    "method": "explicit_euler",
+    "stability_status": "unstable_for_test_problem",
+    "step_size": 0.1,
+    "warning": "Explicit methods may require very small steps on stiff systems."
+  },
+  {
+    "absolute_error": 1.6538171687920002e-08,
+    "amplification_factor": 0.16666666666666666,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 1.6538171687920194e-08,
+    "method": "implicit_euler",
+    "stability_status": "stable_for_test_problem",
+    "step_size": 0.1,
+    "warning": "Implicit stability does not remove the need for accuracy and interpretation review."
+  },
+  {
+    "absolute_error": 3325.256730079651,
+    "amplification_factor": 1.5,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 3325.256730079651,
+    "method": "explicit_euler",
+    "stability_status": "unstable_for_test_problem",
+    "step_size": 0.05,
+    "warning": "Explicit methods may require very small steps on stiff systems."
+  },
+  {
+    "absolute_error": 1.3141323697632466e-11,
+    "amplification_factor": 0.2857142857142857,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 1.3141323697825341e-11,
+    "method": "implicit_euler",
+    "stability_status": "stable_for_test_problem",
+    "step_size": 0.05,
+    "warning": "Implicit stability does not remove the need for accuracy and interpretation review."
+  },
+  {
+    "absolute_error": 1.9204780418383875e-22,
+    "amplification_factor": 0.25,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 8.271806125530277e-25,
+    "method": "explicit_euler",
+    "stability_status": "stable_for_test_problem",
+    "step_size": 0.025,
+    "warning": "Explicit methods may require very small steps on stiff systems."
+  },
+  {
+    "absolute_error": 8.178982242779778e-15,
+    "amplification_factor": 0.4444444444444444,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 8.178982435654763e-15,
+    "method": "implicit_euler",
+    "stability_status": "stable_for_test_problem",
+    "step_size": 0.025,
+    "warning": "Implicit stability does not remove the need for accuracy and interpretation review."
+  },
+  {
+    "absolute_error": 1.9287498400753088e-22,
+    "amplification_factor": 0.5,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 7.888609052210118e-31,
+    "method": "explicit_euler",
+    "stability_status": "stable_for_test_problem",
+    "step_size": 0.01,
+    "warning": "Explicit methods may require very small steps on stiff systems."
+  },
+  {
+    "absolute_error": 2.45946155159502e-18,
+    "amplification_factor": 0.6666666666666666,
+    "eigenvalue": -50.0,
+    "exact_final_value": 1.9287498479639178e-22,
+    "final_value": 2.4596544265798165e-18,
+    "method": "implicit_euler",
+    "stability_status": "stable_for_test_problem",
+    "step_size": 0.01,
+    "warning": "Implicit stability does not remove the need for accuracy and interpretation review."
+  }
+]

@@ -1,0 +1,10 @@
+condition,passed,warning
+time-scale separation documented,True,
+explicit stability limit included,True,
+implicit method comparison included,True,
+amplification-factor audit included,True,
+solver diagnostic governance included,True,
+scaling and nondimensionalization notes included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

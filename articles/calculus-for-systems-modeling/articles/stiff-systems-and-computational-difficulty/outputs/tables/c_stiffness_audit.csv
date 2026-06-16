@@ -1,0 +1,9 @@
+step_size,eigenvalue,method,amplification_factor,stability_status,final_value,exact_final_value,absolute_error,warning
+0.100000,-50.000000,explicit_euler,4.000000000000,unstable_for_test_problem,1048576.000000000000,0.000000000000,1048576.000000000000,Explicit methods may require very small steps on stiff systems.
+0.100000,-50.000000,implicit_euler,0.166666666667,stable_for_test_problem,0.000000016538,0.000000000000,0.000000016538,Implicit stability does not remove accuracy review.
+0.050000,-50.000000,explicit_euler,1.500000000000,unstable_for_test_problem,3325.256730079662,0.000000000000,3325.256730079662,Explicit methods may require very small steps on stiff systems.
+0.050000,-50.000000,implicit_euler,0.285714285714,stable_for_test_problem,0.000000000013,0.000000000000,0.000000000013,Implicit stability does not remove accuracy review.
+0.025000,-50.000000,explicit_euler,0.250000000000,stable_for_test_problem,0.000000000000,0.000000000000,0.000000000000,Explicit methods may require very small steps on stiff systems.
+0.025000,-50.000000,implicit_euler,0.444444444444,stable_for_test_problem,0.000000000000,0.000000000000,0.000000000000,Implicit stability does not remove accuracy review.
+0.010000,-50.000000,explicit_euler,0.500000000000,stable_for_test_problem,0.000000000000,0.000000000000,0.000000000000,Explicit methods may require very small steps on stiff systems.
+0.010000,-50.000000,implicit_euler,0.666666666667,stable_for_test_problem,0.000000000000,0.000000000000,0.000000000000,Implicit stability does not remove accuracy review.

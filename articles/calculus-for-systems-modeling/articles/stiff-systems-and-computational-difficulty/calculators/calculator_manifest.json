@@ -1,0 +1,19 @@
+{
+  "article_slug": "stiff-systems-and-computational-difficulty",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "explicit-amplification", "title": "Explicit Euler Amplification Factor"},
+    {"id": "implicit-amplification", "title": "Implicit Euler Amplification Factor"},
+    {"id": "stiffness-ratio", "title": "Stiffness Ratio"},
+    {"id": "stable-explicit-step-bound", "title": "Stable Explicit Step Bound"},
+    {"id": "method-comparison", "title": "Explicit and Implicit Method Comparison"},
+    {"id": "stiffness-warning-note", "title": "Stiffness Warning Note"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

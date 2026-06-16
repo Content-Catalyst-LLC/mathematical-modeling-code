@@ -1,0 +1,16 @@
+{
+  "calculator": "method-comparison",
+  "inputs": {
+    "command": "method-comparison",
+    "eigenvalue": -50.0,
+    "step_size": 0.1
+  },
+  "interpretation": "Compares explicit and implicit stability factors.",
+  "result": {
+    "explicit_amplification": 4.0,
+    "explicit_status": "unstable_for_test_problem",
+    "implicit_amplification": 0.16666666666666666,
+    "implicit_status": "stable_for_test_problem"
+  },
+  "warning": "Method comparison is a diagnostic, not empirical validation."
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StiffnessAuditRecord",
+  "type": "object",
+  "required": [
+    "step_size", "eigenvalue", "method", "amplification_factor",
+    "stability_status", "final_value", "exact_final_value",
+    "absolute_error", "warning"
+  ],
+  "properties": {
+    "step_size": {"type": "number"},
+    "eigenvalue": {"type": "number"},
+    "method": {"type": "string"},
+    "amplification_factor": {"type": "number"},
+    "stability_status": {"type": "string"},
+    "final_value": {"type": "number"},
+    "exact_final_value": {"type": "number"},
+    "absolute_error": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

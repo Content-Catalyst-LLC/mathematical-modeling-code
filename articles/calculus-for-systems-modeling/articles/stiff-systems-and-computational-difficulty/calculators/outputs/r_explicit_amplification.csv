@@ -1,0 +1,2 @@
+"calculator","step_size","eigenvalue","amplification_factor","status","warning"
+"explicit-amplification",0.1,-50,4,"unstable_for_test_problem","Explicit instability may be numerical artifact rather than real system instability."

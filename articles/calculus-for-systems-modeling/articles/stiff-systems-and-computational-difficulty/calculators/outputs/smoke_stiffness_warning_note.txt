@@ -1,0 +1,13 @@
+{
+  "calculator": "stiffness-warning-note",
+  "inputs": {
+    "command": "stiffness-warning-note",
+    "symptom": "step_rejection"
+  },
+  "interpretation": "Creates a stiffness warning interpretation note.",
+  "result": {
+    "note": "Repeated rejected steps can indicate stiffness, discontinuity, or poor scaling.",
+    "symptom": "step_rejection"
+  },
+  "warning": "Warnings should be preserved, not suppressed."
+}
