@@ -6,10 +6,10 @@
     "margin": 0.15,
     "n": 900.0
   },
-  "interpretation": "Flags when a population is near modeled carrying capacity.",
+  "interpretation": "Capacity proximity check.",
   "result": {
     "capacity_fraction": 0.9,
     "near_capacity": true
   },
-  "warning": "Capacity warnings depend on the interpretation and uncertainty of K."
+  "warning": "K is assumption-bearing and may be uncertain."
 }

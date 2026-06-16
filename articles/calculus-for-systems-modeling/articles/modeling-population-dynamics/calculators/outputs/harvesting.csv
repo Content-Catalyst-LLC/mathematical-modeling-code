@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_n0,input_r,input_k,input_t,input_h,result_population
+harvesting,Logistic model with constant removal.,Removal terms encode management assumptions.,harvesting,100.0,0.08,1000.0,40.0,12.0,0.0

@@ -2,13 +2,14 @@
   "calculator": "exponential",
   "inputs": {
     "command": "exponential",
+    "k": 1000,
     "n0": 100.0,
     "r": 0.08,
     "t": 40.0
   },
-  "interpretation": "Computes unconstrained continuous exponential population growth.",
+  "interpretation": "Unconstrained exponential population model.",
   "result": {
     "population": 2453.2530197109354
   },
-  "warning": "Exponential growth is a baseline model and may overreach when constraints matter."
+  "warning": "Exponential growth is a baseline, not a long-run capacity model."
 }

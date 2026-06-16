@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_n0,input_r,input_k,input_t,input_a,result_population
+allee,Allee-effect model with low-population threshold.,Threshold parameters require evidence near the threshold.,allee,100.0,0.08,1000.0,40.0,75.0,999.999998819492

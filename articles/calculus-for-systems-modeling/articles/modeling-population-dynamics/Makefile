@@ -19,7 +19,7 @@ r:
 	@if command -v Rscript >/dev/null 2>&1; then Rscript r/modeling_population_dynamics.R; else echo "Rscript not found; skipping."; fi
 
 julia:
-	@if command -v julia >/dev/null 2>&1; then julia julia/modeling_population_dynamics.jl > outputs/tables/julia_population_growth_scenarios.csv; else echo "julia not found; skipping."; fi
+	@if command -v julia >/dev/null 2>&1; then julia julia/modeling_population_dynamics.jl > outputs/tables/julia_population_advanced_scenarios.csv; else echo "julia not found; skipping."; fi
 
 sql:
 	@if command -v sqlite3 >/dev/null 2>&1; then mkdir -p outputs/tables; sqlite3 outputs/tables/population_model_governance.sqlite < sql/schema.sql; sqlite3 outputs/tables/population_model_governance.sqlite < sql/analysis_queries.sql > outputs/tables/sql_population_model_report.txt; else echo "sqlite3 not found; skipping."; fi

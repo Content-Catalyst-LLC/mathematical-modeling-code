@@ -1,22 +1,14 @@
 {
   "article_slug": "modeling-population-dynamics",
   "series": "Calculus for Systems Modeling",
-  "canvas_layer": "population-dynamics-case-study",
+  "canvas_layer": "advanced-population-dynamics-case-study",
   "advanced_standard": true,
   "calculators_layer": true,
-  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
   "cards": [
-    {"card_id": "state-variable", "title": "State Variable", "description": "Population count, unit, boundary, and measurement status."},
-    {"card_id": "growth-law", "title": "Growth Law", "description": "Exponential, logistic, structured, stochastic, or spatial assumption."},
-    {"card_id": "parameter-record", "title": "Parameter Record", "description": "Initial population, growth rate, carrying capacity, units, and sources."},
-    {"card_id": "capacity-interpretation", "title": "Capacity Interpretation", "description": "What carrying capacity represents and how stable it is."},
-    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, exploration, mechanism, prediction, or decision support."}
-  ],
-  "governance": {
-    "synthetic_data_only": true,
-    "formal_definitions_included": true,
-    "advanced_code_layer_included": true,
-    "calculator_layer_included": true,
-    "generated_audit_reports": true
-  }
+    {"card_id": "growth-law", "title": "Growth Law", "description": "Exponential, logistic, Allee, harvesting, stochastic, spatial, or structured model choice."},
+    {"card_id": "threshold-dynamics", "title": "Threshold Dynamics", "description": "Allee effects, collapse risk, and critical population levels."},
+    {"card_id": "stochastic-structure", "title": "Stochastic Structure", "description": "Environmental variability and path-dependent risk."},
+    {"card_id": "structured-population", "title": "Structured Population", "description": "Age/stage vector and transition-matrix representation."},
+    {"card_id": "identifiability", "title": "Identifiability", "description": "Whether parameters can be learned from available observations."}
+  ]
 }

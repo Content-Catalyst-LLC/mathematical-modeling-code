@@ -1,0 +1,4 @@
+diagnostic_name,issue,warning,governance_response
+short_series_r_k_tradeoff,Different r and K values can fit early growth similarly.,Do not infer carrying capacity from short early-growth data alone.,"Use profile likelihood, grid search, or longer time series."
+threshold_parameter_A,Allee thresholds may be invisible unless data include low-population behavior.,Threshold claims need evidence near the threshold.,Run threshold scenarios and state uncertainty.
+stochastic_sigma,Noise intensity depends on what variability is represented.,A single stochastic path is not a distribution.,"Summarize ensembles, quantiles, and extinction probability."

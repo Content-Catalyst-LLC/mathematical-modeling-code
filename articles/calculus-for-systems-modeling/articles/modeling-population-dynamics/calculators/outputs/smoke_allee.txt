@@ -1,0 +1,16 @@
+{
+  "calculator": "allee",
+  "inputs": {
+    "a": 75.0,
+    "command": "allee",
+    "k": 1000.0,
+    "n0": 100.0,
+    "r": 0.08,
+    "t": 40.0
+  },
+  "interpretation": "Allee-effect model with low-population threshold.",
+  "result": {
+    "population": 999.999998819492
+  },
+  "warning": "Threshold parameters require evidence near the threshold."
+}

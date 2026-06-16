@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_n0,input_r,input_k,input_t,input_sigma,input_seed,result_population
+stochastic,One stochastic logistic path.,A single stochastic path is not a distribution.,stochastic,100.0,0.08,1000.0,40.0,0.12,17,656.2471800418532

@@ -1,6 +1,6 @@
 card_id,title,category,score,status,review_date,governance_note
-state-variable,State Variable,model definition,96,active,2026-06-15,A population model cannot be interpreted responsibly if the counted population is unclear.
-growth-law,Growth Law,model structure,95,active,2026-06-15,"A growth law is an assumption, not a universal description."
-parameter-record,Parameter Record,parameter governance,94,review,2026-06-15,Population projections can be highly sensitive to uncertain parameters.
-capacity-interpretation,Capacity Interpretation,capacity governance,93,review,2026-06-15,Carrying capacity is assumption-bearing and may change over time.
-claim-boundary,Claim Boundary,claim governance,92,review,2026-06-15,"Population model conclusions should not exceed evidence, assumptions, and tested scope."
+growth-law,Growth Law,model structure,96,active,2026-06-15,"A growth law is an assumption, not a universal description."
+threshold-dynamics,Threshold Dynamics,qualitative change,95,review,2026-06-15,Threshold parameters can be difficult to identify from limited data.
+stochastic-structure,Stochastic Structure,uncertainty,94,review,2026-06-15,A single stochastic path is not a distribution.
+structured-population,Structured Population,model structure,93,review,2026-06-15,Aggregate population size may hide reproductive composition.
+identifiability,Identifiability,calibration governance,92,review,2026-06-15,A fitted curve does not automatically prove parameter meaning or mechanism.

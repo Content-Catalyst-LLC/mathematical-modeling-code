@@ -1,0 +1,181 @@
+{
+  "calibration_grid_top": [
+    {
+      "K": 800.0,
+      "r": 0.08,
+      "sse": 415.6959387198537
+    },
+    {
+      "K": 600.0,
+      "r": 0.1,
+      "sse": 2796.953502308454
+    },
+    {
+      "K": 1500.0,
+      "r": 0.06,
+      "sse": 3353.246937529767
+    },
+    {
+      "K": 1000.0,
+      "r": 0.08,
+      "sse": 4109.197204123114
+    },
+    {
+      "K": 1200.0,
+      "r": 0.06,
+      "sse": 7342.34259822475
+    },
+    {
+      "K": 600.0,
+      "r": 0.08,
+      "sse": 8090.593093533066
+    },
+    {
+      "K": 1000.0,
+      "r": 0.06,
+      "sse": 12294.82561112563
+    },
+    {
+      "K": 600.0,
+      "r": 0.12,
+      "sse": 12915.58194385277
+    }
+  ],
+  "identifiability_records": [
+    {
+      "diagnostic_name": "short_series_r_k_tradeoff",
+      "governance_response": "Use profile likelihood, grid search, or longer time series.",
+      "issue": "Different r and K values can fit early growth similarly.",
+      "warning": "Do not infer carrying capacity from short early-growth data alone."
+    },
+    {
+      "diagnostic_name": "threshold_parameter_A",
+      "governance_response": "Run threshold scenarios and state uncertainty.",
+      "issue": "Allee thresholds may be invisible unless data include low-population behavior.",
+      "warning": "Threshold claims need evidence near the threshold."
+    },
+    {
+      "diagnostic_name": "stochastic_sigma",
+      "governance_response": "Summarize ensembles, quantiles, and extinction probability.",
+      "issue": "Noise intensity depends on what variability is represented.",
+      "warning": "A single stochastic path is not a distribution."
+    }
+  ],
+  "interpretation_warning": "Population model outputs depend on growth-law assumptions, parameter evidence, scope, omitted mechanisms, stochasticity, structure, and spatial context.",
+  "parameter_records": [
+    {
+      "interpretation": "initial population",
+      "parameter_name": "N0",
+      "source_status": "synthetic teaching value",
+      "unit": "individuals",
+      "value": 100,
+      "warning": "Initial values should include uncertainty."
+    },
+    {
+      "interpretation": "intrinsic growth rate",
+      "parameter_name": "r",
+      "source_status": "synthetic teaching value",
+      "unit": "per year",
+      "value": 0.08,
+      "warning": "Growth rates may vary across conditions."
+    },
+    {
+      "interpretation": "carrying capacity",
+      "parameter_name": "K",
+      "source_status": "synthetic teaching value",
+      "unit": "individuals",
+      "value": 1000,
+      "warning": "Carrying capacity may change over time."
+    },
+    {
+      "interpretation": "Allee threshold",
+      "parameter_name": "A",
+      "source_status": "synthetic teaching value",
+      "unit": "individuals",
+      "value": 75,
+      "warning": "Threshold parameters can be hard to identify."
+    },
+    {
+      "interpretation": "harvest/removal rate",
+      "parameter_name": "H",
+      "source_status": "synthetic teaching value",
+      "unit": "individuals per year",
+      "value": 12,
+      "warning": "Removal terms are management assumptions."
+    },
+    {
+      "interpretation": "environmental variability",
+      "parameter_name": "sigma",
+      "source_status": "synthetic teaching value",
+      "unit": "noise intensity",
+      "value": 0.12,
+      "warning": "Stochastic output should be summarized as distribution."
+    },
+    {
+      "interpretation": "migration coefficient",
+      "parameter_name": "m",
+      "source_status": "synthetic teaching value",
+      "unit": "per year",
+      "value": 0.04,
+      "warning": "Movement assumptions should match spatial context."
+    }
+  ],
+  "scenario_records": [
+    {
+      "final_population": 2453.2530197109354,
+      "final_time": 40.0,
+      "interpretation": "unconstrained baseline",
+      "model_type": "exponential",
+      "scenario_name": "exponential_baseline"
+    },
+    {
+      "final_population": 731.6039097826314,
+      "final_time": 40.0,
+      "interpretation": "capacity-limited baseline",
+      "model_type": "logistic",
+      "scenario_name": "logistic_capacity_limited"
+    },
+    {
+      "final_population": 999.999998819492,
+      "final_time": 40.0,
+      "interpretation": "low-population threshold",
+      "model_type": "allee_effect",
+      "scenario_name": "allee_threshold"
+    },
+    {
+      "final_population": 0.0,
+      "final_time": 40.0,
+      "interpretation": "external removal pressure",
+      "model_type": "harvesting",
+      "scenario_name": "harvesting_pressure"
+    },
+    {
+      "final_population": 656.2471800418532,
+      "final_time": 40.0,
+      "interpretation": "one stochastic path",
+      "model_type": "stochastic",
+      "scenario_name": "stochastic_logistic_path"
+    },
+    {
+      "final_population": 1768.3111453656484,
+      "final_time": 40.0,
+      "interpretation": "two connected patches",
+      "model_type": "metapopulation",
+      "scenario_name": "two_patch_total"
+    },
+    {
+      "final_population": 3767.5646534155835,
+      "final_time": 20,
+      "interpretation": "stage-structured projection",
+      "model_type": "leslie_matrix",
+      "scenario_name": "structured_total"
+    },
+    {
+      "final_population": 419.88,
+      "final_time": 0.1,
+      "interpretation": "one spatial diffusion update",
+      "model_type": "diffusion_step",
+      "scenario_name": "spatial_grid_total"
+    }
+  ]
+}

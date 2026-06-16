@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_n1,input_n2,input_m,input_r,input_k,input_t,result_patch1,result_patch2,result_total
+two-patch,Two-patch migration model.,Migration assumptions should match geography or network structure.,two-patch,100.0,400.0,0.04,0.08,1000.0,40.0,880.7887785943369,887.5223667713116,1768.3111453656484

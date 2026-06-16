@@ -1,6 +1,5 @@
 [package]
-name = "modeling-population-dynamics"
+name = "modeling-population-dynamics-advanced"
 version = "0.1.0"
 edition = "2021"
-
 [dependencies]

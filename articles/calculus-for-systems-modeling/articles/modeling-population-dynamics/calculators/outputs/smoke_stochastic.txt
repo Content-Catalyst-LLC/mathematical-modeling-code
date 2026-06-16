@@ -1,0 +1,17 @@
+{
+  "calculator": "stochastic",
+  "inputs": {
+    "command": "stochastic",
+    "k": 1000.0,
+    "n0": 100.0,
+    "r": 0.08,
+    "seed": 17,
+    "sigma": 0.12,
+    "t": 40.0
+  },
+  "interpretation": "One stochastic logistic path.",
+  "result": {
+    "population": 656.2471800418532
+  },
+  "warning": "A single stochastic path is not a distribution."
+}

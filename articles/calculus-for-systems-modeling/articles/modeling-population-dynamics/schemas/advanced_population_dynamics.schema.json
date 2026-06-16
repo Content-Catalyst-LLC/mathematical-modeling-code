@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdvancedPopulationDynamicsAudit",
+  "type": "object",
+  "required": ["parameter_records", "scenario_records", "identifiability_records", "interpretation_warning"],
+  "properties": {
+    "parameter_records": {"type": "array"},
+    "scenario_records": {"type": "array"},
+    "identifiability_records": {"type": "array"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

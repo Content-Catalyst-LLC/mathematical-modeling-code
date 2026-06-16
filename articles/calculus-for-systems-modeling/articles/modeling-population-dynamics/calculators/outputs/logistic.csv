@@ -1,2 +1,2 @@
 calculator,interpretation,warning,input_command,input_n0,input_r,input_k,input_t,result_population,result_capacity_fraction
-logistic,Computes capacity-limited logistic population growth.,Carrying capacity is assumption-bearing and may change over time.,logistic,100.0,0.08,1000.0,40.0,731.6039097826314,0.7316039097826313
+logistic,Capacity-limited logistic population model.,Carrying capacity is assumption-bearing.,logistic,100.0,0.08,1000.0,40.0,731.6039097826314,0.7316039097826313

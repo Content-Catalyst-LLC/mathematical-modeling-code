@@ -1,1 +1,1 @@
-"""Population dynamics case study companion package."""
+"""Advanced population dynamics case study package."""

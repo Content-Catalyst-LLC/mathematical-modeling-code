@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_note
+identifiability-warning,Identifiability governance warning.,A fitted curve does not automatically prove parameter meaning.,identifiability-warning,short_series,Different r and K values can fit early growth similarly.

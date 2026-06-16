@@ -1,25 +1,21 @@
 {
   "article": "Case Study: Modeling Population Dynamics",
   "advanced_standard": true,
-  "calculator_layer_included": true,
-  "catalyst_canvas_layer_included": true,
-  "languages": [
-    "python",
-    "r",
-    "julia",
-    "sql",
-    "haskell",
-    "c",
-    "cpp",
-    "fortran",
-    "rust",
-    "go"
+  "features": [
+    "Allee effect",
+    "harvesting",
+    "stochastic paths",
+    "Leslie projection",
+    "two-patch migration",
+    "diffusion step",
+    "calibration grid",
+    "identifiability diagnostics"
   ],
   "warnings": [
-    "Population model outputs depend on growth-law assumptions.",
+    "A growth law is an assumption, not a universal description.",
     "Carrying capacity is assumption-bearing and may change over time.",
+    "Threshold parameters can be difficult to identify from limited data.",
     "A fitted curve does not automatically prove the model mechanism.",
-    "Population projections can be highly sensitive to uncertain parameters.",
-    "Population model conclusions should not exceed evidence, assumptions, and tested scope."
+    "A single stochastic path is not a distribution."
   ]
 }

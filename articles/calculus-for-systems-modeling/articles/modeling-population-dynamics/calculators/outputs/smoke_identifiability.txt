@@ -1,0 +1,12 @@
+{
+  "calculator": "identifiability-warning",
+  "inputs": {
+    "command": "identifiability-warning",
+    "pattern": "short_series"
+  },
+  "interpretation": "Identifiability governance warning.",
+  "result": {
+    "note": "Different r and K values can fit early growth similarly."
+  },
+  "warning": "A fitted curve does not automatically prove parameter meaning."
+}

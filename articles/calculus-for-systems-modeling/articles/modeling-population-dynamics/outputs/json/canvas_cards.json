@@ -1,47 +1,47 @@
 [
   {
-    "card_id": "state-variable",
-    "category": "model definition",
-    "governance_note": "A population model cannot be interpreted responsibly if the counted population is unclear.",
-    "review_date": "2026-06-15",
-    "score": 96,
-    "status": "active",
-    "title": "State Variable"
-  },
-  {
     "card_id": "growth-law",
     "category": "model structure",
     "governance_note": "A growth law is an assumption, not a universal description.",
     "review_date": "2026-06-15",
-    "score": 95,
+    "score": 96,
     "status": "active",
     "title": "Growth Law"
   },
   {
-    "card_id": "parameter-record",
-    "category": "parameter governance",
-    "governance_note": "Population projections can be highly sensitive to uncertain parameters.",
+    "card_id": "threshold-dynamics",
+    "category": "qualitative change",
+    "governance_note": "Threshold parameters can be difficult to identify from limited data.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Threshold Dynamics"
+  },
+  {
+    "card_id": "stochastic-structure",
+    "category": "uncertainty",
+    "governance_note": "A single stochastic path is not a distribution.",
     "review_date": "2026-06-15",
     "score": 94,
     "status": "review",
-    "title": "Parameter Record"
+    "title": "Stochastic Structure"
   },
   {
-    "card_id": "capacity-interpretation",
-    "category": "capacity governance",
-    "governance_note": "Carrying capacity is assumption-bearing and may change over time.",
+    "card_id": "structured-population",
+    "category": "model structure",
+    "governance_note": "Aggregate population size may hide reproductive composition.",
     "review_date": "2026-06-15",
     "score": 93,
     "status": "review",
-    "title": "Capacity Interpretation"
+    "title": "Structured Population"
   },
   {
-    "card_id": "claim-boundary",
-    "category": "claim governance",
-    "governance_note": "Population model conclusions should not exceed evidence, assumptions, and tested scope.",
+    "card_id": "identifiability",
+    "category": "calibration governance",
+    "governance_note": "A fitted curve does not automatically prove parameter meaning or mechanism.",
     "review_date": "2026-06-15",
     "score": 92,
     "status": "review",
-    "title": "Claim Boundary"
+    "title": "Identifiability"
   }
 ]

@@ -1,0 +1,15 @@
+{
+  "calculator": "leslie",
+  "inputs": {
+    "command": "leslie",
+    "steps": 20
+  },
+  "interpretation": "Stage-structured Leslie projection.",
+  "result": {
+    "stage1": 2080.642209993256,
+    "stage2": 970.0867888906795,
+    "stage3": 716.835654531648,
+    "total": 3767.5646534155835
+  },
+  "warning": "Aggregate totals can hide population composition."
+}

@@ -1,0 +1,6 @@
+"scenario_name","model_type","final_population","warning"
+"exponential_baseline","exponential",2453.25301971094,"unconstrained baseline"
+"logistic_capacity_limited","logistic",731.603909782631,"capacity-limited assumption"
+"allee_threshold","allee_effect",999.999998819492,"threshold-dependent recovery"
+"harvesting_pressure","harvesting",0,"management/removal assumption"
+"stochastic_logistic_path","stochastic",670.966360342916,"single stochastic path"

@@ -1,0 +1,9 @@
+scenario_name,model_type,final_time,final_population,interpretation
+exponential_baseline,exponential,40.0,2453.2530197109354,unconstrained baseline
+logistic_capacity_limited,logistic,40.0,731.6039097826314,capacity-limited baseline
+allee_threshold,allee_effect,40.0,999.999998819492,low-population threshold
+harvesting_pressure,harvesting,40.0,0.0,external removal pressure
+stochastic_logistic_path,stochastic,40.0,656.2471800418532,one stochastic path
+two_patch_total,metapopulation,40.0,1768.3111453656484,two connected patches
+structured_total,leslie_matrix,20,3767.5646534155835,stage-structured projection
+spatial_grid_total,diffusion_step,0.1,419.88,one spatial diffusion update

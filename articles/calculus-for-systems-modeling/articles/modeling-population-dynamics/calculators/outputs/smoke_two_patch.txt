@@ -1,0 +1,19 @@
+{
+  "calculator": "two-patch",
+  "inputs": {
+    "command": "two-patch",
+    "k": 1000.0,
+    "m": 0.04,
+    "n1": 100.0,
+    "n2": 400.0,
+    "r": 0.08,
+    "t": 40.0
+  },
+  "interpretation": "Two-patch migration model.",
+  "result": {
+    "patch1": 880.7887785943369,
+    "patch2": 887.5223667713116,
+    "total": 1768.3111453656484
+  },
+  "warning": "Migration assumptions should match geography or network structure."
+}

@@ -1,0 +1,8 @@
+parameter_name,value,unit,source_status,interpretation,warning
+N0,100,individuals,synthetic teaching value,initial population,Initial values should include uncertainty in empirical use
+r,0.08,per year,synthetic teaching value,intrinsic growth rate,Growth rates may vary across conditions
+K,1000,individuals,synthetic teaching value,carrying capacity,Carrying capacity may change over time
+A,75,individuals,synthetic teaching value,Allee threshold,Threshold parameters can be hard to identify
+H,12,individuals per year,synthetic teaching value,harvest/removal rate,Removal terms are management assumptions
+sigma,0.12,noise intensity,synthetic teaching value,environmental variability,Stochastic output should be summarized as distribution
+m,0.04,per year,synthetic teaching value,two-patch migration,Movement assumptions should match spatial context

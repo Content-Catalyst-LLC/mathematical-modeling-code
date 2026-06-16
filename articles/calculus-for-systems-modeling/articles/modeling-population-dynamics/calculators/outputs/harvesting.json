@@ -1,0 +1,16 @@
+{
+  "calculator": "harvesting",
+  "inputs": {
+    "command": "harvesting",
+    "h": 12.0,
+    "k": 1000.0,
+    "n0": 100.0,
+    "r": 0.08,
+    "t": 40.0
+  },
+  "interpretation": "Logistic model with constant removal.",
+  "result": {
+    "population": 0.0
+  },
+  "warning": "Removal terms encode management assumptions."
+}

@@ -1,2 +1,2 @@
 calculator,interpretation,warning,input_command,input_n,input_k,input_margin,result_capacity_fraction,result_near_capacity
-capacity-warning,Flags when a population is near modeled carrying capacity.,Capacity warnings depend on the interpretation and uncertainty of K.,capacity-warning,900.0,1000.0,0.15,0.9,True
+capacity-warning,Capacity proximity check.,K is assumption-bearing and may be uncertain.,capacity-warning,900.0,1000.0,0.15,0.9,True
