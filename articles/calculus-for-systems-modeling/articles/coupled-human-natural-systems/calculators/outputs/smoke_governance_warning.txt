@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "equity"
+  },
+  "interpretation": "Creates a coupled-systems governance warning.",
+  "result": {
+    "note": "Aggregate efficiency can hide unequal burden, displacement, and environmental injustice."
+  },
+  "warning": "Coupled-system conclusions should not exceed boundary definitions, data evidence, mechanism plausibility, uncertainty, equity review, and tested scope."
+}

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p outputs
+
+echo "[calculator smoke] Python calculators"
+if command -v python3 >/dev/null 2>&1; then
+  python3 python/article_calculator.py regeneration --stock 80 --growth-rate 0.08 --carrying-capacity 100 > outputs/smoke_regeneration.txt
+  python3 python/article_calculator.py extraction --efficiency 0.003 --effort 12 --stock 80 > outputs/smoke_extraction.txt
+  python3 python/article_calculator.py stock-step --stock 80 --growth-rate 0.08 --carrying-capacity 100 --harvest 2.88 --stress 0.25 --dt 0.25 > outputs/smoke_stock_step.txt
+  python3 python/article_calculator.py adaptive-effort-step --effort 12 --scarcity 0.2 --governance-strength 0.6 --adjustment-rate 0.2 --dt 0.25 > outputs/smoke_adaptive_effort_step.txt
+  python3 python/article_calculator.py distributional-burden --exposure 0.6 --vulnerability 1.4 --adaptation 0.2 > outputs/smoke_distributional_burden.txt
+  python3 python/article_calculator.py threshold-warning --stock 25 --threshold 30 > outputs/smoke_threshold_warning.txt
+  python3 python/article_calculator.py governance-warning --context equity > outputs/smoke_governance_warning.txt
+else
+  echo "python3 not found; skipping Python calculator smoke tests"
+fi
+
+echo "[calculator smoke] R calculators"
+if command -v Rscript >/dev/null 2>&1; then
+  Rscript r/article_calculator.R regeneration 80 0.08 100 > outputs/smoke_r_regeneration.txt
+  Rscript r/article_calculator.R extraction 0.003 12 80 > outputs/smoke_r_extraction.txt
+else
+  echo "Rscript not found; skipping R calculator smoke tests"
+fi
+
+echo "[calculator smoke] done"

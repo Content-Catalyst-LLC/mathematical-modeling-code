@@ -1,0 +1,65 @@
+[
+  {
+    "card_id": "boundary-record",
+    "category": "model definition",
+    "governance_note": "Coupled-system conclusions are not meaningful without a defined boundary and external-flow record.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Boundary Record"
+  },
+  {
+    "card_id": "human-system-record",
+    "category": "human assumptions",
+    "governance_note": "Human assumptions should include constraints, institutions, rights, and distribution where relevant.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Human-System Record"
+  },
+  {
+    "card_id": "natural-system-record",
+    "category": "ecological assumptions",
+    "governance_note": "Ecological assumptions should include uncertainty, thresholds, and omitted mechanisms.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Natural-System Record"
+  },
+  {
+    "card_id": "coupling-record",
+    "category": "coupling governance",
+    "governance_note": "Coupling terms should represent mechanisms, not just arrows.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Coupling Record"
+  },
+  {
+    "card_id": "governance-record",
+    "category": "institutional governance",
+    "governance_note": "Governance should not be treated as a fixed or neutral constant without justification.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Governance Record"
+  },
+  {
+    "card_id": "equity-record",
+    "category": "equity governance",
+    "governance_note": "Aggregate efficiency can hide unequal burden, displacement, and environmental injustice.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Equity Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Coupled-system conclusions should not exceed boundary definitions, data evidence, mechanism plausibility, uncertainty, equity review, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

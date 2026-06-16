@@ -1,0 +1,78 @@
+section                            
+-----------------------------------
+COUPLED SYSTEMS GOVERNANCE REGISTRY
+registry_name          analytical_role                                               systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary record        Defines the coupled system boundary, spatial scale, time sca  Prevents local results from hiding imported impacts, leakage  Coupled-system conclusions are not meaningful without a defi
+                       le, and external flows.                                       , or displaced burden.                                        ned boundary and external-flow record.                      
+
+Claim boundary         Defines whether the model supports teaching, exploratory sce  Prevents overclaiming and scope drift.                        Coupled-system conclusions should not exceed boundary defini
+                       narios, planning, policy analysis, or decision support.                                                                     tions, data evidence, mechanism plausibility, uncertainty, e
+                                                                                                                                                   quity review, and tested scope.                             
+
+Coupling record        Documents extraction, restoration, emissions, exposure, feed  Connects human activity and natural response explicitly.      Coupling terms should represent mechanisms, not just arrows.
+                       back, trade, leakage, displacement, and governance response.                                                                                                                            
+
+Equity record          Documents exposure, access, benefit, burden, rights, culture  Connects coupled-system outputs to distributional consequenc  Aggregate efficiency can hide unequal burden, displacement, 
+                       , participation, and vulnerability.                           es.                                                           and environmental injustice.                                
+
+Governance record      Documents rules, legitimacy, enforcement, capacity, particip  Connects system outcomes to institutions and decision proces  Governance should not be treated as a fixed or neutral const
+                       ation, monitoring, and accountability.                        ses.                                                          ant without justification.                                  
+
+Human-system record    Documents population, demand, livelihoods, infrastructure, i  Prevents people from being reduced to a homogeneous pressure  Human assumptions should include constraints, institutions, 
+                       nstitutions, behavior, technology, inequality, and adaptive    term.                                                        rights, and distribution where relevant.                    
+                       capacity.                                                                                                                                                                               
+
+Natural-system record  Documents resource stocks, regeneration, ecosystem condition  Prevents nature from being reduced to a passive resource sup  Ecological assumptions should include uncertainty, threshold
+                       , habitat, climate stress, biodiversity, water, soil, and th  ply.                                                          s, and omitted mechanisms.                                  
+                       resholds.                                                                                                                                                                               
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value  unit                  interpretation              warning                                                     
+--------------  -----  --------------------  --------------------------  ------------------------------------------------------------
+A               12.0   effort units          human extraction effort     Effort reflects livelihoods, demand, technology, and constra
+                                                                         ints.                                                       
+
+G               0.6    index                 governance strength         Governance quality includes legitimacy, enforcement, resourc
+                                                                         es, and trust.                                              
+
+K               100.0  stock units           carrying capacity           Carrying capacity may change with climate, land use, polluti
+                                                                         on, or habitat loss.                                        
+
+Nc              30.0   stock units           critical natural threshold  Thresholds are uncertain and should be stress-tested.       
+
+mu              0.2    per year              adjustment rate             Human response may be slow, unequal, or constrained.        
+
+q_e             0.003  per effort per stock  extraction efficiency       Technology can increase pressure or reduce waste depending o
+                                                                         n context.                                                  
+
+r               0.08   per year              natural regeneration rate   Regeneration may vary with habitat, climate, age structure, 
+                                                                         and system state.                                           
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                   model_type                    final_human_pressure  final_natural_stock  cumulative_extraction  cumulative_burden  interpretation                                                warning                                                     
+------------------------------  ----------------------------  --------------------  -------------------  ---------------------  -----------------  ------------------------------------------------------------  ------------------------------------------------------------
+baseline_coupled_resource       resource_governance_feedback  11.62                 66.2                 123.8                  14.4               Coupled outcome depends on regeneration, extraction, stress,  Baseline scenario requires mechanism and boundary review.   
+                                                                                                                                                    governance, adaptation, and vulnerability.                                                                               
+
+high_extraction_low_governance  resource_governance_feedback  17.84                 22.5                 210.7                  31.2               High extraction and weak governance can push the system towa  Threshold status and distributional burden require review.  
+                                                                                                                                                   rd threshold risk.                                                                                                        
+
+restoration_and_adaptation      resource_governance_feedback  9.31                  88.7                 84.3                   4.8                Restoration and adaptation can reduce extraction pressure an  Assumptions about adaptation capacity and governance must be
+                                                                                                                                                   d burden.                                                      documented.                                                
+section           
+------------------
+DIAGNOSTIC RECORDS
+diagnostic_name                    value  unit                  interpretation                   warning                                                     
+---------------------------------  -----  --------------------  -------------------------------  ------------------------------------------------------------
+baseline_extraction_example        2.88   stock units per year  effort-based extraction example  Extraction assumptions should include technology, livelihood
+                                                                                                 s, and constraints.                                         
+
+baseline_regeneration_at_stock_80  1.28   stock units per year  regeneration at stock 80         Regeneration may vary with habitat, climate, and system stat
+                                                                                                 e.                                                          
+
+burden_example                     0.64   burden units          distributional burden example    Aggregate outcomes can hide unequal burden.                 
+
+threshold_status_example           1.0    binary                threshold review status          Thresholds are uncertain and should be stress-tested.       

@@ -1,0 +1,14 @@
+{
+  "calculator": "regeneration",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "regeneration",
+    "growth_rate": 0.08,
+    "stock": 80.0
+  },
+  "interpretation": "Computes logistic regeneration at the current stock.",
+  "result": {
+    "regeneration": 1.2799999999999998
+  },
+  "warning": "Regeneration may vary with habitat, climate, age structure, and system state."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_stock,input_threshold,result_threshold_status
+threshold-warning,Creates a threshold-status warning.,Thresholds are uncertain and should be stress-tested.,threshold-warning,25.0,30.0,below_threshold_review_required

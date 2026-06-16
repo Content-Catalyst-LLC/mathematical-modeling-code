@@ -1,0 +1,34 @@
+actual_title: "Coupled Human-Natural Systems"
+suggested_seo_title: "Coupled Human-Natural Systems"
+focus_keyword: "coupled human-natural systems"
+slug: "coupled-human-natural-systems"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "urban-dynamics-and-congestion"
+  current: "coupled-human-natural-systems"
+  next: ""
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/coupled-human-natural-systems"
+tags:
+  - Calculus
+  - Coupled Human-Natural Systems
+  - Social-Ecological Systems
+  - Sustainability Modeling
+  - Resilience
+  - Resource Governance
+  - Environmental Justice
+  - Systems Modeling
+excerpt_139_words: "Coupled Human-Natural Systems shows how calculus turns population, ecosystems, resources, infrastructure, climate, behavior, feedback, and governance into a structured systems model. This article introduces coupled-systems reasoning for calculus-based systems modeling, including coupled stocks and flows, human-natural feedback, renewable resource extraction and regeneration, demand, livelihoods, land-use change, ecosystem services, climate stress, environmental pressure, thresholds, adaptation, resilience, vulnerability, governance, equity, distributional burden, calibration, uncertainty, sensitivity, and responsible interpretation. It shows why human systems and natural systems should not be modeled as separate worlds when decisions, ecosystems, infrastructure, risk, and values coevolve over time. Computational workflows support coupled resource scenarios, regeneration and extraction calculators, adaptive response records, SQL governance registries, Haskell typed coupled-system records, calculator scripts, Canvas artifacts, and generated reports."
+advanced_features:
+  - coupled stocks and flows
+  - human-natural feedback
+  - resource extraction and regeneration
+  - adaptive response
+  - governance feedback
+  - environmental pressure
+  - resilience and vulnerability
+  - distributional burden
+  - thresholds and stress tests
+  - calculators layer
+  - Catalyst Canvas governance
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

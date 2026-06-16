@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoupledHumanNaturalSystemsAudit",
+  "type": "object",
+  "required": ["parameter_records", "scenario_records", "diagnostics", "interpretation_warning"],
+  "properties": {
+    "parameter_records": {"type": "array"},
+    "scenario_records": {"type": "array"},
+    "diagnostics": {"type": "object"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

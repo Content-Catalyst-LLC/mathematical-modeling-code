@@ -1,0 +1,8 @@
+card_id,title,category,score,status,review_date,governance_note
+boundary-record,Boundary Record,model definition,96,active,2026-06-15,Coupled-system conclusions are not meaningful without a defined boundary and external-flow record.
+human-system-record,Human-System Record,human assumptions,95,review,2026-06-15,"Human assumptions should include constraints, institutions, rights, and distribution where relevant."
+natural-system-record,Natural-System Record,ecological assumptions,94,review,2026-06-15,"Ecological assumptions should include uncertainty, thresholds, and omitted mechanisms."
+coupling-record,Coupling Record,coupling governance,93,review,2026-06-15,"Coupling terms should represent mechanisms, not just arrows."
+governance-record,Governance Record,institutional governance,92,review,2026-06-15,Governance should not be treated as a fixed or neutral constant without justification.
+equity-record,Equity Record,equity governance,91,review,2026-06-15,"Aggregate efficiency can hide unequal burden, displacement, and environmental injustice."
+claim-boundary,Claim Boundary,governance,90,review,2026-06-15,"Coupled-system conclusions should not exceed boundary definitions, data evidence, mechanism plausibility, uncertainty, equity review, and tested scope."

@@ -1,0 +1,16 @@
+{
+  "article_slug": "coupled-human-natural-systems",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "coupled-human-natural-systems",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "boundary-record", "title": "Boundary Record", "description": "Coupled system boundary, spatial scale, time scale, and external flows."},
+    {"card_id": "human-system-record", "title": "Human-System Record", "description": "Population, demand, livelihoods, infrastructure, institutions, behavior, technology, inequality, and adaptive capacity."},
+    {"card_id": "natural-system-record", "title": "Natural-System Record", "description": "Resource stocks, regeneration, ecosystem condition, habitat, climate stress, biodiversity, water, soil, and thresholds."},
+    {"card_id": "coupling-record", "title": "Coupling Record", "description": "Extraction, restoration, emissions, exposure, feedback, trade, leakage, displacement, and governance response."},
+    {"card_id": "governance-record", "title": "Governance Record", "description": "Rules, legitimacy, enforcement, capacity, participation, monitoring, and accountability."},
+    {"card_id": "equity-record", "title": "Equity Record", "description": "Exposure, access, benefit, burden, rights, culture, participation, and vulnerability."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, exploratory scenarios, planning, policy analysis, or decision support."}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "calculator": "adaptive-effort-step",
+  "inputs": {
+    "adjustment_rate": 0.2,
+    "command": "adaptive-effort-step",
+    "dt": 0.25,
+    "effort": 12.0,
+    "governance_strength": 0.6,
+    "scarcity": 0.2
+  },
+  "interpretation": "Computes one adaptive effort update.",
+  "result": {
+    "next_effort": 11.994
+  },
+  "warning": "Human response may be slow, unequal, or constrained."
+}

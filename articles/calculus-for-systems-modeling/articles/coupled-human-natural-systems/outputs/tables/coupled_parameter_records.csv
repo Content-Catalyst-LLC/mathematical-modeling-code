@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+r,0.08,per year,natural regeneration rate,"Regeneration may vary with habitat, climate, age structure, and system state."
+K,100.0,stock units,carrying capacity,"Carrying capacity may change with climate, land use, pollution, or habitat loss."
+q_e,0.003,per effort per stock,extraction efficiency,Technology can increase pressure or reduce waste depending on context.
+A,12.0,effort units,human extraction effort,"Effort reflects livelihoods, demand, technology, and constraints."
+G,0.6,index,governance strength,"Governance quality includes legitimacy, enforcement, resources, and trust."
+mu,0.2,per year,adjustment rate,"Human response may be slow, unequal, or constrained."
+Nc,30.0,stock units,critical natural threshold,Thresholds are uncertain and should be stress-tested.

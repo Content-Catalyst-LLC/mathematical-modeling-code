@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_exposure,input_vulnerability,input_adaptation,result_distributional_burden
+distributional-burden,Computes a simple distributional burden measure.,Aggregate outcomes can hide unequal burden and environmental injustice.,distributional-burden,0.6,1.4,0.2,0.6399999999999999

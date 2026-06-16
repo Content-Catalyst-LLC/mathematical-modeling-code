@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_stock,input_growth_rate,input_carrying_capacity,result_regeneration
+regeneration,Computes logistic regeneration at the current stock.,"Regeneration may vary with habitat, climate, age structure, and system state.",regeneration,80.0,0.08,100.0,1.2799999999999998

@@ -1,0 +1,13 @@
+{
+  "calculator": "threshold-warning",
+  "inputs": {
+    "command": "threshold-warning",
+    "stock": 25.0,
+    "threshold": 30.0
+  },
+  "interpretation": "Creates a threshold-status warning.",
+  "result": {
+    "threshold_status": "below_threshold_review_required"
+  },
+  "warning": "Thresholds are uncertain and should be stress-tested."
+}

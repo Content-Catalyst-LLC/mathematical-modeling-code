@@ -1,0 +1,18 @@
+{
+  "calculator": "stock-step",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "stock-step",
+    "dt": 0.25,
+    "growth_rate": 0.08,
+    "harvest": 2.88,
+    "stock": 80.0,
+    "stress": 0.25
+  },
+  "interpretation": "Computes one natural-stock update.",
+  "result": {
+    "next_stock": 79.5375,
+    "regeneration": 1.2799999999999998
+  },
+  "warning": "Stock dynamics require boundary, stress, extraction, and regeneration assumptions."
+}

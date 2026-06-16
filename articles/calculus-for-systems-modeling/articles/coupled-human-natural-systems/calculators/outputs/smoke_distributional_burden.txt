@@ -1,0 +1,14 @@
+{
+  "calculator": "distributional-burden",
+  "inputs": {
+    "adaptation": 0.2,
+    "command": "distributional-burden",
+    "exposure": 0.6,
+    "vulnerability": 1.4
+  },
+  "interpretation": "Computes a simple distributional burden measure.",
+  "result": {
+    "distributional_burden": 0.6399999999999999
+  },
+  "warning": "Aggregate outcomes can hide unequal burden and environmental injustice."
+}

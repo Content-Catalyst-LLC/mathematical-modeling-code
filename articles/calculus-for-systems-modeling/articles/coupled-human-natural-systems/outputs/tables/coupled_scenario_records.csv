@@ -1,0 +1,4 @@
+scenario_name,model_type,final_human_pressure,final_natural_stock,cumulative_extraction,cumulative_burden,interpretation
+baseline_coupled_resource,resource_governance_feedback,10.24793575287531,57.12985096678042,85.77990816763702,25.520642471246884,"Coupled outcome depends on regeneration, extraction, stress, governance, adaptation, and vulnerability."
+high_extraction_low_governance,resource_governance_feedback,17.519107871355725,21.127520187596158,113.90109016522196,58.871370291541815,"Coupled outcome depends on regeneration, extraction, stress, governance, adaptation, and vulnerability."
+restoration_and_adaptation,resource_governance_feedback,7.432319012353766,85.45810715316956,71.32141724785956,6.069337206455824,"Coupled outcome depends on regeneration, extraction, stress, governance, adaptation, and vulnerability."

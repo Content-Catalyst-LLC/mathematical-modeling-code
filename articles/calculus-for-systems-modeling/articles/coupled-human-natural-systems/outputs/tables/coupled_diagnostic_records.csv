@@ -1,0 +1,5 @@
+diagnostic_name,value,unit,interpretation,warning
+baseline_regeneration_at_stock_80,1.2799999999999998,stock units per year,regeneration at stock 80,"Regeneration may vary with habitat, climate, and system state."
+baseline_extraction_example,2.8800000000000003,stock units per year,effort-based extraction example,"Extraction assumptions should include technology, livelihoods, and constraints."
+burden_example,0.6399999999999999,burden units,distributional burden example,Aggregate outcomes can hide unequal burden.
+threshold_status_example,1.0,binary,threshold review status,Thresholds are uncertain and should be stress-tested.

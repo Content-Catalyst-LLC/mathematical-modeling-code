@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_efficiency,input_effort,input_stock,result_extraction
+extraction,Computes effort-based extraction pressure.,"Extraction assumptions should include technology, livelihoods, markets, and constraints.",extraction,0.003,12.0,80.0,2.8800000000000003

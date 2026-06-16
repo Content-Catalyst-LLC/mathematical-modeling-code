@@ -1,0 +1,113 @@
+{
+  "diagnostics": [
+    {
+      "diagnostic_name": "baseline_regeneration_at_stock_80",
+      "interpretation": "regeneration at stock 80",
+      "unit": "stock units per year",
+      "value": 1.2799999999999998,
+      "warning": "Regeneration may vary with habitat, climate, and system state."
+    },
+    {
+      "diagnostic_name": "baseline_extraction_example",
+      "interpretation": "effort-based extraction example",
+      "unit": "stock units per year",
+      "value": 2.8800000000000003,
+      "warning": "Extraction assumptions should include technology, livelihoods, and constraints."
+    },
+    {
+      "diagnostic_name": "burden_example",
+      "interpretation": "distributional burden example",
+      "unit": "burden units",
+      "value": 0.6399999999999999,
+      "warning": "Aggregate outcomes can hide unequal burden."
+    },
+    {
+      "diagnostic_name": "threshold_status_example",
+      "interpretation": "threshold review status",
+      "unit": "binary",
+      "value": 1.0,
+      "warning": "Thresholds are uncertain and should be stress-tested."
+    }
+  ],
+  "interpretation_warning": "Coupled human-natural systems outputs depend on boundary definitions, human assumptions, ecological assumptions, feedback mechanisms, governance assumptions, distributional effects, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "natural regeneration rate",
+      "parameter_name": "r",
+      "unit": "per year",
+      "value": 0.08,
+      "warning": "Regeneration may vary with habitat, climate, age structure, and system state."
+    },
+    {
+      "interpretation": "carrying capacity",
+      "parameter_name": "K",
+      "unit": "stock units",
+      "value": 100.0,
+      "warning": "Carrying capacity may change with climate, land use, pollution, or habitat loss."
+    },
+    {
+      "interpretation": "extraction efficiency",
+      "parameter_name": "q_e",
+      "unit": "per effort per stock",
+      "value": 0.003,
+      "warning": "Technology can increase pressure or reduce waste depending on context."
+    },
+    {
+      "interpretation": "human extraction effort",
+      "parameter_name": "A",
+      "unit": "effort units",
+      "value": 12.0,
+      "warning": "Effort reflects livelihoods, demand, technology, and constraints."
+    },
+    {
+      "interpretation": "governance strength",
+      "parameter_name": "G",
+      "unit": "index",
+      "value": 0.6,
+      "warning": "Governance quality includes legitimacy, enforcement, resources, and trust."
+    },
+    {
+      "interpretation": "adjustment rate",
+      "parameter_name": "mu",
+      "unit": "per year",
+      "value": 0.2,
+      "warning": "Human response may be slow, unequal, or constrained."
+    },
+    {
+      "interpretation": "critical natural threshold",
+      "parameter_name": "Nc",
+      "unit": "stock units",
+      "value": 30.0,
+      "warning": "Thresholds are uncertain and should be stress-tested."
+    }
+  ],
+  "scenario_records": [
+    {
+      "cumulative_burden": 25.520642471246884,
+      "cumulative_extraction": 85.77990816763702,
+      "final_human_pressure": 10.24793575287531,
+      "final_natural_stock": 57.12985096678042,
+      "interpretation": "Coupled outcome depends on regeneration, extraction, stress, governance, adaptation, and vulnerability.",
+      "model_type": "resource_governance_feedback",
+      "scenario_name": "baseline_coupled_resource"
+    },
+    {
+      "cumulative_burden": 58.871370291541815,
+      "cumulative_extraction": 113.90109016522196,
+      "final_human_pressure": 17.519107871355725,
+      "final_natural_stock": 21.127520187596158,
+      "interpretation": "Coupled outcome depends on regeneration, extraction, stress, governance, adaptation, and vulnerability.",
+      "model_type": "resource_governance_feedback",
+      "scenario_name": "high_extraction_low_governance"
+    },
+    {
+      "cumulative_burden": 6.069337206455824,
+      "cumulative_extraction": 71.32141724785956,
+      "final_human_pressure": 7.432319012353766,
+      "final_natural_stock": 85.45810715316956,
+      "interpretation": "Coupled outcome depends on regeneration, extraction, stress, governance, adaptation, and vulnerability.",
+      "model_type": "resource_governance_feedback",
+      "scenario_name": "restoration_and_adaptation"
+    }
+  ]
+}

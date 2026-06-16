@@ -1,0 +1,20 @@
+{
+  "article_slug": "coupled-human-natural-systems",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "regeneration", "title": "Regeneration Calculator"},
+    {"id": "extraction", "title": "Extraction Pressure Calculator"},
+    {"id": "stock-step", "title": "Natural Stock Step Calculator"},
+    {"id": "adaptive-effort-step", "title": "Adaptive Effort Step Calculator"},
+    {"id": "distributional-burden", "title": "Distributional Burden Calculator"},
+    {"id": "threshold-warning", "title": "Threshold Warning Calculator"},
+    {"id": "governance-warning", "title": "Coupled Systems Governance Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}
