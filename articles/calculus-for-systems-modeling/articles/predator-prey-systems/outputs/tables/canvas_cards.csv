@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-variables,State Variables,model definition,96,active,2026-06-15,"Predator and prey variables must have clear units, boundaries, and measurement status."
+interaction-term,Interaction Term,model structure,95,review,2026-06-15,"The product xy is an assumption, not universal evidence of encounter dynamics."
+functional-response,Functional Response,mechanism review,94,review,2026-06-15,The wrong functional response can change stability and persistence conclusions.
+phase-plane-record,Phase-Plane Record,qualitative dynamics,93,review,2026-06-15,"Equilibrium is a mathematical condition, not a full ecological conclusion."
+claim-boundary,Claim Boundary,governance,92,review,2026-06-15,"Predator-prey conclusions should not exceed evidence, assumptions, and tested scope."

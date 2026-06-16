@@ -1,0 +1,20 @@
+{
+  "article_slug": "predator-prey-systems",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "lotka-volterra-step", "title": "Lotka-Volterra Step Calculator"},
+    {"id": "coexistence", "title": "Coexistence Equilibrium Calculator"},
+    {"id": "jacobian", "title": "Jacobian and Stability Calculator"},
+    {"id": "simulate", "title": "Predator-Prey Scenario Simulator"},
+    {"id": "type-ii-response", "title": "Type II Functional Response Calculator"},
+    {"id": "harvesting-risk", "title": "Harvesting Risk Note"},
+    {"id": "interaction-warning", "title": "Interaction Assumption Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

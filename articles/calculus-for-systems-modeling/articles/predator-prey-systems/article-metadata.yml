@@ -1,0 +1,33 @@
+actual_title: "Case Study: Predator-Prey Systems"
+suggested_seo_title: "Case Study: Predator-Prey Systems"
+focus_keyword: "predator prey systems"
+slug: "predator-prey-systems"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "modeling-population-dynamics"
+  current: "predator-prey-systems"
+  next: "climate-feedback-models"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/predator-prey-systems"
+tags:
+  - Calculus
+  - Predator-Prey Systems
+  - Lotka-Volterra
+  - Nonlinear Dynamics
+  - Phase Planes
+  - Functional Responses
+  - Ecological Modeling
+  - Systems Modeling
+excerpt_139_words: "Case Study: Predator-Prey Systems shows how calculus turns interaction, feedback, oscillation, and stability into a structured systems model. This article introduces predator-prey systems for calculus-based systems modeling, including coupled differential equations, prey growth, predator mortality, encounter rates, conversion efficiency, nullclines, phase planes, equilibria, local stability, oscillation, phase lag, logistic prey limits, functional responses, harvesting, stochasticity, spatial structure, calibration, identifiability, uncertainty, sensitivity, and responsible interpretation. It shows why classic Lotka-Volterra equations are useful as a baseline but insufficient as a complete ecological explanation. In computational workflows, predator-prey audits support parameter records, scenario tables, nullcline notes, Jacobian calculations, SQL governance registries, Haskell typed interaction records, calculator scripts, Canvas artifacts, and generated reports. The article emphasizes documenting variables, interaction assumptions, functional responses, parameter evidence, validation scope, uncertainty, and claim boundaries."
+advanced_features:
+  - classic Lotka-Volterra model
+  - logistic prey extension
+  - Type II functional response
+  - harvesting and control
+  - stochastic predator-prey paths
+  - nullcline and phase-plane records
+  - Jacobian and local stability checks
+  - calibration and identifiability diagnostics
+  - calculators layer
+  - Catalyst Canvas governance
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

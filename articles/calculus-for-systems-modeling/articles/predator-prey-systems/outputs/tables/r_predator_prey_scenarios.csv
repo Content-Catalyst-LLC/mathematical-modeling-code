@@ -1,0 +1,4 @@
+"scenario_name","model_type","final_prey","final_predator","warning"
+"classic_lotka_volterra","lotka_volterra",116.394746527578,10.2586662211468,"mass-action baseline"
+"logistic_prey_limit","logistic_prey",50.1996600923393,29.9353930598071,"prey capacity included"
+"harvesting_pressure","harvesting",0,0,"management term changes dynamics"

@@ -1,0 +1,14 @@
+{
+  "calculator": "type-ii-response",
+  "inputs": {
+    "a": 0.04,
+    "command": "type-ii-response",
+    "h": 0.08,
+    "x": 50.0
+  },
+  "interpretation": "Computes Type II functional response per predator.",
+  "result": {
+    "functional_response": 1.7241379310344829
+  },
+  "warning": "Functional response choice can change stability and persistence conclusions."
+}

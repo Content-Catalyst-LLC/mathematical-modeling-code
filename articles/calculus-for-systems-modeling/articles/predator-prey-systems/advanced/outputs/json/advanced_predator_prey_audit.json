@@ -1,0 +1,24 @@
+{
+  "article": "Case Study: Predator-Prey Systems",
+  "advanced_standard": true,
+  "features": [
+    "Lotka-Volterra dynamics",
+    "logistic prey extension",
+    "Type II functional response",
+    "harvesting and control",
+    "stochastic path",
+    "nullclines",
+    "Jacobian stability",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Modeled cycles depend on ideal assumptions.",
+    "Prey carrying capacity changes dynamics.",
+    "Functional response choice changes stability and persistence.",
+    "Management terms require governance review.",
+    "A single stochastic path is not a distribution.",
+    "Nullclines depend on model assumptions.",
+    "Local stability is not a full ecological conclusion."
+  ]
+}

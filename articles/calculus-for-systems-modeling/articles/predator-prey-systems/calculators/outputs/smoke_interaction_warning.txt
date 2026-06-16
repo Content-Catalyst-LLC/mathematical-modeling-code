@@ -1,0 +1,12 @@
+{
+  "calculator": "interaction-warning",
+  "inputs": {
+    "command": "interaction-warning",
+    "pattern": "mass_action"
+  },
+  "interpretation": "Creates an interaction-assumption governance warning.",
+  "result": {
+    "note": "The product xy is an assumption, not universal evidence of encounter dynamics."
+  },
+  "warning": "Predator-prey conclusions should not exceed evidence, assumptions, and tested scope."
+}

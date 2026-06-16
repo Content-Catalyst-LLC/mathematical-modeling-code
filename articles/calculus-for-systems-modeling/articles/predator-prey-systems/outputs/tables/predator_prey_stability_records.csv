@@ -1,0 +1,2 @@
+equilibrium_name,prey_value,predator_value,trace,determinant,local_status,warning
+lotka_volterra_coexistence,50.0,30.0,0.0,0.3,center_or_neutral_linearization,Classic Lotka-Volterra neutral-cycle behavior depends on ideal assumptions.

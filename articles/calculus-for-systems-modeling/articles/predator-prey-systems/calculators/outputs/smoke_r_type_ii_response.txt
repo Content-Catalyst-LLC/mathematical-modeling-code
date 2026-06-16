@@ -1,0 +1,4 @@
+        calculator  x    a    h functional_response
+1 type-ii-response 50 0.04 0.08            1.724138
+                                                                       warning
+1 Functional response choice can change stability and persistence conclusions.

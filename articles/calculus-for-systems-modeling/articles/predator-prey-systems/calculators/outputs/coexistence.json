@@ -1,0 +1,16 @@
+{
+  "calculator": "coexistence",
+  "inputs": {
+    "alpha": 0.6,
+    "beta": 0.02,
+    "command": "coexistence",
+    "delta": 0.01,
+    "gamma": 0.5
+  },
+  "interpretation": "Computes the coexistence equilibrium for the classic model.",
+  "result": {
+    "x_star": 50.0,
+    "y_star": 30.0
+  },
+  "warning": "Equilibrium is a mathematical condition, not a full ecological conclusion."
+}

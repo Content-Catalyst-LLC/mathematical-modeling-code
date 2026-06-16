@@ -1,0 +1,4 @@
+nullcline_name,equation,interpretation,warning
+prey_nullcline,dx/dt = 0 -> x = 0 or y = alpha / beta,Prey stop changing when predator abundance balances prey growth.,The nullcline depends on mass-action assumptions.
+predator_nullcline,dy/dt = 0 -> y = 0 or x = gamma / delta,Predators stop changing when prey abundance balances mortality.,The nullcline depends on conversion and mortality assumptions.
+coexistence_equilibrium,"(x*, y*) = (gamma/delta, alpha/beta)",Coexistence occurs where both populations have zero instantaneous growth.,"Equilibrium is a mathematical condition, not a full ecological conclusion."

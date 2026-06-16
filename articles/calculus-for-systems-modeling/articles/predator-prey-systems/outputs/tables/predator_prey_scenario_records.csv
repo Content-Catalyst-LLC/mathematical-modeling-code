@@ -1,0 +1,6 @@
+scenario_name,model_type,final_time,final_prey,final_predator,interpretation
+classic_lotka_volterra,lotka_volterra,80.0,116.39474652757764,10.258666221146811,baseline mass-action predator-prey interaction
+logistic_prey_limit,logistic_prey,80.0,50.19966009233929,29.935393059807115,prey growth limited by carrying capacity
+type_ii_functional_response,saturating_predation,80.0,49.43664149702419,4.927611002894559,predation saturates due to handling time
+harvesting_pressure,harvesting,80.0,0.0,0.0,external removal shifts dynamics and risk
+stochastic_lotka_volterra_path,stochastic,80.0,28.627304205155188,10.185149834086863,one stochastic path under environmental variability

@@ -1,0 +1,7 @@
+parameter_name,value,unit,interpretation,warning
+alpha,0.6,per year,prey intrinsic growth rate,Prey growth may be resource-limited rather than exponential.
+beta,0.02,encounter coefficient,predation interaction coefficient,Mass-action encounters may overstate interaction in spatial systems.
+gamma,0.5,per year,predator mortality rate,"Mortality may vary by age, season, or environment."
+delta,0.01,conversion coefficient,conversion from prey encounters to predator growth,Conversion efficiency should not be treated as mechanism without evidence.
+K,500.0,prey units,prey carrying capacity,Carrying capacity is assumption-bearing and may change over time.
+h,0.08,time per prey,handling time,Saturation claims require evidence for functional response.

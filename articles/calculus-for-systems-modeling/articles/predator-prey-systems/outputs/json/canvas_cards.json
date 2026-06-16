@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-variables",
+    "category": "model definition",
+    "governance_note": "Predator and prey variables must have clear units, boundaries, and measurement status.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "State Variables"
+  },
+  {
+    "card_id": "interaction-term",
+    "category": "model structure",
+    "governance_note": "The product xy is an assumption, not universal evidence of encounter dynamics.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Interaction Term"
+  },
+  {
+    "card_id": "functional-response",
+    "category": "mechanism review",
+    "governance_note": "The wrong functional response can change stability and persistence conclusions.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Functional Response"
+  },
+  {
+    "card_id": "phase-plane-record",
+    "category": "qualitative dynamics",
+    "governance_note": "Equilibrium is a mathematical condition, not a full ecological conclusion.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Phase-Plane Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Predator-prey conclusions should not exceed evidence, assumptions, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

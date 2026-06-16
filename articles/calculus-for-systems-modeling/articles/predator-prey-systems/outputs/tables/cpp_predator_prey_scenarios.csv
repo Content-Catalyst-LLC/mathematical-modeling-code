@@ -1,0 +1,2 @@
+scenario_name,model_type,final_prey,final_predator,warning
+classic_lotka_volterra,lotka_volterra,116.395,10.2587,mass_action_baseline

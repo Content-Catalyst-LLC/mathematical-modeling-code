@@ -1,0 +1,21 @@
+{
+  "calculator": "lotka-volterra-step",
+  "inputs": {
+    "alpha": 0.6,
+    "beta": 0.02,
+    "command": "lotka-volterra-step",
+    "delta": 0.01,
+    "dt": 0.02,
+    "gamma": 0.5,
+    "x": 40.0,
+    "y": 9.0
+  },
+  "interpretation": "Computes one Euler step for the Lotka-Volterra model.",
+  "result": {
+    "dx": 16.8,
+    "dy": -0.8999999999999999,
+    "x_next": 40.336,
+    "y_next": 8.982
+  },
+  "warning": "One numerical step is not a validated ecological claim."
+}

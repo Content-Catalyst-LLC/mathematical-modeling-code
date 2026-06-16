@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_y,input_alpha,input_beta,input_gamma,input_delta,result_j11,result_j12,result_j21,result_j22,result_trace,result_determinant,result_status
+jacobian,Computes Jacobian entries and local stability summary.,Local linearization depends on model structure and point of evaluation.,jacobian,50.0,30.0,0.6,0.02,0.5,0.01,0.0,-1.0,0.3,0.0,0.0,0.3,center_or_neutral_linearization

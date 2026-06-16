@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x,input_a,input_h,result_functional_response
+type-ii-response,Computes Type II functional response per predator.,Functional response choice can change stability and persistence conclusions.,type-ii-response,50.0,0.04,0.08,1.7241379310344829

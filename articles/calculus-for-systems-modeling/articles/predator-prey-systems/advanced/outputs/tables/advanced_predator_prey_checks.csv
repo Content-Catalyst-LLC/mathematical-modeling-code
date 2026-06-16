@@ -1,0 +1,10 @@
+condition,passed,warning
+classic Lotka-Volterra scenario included,True,Modeled cycles depend on ideal assumptions.
+logistic prey extension included,True,Prey carrying capacity changes dynamics.
+functional response scenario included,True,Functional response choice changes stability and persistence.
+harvesting scenario included,True,Management terms require governance review.
+stochastic path included,True,A single stochastic path is not a distribution.
+nullcline records included,True,Nullclines depend on model assumptions.
+Jacobian stability record included,True,Local stability is not a full ecological conclusion.
+calculator layer included,True,
+Catalyst Canvas layer included,True,

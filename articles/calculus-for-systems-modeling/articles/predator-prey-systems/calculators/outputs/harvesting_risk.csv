@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_hx,input_hy,result_harvesting_status
+harvesting-risk,Flags harvesting or removal terms for governance review.,Management terms should be interpreted as policy assumptions.,harvesting-risk,1.0,0.05,review

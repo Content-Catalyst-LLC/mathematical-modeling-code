@@ -1,0 +1,65 @@
+section                          
+---------------------------------
+PREDATOR-PREY GOVERNANCE REGISTRY
+registry_name        analytical_role                                               systems_modeling_role                                  review_warning                                              
+-------------------  ------------------------------------------------------------  -----------------------------------------------------  ------------------------------------------------------------
+Calibration record   Documents data source, fitting method, uncertainty, identifi  Separates curve fit from mechanism.                    A fitted cycle does not automatically prove predator-prey ca
+                     ability, and validation status.                                                                                      usality.                                                    
+
+Claim boundary       Defines whether the predator-prey model supports teaching, e  Prevents overclaiming and scope drift.                 Predator-prey conclusions should not exceed evidence, assump
+                     xploration, mechanism, prediction, management, or decision s                                                         tions, and tested scope.                                    
+                     upport.                                                                                                                                                                          
+
+Equilibrium record   Documents coexistence, extinction, nullclines, Jacobian, and  Connects phase-plane analysis to interpretation.       Equilibrium is a mathematical condition, not a full ecologic
+                      local stability.                                                                                                    al conclusion.                                              
+
+Functional response  Documents Type I, Type II, Type III, or other predation resp  Determines how predation changes with prey abundance.  The wrong functional response can change stability and persi
+                     onse structure.                                                                                                      stence conclusions.                                         
+
+Interaction term     Documents whether predation is mass-action, saturating, spat  Connects mathematical coupling to mechanism.           The product xy is an assumption, not universal evidence of e
+                     ial, seasonal, or behavior-dependent.                                                                                ncounter dynamics.                                          
+
+State variables      Defines prey and predator populations, units, boundaries, an  Makes the coupled system interpretable.                Predator-prey equations cannot be interpreted responsibly if
+                     d measurement status.                                                                                                 population definitions are unclear.                        
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value  unit                    interpretation                                      warning                                                     
+--------------  -----  ----------------------  --------------------------------------------------  ------------------------------------------------------------
+K               500.0  prey units              prey carrying capacity                              Carrying capacity is assumption-bearing and may change over 
+                                                                                                   time.                                                       
+
+alpha           0.6    per year                prey intrinsic growth rate                          Prey growth may be resource-limited rather than exponential.
+
+beta            0.02   encounter coefficient   predation interaction coefficient                   Mass-action encounters may overstate interaction in spatial 
+                                                                                                   systems.                                                    
+
+delta           0.01   conversion coefficient  conversion from prey encounters to predator growth  Conversion efficiency should not be treated as mechanism wit
+                                                                                                   hout evidence.                                              
+
+gamma           0.5    per year                predator mortality rate                             Mortality may vary by age, season, or environment.          
+
+h               0.08   time per prey           handling time                                       Saturation claims require evidence for functional response. 
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                   model_type            interpretation                                       warning                                         
+------------------------------  --------------------  ---------------------------------------------------  ------------------------------------------------
+classic_lotka_volterra          lotka_volterra        baseline mass-action predator-prey interaction       Modeled cycles depend on ideal assumptions.     
+harvesting_pressure             harvesting            external removal shifts dynamics and risk            Management terms require governance review.     
+logistic_prey_limit             logistic_prey         prey growth limited by carrying capacity             Prey cannot grow indefinitely without predators.
+stochastic_lotka_volterra_path  stochastic            one stochastic path under environmental variability  A single stochastic path is not a distribution. 
+type_ii_functional_response     saturating_predation  predation saturates due to handling time             Functional response choice changes stability.   
+section          
+-----------------
+NULLCLINE RECORDS
+nullcline_name           equation                                 interpretation                                                warning                                                     
+-----------------------  ---------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+coexistence_equilibrium  (x*, y*) = (gamma/delta, alpha/beta)     Coexistence occurs where both populations have zero instanta  Equilibrium is a mathematical condition, not a full ecologic
+                                                                  neous growth.                                                 al conclusion.                                              
+
+predator_nullcline       dy/dt = 0 -> y = 0 or x = gamma / delta  Predators stop changing when prey abundance balances mortali  The nullcline depends on conversion and mortality assumption
+                                                                  ty.                                                           s.                                                          
+
+prey_nullcline           dx/dt = 0 -> x = 0 or y = alpha / beta   Prey stop changing when predator abundance balances prey gro  The nullcline depends on mass-action assumptions.           
+                                                                  wth.                                                                                                                      

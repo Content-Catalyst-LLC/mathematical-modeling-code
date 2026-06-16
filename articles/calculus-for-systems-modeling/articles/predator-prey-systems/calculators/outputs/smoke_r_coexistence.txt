@@ -1,0 +1,4 @@
+   calculator x_star y_star
+1 coexistence     50     30
+                                                                     warning
+1 Equilibrium is a mathematical condition, not a full ecological conclusion.

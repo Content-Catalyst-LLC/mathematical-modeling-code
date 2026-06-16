@@ -1,0 +1,120 @@
+{
+  "interpretation_warning": "Predator-prey model outputs depend on interaction assumptions, functional response, parameter evidence, stochasticity, spatial structure, and claim boundaries.",
+  "nullcline_records": [
+    {
+      "equation": "dx/dt = 0 -> x = 0 or y = alpha / beta",
+      "interpretation": "Prey stop changing when predator abundance balances prey growth.",
+      "nullcline_name": "prey_nullcline",
+      "warning": "The nullcline depends on mass-action assumptions."
+    },
+    {
+      "equation": "dy/dt = 0 -> y = 0 or x = gamma / delta",
+      "interpretation": "Predators stop changing when prey abundance balances mortality.",
+      "nullcline_name": "predator_nullcline",
+      "warning": "The nullcline depends on conversion and mortality assumptions."
+    },
+    {
+      "equation": "(x*, y*) = (gamma/delta, alpha/beta)",
+      "interpretation": "Coexistence occurs where both populations have zero instantaneous growth.",
+      "nullcline_name": "coexistence_equilibrium",
+      "warning": "Equilibrium is a mathematical condition, not a full ecological conclusion."
+    }
+  ],
+  "parameter_records": [
+    {
+      "interpretation": "prey intrinsic growth rate",
+      "parameter_name": "alpha",
+      "unit": "per year",
+      "value": 0.6,
+      "warning": "Prey growth may be resource-limited rather than exponential."
+    },
+    {
+      "interpretation": "predation interaction coefficient",
+      "parameter_name": "beta",
+      "unit": "encounter coefficient",
+      "value": 0.02,
+      "warning": "Mass-action encounters may overstate interaction in spatial systems."
+    },
+    {
+      "interpretation": "predator mortality rate",
+      "parameter_name": "gamma",
+      "unit": "per year",
+      "value": 0.5,
+      "warning": "Mortality may vary by age, season, or environment."
+    },
+    {
+      "interpretation": "conversion from prey encounters to predator growth",
+      "parameter_name": "delta",
+      "unit": "conversion coefficient",
+      "value": 0.01,
+      "warning": "Conversion efficiency should not be treated as mechanism without evidence."
+    },
+    {
+      "interpretation": "prey carrying capacity",
+      "parameter_name": "K",
+      "unit": "prey units",
+      "value": 500.0,
+      "warning": "Carrying capacity is assumption-bearing and may change over time."
+    },
+    {
+      "interpretation": "handling time",
+      "parameter_name": "h",
+      "unit": "time per prey",
+      "value": 0.08,
+      "warning": "Saturation claims require evidence for functional response."
+    }
+  ],
+  "scenario_records": [
+    {
+      "final_predator": 10.258666221146811,
+      "final_prey": 116.39474652757764,
+      "final_time": 80.0,
+      "interpretation": "baseline mass-action predator-prey interaction",
+      "model_type": "lotka_volterra",
+      "scenario_name": "classic_lotka_volterra"
+    },
+    {
+      "final_predator": 29.935393059807115,
+      "final_prey": 50.19966009233929,
+      "final_time": 80.0,
+      "interpretation": "prey growth limited by carrying capacity",
+      "model_type": "logistic_prey",
+      "scenario_name": "logistic_prey_limit"
+    },
+    {
+      "final_predator": 4.927611002894559,
+      "final_prey": 49.43664149702419,
+      "final_time": 80.0,
+      "interpretation": "predation saturates due to handling time",
+      "model_type": "saturating_predation",
+      "scenario_name": "type_ii_functional_response"
+    },
+    {
+      "final_predator": 0.0,
+      "final_prey": 0.0,
+      "final_time": 80.0,
+      "interpretation": "external removal shifts dynamics and risk",
+      "model_type": "harvesting",
+      "scenario_name": "harvesting_pressure"
+    },
+    {
+      "final_predator": 10.185149834086863,
+      "final_prey": 28.627304205155188,
+      "final_time": 80.0,
+      "interpretation": "one stochastic path under environmental variability",
+      "model_type": "stochastic",
+      "scenario_name": "stochastic_lotka_volterra_path"
+    }
+  ],
+  "stability_records": [
+    {
+      "determinant": 0.3,
+      "equilibrium_name": "lotka_volterra_coexistence",
+      "local_status": "center_or_neutral_linearization",
+      "predator_value": 30.0,
+      "prey_value": 50.0,
+      "trace": 0.0,
+      "warning": "Classic Lotka-Volterra neutral-cycle behavior depends on ideal assumptions."
+    }
+  ]
+}

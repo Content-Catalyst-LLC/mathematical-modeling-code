@@ -1,0 +1,23 @@
+{
+  "calculator": "jacobian",
+  "inputs": {
+    "alpha": 0.6,
+    "beta": 0.02,
+    "command": "jacobian",
+    "delta": 0.01,
+    "gamma": 0.5,
+    "x": 50.0,
+    "y": 30.0
+  },
+  "interpretation": "Computes Jacobian entries and local stability summary.",
+  "result": {
+    "determinant": 0.3,
+    "j11": 0.0,
+    "j12": -1.0,
+    "j21": 0.3,
+    "j22": 0.0,
+    "status": "center_or_neutral_linearization",
+    "trace": 0.0
+  },
+  "warning": "Local linearization depends on model structure and point of evaluation."
+}

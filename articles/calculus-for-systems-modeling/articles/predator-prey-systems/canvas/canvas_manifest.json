@@ -1,0 +1,14 @@
+{
+  "article_slug": "predator-prey-systems",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "predator-prey-systems-case-study",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "state-variables", "title": "State Variables", "description": "Prey and predator population definitions, units, and measurement status."},
+    {"card_id": "interaction-term", "title": "Interaction Term", "description": "Mass-action, saturating, spatial, seasonal, or behavior-dependent predation."},
+    {"card_id": "functional-response", "title": "Functional Response", "description": "Type I, Type II, Type III, and saturation assumptions."},
+    {"card_id": "phase-plane-record", "title": "Phase-Plane Record", "description": "Nullclines, equilibria, trajectories, and local stability."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, exploration, mechanism, prediction, management, or decision support."}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "calculator": "harvesting-risk",
+  "inputs": {
+    "command": "harvesting-risk",
+    "hx": 1.0,
+    "hy": 0.05
+  },
+  "interpretation": "Flags harvesting or removal terms for governance review.",
+  "result": {
+    "harvesting_status": "review"
+  },
+  "warning": "Management terms should be interpreted as policy assumptions."
+}
