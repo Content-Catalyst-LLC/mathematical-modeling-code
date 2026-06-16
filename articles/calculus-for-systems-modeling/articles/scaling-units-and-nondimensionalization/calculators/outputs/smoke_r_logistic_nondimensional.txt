@@ -1,0 +1,4 @@
+               calculator scaled_stock scaled_time
+1 logistic-nondimensional          0.4           7
+                                                        warning
+1 Dimensionless form still depends on documented scale choices.

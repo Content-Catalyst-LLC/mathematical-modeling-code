@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+unit_record,Unit record,Documents units dimensions conversion rules and source notes,Keeps model quantities interpretable and comparable,A numerical value without a unit may be ambiguous or misleading
+reference_scale,Reference scale,Defines the characteristic value used to normalize a quantity,Turns raw magnitudes into comparable ratios,Changing the reference scale changes dimensionless interpretation
+dimensionless_variable,Dimensionless variable,Expresses a quantity as a ratio to a reference scale,Supports comparison across systems with different units or sizes,Dimensionless form still depends on documented scale choices
+dimensionless_group,Dimensionless group,Combines variables and parameters so units cancel,Reveals process ratios regimes and similarity classes,Dimensionless groups require correct variable selection and interpretation
+unit_conversion,Unit conversion,Transforms values across compatible unit systems,Prevents hidden mismatches in time length mass stock or rate units,Conversion rules should be explicit and reproducible
+claim_boundary,Claim boundary,Defines how scaled or dimensionless results may be interpreted,Prevents overclaiming from elegant mathematical form,Scaling improves comparability but does not prove empirical validity

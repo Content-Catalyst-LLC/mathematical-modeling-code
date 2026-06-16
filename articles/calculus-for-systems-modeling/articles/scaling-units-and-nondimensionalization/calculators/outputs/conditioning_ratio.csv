@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_largest,input_smallest,result_conditioning_ratio,result_large_scale_gap
+conditioning-ratio,Computes a simple magnitude ratio for numerical scaling review.,A large ratio can signal numerical conditioning concerns.,conditioning-ratio,1000000.0,0.001,1000000000.0,True

@@ -1,0 +1,13 @@
+{
+  "calculator": "scaling-warning",
+  "inputs": {
+    "command": "scaling-warning",
+    "pattern": "empirical_validity"
+  },
+  "interpretation": "Creates a scaling interpretation warning.",
+  "result": {
+    "note": "Scaling improves comparability but does not prove empirical validity.",
+    "pattern": "empirical_validity"
+  },
+  "warning": "Nondimensionalization clarifies structure but does not replace evidence."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_rate,input_from_unit,input_to_unit,result_converted_rate
+rate-conversion,Converts an inverse-time rate between common time units.,Rate units must match the time variable.,rate-conversion,0.01,day,year,3.65

@@ -1,0 +1,6 @@
+record_type name value unit interpretation warning
+unit_record population_stock 40 state_units synthetic_teaching_value unit_warning
+unit_record carrying_capacity 100 state_units synthetic_teaching_capacity capacity_scale_warning
+unit_record growth_rate 0.35 per_time_unit synthetic_teaching_rate rate_unit_warning
+scale_record stock_scale 100 state_units normalize_population_stock scale_warning
+nondimensional_record scaled_stock 0.4 dimensionless fraction_of_capacity documented_scale_required

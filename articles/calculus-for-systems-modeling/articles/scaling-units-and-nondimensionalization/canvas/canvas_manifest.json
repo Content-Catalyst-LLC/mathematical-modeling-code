@@ -1,0 +1,22 @@
+{
+  "article_slug": "scaling-units-and-nondimensionalization",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "scaling-units-nondimensionalization",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "unit-record", "title": "Unit Record", "description": "Units, dimensions, conversion rules, and source notes."},
+    {"card_id": "reference-scale", "title": "Reference Scale", "description": "Characteristic values used to normalize quantities."},
+    {"card_id": "dimensionless-variable", "title": "Dimensionless Variable", "description": "A quantity expressed as a ratio to a reference scale."},
+    {"card_id": "dimensionless-group", "title": "Dimensionless Group", "description": "A unit-canceling process ratio or regime indicator."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Limits on scaled or dimensionless interpretation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

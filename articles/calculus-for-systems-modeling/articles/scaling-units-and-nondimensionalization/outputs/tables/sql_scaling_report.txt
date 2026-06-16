@@ -1,0 +1,31 @@
+section                    
+---------------------------
+SCALING GOVERNANCE REGISTRY
+registry_name           analytical_role                                               systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Claim boundary          Defines how scaled or dimensionless results may be interpret  Prevents overclaiming from elegant mathematical form.         Scaling improves comparability but does not prove empirical 
+                        ed.                                                                                                                         validity.                                                   
+
+Dimensionless group     Combines variables and parameters so units cancel.            Reveals process ratios, regimes, and similarity classes.      Dimensionless groups require correct variable selection and 
+                                                                                                                                                    interpretation.                                             
+
+Dimensionless variable  Expresses a quantity as a ratio to a reference scale.         Supports comparison across systems with different units or s  Dimensionless form still depends on documented scale choices
+                                                                                      izes.                                                         .                                                           
+
+Reference scale         Defines the characteristic value used to normalize a quantit  Turns raw magnitudes into comparable ratios.                  Changing the reference scale changes dimensionless interpret
+                        y.                                                                                                                          ation.                                                      
+
+Unit conversion         Transforms values across compatible unit systems.             Prevents hidden mismatches in time, length, mass, stock, or   Conversion rules should be explicit and reproducible.       
+                                                                                      rate units.                                                                                                               
+
+Unit record             Documents units, dimensions, conversion rules, and source no  Keeps model quantities interpretable and comparable.          A numerical value without a unit may be ambiguous or mislead
+                        tes.                                                                                                                        ing.                                                        
+section             
+--------------------
+SCALING UNIT RECORDS
+record_type            quantity_name      value  unit           interpretation                                        warning                                                
+---------------------  -----------------  -----  -------------  ----------------------------------------------------  -------------------------------------------------------
+nondimensional_record  scaled_stock       0.4    dimensionless  population stock as fraction of carrying capacity     dimensionless form depends on documented scale choices 
+scale_record           stock_scale        100.0  state units    carrying capacity used to normalize population stock  changing the capacity scale changes dimensionless stock
+unit_record            carrying_capacity  100.0  state units    synthetic teaching capacity                           capacity scale controls normalized interpretation      
+unit_record            population_stock   40.0   state units    synthetic teaching value                              synthetic value; do not treat as empirical measurement 

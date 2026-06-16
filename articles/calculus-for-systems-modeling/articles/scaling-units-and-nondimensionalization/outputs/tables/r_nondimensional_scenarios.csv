@@ -1,0 +1,4 @@
+"scenario","initial_stock","carrying_capacity","growth_rate","time","unit_warning","final_stock","scaled_initial_stock","scaled_final_stock","scaled_time"
+"low_stock",5,100,0.35,20,"Synthetic teaching scenario; stock measured in state units.",98.2969312218396,0.05,0.982969312218396,7
+"baseline_stock",10,100,0.35,20,"Synthetic teaching scenario; stock measured in state units.",99.1859867867211,0.1,0.991859867867211,7
+"high_stock",20,100,0.35,20,"Synthetic teaching scenario; stock measured in state units.",99.6365728245266,0.2,0.996365728245266,7

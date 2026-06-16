@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_dimensionless,input_scale,result_dimensional_value
+unscale-value,Recovers a dimensional value from a dimensionless value and reference scale.,The recovered value depends on the documented reference scale.,unscale-value,0.4,100.0,40.0

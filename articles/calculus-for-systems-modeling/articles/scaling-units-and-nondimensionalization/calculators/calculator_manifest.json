@@ -1,0 +1,19 @@
+{
+  "article_slug": "scaling-units-and-nondimensionalization",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "scale-value", "title": "Scale Value"},
+    {"id": "unscale-value", "title": "Recover Dimensional Value"},
+    {"id": "rate-conversion", "title": "Rate Unit Conversion"},
+    {"id": "logistic-nondimensional", "title": "Logistic Nondimensional Variables"},
+    {"id": "conditioning-ratio", "title": "Conditioning Ratio"},
+    {"id": "scaling-warning", "title": "Scaling Interpretation Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

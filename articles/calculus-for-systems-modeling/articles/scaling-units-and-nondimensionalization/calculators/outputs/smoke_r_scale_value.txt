@@ -1,0 +1,4 @@
+   calculator value scale dimensionless_value
+1 scale-value    40   100                 0.4
+                                                             warning
+1 Changing the reference scale changes dimensionless interpretation.

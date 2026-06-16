@@ -1,0 +1,3 @@
+quantity_name,dimensional_value,scale_value,dimensionless_value,interpretation
+scaled_stock,40.0,100.0,0.4,population stock as fraction of carrying capacity
+scaled_time,20.0,2.857142857142857,7.0,time measured in characteristic growth-time units

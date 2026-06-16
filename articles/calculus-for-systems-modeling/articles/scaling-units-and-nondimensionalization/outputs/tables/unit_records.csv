@@ -1,0 +1,4 @@
+quantity_name,value,unit,dimension,source_note,warning
+population_stock,40.0,state units,stock,synthetic teaching value,Synthetic value; do not treat as empirical measurement.
+carrying_capacity,100.0,state units,stock,synthetic teaching capacity,Capacity scale controls normalized interpretation.
+growth_rate,0.35,per time unit,inverse time,synthetic teaching rate,Rate units must match the time variable.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+scaling-warning,Creates a scaling interpretation warning.,Nondimensionalization clarifies structure but does not replace evidence.,scaling-warning,empirical_validity,empirical_validity,Scaling improves comparability but does not prove empirical validity.

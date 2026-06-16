@@ -1,0 +1,13 @@
+{
+  "calculator": "unscale-value",
+  "inputs": {
+    "command": "unscale-value",
+    "dimensionless": 0.4,
+    "scale": 100.0
+  },
+  "interpretation": "Recovers a dimensional value from a dimensionless value and reference scale.",
+  "result": {
+    "dimensional_value": 40.0
+  },
+  "warning": "The recovered value depends on the documented reference scale."
+}

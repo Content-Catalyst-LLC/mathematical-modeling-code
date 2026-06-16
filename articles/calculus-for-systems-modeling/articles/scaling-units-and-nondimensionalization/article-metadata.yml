@@ -1,0 +1,24 @@
+actual_title: "Scaling, Units, and Nondimensionalization"
+suggested_seo_title: "Scaling, Units, and Nondimensionalization"
+focus_keyword: "scaling units nondimensionalization"
+slug: "scaling-units-and-nondimensionalization"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "initial-conditions-boundary-conditions-and-model-scope"
+  current: "scaling-units-and-nondimensionalization"
+  next: "sensitivity-robustness-and-parameter-dependence"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/scaling-units-and-nondimensionalization"
+tags:
+  - Calculus
+  - Scaling
+  - Units
+  - Nondimensionalization
+  - Dimensional Analysis
+  - Scientific Computing
+  - Model Governance
+  - Systems Modeling
+excerpt_139_words: "Scaling, units, and nondimensionalization help mathematical models remain interpretable, comparable, and computationally reliable. This article introduces these foundations for calculus-based systems modeling, including dimensional consistency, unit records, conversion rules, reference scales, dimensionless variables, dimensionless groups, the Buckingham Pi theorem, scaling laws, similarity, numerical conditioning, parameter reduction, and responsible interpretation. It shows why scaling matters: time units can change trajectories, stock scales affect interpretation, length scales shape transport, and poor normalization can weaken numerical solvers. In computational workflows, scaling audits support unit tables, scale records, nondimensional outputs, SQL governance registries, Haskell typed unit records, calculator scripts, generated reports, and multi-language reproducibility. The article emphasizes documenting units, dimensions, reference scales, conversion assumptions, parameter ranges, solver settings, dimensionless groups, and claim boundaries so model outputs remain reviewable and responsibly interpreted."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

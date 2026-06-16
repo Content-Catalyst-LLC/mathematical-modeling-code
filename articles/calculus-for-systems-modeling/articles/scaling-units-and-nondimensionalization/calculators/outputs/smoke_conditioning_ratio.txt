@@ -1,0 +1,14 @@
+{
+  "calculator": "conditioning-ratio",
+  "inputs": {
+    "command": "conditioning-ratio",
+    "largest": 1000000.0,
+    "smallest": 0.001
+  },
+  "interpretation": "Computes a simple magnitude ratio for numerical scaling review.",
+  "result": {
+    "conditioning_ratio": 1000000000.0,
+    "large_scale_gap": true
+  },
+  "warning": "A large ratio can signal numerical conditioning concerns."
+}

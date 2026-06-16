@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+unit-record,Unit Record,unit governance,96,active,2026-06-15,Numerical values without units may be ambiguous or misleading.
+reference-scale,Reference Scale,scale governance,95,active,2026-06-15,Changing reference scales changes dimensionless interpretation.
+dimensionless-variable,Dimensionless Variable,nondimensionalization,94,active,2026-06-15,Dimensionless form still depends on documented scale choices.
+dimensionless-group,Dimensionless Group,regime analysis,93,review,2026-06-15,Dimensionless groups require correct variable selection and interpretation.
+claim-boundary,Claim Boundary,interpretation governance,92,review,2026-06-15,Scaling improves comparability but does not prove empirical validity.

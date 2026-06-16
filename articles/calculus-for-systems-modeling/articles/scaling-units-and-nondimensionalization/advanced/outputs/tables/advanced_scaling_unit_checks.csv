@@ -1,0 +1,9 @@
+condition,passed,warning
+unit records included,True,Numerical values without units may be ambiguous.
+scale records included,True,Changing reference scales changes dimensionless interpretation.
+nondimensional records included,True,Dimensionless form depends on documented scale choices.
+SQL governance registry included,True,
+Haskell typed unit records included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

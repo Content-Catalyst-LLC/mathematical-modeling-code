@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_value,input_scale,result_dimensionless_value
+scale-value,Scales a dimensional value by a reference scale.,Changing the reference scale changes dimensionless interpretation.,scale-value,40.0,100.0,0.4

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScalingUnitAudit",
+  "type": "object",
+  "required": ["unit_records", "scale_records", "nondimensional_records", "interpretation_warning"],
+  "properties": {
+    "unit_records": {"type": "array"},
+    "scale_records": {"type": "array"},
+    "nondimensional_records": {"type": "array"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

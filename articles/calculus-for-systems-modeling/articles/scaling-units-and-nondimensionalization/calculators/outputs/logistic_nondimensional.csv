@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_stock,input_capacity,input_time,input_growth_rate,result_scaled_stock,result_scaled_time
+logistic-nondimensional,Computes nondimensional stock and time for a logistic model.,Dimensionless form still depends on documented scale choices.,logistic-nondimensional,40.0,100.0,20.0,0.35,0.4,7.0

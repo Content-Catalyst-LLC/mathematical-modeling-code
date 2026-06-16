@@ -1,0 +1,25 @@
+{
+  "article": "Scaling, Units, and Nondimensionalization",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "A numerical value without a unit may be ambiguous or misleading.",
+    "Changing the reference scale changes dimensionless interpretation.",
+    "Dimensionless form still depends on documented scale choices.",
+    "Conversion rules should be explicit and reproducible.",
+    "Scaling improves comparability but does not prove empirical validity."
+  ]
+}

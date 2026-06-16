@@ -1,0 +1,61 @@
+{
+  "interpretation_warning": "Scaling improves comparability but does not prove empirical validity.",
+  "nondimensional_records": [
+    {
+      "dimensional_value": 40.0,
+      "dimensionless_value": 0.4,
+      "interpretation": "population stock as fraction of carrying capacity",
+      "quantity_name": "scaled_stock",
+      "scale_value": 100.0
+    },
+    {
+      "dimensional_value": 20.0,
+      "dimensionless_value": 7.0,
+      "interpretation": "time measured in characteristic growth-time units",
+      "quantity_name": "scaled_time",
+      "scale_value": 2.857142857142857
+    }
+  ],
+  "scale_records": [
+    {
+      "interpretation": "carrying capacity used to normalize population stock",
+      "scale_name": "stock_scale",
+      "scale_value": 100.0,
+      "unit": "state units",
+      "warning": "Changing the capacity scale changes dimensionless stock."
+    },
+    {
+      "interpretation": "inverse growth rate used as characteristic response time",
+      "scale_name": "time_scale",
+      "scale_value": 2.857142857142857,
+      "unit": "time units",
+      "warning": "Changing the growth-rate scale changes dimensionless time."
+    }
+  ],
+  "unit_records": [
+    {
+      "dimension": "stock",
+      "quantity_name": "population_stock",
+      "source_note": "synthetic teaching value",
+      "unit": "state units",
+      "value": 40.0,
+      "warning": "Synthetic value; do not treat as empirical measurement."
+    },
+    {
+      "dimension": "stock",
+      "quantity_name": "carrying_capacity",
+      "source_note": "synthetic teaching capacity",
+      "unit": "state units",
+      "value": 100.0,
+      "warning": "Capacity scale controls normalized interpretation."
+    },
+    {
+      "dimension": "inverse time",
+      "quantity_name": "growth_rate",
+      "source_note": "synthetic teaching rate",
+      "unit": "per time unit",
+      "value": 0.35,
+      "warning": "Rate units must match the time variable."
+    }
+  ]
+}

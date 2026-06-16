@@ -1,0 +1,16 @@
+{
+  "calculator": "logistic-nondimensional",
+  "inputs": {
+    "capacity": 100.0,
+    "command": "logistic-nondimensional",
+    "growth_rate": 0.35,
+    "stock": 40.0,
+    "time": 20.0
+  },
+  "interpretation": "Computes nondimensional stock and time for a logistic model.",
+  "result": {
+    "scaled_stock": 0.4,
+    "scaled_time": 7.0
+  },
+  "warning": "Dimensionless form still depends on documented scale choices."
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "unit-record",
+    "category": "unit governance",
+    "governance_note": "Numerical values without units may be ambiguous or misleading.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Unit Record"
+  },
+  {
+    "card_id": "reference-scale",
+    "category": "scale governance",
+    "governance_note": "Changing reference scales changes dimensionless interpretation.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Reference Scale"
+  },
+  {
+    "card_id": "dimensionless-variable",
+    "category": "nondimensionalization",
+    "governance_note": "Dimensionless form still depends on documented scale choices.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Dimensionless Variable"
+  },
+  {
+    "card_id": "dimensionless-group",
+    "category": "regime analysis",
+    "governance_note": "Dimensionless groups require correct variable selection and interpretation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Dimensionless Group"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "interpretation governance",
+    "governance_note": "Scaling improves comparability but does not prove empirical validity.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

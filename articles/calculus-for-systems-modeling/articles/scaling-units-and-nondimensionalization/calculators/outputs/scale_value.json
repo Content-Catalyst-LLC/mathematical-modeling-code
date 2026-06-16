@@ -1,0 +1,13 @@
+{
+  "calculator": "scale-value",
+  "inputs": {
+    "command": "scale-value",
+    "scale": 100.0,
+    "value": 40.0
+  },
+  "interpretation": "Scales a dimensional value by a reference scale.",
+  "result": {
+    "dimensionless_value": 0.4
+  },
+  "warning": "Changing the reference scale changes dimensionless interpretation."
+}
