@@ -1,0 +1,4 @@
+  calculator  n0    r    k  t population capacity_fraction
+1   logistic 100 0.08 1000 40   731.6039         0.7316039
+                                   warning
+1 Carrying capacity is assumption-bearing.

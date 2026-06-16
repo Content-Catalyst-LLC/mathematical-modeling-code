@@ -1,0 +1,25 @@
+{
+  "article": "Case Study: Modeling Population Dynamics",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Population model outputs depend on growth-law assumptions.",
+    "Carrying capacity is assumption-bearing and may change over time.",
+    "A fitted curve does not automatically prove the model mechanism.",
+    "Population projections can be highly sensitive to uncertain parameters.",
+    "Population model conclusions should not exceed evidence, assumptions, and tested scope."
+  ]
+}

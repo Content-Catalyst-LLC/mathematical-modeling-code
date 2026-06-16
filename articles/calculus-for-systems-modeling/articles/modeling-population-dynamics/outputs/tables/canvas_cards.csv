@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-variable,State Variable,model definition,96,active,2026-06-15,A population model cannot be interpreted responsibly if the counted population is unclear.
+growth-law,Growth Law,model structure,95,active,2026-06-15,"A growth law is an assumption, not a universal description."
+parameter-record,Parameter Record,parameter governance,94,review,2026-06-15,Population projections can be highly sensitive to uncertain parameters.
+capacity-interpretation,Capacity Interpretation,capacity governance,93,review,2026-06-15,Carrying capacity is assumption-bearing and may change over time.
+claim-boundary,Claim Boundary,claim governance,92,review,2026-06-15,"Population model conclusions should not exceed evidence, assumptions, and tested scope."

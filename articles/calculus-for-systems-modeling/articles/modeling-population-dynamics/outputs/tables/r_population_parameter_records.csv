@@ -1,0 +1,4 @@
+"parameter_name","value","unit","source_status","warning"
+"N0",100,"individuals","synthetic teaching value","Initial values should be measured or estimated with uncertainty in empirical use."
+"r",0.08,"per year","synthetic teaching value","Growth rates may vary over time and across conditions."
+"K",1000,"individuals","synthetic teaching value","Carrying capacity is assumption-bearing and may change over time."

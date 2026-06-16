@@ -1,0 +1,2 @@
+   calculator  n0    r  t population                                 warning
+1 exponential 100 0.08 40   2453.253 Exponential growth is a baseline model.

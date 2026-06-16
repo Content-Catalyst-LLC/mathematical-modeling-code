@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_n0,input_r,input_k,input_t,input_delta,result_base_population,result_perturbed_population,result_finite_difference_sensitivity
+sensitivity-r,Approximates sensitivity of the logistic trajectory to the growth rate.,Population projections can be highly sensitive to growth-rate assumptions.,sensitivity-r,100.0,0.08,1000.0,40.0,0.01,731.6039097826314,802.6239368737704,7102.002709113901

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-variable",
+    "category": "model definition",
+    "governance_note": "A population model cannot be interpreted responsibly if the counted population is unclear.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "State Variable"
+  },
+  {
+    "card_id": "growth-law",
+    "category": "model structure",
+    "governance_note": "A growth law is an assumption, not a universal description.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Growth Law"
+  },
+  {
+    "card_id": "parameter-record",
+    "category": "parameter governance",
+    "governance_note": "Population projections can be highly sensitive to uncertain parameters.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Parameter Record"
+  },
+  {
+    "card_id": "capacity-interpretation",
+    "category": "capacity governance",
+    "governance_note": "Carrying capacity is assumption-bearing and may change over time.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Capacity Interpretation"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "claim governance",
+    "governance_note": "Population model conclusions should not exceed evidence, assumptions, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

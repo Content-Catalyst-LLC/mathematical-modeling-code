@@ -1,0 +1,16 @@
+{
+  "calculator": "logistic",
+  "inputs": {
+    "command": "logistic",
+    "k": 1000.0,
+    "n0": 100.0,
+    "r": 0.08,
+    "t": 40.0
+  },
+  "interpretation": "Computes capacity-limited logistic population growth.",
+  "result": {
+    "capacity_fraction": 0.7316039097826313,
+    "population": 731.6039097826314
+  },
+  "warning": "Carrying capacity is assumption-bearing and may change over time."
+}

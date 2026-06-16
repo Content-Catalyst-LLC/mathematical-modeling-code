@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_growth,input_population,result_per_capita_rate
+per-capita,Computes growth per unit population.,Per-capita rates depend on population definition and time scale.,per-capita,8.0,100.0,0.08

@@ -1,0 +1,51 @@
+{
+  "interpretation_warning": "Population model outputs depend on growth-law assumptions, parameter evidence, scope, and omitted mechanisms.",
+  "parameter_records": [
+    {
+      "interpretation": "initial population",
+      "parameter_name": "N0",
+      "source_status": "synthetic teaching value",
+      "unit": "individuals",
+      "value": 100.0,
+      "warning": "Initial values should be measured or estimated with uncertainty in empirical use."
+    },
+    {
+      "interpretation": "intrinsic growth rate",
+      "parameter_name": "r",
+      "source_status": "synthetic teaching value",
+      "unit": "per year",
+      "value": 0.08,
+      "warning": "Growth rates may vary over time and across conditions."
+    },
+    {
+      "interpretation": "carrying capacity",
+      "parameter_name": "K",
+      "source_status": "synthetic teaching value",
+      "unit": "individuals",
+      "value": 1000.0,
+      "warning": "Carrying capacity is assumption-bearing and may change over time."
+    }
+  ],
+  "scenario_records": [
+    {
+      "carrying_capacity": null,
+      "final_population": 2453.2530197109354,
+      "final_time": 40.0,
+      "growth_rate": 0.08,
+      "initial_population": 100.0,
+      "interpretation": "unconstrained growth baseline",
+      "model_type": "exponential",
+      "scenario_name": "exponential_baseline"
+    },
+    {
+      "carrying_capacity": 1000.0,
+      "final_population": 731.6039097826314,
+      "final_time": 40.0,
+      "growth_rate": 0.08,
+      "initial_population": 100.0,
+      "interpretation": "growth limited by carrying capacity",
+      "model_type": "logistic",
+      "scenario_name": "logistic_capacity_limited"
+    }
+  ]
+}

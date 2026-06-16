@@ -1,0 +1,41 @@
+section                             
+------------------------------------
+POPULATION MODEL GOVERNANCE REGISTRY
+registry_name            analytical_role                                               systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Calibration record       Documents data source, fitting method, residuals, uncertaint  Separates fit from mechanism.                                 A fitted curve does not automatically prove the model mechan
+                         y, and validation status.                                                                                                   ism.                                                        
+
+Capacity interpretation  Documents what carrying capacity represents and whether it i  Clarifies density dependence and constraint assumptions.      Carrying capacity is assumption-bearing and may change over 
+                         s fixed, uncertain, or dynamic.                                                                                             time.                                                       
+
+Claim boundary           Defines whether the population model supports teaching, expl  Prevents overclaiming and scope drift.                        Population model conclusions should not exceed evidence, ass
+                         oration, mechanism, prediction, or decision support.                                                                        umptions, and tested scope.                                 
+
+Growth law               Documents whether growth is exponential, logistic, structure  Connects rate assumptions to system behavior.                 A growth law is an assumption, not a universal description. 
+                         d, stochastic, or spatial.                                                                                                                                                              
+
+Parameter record         Documents initial population, growth rate, carrying capacity  Prevents parameter values from becoming unexamined authority  Population projections can be highly sensitive to uncertain 
+                         , units, sources, and ranges.                                 .                                                             parameters.                                                 
+
+State variable           Defines the population count, unit, boundary, and measuremen  Makes the modeled population explicit.                        A population model cannot be interpreted responsibly if the 
+                         t status.                                                                                                                   counted population is unclear.                              
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value   unit         source_status             interpretation         warning                                                     
+--------------  ------  -----------  ------------------------  ---------------------  ------------------------------------------------------------
+K               1000.0  individuals  synthetic teaching value  carrying capacity      Carrying capacity is assumption-bearing and may change over 
+                                                                                      time.                                                       
+
+N0              100.0   individuals  synthetic teaching value  initial population     Initial values should be measured or estimated with uncertai
+                                                                                      nty in empirical use.                                       
+
+r               0.08    per year     synthetic teaching value  intrinsic growth rate  Growth rates may vary over time and across conditions.      
+section         
+----------------
+SCENARIO RECORDS
+scenario_name              model_type   initial_population  growth_rate  carrying_capacity  final_time  interpretation                     
+-------------------------  -----------  ------------------  -----------  -----------------  ----------  -----------------------------------
+exponential_baseline       exponential  100.0               0.08                            40.0        unconstrained growth baseline      
+logistic_capacity_limited  logistic     100.0               0.08         1000.0             40.0        growth limited by carrying capacity

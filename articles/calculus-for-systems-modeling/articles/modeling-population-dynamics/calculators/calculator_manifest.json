@@ -1,0 +1,19 @@
+{
+  "article_slug": "modeling-population-dynamics",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "exponential", "title": "Exponential Population Calculator"},
+    {"id": "logistic", "title": "Logistic Population Calculator"},
+    {"id": "per-capita", "title": "Per-Capita Growth Calculator"},
+    {"id": "equilibrium", "title": "Logistic Equilibrium Calculator"},
+    {"id": "sensitivity-r", "title": "Growth-Rate Sensitivity Calculator"},
+    {"id": "capacity-warning", "title": "Capacity Proximity Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

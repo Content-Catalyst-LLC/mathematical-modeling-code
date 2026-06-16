@@ -1,0 +1,3 @@
+scenario_name,model_type,initial_population,growth_rate,carrying_capacity,final_time,final_population,interpretation
+exponential_baseline,exponential,100.0,0.08,,40.0,2453.2530197109354,unconstrained growth baseline
+logistic_capacity_limited,logistic,100.0,0.08,1000.0,40.0,731.6039097826314,growth limited by carrying capacity

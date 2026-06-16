@@ -1,0 +1,10 @@
+time,exponential,logistic,gap,warning
+0,100.0,100.0,0.0,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+5,149.18246976412703,142.18925121543978,6.993218548687253,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+10,222.55409284924679,198.256898502204,24.29719434704279,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+15,332.0116922736547,269.4874523966029,62.5242398770518,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+20,495.3032424395115,354.97892312895107,140.32431931056044,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+25,738.905609893065,450.85306037928376,288.0525495137813,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+30,1102.31763806416,550.5208649761885,551.7967730879716,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+35,1644.4646771097055,646.2910221955515,998.173654914154,"exponential growth is an unconstrained baseline, not a long-run capacity model"
+40,2453.2530197109354,731.6039097826314,1721.649109928304,"exponential growth is an unconstrained baseline, not a long-run capacity model"

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_r,input_k,result_stable_equilibrium
+equilibrium,Returns logistic model equilibria under the basic continuous model.,"Equilibrium is a mathematical condition, not a complete interpretation.",equilibrium,0.08,1000.0,1000.0

@@ -1,0 +1,15 @@
+{
+  "calculator": "capacity-warning",
+  "inputs": {
+    "command": "capacity-warning",
+    "k": 1000.0,
+    "margin": 0.15,
+    "n": 900.0
+  },
+  "interpretation": "Flags when a population is near modeled carrying capacity.",
+  "result": {
+    "capacity_fraction": 0.9,
+    "near_capacity": true
+  },
+  "warning": "Capacity warnings depend on the interpretation and uncertainty of K."
+}

@@ -1,0 +1,18 @@
+{
+  "calculator": "sensitivity-r",
+  "inputs": {
+    "command": "sensitivity-r",
+    "delta": 0.01,
+    "k": 1000.0,
+    "n0": 100.0,
+    "r": 0.08,
+    "t": 40.0
+  },
+  "interpretation": "Approximates sensitivity of the logistic trajectory to the growth rate.",
+  "result": {
+    "base_population": 731.6039097826314,
+    "finite_difference_sensitivity": 7102.002709113901,
+    "perturbed_population": 802.6239368737704
+  },
+  "warning": "Population projections can be highly sensitive to growth-rate assumptions."
+}

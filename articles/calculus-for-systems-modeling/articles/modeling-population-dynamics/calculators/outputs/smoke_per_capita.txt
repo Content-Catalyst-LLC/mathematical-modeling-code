@@ -1,0 +1,13 @@
+{
+  "calculator": "per-capita",
+  "inputs": {
+    "command": "per-capita",
+    "growth": 8.0,
+    "population": 100.0
+  },
+  "interpretation": "Computes growth per unit population.",
+  "result": {
+    "per_capita_rate": 0.08
+  },
+  "warning": "Per-capita rates depend on population definition and time scale."
+}

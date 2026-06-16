@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_n0,input_r,input_t,result_population
+exponential,Computes unconstrained continuous exponential population growth.,Exponential growth is a baseline model and may overreach when constraints matter.,exponential,100.0,0.08,40.0,2453.2530197109354

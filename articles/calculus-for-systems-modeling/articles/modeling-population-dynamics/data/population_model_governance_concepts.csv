@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+state_variable,State variable,Defines the population count unit boundary and measurement status,Makes the modeled population explicit,A population model cannot be interpreted responsibly if the counted population is unclear
+growth_law,Growth law,Documents whether growth is exponential logistic structured stochastic or spatial,Connects rate assumptions to system behavior,A growth law is an assumption not a universal description
+parameter_record,Parameter record,Documents initial population growth rate carrying capacity units sources and ranges,Prevents parameter values from becoming unexamined authority,Population projections can be highly sensitive to uncertain parameters
+capacity_interpretation,Capacity interpretation,Documents what carrying capacity represents and whether it is fixed uncertain or dynamic,Clarifies density dependence and constraint assumptions,Carrying capacity is assumption-bearing and may change over time
+calibration_record,Calibration record,Documents data source fitting method residuals uncertainty and validation status,Separates fit from mechanism,A fitted curve does not automatically prove the model mechanism
+claim_boundary,Claim boundary,Defines whether the population model supports teaching exploration mechanism prediction or decision support,Prevents overclaiming and scope drift,Population model conclusions should not exceed evidence assumptions and tested scope

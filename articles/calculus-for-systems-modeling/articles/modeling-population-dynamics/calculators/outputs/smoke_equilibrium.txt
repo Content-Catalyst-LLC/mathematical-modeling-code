@@ -1,0 +1,17 @@
+{
+  "calculator": "equilibrium",
+  "inputs": {
+    "command": "equilibrium",
+    "k": 1000.0,
+    "r": 0.08
+  },
+  "interpretation": "Returns logistic model equilibria under the basic continuous model.",
+  "result": {
+    "equilibria": [
+      0.0,
+      1000.0
+    ],
+    "stable_equilibrium": 1000.0
+  },
+  "warning": "Equilibrium is a mathematical condition, not a complete interpretation."
+}
