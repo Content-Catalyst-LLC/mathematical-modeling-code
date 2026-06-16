@@ -1,0 +1,50 @@
+[
+  {
+    "artifact_name": "parameter_records",
+    "artifact_type": "csv",
+    "path": "data/parameter_records.csv",
+    "review_role": "documents parameter names, values, units, sources, and ranges",
+    "source_or_generated": "source",
+    "warning": "Parameter records do not prove empirical correctness."
+  },
+  {
+    "artifact_name": "model_outputs",
+    "artifact_type": "csv",
+    "path": "outputs/tables/model_outputs.csv",
+    "review_role": "stores computed trajectory or summary outputs",
+    "source_or_generated": "generated",
+    "warning": "Generated outputs require diagnostics and interpretation limits."
+  },
+  {
+    "artifact_name": "diagnostics",
+    "artifact_type": "json",
+    "path": "outputs/json/diagnostics.json",
+    "review_role": "records validation, convergence, and warning status",
+    "source_or_generated": "generated",
+    "warning": "Diagnostics should remain attached to interpretation."
+  },
+  {
+    "artifact_name": "governance_queue",
+    "artifact_type": "markdown",
+    "path": "outputs/reports/governance_queue.md",
+    "review_role": "collects warnings requiring human review",
+    "source_or_generated": "generated",
+    "warning": "Governance queues support judgment but do not replace it."
+  },
+  {
+    "artifact_name": "notebook_placeholder",
+    "artifact_type": "ipynb",
+    "path": "notebooks/reproducible_calculus_workflows_walkthrough.ipynb",
+    "review_role": "documents exploratory computational pathway",
+    "source_or_generated": "source",
+    "warning": "Notebook state can drift; clean reruns are needed."
+  },
+  {
+    "artifact_name": "r_markdown_report",
+    "artifact_type": "Rmd",
+    "path": "rmarkdown/reproducible_calculus_workflow.Rmd",
+    "review_role": "keeps executable prose and code together",
+    "source_or_generated": "source",
+    "warning": "Rendered reports should be regenerated from source."
+  }
+]

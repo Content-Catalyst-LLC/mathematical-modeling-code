@@ -1,0 +1,29 @@
+{
+  "article": "Reproducible Calculus Workflows in R Markdown, Jupyter, and Multi-Language Repositories",
+  "advanced_standard": true,
+  "r_markdown_layer_included": true,
+  "jupyter_layer_included": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "rmarkdown",
+    "jupyter",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Reproducibility does not prove model validity.",
+    "Notebook state can drift without clean-run checks.",
+    "Generated outputs should be traceable to source code.",
+    "Parameter records do not prove empirical correctness.",
+    "Governance queues support review but do not replace judgment."
+  ]
+}

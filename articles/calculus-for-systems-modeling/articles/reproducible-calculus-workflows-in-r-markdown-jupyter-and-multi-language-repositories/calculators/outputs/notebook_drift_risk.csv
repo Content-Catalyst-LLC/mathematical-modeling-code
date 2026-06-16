@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_executed_out_of_order,result_drift_risk,result_clean_rerun_needed
+notebook-drift-risk,Flags notebook drift risk.,Notebook outputs should match a clean rerun.,notebook-drift-risk,true,high,True

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_source,input_generated,result_total_artifacts,result_source_share
+artifact-count,Counts source and generated workflow artifacts.,Artifact counts do not prove workflow quality.,artifact-count,2,4,6,0.3333333333333333

@@ -1,0 +1,14 @@
+{
+  "calculator": "clean-run-status",
+  "inputs": {
+    "command": "clean-run-status",
+    "expected": 6,
+    "found": 6
+  },
+  "interpretation": "Checks whether expected artifacts were found after a clean run.",
+  "result": {
+    "missing": 0,
+    "passed": true
+  },
+  "warning": "A clean run does not prove mathematical validity."
+}

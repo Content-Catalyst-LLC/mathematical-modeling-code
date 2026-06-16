@@ -1,0 +1,6 @@
+parameter_name,value,unit,source_note,valid_range,assumption_note
+growth_rate,0.35,per time unit,synthetic teaching value,0.1 to 0.6,constant over model horizon
+carrying_capacity,100,state units,synthetic teaching value,50 to 150,closed logistic system
+time_step,0.25,time units,numerical configuration,0.01 to 1.0,fixed step used for teaching workflow
+horizon,20,time units,numerical configuration,1 to 100,finite simulation horizon
+initial_stock,10,state units,synthetic teaching value,greater than 0,initial condition fixed for example

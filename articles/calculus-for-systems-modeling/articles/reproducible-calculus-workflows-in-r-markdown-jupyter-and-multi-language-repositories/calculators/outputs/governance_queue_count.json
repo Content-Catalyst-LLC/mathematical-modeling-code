@@ -1,0 +1,13 @@
+{
+  "calculator": "governance-queue-count",
+  "inputs": {
+    "command": "governance-queue-count",
+    "warnings": 3
+  },
+  "interpretation": "Counts warnings in a governance queue.",
+  "result": {
+    "review_required": true,
+    "warnings": 3
+  },
+  "warning": "Governance queues support review but do not replace judgment."
+}

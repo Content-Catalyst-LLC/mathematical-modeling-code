@@ -1,0 +1,19 @@
+{
+  "article_slug": "reproducible-calculus-workflows-in-r-markdown-jupyter-and-multi-language-repositories",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "artifact-count", "title": "Artifact Count"},
+    {"id": "clean-run-status", "title": "Clean Run Status"},
+    {"id": "output-register-score", "title": "Output Register Score"},
+    {"id": "notebook-drift-risk", "title": "Notebook Drift Risk"},
+    {"id": "governance-queue-count", "title": "Governance Queue Count"},
+    {"id": "reproducibility-warning", "title": "Reproducibility Warning Note"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

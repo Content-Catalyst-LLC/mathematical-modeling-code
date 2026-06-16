@@ -1,0 +1,4 @@
+      calculator source generated total
+1 artifact-count      2         4     6
+                                         warning
+1 Artifact counts do not prove workflow quality.

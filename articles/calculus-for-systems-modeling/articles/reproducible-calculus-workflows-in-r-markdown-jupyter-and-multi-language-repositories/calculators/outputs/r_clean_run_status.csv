@@ -1,0 +1,2 @@
+"calculator","expected","found","passed","warning"
+"clean-run-status",6,6,TRUE,"A clean run does not prove mathematical validity."

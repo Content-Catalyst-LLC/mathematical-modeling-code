@@ -1,0 +1,24 @@
+{
+  "article_slug": "reproducible-calculus-workflows-in-r-markdown-jupyter-and-multi-language-repositories",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "reproducible-calculus-workflows",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "r_markdown_layer": true,
+  "jupyter_layer": true,
+  "languages": ["python", "r", "rmarkdown", "jupyter", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "r-markdown-report", "title": "R Markdown Report", "description": "Executable prose, equations, code, tables, and figures."},
+    {"card_id": "jupyter-notebook", "title": "Jupyter Notebook", "description": "Exploratory computation and visual model inspection."},
+    {"card_id": "parameter-record", "title": "Parameter Record", "description": "Names, values, units, ranges, and assumption notes."},
+    {"card_id": "output-register", "title": "Output Register", "description": "Generated tables, figures, reports, JSON files, and logs."},
+    {"card_id": "governance-queue", "title": "Governance Queue", "description": "Warnings and unresolved diagnostics requiring review."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

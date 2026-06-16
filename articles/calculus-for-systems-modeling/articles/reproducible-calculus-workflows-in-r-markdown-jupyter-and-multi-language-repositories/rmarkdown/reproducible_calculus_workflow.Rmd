@@ -1,0 +1,28 @@
+---
+title: "Reproducible Calculus Workflow"
+output: html_document
+params:
+  workflow_name: "reproducible_calculus_workflow"
+---
+
+# Reproducible Calculus Workflow
+
+This R Markdown-style report demonstrates how executable analysis can keep prose, equations, code, tables, and review warnings together.
+
+```{r}
+workflow_outputs <- data.frame(
+  artifact_name = c("parameter_records", "workflow_artifacts", "reproducibility_audit"),
+  artifact_type = c("csv", "json", "markdown"),
+  source_or_generated = c("source", "generated", "generated"),
+  warning = c(
+    "Parameter records do not prove empirical correctness.",
+    "Structured metadata must remain synchronized with generated outputs.",
+    "Audit summaries support review but do not replace inspection."
+  )
+)
+workflow_outputs
+```
+
+## Interpretation
+
+Executable reports support reproducibility only when outputs can be regenerated from source, assumptions are visible, and warnings remain attached to interpretation.

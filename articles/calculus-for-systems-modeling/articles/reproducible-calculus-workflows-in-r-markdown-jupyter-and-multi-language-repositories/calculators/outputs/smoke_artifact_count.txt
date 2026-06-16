@@ -1,0 +1,14 @@
+{
+  "calculator": "artifact-count",
+  "inputs": {
+    "command": "artifact-count",
+    "generated": 4,
+    "source": 2
+  },
+  "interpretation": "Counts source and generated workflow artifacts.",
+  "result": {
+    "source_share": 0.3333333333333333,
+    "total_artifacts": 6
+  },
+  "warning": "Artifact counts do not prove workflow quality."
+}

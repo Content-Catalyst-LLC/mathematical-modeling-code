@@ -1,0 +1,5 @@
+artifact_name artifact_type path source_or_generated review_role
+parameter_records csv data/parameter_records.csv source documents_parameter_records
+model_outputs csv outputs/tables/model_outputs.csv generated stores_computed_outputs
+diagnostics json outputs/json/diagnostics.json generated records_warning_status
+governance_queue markdown outputs/reports/governance_queue.md generated collects_review_items

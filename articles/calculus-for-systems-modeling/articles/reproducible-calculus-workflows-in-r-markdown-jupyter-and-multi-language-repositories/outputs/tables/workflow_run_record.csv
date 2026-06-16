@@ -1,0 +1,2 @@
+workflow_name,command,expected_outputs,diagnostic_status,review_required,interpretation_warning
+reproducible_calculus_workflow,make smoke,6,review_required,True,Reproducibility supports auditability but does not prove model validity.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_warnings,result_warnings,result_review_required
+governance-queue-count,Counts warnings in a governance queue.,Governance queues support review but do not replace judgment.,governance-queue-count,3,3,True

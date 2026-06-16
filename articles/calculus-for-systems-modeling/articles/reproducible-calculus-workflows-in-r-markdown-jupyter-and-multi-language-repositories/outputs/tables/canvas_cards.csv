@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+r-markdown-report,R Markdown Report,executable reporting,96,active,2026-06-15,Rendered reports should be regenerated from source.
+jupyter-notebook,Jupyter Notebook,notebook governance,95,review,2026-06-15,Notebook state can drift; clean reruns are needed.
+parameter-record,Parameter Record,source record,94,active,2026-06-15,"Parameter records need names, units, sources, and ranges."
+output-register,Output Register,artifact governance,93,active,2026-06-15,Generated outputs should be traceable to source scripts.
+governance-queue,Governance Queue,model review,92,review,2026-06-15,Governance queues support human review but do not replace it.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+reproducibility-warning,Creates a reproducibility interpretation warning.,"Reproducibility is a foundation for review, not a substitute for review.",reproducibility-warning,validity,validity,Reproducibility does not prove model validity.

@@ -1,0 +1,13 @@
+{
+  "calculator": "notebook-drift-risk",
+  "inputs": {
+    "command": "notebook-drift-risk",
+    "executed_out_of_order": "true"
+  },
+  "interpretation": "Flags notebook drift risk.",
+  "result": {
+    "clean_rerun_needed": true,
+    "drift_risk": "high"
+  },
+  "warning": "Notebook outputs should match a clean rerun."
+}

@@ -1,0 +1,8 @@
+{
+  "command": "make smoke",
+  "diagnostic_status": "review_required",
+  "expected_outputs": 6,
+  "interpretation_warning": "Reproducibility supports auditability but does not prove model validity.",
+  "review_required": true,
+  "workflow_name": "reproducible_calculus_workflow"
+}

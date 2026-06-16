@@ -1,0 +1,2 @@
+"workflow_name","output_count","generated_output_count","review_required","interpretation_warning"
+"r_markdown_style_calculus_report",5,4,TRUE,"Executable reports support reproducibility only when outputs can be regenerated from source."

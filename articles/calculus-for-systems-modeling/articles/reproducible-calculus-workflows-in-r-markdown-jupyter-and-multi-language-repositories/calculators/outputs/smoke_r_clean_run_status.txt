@@ -1,0 +1,4 @@
+        calculator expected found passed
+1 clean-run-status        6     6   TRUE
+                                            warning
+1 A clean run does not prove mathematical validity.

@@ -1,0 +1,6 @@
+"artifact_name","artifact_type","path","source_or_generated","review_role","warning"
+"parameter_records","csv","data/parameter_records.csv","source","documents parameter values and units","Parameter records do not prove empirical correctness."
+"sensitivity_table","csv","outputs/tables/sensitivity_table.csv","generated","records parameter sensitivity evidence","Sensitivity evidence depends on tested ranges."
+"calibration_report","markdown","outputs/reports/calibration_report.md","generated","summarizes calibration and residual diagnostics","Calibration is not validation."
+"diagnostics_json","json","outputs/json/diagnostics.json","generated","stores structured warning and status records","Diagnostics should remain attached to outputs."
+"governance_queue","markdown","outputs/reports/governance_queue.md","generated","collects review items for unresolved issues","Governance queues support judgment but do not replace it."

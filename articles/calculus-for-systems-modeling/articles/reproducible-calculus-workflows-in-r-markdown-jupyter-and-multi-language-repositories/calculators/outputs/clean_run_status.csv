@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_expected,input_found,result_passed,result_missing
+clean-run-status,Checks whether expected artifacts were found after a clean run.,A clean run does not prove mathematical validity.,clean-run-status,6,6,True,0

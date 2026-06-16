@@ -1,0 +1,13 @@
+{
+  "calculator": "reproducibility-warning",
+  "inputs": {
+    "command": "reproducibility-warning",
+    "pattern": "validity"
+  },
+  "interpretation": "Creates a reproducibility interpretation warning.",
+  "result": {
+    "note": "Reproducibility does not prove model validity.",
+    "pattern": "validity"
+  },
+  "warning": "Reproducibility is a foundation for review, not a substitute for review."
+}

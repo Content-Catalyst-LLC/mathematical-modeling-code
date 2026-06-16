@@ -1,0 +1,34 @@
+section                            
+-----------------------------------
+REPRODUCIBILITY GOVERNANCE REGISTRY
+workflow_name      computational_role                                            systems_modeling_role                                         review_warning                                              
+-----------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Governance queue   Collects warnings, assumptions, unresolved diagnostics, and   Keeps interpretation limits visible across the workflow.      Governance queues support human review but do not replace it
+                   review items.                                                                                                               .                                                           
+
+Jupyter notebook   Supports interactive computation, visualization, and explora  Helps explain numerical methods, simulations, and model diag  Notebook state can drift; clean reruns and exported outputs 
+                   tory modeling.                                                nostics step by step.                                         are needed.                                                 
+
+Output register    Lists generated tables, figures, reports, JSON files, and lo  Makes artifacts traceable to source workflows.                Outputs should be regenerated from code and documented.     
+                   gs.                                                                                                                                                                                     
+
+Parameter record   Stores parameter names, values, units, ranges, sources, and   Keeps model outputs tied to the configuration that produced   Parameter records do not prove empirical correctness.       
+                   assumption notes.                                             them.                                                                                                                     
+
+R Markdown report  Combines prose, equations, code, tables, and figures in an e  Supports statistical reporting, sensitivity summaries, and a  Rendered reports should be regenerated from source, not manu
+                   xecutable report.                                             nalytical appendices.                                         ally patched.                                               
+
+Smoke test         Checks whether a workflow runs and writes expected artifacts  Supports repository maintenance and executable scaffolding.   A smoke test does not prove mathematical validity.          
+                   .                                                                                                                                                                                       
+section                 
+------------------------
+WORKFLOW OUTPUT REGISTER
+artifact_name          artifact_type  artifact_path                             source_or_generated  review_role                                                warning                                                     
+---------------------  -------------  ----------------------------------------  -------------------  ---------------------------------------------------------  ------------------------------------------------------------
+parameter_records      csv            data/parameter_records.csv                source               documents parameter names values units sources and ranges  Parameter records do not prove empirical correctness.       
+
+reproducibility_audit  markdown       outputs/reports/reproducibility_audit.md  generated            summarizes run status artifacts and warnings               Audit summaries support review but do not replace inspection
+                                                                                                                                                                .                                                           
+
+workflow_artifacts     json           outputs/json/workflow_artifacts.json      generated            stores structured reproducibility metadata                 Structured metadata must remain synchronized with generated 
+                                                                                                                                                                outputs.                                                    

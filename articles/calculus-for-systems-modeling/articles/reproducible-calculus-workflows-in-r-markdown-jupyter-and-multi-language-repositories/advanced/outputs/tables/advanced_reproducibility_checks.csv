@@ -1,0 +1,10 @@
+condition,passed,warning
+R Markdown layer included,True,Rendered reports should be regenerated from source.
+Jupyter notebook placeholder included,True,Notebook state can drift; clean-run checks are needed.
+parameter records included,True,
+workflow artifact register included,True,
+SQL governance registry included,True,
+Haskell typed workflow records included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

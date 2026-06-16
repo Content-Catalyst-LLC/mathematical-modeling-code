@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_documented,input_total,result_documentation_score,result_complete
+output-register-score,Scores output-register completeness.,Documented outputs should remain traceable to source scripts.,output-register-score,6,6,1.0,True

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WorkflowArtifact",
+  "type": "object",
+  "required": [
+    "artifact_name", "artifact_type", "path", "source_or_generated",
+    "review_role", "warning"
+  ],
+  "properties": {
+    "artifact_name": {"type": "string"},
+    "artifact_type": {"type": "string"},
+    "path": {"type": "string"},
+    "source_or_generated": {"type": "string", "enum": ["source", "generated"]},
+    "review_role": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

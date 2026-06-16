@@ -1,0 +1,14 @@
+{
+  "calculator": "output-register-score",
+  "inputs": {
+    "command": "output-register-score",
+    "documented": 6,
+    "total": 6
+  },
+  "interpretation": "Scores output-register completeness.",
+  "result": {
+    "complete": true,
+    "documentation_score": 1.0
+  },
+  "warning": "Documented outputs should remain traceable to source scripts."
+}

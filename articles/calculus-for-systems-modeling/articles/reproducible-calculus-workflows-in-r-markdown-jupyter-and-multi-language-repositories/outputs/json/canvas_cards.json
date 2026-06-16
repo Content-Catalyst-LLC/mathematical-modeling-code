@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "r-markdown-report",
+    "category": "executable reporting",
+    "governance_note": "Rendered reports should be regenerated from source.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "R Markdown Report"
+  },
+  {
+    "card_id": "jupyter-notebook",
+    "category": "notebook governance",
+    "governance_note": "Notebook state can drift; clean reruns are needed.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Jupyter Notebook"
+  },
+  {
+    "card_id": "parameter-record",
+    "category": "source record",
+    "governance_note": "Parameter records need names, units, sources, and ranges.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Parameter Record"
+  },
+  {
+    "card_id": "output-register",
+    "category": "artifact governance",
+    "governance_note": "Generated outputs should be traceable to source scripts.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Output Register"
+  },
+  {
+    "card_id": "governance-queue",
+    "category": "model review",
+    "governance_note": "Governance queues support human review but do not replace it.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Governance Queue"
+  }
+]
