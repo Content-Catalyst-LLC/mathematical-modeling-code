@@ -1,0 +1,2 @@
+scenario reproduction_number doubling_time
+baseline_sir     3.200000     3.150669

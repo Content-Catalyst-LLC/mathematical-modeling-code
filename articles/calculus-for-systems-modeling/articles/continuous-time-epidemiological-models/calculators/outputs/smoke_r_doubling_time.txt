@@ -1,0 +1,4 @@
+     calculator growth_rate doubling_time
+1 doubling-time        0.22      3.150669
+                                                            warning
+1 Doubling time is only valid under the assumed growth-rate window.

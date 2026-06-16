@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_beta,input_susceptible,input_infectious,input_population,result_incidence
+incidence,Computes the incidence flow from susceptible to infectious or exposed states.,Reported cases should not be treated as true infections without observation assumptions.,incidence,0.32,99900.0,100.0,100000.0,31.968

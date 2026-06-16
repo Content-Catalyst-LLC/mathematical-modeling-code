@@ -1,0 +1,15 @@
+{
+  "calculator": "incidence",
+  "inputs": {
+    "beta": 0.32,
+    "command": "incidence",
+    "infectious": 100.0,
+    "population": 100000.0,
+    "susceptible": 99900.0
+  },
+  "interpretation": "Computes the incidence flow from susceptible to infectious or exposed states.",
+  "result": {
+    "incidence": 31.968
+  },
+  "warning": "Reported cases should not be treated as true infections without observation assumptions."
+}

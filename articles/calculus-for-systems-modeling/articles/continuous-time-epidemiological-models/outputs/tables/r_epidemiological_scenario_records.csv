@@ -1,0 +1,4 @@
+"scenario_name","model_type","peak_infectious","final_recovered","reproduction_number","warning"
+"baseline_sir","SIR",32565.2094732708,95316.8836134024,3.2,"baseline scenario depends on homogeneous mixing assumptions"
+"reduced_transmission_sir","SIR",18803.0684399523,84364.7511299531,2.2,"reduced transmission must be tied to a mechanism"
+"latent_period_seir","SEIR",21223.1506912619,95220.2528027724,3.2,"exposed compartment delays infectious growth"

@@ -1,0 +1,16 @@
+{
+  "article_slug": "continuous-time-epidemiological-models",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "continuous-time-epidemiological-models",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "compartment-record", "title": "Compartment Record", "description": "Susceptible, exposed, infectious, recovered, vaccinated, hospitalized, removed, and other states."},
+    {"card_id": "transmission-record", "title": "Transmission Record", "description": "Transmission parameter, force of infection, contact structure, and mixing assumption."},
+    {"card_id": "observation-record", "title": "Observation Record", "description": "Reported cases, detection fraction, delays, testing context, hospitalization, mortality, and surveillance source."},
+    {"card_id": "intervention-record", "title": "Intervention Record", "description": "Whether intervention affects contact, susceptibility, infectious duration, severity, reporting, or behavior."},
+    {"card_id": "immunity-record", "title": "Immunity Record", "description": "Recovered immunity, vaccination, efficacy, waning, boosters, and population coverage."},
+    {"card_id": "uncertainty-record", "title": "Uncertainty Record", "description": "Parameter uncertainty, structural uncertainty, reporting uncertainty, initial-condition uncertainty, and sensitivity."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, scenario comparison, preparedness, operational analysis, or decision support."}
+  ]
+}

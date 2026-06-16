@@ -1,0 +1,102 @@
+{
+  "interpretation_warning": "Epidemiological model outputs depend on compartment definitions, population boundaries, transmission assumptions, reporting processes, initial conditions, intervention mechanisms, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "population boundary",
+      "parameter_name": "N",
+      "unit": "people",
+      "value": 100000.0,
+      "warning": "Population boundary and mixing assumptions must be documented."
+    },
+    {
+      "interpretation": "transmission parameter",
+      "parameter_name": "beta",
+      "unit": "per day",
+      "value": 0.32,
+      "warning": "Transmission combines contact, infectiousness, behavior, setting, and reporting context."
+    },
+    {
+      "interpretation": "recovery or removal rate",
+      "parameter_name": "gamma",
+      "unit": "per day",
+      "value": 0.1,
+      "warning": "Recovery rate should be tied to infectious period assumptions."
+    },
+    {
+      "interpretation": "progression from exposed to infectious",
+      "parameter_name": "sigma",
+      "unit": "per day",
+      "value": 0.2,
+      "warning": "Latency and incubation assumptions should be distinguished where needed."
+    },
+    {
+      "interpretation": "vaccination rate",
+      "parameter_name": "nu",
+      "unit": "per day",
+      "value": 0.005,
+      "warning": "Vaccination assumptions require coverage, timing, efficacy, and equity records."
+    },
+    {
+      "interpretation": "waning protection rate",
+      "parameter_name": "omega",
+      "unit": "per day",
+      "value": 0.001,
+      "warning": "Waning immunity assumptions can change long-run dynamics."
+    },
+    {
+      "interpretation": "reporting or detection fraction",
+      "parameter_name": "rho",
+      "unit": "fraction",
+      "value": 0.5,
+      "warning": "Reported cases should not be treated as true infections without observation assumptions."
+    }
+  ],
+  "scenario_records": [
+    {
+      "final_recovered": 95316.88361340236,
+      "final_time": 160.0,
+      "interpretation": "baseline SIR scenario with susceptible depletion",
+      "model_type": "SIR",
+      "peak_infectious": 32565.209473270756,
+      "reproduction_number": 3.1999999999999997,
+      "scenario_name": "baseline_sir"
+    },
+    {
+      "final_recovered": 84364.75112995306,
+      "final_time": 160.0,
+      "interpretation": "lower transmission reduces peak infectious burden",
+      "model_type": "SIR",
+      "peak_infectious": 18803.068439952345,
+      "reproduction_number": 2.1999999999999997,
+      "scenario_name": "reduced_transmission_sir"
+    },
+    {
+      "final_recovered": 95220.25280277245,
+      "final_time": 160.0,
+      "interpretation": "exposed compartment delays infectious growth",
+      "model_type": "SEIR",
+      "peak_infectious": 21223.15069126189,
+      "reproduction_number": 3.1999999999999997,
+      "scenario_name": "latent_period_seir"
+    },
+    {
+      "final_recovered": 93068.55993405478,
+      "final_time": 160.0,
+      "interpretation": "lower susceptible share reduces effective reproduction number",
+      "model_type": "SIR_vaccination",
+      "peak_infectious": 22659.120156112225,
+      "reproduction_number": 2.7199999999999998,
+      "scenario_name": "vaccination_reduced_susceptible"
+    }
+  ],
+  "threshold_records": [
+    {
+      "doubling_time": 3.150669002545206,
+      "herd_immunity_threshold": 0.6875,
+      "r0": 3.1999999999999997,
+      "record_name": "baseline_thresholds",
+      "susceptible_threshold": 0.3125,
+      "warning": "Thresholds are model-dependent summaries and should be presented with assumptions and context."
+    }
+  ]
+}

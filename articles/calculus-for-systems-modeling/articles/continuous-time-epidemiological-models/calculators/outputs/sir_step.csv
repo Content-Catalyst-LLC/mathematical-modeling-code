@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_susceptible,input_infectious,input_recovered,input_beta,input_gamma,input_population,input_dt,result_new_infections,result_recoveries,result_next_susceptible,result_next_infectious,result_next_recovered
+sir-step,Computes one SIR model step.,"This is an educational calculation, not medical advice or public-health guidance.",sir-step,99900.0,100.0,0.0,0.32,0.1,100000.0,1.0,31.968,10.0,99868.032,121.968,10.0

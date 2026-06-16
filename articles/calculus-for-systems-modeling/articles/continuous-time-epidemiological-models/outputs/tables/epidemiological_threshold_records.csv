@@ -1,0 +1,2 @@
+record_name,r0,susceptible_threshold,herd_immunity_threshold,doubling_time,warning
+baseline_thresholds,3.1999999999999997,0.3125,0.6875,3.150669002545206,Thresholds are model-dependent summaries and should be presented with assumptions and context.

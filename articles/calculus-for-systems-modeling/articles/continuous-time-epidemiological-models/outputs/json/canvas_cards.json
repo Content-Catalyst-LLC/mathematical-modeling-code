@@ -1,0 +1,65 @@
+[
+  {
+    "card_id": "compartment-record",
+    "category": "model definition",
+    "governance_note": "Compartments should not be treated as exact reality without definition and validation.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Compartment Record"
+  },
+  {
+    "card_id": "transmission-record",
+    "category": "transmission governance",
+    "governance_note": "Transmission parameters can hide behavior, contact, biology, and environment.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Transmission Record"
+  },
+  {
+    "card_id": "observation-record",
+    "category": "data governance",
+    "governance_note": "Reported cases should not be treated as true infections without observation assumptions.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Observation Record"
+  },
+  {
+    "card_id": "intervention-record",
+    "category": "intervention governance",
+    "governance_note": "Intervention effects should not be represented as unexplained reductions.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Intervention Record"
+  },
+  {
+    "card_id": "immunity-record",
+    "category": "immunity governance",
+    "governance_note": "Immunity assumptions can strongly change long-run dynamics.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Immunity Record"
+  },
+  {
+    "card_id": "uncertainty-record",
+    "category": "uncertainty governance",
+    "governance_note": "Epidemiological outputs should be presented with uncertainty and purpose.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Uncertainty Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Epidemiological conclusions should not exceed compartment definitions, data evidence, uncertainty, domain review, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

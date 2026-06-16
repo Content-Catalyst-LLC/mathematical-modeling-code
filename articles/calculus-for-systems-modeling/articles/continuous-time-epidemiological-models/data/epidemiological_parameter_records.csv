@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+N,100000.0,people,population boundary,Population boundary and mixing assumptions must be documented
+beta,0.32,per day,transmission parameter,Transmission combines contact infectiousness behavior setting and reporting context
+gamma,0.10,per day,recovery or removal rate,Recovery rate should be tied to infectious period assumptions
+sigma,0.20,per day,progression from exposed to infectious,Latency and incubation assumptions should be distinguished where needed
+nu,0.005,per day,vaccination rate,Vaccination assumptions require coverage timing efficacy and equity records
+omega,0.001,per day,waning protection rate,Waning immunity assumptions can change long-run dynamics
+rho,0.50,fraction,reporting or detection fraction,Reported cases should not be treated as true infections without observation assumptions

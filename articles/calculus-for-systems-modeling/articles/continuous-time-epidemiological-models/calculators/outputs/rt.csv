@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_beta,input_gamma,input_susceptible,input_population,result_rt
+rt,Computes an effective reproduction number under a simple susceptible-share adjustment.,"Rt changes with susceptibility, behavior, intervention, and reporting context.",rt,0.32,0.1,85000.0,100000.0,2.7199999999999998

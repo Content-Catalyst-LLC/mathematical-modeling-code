@@ -1,0 +1,24 @@
+{
+  "article": "Continuous-Time Epidemiological Models",
+  "advanced_standard": true,
+  "features": [
+    "SIR simulation",
+    "SEIR simulation",
+    "force of infection",
+    "incidence and prevalence",
+    "basic reproduction number",
+    "effective reproduction number",
+    "doubling time",
+    "herd-immunity threshold",
+    "vaccination and waning",
+    "reporting governance",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Reported cases should not be treated as true infections without observation assumptions.",
+    "Transmission parameters can hide behavior, contact, biology, and environment.",
+    "Intervention effects should not be represented as unexplained reductions.",
+    "Epidemiological outputs should be presented with uncertainty and purpose."
+  ]
+}

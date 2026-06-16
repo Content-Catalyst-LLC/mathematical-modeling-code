@@ -1,0 +1,15 @@
+{
+  "calculator": "rt",
+  "inputs": {
+    "beta": 0.32,
+    "command": "rt",
+    "gamma": 0.1,
+    "population": 100000.0,
+    "susceptible": 85000.0
+  },
+  "interpretation": "Computes an effective reproduction number under a simple susceptible-share adjustment.",
+  "result": {
+    "rt": 2.7199999999999998
+  },
+  "warning": "Rt changes with susceptibility, behavior, intervention, and reporting context."
+}

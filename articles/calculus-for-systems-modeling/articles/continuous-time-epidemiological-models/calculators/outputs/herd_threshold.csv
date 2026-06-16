@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_r0,result_herd_immunity_threshold
+herd-threshold,Computes the simple homogeneous-model herd-immunity threshold.,Thresholds are model-dependent and should not be treated as public-health guarantees.,herd-threshold,3.2,0.6875

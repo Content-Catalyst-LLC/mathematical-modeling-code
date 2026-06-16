@@ -1,0 +1,13 @@
+{
+  "calculator": "r0",
+  "inputs": {
+    "beta": 0.32,
+    "command": "r0",
+    "gamma": 0.1
+  },
+  "interpretation": "Computes the basic reproduction number for the simplest SIR convention.",
+  "result": {
+    "r0": 3.1999999999999997
+  },
+  "warning": "R0 depends on model structure, population, and context."
+}

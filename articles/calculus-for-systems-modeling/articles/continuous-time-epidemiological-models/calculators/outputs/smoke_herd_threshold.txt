@@ -1,0 +1,12 @@
+{
+  "calculator": "herd-threshold",
+  "inputs": {
+    "command": "herd-threshold",
+    "r0": 3.2
+  },
+  "interpretation": "Computes the simple homogeneous-model herd-immunity threshold.",
+  "result": {
+    "herd_immunity_threshold": 0.6875
+  },
+  "warning": "Thresholds are model-dependent and should not be treated as public-health guarantees."
+}

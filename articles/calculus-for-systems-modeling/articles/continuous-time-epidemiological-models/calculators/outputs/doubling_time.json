@@ -1,0 +1,12 @@
+{
+  "calculator": "doubling-time",
+  "inputs": {
+    "command": "doubling-time",
+    "growth_rate": 0.22
+  },
+  "interpretation": "Computes exponential-growth doubling time.",
+  "result": {
+    "doubling_time": 3.150669002545206
+  },
+  "warning": "Doubling time is only valid under the assumed growth-rate window."
+}

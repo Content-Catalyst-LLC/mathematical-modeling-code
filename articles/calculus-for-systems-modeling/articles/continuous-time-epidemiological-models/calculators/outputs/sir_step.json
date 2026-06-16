@@ -1,0 +1,22 @@
+{
+  "calculator": "sir-step",
+  "inputs": {
+    "beta": 0.32,
+    "command": "sir-step",
+    "dt": 1.0,
+    "gamma": 0.1,
+    "infectious": 100.0,
+    "population": 100000.0,
+    "recovered": 0.0,
+    "susceptible": 99900.0
+  },
+  "interpretation": "Computes one SIR model step.",
+  "result": {
+    "new_infections": 31.968,
+    "next_infectious": 121.968,
+    "next_recovered": 10.0,
+    "next_susceptible": 99868.032,
+    "recoveries": 10.0
+  },
+  "warning": "This is an educational calculation, not medical advice or public-health guidance."
+}

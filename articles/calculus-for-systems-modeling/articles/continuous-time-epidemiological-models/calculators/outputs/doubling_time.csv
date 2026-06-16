@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_growth_rate,result_doubling_time
+doubling-time,Computes exponential-growth doubling time.,Doubling time is only valid under the assumed growth-rate window.,doubling-time,0.22,3.150669002545206

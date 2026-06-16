@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_context,result_note
+governance-warning,Creates an epidemiological governance warning.,"Epidemiological conclusions should not exceed compartment definitions, data evidence, uncertainty, domain review, and tested scope.",governance-warning,reported_cases,Reported cases should not be treated as true infections without observation assumptions.

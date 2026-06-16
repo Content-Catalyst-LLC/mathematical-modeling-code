@@ -1,0 +1,14 @@
+{
+  "calculator": "force-of-infection",
+  "inputs": {
+    "beta": 0.32,
+    "command": "force-of-infection",
+    "infectious": 100.0,
+    "population": 100000.0
+  },
+  "interpretation": "Computes force of infection in a homogeneous-mixing model.",
+  "result": {
+    "force_of_infection": 0.00032
+  },
+  "warning": "Transmission parameters can hide behavior, contact, biology, and environment."
+}

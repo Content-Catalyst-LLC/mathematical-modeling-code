@@ -1,0 +1,35 @@
+actual_title: "Continuous-Time Epidemiological Models"
+suggested_seo_title: "Continuous-Time Epidemiological Models"
+focus_keyword: "continuous-time epidemiological models"
+slug: "continuous-time-epidemiological-models"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "financial-dynamics-and-continuous-compounding"
+  current: "continuous-time-epidemiological-models"
+  next: "energy-balance-models"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/continuous-time-epidemiological-models"
+tags:
+  - Calculus
+  - Epidemiological Models
+  - Continuous-Time Models
+  - SIR Models
+  - SEIR Models
+  - Reproduction Numbers
+  - Public Health Modeling
+  - Systems Modeling
+excerpt_139_words: "Continuous-Time Epidemiological Models shows how calculus turns infection, recovery, exposure, immunity, contact, intervention, and population movement into a structured systems model. This article introduces continuous-time compartment models for calculus-based systems modeling, including SIR models, SEIR models, susceptible populations, exposed states, infectious prevalence, recovery flows, force of infection, incidence, prevalence, early exponential growth, doubling time, basic and effective reproduction numbers, herd-immunity thresholds, vaccination, waning immunity, time-varying transmission, behavior change, contact structure, calibration, uncertainty, sensitivity, and responsible interpretation. It shows why epidemiological models are useful for mechanism and scenario reasoning but dangerous when simplified outputs are detached from data quality, reporting processes, biology, heterogeneity, equity, and public-health context. Computational workflows support SIR and SEIR scenarios, reproduction-number calculators, SQL governance registries, typed records, Canvas artifacts, and generated reports."
+advanced_features:
+  - SIR simulation
+  - SEIR simulation
+  - force of infection
+  - incidence and prevalence
+  - basic reproduction number
+  - effective reproduction number
+  - doubling time
+  - herd-immunity threshold
+  - vaccination and waning immunity
+  - reporting and observation governance
+  - calculators layer
+  - Catalyst Canvas governance
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

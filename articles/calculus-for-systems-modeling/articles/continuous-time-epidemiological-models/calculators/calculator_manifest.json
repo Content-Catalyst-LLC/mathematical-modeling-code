@@ -1,0 +1,23 @@
+{
+  "article_slug": "continuous-time-epidemiological-models",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "r0", "title": "Basic Reproduction Number Calculator"},
+    {"id": "rt", "title": "Effective Reproduction Number Calculator"},
+    {"id": "doubling-time", "title": "Doubling Time Calculator"},
+    {"id": "herd-threshold", "title": "Simple Herd-Immunity Threshold Calculator"},
+    {"id": "force-of-infection", "title": "Force of Infection Calculator"},
+    {"id": "incidence", "title": "Incidence Flow Calculator"},
+    {"id": "sir-step", "title": "One-Step SIR Update Calculator"},
+    {"id": "governance-warning", "title": "Epidemiological Governance Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "educational_only": true,
+    "not_medical_advice": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

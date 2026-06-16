@@ -1,0 +1,8 @@
+card_id,title,category,score,status,review_date,governance_note
+compartment-record,Compartment Record,model definition,96,active,2026-06-15,Compartments should not be treated as exact reality without definition and validation.
+transmission-record,Transmission Record,transmission governance,95,review,2026-06-15,"Transmission parameters can hide behavior, contact, biology, and environment."
+observation-record,Observation Record,data governance,94,review,2026-06-15,Reported cases should not be treated as true infections without observation assumptions.
+intervention-record,Intervention Record,intervention governance,93,review,2026-06-15,Intervention effects should not be represented as unexplained reductions.
+immunity-record,Immunity Record,immunity governance,92,review,2026-06-15,Immunity assumptions can strongly change long-run dynamics.
+uncertainty-record,Uncertainty Record,uncertainty governance,91,review,2026-06-15,Epidemiological outputs should be presented with uncertainty and purpose.
+claim-boundary,Claim Boundary,governance,90,review,2026-06-15,"Epidemiological conclusions should not exceed compartment definitions, data evidence, uncertainty, domain review, and tested scope."

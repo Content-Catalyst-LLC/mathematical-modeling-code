@@ -1,0 +1,72 @@
+section                            
+-----------------------------------
+EPIDEMIOLOGICAL GOVERNANCE REGISTRY
+registry_name        analytical_role                                               systems_modeling_role                                     review_warning                                              
+-------------------  ------------------------------------------------------------  --------------------------------------------------------  ------------------------------------------------------------
+Claim boundary       Defines whether the model supports teaching, scenario compar  Prevents overclaiming and scope drift.                    Epidemiological conclusions should not exceed compartment de
+                     ison, preparedness, operational analysis, or decision suppor                                                            finitions, data evidence, uncertainty, domain review, and te
+                     t.                                                                                                                      sted scope.                                                 
+
+Compartment record   Defines susceptible, exposed, infectious, recovered, vaccina  Connects biological interpretation to model structure.    Compartments should not be treated as exact reality without 
+                     ted, hospitalized, removed, and other states.                                                                           definition and validation.                                  
+
+Immunity record      Documents recovered immunity, vaccination, efficacy, waning,  Connects susceptible dynamics to protection assumptions.  Immunity assumptions can strongly change long-run dynamics. 
+                      boosters, and population coverage.                                                                                                                                                 
+
+Intervention record  Documents whether intervention affects contact, susceptibili  Connects scenario changes to explicit mechanisms.         Intervention effects should not be represented as unexplaine
+                     ty, infectious duration, severity, reporting, or behavior.                                                              d reductions.                                               
+
+Observation record   Documents reported cases, detection fraction, delays, testin  Separates true system states from observed data.          Reported cases should not be treated as true infections with
+                     g context, hospitalization, mortality, and surveillance sour                                                            out observation assumptions.                                
+                     ce.                                                                                                                                                                                 
+
+Transmission record  Documents transmission parameter, force of infection, contac  Connects infection flow to contact and susceptibility.    Transmission parameters can hide behavior, contact, biology,
+                     t structure, and mixing assumption.                                                                                      and environment.                                           
+
+Uncertainty record   Documents parameter uncertainty, structural uncertainty, rep  Keeps scenarios from becoming false precision.            Epidemiological outputs should be presented with uncertainty
+                     orting uncertainty, initial-condition uncertainty, and sensi                                                             and purpose.                                               
+                     tivity.                                                                                                                                                                             
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value     unit      interpretation                          warning                                                     
+--------------  --------  --------  --------------------------------------  ------------------------------------------------------------
+N               100000.0  people    population boundary                     Population boundary and mixing assumptions must be documente
+                                                                            d.                                                          
+
+beta            0.32      per day   transmission parameter                  Transmission combines contact, infectiousness, behavior, set
+                                                                            ting, and reporting context.                                
+
+gamma           0.1       per day   recovery or removal rate                Recovery rate should be tied to infectious period assumption
+                                                                            s.                                                          
+
+nu              0.005     per day   vaccination rate                        Vaccination assumptions require coverage, timing, efficacy, 
+                                                                            and equity records.                                         
+
+omega           0.001     per day   waning protection rate                  Waning immunity assumptions can change long-run dynamics.   
+
+rho             0.5       fraction  reporting or detection fraction         Reported cases should not be treated as true infections with
+                                                                            out observation assumptions.                                
+
+sigma           0.2       per day   progression from exposed to infectious  Latency and incubation assumptions should be distinguished w
+                                                                            here needed.                                                
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                    model_type       peak_infectious  final_recovered  reproduction_number  interpretation                                                warning                                                     
+-------------------------------  ---------------  ---------------  ---------------  -------------------  ------------------------------------------------------------  ------------------------------------------------------------
+baseline_sir                     SIR              30000.0          93000.0          3.2                  baseline SIR scenario with susceptible depletion              Baseline scenario depends on homogeneous mixing assumptions.
+
+latent_period_seir               SEIR             25000.0          92000.0          3.2                  exposed compartment delays infectious growth                  Latency and incubation assumptions should be distinguished. 
+
+reduced_transmission_sir         SIR              12000.0          73000.0          2.2                  lower transmission reduces peak infectious burden             Reduced transmission must be tied to a mechanism.           
+
+vaccination_reduced_susceptible  SIR_vaccination  9000.0           50000.0          2.72                 lower susceptible share reduces effective reproduction numbe  Vaccination assumptions require coverage timing efficacy and
+                                                                                                         r                                                              equity records.                                            
+section          
+-----------------
+THRESHOLD RECORDS
+record_name          r0   susceptible_threshold  herd_immunity_threshold  doubling_time  warning                                                     
+-------------------  ---  ---------------------  -----------------------  -------------  ------------------------------------------------------------
+baseline_thresholds  3.2  0.3125                 0.6875                   3.1507         Thresholds are model-dependent summaries and should be prese
+                                                                                         nted with assumptions and context.                          

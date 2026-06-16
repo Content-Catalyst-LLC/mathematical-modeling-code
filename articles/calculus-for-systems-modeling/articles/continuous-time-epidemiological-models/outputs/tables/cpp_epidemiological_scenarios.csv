@@ -1,0 +1,3 @@
+scenario_name,model_type,reproduction_number,doubling_time,warning
+baseline_sir,SIR,3.2,3.15067,baseline_model_assumptions
+reduced_transmission_sir,SIR,2.2,5.77623,reduced_transmission_must_have_mechanism

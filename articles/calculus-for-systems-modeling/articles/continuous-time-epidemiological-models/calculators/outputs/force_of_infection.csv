@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_beta,input_infectious,input_population,result_force_of_infection
+force-of-infection,Computes force of infection in a homogeneous-mixing model.,"Transmission parameters can hide behavior, contact, biology, and environment.",force-of-infection,0.32,100.0,100000.0,0.00032

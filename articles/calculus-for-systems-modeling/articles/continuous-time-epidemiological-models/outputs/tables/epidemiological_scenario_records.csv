@@ -1,0 +1,5 @@
+scenario_name,model_type,final_time,peak_infectious,final_recovered,reproduction_number,interpretation
+baseline_sir,SIR,160.0,32565.209473270756,95316.88361340236,3.1999999999999997,baseline SIR scenario with susceptible depletion
+reduced_transmission_sir,SIR,160.0,18803.068439952345,84364.75112995306,2.1999999999999997,lower transmission reduces peak infectious burden
+latent_period_seir,SEIR,160.0,21223.15069126189,95220.25280277245,3.1999999999999997,exposed compartment delays infectious growth
+vaccination_reduced_susceptible,SIR_vaccination,160.0,22659.120156112225,93068.55993405478,2.7199999999999998,lower susceptible share reduces effective reproduction number

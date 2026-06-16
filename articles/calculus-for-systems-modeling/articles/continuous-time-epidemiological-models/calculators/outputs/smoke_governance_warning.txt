@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "reported_cases"
+  },
+  "interpretation": "Creates an epidemiological governance warning.",
+  "result": {
+    "note": "Reported cases should not be treated as true infections without observation assumptions."
+  },
+  "warning": "Epidemiological conclusions should not exceed compartment definitions, data evidence, uncertainty, domain review, and tested scope."
+}
