@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_has_equilibrium,input_path_analyzed,input_stability_tested,result_risk_score,result_risk
+equilibrium-bias,Flags when equilibrium is emphasized without path or stability review.,"An equilibrium is a mathematical condition, not a complete interpretation.",equilibrium-bias,1,0,0,3,high

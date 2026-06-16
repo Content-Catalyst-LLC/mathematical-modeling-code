@@ -1,0 +1,83 @@
+{
+  "continuity_assumptions": [
+    {
+      "assumption_description": "state changes gradually over modeled time",
+      "assumption_name": "smooth_state_change",
+      "model_element": "state trajectory x(t)",
+      "review_question": "Are shocks, events, or thresholds possible?",
+      "warning": "Smooth output does not prove smooth system behavior."
+    },
+    {
+      "assumption_description": "rate can be represented as a continuous function",
+      "assumption_name": "continuous_rate_function",
+      "model_element": "dx/dt = f(x,t,theta)",
+      "review_question": "Does the process change through discrete decisions or regime switches?",
+      "warning": "Rate continuity should be justified at the modeled scale."
+    },
+    {
+      "assumption_description": "aggregate variable represents the system adequately",
+      "assumption_name": "aggregate_representative_variable",
+      "model_element": "mean state or average exposure",
+      "review_question": "Does heterogeneity matter for the claim?",
+      "warning": "Averages can hide local stress, inequality, or bottlenecks."
+    }
+  ],
+  "interpretation_warning": "Continuous models are approximations whose smooth assumptions, solver settings, and claim boundaries must be reviewed.",
+  "misleading_continuity_risks": [
+    {
+      "governance_response": "test for breaks and document discontinuities",
+      "possible_consequence": "threshold, failure, or event dynamics are missed",
+      "risk_name": "false_smoothness",
+      "risk_pattern": "smooth curve hides structural breaks",
+      "status": "review"
+    },
+    {
+      "governance_response": "analyze trajectories and stability, not only equilibria",
+      "possible_consequence": "transition cost, overshoot, delay, or distributional effect is hidden",
+      "risk_name": "equilibrium_bias",
+      "risk_pattern": "steady-state result is overinterpreted",
+      "status": "review"
+    },
+    {
+      "governance_response": "record solver method, tolerance, convergence, and warnings",
+      "possible_consequence": "numerical artifacts appear as model insight",
+      "risk_name": "solver_confidence",
+      "risk_pattern": "successful computation is mistaken for validation",
+      "status": "review"
+    },
+    {
+      "governance_response": "inspect distributions and subgroups",
+      "possible_consequence": "local stress, inequality, or bottlenecks are hidden",
+      "risk_name": "aggregation_risk",
+      "risk_pattern": "average hides heterogeneity",
+      "status": "review"
+    },
+    {
+      "governance_response": "define scope and update triggers",
+      "possible_consequence": "smooth projection exceeds evidence",
+      "risk_name": "domain_drift",
+      "risk_pattern": "local model is extrapolated beyond its domain",
+      "status": "review"
+    }
+  ],
+  "solver_diagnostics": [
+    {
+      "diagnostic_name": "step_size_check",
+      "diagnostic_role": "tests whether results change under smaller time steps",
+      "required_record": "time step, method, output difference",
+      "warning": "Large time steps can miss fast dynamics or threshold crossing."
+    },
+    {
+      "diagnostic_name": "stiffness_check",
+      "diagnostic_role": "flags fast and slow dynamics that challenge numerical methods",
+      "required_record": "solver type, stiffness warning, rejected steps",
+      "warning": "Stiff systems require solver-specific diagnostics."
+    },
+    {
+      "diagnostic_name": "convergence_check",
+      "diagnostic_role": "records whether numerical solution converged",
+      "required_record": "convergence flag, tolerance, iteration count",
+      "warning": "A plotted output can hide convergence failure."
+    }
+  ]
+}

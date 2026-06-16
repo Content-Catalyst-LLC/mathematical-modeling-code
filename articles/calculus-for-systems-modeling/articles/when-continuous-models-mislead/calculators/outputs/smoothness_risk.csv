@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_breaks,input_thresholds,input_heterogeneity,input_solver_warnings,result_risk_score,result_risk
+smoothness-risk,"Scores whether smooth continuity assumptions may hide breaks, thresholds, heterogeneity, or solver warnings.",Smooth mathematical output does not prove smooth system behavior.,smoothness-risk,1,1,1,0,3,high

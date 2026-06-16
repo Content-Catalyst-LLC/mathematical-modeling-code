@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_value,input_critical,input_margin,result_distance_to_critical,result_near_threshold
+threshold-warning,Checks whether a value is near a critical threshold.,A model without threshold review may understate fragility.,threshold-warning,0.92,1.0,0.1,0.07999999999999996,True

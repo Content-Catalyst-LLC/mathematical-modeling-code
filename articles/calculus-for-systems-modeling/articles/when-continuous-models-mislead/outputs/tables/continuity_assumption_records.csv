@@ -1,0 +1,4 @@
+assumption_name,model_element,assumption_description,review_question,warning
+smooth_state_change,state trajectory x(t),state changes gradually over modeled time,"Are shocks, events, or thresholds possible?",Smooth output does not prove smooth system behavior.
+continuous_rate_function,"dx/dt = f(x,t,theta)",rate can be represented as a continuous function,Does the process change through discrete decisions or regime switches?,Rate continuity should be justified at the modeled scale.
+aggregate_representative_variable,mean state or average exposure,aggregate variable represents the system adequately,Does heterogeneity matter for the claim?,"Averages can hide local stress, inequality, or bottlenecks."

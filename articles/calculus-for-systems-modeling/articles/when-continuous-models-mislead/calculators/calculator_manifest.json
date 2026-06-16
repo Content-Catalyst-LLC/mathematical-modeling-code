@@ -1,0 +1,19 @@
+{
+  "article_slug": "when-continuous-models-mislead",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "smoothness-risk", "title": "Smoothness Risk Score"},
+    {"id": "threshold-warning", "title": "Threshold Warning"},
+    {"id": "equilibrium-bias", "title": "Equilibrium Bias Check"},
+    {"id": "aggregation-risk", "title": "Aggregation Risk Check"},
+    {"id": "solver-risk", "title": "Solver Risk Check"},
+    {"id": "continuous-model-warning", "title": "Continuous Model Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

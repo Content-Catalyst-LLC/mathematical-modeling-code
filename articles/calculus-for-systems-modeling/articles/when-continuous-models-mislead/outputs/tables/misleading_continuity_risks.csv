@@ -1,0 +1,6 @@
+risk_name,risk_pattern,possible_consequence,governance_response,status
+false_smoothness,smooth curve hides structural breaks,"threshold, failure, or event dynamics are missed",test for breaks and document discontinuities,review
+equilibrium_bias,steady-state result is overinterpreted,"transition cost, overshoot, delay, or distributional effect is hidden","analyze trajectories and stability, not only equilibria",review
+solver_confidence,successful computation is mistaken for validation,numerical artifacts appear as model insight,"record solver method, tolerance, convergence, and warnings",review
+aggregation_risk,average hides heterogeneity,"local stress, inequality, or bottlenecks are hidden",inspect distributions and subgroups,review
+domain_drift,local model is extrapolated beyond its domain,smooth projection exceeds evidence,define scope and update triggers,review

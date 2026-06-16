@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_step_check,input_convergence_flag,input_stiffness_warning,result_risk_score,result_risk
+solver-risk,Checks whether solver diagnostics are sufficient for continuous model interpretation.,A successful solver run does not prove model validity.,solver-risk,0,1,1,2,moderate

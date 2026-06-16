@@ -1,0 +1,31 @@
+section                             
+------------------------------------
+CONTINUOUS MODEL GOVERNANCE REGISTRY
+registry_name          analytical_role                                               systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Aggregation review     Checks whether averages hide important heterogeneity.         Protects against misleading aggregate interpretation.         An average can hide local stress, inequality, or bottlenecks
+                                                                                                                                                   .                                                           
+
+Claim boundary         Defines where the continuous approximation can be responsibl  Prevents smooth models from being overextended.               Continuous model claims must be tied to scope, evidence, and
+                       y used.                                                                                                                      diagnostics.                                               
+
+Continuity assumption  Documents which variables, rates, or fields are treated as s  Makes the model approximation explicit.                       Smooth mathematical output does not prove smooth system beha
+                       mooth.                                                                                                                      vior.                                                       
+
+Equilibrium review     Examines whether steady-state analysis hides transition dyna  Separates equilibrium existence from path safety and stabili  An equilibrium is a mathematical condition, not a complete i
+                       mics.                                                         ty.                                                           nterpretation.                                              
+
+Solver diagnostic      Records numerical method, tolerance, convergence status, and  Separates computed output from validated explanation.         A successful solver run does not prove model validity.      
+                        warnings.                                                                                                                                                                              
+
+Threshold check        Tests whether behavior changes near critical values.          Prevents regime changes from being smoothed away.             A model without threshold review may understate fragility.  
+section               
+----------------------
+CONTINUOUS MODEL RISKS
+risk_name          risk_pattern                                       possible_consequence                            governance_response                                      review_status
+-----------------  -------------------------------------------------  ----------------------------------------------  -------------------------------------------------------  -------------
+aggregation_risk   average hides heterogeneity                        local stress or inequality is hidden            inspect distributions and subgroups                      review       
+equilibrium_bias   steady state is overinterpreted                    transition costs and delays are hidden          analyze trajectories and stability                       review       
+false_smoothness   smooth curve hides structural breaks               threshold failure or event dynamics are missed  test for breaks and document discontinuities             review       
+hidden_threshold   critical transition is omitted or smoothed         fragility is understated                        run threshold and scenario checks                        review       
+solver_confidence  successful computation is mistaken for validation  numerical artifact appears as insight           record solver method tolerance convergence and warnings  review       

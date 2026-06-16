@@ -1,0 +1,22 @@
+{
+  "article_slug": "when-continuous-models-mislead",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "continuous-model-risk-review",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "continuity-assumption", "title": "Continuity Assumption", "description": "Variables, rates, and fields treated as smooth."},
+    {"card_id": "threshold-check", "title": "Threshold Check", "description": "Critical values, regime changes, and discontinuities."},
+    {"card_id": "equilibrium-review", "title": "Equilibrium Review", "description": "Steady-state interpretation versus transition dynamics."},
+    {"card_id": "solver-diagnostic", "title": "Solver Diagnostic", "description": "Method, tolerance, convergence, and warnings."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Where the continuous approximation can be used responsibly."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

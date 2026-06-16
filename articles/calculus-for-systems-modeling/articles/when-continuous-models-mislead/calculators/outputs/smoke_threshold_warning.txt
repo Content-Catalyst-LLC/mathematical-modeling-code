@@ -1,0 +1,15 @@
+{
+  "calculator": "threshold-warning",
+  "inputs": {
+    "command": "threshold-warning",
+    "critical": 1.0,
+    "margin": 0.1,
+    "value": 0.92
+  },
+  "interpretation": "Checks whether a value is near a critical threshold.",
+  "result": {
+    "distance_to_critical": 0.07999999999999996,
+    "near_threshold": true
+  },
+  "warning": "A model without threshold review may understate fragility."
+}

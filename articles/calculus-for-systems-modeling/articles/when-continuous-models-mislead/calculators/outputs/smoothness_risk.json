@@ -1,0 +1,16 @@
+{
+  "calculator": "smoothness-risk",
+  "inputs": {
+    "breaks": 1,
+    "command": "smoothness-risk",
+    "heterogeneity": 1,
+    "solver_warnings": 0,
+    "thresholds": 1
+  },
+  "interpretation": "Scores whether smooth continuity assumptions may hide breaks, thresholds, heterogeneity, or solver warnings.",
+  "result": {
+    "risk": "high",
+    "risk_score": 3
+  },
+  "warning": "Smooth mathematical output does not prove smooth system behavior."
+}

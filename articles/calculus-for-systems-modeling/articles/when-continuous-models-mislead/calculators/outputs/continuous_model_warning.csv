@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+continuous-model-warning,Creates a continuous-model risk warning.,Continuous models are approximations whose assumptions and diagnostics must be reviewed.,continuous-model-warning,false_smoothness,false_smoothness,Smooth mathematical output does not prove smooth system behavior.

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+continuity-assumption,Continuity Assumption,model assumption,96,active,2026-06-15,Smooth mathematical output does not prove smooth system behavior.
+threshold-check,Threshold Check,regime review,95,review,2026-06-15,A model without threshold review may understate fragility.
+equilibrium-review,Equilibrium Review,interpretation review,94,review,2026-06-15,"An equilibrium is a mathematical condition, not a complete interpretation."
+solver-diagnostic,Solver Diagnostic,numerical governance,93,review,2026-06-15,A successful solver run does not prove model validity.
+claim-boundary,Claim Boundary,model governance,92,review,2026-06-15,"Continuous model claims must be tied to scope, evidence, and diagnostics."

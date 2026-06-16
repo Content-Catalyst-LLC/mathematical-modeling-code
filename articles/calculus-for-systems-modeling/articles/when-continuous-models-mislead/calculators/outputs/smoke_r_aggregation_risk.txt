@@ -1,0 +1,4 @@
+        calculator max_mean_gap hidden_threshold_exceedance
+1 aggregation-risk           45                        TRUE
+                                                        warning
+1 An average can hide local stress, inequality, or bottlenecks.

@@ -1,0 +1,15 @@
+{
+  "calculator": "equilibrium-bias",
+  "inputs": {
+    "command": "equilibrium-bias",
+    "has_equilibrium": 1,
+    "path_analyzed": 0,
+    "stability_tested": 0
+  },
+  "interpretation": "Flags when equilibrium is emphasized without path or stability review.",
+  "result": {
+    "risk": "high",
+    "risk_score": 3
+  },
+  "warning": "An equilibrium is a mathematical condition, not a complete interpretation."
+}

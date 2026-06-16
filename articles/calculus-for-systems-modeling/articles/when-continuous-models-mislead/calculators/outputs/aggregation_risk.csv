@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_mean,input_maximum,input_threshold,result_max_mean_gap,result_hidden_threshold_exceedance
+aggregation-risk,Checks whether an average hides threshold exceedance in a subgroup or location.,"An average can hide local stress, inequality, or bottlenecks.",aggregation-risk,50.0,95.0,80.0,45.0,True

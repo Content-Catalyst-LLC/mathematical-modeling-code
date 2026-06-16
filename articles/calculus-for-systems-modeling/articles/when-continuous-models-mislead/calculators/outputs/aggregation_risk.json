@@ -1,0 +1,15 @@
+{
+  "calculator": "aggregation-risk",
+  "inputs": {
+    "command": "aggregation-risk",
+    "maximum": 95.0,
+    "mean": 50.0,
+    "threshold": 80.0
+  },
+  "interpretation": "Checks whether an average hides threshold exceedance in a subgroup or location.",
+  "result": {
+    "hidden_threshold_exceedance": true,
+    "max_mean_gap": 45.0
+  },
+  "warning": "An average can hide local stress, inequality, or bottlenecks."
+}

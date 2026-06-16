@@ -1,0 +1,13 @@
+{
+  "calculator": "continuous-model-warning",
+  "inputs": {
+    "command": "continuous-model-warning",
+    "pattern": "false_smoothness"
+  },
+  "interpretation": "Creates a continuous-model risk warning.",
+  "result": {
+    "note": "Smooth mathematical output does not prove smooth system behavior.",
+    "pattern": "false_smoothness"
+  },
+  "warning": "Continuous models are approximations whose assumptions and diagnostics must be reviewed."
+}

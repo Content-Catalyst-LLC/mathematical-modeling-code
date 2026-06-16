@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ContinuousModelRiskAudit",
+  "type": "object",
+  "required": ["continuity_assumptions", "misleading_continuity_risks", "solver_diagnostics", "interpretation_warning"],
+  "properties": {
+    "continuity_assumptions": {"type": "array"},
+    "misleading_continuity_risks": {"type": "array"},
+    "solver_diagnostics": {"type": "array"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

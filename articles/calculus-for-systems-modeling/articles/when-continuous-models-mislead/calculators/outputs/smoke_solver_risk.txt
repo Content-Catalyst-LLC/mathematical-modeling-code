@@ -1,0 +1,15 @@
+{
+  "calculator": "solver-risk",
+  "inputs": {
+    "command": "solver-risk",
+    "convergence_flag": 1,
+    "step_check": 0,
+    "stiffness_warning": 1
+  },
+  "interpretation": "Checks whether solver diagnostics are sufficient for continuous model interpretation.",
+  "result": {
+    "risk": "moderate",
+    "risk_score": 2
+  },
+  "warning": "A successful solver run does not prove model validity."
+}

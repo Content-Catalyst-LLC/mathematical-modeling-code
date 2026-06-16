@@ -1,0 +1,9 @@
+condition,passed,warning
+continuity assumption records included,True,Smooth mathematical output does not prove smooth system behavior.
+misleading continuity risk records included,True,A model without threshold review may understate fragility.
+solver diagnostic records included,True,A successful solver run does not prove model validity.
+SQL governance registry included,True,
+Haskell typed misuse records included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

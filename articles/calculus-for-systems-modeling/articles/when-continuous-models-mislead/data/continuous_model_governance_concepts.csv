@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+continuity_assumption,Continuity assumption,Documents which variables rates or fields are treated as smooth,Makes the model approximation explicit,Smooth mathematical output does not prove smooth system behavior
+threshold_check,Threshold check,Tests whether behavior changes near critical values,Prevents regime changes from being smoothed away,A model without threshold review may understate fragility
+equilibrium_review,Equilibrium review,Examines whether steady-state analysis hides transition dynamics,Separates equilibrium existence from path safety and stability,An equilibrium is a mathematical condition not a complete interpretation
+aggregation_review,Aggregation review,Checks whether averages hide important heterogeneity,Protects against misleading aggregate interpretation,An average can hide local stress inequality or bottlenecks
+solver_diagnostic,Solver diagnostic,Records numerical method tolerance convergence status and warnings,Separates computed output from validated explanation,A successful solver run does not prove model validity
+claim_boundary,Claim boundary,Defines where the continuous approximation can be responsibly used,Prevents smooth models from being overextended,Continuous model claims must be tied to scope evidence and diagnostics

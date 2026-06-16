@@ -1,0 +1,25 @@
+{
+  "article": "When Continuous Models Mislead",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Smooth mathematical output does not prove smooth system behavior.",
+    "A model without threshold review may understate fragility.",
+    "An equilibrium is a mathematical condition, not a complete interpretation.",
+    "An average can hide local stress, inequality, or bottlenecks.",
+    "A successful solver run does not prove model validity."
+  ]
+}

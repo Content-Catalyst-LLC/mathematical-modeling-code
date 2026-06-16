@@ -1,0 +1,24 @@
+actual_title: "When Continuous Models Mislead"
+suggested_seo_title: "When Continuous Models Mislead"
+focus_keyword: "when continuous models mislead"
+slug: "when-continuous-models-mislead"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "mechanistic-explanation-and-the-limits-of-formalism"
+  current: "when-continuous-models-mislead"
+  next: "interpretation-assumptions-and-responsible-mathematical-modeling"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/when-continuous-models-mislead"
+tags:
+  - Calculus
+  - Continuous Models
+  - Model Misuse
+  - Model Interpretation
+  - Structural Breaks
+  - Numerical Modeling
+  - Model Governance
+  - Systems Modeling
+excerpt_139_words: "Continuous models mislead when smooth mathematical structure is mistaken for the structure of the world. This article explains how calculus-based systems models can clarify rates, accumulation, flows, fields, differential equations, feedback, optimization, and approximation while also hiding discontinuities, thresholds, structural breaks, institutional decisions, measurement limits, solver artifacts, and model-scope failures. It examines false smoothness, hidden thresholds, equilibrium bias, aggregation risk, extrapolation, domain drift, parameter fragility, missing mechanisms, social discontinuities, and numerical confidence. In computational workflows, continuous-model risk audits support continuity assumption records, threshold checks, misleading-smoothness risk tables, solver diagnostic records, SQL governance registries, Haskell typed misuse records, calculator scripts, Canvas artifacts, and generated reports. The article emphasizes documenting smoothness assumptions, data breaks, parameter ranges, solver settings, convergence diagnostics, omitted mechanisms, validation scope, warnings, and claim boundaries."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

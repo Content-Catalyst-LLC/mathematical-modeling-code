@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "continuity-assumption",
+    "category": "model assumption",
+    "governance_note": "Smooth mathematical output does not prove smooth system behavior.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Continuity Assumption"
+  },
+  {
+    "card_id": "threshold-check",
+    "category": "regime review",
+    "governance_note": "A model without threshold review may understate fragility.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Threshold Check"
+  },
+  {
+    "card_id": "equilibrium-review",
+    "category": "interpretation review",
+    "governance_note": "An equilibrium is a mathematical condition, not a complete interpretation.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Equilibrium Review"
+  },
+  {
+    "card_id": "solver-diagnostic",
+    "category": "numerical governance",
+    "governance_note": "A successful solver run does not prove model validity.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Solver Diagnostic"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "model governance",
+    "governance_note": "Continuous model claims must be tied to scope, evidence, and diagnostics.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

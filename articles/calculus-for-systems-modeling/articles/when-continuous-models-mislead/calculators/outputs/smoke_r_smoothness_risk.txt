@@ -1,0 +1,4 @@
+       calculator risk_score risk
+1 smoothness-risk          3 high
+                                                            warning
+1 Smooth mathematical output does not prove smooth system behavior.

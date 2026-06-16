@@ -1,0 +1,4 @@
+diagnostic_name,diagnostic_role,required_record,warning
+step_size_check,tests whether results change under smaller time steps,"time step, method, output difference",Large time steps can miss fast dynamics or threshold crossing.
+stiffness_check,flags fast and slow dynamics that challenge numerical methods,"solver type, stiffness warning, rejected steps",Stiff systems require solver-specific diagnostics.
+convergence_check,records whether numerical solution converged,"convergence flag, tolerance, iteration count",A plotted output can hide convergence failure.
