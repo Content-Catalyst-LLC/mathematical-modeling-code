@@ -1,0 +1,15 @@
+{
+  "calculator": "euler-step",
+  "inputs": {
+    "command": "euler-step",
+    "decay_rate": 0.35,
+    "h": 0.1,
+    "t": 0.0,
+    "y": 100.0
+  },
+  "interpretation": "Computes one Euler update for a simple decay equation.",
+  "result": {
+    "updated_value": 96.5
+  },
+  "warning": "Euler updates depend on step size and rate function."
+}

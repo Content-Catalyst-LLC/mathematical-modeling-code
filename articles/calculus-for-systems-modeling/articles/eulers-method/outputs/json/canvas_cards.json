@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "rate-function",
+    "category": "model structure",
+    "governance_note": "Rate equation and parameters should be documented.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Rate Function"
+  },
+  {
+    "card_id": "euler-update",
+    "category": "method",
+    "governance_note": "Explicit update rule should be visible and reproducible.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Euler Update"
+  },
+  {
+    "card_id": "step-size",
+    "category": "error analysis",
+    "governance_note": "Step-size sensitivity should be tested before interpretation.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Step Size"
+  },
+  {
+    "card_id": "stability-multiplier",
+    "category": "stability",
+    "governance_note": "Simple decay stability should be checked when using Euler updates.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Stability Multiplier"
+  },
+  {
+    "card_id": "benchmark-error",
+    "category": "governance",
+    "governance_note": "Analytic or refined numerical benchmarks should be used where available.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Benchmark Error"
+  }
+]

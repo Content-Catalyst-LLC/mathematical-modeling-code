@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EulerRecord",
+  "type": "object",
+  "required": [
+    "step", "time", "euler_value", "exact_value", "absolute_error",
+    "step_size", "stability_multiplier", "stability_status", "warning"
+  ],
+  "properties": {
+    "step": {"type": "integer"},
+    "time": {"type": "number"},
+    "euler_value": {"type": "number"},
+    "exact_value": {"type": "number"},
+    "absolute_error": {"type": "number"},
+    "step_size": {"type": "number"},
+    "stability_multiplier": {"type": "number"},
+    "stability_status": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

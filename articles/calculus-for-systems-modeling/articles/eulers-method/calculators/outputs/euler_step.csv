@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,input_y,input_h,input_decay_rate,result_updated_value
+euler-step,Computes one Euler update for a simple decay equation.,Euler updates depend on step size and rate function.,euler-step,0.0,100.0,0.1,0.35,96.5

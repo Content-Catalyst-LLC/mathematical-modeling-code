@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_y,input_r,input_k,input_h,result_updated_value
+logistic-step,Computes one Euler update for logistic growth.,Large time steps can distort nonlinear feedback.,logistic-step,10.0,0.2,100.0,1.0,11.8

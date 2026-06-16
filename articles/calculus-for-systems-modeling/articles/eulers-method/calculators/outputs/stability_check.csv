@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_h,input_decay_rate,result_stability_multiplier,result_stability_status
+stability-check,Checks a simple decay stability multiplier.,Stability conditions depend on equation and method.,stability-check,0.1,0.35,0.965,stable_for_simple_decay

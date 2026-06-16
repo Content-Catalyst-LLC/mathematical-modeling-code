@@ -1,0 +1,9 @@
+condition,passed,warning
+Euler update formula included,True,
+exponential decay benchmark included,True,
+step-size sensitivity included,True,
+stability multiplier included,True,
+local and global error warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

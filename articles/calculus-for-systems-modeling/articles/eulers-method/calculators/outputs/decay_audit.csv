@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_y0,input_decay_rate,input_h,input_stop_time,result_records,result_final_euler_value,result_final_exact_value,result_final_absolute_error,result_stability_status
+decay-audit,Runs an Euler benchmark against the analytic decay solution.,Synthetic benchmarks do not guarantee empirical model validity.,decay-audit,100.0,0.35,0.1,20.0,201,0.08043826021709047,0.09118819655545163,0.01074993633836116,stable_for_simple_decay

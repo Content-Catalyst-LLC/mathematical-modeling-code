@@ -1,0 +1,13 @@
+{
+  "decay_rate": 0.35,
+  "final_absolute_error": 0.01074993633836116,
+  "final_euler_value": 0.08043826021709047,
+  "final_exact_value": 0.09118819655545163,
+  "initial_value": 100.0,
+  "interpretation": "Euler's Method approximates the decay trajectory, but error and stability depend on the time step.",
+  "records": 201,
+  "stability_multiplier": 0.965,
+  "stability_status": "stable_for_simple_decay",
+  "step_size": 0.1,
+  "stop_time": 20.0
+}

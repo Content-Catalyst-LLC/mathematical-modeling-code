@@ -1,0 +1,19 @@
+{
+  "calculator": "decay-audit",
+  "inputs": {
+    "command": "decay-audit",
+    "decay_rate": 0.35,
+    "h": 0.1,
+    "stop_time": 20.0,
+    "y0": 100.0
+  },
+  "interpretation": "Runs an Euler benchmark against the analytic decay solution.",
+  "result": {
+    "final_absolute_error": 0.01074993633836116,
+    "final_euler_value": 0.08043826021709047,
+    "final_exact_value": 0.09118819655545163,
+    "records": 201,
+    "stability_status": "stable_for_simple_decay"
+  },
+  "warning": "Synthetic benchmarks do not guarantee empirical model validity."
+}

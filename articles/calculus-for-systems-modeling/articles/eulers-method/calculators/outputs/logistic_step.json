@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-step",
+  "inputs": {
+    "command": "logistic-step",
+    "h": 1.0,
+    "k": 100.0,
+    "r": 0.2,
+    "y": 10.0
+  },
+  "interpretation": "Computes one Euler update for logistic growth.",
+  "result": {
+    "updated_value": 11.8
+  },
+  "warning": "Large time steps can distort nonlinear feedback."
+}

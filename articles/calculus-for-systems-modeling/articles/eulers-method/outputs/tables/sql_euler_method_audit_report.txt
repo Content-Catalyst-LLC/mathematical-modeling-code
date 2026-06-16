@@ -1,0 +1,27 @@
+section                         
+--------------------------------
+EULER METHOD ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Benchmark comparison  Compares Euler results to exact solutions or refined numeric  Helps distinguish numerical error from modeled dynamics.      Synthetic benchmarks do not guarantee empirical validity.   
+                      al estimates when available.                                                                                                                                                            
+
+Initial condition     Defines the starting state of the simulation.                 Controls the trajectory from the first step onward.           Initial-condition uncertainty should be documented.         
+
+Rate function         Defines the differential equation used to compute the slope.  Encodes growth, decay, feedback, forcing, inflow, outflow, o  A numerically accurate simulation can still be misleading if
+                                                                                    r transition behavior.                                         the rate function is poorly specified.                     
+
+Simulation horizon    Defines how long the iterative update is repeated.            Controls how much error can accumulate.                       Long horizons require stronger sensitivity and stability rev
+                                                                                                                                                  iew.                                                        
+
+Stability check       Evaluates whether numerical behavior remains controlled.      Prevents numerical artifacts from being interpreted as syste  Stability conditions depend on the equation and method.     
+                                                                                    m behavior.                                                                                                               
+
+Step size             Defines the finite time interval used in each update.         Controls accuracy, stability, and computational cost.         Step-size sensitivity should be tested.                     
+section                 
+------------------------
+EULER METHOD AUDIT CASES
+scenario                     initial_value  decay_rate  step_size  stop_time  stability_multiplier  stability_status         warning                                                     
+---------------------------  -------------  ----------  ---------  ---------  --------------------  -----------------------  ------------------------------------------------------------
+exponential_decay_benchmark  100.0          0.35        0.1        20.0       0.965                 stable_for_simple_decay  Euler estimates depend on time step, rate function, initial 
+                                                                                                                             condition, stability, and accumulated error.                

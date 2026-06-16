@@ -1,0 +1,24 @@
+{
+  "article": "Euler's Method",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Euler estimates depend on time step, rate function, initial condition, stability, and accumulated error.",
+    "Large steps can create instability even when the continuous system is stable.",
+    "Step-size sensitivity should be tested before interpretation.",
+    "A numerically accurate benchmark does not validate the empirical model."
+  ]
+}

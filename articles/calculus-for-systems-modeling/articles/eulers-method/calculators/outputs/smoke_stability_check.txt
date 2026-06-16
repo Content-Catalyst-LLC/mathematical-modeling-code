@@ -1,0 +1,14 @@
+{
+  "calculator": "stability-check",
+  "inputs": {
+    "command": "stability-check",
+    "decay_rate": 0.35,
+    "h": 0.1
+  },
+  "interpretation": "Checks a simple decay stability multiplier.",
+  "result": {
+    "stability_multiplier": 0.965,
+    "stability_status": "stable_for_simple_decay"
+  },
+  "warning": "Stability conditions depend on equation and method."
+}

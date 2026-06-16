@@ -1,0 +1,2 @@
+       calculator   h decay_rate stability_multiplier        stability_status
+1 stability-check 0.1       0.35                0.965 stable_for_simple_decay
