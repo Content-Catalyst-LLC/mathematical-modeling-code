@@ -1,0 +1,25 @@
+{
+  "article": "Runge\u2013Kutta Methods",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Runge\u2013Kutta estimates depend on rate function, step size, smoothness, stiffness, and benchmark comparison.",
+    "Wrong stage formulas or weights silently change the numerical method.",
+    "Step-size sensitivity should be tested before interpretation.",
+    "Explicit Runge\u2013Kutta methods can struggle with stiff systems.",
+    "A smooth numerical trajectory does not prove empirical validity."
+  ]
+}

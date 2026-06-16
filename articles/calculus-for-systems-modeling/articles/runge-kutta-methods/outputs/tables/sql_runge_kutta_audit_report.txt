@@ -1,0 +1,27 @@
+section                        
+-------------------------------
+RUNGE-KUTTA ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Benchmark comparison  Compares RK results to exact, refined, or independently comp  Helps distinguish numerical error from modeled dynamics.      Synthetic benchmarks do not guarantee empirical validity.   
+                      uted solutions.                                                                                                                                                                         
+
+Rate function         Defines the differential equation evaluated at each stage.    Encodes growth, decay, feedback, transition, forcing, inflow  A strong numerical method cannot fix a poorly specified rate
+                                                                                    , or outflow.                                                  function.                                                  
+
+Stability review      Checks whether the method remains numerically controlled.     Helps prevent solver artifacts from being interpreted as sys  Explicit RK methods can struggle with stiff systems.        
+                                                                                    tem behavior.                                                                                                             
+
+Stage structure       Defines where slopes are sampled inside the time step.        Controls how the method represents within-step change.        Stage formulas should be documented when methods are impleme
+                                                                                                                                                  nted manually.                                              
+
+Step size             Defines the time increment used by each solver update.        Controls accuracy, cost, and stability.                       Step-size sensitivity should be tested.                     
+
+Slope weights         Define how stage slopes are combined into the update.         Determine method order and approximation behavior.            Wrong weights can silently change the numerical method.     
+section                
+-----------------------
+RUNGE-KUTTA AUDIT CASES
+scenario                                  initial_value  decay_rate  step_size  stop_time  method_family            warning                                                     
+----------------------------------------  -------------  ----------  ---------  ---------  -----------------------  ------------------------------------------------------------
+euler_vs_rk4_exponential_decay_benchmark  100.0          0.35        0.5        20.0       Euler and classical RK4  Runge-Kutta estimates depend on rate function, step size, sm
+                                                                                                                    oothness, stiffness, and benchmark comparison.              

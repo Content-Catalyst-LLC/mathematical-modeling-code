@@ -1,0 +1,19 @@
+{
+  "article_slug": "runge-kutta-methods",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "rk4-step", "title": "Classical RK4 Step"},
+    {"id": "midpoint-step", "title": "Midpoint Method Step"},
+    {"id": "heun-step", "title": "Heun RK2 Step"},
+    {"id": "stage-values", "title": "RK4 Stage Values"},
+    {"id": "euler-vs-rk4-audit", "title": "Euler Versus RK4 Audit"},
+    {"id": "step-size-comparison", "title": "RK4 Step-Size Comparison"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

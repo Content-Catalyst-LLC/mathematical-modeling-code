@@ -1,0 +1,15 @@
+{
+  "calculator": "midpoint-step",
+  "inputs": {
+    "command": "midpoint-step",
+    "decay_rate": 0.35,
+    "h": 0.5,
+    "t": 0.0,
+    "y": 100.0
+  },
+  "interpretation": "Computes one midpoint Runge-Kutta update.",
+  "result": {
+    "updated_value": 84.03125
+  },
+  "warning": "Midpoint methods sample one interior slope but still require step-size review."
+}

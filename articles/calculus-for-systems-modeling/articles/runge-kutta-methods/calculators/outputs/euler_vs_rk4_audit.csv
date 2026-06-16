@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_y0,input_decay_rate,input_h,input_stop_time,result_records,result_final_euler_error,result_final_rk4_error
+euler-vs-rk4-audit,Compares Euler and RK4 against an exact decay solution.,Synthetic benchmarks do not guarantee empirical model validity.,euler-vs-rk4-audit,100.0,0.35,0.5,20.0,41,0.045672840758083845,5.774126650717748e-06

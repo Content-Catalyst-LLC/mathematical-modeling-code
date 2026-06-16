@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,input_y,input_h,input_decay_rate,result_updated_value
+heun-step,Computes one Heun-style RK2 update.,Heun's method averages beginning and predicted endpoint slopes.,heun-step,0.0,100.0,0.5,0.35,84.03125

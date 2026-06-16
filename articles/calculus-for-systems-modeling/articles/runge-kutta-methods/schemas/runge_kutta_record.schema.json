@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RungeKuttaRecord",
+  "type": "object",
+  "required": [
+    "step", "time", "euler_value", "rk4_value", "exact_value",
+    "euler_absolute_error", "rk4_absolute_error", "step_size", "warning"
+  ],
+  "properties": {
+    "step": {"type": "integer"},
+    "time": {"type": "number"},
+    "euler_value": {"type": "number"},
+    "rk4_value": {"type": "number"},
+    "exact_value": {"type": "number"},
+    "euler_absolute_error": {"type": "number"},
+    "rk4_absolute_error": {"type": "number"},
+    "step_size": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

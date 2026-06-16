@@ -1,0 +1,18 @@
+{
+  "calculator": "stage-values",
+  "inputs": {
+    "command": "stage-values",
+    "decay_rate": 0.35,
+    "h": 0.5,
+    "t": 0.0,
+    "y": 100.0
+  },
+  "interpretation": "Returns RK4 stage slopes.",
+  "result": {
+    "k1": -35.0,
+    "k2": -31.937499999999996,
+    "k3": -32.20546875,
+    "k4": -29.36404296875
+  },
+  "warning": "Wrong stage formulas silently change the method."
+}

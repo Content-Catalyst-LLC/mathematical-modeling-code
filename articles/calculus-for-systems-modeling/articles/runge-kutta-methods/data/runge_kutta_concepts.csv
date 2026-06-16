@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+rate_function,Rate function,Defines the differential equation evaluated at each stage,Encodes growth decay feedback transition forcing inflow or outflow,A strong numerical method cannot fix a poorly specified rate function
+stage_structure,Stage structure,Defines where slopes are sampled inside the time step,Controls how the method represents within-step change,Stage formulas should be documented when methods are implemented manually
+weights,Slope weights,Define how stage slopes are combined into the update,Determine method order and approximation behavior,Wrong weights can silently change the numerical method
+step_size,Step size,Defines the time increment used by each solver update,Controls accuracy cost and stability,Step-size sensitivity should be tested
+stability_review,Stability review,Checks whether the method remains numerically controlled,Helps prevent solver artifacts from being interpreted as system behavior,Explicit RK methods can struggle with stiff systems
+benchmark_comparison,Benchmark comparison,Compares RK results to exact refined or independently computed solutions,Helps distinguish numerical error from modeled dynamics,Synthetic benchmarks do not guarantee empirical validity

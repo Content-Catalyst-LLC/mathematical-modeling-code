@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "rate-function",
+    "category": "model structure",
+    "governance_note": "Rate equation and parameters should be documented.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Rate Function"
+  },
+  {
+    "card_id": "rk-stage",
+    "category": "method",
+    "governance_note": "Intermediate slope locations and formulas should be visible.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Runge\u2013Kutta Stage"
+  },
+  {
+    "card_id": "rk4-update",
+    "category": "method",
+    "governance_note": "Classical RK4 combines four weighted slope stages.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "RK4 Update"
+  },
+  {
+    "card_id": "step-size",
+    "category": "error analysis",
+    "governance_note": "Step-size sensitivity should be tested before interpretation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Step Size"
+  },
+  {
+    "card_id": "benchmark-error",
+    "category": "governance",
+    "governance_note": "Analytic or refined numerical benchmarks should be used where available.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Benchmark Error"
+  }
+]

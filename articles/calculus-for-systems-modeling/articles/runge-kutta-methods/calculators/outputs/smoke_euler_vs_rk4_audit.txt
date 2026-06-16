@@ -1,0 +1,17 @@
+{
+  "calculator": "euler-vs-rk4-audit",
+  "inputs": {
+    "command": "euler-vs-rk4-audit",
+    "decay_rate": 0.35,
+    "h": 0.5,
+    "stop_time": 20.0,
+    "y0": 100.0
+  },
+  "interpretation": "Compares Euler and RK4 against an exact decay solution.",
+  "result": {
+    "final_euler_error": 0.045672840758083845,
+    "final_rk4_error": 5.774126650717748e-06,
+    "records": 41
+  },
+  "warning": "Synthetic benchmarks do not guarantee empirical model validity."
+}

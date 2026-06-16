@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+rate-function,Rate Function,model structure,96,active,2026-06-15,Rate equation and parameters should be documented.
+rk-stage,Runge–Kutta Stage,method,95,active,2026-06-15,Intermediate slope locations and formulas should be visible.
+rk4-update,RK4 Update,method,94,active,2026-06-15,Classical RK4 combines four weighted slope stages.
+step-size,Step Size,error analysis,93,review,2026-06-15,Step-size sensitivity should be tested before interpretation.
+benchmark-error,Benchmark Error,governance,92,active,2026-06-15,Analytic or refined numerical benchmarks should be used where available.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,input_y,input_h,input_decay_rate,result_updated_value
+rk4-step,Computes one classical RK4 update.,"RK4 still depends on rate function, step size, smoothness, and stiffness.",rk4-step,0.0,100.0,0.5,0.35,83.9458349609375

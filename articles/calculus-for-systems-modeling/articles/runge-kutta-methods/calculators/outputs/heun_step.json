@@ -1,0 +1,15 @@
+{
+  "calculator": "heun-step",
+  "inputs": {
+    "command": "heun-step",
+    "decay_rate": 0.35,
+    "h": 0.5,
+    "t": 0.0,
+    "y": 100.0
+  },
+  "interpretation": "Computes one Heun-style RK2 update.",
+  "result": {
+    "updated_value": 84.03125
+  },
+  "warning": "Heun's method averages beginning and predicted endpoint slopes."
+}

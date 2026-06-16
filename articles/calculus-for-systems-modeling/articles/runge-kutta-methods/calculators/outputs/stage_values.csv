@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_t,input_y,input_h,input_decay_rate,result_k1,result_k2,result_k3,result_k4
+stage-values,Returns RK4 stage slopes.,Wrong stage formulas silently change the method.,stage-values,0.0,100.0,0.5,0.35,-35.0,-31.937499999999996,-32.20546875,-29.36404296875

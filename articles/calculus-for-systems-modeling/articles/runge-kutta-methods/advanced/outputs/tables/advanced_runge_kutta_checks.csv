@@ -1,0 +1,10 @@
+condition,passed,warning
+midpoint and RK4 formulas included,True,
+Euler-versus-RK4 comparison included,True,
+exponential decay benchmark included,True,
+step-size sensitivity included,True,
+stage diagnostics included,True,
+stability and stiffness warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

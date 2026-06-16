@@ -1,0 +1,10 @@
+{
+  "decay_rate": 0.35,
+  "final_euler_error": 0.045672840758083845,
+  "final_rk4_error": 5.774126650717748e-06,
+  "initial_value": 100.0,
+  "interpretation": "RK4 uses multiple slope estimates per step and is much more accurate than Euler for this smooth benchmark.",
+  "records": 41,
+  "step_size": 0.5,
+  "stop_time": 20.0
+}
