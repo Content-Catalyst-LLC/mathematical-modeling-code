@@ -1,0 +1,25 @@
+{
+  "article": "Interpretation, Assumptions, and Responsible Mathematical Modeling",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "A model should not be used for claims outside its stated purpose.",
+    "Hidden assumptions can create false confidence.",
+    "A parameter value without evidence status is incomplete.",
+    "Validation is purpose-specific, not universal.",
+    "Model conclusions should not exceed evidence, scope, and purpose."
+  ]
+}

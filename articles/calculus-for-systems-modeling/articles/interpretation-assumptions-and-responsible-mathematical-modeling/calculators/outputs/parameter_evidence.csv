@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_has_unit,input_has_source,input_has_range,input_has_uncertainty,result_evidence_score,result_status
+parameter-evidence,"Scores whether a parameter record includes unit, source, range, and uncertainty.",A parameter value without evidence status is incomplete.,parameter-evidence,1,1,0,0,2,partial

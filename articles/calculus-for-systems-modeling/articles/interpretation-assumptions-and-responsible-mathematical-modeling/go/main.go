@@ -1,0 +1,25 @@
+package main
+
+import "fmt"
+
+type Record struct {
+	RecordType             string
+	Name                   string
+	Category               string
+	PermittedOrDescription string
+	Warning                string
+}
+
+func main() {
+	records := []Record{
+		{"purpose_record", "synthetic_logistic_growth", "teaching", "illustrates_growth_saturation_capacity", "synthetic_models_are_not_empirical_evidence"},
+		{"purpose_record", "scenario_sweep", "exploratory", "compares_parameter_scenarios", "scenario_outputs_are_not_forecasts"},
+		{"assumption_record", "continuous_growth", "mathematical", "state_changes_continuously", "smooth_model_may_hide_shocks_thresholds"},
+		{"assumption_record", "objective_function_weights", "normative", "priority_structure", "value_judgments_can_hide_inside_mathematics"},
+		{"claim_boundary", "predictive", "validation", "validated_domain_forecast", "validation_is_purpose_specific"},
+	}
+	fmt.Println("record_type,name,category,permitted_or_description,warning")
+	for _, r := range records {
+		fmt.Printf("%s,%s,%s,%s,%s\n", r.RecordType, r.Name, r.Category, r.PermittedOrDescription, r.Warning)
+	}
+}

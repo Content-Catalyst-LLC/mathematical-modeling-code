@@ -1,0 +1,16 @@
+{
+  "calculator": "parameter-evidence",
+  "inputs": {
+    "command": "parameter-evidence",
+    "has_range": 0,
+    "has_source": 1,
+    "has_uncertainty": 0,
+    "has_unit": 1
+  },
+  "interpretation": "Scores whether a parameter record includes unit, source, range, and uncertainty.",
+  "result": {
+    "evidence_score": 2,
+    "status": "partial"
+  },
+  "warning": "A parameter value without evidence status is incomplete."
+}

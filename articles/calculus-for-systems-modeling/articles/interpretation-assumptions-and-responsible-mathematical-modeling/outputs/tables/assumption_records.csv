@@ -1,0 +1,5 @@
+assumption_name,assumption_type,description,evidence_status,risk_if_hidden
+continuous_growth,mathematical,state changes continuously over modeled time,teaching assumption,"smooth model may hide shocks, thresholds, or discrete events"
+fixed_parameter_values,empirical,parameters remain fixed across the scenario,synthetic assumption,output appears more certain than parameter evidence supports
+solver_configuration,computational,numerical method and tolerance are adequate for the model,requires diagnostic record,numerical artifact may appear as model insight
+objective_function_weights,normative,optimization weights reflect a chosen priority structure,requires stakeholder and governance review,value judgments are hidden inside mathematics

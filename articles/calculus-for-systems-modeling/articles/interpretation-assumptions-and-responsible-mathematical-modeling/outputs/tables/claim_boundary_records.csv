@@ -1,0 +1,5 @@
+claim_type,permitted_claim,prohibited_claim,required_evidence,governance_status
+descriptive,the model summarizes a specified structure or dataset,the model proves a mechanism,"definition of variables, data source, and scope",active
+mechanistic,the model represents a plausible process under stated assumptions,the mechanism is proven solely by formal structure,"process evidence, parameter interpretation, and sensitivity review",review
+predictive,the model forecasts within validated domain and time horizon,the model predicts outside validation scope,"validation data, uncertainty, and robustness analysis",review
+decision_support,the model frames tradeoffs under documented assumptions,the model replaces judgment or accountability,"stakeholder review, uncertainty, and claim boundaries",review

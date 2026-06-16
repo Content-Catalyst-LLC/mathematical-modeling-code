@@ -1,0 +1,13 @@
+{
+  "calculator": "responsibility-warning",
+  "inputs": {
+    "command": "responsibility-warning",
+    "pattern": "claim_boundary"
+  },
+  "interpretation": "Creates a responsible modeling warning.",
+  "result": {
+    "note": "Model conclusions should not exceed evidence, scope, and purpose.",
+    "pattern": "claim_boundary"
+  },
+  "warning": "Mathematical modeling is responsible only when purpose, assumptions, evidence, uncertainty, and claim boundaries are documented."
+}

@@ -1,0 +1,19 @@
+{
+  "article_slug": "interpretation-assumptions-and-responsible-mathematical-modeling",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "purpose-fit", "title": "Purpose Fit Check"},
+    {"id": "assumption-risk", "title": "Assumption Risk Score"},
+    {"id": "claim-boundary", "title": "Claim Boundary Check"},
+    {"id": "parameter-evidence", "title": "Parameter Evidence Score"},
+    {"id": "communication-risk", "title": "Communication Risk Score"},
+    {"id": "responsibility-warning", "title": "Responsible Modeling Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

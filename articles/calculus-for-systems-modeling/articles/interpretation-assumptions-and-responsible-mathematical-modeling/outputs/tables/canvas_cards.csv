@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+purpose-record,Purpose Record,model governance,96,active,2026-06-15,A model should not be used for claims outside its stated purpose.
+assumption-record,Assumption Record,assumption governance,95,active,2026-06-15,Hidden assumptions can create false confidence.
+parameter-record,Parameter Record,parameter governance,94,review,2026-06-15,A parameter value without evidence status is incomplete.
+validation-scope,Validation Scope,validation governance,93,review,2026-06-15,"Validation is purpose-specific, not universal."
+claim-boundary,Claim Boundary,claim governance,92,review,2026-06-15,"Model conclusions should not exceed evidence, scope, and purpose."

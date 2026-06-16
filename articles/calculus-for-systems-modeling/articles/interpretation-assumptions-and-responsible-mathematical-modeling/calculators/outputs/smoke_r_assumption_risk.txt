@@ -1,0 +1,4 @@
+       calculator risk_score risk
+1 assumption-risk          4 high
+                                          warning
+1 Hidden assumptions can create false confidence.

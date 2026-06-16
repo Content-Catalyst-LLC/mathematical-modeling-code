@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+responsibility-warning,Creates a responsible modeling warning.,"Mathematical modeling is responsible only when purpose, assumptions, evidence, uncertainty, and claim boundaries are documented.",responsibility-warning,claim_boundary,claim_boundary,"Model conclusions should not exceed evidence, scope, and purpose."

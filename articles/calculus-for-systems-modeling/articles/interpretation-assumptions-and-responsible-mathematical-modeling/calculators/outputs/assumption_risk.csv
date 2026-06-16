@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_hidden_assumptions,input_normative_assumptions,input_solver_undocumented,result_risk_score,result_risk
+assumption-risk,"Scores risk from hidden assumptions, normative choices, and undocumented solver settings.",Hidden assumptions can create false confidence.,assumption-risk,2,1,1,4,high

@@ -1,0 +1,15 @@
+{
+  "calculator": "assumption-risk",
+  "inputs": {
+    "command": "assumption-risk",
+    "hidden_assumptions": 2,
+    "normative_assumptions": 1,
+    "solver_undocumented": 1
+  },
+  "interpretation": "Scores risk from hidden assumptions, normative choices, and undocumented solver settings.",
+  "result": {
+    "risk": "high",
+    "risk_score": 4
+  },
+  "warning": "Hidden assumptions can create false confidence."
+}

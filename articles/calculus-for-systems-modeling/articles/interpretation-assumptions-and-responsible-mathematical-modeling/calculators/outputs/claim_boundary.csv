@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_purpose,input_validated,input_uncertainty_recorded,input_scope_recorded,result_support_score,result_claim_supported
+claim-boundary,"Checks whether a claim has validation, uncertainty, and scope support.","Model conclusions should not exceed evidence, scope, and purpose.",claim-boundary,predictive,0,1,1,2,False

@@ -1,0 +1,5 @@
+"claim_type","permitted_claim","prohibited_claim","governance_status"
+"descriptive","summarizes a specified structure or dataset","proves a mechanism","active"
+"mechanistic","represents a plausible process under stated assumptions","proves causality solely by formal structure","review"
+"predictive","forecasts within validated domain and time horizon","predicts outside validation scope","review"
+"decision_support","frames tradeoffs under documented assumptions","replaces judgment or accountability","review"

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResponsibleModelingAudit",
+  "type": "object",
+  "required": ["purpose_records", "assumption_records", "claim_boundary_records", "interpretation_warning"],
+  "properties": {
+    "purpose_records": {"type": "array"},
+    "assumption_records": {"type": "array"},
+    "claim_boundary_records": {"type": "array"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

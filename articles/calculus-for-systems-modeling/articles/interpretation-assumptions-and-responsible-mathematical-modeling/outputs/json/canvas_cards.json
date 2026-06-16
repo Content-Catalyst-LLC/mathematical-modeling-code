@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "purpose-record",
+    "category": "model governance",
+    "governance_note": "A model should not be used for claims outside its stated purpose.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Purpose Record"
+  },
+  {
+    "card_id": "assumption-record",
+    "category": "assumption governance",
+    "governance_note": "Hidden assumptions can create false confidence.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Assumption Record"
+  },
+  {
+    "card_id": "parameter-record",
+    "category": "parameter governance",
+    "governance_note": "A parameter value without evidence status is incomplete.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Parameter Record"
+  },
+  {
+    "card_id": "validation-scope",
+    "category": "validation governance",
+    "governance_note": "Validation is purpose-specific, not universal.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Validation Scope"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "claim governance",
+    "governance_note": "Model conclusions should not exceed evidence, scope, and purpose.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

@@ -1,0 +1,5 @@
+"assumption_name","assumption_type","description","risk_if_hidden"
+"continuous_growth","mathematical","state changes continuously over modeled time","smooth model may hide shocks, thresholds, or discrete events"
+"fixed_parameter_values","empirical","parameters remain fixed across the scenario","output appears more certain than parameter evidence supports"
+"solver_configuration","computational","numerical method and tolerance are adequate for the model","numerical artifact may appear as model insight"
+"objective_function_weights","normative","optimization weights reflect a chosen priority structure","value judgments are hidden inside mathematics"

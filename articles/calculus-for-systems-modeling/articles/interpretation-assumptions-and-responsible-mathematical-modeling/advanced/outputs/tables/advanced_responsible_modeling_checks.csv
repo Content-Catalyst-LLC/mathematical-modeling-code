@@ -1,0 +1,9 @@
+condition,passed,warning
+purpose records included,True,A model should not be used for claims outside its stated purpose.
+assumption records included,True,Hidden assumptions can create false confidence.
+claim boundary records included,True,"Model conclusions should not exceed evidence, scope, and purpose."
+SQL governance registry included,True,
+Haskell typed responsibility records included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

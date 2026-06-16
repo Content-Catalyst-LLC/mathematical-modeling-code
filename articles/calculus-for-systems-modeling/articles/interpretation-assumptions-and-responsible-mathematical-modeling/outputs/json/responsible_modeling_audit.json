@@ -1,0 +1,86 @@
+{
+  "assumption_records": [
+    {
+      "assumption_name": "continuous_growth",
+      "assumption_type": "mathematical",
+      "description": "state changes continuously over modeled time",
+      "evidence_status": "teaching assumption",
+      "risk_if_hidden": "smooth model may hide shocks, thresholds, or discrete events"
+    },
+    {
+      "assumption_name": "fixed_parameter_values",
+      "assumption_type": "empirical",
+      "description": "parameters remain fixed across the scenario",
+      "evidence_status": "synthetic assumption",
+      "risk_if_hidden": "output appears more certain than parameter evidence supports"
+    },
+    {
+      "assumption_name": "solver_configuration",
+      "assumption_type": "computational",
+      "description": "numerical method and tolerance are adequate for the model",
+      "evidence_status": "requires diagnostic record",
+      "risk_if_hidden": "numerical artifact may appear as model insight"
+    },
+    {
+      "assumption_name": "objective_function_weights",
+      "assumption_type": "normative",
+      "description": "optimization weights reflect a chosen priority structure",
+      "evidence_status": "requires stakeholder and governance review",
+      "risk_if_hidden": "value judgments are hidden inside mathematics"
+    }
+  ],
+  "claim_boundary_records": [
+    {
+      "claim_type": "descriptive",
+      "governance_status": "active",
+      "permitted_claim": "the model summarizes a specified structure or dataset",
+      "prohibited_claim": "the model proves a mechanism",
+      "required_evidence": "definition of variables, data source, and scope"
+    },
+    {
+      "claim_type": "mechanistic",
+      "governance_status": "review",
+      "permitted_claim": "the model represents a plausible process under stated assumptions",
+      "prohibited_claim": "the mechanism is proven solely by formal structure",
+      "required_evidence": "process evidence, parameter interpretation, and sensitivity review"
+    },
+    {
+      "claim_type": "predictive",
+      "governance_status": "review",
+      "permitted_claim": "the model forecasts within validated domain and time horizon",
+      "prohibited_claim": "the model predicts outside validation scope",
+      "required_evidence": "validation data, uncertainty, and robustness analysis"
+    },
+    {
+      "claim_type": "decision_support",
+      "governance_status": "review",
+      "permitted_claim": "the model frames tradeoffs under documented assumptions",
+      "prohibited_claim": "the model replaces judgment or accountability",
+      "required_evidence": "stakeholder review, uncertainty, and claim boundaries"
+    }
+  ],
+  "interpretation_warning": "Mathematical modeling is responsible only when purpose, assumptions, evidence, uncertainty, and claim boundaries are documented.",
+  "purpose_records": [
+    {
+      "model_name": "synthetic_logistic_growth",
+      "purpose_type": "teaching",
+      "supported_use": "illustrates growth, saturation, and carrying capacity",
+      "unsupported_use": "empirical forecast for a real population",
+      "warning": "Synthetic teaching models should not be communicated as empirical evidence."
+    },
+    {
+      "model_name": "scenario_sweep",
+      "purpose_type": "exploratory",
+      "supported_use": "compares behavior across plausible parameter scenarios",
+      "unsupported_use": "single-point prediction",
+      "warning": "Scenario outputs should not be confused with forecasts."
+    },
+    {
+      "model_name": "decision_support_model",
+      "purpose_type": "decision support",
+      "supported_use": "frames tradeoffs under documented assumptions",
+      "unsupported_use": "replacement for judgment or accountability",
+      "warning": "Models inform decisions; they do not remove responsibility from decision makers."
+    }
+  ]
+}

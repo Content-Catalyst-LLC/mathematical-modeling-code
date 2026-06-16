@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_teaching,input_exploratory,input_predictive,input_decision_support,result_active_purpose_count,result_status
+purpose-fit,Checks whether model purpose is clear or mixed.,A model should not be used for claims outside its stated purpose.,purpose-fit,1,0,0,0,1,single_purpose

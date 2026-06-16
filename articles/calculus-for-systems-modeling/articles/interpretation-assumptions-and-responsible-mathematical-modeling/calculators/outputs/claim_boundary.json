@@ -1,0 +1,16 @@
+{
+  "calculator": "claim-boundary",
+  "inputs": {
+    "command": "claim-boundary",
+    "purpose": "predictive",
+    "scope_recorded": 1,
+    "uncertainty_recorded": 1,
+    "validated": 0
+  },
+  "interpretation": "Checks whether a claim has validation, uncertainty, and scope support.",
+  "result": {
+    "claim_supported": false,
+    "support_score": 2
+  },
+  "warning": "Model conclusions should not exceed evidence, scope, and purpose."
+}

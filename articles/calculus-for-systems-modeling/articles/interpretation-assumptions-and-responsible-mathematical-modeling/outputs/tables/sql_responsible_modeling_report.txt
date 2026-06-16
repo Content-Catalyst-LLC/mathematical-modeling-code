@@ -1,0 +1,36 @@
+section                                 
+----------------------------------------
+RESPONSIBLE MODELING GOVERNANCE REGISTRY
+registry_name          analytical_role                                               systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Assumption record      Documents mathematical, empirical, computational, boundary,   Makes model dependence visible.                               Hidden assumptions can create false confidence.             
+                       mechanistic, and normative assumptions.                                                                                                                                                 
+
+Claim boundary         Defines what the model can and cannot responsibly support.    Prevents overclaiming, scope drift, and unsupported decision  Model conclusions should not exceed evidence, scope, and pur
+                                                                                      authority.                                                   pose.                                                       
+
+Communication warning  Flags overprecision, scenario confusion, hidden values, or a  Supports responsible public interpretation.                   A model result can be technically correct and still miscommu
+                       udience mismatch.                                                                                                           nicated.                                                    
+
+Parameter record       Documents parameter value, unit, source, range, evidence sta  Prevents parameter values from becoming unexamined authority  A parameter value without evidence status is incomplete.    
+                       tus, and uncertainty.                                         .                                                                                                                         
+
+Purpose record         Documents whether the model is teaching, exploratory, mechan  Aligns interpretation with intended use.                      A model should not be used for claims outside its stated pur
+                       istic, predictive, optimization-oriented, or decision-suppor                                                                pose.                                                       
+                       tive.                                                                                                                                                                                   
+
+Validation scope       Defines the evidence domain, purpose, and range of model ade  Limits model use to tested or justified domains.              Validation is purpose-specific, not universal.              
+                       quacy.                                                                                                                                                                                  
+section                     
+----------------------------
+RESPONSIBLE MODELING RECORDS
+record_type        record_name                category      permitted_use                                           prohibited_use                            warning                                                     
+-----------------  -------------------------  ------------  ------------------------------------------------------  ----------------------------------------  ------------------------------------------------------------
+assumption_record  continuous_growth          mathematical  smooth approximation for teaching                       unqualified real-world continuity claim   smooth model may hide shocks thresholds or discrete events  
+
+claim_boundary     predictive                 validation    forecasts within validated domain and time horizon      predicts outside validation scope         validation is purpose-specific not universal                
+
+purpose_record     scenario_sweep             exploratory   compares behavior across plausible parameter scenarios  single-point prediction                   scenario outputs should not be confused with forecasts      
+
+purpose_record     synthetic_logistic_growth  teaching      illustrates growth saturation and carrying capacity     empirical forecast for a real population  synthetic teaching models should not be communicated as empi
+                                                                                                                                                              rical evidence                                              

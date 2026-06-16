@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_overprecision,input_scenario_confusion,input_hidden_values,input_audience_mismatch,result_risk_score,result_risk
+communication-risk,Scores risk of model-output miscommunication.,A model result can be technically correct and still miscommunicated.,communication-risk,1,1,0,1,3,high

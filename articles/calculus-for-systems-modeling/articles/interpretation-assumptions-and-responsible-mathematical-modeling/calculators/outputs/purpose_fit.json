@@ -1,0 +1,16 @@
+{
+  "calculator": "purpose-fit",
+  "inputs": {
+    "command": "purpose-fit",
+    "decision_support": 0,
+    "exploratory": 0,
+    "predictive": 0,
+    "teaching": 1
+  },
+  "interpretation": "Checks whether model purpose is clear or mixed.",
+  "result": {
+    "active_purpose_count": 1,
+    "status": "single_purpose"
+  },
+  "warning": "A model should not be used for claims outside its stated purpose."
+}

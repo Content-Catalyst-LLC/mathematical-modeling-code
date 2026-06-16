@@ -1,0 +1,16 @@
+{
+  "calculator": "communication-risk",
+  "inputs": {
+    "audience_mismatch": 1,
+    "command": "communication-risk",
+    "hidden_values": 0,
+    "overprecision": 1,
+    "scenario_confusion": 1
+  },
+  "interpretation": "Scores risk of model-output miscommunication.",
+  "result": {
+    "risk": "high",
+    "risk_score": 3
+  },
+  "warning": "A model result can be technically correct and still miscommunicated."
+}

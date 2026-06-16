@@ -1,0 +1,4 @@
+model_name,purpose_type,supported_use,unsupported_use,warning
+synthetic_logistic_growth,teaching,"illustrates growth, saturation, and carrying capacity",empirical forecast for a real population,Synthetic teaching models should not be communicated as empirical evidence.
+scenario_sweep,exploratory,compares behavior across plausible parameter scenarios,single-point prediction,Scenario outputs should not be confused with forecasts.
+decision_support_model,decision support,frames tradeoffs under documented assumptions,replacement for judgment or accountability,Models inform decisions; they do not remove responsibility from decision makers.
