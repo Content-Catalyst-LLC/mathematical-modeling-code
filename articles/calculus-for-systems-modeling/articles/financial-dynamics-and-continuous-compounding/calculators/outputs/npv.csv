@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_discount_rate,input_cash_flows,result_net_present_value,result_cash_flow_count
+npv,Computes continuous-discounted net present value.,Cash-flow timing can dominate financial conclusions.,npv,0.045,"0:-1000,5:300,10:500,15:900,20:1200",504.49331167421303,5

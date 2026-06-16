@@ -1,0 +1,13 @@
+{
+  "calculator": "geometric-return",
+  "inputs": {
+    "command": "geometric-return",
+    "returns": "0.08,-0.12,0.15,0.04,-0.05,0.11"
+  },
+  "interpretation": "Computes geometric mean return from period returns.",
+  "result": {
+    "geometric_return": 0.030656702529934687,
+    "period_count": 6
+  },
+  "warning": "Expected return does not guarantee realized compounded outcome."
+}

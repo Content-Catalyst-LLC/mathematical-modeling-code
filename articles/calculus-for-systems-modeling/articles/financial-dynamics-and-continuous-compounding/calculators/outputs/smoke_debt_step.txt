@@ -1,0 +1,16 @@
+{
+  "calculator": "debt-step",
+  "inputs": {
+    "balance": 2000.0,
+    "command": "debt-step",
+    "dt": 1.0,
+    "payment": 120.0,
+    "rate": 0.07
+  },
+  "interpretation": "Computes one debt balance update.",
+  "result": {
+    "interest_accrued": 140.0,
+    "next_balance": 2020.0
+  },
+  "warning": "Debt may grow if payment does not exceed interest accumulation."
+}

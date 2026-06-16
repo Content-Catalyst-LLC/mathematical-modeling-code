@@ -1,0 +1,3 @@
+record_name,nominal_rate,inflation_rate,real_rate,continuous_equivalent,warning
+nominal_to_real_rate_case,0.06,0.025,0.034146341463414887,0.058268908123975824,Cash flows and rates should use consistent real or nominal units.
+effective_to_continuous_case,0.05,0.0,0.05,0.04879016416943205,"Continuous equivalent rate is a convention conversion, not a risk adjustment."

@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+V0,1000.0,currency units,initial value or principal,Initial value must match modeled account asset or debt balance
+r,0.05,per year,interest return or discount rate,Rate convention must be documented as nominal real effective or continuous
+t,30.0,years,time horizon,Long horizons amplify small rate differences
+n,12.0,compounding periods per year,discrete compounding frequency,Compounding convention should match contract or model purpose
+pi,0.025,per year,inflation rate,Cash flows and rates should use consistent real or nominal units
+sigma,0.18,annualized volatility,volatility estimate,Expected return does not guarantee realized compounded outcome
+payment,80.0,currency units per year,debt repayment flow,Debt may grow if payment does not exceed interest accumulation

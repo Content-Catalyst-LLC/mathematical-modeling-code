@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_nominal_rate,input_inflation_rate,result_real_rate
+real-rate,Converts nominal return to real return using inflation adjustment.,Cash flows and rates should use consistent real or nominal units.,real-rate,0.06,0.025,0.034146341463414887

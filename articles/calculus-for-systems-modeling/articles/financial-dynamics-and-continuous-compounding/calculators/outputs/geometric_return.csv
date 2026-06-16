@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_returns,result_geometric_return,result_period_count
+geometric-return,Computes geometric mean return from period returns.,Expected return does not guarantee realized compounded outcome.,geometric-return,"0.08,-0.12,0.15,0.04,-0.05,0.11",0.030656702529934687,6

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_v0,input_r,input_t,result_future_value
+continuous-future-value,Computes continuous-compounding future value.,Long horizons amplify small rate differences.,continuous-future-value,1000.0,0.05,30.0,4481.689070338064

@@ -1,0 +1,4 @@
+                calculator   fv    r  t present_value
+1 continuous-present-value 5000 0.05 30      1115.651
+                                                       warning
+1 Discount-rate choices can dominate long-horizon conclusions.

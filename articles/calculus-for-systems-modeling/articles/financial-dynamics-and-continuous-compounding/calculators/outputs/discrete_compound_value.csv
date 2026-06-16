@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_v0,input_r,input_n,input_t,result_compound_value
+discrete-compound-value,Computes discrete-compounding future value.,Compounding convention should match contract terms or model purpose.,discrete-compound-value,1000.0,0.05,12,30.0,4467.744314006109

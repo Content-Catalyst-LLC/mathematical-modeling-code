@@ -1,0 +1,65 @@
+[
+  {
+    "card_id": "rate-record",
+    "category": "rate governance",
+    "governance_note": "Rate convention must be documented before comparing financial outcomes.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Rate Record"
+  },
+  {
+    "card_id": "cash-flow-record",
+    "category": "cash-flow governance",
+    "governance_note": "Cash-flow timing can dominate financial conclusions.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Cash-Flow Record"
+  },
+  {
+    "card_id": "compounding-record",
+    "category": "model convention",
+    "governance_note": "Compounding convention should match contract terms or model purpose.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Compounding Record"
+  },
+  {
+    "card_id": "discount-record",
+    "category": "valuation governance",
+    "governance_note": "Discount-rate choices can dominate long-horizon conclusions.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Discount Record"
+  },
+  {
+    "card_id": "debt-record",
+    "category": "debt governance",
+    "governance_note": "Debt may grow if payment does not exceed interest accumulation.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Debt Record"
+  },
+  {
+    "card_id": "risk-record",
+    "category": "risk governance",
+    "governance_note": "Expected return does not guarantee realized compounded outcome.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Risk Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Financial conclusions should not exceed rate conventions, cash-flow evidence, risk assumptions, uncertainty, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "calculator": "continuous-present-value",
+  "inputs": {
+    "command": "continuous-present-value",
+    "fv": 5000.0,
+    "r": 0.05,
+    "t": 30.0
+  },
+  "interpretation": "Computes continuous-discounting present value.",
+  "result": {
+    "present_value": 1115.6508007421492
+  },
+  "warning": "Discount-rate choices can dominate long-horizon conclusions."
+}

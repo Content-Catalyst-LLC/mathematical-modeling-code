@@ -1,0 +1,146 @@
+{
+  "interpretation_warning": "Financial model outputs depend on rate convention, time horizon, cash-flow timing, compounding rule, inflation basis, risk, liquidity, fees, taxes, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "initial value or principal",
+      "parameter_name": "V0",
+      "unit": "currency units",
+      "value": 1000.0,
+      "warning": "Initial value must match the modeled account, asset, or debt balance."
+    },
+    {
+      "interpretation": "interest, return, or discount rate",
+      "parameter_name": "r",
+      "unit": "per year",
+      "value": 0.05,
+      "warning": "Rate convention must be documented as nominal, real, effective, or continuous."
+    },
+    {
+      "interpretation": "time horizon",
+      "parameter_name": "t",
+      "unit": "years",
+      "value": 30.0,
+      "warning": "Long horizons amplify small rate differences."
+    },
+    {
+      "interpretation": "discrete compounding frequency",
+      "parameter_name": "n",
+      "unit": "compounding periods per year",
+      "value": 12.0,
+      "warning": "Compounding convention should match the contract or model purpose."
+    },
+    {
+      "interpretation": "inflation rate",
+      "parameter_name": "pi",
+      "unit": "per year",
+      "value": 0.025,
+      "warning": "Cash flows and rates should use consistent real or nominal units."
+    },
+    {
+      "interpretation": "volatility estimate",
+      "parameter_name": "sigma",
+      "unit": "annualized volatility",
+      "value": 0.18,
+      "warning": "Expected return does not guarantee realized compounded outcome."
+    },
+    {
+      "interpretation": "debt repayment flow",
+      "parameter_name": "payment",
+      "unit": "currency units per year",
+      "value": 80.0,
+      "warning": "Debt may grow if payment does not exceed interest accumulation."
+    }
+  ],
+  "rate_records": [
+    {
+      "continuous_equivalent": 0.058268908123975824,
+      "inflation_rate": 0.025,
+      "nominal_rate": 0.06,
+      "real_rate": 0.034146341463414887,
+      "record_name": "nominal_to_real_rate_case",
+      "warning": "Cash flows and rates should use consistent real or nominal units."
+    },
+    {
+      "continuous_equivalent": 0.04879016416943205,
+      "inflation_rate": 0.0,
+      "nominal_rate": 0.05,
+      "real_rate": 0.05,
+      "record_name": "effective_to_continuous_case",
+      "warning": "Continuous equivalent rate is a convention conversion, not a risk adjustment."
+    }
+  ],
+  "scenario_records": [
+    {
+      "final_time": 30.0,
+      "final_value": 4481.689070338064,
+      "interpretation": "continuous compounding accumulates value exponentially",
+      "model_type": "future_value",
+      "present_value": 1000.0,
+      "scenario_name": "continuous_compounding_case"
+    },
+    {
+      "final_time": 30.0,
+      "final_value": 4467.744314006109,
+      "interpretation": "discrete compounding depends on compounding frequency",
+      "model_type": "discrete_compounding",
+      "present_value": 1000.0,
+      "scenario_name": "monthly_compounding_case"
+    },
+    {
+      "final_time": 30.0,
+      "final_value": 5000.0,
+      "interpretation": "discounting translates future value into present value",
+      "model_type": "present_value",
+      "present_value": 1115.6508007421492,
+      "scenario_name": "discounted_future_value"
+    },
+    {
+      "final_time": 20.0,
+      "final_value": 504.49331167421303,
+      "interpretation": "cash-flow timing and discount rate determine net present value",
+      "model_type": "net_present_value",
+      "present_value": 504.49331167421303,
+      "scenario_name": "cash_flow_npv"
+    },
+    {
+      "final_time": 30.0,
+      "final_value": 4030.4700583647386,
+      "interpretation": "debt balance depends on interest, payments, and time",
+      "model_type": "debt_balance",
+      "present_value": 0.0,
+      "scenario_name": "debt_dynamics_case"
+    },
+    {
+      "final_time": 30.0,
+      "final_value": 2785.3965301335415,
+      "interpretation": "real growth adjusts nominal return for inflation",
+      "model_type": "inflation_adjusted_growth",
+      "present_value": 1000.0,
+      "scenario_name": "real_return_case"
+    },
+    {
+      "final_time": 6.0,
+      "final_value": 0.030656702529934687,
+      "interpretation": "geometric return reflects compounded path behavior",
+      "model_type": "portfolio_compounding",
+      "present_value": 0.0,
+      "scenario_name": "geometric_return_case"
+    },
+    {
+      "final_time": 0.0,
+      "final_value": 5.0,
+      "interpretation": "leverage magnifies sensitivity to asset value changes",
+      "model_type": "leverage_ratio",
+      "present_value": 0.0,
+      "scenario_name": "leverage_case"
+    },
+    {
+      "final_time": 30.0,
+      "final_value": 134450.67211014192,
+      "interpretation": "value sensitivity to rate grows with time and accumulated value",
+      "model_type": "sensitivity",
+      "present_value": 0.0,
+      "scenario_name": "rate_sensitivity_case"
+    }
+  ]
+}

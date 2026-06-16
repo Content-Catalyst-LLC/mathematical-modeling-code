@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FinancialDynamicsCompoundingAudit",
+  "type": "object",
+  "required": ["parameter_records", "scenario_records", "rate_records", "interpretation_warning"],
+  "properties": {
+    "parameter_records": {"type": "array"},
+    "scenario_records": {"type": "array"},
+    "rate_records": {"type": "array"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

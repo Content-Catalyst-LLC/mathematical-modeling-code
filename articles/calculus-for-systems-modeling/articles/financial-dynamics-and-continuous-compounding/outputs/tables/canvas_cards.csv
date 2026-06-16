@@ -1,0 +1,8 @@
+card_id,title,category,score,status,review_date,governance_note
+rate-record,Rate Record,rate governance,96,active,2026-06-15,Rate convention must be documented before comparing financial outcomes.
+cash-flow-record,Cash-Flow Record,cash-flow governance,95,review,2026-06-15,Cash-flow timing can dominate financial conclusions.
+compounding-record,Compounding Record,model convention,94,review,2026-06-15,Compounding convention should match contract terms or model purpose.
+discount-record,Discount Record,valuation governance,93,review,2026-06-15,Discount-rate choices can dominate long-horizon conclusions.
+debt-record,Debt Record,debt governance,92,review,2026-06-15,Debt may grow if payment does not exceed interest accumulation.
+risk-record,Risk Record,risk governance,91,review,2026-06-15,Expected return does not guarantee realized compounded outcome.
+claim-boundary,Claim Boundary,governance,90,review,2026-06-15,"Financial conclusions should not exceed rate conventions, cash-flow evidence, risk assumptions, uncertainty, and tested scope."

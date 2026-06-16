@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "expected_return"
+  },
+  "interpretation": "Creates a financial governance warning.",
+  "result": {
+    "note": "Expected return does not guarantee realized compounded outcome."
+  },
+  "warning": "Financial conclusions should not exceed rate conventions, cash-flow evidence, risk assumptions, uncertainty, and tested scope."
+}

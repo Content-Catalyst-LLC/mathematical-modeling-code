@@ -1,0 +1,3 @@
+scenario_name,model_type,final_value,present_value,warning
+continuous_compounding_case,future_value,4481.689070,1000.000000,continuous_compounding
+discounted_future_value,present_value,5000.000000,1115.650801,discounting

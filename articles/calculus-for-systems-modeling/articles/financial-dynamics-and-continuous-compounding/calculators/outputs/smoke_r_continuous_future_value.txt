@@ -1,0 +1,4 @@
+               calculator   v0    r  t future_value
+1 continuous-future-value 1000 0.05 30     4481.689
+                                        warning
+1 Long horizons amplify small rate differences.

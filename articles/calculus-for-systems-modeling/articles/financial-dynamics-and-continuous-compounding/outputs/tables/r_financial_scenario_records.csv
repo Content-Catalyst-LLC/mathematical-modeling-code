@@ -1,0 +1,6 @@
+"scenario_name","final_value","present_value","warning"
+"continuous_compounding_case",4481.68907033806,1000,"continuous compounding accumulates value exponentially"
+"monthly_compounding_case",4467.74431400611,1000,"discrete compounding depends on compounding frequency"
+"discounted_future_value",5000,1115.65080074215,"discounting translates future value into present value"
+"real_return_case",2785.39653013354,1000,"real growth adjusts nominal return for inflation"
+"debt_dynamics_case",4030.47005836474,NA,"debt balance depends on interest payments and time"

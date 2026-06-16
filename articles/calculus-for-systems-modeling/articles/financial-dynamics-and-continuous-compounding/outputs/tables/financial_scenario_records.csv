@@ -1,0 +1,10 @@
+scenario_name,model_type,final_time,final_value,present_value,interpretation
+continuous_compounding_case,future_value,30.0,4481.689070338064,1000.0,continuous compounding accumulates value exponentially
+monthly_compounding_case,discrete_compounding,30.0,4467.744314006109,1000.0,discrete compounding depends on compounding frequency
+discounted_future_value,present_value,30.0,5000.0,1115.6508007421492,discounting translates future value into present value
+cash_flow_npv,net_present_value,20.0,504.49331167421303,504.49331167421303,cash-flow timing and discount rate determine net present value
+debt_dynamics_case,debt_balance,30.0,4030.4700583647386,0.0,"debt balance depends on interest, payments, and time"
+real_return_case,inflation_adjusted_growth,30.0,2785.3965301335415,1000.0,real growth adjusts nominal return for inflation
+geometric_return_case,portfolio_compounding,6.0,0.030656702529934687,0.0,geometric return reflects compounded path behavior
+leverage_case,leverage_ratio,0.0,5.0,0.0,leverage magnifies sensitivity to asset value changes
+rate_sensitivity_case,sensitivity,30.0,134450.67211014192,0.0,value sensitivity to rate grows with time and accumulated value

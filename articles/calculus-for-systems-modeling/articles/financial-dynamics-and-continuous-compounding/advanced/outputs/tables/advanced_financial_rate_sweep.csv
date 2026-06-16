@@ -1,0 +1,6 @@
+rate,horizon_years,continuous_future_value,rate_sensitivity,governance_status,warning
+0.01,30,1349.858807576003,40495.764227280095,review,Long horizons amplify small rate differences.
+0.03,30,2459.6031111569496,73788.0933347085,review,Long horizons amplify small rate differences.
+0.05,30,4481.689070338064,134450.67211014192,review,Long horizons amplify small rate differences.
+0.07,30,8166.169912567651,244985.09737702954,review,Long horizons amplify small rate differences.
+0.09,30,14879.73172487283,446391.9517461849,review,Long horizons amplify small rate differences.

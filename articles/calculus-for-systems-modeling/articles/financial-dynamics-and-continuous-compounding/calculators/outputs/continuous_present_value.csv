@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_fv,input_r,input_t,result_present_value
+continuous-present-value,Computes continuous-discounting present value.,Discount-rate choices can dominate long-horizon conclusions.,continuous-present-value,5000.0,0.05,30.0,1115.6508007421492

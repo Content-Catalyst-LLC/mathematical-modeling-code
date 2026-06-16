@@ -1,0 +1,21 @@
+{
+  "article_slug": "financial-dynamics-and-continuous-compounding",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "continuous-future-value", "title": "Continuous Future Value Calculator"},
+    {"id": "continuous-present-value", "title": "Continuous Present Value Calculator"},
+    {"id": "discrete-compound-value", "title": "Discrete Compound Value Calculator"},
+    {"id": "real-rate", "title": "Real Rate Calculator"},
+    {"id": "npv", "title": "Net Present Value Calculator"},
+    {"id": "debt-step", "title": "Debt Balance Step Calculator"},
+    {"id": "geometric-return", "title": "Geometric Return Calculator"},
+    {"id": "governance-warning", "title": "Financial Governance Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

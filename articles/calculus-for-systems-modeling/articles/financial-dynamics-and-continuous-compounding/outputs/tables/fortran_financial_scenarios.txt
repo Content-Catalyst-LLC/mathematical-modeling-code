@@ -1,0 +1,3 @@
+scenario final_value present_value
+continuous_compounding_case  4481.689070  1000.000000
+discounted_future_value  5000.000000  1115.650801

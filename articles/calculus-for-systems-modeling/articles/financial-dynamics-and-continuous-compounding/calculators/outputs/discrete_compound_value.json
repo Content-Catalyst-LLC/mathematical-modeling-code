@@ -1,0 +1,15 @@
+{
+  "calculator": "discrete-compound-value",
+  "inputs": {
+    "command": "discrete-compound-value",
+    "n": 12,
+    "r": 0.05,
+    "t": 30.0,
+    "v0": 1000.0
+  },
+  "interpretation": "Computes discrete-compounding future value.",
+  "result": {
+    "compound_value": 4467.744314006109
+  },
+  "warning": "Compounding convention should match contract terms or model purpose."
+}

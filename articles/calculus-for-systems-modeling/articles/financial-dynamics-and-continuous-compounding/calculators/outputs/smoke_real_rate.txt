@@ -1,0 +1,13 @@
+{
+  "calculator": "real-rate",
+  "inputs": {
+    "command": "real-rate",
+    "inflation_rate": 0.025,
+    "nominal_rate": 0.06
+  },
+  "interpretation": "Converts nominal return to real return using inflation adjustment.",
+  "result": {
+    "real_rate": 0.034146341463414887
+  },
+  "warning": "Cash flows and rates should use consistent real or nominal units."
+}

@@ -1,0 +1,84 @@
+section                      
+-----------------------------
+FINANCIAL GOVERNANCE REGISTRY
+registry_name       analytical_role                                               systems_modeling_role                                 review_warning                                              
+------------------  ------------------------------------------------------------  ----------------------------------------------------  ------------------------------------------------------------
+Cash-flow record    Documents payment amount, sign, timing, uncertainty, frequen  Connects valuation to time-stamped flows.             Cash-flow timing can dominate financial conclusions.        
+                    cy, inflation basis, and discount convention.                                                                                                                                   
+
+Claim boundary      Defines whether the model supports teaching, comparison, con  Prevents overclaiming and scope drift.                Financial conclusions should not exceed rate conventions, ca
+                    tract analysis, valuation, planning, risk assessment, or dec                                                        sh-flow evidence, risk assumptions, uncertainty, and tested 
+                    ision support.                                                                                                      scope.                                                      
+
+Compounding record  Documents simple, discrete, periodic, effective, or continuo  Connects rate convention to accumulation path.        Compounding convention should match contract terms or model 
+                    us compounding assumptions.                                                                                         purpose.                                                    
+
+Debt record         Documents principal, interest, payments, fees, maturity, amo  Connects debt stock to repayment and interest flows.  Debt may grow if payment does not exceed interest accumulati
+                    rtization, refinancing, and default risk.                                                                           on.                                                         
+
+Discount record     Documents discount rate, purpose, risk basis, inflation basi  Connects future value to present value.               Discount-rate choices can dominate long-horizon conclusions.
+                    s, and sensitivity.                                                                                                                                                             
+
+Rate record         Defines whether a rate is nominal, real, effective, annualiz  Prevents rate-convention confusion.                   Rate convention must be documented before comparing financia
+                    ed, continuous, fixed, variable, expected, contractual, or s                                                        l outcomes.                                                 
+                    cenario-based.                                                                                                                                                                  
+
+Risk record         Documents volatility, drawdown, leverage, liquidity, correla  Connects expected value to uncertain paths.           Expected return does not guarantee realized compounded outco
+                    tion, default, and stress assumptions.                                                                              me.                                                         
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value   unit                          interpretation                      warning                                                     
+--------------  ------  ----------------------------  ----------------------------------  ------------------------------------------------------------
+V0              1000.0  currency units                initial value or principal          Initial value must match the modeled account, asset, or debt
+                                                                                           balance.                                                   
+
+n               12.0    compounding periods per year  discrete compounding frequency      Compounding convention should match the contract or model pu
+                                                                                          rpose.                                                      
+
+payment         80.0    currency units per year       debt repayment flow                 Debt may grow if payment does not exceed interest accumulati
+                                                                                          on.                                                         
+
+pi              0.025   per year                      inflation rate                      Cash flows and rates should use consistent real or nominal u
+                                                                                          nits.                                                       
+
+r               0.05    per year                      interest, return, or discount rate  Rate convention must be documented as nominal, real, effecti
+                                                                                          ve, or continuous.                                          
+
+sigma           0.18    annualized volatility         volatility estimate                 Expected return does not guarantee realized compounded outco
+                                                                                          me.                                                         
+
+t               30.0    years                         time horizon                        Long horizons amplify small rate differences.               
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                model_type                 final_value  present_value  interpretation                                                warning                                                     
+---------------------------  -------------------------  -----------  -------------  ------------------------------------------------------------  ------------------------------------------------------------
+cash_flow_npv                net_present_value          691.0        691.0          cash-flow timing and discount rate determine net present val  Cash-flow timing can dominate financial conclusions.        
+                                                                                    ue                                                                                                                        
+
+continuous_compounding_case  future_value               4481.68907   1000.0         continuous compounding accumulates value exponentially        Long horizons amplify small rate differences.               
+
+debt_dynamics_case           debt_balance               1800.0       0.0            debt balance depends on interest, payments, and time          Debt may grow if payment does not exceed interest accumulati
+                                                                                                                                                  on.                                                         
+
+discounted_future_value      present_value              5000.0       1115.650801    discounting translates future value into present value        Discount-rate choices can dominate long-horizon conclusions.
+
+geometric_return_case        portfolio_compounding      0.03         0.0            geometric return reflects compounded path behavior            Expected return does not guarantee realized compounded outco
+                                                                                                                                                  me.                                                         
+
+monthly_compounding_case     discrete_compounding       4467.744314  1000.0         discrete compounding depends on compounding frequency         Compounding convention should match the contract or model pu
+                                                                                                                                                  rpose.                                                      
+
+real_return_case             inflation_adjusted_growth  2765.0       1000.0         real growth adjusts nominal return for inflation              Cash flows and rates should use consistent real or nominal u
+                                                                                                                                                  nits.                                                       
+section     
+------------
+RATE RECORDS
+record_name                   nominal_rate  inflation_rate  real_rate  continuous_equivalent  warning                                                     
+----------------------------  ------------  --------------  ---------  ---------------------  ------------------------------------------------------------
+effective_to_continuous_case  0.05          0.0             0.05       0.04879                Continuous equivalent rate is a convention conversion, not a
+                                                                                               risk adjustment.                                           
+
+nominal_to_real_rate_case     0.06          0.025           0.034146   0.058269               Cash flows and rates should use consistent real or nominal u
+                                                                                              nits.                                                       

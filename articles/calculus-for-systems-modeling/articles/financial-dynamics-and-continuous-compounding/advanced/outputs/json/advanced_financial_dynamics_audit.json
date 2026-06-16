@@ -1,0 +1,22 @@
+{
+  "article": "Financial Dynamics and Continuous Compounding",
+  "advanced_standard": true,
+  "features": [
+    "continuous compounding",
+    "discrete compounding",
+    "present value",
+    "net present value",
+    "debt dynamics",
+    "inflation adjustment",
+    "geometric return",
+    "rate sensitivity",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Rate convention must be documented before comparing financial outcomes.",
+    "Cash-flow timing can dominate financial conclusions.",
+    "Discount-rate choices can dominate long-horizon conclusions.",
+    "Expected return does not guarantee realized compounded outcome."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "calculator": "continuous-future-value",
+  "inputs": {
+    "command": "continuous-future-value",
+    "r": 0.05,
+    "t": 30.0,
+    "v0": 1000.0
+  },
+  "interpretation": "Computes continuous-compounding future value.",
+  "result": {
+    "future_value": 4481.689070338064
+  },
+  "warning": "Long horizons amplify small rate differences."
+}

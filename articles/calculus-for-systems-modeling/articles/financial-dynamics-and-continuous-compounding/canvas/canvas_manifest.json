@@ -1,0 +1,16 @@
+{
+  "article_slug": "financial-dynamics-and-continuous-compounding",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "financial-dynamics-continuous-compounding",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "rate-record", "title": "Rate Record", "description": "Nominal, real, effective, annualized, continuous, fixed, variable, expected, contractual, or scenario-based rate."},
+    {"card_id": "cash-flow-record", "title": "Cash-Flow Record", "description": "Payment amount, sign, timing, uncertainty, frequency, inflation basis, and discount convention."},
+    {"card_id": "compounding-record", "title": "Compounding Record", "description": "Simple, discrete, periodic, effective, or continuous compounding assumptions."},
+    {"card_id": "discount-record", "title": "Discount Record", "description": "Discount rate, purpose, risk basis, inflation basis, and sensitivity."},
+    {"card_id": "debt-record", "title": "Debt Record", "description": "Principal, interest, payments, fees, maturity, amortization, refinancing, and default risk."},
+    {"card_id": "risk-record", "title": "Risk Record", "description": "Volatility, drawdown, leverage, liquidity, correlation, default, and stress assumptions."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, comparison, contract analysis, valuation, planning, risk assessment, or decision support."}
+  ]
+}

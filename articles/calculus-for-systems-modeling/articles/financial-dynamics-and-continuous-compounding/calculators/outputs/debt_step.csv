@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_balance,input_rate,input_payment,input_dt,result_next_balance,result_interest_accrued
+debt-step,Computes one debt balance update.,Debt may grow if payment does not exceed interest accumulation.,debt-step,2000.0,0.07,120.0,1.0,2020.0,140.0

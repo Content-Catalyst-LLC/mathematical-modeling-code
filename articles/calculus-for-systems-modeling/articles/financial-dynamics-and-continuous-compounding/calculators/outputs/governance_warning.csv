@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_context,result_note
+governance-warning,Creates a financial governance warning.,"Financial conclusions should not exceed rate conventions, cash-flow evidence, risk assumptions, uncertainty, and tested scope.",governance-warning,expected_return,Expected return does not guarantee realized compounded outcome.

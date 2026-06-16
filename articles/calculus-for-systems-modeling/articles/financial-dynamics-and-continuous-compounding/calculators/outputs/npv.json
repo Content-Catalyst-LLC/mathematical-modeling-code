@@ -1,0 +1,14 @@
+{
+  "calculator": "npv",
+  "inputs": {
+    "cash_flows": "0:-1000,5:300,10:500,15:900,20:1200",
+    "command": "npv",
+    "discount_rate": 0.045
+  },
+  "interpretation": "Computes continuous-discounted net present value.",
+  "result": {
+    "cash_flow_count": 5,
+    "net_present_value": 504.49331167421303
+  },
+  "warning": "Cash-flow timing can dominate financial conclusions."
+}
