@@ -1,0 +1,18 @@
+{
+  "calculator": "solver-benchmark",
+  "inputs": {
+    "command": "solver-benchmark",
+    "decay_rate": 0.35,
+    "h": 0.5,
+    "stop_time": 20.0,
+    "y0": 100.0
+  },
+  "interpretation": "Benchmarks a fixed-step RK4 solver against an exact decay solution.",
+  "result": {
+    "final_absolute_error": 5.774126650717748e-06,
+    "final_exact_value": 0.09118819655545163,
+    "final_solver_value": 0.09119397068210235,
+    "records": 41
+  },
+  "warning": "Benchmarks test numerical behavior but do not validate empirical assumptions."
+}

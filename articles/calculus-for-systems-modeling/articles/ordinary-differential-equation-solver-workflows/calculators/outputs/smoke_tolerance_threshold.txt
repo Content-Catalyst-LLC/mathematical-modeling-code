@@ -1,0 +1,14 @@
+{
+  "calculator": "tolerance-threshold",
+  "inputs": {
+    "atol": 1e-08,
+    "command": "tolerance-threshold",
+    "rtol": 1e-06,
+    "state": 100.0
+  },
+  "interpretation": "Computes an absolute-plus-relative tolerance threshold.",
+  "result": {
+    "tolerance_threshold": 0.00010000999999999999
+  },
+  "warning": "Tolerance settings are numerical controls, not empirical uncertainty estimates."
+}

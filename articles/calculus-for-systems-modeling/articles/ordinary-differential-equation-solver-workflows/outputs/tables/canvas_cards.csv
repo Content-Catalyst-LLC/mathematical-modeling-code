@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+rate-function,Rate Function,model structure,96,active,2026-06-15,Equations and parameters must be documented.
+initial-condition,Initial Condition,model structure,95,active,2026-06-15,Starting state controls the solver trajectory.
+solver-method,Solver Method,method,94,review,2026-06-15,"Solver choice affects accuracy, stability, and interpretation."
+tolerances,Tolerances,error control,93,review,2026-06-15,Absolute and relative tolerances should be preserved with outputs.
+diagnostics,Diagnostics,governance,92,active,2026-06-15,"Solver status, warnings, and benchmark errors should be reviewed."

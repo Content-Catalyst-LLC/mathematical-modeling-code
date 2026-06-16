@@ -1,0 +1,13 @@
+{
+  "absolute_tolerance": 1e-08,
+  "decay_rate": 0.35,
+  "final_absolute_error": 5.774126650717748e-06,
+  "final_tolerance_threshold": 1.0119397068210234e-07,
+  "initial_value": 100.0,
+  "interpretation": "The workflow records solver method, step size, tolerance settings, benchmark error, and interpretation warning.",
+  "records": 41,
+  "relative_tolerance": 1e-06,
+  "solver_method": "fixed_step_rk4",
+  "step_size": 0.5,
+  "stop_time": 20.0
+}

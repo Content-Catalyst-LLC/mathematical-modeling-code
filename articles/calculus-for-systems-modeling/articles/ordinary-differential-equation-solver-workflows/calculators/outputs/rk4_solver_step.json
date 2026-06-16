@@ -1,0 +1,15 @@
+{
+  "calculator": "rk4-solver-step",
+  "inputs": {
+    "command": "rk4-solver-step",
+    "decay_rate": 0.35,
+    "h": 0.5,
+    "t": 0.0,
+    "y": 100.0
+  },
+  "interpretation": "Computes one fixed-step RK4 solver update.",
+  "result": {
+    "updated_value": 83.9458349609375
+  },
+  "warning": "Solver output depends on equation, initial condition, method, step size, stiffness, and diagnostics."
+}

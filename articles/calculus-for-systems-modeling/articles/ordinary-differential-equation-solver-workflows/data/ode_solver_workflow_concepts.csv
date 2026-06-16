@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+rate_function,Rate function,Defines the differential equation passed to the solver,Encodes the modeled mechanism of continuous change,A solver cannot correct a poorly specified rate function
+initial_condition,Initial condition,Defines the starting state of integration,Controls the trajectory from the first step onward,Initial-condition uncertainty should be documented
+solver_method,Solver method,Defines the numerical algorithm used to approximate the solution,Shapes accuracy stability cost and interpretation,Solver choice should be justified
+tolerances,Tolerances,Control acceptable local error in adaptive methods,Shape accuracy runtime and solver behavior,Tolerances should be recorded with outputs
+stiffness_review,Stiffness review,Checks whether fast and slow dynamics create solver difficulty,Helps distinguish system structure from numerical artifact,Explicit solvers can struggle with stiff systems
+diagnostics,Diagnostics,Record solver status warnings errors and benchmark comparisons,Support reproducibility and responsible interpretation,A completed run is not automatically a validated result

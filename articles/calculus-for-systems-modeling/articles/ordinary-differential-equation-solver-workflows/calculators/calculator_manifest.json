@@ -1,0 +1,19 @@
+{
+  "article_slug": "ordinary-differential-equation-solver-workflows",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "rk4-solver-step", "title": "Fixed-Step RK4 Solver Step"},
+    {"id": "solver-benchmark", "title": "ODE Solver Benchmark Audit"},
+    {"id": "step-size-comparison", "title": "ODE Solver Step-Size Comparison"},
+    {"id": "tolerance-threshold", "title": "Absolute and Relative Tolerance Threshold"},
+    {"id": "stiffness-indicator", "title": "Simple Stiffness Indicator"},
+    {"id": "solver-config-record", "title": "Solver Configuration Record"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_y0,input_decay_rate,input_stop_time,result_tested_step_sizes,result_smallest_step_final_error
+step-size-comparison,Compares solver output across step sizes.,Step-size sensitivity should be reviewed before interpretation.,step-size-comparison,100.0,0.35,20.0,4,8.218637229107095e-09

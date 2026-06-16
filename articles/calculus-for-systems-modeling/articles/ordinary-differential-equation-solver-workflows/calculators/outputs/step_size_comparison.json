@@ -1,0 +1,15 @@
+{
+  "calculator": "step-size-comparison",
+  "inputs": {
+    "command": "step-size-comparison",
+    "decay_rate": 0.35,
+    "stop_time": 20.0,
+    "y0": 100.0
+  },
+  "interpretation": "Compares solver output across step sizes.",
+  "result": {
+    "smallest_step_final_error": 8.218637229107095e-09,
+    "tested_step_sizes": 4
+  },
+  "warning": "Step-size sensitivity should be reviewed before interpretation."
+}

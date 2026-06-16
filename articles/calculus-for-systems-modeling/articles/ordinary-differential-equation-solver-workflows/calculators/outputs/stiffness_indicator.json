@@ -1,0 +1,14 @@
+{
+  "calculator": "stiffness-indicator",
+  "inputs": {
+    "command": "stiffness-indicator",
+    "fast_rate": 100.0,
+    "slow_rate": 1.0
+  },
+  "interpretation": "Computes a simple rate-scale ratio as a stiffness review prompt.",
+  "result": {
+    "rate_scale_ratio": 100.0,
+    "review_status": "possible_stiffness_review_needed"
+  },
+  "warning": "This is a screening heuristic, not a formal stiffness proof."
+}

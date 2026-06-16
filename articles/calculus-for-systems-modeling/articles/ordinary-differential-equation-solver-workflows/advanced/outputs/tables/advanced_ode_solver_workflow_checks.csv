@@ -1,0 +1,10 @@
+condition,passed,warning
+initial value problem workflow included,True,
+fixed-step RK4 benchmark included,True,
+step-size comparison included,True,
+tolerance record included,True,
+stiffness warning included,True,
+diagnostic governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

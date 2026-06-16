@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "rate-function",
+    "category": "model structure",
+    "governance_note": "Equations and parameters must be documented.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Rate Function"
+  },
+  {
+    "card_id": "initial-condition",
+    "category": "model structure",
+    "governance_note": "Starting state controls the solver trajectory.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Initial Condition"
+  },
+  {
+    "card_id": "solver-method",
+    "category": "method",
+    "governance_note": "Solver choice affects accuracy, stability, and interpretation.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Solver Method"
+  },
+  {
+    "card_id": "tolerances",
+    "category": "error control",
+    "governance_note": "Absolute and relative tolerances should be preserved with outputs.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Tolerances"
+  },
+  {
+    "card_id": "diagnostics",
+    "category": "governance",
+    "governance_note": "Solver status, warnings, and benchmark errors should be reviewed.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Diagnostics"
+  }
+]

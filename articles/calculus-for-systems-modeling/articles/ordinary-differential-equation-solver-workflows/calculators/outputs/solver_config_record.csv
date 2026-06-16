@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_method,input_h,input_atol,input_rtol,result_solver_method,result_step_size,result_absolute_tolerance,result_relative_tolerance
+solver-config-record,Creates a solver configuration record.,Solver settings should be preserved with outputs.,solver-config-record,fixed_step_rk4,0.5,1e-08,1e-06,fixed_step_rk4,0.5,1e-08,1e-06

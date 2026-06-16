@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_y0,input_decay_rate,input_h,input_stop_time,result_records,result_final_solver_value,result_final_exact_value,result_final_absolute_error
+solver-benchmark,Benchmarks a fixed-step RK4 solver against an exact decay solution.,Benchmarks test numerical behavior but do not validate empirical assumptions.,solver-benchmark,100.0,0.35,0.5,20.0,41,0.09119397068210235,0.09118819655545163,5.774126650717748e-06

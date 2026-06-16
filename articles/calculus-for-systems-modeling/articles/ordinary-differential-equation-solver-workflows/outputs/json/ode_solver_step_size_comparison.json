@@ -1,0 +1,34 @@
+[
+  {
+    "final_absolute_error": 0.00010704256708554682,
+    "final_exact_value": 0.09118819655545163,
+    "final_solver_value": 0.09129523912253718,
+    "records": 21,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 1.0
+  },
+  {
+    "final_absolute_error": 5.774126650717748e-06,
+    "final_exact_value": 0.09118819655545163,
+    "final_solver_value": 0.09119397068210235,
+    "records": 41,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 0.5
+  },
+  {
+    "final_absolute_error": 3.3541969093886514e-07,
+    "final_exact_value": 0.09118819655545163,
+    "final_solver_value": 0.09118853197514257,
+    "records": 81,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 0.25
+  },
+  {
+    "final_absolute_error": 8.218637229107095e-09,
+    "final_exact_value": 0.09118819655545163,
+    "final_solver_value": 0.09118820477408886,
+    "records": 201,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 0.1
+  }
+]

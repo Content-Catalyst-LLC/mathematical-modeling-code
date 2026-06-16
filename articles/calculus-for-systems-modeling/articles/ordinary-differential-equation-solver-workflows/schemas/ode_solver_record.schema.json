@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ODESolverRecord",
+  "type": "object",
+  "required": [
+    "step", "time", "solver_value", "exact_value", "absolute_error",
+    "solver_method", "step_size", "warning"
+  ],
+  "properties": {
+    "step": {"type": "integer"},
+    "time": {"type": "number"},
+    "solver_value": {"type": "number"},
+    "exact_value": {"type": "number"},
+    "absolute_error": {"type": "number"},
+    "solver_method": {"type": "string"},
+    "step_size": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

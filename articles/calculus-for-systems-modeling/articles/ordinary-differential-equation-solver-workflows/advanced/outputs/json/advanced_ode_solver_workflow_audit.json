@@ -1,0 +1,25 @@
+{
+  "article": "Ordinary Differential Equation Solver Workflows",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "ODE solver outputs depend on equation, initial condition, method, tolerances, step size, stiffness, and diagnostics.",
+    "Solver completion is not the same as validation.",
+    "Output sampling is not always solver step history.",
+    "Stiff systems may require solver methods designed for stiffness.",
+    "A benchmark can test numerical behavior but cannot validate empirical assumptions."
+  ]
+}

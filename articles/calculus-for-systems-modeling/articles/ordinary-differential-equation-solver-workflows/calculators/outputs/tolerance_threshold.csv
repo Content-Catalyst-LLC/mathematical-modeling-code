@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_atol,input_rtol,input_state,result_tolerance_threshold
+tolerance-threshold,Computes an absolute-plus-relative tolerance threshold.,"Tolerance settings are numerical controls, not empirical uncertainty estimates.",tolerance-threshold,1e-08,1e-06,100.0,0.00010000999999999999

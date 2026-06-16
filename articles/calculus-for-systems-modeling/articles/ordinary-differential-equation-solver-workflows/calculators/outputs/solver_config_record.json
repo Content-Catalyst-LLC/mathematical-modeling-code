@@ -1,0 +1,18 @@
+{
+  "calculator": "solver-config-record",
+  "inputs": {
+    "atol": 1e-08,
+    "command": "solver-config-record",
+    "h": 0.5,
+    "method": "fixed_step_rk4",
+    "rtol": 1e-06
+  },
+  "interpretation": "Creates a solver configuration record.",
+  "result": {
+    "absolute_tolerance": 1e-08,
+    "relative_tolerance": 1e-06,
+    "solver_method": "fixed_step_rk4",
+    "step_size": 0.5
+  },
+  "warning": "Solver settings should be preserved with outputs."
+}

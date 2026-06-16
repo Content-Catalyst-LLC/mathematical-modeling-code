@@ -1,0 +1,26 @@
+section                       
+------------------------------
+ODE SOLVER ASSUMPTION REGISTRY
+assumption_name    mathematical_role                                             systems_modeling_role                                        review_warning                                           
+-----------------  ------------------------------------------------------------  -----------------------------------------------------------  ---------------------------------------------------------
+Diagnostics        Record solver status, warnings, errors, and benchmark compar  Support reproducibility and responsible interpretation.      A completed run is not automatically a validated result. 
+                   isons.                                                                                                                                                                              
+
+Initial condition  Defines the starting state of the integration.                Controls the trajectory from the first step onward.          Initial-condition uncertainty should be documented.      
+
+Rate function      Defines the differential equation passed to the solver.       Encodes the modeled mechanism of continuous change.          A solver cannot correct a poorly specified rate function.
+
+Solver method      Defines the numerical algorithm used to approximate the solu  Shapes accuracy, stability, cost, and interpretation.        Solver choice should be justified.                       
+                   tion.                                                                                                                                                                               
+
+Stiffness review   Checks whether fast and slow dynamics create solver difficul  Helps distinguish system structure from numerical artifact.  Explicit solvers can struggle with stiff systems.        
+                   ty.                                                                                                                                                                                 
+
+Tolerances         Control acceptable local error in adaptive methods.           Shape accuracy, runtime, and solver behavior.                Tolerances should be recorded with outputs.              
+section               
+----------------------
+ODE SOLVER AUDIT CASES
+scenario                                    initial_value  decay_rate  step_size  stop_time  solver_method   absolute_tolerance  relative_tolerance  warning                                                     
+------------------------------------------  -------------  ----------  ---------  ---------  --------------  ------------------  ------------------  ------------------------------------------------------------
+fixed_step_rk4_exponential_decay_benchmark  100.0          0.35        0.5        20.0       fixed_step_rk4  1.0e-08             1.0e-06             ODE solver outputs depend on equation, initial condition, me
+                                                                                                                                                     thod, tolerances, step size, stiffness, and diagnostics.    
