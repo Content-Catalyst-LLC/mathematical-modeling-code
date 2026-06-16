@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+parameter_record,Parameter record,Documents baseline value unit source and tested range,Keeps model outputs tied to the assumptions that produced them,Parameter values should not be treated as fixed truths without evidence
+local_sensitivity,Local sensitivity,Measures output response near a baseline parameter value,Identifies influential assumptions around a reference scenario,Local sensitivity may miss nonlinear or threshold behavior
+elasticity,Elasticity,Normalizes sensitivity as relative output response to relative parameter change,Supports comparison across parameters with different units or magnitudes,Elasticity depends on the chosen baseline and output metric
+parameter_sweep,Parameter sweep,Evaluates outputs across defined parameter values or ranges,Shows how conclusions change across plausible assumptions,Sweep conclusions apply only over the tested range
+robustness_classification,Robustness classification,Labels whether a conclusion is stable conditional sensitive or fragile,Supports claim boundaries and model governance,Robustness depends on the tested parameter domain
+fragility_warning,Fragility warning,Flags threshold crossings reversals or unstable regions,Prevents overconfident interpretation near critical regimes,Fragile conclusions require careful communication and review

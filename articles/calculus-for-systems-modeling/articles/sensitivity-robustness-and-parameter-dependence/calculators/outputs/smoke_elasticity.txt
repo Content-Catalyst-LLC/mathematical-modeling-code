@@ -1,0 +1,14 @@
+{
+  "calculator": "elasticity",
+  "inputs": {
+    "command": "elasticity",
+    "output": 99.2,
+    "parameter": 0.35,
+    "sensitivity": 46.3
+  },
+  "interpretation": "Computes relative output response to relative parameter change.",
+  "result": {
+    "elasticity_estimate": 0.16335685483870965
+  },
+  "warning": "Elasticity depends on the chosen baseline and output metric."
+}

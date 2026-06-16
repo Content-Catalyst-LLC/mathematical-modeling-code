@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "parameter-record",
+    "category": "parameter governance",
+    "governance_note": "Parameter values should preserve units, sources, and tested ranges.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Parameter Record"
+  },
+  {
+    "card_id": "local-sensitivity",
+    "category": "sensitivity analysis",
+    "governance_note": "Local sensitivity may miss nonlinear or threshold behavior.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Local Sensitivity"
+  },
+  {
+    "card_id": "elasticity",
+    "category": "normalized sensitivity",
+    "governance_note": "Elasticity depends on the chosen baseline and output metric.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Elasticity"
+  },
+  {
+    "card_id": "robustness-classification",
+    "category": "model governance",
+    "governance_note": "Robustness depends on the tested parameter domain.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Robustness Classification"
+  },
+  {
+    "card_id": "fragility-warning",
+    "category": "model risk",
+    "governance_note": "Fragile conclusions require careful communication and review.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Fragility Warning"
+  }
+]

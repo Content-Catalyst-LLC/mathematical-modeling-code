@@ -1,0 +1,13 @@
+{
+  "calculator": "sensitivity-warning",
+  "inputs": {
+    "command": "sensitivity-warning",
+    "pattern": "robustness_domain"
+  },
+  "interpretation": "Creates a sensitivity interpretation warning.",
+  "result": {
+    "note": "Robustness depends on the tested parameter domain.",
+    "pattern": "robustness_domain"
+  },
+  "warning": "Sensitivity analysis supports model review but does not prove model validity."
+}

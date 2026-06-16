@@ -1,0 +1,15 @@
+{
+  "calculator": "robustness-classification",
+  "inputs": {
+    "command": "robustness-classification",
+    "high_output": 99.7,
+    "low_output": 85.8,
+    "threshold": 10.0
+  },
+  "interpretation": "Classifies robustness from output variation over a tested range.",
+  "result": {
+    "output_range": 13.900000000000006,
+    "robustness_status": "sensitive"
+  },
+  "warning": "Robustness depends on the tested parameter domain."
+}

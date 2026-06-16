@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-final",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "logistic-final",
+    "growth_rate": 0.35,
+    "horizon": 20.0,
+    "initial_stock": 10.0
+  },
+  "interpretation": "Computes a logistic final output for a baseline parameter set.",
+  "result": {
+    "final_output": 99.18598678672114
+  },
+  "warning": "Synthetic teaching example; do not treat as empirical forecast."
+}

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+parameter-record,Parameter Record,parameter governance,96,active,2026-06-15,"Parameter values should preserve units, sources, and tested ranges."
+local-sensitivity,Local Sensitivity,sensitivity analysis,95,active,2026-06-15,Local sensitivity may miss nonlinear or threshold behavior.
+elasticity,Elasticity,normalized sensitivity,94,active,2026-06-15,Elasticity depends on the chosen baseline and output metric.
+robustness-classification,Robustness Classification,model governance,93,review,2026-06-15,Robustness depends on the tested parameter domain.
+fragility-warning,Fragility Warning,model risk,92,review,2026-06-15,Fragile conclusions require careful communication and review.

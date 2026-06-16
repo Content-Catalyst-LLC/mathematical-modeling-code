@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SensitivityRobustnessAudit",
+  "type": "object",
+  "required": ["parameters", "sensitivities", "interpretation_warning"],
+  "properties": {
+    "parameters": {"type": "array"},
+    "sensitivities": {"type": "array"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

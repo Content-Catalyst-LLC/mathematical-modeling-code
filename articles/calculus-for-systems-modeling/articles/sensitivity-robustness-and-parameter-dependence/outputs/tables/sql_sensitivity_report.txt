@@ -1,0 +1,29 @@
+section                        
+-------------------------------
+SENSITIVITY GOVERNANCE REGISTRY
+registry_name              analytical_role                                               systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Elasticity                 Normalizes sensitivity as relative output response to relati  Supports comparison across parameters with different units o  Elasticity depends on the chosen baseline and output metric.
+                           ve parameter change.                                          r magnitudes.                                                                                                             
+
+Fragility warning          Flags threshold crossings, reversals, or unstable regions.    Prevents overconfident interpretation near critical regimes.  Fragile conclusions require careful communication and review
+                                                                                                                                                       .                                                           
+
+Local sensitivity          Measures output response near a baseline parameter value.     Identifies influential assumptions around a reference scenar  Local sensitivity may miss nonlinear or threshold behavior. 
+                                                                                         io.                                                                                                                       
+
+Parameter record           Documents baseline value, unit, source, and tested range.     Keeps model outputs tied to the assumptions that produced th  Parameter values should not be treated as fixed truths witho
+                                                                                         em.                                                           ut evidence.                                                
+
+Parameter sweep            Evaluates outputs across defined parameter values or ranges.  Shows how conclusions change across plausible assumptions.    Sweep conclusions apply only over the tested range.         
+
+Robustness classification  Labels whether a conclusion is stable, conditional, sensitiv  Supports claim boundaries and model governance.               Robustness depends on the tested parameter domain.          
+                           e, or fragile.                                                                                                                                                                          
+section            
+-------------------
+SENSITIVITY RECORDS
+parameter_name     baseline_value  lower_bound  upper_bound  sensitivity_status  warning                                                   
+-----------------  --------------  -----------  -----------  ------------------  ----------------------------------------------------------
+carrying_capacity  100.0           75.0         125.0        sensitive           capacity scale strongly affects final stock interpretation
+growth_rate        0.35            0.2          0.5          sensitive           conclusion may depend strongly on growth-rate assumptions 
+initial_stock      10.0            5.0          20.0         stable              output variation is limited across this synthetic range   

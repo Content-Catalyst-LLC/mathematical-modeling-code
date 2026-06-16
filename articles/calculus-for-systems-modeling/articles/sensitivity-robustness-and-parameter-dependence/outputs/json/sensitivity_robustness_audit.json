@@ -1,0 +1,61 @@
+{
+  "interpretation_warning": "Sensitivity analysis supports model review but does not prove model validity.",
+  "parameters": [
+    {
+      "baseline_value": 0.35,
+      "lower_bound": 0.2,
+      "parameter_name": "growth_rate",
+      "source_note": "synthetic teaching range",
+      "unit": "per time unit",
+      "upper_bound": 0.5
+    },
+    {
+      "baseline_value": 100.0,
+      "lower_bound": 75.0,
+      "parameter_name": "carrying_capacity",
+      "source_note": "synthetic teaching range",
+      "unit": "state units",
+      "upper_bound": 125.0
+    },
+    {
+      "baseline_value": 10.0,
+      "lower_bound": 5.0,
+      "parameter_name": "initial_stock",
+      "source_note": "synthetic teaching range",
+      "unit": "state units",
+      "upper_bound": 20.0
+    }
+  ],
+  "sensitivities": [
+    {
+      "baseline_output": 99.18598678672114,
+      "elasticity_estimate": 0.16597368511309363,
+      "finite_difference_sensitivity": 47.035039253059196,
+      "high_output": 99.95915675173917,
+      "low_output": 85.84864497582141,
+      "parameter_name": "growth_rate",
+      "robustness_note": "sensitive",
+      "warning": "Conclusion may depend strongly on this parameter."
+    },
+    {
+      "baseline_output": 99.18598678672114,
+      "elasticity_estimate": 0.9909604753135993,
+      "finite_difference_sensitivity": 0.9828939261061757,
+      "high_output": 123.70277322804901,
+      "low_output": 74.55807692274023,
+      "parameter_name": "carrying_capacity",
+      "robustness_note": "sensitive",
+      "warning": "Conclusion may depend strongly on this parameter."
+    },
+    {
+      "baseline_output": 99.18598678672114,
+      "elasticity_estimate": 0.009004239718981401,
+      "finite_difference_sensitivity": 0.08930944017913589,
+      "high_output": 99.63657282452661,
+      "low_output": 98.29693122183957,
+      "parameter_name": "initial_stock",
+      "robustness_note": "stable",
+      "warning": "Output variation is limited across this synthetic range."
+    }
+  ]
+}

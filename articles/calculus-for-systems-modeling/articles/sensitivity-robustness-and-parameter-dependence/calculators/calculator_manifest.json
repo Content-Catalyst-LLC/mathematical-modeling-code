@@ -1,0 +1,19 @@
+{
+  "article_slug": "sensitivity-robustness-and-parameter-dependence",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-final", "title": "Logistic Final Output"},
+    {"id": "finite-difference", "title": "Finite-Difference Sensitivity"},
+    {"id": "elasticity", "title": "Elasticity Estimate"},
+    {"id": "robustness-classification", "title": "Robustness Classification"},
+    {"id": "sweep-range", "title": "Parameter Sweep Range"},
+    {"id": "sensitivity-warning", "title": "Sensitivity Interpretation Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

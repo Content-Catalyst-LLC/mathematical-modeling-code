@@ -1,0 +1,15 @@
+{
+  "calculator": "finite-difference",
+  "inputs": {
+    "command": "finite-difference",
+    "high_output": 99.7,
+    "low_output": 85.8,
+    "lower": 0.2,
+    "upper": 0.5
+  },
+  "interpretation": "Estimates sensitivity from low and high parameter outputs.",
+  "result": {
+    "finite_difference_sensitivity": 46.33333333333336
+  },
+  "warning": "Finite differences depend on the tested range and may miss local nonlinear behavior."
+}

@@ -1,0 +1,4 @@
+parameter_name,baseline_output,low_output,high_output,finite_difference_sensitivity,elasticity_estimate,robustness_note,warning
+growth_rate,99.18598678672114,85.84864497582141,99.95915675173917,47.035039253059196,0.16597368511309363,sensitive,Conclusion may depend strongly on this parameter.
+carrying_capacity,99.18598678672114,74.55807692274023,123.70277322804901,0.9828939261061757,0.9909604753135993,sensitive,Conclusion may depend strongly on this parameter.
+initial_stock,99.18598678672114,98.29693122183957,99.63657282452661,0.08930944017913589,0.009004239718981401,stable,Output variation is limited across this synthetic range.

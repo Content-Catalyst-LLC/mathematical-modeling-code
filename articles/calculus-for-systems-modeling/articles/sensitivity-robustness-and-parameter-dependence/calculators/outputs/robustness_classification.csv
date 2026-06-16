@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_low_output,input_high_output,input_threshold,result_output_range,result_robustness_status
+robustness-classification,Classifies robustness from output variation over a tested range.,Robustness depends on the tested parameter domain.,robustness-classification,85.8,99.7,10.0,13.900000000000006,sensitive

@@ -1,0 +1,25 @@
+{
+  "article": "Sensitivity, Robustness, and Parameter Dependence",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Parameter values should not be treated as fixed truths without evidence.",
+    "Local sensitivity may miss nonlinear or threshold behavior.",
+    "Elasticity depends on the chosen baseline and output metric.",
+    "Robustness depends on the tested parameter domain.",
+    "Sensitivity analysis supports model review but does not prove model validity."
+  ]
+}

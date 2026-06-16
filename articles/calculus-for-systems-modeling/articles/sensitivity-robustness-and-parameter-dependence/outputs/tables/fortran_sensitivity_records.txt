@@ -1,0 +1,4 @@
+parameter_name baseline_value lower_bound upper_bound status warning
+growth_rate 0.35 0.20 0.50 sensitive growth_rate_assumptions_matter
+carrying_capacity 100.0 75.0 125.0 sensitive capacity_affects_interpretation
+initial_stock 10.0 5.0 20.0 stable limited_variation_in_synthetic_range

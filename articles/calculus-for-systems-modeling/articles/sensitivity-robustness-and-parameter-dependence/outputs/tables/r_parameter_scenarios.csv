@@ -1,0 +1,7 @@
+"parameter_name","scenario","growth_rate","carrying_capacity","initial_stock","horizon","final_stock"
+"growth_rate","low",0.2,100,10,20,85.8486449758214
+"growth_rate","baseline",0.35,100,10,20,99.1859867867211
+"growth_rate","high",0.5,100,10,20,99.9591567517392
+"carrying_capacity","low",0.35,75,10,20,74.5580769227402
+"carrying_capacity","baseline",0.35,100,10,20,99.1859867867211
+"carrying_capacity","high",0.35,125,10,20,123.702773228049

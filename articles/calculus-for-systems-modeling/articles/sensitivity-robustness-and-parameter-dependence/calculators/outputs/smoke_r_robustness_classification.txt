@@ -1,0 +1,4 @@
+                 calculator output_range    status
+1 robustness-classification         13.9 sensitive
+                                             warning
+1 Robustness depends on the tested parameter domain.

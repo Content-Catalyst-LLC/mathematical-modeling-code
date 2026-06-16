@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_lower,input_upper,input_steps,result_count
+sweep-range,Builds an evenly spaced parameter sweep range.,Sweep conclusions apply only over the tested range.,sweep-range,0.2,0.5,7,7

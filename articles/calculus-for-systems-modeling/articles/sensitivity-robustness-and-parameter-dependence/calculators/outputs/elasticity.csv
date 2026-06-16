@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_sensitivity,input_parameter,input_output,result_elasticity_estimate
+elasticity,Computes relative output response to relative parameter change.,Elasticity depends on the chosen baseline and output metric.,elasticity,46.3,0.35,99.2,0.16335685483870965

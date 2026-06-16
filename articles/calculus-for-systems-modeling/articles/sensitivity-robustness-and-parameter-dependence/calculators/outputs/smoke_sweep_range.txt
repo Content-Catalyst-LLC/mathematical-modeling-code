@@ -1,0 +1,23 @@
+{
+  "calculator": "sweep-range",
+  "inputs": {
+    "command": "sweep-range",
+    "lower": 0.2,
+    "steps": 7,
+    "upper": 0.5
+  },
+  "interpretation": "Builds an evenly spaced parameter sweep range.",
+  "result": {
+    "count": 7,
+    "values": [
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.44999999999999996,
+      0.5
+    ]
+  },
+  "warning": "Sweep conclusions apply only over the tested range."
+}

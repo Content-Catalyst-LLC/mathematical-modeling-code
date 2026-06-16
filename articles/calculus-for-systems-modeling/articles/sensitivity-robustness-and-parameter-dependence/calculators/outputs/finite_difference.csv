@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_low_output,input_high_output,input_lower,input_upper,result_finite_difference_sensitivity
+finite-difference,Estimates sensitivity from low and high parameter outputs.,Finite differences depend on the tested range and may miss local nonlinear behavior.,finite-difference,85.8,99.7,0.2,0.5,46.33333333333336

@@ -1,0 +1,4 @@
+parameter_name,baseline_value,lower_bound,upper_bound,status,warning
+growth_rate,0.35,0.2,0.5,sensitive,conclusion may depend on growth-rate assumptions
+carrying_capacity,100,75,125,sensitive,capacity scale affects final stock interpretation
+initial_stock,10,5,20,stable,output variation is limited across this synthetic range

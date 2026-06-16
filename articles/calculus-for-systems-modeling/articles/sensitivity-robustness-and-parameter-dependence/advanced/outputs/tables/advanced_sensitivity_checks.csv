@@ -1,0 +1,9 @@
+condition,passed,warning
+parameter records included,True,"Parameter values should preserve units, sources, and tested ranges."
+sensitivity records included,True,Local sensitivity may miss nonlinear or threshold behavior.
+robustness classifications included,True,Robustness depends on the tested parameter domain.
+SQL governance registry included,True,
+Haskell typed sensitivity records included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

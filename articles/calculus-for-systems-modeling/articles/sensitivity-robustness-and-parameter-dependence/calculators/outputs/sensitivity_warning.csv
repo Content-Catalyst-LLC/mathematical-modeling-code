@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+sensitivity-warning,Creates a sensitivity interpretation warning.,Sensitivity analysis supports model review but does not prove model validity.,sensitivity-warning,robustness_domain,robustness_domain,Robustness depends on the tested parameter domain.
