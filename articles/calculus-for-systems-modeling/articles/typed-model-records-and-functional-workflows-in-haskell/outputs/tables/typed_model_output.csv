@@ -1,0 +1,2 @@
+model_use,growth_rate,carrying_capacity,initial_stock,time_step,horizon,final_time,final_stock,interpretation_warning
+governance_review,0.35,100.0,10.0,0.25,20.0,20.0,99.27122017748853,Typed records improve structural review but do not prove empirical validity.

@@ -1,0 +1,4 @@
+          calculator        name value minimum valid
+1 validate-parameter growth_rate  0.35       0  TRUE
+                                               warning
+1 Validation rules do not prove empirical correctness.

@@ -1,0 +1,13 @@
+{
+  "calculator": "diagnostic-status",
+  "inputs": {
+    "command": "diagnostic-status",
+    "review_required": "false"
+  },
+  "interpretation": "Creates a diagnostic status from a review flag.",
+  "result": {
+    "review_required": false,
+    "status": "converged"
+  },
+  "warning": "Diagnostics should remain attached to outputs."
+}

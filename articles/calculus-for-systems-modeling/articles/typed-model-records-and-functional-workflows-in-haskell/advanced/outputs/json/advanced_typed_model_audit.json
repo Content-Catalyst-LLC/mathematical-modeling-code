@@ -1,0 +1,26 @@
+{
+  "article": "Typed Model Records and Functional Workflows in Haskell",
+  "advanced_standard": true,
+  "haskell_first": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "haskell",
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Type safety does not prove empirical validity.",
+    "Pure functions can still encode poor assumptions.",
+    "Validation rules do not replace domain evidence.",
+    "Diagnostics should remain attached to outputs.",
+    "Claim boundaries still require human judgment."
+  ]
+}

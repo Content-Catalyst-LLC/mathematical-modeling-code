@@ -1,0 +1,10 @@
+condition,passed,warning
+Haskell-first typed records included,True,
+algebraic data types included,True,
+pure transformation function included,True,
+parameter validation included,True,
+diagnostic records included,True,
+claim-boundary warning included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

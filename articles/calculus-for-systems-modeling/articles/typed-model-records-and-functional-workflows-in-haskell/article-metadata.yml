@@ -1,0 +1,25 @@
+actual_title: "Typed Model Records and Functional Workflows in Haskell"
+suggested_seo_title: "Typed Model Records and Functional Workflows in Haskell"
+focus_keyword: "typed model records Haskell"
+slug: "typed-model-records-and-functional-workflows-in-haskell"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "model-calibration-using-calculus-based-methods"
+  current: "typed-model-records-and-functional-workflows-in-haskell"
+  next: "reproducible-calculus-workflows-in-r-markdown-jupyter-and-multi-language-repositories"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/typed-model-records-and-functional-workflows-in-haskell"
+tags:
+  - Haskell
+  - Typed Model Records
+  - Functional Workflows
+  - Model Governance
+  - Scientific Computing
+  - Reproducibility
+  - Calculus
+  - Systems Modeling
+excerpt_139_words: "Typed model records and functional workflows in Haskell help make mathematical models explicit, auditable, reusable, and harder to misuse. This article introduces typed records for calculus-based systems modeling, including parameter records, state records, solver settings, diagnostic outputs, algebraic data types, pure functions, validated inputs, structured exports, governance queues, and responsible interpretation. It shows why typed workflows matter: population dynamics, epidemiological models, climate feedback, resource systems, infrastructure stress, calibration studies, solver workflows, and model-governance pipelines often fail through ambiguous parameters, missing units, hidden assumptions, mutable state, or disconnected diagnostics. In computational workflows, Haskell typed records support validation rules, pure transformations, solver-status records, CSV/JSON/Markdown exports, SQL governance registries, calculator scripts, and generated reports. The article emphasizes documenting assumptions, parameter sources, units, solver settings, warnings, diagnostics, output scope, and claim boundaries."
+advanced_standard: true
+calculators_layer: true
+haskell_first: true
+languages: [haskell, python, r, julia, sql, c, cpp, fortran, rust, go]

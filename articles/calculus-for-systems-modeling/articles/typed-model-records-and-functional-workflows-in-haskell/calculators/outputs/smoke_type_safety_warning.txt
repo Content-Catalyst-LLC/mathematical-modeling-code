@@ -1,0 +1,13 @@
+{
+  "calculator": "type-safety-warning",
+  "inputs": {
+    "command": "type-safety-warning",
+    "pattern": "empirical_validity"
+  },
+  "interpretation": "Creates a type-safety interpretation warning.",
+  "result": {
+    "note": "Type safety does not prove empirical validity.",
+    "pattern": "empirical_validity"
+  },
+  "warning": "Type safety improves structure, not truth."
+}

@@ -1,0 +1,23 @@
+{
+  "article_slug": "typed-model-records-and-functional-workflows-in-haskell",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "typed-model-records-and-functional-workflows-in-haskell",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "haskell_first": true,
+  "languages": ["haskell", "python", "r", "julia", "sql", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "parameter-record", "title": "Parameter Record", "description": "Named parameters, units, ranges, and source notes."},
+    {"card_id": "state-record", "title": "State Record", "description": "Model state at a given time or location."},
+    {"card_id": "solver-status", "title": "Solver Status", "description": "Structured convergence, warning, or failure state."},
+    {"card_id": "diagnostic-record", "title": "Diagnostic Record", "description": "Warnings, errors, residuals, and review flags."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Limits on responsible model interpretation."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "diagnostics": [
+    {
+      "diagnostic_message": "All basic parameter checks passed.",
+      "diagnostic_name": "parameter_validation",
+      "diagnostic_status": "converged",
+      "review_required": false
+    },
+    {
+      "diagnostic_message": "Final stock remains within carrying capacity.",
+      "diagnostic_name": "capacity_check",
+      "diagnostic_status": "converged",
+      "review_required": false
+    }
+  ],
+  "final_state": {
+    "model_time": 20.0,
+    "stock": 99.27122017748853
+  },
+  "interpretation_warning": "Typed records improve structural review but do not prove empirical validity.",
+  "model_use": "governance_review",
+  "parameters": {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "horizon": 20.0,
+    "initial_stock": 10.0,
+    "parameter_note": "Synthetic teaching example for typed model governance.",
+    "time_step": 0.25
+  }
+}

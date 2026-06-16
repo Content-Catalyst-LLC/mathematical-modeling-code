@@ -1,0 +1,2 @@
+model_use growth_rate carrying_capacity initial_stock time_step horizon final_time final_stock
+governance_review       0.35000000    100.00000000     10.00000000      0.25000000     20.00000000     20.00000000     99.27122018

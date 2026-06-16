@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-step",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "logistic-step",
+    "growth_rate": 0.35,
+    "stock": 10.0,
+    "time_step": 0.25
+  },
+  "interpretation": "Computes one typed logistic transformation step.",
+  "result": {
+    "next_stock": 10.7875
+  },
+  "warning": "Pure transformations can still encode poor assumptions."
+}

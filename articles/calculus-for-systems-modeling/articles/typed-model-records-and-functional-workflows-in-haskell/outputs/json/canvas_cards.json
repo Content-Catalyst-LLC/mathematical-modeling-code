@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "parameter-record",
+    "category": "typed governance",
+    "governance_note": "Named parameters, units, ranges, and sources should be preserved.",
+    "review_date": "2026-06-15",
+    "score": 97,
+    "status": "active",
+    "title": "Parameter Record"
+  },
+  {
+    "card_id": "state-record",
+    "category": "typed governance",
+    "governance_note": "State records should preserve time, units, and stock values.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "State Record"
+  },
+  {
+    "card_id": "solver-status",
+    "category": "diagnostics",
+    "governance_note": "Convergence, warning, and failure states should be explicit.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Solver Status"
+  },
+  {
+    "card_id": "diagnostic-record",
+    "category": "model review",
+    "governance_note": "Diagnostics should remain attached to model outputs.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Diagnostic Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Type safety does not replace empirical evidence or judgment.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

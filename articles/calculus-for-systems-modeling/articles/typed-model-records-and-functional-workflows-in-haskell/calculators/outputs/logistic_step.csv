@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_stock,input_growth_rate,input_carrying_capacity,input_time_step,result_next_stock
+logistic-step,Computes one typed logistic transformation step.,Pure transformations can still encode poor assumptions.,logistic-step,10.0,0.35,100.0,0.25,10.7875

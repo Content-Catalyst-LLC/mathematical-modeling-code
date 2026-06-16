@@ -1,0 +1,26 @@
+section                    
+---------------------------
+TYPED MODEL RECORD REGISTRY
+record_name        computational_role                                            systems_modeling_role                                         review_warning                                              
+-----------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Assumption record  Stores modeling assumptions and validity notes.               Connects outputs to scope and interpretive boundaries.        Assumptions should not be buried in prose alone.            
+
+Claim boundary     Stores limits on what a model output can support.             Separates computation from responsible public interpretation  Type safety does not replace human judgment.                
+                                                                                 .                                                                                                                         
+
+Diagnostic record  Stores warnings, convergence status, residuals, and review f  Keeps reliability evidence attached to outputs.               Diagnostics should be reviewed before interpretation.       
+                   lags.                                                                                                                                                                                   
+
+Parameter record   Stores named parameters, units, ranges, and source notes.     Keeps model behavior tied to explicit assumptions.            Typed parameters do not prove empirical correctness.        
+
+Solver record      Stores method, time step, tolerance, horizon, and status.     Connects numerical outputs to computational configuration.    Solver settings can change model results and should not be h
+                                                                                                                                               idden.                                                      
+
+State record       Stores model state at a time or location.                     Supports reproducible trajectory and stock-flow review.       State records should preserve units and time scale.         
+section                   
+--------------------------
+TYPED MODEL OUTPUT RECORDS
+output_id                 model_use          growth_rate  carrying_capacity  initial_stock  time_step  horizon  review_warning                                              
+------------------------  -----------------  -----------  -----------------  -------------  ---------  -------  ------------------------------------------------------------
+teaching_logistic_record  governance_review  0.35         100.0              10.0           0.25       20.0     Typed records improve structural review but do not prove emp
+                                                                                                                irical validity.                                            

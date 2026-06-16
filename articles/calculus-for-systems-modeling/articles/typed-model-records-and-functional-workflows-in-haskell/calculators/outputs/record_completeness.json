@@ -1,0 +1,14 @@
+{
+  "calculator": "record-completeness",
+  "inputs": {
+    "command": "record-completeness",
+    "present": 7,
+    "required": 7
+  },
+  "interpretation": "Checks whether a model record has required fields.",
+  "result": {
+    "complete": true,
+    "missing": 0
+  },
+  "warning": "Field presence does not prove field quality."
+}

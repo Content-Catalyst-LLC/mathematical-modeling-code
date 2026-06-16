@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_name,input_value,input_minimum,result_valid,result_message
+validate-parameter,Checks a simple lower-bound parameter rule.,Validation rules do not prove empirical correctness.,validate-parameter,growth_rate,0.35,0.0,True,passed

@@ -1,0 +1,3 @@
+diagnostic_name,diagnostic_status,diagnostic_message,review_required
+parameter_validation,converged,All basic parameter checks passed.,False
+capacity_check,converged,Final stock remains within carrying capacity.,False

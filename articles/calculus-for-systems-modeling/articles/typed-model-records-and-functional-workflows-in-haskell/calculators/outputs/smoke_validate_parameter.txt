@@ -1,0 +1,15 @@
+{
+  "calculator": "validate-parameter",
+  "inputs": {
+    "command": "validate-parameter",
+    "minimum": 0.0,
+    "name": "growth_rate",
+    "value": 0.35
+  },
+  "interpretation": "Checks a simple lower-bound parameter rule.",
+  "result": {
+    "message": "passed",
+    "valid": true
+  },
+  "warning": "Validation rules do not prove empirical correctness."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_growth_rate,input_carrying_capacity,input_initial_stock,input_time_step,input_horizon,result_final_time,result_final_stock
+simulate-final,Simulates a typed model record to final time.,Typed outputs still require diagnostics and interpretation limits.,simulate-final,0.35,100.0,10.0,0.25,20.0,20.0,99.27122017748853

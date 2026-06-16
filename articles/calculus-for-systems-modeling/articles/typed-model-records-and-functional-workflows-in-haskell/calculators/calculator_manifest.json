@@ -1,0 +1,19 @@
+{
+  "article_slug": "typed-model-records-and-functional-workflows-in-haskell",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "validate-parameter", "title": "Validate Parameter"},
+    {"id": "logistic-step", "title": "Typed Logistic Step"},
+    {"id": "simulate-final", "title": "Typed Model Final State"},
+    {"id": "diagnostic-status", "title": "Diagnostic Status"},
+    {"id": "record-completeness", "title": "Record Completeness"},
+    {"id": "type-safety-warning", "title": "Type Safety Warning Note"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

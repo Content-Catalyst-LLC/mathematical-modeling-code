@@ -1,0 +1,4 @@
+     calculator stock next_stock
+1 logistic-step    10    10.7875
+                                                  warning
+1 Pure transformations can still encode poor assumptions.

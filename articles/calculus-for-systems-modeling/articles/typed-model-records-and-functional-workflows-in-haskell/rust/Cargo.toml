@@ -1,0 +1,6 @@
+[package]
+name = "typed-model-records-haskell"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

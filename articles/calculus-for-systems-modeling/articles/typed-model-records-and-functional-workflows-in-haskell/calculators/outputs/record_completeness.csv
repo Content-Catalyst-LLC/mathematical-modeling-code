@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_present,input_required,result_complete,result_missing
+record-completeness,Checks whether a model record has required fields.,Field presence does not prove field quality.,record-completeness,7,7,True,0

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+parameter-record,Parameter Record,typed governance,97,active,2026-06-15,"Named parameters, units, ranges, and sources should be preserved."
+state-record,State Record,typed governance,95,active,2026-06-15,"State records should preserve time, units, and stock values."
+solver-status,Solver Status,diagnostics,94,review,2026-06-15,"Convergence, warning, and failure states should be explicit."
+diagnostic-record,Diagnostic Record,model review,93,active,2026-06-15,Diagnostics should remain attached to model outputs.
+claim-boundary,Claim Boundary,governance,92,review,2026-06-15,Type safety does not replace empirical evidence or judgment.

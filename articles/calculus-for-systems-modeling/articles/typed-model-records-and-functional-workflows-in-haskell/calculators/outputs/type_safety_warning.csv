@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+type-safety-warning,Creates a type-safety interpretation warning.,"Type safety improves structure, not truth.",type-safety-warning,empirical_validity,empirical_validity,Type safety does not prove empirical validity.

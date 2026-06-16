@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TypedModelOutput",
+  "type": "object",
+  "required": [
+    "model_use", "growth_rate", "carrying_capacity", "initial_stock",
+    "time_step", "horizon", "final_time", "final_stock", "interpretation_warning"
+  ],
+  "properties": {
+    "model_use": {"type": "string"},
+    "growth_rate": {"type": "number"},
+    "carrying_capacity": {"type": "number"},
+    "initial_stock": {"type": "number"},
+    "time_step": {"type": "number"},
+    "horizon": {"type": "number"},
+    "final_time": {"type": "number"},
+    "final_stock": {"type": "number"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

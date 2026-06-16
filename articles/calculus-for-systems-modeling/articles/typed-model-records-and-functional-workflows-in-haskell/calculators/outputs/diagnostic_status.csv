@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_review_required,result_status,result_review_required
+diagnostic-status,Creates a diagnostic status from a review flag.,Diagnostics should remain attached to outputs.,diagnostic-status,false,converged,False
