@@ -1,0 +1,16 @@
+{
+  "calculator": "conservation-check",
+  "inputs": {
+    "command": "conservation-check",
+    "final_stock": 130.0,
+    "initial_stock": 100.0,
+    "integrated_inflow": 50.0,
+    "integrated_outflow": 20.0
+  },
+  "result": {
+    "conservation_residual": 0.0,
+    "modeled_net_flow": 30.0,
+    "observed_stock_change": 30.0
+  },
+  "warning": "Numerical integration estimates depend on integrand meaning, units, spacing, rule choice, missing data, and interpretation scope."
+}

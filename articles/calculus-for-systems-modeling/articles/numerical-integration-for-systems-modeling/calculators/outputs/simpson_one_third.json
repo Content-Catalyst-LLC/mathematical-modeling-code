@@ -1,0 +1,14 @@
+{
+  "calculator": "simpson-one-third",
+  "inputs": {
+    "command": "simpson-one-third",
+    "f0": 2.0,
+    "f1": 3.0,
+    "f2": 2.0,
+    "h": 0.5
+  },
+  "result": {
+    "contribution": 2.6666666666666665
+  },
+  "warning": "Numerical integration estimates depend on integrand meaning, units, spacing, rule choice, missing data, and interpretation scope."
+}

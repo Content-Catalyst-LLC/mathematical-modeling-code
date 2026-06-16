@@ -1,0 +1,13 @@
+{
+  "calculator": "trapezoid-step",
+  "inputs": {
+    "command": "trapezoid-step",
+    "h": 0.25,
+    "rate_left": 3.0,
+    "rate_right": 4.0
+  },
+  "result": {
+    "contribution": 0.875
+  },
+  "warning": "Numerical integration estimates depend on integrand meaning, units, spacing, rule choice, missing data, and interpretation scope."
+}

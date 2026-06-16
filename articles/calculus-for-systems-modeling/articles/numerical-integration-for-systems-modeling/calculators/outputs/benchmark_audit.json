@@ -1,0 +1,16 @@
+{
+  "calculator": "benchmark-audit",
+  "inputs": {
+    "command": "benchmark-audit",
+    "h": 0.1,
+    "start": 0.0,
+    "stop": 10.0
+  },
+  "result": {
+    "final_trapezoid_absolute_error": 0.001532815094982709,
+    "final_trapezoid_cumulative": 26.83753871398147,
+    "final_true_cumulative": 26.839071529076453,
+    "records": 101
+  },
+  "warning": "Numerical integration estimates depend on integrand meaning, units, spacing, rule choice, missing data, and interpretation scope."
+}

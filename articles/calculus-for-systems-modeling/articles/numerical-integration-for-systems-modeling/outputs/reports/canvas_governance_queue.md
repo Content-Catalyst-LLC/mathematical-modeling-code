@@ -1,0 +1,4 @@
+- **Riemann Sum** (active): Endpoint convention and spacing should be recorded.
+- **Trapezoidal Rule** (active): Adjacent-value averaging should be documented.
+- **Cumulative Integration** (active): Running totals should be preserved.
+- **Conservation Check** (review): Stock-flow consistency should be checked.

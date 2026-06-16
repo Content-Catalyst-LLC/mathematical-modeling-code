@@ -1,0 +1,13 @@
+{
+  "article_slug": "numerical-integration-for-systems-modeling",
+  "series": "Calculus for Systems Modeling",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "riemann-sum", "title": "Riemann Sum", "description": "Finite-sum approximation to accumulated area or total."},
+    {"card_id": "trapezoidal-rule", "title": "Trapezoidal Rule", "description": "Local average-height approximation for sampled data."},
+    {"card_id": "cumulative-integration", "title": "Cumulative Integration", "description": "Running total from sampled rates or intensities."},
+    {"card_id": "conservation-check", "title": "Conservation Check", "description": "Stock-flow consistency test using integrated net flow."}
+  ]
+}

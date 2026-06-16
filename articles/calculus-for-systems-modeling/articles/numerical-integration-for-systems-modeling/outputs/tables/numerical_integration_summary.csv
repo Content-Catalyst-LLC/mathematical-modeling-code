@@ -1,0 +1,2 @@
+start,stop,step_size,records,final_left_cumulative,final_trapezoid_cumulative,final_true_cumulative,final_trapezoid_absolute_error,interpretation
+0.0,10.0,0.1,101,26.814739769525932,26.83753871398147,26.839071529076453,0.001532815094982709,The trapezoidal rule estimates cumulative total from sampled rates while preserving an audit trail of error against a synthetic benchmark.

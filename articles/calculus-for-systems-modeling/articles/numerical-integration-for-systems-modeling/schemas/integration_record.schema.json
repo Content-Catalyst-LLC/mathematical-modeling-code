@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntegrationRecord",
+  "type": "object",
+  "required": ["index", "time", "rate", "left_cumulative", "trapezoid_cumulative", "true_cumulative", "trapezoid_absolute_error", "step_size", "warning"],
+  "properties": {
+    "index": {"type": "integer"},
+    "time": {"type": "number"},
+    "rate": {"type": "number"},
+    "left_cumulative": {"type": "number"},
+    "trapezoid_cumulative": {"type": "number"},
+    "true_cumulative": {"type": "number"},
+    "trapezoid_absolute_error": {"type": "number"},
+    "step_size": {"type": "number"},
+    "warning": {"type": "string"}
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "card_id": "riemann-sum",
+    "category": "method",
+    "governance_note": "Endpoint convention and spacing should be recorded.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Riemann Sum"
+  },
+  {
+    "card_id": "trapezoidal-rule",
+    "category": "method",
+    "governance_note": "Adjacent-value averaging should be documented.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Trapezoidal Rule"
+  },
+  {
+    "card_id": "cumulative-integration",
+    "category": "systems use",
+    "governance_note": "Running totals should be preserved.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Cumulative Integration"
+  },
+  {
+    "card_id": "conservation-check",
+    "category": "governance",
+    "governance_note": "Stock-flow consistency should be checked.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Conservation Check"
+  }
+]

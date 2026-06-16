@@ -1,0 +1,13 @@
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Conservation check    Compares stock change to integrated net flow.                 Helps identify missing flows unit inconsistency or model str  Synthetic checks do not guarantee empirical validity.       
+                                                                                    ucture problems.                                                                                                          
+
+Integrand definition  Defines the rate density intensity or field being integrated  Clarifies whether accumulation represents flow exposure burd  The integrand should have clear units and system meaning.   
+                      .                                                             en energy mass risk or change.                                                                                            
+
+Integration rule      Defines how sampled values are converted into local area or   Controls whether rectangles trapezoids Simpson-style weights  The rule should be documented and matched to sampling struct
+                      total contribution.                                            or another quadrature method are used.                       ure.                                                        
+
+Spacing               Defines time step grid width cell area or interval widths us  Controls how much each sampled value contributes to the tota  Irregular spacing should be handled explicitly.             
+                      ed in accumulation.                                           l.                                                                                                                        

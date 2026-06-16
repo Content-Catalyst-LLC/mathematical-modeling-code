@@ -1,0 +1,5 @@
+card_id,title,category,score,status,review_date,governance_note
+riemann-sum,Riemann Sum,method,96,active,2026-06-15,Endpoint convention and spacing should be recorded.
+trapezoidal-rule,Trapezoidal Rule,method,95,active,2026-06-15,Adjacent-value averaging should be documented.
+cumulative-integration,Cumulative Integration,systems use,94,active,2026-06-15,Running totals should be preserved.
+conservation-check,Conservation Check,governance,93,review,2026-06-15,Stock-flow consistency should be checked.

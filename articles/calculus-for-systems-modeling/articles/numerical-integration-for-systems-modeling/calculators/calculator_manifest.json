@@ -1,0 +1,12 @@
+{
+  "article_slug": "numerical-integration-for-systems-modeling",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "left-rectangle", "title": "Left Rectangle Contribution"},
+    {"id": "trapezoid-step", "title": "Trapezoidal Step Contribution"},
+    {"id": "simpson-one-third", "title": "Simpson One-Third Rule Contribution"},
+    {"id": "benchmark-audit", "title": "Synthetic Integration Benchmark Audit"},
+    {"id": "conservation-check", "title": "Stock-Flow Conservation Check"}
+  ]
+}

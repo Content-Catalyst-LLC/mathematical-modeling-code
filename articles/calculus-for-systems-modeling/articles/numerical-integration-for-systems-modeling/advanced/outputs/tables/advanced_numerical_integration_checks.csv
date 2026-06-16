@@ -1,0 +1,6 @@
+condition,passed,warning
+Riemann and trapezoidal examples included,True,
+cumulative total diagnostics included,True,
+synthetic benchmark included,True,
+conservation framing included,True,
+calculator layer included,True,

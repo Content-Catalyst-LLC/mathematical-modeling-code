@@ -1,0 +1,12 @@
+{
+  "calculator": "left-rectangle",
+  "inputs": {
+    "command": "left-rectangle",
+    "h": 0.25,
+    "rate_left": 3.2
+  },
+  "result": {
+    "contribution": 0.8
+  },
+  "warning": "Numerical integration estimates depend on integrand meaning, units, spacing, rule choice, missing data, and interpretation scope."
+}

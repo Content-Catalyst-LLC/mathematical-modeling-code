@@ -1,0 +1,21 @@
+Numerical integration audit complete.
+Catalyst Canvas cards generated.
+/Library/Developer/CommandLineTools/usr/bin/make -C advanced smoke
+python3 python/generate_advanced_report.py
+Advanced numerical integration audit generated.
+[calculator smoke] done
+  index time     rate left_cumulative trapezoid_cumulative true_cumulative
+1     0  0.0 2.000000       0.0000000            0.0000000       0.0000000
+2     1  0.1 2.109833       0.2000000            0.2054917       0.2054958
+3     2  0.2 2.218669       0.4109833            0.4219168       0.4219334
+4     3  0.3 2.325520       0.6328503            0.6491263       0.6491635
+5     4  0.4 2.429418       0.8654023            0.8868732       0.8869390
+6     5  0.5 2.529426       1.1083441            1.1348154       1.1349174
+  trapezoid_absolute_error step_size
+1             0.000000e+00       0.1
+2             4.163890e-06       0.1
+3             1.661395e-05       0.1
+4             3.722580e-05       0.1
+5             6.579347e-05       0.1
+6             1.020315e-04       0.1
+/Library/Developer/CommandLineTools/usr/bin/make -C cpp run
