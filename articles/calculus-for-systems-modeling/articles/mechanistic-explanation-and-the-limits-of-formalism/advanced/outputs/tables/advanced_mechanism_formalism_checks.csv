@@ -1,0 +1,9 @@
+condition,passed,warning
+mechanism records included,True,A formal model without mechanism documentation may be descriptive only.
+formal representation records included,True,Formal consistency does not guarantee explanatory validity.
+explanation claim records included,True,"Separate mechanistic, predictive, exploratory, and decision-support claims."
+SQL governance registry included,True,
+Haskell typed mechanism records included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

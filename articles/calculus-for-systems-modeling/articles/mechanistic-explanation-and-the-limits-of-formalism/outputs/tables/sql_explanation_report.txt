@@ -1,0 +1,33 @@
+section                        
+-------------------------------
+EXPLANATION GOVERNANCE REGISTRY
+registry_name             analytical_role                                               systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Causal claim              States whether the model is making a causal or mechanistic a  Separates formal dependence from causal dependence.           Functional dependence does not automatically imply causal ex
+                          ssertion.                                                                                                                   planation.                                                  
+
+Claim boundary            Defines what kind of explanation, prediction, or decision su  Prevents formal outputs from being overinterpreted.           Formal structure supports explanation only when mechanism, e
+                          pport is justified.                                                                                                         vidence, and scope are documented.                          
+
+Formal representation     Documents equations, variables, parameters, constraints, and  Makes model structure explicit and reviewable.                Formal consistency does not guarantee explanatory validity. 
+                           computational steps.                                                                                                                                                                   
+
+Mechanism record          Documents the process, entities, activities, organization, a  Connects formal structure to how a system produces behavior.  A formal model without mechanism documentation may be descri
+                          nd evidence status.                                                                                                         ptive only.                                                 
+
+Parameter interpretation  Documents parameter source, unit, range, evidence status, an  Prevents fitted constants from being mistaken for causal mec  Calibrated parameters are not automatically causal quantitie
+                          d model role.                                                 hanisms.                                                      s.                                                          
+
+Validation scope          Defines the evidence domain, purpose, and range of model ade  Aligns model use with evidence and intended purpose.          A model can be valid for one purpose and invalid for another
+                          quacy.                                                                                                                      .                                                           
+section          
+-----------------
+MECHANISM RECORDS
+mechanism_name           represented_process                                 evidence_status             claim_type   warning                                                     
+-----------------------  --------------------------------------------------  --------------------------  -----------  ------------------------------------------------------------
+balancing_feedback       state-dependent adjustment limits growth or change  formal teaching example     mechanistic  feedback parameters require process interpretation and evide
+                                                                                                                      nce                                                         
+
+stock_flow_accumulation  stock changes through inflow and outflow            synthetic teaching example  mechanistic  flows must represent real processes                         
+
+threshold_transition     behavior changes after a critical value is crossed  scenario-based example      exploratory  threshold claims require scope and uncertainty notes        

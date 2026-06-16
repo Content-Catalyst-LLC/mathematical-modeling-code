@@ -1,0 +1,15 @@
+{
+  "calculator": "black-box-risk",
+  "inputs": {
+    "command": "black-box-risk",
+    "hidden_parameters": 1,
+    "missing_diagnostics": 1,
+    "opaque_steps": 2
+  },
+  "interpretation": "Scores black-box risk from opaque steps, hidden parameters, and missing diagnostics.",
+  "result": {
+    "risk": "high",
+    "risk_score": 4
+  },
+  "warning": "Complexity should not substitute for reviewable mechanism and diagnostics."
+}

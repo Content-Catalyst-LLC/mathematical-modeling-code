@@ -1,0 +1,15 @@
+{
+  "calculator": "parameter-interpretation",
+  "inputs": {
+    "command": "parameter-interpretation",
+    "has_range": 1,
+    "has_unit": 1,
+    "source": "calibrated"
+  },
+  "interpretation": "Checks whether a parameter record has minimum interpretive support.",
+  "result": {
+    "causal_caution": true,
+    "complete_record": true
+  },
+  "warning": "Calibrated, synthetic, or scenario parameters are not automatically causal quantities."
+}

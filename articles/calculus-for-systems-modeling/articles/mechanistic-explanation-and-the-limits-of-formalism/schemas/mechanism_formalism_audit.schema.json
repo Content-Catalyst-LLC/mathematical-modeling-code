@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MechanismFormalismAudit",
+  "type": "object",
+  "required": ["mechanism_records", "formal_representation_records", "explanation_claim_records", "interpretation_warning"],
+  "properties": {
+    "mechanism_records": {"type": "array"},
+    "formal_representation_records": {"type": "array"},
+    "explanation_claim_records": {"type": "array"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

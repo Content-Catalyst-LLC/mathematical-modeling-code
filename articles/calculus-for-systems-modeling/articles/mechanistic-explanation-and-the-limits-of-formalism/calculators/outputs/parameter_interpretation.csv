@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_source,input_has_unit,input_has_range,result_complete_record,result_causal_caution
+parameter-interpretation,Checks whether a parameter record has minimum interpretive support.,"Calibrated, synthetic, or scenario parameters are not automatically causal quantities.",parameter-interpretation,calibrated,1,1,True,True

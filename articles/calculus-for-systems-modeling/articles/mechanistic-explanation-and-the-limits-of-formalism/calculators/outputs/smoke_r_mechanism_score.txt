@@ -1,0 +1,4 @@
+       calculator score status
+1 mechanism-score    80 strong
+                                                     warning
+1 A score is a review aid not proof of explanatory validity.

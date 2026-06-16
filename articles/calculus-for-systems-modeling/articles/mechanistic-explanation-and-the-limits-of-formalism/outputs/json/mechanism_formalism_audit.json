@@ -1,0 +1,75 @@
+{
+  "explanation_claim_records": [
+    {
+      "claim_type": "mechanistic",
+      "evidence_need": "process evidence, structural plausibility, sensitivity review",
+      "governance_status": "review",
+      "scope_limit": "applies only where the mechanism and assumptions hold",
+      "supported_use": "explains how an organized process can produce behavior"
+    },
+    {
+      "claim_type": "predictive",
+      "evidence_need": "validation data and uncertainty assessment",
+      "governance_status": "review",
+      "scope_limit": "limited to validated domain and time horizon",
+      "supported_use": "forecasts output under specified conditions"
+    },
+    {
+      "claim_type": "exploratory",
+      "evidence_need": "clear scenario assumptions and limitation notes",
+      "governance_status": "active",
+      "scope_limit": "not a confirmed mechanism or forecast",
+      "supported_use": "investigates possible system behavior"
+    }
+  ],
+  "formal_representation_records": [
+    {
+      "formal_element": "differential_equation",
+      "interpretation_requirement": "identify what process f represents",
+      "model_role": "describes state change over time",
+      "symbol_or_structure": "dx/dt = f(x,t,theta)",
+      "warning": "A rate equation without process interpretation may be descriptive only."
+    },
+    {
+      "formal_element": "parameter",
+      "interpretation_requirement": "record unit, source, range, and mechanism meaning",
+      "model_role": "controls model behavior",
+      "symbol_or_structure": "theta",
+      "warning": "Calibrated parameters are not automatically causal quantities."
+    },
+    {
+      "formal_element": "constraint",
+      "interpretation_requirement": "explain whether K is physical, institutional, ecological, or assumed",
+      "model_role": "bounds system behavior",
+      "symbol_or_structure": "x <= K",
+      "warning": "Constraints can hide strong assumptions."
+    }
+  ],
+  "interpretation_warning": "Formal structure supports explanation only when mechanism, evidence, and scope are documented.",
+  "mechanism_records": [
+    {
+      "activities": "accumulation, depletion, replacement",
+      "entities": "stock, inflow, outflow",
+      "evidence_status": "synthetic teaching example",
+      "mechanism_name": "stock_flow_accumulation",
+      "represented_process": "stock changes through inflow and outflow",
+      "warning": "A stock-flow equation is mechanistic only when flows represent real processes."
+    },
+    {
+      "activities": "adjustment, saturation, stabilization",
+      "entities": "state variable, feedback coefficient, constraint",
+      "evidence_status": "formal teaching example",
+      "mechanism_name": "balancing_feedback",
+      "represented_process": "state-dependent adjustment limits growth or change",
+      "warning": "Feedback parameters require process interpretation and evidence."
+    },
+    {
+      "activities": "activation, failure, transition",
+      "entities": "state variable, threshold, response rule",
+      "evidence_status": "scenario-based example",
+      "mechanism_name": "threshold_transition",
+      "represented_process": "behavior changes after a critical value is crossed",
+      "warning": "Threshold claims require careful scope and uncertainty notes."
+    }
+  ]
+}

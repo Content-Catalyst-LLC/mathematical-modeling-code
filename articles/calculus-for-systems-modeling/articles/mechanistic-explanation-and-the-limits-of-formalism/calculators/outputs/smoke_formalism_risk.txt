@@ -1,0 +1,16 @@
+{
+  "calculator": "formalism-risk",
+  "inputs": {
+    "claim_boundary": 0,
+    "command": "formalism-risk",
+    "evidence_link": 0,
+    "parameter_meaning": 0,
+    "validation_scope": 1
+  },
+  "interpretation": "Flags risk when formal models lack interpretation, evidence, validation scope, or claim boundaries.",
+  "result": {
+    "missing_items": 3,
+    "risk": "high"
+  },
+  "warning": "Formal consistency does not guarantee explanatory validity."
+}

@@ -1,0 +1,4 @@
+"claim_type","supported_use","evidence_need","scope_limit"
+"mechanistic","explains how an organized process can produce behavior","process evidence and structural plausibility","applies only where mechanism and assumptions hold"
+"predictive","forecasts output under specified conditions","validation data and uncertainty assessment","limited to validated domain and time horizon"
+"exploratory","investigates possible system behavior","clear scenario assumptions and limitation notes","not a confirmed mechanism or forecast"

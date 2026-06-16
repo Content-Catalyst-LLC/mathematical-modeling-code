@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+explanation-warning,Creates an explanation governance warning.,"Formal structure supports explanation only when mechanism, evidence, and scope are documented.",explanation-warning,formal_precision,formal_precision,Formal precision does not guarantee explanatory validity.

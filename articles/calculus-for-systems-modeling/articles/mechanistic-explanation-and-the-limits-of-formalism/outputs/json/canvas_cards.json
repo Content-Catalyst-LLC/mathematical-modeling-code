@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "mechanism-record",
+    "category": "explanation governance",
+    "governance_note": "A formal model without mechanism documentation may be descriptive only.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Mechanism Record"
+  },
+  {
+    "card_id": "formal-representation",
+    "category": "model structure",
+    "governance_note": "Formal consistency does not guarantee explanatory validity.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Formal Representation"
+  },
+  {
+    "card_id": "parameter-interpretation",
+    "category": "parameter governance",
+    "governance_note": "Calibrated parameters are not automatically causal quantities.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Parameter Interpretation"
+  },
+  {
+    "card_id": "causal-claim",
+    "category": "claim boundary",
+    "governance_note": "Functional dependence does not automatically imply causal explanation.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Causal Claim"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "model governance",
+    "governance_note": "Formal structure supports explanation only when mechanism, evidence, and scope are documented.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

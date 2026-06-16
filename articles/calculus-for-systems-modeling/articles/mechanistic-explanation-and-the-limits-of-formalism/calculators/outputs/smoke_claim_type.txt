@@ -1,0 +1,14 @@
+{
+  "calculator": "claim-type",
+  "inputs": {
+    "command": "claim-type",
+    "mechanism_evidence": 1,
+    "scenario_only": 0,
+    "validation_data": 0
+  },
+  "interpretation": "Classifies the kind of claim supported by evidence status.",
+  "result": {
+    "claim_type": "mechanistic_candidate"
+  },
+  "warning": "Do not treat exploratory output as confirmed mechanism."
+}

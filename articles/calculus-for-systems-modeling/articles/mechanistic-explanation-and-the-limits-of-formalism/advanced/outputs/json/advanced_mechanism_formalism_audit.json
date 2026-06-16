@@ -1,0 +1,25 @@
+{
+  "article": "Mechanistic Explanation and the Limits of Formalism",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Formal consistency does not guarantee explanatory validity.",
+    "Functional dependence does not automatically imply causal explanation.",
+    "Calibrated parameters are not automatically causal quantities.",
+    "A model can be valid for one purpose and invalid for another.",
+    "Formal structure supports explanation only when mechanism, evidence, and scope are documented."
+  ]
+}

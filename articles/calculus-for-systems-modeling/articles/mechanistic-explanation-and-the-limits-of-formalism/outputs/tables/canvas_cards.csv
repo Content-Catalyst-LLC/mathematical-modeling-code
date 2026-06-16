@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+mechanism-record,Mechanism Record,explanation governance,96,active,2026-06-15,A formal model without mechanism documentation may be descriptive only.
+formal-representation,Formal Representation,model structure,95,active,2026-06-15,Formal consistency does not guarantee explanatory validity.
+parameter-interpretation,Parameter Interpretation,parameter governance,94,review,2026-06-15,Calibrated parameters are not automatically causal quantities.
+causal-claim,Causal Claim,claim boundary,93,review,2026-06-15,Functional dependence does not automatically imply causal explanation.
+claim-boundary,Claim Boundary,model governance,92,review,2026-06-15,"Formal structure supports explanation only when mechanism, evidence, and scope are documented."

@@ -1,0 +1,4 @@
+formal_element,symbol_or_structure,model_role,interpretation_requirement,warning
+differential_equation,"dx/dt = f(x,t,theta)",describes state change over time,identify what process f represents,A rate equation without process interpretation may be descriptive only.
+parameter,theta,controls model behavior,"record unit, source, range, and mechanism meaning",Calibrated parameters are not automatically causal quantities.
+constraint,x <= K,bounds system behavior,"explain whether K is physical, institutional, ecological, or assumed",Constraints can hide strong assumptions.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_mechanism_evidence,input_validation_data,input_scenario_only,result_claim_type
+claim-type,Classifies the kind of claim supported by evidence status.,Do not treat exploratory output as confirmed mechanism.,claim-type,1,0,0,mechanistic_candidate

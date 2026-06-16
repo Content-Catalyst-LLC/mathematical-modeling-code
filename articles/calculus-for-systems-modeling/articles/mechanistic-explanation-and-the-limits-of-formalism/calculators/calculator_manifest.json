@@ -1,0 +1,19 @@
+{
+  "article_slug": "mechanistic-explanation-and-the-limits-of-formalism",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "mechanism-score", "title": "Mechanism Documentation Score"},
+    {"id": "formalism-risk", "title": "Formalism Risk Score"},
+    {"id": "claim-type", "title": "Explanation Claim Type"},
+    {"id": "parameter-interpretation", "title": "Parameter Interpretation Check"},
+    {"id": "black-box-risk", "title": "Black-Box Risk Score"},
+    {"id": "explanation-warning", "title": "Explanation Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

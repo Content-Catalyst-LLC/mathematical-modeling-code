@@ -1,0 +1,13 @@
+{
+  "calculator": "explanation-warning",
+  "inputs": {
+    "command": "explanation-warning",
+    "pattern": "formal_precision"
+  },
+  "interpretation": "Creates an explanation governance warning.",
+  "result": {
+    "note": "Formal precision does not guarantee explanatory validity.",
+    "pattern": "formal_precision"
+  },
+  "warning": "Formal structure supports explanation only when mechanism, evidence, and scope are documented."
+}

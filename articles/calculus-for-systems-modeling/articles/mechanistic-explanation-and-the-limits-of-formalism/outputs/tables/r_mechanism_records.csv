@@ -1,0 +1,4 @@
+"mechanism_name","represented_process","evidence_status","warning"
+"stock_flow_accumulation","stock changes through inflow and outflow","synthetic teaching example","A stock-flow equation is mechanistic only when flows represent real processes."
+"balancing_feedback","state-dependent adjustment limits growth or change","formal teaching example","Feedback parameters require process interpretation and evidence."
+"threshold_transition","behavior changes after a critical value is crossed","scenario-based example","Threshold claims require careful scope and uncertainty notes."

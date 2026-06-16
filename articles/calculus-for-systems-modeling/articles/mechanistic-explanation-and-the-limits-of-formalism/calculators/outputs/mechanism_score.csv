@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_entities,input_activities,input_relations,input_evidence,input_scope,result_score,result_status
+mechanism-score,"Scores whether a mechanism record contains parts, activities, relations, evidence, and scope.","A score is a review aid, not proof of explanatory validity.",mechanism-score,1,1,1,0,1,80,strong

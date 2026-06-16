@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+mechanism_record,Mechanism record,Documents process entities activities organization and evidence status,Connects formal structure to how a system produces behavior,A formal model without mechanism documentation may be descriptive only
+formal_representation,Formal representation,Documents equations variables parameters constraints and computational steps,Makes model structure explicit and reviewable,Formal consistency does not guarantee explanatory validity
+parameter_interpretation,Parameter interpretation,Documents parameter source unit range evidence status and model role,Prevents fitted constants from being mistaken for causal mechanisms,Calibrated parameters are not automatically causal quantities
+causal_claim,Causal claim,States whether the model is making a causal or mechanistic assertion,Separates formal dependence from causal dependence,Functional dependence does not automatically imply causal explanation
+validation_scope,Validation scope,Defines the evidence domain purpose and range of model adequacy,Aligns model use with evidence and intended purpose,A model can be valid for one purpose and invalid for another
+claim_boundary,Claim boundary,Defines what kind of explanation prediction or decision support is justified,Prevents formal outputs from being overinterpreted,Formal structure supports explanation only when mechanism evidence and scope are documented

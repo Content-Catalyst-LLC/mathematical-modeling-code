@@ -1,0 +1,17 @@
+{
+  "calculator": "mechanism-score",
+  "inputs": {
+    "activities": 1,
+    "command": "mechanism-score",
+    "entities": 1,
+    "evidence": 0,
+    "relations": 1,
+    "scope": 1
+  },
+  "interpretation": "Scores whether a mechanism record contains parts, activities, relations, evidence, and scope.",
+  "result": {
+    "score": 80,
+    "status": "strong"
+  },
+  "warning": "A score is a review aid, not proof of explanatory validity."
+}

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_parameter_meaning,input_evidence_link,input_validation_scope,input_claim_boundary,result_missing_items,result_risk
+formalism-risk,"Flags risk when formal models lack interpretation, evidence, validation scope, or claim boundaries.",Formal consistency does not guarantee explanatory validity.,formalism-risk,0,0,1,0,3,high

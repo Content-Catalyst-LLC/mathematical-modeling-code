@@ -1,0 +1,22 @@
+{
+  "article_slug": "mechanistic-explanation-and-the-limits-of-formalism",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "mechanistic-explanation-formalism-review",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "mechanism-record", "title": "Mechanism Record", "description": "Process, entities, activities, relations, and evidence status."},
+    {"card_id": "formal-representation", "title": "Formal Representation", "description": "Equations, variables, parameters, constraints, and computational steps."},
+    {"card_id": "parameter-interpretation", "title": "Parameter Interpretation", "description": "Source, unit, range, evidence status, and model role."},
+    {"card_id": "causal-claim", "title": "Causal Claim", "description": "Boundary between functional dependence and causal explanation."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Limits on explanatory, predictive, or decision-support use."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}
