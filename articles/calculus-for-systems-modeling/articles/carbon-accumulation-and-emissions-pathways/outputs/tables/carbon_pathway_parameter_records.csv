@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+E0,40.0,GtCO2 per year,initial annual emissions,Accounting boundary must be documented.
+decline_rate,0.08,per year,exponential emissions decline rate,Pathway assumptions should not be presented as predictions.
+airborne_fraction,0.45,fraction,fixed simplified airborne fraction,Airborne fraction is not constant across all time scales and scenarios.
+budget,500.0,GtCO2,illustrative remaining carbon budget,"Carbon budgets depend on temperature goal, probability framing, and uncertainty."
+removal_rate,5.0,GtCO2 per year,illustrative negative-emissions rate,"Removal feasibility, permanence, scale, and governance must be reviewed."
+persistent_fraction,0.2,fraction,persistent long-lived carbon response component,Impulse response assumptions shape long-term burden.
+sink_feedback_strength,0.05,fraction per K,illustrative warming-related sink weakening,Carbon-cycle feedback is process-dependent and uncertain.

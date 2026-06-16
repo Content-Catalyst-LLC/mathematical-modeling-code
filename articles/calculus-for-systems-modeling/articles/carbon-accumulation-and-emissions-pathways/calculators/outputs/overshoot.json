@@ -1,0 +1,16 @@
+{
+  "calculator": "overshoot",
+  "inputs": {
+    "command": "overshoot",
+    "decline_years": 30,
+    "e0": 40.0,
+    "negative_years": 20,
+    "removal_rate": 5.0
+  },
+  "interpretation": "Computes cumulative emissions for an overshoot pathway with negative emissions.",
+  "result": {
+    "cumulative_emissions": 520.0,
+    "minimum_emissions": -5.0
+  },
+  "warning": "Negative emissions require feasibility, permanence, scale, and governance review."
+}

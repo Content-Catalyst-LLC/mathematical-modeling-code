@@ -1,0 +1,35 @@
+actual_title: "Case Study: Carbon Accumulation and Emissions Pathways"
+suggested_seo_title: "Case Study: Carbon Accumulation and Emissions Pathways"
+focus_keyword: "carbon accumulation and emissions pathways"
+slug: "carbon-accumulation-and-emissions-pathways"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "climate-feedback-models"
+  current: "carbon-accumulation-and-emissions-pathways"
+  next: "resource-depletion-and-regeneration"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/carbon-accumulation-and-emissions-pathways"
+tags:
+  - Calculus
+  - Carbon Accumulation
+  - Emissions Pathways
+  - Carbon Budgets
+  - Stock-Flow Modeling
+  - Net Zero
+  - Climate Modeling
+  - Systems Modeling
+excerpt_139_words: "Case Study: Carbon Accumulation and Emissions Pathways shows how calculus turns emissions, sinks, atmospheric concentration, cumulative burden, and climate response into a structured systems model. This article introduces carbon pathway modeling for calculus-based systems modeling, including stocks and flows, emissions pathways, cumulative emissions, atmospheric carbon, airborne fraction, land and ocean sinks, impulse response functions, carbon persistence, carbon budgets, net-zero pathways, overshoot, negative emissions, carbon-cycle feedback, calibration, uncertainty, sensitivity, and responsible interpretation. It shows why annual emissions are flows while atmospheric carbon is an accumulating stock with long memory. In computational workflows, carbon accumulation audits support pathway records, cumulative-emissions tables, atmospheric-burden estimates, budget records, SQL governance registries, Haskell typed pathway records, calculator scripts, Canvas artifacts, and generated reports. The article emphasizes documenting accounting boundaries, sink assumptions, removal claims, uncertainty, validation scope, and claim boundaries."
+advanced_features:
+  - stock-flow carbon balance
+  - constant emissions pathway
+  - linear decline pathway
+  - exponential decline pathway
+  - net-zero pathway
+  - overshoot and negative-emissions pathway
+  - fixed airborne fraction
+  - impulse response carbon persistence
+  - carbon budget exhaustion
+  - removals governance
+  - calculators layer
+  - Catalyst Canvas governance
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

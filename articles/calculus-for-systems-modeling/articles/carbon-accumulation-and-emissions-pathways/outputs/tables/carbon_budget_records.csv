@@ -1,0 +1,6 @@
+scenario_name,cumulative_emissions,budget,exceeds_budget,overshoot_amount,warning
+constant_emissions,1240.0,500.0,True,740.0,"Carbon budgets are conditional estimates, not exact guarantees."
+linear_decline_to_zero,620.0,500.0,True,120.0,"Carbon budgets are conditional estimates, not exact guarantees."
+exponential_decline,476.6978317734561,500.0,False,0.0,"Carbon budgets are conditional estimates, not exact guarantees."
+net_zero_after_plateau,920.0,500.0,True,420.0,"Carbon budgets are conditional estimates, not exact guarantees."
+overshoot_with_negative_emissions,520.0,500.0,True,20.0,"Carbon budgets are conditional estimates, not exact guarantees."

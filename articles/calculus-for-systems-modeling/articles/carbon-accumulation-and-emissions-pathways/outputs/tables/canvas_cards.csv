@@ -1,0 +1,7 @@
+card_id,title,category,score,status,review_date,governance_note
+stock-flow-record,Stock-Flow Record,model definition,96,active,2026-06-15,Carbon pathway outputs cannot be interpreted responsibly if stock-flow definitions are unclear.
+pathway-record,Pathway Record,scenario governance,95,review,2026-06-15,Pathway scenarios should not be presented as guaranteed futures.
+sink-record,Sink Record,carbon-cycle governance,94,review,2026-06-15,Fixed sink assumptions can hide nonlinear carbon-cycle feedback.
+budget-record,Budget Record,constraint governance,93,review,2026-06-15,"Carbon budgets are conditional estimates, not exact guarantees."
+removal-record,Removal Record,net-zero governance,92,review,2026-06-15,Net-zero and overshoot claims require removal governance.
+claim-boundary,Claim Boundary,governance,91,review,2026-06-15,"Carbon pathway conclusions should not exceed accounting boundaries, evidence, assumptions, uncertainty, and tested scope."

@@ -1,0 +1,16 @@
+{
+  "calculator": "impulse-burden",
+  "inputs": {
+    "command": "impulse-burden",
+    "e0": 40.0,
+    "pathway": "linear",
+    "rate": 0.08,
+    "years": 30
+  },
+  "interpretation": "Computes an illustrative impulse-response atmospheric burden.",
+  "result": {
+    "cumulative_emissions": 620.0,
+    "impulse_response_burden": 359.06002402979215
+  },
+  "warning": "Impulse response assumptions shape long-term burden."
+}

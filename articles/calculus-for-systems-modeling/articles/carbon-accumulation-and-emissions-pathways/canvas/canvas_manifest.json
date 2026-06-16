@@ -1,0 +1,15 @@
+{
+  "article_slug": "carbon-accumulation-and-emissions-pathways",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "carbon-accumulation-emissions-pathways-case-study",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "stock-flow-record", "title": "Stock-Flow Record", "description": "Emissions, removals, atmospheric carbon, land sinks, ocean sinks, units, and accounting boundary."},
+    {"card_id": "pathway-record", "title": "Pathway Record", "description": "Historical, baseline, mitigation, net-zero, overshoot, or negative-emissions pathway assumptions."},
+    {"card_id": "sink-record", "title": "Sink Record", "description": "Land uptake, ocean uptake, airborne fraction, impulse response, and carbon-cycle feedback assumptions."},
+    {"card_id": "budget-record", "title": "Budget Record", "description": "Carbon budget, temperature goal, probability framing, historical emissions, and remaining allowance."},
+    {"card_id": "removal-record", "title": "Removal Record", "description": "Negative-emissions rate, durability, accounting status, feasibility, and permanence."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, pathway comparison, carbon budgeting, policy analysis, or decision support."}
+  ]
+}

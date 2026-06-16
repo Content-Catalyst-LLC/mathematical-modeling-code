@@ -1,0 +1,143 @@
+{
+  "budget_records": [
+    {
+      "budget": 500.0,
+      "cumulative_emissions": 1240.0,
+      "exceeds_budget": true,
+      "overshoot_amount": 740.0,
+      "scenario_name": "constant_emissions",
+      "warning": "Carbon budgets are conditional estimates, not exact guarantees."
+    },
+    {
+      "budget": 500.0,
+      "cumulative_emissions": 620.0,
+      "exceeds_budget": true,
+      "overshoot_amount": 120.0,
+      "scenario_name": "linear_decline_to_zero",
+      "warning": "Carbon budgets are conditional estimates, not exact guarantees."
+    },
+    {
+      "budget": 500.0,
+      "cumulative_emissions": 476.6978317734561,
+      "exceeds_budget": false,
+      "overshoot_amount": 0.0,
+      "scenario_name": "exponential_decline",
+      "warning": "Carbon budgets are conditional estimates, not exact guarantees."
+    },
+    {
+      "budget": 500.0,
+      "cumulative_emissions": 920.0,
+      "exceeds_budget": true,
+      "overshoot_amount": 420.0,
+      "scenario_name": "net_zero_after_plateau",
+      "warning": "Carbon budgets are conditional estimates, not exact guarantees."
+    },
+    {
+      "budget": 500.0,
+      "cumulative_emissions": 520.0,
+      "exceeds_budget": true,
+      "overshoot_amount": 20.0,
+      "scenario_name": "overshoot_with_negative_emissions",
+      "warning": "Carbon budgets are conditional estimates, not exact guarantees."
+    }
+  ],
+  "interpretation_warning": "Carbon pathway outputs depend on accounting boundaries, emissions pathway assumptions, sink behavior, persistence, removals, carbon-budget framing, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "initial annual emissions",
+      "parameter_name": "E0",
+      "unit": "GtCO2 per year",
+      "value": 40.0,
+      "warning": "Accounting boundary must be documented."
+    },
+    {
+      "interpretation": "exponential emissions decline rate",
+      "parameter_name": "decline_rate",
+      "unit": "per year",
+      "value": 0.08,
+      "warning": "Pathway assumptions should not be presented as predictions."
+    },
+    {
+      "interpretation": "fixed simplified airborne fraction",
+      "parameter_name": "airborne_fraction",
+      "unit": "fraction",
+      "value": 0.45,
+      "warning": "Airborne fraction is not constant across all time scales and scenarios."
+    },
+    {
+      "interpretation": "illustrative remaining carbon budget",
+      "parameter_name": "budget",
+      "unit": "GtCO2",
+      "value": 500.0,
+      "warning": "Carbon budgets depend on temperature goal, probability framing, and uncertainty."
+    },
+    {
+      "interpretation": "illustrative negative-emissions rate",
+      "parameter_name": "removal_rate",
+      "unit": "GtCO2 per year",
+      "value": 5.0,
+      "warning": "Removal feasibility, permanence, scale, and governance must be reviewed."
+    },
+    {
+      "interpretation": "persistent long-lived carbon response component",
+      "parameter_name": "persistent_fraction",
+      "unit": "fraction",
+      "value": 0.2,
+      "warning": "Impulse response assumptions shape long-term burden."
+    },
+    {
+      "interpretation": "illustrative warming-related sink weakening",
+      "parameter_name": "sink_feedback_strength",
+      "unit": "fraction per K",
+      "value": 0.05,
+      "warning": "Carbon-cycle feedback is process-dependent and uncertain."
+    }
+  ],
+  "scenario_records": [
+    {
+      "atmospheric_burden": 798.7196131780568,
+      "budget_exhaustion_year": 12,
+      "cumulative_emissions": 1240.0,
+      "final_year": 30,
+      "interpretation": "constant emissions continue accumulating carbon",
+      "pathway_type": "constant",
+      "scenario_name": "constant_emissions"
+    },
+    {
+      "atmospheric_burden": 359.06002402979215,
+      "budget_exhaustion_year": 17,
+      "cumulative_emissions": 620.0,
+      "final_year": 30,
+      "interpretation": "linear decline reaches zero after 30 years",
+      "pathway_type": "linear_decline",
+      "scenario_name": "linear_decline_to_zero"
+    },
+    {
+      "atmospheric_burden": 277.20477119140605,
+      "budget_exhaustion_year": null,
+      "cumulative_emissions": 476.6978317734561,
+      "final_year": 30,
+      "interpretation": "exponential decline reduces early cumulative burden",
+      "pathway_type": "exponential_decline",
+      "scenario_name": "exponential_decline"
+    },
+    {
+      "atmospheric_burden": 520.1244746555868,
+      "budget_exhaustion_year": 12,
+      "cumulative_emissions": 920.0,
+      "final_year": 35,
+      "interpretation": "delayed action increases cumulative burden before net zero",
+      "pathway_type": "net_zero",
+      "scenario_name": "net_zero_after_plateau"
+    },
+    {
+      "atmospheric_burden": 230.9556331179824,
+      "budget_exhaustion_year": 17,
+      "cumulative_emissions": 520.0,
+      "final_year": 50,
+      "interpretation": "negative emissions partly offset earlier cumulative emissions",
+      "pathway_type": "overshoot",
+      "scenario_name": "overshoot_with_negative_emissions"
+    }
+  ]
+}

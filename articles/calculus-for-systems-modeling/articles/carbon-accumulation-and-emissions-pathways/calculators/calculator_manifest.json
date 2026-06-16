@@ -1,0 +1,21 @@
+{
+  "article_slug": "carbon-accumulation-and-emissions-pathways",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "cumulative-linear", "title": "Linear Decline Cumulative Emissions Calculator"},
+    {"id": "cumulative-exponential", "title": "Exponential Decline Cumulative Emissions Calculator"},
+    {"id": "atmospheric-burden", "title": "Fixed Airborne Fraction Burden Calculator"},
+    {"id": "budget-check", "title": "Carbon Budget Check Calculator"},
+    {"id": "overshoot", "title": "Overshoot and Negative Emissions Calculator"},
+    {"id": "impulse-burden", "title": "Impulse Response Burden Calculator"},
+    {"id": "removal-warning", "title": "Removal Governance Warning"},
+    {"id": "accounting-warning", "title": "Accounting Boundary Warning"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

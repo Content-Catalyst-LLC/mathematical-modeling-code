@@ -1,0 +1,5 @@
+"scenario_name","cumulative_emissions","atmospheric_burden","warning"
+"constant_emissions",1240,798.719613178057,"constant emissions continue accumulation"
+"linear_decline_to_zero",620,359.060024029792,"linear decline still accumulates until net zero"
+"exponential_decline",476.697831773456,277.204771191406,"early reductions reduce cumulative burden"
+"overshoot_with_negative_emissions",520,230.955633117982,"negative emissions require feasibility and permanence review"

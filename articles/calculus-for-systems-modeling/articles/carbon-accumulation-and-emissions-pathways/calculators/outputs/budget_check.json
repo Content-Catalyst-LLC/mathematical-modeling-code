@@ -1,0 +1,14 @@
+{
+  "calculator": "budget-check",
+  "inputs": {
+    "budget": 500.0,
+    "command": "budget-check",
+    "cumulative": 600.0
+  },
+  "interpretation": "Checks cumulative emissions against an illustrative carbon budget.",
+  "result": {
+    "exceeds_budget": true,
+    "overshoot_amount": 100.0
+  },
+  "warning": "Carbon budgets are conditional estimates, not exact guarantees."
+}

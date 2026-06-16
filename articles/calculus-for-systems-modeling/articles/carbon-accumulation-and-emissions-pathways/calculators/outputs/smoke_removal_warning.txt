@@ -1,0 +1,14 @@
+{
+  "calculator": "removal-warning",
+  "inputs": {
+    "command": "removal-warning",
+    "gross": 10.0,
+    "removal": 10.0
+  },
+  "interpretation": "Separates gross emissions and removals.",
+  "result": {
+    "net_emissions": 0.0,
+    "net_zero_or_below": true
+  },
+  "warning": "Net-zero and overshoot claims require removal governance."
+}

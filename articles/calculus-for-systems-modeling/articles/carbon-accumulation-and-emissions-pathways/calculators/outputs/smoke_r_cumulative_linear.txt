@@ -1,0 +1,4 @@
+         calculator e0 years cumulative_emissions final_emissions
+1 cumulative-linear 40    30                  620               0
+                                                     warning
+1 Linear decline still accumulates emissions until net zero.

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_boundary,result_note
+accounting-warning,Creates an accounting-boundary governance warning.,"Carbon pathway conclusions should not exceed accounting boundaries, evidence, assumptions, uncertainty, and tested scope.",accounting-warning,global_co2,"Global CO2 accounting should state emissions sources, units, and time horizon."

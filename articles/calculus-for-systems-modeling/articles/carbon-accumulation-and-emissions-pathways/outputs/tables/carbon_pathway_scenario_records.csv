@@ -1,0 +1,6 @@
+scenario_name,pathway_type,final_year,cumulative_emissions,atmospheric_burden,budget_exhaustion_year,interpretation
+constant_emissions,constant,30,1240.0,798.7196131780568,12,constant emissions continue accumulating carbon
+linear_decline_to_zero,linear_decline,30,620.0,359.06002402979215,17,linear decline reaches zero after 30 years
+exponential_decline,exponential_decline,30,476.6978317734561,277.20477119140605,,exponential decline reduces early cumulative burden
+net_zero_after_plateau,net_zero,35,920.0,520.1244746555868,12,delayed action increases cumulative burden before net zero
+overshoot_with_negative_emissions,overshoot,50,520.0,230.9556331179824,17,negative emissions partly offset earlier cumulative emissions

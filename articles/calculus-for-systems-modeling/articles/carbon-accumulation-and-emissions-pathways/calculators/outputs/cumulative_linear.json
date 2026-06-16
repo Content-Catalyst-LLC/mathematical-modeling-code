@@ -1,0 +1,14 @@
+{
+  "calculator": "cumulative-linear",
+  "inputs": {
+    "command": "cumulative-linear",
+    "e0": 40.0,
+    "years": 30
+  },
+  "interpretation": "Computes cumulative emissions for a linear decline pathway.",
+  "result": {
+    "cumulative_emissions": 620.0,
+    "final_emissions": 0.0
+  },
+  "warning": "Linear decline still accumulates emissions until net zero."
+}

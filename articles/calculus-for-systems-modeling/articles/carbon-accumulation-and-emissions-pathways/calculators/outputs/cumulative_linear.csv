@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_e0,input_years,result_cumulative_emissions,result_final_emissions
+cumulative-linear,Computes cumulative emissions for a linear decline pathway.,Linear decline still accumulates emissions until net zero.,cumulative-linear,40.0,30,620.0,0.0

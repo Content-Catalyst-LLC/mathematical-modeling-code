@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_e0,input_rate,input_years,result_cumulative_emissions,result_final_emissions
+cumulative-exponential,Computes cumulative emissions for an exponential decline pathway.,Pathway assumptions should not be presented as predictions.,cumulative-exponential,40.0,0.08,30,476.6978317734561,3.6287181315765005

@@ -1,0 +1,22 @@
+{
+  "article": "Case Study: Carbon Accumulation and Emissions Pathways",
+  "advanced_standard": true,
+  "features": [
+    "stock-flow carbon balance",
+    "emissions pathways",
+    "cumulative emissions",
+    "atmospheric burden",
+    "impulse response",
+    "carbon budget exhaustion",
+    "net zero and overshoot",
+    "removal governance",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Annual-flow values are not enough; cumulative burden matters.",
+    "Net zero does not erase past accumulation.",
+    "Removals require feasibility, durability, and governance review.",
+    "Carbon budgets are conditional estimates, not exact guarantees."
+  ]
+}

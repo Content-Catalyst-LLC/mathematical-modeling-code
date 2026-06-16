@@ -1,0 +1,71 @@
+section                           
+----------------------------------
+CARBON PATHWAY GOVERNANCE REGISTRY
+registry_name      analytical_role                                               systems_modeling_role                                       review_warning                                              
+-----------------  ------------------------------------------------------------  ----------------------------------------------------------  ------------------------------------------------------------
+Budget record      Documents carbon budget, temperature goal, probability frami  Connects cumulative emissions to pathway constraints.       Carbon budgets are conditional estimates, not exact guarante
+                   ng, historical emissions, and remaining allowance.                                                                        es.                                                         
+
+Claim boundary     Defines whether the model supports teaching, pathway compari  Prevents overclaiming and scope drift.                      Carbon pathway conclusions should not exceed accounting boun
+                   son, carbon budgeting, policy analysis, or decision support.                                                              daries, evidence, assumptions, uncertainty, and tested scope
+                                                                                                                                             .                                                           
+
+Pathway record     Documents whether emissions follow historical, baseline, mit  Separates scenario assumptions from physical accumulation.  Pathway scenarios should not be presented as guaranteed futu
+                   igation, net-zero, overshoot, or negative-emissions pathways                                                              res.                                                        
+                   .                                                                                                                                                                                     
+
+Removal record     Documents negative-emissions rate, durability, accounting st  Separates gross emissions, removals, and net emissions.     Net-zero and overshoot claims require removal governance.   
+                   atus, feasibility, and permanence.                                                                                                                                                    
+
+Sink record        Documents land uptake, ocean uptake, airborne fraction, impu  Connects atmospheric accumulation to reservoir exchange.    Fixed sink assumptions can hide nonlinear carbon-cycle feedb
+                   lse response, and carbon-cycle feedback assumptions.                                                                      ack.                                                        
+
+Stock-flow record  Defines emissions, removals, atmospheric carbon, land sinks,  Makes accumulation and pathway memory explicit.             Carbon pathway outputs cannot be interpreted responsibly if 
+                    ocean sinks, units, and accounting boundary.                                                                             stock-flow definitions are unclear.                         
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name     value  unit            interpretation                        warning                                                     
+-----------------  -----  --------------  ------------------------------------  ------------------------------------------------------------
+E0                 40.0   GtCO2 per year  initial annual emissions              Accounting boundary must be documented.                     
+
+airborne_fraction  0.45   fraction        fixed simplified airborne fraction    Airborne fraction is not constant across all time scales and
+                                                                                 scenarios.                                                 
+
+budget             500.0  GtCO2           illustrative remaining carbon budget  Carbon budgets depend on temperature goal, probability frami
+                                                                                ng, and uncertainty.                                        
+
+decline_rate       0.08   per year        exponential emissions decline rate    Pathway assumptions should not be presented as predictions. 
+
+removal_rate       5.0    GtCO2 per year  illustrative negative-emissions rate  Removal feasibility, permanence, scale, and governance must 
+                                                                                be reviewed.                                                
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                      pathway_type         cumulative_emissions  atmospheric_burden  interpretation                                                warning                                                     
+---------------------------------  -------------------  --------------------  ------------------  ------------------------------------------------------------  ------------------------------------------------------------
+constant_emissions                 constant             1240.0                558.0               constant emissions continue accumulating carbon               Annual-flow values are not enough; cumulative burden matters
+                                                                                                                                                                .                                                           
+
+exponential_decline                exponential_decline  480.0                 216.0               exponential decline reduces early cumulative burden           Pathway shape changes cumulative burden.                    
+
+linear_decline_to_zero             linear_decline       600.0                 270.0               linear decline reaches zero after 30 years                    Net zero does not erase past accumulation.                  
+
+overshoot_with_negative_emissions  overshoot            500.0                 225.0               negative emissions partly offset earlier cumulative emission  Removals require feasibility, durability, and governance rev
+                                                                                                  s                                                             iew.                                                        
+section       
+--------------
+BUDGET RECORDS
+scenario_name                      cumulative_emissions  budget  exceeds_budget  warning                                                     
+---------------------------------  --------------------  ------  --------------  ------------------------------------------------------------
+constant_emissions                 1240.0                500.0   1               Carbon budgets are conditional estimates, not exact guarante
+                                                                                 es.                                                         
+
+exponential_decline                480.0                 500.0   0               Carbon budgets are conditional estimates, not exact guarante
+                                                                                 es.                                                         
+
+linear_decline_to_zero             600.0                 500.0   1               Carbon budgets are conditional estimates, not exact guarante
+                                                                                 es.                                                         
+
+overshoot_with_negative_emissions  500.0                 500.0   0               Carbon budgets are conditional estimates, not exact guarante
+                                                                                 es.                                                         

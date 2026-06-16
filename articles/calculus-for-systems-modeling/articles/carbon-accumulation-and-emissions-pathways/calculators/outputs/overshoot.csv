@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_e0,input_decline_years,input_negative_years,input_removal_rate,result_cumulative_emissions,result_minimum_emissions
+overshoot,Computes cumulative emissions for an overshoot pathway with negative emissions.,"Negative emissions require feasibility, permanence, scale, and governance review.",overshoot,40.0,30,20,5.0,520.0,-5.0

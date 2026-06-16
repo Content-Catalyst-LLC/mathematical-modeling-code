@@ -1,0 +1,15 @@
+{
+  "calculator": "cumulative-exponential",
+  "inputs": {
+    "command": "cumulative-exponential",
+    "e0": 40.0,
+    "rate": 0.08,
+    "years": 30
+  },
+  "interpretation": "Computes cumulative emissions for an exponential decline pathway.",
+  "result": {
+    "cumulative_emissions": 476.6978317734561,
+    "final_emissions": 3.6287181315765005
+  },
+  "warning": "Pathway assumptions should not be presented as predictions."
+}

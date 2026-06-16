@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_gross,input_removal,result_net_emissions,result_net_zero_or_below
+removal-warning,Separates gross emissions and removals.,Net-zero and overshoot claims require removal governance.,removal-warning,10.0,10.0,0.0,True

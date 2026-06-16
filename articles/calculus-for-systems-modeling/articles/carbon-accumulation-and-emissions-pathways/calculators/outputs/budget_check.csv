@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_cumulative,input_budget,result_exceeds_budget,result_overshoot_amount
+budget-check,Checks cumulative emissions against an illustrative carbon budget.,"Carbon budgets are conditional estimates, not exact guarantees.",budget-check,600.0,500.0,True,100.0

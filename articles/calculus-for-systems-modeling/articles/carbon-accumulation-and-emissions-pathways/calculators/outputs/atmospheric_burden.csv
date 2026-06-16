@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_cumulative,input_airborne_fraction,result_atmospheric_burden
+atmospheric-burden,Computes simplified atmospheric burden using fixed airborne fraction.,Airborne fraction is not constant across all time scales and scenarios.,atmospheric-burden,600.0,0.45,270.0

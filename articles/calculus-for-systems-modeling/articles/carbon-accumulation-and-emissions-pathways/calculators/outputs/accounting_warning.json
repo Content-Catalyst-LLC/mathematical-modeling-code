@@ -1,0 +1,12 @@
+{
+  "calculator": "accounting-warning",
+  "inputs": {
+    "boundary": "global_co2",
+    "command": "accounting-warning"
+  },
+  "interpretation": "Creates an accounting-boundary governance warning.",
+  "result": {
+    "note": "Global CO2 accounting should state emissions sources, units, and time horizon."
+  },
+  "warning": "Carbon pathway conclusions should not exceed accounting boundaries, evidence, assumptions, uncertainty, and tested scope."
+}

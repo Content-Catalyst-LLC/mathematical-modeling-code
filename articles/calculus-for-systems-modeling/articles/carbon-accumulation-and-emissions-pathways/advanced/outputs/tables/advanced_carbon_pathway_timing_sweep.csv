@@ -1,0 +1,4 @@
+decline_years,cumulative_emissions,exceeds_500Gt_budget,warning
+15,320.0,False,Decline timing changes cumulative burden.
+30,620.0,True,Decline timing changes cumulative burden.
+45,920.0,True,Decline timing changes cumulative burden.

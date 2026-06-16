@@ -1,0 +1,13 @@
+{
+  "calculator": "atmospheric-burden",
+  "inputs": {
+    "airborne_fraction": 0.45,
+    "command": "atmospheric-burden",
+    "cumulative": 600.0
+  },
+  "interpretation": "Computes simplified atmospheric burden using fixed airborne fraction.",
+  "result": {
+    "atmospheric_burden": 270.0
+  },
+  "warning": "Airborne fraction is not constant across all time scales and scenarios."
+}

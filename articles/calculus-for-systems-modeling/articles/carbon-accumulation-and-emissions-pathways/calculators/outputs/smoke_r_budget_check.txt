@@ -1,0 +1,4 @@
+    calculator cumulative budget exceeds_budget overshoot_amount
+1 budget-check        600    500           TRUE              100
+                                                          warning
+1 Carbon budgets are conditional estimates, not exact guarantees.
