@@ -1,0 +1,24 @@
+actual_title: "Initial Conditions, Boundary Conditions, and Model Scope"
+suggested_seo_title: "Initial Conditions, Boundary Conditions, and Model Scope"
+focus_keyword: "initial conditions boundary conditions model scope"
+slug: "initial-conditions-boundary-conditions-and-model-scope"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "reproducible-calculus-workflows-in-r-markdown-jupyter-and-multi-language-repositories"
+  current: "initial-conditions-boundary-conditions-and-model-scope"
+  next: "scaling-units-and-nondimensionalization"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/initial-conditions-boundary-conditions-and-model-scope"
+tags:
+  - Calculus
+  - Initial Conditions
+  - Boundary Conditions
+  - Model Scope
+  - Differential Equations
+  - Model Governance
+  - Scientific Computing
+  - Systems Modeling
+excerpt_139_words: "Initial conditions, boundary conditions, and model scope define where a mathematical model begins, where it is allowed to operate, and what claims it can responsibly support. This article introduces these foundations for calculus-based systems modeling, including starting values, boundary rules, temporal horizons, spatial domains, parameter ranges, data domains, solver settings, sensitivity to starting assumptions, boundary effects, scope creep, and responsible interpretation. It shows why conditions and scope matter: differential equations require initial or boundary information to produce meaningful solutions, spatial models depend on edge behavior, and systems models can be misused when applied beyond their intended domain. In computational workflows, condition and scope audits support initial-condition tables, boundary-condition records, scope registries, SQL governance tables, Haskell typed records, calculator scripts, and generated reports. The article emphasizes documenting units, sources, uncertainty, domains, warnings, and claim boundaries."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

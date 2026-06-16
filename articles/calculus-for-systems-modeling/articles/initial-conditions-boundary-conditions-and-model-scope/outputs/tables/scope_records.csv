@@ -1,0 +1,4 @@
+scope_dimension,allowed_domain,intended_use,review_warning
+temporal_scope,0 to 20 time units,short-horizon teaching simulation,Do not interpret as long-term forecast.
+parameter_scope,growth_rate between 0.1 and 0.6,local sensitivity and teaching examples,Do not use outside tested parameter range without review.
+decision_scope,exploratory and educational use,model interpretation and workflow demonstration,Do not treat as direct decision prescription.

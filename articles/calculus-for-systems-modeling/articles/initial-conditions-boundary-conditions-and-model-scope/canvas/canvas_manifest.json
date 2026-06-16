@@ -1,0 +1,22 @@
+{
+  "article_slug": "initial-conditions-boundary-conditions-and-model-scope",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "initial-conditions-boundary-scope",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "initial-condition", "title": "Initial Condition", "description": "Starting value, unit, source, and uncertainty."},
+    {"card_id": "boundary-condition", "title": "Boundary Condition", "description": "Edge behavior, flux rule, or boundary value."},
+    {"card_id": "temporal-scope", "title": "Temporal Scope", "description": "Modeled time interval and forecast horizon."},
+    {"card_id": "parameter-scope", "title": "Parameter Scope", "description": "Tested or plausible parameter ranges."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Limits on responsible interpretation and use."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

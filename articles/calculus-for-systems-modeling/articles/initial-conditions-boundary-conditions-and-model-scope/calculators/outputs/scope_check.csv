@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_value,input_lower,input_upper,result_in_scope
+scope-check,Checks whether a parameter is within documented scope.,Using values outside tested ranges requires review.,scope-check,0.35,0.1,0.6,True

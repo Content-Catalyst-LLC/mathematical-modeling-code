@@ -1,0 +1,7 @@
+concept_key,concept_name,analytical_role,systems_modeling_role,review_warning
+initial_condition,Initial condition,Specifies the model starting state,Selects a trajectory or scenario from many possible paths,Initial conditions should include unit source uncertainty and baseline notes
+boundary_condition,Boundary condition,Specifies behavior at the edge of a domain,Controls flow reflection absorption exchange or constraint,Boundary assumptions can dominate spatial model behavior
+temporal_scope,Temporal scope,Defines the modeled time interval and horizon,Limits how far a model can responsibly be projected,Short-horizon models should not be treated as long-term forecasts
+spatial_scope,Spatial scope,Defines the region network or domain included in the model,Clarifies what is inside and outside the modeled system,Excluded surroundings may still affect real-world behavior
+parameter_scope,Parameter scope,Defines tested or plausible parameter ranges,Prevents unsupported parameter extrapolation,Using values outside tested ranges requires review
+claim_boundary,Claim boundary,Defines what a model output can responsibly support,Separates computation from interpretation and decision use,Model results should not be used beyond documented scope

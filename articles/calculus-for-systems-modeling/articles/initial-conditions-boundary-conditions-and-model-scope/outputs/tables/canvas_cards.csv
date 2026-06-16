@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+initial-condition,Initial Condition,condition record,96,active,2026-06-15,"Starting values need units, sources, and uncertainty notes."
+boundary-condition,Boundary Condition,boundary record,95,review,2026-06-15,Boundary assumptions can dominate spatial model behavior.
+temporal-scope,Temporal Scope,scope governance,94,active,2026-06-15,Short-horizon models should not be treated as long-term forecasts.
+parameter-scope,Parameter Scope,scope governance,93,active,2026-06-15,Using values outside tested ranges requires review.
+claim-boundary,Claim Boundary,interpretation governance,92,review,2026-06-15,Model results should not be used beyond documented scope.

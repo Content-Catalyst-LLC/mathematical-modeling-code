@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_initial_stock,input_growth_rate,input_carrying_capacity,input_horizon,result_final_stock
+logistic-final,Computes a logistic final state from an initial condition.,Synthetic teaching example; do not treat as empirical forecast.,logistic-final,10.0,0.35,100.0,20.0,99.18598678672114

@@ -1,0 +1,13 @@
+{
+  "calculator": "condition-scope-warning",
+  "inputs": {
+    "command": "condition-scope-warning",
+    "pattern": "claim_boundary"
+  },
+  "interpretation": "Creates a condition and scope interpretation warning.",
+  "result": {
+    "note": "Model results should not be used beyond documented scope.",
+    "pattern": "claim_boundary"
+  },
+  "warning": "Scope is the boundary of responsible use."
+}

@@ -1,0 +1,3 @@
+boundary_name,boundary_type,value_note,systems_interpretation,warning
+left_edge,no_flux,zero normal flux,material does not leave through the left boundary,No-flux boundaries may overstate retention if the real system is open.
+right_edge,absorbing,outflow allowed,material can leave the modeled domain,Absorbing boundaries may understate feedback from surroundings.

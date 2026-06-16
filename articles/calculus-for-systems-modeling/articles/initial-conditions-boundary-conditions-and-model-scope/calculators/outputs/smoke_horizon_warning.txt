@@ -1,0 +1,13 @@
+{
+  "calculator": "horizon-warning",
+  "inputs": {
+    "command": "horizon-warning",
+    "horizon": 20.0,
+    "maximum_supported": 20.0
+  },
+  "interpretation": "Checks whether a time horizon is within documented temporal scope.",
+  "result": {
+    "within_supported_horizon": true
+  },
+  "warning": "Short-horizon models should not be treated as long-term forecasts."
+}

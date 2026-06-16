@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "initial-condition",
+    "category": "condition record",
+    "governance_note": "Starting values need units, sources, and uncertainty notes.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Initial Condition"
+  },
+  {
+    "card_id": "boundary-condition",
+    "category": "boundary record",
+    "governance_note": "Boundary assumptions can dominate spatial model behavior.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Boundary Condition"
+  },
+  {
+    "card_id": "temporal-scope",
+    "category": "scope governance",
+    "governance_note": "Short-horizon models should not be treated as long-term forecasts.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Temporal Scope"
+  },
+  {
+    "card_id": "parameter-scope",
+    "category": "scope governance",
+    "governance_note": "Using values outside tested ranges requires review.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Parameter Scope"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "interpretation governance",
+    "governance_note": "Model results should not be used beyond documented scope.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

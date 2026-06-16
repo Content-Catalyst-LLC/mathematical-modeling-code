@@ -1,0 +1,25 @@
+{
+  "article": "Initial Conditions, Boundary Conditions, and Model Scope",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Initial conditions should include unit, source, uncertainty, and baseline notes.",
+    "Boundary assumptions can dominate spatial model behavior.",
+    "Short-horizon models should not be treated as long-term forecasts.",
+    "Using values outside tested ranges requires review.",
+    "Model results should not be used beyond documented scope."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "calculator": "boundary-warning",
+  "inputs": {
+    "boundary_type": "no_flux",
+    "command": "boundary-warning"
+  },
+  "interpretation": "Creates a boundary interpretation warning.",
+  "result": {
+    "boundary_type": "no_flux",
+    "note": "No-flux boundaries may overstate retention if the real system is open."
+  },
+  "warning": "Boundary assumptions can dominate model behavior."
+}

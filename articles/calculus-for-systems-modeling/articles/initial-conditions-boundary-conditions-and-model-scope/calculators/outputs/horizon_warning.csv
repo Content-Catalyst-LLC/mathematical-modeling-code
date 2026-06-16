@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_horizon,input_maximum_supported,result_within_supported_horizon
+horizon-warning,Checks whether a time horizon is within documented temporal scope.,Short-horizon models should not be treated as long-term forecasts.,horizon-warning,20.0,20.0,True

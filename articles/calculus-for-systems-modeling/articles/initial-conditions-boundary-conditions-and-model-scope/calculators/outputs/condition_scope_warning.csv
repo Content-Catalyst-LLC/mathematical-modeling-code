@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_pattern,result_pattern,result_note
+condition-scope-warning,Creates a condition and scope interpretation warning.,Scope is the boundary of responsible use.,condition-scope-warning,claim_boundary,claim_boundary,Model results should not be used beyond documented scope.

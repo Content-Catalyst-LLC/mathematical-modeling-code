@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_low,input_baseline,input_high,input_growth_rate,input_carrying_capacity,input_horizon,result_low_final,result_baseline_final,result_high_final,result_low_effect,result_high_effect
+initial-condition-effect,Compares final-state sensitivity to starting values.,Initial-condition sensitivity changes interpretation.,initial-condition-effect,5.0,10.0,20.0,0.35,100.0,20.0,98.29693122183957,99.18598678672114,99.63657282452661,-0.8890555648815734,0.4505860378054649

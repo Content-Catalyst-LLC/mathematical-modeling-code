@@ -1,0 +1,2 @@
+"calculator","value","lower","upper","in_scope","warning"
+"scope-check",0.35,0.1,0.6,TRUE,"Using values outside tested ranges requires review."

@@ -1,0 +1,21 @@
+{
+  "calculator": "initial-condition-effect",
+  "inputs": {
+    "baseline": 10.0,
+    "carrying_capacity": 100.0,
+    "command": "initial-condition-effect",
+    "growth_rate": 0.35,
+    "high": 20.0,
+    "horizon": 20.0,
+    "low": 5.0
+  },
+  "interpretation": "Compares final-state sensitivity to starting values.",
+  "result": {
+    "baseline_final": 99.18598678672114,
+    "high_effect": 0.4505860378054649,
+    "high_final": 99.63657282452661,
+    "low_effect": -0.8890555648815734,
+    "low_final": 98.29693122183957
+  },
+  "warning": "Initial-condition sensitivity changes interpretation."
+}

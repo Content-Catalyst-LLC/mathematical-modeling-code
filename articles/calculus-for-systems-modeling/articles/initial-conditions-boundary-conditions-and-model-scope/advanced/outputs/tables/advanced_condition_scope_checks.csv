@@ -1,0 +1,9 @@
+condition,passed,warning
+initial condition records included,True,
+boundary condition records included,True,Boundary assumptions can dominate spatial model behavior.
+scope records included,True,Model results should not be used beyond documented scope.
+SQL governance registry included,True,
+Haskell typed scope records included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

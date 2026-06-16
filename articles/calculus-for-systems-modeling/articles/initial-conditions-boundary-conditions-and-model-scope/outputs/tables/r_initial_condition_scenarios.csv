@@ -1,0 +1,4 @@
+"scenario","initial_stock","growth_rate","carrying_capacity","horizon","scope_warning","final_stock","initial_condition_effect"
+"low_initial_stock",5,0.35,100,20,"Synthetic teaching scenario; do not treat as empirical forecast.",98.2969312218396,-0.889055564881573
+"baseline_initial_stock",10,0.35,100,20,"Synthetic teaching scenario; do not treat as empirical forecast.",99.1859867867211,0
+"high_initial_stock",20,0.35,100,20,"Synthetic teaching scenario; do not treat as empirical forecast.",99.6365728245266,0.450586037805465

@@ -1,0 +1,4 @@
+      calculator initial_stock final_stock
+1 logistic-final            10    99.18599
+                                                          warning
+1 Synthetic teaching example; do not treat as empirical forecast.

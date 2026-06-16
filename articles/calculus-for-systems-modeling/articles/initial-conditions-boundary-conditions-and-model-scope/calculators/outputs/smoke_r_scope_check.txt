@@ -1,0 +1,4 @@
+   calculator value lower upper in_scope
+1 scope-check  0.35   0.1   0.6     TRUE
+                                              warning
+1 Using values outside tested ranges requires review.

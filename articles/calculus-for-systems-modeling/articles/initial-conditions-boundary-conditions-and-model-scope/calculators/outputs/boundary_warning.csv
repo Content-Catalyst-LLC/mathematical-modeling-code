@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_boundary_type,result_boundary_type,result_note
+boundary-warning,Creates a boundary interpretation warning.,Boundary assumptions can dominate model behavior.,boundary-warning,no_flux,no_flux,No-flux boundaries may overstate retention if the real system is open.

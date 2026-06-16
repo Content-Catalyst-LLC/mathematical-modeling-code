@@ -1,0 +1,31 @@
+section                            
+-----------------------------------
+CONDITION SCOPE GOVERNANCE REGISTRY
+registry_name       analytical_role                                               systems_modeling_role                                         review_warning                                              
+------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary condition  Specifies behavior at the edge of a domain.                   Controls flow, reflection, absorption, exchange, or constrai  Boundary assumptions can dominate spatial model behavior.   
+                                                                                  nt.                                                                                                                       
+
+Claim boundary      Defines what a model output can responsibly support.          Separates computation from interpretation and decision use.   Model results should not be used beyond documented scope.   
+
+Initial condition   Specifies the model starting state.                           Selects a trajectory or scenario from many possible paths.    Initial conditions should include unit, source, uncertainty,
+                                                                                                                                                 and baseline notes.                                        
+
+Parameter scope     Defines tested or plausible parameter ranges.                 Prevents unsupported parameter extrapolation.                 Using values outside tested ranges requires review.         
+
+Spatial scope       Defines the region, network, or domain included in the model  Clarifies what is inside and outside the modeled system.      Excluded surroundings may still affect real-world behavior. 
+                    .                                                                                                                                                                                       
+
+Temporal scope      Defines the modeled time interval and horizon.                Limits how far a model can responsibly be projected.          Short-horizon models should not be treated as long-term fore
+                                                                                                                                                casts.                                                      
+section                
+-----------------------
+CONDITION SCOPE RECORDS
+record_type         record_name       value_or_domain     source_or_interpretation                           warning                                                     
+------------------  ----------------  ------------------  -------------------------------------------------  ------------------------------------------------------------
+boundary_condition  left_edge         no_flux             material does not leave through the left boundary  no-flux boundaries may overstate retention if the real syste
+                                                                                                             m is open                                                   
+
+initial_condition   population_stock  10 state units      synthetic teaching baseline                        baseline chosen for demonstration                           
+
+scope_record        temporal_scope    0 to 20 time units  short-horizon teaching simulation                  do not interpret as long-term forecast                      

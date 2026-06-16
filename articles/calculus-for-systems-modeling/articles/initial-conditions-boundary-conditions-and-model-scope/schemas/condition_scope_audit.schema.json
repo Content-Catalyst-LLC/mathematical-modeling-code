@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConditionScopeAudit",
+  "type": "object",
+  "required": ["initial_conditions", "boundary_conditions", "scope_records"],
+  "properties": {
+    "initial_conditions": {"type": "array"},
+    "boundary_conditions": {"type": "array"},
+    "scope_records": {"type": "array"}
+  }
+}

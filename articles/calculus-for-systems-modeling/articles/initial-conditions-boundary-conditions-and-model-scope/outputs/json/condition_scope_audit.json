@@ -1,0 +1,54 @@
+{
+  "boundary_conditions": [
+    {
+      "boundary_name": "left_edge",
+      "boundary_type": "no_flux",
+      "systems_interpretation": "material does not leave through the left boundary",
+      "value_note": "zero normal flux",
+      "warning": "No-flux boundaries may overstate retention if the real system is open."
+    },
+    {
+      "boundary_name": "right_edge",
+      "boundary_type": "absorbing",
+      "systems_interpretation": "material can leave the modeled domain",
+      "value_note": "outflow allowed",
+      "warning": "Absorbing boundaries may understate feedback from surroundings."
+    }
+  ],
+  "initial_conditions": [
+    {
+      "source_note": "synthetic teaching baseline",
+      "uncertainty_note": "baseline chosen for demonstration",
+      "unit": "state units",
+      "value": 10.0,
+      "variable_name": "population_stock"
+    },
+    {
+      "source_note": "model convention",
+      "uncertainty_note": "no empirical timestamp attached",
+      "unit": "time units",
+      "value": 0.0,
+      "variable_name": "time_start"
+    }
+  ],
+  "scope_records": [
+    {
+      "allowed_domain": "0 to 20 time units",
+      "intended_use": "short-horizon teaching simulation",
+      "review_warning": "Do not interpret as long-term forecast.",
+      "scope_dimension": "temporal_scope"
+    },
+    {
+      "allowed_domain": "growth_rate between 0.1 and 0.6",
+      "intended_use": "local sensitivity and teaching examples",
+      "review_warning": "Do not use outside tested parameter range without review.",
+      "scope_dimension": "parameter_scope"
+    },
+    {
+      "allowed_domain": "exploratory and educational use",
+      "intended_use": "model interpretation and workflow demonstration",
+      "review_warning": "Do not treat as direct decision prescription.",
+      "scope_dimension": "decision_scope"
+    }
+  ]
+}

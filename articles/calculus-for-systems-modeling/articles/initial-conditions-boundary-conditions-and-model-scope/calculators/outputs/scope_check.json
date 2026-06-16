@@ -1,0 +1,14 @@
+{
+  "calculator": "scope-check",
+  "inputs": {
+    "command": "scope-check",
+    "lower": 0.1,
+    "upper": 0.6,
+    "value": 0.35
+  },
+  "interpretation": "Checks whether a parameter is within documented scope.",
+  "result": {
+    "in_scope": true
+  },
+  "warning": "Using values outside tested ranges requires review."
+}

@@ -1,0 +1,19 @@
+{
+  "article_slug": "initial-conditions-boundary-conditions-and-model-scope",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-final", "title": "Logistic Final State"},
+    {"id": "initial-condition-effect", "title": "Initial Condition Effect"},
+    {"id": "scope-check", "title": "Parameter Scope Check"},
+    {"id": "boundary-warning", "title": "Boundary Warning"},
+    {"id": "horizon-warning", "title": "Horizon Warning"},
+    {"id": "condition-scope-warning", "title": "Condition and Scope Warning Note"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}
