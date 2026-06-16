@@ -1,0 +1,4 @@
+feedback,equilibrium_temperature,temperature_80yr,sensitivity_to_lambda,warning
+0.9,4.111111111111112,4.110603759694311,-4.567901234567901,Feedback sign convention and uncertainty must be documented.
+1.2,3.0833333333333335,3.0833143886785774,-2.5694444444444446,Feedback sign convention and uncertainty must be documented.
+1.6,2.3125,2.3124997397624085,-1.4453124999999998,Feedback sign convention and uncertainty must be documented.

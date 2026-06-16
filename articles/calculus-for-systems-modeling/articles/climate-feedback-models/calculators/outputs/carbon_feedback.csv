@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_forcing,input_temperature,input_beta_carbon,result_adjusted_forcing
+carbon-feedback,Computes simplified warming-dependent carbon-cycle feedback forcing.,Carbon-cycle feedback is process-dependent and uncertain.,carbon-feedback,3.7,3.0,0.15,4.15

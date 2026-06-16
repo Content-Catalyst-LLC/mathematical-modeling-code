@@ -1,0 +1,13 @@
+{
+  "calculator": "ecs",
+  "inputs": {
+    "command": "ecs",
+    "feedback": 1.2,
+    "forcing": 3.7
+  },
+  "interpretation": "Computes simplified equilibrium response under fixed forcing and restoring feedback.",
+  "result": {
+    "equilibrium_response": 3.0833333333333335
+  },
+  "warning": "Equilibrium response should not be confused with near-term forecast."
+}

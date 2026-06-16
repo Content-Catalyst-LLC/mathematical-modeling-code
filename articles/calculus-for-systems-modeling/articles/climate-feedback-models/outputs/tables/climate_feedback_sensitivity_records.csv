@@ -1,0 +1,2 @@
+sensitivity_name,derivative,interpretation,warning
+equilibrium_sensitivity_to_lambda,-2.5694444444444446,"In the simple equilibrium model, temperature response changes strongly as feedback strength changes.",Sensitivity to feedback strength depends on sign convention and simplified model structure.

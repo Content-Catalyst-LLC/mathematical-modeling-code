@@ -1,0 +1,16 @@
+{
+  "calculator": "one-box",
+  "inputs": {
+    "command": "one-box",
+    "feedback": 1.2,
+    "forcing": 3.7,
+    "heat_capacity": 8.0,
+    "time": 80.0
+  },
+  "interpretation": "Computes one-box energy-balance temperature response.",
+  "result": {
+    "equilibrium_temperature": 3.0833333333333335,
+    "temperature": 3.0833143886785774
+  },
+  "warning": "One-box models clarify structure but are not complete Earth-system models."
+}

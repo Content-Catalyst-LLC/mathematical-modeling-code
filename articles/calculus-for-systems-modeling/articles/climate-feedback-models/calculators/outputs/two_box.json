@@ -1,0 +1,18 @@
+{
+  "calculator": "two-box",
+  "inputs": {
+    "command": "two-box",
+    "deep_capacity": 100.0,
+    "exchange": 0.7,
+    "feedback": 1.2,
+    "forcing": 3.7,
+    "surface_capacity": 8.0,
+    "time": 80.0
+  },
+  "interpretation": "Computes simplified two-box surface/deep-ocean heat uptake response.",
+  "result": {
+    "deep_ocean_temperature": 0.8702578337137482,
+    "surface_temperature": 2.252696634113497
+  },
+  "warning": "Ocean uptake controls transient response and committed warming."
+}

@@ -1,0 +1,14 @@
+{
+  "article_slug": "climate-feedback-models",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "climate-feedback-models-case-study",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {"card_id": "forcing-record", "title": "Forcing Record", "description": "Greenhouse gas, aerosol, land-use, solar, volcanic, and scenario assumptions."},
+    {"card_id": "feedback-record", "title": "Feedback Record", "description": "Planck, water vapor, lapse-rate, cloud, albedo, carbon-cycle, and ocean feedback assumptions."},
+    {"card_id": "sign-convention", "title": "Sign Convention", "description": "Restoring-positive or climate-feedback sign convention."},
+    {"card_id": "time-scale-record", "title": "Time-Scale Record", "description": "Heat capacity, ocean uptake, transient response, and equilibrium response."},
+    {"card_id": "claim-boundary", "title": "Claim Boundary", "description": "Teaching, exploration, sensitivity analysis, scenario comparison, or decision support."}
+  ]
+}

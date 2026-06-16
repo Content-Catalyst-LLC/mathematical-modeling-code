@@ -1,0 +1,6 @@
+"parameter_name","value","unit","warning"
+"F",3.7,"W m^-2","Forcing depends on the forcing agent and scenario."
+"lambda_low",0.9,"W m^-2 K^-1","Weak restoring feedback produces larger response."
+"lambda_baseline",1.2,"W m^-2 K^-1","Sign convention must be documented."
+"lambda_high",1.6,"W m^-2 K^-1","Strong restoring feedback produces smaller response."
+"C",8,"W yr m^-2 K^-1","Heat capacity controls time scale."

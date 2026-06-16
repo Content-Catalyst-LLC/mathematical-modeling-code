@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_forcing,input_feedback,result_dT_dlambda
+feedback-sensitivity,Computes equilibrium sensitivity to feedback strength under restoring-positive convention.,Feedback sign convention and uncertainty must be documented.,feedback-sensitivity,3.7,1.2,-2.5694444444444446

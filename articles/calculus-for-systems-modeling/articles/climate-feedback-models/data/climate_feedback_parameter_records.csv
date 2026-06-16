@@ -1,0 +1,8 @@
+parameter_name,value,unit,interpretation,warning
+F,3.7,W m^-2,simplified forcing from doubled carbon dioxide,Forcing depends on forcing agent and scenario
+lambda,1.2,W m^-2 K^-1,net restoring feedback strength using restoring-positive convention,Feedback sign convention must be documented
+C,8.0,W yr m^-2 K^-1,effective surface heat capacity,Heat capacity summarizes ocean and atmosphere response
+kappa,0.7,W m^-2 K^-1,surface-to-deep-ocean heat exchange,Ocean uptake controls transient response
+Cd,100.0,W yr m^-2 K^-1,deep-ocean heat capacity,Deep ocean response unfolds over long horizons
+beta_carbon,0.15,W m^-2 K^-1,simplified carbon-cycle feedback forcing per degree,Carbon-cycle feedback is process-dependent and uncertain
+threshold_temp,2.0,K,illustrative nonlinear feedback threshold,Threshold values require process-specific evidence

@@ -1,0 +1,14 @@
+{
+  "calculator": "carbon-feedback",
+  "inputs": {
+    "beta_carbon": 0.15,
+    "command": "carbon-feedback",
+    "forcing": 3.7,
+    "temperature": 3.0
+  },
+  "interpretation": "Computes simplified warming-dependent carbon-cycle feedback forcing.",
+  "result": {
+    "adjusted_forcing": 4.15
+  },
+  "warning": "Carbon-cycle feedback is process-dependent and uncertain."
+}

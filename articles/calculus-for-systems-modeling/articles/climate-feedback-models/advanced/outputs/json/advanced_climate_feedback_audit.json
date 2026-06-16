@@ -1,0 +1,21 @@
+{
+  "article": "Case Study: Climate Feedback Models",
+  "advanced_standard": true,
+  "features": [
+    "one-box energy balance",
+    "two-box ocean uptake",
+    "CO2 forcing",
+    "feedback sensitivity",
+    "carbon-cycle feedback",
+    "threshold notes",
+    "sign-convention governance",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Feedback signs must be stated before comparing parameters.",
+    "Equilibrium response should not be confused with near-term forecast.",
+    "Net feedback values can hide component uncertainty.",
+    "Scenario assumptions should not be presented as predictions."
+  ]
+}

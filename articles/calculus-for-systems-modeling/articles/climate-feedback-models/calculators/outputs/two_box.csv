@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_forcing,input_feedback,input_surface_capacity,input_deep_capacity,input_exchange,input_time,result_surface_temperature,result_deep_ocean_temperature
+two-box,Computes simplified two-box surface/deep-ocean heat uptake response.,Ocean uptake controls transient response and committed warming.,two-box,3.7,1.2,8.0,100.0,0.7,80.0,2.252696634113497,0.8702578337137482

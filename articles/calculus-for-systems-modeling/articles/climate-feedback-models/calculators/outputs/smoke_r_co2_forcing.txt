@@ -1,0 +1,4 @@
+   calculator concentration baseline  forcing
+1 co2-forcing           560      280 3.708337
+                                                                            warning
+1 This compact approximation does not replace detailed radiative-transfer modeling.

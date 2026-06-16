@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+forcing-record,Forcing Record,model definition,96,active,2026-06-15,Scenario assumptions should not be presented as predictions.
+feedback-record,Feedback Record,model structure,95,review,2026-06-15,Net feedback values can hide component uncertainty.
+sign-convention,Sign Convention,interpretation governance,94,review,2026-06-15,Feedback signs must be stated before comparing parameters.
+time-scale-record,Time-Scale Record,temporal governance,93,review,2026-06-15,Equilibrium response should not be confused with near-term forecast.
+claim-boundary,Claim Boundary,governance,92,review,2026-06-15,"Climate feedback conclusions should not exceed evidence, assumptions, uncertainty, and tested scope."

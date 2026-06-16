@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_forcing,input_feedback,input_heat_capacity,input_time,result_temperature,result_equilibrium_temperature
+one-box,Computes one-box energy-balance temperature response.,One-box models clarify structure but are not complete Earth-system models.,one-box,3.7,1.2,8.0,80.0,3.0833143886785774,3.0833333333333335

@@ -1,0 +1,53 @@
+section                             
+------------------------------------
+CLIMATE FEEDBACK GOVERNANCE REGISTRY
+registry_name      analytical_role                                               systems_modeling_role                                        review_warning                                              
+-----------------  ------------------------------------------------------------  -----------------------------------------------------------  ------------------------------------------------------------
+Claim boundary     Defines whether the model supports teaching, exploration, se  Prevents overclaiming and scope drift.                       Climate feedback conclusions should not exceed evidence, ass
+                   nsitivity analysis, scenario comparison, or decision support                                                               umptions, uncertainty, and tested scope.                    
+                   .                                                                                                                                                                                      
+
+Feedback record    Documents Planck, water vapor, lapse-rate, cloud, albedo, ca  Connects feedback parameters to mechanisms.                  Net feedback values can hide component uncertainty.         
+                   rbon-cycle, and ocean feedback assumptions.                                                                                                                                            
+
+Forcing record     Documents greenhouse gas, aerosol, land-use, solar, volcanic  Separates physical forcing from feedback response.           Scenario assumptions should not be presented as predictions.
+                   , and scenario assumptions.                                                                                                                                                            
+
+Sign convention    Documents whether feedbacks use restoring-positive or climat  Prevents interpretation errors.                              Feedback signs must be stated before comparing parameters.  
+                   e-feedback sign conventions.                                                                                                                                                           
+
+State variables    Defines temperature anomaly, carbon stock, ocean heat conten  Makes the modeled climate response explicit.                 Climate feedback outputs cannot be interpreted responsibly i
+                   t, albedo state, or regional field.                                                                                        f state variables are unclear.                              
+
+Time-scale record  Documents heat capacity, ocean uptake, transient response, a  Distinguishes near-term response from long-term adjustment.  Equilibrium response should not be confused with near-term f
+                   nd equilibrium response.                                                                                                   orecast.                                                    
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value  unit            interpretation                                                warning                                                  
+--------------  -----  --------------  ------------------------------------------------------------  ---------------------------------------------------------
+C               8.0    W yr m^-2 K^-1  effective surface heat capacity                               Heat capacity summarizes ocean and atmosphere response.  
+
+F               3.7    W m^-2          simplified forcing from doubled carbon dioxide                Forcing depends on forcing agent and scenario.           
+
+beta_carbon     0.15   W m^-2 K^-1     simplified carbon-cycle feedback forcing per degree           Carbon-cycle feedback is process-dependent and uncertain.
+
+kappa           0.7    W m^-2 K^-1     surface-to-deep-ocean heat exchange                           Ocean uptake controls transient response.                
+
+lambda          1.2    W m^-2 K^-1     net restoring feedback strength using restoring-positive con  Feedback sign convention must be documented.             
+                                       vention                                                                                                                
+section         
+----------------
+SCENARIO RECORDS
+scenario_name                   model_type              interpretation                                             warning                                                     
+------------------------------  ----------------------  ---------------------------------------------------------  ------------------------------------------------------------
+carbon_cycle_feedback           carbon_feedback         additional forcing from warming-dependent carbon feedback  Carbon-cycle feedback is process-dependent and uncertain.   
+
+one_box_baseline                one_box_energy_balance  baseline forcing-feedback adjustment                       Simple model clarifies structure but is not a complete Earth
+                                                                                                                   -system model.                                              
+
+threshold_feedback_response     threshold_feedback      state-dependent weakening of feedback above threshold      Threshold values require process-specific evidence.         
+
+two_box_ocean_uptake            two_box_energy_balance  surface warming with deep-ocean heat uptake                Ocean uptake controls transient response.                   
+
+weak_feedback_high_sensitivity  feedback_sweep          weaker restoring feedback produces larger response         Feedback sign convention and uncertainty must be documented.

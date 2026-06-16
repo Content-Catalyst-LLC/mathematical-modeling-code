@@ -1,0 +1,6 @@
+  calculator forcing feedback heat_capacity time temperature
+1    one-box     3.7      1.2             8   80    3.083314
+  equilibrium_temperature
+1                3.083333
+                                                                     warning
+1 One-box models clarify structure but are not complete Earth-system models.

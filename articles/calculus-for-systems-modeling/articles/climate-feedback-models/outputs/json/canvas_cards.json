@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "forcing-record",
+    "category": "model definition",
+    "governance_note": "Scenario assumptions should not be presented as predictions.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Forcing Record"
+  },
+  {
+    "card_id": "feedback-record",
+    "category": "model structure",
+    "governance_note": "Net feedback values can hide component uncertainty.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Feedback Record"
+  },
+  {
+    "card_id": "sign-convention",
+    "category": "interpretation governance",
+    "governance_note": "Feedback signs must be stated before comparing parameters.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Sign Convention"
+  },
+  {
+    "card_id": "time-scale-record",
+    "category": "temporal governance",
+    "governance_note": "Equilibrium response should not be confused with near-term forecast.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Time-Scale Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Climate feedback conclusions should not exceed evidence, assumptions, uncertainty, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

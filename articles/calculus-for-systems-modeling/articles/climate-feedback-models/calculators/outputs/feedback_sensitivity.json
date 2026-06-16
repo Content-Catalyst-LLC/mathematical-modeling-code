@@ -1,0 +1,13 @@
+{
+  "calculator": "feedback-sensitivity",
+  "inputs": {
+    "command": "feedback-sensitivity",
+    "feedback": 1.2,
+    "forcing": 3.7
+  },
+  "interpretation": "Computes equilibrium sensitivity to feedback strength under restoring-positive convention.",
+  "result": {
+    "dT_dlambda": -2.5694444444444446
+  },
+  "warning": "Feedback sign convention and uncertainty must be documented."
+}

@@ -1,0 +1,13 @@
+{
+  "calculator": "co2-forcing",
+  "inputs": {
+    "baseline": 280.0,
+    "command": "co2-forcing",
+    "concentration": 560.0
+  },
+  "interpretation": "Computes a simplified logarithmic CO2 radiative forcing approximation.",
+  "result": {
+    "forcing": 3.708337415995707
+  },
+  "warning": "This compact approximation does not replace detailed radiative-transfer modeling."
+}

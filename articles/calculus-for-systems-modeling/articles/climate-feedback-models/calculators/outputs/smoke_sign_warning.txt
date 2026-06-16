@@ -1,0 +1,12 @@
+{
+  "calculator": "sign-warning",
+  "inputs": {
+    "command": "sign-warning",
+    "convention": "restoring_positive"
+  },
+  "interpretation": "Creates a sign-convention governance warning.",
+  "result": {
+    "note": "Using C dT/dt = F - lambda T, larger positive lambda means stronger damping."
+  },
+  "warning": "Feedback signs must be stated before comparing parameters."
+}

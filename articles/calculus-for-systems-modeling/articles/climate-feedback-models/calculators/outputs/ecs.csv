@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_forcing,input_feedback,result_equilibrium_response
+ecs,Computes simplified equilibrium response under fixed forcing and restoring feedback.,Equilibrium response should not be confused with near-term forecast.,ecs,3.7,1.2,3.0833333333333335

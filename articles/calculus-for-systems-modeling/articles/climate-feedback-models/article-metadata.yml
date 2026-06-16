@@ -1,0 +1,34 @@
+actual_title: "Case Study: Climate Feedback Models"
+suggested_seo_title: "Case Study: Climate Feedback Models"
+focus_keyword: "climate feedback models"
+slug: "climate-feedback-models"
+series: "Calculus for Systems Modeling"
+parent_series: "Mathematical Modeling"
+article_order:
+  previous: "predator-prey-systems"
+  current: "climate-feedback-models"
+  next: "carbon-accumulation-and-emissions-pathways"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/calculus-for-systems-modeling/articles/climate-feedback-models"
+tags:
+  - Calculus
+  - Climate Feedback
+  - Energy Balance Models
+  - Radiative Forcing
+  - Climate Sensitivity
+  - Ocean Heat Uptake
+  - Carbon Cycle
+  - Systems Modeling
+excerpt_139_words: "Case Study: Climate Feedback Models shows how calculus turns reinforcing and balancing climate processes into a structured systems model. This article introduces climate feedback models for calculus-based systems modeling, including energy balance equations, radiative forcing, feedback parameters, Planck response, water vapor feedback, lapse-rate feedback, cloud feedback, albedo feedback, carbon-cycle feedback, ocean heat uptake, equilibrium climate sensitivity, transient response, time-scale separation, thresholds, tipping risk, calibration, uncertainty, sensitivity, and responsible interpretation. It shows why simple feedback equations are useful for clarifying structure but insufficient as complete Earth-system models. In computational workflows, climate feedback audits support forcing records, sign-convention records, feedback-component tables, one-box and two-box scenarios, SQL governance registries, Haskell typed climate records, calculator scripts, Canvas artifacts, and generated reports. The article emphasizes documenting forcing assumptions, feedback signs, parameter evidence, validation scope, uncertainty, and claim boundaries."
+advanced_features:
+  - one-box energy balance model
+  - two-box ocean heat uptake model
+  - CO2 radiative forcing calculator
+  - feedback strength and gain analysis
+  - equilibrium climate sensitivity calculation
+  - transient response scenarios
+  - carbon-cycle feedback scenarios
+  - threshold and tipping-risk notes
+  - sign-convention governance
+  - calculators layer
+  - Catalyst Canvas governance
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

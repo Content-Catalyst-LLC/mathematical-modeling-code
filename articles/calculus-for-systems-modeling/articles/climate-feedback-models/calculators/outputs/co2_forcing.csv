@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_concentration,input_baseline,result_forcing
+co2-forcing,Computes a simplified logarithmic CO2 radiative forcing approximation.,This compact approximation does not replace detailed radiative-transfer modeling.,co2-forcing,560.0,280.0,3.708337415995707

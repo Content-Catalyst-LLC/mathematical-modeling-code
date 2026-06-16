@@ -1,0 +1,107 @@
+{
+  "interpretation_warning": "Climate feedback model outputs depend on forcing assumptions, feedback sign convention, heat uptake, carbon-cycle response, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "simplified forcing from doubled carbon dioxide",
+      "parameter_name": "F",
+      "unit": "W m^-2",
+      "value": 3.7,
+      "warning": "Forcing depends on forcing agent and scenario."
+    },
+    {
+      "interpretation": "net restoring feedback strength using restoring-positive convention",
+      "parameter_name": "lambda",
+      "unit": "W m^-2 K^-1",
+      "value": 1.2,
+      "warning": "Feedback sign convention must be documented."
+    },
+    {
+      "interpretation": "effective surface heat capacity",
+      "parameter_name": "C",
+      "unit": "W yr m^-2 K^-1",
+      "value": 8.0,
+      "warning": "Heat capacity summarizes ocean and atmosphere response."
+    },
+    {
+      "interpretation": "surface-to-deep-ocean heat exchange",
+      "parameter_name": "kappa",
+      "unit": "W m^-2 K^-1",
+      "value": 0.7,
+      "warning": "Ocean uptake controls transient response."
+    },
+    {
+      "interpretation": "deep-ocean heat capacity",
+      "parameter_name": "Cd",
+      "unit": "W yr m^-2 K^-1",
+      "value": 100.0,
+      "warning": "Deep ocean response unfolds over long horizons."
+    },
+    {
+      "interpretation": "simplified carbon-cycle feedback forcing per degree",
+      "parameter_name": "beta_carbon",
+      "unit": "W m^-2 K^-1",
+      "value": 0.15,
+      "warning": "Carbon-cycle feedback is process-dependent and uncertain."
+    },
+    {
+      "interpretation": "illustrative nonlinear feedback threshold",
+      "parameter_name": "threshold_temp",
+      "unit": "K",
+      "value": 2.0,
+      "warning": "Threshold values require process-specific evidence."
+    }
+  ],
+  "scenario_records": [
+    {
+      "final_temperature": 3.0833143886785774,
+      "final_time": 80.0,
+      "interpretation": "baseline forcing-feedback adjustment",
+      "model_type": "one_box_energy_balance",
+      "scenario_name": "one_box_baseline"
+    },
+    {
+      "final_temperature": 2.252696634113497,
+      "final_time": 80.0,
+      "interpretation": "surface warming with deep ocean temperature 0.870",
+      "model_type": "two_box_energy_balance",
+      "scenario_name": "two_box_ocean_uptake"
+    },
+    {
+      "final_temperature": 3.4687263191961053,
+      "final_time": 80.0,
+      "interpretation": "simplified additional forcing from warming-dependent carbon feedback",
+      "model_type": "carbon_feedback",
+      "scenario_name": "carbon_cycle_feedback"
+    },
+    {
+      "final_temperature": 4.110603759694311,
+      "final_time": 80.0,
+      "interpretation": "weaker restoring feedback produces larger response",
+      "model_type": "feedback_sweep",
+      "scenario_name": "weak_feedback_high_sensitivity"
+    },
+    {
+      "final_temperature": 2.3124997397624085,
+      "final_time": 80.0,
+      "interpretation": "stronger restoring feedback produces smaller response",
+      "model_type": "feedback_sweep",
+      "scenario_name": "strong_feedback_low_sensitivity"
+    },
+    {
+      "final_temperature": 3.8947368421052637,
+      "final_time": 80.0,
+      "interpretation": "illustrative state-dependent weakening of feedback above threshold",
+      "model_type": "threshold_feedback",
+      "scenario_name": "threshold_feedback_response"
+    }
+  ],
+  "sensitivity_records": [
+    {
+      "derivative": -2.5694444444444446,
+      "interpretation": "In the simple equilibrium model, temperature response changes strongly as feedback strength changes.",
+      "sensitivity_name": "equilibrium_sensitivity_to_lambda",
+      "warning": "Sensitivity to feedback strength depends on sign convention and simplified model structure."
+    }
+  ],
+  "sign_convention": "Restoring-positive convention: C dT/dt = F - lambda T."
+}
