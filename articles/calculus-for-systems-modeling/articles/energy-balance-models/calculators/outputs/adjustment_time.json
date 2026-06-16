@@ -1,0 +1,13 @@
+{
+  "calculator": "adjustment-time",
+  "inputs": {
+    "command": "adjustment-time",
+    "feedback": 1.2,
+    "heat_capacity": 10.0
+  },
+  "interpretation": "Computes adjustment time scale from heat capacity and feedback.",
+  "result": {
+    "adjustment_time": 8.333333333333334
+  },
+  "warning": "Equilibrium should not be confused with immediate response."
+}

@@ -1,0 +1,5 @@
+scenario_name,model_type,final_time,final_temperature,equilibrium_temperature,adjustment_time,interpretation
+baseline_one_layer,one_layer,150.0,3.083333291218281,3.0833333333333335,8.333333333333334,one-layer model approaches equilibrium according to heat capacity and feedback
+stronger_feedback,one_layer,150.0,2.0555555555525356,2.055555555555556,5.555555555555555,stronger feedback reduces equilibrium response and shortens adjustment time
+larger_heat_capacity,one_layer,150.0,3.049311481764095,3.0833333333333335,33.333333333333336,larger heat capacity slows transient response
+two_layer_heat_uptake,two_layer,150.0,2.464932691257755,3.0833333333333335,8.333333333333334,two-layer model stores heat in a slower reservoir; deep layer final temperature=1.443

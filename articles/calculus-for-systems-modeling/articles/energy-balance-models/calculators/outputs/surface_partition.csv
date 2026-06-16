@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_net_radiation,input_sensible,input_latent,input_ground,result_storage_residual
+surface-partition,Computes surface energy storage residual.,Omitted surface energy terms change storage interpretation.,surface-partition,500.0,120.0,300.0,40.0,40.0

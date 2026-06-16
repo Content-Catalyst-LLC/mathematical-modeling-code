@@ -1,0 +1,12 @@
+{
+  "calculator": "governance-warning",
+  "inputs": {
+    "command": "governance-warning",
+    "context": "boundary"
+  },
+  "interpretation": "Creates an energy balance governance warning.",
+  "result": {
+    "note": "Energy balance conclusions are not meaningful without a defined boundary."
+  },
+  "warning": "Energy balance conclusions should not exceed boundary definitions, data evidence, uncertainty, domain review, and tested scope."
+}

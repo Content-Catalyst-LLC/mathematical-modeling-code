@@ -1,0 +1,13 @@
+{
+  "calculator": "equilibrium-temperature",
+  "inputs": {
+    "command": "equilibrium-temperature",
+    "feedback": 1.2,
+    "forcing": 3.7
+  },
+  "interpretation": "Computes simple equilibrium temperature response from forcing and feedback.",
+  "result": {
+    "equilibrium_temperature": 3.0833333333333335
+  },
+  "warning": "Feedback terms can hide multiple physical processes."
+}

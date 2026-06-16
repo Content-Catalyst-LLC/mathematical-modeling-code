@@ -1,0 +1,17 @@
+{
+  "calculator": "one-layer-step",
+  "inputs": {
+    "command": "one-layer-step",
+    "dt": 1.0,
+    "feedback": 1.2,
+    "forcing": 3.7,
+    "heat_capacity": 10.0,
+    "temperature": 0.0
+  },
+  "interpretation": "Computes one one-layer energy balance update.",
+  "result": {
+    "imbalance": 3.7,
+    "next_temperature": 0.37
+  },
+  "warning": "Heat capacity must match the modeled reservoir."
+}

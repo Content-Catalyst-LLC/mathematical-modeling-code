@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_temperature,input_heat_capacity,input_q_heat,input_q_solar,input_q_internal,input_q_loss,input_dt,result_energy_imbalance,result_next_temperature
+building-step,Computes one building thermal balance update.,"Building thermal balance requires occupancy, weather, controls, and material assumptions.",building-step,20.0,1000.0,300.0,150.0,80.0,420.0,1.0,110.0,20.11

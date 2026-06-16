@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_solar_constant,input_albedo,result_absorbed_solar
+absorbed-solar,Computes absorbed solar radiation under spherical averaging.,Solar input requires albedo and geometry assumptions.,absorbed-solar,1361.0,0.3,238.17499999999998

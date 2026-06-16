@@ -1,0 +1,21 @@
+{
+  "article": "Energy Balance Models",
+  "advanced_standard": true,
+  "features": [
+    "one-layer energy balance",
+    "two-layer heat uptake",
+    "absorbed solar radiation",
+    "surface energy partitioning",
+    "equilibrium temperature",
+    "adjustment time",
+    "forcing and feedback sensitivity",
+    "calculator layer",
+    "Catalyst Canvas governance"
+  ],
+  "warnings": [
+    "Energy balance conclusions are not meaningful without a defined boundary.",
+    "Equilibrium should not be confused with immediate response.",
+    "Feedback terms can hide multiple physical processes.",
+    "A model can fit temperature while misrepresenting mechanism."
+  ]
+}

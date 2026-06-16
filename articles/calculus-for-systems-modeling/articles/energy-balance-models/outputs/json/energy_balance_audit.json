@@ -1,0 +1,108 @@
+{
+  "diagnostics": [
+    {
+      "diagnostic_name": "absorbed_solar_example",
+      "interpretation": "absorbed solar radiation with geometric averaging",
+      "unit": "W m^-2",
+      "value": 238.17499999999998,
+      "warning": "Solar input requires albedo and geometry assumptions."
+    },
+    {
+      "diagnostic_name": "surface_storage_residual_example",
+      "interpretation": "storage residual after sensible, latent, and ground heat terms",
+      "unit": "W m^-2",
+      "value": 40.0,
+      "warning": "Omitted surface energy terms change storage interpretation."
+    },
+    {
+      "diagnostic_name": "building_temperature_step_example",
+      "interpretation": "one-step building thermal balance",
+      "unit": "degrees",
+      "value": 20.11,
+      "warning": "Building thermal balance requires occupancy, weather, controls, and material assumptions."
+    }
+  ],
+  "interpretation_warning": "Energy balance model outputs depend on system boundaries, energy-flow definitions, heat capacity, forcing assumptions, feedback structure, calibration data, uncertainty, and claim boundaries.",
+  "parameter_records": [
+    {
+      "interpretation": "effective heat capacity",
+      "parameter_name": "C",
+      "unit": "W yr m^-2 K^-1",
+      "value": 10.0,
+      "warning": "Heat capacity must match the modeled reservoir."
+    },
+    {
+      "interpretation": "external forcing",
+      "parameter_name": "F",
+      "unit": "W m^-2",
+      "value": 3.7,
+      "warning": "Forcing assumptions should be documented as historical, scenario-based, or experimental."
+    },
+    {
+      "interpretation": "feedback parameter",
+      "parameter_name": "lambda",
+      "unit": "W m^-2 K^-1",
+      "value": 1.2,
+      "warning": "Feedback terms can hide multiple physical processes."
+    },
+    {
+      "interpretation": "albedo",
+      "parameter_name": "alpha",
+      "unit": "fraction",
+      "value": 0.3,
+      "warning": "Albedo can vary with clouds, ice, land cover, and surface condition."
+    },
+    {
+      "interpretation": "upper-deep layer exchange",
+      "parameter_name": "kappa",
+      "unit": "W m^-2 K^-1",
+      "value": 0.7,
+      "warning": "Layer exchange controls delayed response and hidden heat uptake."
+    },
+    {
+      "interpretation": "solar constant",
+      "parameter_name": "S0",
+      "unit": "W m^-2",
+      "value": 1361.0,
+      "warning": "Solar input requires geometric averaging and boundary definition."
+    }
+  ],
+  "scenario_records": [
+    {
+      "adjustment_time": 8.333333333333334,
+      "equilibrium_temperature": 3.0833333333333335,
+      "final_temperature": 3.083333291218281,
+      "final_time": 150.0,
+      "interpretation": "one-layer model approaches equilibrium according to heat capacity and feedback",
+      "model_type": "one_layer",
+      "scenario_name": "baseline_one_layer"
+    },
+    {
+      "adjustment_time": 5.555555555555555,
+      "equilibrium_temperature": 2.055555555555556,
+      "final_temperature": 2.0555555555525356,
+      "final_time": 150.0,
+      "interpretation": "stronger feedback reduces equilibrium response and shortens adjustment time",
+      "model_type": "one_layer",
+      "scenario_name": "stronger_feedback"
+    },
+    {
+      "adjustment_time": 33.333333333333336,
+      "equilibrium_temperature": 3.0833333333333335,
+      "final_temperature": 3.049311481764095,
+      "final_time": 150.0,
+      "interpretation": "larger heat capacity slows transient response",
+      "model_type": "one_layer",
+      "scenario_name": "larger_heat_capacity"
+    },
+    {
+      "adjustment_time": 8.333333333333334,
+      "equilibrium_temperature": 3.0833333333333335,
+      "final_temperature": 2.464932691257755,
+      "final_time": 150.0,
+      "interpretation": "two-layer model stores heat in a slower reservoir; deep layer final temperature=1.443",
+      "model_type": "two_layer",
+      "scenario_name": "two_layer_heat_uptake"
+    }
+  ]
+}

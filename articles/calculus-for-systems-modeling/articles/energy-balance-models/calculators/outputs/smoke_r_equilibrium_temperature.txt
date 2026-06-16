@@ -1,0 +1,4 @@
+               calculator forcing feedback equilibrium_temperature
+1 equilibrium-temperature     3.7      1.2                3.083333
+                                               warning
+1 Feedback terms can hide multiple physical processes.

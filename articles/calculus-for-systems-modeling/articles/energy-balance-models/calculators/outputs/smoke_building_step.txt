@@ -1,0 +1,19 @@
+{
+  "calculator": "building-step",
+  "inputs": {
+    "command": "building-step",
+    "dt": 1.0,
+    "heat_capacity": 1000.0,
+    "q_heat": 300.0,
+    "q_internal": 80.0,
+    "q_loss": 420.0,
+    "q_solar": 150.0,
+    "temperature": 20.0
+  },
+  "interpretation": "Computes one building thermal balance update.",
+  "result": {
+    "energy_imbalance": 110.0,
+    "next_temperature": 20.11
+  },
+  "warning": "Building thermal balance requires occupancy, weather, controls, and material assumptions."
+}

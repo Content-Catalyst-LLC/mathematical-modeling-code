@@ -1,0 +1,4 @@
+diagnostic_name,value,unit,interpretation,warning
+absorbed_solar_example,238.17499999999998,W m^-2,absorbed solar radiation with geometric averaging,Solar input requires albedo and geometry assumptions.
+surface_storage_residual_example,40.0,W m^-2,"storage residual after sensible, latent, and ground heat terms",Omitted surface energy terms change storage interpretation.
+building_temperature_step_example,20.11,degrees,one-step building thermal balance,"Building thermal balance requires occupancy, weather, controls, and material assumptions."

@@ -1,0 +1,44 @@
+{
+  "article_slug": "energy-balance-models",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "energy-balance-models",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "cards": [
+    {
+      "card_id": "boundary-record",
+      "title": "Boundary Record",
+      "description": "Control volume, system state, spatial scale, and time scale."
+    },
+    {
+      "card_id": "flow-record",
+      "title": "Flow Record",
+      "description": "Incoming energy, outgoing energy, radiation, conduction, convection, latent heat, storage, and exchange."
+    },
+    {
+      "card_id": "storage-record",
+      "title": "Storage Record",
+      "description": "Heat capacity, thermal mass, reservoir depth, and adjustment time scale."
+    },
+    {
+      "card_id": "forcing-record",
+      "title": "Forcing Record",
+      "description": "External drivers of energy imbalance."
+    },
+    {
+      "card_id": "feedback-record",
+      "title": "Feedback Record",
+      "description": "Restoring or amplifying responses to temperature or state change."
+    },
+    {
+      "card_id": "calibration-record",
+      "title": "Calibration Record",
+      "description": "Observations, data sources, measurement definitions, fitted parameters, and validation scope."
+    },
+    {
+      "card_id": "claim-boundary",
+      "title": "Claim Boundary",
+      "description": "Teaching, scenario comparison, design analysis, climate interpretation, or decision support."
+    }
+  ]
+}

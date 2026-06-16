@@ -1,0 +1,13 @@
+{
+  "calculator": "absorbed-solar",
+  "inputs": {
+    "albedo": 0.3,
+    "command": "absorbed-solar",
+    "solar_constant": 1361.0
+  },
+  "interpretation": "Computes absorbed solar radiation under spherical averaging.",
+  "result": {
+    "absorbed_solar": 238.17499999999998
+  },
+  "warning": "Solar input requires albedo and geometry assumptions."
+}

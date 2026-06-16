@@ -1,0 +1,44 @@
+{
+  "article_slug": "energy-balance-models",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {
+      "id": "equilibrium-temperature",
+      "title": "Equilibrium Temperature Calculator"
+    },
+    {
+      "id": "adjustment-time",
+      "title": "Adjustment Time Calculator"
+    },
+    {
+      "id": "absorbed-solar",
+      "title": "Absorbed Solar Radiation Calculator"
+    },
+    {
+      "id": "one-layer-step",
+      "title": "One-Layer Energy Balance Step Calculator"
+    },
+    {
+      "id": "surface-partition",
+      "title": "Surface Energy Partition Calculator"
+    },
+    {
+      "id": "building-step",
+      "title": "Building Energy Balance Step Calculator"
+    },
+    {
+      "id": "governance-warning",
+      "title": "Energy Balance Governance Warning"
+    }
+  ],
+  "outputs": [
+    "csv",
+    "json"
+  ],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

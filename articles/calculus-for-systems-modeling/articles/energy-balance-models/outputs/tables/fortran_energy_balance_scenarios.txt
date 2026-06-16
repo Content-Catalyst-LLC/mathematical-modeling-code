@@ -1,0 +1,2 @@
+scenario equilibrium_temperature adjustment_time
+baseline_one_layer     3.083333     8.333333

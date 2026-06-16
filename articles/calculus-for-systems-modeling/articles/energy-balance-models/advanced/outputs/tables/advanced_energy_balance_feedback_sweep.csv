@@ -1,0 +1,6 @@
+forcing,feedback,heat_capacity,equilibrium_temperature,adjustment_time,governance_status,warning
+3.7,0.8,10.0,4.625,12.5,review,Feedback and heat-capacity sensitivity should be interpreted with boundary and reservoir assumptions.
+3.7,1.0,10.0,3.7,10.0,review,Feedback and heat-capacity sensitivity should be interpreted with boundary and reservoir assumptions.
+3.7,1.2,10.0,3.0833333333333335,8.333333333333334,review,Feedback and heat-capacity sensitivity should be interpreted with boundary and reservoir assumptions.
+3.7,1.5,10.0,2.466666666666667,6.666666666666667,review,Feedback and heat-capacity sensitivity should be interpreted with boundary and reservoir assumptions.
+3.7,1.8,10.0,2.055555555555556,5.555555555555555,review,Feedback and heat-capacity sensitivity should be interpreted with boundary and reservoir assumptions.

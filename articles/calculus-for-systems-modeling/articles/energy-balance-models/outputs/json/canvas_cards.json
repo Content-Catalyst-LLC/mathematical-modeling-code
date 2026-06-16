@@ -1,0 +1,65 @@
+[
+  {
+    "card_id": "boundary-record",
+    "category": "model definition",
+    "governance_note": "Energy balance conclusions are not meaningful without a defined boundary.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Boundary Record"
+  },
+  {
+    "card_id": "flow-record",
+    "category": "energy flow governance",
+    "governance_note": "Omitted flows can change the interpretation of imbalance.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Flow Record"
+  },
+  {
+    "card_id": "storage-record",
+    "category": "storage governance",
+    "governance_note": "Equilibrium should not be confused with immediate response.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Storage Record"
+  },
+  {
+    "card_id": "forcing-record",
+    "category": "forcing governance",
+    "governance_note": "Forcing assumptions should be documented as historical, scenario-based, or experimental.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Forcing Record"
+  },
+  {
+    "card_id": "feedback-record",
+    "category": "feedback governance",
+    "governance_note": "Feedback terms can hide multiple physical processes.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Feedback Record"
+  },
+  {
+    "card_id": "calibration-record",
+    "category": "calibration governance",
+    "governance_note": "A model can fit temperature while misrepresenting mechanism.",
+    "review_date": "2026-06-15",
+    "score": 91,
+    "status": "review",
+    "title": "Calibration Record"
+  },
+  {
+    "card_id": "claim-boundary",
+    "category": "governance",
+    "governance_note": "Energy balance conclusions should not exceed boundary definitions, data evidence, uncertainty, domain review, and tested scope.",
+    "review_date": "2026-06-15",
+    "score": 90,
+    "status": "review",
+    "title": "Claim Boundary"
+  }
+]

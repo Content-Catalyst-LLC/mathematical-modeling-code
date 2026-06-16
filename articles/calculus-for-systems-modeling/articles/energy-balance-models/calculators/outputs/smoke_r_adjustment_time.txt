@@ -1,0 +1,4 @@
+       calculator heat_capacity feedback adjustment_time
+1 adjustment-time            10      1.2        8.333333
+                                                      warning
+1 Equilibrium should not be confused with immediate response.

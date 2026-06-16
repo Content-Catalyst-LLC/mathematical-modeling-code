@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_heat_capacity,input_feedback,result_adjustment_time
+adjustment-time,Computes adjustment time scale from heat capacity and feedback.,Equilibrium should not be confused with immediate response.,adjustment-time,10.0,1.2,8.333333333333334

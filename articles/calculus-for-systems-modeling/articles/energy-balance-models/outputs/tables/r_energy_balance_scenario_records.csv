@@ -1,0 +1,5 @@
+"scenario_name","model_type","final_temperature","equilibrium_temperature","adjustment_time","warning"
+"baseline_one_layer","one_layer",3.08333329121828,3.08333333333333,8.33333333333333,"baseline depends on forcing feedback and heat capacity"
+"stronger_feedback","one_layer",2.05555555555254,2.05555555555556,5.55555555555556,"feedback strength changes equilibrium response"
+"larger_heat_capacity","one_layer",3.0493114817641,3.08333333333333,33.3333333333333,"larger heat capacity slows transient response"
+"two_layer_heat_uptake","two_layer",2.46493269125776,3.08333333333333,8.33333333333333,"two-layer structure stores heat in a slower reservoir"

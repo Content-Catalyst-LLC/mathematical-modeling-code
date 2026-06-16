@@ -1,0 +1,3 @@
+scenario_name,model_type,equilibrium_temperature,adjustment_time,absorbed_solar,warning
+baseline_one_layer,one_layer,3.083333,8.333333,238.175000,boundaries_and_feedback_must_be_documented
+stronger_feedback,one_layer,2.055556,5.555556,238.175000,feedback_strength_changes_response

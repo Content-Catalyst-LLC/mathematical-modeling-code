@@ -1,0 +1,71 @@
+section                           
+----------------------------------
+ENERGY BALANCE GOVERNANCE REGISTRY
+registry_name       analytical_role                                               systems_modeling_role                                         review_warning                                              
+------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary record     Defines the control volume, system state, spatial scale, and  Prevents energy inputs and outputs from being interpreted wi  Energy balance conclusions are not meaningful without a defi
+                     time scale.                                                  thout a system boundary.                                      ned boundary.                                               
+
+Calibration record  Documents observations, data sources, measurement definition  Separates model fit from physical explanation.                A model can fit temperature while misrepresenting mechanism.
+                    s, fitted parameters, and validation scope.                                                                                                                                             
+
+Claim boundary      Defines whether the model supports teaching, scenario compar  Prevents overclaiming and scope drift.                        Energy balance conclusions should not exceed boundary defini
+                    ison, design analysis, climate interpretation, or decision s                                                                tions, data evidence, uncertainty, domain review, and tested
+                    upport.                                                                                                                      scope.                                                     
+
+Feedback record     Documents restoring or amplifying responses to temperature o  Connects equilibrium response to system processes.            Feedback terms can hide multiple physical processes.        
+                    r state change.                                                                                                                                                                         
+
+Flow record         Documents incoming energy, outgoing energy, radiation, condu  Connects system change to energy flows.                       Omitted flows can change the interpretation of imbalance.   
+                    ction, convection, latent heat, storage, and exchange.                                                                                                                                  
+
+Forcing record      Documents external drivers of energy imbalance.               Separates external disturbance from internal system response  Forcing assumptions should be documented as historical, scen
+                                                                                  .                                                             ario-based, or experimental.                                
+
+Storage record      Documents heat capacity, thermal mass, reservoir depth, and   Connects energy imbalance to delayed temperature response.    Equilibrium should not be confused with immediate response. 
+                    adjustment time scale.                                                                                                                                                                  
+section          
+-----------------
+PARAMETER RECORDS
+parameter_name  value   unit            interpretation             warning                                                     
+--------------  ------  --------------  -------------------------  ------------------------------------------------------------
+C               10.0    W yr m^-2 K^-1  effective heat capacity    Heat capacity must match the modeled reservoir.             
+
+F               3.7     W m^-2          external forcing           Forcing assumptions should be documented as historical, scen
+                                                                   ario-based, or experimental.                                
+
+S0              1361.0  W m^-2          solar constant             Solar input requires geometric averaging and boundary defini
+                                                                   tion.                                                       
+
+alpha           0.3     fraction        albedo                     Albedo can vary with clouds, ice, land cover, and surface co
+                                                                   ndition.                                                    
+
+kappa           0.7     W m^-2 K^-1     upper-deep layer exchange  Layer exchange controls delayed response and hidden heat upt
+                                                                   ake.                                                        
+
+lambda          1.2     W m^-2 K^-1     feedback parameter         Feedback terms can hide multiple physical processes.        
+section         
+----------------
+SCENARIO RECORDS
+scenario_name          model_type  final_temperature  equilibrium_temperature  adjustment_time  interpretation                                                warning                                                
+---------------------  ----------  -----------------  -----------------------  ---------------  ------------------------------------------------------------  -------------------------------------------------------
+baseline_one_layer     one_layer   3.08               3.0833                   8.3333           one-layer model approaches equilibrium according to heat cap  Baseline depends on forcing feedback and heat capacity.
+                                                                                                acity and feedback                                                                                                   
+
+larger_heat_capacity   one_layer   3.05               3.0833                   33.3333          larger heat capacity slows transient response                 Heat capacity controls transient response.             
+
+stronger_feedback      one_layer   2.055              2.0556                   5.5556           stronger feedback reduces equilibrium response and shortens   Feedback strength changes equilibrium response.        
+                                                                                                adjustment time                                                                                                      
+
+two_layer_heat_uptake  two_layer   2.55               3.0833                   8.3333           two-layer model stores heat in a slower reservoir             Layered structure changes transient response.          
+section           
+------------------
+DIAGNOSTIC RECORDS
+diagnostic_name                    value    unit     interpretation                                                warning                                                     
+---------------------------------  -------  -------  ------------------------------------------------------------  ------------------------------------------------------------
+absorbed_solar_example             238.175  W m^-2   absorbed solar radiation with geometric averaging             Solar input requires albedo and geometry assumptions.       
+
+building_temperature_step_example  20.11    degrees  one-step building thermal balance                             Building thermal balance requires occupancy weather controls
+                                                                                                                    and material assumptions.                                  
+
+surface_storage_residual_example   40.0     W m^-2   storage residual after sensible latent and ground heat terms  Omitted surface energy terms change storage interpretation. 

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_forcing,input_feedback,result_equilibrium_temperature
+equilibrium-temperature,Computes simple equilibrium temperature response from forcing and feedback.,Feedback terms can hide multiple physical processes.,equilibrium-temperature,3.7,1.2,3.0833333333333335

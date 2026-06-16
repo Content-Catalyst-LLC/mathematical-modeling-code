@@ -1,0 +1,7 @@
+parameter_name,value,unit,interpretation,warning
+C,10.0,W yr m^-2 K^-1,effective heat capacity,Heat capacity must match the modeled reservoir
+F,3.7,W m^-2,external forcing,Forcing assumptions should be documented as historical scenario-based or experimental
+lambda,1.2,W m^-2 K^-1,feedback parameter,Feedback terms can hide multiple physical processes
+alpha,0.30,fraction,albedo,Albedo can vary with clouds ice land cover and surface condition
+kappa,0.7,W m^-2 K^-1,upper-deep layer exchange,Layer exchange controls delayed response and hidden heat uptake
+S0,1361.0,W m^-2,solar constant,Solar input requires geometric averaging and boundary definition

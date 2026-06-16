@@ -1,0 +1,15 @@
+{
+  "calculator": "surface-partition",
+  "inputs": {
+    "command": "surface-partition",
+    "ground": 40.0,
+    "latent": 300.0,
+    "net_radiation": 500.0,
+    "sensible": 120.0
+  },
+  "interpretation": "Computes surface energy storage residual.",
+  "result": {
+    "storage_residual": 40.0
+  },
+  "warning": "Omitted surface energy terms change storage interpretation."
+}

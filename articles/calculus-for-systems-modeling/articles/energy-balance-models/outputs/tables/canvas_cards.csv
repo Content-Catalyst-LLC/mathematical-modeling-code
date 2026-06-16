@@ -1,0 +1,8 @@
+card_id,title,category,score,status,review_date,governance_note
+boundary-record,Boundary Record,model definition,96,active,2026-06-15,Energy balance conclusions are not meaningful without a defined boundary.
+flow-record,Flow Record,energy flow governance,95,review,2026-06-15,Omitted flows can change the interpretation of imbalance.
+storage-record,Storage Record,storage governance,94,review,2026-06-15,Equilibrium should not be confused with immediate response.
+forcing-record,Forcing Record,forcing governance,93,review,2026-06-15,"Forcing assumptions should be documented as historical, scenario-based, or experimental."
+feedback-record,Feedback Record,feedback governance,92,review,2026-06-15,Feedback terms can hide multiple physical processes.
+calibration-record,Calibration Record,calibration governance,91,review,2026-06-15,A model can fit temperature while misrepresenting mechanism.
+claim-boundary,Claim Boundary,governance,90,review,2026-06-15,"Energy balance conclusions should not exceed boundary definitions, data evidence, uncertainty, domain review, and tested scope."
