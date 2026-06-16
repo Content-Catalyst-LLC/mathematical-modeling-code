@@ -1,0 +1,25 @@
+{
+  "article": "Visualization of Continuous Models",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "A clean visualization can hide parameter uncertainty, solver error, or invalid assumptions.",
+    "Scenario lines are not probability intervals unless explicitly defined.",
+    "Axis limits, smoothing, interpolation, and color scales should be documented.",
+    "Field arrow scaling and normalization can change interpretation.",
+    "Important model figures should preserve data, metadata, and diagnostic records."
+  ]
+}

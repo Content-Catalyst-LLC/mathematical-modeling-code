@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+trajectory_plot,Trajectory plot,Plot state value against time,Shows growth decline oscillation convergence or collapse,A smooth trajectory may hide uncertainty solver error or invalid assumptions
+phase_portrait,Phase portrait,Plot motion through state space,Shows equilibria cycles attraction repulsion and basins,The visible state-space window can hide important behavior
+vector_field,Vector field,Plot direction and magnitude across a domain,Shows flow gradient force or spatial movement,Arrow scaling and normalization should be documented
+contour_surface,Contour or surface plot,Visualize response over two inputs or spatial dimensions,Shows gradients thresholds and interaction effects,Color scale interpolation and grid resolution can distort interpretation
+uncertainty_band,Uncertainty band,Plot ranges around modeled trajectories,Shows sensitivity scenario spread or uncertainty,The meaning of the band must be explained
+diagnostic_plot,Diagnostic plot,Visualize error residuals solver steps or constraints,Helps distinguish model behavior from numerical artifact,Diagnostics should accompany important model outputs

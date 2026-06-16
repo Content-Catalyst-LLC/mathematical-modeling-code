@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+trajectory-plot,Trajectory Plot,visual form,96,active,2026-06-15,"Record state, time, units, scenario, and solver settings."
+phase-portrait,Phase Portrait,state space,95,review,2026-06-15,Document state-space window and initial conditions.
+vector-field,Vector Field,field visualization,94,review,2026-06-15,"Arrow scaling, normalization, and units should be documented."
+uncertainty-band,Uncertainty Band,uncertainty,93,active,2026-06-15,"Define whether the band is scenario spread, confidence, or sensitivity envelope."
+diagnostic-plot,Diagnostic Plot,governance,92,active,2026-06-15,Important visual outputs should include solver or model diagnostics.

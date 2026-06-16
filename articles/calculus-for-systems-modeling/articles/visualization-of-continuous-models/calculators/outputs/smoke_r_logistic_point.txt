@@ -1,0 +1,4 @@
+      calculator time x0 growth_rate carrying_capacity    value
+1 logistic-point   10 10        0.35               100 78.63017
+                                                   warning
+1 A plotted point is model-implied not empirical evidence.

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VisualizationAuditRecord",
+  "type": "object",
+  "required": [
+    "figure_id", "visual_type", "model_object", "x_axis", "y_axis",
+    "scale_note", "uncertainty_note", "interpretation_warning"
+  ],
+  "properties": {
+    "figure_id": {"type": "string"},
+    "visual_type": {"type": "string"},
+    "model_object": {"type": "string"},
+    "x_axis": {"type": "string"},
+    "y_axis": {"type": "string"},
+    "scale_note": {"type": "string"},
+    "uncertainty_note": {"type": "string"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

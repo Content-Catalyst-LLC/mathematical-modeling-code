@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "trajectory-plot",
+    "category": "visual form",
+    "governance_note": "Record state, time, units, scenario, and solver settings.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Trajectory Plot"
+  },
+  {
+    "card_id": "phase-portrait",
+    "category": "state space",
+    "governance_note": "Document state-space window and initial conditions.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "review",
+    "title": "Phase Portrait"
+  },
+  {
+    "card_id": "vector-field",
+    "category": "field visualization",
+    "governance_note": "Arrow scaling, normalization, and units should be documented.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "review",
+    "title": "Vector Field"
+  },
+  {
+    "card_id": "uncertainty-band",
+    "category": "uncertainty",
+    "governance_note": "Define whether the band is scenario spread, confidence, or sensitivity envelope.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "active",
+    "title": "Uncertainty Band"
+  },
+  {
+    "card_id": "diagnostic-plot",
+    "category": "governance",
+    "governance_note": "Important visual outputs should include solver or model diagnostics.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "active",
+    "title": "Diagnostic Plot"
+  }
+]

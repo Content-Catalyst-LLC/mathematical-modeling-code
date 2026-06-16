@@ -1,0 +1,13 @@
+{
+  "calculator": "figure-audit-record",
+  "inputs": {
+    "command": "figure-audit-record",
+    "visual_type": "trajectory_plot"
+  },
+  "interpretation": "Creates a figure audit record.",
+  "result": {
+    "required_metadata": "parameters, units, axes, scales, uncertainty, data source, solver settings",
+    "visual_type": "trajectory_plot"
+  },
+  "warning": "A visualization should be reproducible from stored data and metadata."
+}

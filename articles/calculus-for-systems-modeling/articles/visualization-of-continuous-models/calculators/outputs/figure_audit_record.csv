@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_visual_type,result_visual_type,result_required_metadata
+figure-audit-record,Creates a figure audit record.,A visualization should be reproducible from stored data and metadata.,figure-audit-record,trajectory_plot,trajectory_plot,"parameters, units, axes, scales, uncertainty, data source, solver settings"

@@ -1,0 +1,52 @@
+[
+  {
+    "figure_id": "logistic_growth_scenario_trajectories",
+    "interpretation_warning": "The figure shows model-implied trajectories under selected assumptions, not empirical forecasts.",
+    "model_object": "logistic_solution",
+    "scale_note": "Linear axes; time horizon 0 to 20.",
+    "uncertainty_note": "Scenario lines are parameter contrasts, not probability intervals.",
+    "visual_type": "trajectory_plot",
+    "x_axis": "time",
+    "y_axis": "state value"
+  },
+  {
+    "figure_id": "phase_portrait_review",
+    "interpretation_warning": "Phase portraits show local and geometric behavior, not automatic empirical validity.",
+    "model_object": "two_state_dynamic_system",
+    "scale_note": "State-space window should be documented.",
+    "uncertainty_note": "Initial condition selection affects visible trajectories.",
+    "visual_type": "phase_portrait",
+    "x_axis": "state x",
+    "y_axis": "state y"
+  },
+  {
+    "figure_id": "vector_field_review",
+    "interpretation_warning": "Vector fields require unit and boundary interpretation.",
+    "model_object": "spatial_flow_field",
+    "scale_note": "Arrow scaling should be documented.",
+    "uncertainty_note": "Magnitude and direction can be visually distorted by normalization.",
+    "visual_type": "vector_field",
+    "x_axis": "x coordinate",
+    "y_axis": "y coordinate"
+  },
+  {
+    "figure_id": "uncertainty_band_review",
+    "interpretation_warning": "Uncertainty visualization can imply probability without support if not defined.",
+    "model_object": "scenario_spread",
+    "scale_note": "Band should share axis scale with central trajectory.",
+    "uncertainty_note": "The band meaning must be specified: scenario range, confidence interval, or sensitivity envelope.",
+    "visual_type": "uncertainty_band",
+    "x_axis": "time",
+    "y_axis": "state value"
+  },
+  {
+    "figure_id": "diagnostic_plot_review",
+    "interpretation_warning": "A clean primary graph may hide numerical artifacts without diagnostics.",
+    "model_object": "solver_error_or_residuals",
+    "scale_note": "Diagnostic axis and units should be explicit.",
+    "uncertainty_note": "Diagnostics should be preserved with primary figures.",
+    "visual_type": "diagnostic_plot",
+    "x_axis": "time or step",
+    "y_axis": "error or residual"
+  }
+]

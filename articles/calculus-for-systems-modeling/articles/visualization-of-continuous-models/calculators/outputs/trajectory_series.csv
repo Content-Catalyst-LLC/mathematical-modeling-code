@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_x0,input_growth_rate,input_carrying_capacity,result_records,result_final_value
+trajectory-series,Generates a trajectory series for visualization.,"Preserve parameters, units, and solver/model assumptions with the figure.",trajectory-series,10.0,0.35,100.0,81,99.18598678672114

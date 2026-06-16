@@ -1,0 +1,16 @@
+{
+  "calculator": "visualization-risk-score",
+  "inputs": {
+    "axis_risk": 2,
+    "command": "visualization-risk-score",
+    "metadata_risk": 2,
+    "smoothing_risk": 1,
+    "uncertainty_risk": 3
+  },
+  "interpretation": "Scores visualization review risk from common distortion channels.",
+  "result": {
+    "review_level": "high_review_priority",
+    "risk_score": 8
+  },
+  "warning": "Risk score is a governance heuristic, not a statistical measure."
+}

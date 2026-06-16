@@ -1,0 +1,11 @@
+{
+  "calculator": "scenario-comparison",
+  "inputs": {
+    "command": "scenario-comparison"
+  },
+  "interpretation": "Compares logistic scenario endpoints.",
+  "result": {
+    "scenarios": 3
+  },
+  "warning": "Scenario lines are parameter contrasts, not probability intervals."
+}

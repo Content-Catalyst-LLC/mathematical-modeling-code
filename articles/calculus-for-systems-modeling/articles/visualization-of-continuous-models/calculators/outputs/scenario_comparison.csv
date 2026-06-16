@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_scenarios
+scenario-comparison,Compares logistic scenario endpoints.,"Scenario lines are parameter contrasts, not probability intervals.",scenario-comparison,3

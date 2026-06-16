@@ -1,0 +1,4 @@
+                calculator risk_score         review_level
+1 visualization-risk-score          8 high_review_priority
+                                                          warning
+1 Risk score is a governance heuristic not a statistical measure.

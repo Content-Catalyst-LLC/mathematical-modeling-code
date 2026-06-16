@@ -1,0 +1,15 @@
+{
+  "calculator": "logistic-point",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "logistic-point",
+    "growth_rate": 0.35,
+    "time": 10.0,
+    "x0": 10.0
+  },
+  "interpretation": "Computes one point on a logistic trajectory.",
+  "result": {
+    "value": 78.63017115706754
+  },
+  "warning": "A plotted point is model-implied, not empirical evidence."
+}

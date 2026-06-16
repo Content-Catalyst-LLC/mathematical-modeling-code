@@ -1,0 +1,13 @@
+{
+  "calculator": "uncertainty-band-note",
+  "inputs": {
+    "band_type": "scenario_range",
+    "command": "uncertainty-band-note"
+  },
+  "interpretation": "Creates an uncertainty band interpretation note.",
+  "result": {
+    "band_type": "scenario_range",
+    "note": "Band shows selected scenario spread, not probability."
+  },
+  "warning": "The meaning of the band must be explained."
+}

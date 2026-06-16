@@ -1,0 +1,1946 @@
+[
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 0.0,
+    "value": 10.0,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 0.25,
+    "value": 10.412352767636278,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 0.5,
+    "value": 10.839661105034716,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 0.75,
+    "value": 11.282297148518854,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 1.0,
+    "value": 11.740628060470117,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 1.25,
+    "value": 12.215014595804965,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 1.5,
+    "value": 12.705809578616757,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 1.75,
+    "value": 13.213356290032301,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 2.0,
+    "value": 13.73798676920948,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 2.25,
+    "value": 14.280020030365451,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 2.5,
+    "value": 14.839760199773366,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 2.75,
+    "value": 15.417494577795487,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 3.0,
+    "value": 16.01349163222714,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 3.25,
+    "value": 16.627998930501168,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 3.5,
+    "value": 17.26124101963693,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 3.75,
+    "value": 17.913417264198937,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 4.0,
+    "value": 18.584699653942934,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 4.25,
+    "value": 19.275230594254175,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 4.5,
+    "value": 19.98512069390321,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 4.75,
+    "value": 20.71444656603612,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 5.0,
+    "value": 21.463248659653015,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 5.25,
+    "value": 22.231529140083328,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 5.5,
+    "value": 23.01924983810952,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 5.75,
+    "value": 23.82633028839095,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 6.0,
+    "value": 24.652645878665236,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 6.25,
+    "value": 25.49802613182322,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 6.5,
+    "value": 26.362253143333753,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 6.75,
+    "value": 27.24506019660605,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 7.0,
+    "value": 28.146130578691807,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 7.25,
+    "value": 29.0650966182223,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 7.5,
+    "value": 30.001538966626008,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 7.75,
+    "value": 30.954986142465522,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 8.0,
+    "value": 31.924914357158247,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 8.25,
+    "value": 32.910747638402796,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 8.5,
+    "value": 33.911858265326025,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 8.75,
+    "value": 34.9275675267102,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 9.0,
+    "value": 35.95714681067674,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 9.25,
+    "value": 36.999819030925124,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 9.5,
+    "value": 38.05476039109289,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 9.75,
+    "value": 39.1211024850639,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 10.0,
+    "value": 40.197934727163585,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 10.25,
+    "value": 41.28430710220525,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 10.5,
+    "value": 42.379233221358525,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 10.75,
+    "value": 43.481693665873216,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 11.0,
+    "value": 44.5906395968822,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 11.25,
+    "value": 45.704996605902146,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 11.5,
+    "value": 46.82366877732212,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 11.75,
+    "value": 47.94554293118778,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 12.0,
+    "value": 49.06949301201602,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 12.25,
+    "value": 50.194384587266555,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 12.5,
+    "value": 51.31907941750047,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 12.75,
+    "value": 52.442440059205,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 13.0,
+    "value": 53.56333446078415,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 13.25,
+    "value": 54.680640512314824,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 13.5,
+    "value": 55.79325051034748,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 13.75,
+    "value": 56.900075500272834,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 14.0,
+    "value": 58.00004946055374,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 14.25,
+    "value": 59.09213329539676,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 14.5,
+    "value": 60.17531860515797,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 14.75,
+    "value": 61.24863120688808,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 15.0,
+    "value": 62.31113438085357,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 15.25,
+    "value": 63.361931822554745,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 15.5,
+    "value": 64.40017028362391,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 15.75,
+    "value": 65.42504188895238,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 16.0,
+    "value": 66.43578612138924,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 16.25,
+    "value": 67.43169146930788,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 16.5,
+    "value": 68.41209673617888,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 16.75,
+    "value": 69.37639201496236,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 17.0,
+    "value": 70.3240193335819,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 17.25,
+    "value": 71.25447298092266,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 17.5,
+    "value": 72.16729952566905,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 17.75,
+    "value": 73.06209754283458,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 18.0,
+    "value": 73.93851706501853,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 18.25,
+    "value": 74.79625877724006,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 18.5,
+    "value": 75.63507297564625,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 18.75,
+    "value": 76.45475831147351,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 19.0,
+    "value": 77.25516034237008,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 19.25,
+    "value": 78.03616991358155,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 19.5,
+    "value": 78.79772139158044,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 19.75,
+    "value": 79.53979077251392,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.18,
+    "scenario": "low_growth",
+    "time": 20.0,
+    "value": 80.26239368737704,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 0.0,
+    "value": 10.0,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 0.25,
+    "value": 10.815523052523744,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 0.5,
+    "value": 11.688916068680133,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 0.75,
+    "value": 12.622856241216223,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 1.0,
+    "value": 13.619909286266738,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 1.25,
+    "value": 14.682483790024342,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 1.5,
+    "value": 15.812781026096012,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 1.75,
+    "value": 17.01274069958017,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 2.0,
+    "value": 18.283983315737387,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 2.25,
+    "value": 19.62775013846226,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 2.5,
+    "value": 21.044841987496017,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 2.75,
+    "value": 22.535558410499256,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 3.0,
+    "value": 24.09963903989388,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 3.25,
+    "value": 25.736209184426205,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 3.5,
+    "value": 27.443731888705198,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 3.75,
+    "value": 29.219968796345736,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 4.0,
+    "value": 31.06195215043328,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 4.25,
+    "value": 32.965970138765236,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 4.5,
+    "value": 34.9275675267102,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 4.75,
+    "value": 36.94156311233457,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 5.0,
+    "value": 39.00208499252912,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 5.25,
+    "value": 41.10262396362885,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 5.5,
+    "value": 43.23610462665067,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 5.75,
+    "value": 45.394972968499026,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 6.0,
+    "value": 47.57129839772269,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 6.25,
+    "value": 49.75688748246814,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 6.5,
+    "value": 51.94340602410685,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 6.75,
+    "value": 54.12250565099714,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 7.0,
+    "value": 56.28595086949512,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 7.25,
+    "value": 58.42574248416082,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 7.5,
+    "value": 60.53423349821315,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 7.75,
+    "value": 62.60423401212569,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 8.0,
+    "value": 64.62910221955514,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 8.25,
+    "value": 66.60281930938332,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 8.5,
+    "value": 68.5200468665596,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 8.75,
+    "value": 70.37616616654428,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 9.0,
+    "value": 72.16729952566905,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 9.25,
+    "value": 73.89031455769221,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 9.5,
+    "value": 75.54281276131194,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 9.75,
+    "value": 77.12310430313954,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 10.0,
+    "value": 78.63017115706754,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 10.25,
+    "value": 80.06362091703987,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 10.5,
+    "value": 81.42363362822017,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 10.75,
+    "value": 82.71090390041354,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 11.0,
+    "value": 83.92658040018763,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 11.25,
+    "value": 85.07220458865109,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 11.5,
+    "value": 86.14965030368961,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 11.75,
+    "value": 87.1610654996671,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 12.0,
+    "value": 88.10881717184373,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 12.25,
+    "value": 88.9954402208642,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 12.5,
+    "value": 89.82359076456525,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 12.75,
+    "value": 90.59600418636403,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 13.0,
+    "value": 91.31545802481953,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 13.25,
+    "value": 91.98473965826817,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 13.5,
+    "value": 92.60661862046794,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 13.75,
+    "value": 93.18382329534084,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 14.0,
+    "value": 93.71902167775738,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 14.25,
+    "value": 94.21480584901664,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 14.5,
+    "value": 94.6736797963194,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 14.75,
+    "value": 95.09805020133714,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 15.0,
+    "value": 95.49021983047916,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 15.25,
+    "value": 95.85238317559184,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 15.5,
+    "value": 96.18662401595843,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 15.75,
+    "value": 96.49491459842847,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 16.0,
+    "value": 96.7791161605302,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 16.25,
+    "value": 97.0409805501323,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 16.5,
+    "value": 97.28215272358378,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 16.75,
+    "value": 97.50417393151709,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 17.0,
+    "value": 97.70848542713482,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 17.25,
+    "value": 97.89643255548802,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 17.5,
+    "value": 98.0692691038184,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 17.75,
+    "value": 98.22816181241812,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 18.0,
+    "value": 98.37419496268288,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 18.25,
+    "value": 98.5083749741789,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 18.5,
+    "value": 98.63163495574062,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 18.75,
+    "value": 98.74483916700724,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 19.0,
+    "value": 98.84878735655907,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 19.25,
+    "value": 98.94421895109129,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 19.5,
+    "value": 99.03181707702797,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 19.75,
+    "value": 99.11221240178891,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.35,
+    "scenario": "baseline",
+    "time": 20.0,
+    "value": 99.18598678672114,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 0.0,
+    "value": 10.0,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 0.25,
+    "value": 11.307344867374171,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 0.5,
+    "value": 12.761370235391801,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 0.75,
+    "value": 14.372072434445121,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 1.0,
+    "value": 16.14844087791548,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 1.25,
+    "value": 18.09796143630947,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 1.5,
+    "value": 20.226067025471693,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 1.75,
+    "value": 22.53555841049926,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 2.0,
+    "value": 25.026028613346334,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 2.25,
+    "value": 27.693334247008774,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 2.5,
+    "value": 30.52916480164966,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 2.75,
+    "value": 33.52076429526606,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 3.0,
+    "value": 36.65085676561743,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 3.25,
+    "value": 39.897816417802765,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 3.5,
+    "value": 43.236104626650686,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 3.75,
+    "value": 46.63697080956456,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 4.0,
+    "value": 50.069385522054965,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 4.25,
+    "value": 53.50114638706311,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 4.5,
+    "value": 56.900075500272834,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 4.75,
+    "value": 60.23521490964454,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 5.0,
+    "value": 63.47792702379811,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 5.25,
+    "value": 66.60281930938332,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 5.5,
+    "value": 69.58843492852756,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 5.75,
+    "value": 72.41767884033973,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 6.0,
+    "value": 75.07797749210836,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 6.25,
+    "value": 77.56119519315757,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 6.5,
+    "value": 79.86334857359965,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 6.75,
+    "value": 81.98417086659668,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 7.0,
+    "value": 83.92658040018763,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 7.25,
+    "value": 85.69610408230912,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 7.5,
+    "value": 87.30029883073706,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 7.75,
+    "value": 88.74820391497911,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 8.0,
+    "value": 90.04984680320078,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 8.25,
+    "value": 91.21581560971619,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 8.5,
+    "value": 92.25690335749627,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 8.75,
+    "value": 93.18382329534084,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 9.0,
+    "value": 94.00699040307018,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 9.25,
+    "value": 94.73636174268225,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 9.5,
+    "value": 95.38132713885076,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 9.75,
+    "value": 95.95064145325678,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 10.0,
+    "value": 96.45239014119437,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 10.25,
+    "value": 96.89398058823308,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 10.5,
+    "value": 97.28215272358378,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 10.75,
+    "value": 97.62300345672273,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 11.0,
+    "value": 97.92202049449544,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 11.25,
+    "value": 98.18412201445938,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 11.5,
+    "value": 98.4136994709102,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 11.75,
+    "value": 98.61466148560689,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 12.0,
+    "value": 98.79047733003507,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 12.25,
+    "value": 98.94421895109129,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 12.5,
+    "value": 99.07860084139071,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 12.75,
+    "value": 99.19601732385921,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 13.0,
+    "value": 99.29857702213037,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 13.25,
+    "value": 99.38813443644463,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 13.5,
+    "value": 99.46631865045501,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 13.75,
+    "value": 99.5345592670486,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 14.0,
+    "value": 99.59410971877536,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 14.25,
+    "value": 99.646068127032,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 14.5,
+    "value": 99.69139589876487,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 14.75,
+    "value": 99.7309342540374,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 15.0,
+    "value": 99.76541887536423,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 15.25,
+    "value": 99.79549286253199,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 15.5,
+    "value": 99.82171816641994,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 15.75,
+    "value": 99.84458566336657,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 16.0,
+    "value": 99.86452401881527,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 16.25,
+    "value": 99.88190747596327,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 16.5,
+    "value": 99.89706269237725,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 16.75,
+    "value": 99.91027473532397,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 17.0,
+    "value": 99.92179233507625,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 17.25,
+    "value": 99.93183248479664,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 17.5,
+    "value": 99.94058446581859,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 17.75,
+    "value": 99.94821336823883,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 18.0,
+    "value": 99.95486316868488,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 18.25,
+    "value": 99.96065941988257,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 18.5,
+    "value": 99.96571160017288,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 18.75,
+    "value": 99.97011516535265,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 19.0,
+    "value": 99.97395334008407,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 19.25,
+    "value": 99.97729868157151,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 19.5,
+    "value": 99.98021444418534,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 19.75,
+    "value": 99.98275577016608,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  },
+  {
+    "carrying_capacity": 100.0,
+    "growth_rate": 0.55,
+    "scenario": "high_growth",
+    "time": 20.0,
+    "value": 99.98497072841835,
+    "warning": "Trajectory visualization depends on equation, initial condition, parameters, time horizon, axis scale, and scenario selection."
+  }
+]

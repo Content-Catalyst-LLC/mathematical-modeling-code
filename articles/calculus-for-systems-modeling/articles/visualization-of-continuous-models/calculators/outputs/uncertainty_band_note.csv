@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_band_type,result_band_type,result_note
+uncertainty-band-note,Creates an uncertainty band interpretation note.,The meaning of the band must be explained.,uncertainty-band-note,scenario_range,scenario_range,"Band shows selected scenario spread, not probability."

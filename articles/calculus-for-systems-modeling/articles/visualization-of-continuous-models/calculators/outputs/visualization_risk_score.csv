@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_axis_risk,input_uncertainty_risk,input_smoothing_risk,input_metadata_risk,result_risk_score,result_review_level
+visualization-risk-score,Scores visualization review risk from common distortion channels.,"Risk score is a governance heuristic, not a statistical measure.",visualization-risk-score,2,3,1,2,8,high_review_priority

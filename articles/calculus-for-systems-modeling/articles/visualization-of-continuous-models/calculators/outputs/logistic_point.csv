@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_time,input_x0,input_growth_rate,input_carrying_capacity,result_value
+logistic-point,Computes one point on a logistic trajectory.,"A plotted point is model-implied, not empirical evidence.",logistic-point,10.0,10.0,0.35,100.0,78.63017115706754

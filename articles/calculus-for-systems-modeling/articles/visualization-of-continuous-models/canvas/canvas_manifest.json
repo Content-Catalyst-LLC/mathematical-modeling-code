@@ -1,0 +1,22 @@
+{
+  "article_slug": "visualization-of-continuous-models",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "visualization-of-continuous-models",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "trajectory-plot", "title": "Trajectory Plot", "description": "State value against time."},
+    {"card_id": "phase-portrait", "title": "Phase Portrait", "description": "Movement through state space."},
+    {"card_id": "vector-field", "title": "Vector Field", "description": "Direction and magnitude across a domain."},
+    {"card_id": "uncertainty-band", "title": "Uncertainty Band", "description": "Scenario spread or uncertainty around trajectories."},
+    {"card_id": "diagnostic-plot", "title": "Diagnostic Plot", "description": "Error, residual, solver-step, or constraint visualization."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

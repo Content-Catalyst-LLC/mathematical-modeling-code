@@ -1,0 +1,10 @@
+condition,passed,warning
+trajectory tables included,True,
+visualization metadata included,True,
+phase portrait review included,True,
+vector field review included,True,
+uncertainty and scenario notes included,True,
+diagnostic visualization warnings included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

@@ -1,0 +1,19 @@
+{
+  "article_slug": "visualization-of-continuous-models",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-point", "title": "Logistic Trajectory Point"},
+    {"id": "trajectory-series", "title": "Trajectory Series"},
+    {"id": "scenario-comparison", "title": "Scenario Comparison Table"},
+    {"id": "figure-audit-record", "title": "Figure Audit Record"},
+    {"id": "visualization-risk-score", "title": "Visualization Risk Score"},
+    {"id": "uncertainty-band-note", "title": "Uncertainty Band Note"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

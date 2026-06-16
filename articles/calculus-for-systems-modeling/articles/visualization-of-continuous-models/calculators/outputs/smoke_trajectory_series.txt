@@ -1,0 +1,15 @@
+{
+  "calculator": "trajectory-series",
+  "inputs": {
+    "carrying_capacity": 100.0,
+    "command": "trajectory-series",
+    "growth_rate": 0.35,
+    "x0": 10.0
+  },
+  "interpretation": "Generates a trajectory series for visualization.",
+  "result": {
+    "final_value": 99.18598678672114,
+    "records": 81
+  },
+  "warning": "Preserve parameters, units, and solver/model assumptions with the figure."
+}
