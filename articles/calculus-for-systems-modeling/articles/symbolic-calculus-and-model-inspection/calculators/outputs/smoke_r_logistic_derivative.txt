@@ -1,0 +1,4 @@
+           calculator rate_expression first_derivative second_derivative
+1 logistic-derivative   r*x*(1 - x/K)      r - 2*r*x/K            -2*r/K
+                                                    warning
+1 Derivative signs depend on parameter regimes and domains.

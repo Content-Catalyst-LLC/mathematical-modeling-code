@@ -1,0 +1,12 @@
+{
+  "calculator": "domain-warning",
+  "inputs": {
+    "command": "domain-warning",
+    "expression": "r*x*(1 - x/K)"
+  },
+  "interpretation": "Creates a domain and assumption warning for an expression.",
+  "result": {
+    "domain_warning": "Document K as nonzero, record positivity assumptions, and preserve excluded values."
+  },
+  "warning": "Symbolic simplification can hide excluded cases."
+}

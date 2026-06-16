@@ -1,0 +1,7 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+original_expression,Original expression,Record the model expression before transformation,Preserves the structure being inspected,Do not overwrite original expressions with simplified forms
+domain_assumptions,Domain assumptions,Record valid variable and parameter ranges,Prevents expressions from being interpreted outside their model scope,Simplification can become misleading if domains are not documented
+derivative_check,Derivative check,Compute symbolic derivatives,Reveals marginal effects sensitivities and local feedback,Derivative signs depend on parameter regimes and domains
+limit_check,Limit check,Evaluate boundary and asymptotic behavior,Reveals singularities thresholds and long-run implications,Limits should be interpreted within model assumptions
+equilibrium_check,Equilibrium check,Solve rate expressions equal to zero,Identifies candidate steady states,Equilibria require stability and domain review
+jacobian_check,Jacobian check,Compute first partial derivative matrix,Inspects local coupling and stability in multivariable systems,Local linearization does not replace nonlinear analysis

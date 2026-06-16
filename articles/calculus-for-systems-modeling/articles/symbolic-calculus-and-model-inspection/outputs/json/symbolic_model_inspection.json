@@ -1,0 +1,38 @@
+[
+  {
+    "expression": "r*x*(1 - x/K)",
+    "interpretation": "Logistic growth rate with state x, growth rate r, and carrying capacity K.",
+    "item": "rate_expression",
+    "warning": "Assumes x, r, and K are positive and K is nonzero."
+  },
+  {
+    "expression": "r - 2*r*x/K",
+    "interpretation": "Marginal growth effect declines as x increases.",
+    "item": "first_derivative",
+    "warning": "Derivative interpretation depends on the stated domain."
+  },
+  {
+    "expression": "-2*r/K",
+    "interpretation": "Curvature is negative for positive r and K.",
+    "item": "second_derivative",
+    "warning": "Curvature describes the rate expression, not empirical validity."
+  },
+  {
+    "expression": "[0, K]",
+    "interpretation": "Equilibria occur where the rate of change is zero.",
+    "item": "equilibria",
+    "warning": "Equilibrium relevance depends on domain and model assumptions."
+  },
+  {
+    "expression": "0",
+    "interpretation": "Growth rate approaches zero as x approaches carrying capacity.",
+    "item": "limit_at_capacity",
+    "warning": "Boundary behavior should be checked against the modeled system."
+  },
+  {
+    "expression": "Matrix([[r - 2*r*x/K]])",
+    "interpretation": "One-state Jacobian records the local derivative of the rate function.",
+    "item": "jacobian",
+    "warning": "Local linear inspection does not replace nonlinear simulation."
+  }
+]

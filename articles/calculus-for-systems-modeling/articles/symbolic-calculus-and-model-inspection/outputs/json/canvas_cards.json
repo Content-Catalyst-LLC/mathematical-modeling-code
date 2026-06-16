@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "original-expression",
+    "category": "expression governance",
+    "governance_note": "Preserve the model expression before simplification or transformation.",
+    "review_date": "2026-06-15",
+    "score": 96,
+    "status": "active",
+    "title": "Original Expression"
+  },
+  {
+    "card_id": "domain-assumptions",
+    "category": "model scope",
+    "governance_note": "Variable and parameter domains must be documented.",
+    "review_date": "2026-06-15",
+    "score": 95,
+    "status": "active",
+    "title": "Domain Assumptions"
+  },
+  {
+    "card_id": "derivative-check",
+    "category": "local structure",
+    "governance_note": "Derivative signs depend on parameter regimes and assumptions.",
+    "review_date": "2026-06-15",
+    "score": 94,
+    "status": "active",
+    "title": "Derivative Check"
+  },
+  {
+    "card_id": "equilibrium-check",
+    "category": "dynamic structure",
+    "governance_note": "Equilibria require domain and stability review.",
+    "review_date": "2026-06-15",
+    "score": 93,
+    "status": "review",
+    "title": "Equilibrium Check"
+  },
+  {
+    "card_id": "jacobian-check",
+    "category": "systems coupling",
+    "governance_note": "Local linearization does not replace nonlinear analysis.",
+    "review_date": "2026-06-15",
+    "score": 92,
+    "status": "review",
+    "title": "Jacobian Check"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SymbolicInspectionRecord",
+  "type": "object",
+  "required": ["item", "expression", "interpretation", "warning"],
+  "properties": {
+    "item": {"type": "string"},
+    "expression": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

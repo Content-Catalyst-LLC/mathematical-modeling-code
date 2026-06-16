@@ -1,0 +1,19 @@
+{
+  "article_slug": "symbolic-calculus-and-model-inspection",
+  "calculator_layer_version": "1.0.0",
+  "website_widget_ready": true,
+  "calculators": [
+    {"id": "logistic-derivative", "title": "Logistic Rate Derivative"},
+    {"id": "logistic-equilibria", "title": "Logistic Equilibrium Candidates"},
+    {"id": "capacity-limit", "title": "Limit at Carrying Capacity"},
+    {"id": "jacobian-record", "title": "One-State Jacobian Record"},
+    {"id": "domain-warning", "title": "Domain and Assumption Warning"},
+    {"id": "symbolic-inspection-report", "title": "Symbolic Inspection Report"}
+  ],
+  "outputs": ["csv", "json"],
+  "governance": {
+    "synthetic_examples": true,
+    "requires_interpretation": true,
+    "safe_for_future_widget_wrapping": true
+  }
+}

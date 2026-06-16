@@ -1,0 +1,8 @@
+# Symbolic Model Inspection
+
+- **rate_expression**: `r*x*(1 - x/K)` — Logistic growth rate with state x, growth rate r, and carrying capacity K. Warning: Assumes x, r, and K are positive and K is nonzero.
+- **first_derivative**: `r - 2*r*x/K` — Marginal growth effect declines as x increases. Warning: Derivative interpretation depends on the stated domain.
+- **second_derivative**: `-2*r/K` — Curvature is negative for positive r and K. Warning: Curvature describes the rate expression, not empirical validity.
+- **equilibria**: `[0, K]` — Equilibria occur where the rate of change is zero. Warning: Equilibrium relevance depends on domain and model assumptions.
+- **limit_at_capacity**: `0` — Growth rate approaches zero as x approaches carrying capacity. Warning: Boundary behavior should be checked against the modeled system.
+- **jacobian**: `Matrix([[r - 2*r*x/K]])` — One-state Jacobian records the local derivative of the rate function. Warning: Local linear inspection does not replace nonlinear simulation.

@@ -1,0 +1,25 @@
+{
+  "article": "Symbolic Calculus and Model Inspection",
+  "advanced_standard": true,
+  "calculator_layer_included": true,
+  "catalyst_canvas_layer_included": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "warnings": [
+    "Exact symbolic expressions do not make a model empirically true.",
+    "Simplification can hide excluded cases or domain assumptions.",
+    "Derivative signs depend on parameter regimes and assumptions.",
+    "Equilibria require stability and domain review.",
+    "Local Jacobian analysis does not replace nonlinear simulation."
+  ]
+}

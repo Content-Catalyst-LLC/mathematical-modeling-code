@@ -1,0 +1,4 @@
+           calculator     equilibria
+1 logistic-equilibria x = 0 or x = K
+                                          warning
+1 Equilibria require domain and stability review.

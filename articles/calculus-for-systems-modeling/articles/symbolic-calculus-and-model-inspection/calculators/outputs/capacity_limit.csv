@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_limit_as_x_approaches_K
+capacity-limit,Returns boundary behavior at carrying capacity.,Boundary behavior should be checked against modeled assumptions.,capacity-limit,0

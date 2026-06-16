@@ -1,0 +1,36 @@
+section                           
+----------------------------------
+SYMBOLIC MODEL INSPECTION REGISTRY
+inspection_name      symbolic_operation                                  systems_modeling_role                                         review_warning                                              
+-------------------  --------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Derivative check     Compute symbolic derivatives.                       Reveals marginal effects, sensitivities, and local feedback.  Derivative signs depend on parameter regimes and domains.   
+
+Domain assumptions   Record valid variable and parameter ranges.         Prevents expressions from being interpreted outside their mo  Simplification can become misleading if domains are not docu
+                                                                         del scope.                                                    mented.                                                     
+
+Equilibrium check    Solve rate expressions equal to zero.               Identifies candidate steady states.                           Equilibria require stability and domain review.             
+
+Jacobian check       Compute first partial derivative matrix.            Inspects local coupling and stability in multivariable syste  Local linearization does not replace nonlinear analysis.    
+                                                                         ms.                                                                                                                       
+
+Limit check          Evaluate boundary and asymptotic behavior.          Reveals singularities, thresholds, and long-run implications  Limits should be interpreted within model assumptions.      
+                                                                         .                                                                                                                         
+
+Original expression  Record the model expression before transformation.  Preserves the structure being inspected.                      Do not overwrite original expressions with simplified forms.
+section                    
+---------------------------
+SYMBOLIC EXPRESSION RECORDS
+item               expression      interpretation                                                warning                                                     
+-----------------  --------------  ------------------------------------------------------------  ------------------------------------------------------------
+equilibria         x = 0 or x = K  Equilibria occur where the rate expression equals zero.       Equilibria require domain and stability review.             
+
+first_derivative   r - 2*r*x/K     Marginal growth effect declines as x increases.               Derivative interpretation depends on positive-domain assumpt
+                                                                                                 ions.                                                       
+
+limit_at_capacity  0               Growth rate approaches zero as x approaches carrying capacit  Boundary behavior should be checked against modeled assumpti
+                                   y.                                                            ons.                                                        
+
+rate_expression    r*x*(1 - x/K)   Logistic growth rate expression.                              Assumes documented domain conditions including K not equal t
+                                                                                                 o zero.                                                     
+
+second_derivative  -2*r/K          Curvature is negative when r and K are positive.              Curvature describes model structure, not empirical validity.

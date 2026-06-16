@@ -1,0 +1,11 @@
+{
+  "calculator": "logistic-equilibria",
+  "inputs": {
+    "command": "logistic-equilibria"
+  },
+  "interpretation": "Returns candidate equilibria for the logistic rate expression.",
+  "result": {
+    "equilibria": "x = 0 or x = K"
+  },
+  "warning": "Equilibria require domain and stability review."
+}

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+original-expression,Original Expression,expression governance,96,active,2026-06-15,Preserve the model expression before simplification or transformation.
+domain-assumptions,Domain Assumptions,model scope,95,active,2026-06-15,Variable and parameter domains must be documented.
+derivative-check,Derivative Check,local structure,94,active,2026-06-15,Derivative signs depend on parameter regimes and assumptions.
+equilibrium-check,Equilibrium Check,dynamic structure,93,review,2026-06-15,Equilibria require domain and stability review.
+jacobian-check,Jacobian Check,systems coupling,92,review,2026-06-15,Local linearization does not replace nonlinear analysis.

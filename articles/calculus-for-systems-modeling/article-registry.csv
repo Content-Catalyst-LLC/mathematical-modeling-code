@@ -34,8 +34,9 @@ IX Numerical Calculus and Computational Methods,63,finite-difference-methods,Fin
 IX Numerical Calculus and Computational Methods,64,eulers-method,Euler’s Method,active,articles/eulers-method,upgraded,included
 IX Numerical Calculus and Computational Methods,65,runge-kutta-methods,Runge–Kutta Methods,active,articles/runge-kutta-methods,upgraded,included
 IX Numerical Calculus and Computational Methods,66,ordinary-differential-equation-solver-workflows,Ordinary Differential Equation Solver Workflows,active,articles/ordinary-differential-equation-solver-workflows,upgraded,included
-IX Numerical Calculus and Computational Methods,67,symbolic-calculus-and-model-inspection,Symbolic Calculus and Model Inspection,planned,articles/symbolic-calculus-and-model-inspection,required,required
+IX Numerical Calculus and Computational Methods,67,symbolic-calculus-and-model-inspection,Symbolic Calculus and Model Inspection,active,articles/symbolic-calculus-and-model-inspection,upgraded,included
 IX Numerical Calculus and Computational Methods,68,visualization-of-continuous-models,Visualization of Continuous Models,planned,articles/visualization-of-continuous-models,required,required
+IX Numerical Calculus and Computational Methods,69,stability-error-and-convergence-in-numerical-modeling,"Stability, Error, and Convergence in Numerical Modeling",planned,articles/stability-error-and-convergence-in-numerical-modeling,required,required
 V Multivariable Calculus,29,functions-of-several-variables,Functions of Several Variables,active,articles/functions-of-several-variables,upgraded,included
 V Multivariable Calculus,30,partial-derivatives-and-interaction-effects,Partial Derivatives and Interaction Effects,active,articles/partial-derivatives-and-interaction-effects,upgraded,included
 V Multivariable Calculus,31,total-differentials-and-local-approximation-in-higher-dimensions,Total Differentials and Local Approximation in Higher Dimensions,active,articles/total-differentials-and-local-approximation-in-higher-dimensions,upgraded,included

@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,input_expression,result_domain_warning
+domain-warning,Creates a domain and assumption warning for an expression.,Symbolic simplification can hide excluded cases.,domain-warning,r*x*(1 - x/K),"Document K as nonzero, record positivity assumptions, and preserve excluded values."

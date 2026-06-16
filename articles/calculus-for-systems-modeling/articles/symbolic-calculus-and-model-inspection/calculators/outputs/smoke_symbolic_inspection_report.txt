@@ -1,0 +1,12 @@
+{
+  "calculator": "symbolic-inspection-report",
+  "inputs": {
+    "command": "symbolic-inspection-report"
+  },
+  "interpretation": "Creates a compact symbolic inspection report record.",
+  "result": {
+    "includes": "expression, derivatives, equilibria, limit, Jacobian, domain warnings",
+    "records": 6
+  },
+  "warning": "Exact expressions do not make a model empirically valid."
+}

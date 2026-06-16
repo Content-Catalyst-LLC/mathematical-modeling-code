@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_rate_expression,result_first_derivative,result_second_derivative
+logistic-derivative,Returns symbolic derivative records for logistic growth.,Derivative signs depend on parameter regimes and domain assumptions.,logistic-derivative,r*x*(1 - x/K),r - 2*r*x/K,-2*r/K

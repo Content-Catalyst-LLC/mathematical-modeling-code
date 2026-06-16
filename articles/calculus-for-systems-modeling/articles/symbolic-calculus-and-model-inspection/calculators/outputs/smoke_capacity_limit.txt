@@ -1,0 +1,11 @@
+{
+  "calculator": "capacity-limit",
+  "inputs": {
+    "command": "capacity-limit"
+  },
+  "interpretation": "Returns boundary behavior at carrying capacity.",
+  "result": {
+    "limit_as_x_approaches_K": "0"
+  },
+  "warning": "Boundary behavior should be checked against modeled assumptions."
+}

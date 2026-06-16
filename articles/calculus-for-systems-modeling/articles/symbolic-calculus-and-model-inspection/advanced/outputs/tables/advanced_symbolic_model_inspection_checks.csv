@@ -1,0 +1,10 @@
+condition,passed,warning
+original expression preserved,True,
+derivative checks included,True,
+equilibrium records included,True,
+limit and boundary records included,True,
+Jacobian inspection included,True,
+domain and assumption governance included,True,
+multilanguage scaffold included,True,
+calculator layer included,True,
+catalyst canvas layer included,True,

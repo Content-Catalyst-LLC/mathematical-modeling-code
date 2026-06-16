@@ -1,0 +1,4 @@
+      calculator limit_as_x_approaches_K
+1 capacity-limit                       0
+                                                           warning
+1 Boundary behavior should be checked against modeled assumptions.

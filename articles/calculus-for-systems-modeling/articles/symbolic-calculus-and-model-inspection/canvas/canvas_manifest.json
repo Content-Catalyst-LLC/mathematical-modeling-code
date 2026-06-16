@@ -1,0 +1,22 @@
+{
+  "article_slug": "symbolic-calculus-and-model-inspection",
+  "series": "Calculus for Systems Modeling",
+  "canvas_layer": "symbolic-calculus-and-model-inspection",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "original-expression", "title": "Original Expression", "description": "Model expression before symbolic transformation."},
+    {"card_id": "domain-assumptions", "title": "Domain Assumptions", "description": "Variable and parameter ranges required for interpretation."},
+    {"card_id": "derivative-check", "title": "Derivative Check", "description": "Symbolic derivative and local sensitivity record."},
+    {"card_id": "equilibrium-check", "title": "Equilibrium Check", "description": "Candidate steady states from symbolic solving."},
+    {"card_id": "jacobian-check", "title": "Jacobian Check", "description": "Local coupling and stability structure."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

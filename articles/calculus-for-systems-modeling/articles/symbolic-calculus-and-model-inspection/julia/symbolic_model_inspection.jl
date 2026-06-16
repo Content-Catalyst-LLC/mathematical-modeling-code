@@ -1,0 +1,7 @@
+println("item,expression,interpretation,warning")
+println("rate_expression,\"r*x*(1 - x/K)\",\"Logistic growth rate expression.\",\"Assumes K is nonzero and domains are documented.\"")
+println("first_derivative,\"r - 2*r*x/K\",\"Marginal growth effect declines as x increases.\",\"Derivative signs depend on parameter regime.\"")
+println("second_derivative,\"-2*r/K\",\"Curvature is negative for positive r and K.\",\"Curvature does not validate empirical structure.\"")
+println("equilibria,\"x = 0 or x = K\",\"Equilibria occur where the rate expression equals zero.\",\"Equilibria require domain and stability review.\"")
+println("limit_at_capacity,\"0\",\"Growth rate approaches zero as x approaches carrying capacity.\",\"Boundary behavior should be checked against modeled assumptions.\"")
+println("jacobian,\"[r - 2*r*x/K]\",\"One-state Jacobian records local derivative.\",\"Local linearization does not replace nonlinear simulation.\"")

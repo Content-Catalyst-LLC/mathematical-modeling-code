@@ -1,0 +1,6 @@
+"item","expression","interpretation","warning"
+"rate_expression","r * x * (1 - x/K)","Logistic growth rate expression.","K must be nonzero."
+"first_derivative","r * (1 - x/K) - r * x * (1/K)","Marginal growth effect with respect to x.","Derivative interpretation depends on domain."
+"second_derivative","-(r * (1/K) + r * (1/K))","Curvature of the rate expression.","Curvature does not validate empirical structure."
+"equilibrium_condition","r * x * (1 - x / K) = 0","Equilibria occur where the rate expression equals zero.","Solving requires domain review."
+"domain_warning","x, r, and K should be interpreted under documented domain assumptions","Symbolic interpretation depends on assumptions and valid domains.","Automatic simplification can hide excluded cases."

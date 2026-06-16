@@ -1,0 +1,2 @@
+calculator,interpretation,warning,input_command,result_equilibria
+logistic-equilibria,Returns candidate equilibria for the logistic rate expression.,Equilibria require domain and stability review.,logistic-equilibria,x = 0 or x = K

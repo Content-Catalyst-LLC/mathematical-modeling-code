@@ -1,0 +1,13 @@
+{
+  "calculator": "logistic-derivative",
+  "inputs": {
+    "command": "logistic-derivative"
+  },
+  "interpretation": "Returns symbolic derivative records for logistic growth.",
+  "result": {
+    "first_derivative": "r - 2*r*x/K",
+    "rate_expression": "r*x*(1 - x/K)",
+    "second_derivative": "-2*r/K"
+  },
+  "warning": "Derivative signs depend on parameter regimes and domain assumptions."
+}

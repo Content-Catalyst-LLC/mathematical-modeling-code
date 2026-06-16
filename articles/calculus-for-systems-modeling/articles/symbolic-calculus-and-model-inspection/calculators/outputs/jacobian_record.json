@@ -1,0 +1,11 @@
+{
+  "calculator": "jacobian-record",
+  "inputs": {
+    "command": "jacobian-record"
+  },
+  "interpretation": "Returns a one-state Jacobian record.",
+  "result": {
+    "jacobian": "[r - 2*r*x/K]"
+  },
+  "warning": "Local linear inspection does not replace nonlinear simulation."
+}
