@@ -1,0 +1,13 @@
+{
+  "column_count": 2,
+  "fitted_values": "1.950000,3.000000,4.050000,5.100000",
+  "interpretation_warning": "Least squares minimizes squared residuals; fit quality, residual patterns, scaling, rank, conditioning, and model purpose still require review.",
+  "overdetermined": true,
+  "rank": 2,
+  "residual_norm": 0.122474487139,
+  "residuals": "0.050000,-0.100000,0.050000,-0.000000",
+  "row_count": 4,
+  "solution": "0.900000,1.050000",
+  "solver_method": "normal equations for transparent teaching example; use QR or SVD for robust numerical workflows",
+  "system_name": "four_observation_linear_calibration"
+}

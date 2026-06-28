@@ -1,0 +1,2 @@
+calculator,row_count,column_count,overdetermined,rank,solution,fitted_values,residuals,residual_norm,warning
+least_squares_calculator,4,2,True,2,"0.850000,1.040000","1.890000,2.930000,3.970000,5.010000","0.110000,-0.030000,0.130000,0.090000",0.191311,Least squares gives a squared-error approximation; residual patterns and model meaning still require review.

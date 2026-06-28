@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "overdetermined-system",
+    "category": "structure",
+    "governance_note": "Record why rows exceed unknowns: evidence, redundancy, or conflict.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Overdetermined System"
+  },
+  {
+    "card_id": "residuals",
+    "category": "diagnostic",
+    "governance_note": "Residuals should be interpreted as evidence, not discarded.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "review",
+    "title": "Residuals"
+  },
+  {
+    "card_id": "least-squares",
+    "category": "approximation",
+    "governance_note": "Squared-error minimization is a criterion, not proof of truth.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "active",
+    "title": "Least Squares"
+  },
+  {
+    "card_id": "projection",
+    "category": "geometry",
+    "governance_note": "Fitted values are the closest model-reachable outputs under the chosen norm.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Projection"
+  },
+  {
+    "card_id": "solver-choice",
+    "category": "numerical",
+    "governance_note": "Document normal equations, QR, SVD, rank, conditioning, and tolerance decisions.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Solver Choice"
+  }
+]

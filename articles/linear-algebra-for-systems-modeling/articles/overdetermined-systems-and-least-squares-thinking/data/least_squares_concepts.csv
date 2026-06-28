@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+overdetermined_system,Overdetermined system,More equations than unknowns,Many observations or constraints estimate fewer unknowns,Extra rows can improve evidence or expose inconsistency
+residual,Residual,Observed minus fitted value,Shows what model fails to explain or satisfy,Residual patterns should be audited
+least_squares,Least squares,Minimizes squared residual norm,Chooses best squared-error approximation,Best fit is not model truth
+projection,Projection,Closest vector in column space,Closest output the model can produce,Distance depends on norm scaling and weights
+normal_equations,Normal equations,A transpose A x equals A transpose b,Connects least squares to orthogonality,Can worsen conditioning
+full_column_rank,Full column rank,Independent columns,Unique least-squares solution,Rank does not ensure substantive validity
+qr_decomposition,QR decomposition,Stable least-squares factorization,Recommended computational workflow for many cases,Still requires rank and residual review
+svd,SVD,Rank and conditioning factorization,Best for rank deficiency and pseudoinverse reasoning,Costlier but highly diagnostic

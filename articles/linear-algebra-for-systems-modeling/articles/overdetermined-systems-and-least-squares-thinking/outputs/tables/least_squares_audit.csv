@@ -1,0 +1,2 @@
+system_name,row_count,column_count,overdetermined,rank,solution,fitted_values,residuals,residual_norm,solver_method,interpretation_warning
+four_observation_linear_calibration,4,2,True,2,"0.900000,1.050000","1.950000,3.000000,4.050000,5.100000","0.050000,-0.100000,0.050000,-0.000000",0.122474487139,normal equations for transparent teaching example; use QR or SVD for robust numerical workflows,"Least squares minimizes squared residuals; fit quality, residual patterns, scaling, rank, conditioning, and model purpose still require review."

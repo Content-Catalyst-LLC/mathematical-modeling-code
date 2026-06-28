@@ -1,7 +1,6 @@
 part,order,slug,title,status,folder,advanced_standard,calculators
 I Foundations of Linear Algebra,6,coordinates-change-of-basis-and-model-meaning,"Coordinates, Change of Basis, and Model Meaning",planned,articles/coordinates-change-of-basis-and-model-meaning,required,required
 II Matrices and System Structure,7,matrix-addition-scalar-multiplication-and-system-operations,"Matrix Addition, Scalar Multiplication, and System Operations",planned,articles/matrix-addition-scalar-multiplication-and-system-operations,required,required
-II Matrices and System Structure,8,matrix-multiplication-and-interaction-effects,Matrix Multiplication and Interaction Effects,planned,articles/matrix-multiplication-and-interaction-effects,required,required
 III Linear Systems and Solution Methods,1,what-is-linear-algebra-for-systems-modeling,What Is Linear Algebra for Systems Modeling?,active,articles/what-is-linear-algebra-for-systems-modeling,upgraded,included
 III Linear Systems and Solution Methods,2,scalars-vectors-and-system-states,"Scalars, Vectors, and System States",active,articles/scalars-vectors-and-system-states,upgraded,included
 III Linear Systems and Solution Methods,3,vector-spaces-and-system-representation,Vector Spaces and System Representation,active,articles/vector-spaces-and-system-representation,upgraded,included
@@ -16,9 +15,10 @@ III Linear Systems and Solution Methods,11,rank-nullity-and-structural-dependenc
 III Linear Systems and Solution Methods,12,determinants-and-invertibility,Determinants and Invertibility,active,articles/determinants-and-invertibility,upgraded,included
 III Linear Systems and Solution Methods,12,matrix-inverses-and-the-logic-of-reversibility,Matrix Inverses and the Logic of Reversibility,planned,articles/matrix-inverses-and-the-logic-of-reversibility,required,required
 III Linear Systems and Solution Methods,13,inverse-matrices-and-structural-recovery,Inverse Matrices and Structural Recovery,active,articles/inverse-matrices-and-structural-recovery,upgraded,included
-III Linear Systems and Solution Methods,14,overdetermined-systems-and-least-squares-thinking,Overdetermined Systems and Least Squares Thinking,planned,articles/overdetermined-systems-and-least-squares-thinking,required,required
+III Linear Systems and Solution Methods,14,overdetermined-systems-and-least-squares-thinking,Overdetermined Systems and Least Squares Thinking,active,articles/overdetermined-systems-and-least-squares-thinking,upgraded,included
 III Linear Systems and Solution Methods,15,linear-transformations-and-model-behavior,Linear Transformations and Model Behavior,planned,articles/linear-transformations-and-model-behavior,required,required
-III Linear Transformations and Matrix Structure,17,change-of-basis-and-alternative-representations,Change of Basis and Alternative Representations,planned,articles/change-of-basis-and-alternative-representations,scaffolded,planned
+III Linear Systems and Solution Methods,16,matrix-multiplication-and-interaction-effects,Matrix Multiplication and Interaction Effects,planned,articles/matrix-multiplication-and-interaction-effects,required,required
+III Linear Systems and Solution Methods,17,change-of-basis-and-alternative-representations,Change of Basis and Alternative Representations,planned,articles/change-of-basis-and-alternative-representations,required,required
 III Linear Transformations and Matrix Structure,18,projections-reflections-and-geometric-interpretation,"Projections, Reflections, and Geometric Interpretation",planned,articles/projections-reflections-and-geometric-interpretation,scaffolded,planned
 III Linear Transformations and Matrix Structure,19,orthogonality-and-structured-simplification,Orthogonality and Structured Simplification,planned,articles/orthogonality-and-structured-simplification,scaffolded,planned
 III Linear Transformations and Matrix Structure,20,inner-products-norms-and-distance-in-state-space,"Inner Products, Norms, and Distance in State Space",planned,articles/inner-products-norms-and-distance-in-state-space,scaffolded,planned

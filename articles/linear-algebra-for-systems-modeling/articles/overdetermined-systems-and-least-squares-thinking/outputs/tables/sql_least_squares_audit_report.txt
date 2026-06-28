@@ -1,0 +1,28 @@
+section                          
+---------------------------------
+LEAST SQUARES ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Least-squares objective  Minimizes the squared Euclidean norm of residuals.            Chooses the best squared-error approximation under the model  Squared-error loss may not match every decision or error str
+                                                                                       .                                                             ucture.                                                     
+
+Normal equations         The system A transpose A x equals A transpose b.              Connects least squares to residual orthogonality.             Normal equations may worsen conditioning in numerical workfl
+                                                                                                                                                     ows.                                                        
+
+Overdetermined system    A linear system with more equations than unknowns.            Represents many observations measurements or constraints use  Extra equations may improve evidence or expose inconsistency
+                                                                                       d to estimate fewer unknowns.                                 .                                                           
+
+Projection               Maps the observed vector to the closest point in the column   Shows the closest output the model can produce.               Distance depends on scaling weighting and norm choice.      
+                         space.                                                                                                                                                                                  
+
+QR or SVD solver         Factorization-based methods for stable least-squares computa  Support rank conditioning and residual diagnostics.           Solver choice should be documented for reproducibility.     
+                         tion.                                                                                                                                                                                   
+
+Residual                 The difference between observed and fitted values.            Shows what the model fails to satisfy or explain.             Residual patterns should be reviewed not merely minimized.  
+section                  
+-------------------------
+LEAST SQUARES AUDIT CASES
+system_name                          row_count  column_count  overdetermined  rank  solution           residual_norm  solver_method                      warning                                                     
+-----------------------------------  ---------  ------------  --------------  ----  -----------------  -------------  ---------------------------------  ------------------------------------------------------------
+four_observation_linear_calibration  4          2             1               2     0.850000,1.040000  0.191311       normal equations teaching example  Least squares minimizes residuals but model meaning requires
+                                                                                                                                                          review.                                                    

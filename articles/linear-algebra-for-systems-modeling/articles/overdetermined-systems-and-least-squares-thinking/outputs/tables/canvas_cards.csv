@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+overdetermined-system,Overdetermined System,structure,96,active,2026-06-28,"Record why rows exceed unknowns: evidence, redundancy, or conflict."
+residuals,Residuals,diagnostic,95,review,2026-06-28,"Residuals should be interpreted as evidence, not discarded."
+least-squares,Least Squares,approximation,94,active,2026-06-28,"Squared-error minimization is a criterion, not proof of truth."
+projection,Projection,geometry,93,review,2026-06-28,Fitted values are the closest model-reachable outputs under the chosen norm.
+solver-choice,Solver Choice,numerical,92,review,2026-06-28,"Document normal equations, QR, SVD, rank, conditioning, and tolerance decisions."

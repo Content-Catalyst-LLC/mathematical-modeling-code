@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LeastSquaresAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "row_count",
+    "column_count",
+    "overdetermined",
+    "rank",
+    "solution",
+    "fitted_values",
+    "residuals",
+    "residual_norm",
+    "solver_method",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "row_count": {
+      "type": "integer"
+    },
+    "column_count": {
+      "type": "integer"
+    },
+    "overdetermined": {
+      "type": "boolean"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "solution": {
+      "type": "string"
+    },
+    "fitted_values": {
+      "type": "string"
+    },
+    "residuals": {
+      "type": "string"
+    },
+    "residual_norm": {
+      "type": "number"
+    },
+    "solver_method": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

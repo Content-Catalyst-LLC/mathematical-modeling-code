@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Overdetermined Systems and Least Squares Thinking** will live here.
+# Notebooks\n\nNotebook-ready workspace for overdetermined systems, residuals, least squares, normal equations, projection, QR, SVD, and solver-choice review.\n

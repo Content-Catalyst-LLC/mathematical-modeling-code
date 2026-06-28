@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Document whether the system is overdetermined and why rows exceed unknowns.",
+    "review_item": "shape_check",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report residual vectors, residual norms, and residual patterns.",
+    "review_item": "residual_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check full column rank and coefficient identifiability.",
+    "review_item": "rank_identifiability",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document normal equations, QR, SVD, or pseudoinverse workflow.",
+    "review_item": "solver_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Assess scaling, condition estimates, and near dependence.",
+    "review_item": "conditioning_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain why squared-error minimization fits the modeling purpose.",
+    "review_item": "criterion_review",
+    "status": "recommended"
+  }
+]
