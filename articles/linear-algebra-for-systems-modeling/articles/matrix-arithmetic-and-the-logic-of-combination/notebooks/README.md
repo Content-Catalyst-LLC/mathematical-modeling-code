@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Matrix Arithmetic and the Logic of Combination** will live here.
+# Notebooks\n\nNotebook-ready workspace for matrix arithmetic, compatibility checks, scenario matrices, weighted combinations, scaling, normalization, and matrix combination governance.\n

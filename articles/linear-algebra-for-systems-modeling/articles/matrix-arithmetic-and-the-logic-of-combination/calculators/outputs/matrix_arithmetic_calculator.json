@@ -1,0 +1,9 @@
+{
+  "calculator": "matrix_arithmetic_calculator",
+  "combined_change_total": 3.9,
+  "future_total": 43.9,
+  "intervention_weight": 1.0,
+  "shape": "3x3",
+  "stress_weight": 0.5,
+  "warning": "Shape compatibility does not prove semantic compatibility."
+}

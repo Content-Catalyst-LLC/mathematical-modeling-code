@@ -1,0 +1,2 @@
+operation_name,matrix_shape,row_meaning,column_meaning,units,weights,compatible_shape,output_entry_sum,interpretation_warning
+baseline_plus_weighted_intervention_and_stress,3x3,infrastructure subsystem,performance relationship or dependency category,normalized condition-effect score,1.0 intervention effect plus 0.5 stress effect,True,3.9,"The arithmetic is shape-compatible, but the weighted combination is meaningful only if rows, columns, units, baselines, and effect definitions align."

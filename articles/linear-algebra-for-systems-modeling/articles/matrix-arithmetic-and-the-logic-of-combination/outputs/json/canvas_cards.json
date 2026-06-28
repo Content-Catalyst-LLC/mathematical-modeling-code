@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "shape-compatibility",
+    "category": "formal",
+    "governance_note": "Check equal row and column dimensions before arithmetic.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Shape Compatibility"
+  },
+  {
+    "card_id": "semantic-compatibility",
+    "category": "interpretation",
+    "governance_note": "Confirm corresponding entries mean comparable system quantities.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Semantic Compatibility"
+  },
+  {
+    "card_id": "weight-meaning",
+    "category": "governance",
+    "governance_note": "Document whether weights represent probability, priority, confidence, or sensitivity.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Weight Meaning"
+  },
+  {
+    "card_id": "component-traceability",
+    "category": "audit",
+    "governance_note": "Preserve links from combined matrix back to source matrices.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "active",
+    "title": "Component Traceability"
+  },
+  {
+    "card_id": "scaling-warning",
+    "category": "data quality",
+    "governance_note": "Document units, normalization, and magnitude effects before combination.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Scaling Warning"
+  }
+]

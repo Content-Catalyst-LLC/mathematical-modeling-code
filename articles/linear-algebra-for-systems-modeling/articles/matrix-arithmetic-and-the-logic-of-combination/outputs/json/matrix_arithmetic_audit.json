@@ -1,0 +1,11 @@
+{
+  "column_meaning": "performance relationship or dependency category",
+  "compatible_shape": true,
+  "interpretation_warning": "The arithmetic is shape-compatible, but the weighted combination is meaningful only if rows, columns, units, baselines, and effect definitions align.",
+  "matrix_shape": "3x3",
+  "operation_name": "baseline_plus_weighted_intervention_and_stress",
+  "output_entry_sum": 3.9,
+  "row_meaning": "infrastructure subsystem",
+  "units": "normalized condition-effect score",
+  "weights": "1.0 intervention effect plus 0.5 stress effect"
+}

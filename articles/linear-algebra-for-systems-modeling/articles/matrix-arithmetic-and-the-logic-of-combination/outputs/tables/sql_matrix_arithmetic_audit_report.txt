@@ -1,0 +1,29 @@
+section                              
+-------------------------------------
+MATRIX ARITHMETIC ASSUMPTION REGISTRY
+assumption_name         mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Column alignment        Requires corresponding columns to index the same variables o  Prevents unrelated features destinations sectors or state va  Column order and labels must be documented and checked befor
+                        r components.                                                 riables from being combined.                                  e arithmetic.                                               
+
+Component traceability  Preserves links between combined matrices and source matrice  Allows composite results to be audited decomposed and interp  A combined matrix should not hide its components or transfor
+                        s.                                                            reted.                                                        mations.                                                    
+
+Row alignment           Requires corresponding rows to index the same modeled entiti  Prevents unrelated observations nodes regions or equations f  Row order must be documented and checked before arithmetic. 
+                        es.                                                           rom being combined.                                                                                                       
+
+Shape compatibility     Requires matrices to have the same row and column dimensions  Ensures entries can be combined position by position.         Same shape is necessary but not sufficient for meaningful co
+                         for addition or subtraction.                                                                                               mbination.                                                  
+
+Unit compatibility      Requires entries to have compatible units or documented tran  Supports meaningful addition subtraction scaling and weighti  Combining dollars percentages counts and probabilities requi
+                        sformations.                                                  ng.                                                           res careful conversion.                                     
+
+Weight interpretation   Defines the meaning of scalar weights in linear combinations  Connects matrix arithmetic to probabilities priorities sensi  Weights should be justified documented and tested for sensit
+                        .                                                             tivities or policy choices.                                   ivity.                                                      
+section                      
+-----------------------------
+MATRIX ARITHMETIC AUDIT CASES
+operation_name                                  matrix_shape  compatible_shape  output_entry_sum  warning                                                     
+----------------------------------------------  ------------  ----------------  ----------------  ------------------------------------------------------------
+baseline_plus_weighted_intervention_and_stress  3x3           1                 3.95              Shape compatibility is not enough; rows columns units baseli
+                                                                                                  nes and effect definitions must align.                      

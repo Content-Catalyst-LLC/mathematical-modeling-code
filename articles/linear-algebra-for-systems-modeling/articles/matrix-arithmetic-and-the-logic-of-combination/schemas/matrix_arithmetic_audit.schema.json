@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatrixArithmeticAudit",
+  "type": "object",
+  "required": [
+    "operation_name",
+    "matrix_shape",
+    "row_meaning",
+    "column_meaning",
+    "units",
+    "weights",
+    "compatible_shape",
+    "output_entry_sum",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "operation_name": {
+      "type": "string"
+    },
+    "matrix_shape": {
+      "type": "string"
+    },
+    "row_meaning": {
+      "type": "string"
+    },
+    "column_meaning": {
+      "type": "string"
+    },
+    "units": {
+      "type": "string"
+    },
+    "weights": {
+      "type": "string"
+    },
+    "compatible_shape": {
+      "type": "boolean"
+    },
+    "output_entry_sum": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

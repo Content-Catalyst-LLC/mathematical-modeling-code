@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+matrix_addition,Matrix addition,Adds corresponding entries,Combines compatible layers scenarios flows or effects,Same shape is not enough; entries must mean comparable things
+matrix_subtraction,Matrix subtraction,Subtracts corresponding entries,Measures change residual deviation or gap,Difference does not imply causal explanation
+scalar_multiplication,Scalar multiplication,Multiplies every entry by a scalar,Scales weights discounts amplifies or converts a matrix,Scalars often carry assumptions or values
+linear_combination,Linear combination,Combines scaled matrices,Builds weighted scenarios composites portfolios or ensembles,Weights require justification and sensitivity review
+elementwise_operation,Elementwise operation,Applies entrywise transformation,Uses masks rates adjustments or thresholds,Do not confuse with matrix multiplication
+shape_compatibility,Shape compatibility,Requires matching dimensions,Allows entrywise operations,Formal compatibility does not imply substantive compatibility
+unit_compatibility,Unit compatibility,Requires compatible units or transformations,Supports meaningful matrix combination,Mixed units can distort outputs
+component_traceability,Component traceability,Links combined output to source matrices,Supports auditability and interpretability,Composite matrices can hide important disagreement

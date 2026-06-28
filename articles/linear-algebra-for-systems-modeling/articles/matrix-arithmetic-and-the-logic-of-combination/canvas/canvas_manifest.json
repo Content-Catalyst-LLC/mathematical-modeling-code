@@ -1,10 +1,10 @@
 {
+  "article_slug": "matrix-arithmetic-and-the-logic-of-combination",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "matrix-arithmetic-and-the-logic-of-combination",
-  "title": "Matrix Arithmetic and the Logic of Combination",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "matrix-arithmetic-combination",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "shape-compatibility",
+      "title": "Shape Compatibility",
+      "description": "Whether matrices have the same row and column dimensions."
+    },
+    {
+      "card_id": "semantic-compatibility",
+      "title": "Semantic Compatibility",
+      "description": "Whether corresponding entries mean comparable system quantities."
+    },
+    {
+      "card_id": "weight-meaning",
+      "title": "Weight Meaning",
+      "description": "What scalar weights represent in linear combinations."
+    },
+    {
+      "card_id": "component-traceability",
+      "title": "Component Traceability",
+      "description": "Whether combined matrices can be traced back to source matrices."
+    },
+    {
+      "card_id": "scaling-warning",
+      "title": "Scaling Warning",
+      "description": "How units, normalization, and magnitude shape results."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

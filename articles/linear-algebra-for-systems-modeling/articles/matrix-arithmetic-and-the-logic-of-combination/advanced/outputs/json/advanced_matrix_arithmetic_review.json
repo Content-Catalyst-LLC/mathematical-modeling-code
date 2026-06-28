@@ -1,0 +1,27 @@
+[
+  {
+    "governance_note": "Check formal matrix dimensions before entrywise arithmetic.",
+    "review_item": "shape_compatibility",
+    "status": "required"
+  },
+  {
+    "governance_note": "Verify corresponding entries represent comparable system quantities.",
+    "review_item": "semantic_alignment",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document units, normalization, and transformations before combining matrices.",
+    "review_item": "unit_scaling",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain whether weights represent probability, priority, confidence, or sensitivity.",
+    "review_item": "weight_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Keep combined outputs traceable to source matrices and operations.",
+    "review_item": "component_traceability",
+    "status": "required"
+  }
+]

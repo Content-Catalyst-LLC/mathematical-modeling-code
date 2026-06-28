@@ -1,13 +1,14 @@
 part,order,slug,title,status,folder,advanced_standard,calculators
 I Foundations of Linear Algebra,6,coordinates-change-of-basis-and-model-meaning,"Coordinates, Change of Basis, and Model Meaning",planned,articles/coordinates-change-of-basis-and-model-meaning,required,required
-I Foundations of Linear Algebra,7,matrix-arithmetic-and-the-logic-of-combination,Matrix Arithmetic and the Logic of Combination,planned,articles/matrix-arithmetic-and-the-logic-of-combination,scaffolded,planned
 II Matrices and System Structure,1,what-is-linear-algebra-for-systems-modeling,What Is Linear Algebra for Systems Modeling?,active,articles/what-is-linear-algebra-for-systems-modeling,upgraded,included
 II Matrices and System Structure,2,scalars-vectors-and-system-states,"Scalars, Vectors, and System States",active,articles/scalars-vectors-and-system-states,upgraded,included
 II Matrices and System Structure,3,vector-spaces-and-system-representation,Vector Spaces and System Representation,active,articles/vector-spaces-and-system-representation,upgraded,included
 II Matrices and System Structure,4,span-linear-independence-and-basis,"Span, Linear Independence, and Basis",active,articles/span-linear-independence-and-basis,upgraded,included
 II Matrices and System Structure,5,dimension-and-the-structure-of-solution-spaces,Dimension and the Structure of Solution Spaces,active,articles/dimension-and-the-structure-of-solution-spaces,upgraded,included
 II Matrices and System Structure,6,matrices-and-the-organization-of-multivariable-systems,Matrices and the Organization of Multivariable Systems,active,articles/matrices-and-the-organization-of-multivariable-systems,upgraded,included
+II Matrices and System Structure,7,matrix-arithmetic-and-the-logic-of-combination,Matrix Arithmetic and the Logic of Combination,active,articles/matrix-arithmetic-and-the-logic-of-combination,upgraded,included
 II Matrices and System Structure,7,matrix-addition-scalar-multiplication-and-system-operations,"Matrix Addition, Scalar Multiplication, and System Operations",planned,articles/matrix-addition-scalar-multiplication-and-system-operations,required,required
+II Matrices and System Structure,8,matrix-multiplication-and-interaction-effects,Matrix Multiplication and Interaction Effects,planned,articles/matrix-multiplication-and-interaction-effects,required,required
 II Systems of Equations and Solvability,8,systems-of-linear-equations,Systems of Linear Equations,planned,articles/systems-of-linear-equations,scaffolded,planned
 II Systems of Equations and Solvability,9,gaussian-elimination-and-row-reduction,Gaussian Elimination and Row Reduction,planned,articles/gaussian-elimination-and-row-reduction,scaffolded,planned
 II Systems of Equations and Solvability,10,pivot-structure-and-solvability,Pivot Structure and Solvability,planned,articles/pivot-structure-and-solvability,scaffolded,planned
@@ -16,7 +17,6 @@ II Systems of Equations and Solvability,12,determinants-and-invertibility,Determ
 II Systems of Equations and Solvability,13,inverse-matrices-and-structural-recovery,Inverse Matrices and Structural Recovery,planned,articles/inverse-matrices-and-structural-recovery,scaffolded,planned
 II Systems of Equations and Solvability,14,overdetermined-systems-and-least-squares-thinking,Overdetermined Systems and Least Squares Thinking,planned,articles/overdetermined-systems-and-least-squares-thinking,scaffolded,planned
 III Linear Transformations and Matrix Structure,15,linear-transformations-and-model-behavior,Linear Transformations and Model Behavior,planned,articles/linear-transformations-and-model-behavior,scaffolded,planned
-III Linear Transformations and Matrix Structure,16,matrix-multiplication-and-interaction-effects,Matrix Multiplication and Interaction Effects,planned,articles/matrix-multiplication-and-interaction-effects,scaffolded,planned
 III Linear Transformations and Matrix Structure,17,change-of-basis-and-alternative-representations,Change of Basis and Alternative Representations,planned,articles/change-of-basis-and-alternative-representations,scaffolded,planned
 III Linear Transformations and Matrix Structure,18,projections-reflections-and-geometric-interpretation,"Projections, Reflections, and Geometric Interpretation",planned,articles/projections-reflections-and-geometric-interpretation,scaffolded,planned
 III Linear Transformations and Matrix Structure,19,orthogonality-and-structured-simplification,Orthogonality and Structured Simplification,planned,articles/orthogonality-and-structured-simplification,scaffolded,planned

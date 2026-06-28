@@ -1,22 +1,24 @@
 actual_title: "Matrix Arithmetic and the Logic of Combination"
-suggested_seo_title: "Matrix Arithmetic and the Logic of Combination: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Matrix Arithmetic and the Logic of Combination: How Linear Algebra Combines System Structure"
+focus_keyword: "matrix arithmetic and linear combination"
 slug: "matrix-arithmetic-and-the-logic-of-combination"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
   previous: "matrices-and-the-organization-of-multivariable-systems"
   current: "matrix-arithmetic-and-the-logic-of-combination"
-  next: "systems-of-linear-equations"
+  next: "matrix-multiplication-and-interaction-effects"
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/matrix-arithmetic-and-the-logic-of-combination"
 tags:
   - Linear Algebra
+  - Matrix Arithmetic
+  - Matrix Addition
+  - Scalar Multiplication
+  - Linear Combination
   - Systems Modeling
   - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Matrix Arithmetic and the Logic of Combination is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Matrix arithmetic and the logic of combination explain how linear algebra combines, compares, scales, and weights structured system representations. This article introduces matrix addition, subtraction, scalar multiplication, linear combinations, weighted combinations, scenario matrices, elementwise operations, compatibility checks, and normalization as practical tools for multivariable systems modeling. It shows why matrix arithmetic matters for combining infrastructure layers, comparing transportation flows, scaling ecological stress matrices, aggregating economic input-output tables, constructing composite indicators, and preparing feature matrices for scientific computing. The article emphasizes that formal compatibility is not enough: matrices must also share row meanings, column meanings, units, orientation, baselines, time periods, and entry definitions. It highlights responsible interpretation by showing how simple arithmetic can hide incompatible measures, undocumented weights, contested priorities, and misleading combinations in applied systems analysis workflows."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]
