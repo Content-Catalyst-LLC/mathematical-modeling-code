@@ -1,0 +1,25 @@
+series: "Linear Algebra for Systems Modeling"
+parent_series: "Mathematical Modeling"
+status: "planned-article-map"
+slug: "linear-algebra-for-systems-modeling"
+suggested_seo_title: "Linear Algebra for Systems Modeling: Matrices, Networks, Dynamics, and Structural Reasoning"
+focus_keyword: "linear algebra for systems modeling"
+github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling"
+article_count: 64
+code_stack:
+  - Python
+  - R
+  - Julia
+  - SQL
+  - Haskell
+  - C
+  - C++
+  - Fortran
+  - Rust
+  - Go
+  - notebooks
+  - documentation
+  - data
+  - outputs
+  - schemas
+  - Canvas

@@ -1,48 +1,39 @@
 # Linear Algebra for Systems Modeling
 
-This article folder supports reproducible examples for linear-algebra-based systems modeling.
+Companion repository folder for the **Linear Algebra for Systems Modeling** article map and nested article-level workflows.
 
-## Topics
+Article-specific code lives under:
 
-- vectors and system states
-- matrices and structured relationships
-- systems of linear equations
-- least-squares approximation
-- eigenvalues and eigenvectors
-- Markov transition matrices
-- network adjacency matrices
-- singular value decomposition
-- principal component analysis
-- dimensionality reduction
-- numerical stability
-- responsible structural interpretation
+```text
+articles/linear-algebra-for-systems-modeling/articles/
+```
 
-## Folder Structure
+All nested article folders are currently marked **planned**. The folder structure matches the calculus article-map format: a root article-map folder with an `article-registry.csv`, nested article folders, article metadata, WordPress GitHub embeds, notebook-ready documentation, Canvas-ready metadata, and reproducible modeling scaffolds.
 
-- `python/` — matrix workflows, state transitions, networks, eigenanalysis, SVD, PCA
-- `r/` — matrix analysis, PCA, eigenstructure, decomposition workflows
-- `julia/` — compact linear algebra examples
-- `sql/` — linear model metadata, matrices, vectors, outputs, and assumptions
-- `c/`, `cpp/`, `fortran/`, `rust/`, `go/` — compact numerical linear algebra examples
-- `docs/` — modeling notes and interpretation guidance
-- `data/` — synthetic teaching inputs and matrices
-- `outputs/` — generated outputs
-- `notebooks/` — notebook placeholders
+Full article folders preserve Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas, advanced audit logic, and calculators.
 
-## Modeling Warning
+## Code stack
 
-These examples are educational. Real linear algebra modeling should evaluate representation choices, scaling, matrix meaning, numerical conditioning, rank, sparsity, missing relationships, decomposition assumptions, and domain interpretation.
+- Python for numerical linear algebra, sparse computation, network analysis, simulation, and scientific-computing workflows.
+- R for statistical structure, visualization, exploratory decomposition, PCA/SVD review, and reproducible reporting.
+- Julia for high-performance numerical matrix workflows.
+- SQL for state vectors, coefficient tables, adjacency matrices, scenario registries, provenance records, and output governance.
+- Haskell for typed representations of system states, matrix transformations, assumptions, and validation logic.
+- C, C++, and Fortran for performance-oriented matrix operations and legacy scientific computing.
+- Rust and Go for reliable command-line tools, typed pipelines, and scalable workflow infrastructure.
 
-## Self-contained calculators
-
-This article folder includes a reusable calculator layer in `calculators/` for quick command-line exploration of derivatives, definite integrals, finite differences, ODE solvers, logistic dynamics, and parameter sensitivity. The scripts are intentionally self-contained so they can be run without installing article-specific dependencies.
-
-Example commands:
+## Run smoke checks
 
 ```bash
-cd calculators
-python3 python/model_calculator.py derivative --expr "sin(x)*exp(-x)" --x 1.5
-python3 python/model_calculator.py integral --expr "x*x + sin(x)" --a 0 --b 10 --method simpson
-python3 python/model_calculator.py rk4 --ode "0.2*y*(1-y/100)" --y0 10 --dt 0.1 --steps 50
-bash run_calculator_smoke_tests.sh
+make smoke
 ```
+
+## Run calculator checks where available
+
+```bash
+make calculators
+```
+
+## Principle
+
+Linear algebra supports systems interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.

@@ -1,0 +1,10 @@
+{
+  "advanced_standard": "scaffolded",
+  "status": "planned",
+  "review_layers": [
+    "mathematical-interpretation",
+    "numerical-stability",
+    "assumption-review",
+    "workflow-governance"
+  ]
+}

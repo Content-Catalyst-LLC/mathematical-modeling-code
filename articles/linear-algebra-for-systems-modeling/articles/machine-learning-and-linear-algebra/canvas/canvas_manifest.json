@@ -1,0 +1,24 @@
+{
+  "series": "Linear Algebra for Systems Modeling",
+  "slug": "machine-learning-and-linear-algebra",
+  "title": "Machine Learning and Linear Algebra",
+  "status": "planned",
+  "artifact_type": "article-code-folder",
+  "code_stack": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go",
+    "notebooks",
+    "docs",
+    "data",
+    "outputs",
+    "schemas"
+  ]
+}
