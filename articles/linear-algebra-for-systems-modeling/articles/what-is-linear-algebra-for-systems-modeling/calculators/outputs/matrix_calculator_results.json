@@ -1,0 +1,8 @@
+{
+  "determinant": 0.6900000000000001,
+  "dominant_eigenvalue": 1.0302775637731998,
+  "eigenvalue_1": 1.0302775637731998,
+  "eigenvalue_2": 0.6697224362268004,
+  "trace": 1.7000000000000002,
+  "warning": "Calculator outputs require matrix meaning, units, scale, and model context."
+}

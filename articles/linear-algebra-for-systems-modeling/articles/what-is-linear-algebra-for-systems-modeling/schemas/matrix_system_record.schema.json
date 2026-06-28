@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatrixSystemRecord",
+  "type": "object",
+  "required": [
+    "model_name", "rows", "columns", "rank",
+    "determinant", "dominant_eigenvalue", "matrix_meaning", "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {"type": "string"},
+    "rows": {"type": "integer"},
+    "columns": {"type": "integer"},
+    "rank": {"type": "integer"},
+    "determinant": {"type": ["number", "null"]},
+    "dominant_eigenvalue": {"type": ["number", "null"]},
+    "matrix_meaning": {"type": "string"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

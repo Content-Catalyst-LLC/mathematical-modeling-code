@@ -1,24 +1,22 @@
 {
+  "article_slug": "what-is-linear-algebra-for-systems-modeling",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "what-is-linear-algebra-for-systems-modeling",
-  "title": "What Is Linear Algebra for Systems Modeling?",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
-    "python",
-    "r",
-    "julia",
-    "sql",
-    "haskell",
-    "c",
-    "cpp",
-    "fortran",
-    "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+  "canvas_layer": "linear-algebra-structural-systems-modeling",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "vector-state", "title": "Vector State", "description": "Vectors represent multi-component system states."},
+    {"card_id": "matrix-relationship", "title": "Matrix Relationship", "description": "Matrices encode relationships, transitions, flows, constraints, or transformations."},
+    {"card_id": "solvability-diagnostic", "title": "Solvability Diagnostic", "description": "Rank, nullity, and conditioning clarify solvability and fragility."},
+    {"card_id": "eigenstructure-stability", "title": "Eigenstructure and Stability", "description": "Eigenvalues and eigenvectors support long-run and stability interpretation."},
+    {"card_id": "decomposition-review", "title": "Decomposition Review", "description": "Decompositions reduce complexity but require interpretation and loss review."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

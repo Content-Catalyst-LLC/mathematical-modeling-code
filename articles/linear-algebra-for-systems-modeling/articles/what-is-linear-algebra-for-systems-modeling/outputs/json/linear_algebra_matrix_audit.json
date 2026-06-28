@@ -1,0 +1,11 @@
+{
+  "columns": 2,
+  "determinant": 0.6900000000000001,
+  "dominant_eigenvalue": 1.0302775637731998,
+  "interpretation_warning": "Matrix interpretation depends on what entries represent, how variables are scaled, and whether a linear transformation is appropriate for the modeled system.",
+  "matrix_meaning": "transition-like matrix connecting two system components across a modeling step",
+  "model_name": "two_component_transition_model",
+  "rank": 2,
+  "rows": 2,
+  "trace": 1.7000000000000002
+}

@@ -1,3 +1,3 @@
 # Notebooks
 
-Notebook-ready walkthroughs for **What Is Linear Algebra for Systems Modeling?** will live here.
+Notebook placeholders for matrix-system audits, vector-state examples, eigenstructure interpretation, network matrices, decomposition review, and responsible systems-modeling workflows.

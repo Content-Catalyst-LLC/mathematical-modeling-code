@@ -1,0 +1,32 @@
+[
+  {
+    "audit_key": "state_vector",
+    "audit_name": "State Vector",
+    "modeling_question": "What does each vector component represent?",
+    "review_warning": "Missing units or ordering can invalidate interpretation."
+  },
+  {
+    "audit_key": "matrix_semantics",
+    "audit_name": "Matrix Semantics",
+    "modeling_question": "What do matrix entries mean?",
+    "review_warning": "A valid operation may be meaningless if entries are not semantically defined."
+  },
+  {
+    "audit_key": "rank_dependency",
+    "audit_name": "Rank and Dependency",
+    "modeling_question": "Is structure independent, redundant, or underdetermined?",
+    "review_warning": "Rank is a diagnostic, not a substitute for model judgment."
+  },
+  {
+    "audit_key": "eigen_claims",
+    "audit_name": "Eigenvalue Claims",
+    "modeling_question": "Is stability or long-run behavior being inferred correctly?",
+    "review_warning": "Eigenstructure depends on model form, scaling, and linearity assumptions."
+  },
+  {
+    "audit_key": "reduction_loss",
+    "audit_name": "Reduction Loss",
+    "modeling_question": "What does dimensionality reduction preserve or discard?",
+    "review_warning": "Clean components can hide important variation."
+  }
+]

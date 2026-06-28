@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+vector,Vector,Ordered collection of quantities,Represents a system state feature set stock vector probability distribution or indicator profile,Vector entries require documented units ordering scale and interpretation
+matrix,Matrix,Structured rectangular array of quantities,Represents relationships transformations constraints transitions flows networks or coefficients,Matrix entries must not be interpreted without defining what they represent
+rank,Rank,Dimension of independent structure,Shows redundancy dependence degrees of freedom and solvability,Low rank may reflect true structure omitted variables or measurement artifacts
+determinant,Determinant,Square-matrix scalar linked to volume scaling and invertibility,Helps identify reversibility or degeneracy in selected transformations,Determinants are not meaningful for every systems question
+eigenstructure,Eigenstructure,Preserved directions and scaling factors under transformation,Supports stability long-run behavior amplification decay and dominant mode analysis,Eigenvalue interpretation depends on model form scaling and linearity assumptions
+decomposition,Decomposition,Factorization into structured components,Supports dimensionality reduction compression latent structure and noise review,Decomposition components should not be overinterpreted as real-world causes
+conditioning,Conditioning,Sensitivity of outputs to input perturbations,Helps diagnose numerical fragility and unreliable inverse reasoning,Ill-conditioned systems can produce unstable conclusions

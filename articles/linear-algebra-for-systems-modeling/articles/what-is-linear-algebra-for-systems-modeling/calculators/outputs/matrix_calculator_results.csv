@@ -1,0 +1,2 @@
+determinant,trace,eigenvalue_1,eigenvalue_2,dominant_eigenvalue,warning
+0.6900000000000001,1.7000000000000002,1.0302775637731998,0.6697224362268004,1.0302775637731998,"Calculator outputs require matrix meaning, units, scale, and model context."

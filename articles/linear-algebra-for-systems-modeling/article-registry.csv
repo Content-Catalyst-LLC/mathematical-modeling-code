@@ -1,9 +1,9 @@
 part,order,slug,title,status,folder,advanced_standard,calculators
-I Foundations of Linear Algebra,1,what-is-linear-algebra-for-systems-modeling,What Is Linear Algebra for Systems Modeling?,planned,articles/what-is-linear-algebra-for-systems-modeling,scaffolded,planned
-I Foundations of Linear Algebra,2,scalars-vectors-and-system-states,"Scalars, Vectors, and System States",planned,articles/scalars-vectors-and-system-states,scaffolded,planned
-I Foundations of Linear Algebra,3,vector-spaces-and-system-representation,Vector Spaces and System Representation,planned,articles/vector-spaces-and-system-representation,scaffolded,planned
-I Foundations of Linear Algebra,4,span-linear-independence-and-basis,"Span, Linear Independence, and Basis",planned,articles/span-linear-independence-and-basis,scaffolded,planned
-I Foundations of Linear Algebra,5,dimension-and-the-structure-of-solution-spaces,Dimension and the Structure of Solution Spaces,planned,articles/dimension-and-the-structure-of-solution-spaces,scaffolded,planned
+I Foundations of Linear Algebra,1,what-is-linear-algebra-for-systems-modeling,What Is Linear Algebra for Systems Modeling?,active,articles/what-is-linear-algebra-for-systems-modeling,upgraded,included
+I Foundations of Linear Algebra,2,scalars-vectors-and-system-states,"Scalars, Vectors, and System States",planned,articles/scalars-vectors-and-system-states,required,required
+I Foundations of Linear Algebra,3,vector-spaces-and-system-representation,Vector Spaces and System Representation,planned,articles/vector-spaces-and-system-representation,required,required
+I Foundations of Linear Algebra,4,span-linear-independence-and-basis,"Span, Linear Independence, and Basis",planned,articles/span-linear-independence-and-basis,required,required
+I Foundations of Linear Algebra,5,dimension-and-the-structure-of-solution-spaces,Dimension and the Structure of Solution Spaces,planned,articles/dimension-and-the-structure-of-solution-spaces,required,required
 I Foundations of Linear Algebra,6,matrices-and-the-organization-of-multivariable-systems,Matrices and the Organization of Multivariable Systems,planned,articles/matrices-and-the-organization-of-multivariable-systems,scaffolded,planned
 I Foundations of Linear Algebra,7,matrix-arithmetic-and-the-logic-of-combination,Matrix Arithmetic and the Logic of Combination,planned,articles/matrix-arithmetic-and-the-logic-of-combination,scaffolded,planned
 II Systems of Equations and Solvability,8,systems-of-linear-equations,Systems of Linear Equations,planned,articles/systems-of-linear-equations,scaffolded,planned
@@ -27,6 +27,10 @@ IV Eigenstructure and Dynamic Systems,25,long-run-behavior-in-state-transition-s
 IV Eigenstructure and Dynamic Systems,26,linear-dynamical-systems,Linear Dynamical Systems,planned,articles/linear-dynamical-systems,scaffolded,planned
 IV Eigenstructure and Dynamic Systems,27,matrix-differential-equations,Matrix Differential Equations,planned,articles/matrix-differential-equations,scaffolded,planned
 IV Eigenstructure and Dynamic Systems,28,control-systems-modeling,Control Systems Modeling,planned,articles/control-systems-modeling,scaffolded,planned
+IX Modeling Judgment and Interpretation,55,representation-choices-and-model-assumptions,Representation Choices and Model Assumptions,planned,articles/representation-choices-and-model-assumptions,scaffolded,planned
+IX Modeling Judgment and Interpretation,56,scaling-normalization-and-comparative-structure,"Scaling, Normalization, and Comparative Structure",planned,articles/scaling-normalization-and-comparative-structure,scaffolded,planned
+IX Modeling Judgment and Interpretation,57,when-linear-models-clarify-and-when-they-distort,When Linear Models Clarify and When They Distort,planned,articles/when-linear-models-clarify-and-when-they-distort,scaffolded,planned
+IX Modeling Judgment and Interpretation,58,interpretation-approximation-and-responsible-mathematical-modeling,"Interpretation, Approximation, and Responsible Mathematical Modeling",planned,articles/interpretation-approximation-and-responsible-mathematical-modeling,scaffolded,planned
 V Networks Graphs and Flows,29,network-adjacency-matrices,Network Adjacency Matrices,planned,articles/network-adjacency-matrices,scaffolded,planned
 V Networks Graphs and Flows,30,incidence-structure-and-graph-representation,Incidence Structure and Graph Representation,planned,articles/incidence-structure-and-graph-representation,scaffolded,planned
 V Networks Graphs and Flows,31,graph-theory-foundations-for-systems-modeling,Graph Theory Foundations for Systems Modeling,planned,articles/graph-theory-foundations-for-systems-modeling,scaffolded,planned
@@ -53,10 +57,6 @@ VIII Computational Linear Algebra and Systems Modeling Workflows,51,numerical-st
 VIII Computational Linear Algebra and Systems Modeling Workflows,52,decomposition-workflows-for-systems-analysis,Decomposition Workflows for Systems Analysis,planned,articles/decomposition-workflows-for-systems-analysis,scaffolded,planned
 VIII Computational Linear Algebra and Systems Modeling Workflows,53,scientific-computing-workflows-for-linear-algebra,Scientific Computing Workflows for Linear Algebra,planned,articles/scientific-computing-workflows-for-linear-algebra,scaffolded,planned
 VIII Computational Linear Algebra and Systems Modeling Workflows,54,reproducible-linear-algebra-workflows-with-notebooks-and-documentation,Reproducible Linear Algebra Workflows with Notebooks and Documentation,planned,articles/reproducible-linear-algebra-workflows-with-notebooks-and-documentation,scaffolded,planned
-IX Modeling Judgment and Interpretation,55,representation-choices-and-model-assumptions,Representation Choices and Model Assumptions,planned,articles/representation-choices-and-model-assumptions,scaffolded,planned
-IX Modeling Judgment and Interpretation,56,scaling-normalization-and-comparative-structure,"Scaling, Normalization, and Comparative Structure",planned,articles/scaling-normalization-and-comparative-structure,scaffolded,planned
-IX Modeling Judgment and Interpretation,57,when-linear-models-clarify-and-when-they-distort,When Linear Models Clarify and When They Distort,planned,articles/when-linear-models-clarify-and-when-they-distort,scaffolded,planned
-IX Modeling Judgment and Interpretation,58,interpretation-approximation-and-responsible-mathematical-modeling,"Interpretation, Approximation, and Responsible Mathematical Modeling",planned,articles/interpretation-approximation-and-responsible-mathematical-modeling,scaffolded,planned
 X Applied Case Studies,59,case-study-network-system-modeling,Case Study: Network System Modeling,planned,articles/case-study-network-system-modeling,scaffolded,planned
 X Applied Case Studies,60,case-study-infrastructure-interdependence,Case Study: Infrastructure Interdependence,planned,articles/case-study-infrastructure-interdependence,scaffolded,planned
 X Applied Case Studies,61,case-study-economic-input-output-analysis,Case Study: Economic Input-Output Analysis,planned,articles/case-study-economic-input-output-analysis,scaffolded,planned

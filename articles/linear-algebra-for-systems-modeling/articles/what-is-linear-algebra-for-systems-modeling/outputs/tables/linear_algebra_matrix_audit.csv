@@ -1,0 +1,2 @@
+model_name,rows,columns,rank,determinant,trace,dominant_eigenvalue,matrix_meaning,interpretation_warning
+two_component_transition_model,2,2,2,0.6900000000000001,1.7000000000000002,1.0302775637731998,transition-like matrix connecting two system components across a modeling step,"Matrix interpretation depends on what entries represent, how variables are scaled, and whether a linear transformation is appropriate for the modeled system."

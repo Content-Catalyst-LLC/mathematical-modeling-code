@@ -1,0 +1,29 @@
+section                           
+----------------------------------
+LINEAR ALGEBRA ASSUMPTION REGISTRY
+assumption_name            mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Decomposition review       Documents factorization, dimensionality reduction, and compo  Clarifies what structure is preserved, compressed, or discar  Principal components or singular vectors should not be overi
+                           nent interpretation.                                          ded.                                                          nterpreted as real-world causes.                            
+
+Eigenvalue interpretation  Connects transformation behavior to scaling along preserved   Supports stability, long-run behavior, amplification, decay,  Eigenvalue claims depend on the model form, scaling, and whe
+                           directions.                                                    and dominant-mode analysis.                                  ther linear dynamics are appropriate.                       
+
+Matrix meaning             Defines what matrix entries represent.                        Distinguishes coefficients, flows, probabilities, weights, l  A valid matrix operation can still have an invalid systems i
+                                                                                         inks, and transformations.                                    nterpretation.                                              
+
+Rank and dependency        Identifies independent structure and redundancy.              Supports solvability, degrees of freedom, constraint review,  Low rank may reflect true structure, omitted variables, or m
+                                                                                          and model diagnosis.                                         easurement artifacts.                                       
+
+Scaling and units          Controls how quantities are compared within vector and matri  Shapes distance, similarity, decomposition, conditioning, an  Unscaled or incompatible units can dominate outputs.        
+                           x operations.                                                 d optimization results.                                                                                                   
+
+Vector definition          Defines the ordered components of a system state.             Controls which quantities are represented and compared.       Vector entries should include units, scale, ordering, and me
+                                                                                                                                                       aning.                                                      
+section           
+------------------
+MATRIX AUDIT CASES
+model_name                      rows  columns  matrix_meaning                                                interpretation_warning                                      
+------------------------------  ----  -------  ------------------------------------------------------------  ------------------------------------------------------------
+two_component_transition_model  2     2        transition-like matrix connecting two system components acro  Matrix interpretation depends on entry meaning, scaling, and
+                                               ss a modeling step                                             whether linearity is appropriate.                          

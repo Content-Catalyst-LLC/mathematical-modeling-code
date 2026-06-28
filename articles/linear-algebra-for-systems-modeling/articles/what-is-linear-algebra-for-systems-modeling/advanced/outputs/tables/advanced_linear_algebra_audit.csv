@@ -1,0 +1,6 @@
+audit_key,audit_name,modeling_question,review_warning
+state_vector,State Vector,What does each vector component represent?,Missing units or ordering can invalidate interpretation.
+matrix_semantics,Matrix Semantics,What do matrix entries mean?,A valid operation may be meaningless if entries are not semantically defined.
+rank_dependency,Rank and Dependency,"Is structure independent, redundant, or underdetermined?","Rank is a diagnostic, not a substitute for model judgment."
+eigen_claims,Eigenvalue Claims,Is stability or long-run behavior being inferred correctly?,"Eigenstructure depends on model form, scaling, and linearity assumptions."
+reduction_loss,Reduction Loss,What does dimensionality reduction preserve or discard?,Clean components can hide important variation.

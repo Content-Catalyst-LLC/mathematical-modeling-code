@@ -1,42 +1,51 @@
 # What Is Linear Algebra for Systems Modeling?
 
-Companion code and reproducible workflows for **“What Is Linear Algebra for Systems Modeling?”**.
+Companion code and reproducible workflows for **What Is Linear Algebra for Systems Modeling?** in the **Linear Algebra for Systems Modeling** series.
 
-Status: **planned**.
+## Themes
 
-An opening article defining linear algebra as a formal language for structure, interdependence, transformation, and multivariable systems.
+- vectors as system states
+- matrices as relationships
+- systems of equations and solvability
+- transformations and model behavior
+- eigenstructure and stability
+- networks and interdependence
+- decomposition and dimensionality reduction
+- numerical stability and conditioning
+- typed model records
+- SQL assumption registries
+- Canvas-ready governance artifacts
+- calculator scaffolding
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
-
-```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
-```
-
-## Run smoke checks
+## Run
 
 ```bash
 make smoke
+make all
+make calculators
+make advanced
 ```
 
-## Principle
+## Languages included
 
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.
+```text
+python/
+python/catalyst_canvas/
+r/
+julia/
+sql/
+haskell/
+c/
+cpp/
+fortran/
+rust/
+go/
+notebooks/
+docs/
+data/
+outputs/
+schemas/
+canvas/
+advanced/
+calculators/
+```

@@ -1,8 +1,4 @@
-.PHONY: smoke calculators advanced clean list
-
-list:
-	@echo "Nested planned article folders:"
-	@find articles -mindepth 1 -maxdepth 1 -type d | sort
+.PHONY: smoke calculators advanced clean
 
 smoke:
 	@for d in articles/*; do if [ -f "$$d/Makefile" ]; then $(MAKE) -C "$$d" smoke || true; fi; done
