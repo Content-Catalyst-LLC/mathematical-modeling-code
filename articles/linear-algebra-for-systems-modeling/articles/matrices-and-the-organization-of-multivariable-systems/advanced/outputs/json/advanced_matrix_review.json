@@ -1,0 +1,27 @@
+[
+  {
+    "governance_note": "Classify the matrix before interpreting operations.",
+    "review_item": "matrix_role",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document row and column definitions, order, units, and indexing.",
+    "review_item": "row_column_metadata",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether entries are measurements, coefficients, links, probabilities, flows, or estimates.",
+    "review_item": "entry_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Confirm multiplication and transpose behavior match the intended system orientation.",
+    "review_item": "orientation_check",
+    "status": "required"
+  },
+  {
+    "governance_note": "Distinguish absence, no effect, baseline, and missing values.",
+    "review_item": "zero_missingness",
+    "status": "required"
+  }
+]

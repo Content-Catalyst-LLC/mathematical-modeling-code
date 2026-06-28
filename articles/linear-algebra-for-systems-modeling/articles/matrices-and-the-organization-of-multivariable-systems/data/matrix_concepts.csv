@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+matrix,Matrix,Rectangular array of entries,Organizes multivariable system quantities and relationships,A matrix needs row column and entry definitions
+data_matrix,Data matrix,Rows and columns of observations and features,Stores multivariable observations for analysis,Variable selection scaling and missingness shape interpretation
+coefficient_matrix,Coefficient matrix,Encodes coefficients in equations or constraints,Organizes how variables contribute to equations or targets,Rows and columns must match equation and variable order
+transition_matrix,Transition matrix,Maps current states to future states,Represents dynamics probabilities or system updates,Orientation and time assumptions must be documented
+adjacency_matrix,Adjacency matrix,Represents node-to-node relationships,Encodes network links weights distances capacities or flows,Direction and zero meaning must be explicit
+flow_matrix,Flow matrix,Represents transfers between components,Organizes dependencies in material energy economic or transport systems,Boundary definitions and conservation assumptions matter
+block_matrix,Block matrix,Groups matrix entries into submatrices,Represents subsystems regions populations or time blocks,Block categories can impose modeling assumptions
+sparse_matrix,Sparse matrix,Matrix with many zero entries,Represents limited direct interactions or efficient storage,Zeros should not be confused with missing data

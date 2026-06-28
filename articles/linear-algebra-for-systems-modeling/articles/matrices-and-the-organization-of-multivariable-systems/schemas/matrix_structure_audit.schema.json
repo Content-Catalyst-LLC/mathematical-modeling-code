@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatrixStructureAudit",
+  "type": "object",
+  "required": [
+    "matrix_name",
+    "matrix_role",
+    "row_meaning",
+    "column_meaning",
+    "row_count",
+    "column_count",
+    "nonzero_entries",
+    "sparsity_ratio",
+    "symmetric",
+    "rank",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "matrix_name": {
+      "type": "string"
+    },
+    "matrix_role": {
+      "type": "string"
+    },
+    "row_meaning": {
+      "type": "string"
+    },
+    "column_meaning": {
+      "type": "string"
+    },
+    "row_count": {
+      "type": "integer"
+    },
+    "column_count": {
+      "type": "integer"
+    },
+    "nonzero_entries": {
+      "type": "integer"
+    },
+    "sparsity_ratio": {
+      "type": "number"
+    },
+    "symmetric": {
+      "type": "boolean"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

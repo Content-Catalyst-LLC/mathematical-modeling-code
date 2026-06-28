@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+matrix-role,Matrix Role,representation,96,active,2026-06-28,Classify the matrix before applying computations.
+row-column-meaning,Row and Column Meaning,metadata,95,active,2026-06-28,"Document row and column axes, order, units, and indexing."
+entry-meaning,Entry Meaning,semantics,94,review,2026-06-28,"State whether entries are measurements, coefficients, links, probabilities, flows, or estimates."
+orientation-warning,Orientation Warning,governance,93,review,2026-06-28,Check whether transposition or axis reversal changes interpretation.
+zero-missingness,Zero and Missingness,data quality,92,active,2026-06-28,Distinguish zero as absence from zero as missingness or baseline.

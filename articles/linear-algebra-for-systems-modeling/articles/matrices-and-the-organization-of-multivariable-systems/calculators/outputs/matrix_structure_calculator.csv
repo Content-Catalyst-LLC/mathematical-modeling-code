@@ -1,0 +1,2 @@
+calculator,row_count,column_count,nonzero_entries,sparsity_ratio,symmetric,warning
+matrix_structure_calculator,4,4,8,0.5,True,"Matrix structure should be interpreted through row, column, and entry meaning."

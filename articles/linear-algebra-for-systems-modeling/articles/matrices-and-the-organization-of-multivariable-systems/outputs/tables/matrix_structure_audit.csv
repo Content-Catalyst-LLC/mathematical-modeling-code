@@ -1,0 +1,2 @@
+matrix_name,matrix_role,row_meaning,column_meaning,row_count,column_count,nonzero_entries,sparsity_ratio,symmetric,rank,interpretation_warning
+infrastructure_interdependency_matrix,weighted adjacency matrix,infrastructure subsystem receiving or indexed by relationship,infrastructure subsystem sending or paired by relationship,4,4,8,0.5,True,4,"Symmetry suggests reciprocal relationships in this example, but real infrastructure dependencies may be directional and should not be assumed symmetric."

@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Matrices and the Organization of Multivariable Systems** will live here.
+# Notebooks\n\nNotebook-ready workspace for matrix structure audits, data matrices, coefficient matrices, adjacency matrices, transition matrices, flow matrices, sparsity checks, and representation governance.\n

@@ -1,0 +1,6 @@
+review_item,status,governance_note
+matrix_role,required,Classify the matrix before interpreting operations.
+row_column_metadata,required,"Document row and column definitions, order, units, and indexing."
+entry_semantics,required,"State whether entries are measurements, coefficients, links, probabilities, flows, or estimates."
+orientation_check,required,Confirm multiplication and transpose behavior match the intended system orientation.
+zero_missingness,required,"Distinguish absence, no effect, baseline, and missing values."

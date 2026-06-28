@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "matrix-role",
+    "category": "representation",
+    "governance_note": "Classify the matrix before applying computations.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Matrix Role"
+  },
+  {
+    "card_id": "row-column-meaning",
+    "category": "metadata",
+    "governance_note": "Document row and column axes, order, units, and indexing.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Row and Column Meaning"
+  },
+  {
+    "card_id": "entry-meaning",
+    "category": "semantics",
+    "governance_note": "State whether entries are measurements, coefficients, links, probabilities, flows, or estimates.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Entry Meaning"
+  },
+  {
+    "card_id": "orientation-warning",
+    "category": "governance",
+    "governance_note": "Check whether transposition or axis reversal changes interpretation.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Orientation Warning"
+  },
+  {
+    "card_id": "zero-missingness",
+    "category": "data quality",
+    "governance_note": "Distinguish zero as absence from zero as missingness or baseline.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "active",
+    "title": "Zero and Missingness"
+  }
+]

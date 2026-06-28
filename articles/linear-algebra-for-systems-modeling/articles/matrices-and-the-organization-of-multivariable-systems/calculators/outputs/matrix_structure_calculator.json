@@ -1,0 +1,9 @@
+{
+  "calculator": "matrix_structure_calculator",
+  "column_count": 4,
+  "nonzero_entries": 8,
+  "row_count": 4,
+  "sparsity_ratio": 0.5,
+  "symmetric": true,
+  "warning": "Matrix structure should be interpreted through row, column, and entry meaning."
+}

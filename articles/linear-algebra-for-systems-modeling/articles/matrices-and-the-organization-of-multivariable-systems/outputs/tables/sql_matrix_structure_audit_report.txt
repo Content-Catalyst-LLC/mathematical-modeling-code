@@ -1,0 +1,33 @@
+section                   
+--------------------------
+MATRIX ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Column meaning        Defines what each column indexes.                             Controls whether columns represent variables, features, unkn  Column misalignment can attach values to the wrong system qu
+                                                                                    owns, sources, destinations, or components.                   antities.                                                   
+
+Entry meaning         Defines what each matrix entry represents.                    Determines whether values are measurements, coefficients, pr  Entries cannot be interpreted responsibly without row and co
+                                                                                    obabilities, links, flows, or estimates.                      lumn definitions.                                           
+
+Matrix role           Classifies the matrix as data, coefficient, transition, adja  Determines how rows, columns, entries, and operations should  The same numerical matrix can mean different things under di
+                      cency, flow, or other structure.                               be interpreted.                                              fferent roles.                                              
+
+Orientation rule      Defines whether rows or columns represent sources, destinati  Controls valid multiplication and interpretation of outputs.  Transposed matrices can produce mathematically valid but sub
+                      ons, current states, future states, observations, or variabl                                                                stantively wrong results.                                   
+                      es.                                                                                                                                                                                     
+
+Row meaning           Defines what each row indexes.                                Controls whether rows represent observations, equations, nod  Changing row order or row meaning can invalidate joins, mult
+                                                                                    es, sectors, states, or constraints.                          iplication, and interpretation.                             
+
+Unit and scale        Defines units, normalization, standardization, and scaling c  Controls comparison, aggregation, distance, rank, conditioni  Mixed units and hidden scaling choices can distort matrix co
+                      onventions.                                                   ng, and optimization behavior.                                mputations.                                                 
+
+Zero and missingness  Defines whether zero means absence, no effect, baseline, or   Controls sparsity interpretation and data-quality review.     Confusing zeros with missing values can seriously distort sy
+                      missing data.                                                                                                               stem interpretation.                                        
+section                     
+----------------------------
+MATRIX STRUCTURE AUDIT CASES
+matrix_name                            matrix_role                row_count  column_count  nonzero_entries  sparsity_ratio  symmetric  rank_value  warning                                                     
+-------------------------------------  -------------------------  ---------  ------------  ---------------  --------------  ---------  ----------  ------------------------------------------------------------
+infrastructure_interdependency_matrix  weighted adjacency matrix  4          4             8                0.5             1          4           Symmetry suggests reciprocal relationships in this example b
+                                                                                                                                                   ut should not be assumed.                                   

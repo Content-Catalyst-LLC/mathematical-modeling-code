@@ -1,10 +1,10 @@
 {
+  "article_slug": "matrices-and-the-organization-of-multivariable-systems",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "matrices-and-the-organization-of-multivariable-systems",
-  "title": "Matrices and the Organization of Multivariable Systems",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "matrices-multivariable-systems",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "matrix-role",
+      "title": "Matrix Role",
+      "description": "Whether the matrix is data, coefficient, transition, adjacency, flow, or block structure."
+    },
+    {
+      "card_id": "row-column-meaning",
+      "title": "Row and Column Meaning",
+      "description": "Definitions for every row and column axis."
+    },
+    {
+      "card_id": "entry-meaning",
+      "title": "Entry Meaning",
+      "description": "Whether entries are measurements, coefficients, probabilities, links, flows, or estimates."
+    },
+    {
+      "card_id": "orientation-warning",
+      "title": "Orientation Warning",
+      "description": "How transposition or index mismatch could change interpretation."
+    },
+    {
+      "card_id": "zero-missingness",
+      "title": "Zero and Missingness",
+      "description": "Whether zero means absence, baseline, no effect, or missing data."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }
