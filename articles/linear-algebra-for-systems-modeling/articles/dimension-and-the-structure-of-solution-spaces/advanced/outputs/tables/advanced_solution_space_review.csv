@@ -1,0 +1,6 @@
+review_item,status,governance_note
+variable_definition,required,"Define every unknown and its unit, boundary, and systems meaning."
+constraint_definition,required,"Classify constraints as empirical, physical, institutional, normative, or assumed."
+rank_nullity,required,"Record rank, nullity, method, scaling, and numerical tolerance."
+consistency_feasibility,required,Separate algebraic consistency from real-world feasibility.
+free_variable_interpretation,required,"Explain whether free variables represent flexibility, ambiguity, or missing information."

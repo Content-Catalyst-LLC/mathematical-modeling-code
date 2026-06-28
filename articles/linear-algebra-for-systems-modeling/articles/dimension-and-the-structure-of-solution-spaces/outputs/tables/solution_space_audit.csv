@@ -1,0 +1,2 @@
+system_name,variable_count,equation_count,rank,nullity,likely_solution_structure,modeling_role,interpretation_warning
+four_variable_three_constraint_system,4,3,3,1,Positive-dimensional solution space if the system is consistent.,Audit degrees of freedom in a constrained system representation.,"Rank and nullity describe mathematical freedom. Feasibility, data quality, and system meaning require separate review."

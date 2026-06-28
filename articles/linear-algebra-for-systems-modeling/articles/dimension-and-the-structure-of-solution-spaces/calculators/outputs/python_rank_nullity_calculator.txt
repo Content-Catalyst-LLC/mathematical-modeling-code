@@ -1,0 +1,9 @@
+{
+  "calculator": "rank_nullity_calculator",
+  "equation_count": 3,
+  "likely_solution_structure": "positive_dimensional_if_consistent",
+  "nullity": 1,
+  "rank": 3,
+  "variable_count": 4,
+  "warning": "Rank-nullity describes mathematical freedom, not feasibility or adequacy."
+}

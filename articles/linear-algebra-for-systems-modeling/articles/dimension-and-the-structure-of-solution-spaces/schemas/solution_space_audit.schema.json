@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SolutionSpaceAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "variable_count",
+    "equation_count",
+    "rank",
+    "nullity",
+    "likely_solution_structure",
+    "modeling_role",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {"type": "string"},
+    "variable_count": {"type": "integer"},
+    "equation_count": {"type": "integer"},
+    "rank": {"type": "integer"},
+    "nullity": {"type": "integer"},
+    "likely_solution_structure": {"type": "string"},
+    "modeling_role": {"type": "string"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

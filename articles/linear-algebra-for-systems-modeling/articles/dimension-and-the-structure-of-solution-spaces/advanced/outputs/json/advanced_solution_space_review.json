@@ -1,0 +1,27 @@
+[
+  {
+    "governance_note": "Define every unknown and its unit, boundary, and systems meaning.",
+    "review_item": "variable_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Classify constraints as empirical, physical, institutional, normative, or assumed.",
+    "review_item": "constraint_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record rank, nullity, method, scaling, and numerical tolerance.",
+    "review_item": "rank_nullity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Separate algebraic consistency from real-world feasibility.",
+    "review_item": "consistency_feasibility",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain whether free variables represent flexibility, ambiguity, or missing information.",
+    "review_item": "free_variable_interpretation",
+    "status": "required"
+  }
+]

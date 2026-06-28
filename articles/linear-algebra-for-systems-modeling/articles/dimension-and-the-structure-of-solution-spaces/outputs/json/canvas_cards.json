@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "dimension-audit",
+    "category": "degrees of freedom",
+    "governance_note": "Document independent degrees of freedom after constraints are applied.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Dimension Audit"
+  },
+  {
+    "card_id": "rank-nullity",
+    "category": "constraint structure",
+    "governance_note": "Record constrained directions and free null-space directions.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Rank and Nullity"
+  },
+  {
+    "card_id": "solution-structure",
+    "category": "consistency",
+    "governance_note": "Distinguish unique, none, and positive-dimensional solution behavior.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Solution Structure"
+  },
+  {
+    "card_id": "feasible-space",
+    "category": "constraints",
+    "governance_note": "Separate algebraic solutions from admissible real-world states.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Feasible Solution Space"
+  },
+  {
+    "card_id": "interpretive-warning",
+    "category": "governance",
+    "governance_note": "Do not treat dimension or consistency as proof of model adequacy.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "active",
+    "title": "Interpretive Warning"
+  }
+]

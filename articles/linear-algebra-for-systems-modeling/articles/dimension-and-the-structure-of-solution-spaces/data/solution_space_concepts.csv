@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+dimension,Dimension,Number of independent basis directions,Measures independent degrees of freedom in a representation,Dimension is not the same as the number of listed variables
+solution_space,Solution space,Set of vectors satisfying equations,Represents states compatible with modeled constraints,A solution space depends on the assumptions encoded in the equations
+rank,Rank,Independent row or column structure,Identifies independent constraints measurements or generated directions,Rank depends on matrix construction scaling and numerical tolerance
+nullity,Nullity,Dimension of the null space,Reveals free directions hidden changes or underdetermination,Free directions require systems interpretation
+free_variable,Free variable,Variable not independently constrained,Represents flexibility ambiguity missing information or design choice,Free variables are not automatically errors
+consistency,Consistency,Existence of at least one solution,Shows whether constraints targets or observations can coexist,Consistency does not prove feasibility or truth
+feasible_solution_space,Feasible solution space,Solutions satisfying additional admissibility constraints,Connects equations to budgets capacities nonnegativity and policy limits,Algebraic solutions may be infeasible in practice
+least_squares,Least squares,Approximate solution minimizing residual size,Reconciles overdetermined or noisy systems,Residual interpretation depends on scaling units and modeling purpose

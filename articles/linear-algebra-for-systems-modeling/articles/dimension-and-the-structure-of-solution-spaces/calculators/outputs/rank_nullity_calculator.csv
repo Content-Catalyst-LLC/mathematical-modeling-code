@@ -1,0 +1,2 @@
+calculator,variable_count,equation_count,rank,nullity,likely_solution_structure,warning
+rank_nullity_calculator,4,3,3,1,positive_dimensional_if_consistent,"Rank-nullity describes mathematical freedom, not feasibility or adequacy."

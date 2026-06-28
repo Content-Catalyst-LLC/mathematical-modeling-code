@@ -1,0 +1,29 @@
+section                           
+----------------------------------
+SOLUTION SPACE ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Consistency check        Determines whether at least one solution satisfies all equat  Identifies whether targets observations or constraints can c  Inconsistency may reflect data error incompatible goals or u
+                         ions.                                                         oexist.                                                       nrealistic assumptions.                                     
+
+Constraint definition    Defines equations or inequalities restricting possible vecto  Represents balances capacities observations budgets targets   Constraints should be classified as empirical physical insti
+                         rs.                                                           or rules.                                                     tutional normative or assumed.                              
+
+Feasible solution space  Restricts mathematical solutions to admissible vectors.       Connects equations to nonnegativity capacity budget probabil  Feasible solutions require separate review beyond algebraic 
+                                                                                       ity or policy constraints.                                    consistency.                                                
+
+Nullity diagnostic       Measures the dimension of the null space.                     Identifies remaining degrees of freedom hidden directions or  Free directions may represent useful flexibility or missing 
+                                                                                        underdetermination.                                          information.                                                
+
+Rank diagnostic          Measures independent structure in the coefficient matrix.     Identifies how many independent constraints or directions th  Rank depends on matrix construction scaling numerical tolera
+                                                                                       e model contains.                                             nce and data quality.                                       
+
+Variable definition      Defines the unknown entries in the solution vector.           Controls what system quantities decisions flows or states ar  Variables must have documented meaning units boundaries and 
+                                                                                       e solved for.                                                 validity conditions.                                        
+section                   
+--------------------------
+SOLUTION SPACE AUDIT CASES
+system_name                            variable_count  equation_count  rank_value  nullity_value  likely_solution_structure                                     warning                                                     
+-------------------------------------  --------------  --------------  ----------  -------------  ------------------------------------------------------------  ------------------------------------------------------------
+four_variable_three_constraint_system  4               3               3           1              Positive-dimensional solution space if the system is consist  Rank and nullity describe mathematical freedom, not full fea
+                                                                                                  ent.                                                          sibility.                                                   

@@ -1,0 +1,6 @@
+               calculator variable_count equation_count rank nullity
+1 rank_nullity_calculator              4              3    3       1
+           likely_solution_structure
+1 positive_dimensional_if_consistent
+                                                                    warning
+1 Rank-nullity describes mathematical freedom, not feasibility or adequacy.

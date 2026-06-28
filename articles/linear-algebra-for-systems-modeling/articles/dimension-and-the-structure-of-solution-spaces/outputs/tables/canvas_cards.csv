@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+dimension-audit,Dimension Audit,degrees of freedom,96,active,2026-06-28,Document independent degrees of freedom after constraints are applied.
+rank-nullity,Rank and Nullity,constraint structure,95,active,2026-06-28,Record constrained directions and free null-space directions.
+solution-structure,Solution Structure,consistency,94,review,2026-06-28,"Distinguish unique, none, and positive-dimensional solution behavior."
+feasible-space,Feasible Solution Space,constraints,93,review,2026-06-28,Separate algebraic solutions from admissible real-world states.
+interpretive-warning,Interpretive Warning,governance,92,active,2026-06-28,Do not treat dimension or consistency as proof of model adequacy.

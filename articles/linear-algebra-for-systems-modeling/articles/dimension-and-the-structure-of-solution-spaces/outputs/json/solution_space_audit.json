@@ -1,0 +1,10 @@
+{
+  "equation_count": 3,
+  "interpretation_warning": "Rank and nullity describe mathematical freedom. Feasibility, data quality, and system meaning require separate review.",
+  "likely_solution_structure": "Positive-dimensional solution space if the system is consistent.",
+  "modeling_role": "Audit degrees of freedom in a constrained system representation.",
+  "nullity": 1,
+  "rank": 3,
+  "system_name": "four_variable_three_constraint_system",
+  "variable_count": 4
+}
