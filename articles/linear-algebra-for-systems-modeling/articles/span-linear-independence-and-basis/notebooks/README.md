@@ -1,3 +1,3 @@
 # Notebooks
 
-Notebook-ready walkthroughs for **Span, Linear Independence, and Basis** will live here.
+Notebook-ready workspace for span diagnostics, linear-independence checks, rank experiments, basis comparisons, feature-redundancy examples, and representation audits.

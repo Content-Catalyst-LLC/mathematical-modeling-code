@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "span-claim",
+    "category": "representational capacity",
+    "governance_note": "Document what the vector set can generate and what remains outside the span.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Span Claim"
+  },
+  {
+    "card_id": "independence-check",
+    "category": "redundancy",
+    "governance_note": "Check whether each vector contributes a genuinely new mathematical direction.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Independence Check"
+  },
+  {
+    "card_id": "basis-record",
+    "category": "coordinates",
+    "governance_note": "Record the basis, coordinate meaning, and interpretive cost of the coordinate system.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Basis Record"
+  },
+  {
+    "card_id": "rank-diagnostic",
+    "category": "model capacity",
+    "governance_note": "Document effective independent dimension, tolerance, scaling, and near-dependence warnings.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Rank Diagnostic"
+  },
+  {
+    "card_id": "redundancy-warning",
+    "category": "governance",
+    "governance_note": "Identify duplicated indicators, features, scenarios, or interventions that may be overcounted.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "active",
+    "title": "Redundancy Warning"
+  }
+]

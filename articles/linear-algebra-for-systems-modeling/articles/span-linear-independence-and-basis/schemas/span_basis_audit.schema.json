@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpanBasisAudit",
+  "type": "object",
+  "required": [
+    "vector_set_name",
+    "ambient_dimension",
+    "vector_count",
+    "rank",
+    "spans_ambient_space",
+    "linearly_independent",
+    "is_basis_for_ambient_space",
+    "modeling_role",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "vector_set_name": {"type": "string"},
+    "ambient_dimension": {"type": "integer"},
+    "vector_count": {"type": "integer"},
+    "rank": {"type": "integer"},
+    "spans_ambient_space": {"type": "boolean"},
+    "linearly_independent": {"type": "boolean"},
+    "is_basis_for_ambient_space": {"type": "boolean"},
+    "modeling_role": {"type": "string"},
+    "interpretation_warning": {"type": "string"}
+  }
+}

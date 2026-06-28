@@ -1,0 +1,27 @@
+[
+  {
+    "governance_note": "Define what vectors are claimed to generate and what remains outside their span.",
+    "review_item": "span_claim",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record whether coefficients are weights, proportions, intensities, coordinates, or abstract parameters.",
+    "review_item": "coefficient_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Distinguish mathematical independence from substantive or causal independence.",
+    "review_item": "independence_claim",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document the basis, coordinate meanings, and interpretive cost of transformed bases.",
+    "review_item": "basis_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record numerical tolerance, scaling, and near-dependence warnings.",
+    "review_item": "rank_tolerance",
+    "status": "required"
+  }
+]

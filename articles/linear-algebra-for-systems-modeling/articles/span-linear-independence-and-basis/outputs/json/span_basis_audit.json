@@ -1,0 +1,11 @@
+{
+  "ambient_dimension": 3,
+  "interpretation_warning": "A basis for the mathematical representation is not automatically an adequate basis for the real system. Component choice and omitted dimensions still matter.",
+  "is_basis_for_ambient_space": true,
+  "linearly_independent": true,
+  "modeling_role": "Candidate basis vectors for a simplified system representation.",
+  "rank": 3,
+  "spans_ambient_space": true,
+  "vector_count": 3,
+  "vector_set_name": "candidate_system_basis"
+}

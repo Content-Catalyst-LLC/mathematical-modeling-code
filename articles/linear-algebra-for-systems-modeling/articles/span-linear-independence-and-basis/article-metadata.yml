@@ -1,8 +1,7 @@
 actual_title: "Span, Linear Independence, and Basis"
-suggested_seo_title: "Span, Linear Independence, and Basis: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Span, Linear Independence, and Basis: How Linear Algebra Finds Essential System Directions"
+focus_keyword: "span linear independence and basis"
 slug: "span-linear-independence-and-basis"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/span-linear-independence-and-basis"
 tags:
   - Linear Algebra
+  - Span
+  - Linear Independence
+  - Basis
+  - Rank
   - Systems Modeling
   - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Span, Linear Independence, and Basis is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Span, linear independence, and basis explain what a system model can generate, what information is redundant, and which directions are essential. This article introduces span as the set of possible vectors produced by linear combinations, linear independence as the absence of redundant directions, and basis as a compact coordinate structure that spans a space without unnecessary vectors. It connects these ideas to systems modeling by examining reachable states, intervention coverage, scenario construction, feature redundancy, indicator design, rank diagnostics, model capacity, and representation governance. The article shows how dependence can reveal duplicated information, how independence can identify genuinely new system directions, and how basis choice shapes interpretation. It emphasizes responsible use by distinguishing mathematical span from real-world feasibility, rank from adequacy, and compact representation from complete understanding of complex systems."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

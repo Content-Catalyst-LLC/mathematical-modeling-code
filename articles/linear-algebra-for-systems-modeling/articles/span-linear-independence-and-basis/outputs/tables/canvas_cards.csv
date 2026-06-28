@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+span-claim,Span Claim,representational capacity,96,active,2026-06-28,Document what the vector set can generate and what remains outside the span.
+independence-check,Independence Check,redundancy,95,active,2026-06-28,Check whether each vector contributes a genuinely new mathematical direction.
+basis-record,Basis Record,coordinates,94,review,2026-06-28,"Record the basis, coordinate meaning, and interpretive cost of the coordinate system."
+rank-diagnostic,Rank Diagnostic,model capacity,93,review,2026-06-28,"Document effective independent dimension, tolerance, scaling, and near-dependence warnings."
+redundancy-warning,Redundancy Warning,governance,92,active,2026-06-28,"Identify duplicated indicators, features, scenarios, or interventions that may be overcounted."

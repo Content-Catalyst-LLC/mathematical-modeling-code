@@ -1,0 +1,29 @@
+section                       
+------------------------------
+SPAN BASIS ASSUMPTION REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Basis choice         Defines a nonredundant spanning set for the representation.   Controls coordinates, interpretability, model reduction, and  A computationally convenient basis may not be substantively 
+                                                                                    transformation logic.                                        transparent.                                                
+
+Coefficient meaning  Defines how linear-combination weights are interpreted.       Controls whether combinations represent proportions, intensi  Unconstrained mathematical coefficients may not be feasible 
+                                                                                   ties, coordinates, or abstract parameters.                    or meaningful.                                              
+
+Linear dependence    Identifies redundancy among vectors.                          Flags duplicated indicators, collinear features, redundant c  Redundancy may be useful for validation, but should not be s
+                                                                                   onstraints, or repeated policy directions.                    ilently overcounted.                                        
+
+Linear independence  Determines whether vectors contribute distinct directions.    Identifies whether indicators, features, interventions, or s  Mathematical independence does not prove substantive indepen
+                                                                                   cenarios add new structure.                                   dence.                                                      
+
+Rank tolerance       Defines numerical threshold used to distinguish independence  Controls rank diagnostics and near-dependence warnings.       Numerical rank can be sensitive to scaling, noise, and toler
+                      from dependence.                                                                                                           ance choices.                                               
+
+Span claim           States what vectors can generate through linear combination.  Defines which states, interventions, scenarios, or changes a  A span claim is only meaningful relative to the chosen repre
+                                                                                   re representable.                                             sentation.                                                  
+section               
+----------------------
+SPAN BASIS AUDIT CASES
+vector_set_name         ambient_dimension  vector_count  rank_value  spans_ambient_space  linearly_independent  is_basis_for_ambient_space  warning                                                     
+----------------------  -----------------  ------------  ----------  -------------------  --------------------  --------------------------  ------------------------------------------------------------
+candidate_system_basis  3                  3             3           1                    1                     1                           A basis for the mathematical representation is not automatic
+                                                                                                                                            ally an adequate basis for the real system.                 

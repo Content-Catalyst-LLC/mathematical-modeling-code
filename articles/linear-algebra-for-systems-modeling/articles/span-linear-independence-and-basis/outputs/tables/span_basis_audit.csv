@@ -1,0 +1,2 @@
+vector_set_name,ambient_dimension,vector_count,rank,spans_ambient_space,linearly_independent,is_basis_for_ambient_space,modeling_role,interpretation_warning
+candidate_system_basis,3,3,3,True,True,True,Candidate basis vectors for a simplified system representation.,A basis for the mathematical representation is not automatically an adequate basis for the real system. Component choice and omitted dimensions still matter.

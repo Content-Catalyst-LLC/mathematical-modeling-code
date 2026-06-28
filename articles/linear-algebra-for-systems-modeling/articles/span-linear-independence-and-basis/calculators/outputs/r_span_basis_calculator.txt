@@ -1,0 +1,6 @@
+             calculator ambient_dimension vector_count rank spans_ambient_space
+1 span_basis_calculator                 3            3    3                TRUE
+  linearly_independent is_basis_for_ambient_space
+1                 TRUE                       TRUE
+                                                  warning
+1 Basis claims are relative to the chosen representation.

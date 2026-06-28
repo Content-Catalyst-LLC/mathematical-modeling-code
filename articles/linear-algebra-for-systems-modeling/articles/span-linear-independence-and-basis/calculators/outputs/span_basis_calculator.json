@@ -1,0 +1,10 @@
+{
+  "ambient_dimension": 3,
+  "calculator": "span_basis_calculator",
+  "is_basis_for_ambient_space": true,
+  "linearly_independent": true,
+  "rank": 3,
+  "spans_ambient_space": true,
+  "vector_count": 3,
+  "warning": "Basis claims are relative to the chosen representation."
+}
