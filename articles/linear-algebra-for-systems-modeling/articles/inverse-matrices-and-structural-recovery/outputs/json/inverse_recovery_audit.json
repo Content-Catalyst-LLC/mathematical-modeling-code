@@ -1,0 +1,13 @@
+{
+  "condition_warning": "inverse exists for this example; still review conditioning, units, and sensitivity",
+  "determinant": 2.0,
+  "interpretation_warning": "Inverse recovery is algebraic; practical recovery requires review of conditioning, measurement error, units, constraints, and model meaning.",
+  "invertible": true,
+  "matrix_size": 3,
+  "nullity": 0,
+  "rank": 3,
+  "recovered_solution": "55.000000,45.000000,35.000000",
+  "residual_norm": 0.0,
+  "system_name": "three_constraint_structural_recovery_system",
+  "tolerance": 1e-10
+}

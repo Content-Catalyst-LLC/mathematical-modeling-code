@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Ordinary inverse claims require square matrices.",
+    "review_item": "square_matrix_check",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record determinant, rank, pivots, and nullity before recovery claims.",
+    "review_item": "invertibility_check",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report residuals after recovered values are computed.",
+    "review_item": "residual_check",
+    "status": "required"
+  },
+  {
+    "governance_note": "Assess whether recovery is numerically stable.",
+    "review_item": "conditioning_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Prefer solving systems directly over forming explicit inverses for numerical workflows.",
+    "review_item": "solver_choice_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Use pseudoinverse language for rectangular, rank-deficient, or approximate recovery.",
+    "review_item": "pseudoinverse_boundary",
+    "status": "recommended"
+  }
+]

@@ -1,10 +1,10 @@
 {
+  "article_slug": "inverse-matrices-and-structural-recovery",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "inverse-matrices-and-structural-recovery",
-  "title": "Inverse Matrices and Structural Recovery",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "inverse-matrices-structural-recovery",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,33 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "inverse-matrix",
+      "title": "Inverse Matrix",
+      "description": "Two-sided recovery when structure permits."
+    },
+    {
+      "card_id": "structural-recovery",
+      "title": "Structural Recovery",
+      "description": "Recovering inputs from outputs under model assumptions."
+    },
+    {
+      "card_id": "residual-check",
+      "title": "Residual Check",
+      "description": "Testing recovered values against the original system."
+    },
+    {
+      "card_id": "conditioning",
+      "title": "Conditioning",
+      "description": "Fragility of inverse-based recovery."
+    },
+    {
+      "card_id": "pseudoinverse",
+      "title": "Pseudoinverse",
+      "description": "Approximate recovery when ordinary inverse is unavailable."
+    }
   ]
 }

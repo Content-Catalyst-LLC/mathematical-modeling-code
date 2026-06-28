@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+inverse-matrix,Inverse Matrix,formal,96,active,2026-06-28,Use ordinary inverse claims only for square full-rank matrices.
+structural-recovery,Structural Recovery,interpretation,95,review,2026-06-28,Treat recovered inputs as modeling claims requiring substantive review.
+residual-check,Residual Check,diagnostic,94,active,2026-06-28,Report residual norms after recovery.
+conditioning,Conditioning,numerical,93,review,2026-06-28,Check whether recovery is stable under perturbations.
+pseudoinverse,Pseudoinverse,approximation,92,review,2026-06-28,Use pseudoinverse language for approximate or rectangular recovery.

@@ -1,0 +1,2 @@
+calculator,matrix_size,determinant,invertible,rank,nullity,recovered_solution,residual_norm,tolerance,warning
+inverse_recovery_calculator,3,2.0,True,3,0,"55.000000,45.000000,35.000000",0.0,1e-10,Inverse recovery is exact for this synthetic example; conditioning and model meaning still require review.

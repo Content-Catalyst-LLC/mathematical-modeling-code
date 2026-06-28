@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+inverse_matrix,Inverse matrix,Two-sided matrix satisfying inverse identities,Supports exact recovery of inputs from outputs,Exists only for square full-rank matrices
+structural_recovery,Structural recovery,Recovering inputs through inverse transformation,Strong claim that output preserves input information,Requires conditioning data and substantive review
+identity_matrix,Identity matrix,Neutral transformation,Represents successful reversal,Identity recovery is formal not practical validation
+trivial_null_space,Trivial null space,Only zero vector maps to zero,No hidden input direction disappears,Nontrivial null space prevents unique recovery
+condition_number,Condition number,Sensitivity measure for inversion and solving,Shows recovery fragility,Large values require uncertainty and sensitivity review
+explicit_inverse,Explicit inverse,Computes inverse directly,Useful for interpretation and small examples,Often less stable or efficient than solving systems directly
+pseudoinverse,Pseudoinverse,Generalized inverse-like operation,Supports least-squares or minimum-norm recovery,Not exact ordinary inverse recovery
+residual_check,Residual check,Measures A x minus b after recovery,Tests computational fit,Low residual does not prove model validity

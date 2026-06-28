@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InverseRecoveryAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "matrix_size",
+    "determinant",
+    "invertible",
+    "rank",
+    "nullity",
+    "recovered_solution",
+    "residual_norm",
+    "condition_warning",
+    "tolerance",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "matrix_size": {
+      "type": "integer"
+    },
+    "determinant": {
+      "type": "number"
+    },
+    "invertible": {
+      "type": "boolean"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "nullity": {
+      "type": "integer"
+    },
+    "recovered_solution": {
+      "type": "string"
+    },
+    "residual_norm": {
+      "type": "number"
+    },
+    "condition_warning": {
+      "type": "string"
+    },
+    "tolerance": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

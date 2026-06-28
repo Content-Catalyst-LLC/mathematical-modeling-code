@@ -1,0 +1,6 @@
+                   calculator matrix_size determinant invertible rank nullity
+1 inverse_recovery_calculator           3           2       TRUE    3       0
+             recovered_solution residual_norm tolerance
+1 55.000000,45.000000,35.000000             0     1e-10
+                                                                                                     warning
+1 Inverse recovery is exact for this synthetic example; conditioning and model meaning still require review.

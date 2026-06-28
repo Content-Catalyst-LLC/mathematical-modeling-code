@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "inverse-matrix",
+    "category": "formal",
+    "governance_note": "Use ordinary inverse claims only for square full-rank matrices.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Inverse Matrix"
+  },
+  {
+    "card_id": "structural-recovery",
+    "category": "interpretation",
+    "governance_note": "Treat recovered inputs as modeling claims requiring substantive review.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "review",
+    "title": "Structural Recovery"
+  },
+  {
+    "card_id": "residual-check",
+    "category": "diagnostic",
+    "governance_note": "Report residual norms after recovery.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "active",
+    "title": "Residual Check"
+  },
+  {
+    "card_id": "conditioning",
+    "category": "numerical",
+    "governance_note": "Check whether recovery is stable under perturbations.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Conditioning"
+  },
+  {
+    "card_id": "pseudoinverse",
+    "category": "approximation",
+    "governance_note": "Use pseudoinverse language for approximate or rectangular recovery.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Pseudoinverse"
+  }
+]

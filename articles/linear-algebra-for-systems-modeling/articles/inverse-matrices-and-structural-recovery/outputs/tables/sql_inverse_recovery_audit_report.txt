@@ -1,0 +1,29 @@
+section                             
+------------------------------------
+INVERSE RECOVERY ASSUMPTION REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Condition number     Measures sensitivity of inverse recovery to perturbations.    Shows whether algebraic recovery is numerically stable.       Large condition numbers make recovery fragile even when an i
+                                                                                                                                                 nverse exists.                                              
+
+Explicit inverse     Computes A inverse directly.                                  Useful for interpretation and small examples.                 Numerical workflows usually prefer solving systems directly 
+                                                                                                                                                 with factorizations.                                        
+
+Inverse matrix       A two-sided matrix inverse satisfying A inverse times A equa  Supports exact recovery of inputs from outputs when the tran  An inverse exists only for square full-rank matrices.       
+                     ls the identity.                                              sformation is invertible.                                                                                                 
+
+Pseudoinverse        Generalizes inverse-like recovery to rectangular or rank-def  Supports approximate least-squares or minimum-norm recovery.  Pseudoinverse solutions reflect criteria and assumptions not
+                     icient systems.                                                                                                              exact reversal.                                            
+
+Structural recovery  Uses the inverse transformation to reconstruct inputs from o  Represents a strong claim that modeled outputs preserve enou  Recovery claims require conditioning data quality and substa
+                     utputs.                                                       gh information for recovery.                                  ntive interpretation review.                                
+
+Trivial null space   Only the zero vector maps to zero.                            Means no nonzero input direction disappears under the transf  A nontrivial null space prevents unique recovery.           
+                                                                                   ormation.                                                                                                                 
+section                     
+----------------------------
+INVERSE RECOVERY AUDIT CASES
+system_name                                  matrix_size  determinant  invertible  rank  nullity  recovered_solution             residual_norm  tolerance  warning                                                     
+-------------------------------------------  -----------  -----------  ----------  ----  -------  -----------------------------  -------------  ---------  ------------------------------------------------------------
+three_constraint_structural_recovery_system  3            2.0          1           3     0        55.000000,45.000000,35.000000  0.0            1.0e-10    Inverse recovery is algebraic; practical recovery requires c
+                                                                                                                                                           onditioning and model review.                               
