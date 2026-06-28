@@ -1,10 +1,10 @@
 {
+  "article_slug": "rank-nullity-and-structural-dependence",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "rank-nullity-and-structural-dependence",
-  "title": "Rank, Nullity, and Structural Dependence",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "rank-nullity-structural-dependence",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "rank",
+      "title": "Rank",
+      "description": "Independent row or column structure."
+    },
+    {
+      "card_id": "nullity",
+      "title": "Nullity",
+      "description": "Remaining null-space freedom."
+    },
+    {
+      "card_id": "rank-nullity",
+      "title": "Rank-Nullity",
+      "description": "Balance between constrained and unconstrained directions."
+    },
+    {
+      "card_id": "structural-dependence",
+      "title": "Structural Dependence",
+      "description": "Rows or columns that do not add independent information."
+    },
+    {
+      "card_id": "numerical-rank",
+      "title": "Numerical Rank",
+      "description": "Tolerance-sensitive rank classification."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

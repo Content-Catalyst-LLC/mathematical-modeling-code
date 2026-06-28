@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+rank,Rank,diagnostic,96,active,2026-06-28,"Record rank as independent structure, not as model adequacy."
+nullity,Nullity,interpretation,95,review,2026-06-28,Interpret null-space freedom before using a solution.
+rank-nullity,Rank-Nullity,formal,94,active,2026-06-28,Check that rank plus nullity equals column count.
+structural-dependence,Structural Dependence,governance,93,review,2026-06-28,"Review whether dependence is meaningful, redundant, or problematic."
+numerical-rank,Numerical Rank,numerical,92,review,2026-06-28,Document tolerance and test rank sensitivity.

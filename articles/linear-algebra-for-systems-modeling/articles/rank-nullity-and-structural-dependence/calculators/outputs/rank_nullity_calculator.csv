@@ -1,0 +1,2 @@
+calculator,row_count,column_count,rank,nullity,rank_nullity_check,rank_deficient,pivot_columns,free_columns,tolerance,warning
+rank_nullity_calculator,3,3,3,0,True,False,"0,1,2",none,1e-10,Rank and nullity depend on matrix structure; numerical rank depends on tolerance.

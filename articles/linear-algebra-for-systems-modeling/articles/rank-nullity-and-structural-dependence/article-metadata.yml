@@ -1,22 +1,24 @@
 actual_title: "Rank, Nullity, and Structural Dependence"
-suggested_seo_title: "Rank, Nullity, and Structural Dependence: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Rank, Nullity, and Structural Dependence: How Linear Algebra Reveals Independent Structure and Hidden Freedom"
+focus_keyword: "rank nullity and structural dependence"
 slug: "rank-nullity-and-structural-dependence"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
   previous: "pivot-structure-and-solvability"
   current: "rank-nullity-and-structural-dependence"
-  next: "determinants-and-invertibility"
+  next: "matrix-inverses-and-the-logic-of-reversibility"
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/rank-nullity-and-structural-dependence"
 tags:
   - Linear Algebra
+  - Rank
+  - Nullity
+  - Structural Dependence
+  - Null Space
+  - Rank Deficiency
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Rank, Nullity, and Structural Dependence is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Rank, nullity, and structural dependence explain how linear algebra measures independent structure, hidden freedom, and redundancy inside systems. This article introduces rank as the dimension of independent row or column structure, nullity as the dimension of the null space, and structural dependence as the condition in which equations, variables, or modeled relationships repeat, collapse, or fail to add new information. It connects pivot count, row rank, column rank, column-space reachability, null-space freedom, rank-nullity, rank deficiency, identifiability, underdetermination, and numerical rank to systems modeling. The article emphasizes responsible interpretation by distinguishing high rank from model adequacy, nullity from either useful flexibility or missing constraints, dependence from error or meaningful structure, and numerical rank from tolerance-sensitive computational judgment in scientific computing, policy analysis, infrastructure planning, ecological modeling, and decision workflows."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

@@ -1,0 +1,13 @@
+{
+  "calculator": "rank_nullity_calculator",
+  "column_count": 3,
+  "free_columns": "none",
+  "nullity": 0,
+  "pivot_columns": "0,1,2",
+  "rank": 3,
+  "rank_deficient": false,
+  "rank_nullity_check": true,
+  "row_count": 3,
+  "tolerance": 1e-10,
+  "warning": "Rank and nullity depend on matrix structure; numerical rank depends on tolerance."
+}

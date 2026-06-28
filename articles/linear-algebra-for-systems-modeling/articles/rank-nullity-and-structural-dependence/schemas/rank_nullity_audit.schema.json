@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RankNullityAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "row_count",
+    "column_count",
+    "rank",
+    "nullity",
+    "rank_deficient",
+    "pivot_columns",
+    "free_columns",
+    "tolerance",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "row_count": {
+      "type": "integer"
+    },
+    "column_count": {
+      "type": "integer"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "nullity": {
+      "type": "integer"
+    },
+    "rank_deficient": {
+      "type": "boolean"
+    },
+    "pivot_columns": {
+      "type": "string"
+    },
+    "free_columns": {
+      "type": "string"
+    },
+    "tolerance": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

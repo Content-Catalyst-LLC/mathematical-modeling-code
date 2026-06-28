@@ -1,0 +1,12 @@
+{
+  "column_count": 3,
+  "free_columns": "none",
+  "interpretation_warning": "Rank and nullity reveal algebraic structure, but dependence and freedom must be interpreted using row meanings, column meanings, units, and modeling purpose.",
+  "nullity": 0,
+  "pivot_columns": "0,1,2",
+  "rank": 3,
+  "rank_deficient": false,
+  "row_count": 3,
+  "system_name": "three_constraint_resource_balance_matrix",
+  "tolerance": 1e-10
+}

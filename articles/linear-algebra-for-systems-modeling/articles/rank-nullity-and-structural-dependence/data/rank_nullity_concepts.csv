@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+rank,Rank,Dimension of independent row or column structure,Effective number of independent constraints features or output directions,Rank is not the same as model adequacy
+nullity,Nullity,Dimension of the null space,Independent freedom directions not controlled by the matrix,Nullity may signal flexibility missing information or non-identifiability
+rank_nullity,Rank-nullity theorem,Rank plus nullity equals column count,Balances independent structure and remaining freedom,Interpretation depends on row and column meanings
+row_dependence,Row dependence,Rows can be built from other rows,Constraints or observations repeat information,Dependence can be intentional or problematic
+column_dependence,Column dependence,Columns can be built from other columns,Variables or features are not separately identifiable,Dependent columns can make interpretation unreliable
+rank_deficiency,Rank deficiency,Rank is below maximum possible rank,System has redundancy underdetermination or structural collapse,May be meaningful or may indicate a modeling problem
+null_space,Null space,Inputs mapped to zero,Hidden directions that do not affect modeled output,Null-space directions should be interpreted before decisions
+numerical_rank,Numerical rank,Rank under tolerance and finite precision,Applied rank with noisy scaled or approximate data,Tolerance choices should be documented and sensitivity-tested

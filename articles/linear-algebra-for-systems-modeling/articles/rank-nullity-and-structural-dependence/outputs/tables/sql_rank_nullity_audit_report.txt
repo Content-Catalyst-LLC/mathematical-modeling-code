@@ -1,0 +1,29 @@
+section                         
+--------------------------------
+RANK NULLITY ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Column dependence     Indicates variables or features that are linear combinations  Signals non-identifiability or overlapping variable effects.  Dependent columns can make separate interpretation unreliabl
+                       of others.                                                                                                                 e.                                                          
+
+Nullity               Measures the dimension of the null space.                     Shows how many independent freedom directions remain uncontr  Nullity may indicate useful flexibility missing information 
+                                                                                    olled by the matrix.                                          or non-identifiability.                                     
+
+Numerical rank        Classifies rank under finite precision and tolerance rules.   Supports applied computation with noisy scaled or approximat  Tolerance choices should be documented and sensitivity teste
+                                                                                    e data.                                                       d.                                                          
+
+Rank                  Measures the dimension of independent row or column structur  Shows the effective number of independent constraints featur  Rank is not the same as model adequacy or truth.            
+                      e.                                                            es or output directions.                                                                                                  
+
+Rank-nullity theorem  States that rank plus nullity equals the number of columns.   Connects independent structure with remaining freedom in the  The theorem is formal; interpretation depends on row and col
+                                                                                     model.                                                       umn meanings.                                               
+
+Row dependence        Indicates equations that are linear combinations of other eq  Signals redundant repeated or structurally linked constraint  Dependence may be meaningful or problematic depending on pur
+                      uations.                                                      s.                                                            pose.                                                       
+section                 
+------------------------
+RANK NULLITY AUDIT CASES
+system_name                               row_count  column_count  rank  nullity  rank_deficient  pivot_columns  free_columns  tolerance  warning                                                     
+----------------------------------------  ---------  ------------  ----  -------  --------------  -------------  ------------  ---------  ------------------------------------------------------------
+three_constraint_resource_balance_matrix  3          3             3     0        0               0,1,2          none          1.0e-10    Rank and nullity reveal structure but interpretation depends
+                                                                                                                                           on model meaning.                                          

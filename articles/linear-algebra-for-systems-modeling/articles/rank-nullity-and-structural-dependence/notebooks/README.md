@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Rank, Nullity, and Structural Dependence** will live here.
+# Notebooks\n\nNotebook-ready workspace for rank, nullity, structural dependence, rank deficiency, row/column spaces, null spaces, and numerical-rank tolerance.\n

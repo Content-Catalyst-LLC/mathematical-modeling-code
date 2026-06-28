@@ -1,0 +1,6 @@
+               calculator row_count column_count rank nullity
+1 rank_nullity_calculator         3            3    3       0
+  rank_nullity_check rank_deficient pivot_columns free_columns tolerance
+1               TRUE          FALSE         0,1,2         none     1e-10
+                                                                            warning
+1 Rank and nullity depend on matrix structure; numerical rank depends on tolerance.

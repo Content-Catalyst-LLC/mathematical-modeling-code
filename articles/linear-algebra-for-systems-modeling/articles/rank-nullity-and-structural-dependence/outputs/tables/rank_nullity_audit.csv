@@ -1,0 +1,2 @@
+system_name,row_count,column_count,rank,nullity,rank_deficient,pivot_columns,free_columns,tolerance,interpretation_warning
+three_constraint_resource_balance_matrix,3,3,3,0,False,"0,1,2",none,1e-10,"Rank and nullity reveal algebraic structure, but dependence and freedom must be interpreted using row meanings, column meanings, units, and modeling purpose."

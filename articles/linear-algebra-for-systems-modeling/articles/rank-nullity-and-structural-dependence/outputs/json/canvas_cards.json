@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "rank",
+    "category": "diagnostic",
+    "governance_note": "Record rank as independent structure, not as model adequacy.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Rank"
+  },
+  {
+    "card_id": "nullity",
+    "category": "interpretation",
+    "governance_note": "Interpret null-space freedom before using a solution.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "review",
+    "title": "Nullity"
+  },
+  {
+    "card_id": "rank-nullity",
+    "category": "formal",
+    "governance_note": "Check that rank plus nullity equals column count.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "active",
+    "title": "Rank-Nullity"
+  },
+  {
+    "card_id": "structural-dependence",
+    "category": "governance",
+    "governance_note": "Review whether dependence is meaningful, redundant, or problematic.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Structural Dependence"
+  },
+  {
+    "card_id": "numerical-rank",
+    "category": "numerical",
+    "governance_note": "Document tolerance and test rank sensitivity.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Numerical Rank"
+  }
+]
