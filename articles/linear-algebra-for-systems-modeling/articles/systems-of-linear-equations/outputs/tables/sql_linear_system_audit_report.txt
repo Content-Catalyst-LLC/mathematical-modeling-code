@@ -1,0 +1,29 @@
+section                          
+---------------------------------
+LINEAR SYSTEM ASSUMPTION REGISTRY
+assumption_name         mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Coefficient matrix      Stores coefficients of unknown variables in each equation.    Defines how modeled variables contribute to constraints obse  Coefficients must have documented units source and interpret
+                                                                                      rvations or balances.                                         ation.                                                      
+
+Consistency             Indicates whether at least one solution exists.               Shows whether modeled constraints can be satisfied together.  Consistency does not prove real-world feasibility or model a
+                                                                                                                                                    dequacy.                                                    
+
+Rank condition          Compares coefficient rank and augmented rank.                 Reveals whether equations are independent redundant or contr  Rank should be interpreted alongside equation meaning and da
+                                                                                      adictory.                                                     ta quality.                                                 
+
+Right-hand-side vector  Stores constants observations or targets.                     Represents demand budget total observed value or required ba  Targets may be uncertain contested infeasible or measured wi
+                                                                                      lance.                                                        th error.                                                   
+
+Solution behavior       Classifies the system as having no solution one solution or   Helps identify conflict determinacy or remaining degrees of   A unique solution is conditional on the modeled assumptions 
+                        infinitely many solutions.                                    freedom.                                                      and should not be equated with certainty.                   
+
+Unknown vector          Stores variables to be solved for.                            Represents allocations flows parameters outputs or system st  Algebraic values may require practical constraints such as n
+                                                                                      ates.                                                         onnegativity or capacity limits.                            
+section                  
+-------------------------
+LINEAR SYSTEM AUDIT CASES
+system_name                               equation_count  unknown_count  coefficient_rank  augmented_rank  consistent  solution_behavior  warning                                                     
+----------------------------------------  --------------  -------------  ----------------  --------------  ----------  -----------------  ------------------------------------------------------------
+three_constraint_resource_balance_system  3               3              3                 3               1           unique solution    Algebraic consistency does not guarantee practical feasibili
+                                                                                                                                          ty.                                                         

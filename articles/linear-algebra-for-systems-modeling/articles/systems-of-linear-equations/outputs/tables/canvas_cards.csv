@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+coefficient-matrix,Coefficient Matrix,representation,96,active,2026-06-28,Document what each coefficient row and column means.
+rhs-targets,Right-Hand Side,targets,95,active,2026-06-28,"Record whether targets are demands, budgets, observations, or balances."
+rank-condition,Rank Condition,diagnostic,94,review,2026-06-28,Compare coefficient rank and augmented rank before interpreting solutions.
+solution-behavior,Solution Behavior,interpretation,93,active,2026-06-28,"Classify unique, no, or infinitely many solutions."
+feasibility-warning,Feasibility Warning,governance,92,review,2026-06-28,Review practical constraints beyond algebraic consistency.

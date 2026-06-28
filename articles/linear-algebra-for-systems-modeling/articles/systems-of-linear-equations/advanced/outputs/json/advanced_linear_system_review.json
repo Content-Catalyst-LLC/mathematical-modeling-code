@@ -1,0 +1,27 @@
+[
+  {
+    "governance_note": "Document the real-world meaning of every equation row.",
+    "review_item": "equation_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document each unknown and its feasible range.",
+    "review_item": "variable_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record whether right-hand-side values are targets, observations, or balances.",
+    "review_item": "rhs_targets",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare coefficient rank and augmented rank.",
+    "review_item": "rank_consistency",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review nonnegativity, capacity, legal, ethical, and operational constraints.",
+    "review_item": "feasibility_review",
+    "status": "required"
+  }
+]

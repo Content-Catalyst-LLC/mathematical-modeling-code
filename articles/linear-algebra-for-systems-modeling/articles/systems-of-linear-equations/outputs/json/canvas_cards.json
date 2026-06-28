@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "coefficient-matrix",
+    "category": "representation",
+    "governance_note": "Document what each coefficient row and column means.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Coefficient Matrix"
+  },
+  {
+    "card_id": "rhs-targets",
+    "category": "targets",
+    "governance_note": "Record whether targets are demands, budgets, observations, or balances.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Right-Hand Side"
+  },
+  {
+    "card_id": "rank-condition",
+    "category": "diagnostic",
+    "governance_note": "Compare coefficient rank and augmented rank before interpreting solutions.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Rank Condition"
+  },
+  {
+    "card_id": "solution-behavior",
+    "category": "interpretation",
+    "governance_note": "Classify unique, no, or infinitely many solutions.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "active",
+    "title": "Solution Behavior"
+  },
+  {
+    "card_id": "feasibility-warning",
+    "category": "governance",
+    "governance_note": "Review practical constraints beyond algebraic consistency.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Feasibility Warning"
+  }
+]

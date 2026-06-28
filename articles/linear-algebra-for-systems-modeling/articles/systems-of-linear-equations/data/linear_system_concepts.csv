@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+linear_system,System of linear equations,Multiple linear equations in shared unknowns,Represents simultaneous constraints and balance conditions,A solution is conditional on the modeled equations
+coefficient_matrix,Coefficient matrix,Stores coefficients of variables,Organizes how variables contribute to constraints,Coefficients require units and source documentation
+unknown_vector,Unknown vector,Stores quantities to solve for,Represents allocations flows parameters outputs or states,Algebraic values may need feasibility constraints
+right_hand_side,Right-hand side,Stores target or constant values,Represents demand budget total observation or balance,Targets can be uncertain contested or infeasible
+augmented_matrix,Augmented matrix,Combines coefficients and right-hand side,Supports consistency and row-reduction review,The same A can be consistent for one b and inconsistent for another
+rank_condition,Rank condition,Compares coefficient rank and augmented rank,Reveals consistency redundancy and contradiction,Rank must be interpreted with equation meaning
+null_space,Null space,Solutions of A x equals zero,Represents remaining freedom or invisible directions,Free directions may indicate flexibility or missing constraints
+feasibility,Feasibility,Practical acceptability of solutions,Connects algebraic solutions to real constraints,Consistency does not guarantee feasibility

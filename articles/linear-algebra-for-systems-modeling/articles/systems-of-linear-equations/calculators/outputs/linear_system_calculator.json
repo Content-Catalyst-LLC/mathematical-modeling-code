@@ -1,0 +1,10 @@
+{
+  "augmented_rank": 3,
+  "calculator": "linear_system_consistency_calculator",
+  "coefficient_rank": 3,
+  "consistent": true,
+  "equation_count": 3,
+  "solution_behavior": "unique solution",
+  "unknown_count": 3,
+  "warning": "Consistency does not guarantee practical feasibility."
+}

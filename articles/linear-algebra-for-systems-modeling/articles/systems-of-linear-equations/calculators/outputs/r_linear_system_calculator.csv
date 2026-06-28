@@ -1,0 +1,2 @@
+"calculator","equation_count","unknown_count","coefficient_rank","augmented_rank","consistent","solution_behavior","warning"
+"linear_system_consistency_calculator",3,3,3,3,TRUE,"unique solution","Consistency does not guarantee practical feasibility."

@@ -1,0 +1,2 @@
+system_name,equation_count,unknown_count,coefficient_rank,augmented_rank,consistent,solution_behavior,row_meaning,column_meaning,right_hand_side_meaning,interpretation_warning
+three_constraint_resource_balance_system,3,3,3,3,True,unique solution,resource balance constraints,unknown allocation levels,required total resource targets,"The linear system may be algebraically consistent, but practical feasibility also requires nonnegative allocations, capacity limits, and policy constraints."

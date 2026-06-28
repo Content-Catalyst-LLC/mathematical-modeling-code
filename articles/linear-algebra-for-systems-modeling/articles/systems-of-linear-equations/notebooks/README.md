@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Systems of Linear Equations** will live here.
+# Notebooks\n\nNotebook-ready workspace for systems of linear equations, coefficient matrices, augmented matrices, rank checks, consistency, feasibility, and solution behavior.\n

@@ -1,8 +1,7 @@
 actual_title: "Systems of Linear Equations"
-suggested_seo_title: "Systems of Linear Equations: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Systems of Linear Equations: How Linear Algebra Models Constraints and Feasible States"
+focus_keyword: "systems of linear equations"
 slug: "systems-of-linear-equations"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/systems-of-linear-equations"
 tags:
   - Linear Algebra
+  - Systems of Linear Equations
+  - Linear Systems
+  - Matrix Equations
+  - Rank
   - Systems Modeling
   - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Systems of Linear Equations is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Systems of linear equations explain how linear algebra represents constraints, balance conditions, unknowns, targets, and feasible states in multivariable systems. This article introduces linear systems as simultaneous equations that can be written in matrix form as A x equals b, where the coefficient matrix organizes relationships, the unknown vector represents quantities to solve for, and the right-hand side stores targets, observations, or required balances. It connects consistency, feasibility, unique solutions, no solutions, infinitely many solutions, homogeneous systems, nonhomogeneous systems, rank, nullity, augmented matrices, row operations, underdetermined systems, and overdetermined systems to systems modeling. The article emphasizes responsible interpretation by distinguishing algebraic consistency from practical feasibility, unique solutions from certainty, rank from adequacy, and exact solutions from conditional results under assumptions, units, data quality, and modeling purpose."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

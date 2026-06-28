@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LinearSystemAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "equation_count",
+    "unknown_count",
+    "coefficient_rank",
+    "augmented_rank",
+    "consistent",
+    "solution_behavior",
+    "row_meaning",
+    "column_meaning",
+    "right_hand_side_meaning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "equation_count": {
+      "type": "integer"
+    },
+    "unknown_count": {
+      "type": "integer"
+    },
+    "coefficient_rank": {
+      "type": "integer"
+    },
+    "augmented_rank": {
+      "type": "integer"
+    },
+    "consistent": {
+      "type": "boolean"
+    },
+    "solution_behavior": {
+      "type": "string"
+    },
+    "row_meaning": {
+      "type": "string"
+    },
+    "column_meaning": {
+      "type": "string"
+    },
+    "right_hand_side_meaning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

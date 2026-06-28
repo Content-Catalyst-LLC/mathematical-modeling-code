@@ -1,10 +1,10 @@
 {
+  "article_slug": "systems-of-linear-equations",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "systems-of-linear-equations",
-  "title": "Systems of Linear Equations",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "linear-systems-constraints",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "coefficient-matrix",
+      "title": "Coefficient Matrix",
+      "description": "How variables contribute to equations and constraints."
+    },
+    {
+      "card_id": "rhs-targets",
+      "title": "Right-Hand Side",
+      "description": "Targets, observations, constants, or required balances."
+    },
+    {
+      "card_id": "rank-condition",
+      "title": "Rank Condition",
+      "description": "Comparison of coefficient rank and augmented rank."
+    },
+    {
+      "card_id": "solution-behavior",
+      "title": "Solution Behavior",
+      "description": "Unique, no, or infinitely many solutions."
+    },
+    {
+      "card_id": "feasibility-warning",
+      "title": "Feasibility Warning",
+      "description": "Algebraic consistency is not the same as real-world feasibility."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }
