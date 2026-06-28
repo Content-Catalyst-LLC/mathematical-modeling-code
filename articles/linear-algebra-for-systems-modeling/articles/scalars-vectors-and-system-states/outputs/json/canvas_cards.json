@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "vector-state",
+    "category": "representation",
+    "governance_note": "Each vector component needs units, ordering, and interpretation.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Vector State"
+  },
+  {
+    "card_id": "matrix-relationship",
+    "category": "model structure",
+    "governance_note": "Matrix entries must define whether they represent coefficients, flows, probabilities, weights, links, or transformations.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Matrix Relationship"
+  },
+  {
+    "card_id": "solvability-diagnostic",
+    "category": "rank and dependency",
+    "governance_note": "Rank, dependency, and conditioning should be recorded before strong solvability claims.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Solvability Diagnostic"
+  },
+  {
+    "card_id": "eigenstructure-stability",
+    "category": "dynamic interpretation",
+    "governance_note": "Eigenvalue interpretation depends on model form, time step, scaling, and linearity assumptions.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Eigenstructure and Stability"
+  },
+  {
+    "card_id": "decomposition-review",
+    "category": "dimensionality",
+    "governance_note": "Decompositions should document what is preserved, compressed, or discarded.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "active",
+    "title": "Decomposition Review"
+  }
+]

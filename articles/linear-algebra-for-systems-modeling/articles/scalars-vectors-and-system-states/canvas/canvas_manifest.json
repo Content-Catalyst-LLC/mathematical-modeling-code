@@ -1,24 +1,22 @@
 {
+  "article_slug": "scalars-vectors-and-system-states",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "scalars-vectors-and-system-states",
-  "title": "Scalars, Vectors, and System States",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
-    "python",
-    "r",
-    "julia",
-    "sql",
-    "haskell",
-    "c",
-    "cpp",
-    "fortran",
-    "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+  "canvas_layer": "state-vector-representation",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": ["python", "r", "julia", "sql", "haskell", "c", "cpp", "fortran", "rust", "go"],
+  "cards": [
+    {"card_id": "scalar-quantity", "title": "Scalar Quantity", "description": "A scalar represents one measured or modeled quantity."},
+    {"card_id": "state-vector", "title": "State Vector", "description": "A vector organizes multiple components into a system state."},
+    {"card_id": "component-dictionary", "title": "Component Dictionary", "description": "Every vector component needs name, order, unit, source, scale, and meaning."},
+    {"card_id": "scaling-review", "title": "Scaling Review", "description": "Raw values, indexed values, probabilities, and counts should not be mixed without review."},
+    {"card_id": "distance-warning", "title": "Distance Warning", "description": "Norms and distances depend on component selection, units, scaling, and weighting."}
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

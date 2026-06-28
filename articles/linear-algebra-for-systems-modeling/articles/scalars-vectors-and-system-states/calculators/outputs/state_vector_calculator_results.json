@@ -1,0 +1,6 @@
+{
+  "dimension": 5,
+  "raw_euclidean_norm": 125000.03923899264,
+  "raw_l1_norm": 125141.87,
+  "warning": "Calculator outputs require unit, scale, component, and interpretation review."
+}

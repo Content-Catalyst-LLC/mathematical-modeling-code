@@ -1,8 +1,7 @@
 actual_title: "Scalars, Vectors, and System States"
-suggested_seo_title: "Scalars, Vectors, and System States: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Scalars, Vectors, and System States in Linear Algebra for Systems Modeling"
+focus_keyword: "scalars vectors system states"
 slug: "scalars-vectors-and-system-states"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/scalars-vectors-and-system-states"
 tags:
   - Linear Algebra
+  - Vectors
+  - Scalars
+  - System States
   - Systems Modeling
   - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Scalars, Vectors, and System States is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - State Space
+excerpt_139_words: "Scalars, vectors, and system states explain how linear algebra begins with representation. A scalar describes one quantity, while a vector organizes many related quantities into a structured system state. This article introduces vectors as modeling objects for infrastructure conditions, ecological populations, economic outputs, probability distributions, feature sets, policy indicators, and parameter records. It explains why component order, units, scaling, normalization, documentation, and interpretation matter before any matrix operation, distance calculation, transition model, or simulation can be trusted. The article connects vector notation to state change, norms, similarity, input vectors, feature vectors, probability vectors, and reproducible computational workflows. It emphasizes that vectors are not neutral lists of numbers: they encode choices about what belongs in the system, how quantities are measured, and which comparisons are meaningful. Responsible modeling begins with documented state representation."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

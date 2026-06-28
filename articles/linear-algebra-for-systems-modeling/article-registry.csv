@@ -1,6 +1,6 @@
 part,order,slug,title,status,folder,advanced_standard,calculators
 I Foundations of Linear Algebra,1,what-is-linear-algebra-for-systems-modeling,What Is Linear Algebra for Systems Modeling?,active,articles/what-is-linear-algebra-for-systems-modeling,upgraded,included
-I Foundations of Linear Algebra,2,scalars-vectors-and-system-states,"Scalars, Vectors, and System States",planned,articles/scalars-vectors-and-system-states,required,required
+I Foundations of Linear Algebra,2,scalars-vectors-and-system-states,"Scalars, Vectors, and System States",active,articles/scalars-vectors-and-system-states,upgraded,included
 I Foundations of Linear Algebra,3,vector-spaces-and-system-representation,Vector Spaces and System Representation,planned,articles/vector-spaces-and-system-representation,required,required
 I Foundations of Linear Algebra,4,span-linear-independence-and-basis,"Span, Linear Independence, and Basis",planned,articles/span-linear-independence-and-basis,required,required
 I Foundations of Linear Algebra,5,dimension-and-the-structure-of-solution-spaces,Dimension and the Structure of Solution Spaces,planned,articles/dimension-and-the-structure-of-solution-spaces,required,required

@@ -1,3 +1,3 @@
 # Notebooks
 
-Notebook-ready walkthroughs for **Scalars, Vectors, and System States** will live here.
+Notebook placeholders for scalar examples, vector-state audits, component dictionaries, scaling checks, vector operations, norms, state-change examples, and responsible systems-modeling workflows.

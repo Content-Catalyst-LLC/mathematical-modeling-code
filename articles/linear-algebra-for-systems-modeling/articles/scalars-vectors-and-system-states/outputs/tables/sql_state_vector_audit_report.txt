@@ -1,0 +1,32 @@
+section                         
+--------------------------------
+STATE VECTOR ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Component definition     Defines each entry in the vector.                             Controls what the model treats as part of the system state.   Every component should have a name, unit, source, and interp
+                                                                                                                                                     retation.                                                   
+
+Component order          Specifies the position of each vector entry.                  Maintains alignment with matrices, code arrays, and document  Changing order without updating matrices or code invalidates
+                                                                                       ation.                                                         results.                                                   
+
+Normalization rule       Defines whether raw values are transformed before computatio  Shapes similarity, clustering, ranking, decomposition, and o  Normalization improves comparability but changes interpretat
+                         n.                                                            ptimization.                                                  ion.                                                        
+
+State boundary           Defines what is included or excluded from the represented st  Controls the scope of system interpretation.                  Important omitted components can make a vector appear more c
+                         ate.                                                                                                                        omplete than it is.                                         
+
+Time and scenario label  Identifies when or under what scenario the vector applies.    Supports state comparison and transition modeling.            Mixing time steps or scenarios can create invalid comparison
+                                                                                                                                                     s.                                                          
+
+Units and scale          Defines how vector components are measured.                   Controls valid comparison, distance, magnitude, and transfor  Mixed units can make vector norms and distances misleading. 
+                                                                                       mation.                                                                                                                   
+section                
+-----------------------
+STATE VECTOR COMPONENTS
+position  component_name     value     unit                      scale_type  warning                                                 
+--------  -----------------  --------  ------------------------  ----------  --------------------------------------------------------
+1         road_condition     72.0      index_0_to_100            raw_index   Index values should not be treated as physical units.   
+2         bridge_condition   68.0      index_0_to_100            raw_index   Comparable only if index construction is aligned.       
+3         water_reliability  0.91      probability               proportion  Probability scale differs from condition index scale.   
+4         power_reliability  0.96      probability               proportion  Do not directly add probability values to index scores. 
+5         transit_capacity   125000.0  daily_passenger_capacity  raw_count   Raw count can dominate vector magnitude without scaling.

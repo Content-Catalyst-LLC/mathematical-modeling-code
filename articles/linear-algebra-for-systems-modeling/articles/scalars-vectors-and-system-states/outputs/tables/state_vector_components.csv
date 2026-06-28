@@ -1,0 +1,6 @@
+position,component_name,value,unit,scale_type,interpretation,warning
+1,road_condition,72.0,index_0_to_100,raw_index,Road network condition score.,Index values should not be treated as physical units.
+2,bridge_condition,68.0,index_0_to_100,raw_index,Bridge system condition score.,Comparable only if index construction is aligned.
+3,water_reliability,0.91,probability,proportion,Estimated reliability of water service.,Probability scale differs from condition index scale.
+4,power_reliability,0.96,probability,proportion,Estimated reliability of power service.,Do not directly add probability values to index scores.
+5,transit_capacity,125000.0,daily_passenger_capacity,raw_count,Estimated daily passenger capacity.,Raw count can dominate vector magnitude without scaling.

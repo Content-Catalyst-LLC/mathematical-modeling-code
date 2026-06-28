@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StateVectorComponent",
+  "type": "object",
+  "required": [
+    "position", "component_name", "value", "unit", "scale_type", "interpretation", "warning"
+  ],
+  "properties": {
+    "position": {"type": "integer", "minimum": 1},
+    "component_name": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "scale_type": {"type": "string"},
+    "interpretation": {"type": "string"},
+    "warning": {"type": "string"}
+  }
+}

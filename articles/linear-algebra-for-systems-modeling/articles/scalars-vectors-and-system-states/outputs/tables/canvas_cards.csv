@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+vector-state,Vector State,representation,96,active,2026-06-28,"Each vector component needs units, ordering, and interpretation."
+matrix-relationship,Matrix Relationship,model structure,95,active,2026-06-28,"Matrix entries must define whether they represent coefficients, flows, probabilities, weights, links, or transformations."
+solvability-diagnostic,Solvability Diagnostic,rank and dependency,94,review,2026-06-28,"Rank, dependency, and conditioning should be recorded before strong solvability claims."
+eigenstructure-stability,Eigenstructure and Stability,dynamic interpretation,93,review,2026-06-28,"Eigenvalue interpretation depends on model form, time step, scaling, and linearity assumptions."
+decomposition-review,Decomposition Review,dimensionality,92,active,2026-06-28,"Decompositions should document what is preserved, compressed, or discarded."

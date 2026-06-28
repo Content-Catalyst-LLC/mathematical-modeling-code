@@ -1,0 +1,14 @@
+{
+  "audit_warning": "Raw norm is dominated by high-magnitude components. Use scaling before comparing distances or magnitudes.",
+  "dimension": 5,
+  "raw_euclidean_norm": 125000.03923899264,
+  "raw_l1_norm": 125141.87,
+  "raw_values": [
+    72.0,
+    68.0,
+    0.91,
+    0.96,
+    125000.0
+  ],
+  "state_name": "infrastructure_condition_state"
+}
