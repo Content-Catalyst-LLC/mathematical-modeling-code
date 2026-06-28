@@ -1,10 +1,10 @@
 {
+  "article_slug": "gaussian-elimination-and-row-reduction",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "gaussian-elimination-and-row-reduction",
-  "title": "Gaussian Elimination and Row Reduction",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "gaussian-elimination-row-reduction",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,38 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "row-equivalence",
+      "title": "Row Equivalence",
+      "description": "Elementary row operations preserve the solution set."
+    },
+    {
+      "card_id": "pivot-structure",
+      "title": "Pivot Structure",
+      "description": "Pivots reveal independent constraints and controlled variables."
+    },
+    {
+      "card_id": "free-variables",
+      "title": "Free Variables",
+      "description": "Non-pivot columns reveal remaining degrees of freedom."
+    },
+    {
+      "card_id": "rank-consistency",
+      "title": "Rank and Consistency",
+      "description": "Coefficient rank and augmented rank classify solution behavior."
+    },
+    {
+      "card_id": "numerical-tolerance",
+      "title": "Numerical Tolerance",
+      "description": "Floating-point row reduction depends on pivot tolerance and conditioning."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "generated_audit_reports": true
+  }
 }

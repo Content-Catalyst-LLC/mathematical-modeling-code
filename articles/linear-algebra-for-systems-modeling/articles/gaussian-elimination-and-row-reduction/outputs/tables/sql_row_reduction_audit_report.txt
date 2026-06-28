@@ -1,0 +1,29 @@
+section                          
+---------------------------------
+ROW REDUCTION ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Consistency check      Compares coefficient rank and augmented rank.                 Tests whether targets or right-hand-side values conflict wit  Consistency does not guarantee practical feasibility or mode
+                                                                                     h modeled relationships.                                      l adequacy.                                                 
+
+Free variables         Variables without pivots remain unconstrained by independent  Represent degrees of freedom flexibility missing constraints  Free variables should be reviewed before choosing a solution
+                        equations.                                                    or decision variables.                                       .                                                           
+
+Pivot selection        Chooses leading entries for elimination.                      Identifies independent constraint directions and controlled   Small or unstable pivots may create numerical reliability is
+                                                                                     variables.                                                    sues.                                                       
+
+Rank detection         Counts pivot rows or independent constraint directions.       Reveals the effective number of independent modeled constrai  Rank depends on tolerance in numerical computation and shoul
+                                                                                     nts.                                                          d be interpreted carefully.                                 
+
+Row equivalence        Elementary row operations preserve the solution set.          Allows constraints to be transformed without changing feasib  Equivalent algebraic systems may become harder to interpret 
+                                                                                     le algebraic solutions.                                       if original equation meanings are lost.                     
+
+Solution verification  Substitutes computed values into the original system.         Checks solver output against original equations units and co  Always verify against the original system not only the row-r
+                                                                                     nstraints.                                                    educed form.                                                
+section                  
+-------------------------
+ROW REDUCTION AUDIT CASES
+system_name                               equation_count  unknown_count  pivot_columns  coefficient_rank  augmented_rank  consistent  solution_behavior  tolerance  warning                                                     
+----------------------------------------  --------------  -------------  -------------  ----------------  --------------  ----------  -----------------  ---------  ------------------------------------------------------------
+three_constraint_resource_balance_system  3               3              0,1,2          3                 3               1           unique solution    1.0e-10    Row reduction reveals algebraic structure but feasibility re
+                                                                                                                                                                    quires review.                                              

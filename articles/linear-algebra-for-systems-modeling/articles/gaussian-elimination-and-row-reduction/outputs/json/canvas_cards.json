@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "row-equivalence",
+    "category": "formal",
+    "governance_note": "Document that row operations preserve algebraic solution sets.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Row Equivalence"
+  },
+  {
+    "card_id": "pivot-structure",
+    "category": "diagnostic",
+    "governance_note": "Record pivot columns and their meaning in the model.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Pivot Structure"
+  },
+  {
+    "card_id": "free-variables",
+    "category": "interpretation",
+    "governance_note": "Review whether free variables indicate flexibility or missing constraints.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Free Variables"
+  },
+  {
+    "card_id": "rank-consistency",
+    "category": "diagnostic",
+    "governance_note": "Compare coefficient rank and augmented rank before classifying solutions.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "active",
+    "title": "Rank and Consistency"
+  },
+  {
+    "card_id": "numerical-tolerance",
+    "category": "governance",
+    "governance_note": "Record tolerance and conditioning warnings for numerical row reduction.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Numerical Tolerance"
+  }
+]

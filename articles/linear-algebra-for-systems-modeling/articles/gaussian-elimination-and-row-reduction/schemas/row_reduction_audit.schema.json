@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RowReductionAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "equation_count",
+    "unknown_count",
+    "pivot_columns",
+    "coefficient_rank",
+    "augmented_rank",
+    "consistent",
+    "solution_behavior",
+    "tolerance",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "equation_count": {
+      "type": "integer"
+    },
+    "unknown_count": {
+      "type": "integer"
+    },
+    "pivot_columns": {
+      "type": "string"
+    },
+    "coefficient_rank": {
+      "type": "integer"
+    },
+    "augmented_rank": {
+      "type": "integer"
+    },
+    "consistent": {
+      "type": "boolean"
+    },
+    "solution_behavior": {
+      "type": "string"
+    },
+    "tolerance": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

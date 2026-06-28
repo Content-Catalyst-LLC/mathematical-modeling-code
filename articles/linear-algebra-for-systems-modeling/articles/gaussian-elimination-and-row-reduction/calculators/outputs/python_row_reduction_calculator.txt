@@ -1,0 +1,12 @@
+{
+  "augmented_rank": 3,
+  "calculator": "row_reduction_rank_consistency_calculator",
+  "coefficient_rank": 3,
+  "consistent": true,
+  "equation_count": 3,
+  "pivot_columns": "0,1,2",
+  "solution_behavior": "unique solution",
+  "tolerance": 1e-10,
+  "unknown_count": 3,
+  "warning": "Rank and solution behavior depend on tolerance and modeling assumptions."
+}

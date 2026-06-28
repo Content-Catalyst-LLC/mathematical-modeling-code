@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+row_equivalence,Row equivalence,Preserves solution set under elementary row operations,Allows constraints to be transformed for solution,Original equation meaning can be obscured
+row_operation,Elementary row operation,Swaps scales or combines rows,Builds equivalent constraint systems,Operation sequence should be auditable
+echelon_form,Echelon form,Simplifies system into pivot staircase,Supports back substitution and rank detection,Useful form but not always fully reduced
+rref,Reduced row echelon form,Canonical row-reduced form,Reveals pivot variables free variables and solution structure,RREF can be numerically sensitive in floating-point workflows
+pivot,Pivot,Leading nonzero entry used for elimination,Marks independent constraint structure,Small pivots can signal numerical fragility
+free_variable,Free variable,Variable without pivot,Represents degree of freedom or under-specification,May require additional constraints or decision criteria
+rank_condition,Rank condition,Compares coefficient rank and augmented rank,Classifies consistency and solution behavior,Rank can depend on numerical tolerance
+contradictory_row,Contradictory row,Zero coefficients with nonzero right side,Signals inconsistent constraints or impossible target,May also reveal data or model errors

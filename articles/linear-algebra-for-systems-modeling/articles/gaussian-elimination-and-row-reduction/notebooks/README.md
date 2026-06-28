@@ -1,3 +1,3 @@
 # Notebooks
 
-Notebook-ready walkthroughs for **Gaussian Elimination and Row Reduction** will live here.
+Notebook-ready workspace for Gaussian elimination, row reduction, augmented matrices, echelon form, RREF, pivots, rank, consistency, and solution behavior.

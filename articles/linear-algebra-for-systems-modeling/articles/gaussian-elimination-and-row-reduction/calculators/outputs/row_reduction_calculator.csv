@@ -1,0 +1,2 @@
+calculator,equation_count,unknown_count,pivot_columns,coefficient_rank,augmented_rank,consistent,solution_behavior,tolerance,warning
+row_reduction_rank_consistency_calculator,3,3,"0,1,2",3,3,True,unique solution,1e-10,Rank and solution behavior depend on tolerance and modeling assumptions.

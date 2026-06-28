@@ -1,0 +1,8 @@
+                                 calculator equation_count unknown_count
+1 row_reduction_rank_consistency_calculator              3             3
+  pivot_columns coefficient_rank augmented_rank consistent solution_behavior
+1         0,1,2                3              3       TRUE   unique solution
+  tolerance
+1     1e-10
+                                                                   warning
+1 Rank and solution behavior depend on tolerance and modeling assumptions.

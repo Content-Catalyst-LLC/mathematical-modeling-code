@@ -1,0 +1,2 @@
+system_name,equation_count,unknown_count,pivot_columns,coefficient_rank,augmented_rank,consistent,solution_behavior,tolerance,interpretation_warning
+three_constraint_resource_balance_system,3,3,"0,1,2",3,3,True,unique solution,1e-10,"Row reduction reveals algebraic structure, but the computed solution still requires feasibility checks, unit review, and validation against original constraints."

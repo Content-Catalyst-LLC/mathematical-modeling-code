@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Store the original augmented matrix before row operations.",
+    "review_item": "original_matrix_documentation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record pivot columns, pivot choices, and tolerance.",
+    "review_item": "pivot_record",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare coefficient rank and augmented rank.",
+    "review_item": "rank_consistency",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret free variables as flexibility, missing constraints, or decision variables.",
+    "review_item": "free_variable_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Verify computed solutions against the original equations.",
+    "review_item": "solution_verification",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review small pivots, scaling, conditioning, and false precision.",
+    "review_item": "numerical_stability",
+    "status": "required"
+  }
+]

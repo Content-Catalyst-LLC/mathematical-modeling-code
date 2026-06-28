@@ -1,0 +1,7 @@
+review_item,status,governance_note
+original_matrix_documentation,required,Store the original augmented matrix before row operations.
+pivot_record,required,"Record pivot columns, pivot choices, and tolerance."
+rank_consistency,required,Compare coefficient rank and augmented rank.
+free_variable_review,required,"Interpret free variables as flexibility, missing constraints, or decision variables."
+solution_verification,required,Verify computed solutions against the original equations.
+numerical_stability,required,"Review small pivots, scaling, conditioning, and false precision."

@@ -1,0 +1,12 @@
+{
+  "augmented_rank": 3,
+  "coefficient_rank": 3,
+  "consistent": true,
+  "equation_count": 3,
+  "interpretation_warning": "Row reduction reveals algebraic structure, but the computed solution still requires feasibility checks, unit review, and validation against original constraints.",
+  "pivot_columns": "0,1,2",
+  "solution_behavior": "unique solution",
+  "system_name": "three_constraint_resource_balance_system",
+  "tolerance": 1e-10,
+  "unknown_count": 3
+}
