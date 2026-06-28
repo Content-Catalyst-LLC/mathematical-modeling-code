@@ -1,0 +1,13 @@
+{
+  "amplification_ratio": 1.268531,
+  "calculator": "linear_transformation_calculator",
+  "column_count": 3,
+  "input_norm": 120.415946,
+  "input_state": "100.000000,60.000000,30.000000",
+  "nullity": 0,
+  "output_norm": 152.750205,
+  "output_state": "126.000000,75.500000,42.000000",
+  "rank": 3,
+  "row_count": 3,
+  "warning": "Matrix action shows modeled behavior; row meanings, column meanings, units, scaling, and sensitivity still require review."
+}

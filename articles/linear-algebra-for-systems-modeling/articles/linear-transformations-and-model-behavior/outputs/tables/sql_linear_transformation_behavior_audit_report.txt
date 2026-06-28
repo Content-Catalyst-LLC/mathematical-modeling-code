@@ -1,0 +1,28 @@
+section                                  
+-----------------------------------------
+LINEAR TRANSFORMATION ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Amplification          The transformation may increase the norm of state difference  Small input uncertainty can become larger output uncertainty  Sensitivity and conditioning should be reviewed before decis
+                       s.                                                            .                                                             ion use.                                                    
+
+Basis behavior         The columns of a matrix show transformed basis vectors.       Shows how each input direction contributes to system respons  Basis-dependent interpretation should be documented.        
+                                                                                     e.                                                                                                                        
+
+Image                  The set of all reachable outputs of the transformation.       Shows what behaviors the model can produce.                   The codomain may include outputs the model cannot actually r
+                                                                                                                                                   each.                                                       
+
+Kernel                 The set of inputs mapped to zero.                             Shows invisible input directions or collapsed variation.      A nontrivial kernel prevents unique recovery.               
+
+Linear transformation  A map preserving addition and scalar multiplication.          Represents a structured input-output behavior rule.           Linearity should be justified for the modeled range and purp
+                                                                                                                                                   ose.                                                        
+
+Matrix action          The product A times x transforms an input vector into an out  Shows modeled system response to a specific state.            Output interpretation depends on row meanings column meaning
+                       put vector.                                                                                                                 s and units.                                                
+section                                   
+------------------------------------------
+LINEAR TRANSFORMATION BEHAVIOR AUDIT CASES
+system_name                      row_count  column_count  rank  nullity  amplification_ratio  warning                                                     
+-------------------------------  ---------  ------------  ----  -------  -------------------  ------------------------------------------------------------
+three_component_system_response  3          3             3     0        1.268531             Matrix action requires row meanings column meanings units sc
+                                                                                              aling and sensitivity review.                               

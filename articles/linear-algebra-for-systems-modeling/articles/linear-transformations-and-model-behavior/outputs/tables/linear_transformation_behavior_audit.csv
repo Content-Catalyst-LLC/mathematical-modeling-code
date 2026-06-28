@@ -1,0 +1,2 @@
+system_name,row_count,column_count,input_state,output_state,rank,nullity,input_norm,output_norm,amplification_ratio,behavior_warning,interpretation_warning
+three_component_system_response,3,3,"100.000000,60.000000,30.000000","126.000000,75.500000,42.000000",3,0,120.415945787923,152.775161593762,1.268728660429,transformation amplifies this input state,"Matrix action shows modeled behavior, but interpretation requires row meanings, column meanings, units, scaling, linearity assumptions, and sensitivity review."

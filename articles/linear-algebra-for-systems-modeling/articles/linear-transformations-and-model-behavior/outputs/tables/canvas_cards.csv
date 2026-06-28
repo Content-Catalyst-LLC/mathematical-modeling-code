@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+linear-transformation,Linear Transformation,structure,96,active,2026-06-28,Document whether additivity and scaling are appropriate for the model.
+matrix-action,Matrix Action,behavior,95,active,2026-06-28,Treat matrix-vector multiplication as modeled state response.
+image-kernel,Image and Kernel,diagnostic,94,review,2026-06-28,Report reachable outputs and invisible input directions.
+basis-behavior,Basis Behavior,geometry,93,review,2026-06-28,Columns should be read as transformed basis directions.
+amplification,Amplification,sensitivity,92,review,2026-06-28,Review whether uncertainty or state differences are amplified.

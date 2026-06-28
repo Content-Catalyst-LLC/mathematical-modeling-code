@@ -1,10 +1,10 @@
 {
+  "article_slug": "linear-transformations-and-model-behavior",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "linear-transformations-and-model-behavior",
-  "title": "Linear Transformations and Model Behavior",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "linear-transformations-model-behavior",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "linear-transformation",
+      "title": "Linear Transformation",
+      "description": "A structure-preserving input-output map."
+    },
+    {
+      "card_id": "matrix-action",
+      "title": "Matrix Action",
+      "description": "Matrix-vector multiplication as system behavior."
+    },
+    {
+      "card_id": "image-kernel",
+      "title": "Image and Kernel",
+      "description": "Reachable outputs and invisible input directions."
+    },
+    {
+      "card_id": "basis-behavior",
+      "title": "Basis Behavior",
+      "description": "Columns as transformed basis directions."
+    },
+    {
+      "card_id": "amplification",
+      "title": "Amplification",
+      "description": "Transformation behavior under differences and uncertainty."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

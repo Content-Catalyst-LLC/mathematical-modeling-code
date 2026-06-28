@@ -1,0 +1,2 @@
+"calculator","row_count","column_count","input_state","output_state","rank","nullity","input_norm","output_norm","amplification_ratio","warning"
+"linear_transformation_calculator",3,3,"100.000000,60.000000,30.000000","126.000000,75.500000,42.000000",3,0,120.415946,152.750205,1.268531,"Matrix action shows modeled behavior; row meanings, column meanings, units, scaling, and sensitivity still require review."

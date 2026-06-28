@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "linear-transformation",
+    "category": "structure",
+    "governance_note": "Document whether additivity and scaling are appropriate for the model.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Linear Transformation"
+  },
+  {
+    "card_id": "matrix-action",
+    "category": "behavior",
+    "governance_note": "Treat matrix-vector multiplication as modeled state response.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Matrix Action"
+  },
+  {
+    "card_id": "image-kernel",
+    "category": "diagnostic",
+    "governance_note": "Report reachable outputs and invisible input directions.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Image and Kernel"
+  },
+  {
+    "card_id": "basis-behavior",
+    "category": "geometry",
+    "governance_note": "Columns should be read as transformed basis directions.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Basis Behavior"
+  },
+  {
+    "card_id": "amplification",
+    "category": "sensitivity",
+    "governance_note": "Review whether uncertainty or state differences are amplified.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Amplification"
+  }
+]

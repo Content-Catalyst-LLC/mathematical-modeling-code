@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LinearTransformationBehaviorAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "row_count",
+    "column_count",
+    "input_state",
+    "output_state",
+    "rank",
+    "nullity",
+    "input_norm",
+    "output_norm",
+    "amplification_ratio",
+    "behavior_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "row_count": {
+      "type": "integer"
+    },
+    "column_count": {
+      "type": "integer"
+    },
+    "input_state": {
+      "type": "string"
+    },
+    "output_state": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "nullity": {
+      "type": "integer"
+    },
+    "input_norm": {
+      "type": "number"
+    },
+    "output_norm": {
+      "type": "number"
+    },
+    "amplification_ratio": {
+      "type": "number"
+    },
+    "behavior_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

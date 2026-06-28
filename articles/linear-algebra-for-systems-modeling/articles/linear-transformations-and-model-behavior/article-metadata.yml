@@ -1,8 +1,7 @@
 actual_title: "Linear Transformations and Model Behavior"
-suggested_seo_title: "Linear Transformations and Model Behavior: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Linear Transformations and Model Behavior: How Matrices Act on System States"
+focus_keyword: "linear transformations and model behavior"
 slug: "linear-transformations-and-model-behavior"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/linear-transformations-and-model-behavior"
 tags:
   - Linear Algebra
+  - Linear Transformations
+  - Matrix Action
+  - State Space
+  - Rank
+  - Null Space
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Linear Transformations and Model Behavior is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Linear transformations and model behavior explain how matrices act on system states. This article introduces linear transformations as structure-preserving maps between vector spaces, showing how matrix action transforms inputs into outputs through scaling, rotation, shearing, projection, mixing, amplification, damping, and collapse. It connects domain, codomain, image, kernel, rank, nullity, transformed basis vectors, superposition, state transitions, sensitivity, norms, determinants, invertibility, and system response to practical modeling interpretation. The article emphasizes that a matrix is not only a coefficient table but a behavioral rule: it reveals which outputs are reachable, which input directions disappear, which differences are amplified, and which structures persist. It also distinguishes useful linear approximation from overextended linear assumptions under units, scaling, nonlinear dynamics, feedback, uncertainty, conditioning, and responsible decision use."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

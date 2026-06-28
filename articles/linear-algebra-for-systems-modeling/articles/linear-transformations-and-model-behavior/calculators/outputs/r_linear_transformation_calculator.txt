@@ -1,0 +1,8 @@
+                        calculator row_count column_count
+1 linear_transformation_calculator         3            3
+                     input_state                   output_state rank nullity
+1 100.000000,60.000000,30.000000 126.000000,75.500000,42.000000    3       0
+  input_norm output_norm amplification_ratio
+1   120.4159    152.7502            1.268531
+                                                                                                                     warning
+1 Matrix action shows modeled behavior; row meanings, column meanings, units, scaling, and sensitivity still require review.

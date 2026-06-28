@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+linear_transformation,Linear transformation,Preserves addition and scalar multiplication,Structured input-output behavior rule,Linearity should be justified for the modeled range
+matrix_action,Matrix action,Product A times x,Transforms system state into response,Output depends on row meanings column meanings and units
+domain,Domain,Input vector space,Possible states drivers or decision variables,Inputs must be substantively meaningful
+codomain,Codomain,Declared output vector space,Space where responses are expressed,Not every declared output may be reachable
+image,Image,Set of reachable outputs,Behavior the model can produce,Image may be smaller than codomain
+kernel,Kernel,Inputs mapped to zero,Invisible input directions or collapsed variation,Nontrivial kernel prevents unique recovery
+basis_behavior,Basis behavior,Columns show transformed basis vectors,Each input direction contribution to response,Basis-dependent interpretation should be documented
+amplification,Amplification,Transformation can increase norms or differences,Small uncertainty can become large output difference,Sensitivity and conditioning need review

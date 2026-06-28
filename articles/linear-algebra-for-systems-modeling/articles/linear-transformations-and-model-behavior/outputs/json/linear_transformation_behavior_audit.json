@@ -1,0 +1,14 @@
+{
+  "amplification_ratio": 1.268728660429,
+  "behavior_warning": "transformation amplifies this input state",
+  "column_count": 3,
+  "input_norm": 120.415945787923,
+  "input_state": "100.000000,60.000000,30.000000",
+  "interpretation_warning": "Matrix action shows modeled behavior, but interpretation requires row meanings, column meanings, units, scaling, linearity assumptions, and sensitivity review.",
+  "nullity": 0,
+  "output_norm": 152.775161593762,
+  "output_state": "126.000000,75.500000,42.000000",
+  "rank": 3,
+  "row_count": 3,
+  "system_name": "three_component_system_response"
+}

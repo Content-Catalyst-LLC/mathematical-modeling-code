@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Document why addition and scalar multiplication are acceptable for the modeled context.",
+    "review_item": "linearity_assumption",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record input and output dimensions and meanings.",
+    "review_item": "domain_codomain_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document reachable outputs and invisible input directions.",
+    "review_item": "image_kernel_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret columns as transformed basis directions when meaningful.",
+    "review_item": "basis_behavior_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Connect rank and nullity to transformation behavior.",
+    "review_item": "rank_nullity_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Assess amplification, damping, scaling, and conditioning before decision use.",
+    "review_item": "sensitivity_review",
+    "status": "recommended"
+  }
+]

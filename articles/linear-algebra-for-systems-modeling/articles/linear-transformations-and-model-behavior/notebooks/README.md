@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Linear Transformations and Model Behavior** will live here.
+# Notebooks\n\nNotebook-ready workspace for linear transformations, matrix action, state response, image, kernel, rank, nullity, amplification, and sensitivity review.\n
