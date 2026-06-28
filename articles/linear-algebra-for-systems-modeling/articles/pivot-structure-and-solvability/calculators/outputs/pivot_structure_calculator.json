@@ -1,0 +1,13 @@
+{
+  "augmented_rank": 3,
+  "calculator": "pivot_structure_solvability_calculator",
+  "coefficient_rank": 3,
+  "consistent": true,
+  "equation_count": 3,
+  "free_columns": "none",
+  "pivot_columns": "0,1,2",
+  "solution_behavior": "unique solution",
+  "tolerance": 1e-10,
+  "unknown_count": 3,
+  "warning": "Solvability depends on rank comparison; feasibility depends on modeling assumptions."
+}

@@ -2,7 +2,6 @@ part,order,slug,title,status,folder,advanced_standard,calculators
 I Foundations of Linear Algebra,6,coordinates-change-of-basis-and-model-meaning,"Coordinates, Change of Basis, and Model Meaning",planned,articles/coordinates-change-of-basis-and-model-meaning,required,required
 II Matrices and System Structure,7,matrix-addition-scalar-multiplication-and-system-operations,"Matrix Addition, Scalar Multiplication, and System Operations",planned,articles/matrix-addition-scalar-multiplication-and-system-operations,required,required
 II Matrices and System Structure,8,matrix-multiplication-and-interaction-effects,Matrix Multiplication and Interaction Effects,planned,articles/matrix-multiplication-and-interaction-effects,required,required
-II Systems of Equations and Solvability,10,pivot-structure-and-solvability,Pivot Structure and Solvability,planned,articles/pivot-structure-and-solvability,scaffolded,planned
 II Systems of Equations and Solvability,11,rank-nullity-and-structural-dependence,"Rank, Nullity, and Structural Dependence",planned,articles/rank-nullity-and-structural-dependence,scaffolded,planned
 II Systems of Equations and Solvability,12,determinants-and-invertibility,Determinants and Invertibility,planned,articles/determinants-and-invertibility,scaffolded,planned
 II Systems of Equations and Solvability,13,inverse-matrices-and-structural-recovery,Inverse Matrices and Structural Recovery,planned,articles/inverse-matrices-and-structural-recovery,scaffolded,planned
@@ -16,7 +15,8 @@ III Linear Systems and Solution Methods,6,matrices-and-the-organization-of-multi
 III Linear Systems and Solution Methods,7,matrix-arithmetic-and-the-logic-of-combination,Matrix Arithmetic and the Logic of Combination,active,articles/matrix-arithmetic-and-the-logic-of-combination,upgraded,included
 III Linear Systems and Solution Methods,8,systems-of-linear-equations,Systems of Linear Equations,active,articles/systems-of-linear-equations,upgraded,included
 III Linear Systems and Solution Methods,9,gaussian-elimination-and-row-reduction,Gaussian Elimination and Row Reduction,active,articles/gaussian-elimination-and-row-reduction,upgraded,included
-III Linear Systems and Solution Methods,10,matrix-inverses-and-the-logic-of-reversibility,Matrix Inverses and the Logic of Reversibility,planned,articles/matrix-inverses-and-the-logic-of-reversibility,required,required
+III Linear Systems and Solution Methods,10,pivot-structure-and-solvability,Pivot Structure and Solvability,active,articles/pivot-structure-and-solvability,upgraded,included
+III Linear Systems and Solution Methods,11,matrix-inverses-and-the-logic-of-reversibility,Matrix Inverses and the Logic of Reversibility,planned,articles/matrix-inverses-and-the-logic-of-reversibility,required,required
 III Linear Transformations and Matrix Structure,15,linear-transformations-and-model-behavior,Linear Transformations and Model Behavior,planned,articles/linear-transformations-and-model-behavior,scaffolded,planned
 III Linear Transformations and Matrix Structure,17,change-of-basis-and-alternative-representations,Change of Basis and Alternative Representations,planned,articles/change-of-basis-and-alternative-representations,scaffolded,planned
 III Linear Transformations and Matrix Structure,18,projections-reflections-and-geometric-interpretation,"Projections, Reflections, and Geometric Interpretation",planned,articles/projections-reflections-and-geometric-interpretation,scaffolded,planned

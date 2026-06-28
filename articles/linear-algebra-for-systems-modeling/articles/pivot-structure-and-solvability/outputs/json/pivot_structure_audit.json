@@ -1,0 +1,13 @@
+{
+  "augmented_rank": 3,
+  "coefficient_rank": 3,
+  "consistent": true,
+  "equation_count": 3,
+  "free_columns": "none",
+  "interpretation_warning": "Pivot structure reveals algebraic solvability, but practical feasibility depends on original equation meaning, units, constraints, and data quality.",
+  "pivot_columns": "0,1,2",
+  "solution_behavior": "unique solution",
+  "system_name": "three_constraint_resource_balance_system",
+  "tolerance": 1e-10,
+  "unknown_count": 3
+}

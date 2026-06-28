@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+pivot_position,Pivot position,Leading nonzero entry in echelon form,Marks independent structure in constraints,Pivot meaning must be tied back to row and column labels
+pivot_column,Pivot column,Column containing a pivot,Identifies controlled or basic variable direction,A pivot variable is algebraically determined but not necessarily feasible
+free_column,Free column,Column without a pivot,Identifies degree of freedom or under-specification,Free variables require interpretation before selection
+rank,Rank,Number of pivots,Measures independent constraint structure,Rank is not model adequacy
+augmented_rank,Augmented rank,Rank of coefficient matrix with right-hand side,Tests target compatibility,Augmented pivots can indicate impossible targets or data errors
+solvability,Solvability,Equality of coefficient rank and augmented rank,Shows target reachability under modeled relationships,Algebraic solvability does not guarantee practical feasibility
+column_space,Column space,Reachable right-hand-side vectors,All targets the modeled variables can produce,Reachability depends on model structure
+null_space,Null space,Vectors mapped to zero,Hidden degrees of freedom or compensating directions,Nontrivial null space may be flexibility or missing constraints

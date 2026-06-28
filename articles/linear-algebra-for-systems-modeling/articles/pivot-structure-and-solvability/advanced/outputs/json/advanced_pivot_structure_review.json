@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Record pivot columns and connect them to modeled variables.",
+    "review_item": "pivot_column_record",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret free variables as flexibility, missing constraints, or unobservable directions.",
+    "review_item": "free_variable_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare coefficient rank and augmented rank.",
+    "review_item": "rank_comparison",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review augmented-only pivots as contradictions or diagnostic conflicts.",
+    "review_item": "augmented_pivot_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret solvability as target reachability under modeled relationships.",
+    "review_item": "column_space_reachability",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Test whether pivot and rank decisions depend on numerical tolerance.",
+    "review_item": "tolerance_sensitivity",
+    "status": "required"
+  }
+]

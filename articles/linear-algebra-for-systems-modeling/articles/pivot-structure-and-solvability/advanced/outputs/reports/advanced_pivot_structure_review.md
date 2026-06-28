@@ -1,0 +1,8 @@
+# Advanced Pivot Structure Review
+
+- **pivot_column_record** (required): Record pivot columns and connect them to modeled variables.
+- **free_variable_review** (required): Interpret free variables as flexibility, missing constraints, or unobservable directions.
+- **rank_comparison** (required): Compare coefficient rank and augmented rank.
+- **augmented_pivot_review** (required): Review augmented-only pivots as contradictions or diagnostic conflicts.
+- **column_space_reachability** (recommended): Interpret solvability as target reachability under modeled relationships.
+- **tolerance_sensitivity** (required): Test whether pivot and rank decisions depend on numerical tolerance.

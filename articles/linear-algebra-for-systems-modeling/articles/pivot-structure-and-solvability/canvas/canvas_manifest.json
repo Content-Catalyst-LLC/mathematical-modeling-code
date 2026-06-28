@@ -1,10 +1,10 @@
 {
+  "article_slug": "pivot-structure-and-solvability",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "pivot-structure-and-solvability",
-  "title": "Pivot Structure and Solvability",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "pivot-structure-solvability",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "pivot-columns",
+      "title": "Pivot Columns",
+      "description": "Variable columns controlled by independent constraints."
+    },
+    {
+      "card_id": "free-columns",
+      "title": "Free Columns",
+      "description": "Variables that remain unconstrained by pivot structure."
+    },
+    {
+      "card_id": "rank-comparison",
+      "title": "Rank Comparison",
+      "description": "Coefficient rank versus augmented rank."
+    },
+    {
+      "card_id": "augmented-pivot",
+      "title": "Augmented Pivot",
+      "description": "Diagnostic marker of inconsistent targets."
+    },
+    {
+      "card_id": "tolerance-warning",
+      "title": "Tolerance Warning",
+      "description": "Numerical pivot decisions depend on tolerance and conditioning."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

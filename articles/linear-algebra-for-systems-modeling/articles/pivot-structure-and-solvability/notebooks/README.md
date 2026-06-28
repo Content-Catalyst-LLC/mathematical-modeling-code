@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Pivot Structure and Solvability** will live here.
+# Notebooks\n\nNotebook-ready workspace for pivot structure, pivot columns, free variables, rank comparison, augmented pivots, solvability, and tolerance sensitivity.\n

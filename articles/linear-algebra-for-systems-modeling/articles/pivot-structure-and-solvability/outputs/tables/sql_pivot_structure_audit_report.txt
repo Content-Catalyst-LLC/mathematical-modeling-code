@@ -1,0 +1,29 @@
+section                            
+-----------------------------------
+PIVOT STRUCTURE ASSUMPTION REGISTRY
+assumption_name         mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Augmented-column pivot  Indicates a contradiction in the augmented system.            Reveals incompatible targets or constraints.                  Inconsistency may signal data error impossible targets or om
+                                                                                                                                                    itted variables.                                            
+
+Free column             Indicates a variable column without a pivot.                  Represents remaining degrees of freedom flexibility or under  Free variables require interpretation before choosing a solu
+                                                                                      -specification.                                               tion.                                                       
+
+Pivot column            Indicates a variable column controlled by independent constr  Shows which unknowns are determined or basic under the model  A pivot variable is determined algebraically not necessarily
+                        aints.                                                         structure.                                                    valid practically.                                         
+
+Pivot position          Marks a leading nonzero entry in echelon or reduced echelon   Identifies independent structure in the modeled constraint s  Pivot meaning should be connected back to original rows and 
+                        form.                                                         ystem.                                                        columns.                                                    
+
+Rank count              Counts pivot positions in the coefficient matrix.             Measures the effective number of independent constraint dire  Rank depends on numerical tolerance in floating-point workfl
+                                                                                      ctions.                                                       ows.                                                        
+
+Solvability condition   A system is solvable when rank(A) equals rank([A|b]).         Shows whether targets are reachable under modeled relationsh  Algebraic solvability does not guarantee feasibility legitim
+                                                                                      ips.                                                          acy or adequacy.                                            
+section                    
+---------------------------
+PIVOT STRUCTURE AUDIT CASES
+system_name                               equation_count  unknown_count  pivot_columns  free_columns  coefficient_rank  augmented_rank  consistent  solution_behavior  tolerance  warning                                                     
+----------------------------------------  --------------  -------------  -------------  ------------  ----------------  --------------  ----------  -----------------  ---------  ------------------------------------------------------------
+three_constraint_resource_balance_system  3               3              0,1,2          none          3                 3               1           unique solution    1.0e-10    Pivot structure reveals algebraic solvability but feasibilit
+                                                                                                                                                                                  y requires review.                                          

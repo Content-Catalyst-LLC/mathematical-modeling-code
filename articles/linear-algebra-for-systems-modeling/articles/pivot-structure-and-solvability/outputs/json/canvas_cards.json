@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "pivot-columns",
+    "category": "diagnostic",
+    "governance_note": "Record which variable columns contain pivots.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Pivot Columns"
+  },
+  {
+    "card_id": "free-columns",
+    "category": "interpretation",
+    "governance_note": "Review whether free columns indicate flexibility or missing constraints.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "review",
+    "title": "Free Columns"
+  },
+  {
+    "card_id": "rank-comparison",
+    "category": "diagnostic",
+    "governance_note": "Compare coefficient rank and augmented rank to classify solvability.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "active",
+    "title": "Rank Comparison"
+  },
+  {
+    "card_id": "augmented-pivot",
+    "category": "governance",
+    "governance_note": "Treat augmented-only pivots as diagnostic conflict signals.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Augmented Pivot"
+  },
+  {
+    "card_id": "tolerance-warning",
+    "category": "numerical",
+    "governance_note": "Document tolerance and test sensitivity of rank decisions.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Tolerance Warning"
+  }
+]

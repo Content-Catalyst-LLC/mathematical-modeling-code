@@ -1,0 +1,2 @@
+calculator,equation_count,unknown_count,pivot_columns,free_columns,coefficient_rank,augmented_rank,consistent,solution_behavior,tolerance,warning
+pivot_structure_solvability_calculator,3,3,"0,1,2",none,3,3,True,unique solution,1e-10,Solvability depends on rank comparison; feasibility depends on modeling assumptions.

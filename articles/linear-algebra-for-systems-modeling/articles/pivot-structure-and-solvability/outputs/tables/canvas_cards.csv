@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+pivot-columns,Pivot Columns,diagnostic,96,active,2026-06-28,Record which variable columns contain pivots.
+free-columns,Free Columns,interpretation,95,review,2026-06-28,Review whether free columns indicate flexibility or missing constraints.
+rank-comparison,Rank Comparison,diagnostic,94,active,2026-06-28,Compare coefficient rank and augmented rank to classify solvability.
+augmented-pivot,Augmented Pivot,governance,93,review,2026-06-28,Treat augmented-only pivots as diagnostic conflict signals.
+tolerance-warning,Tolerance Warning,numerical,92,review,2026-06-28,Document tolerance and test sensitivity of rank decisions.
