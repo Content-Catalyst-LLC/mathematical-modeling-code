@@ -1,42 +1,37 @@
 # Inverse Matrices and Structural Recovery
 
-Companion code and reproducible workflows for **“Inverse Matrices and Structural Recovery”**.
+This folder supports the article **“Inverse Matrices and Structural Recovery”** in the *Linear Algebra for Systems Modeling* series.
 
-Status: **planned**.
+The examples show how an invertible matrix can recover an original system state from transformed observations, and why singular or nearly singular matrices create structural recovery problems.
 
-A treatment of recovering inputs from outputs when structure permits.
+## Core idea
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
+If a system transformation is written as:
 
 ```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
+Ax = b
 ```
 
-## Run smoke checks
+and the matrix `A` is invertible, then the original state can be recovered as:
 
-```bash
-make smoke
+```text
+x = A^-1 b
 ```
 
-## Principle
+In systems modeling, this is not just an algebraic operation. It represents recovery of inputs, hidden states, signals, or structural causes from observed outputs.
 
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.
+## Folder contents
+
+- `python/` — inverse matrix and recovery demonstration
+- `r/` — base R recovery example
+- `julia/` — Julia recovery example
+- `sql/` — matrix-style recovery tables
+- `c/`, `cpp/`, `fortran/`, `go/`, `rust/`, `java/`, `typescript/` — small 2x2 inverse demonstrations
+- `prolog/` — logical facts for invertibility and recovery
+- `docs/` — conceptual explanation
+- `data/` — simple matrix and vector data
+- `outputs/` — placeholder for generated outputs
+
+## Modeling warning
+
+An inverse matrix exists only when the transformation preserves enough independent information. If the matrix collapses dimensions or contains dependent columns, structural recovery becomes ambiguous or impossible.
