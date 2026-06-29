@@ -1,0 +1,10 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_vector,State vector,Defines internal system coordinates,Represents what the model tries to regulate,Poorly defined states can make feedback target the wrong behavior
+input_vector,Input vector,Defines control actions or forcing,Represents intervention channels,Input authority may not exist in the real system
+output_vector,Output vector,Defines measured quantities,Represents what feedback can observe,Outputs can be noisy biased delayed or incomplete
+state_matrix,State matrix A,Defines internal dynamics,Represents natural system behavior,Matrix source and time model must be documented
+input_matrix,Input matrix B,Defines how inputs enter state,Represents actuator or policy channels,Rank alone ignores feasibility cost and authority
+output_matrix,Output matrix C,Defines how state becomes output,Represents measurement structure,Hidden modes can undermine feedback
+feedback_matrix,Feedback matrix K,Maps state to control action,Changes closed-loop dynamics,Feedback can destabilize or saturate actuators
+controllability,Controllability,Tests input reachability in state space,Shows whether states can be influenced,Nearly uncontrollable systems can be fragile
+observability,Observability,Tests whether outputs reveal state directions,Shows whether feedback can infer state,Unobservable unstable modes are high risk

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-input-output,"State, Input, Output",model-design,97,active,2026-06-29,"Separate internal state, action channels, and measured outputs."
+closed-loop,Closed-Loop Dynamics,feedback,96,active,2026-06-29,Feedback changes the effective system matrix and must be reviewed.
+controllability,Controllability,rank-diagnostic,95,review,2026-06-29,Rank tests whether inputs influence state-space directions.
+observability,Observability,rank-diagnostic,94,review,2026-06-29,Rank tests whether outputs reveal state-space directions.
+control-governance,Control Governance,interpretation,93,review,2026-06-29,"Review objectives, authority, constraints, uncertainty, and accountability."

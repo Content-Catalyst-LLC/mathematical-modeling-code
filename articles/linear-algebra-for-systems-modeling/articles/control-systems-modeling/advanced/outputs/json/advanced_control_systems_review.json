@@ -1,0 +1,37 @@
+[
+  {
+    "governance_note": "Define state variables, units, scope, and what the controller is regulating.",
+    "review_item": "state_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether modeled inputs are physically, legally, institutionally, and ethically available.",
+    "review_item": "input_authority",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review measurement noise, bias, delay, and incomplete observation.",
+    "review_item": "output_reliability",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report ranks, conditioning, and unstable hidden or unreachable modes.",
+    "review_item": "controllability_observability",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check actuator saturation, state constraints, delays, rates, and input effort.",
+    "review_item": "feedback_constraints",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document performance objectives, optimization weights, tradeoffs, and accountable decision authority.",
+    "review_item": "objective_governance",
+    "status": "required"
+  },
+  {
+    "governance_note": "Test perturbations to A, B, C, feedback gains, and initial conditions.",
+    "review_item": "robustness",
+    "status": "recommended"
+  }
+]

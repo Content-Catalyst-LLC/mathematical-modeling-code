@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ControlSystemsAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "state_names",
+    "input_names",
+    "output_names",
+    "time_model",
+    "state_matrix_A",
+    "input_matrix_B",
+    "output_matrix_C",
+    "feedback_matrix_K",
+    "open_loop_eigenvalues",
+    "closed_loop_eigenvalues",
+    "open_loop_max_real_part",
+    "closed_loop_max_real_part",
+    "controllability_rank",
+    "observability_rank",
+    "open_loop_final_state",
+    "closed_loop_final_state",
+    "max_control_effort",
+    "control_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "state_names": {
+      "type": "string"
+    },
+    "input_names": {
+      "type": "string"
+    },
+    "output_names": {
+      "type": "string"
+    },
+    "time_model": {
+      "type": "string"
+    },
+    "state_matrix_A": {
+      "type": "string"
+    },
+    "input_matrix_B": {
+      "type": "string"
+    },
+    "output_matrix_C": {
+      "type": "string"
+    },
+    "feedback_matrix_K": {
+      "type": "string"
+    },
+    "open_loop_eigenvalues": {
+      "type": "string"
+    },
+    "closed_loop_eigenvalues": {
+      "type": "string"
+    },
+    "open_loop_max_real_part": {
+      "type": "number"
+    },
+    "closed_loop_max_real_part": {
+      "type": "number"
+    },
+    "controllability_rank": {
+      "type": "integer"
+    },
+    "observability_rank": {
+      "type": "integer"
+    },
+    "open_loop_final_state": {
+      "type": "string"
+    },
+    "closed_loop_final_state": {
+      "type": "string"
+    },
+    "max_control_effort": {
+      "type": "number"
+    },
+    "control_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-input-output",
+    "category": "model-design",
+    "governance_note": "Separate internal state, action channels, and measured outputs.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "State, Input, Output"
+  },
+  {
+    "card_id": "closed-loop",
+    "category": "feedback",
+    "governance_note": "Feedback changes the effective system matrix and must be reviewed.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Closed-Loop Dynamics"
+  },
+  {
+    "card_id": "controllability",
+    "category": "rank-diagnostic",
+    "governance_note": "Rank tests whether inputs influence state-space directions.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Controllability"
+  },
+  {
+    "card_id": "observability",
+    "category": "rank-diagnostic",
+    "governance_note": "Rank tests whether outputs reveal state-space directions.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Observability"
+  },
+  {
+    "card_id": "control-governance",
+    "category": "interpretation",
+    "governance_note": "Review objectives, authority, constraints, uncertainty, and accountability.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Control Governance"
+  }
+]

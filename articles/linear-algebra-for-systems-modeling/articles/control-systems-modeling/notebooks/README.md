@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Control Systems Modeling** will live here.
+# Notebooks\n\nNotebook-ready workspace for control systems modeling, state-space matrices, feedback, controllability, observability, closed-loop stability, and model governance.\n

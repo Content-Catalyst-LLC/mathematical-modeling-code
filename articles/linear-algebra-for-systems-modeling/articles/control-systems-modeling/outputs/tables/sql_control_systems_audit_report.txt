@@ -1,0 +1,33 @@
+section                           
+----------------------------------
+CONTROL SYSTEM ASSUMPTION REGISTRY
+assumption_name     mathematical_role                                           systems_modeling_role                                         review_warning                                              
+------------------  ----------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Constraints         Defines input state rate delay and feasibility limits.      Determines whether the control law can actually be applied.   Ignoring saturation or delay can invalidate closed-loop anal
+                                                                                                                                              ysis.                                                       
+
+Controllability     Tests whether inputs can influence state-space directions.  Shows whether the model can move the system through relevant  Rank alone does not account for cost constraints or authorit
+                                                                                 states.                                                      y.                                                          
+
+Feedback objective  Defines what the controller is designed to achieve.         Encodes performance cost safety or optimization priorities.   Control objectives are value choices and should be documente
+                                                                                                                                              d.                                                          
+
+Input authority     Defines the channels represented by the input matrix B.     Determines what interventions are available.                  Mathematical input channels may not be physically legally or
+                                                                                                                                               institutionally available.                                 
+
+Observability       Tests whether outputs reveal internal state directions.     Shows whether feedback can infer what needs to be controlled  Hidden unstable modes are serious safety and governance risk
+                                                                                .                                                             s.                                                          
+
+Output reliability  Defines what is measured through the output matrix C.       Determines what information feedback uses.                    Noisy biased delayed or incomplete outputs can destabilize d
+                                                                                                                                              ecisions.                                                   
+
+State definition    Defines the internal coordinates of the control model.      Determines what the controller is trying to regulate.         Poorly defined states can make feedback target the wrong beh
+                                                                                                                                              avior.                                                      
+section                   
+--------------------------
+CONTROL SYSTEM AUDIT CASES
+system_name                     open_loop_max_real_part  closed_loop_max_real_part  controllability_rank  observability_rank  warning                                                     
+------------------------------  -----------------------  -------------------------  --------------------  ------------------  ------------------------------------------------------------
+two_state_control_system_audit  0.2                      -0.5                       2                     2                   Control models require input authority output reliability co
+                                                                                                                              nstraints uncertainty review objective transparency and doma
+                                                                                                                              in accountability.                                          
