@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+eigenvector-basis,Eigenvector Basis,modal,96,active,2026-06-28,Check that eigenvectors are independent and interpretable.
+diagonal-matrix,Diagonal Matrix,modal,95,active,2026-06-28,Use diagonal entries as mode-specific scaling factors.
+modal-coordinates,Modal Coordinates,interpretation,94,review,2026-06-28,Translate mode amplitudes back into domain terms.
+matrix-powers,Matrix Powers,dynamics,93,review,2026-06-28,Use powered eigenvalues for repeated behavior with assumptions stated.
+diagnostic-review,Diagnostic Review,numerical,92,review,2026-06-28,"Report reconstruction error, cond(P), residuals, and spectral gaps."

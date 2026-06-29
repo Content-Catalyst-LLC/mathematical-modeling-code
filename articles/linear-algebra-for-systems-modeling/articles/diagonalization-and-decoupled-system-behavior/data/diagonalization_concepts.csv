@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+matrix_definition,Matrix definition,Defines the transformation being diagonalized,Determines what behavior modes can represent,Meaning depends on construction units weights and time step
+eigenvector_basis,Eigenvector basis,Independent eigenvectors needed for diagonalization,Defines modal coordinates,Too few eigenvectors prevents full decoupling
+diagonal_matrix,Diagonal matrix,Stores eigenvalues as mode scalings,Shows independent modal behavior,Diagonal behavior is a coordinate representation
+modal_coordinates,Modal coordinates,Coordinates in eigenvector basis,Measures how much of each mode is present,May be abstract and hard to interpret
+matrix_powers,Matrix powers,Uses A^t = P D^t P^{-1},Supports repeated dynamics and long-run analysis,Initial conditions determine active modes
+condition_number,Condition number of P,Measures sensitivity of modal coordinates,Shows numerical fragility of decoupling,Large values require caution
+reconstruction_error,Reconstruction error,Measures A minus P D P^{-1},Supports auditability,Small error does not guarantee substantive meaning
+defective_matrix,Defective matrix,Matrix without enough eigenvectors,Cannot be fully decoupled by diagonalization,Requires alternative decomposition or interpretation

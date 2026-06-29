@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Document what the matrix represents, including units, weights, and time step.",
+    "review_item": "matrix_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Confirm enough independent eigenvectors exist for full diagonalization.",
+    "review_item": "eigenvector_basis",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report ||A - P D P^{-1}|| for computed diagonalization.",
+    "review_item": "reconstruction_error",
+    "status": "required"
+  },
+  {
+    "governance_note": "Estimate cond(P) before interpreting modal coordinates.",
+    "review_item": "condition_number_P",
+    "status": "required"
+  },
+  {
+    "governance_note": "Translate modal coordinates back into system-specific meaning.",
+    "review_item": "modal_translation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Use Schur, SVD, or Jordan analysis when diagonalization is fragile or invalid.",
+    "review_item": "fallback_decomposition",
+    "status": "recommended"
+  }
+]

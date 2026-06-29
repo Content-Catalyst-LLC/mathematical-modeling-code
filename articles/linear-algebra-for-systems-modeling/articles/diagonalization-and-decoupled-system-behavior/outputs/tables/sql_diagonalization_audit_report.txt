@@ -1,0 +1,29 @@
+section                            
+-----------------------------------
+DIAGONALIZATION ASSUMPTION REGISTRY
+assumption_name                  mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Eigenvector matrix conditioning  Measures sensitivity of modal coordinates.                    Shows whether decoupled modal analysis may be numerically fr  Large condition numbers require caution or alternative decom
+                                                                                               agile.                                                        positions.                                                  
+
+Diagonal matrix                  Stores eigenvalues as independent mode scalings.              Shows how each mode grows decays persists reverses or disapp  Diagonal behavior is a coordinate representation not automat
+                                                                                               ears.                                                         ic real-world independence.                                 
+
+Eigenvector basis                Provides the independent vectors needed for diagonalization.  Defines modal coordinates for the system.                     A matrix with too few independent eigenvectors cannot be ful
+                                                                                                                                                             ly decoupled this way.                                      
+
+Matrix definition                Defines the transformation being diagonalized.                Determines what system behavior the modes can represent.      Diagonalization inherits meaning from matrix construction un
+                                                                                                                                                             its weights and time step.                                  
+
+Matrix powers                    Uses A^t = P D^t P^{-1} when diagonalization applies.         Supports repeated dynamics and long-run behavior analysis.    Initial conditions and spectral gaps affect which modes appe
+                                                                                                                                                             ar or dominate.                                             
+
+Reconstruction error             Measures how closely P D P^{-1} reproduces A.                 Supports auditability of computed diagonalization.            Small reconstruction error does not guarantee substantive in
+                                                                                                                                                             terpretation.                                               
+section                    
+---------------------------
+DIAGONALIZATION AUDIT CASES
+system_name                     reconstruction_error_frobenius  spectral_radius  dominant_eigenvalue  stability_classification       warning                                                     
+------------------------------  ------------------------------  ---------------  -------------------  -----------------------------  ------------------------------------------------------------
+two_mode_diagonalization_audit  0.0                             0.92             0.92                 all_modes_decay_discrete_time  Diagonalization decouples representation not necessarily rea
+                                                                                                                                     l system.                                                   

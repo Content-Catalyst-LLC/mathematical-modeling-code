@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "eigenvector-basis",
+    "category": "modal",
+    "governance_note": "Check that eigenvectors are independent and interpretable.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Eigenvector Basis"
+  },
+  {
+    "card_id": "diagonal-matrix",
+    "category": "modal",
+    "governance_note": "Use diagonal entries as mode-specific scaling factors.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Diagonal Matrix"
+  },
+  {
+    "card_id": "modal-coordinates",
+    "category": "interpretation",
+    "governance_note": "Translate mode amplitudes back into domain terms.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Modal Coordinates"
+  },
+  {
+    "card_id": "matrix-powers",
+    "category": "dynamics",
+    "governance_note": "Use powered eigenvalues for repeated behavior with assumptions stated.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Matrix Powers"
+  },
+  {
+    "card_id": "diagnostic-review",
+    "category": "numerical",
+    "governance_note": "Report reconstruction error, cond(P), residuals, and spectral gaps.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Diagnostic Review"
+  }
+]

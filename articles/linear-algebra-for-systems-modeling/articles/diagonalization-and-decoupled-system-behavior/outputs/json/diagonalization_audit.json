@@ -1,0 +1,12 @@
+{
+  "condition_warning": "For production workflows, compute cond(P), eigenpair residuals, spectral gaps, and perturbation sensitivity before interpreting modal coordinates.",
+  "diagonal_matrix": "0.920000,0.000000;0.000000,0.550000",
+  "dominant_eigenvalue": 0.92,
+  "eigenvector_matrix": "1.000000,1.000000;1.000000,-2.000000",
+  "matrix_entries": "0.796667,0.123333;0.246667,0.673333",
+  "modal_interpretation_warning": "Diagonalization decouples the representation, not necessarily the real system. Modal meaning depends on matrix construction, units, scaling, and domain interpretation.",
+  "reconstruction_error_frobenius": 0.0,
+  "spectral_radius": 0.92,
+  "stability_classification": "all_modes_decay_discrete_time",
+  "system_name": "two_mode_diagonalization_audit"
+}

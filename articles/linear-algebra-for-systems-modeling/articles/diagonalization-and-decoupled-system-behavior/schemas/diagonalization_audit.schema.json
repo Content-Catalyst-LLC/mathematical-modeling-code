@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DiagonalizationAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "matrix_entries",
+    "eigenvector_matrix",
+    "diagonal_matrix",
+    "reconstruction_error_frobenius",
+    "spectral_radius",
+    "dominant_eigenvalue",
+    "condition_warning",
+    "stability_classification",
+    "modal_interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "matrix_entries": {
+      "type": "string"
+    },
+    "eigenvector_matrix": {
+      "type": "string"
+    },
+    "diagonal_matrix": {
+      "type": "string"
+    },
+    "reconstruction_error_frobenius": {
+      "type": "number"
+    },
+    "spectral_radius": {
+      "type": "number"
+    },
+    "dominant_eigenvalue": {
+      "type": "number"
+    },
+    "condition_warning": {
+      "type": "string"
+    },
+    "stability_classification": {
+      "type": "string"
+    },
+    "modal_interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

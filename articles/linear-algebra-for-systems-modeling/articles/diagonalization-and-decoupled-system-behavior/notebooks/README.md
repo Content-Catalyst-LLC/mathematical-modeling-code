@@ -1,0 +1,1 @@
+# Notebooks\n\nNotebook-ready workspace for diagonalization, modal coordinates, matrix powers, reconstruction error, stability diagnostics, and decoupled behavior review.\n
