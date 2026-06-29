@@ -1,49 +1,54 @@
-.PHONY: all smoke python test r julia sql haskell rust go cpp fortran c advanced clean
+.PHONY: all smoke calculators python test canvas r julia sql haskell c cpp fortran rust go advanced clean
 
-all: smoke
+all: python test canvas r julia sql haskell c cpp fortran rust go advanced calculators
+smoke: python sql canvas advanced calculators
 
-smoke:
-	@mkdir -p outputs/json outputs/logs outputs/tables
-	@echo "planned,orthogonality-and-structured-simplification,Orthogonality and Structured Simplification" > outputs/tables/article_status.csv
-	@echo "Smoke scaffold complete for Orthogonality and Structured Simplification"
+calculators:
+	@if [ -f calculators/run_calculator_smoke_tests.sh ]; then cd calculators && bash run_calculator_smoke_tests.sh; fi
 
 python:
-	@echo "Python scaffold for Orthogonality and Structured Simplification"
+	@if command -v python3 >/dev/null 2>&1; then python3 python/orthogonality_structure/cli.py --output-dir outputs; else echo "python3 not found; skipping."; fi
+
+canvas:
+	@if command -v python3 >/dev/null 2>&1; then python3 python/catalyst_canvas/cli.py --output-dir outputs; else echo "python3 not found; skipping Canvas."; fi
 
 test:
-	@echo "Python test scaffold for Orthogonality and Structured Simplification"
+	@if command -v python3 >/dev/null 2>&1 && python3 -c "import pytest" >/dev/null 2>&1; then python3 -m pytest python/tests; else echo "pytest not found; skipping."; fi
 
 r:
-	@echo "R scaffold for Orthogonality and Structured Simplification"
+	@if command -v Rscript >/dev/null 2>&1; then Rscript r/orthogonality_audit.R; else echo "Rscript not found; skipping."; fi
 
 julia:
-	@echo "Julia scaffold for Orthogonality and Structured Simplification"
+	@if command -v julia >/dev/null 2>&1; then julia julia/orthogonality_audit.jl > outputs/tables/julia_orthogonality_audit.csv; else echo "julia not found; skipping."; fi
 
 sql:
-	@mkdir -p outputs/tables
-	@sqlite3 outputs/tables/orthogonality-and-structured-simplification.sqlite < sql/schema.sql || true
+	@if command -v sqlite3 >/dev/null 2>&1; then mkdir -p outputs/tables; sqlite3 outputs/tables/orthogonality_audit.sqlite < sql/schema.sql; sqlite3 outputs/tables/orthogonality_audit.sqlite < sql/analysis_queries.sql > outputs/tables/sql_orthogonality_audit_report.txt; else echo "sqlite3 not found; skipping."; fi
 
 haskell:
-	$(MAKE) -C haskell run || true
-
-rust:
-	@echo "Rust scaffold for Orthogonality and Structured Simplification"
-
-go:
-	@echo "Go scaffold for Orthogonality and Structured Simplification"
-
-cpp:
-	@echo "C++ scaffold for Orthogonality and Structured Simplification"
-
-fortran:
-	@echo "Fortran scaffold for Orthogonality and Structured Simplification"
+	$(MAKE) -C haskell run
 
 c:
-	@echo "C scaffold for Orthogonality and Structured Simplification"
+	@if command -v cc >/dev/null 2>&1; then cc -O2 -std=c11 c/orthogonality_audit.c -o outputs/orthogonality_audit_c -lm; ./outputs/orthogonality_audit_c > outputs/tables/c_orthogonality_audit.csv; else echo "cc not found; skipping."; fi
+
+cpp:
+	$(MAKE) -C cpp run
+
+fortran:
+	@if command -v gfortran >/dev/null 2>&1; then gfortran -O2 fortran/orthogonality_audit.f90 -o outputs/orthogonality_audit_fortran; ./outputs/orthogonality_audit_fortran > outputs/tables/fortran_orthogonality_audit.txt; else echo "gfortran not found; skipping."; fi
+
+rust:
+	@if command -v cargo >/dev/null 2>&1; then cd rust && cargo run --quiet > ../outputs/tables/rust_orthogonality_audit.csv; else echo "cargo not found; skipping."; fi
+
+go:
+	@if command -v go >/dev/null 2>&1; then cd go && go run main.go > ../outputs/tables/go_orthogonality_audit.csv; else echo "go not found; skipping."; fi
 
 advanced:
 	$(MAKE) -C advanced smoke
 
 clean:
-	rm -f outputs/tables/*.csv outputs/tables/*.txt outputs/tables/*.sqlite
-	rm -f outputs/json/*.json outputs/logs/*.log
+	rm -f outputs/tables/*.csv outputs/tables/*.txt outputs/tables/*.sqlite outputs/json/*.json outputs/logs/*.log outputs/reports/*.md outputs/orthogonality_audit_c outputs/orthogonality_audit_fortran
+	rm -f calculators/outputs/*.csv calculators/outputs/*.json calculators/outputs/*.txt
+	$(MAKE) -C haskell clean || true
+	$(MAKE) -C cpp clean || true
+	$(MAKE) -C advanced clean || true
+	cd rust && cargo clean || true

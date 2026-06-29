@@ -1,0 +1,12 @@
+                calculator                   vector_a
+1 orthogonality_calculator 3.000000,1.000000,2.000000
+                      vector_b dot_product orthogonal_under_tolerance
+1 1.000000,-1.000000,-1.000000           0                       TRUE
+                      unit_a                       unit_b
+1 0.801784,0.267261,0.534522 0.577350,-0.577350,-0.577350
+      projection_of_a_onto_b            residual_vector residual_norm
+1 0.000000,0.000000,0.000000 3.000000,1.000000,2.000000      3.741657
+  orthonormality_error
+1                    0
+                                                                                   warning
+1 Orthogonality depends on geometry, scaling, units, tolerance, and domain interpretation.

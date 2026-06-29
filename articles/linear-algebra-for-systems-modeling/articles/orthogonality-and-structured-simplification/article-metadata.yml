@@ -1,8 +1,7 @@
 actual_title: "Orthogonality and Structured Simplification"
-suggested_seo_title: "Orthogonality and Structured Simplification: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Orthogonality and Structured Simplification: How Linear Algebra Separates System Structure"
+focus_keyword: "orthogonality and structured simplification"
 slug: "orthogonality-and-structured-simplification"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/orthogonality-and-structured-simplification"
 tags:
   - Linear Algebra
+  - Orthogonality
+  - Orthonormal Bases
+  - QR Decomposition
+  - Gram-Schmidt
+  - Residuals
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Orthogonality and Structured Simplification is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Orthogonality and structured simplification explain how linear algebra separates systems into directions that do not interfere under a chosen geometry. This article introduces dot products, perpendicular directions, orthogonal vectors, orthogonal sets, orthonormal bases, orthogonal complements, projection residuals, least-squares geometry, Gram-Schmidt orthogonalization, QR decomposition, orthogonal matrices, numerical stability, and decomposition workflows. It shows how orthogonality separates modeled structure from residual structure, removes overlap among features, simplifies coordinates, supports stable least-squares computation, and clarifies high-dimensional systems through separated components. The article emphasizes that orthogonality is not automatic real-world independence: it depends on the inner product, scaling, units, weighting, tolerance, and representation. It connects orthogonal structure to infrastructure risk modes, ecological gradients, economic factors, machine learning features, scientific computing, reproducible audits, and responsible decision support."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

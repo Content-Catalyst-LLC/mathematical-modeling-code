@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OrthogonalityAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "vector_a",
+    "vector_b",
+    "dot_product",
+    "orthogonal_under_tolerance",
+    "unit_a",
+    "unit_b",
+    "projection_of_a_onto_b",
+    "residual_vector",
+    "residual_norm",
+    "orthonormality_error",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "vector_a": {
+      "type": "string"
+    },
+    "vector_b": {
+      "type": "string"
+    },
+    "dot_product": {
+      "type": "number"
+    },
+    "orthogonal_under_tolerance": {
+      "type": "boolean"
+    },
+    "unit_a": {
+      "type": "string"
+    },
+    "unit_b": {
+      "type": "string"
+    },
+    "projection_of_a_onto_b": {
+      "type": "string"
+    },
+    "residual_vector": {
+      "type": "string"
+    },
+    "residual_norm": {
+      "type": "number"
+    },
+    "orthonormality_error": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

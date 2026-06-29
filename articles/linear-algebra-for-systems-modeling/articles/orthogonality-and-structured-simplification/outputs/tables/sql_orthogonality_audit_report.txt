@@ -1,0 +1,29 @@
+section                          
+---------------------------------
+ORTHOGONALITY ASSUMPTION REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Zero dot product       Defines perpendicularity under the standard Euclidean inner   Indicates no overlap between directions under the chosen geo  Zero dot product is not automatically real-world independenc
+                       product.                                                      metry.                                                        e.                                                          
+
+Inner product          Defines alignment angle length and orthogonality.             Determines what it means for system components to be separat  Changing weights units or scaling can change orthogonality. 
+                                                                                     ed.                                                                                                                       
+
+Orthogonal projection  Separates vectors into subspace and orthogonal residual comp  Distinguishes modeled structure from residual structure.      Residuals may contain important excluded signal or bias.    
+                       onents.                                                                                                                                                                                 
+
+Orthogonal set         A set of vectors with pairwise zero inner products.           Provides separated directions for representation or decompos  Vectors must be nonzero to form a basis.                    
+                                                                                     ition.                                                                                                                    
+
+Orthonormal basis      A basis of mutually orthogonal unit vectors.                  Supports simple coordinates stable decomposition and clean p  Coordinates may be abstract even when numerically convenient
+                                                                                     rojection.                                                    .                                                           
+
+QR decomposition       Factors a matrix into orthonormal directions and triangular   Supports stable least-squares and structured simplification   Rank and conditioning should still be reviewed.             
+                       coefficients.                                                 workflows.                                                                                                                
+section                  
+-------------------------
+ORTHOGONALITY AUDIT CASES
+system_name                          dot_product  orthogonal_under_tolerance  residual_norm  orthonormality_error  warning                                                     
+-----------------------------------  -----------  --------------------------  -------------  --------------------  ------------------------------------------------------------
+three_component_orthogonality_audit  0.0          1                           3.741657       0.0                   Orthogonality depends on geometry scaling units tolerance an
+                                                                                                                   d domain interpretation.                                    

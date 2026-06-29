@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+inner_product,Inner product,Defines alignment length angle and orthogonality,Determines system separation geometry,Changing units or weights changes orthogonality
+dot_product_zero,Zero dot product,Perpendicularity under Euclidean geometry,No overlap under chosen model geometry,Not automatic real-world independence
+orthogonal_set,Orthogonal set,Pairwise zero inner products,Separated representation directions,Vectors must be nonzero to form basis directions
+orthonormal_basis,Orthonormal basis,Orthogonal unit-vector basis,Stable separated coordinates,May be abstract or domain-opaque
+orthogonal_projection,Orthogonal projection,Subspace plus orthogonal residual,Separates modeled and residual structure,Residuals may contain important excluded signal
+gram_schmidt,Gram-Schmidt,Orthogonalizes independent vectors,Removes overlap among directions,Classical version may lose orthogonality
+qr_decomposition,QR decomposition,Factors matrix into Q and R,Stable least-squares and structural simplification,Rank and conditioning still require review
+orthogonality_error,Orthogonality error,Norm of Q^TQ-I,Checks computed orthonormality,Roundoff and near dependence can matter

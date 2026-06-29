@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "inner-product",
+    "category": "geometry",
+    "governance_note": "Document the geometry that defines orthogonality.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Inner Product"
+  },
+  {
+    "card_id": "zero-overlap",
+    "category": "diagnostic",
+    "governance_note": "Treat zero dot products as model-geometry claims, not automatic causal independence.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Zero Overlap"
+  },
+  {
+    "card_id": "orthonormal-basis",
+    "category": "representation",
+    "governance_note": "Separate and standardize coordinate directions.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Orthonormal Basis"
+  },
+  {
+    "card_id": "projection-residual",
+    "category": "residuals",
+    "governance_note": "Interpret residuals substantively before decision use.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Projection Residual"
+  },
+  {
+    "card_id": "qr-diagnostics",
+    "category": "numerical",
+    "governance_note": "Use orthogonality error, rank warnings, and conditioning review.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "QR Diagnostics"
+  }
+]

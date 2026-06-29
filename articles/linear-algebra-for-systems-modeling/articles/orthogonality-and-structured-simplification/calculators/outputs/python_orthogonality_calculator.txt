@@ -1,0 +1,14 @@
+{
+  "calculator": "orthogonality_calculator",
+  "dot_product": 0.0,
+  "orthogonal_under_tolerance": true,
+  "orthonormality_error": 0.0,
+  "projection_of_a_onto_b": "0.000000,0.000000,0.000000",
+  "residual_norm": 3.741657,
+  "residual_vector": "3.000000,1.000000,2.000000",
+  "unit_a": "0.801784,0.267261,0.534522",
+  "unit_b": "0.577350,-0.577350,-0.577350",
+  "vector_a": "3.000000,1.000000,2.000000",
+  "vector_b": "1.000000,-1.000000,-1.000000",
+  "warning": "Orthogonality depends on geometry, scaling, units, tolerance, and domain interpretation."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "State the geometry defining orthogonality.",
+    "review_item": "inner_product_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether units or normalization choices change dot-product meaning.",
+    "review_item": "scaling_units_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document numerical tolerance for near-zero dot products.",
+    "review_item": "tolerance_policy",
+    "status": "required"
+  },
+  {
+    "governance_note": "Treat orthogonal residuals as substantive evidence, not automatic noise.",
+    "review_item": "residual_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report ||Q^TQ-I|| or equivalent orthonormality diagnostic.",
+    "review_item": "orthogonality_error",
+    "status": "required"
+  },
+  {
+    "governance_note": "Prefer QR or SVD over unstable normal-equation workflows when needed.",
+    "review_item": "solver_choice",
+    "status": "recommended"
+  }
+]

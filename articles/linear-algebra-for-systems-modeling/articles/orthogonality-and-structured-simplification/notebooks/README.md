@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Orthogonality and Structured Simplification** will live here.
+# Notebooks\n\nNotebook-ready workspace for orthogonality, dot products, orthogonal complements, residuals, QR decomposition, and structured simplification.\n

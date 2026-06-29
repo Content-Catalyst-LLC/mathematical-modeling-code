@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+inner-product,Inner Product,geometry,96,active,2026-06-28,Document the geometry that defines orthogonality.
+zero-overlap,Zero Overlap,diagnostic,95,active,2026-06-28,"Treat zero dot products as model-geometry claims, not automatic causal independence."
+orthonormal-basis,Orthonormal Basis,representation,94,review,2026-06-28,Separate and standardize coordinate directions.
+projection-residual,Projection Residual,residuals,93,review,2026-06-28,Interpret residuals substantively before decision use.
+qr-diagnostics,QR Diagnostics,numerical,92,review,2026-06-28,"Use orthogonality error, rank warnings, and conditioning review."

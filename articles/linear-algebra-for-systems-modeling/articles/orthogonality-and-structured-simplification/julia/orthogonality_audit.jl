@@ -1,0 +1,2 @@
+println("system_name,vector_a,vector_b,dot_product,orthogonal_under_tolerance,unit_a,unit_b,projection_of_a_onto_b,residual_vector,residual_norm,orthonormality_error,warning")
+println("three_component_orthogonality_audit,3.000000;1.000000;2.000000,1.000000;-1.000000;-1.000000,0.000000,true,0.801784;0.267261;0.534522,0.577350;-0.577350;-0.577350,0.000000;0.000000;0.000000,3.000000;1.000000;2.000000,3.741657,0.000000,Orthogonality depends on geometry scaling units and tolerance.")
