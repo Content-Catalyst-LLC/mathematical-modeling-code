@@ -1,8 +1,7 @@
 actual_title: "Matrix Multiplication and Interaction Effects"
-suggested_seo_title: "Matrix Multiplication and Interaction Effects: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Matrix Multiplication and Interaction Effects: How Linear Algebra Reveals System Pathways"
+focus_keyword: "matrix multiplication and interaction effects"
 slug: "matrix-multiplication-and-interaction-effects"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/matrix-multiplication-and-interaction-effects"
 tags:
   - Linear Algebra
+  - Matrix Multiplication
+  - Interaction Effects
+  - Matrix Products
+  - Transformation Composition
+  - Network Pathways
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Matrix Multiplication and Interaction Effects is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Matrix multiplication and interaction effects explain how linear transformations combine, how variables influence one another, and how multi-step systems produce indirect behavior. This article introduces matrix multiplication as row-column computation, dot-product aggregation, linear-combination structure, transformation composition, pathway tracing, and layered systems modeling. It connects dimension compatibility, intermediate indexes, order, noncommutativity, associativity, identity matrices, direct effects, indirect effects, adjacency powers, network walks, state transitions, economic interdependence, ecological coupling, infrastructure dependencies, and machine learning layers. The article shows why a product matrix is not merely a calculation but a compressed account of sequential structure: what acts first, what layer mediates interaction, how pathways accumulate, and which assumptions are hidden inside the product. It emphasizes responsible interpretation under units, indexing, scaling, transformation order, pathway validity, and numerical reproducibility."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

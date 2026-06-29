@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "dimension-compatibility",
+    "category": "structure",
+    "governance_note": "Check both dimensions and intermediate-layer meaning.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Dimension Compatibility"
+  },
+  {
+    "card_id": "row-column-rule",
+    "category": "calculation",
+    "governance_note": "Interpret dot products as pathway aggregation.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Row-Column Rule"
+  },
+  {
+    "card_id": "composition-order",
+    "category": "sequence",
+    "governance_note": "In AB, B acts first and A acts second.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Composition Order"
+  },
+  {
+    "card_id": "noncommutativity",
+    "category": "order",
+    "governance_note": "Do not reverse matrix order without a valid process interpretation.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Noncommutativity"
+  },
+  {
+    "card_id": "indirect-effects",
+    "category": "systems",
+    "governance_note": "Validate mediated pathways before treating product entries as system effects.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Indirect Effects"
+  }
+]

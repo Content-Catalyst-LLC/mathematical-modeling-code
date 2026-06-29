@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Check inner dimensions and intermediate-layer meaning.",
+    "review_item": "dimension_compatibility",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document what acts first and what acts second.",
+    "review_item": "composition_order",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain product entries as dot products or pathway aggregations.",
+    "review_item": "row_column_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review units, row/column order, and naming conventions.",
+    "review_item": "unit_index_alignment",
+    "status": "required"
+  },
+  {
+    "governance_note": "Do not reverse matrix order without a valid process interpretation.",
+    "review_item": "noncommutativity_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Validate mediated pathways before treating product entries as effects.",
+    "review_item": "indirect_effect_validation",
+    "status": "recommended"
+  }
+]

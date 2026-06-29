@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+dimension_compatibility,Dimension compatibility,Inner dimensions must match,One layer must feed meaningfully into the next,Matching dimensions do not guarantee matching concepts or units
+row_column_rule,Row-column rule,Product entry is row dot column,Aggregates pathway contributions through intermediate components,Intermediate indexes should have system meaning
+composition_order,Composition order,In AB B acts first and A second,Sequence matters in process interpretation,Do not reverse order casually
+noncommutativity,Noncommutativity,Usually AB is not BA,Process order and pathway direction matter,Reverse products may be impossible or conceptually different
+associativity,Associativity,Grouping changes but order stays fixed,Layered models can be grouped differently,Grouping can affect cost and numerical behavior
+indirect_effect,Indirect effect,Product entries sum mediated contributions,Captures multi-step system relationships,Indirect effects require substantive validation
+repeated_product,Repeated product,Matrix powers represent repeated action,Supports network walks and dynamics,Long-run interpretation requires stability review
+identity_matrix,Identity matrix,Neutral multiplication element,Represents no transformation or no change,Identity comparisons require compatible dimensions

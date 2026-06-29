@@ -1,0 +1,28 @@
+section                           
+----------------------------------
+MATRIX PRODUCT ASSUMPTION REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Composition order        In AB B acts first and A acts second.                         Transformation sequence matters for system interpretation.    Reversing order can change meaning or be impossible.        
+
+Dimension compatibility  The inner dimensions of two matrices must match for multipli  The output layer of the first transformation must feed meani  Matching dimensions do not guarantee matching units or conce
+                         cation.                                                       ngfully into the input layer of the second.                   pts.                                                        
+
+Indirect effect          Product entries sum contributions through intermediate index  Captures mediated or multi-step system relationships.         Indirect effects require substantive validation.            
+                         es.                                                                                                                                                                                     
+
+Noncommutativity         Matrix multiplication usually satisfies AB not equal BA.      Process order pipeline order and pathway direction matter.    Do not swap products unless the transformation meaning permi
+                                                                                                                                                     ts it.                                                      
+
+Repeated product         Matrix powers represent repeated application of a transforma  Supports pathway transition and dynamic-system analysis.      Long-run interpretation requires stability and model-scope r
+                         tion.                                                                                                                       eview.                                                      
+
+Row-column rule          Each product entry is a dot product of one row and one colum  Each entry aggregates pathway contributions through intermed  Intermediate indexes should have documented system meaning. 
+                         n.                                                            iate components.                                                                                                          
+section                               
+--------------------------------------
+MATRIX PRODUCT INTERACTION AUDIT CASES
+system_name                             left_shape  right_shape  product_shape  product_matrix                       reverse_product_available  warning                                                     
+--------------------------------------  ----------  -----------  -------------  -----------------------------------  -------------------------  ------------------------------------------------------------
+two_stage_demand_to_stress_interaction  2x3         3x2          2x2            1.040000,0.560000;0.585000,0.940000  1                          Matrix product interpretation requires order intermediate-la
+                                                                                                                                                yer unit and pathway review.                                

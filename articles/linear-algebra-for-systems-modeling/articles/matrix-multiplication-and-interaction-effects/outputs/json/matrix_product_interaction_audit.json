@@ -1,0 +1,11 @@
+{
+  "governance_warning": "Matrix products should document transformation order, intermediate-layer meaning, unit compatibility, row-column alignment, and whether indirect effects are substantively valid.",
+  "interaction_interpretation": "B maps demand categories into intermediate components; A maps intermediate components into stress indicators; AB maps demand categories directly into stress indicators through all intermediate pathways.",
+  "left_shape": "2x3",
+  "noncommutative_warning": "reverse product is dimensionally available but represents a different transformation order",
+  "product_matrix": "1.040000,0.560000;0.585000,0.940000",
+  "product_shape": "2x2",
+  "reverse_product_available": true,
+  "right_shape": "3x2",
+  "system_name": "two_stage_demand_to_stress_interaction"
+}

@@ -1,0 +1,9 @@
+{
+  "calculator": "matrix_product_calculator",
+  "left_shape": "2x3",
+  "product_matrix": "1.040000,0.560000;0.585000,0.940000",
+  "product_shape": "2x2",
+  "reverse_product_available": true,
+  "right_shape": "3x2",
+  "warning": "Matrix products require order, intermediate-layer meaning, units, row-column alignment, and pathway validity review."
+}

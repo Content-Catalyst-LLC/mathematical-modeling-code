@@ -1,0 +1,6 @@
+                 calculator left_shape right_shape product_shape
+1 matrix_product_calculator        2x3         3x2           2x2
+                       product_matrix reverse_product_available
+1 1.040000,0.560000;0.585000,0.940000                      TRUE
+                                                                                                               warning
+1 Matrix products require order, intermediate-layer meaning, units, row-column alignment, and pathway validity review.

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatrixProductInteractionAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "left_shape",
+    "right_shape",
+    "product_shape",
+    "product_matrix",
+    "reverse_product_available",
+    "noncommutative_warning",
+    "interaction_interpretation",
+    "governance_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "left_shape": {
+      "type": "string"
+    },
+    "right_shape": {
+      "type": "string"
+    },
+    "product_shape": {
+      "type": "string"
+    },
+    "product_matrix": {
+      "type": "string"
+    },
+    "reverse_product_available": {
+      "type": "boolean"
+    },
+    "noncommutative_warning": {
+      "type": "string"
+    },
+    "interaction_interpretation": {
+      "type": "string"
+    },
+    "governance_warning": {
+      "type": "string"
+    }
+  }
+}

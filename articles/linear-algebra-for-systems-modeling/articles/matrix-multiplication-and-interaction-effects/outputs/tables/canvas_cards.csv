@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+dimension-compatibility,Dimension Compatibility,structure,96,active,2026-06-28,Check both dimensions and intermediate-layer meaning.
+row-column-rule,Row-Column Rule,calculation,95,active,2026-06-28,Interpret dot products as pathway aggregation.
+composition-order,Composition Order,sequence,94,review,2026-06-28,"In AB, B acts first and A acts second."
+noncommutativity,Noncommutativity,order,93,review,2026-06-28,Do not reverse matrix order without a valid process interpretation.
+indirect-effects,Indirect Effects,systems,92,review,2026-06-28,Validate mediated pathways before treating product entries as system effects.
