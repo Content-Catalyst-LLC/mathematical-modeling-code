@@ -1,0 +1,13 @@
+{
+  "determinant": 0.6016,
+  "dominant_eigenvalue": 0.94,
+  "eigenpair_residual_warning": "For production workflows, compute eigenpair residuals ||Av-lambda v|| using a numerical linear algebra library and report sensitivity diagnostics.",
+  "eigenvalue_1": 0.94,
+  "eigenvalue_2": 0.64,
+  "interpretation_warning": "Eigenvalues describe modes of the specified matrix, not automatic causal mechanisms. Mode interpretation depends on matrix construction, units, scaling, domain meaning, and whether linear dynamics are appropriate.",
+  "matrix_entries": "0.820000,0.120000;0.180000,0.760000",
+  "spectral_radius": 0.94,
+  "stability_classification": "asymptotically_damped_discrete_time",
+  "system_name": "two_sector_mode_audit",
+  "trace": 1.58
+}

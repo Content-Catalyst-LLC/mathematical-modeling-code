@@ -1,0 +1,1 @@
+# Notebooks\n\nNotebook-ready workspace for eigenvalues, eigenvectors, system modes, spectral radius, stability diagnostics, and mode interpretation review.\n

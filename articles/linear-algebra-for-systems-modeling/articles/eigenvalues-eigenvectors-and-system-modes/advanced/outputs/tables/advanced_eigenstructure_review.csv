@@ -1,0 +1,7 @@
+review_item,status,governance_note
+matrix_definition,required,"Document what the matrix represents, including units, weights, and time step."
+mode_interpretation,required,Explain what each major eigenvector mode means in domain terms.
+spectral_radius_review,required,State how spectral radius is used for stability or amplification claims.
+eigenpair_residuals,required,Report ||Av-lambda v|| for computed eigenpairs in production workflows.
+spectral_gap,recommended,Review whether dominant modes are well separated.
+nonnormality_conditioning,recommended,Check whether transient amplification or eigenvector sensitivity limits interpretation.

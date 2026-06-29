@@ -1,0 +1,8 @@
+                 calculator                      matrix_entries trace
+1 eigenstructure_calculator 0.820000,0.120000;0.180000,0.760000  1.58
+  determinant eigenvalue_1 eigenvalue_2 spectral_radius dominant_eigenvalue
+1      0.6016         0.94         0.64            0.94                0.94
+             stability_classification
+1 asymptotically_damped_discrete_time
+                                                                               warning
+1 Eigenvalues describe modes of the specified matrix, not automatic causal mechanisms.

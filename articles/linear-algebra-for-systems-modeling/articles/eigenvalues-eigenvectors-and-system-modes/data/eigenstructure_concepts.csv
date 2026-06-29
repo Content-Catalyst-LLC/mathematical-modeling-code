@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+matrix_definition,Matrix definition,Defines the transformation analyzed by eigenstructure,Determines what the modes can represent,Eigenmodes inherit meaning from matrix construction
+eigenvalue,Eigenvalue,Scaling factor along eigenvector direction,Represents growth decay persistence reversal or oscillation,Meaning depends on time scale and transformation definition
+eigenvector,Eigenvector,Invariant nonzero direction of a transformation,Represents a system mode or pattern,Eigenvectors are not automatically causal mechanisms
+eigenspace,Eigenspace,Null space of A-lambda I,All modes associated with one eigenvalue,Repeated eigenvalues require careful review
+spectral_radius,Spectral radius,Largest eigenvalue magnitude,Often controls asymptotic behavior,Nonnormal matrices may have transient amplification
+dominant_mode,Dominant mode,Mode associated with largest eigenvalue magnitude,May dominate long-run behavior,Dominance depends on spectral gap and initial conditions
+eigenpair_residual,Eigenpair residual,Measures Av-lambda v numerically,Supports auditability,Small residual does not guarantee substantive meaning
+complex_pair,Complex conjugate eigenvalues,Encodes scaling and rotation,Represents possible oscillation or cycles,Requires real-state interpretation

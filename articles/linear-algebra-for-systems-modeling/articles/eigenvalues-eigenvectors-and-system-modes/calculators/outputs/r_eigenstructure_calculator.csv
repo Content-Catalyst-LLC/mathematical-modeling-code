@@ -1,0 +1,2 @@
+"calculator","matrix_entries","trace","determinant","eigenvalue_1","eigenvalue_2","spectral_radius","dominant_eigenvalue","stability_classification","warning"
+"eigenstructure_calculator","0.820000,0.120000;0.180000,0.760000",1.58,0.6016,0.94,0.64,0.94,0.94,"asymptotically_damped_discrete_time","Eigenvalues describe modes of the specified matrix, not automatic causal mechanisms."

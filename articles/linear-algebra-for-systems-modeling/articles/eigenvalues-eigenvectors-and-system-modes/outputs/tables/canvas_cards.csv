@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+eigenvalue,Eigenvalue,mode,96,active,2026-06-28,Document scaling behavior along each mode.
+eigenvector,Eigenvector,mode,95,active,2026-06-28,"Interpret as an invariant direction, not automatic causality."
+spectral-radius,Spectral Radius,stability,94,review,2026-06-28,Use for asymptotic behavior with assumptions stated.
+dominant-mode,Dominant Mode,interpretation,93,review,2026-06-28,"Check spectral gap, initial conditions, and matrix validity."
+eigenpair-diagnostics,Eigenpair Diagnostics,numerical,92,review,2026-06-28,"Report residuals, conditioning, and sensitivity warnings."

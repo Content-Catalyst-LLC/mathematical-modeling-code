@@ -1,0 +1,53 @@
+{
+  "article_slug": "eigenvalues-eigenvectors-and-system-modes",
+  "series": "Linear Algebra for Systems Modeling",
+  "canvas_layer": "eigenvalues-eigenvectors-system-modes",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
+    "python",
+    "r",
+    "julia",
+    "sql",
+    "haskell",
+    "c",
+    "cpp",
+    "fortran",
+    "rust",
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "eigenvalue",
+      "title": "Eigenvalue",
+      "description": "Scaling factor for a preserved mode direction."
+    },
+    {
+      "card_id": "eigenvector",
+      "title": "Eigenvector",
+      "description": "Invariant direction of a transformation."
+    },
+    {
+      "card_id": "system-mode",
+      "title": "System Mode",
+      "description": "Pattern of growth, decay, persistence, reversal, or oscillation."
+    },
+    {
+      "card_id": "spectral-radius",
+      "title": "Spectral Radius",
+      "description": "Largest eigenvalue magnitude and stability signal."
+    },
+    {
+      "card_id": "eigenpair-diagnostics",
+      "title": "Eigenpair Diagnostics",
+      "description": "Residual, spectral gap, conditioning, and interpretation checks."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
+}

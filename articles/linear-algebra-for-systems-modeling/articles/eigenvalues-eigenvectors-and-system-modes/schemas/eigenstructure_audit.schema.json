@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EigenstructureAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "matrix_entries",
+    "trace",
+    "determinant",
+    "eigenvalue_1",
+    "eigenvalue_2",
+    "spectral_radius",
+    "dominant_eigenvalue",
+    "stability_classification",
+    "eigenpair_residual_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "matrix_entries": {
+      "type": "string"
+    },
+    "trace": {
+      "type": "number"
+    },
+    "determinant": {
+      "type": "number"
+    },
+    "eigenvalue_1": {
+      "type": "number"
+    },
+    "eigenvalue_2": {
+      "type": "number"
+    },
+    "spectral_radius": {
+      "type": "number"
+    },
+    "dominant_eigenvalue": {
+      "type": "number"
+    },
+    "stability_classification": {
+      "type": "string"
+    },
+    "eigenpair_residual_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

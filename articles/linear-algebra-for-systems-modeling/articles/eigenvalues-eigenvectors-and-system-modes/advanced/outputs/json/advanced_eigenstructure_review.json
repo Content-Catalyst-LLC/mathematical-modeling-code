@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Document what the matrix represents, including units, weights, and time step.",
+    "review_item": "matrix_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain what each major eigenvector mode means in domain terms.",
+    "review_item": "mode_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "State how spectral radius is used for stability or amplification claims.",
+    "review_item": "spectral_radius_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report ||Av-lambda v|| for computed eigenpairs in production workflows.",
+    "review_item": "eigenpair_residuals",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whether dominant modes are well separated.",
+    "review_item": "spectral_gap",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Check whether transient amplification or eigenvector sensitivity limits interpretation.",
+    "review_item": "nonnormality_conditioning",
+    "status": "recommended"
+  }
+]

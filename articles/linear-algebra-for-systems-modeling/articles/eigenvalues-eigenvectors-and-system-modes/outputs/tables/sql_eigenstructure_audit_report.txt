@@ -1,0 +1,28 @@
+section                           
+----------------------------------
+EIGENSTRUCTURE ASSUMPTION REGISTRY
+assumption_name     mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Dominant mode       Mode associated with the largest eigenvalue magnitude.        May dominate long-run behavior under suitable assumptions.    Dominance depends on initial conditions spectral gap and mod
+                                                                                                                                                el validity.                                                
+
+Eigenpair residual  Measures how well Av equals lambda v numerically.             Supports auditability of computed eigenvalues and eigenvecto  Small numerical residual does not guarantee substantive inte
+                                                                                  rs.                                                           rpretation.                                                 
+
+Eigenvalue          Scaling factor along an eigenvector direction.                Represents growth decay persistence reversal or oscillatory   Eigenvalue meaning depends on time scale model type and tran
+                                                                                  structure.                                                    sformation definition.                                      
+
+Eigenvector         Invariant direction of a linear transformation.               Represents a system mode or pattern that evolves by scaling.  Eigenvectors are not automatically causal mechanisms.       
+
+Matrix definition   Defines the transformation whose eigenstructure is analyzed.  Determines what system behavior the modes can represent.      Eigenmodes inherit meaning from matrix construction units an
+                                                                                                                                                d weights.                                                  
+
+Spectral radius     Largest eigenvalue magnitude.                                 Often controls asymptotic behavior in repeated linear system  Nonnormal matrices may have important transient behavior not
+                                                                                  s.                                                             captured by eigenvalues alone.                             
+section                   
+--------------------------
+EIGENSTRUCTURE AUDIT CASES
+system_name            eigenvalue_1  eigenvalue_2  spectral_radius  dominant_eigenvalue  stability_classification             warning                                                     
+---------------------  ------------  ------------  ---------------  -------------------  -----------------------------------  ------------------------------------------------------------
+two_sector_mode_audit  0.94          0.64          0.94             0.94                 asymptotically_damped_discrete_time  Eigenvalues describe modes of the specified matrix not autom
+                                                                                                                              atic causal mechanisms.                                     

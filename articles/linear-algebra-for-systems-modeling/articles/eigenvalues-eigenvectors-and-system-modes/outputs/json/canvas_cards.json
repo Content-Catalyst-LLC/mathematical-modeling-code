@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "eigenvalue",
+    "category": "mode",
+    "governance_note": "Document scaling behavior along each mode.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Eigenvalue"
+  },
+  {
+    "card_id": "eigenvector",
+    "category": "mode",
+    "governance_note": "Interpret as an invariant direction, not automatic causality.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Eigenvector"
+  },
+  {
+    "card_id": "spectral-radius",
+    "category": "stability",
+    "governance_note": "Use for asymptotic behavior with assumptions stated.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Spectral Radius"
+  },
+  {
+    "card_id": "dominant-mode",
+    "category": "interpretation",
+    "governance_note": "Check spectral gap, initial conditions, and matrix validity.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Dominant Mode"
+  },
+  {
+    "card_id": "eigenpair-diagnostics",
+    "category": "numerical",
+    "governance_note": "Report residuals, conditioning, and sensitivity warnings.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Eigenpair Diagnostics"
+  }
+]
