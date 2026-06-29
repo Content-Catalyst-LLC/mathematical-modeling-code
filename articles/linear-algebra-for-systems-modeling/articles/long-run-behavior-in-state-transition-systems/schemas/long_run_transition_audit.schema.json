@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LongRunTransitionAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "states",
+    "orientation",
+    "transition_matrix",
+    "initial_distribution_a",
+    "initial_distribution_b",
+    "stationary_estimate",
+    "distribution_a_after_25_steps",
+    "distribution_b_after_25_steps",
+    "convergence_distance_a",
+    "convergence_distance_b",
+    "initial_condition_gap_after_25_steps",
+    "row_sum_error",
+    "nonnegative",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "states": {
+      "type": "string"
+    },
+    "orientation": {
+      "type": "string"
+    },
+    "transition_matrix": {
+      "type": "string"
+    },
+    "initial_distribution_a": {
+      "type": "string"
+    },
+    "initial_distribution_b": {
+      "type": "string"
+    },
+    "stationary_estimate": {
+      "type": "string"
+    },
+    "distribution_a_after_25_steps": {
+      "type": "string"
+    },
+    "distribution_b_after_25_steps": {
+      "type": "string"
+    },
+    "convergence_distance_a": {
+      "type": "number"
+    },
+    "convergence_distance_b": {
+      "type": "number"
+    },
+    "initial_condition_gap_after_25_steps": {
+      "type": "number"
+    },
+    "row_sum_error": {
+      "type": "number"
+    },
+    "nonnegative": {
+      "type": "boolean"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "matrix-powers",
+    "category": "long-run",
+    "governance_note": "Use repeated transition powers for multi-step evolution.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Matrix Powers"
+  },
+  {
+    "card_id": "stationary-distribution",
+    "category": "long-run",
+    "governance_note": "Distinguish stationary from limiting behavior.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Stationary Distribution"
+  },
+  {
+    "card_id": "convergence-distance",
+    "category": "diagnostic",
+    "governance_note": "Measure distance from long-run estimates and review practical thresholds.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Convergence Distance"
+  },
+  {
+    "card_id": "initial-condition-sensitivity",
+    "category": "diagnostic",
+    "governance_note": "Compare starting distributions to test path dependence.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Initial-Condition Sensitivity"
+  },
+  {
+    "card_id": "lock-in-review",
+    "category": "governance",
+    "governance_note": "Absorbing and closed classes can reveal persistent risk or lock-in.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Lock-In Review"
+  }
+]

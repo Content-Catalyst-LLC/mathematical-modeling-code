@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+matrix-powers,Matrix Powers,long-run,97,active,2026-06-29,Use repeated transition powers for multi-step evolution.
+stationary-distribution,Stationary Distribution,long-run,96,active,2026-06-29,Distinguish stationary from limiting behavior.
+convergence-distance,Convergence Distance,diagnostic,95,review,2026-06-29,Measure distance from long-run estimates and review practical thresholds.
+initial-condition-sensitivity,Initial-Condition Sensitivity,diagnostic,94,review,2026-06-29,Compare starting distributions to test path dependence.
+lock-in-review,Lock-In Review,governance,93,review,2026-06-29,Absorbing and closed classes can reveal persistent risk or lock-in.

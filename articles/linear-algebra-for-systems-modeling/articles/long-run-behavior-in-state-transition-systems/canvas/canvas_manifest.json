@@ -1,10 +1,10 @@
 {
+  "article_slug": "long-run-behavior-in-state-transition-systems",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "long-run-behavior-in-state-transition-systems",
-  "title": "Long-Run Behavior in State Transition Systems",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "long-run-behavior-state-transition-systems",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "matrix-powers",
+      "title": "Matrix Powers",
+      "description": "Repeated transition powers model multi-step evolution."
+    },
+    {
+      "card_id": "stationary-distribution",
+      "title": "Stationary Distribution",
+      "description": "A distribution unchanged by the transition rule."
+    },
+    {
+      "card_id": "convergence-distance",
+      "title": "Convergence Distance",
+      "description": "Measures distance from long-run estimates."
+    },
+    {
+      "card_id": "initial-condition-sensitivity",
+      "title": "Initial-Condition Sensitivity",
+      "description": "Tests whether starting distributions fade or persist."
+    },
+    {
+      "card_id": "lock-in-review",
+      "title": "Lock-In Review",
+      "description": "Absorbing and closed classes reveal persistent regimes."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

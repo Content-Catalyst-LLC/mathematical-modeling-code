@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Distinguish stationary distributions from actual limiting behavior.",
+    "review_item": "stationary_vs_limiting",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare different starting distributions to test path dependence.",
+    "review_item": "initial_condition_sensitivity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Measure whether convergence occurs within a practical decision horizon.",
+    "review_item": "convergence_speed",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review absorbing states and closed classes for lock-in or terminal outcomes.",
+    "review_item": "closed_classes_absorption",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether cycles prevent simple convergence.",
+    "review_item": "periodicity",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Review whether a fixed transition matrix remains valid over repeated steps.",
+    "review_item": "transition_rule_validity",
+    "status": "required"
+  }
+]

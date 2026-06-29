@@ -1,0 +1,2 @@
+"calculator","states","orientation","transition_matrix","stationary_estimate","distribution_after_25_steps","convergence_distance","row_sum_error","nonnegative","warning"
+"long_run_transition_calculator","good|fair|poor","row_stochastic_row_vector_update_pi_next_equals_pi_P","0.820000,0.160000,0.020000;0.100000,0.760000,0.140000;0.030000,0.220000,0.750000","0.233333,0.488889,0.277778","0.236019,0.487126,0.276855",0.005372,0,TRUE,"Long-run behavior depends on convergence diagnostics, initial-condition sensitivity, stationarity, and practical horizon."

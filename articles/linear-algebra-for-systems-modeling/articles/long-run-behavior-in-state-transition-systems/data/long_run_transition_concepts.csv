@@ -1,0 +1,10 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+matrix_powers,Matrix powers,Represent repeated transition operators,Model multi-step system evolution,Repeated powers assume matrix validity over horizon
+stationary_distribution,Stationary distribution,Solves pi P = pi,Distribution unchanged by transition,Stationary does not guarantee convergence from all starts
+limiting_distribution,Limiting distribution,Limit of pi0 P^t if it exists,Long-run state composition,May not exist in periodic or reducible systems
+initial_condition_sensitivity,Initial-condition sensitivity,Compares evolution from different starts,Shows whether the system forgets initial state,Absorbing and reducible systems can preserve path dependence
+convergence_distance,Convergence distance,Measures distance to stationary estimate,Tracks long-run approach,Choice of distance and practical threshold matter
+spectral_gap,Spectral gap,Proxy for transient-mode decay speed,Helps assess mixing speed,Slow mixing can make long run irrelevant to decisions
+absorbing_state,Absorbing state,State that cannot be left,Terminal or locked-in state,Irreversibility requires domain justification
+closed_class,Closed class,Subset that cannot be exited,Persistent regime or lock-in,Can preserve structural inequality or risk
+periodicity,Periodicity,Rigid return cycle,Cyclic long-run behavior,Stationary may exist without simple convergence

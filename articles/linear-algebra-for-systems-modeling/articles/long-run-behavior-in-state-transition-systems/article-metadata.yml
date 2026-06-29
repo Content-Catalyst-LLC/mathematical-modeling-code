@@ -1,8 +1,7 @@
 actual_title: "Long-Run Behavior in State Transition Systems"
-suggested_seo_title: "Long-Run Behavior in State Transition Systems: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Long-Run Behavior in State Transition Systems: How Linear Algebra Reveals Steady States and Persistence"
+focus_keyword: "long-run behavior in state transition systems"
 slug: "long-run-behavior-in-state-transition-systems"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/long-run-behavior-in-state-transition-systems"
 tags:
   - Linear Algebra
+  - State Transition Systems
+  - Long-Run Behavior
+  - Transition Matrices
+  - Stationary Distributions
+  - Convergence
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Long-Run Behavior in State Transition Systems is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Long-run behavior in state transition systems explains how repeated transitions shape convergence, persistence, absorption, cycling, and steady-state structure. This article introduces state transition systems, transition matrices, matrix powers, limiting distributions, stationary distributions, initial-condition sensitivity, convergence, mixing, spectral gaps, absorbing states, closed classes, periodicity, ergodicity, persistence, lock-in, validation, and long-run model governance. It shows how repeated multiplication by a transition matrix can reveal whether a system forgets its starting distribution, converges toward a stable pattern, cycles through persistent regimes, or becomes trapped in absorbing outcomes. The article connects long-run transition analysis to infrastructure condition systems, credit migration, ecological regimes, public health progression, social mobility, platform behavior, reliability, and policy planning. It emphasizes that long-run claims require structural diagnostics, practical horizon review, uncertainty checks, and responsible interpretation."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

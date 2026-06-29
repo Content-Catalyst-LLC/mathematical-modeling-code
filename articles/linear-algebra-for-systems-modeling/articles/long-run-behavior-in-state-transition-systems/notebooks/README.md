@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Long-Run Behavior in State Transition Systems** will live here.
+# Notebooks\n\nNotebook-ready workspace for long-run state transition behavior, matrix powers, stationary distributions, convergence distances, spectral-gap proxies, absorbing states, and transition governance.\n
