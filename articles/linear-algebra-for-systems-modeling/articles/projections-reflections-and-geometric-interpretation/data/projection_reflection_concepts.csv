@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+projection,Projection,Maps vector onto subspace,Retains model-representable structure,Target subspace must be justified
+residual,Residual,Difference between original and projection,Unmodeled or unexplained structure,Residuals may contain important signal
+orthogonality,Orthogonality,Perpendicularity under inner product,Defines residual independence from modeled directions,Depends on chosen geometry
+projection_matrix,Projection matrix,Idempotent operator,Maps observations to retained structure,Check idempotence and symmetry
+reflection,Reflection,Preserves mirror component and reverses perpendicular component,Represents symmetry reversal or orientation change,Not the same as approximation
+distance_geometry,Distance geometry,Norm and inner-product structure,Defines closest approximation and residual size,Units scaling and weighting affect conclusions
+householder_reflection,Householder reflection,Orthogonal reflection used in QR workflows,Stable numerical transformation,Interpret as algorithmic operation not domain mechanism
+operator_diagnostics,Operator diagnostics,Checks algebraic properties numerically,Documents computational reliability,Small errors should still be reported

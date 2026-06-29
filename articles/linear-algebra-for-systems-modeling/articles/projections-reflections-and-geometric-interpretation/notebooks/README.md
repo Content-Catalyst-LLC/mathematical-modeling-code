@@ -1,3 +1,3 @@
 # Notebooks
 
-Notebook-ready walkthroughs for **Projections, Reflections, and Geometric Interpretation** will live here.
+Notebook-ready workspace for projections, reflections, residuals, orthogonality, operator diagnostics, and geometric interpretation.

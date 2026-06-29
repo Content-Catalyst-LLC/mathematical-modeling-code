@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "projection",
+    "category": "geometry",
+    "governance_note": "Document the target subspace and what is retained.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Projection"
+  },
+  {
+    "card_id": "residual",
+    "category": "diagnostic",
+    "governance_note": "Treat residuals as evidence, not automatic noise.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Residual"
+  },
+  {
+    "card_id": "orthogonality",
+    "category": "inner-product",
+    "governance_note": "State which geometry or weighting defines perpendicularity.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Orthogonality"
+  },
+  {
+    "card_id": "reflection",
+    "category": "symmetry",
+    "governance_note": "Use reflection for symmetry or reversal, not approximation.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Reflection"
+  },
+  {
+    "card_id": "operator-diagnostics",
+    "category": "numerical",
+    "governance_note": "Check idempotence, symmetry, involution, and length preservation.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Operator Diagnostics"
+  }
+]

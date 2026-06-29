@@ -1,0 +1,14 @@
+{
+  "interpretation_warning": "Projection retains the modeled direction and discards the perpendicular residual; reflection preserves distance while reversing the perpendicular component. Interpretation depends on the chosen geometry, units, scaling, and model purpose.",
+  "length_preservation_error": 0.0,
+  "original_vector": "4.000000,3.000000",
+  "projected_vector": "4.400000,2.200000",
+  "projection_idempotence_error": 0.0,
+  "projection_symmetry_error": 0.0,
+  "reflected_vector": "4.800000,1.400000",
+  "reflection_involution_error": 0.0,
+  "residual_norm": 0.894427191,
+  "residual_vector": "-0.400000,0.800000",
+  "system_name": "two_dimensional_geometric_transformation_audit",
+  "unit_direction": "0.894427,0.447214"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Document what the projection subspace means.",
+    "review_item": "target_subspace",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain whether residuals are noise, excluded structure, bias, or model limitation.",
+    "review_item": "residual_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "State which geometry defines distance and orthogonality.",
+    "review_item": "inner_product_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check idempotence, symmetry, rank, and residual norm.",
+    "review_item": "projection_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check involution, length preservation, and orientation meaning.",
+    "review_item": "reflection_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Avoid unstable normal-equation projection formulas when QR or SVD is better.",
+    "review_item": "numerical_stability",
+    "status": "recommended"
+  }
+]

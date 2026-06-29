@@ -1,8 +1,5 @@
 .PHONY: smoke clean
-
 smoke:
-	@mkdir -p outputs
-	@echo "Advanced scaffold smoke check complete." > outputs/advanced_smoke.txt
-
+	@if command -v python3 >/dev/null 2>&1; then python3 python/advanced_projection_reflection_audit.py --output-dir outputs; else echo "python3 not found; skipping advanced layer."; fi
 clean:
-	rm -f outputs/*.txt outputs/*.json outputs/*.md
+	rm -f outputs/reports/*.md outputs/tables/*.csv outputs/json/*.json

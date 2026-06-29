@@ -1,0 +1,14 @@
+{
+  "calculator": "projection_reflection_calculator",
+  "length_preservation_error": 0.0,
+  "original_vector": "4.000000,3.000000",
+  "projected_vector": "4.400000,2.200000",
+  "projection_idempotence_error": 0.0,
+  "projection_symmetry_error": 0.0,
+  "reflected_vector": "4.800000,1.400000",
+  "reflection_involution_error": 0.0,
+  "residual_norm": 0.894427,
+  "residual_vector": "-0.400000,0.800000",
+  "unit_direction": "0.894427,0.447214",
+  "warning": "Projection and reflection interpretation depends on geometry, units, scaling, and model purpose."
+}

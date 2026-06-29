@@ -1,0 +1,28 @@
+section                                     
+--------------------------------------------
+GEOMETRIC TRANSFORMATION ASSUMPTION REGISTRY
+assumption_name    mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Distance geometry  Uses norms and inner products to measure closeness and angle  Determines what counts as closest approximation or residual   Units scaling and weighting affect geometric conclusions.   
+                   .                                                             size.                                                                                                                     
+
+Orthogonality      Perpendicularity under an inner product.                      Defines what it means for residuals to be independent of mod  Orthogonality depends on the chosen geometry or weighting.  
+                                                                                 eled directions.                                                                                                          
+
+Projection         Maps a vector onto a target subspace.                         Retains model-representable structure and separates residual  The target subspace must be justified.                      
+                                                                                  structure.                                                                                                               
+
+Projection matrix  A matrix satisfying idempotence with symmetry for orthogonal  Maps observations to fitted or retained structure.            Projection matrices should be checked for idempotence and sy
+                    projection.                                                                                                                mmetry.                                                     
+
+Reflection         Preserves mirror-subspace components and reverses perpendicu  Represents symmetry reversal or orientation change.           Reflection is not the same as approximation or information l
+                   lar components.                                                                                                             oss.                                                        
+
+Residual           Difference between the original vector and its projection.    Represents unexplained discarded or unmodeled structure.      Residuals may contain important signal not merely noise.    
+section                          
+---------------------------------
+PROJECTION REFLECTION AUDIT CASES
+system_name                                     residual_norm  projection_idempotence_error  projection_symmetry_error  reflection_involution_error  length_preservation_error  warning                                                     
+----------------------------------------------  -------------  ----------------------------  -------------------------  ---------------------------  -------------------------  ------------------------------------------------------------
+two_dimensional_geometric_transformation_audit  0.894427       0.0                           0.0                        0.0                          0.0                        Projection and reflection interpretation depends on geometry
+                                                                                                                                                                                 units scaling and model purpose.                           

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+projection,Projection,geometry,96,active,2026-06-28,Document the target subspace and what is retained.
+residual,Residual,diagnostic,95,active,2026-06-28,"Treat residuals as evidence, not automatic noise."
+orthogonality,Orthogonality,inner-product,94,review,2026-06-28,State which geometry or weighting defines perpendicularity.
+reflection,Reflection,symmetry,93,review,2026-06-28,"Use reflection for symmetry or reversal, not approximation."
+operator-diagnostics,Operator Diagnostics,numerical,92,review,2026-06-28,"Check idempotence, symmetry, involution, and length preservation."

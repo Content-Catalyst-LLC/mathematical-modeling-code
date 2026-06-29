@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProjectionReflectionAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "original_vector",
+    "unit_direction",
+    "projected_vector",
+    "residual_vector",
+    "residual_norm",
+    "reflected_vector",
+    "projection_idempotence_error",
+    "projection_symmetry_error",
+    "reflection_involution_error",
+    "length_preservation_error",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {"type": "string"},
+    "original_vector": {"type": "string"},
+    "unit_direction": {"type": "string"},
+    "projected_vector": {"type": "string"},
+    "residual_vector": {"type": "string"},
+    "residual_norm": {"type": "number"},
+    "reflected_vector": {"type": "string"},
+    "projection_idempotence_error": {"type": "number"},
+    "projection_symmetry_error": {"type": "number"},
+    "reflection_involution_error": {"type": "number"},
+    "length_preservation_error": {"type": "number"},
+    "interpretation_warning": {"type": "string"}
+  }
+}
