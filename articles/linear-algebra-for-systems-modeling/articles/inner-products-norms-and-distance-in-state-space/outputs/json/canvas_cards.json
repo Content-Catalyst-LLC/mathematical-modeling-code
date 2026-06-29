@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "inner-product",
+    "category": "geometry",
+    "governance_note": "State the geometry used for alignment and orthogonality.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Inner Product"
+  },
+  {
+    "card_id": "norm",
+    "category": "measurement",
+    "governance_note": "Document which norm measures magnitude and residuals.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Norm"
+  },
+  {
+    "card_id": "distance",
+    "category": "state-space",
+    "governance_note": "Define what close and far mean in model terms.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Distance"
+  },
+  {
+    "card_id": "weighted-geometry",
+    "category": "governance",
+    "governance_note": "Justify weights as risk, uncertainty, cost, or priority.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Weighted Geometry"
+  },
+  {
+    "card_id": "scaling-audit",
+    "category": "diagnostic",
+    "governance_note": "Check units and normalization before comparing states.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Scaling Audit"
+  }
+]

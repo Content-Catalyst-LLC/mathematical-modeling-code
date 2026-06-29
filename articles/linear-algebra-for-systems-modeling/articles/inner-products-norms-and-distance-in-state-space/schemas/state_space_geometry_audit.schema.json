@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StateSpaceGeometryAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "state_a",
+    "state_b",
+    "difference_vector",
+    "dot_product",
+    "cosine_similarity",
+    "weighted_inner_product",
+    "norm_1",
+    "norm_2",
+    "norm_inf",
+    "euclidean_distance",
+    "weighted_distance",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "state_a": {
+      "type": "string"
+    },
+    "state_b": {
+      "type": "string"
+    },
+    "difference_vector": {
+      "type": "string"
+    },
+    "dot_product": {
+      "type": "number"
+    },
+    "cosine_similarity": {
+      "type": "number"
+    },
+    "weighted_inner_product": {
+      "type": "number"
+    },
+    "norm_1": {
+      "type": "number"
+    },
+    "norm_2": {
+      "type": "number"
+    },
+    "norm_inf": {
+      "type": "number"
+    },
+    "euclidean_distance": {
+      "type": "number"
+    },
+    "weighted_distance": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

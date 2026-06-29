@@ -1,0 +1,2 @@
+"calculator","state_a","state_b","difference_vector","dot_product","cosine_similarity","weighted_inner_product","norm_1","norm_2","norm_inf","euclidean_distance","weighted_distance","warning"
+"state_space_geometry_calculator","12.000000,4.000000,0.800000","10.000000,5.500000,1.100000","2.000000,-1.500000,-0.300000",142.88,0.988725,133.04,3.8,2.517936,2,2.517936,2.33538,"Distance depends on units, scaling, norm choice, and weights."

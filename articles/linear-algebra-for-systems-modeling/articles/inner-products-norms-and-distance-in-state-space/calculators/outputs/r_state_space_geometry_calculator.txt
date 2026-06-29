@@ -1,0 +1,10 @@
+                       calculator                     state_a
+1 state_space_geometry_calculator 12.000000,4.000000,0.800000
+                      state_b            difference_vector dot_product
+1 10.000000,5.500000,1.100000 2.000000,-1.500000,-0.300000      142.88
+  cosine_similarity weighted_inner_product norm_1   norm_2 norm_inf
+1          0.988725                 133.04    3.8 2.517936        2
+  euclidean_distance weighted_distance
+1           2.517936           2.33538
+                                                        warning
+1 Distance depends on units, scaling, norm choice, and weights.

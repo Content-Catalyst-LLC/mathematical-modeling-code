@@ -1,0 +1,15 @@
+{
+  "cosine_similarity": 0.983213379663,
+  "difference_vector": "2.000000,-1.500000,-0.300000",
+  "dot_product": 142.88,
+  "euclidean_distance": 2.517935662403,
+  "interpretation_warning": "State-space distance depends on units, scaling, norm choice, and weights. Weighted distances may reflect risk, uncertainty, cost, or priority, but those weights must be documented and translated back into domain terms.",
+  "norm_1": 3.8,
+  "norm_2": 2.517935662403,
+  "norm_inf": 2.0,
+  "state_a": "12.000000,4.000000,0.800000",
+  "state_b": "10.000000,5.500000,1.100000",
+  "system_name": "three_indicator_state_space_geometry_audit",
+  "weighted_distance": 2.417643480747,
+  "weighted_inner_product": 138.04
+}

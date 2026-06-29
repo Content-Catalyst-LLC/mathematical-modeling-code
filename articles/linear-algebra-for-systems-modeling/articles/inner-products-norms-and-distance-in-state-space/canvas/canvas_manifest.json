@@ -1,10 +1,10 @@
 {
+  "article_slug": "inner-products-norms-and-distance-in-state-space",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "inner-products-norms-and-distance-in-state-space",
-  "title": "Inner Products, Norms, and Distance in State Space",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "inner-products-norms-distance-state-space",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "inner-product",
+      "title": "Inner Product",
+      "description": "Defines alignment, angle, and orthogonality."
+    },
+    {
+      "card_id": "norm",
+      "title": "Norm",
+      "description": "Measures magnitude of states, errors, and residuals."
+    },
+    {
+      "card_id": "distance",
+      "title": "Distance",
+      "description": "Measures separation between system states."
+    },
+    {
+      "card_id": "weighted-geometry",
+      "title": "Weighted Geometry",
+      "description": "Encodes risk, uncertainty, cost, or priority."
+    },
+    {
+      "card_id": "scaling-audit",
+      "title": "Scaling Audit",
+      "description": "Reviews units, normalization, and coordinate comparability."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

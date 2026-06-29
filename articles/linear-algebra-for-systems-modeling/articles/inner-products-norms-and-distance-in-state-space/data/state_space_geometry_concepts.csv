@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+inner_product,Inner product,Defines alignment angle orthogonality and length,Determines how state directions are compared,Changing weights units or scaling can change conclusions
+dot_product,Dot product,Standard Euclidean inner product,Default coordinate alignment measure,May be misleading when units differ
+norm,Norm,Measures vector magnitude,Measures state size residual size or error,Different norms emphasize different deviations
+distance,Distance,Norm of state difference,Measures separation between states,Meaningful only with comparable coordinates
+weighted_geometry,Weighted geometry,Positive definite matrix defines direction weights,Represents risk cost energy uncertainty or priority,Weights must be justified
+cosine_similarity,Cosine similarity,Normalized dot product,Compares direction rather than magnitude,Undefined for near-zero vectors
+covariance_distance,Covariance-aware distance,Uses covariance inverse to measure unusual deviation,Accounts for variance and correlation,Requires reliable covariance estimation
+condition_number,Condition number,Norm-based sensitivity measure,Shows numerical fragility,Norm choice and scaling matter

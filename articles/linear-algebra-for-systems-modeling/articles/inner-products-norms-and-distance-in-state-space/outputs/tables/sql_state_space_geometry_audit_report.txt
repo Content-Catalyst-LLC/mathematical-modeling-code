@@ -1,0 +1,26 @@
+section                                 
+----------------------------------------
+STATE SPACE GEOMETRY ASSUMPTION REGISTRY
+assumption_name            mathematical_role                                          systems_modeling_role                                         review_warning                                              
+-------------------------  ---------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Covariance-aware distance  Uses covariance structure to measure unusual deviation.    Accounts for variance and correlation among state variables.  Requires reliable covariance estimation and review.         
+
+Distance                   Applies a norm to the difference between states.           Measures separation between scenarios observations or simula  Distance is meaningful only when state coordinates are compa
+                                                                                      tions.                                                        rable.                                                      
+
+Inner product              Defines alignment angle orthogonality and derived length.  Determines how state directions are compared.                 Changing weights units or scaling can change geometric concl
+                                                                                                                                                    usions.                                                     
+
+Norm                       Measures vector magnitude.                                 Measures state size residual magnitude error or change.       Different norms emphasize different kinds of deviation.     
+
+Normalization              Transforms coordinates to comparable scales.               Reduces unit dominance in distance calculations.              Normalized outputs must be translated back into domain terms
+                                                                                                                                                    .                                                           
+
+Weighted geometry          Uses a positive definite matrix to weight directions.      Represents risk cost energy uncertainty priority or reliabil  Weights must be justified and documented.                   
+                                                                                      ity.                                                                                                                      
+section                         
+--------------------------------
+STATE SPACE GEOMETRY AUDIT CASES
+system_name                                 norm_1  norm_2    norm_inf  euclidean_distance  weighted_distance  warning                                                   
+------------------------------------------  ------  --------  --------  ------------------  -----------------  ----------------------------------------------------------
+three_indicator_state_space_geometry_audit  3.8     2.517936  2.0       2.517936            2.33538            Distance depends on units scaling norm choice and weights.

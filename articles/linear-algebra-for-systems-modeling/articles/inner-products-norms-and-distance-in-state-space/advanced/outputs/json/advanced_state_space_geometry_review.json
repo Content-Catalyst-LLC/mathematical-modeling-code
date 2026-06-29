@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "State whether geometry is Euclidean, weighted, covariance-aware, or domain-specific.",
+    "review_item": "inner_product_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document which norm measures residuals, error, distance, or convergence.",
+    "review_item": "norm_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether coordinate units make distance meaningful.",
+    "review_item": "scaling_units",
+    "status": "required"
+  },
+  {
+    "governance_note": "Justify weights as risk, cost, uncertainty, reliability, priority, or energy.",
+    "review_item": "weights_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Use covariance-aware distance only when covariance estimates are reliable.",
+    "review_item": "covariance_review",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Translate normalized or weighted distances back into domain terms.",
+    "review_item": "translation_back",
+    "status": "recommended"
+  }
+]

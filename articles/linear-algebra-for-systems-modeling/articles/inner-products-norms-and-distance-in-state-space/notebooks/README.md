@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Inner Products, Norms, and Distance in State Space** will live here.
+# Notebooks\n\nNotebook-ready workspace for inner products, norms, state-space distance, weighted geometry, scaling diagnostics, and residual magnitude review.\n
