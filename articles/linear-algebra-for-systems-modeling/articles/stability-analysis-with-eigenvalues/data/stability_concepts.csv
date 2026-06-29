@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+time_model,Time model,Distinguishes discrete-time from continuous-time systems,Determines stability rule,Do not apply one time model's eigenvalue rule to another
+spectral_radius,Spectral radius,Largest eigenvalue magnitude,Supports discrete-time stability classification,Nonnormality and forcing can complicate practical stability
+largest_real_part,Largest real part,Maximum real part among eigenvalues,Supports continuous-time stability classification,Boundary cases require deeper analysis
+stable_mode,Stable mode,Mode that decays over time,Represents damped perturbation,Decay may be too slow for practical stability
+unstable_mode,Unstable mode,Mode that amplifies over time,Represents growing perturbation,Amplification may exit the linear model region
+marginal_mode,Marginal mode,Mode on the stability boundary,Represents persistence or oscillation,Requires additional structural review
+local_linearization,Local linearization,Uses Jacobian near equilibrium,Supports local stability claims,Local does not imply global
+transient_growth,Transient growth,Short-run amplification despite asymptotic decay,Important for risk and safety,Eigenvalue-only stories can miss it

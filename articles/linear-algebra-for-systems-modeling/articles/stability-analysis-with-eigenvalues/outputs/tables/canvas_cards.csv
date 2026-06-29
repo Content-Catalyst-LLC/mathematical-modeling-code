@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+time-model,Time Model,stability,97,active,2026-06-29,"State whether the matrix is discrete-time, continuous-time, or a local Jacobian."
+spectral-radius,Spectral Radius,discrete-time,96,active,2026-06-29,Use eigenvalue magnitudes relative to one for discrete-time stability.
+real-part,Largest Real Part,continuous-time,95,review,2026-06-29,Use eigenvalue real parts relative to zero for continuous-time stability.
+transient-growth,Transient Growth,diagnostic,94,review,2026-06-29,Check nonnormality when short-run amplification matters.
+stability-governance,Stability Governance,interpretation,93,review,2026-06-29,Translate mathematical stability into domain-specific meaning and risk.

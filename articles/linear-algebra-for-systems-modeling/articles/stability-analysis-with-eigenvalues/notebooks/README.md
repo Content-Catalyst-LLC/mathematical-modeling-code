@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Stability Analysis with Eigenvalues** will live here.
+# Notebooks\n\nNotebook-ready workspace for eigenvalue stability analysis, spectral radius, time-model comparison, transient growth review, and stability governance.\n

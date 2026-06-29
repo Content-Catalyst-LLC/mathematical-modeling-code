@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "State whether the matrix is a discrete-time update, continuous-time generator, or local Jacobian.",
+    "review_item": "time_model",
+    "status": "required"
+  },
+  {
+    "governance_note": "Use unit-circle tests for discrete time and real-part tests for continuous time.",
+    "review_item": "stability_threshold",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define the equilibrium, baseline, trajectory, distribution, or operating region being evaluated.",
+    "review_item": "reference_state",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whether stable, unstable, and dominant modes are well separated.",
+    "review_item": "spectral_gap",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Check whether transient growth could matter despite asymptotic decay.",
+    "review_item": "nonnormality",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Explain what stability means for the domain; stable does not automatically mean desirable.",
+    "review_item": "domain_accountability",
+    "status": "required"
+  }
+]

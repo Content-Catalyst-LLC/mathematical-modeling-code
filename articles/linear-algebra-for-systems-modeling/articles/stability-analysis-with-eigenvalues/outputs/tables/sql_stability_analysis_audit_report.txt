@@ -1,0 +1,28 @@
+section                      
+-----------------------------
+STABILITY ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Dominant mode         Mode with largest growth or slowest decay signal.             Can shape long-run or near-boundary behavior.                 Initial conditions spectral gaps and conditioning affect int
+                                                                                                                                                  erpretation.                                                
+
+Local linearization   Uses a Jacobian matrix near equilibrium.                      Supports local stability claims around a reference state.     Local stability does not automatically imply global stabilit
+                                                                                                                                                  y.                                                          
+
+Eigenvalue real part  Determines continuous-time exponential growth or decay.       Supports continuous-time local stability analysis.            Boundary cases require deeper review.                       
+
+Spectral radius       Largest eigenvalue magnitude.                                 Supports discrete-time asymptotic stability classification.   Nonnormal transient growth and forcing terms may complicate 
+                                                                                                                                                  interpretation.                                             
+
+Time model            Distinguishes discrete-time updates from continuous-time gen  Determines which eigenvalue stability rule applies.           Do not apply discrete-time and continuous-time stability tes
+                      erators.                                                                                                                    ts interchangeably.                                         
+
+Transient growth      Short-run amplification can occur even under asymptotic stab  Important for systems where temporary amplification is conse  Eigenvalue-only analysis may be incomplete for nonnormal mat
+                      ility.                                                        quential.                                                     rices.                                                      
+section                       
+------------------------------
+STABILITY ANALYSIS AUDIT CASES
+system_name               spectral_radius  largest_real_part  discrete_time_classification         continuous_time_classification  warning                                                     
+------------------------  ---------------  -----------------  -----------------------------------  ------------------------------  ------------------------------------------------------------
+two_mode_stability_audit  0.94             0.94               asymptotically_stable_discrete_time  unstable_continuous_time        Discrete-time and continuous-time rules are not interchangea
+                                                                                                                                   ble.                                                        

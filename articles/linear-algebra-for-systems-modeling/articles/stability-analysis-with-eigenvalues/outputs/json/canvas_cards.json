@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "time-model",
+    "category": "stability",
+    "governance_note": "State whether the matrix is discrete-time, continuous-time, or a local Jacobian.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Time Model"
+  },
+  {
+    "card_id": "spectral-radius",
+    "category": "discrete-time",
+    "governance_note": "Use eigenvalue magnitudes relative to one for discrete-time stability.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Spectral Radius"
+  },
+  {
+    "card_id": "real-part",
+    "category": "continuous-time",
+    "governance_note": "Use eigenvalue real parts relative to zero for continuous-time stability.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Largest Real Part"
+  },
+  {
+    "card_id": "transient-growth",
+    "category": "diagnostic",
+    "governance_note": "Check nonnormality when short-run amplification matters.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Transient Growth"
+  },
+  {
+    "card_id": "stability-governance",
+    "category": "interpretation",
+    "governance_note": "Translate mathematical stability into domain-specific meaning and risk.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Stability Governance"
+  }
+]

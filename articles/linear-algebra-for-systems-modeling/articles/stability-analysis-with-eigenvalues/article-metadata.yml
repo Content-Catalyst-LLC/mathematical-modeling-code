@@ -1,22 +1,24 @@
 actual_title: "Stability Analysis with Eigenvalues"
-suggested_seo_title: "Stability Analysis with Eigenvalues: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Stability Analysis with Eigenvalues: How Linear Algebra Detects Decay, Amplification, and Equilibrium"
+focus_keyword: "stability analysis with eigenvalues"
 slug: "stability-analysis-with-eigenvalues"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
-  previous: "diagonalization-and-repeated-transformation"
+  previous: "diagonalization-and-decoupled-system-behavior"
   current: "stability-analysis-with-eigenvalues"
   next: "markov-chains-and-transition-matrices"
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/stability-analysis-with-eigenvalues"
 tags:
   - Linear Algebra
+  - Stability Analysis
+  - Eigenvalues
+  - Spectral Radius
+  - Dynamical Systems
+  - Control Systems
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Stability Analysis with Eigenvalues is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Stability analysis with eigenvalues explains how linear algebra detects whether system modes decay, persist, oscillate, or amplify over time. This article introduces spectral radius, discrete-time stability, continuous-time stability, stable modes, unstable modes, marginal modes, dominant eigenvalues, equilibrium behavior, perturbation response, local linearization, Jacobian matrices, complex eigenvalues, oscillation, damping, nonnormality, transient growth, numerical conditioning, eigenpair residuals, spectral gaps, and perturbation sensitivity. It shows why eigenvalue stability rules depend on whether a matrix represents a discrete-time update, continuous-time generator, iterative algorithm, transition system, or local linear approximation. The article connects stability analysis to infrastructure stress propagation, ecological dynamics, economic adjustment, control systems, Markov chains, scientific computing, numerical error, and responsible modeling. It emphasizes that stability claims require time-model clarity, matrix validity, scaling review, diagnostics, and domain accountability."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

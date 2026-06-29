@@ -1,0 +1,13 @@
+{
+  "continuous_time_real_part_classification": "unstable_continuous_time",
+  "determinant": 0.6016,
+  "discrete_time_classification": "asymptotically_stable_discrete_time",
+  "dominant_mode_warning": "The largest eigenvalue magnitude controls asymptotic discrete-time behavior, but short-run transient growth, forcing, nonlinearities, and initial conditions must also be reviewed.",
+  "eigenvalue_1": 0.94,
+  "eigenvalue_2": 0.64,
+  "interpretation_warning": "Stability classification depends on whether the matrix represents a discrete-time update, a continuous-time generator, or a local linearization. Do not reuse one stability rule across time models.",
+  "matrix_entries": "0.820000,0.120000;0.180000,0.760000",
+  "spectral_radius": 0.94,
+  "system_name": "two_mode_stability_audit",
+  "trace": 1.58
+}

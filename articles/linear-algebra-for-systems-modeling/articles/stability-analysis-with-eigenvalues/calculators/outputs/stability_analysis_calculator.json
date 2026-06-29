@@ -1,0 +1,11 @@
+{
+  "calculator": "stability_analysis_calculator",
+  "continuous_time_classification": "unstable_continuous_time",
+  "discrete_time_classification": "asymptotically_stable_discrete_time",
+  "eigenvalue_1": 0.94,
+  "eigenvalue_2": 0.64,
+  "largest_real_part": 0.94,
+  "matrix_entries": "0.820000,0.120000;0.180000,0.760000",
+  "spectral_radius": 0.94,
+  "warning": "Discrete-time stability uses eigenvalue magnitudes relative to one; continuous-time stability uses real parts relative to zero."
+}
