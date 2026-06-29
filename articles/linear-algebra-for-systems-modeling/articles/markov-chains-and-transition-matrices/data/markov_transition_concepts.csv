@@ -1,0 +1,10 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_definitions,State definitions,Define coordinates of the transition system,Determine what the model can observe,Ambiguous or incomplete states distort transitions
+state_vector,State vector,Probability distribution across states,Represents system composition at a time,Entries should be nonnegative and sum to one
+transition_matrix,Transition matrix,Stochastic matrix mapping distributions forward,Represents transition rule,Orientation must be documented
+row_stochastic,Row-stochastic convention,Rows sum to one,Current state rows and next state columns,Do not confuse with column convention
+time_step,Time step,Interval for each transition,Determines probability meaning,Transition probabilities depend on interval
+markov_assumption,Markov assumption,Next state depends only on current state,Simplifies path history into state,Memory and hidden variables can violate assumption
+stationarity,Stationarity,Transition probabilities fixed over time,Supports repeated matrix powers,Changing regimes can invalidate reuse
+steady_state,Steady state,Distribution unchanged by transition,Supports long-run composition analysis,Not automatically desirable or equitable
+absorbing_state,Absorbing state,State cannot be left once entered,Represents terminal condition or lock-in,Irreversibility must be justified

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MarkovTransitionAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "states",
+    "orientation",
+    "transition_matrix",
+    "initial_distribution",
+    "row_sum_error",
+    "nonnegative",
+    "one_step_distribution",
+    "ten_step_distribution",
+    "steady_state_estimate",
+    "conservation_error",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "states": {
+      "type": "string"
+    },
+    "orientation": {
+      "type": "string"
+    },
+    "transition_matrix": {
+      "type": "string"
+    },
+    "initial_distribution": {
+      "type": "string"
+    },
+    "row_sum_error": {
+      "type": "number"
+    },
+    "nonnegative": {
+      "type": "boolean"
+    },
+    "one_step_distribution": {
+      "type": "string"
+    },
+    "ten_step_distribution": {
+      "type": "string"
+    },
+    "steady_state_estimate": {
+      "type": "string"
+    },
+    "conservation_error": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

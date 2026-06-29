@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Markov Chains and Transition Matrices** will live here.
+# Notebooks\n\nNotebook-ready workspace for Markov chains, transition matrices, state-vector updates, matrix powers, steady-state estimates, and transition governance.\n

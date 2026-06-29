@@ -1,10 +1,10 @@
 {
+  "article_slug": "markov-chains-and-transition-matrices",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "markov-chains-and-transition-matrices",
-  "title": "Markov Chains and Transition Matrices",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "markov-chains-transition-matrices",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "state-definitions",
+      "title": "State Definitions",
+      "description": "States define what the model can represent."
+    },
+    {
+      "card_id": "transition-orientation",
+      "title": "Transition Orientation",
+      "description": "Row and column conventions must be documented."
+    },
+    {
+      "card_id": "stochastic-validation",
+      "title": "Stochastic Validation",
+      "description": "Check nonnegativity and row or column sums."
+    },
+    {
+      "card_id": "matrix-powers",
+      "title": "Matrix Powers",
+      "description": "Repeated transition matrices model multi-step system evolution."
+    },
+    {
+      "card_id": "steady-state",
+      "title": "Steady State",
+      "description": "Stationary distributions support long-run analysis but not automatic value claims."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

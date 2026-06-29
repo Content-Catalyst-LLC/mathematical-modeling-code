@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-definitions",
+    "category": "model-design",
+    "governance_note": "Define states so transition probabilities have clear meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "State Definitions"
+  },
+  {
+    "card_id": "transition-orientation",
+    "category": "matrix",
+    "governance_note": "Document row-stochastic or column-stochastic convention.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Transition Orientation"
+  },
+  {
+    "card_id": "stochastic-validation",
+    "category": "diagnostic",
+    "governance_note": "Check nonnegativity and row or column sums before analysis.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Stochastic Validation"
+  },
+  {
+    "card_id": "steady-state",
+    "category": "long-run",
+    "governance_note": "Interpret stationary distributions as model-implied, not automatically desirable.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Steady State"
+  },
+  {
+    "card_id": "markov-governance",
+    "category": "interpretation",
+    "governance_note": "Review time step, stationarity, data quality, and memory assumptions.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Markov Governance"
+  }
+]

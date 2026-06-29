@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Define states clearly and review whether the state space is complete enough.",
+    "review_item": "state_definitions",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document row-stochastic or column-stochastic convention and update rule.",
+    "review_item": "transition_orientation",
+    "status": "required"
+  },
+  {
+    "governance_note": "State the transition interval and avoid reusing probabilities across incompatible time scales.",
+    "review_item": "time_step",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check nonnegativity and row or column sums before downstream analysis.",
+    "review_item": "stochastic_validation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whether transition probabilities remain valid over the modeled horizon.",
+    "review_item": "stationarity",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Interpret steady states as model-implied distributions, not automatic value claims.",
+    "review_item": "long_run_interpretation",
+    "status": "required"
+  }
+]

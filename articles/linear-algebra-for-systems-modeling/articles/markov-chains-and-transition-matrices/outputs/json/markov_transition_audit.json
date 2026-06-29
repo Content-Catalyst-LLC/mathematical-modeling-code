@@ -1,0 +1,14 @@
+{
+  "conservation_error": 0.0,
+  "initial_distribution": "0.600000,0.300000,0.100000",
+  "interpretation_warning": "Transition matrices depend on state definitions, time step, data quality, stationarity, and the Markov assumption. A steady state is a model-implied fixed distribution, not automatically a desirable system outcome.",
+  "nonnegative": true,
+  "one_step_distribution": "0.525000,0.346000,0.129000",
+  "orientation": "row_stochastic_row_vector_update_pi_next_equals_pi_P",
+  "row_sum_error": 0.0,
+  "states": "good|fair|poor",
+  "steady_state_estimate": "0.289683,0.440476,0.269841",
+  "system_name": "infrastructure_condition_transition_audit",
+  "ten_step_distribution": "0.311560,0.434639,0.253801",
+  "transition_matrix": "0.820000,0.160000,0.020000;0.100000,0.760000,0.140000;0.030000,0.220000,0.750000"
+}

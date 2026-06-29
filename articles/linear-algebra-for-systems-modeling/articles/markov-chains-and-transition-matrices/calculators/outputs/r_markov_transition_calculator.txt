@@ -1,0 +1,14 @@
+                    calculator         states
+1 markov_transition_calculator good|fair|poor
+                                           orientation
+1 row_stochastic_row_vector_update_pi_next_equals_pi_P
+                                                                 transition_matrix
+1 0.820000,0.160000,0.020000;0.100000,0.760000,0.140000;0.030000,0.220000,0.750000
+        initial_distribution row_sum_error nonnegative
+1 0.600000,0.300000,0.100000             0        TRUE
+       one_step_distribution      ten_step_distribution
+1 0.525000,0.346000,0.129000 0.286282,0.478868,0.234850
+       steady_state_estimate
+1 0.233333,0.488889,0.277778
+                                                                                                             warning
+1 Transition matrices depend on state definitions, time step, stationarity, data quality, and the Markov assumption.

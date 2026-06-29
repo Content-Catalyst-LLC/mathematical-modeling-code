@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-definitions,State Definitions,model-design,97,active,2026-06-29,Define states so transition probabilities have clear meaning.
+transition-orientation,Transition Orientation,matrix,96,active,2026-06-29,Document row-stochastic or column-stochastic convention.
+stochastic-validation,Stochastic Validation,diagnostic,95,review,2026-06-29,Check nonnegativity and row or column sums before analysis.
+steady-state,Steady State,long-run,94,review,2026-06-29,"Interpret stationary distributions as model-implied, not automatically desirable."
+markov-governance,Markov Governance,interpretation,93,review,2026-06-29,"Review time step, stationarity, data quality, and memory assumptions."

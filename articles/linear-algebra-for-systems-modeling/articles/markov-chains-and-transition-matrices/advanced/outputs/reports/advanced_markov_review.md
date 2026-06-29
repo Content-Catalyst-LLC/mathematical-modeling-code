@@ -1,0 +1,8 @@
+# Advanced Markov Transition Review
+
+- **state_definitions** (required): Define states clearly and review whether the state space is complete enough.
+- **transition_orientation** (required): Document row-stochastic or column-stochastic convention and update rule.
+- **time_step** (required): State the transition interval and avoid reusing probabilities across incompatible time scales.
+- **stochastic_validation** (required): Check nonnegativity and row or column sums before downstream analysis.
+- **stationarity** (recommended): Review whether transition probabilities remain valid over the modeled horizon.
+- **long_run_interpretation** (required): Interpret steady states as model-implied distributions, not automatic value claims.
