@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Document what each basis direction means in the modeled system.",
+    "review_item": "basis_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check that the basis matrix is full rank.",
+    "review_item": "rank_validation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compute basis coordinates and reconstruction error.",
+    "review_item": "coordinate_recovery",
+    "status": "required"
+  },
+  {
+    "governance_note": "Separate invariant structure from coordinate-specific entries.",
+    "review_item": "similarity_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Assess whether the basis is numerically fragile.",
+    "review_item": "conditioning_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain transformed results in original system terms.",
+    "review_item": "translation_back",
+    "status": "recommended"
+  }
+]

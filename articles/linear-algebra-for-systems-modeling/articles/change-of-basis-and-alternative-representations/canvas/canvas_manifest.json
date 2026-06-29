@@ -1,10 +1,10 @@
 {
+  "article_slug": "change-of-basis-and-alternative-representations",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "change-of-basis-and-alternative-representations",
-  "title": "Change of Basis and Alternative Representations",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "change-of-basis-alternative-representations",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "basis-vectors",
+      "title": "Basis Vectors",
+      "description": "Coordinate language for system states."
+    },
+    {
+      "card_id": "basis-matrix",
+      "title": "Basis Matrix",
+      "description": "Translation from basis coordinates to standard coordinates."
+    },
+    {
+      "card_id": "coordinate-recovery",
+      "title": "Coordinate Recovery",
+      "description": "Solving for basis-coordinate weights."
+    },
+    {
+      "card_id": "similarity",
+      "title": "Similarity Transformation",
+      "description": "Same transformation in a new basis."
+    },
+    {
+      "card_id": "conditioning",
+      "title": "Conditioning",
+      "description": "Fragility of coordinate conversion."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

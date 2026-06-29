@@ -1,0 +1,8 @@
+                  calculator basis_shape basis_rank basis_determinant
+1 change_of_basis_calculator         2x2          2                 3
+    original_vector basis_coordinates reconstructed_vector reconstruction_error
+1 5.000000,4.000000 2.000000,1.500000    5.000000,4.000000                    0
+                   transformed_matrix
+1 1.133333,0.033333;0.333333,0.966667
+                                                                                               warning
+1 Coordinate changes require basis meaning, units, conditioning, and translation back to system terms.

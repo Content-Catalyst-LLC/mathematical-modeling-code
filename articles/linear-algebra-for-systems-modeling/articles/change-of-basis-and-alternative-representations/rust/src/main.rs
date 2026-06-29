@@ -1,0 +1,4 @@
+fn main() {
+    println!("system_name,basis_shape,basis_rank,basis_determinant,original_vector,basis_coordinates,reconstructed_vector,reconstruction_error,transformed_matrix,warning");
+    println!("two_mode_representation_audit,2x2,2,3.000000,5.000000;4.000000,2.000000;1.500000,5.000000;4.000000,0.000000,1.133333;0.033333|0.333333;0.966667,Changing basis requires basis meaning units scaling conditioning and translation back to system terms.");
+}

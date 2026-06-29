@@ -1,0 +1,8 @@
+# Advanced Change-of-Basis Review
+
+- **basis_meaning** (required): Document what each basis direction means in the modeled system.
+- **rank_validation** (required): Check that the basis matrix is full rank.
+- **coordinate_recovery** (required): Compute basis coordinates and reconstruction error.
+- **similarity_review** (required): Separate invariant structure from coordinate-specific entries.
+- **conditioning_review** (required): Assess whether the basis is numerically fragile.
+- **translation_back** (recommended): Explain transformed results in original system terms.

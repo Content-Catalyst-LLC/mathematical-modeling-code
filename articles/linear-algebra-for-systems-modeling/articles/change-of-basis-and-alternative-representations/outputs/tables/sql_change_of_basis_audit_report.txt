@@ -1,0 +1,29 @@
+section                            
+-----------------------------------
+CHANGE OF BASIS ASSUMPTION REGISTRY
+assumption_name            mathematical_role                                          systems_modeling_role                                         review_warning                                              
+-------------------------  ---------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Basis matrix               A matrix whose columns are basis vectors.                  Translates alternative coordinates into standard coordinates  The matrix must be full rank for coordinates to be unique.  
+                                                                                      .                                                                                                                         
+
+Basis vectors              A linearly independent spanning set for the vector space.  Defines the coordinate language used to describe system stat  Basis directions should be meaningful or explicitly justifie
+                                                                                      es.                                                           d.                                                          
+
+Conditioning               Sensitivity of coordinate conversion to perturbation.      Shows whether the chosen basis is numerically stable.         Large condition numbers require caution before interpretatio
+                                                                                                                                                    n or decision use.                                          
+
+Coordinate recovery        Solves for coefficients in the chosen basis.               Finds how much of each basis direction contributes to a stat  Near-dependent bases can make recovered coordinates unstable
+                                                                                      e.                                                            .                                                           
+
+Invariant structure        Properties preserved under basis change.                   Separates system behavior from coordinate artifacts.          Modelers should distinguish invariant claims from representa
+                                                                                                                                                    tion-specific claims.                                       
+
+Similarity transformation  Represents the same transformation in a new basis.         Changes the matrix representation while preserving underlyin  Individual entries may change and should not be compared nai
+                                                                                      g structure.                                                  vely.                                                       
+section                    
+---------------------------
+CHANGE OF BASIS AUDIT CASES
+system_name                    basis_shape  basis_rank  basis_determinant  basis_coordinates  reconstruction_error  warning                                                     
+-----------------------------  -----------  ----------  -----------------  -----------------  --------------------  ------------------------------------------------------------
+two_mode_representation_audit  2x2          2           3.0                2.000000,1.500000  0.0                   Changing basis requires basis meaning units scaling conditio
+                                                                                                                    ning and translation back to system terms.                  

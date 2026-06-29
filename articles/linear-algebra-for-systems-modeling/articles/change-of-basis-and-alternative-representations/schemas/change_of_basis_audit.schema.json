@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChangeOfBasisAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "basis_shape",
+    "basis_rank",
+    "basis_determinant",
+    "basis_condition_warning",
+    "original_vector",
+    "basis_coordinates",
+    "reconstructed_vector",
+    "reconstruction_error",
+    "transformed_matrix",
+    "invariant_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "basis_shape": {
+      "type": "string"
+    },
+    "basis_rank": {
+      "type": "integer"
+    },
+    "basis_determinant": {
+      "type": "number"
+    },
+    "basis_condition_warning": {
+      "type": "string"
+    },
+    "original_vector": {
+      "type": "string"
+    },
+    "basis_coordinates": {
+      "type": "string"
+    },
+    "reconstructed_vector": {
+      "type": "string"
+    },
+    "reconstruction_error": {
+      "type": "number"
+    },
+    "transformed_matrix": {
+      "type": "string"
+    },
+    "invariant_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

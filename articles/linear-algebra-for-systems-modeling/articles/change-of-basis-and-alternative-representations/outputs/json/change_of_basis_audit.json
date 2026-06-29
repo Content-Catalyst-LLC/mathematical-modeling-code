@@ -1,0 +1,14 @@
+{
+  "basis_condition_warning": "basis is valid in this teaching example; serious workflows should compute a numerical condition number",
+  "basis_coordinates": "2.000000,1.000000",
+  "basis_determinant": 3.0,
+  "basis_rank": 2,
+  "basis_shape": "2x2",
+  "interpretation_warning": "Changing basis changes coordinate language; modelers must document basis meaning, units, scaling, conditioning, and how results translate back to system terms.",
+  "invariant_warning": "Similarity transformations preserve structural invariants such as determinant, trace, rank, and eigenvalues, but individual entries and interpretability change.",
+  "original_vector": "5.000000,4.000000",
+  "reconstructed_vector": "5.000000,4.000000",
+  "reconstruction_error": 0.0,
+  "system_name": "two_mode_representation_audit",
+  "transformed_matrix": "1.233333,0.466667;0.233333,0.866667"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "basis-vectors",
+    "category": "structure",
+    "governance_note": "Document what each basis direction means.",
+    "review_date": "2026-06-28",
+    "score": 96,
+    "status": "active",
+    "title": "Basis Vectors"
+  },
+  {
+    "card_id": "basis-matrix",
+    "category": "translation",
+    "governance_note": "Check full rank before using a coordinate system.",
+    "review_date": "2026-06-28",
+    "score": 95,
+    "status": "active",
+    "title": "Basis Matrix"
+  },
+  {
+    "card_id": "coordinate-recovery",
+    "category": "diagnostic",
+    "governance_note": "Review reconstruction error and sensitivity.",
+    "review_date": "2026-06-28",
+    "score": 94,
+    "status": "review",
+    "title": "Coordinate Recovery"
+  },
+  {
+    "card_id": "similarity",
+    "category": "representation",
+    "governance_note": "Separate invariant structure from coordinate-specific entries.",
+    "review_date": "2026-06-28",
+    "score": 93,
+    "status": "review",
+    "title": "Similarity Transformation"
+  },
+  {
+    "card_id": "conditioning",
+    "category": "numerical",
+    "governance_note": "Flag fragile coordinate systems before decision use.",
+    "review_date": "2026-06-28",
+    "score": 92,
+    "status": "review",
+    "title": "Conditioning"
+  }
+]

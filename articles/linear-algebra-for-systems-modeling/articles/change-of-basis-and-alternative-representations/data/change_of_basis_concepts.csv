@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+basis_vectors,Basis vectors,Linearly independent spanning directions,Coordinate language for system states,Basis directions should be meaningful or justified
+basis_matrix,Basis matrix,Columns are basis vectors,Maps basis coordinates to standard coordinates,Must be full rank for unique coordinates
+coordinate_recovery,Coordinate recovery,Solves for coefficients in a basis,Finds basis-direction contribution to a state,Near-dependent bases create unstable coordinates
+similarity_transformation,Similarity transformation,P inverse A P representation,Same transformation in new coordinates,Individual entries should not be compared naively
+invariant_structure,Invariant structure,Properties preserved under basis change,Separates system behavior from representation artifacts,Distinguish invariant claims from coordinate-specific claims
+conditioning,Conditioning,Sensitivity of coordinate conversion,Shows basis numerical stability,Large condition numbers require caution
+scaling,Scaling,Diagonal coordinate rescaling,Changes magnitudes and units,Scaled results must be translated back
+representation_governance,Representation governance,Documentation of coordinate choice,Explains why a representation was selected,Opaque coordinates can undermine accountability

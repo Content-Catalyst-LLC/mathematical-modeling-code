@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Change of Basis and Alternative Representations** will live here.
+# Notebooks\n\nNotebook-ready workspace for change of basis, coordinate recovery, similarity transformations, invariant checks, scaling, conditioning, and representation governance.\n

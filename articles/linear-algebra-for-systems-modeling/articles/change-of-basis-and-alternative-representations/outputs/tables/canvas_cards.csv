@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+basis-vectors,Basis Vectors,structure,96,active,2026-06-28,Document what each basis direction means.
+basis-matrix,Basis Matrix,translation,95,active,2026-06-28,Check full rank before using a coordinate system.
+coordinate-recovery,Coordinate Recovery,diagnostic,94,review,2026-06-28,Review reconstruction error and sensitivity.
+similarity,Similarity Transformation,representation,93,review,2026-06-28,Separate invariant structure from coordinate-specific entries.
+conditioning,Conditioning,numerical,92,review,2026-06-28,Flag fragile coordinate systems before decision use.
