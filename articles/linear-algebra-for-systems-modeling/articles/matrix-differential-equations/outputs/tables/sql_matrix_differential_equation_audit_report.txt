@@ -1,0 +1,29 @@
+section                                
+---------------------------------------
+MATRIX DIFFERENTIAL ASSUMPTION REGISTRY
+assumption_name                 mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Continuous-time interpretation  Uses dx/dt = Ax rather than x_next = Ax.                      Determines the correct evolution operator and stability rule  Do not apply discrete-time spectral-radius rules to a contin
+                                                                                              .                                                             uous-time generator.                                        
+
+Matrix exponential              Advances the initial state through continuous time.           Represents the continuous state transition operator.          Numerical computation of exp(At) should use reliable algorit
+                                                                                                                                                            hms.                                                        
+
+Solver review                   Checks numerical integration method step size and stiffness.  Determines whether simulated trajectories are reliable.       Naive time stepping can distort stiff or sensitive continuou
+                                                                                                                                                            s systems.                                                  
+
+Continuous-time stability       Classifies modes using eigenvalue real parts.                 Shows whether disturbances decay persist oscillate or amplif  Stable eigenvalues do not automatically imply practical safe
+                                                                                              y.                                                            ty or desirability.                                         
+
+State vector                    Defines the coordinates of continuous-time system state.      Determines what the model can track through time.             State variables require units scales and domain definitions.
+
+System matrix                   Maps current state into instantaneous rate of change.         Encodes rate coupling among variables.                        Matrix entries are rate parameters and require time-unit cla
+                                                                                                                                                            rity.                                                       
+section                        
+-------------------------------
+MATRIX DIFFERENTIAL AUDIT CASES
+system_name                                   time_horizon  final_state_estimate  max_real_part  stability_classification               warning                                                     
+--------------------------------------------  ------------  --------------------  -------------  -------------------------------------  ------------------------------------------------------------
+two_state_matrix_differential_equation_audit  10.0          1.558000,0.882000     -0.2           asymptotically_stable_continuous_time  Matrix differential equations depend on state definitions un
+                                                                                                                                        its time scale matrix source solver choices stiffness review
+                                                                                                                                         and domain constraints.                                    

@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Define state variables, derivative units, and time units.",
+    "review_item": "state_and_units",
+    "status": "required"
+  },
+  {
+    "governance_note": "State explicitly that A is a continuous-time generator or rate matrix.",
+    "review_item": "continuous_time_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether the system matrix is physical, empirical, local Jacobian, or scenario-based.",
+    "review_item": "matrix_source",
+    "status": "required"
+  },
+  {
+    "governance_note": "Classify stability using eigenvalue real parts and inspect oscillatory modes.",
+    "review_item": "stability_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review numerical method, step size, stiffness, and matrix exponential computation.",
+    "review_item": "solver_reliability",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether simulated states remain physically or institutionally meaningful.",
+    "review_item": "constraint_validity",
+    "status": "recommended"
+  }
+]

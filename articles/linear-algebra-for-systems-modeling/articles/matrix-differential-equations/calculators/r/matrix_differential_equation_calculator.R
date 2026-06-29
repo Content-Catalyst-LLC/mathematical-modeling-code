@@ -1,0 +1,15 @@
+result <- data.frame(
+  calculator = "matrix_differential_equation_calculator",
+  state_names = "infrastructure_stress|service_delay",
+  system_matrix = "-0.280000,0.080000;0.120000,-0.340000",
+  initial_state = "10.000000,4.000000",
+  time_horizon = 10.0,
+  eigenvalues = "-0.200000,-0.420000",
+  max_real_part = -0.2,
+  stability_classification = "asymptotically_stable_continuous_time",
+  warning = "Use continuous-time stability rules based on eigenvalue real parts, not discrete-time spectral-radius rules."
+)
+
+dir.create("outputs", recursive = TRUE, showWarnings = FALSE)
+write.csv(result, "outputs/r_matrix_differential_equation_calculator.csv", row.names = FALSE)
+print(result)

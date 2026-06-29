@@ -1,8 +1,7 @@
 actual_title: "Matrix Differential Equations"
-suggested_seo_title: "Matrix Differential Equations: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Matrix Differential Equations: How Linear Algebra Models Continuous-Time System Change"
+focus_keyword: "matrix differential equations"
 slug: "matrix-differential-equations"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/matrix-differential-equations"
 tags:
   - Linear Algebra
+  - Matrix Differential Equations
+  - Differential Equations
+  - Matrix Exponentials
+  - Continuous-Time Systems
+  - Stability Analysis
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Matrix Differential Equations is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Matrix differential equations explain how systems evolve continuously through coupled linear rates of change. This article introduces state vectors, derivative vectors, system matrices, coupled differential equations, matrix exponentials, eigenvalues, eigenvectors, diagonalization, continuous-time stability, oscillatory modes, forced response, equilibrium, steady states, fundamental matrices, numerical simulation, stiffness, solver diagnostics, linearization, and model governance. It shows how the equation dx/dt = Ax connects linear algebra to continuous-time dynamics, allowing modelers to study damping, amplification, oscillation, stability, and response to forcing. The article connects matrix differential equations to engineering state-space systems, infrastructure stress dynamics, ecological linearization, economic adjustment, public health compartments, scientific computing, and PDE discretization. It emphasizes that continuous-time matrix models require clear units, time-scale discipline, matrix validation, stability review, solver reliability, sensitivity analysis, and responsible interpretation."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

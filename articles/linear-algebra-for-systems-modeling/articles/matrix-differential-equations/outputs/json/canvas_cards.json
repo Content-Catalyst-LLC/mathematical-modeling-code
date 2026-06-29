@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-rate",
+    "category": "model-design",
+    "governance_note": "Define state variables, derivatives, units, and time units.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "State and Rate"
+  },
+  {
+    "card_id": "system-matrix",
+    "category": "matrix",
+    "governance_note": "Document rate-operator interpretation and matrix source.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "System Matrix"
+  },
+  {
+    "card_id": "matrix-exponential",
+    "category": "continuous-time",
+    "governance_note": "Use e^{At} as the continuous-time transition operator.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Matrix Exponential"
+  },
+  {
+    "card_id": "continuous-stability",
+    "category": "diagnostic",
+    "governance_note": "Classify stability using eigenvalue real parts.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Continuous-Time Stability"
+  },
+  {
+    "card_id": "solver-governance",
+    "category": "scientific-computing",
+    "governance_note": "Review step size, stiffness, numerical method, and constraint validity.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Solver Governance"
+  }
+]

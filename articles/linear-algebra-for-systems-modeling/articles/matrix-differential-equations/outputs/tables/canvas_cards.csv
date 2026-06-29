@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-rate,State and Rate,model-design,97,active,2026-06-29,"Define state variables, derivatives, units, and time units."
+system-matrix,System Matrix,matrix,96,active,2026-06-29,Document rate-operator interpretation and matrix source.
+matrix-exponential,Matrix Exponential,continuous-time,95,review,2026-06-29,Use e^{At} as the continuous-time transition operator.
+continuous-stability,Continuous-Time Stability,diagnostic,94,review,2026-06-29,Classify stability using eigenvalue real parts.
+solver-governance,Solver Governance,scientific-computing,93,review,2026-06-29,"Review step size, stiffness, numerical method, and constraint validity."

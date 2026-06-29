@@ -1,10 +1,10 @@
 {
+  "article_slug": "matrix-differential-equations",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "matrix-differential-equations",
-  "title": "Matrix Differential Equations",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "matrix-differential-equations",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "state-rate",
+      "title": "State and Rate",
+      "description": "Connect state vectors to derivative vectors."
+    },
+    {
+      "card_id": "system-matrix",
+      "title": "System Matrix",
+      "description": "Maps current state into instantaneous rate of change."
+    },
+    {
+      "card_id": "matrix-exponential",
+      "title": "Matrix Exponential",
+      "description": "Advances continuous-time state through e^{At}."
+    },
+    {
+      "card_id": "continuous-stability",
+      "title": "Continuous-Time Stability",
+      "description": "Classifies modes using eigenvalue real parts."
+    },
+    {
+      "card_id": "solver-governance",
+      "title": "Solver Governance",
+      "description": "Reviews stiffness, step size, and numerical reliability."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

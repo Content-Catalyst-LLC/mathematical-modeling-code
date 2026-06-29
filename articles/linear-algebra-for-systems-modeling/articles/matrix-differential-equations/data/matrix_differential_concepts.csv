@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_vector,State vector,Defines current continuous-time system coordinates,Represents system variables at a time,State variables require units and scale review
+derivative_vector,Derivative vector,Records instantaneous rates of change,Represents how variables are changing per time unit,Derivative estimates can amplify noise
+system_matrix,System matrix,Maps state to derivative,Encodes rate coupling among variables,Entries are rate parameters and require time-unit clarity
+matrix_exponential,Matrix exponential,Advances state through continuous time,Continuous-time transition operator,Use reliable numerical algorithms
+continuous_time_stability,Continuous-time stability,Classifies modes by eigenvalue real parts,Shows decay persistence oscillation or amplification,Do not use discrete-time spectral-radius rules
+forced_response,Forced response,Adds external input to natural dynamics,Represents shocks interventions or control signals,Inputs require separate validation
+stiffness,Stiffness,Fast and slow modes coexist,Creates numerical integration difficulty,Naive time stepping may fail
+linearity,Linearity assumption,States affect rates linearly,Simplifies coupled dynamics into dx/dt=Ax,Thresholds constraints and nonlinear feedback can break it

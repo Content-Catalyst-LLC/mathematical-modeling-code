@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatrixDifferentialEquationAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "state_names",
+    "system_matrix",
+    "initial_state",
+    "time_horizon",
+    "eigenvalue_1",
+    "eigenvalue_2",
+    "max_real_part",
+    "stability_classification",
+    "final_state_estimate",
+    "initial_norm",
+    "final_norm",
+    "time_model_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "state_names": {
+      "type": "string"
+    },
+    "system_matrix": {
+      "type": "string"
+    },
+    "initial_state": {
+      "type": "string"
+    },
+    "time_horizon": {
+      "type": "number"
+    },
+    "eigenvalue_1": {
+      "type": "number"
+    },
+    "eigenvalue_2": {
+      "type": "number"
+    },
+    "max_real_part": {
+      "type": "number"
+    },
+    "stability_classification": {
+      "type": "string"
+    },
+    "final_state_estimate": {
+      "type": "string"
+    },
+    "initial_norm": {
+      "type": "number"
+    },
+    "final_norm": {
+      "type": "number"
+    },
+    "time_model_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

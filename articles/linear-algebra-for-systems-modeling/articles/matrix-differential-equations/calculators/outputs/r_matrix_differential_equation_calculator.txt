@@ -1,0 +1,8 @@
+                               calculator                         state_names
+1 matrix_differential_equation_calculator infrastructure_stress|service_delay
+                          system_matrix      initial_state time_horizon
+1 -0.280000,0.080000;0.120000,-0.340000 10.000000,4.000000           10
+          eigenvalues max_real_part              stability_classification
+1 -0.200000,-0.420000          -0.2 asymptotically_stable_continuous_time
+                                                                                                       warning
+1 Use continuous-time stability rules based on eigenvalue real parts, not discrete-time spectral-radius rules.

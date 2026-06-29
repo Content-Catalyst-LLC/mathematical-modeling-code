@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Matrix Differential Equations** will live here.
+# Notebooks\n\nNotebook-ready workspace for matrix differential equations, matrix exponentials, continuous-time stability, solver diagnostics, and model governance.\n

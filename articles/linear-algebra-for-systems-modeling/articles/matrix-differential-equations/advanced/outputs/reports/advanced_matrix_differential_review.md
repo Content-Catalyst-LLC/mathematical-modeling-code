@@ -1,0 +1,8 @@
+# Advanced Matrix Differential Equation Review
+
+- **state_and_units** (required): Define state variables, derivative units, and time units.
+- **continuous_time_interpretation** (required): State explicitly that A is a continuous-time generator or rate matrix.
+- **matrix_source** (required): Document whether the system matrix is physical, empirical, local Jacobian, or scenario-based.
+- **stability_diagnostics** (required): Classify stability using eigenvalue real parts and inspect oscillatory modes.
+- **solver_reliability** (required): Review numerical method, step size, stiffness, and matrix exponential computation.
+- **constraint_validity** (recommended): Check whether simulated states remain physically or institutionally meaningful.

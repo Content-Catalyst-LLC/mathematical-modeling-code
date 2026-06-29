@@ -1,0 +1,16 @@
+{
+  "eigenvalue_1": -0.20753049234,
+  "eigenvalue_2": -0.41246950766,
+  "final_norm": 1.345855812603,
+  "final_state_estimate": "1.036806,0.858114",
+  "initial_norm": 10.770329614269,
+  "initial_state": "10.000000,4.000000",
+  "interpretation_warning": "Matrix differential equations depend on state definitions, units, time scale, matrix source, linearity assumptions, solver choices, stiffness review, and domain constraints.",
+  "max_real_part": -0.20753049234,
+  "stability_classification": "asymptotically_stable_continuous_time",
+  "state_names": "infrastructure_stress|service_delay",
+  "system_matrix": "-0.280000,0.080000;0.120000,-0.340000",
+  "system_name": "two_state_matrix_differential_equation_audit",
+  "time_horizon": 10.0,
+  "time_model_warning": "This matrix is interpreted as a continuous-time generator. Do not apply discrete-time spectral-radius rules to it."
+}
