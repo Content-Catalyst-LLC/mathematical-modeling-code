@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LinearDynamicsAudit",
+  "type": "object",
+  "required": [
+    "system_name",
+    "state_names",
+    "update_matrix",
+    "initial_state",
+    "horizon",
+    "final_state",
+    "initial_norm",
+    "final_norm",
+    "eigenvalue_1",
+    "eigenvalue_2",
+    "spectral_radius",
+    "stability_classification",
+    "trajectory_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "system_name": {
+      "type": "string"
+    },
+    "state_names": {
+      "type": "string"
+    },
+    "update_matrix": {
+      "type": "string"
+    },
+    "initial_state": {
+      "type": "string"
+    },
+    "horizon": {
+      "type": "integer"
+    },
+    "final_state": {
+      "type": "string"
+    },
+    "initial_norm": {
+      "type": "number"
+    },
+    "final_norm": {
+      "type": "number"
+    },
+    "eigenvalue_1": {
+      "type": "number"
+    },
+    "eigenvalue_2": {
+      "type": "number"
+    },
+    "spectral_radius": {
+      "type": "number"
+    },
+    "stability_classification": {
+      "type": "string"
+    },
+    "trajectory_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

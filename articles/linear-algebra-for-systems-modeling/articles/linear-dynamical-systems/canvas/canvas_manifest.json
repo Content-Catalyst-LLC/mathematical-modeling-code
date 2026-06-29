@@ -1,10 +1,10 @@
 {
+  "article_slug": "linear-dynamical-systems",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "linear-dynamical-systems",
-  "title": "Linear Dynamical Systems",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "linear-dynamical-systems",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "state-vector",
+      "title": "State Vector",
+      "description": "Defines the system variables at a time."
+    },
+    {
+      "card_id": "update-matrix",
+      "title": "Update Matrix",
+      "description": "Maps current state to next state."
+    },
+    {
+      "card_id": "trajectory",
+      "title": "Trajectory",
+      "description": "Repeated updates trace behavior through state space."
+    },
+    {
+      "card_id": "spectral-radius",
+      "title": "Spectral Radius",
+      "description": "Classifies asymptotic discrete-time stability."
+    },
+    {
+      "card_id": "linearity-governance",
+      "title": "Linearity Governance",
+      "description": "Reviews when a linear update rule is defensible."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

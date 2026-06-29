@@ -1,0 +1,30 @@
+section                            
+-----------------------------------
+LINEAR DYNAMICS ASSUMPTION REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Linearity assumption      Assumes state variables combine through linear relationships  Simplifies system evolution into matrix multiplication.       Thresholds constraints saturation and feedback can violate l
+                          .                                                                                                                           inearity.                                                   
+
+Stability classification  Uses eigenvalues and spectral radius to classify repeated be  Shows whether modes decay persist or amplify.                 Eigenvalue stability does not automatically imply practical 
+                          havior.                                                                                                                     safety or desirability.                                     
+
+State vector              Defines the coordinates of system state.                      Determines what the model can track over time.                Missing or poorly scaled state variables can distort dynamic
+                                                                                                                                                      s.                                                          
+
+Time step                 Defines the interval between updates.                         Determines the meaning of repeated matrix powers.             A matrix calibrated for one interval should not be reused at
+                                                                                                                                                       another interval without transformation.                   
+
+Update matrix             Maps current state to next state.                             Encodes interaction coupling propagation or transition struc  Matrix entries require units source documentation and validi
+                                                                                        ture.                                                         ty review.                                                  
+
+Valid horizon             Limits how long repeated updates should be trusted.           Defines the time range for credible simulation or interpreta  A linear model may be valid locally or temporarily not indef
+                                                                                        tion.                                                         initely.                                                    
+section                    
+---------------------------
+LINEAR DYNAMICS AUDIT CASES
+system_name                      horizon  final_state        spectral_radius  stability_classification             warning                                                     
+-------------------------------  -------  -----------------  ---------------  -----------------------------------  ------------------------------------------------------------
+two_state_linear_dynamics_audit  20       3.626170,3.452104  0.94             asymptotically_stable_discrete_time  Linear dynamics depend on state definitions units scaling ti
+                                                                                                                   me step matrix validity and whether linearity is structural 
+                                                                                                                   or approximate.                                             

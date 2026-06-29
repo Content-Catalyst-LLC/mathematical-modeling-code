@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Linear Dynamical Systems** will live here.
+# Notebooks\n\nNotebook-ready workspace for linear dynamical systems, state trajectories, matrix powers, stability diagnostics, and model governance.\n

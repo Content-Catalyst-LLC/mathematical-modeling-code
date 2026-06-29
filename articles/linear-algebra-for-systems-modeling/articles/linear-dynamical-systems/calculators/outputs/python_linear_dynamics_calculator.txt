@@ -1,0 +1,11 @@
+{
+  "calculator": "linear_dynamics_calculator",
+  "final_state": "3.626170,3.452104",
+  "horizon": 20,
+  "initial_state": "10.000000,4.000000",
+  "spectral_radius": 0.94,
+  "stability_classification": "asymptotically_stable_discrete_time",
+  "state_names": "infrastructure_stress|service_delay",
+  "update_matrix": "0.820000,0.120000;0.180000,0.760000",
+  "warning": "Linear dynamics depend on state definitions, units, scaling, time step, matrix validity, and whether linearity is structural or approximate."
+}

@@ -1,8 +1,7 @@
 actual_title: "Linear Dynamical Systems"
-suggested_seo_title: "Linear Dynamical Systems: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Linear Dynamical Systems: How Linear Algebra Models Change Over Time"
+focus_keyword: "linear dynamical systems"
 slug: "linear-dynamical-systems"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/linear-dynamical-systems"
 tags:
   - Linear Algebra
+  - Linear Dynamical Systems
+  - State Space
+  - Matrix Powers
+  - Stability Analysis
+  - State-Space Models
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Linear Dynamical Systems is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Linear dynamical systems explain how systems evolve through repeated linear transformation. This article introduces state vectors, update matrices, discrete-time dynamics, matrix powers, trajectories, equilibria, fixed points, eigenvalues, eigenvectors, spectral radius, stability, forced dynamics, affine systems, inputs, outputs, state-space representation, linearization, simulation, numerical diagnostics, and model governance. It shows how a current system state can be mapped into a future state by a matrix, allowing modelers to study growth, decay, oscillation, convergence, instability, and long-run behavior. The article connects linear dynamics to infrastructure condition systems, population-stage models, economic adjustment, network diffusion, control response, public health progression, scientific computing, and iterative algorithms. It emphasizes that linear dynamical models require clear state definitions, time-step discipline, matrix validation, stability review, constraint checks, sensitivity analysis, and responsible interpretation."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

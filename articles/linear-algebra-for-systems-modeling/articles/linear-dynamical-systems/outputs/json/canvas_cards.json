@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-vector",
+    "category": "model-design",
+    "governance_note": "Define coordinates, units, scaling, and state meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "State Vector"
+  },
+  {
+    "card_id": "update-matrix",
+    "category": "matrix",
+    "governance_note": "Document matrix source, time step, and coupling interpretation.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Update Matrix"
+  },
+  {
+    "card_id": "trajectory",
+    "category": "simulation",
+    "governance_note": "Compare finite-horizon simulation against stability analysis.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Trajectory"
+  },
+  {
+    "card_id": "spectral-radius",
+    "category": "diagnostic",
+    "governance_note": "Classify discrete-time asymptotic stability with eigenvalue magnitudes.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Spectral Radius"
+  },
+  {
+    "card_id": "linearity-governance",
+    "category": "interpretation",
+    "governance_note": "Justify whether linearity is structural, local, empirical, or exploratory.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Linearity Governance"
+  }
+]

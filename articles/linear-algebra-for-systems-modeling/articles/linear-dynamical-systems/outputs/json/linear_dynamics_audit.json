@@ -1,0 +1,16 @@
+{
+  "eigenvalue_1": 0.94,
+  "eigenvalue_2": 0.64,
+  "final_norm": 3.117955835867,
+  "final_state": "2.205126,2.204329",
+  "horizon": 20,
+  "initial_norm": 10.770329614269,
+  "initial_state": "10.000000,4.000000",
+  "interpretation_warning": "Linear dynamics depend on state definitions, units, scaling, time step, matrix validity, constraint checks, and whether linearity is structural or approximate.",
+  "spectral_radius": 0.94,
+  "stability_classification": "asymptotically_stable_discrete_time",
+  "state_names": "infrastructure_stress|service_delay",
+  "system_name": "two_state_linear_dynamics_audit",
+  "trajectory_warning": "A finite simulated trajectory shows behavior over the chosen horizon, not necessarily all possible long-run behavior.",
+  "update_matrix": "0.820000,0.120000;0.180000,0.760000"
+}

@@ -1,0 +1,8 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("system_name,state_names,update_matrix,initial_state,horizon,final_state,spectral_radius,stability_classification,warning")
+	fmt.Println("two_state_linear_dynamics_audit,infrastructure_stress|service_delay,0.820000;0.120000;0.180000;0.760000,10.000000;4.000000,20,3.626170;3.452104,0.940000,asymptotically_stable_discrete_time,Linear dynamics require state definitions units scaling time step and matrix validity.")
+}

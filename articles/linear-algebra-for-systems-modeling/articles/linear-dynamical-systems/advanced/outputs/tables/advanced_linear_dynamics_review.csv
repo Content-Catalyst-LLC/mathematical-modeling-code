@@ -1,0 +1,7 @@
+review_item,status,governance_note
+state_definition,required,"Define state variables, units, scaling, and interpretive boundaries."
+matrix_source,required,"Document how the update matrix was constructed, estimated, or assumed."
+time_step,required,State the interval represented by each update and avoid incompatible reuse.
+linearity_claim,required,"Classify linearity as structural, local, empirical, or exploratory."
+stability_diagnostics,required,"Report eigenvalues, spectral radius, state norms, and trajectory behavior."
+constraint_validity,recommended,Check whether simulated states remain physically or institutionally meaningful.

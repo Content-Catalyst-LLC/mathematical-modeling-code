@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+state_vector,State vector,Defines current system coordinates,Represents system variables at a time,Missing or poorly scaled variables distort dynamics
+update_matrix,Update matrix,Maps current state to next state,Encodes coupling propagation and transition structure,Matrix entries require source documentation
+time_step,Time step,Defines update interval,Determines meaning of matrix powers,Do not reuse matrices across time scales casually
+trajectory,Trajectory,Sequence of state vectors over time,Shows modeled evolution through state space,Finite simulation is not proof of all behavior
+spectral_radius,Spectral radius,Largest eigenvalue magnitude,Supports discrete-time stability analysis,Nonnormality and forcing can complicate behavior
+equilibrium,Equilibrium,State unchanged by update,Represents fixed behavior under the model,Equilibrium may be unstable or undesirable
+forcing,Forcing term,External input or intervention,Represents shocks controls policies or background inputs,Inputs require separate validation
+linearity,Linearity assumption,States combine by linear transformation,Simplifies evolution into matrix multiplication,Thresholds constraints and nonlinear feedback can break it

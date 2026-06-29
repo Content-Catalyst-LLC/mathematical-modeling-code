@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Define state variables, units, scaling, and interpretive boundaries.",
+    "review_item": "state_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document how the update matrix was constructed, estimated, or assumed.",
+    "review_item": "matrix_source",
+    "status": "required"
+  },
+  {
+    "governance_note": "State the interval represented by each update and avoid incompatible reuse.",
+    "review_item": "time_step",
+    "status": "required"
+  },
+  {
+    "governance_note": "Classify linearity as structural, local, empirical, or exploratory.",
+    "review_item": "linearity_claim",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report eigenvalues, spectral radius, state norms, and trajectory behavior.",
+    "review_item": "stability_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether simulated states remain physically or institutionally meaningful.",
+    "review_item": "constraint_validity",
+    "status": "recommended"
+  }
+]
