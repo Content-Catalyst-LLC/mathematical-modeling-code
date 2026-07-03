@@ -1,0 +1,14 @@
+{
+  "calculator": "infrastructure_network_models_calculator",
+  "capacity_loss_fraction": 0.6,
+  "critical_asset_count": 5,
+  "disrupted_asset": "power_substation",
+  "edge_count": 7,
+  "interdependency_edge_count": 3,
+  "layer_count": 6,
+  "network_name": "synthetic_multilayer_infrastructure_network",
+  "node_count": 6,
+  "remaining_capacity_after_disruption": 160.0,
+  "total_baseline_capacity": 400.0,
+  "warning": "Infrastructure network metrics depend on asset definitions, edge meanings, layer boundaries, capacity semantics, dependency rules, scenarios, provenance, security, and vulnerability interpretation."
+}

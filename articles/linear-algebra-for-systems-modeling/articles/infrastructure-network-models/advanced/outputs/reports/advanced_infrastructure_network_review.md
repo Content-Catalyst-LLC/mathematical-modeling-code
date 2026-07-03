@@ -1,0 +1,10 @@
+# Advanced Infrastructure Network Review
+
+- **asset_definition** (required): Define whether nodes represent assets, facilities, service areas, junctions, regions, or institutions.
+- **edge_definition** (required): Document whether edges represent physical links, flows, dependencies, access, control, supply, or governance.
+- **layer_boundary** (required): Define single-layer, multilayer, and cross-layer dependency structure.
+- **capacity_semantics** (required): Document design, observed, degraded, emergency, or service capacity meanings.
+- **dependency_rule** (required): Define how disruption or degradation propagates through dependency links.
+- **scenario_design** (recommended): Test asset failures, capacity reductions, demand surges, hazard footprints, and restoration delays.
+- **security_and_provenance** (required): Review infrastructure data sensitivity, provenance, aggregation, and disclosure limits.
+- **equity_and_accountability** (required): Connect network outputs to service access, population vulnerability, recovery priorities, and public accountability.

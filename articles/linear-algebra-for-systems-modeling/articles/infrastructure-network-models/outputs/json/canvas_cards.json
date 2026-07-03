@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "asset-definition",
+    "category": "model-design",
+    "governance_note": "Define infrastructure nodes, service roles, and criticality flags.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Asset Definition"
+  },
+  {
+    "card_id": "edge-dependency",
+    "category": "network-diagnostics",
+    "governance_note": "Document physical, functional, control, access, supply, and institutional links.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Edge and Dependency"
+  },
+  {
+    "card_id": "layer-structure",
+    "category": "multilayer-modeling",
+    "governance_note": "Review single-layer and multilayer infrastructure representation.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Layer Structure"
+  },
+  {
+    "card_id": "scenario-stress",
+    "category": "resilience-analysis",
+    "governance_note": "Test disruptions, capacity loss, dependency failure, and restoration assumptions.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Scenario Stress"
+  },
+  {
+    "card_id": "infrastructure-governance",
+    "category": "interpretation",
+    "governance_note": "Review provenance, security, equity, accountability, and interpretation limits.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Infrastructure Governance"
+  }
+]

@@ -1,10 +1,10 @@
 {
+  "article_slug": "infrastructure-network-models",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "infrastructure-network-models",
-  "title": "Infrastructure Network Models",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "infrastructure-network-models",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "asset-definition",
+      "title": "Asset Definition",
+      "description": "Defines infrastructure nodes, service roles, and criticality flags."
+    },
+    {
+      "card_id": "edge-dependency",
+      "title": "Edge and Dependency",
+      "description": "Documents physical, functional, control, access, supply, and institutional links."
+    },
+    {
+      "card_id": "layer-structure",
+      "title": "Layer Structure",
+      "description": "Reviews single-layer and multilayer infrastructure representation."
+    },
+    {
+      "card_id": "scenario-stress",
+      "title": "Scenario Stress",
+      "description": "Tests disruptions, capacity loss, dependency failure, and restoration assumptions."
+    },
+    {
+      "card_id": "infrastructure-governance",
+      "title": "Infrastructure Governance",
+      "description": "Reviews provenance, security, equity, accountability, and interpretation limits."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

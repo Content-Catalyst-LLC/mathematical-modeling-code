@@ -1,42 +1,23 @@
 # Infrastructure Network Models
 
-Companion code and reproducible workflows for **“Infrastructure Network Models”**.
+Companion code and reproducible workflows for **Infrastructure Network Models** in the **Linear Algebra for Systems Modeling** series.
 
-Status: **planned**.
+## Themes
 
-An applied article on roads, energy systems, water systems, logistics, and interdependence.
+- infrastructure assets and connected systems
+- physical, functional, control, supply, and institutional links
+- single-layer and multilayer infrastructure networks
+- adjacency, incidence, flow, capacity, demand, and condition representation
+- interdependence and cascading failure
+- redundancy, resilience, criticality, bottlenecks, and vulnerability
+- scenario analysis, restoration, prioritization, and recovery
+- infrastructure data provenance, security, equity, and governance
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
-
-```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
-```
-
-## Run smoke checks
+## Run
 
 ```bash
 make smoke
+make all
+make calculators
+make advanced
 ```
-
-## Principle
-
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.

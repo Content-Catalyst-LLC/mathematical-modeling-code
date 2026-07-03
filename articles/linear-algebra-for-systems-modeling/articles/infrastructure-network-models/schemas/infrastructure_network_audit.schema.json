@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InfrastructureNetworkAudit",
+  "type": "object",
+  "required": [
+    "network_name",
+    "node_count",
+    "edge_count",
+    "layer_count",
+    "critical_asset_count",
+    "interdependency_edge_count",
+    "total_baseline_capacity",
+    "disrupted_asset",
+    "remaining_capacity_after_disruption",
+    "capacity_loss_fraction",
+    "governance_warning"
+  ],
+  "properties": {
+    "network_name": {
+      "type": "string"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "edge_count": {
+      "type": "integer"
+    },
+    "layer_count": {
+      "type": "integer"
+    },
+    "critical_asset_count": {
+      "type": "integer"
+    },
+    "interdependency_edge_count": {
+      "type": "integer"
+    },
+    "total_baseline_capacity": {
+      "type": "number"
+    },
+    "disrupted_asset": {
+      "type": "string"
+    },
+    "remaining_capacity_after_disruption": {
+      "type": "number"
+    },
+    "capacity_loss_fraction": {
+      "type": "number"
+    },
+    "governance_warning": {
+      "type": "string"
+    }
+  }
+}

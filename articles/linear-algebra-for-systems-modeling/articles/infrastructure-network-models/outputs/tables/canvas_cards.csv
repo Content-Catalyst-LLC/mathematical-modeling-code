@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+asset-definition,Asset Definition,model-design,97,active,2026-06-29,"Define infrastructure nodes, service roles, and criticality flags."
+edge-dependency,Edge and Dependency,network-diagnostics,96,active,2026-06-29,"Document physical, functional, control, access, supply, and institutional links."
+layer-structure,Layer Structure,multilayer-modeling,95,review,2026-06-29,Review single-layer and multilayer infrastructure representation.
+scenario-stress,Scenario Stress,resilience-analysis,94,review,2026-06-29,"Test disruptions, capacity loss, dependency failure, and restoration assumptions."
+infrastructure-governance,Infrastructure Governance,interpretation,93,review,2026-06-29,"Review provenance, security, equity, accountability, and interpretation limits."

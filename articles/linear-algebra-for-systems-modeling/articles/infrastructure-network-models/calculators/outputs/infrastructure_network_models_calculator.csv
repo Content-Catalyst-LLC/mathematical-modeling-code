@@ -1,0 +1,2 @@
+calculator,network_name,node_count,edge_count,layer_count,critical_asset_count,interdependency_edge_count,total_baseline_capacity,disrupted_asset,remaining_capacity_after_disruption,capacity_loss_fraction,warning
+infrastructure_network_models_calculator,synthetic_multilayer_infrastructure_network,6,7,6,5,3,400.0,power_substation,160.0,0.6,"Infrastructure network metrics depend on asset definitions, edge meanings, layer boundaries, capacity semantics, dependency rules, scenarios, provenance, security, and vulnerability interpretation."

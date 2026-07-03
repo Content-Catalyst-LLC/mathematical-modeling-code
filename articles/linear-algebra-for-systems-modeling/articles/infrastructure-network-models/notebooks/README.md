@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Infrastructure Network Models** will live here.
+# Notebooks\n\nNotebook-ready workspace for infrastructure network models, asset registries, dependency edges, multilayer networks, scenario analysis, resilience diagnostics, and governance review.\n

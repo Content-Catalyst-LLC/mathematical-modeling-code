@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define whether nodes represent assets, facilities, service areas, junctions, regions, or institutions.",
+    "review_item": "asset_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether edges represent physical links, flows, dependencies, access, control, supply, or governance.",
+    "review_item": "edge_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define single-layer, multilayer, and cross-layer dependency structure.",
+    "review_item": "layer_boundary",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document design, observed, degraded, emergency, or service capacity meanings.",
+    "review_item": "capacity_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define how disruption or degradation propagates through dependency links.",
+    "review_item": "dependency_rule",
+    "status": "required"
+  },
+  {
+    "governance_note": "Test asset failures, capacity reductions, demand surges, hazard footprints, and restoration delays.",
+    "review_item": "scenario_design",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Review infrastructure data sensitivity, provenance, aggregation, and disclosure limits.",
+    "review_item": "security_and_provenance",
+    "status": "required"
+  },
+  {
+    "governance_note": "Connect network outputs to service access, population vulnerability, recovery priorities, and public accountability.",
+    "review_item": "equity_and_accountability",
+    "status": "required"
+  }
+]

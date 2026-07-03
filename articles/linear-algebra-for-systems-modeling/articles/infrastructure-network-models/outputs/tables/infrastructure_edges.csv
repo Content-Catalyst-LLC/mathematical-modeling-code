@@ -1,0 +1,8 @@
+source,target,edge_type,capacity,dependency_strength
+power_substation,water_pump,functional_dependency,60.0,0.95
+power_substation,hospital,functional_dependency,80.0,0.9
+communications_hub,power_substation,control_dependency,40.0,0.7
+road_bridge,hospital,access_link,70.0,0.8
+road_bridge,warehouse,logistics_link,40.0,0.75
+warehouse,hospital,supply_link,35.0,0.65
+communications_hub,hospital,coordination_link,35.0,0.6

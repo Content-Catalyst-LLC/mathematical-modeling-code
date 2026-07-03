@@ -1,0 +1,7 @@
+node,layer,service_role,critical,baseline_capacity
+power_substation,energy,electric service,True,100.0
+water_pump,water,water pressure,True,60.0
+hospital,health,critical care,True,80.0
+road_bridge,transportation,access corridor,True,70.0
+communications_hub,communication,control and coordination,True,50.0
+warehouse,logistics,supply distribution,False,40.0

@@ -1,0 +1,13 @@
+{
+  "capacity_loss_fraction": 0.6,
+  "critical_asset_count": 5,
+  "disrupted_asset": "power_substation",
+  "edge_count": 7,
+  "governance_warning": "Infrastructure network results depend on asset definitions, edge definitions, layer boundaries, capacity units, dependency rules, hazard scenarios, operating conditions, data provenance, security constraints, and social vulnerability interpretation.",
+  "interdependency_edge_count": 3,
+  "layer_count": 6,
+  "network_name": "synthetic_multilayer_infrastructure_network",
+  "node_count": 6,
+  "remaining_capacity_after_disruption": 160.0,
+  "total_baseline_capacity": 400.0
+}

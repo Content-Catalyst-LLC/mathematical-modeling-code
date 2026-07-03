@@ -42,7 +42,7 @@ IX Modeling Judgment and Interpretation,58,interpretation-approximation-and-resp
 "V Networks, Graphs, and Flows",31,graph-theory-foundations-for-systems-modeling,Graph Theory Foundations for Systems Modeling,active,articles/graph-theory-foundations-for-systems-modeling,upgraded,included
 "V Networks, Graphs, and Flows",32,pagerank-and-network-influence-models,PageRank and Network Influence Models,active,articles/pagerank-and-network-influence-models,upgraded,included
 "V Networks, Graphs, and Flows",33,network-flow-modeling,Network Flow Modeling,active,articles/network-flow-modeling,upgraded,included
-"V Networks, Graphs, and Flows",34,infrastructure-network-models,Infrastructure Network Models,planned,articles/infrastructure-network-models,required,required
+"V Networks, Graphs, and Flows",34,infrastructure-network-models,Infrastructure Network Models,active,articles/infrastructure-network-models,upgraded,included
 "V Networks, Graphs, and Flows",35,flow-connectivity-and-system-vulnerability,"Flow, Connectivity, and System Vulnerability",planned,articles/flow-connectivity-and-system-vulnerability,required,required
 VI Decomposition Reduction and Data Structure,36,orthogonal-decomposition-and-structured-approximation,Orthogonal Decomposition and Structured Approximation,planned,articles/orthogonal-decomposition-and-structured-approximation,scaffolded,planned
 VI Decomposition Reduction and Data Structure,37,singular-value-decomposition,Singular Value Decomposition,planned,articles/singular-value-decomposition,scaffolded,planned

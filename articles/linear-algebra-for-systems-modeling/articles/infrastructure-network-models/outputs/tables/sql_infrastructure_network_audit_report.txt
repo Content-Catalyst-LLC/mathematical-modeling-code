@@ -1,0 +1,38 @@
+section                         
+--------------------------------
+INFRASTRUCTURE MODELING REGISTRY
+assumption_name     mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Asset definition    Defines the nodes of the infrastructure graph.                Determines what physical functional spatial or institutional  Changing asset definitions changes connectivity criticality 
+                                                                                   entities are represented.                                    and vulnerability metrics.                                  
+
+Capacity semantics  Defines capacity values on nodes or edges.                    Determines whether capacity means design rating observed thr  Capacity values require units time scale and provenance.    
+                                                                                  oughput emergency capacity degraded capacity or service capa                                                              
+                                                                                  bility.                                                                                                                   
+
+Dependency rule     Defines how failure or degradation propagates across links.   Supports cascading-failure and interdependence analysis.      Dependency strength and thresholds must be justified.       
+
+Edge definition     Defines the relationships among infrastructure nodes.         Determines whether edges represent physical links flows depe  Different edge meanings should not be mixed without document
+                                                                                  ndencies access control or governance.                        ation.                                                      
+
+Governance review   Defines provenance security accountability and interpretatio  Connects infrastructure metrics to responsible decision use.  Infrastructure outputs can affect public investment access s
+                    n controls.                                                                                                                 afety and accountability.                                   
+
+Layer boundary      Defines infrastructure layers in a multilayer network.        Determines whether transportation energy water communication  Cross-layer dependency can be hidden if layers are collapsed
+                                                                                   logistics health and institutional layers are separated or   .                                                           
+                                                                                  combined.                                                                                                                 
+
+Recovery priority   Defines restoration objective and repair sequence logic.      Determines how service recovery is valued over time.          Recovery priorities can encode equity economic institutional
+                                                                                                                                                 or political assumptions.                                  
+
+Scenario design     Defines disruptions hazards demand shifts and recovery assum  Supports stress testing and resilience analysis.              Scenario choices determine what vulnerabilities become visib
+                    ptions.                                                                                                                     le.                                                         
+section                           
+----------------------------------
+INFRASTRUCTURE NETWORK AUDIT CASES
+network_name                                 node_count  edge_count  layer_count  critical_asset_count  interdependency_edge_count  total_baseline_capacity  disrupted_asset   remaining_capacity_after_disruption  capacity_loss_fraction  warning                                                     
+-------------------------------------------  ----------  ----------  -----------  --------------------  --------------------------  -----------------------  ----------------  -----------------------------------  ----------------------  ------------------------------------------------------------
+synthetic_multilayer_infrastructure_network  6           7           6            5                     3                           400.0                    power_substation  160.0                                0.6                     Infrastructure network results depend on asset definitions e
+                                                                                                                                                                                                                                            dge definitions layer boundaries capacity units dependency r
+                                                                                                                                                                                                                                            ules scenarios operating conditions provenance security and 
+                                                                                                                                                                                                                                            vulnerability interpretation.                               
