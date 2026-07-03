@@ -1,0 +1,7 @@
+source,target,weight
+water,power,1.0
+power,transport,1.5
+power,communications,0.8
+transport,communications,1.2
+communications,health,1.0
+water,health,2.5

@@ -1,0 +1,10 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+graph,Graph,Defines nodes and edges,Represents connected system structure,A graph is a representation not the system itself
+node,Node,Defines vertex set elements,Represents entities assets actors locations documents or components,Node boundaries shape all results
+edge,Edge,Defines relationships,Represents connection flow dependence interaction or exposure,Edge definitions determine what structure exists
+path,Path,Defines nonrepeating route,Represents feasible route or dependency chain,Path constraints differ from walk counts
+cycle,Cycle,Defines closed pathway,Represents loop redundancy circulation or feedback,Cycles can be physical functional or merely representational
+component,Connected component,Defines maximal connected region,Represents isolated subsystem or fragment,Components depend on graph boundary and direction handling
+degree,Degree,Counts incident connections,Represents local connectivity,Degree is not automatically influence or importance
+centrality,Centrality,Measures structural prominence,Represents influence exposure reach or brokerage depending on metric,Centrality must match the systems question
+laplacian,Graph Laplacian,Combines degree and adjacency,Supports diffusion cuts clustering and smoothness,Laplacian meaning depends on weights and normalization

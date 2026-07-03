@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define graph nodes, node boundary, and units of analysis.",
+    "review_item": "node_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document what relationships produce graph edges.",
+    "review_item": "edge_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether the graph is directed, undirected, weighted, bipartite, temporal, multilayer, or simplified.",
+    "review_item": "graph_type",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define whether weights represent distance, capacity, cost, frequency, probability, exposure, or similarity.",
+    "review_item": "weight_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review walks, paths, cycles, components, reachability, and shortest paths.",
+    "review_item": "pathway_metrics",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Choose centrality measures only when they match the systems question.",
+    "review_item": "centrality_metrics",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Align traversal, shortest path, flow, clustering, and ranking algorithms with graph semantics.",
+    "review_item": "algorithmic_fit",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Review source data, missing nodes, missing edges, false edges, stale weights, and measurement bias.",
+    "review_item": "provenance_missingness",
+    "status": "required"
+  }
+]

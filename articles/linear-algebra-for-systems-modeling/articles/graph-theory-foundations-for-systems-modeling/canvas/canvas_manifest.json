@@ -1,10 +1,10 @@
 {
+  "article_slug": "graph-theory-foundations-for-systems-modeling",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "graph-theory-foundations-for-systems-modeling",
-  "title": "Graph Theory Foundations for Systems Modeling",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "graph-theory-foundations-for-systems-modeling",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "graph-elements",
+      "title": "Graph Elements",
+      "description": "Defines nodes, edges, graph boundary, graph type, and time period."
+    },
+    {
+      "card_id": "pathway-structure",
+      "title": "Pathway Structure",
+      "description": "Reviews walks, paths, trails, cycles, reachability, and components."
+    },
+    {
+      "card_id": "graph-matrices",
+      "title": "Graph Matrices",
+      "description": "Connects adjacency, incidence, degree, transition, and Laplacian matrices."
+    },
+    {
+      "card_id": "algorithmic-layer",
+      "title": "Algorithmic Layer",
+      "description": "Links graph structure to traversal, shortest path, flow, and centrality algorithms."
+    },
+    {
+      "card_id": "graph-governance",
+      "title": "Graph Governance",
+      "description": "Reviews provenance, missing edges, weights, boundaries, and metric interpretation."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

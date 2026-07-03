@@ -1,0 +1,2 @@
+graph_name,node_count,edge_count,directed,weighted,component_count,max_degree,min_degree,average_degree,has_cycle,shortest_path_water_to_health,graph_density,representation_warning
+synthetic_infrastructure_graph_foundations,5,6,False,True,1,3,2,2.4,True,2.5,0.6,"Graph conclusions depend on node definitions, edge definitions, graph boundary, direction conventions, weight semantics, missing edges, time period, and data provenance."

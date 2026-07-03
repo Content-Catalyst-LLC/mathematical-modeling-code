@@ -1,0 +1,10 @@
+                           calculator
+1 graph_theory_foundations_calculator
+                                  graph_name node_count edge_count directed
+1 synthetic_infrastructure_graph_foundations          5          6    FALSE
+  weighted component_count max_degree min_degree average_degree has_cycle
+1     TRUE               1          3          2            2.4      TRUE
+  graph_density
+1           0.6
+                                                                                                                               warning
+1 Graph metrics depend on node definitions, edge definitions, graph boundaries, weight semantics, temporal scope, and data provenance.

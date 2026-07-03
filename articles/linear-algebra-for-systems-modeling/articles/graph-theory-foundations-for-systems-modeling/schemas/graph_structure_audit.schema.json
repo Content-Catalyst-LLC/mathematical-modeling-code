@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphStructureAudit",
+  "type": "object",
+  "required": [
+    "graph_name",
+    "node_count",
+    "edge_count",
+    "directed",
+    "weighted",
+    "component_count",
+    "max_degree",
+    "min_degree",
+    "average_degree",
+    "has_cycle",
+    "shortest_path_water_to_health",
+    "graph_density",
+    "representation_warning"
+  ],
+  "properties": {
+    "graph_name": {
+      "type": "string"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "edge_count": {
+      "type": "integer"
+    },
+    "directed": {
+      "type": "boolean"
+    },
+    "weighted": {
+      "type": "boolean"
+    },
+    "component_count": {
+      "type": "integer"
+    },
+    "max_degree": {
+      "type": "integer"
+    },
+    "min_degree": {
+      "type": "integer"
+    },
+    "average_degree": {
+      "type": "number"
+    },
+    "has_cycle": {
+      "type": "boolean"
+    },
+    "shortest_path_water_to_health": {
+      "type": "number"
+    },
+    "graph_density": {
+      "type": "number"
+    },
+    "representation_warning": {
+      "type": "string"
+    }
+  }
+}

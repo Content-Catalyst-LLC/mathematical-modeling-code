@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Graph Theory Foundations for Systems Modeling** will live here.
+# Notebooks\n\nNotebook-ready workspace for graph theory foundations, graph diagnostics, shortest paths, components, cycles, graph matrices, sparse representation, and model governance.\n

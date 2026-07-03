@@ -1,0 +1,6 @@
+node,degree,weighted_degree
+communications,3,3.0
+health,2,3.5
+power,3,3.3
+transport,2,2.7
+water,2,3.5
