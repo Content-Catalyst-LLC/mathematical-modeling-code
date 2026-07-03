@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+node-edge-map,Node-Edge Map,model-design,97,active,2026-06-29,"Document nodes, edges, and edge indexing."
+sign-convention,Sign Convention,matrix-semantics,96,active,2026-06-29,"Define source tail, target head, and incidence signs."
+flow-balance,Flow Balance,network-diagnostics,95,review,2026-06-29,Map edge flows into node-level balances.
+laplacian-construction,Laplacian Construction,spectral-network,94,review,2026-06-29,Construct graph Laplacians from incidence structure.
+representation-governance,Representation Governance,interpretation,93,review,2026-06-29,"Review provenance, weights, conservation, and sparse formats."

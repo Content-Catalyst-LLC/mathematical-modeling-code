@@ -1,0 +1,10 @@
+# Advanced Incidence Structure Review
+
+- **node_boundary** (required): Define graph boundary and node inclusion rules.
+- **edge_definition** (required): Document what relationship or channel produces each incidence column.
+- **sign_convention** (required): Specify source, target, tail, head, and signed-entry convention.
+- **edge_flow_units** (required): Define units and time scale for edge-flow vectors.
+- **flow_conservation** (required): Document conservation, accumulation, source, sink, and storage assumptions.
+- **laplacian_construction** (recommended): State whether the Laplacian is unweighted, weighted, normalized, or domain-specific.
+- **sparse_representation** (recommended): Report nonzero count, density, and sparse storage choices.
+- **provenance_missingness** (required): Review source data, missing edges, false edges, stale data, and measurement bias.

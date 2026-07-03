@@ -1,0 +1,5 @@
+row,e1_water_to_power,e2_power_to_transport,e3_power_to_communications,e4_transport_to_communications,e5_communications_to_water
+water,-1.0,0.0,0.0,0.0,1.0
+power,1.0,-1.0,-1.0,0.0,0.0
+transport,0.0,1.0,0.0,-1.0,0.0
+communications,0.0,0.0,1.0,1.0,-1.0

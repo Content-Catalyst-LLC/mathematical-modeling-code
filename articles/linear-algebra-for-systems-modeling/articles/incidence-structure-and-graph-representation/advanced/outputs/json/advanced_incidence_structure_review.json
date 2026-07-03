@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define graph boundary and node inclusion rules.",
+    "review_item": "node_boundary",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document what relationship or channel produces each incidence column.",
+    "review_item": "edge_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Specify source, target, tail, head, and signed-entry convention.",
+    "review_item": "sign_convention",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define units and time scale for edge-flow vectors.",
+    "review_item": "edge_flow_units",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document conservation, accumulation, source, sink, and storage assumptions.",
+    "review_item": "flow_conservation",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether the Laplacian is unweighted, weighted, normalized, or domain-specific.",
+    "review_item": "laplacian_construction",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Report nonzero count, density, and sparse storage choices.",
+    "review_item": "sparse_representation",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Review source data, missing edges, false edges, stale data, and measurement bias.",
+    "review_item": "provenance_missingness",
+    "status": "required"
+  }
+]

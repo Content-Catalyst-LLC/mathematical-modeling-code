@@ -1,0 +1,8 @@
+                      calculator                               graph_name
+1 incidence_structure_calculator synthetic_infrastructure_incidence_graph
+  node_count edge_count signed_incidence nonzero_incidence_entries
+1          4          5             TRUE                        10
+  incidence_density max_absolute_node_balance laplacian_trace rank_estimate
+1               0.5                         9              10             3
+                                                                                                                                    warning
+1 Incidence metrics depend on node definitions, edge definitions, sign conventions, weights, conservation assumptions, and data provenance.

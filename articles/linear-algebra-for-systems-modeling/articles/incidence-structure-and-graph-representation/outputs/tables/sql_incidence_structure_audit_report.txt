@@ -1,0 +1,32 @@
+section                          
+---------------------------------
+INCIDENCE REPRESENTATION REGISTRY
+assumption_name         mathematical_role                                             systems_modeling_role                                         review_warning                                              
+----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Edge definition         Defines columns of the incidence matrix.                      Determines which relationships or flow channels are represen  Different edge definitions produce different incidence struc
+                                                                                      ted.                                                          ture.                                                       
+
+Edge direction          Defines source and target for each edge.                      Determines orientation of flow influence dependency or relat  Direction must match domain meaning not just visual layout. 
+                                                                                      ion.                                                                                                                      
+
+Edge weight             Defines edge weight semantics.                                Determines whether weights represent capacity conductance re  Weights may require transformation before entering Laplacian
+                                                                                      sistance cost exposure or probability.                         or flow equations.                                         
+
+Flow conservation       Defines whether Bf = b represents conservation imbalance sto  Determines interpretation of node balances.                   Conservation assumptions must be matched to physical or inst
+                        rage supply or demand.                                                                                                      itutional reality.                                          
+
+Laplacian construction  Defines how incidence structure is transformed into a graph   Supports diffusion cuts smoothness electrical analogy and sp  Unweighted and weighted Laplacians encode different assumpti
+                        Laplacian.                                                    ectral analysis.                                              ons.                                                        
+
+Node definition         Defines rows of the incidence matrix.                         Determines which entities can accumulate supply demand recei  Excluded nodes can distort balance and connectivity conclusi
+                                                                                      ve or send flow.                                              ons.                                                        
+
+Sign convention         Defines whether source nodes receive -1 or +1 entries.        Determines how edge flows translate into node balances.       Changing sign conventions reverses balance interpretation.  
+section                        
+-------------------------------
+INCIDENCE STRUCTURE AUDIT CASES
+graph_name                                node_count  edge_count  incidence_density  max_absolute_node_balance  laplacian_trace  rank_estimate  warning                                                     
+----------------------------------------  ----------  ----------  -----------------  -------------------------  ---------------  -------------  ------------------------------------------------------------
+synthetic_infrastructure_incidence_graph  4           5           0.5                9.0                        10.0             3              Incidence matrices require node definitions edge definitions
+                                                                                                                                                 sign conventions flow assumptions weights provenance and co
+                                                                                                                                                nservation review.                                          

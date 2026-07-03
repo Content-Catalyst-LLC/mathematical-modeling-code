@@ -1,0 +1,14 @@
+{
+  "directed_convention": "B[v,e] = -1 at source/tail and +1 at target/head.",
+  "edge_count": 5,
+  "flow_conservation_warning": "Node balances are computed from synthetic edge flows. Interpreting imbalance requires source, sink, storage, and boundary assumptions.",
+  "graph_name": "synthetic_infrastructure_incidence_graph",
+  "incidence_density": 0.5,
+  "laplacian_trace": 10.0,
+  "max_absolute_node_balance": 9.0,
+  "node_count": 4,
+  "nonzero_incidence_entries": 10,
+  "rank_estimate": 3,
+  "representation_warning": "Incidence structure depends on node definitions, edge definitions, sign convention, edge direction, weight semantics, data provenance, and conservation assumptions.",
+  "signed_incidence": true
+}

@@ -1,0 +1,5 @@
+row,water,power,transport,communications
+water,2.0,-1.0,0.0,-1.0
+power,-1.0,3.0,-1.0,-1.0
+transport,0.0,-1.0,2.0,-1.0
+communications,-1.0,-1.0,-1.0,3.0

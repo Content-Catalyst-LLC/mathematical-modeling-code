@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "node-edge-map",
+    "category": "model-design",
+    "governance_note": "Document nodes, edges, and edge indexing.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Node-Edge Map"
+  },
+  {
+    "card_id": "sign-convention",
+    "category": "matrix-semantics",
+    "governance_note": "Define source tail, target head, and incidence signs.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Sign Convention"
+  },
+  {
+    "card_id": "flow-balance",
+    "category": "network-diagnostics",
+    "governance_note": "Map edge flows into node-level balances.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Flow Balance"
+  },
+  {
+    "card_id": "laplacian-construction",
+    "category": "spectral-network",
+    "governance_note": "Construct graph Laplacians from incidence structure.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Laplacian Construction"
+  },
+  {
+    "card_id": "representation-governance",
+    "category": "interpretation",
+    "governance_note": "Review provenance, weights, conservation, and sparse formats.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Representation Governance"
+  }
+]

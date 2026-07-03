@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Incidence Structure and Graph Representation** will live here.
+# Notebooks\n\nNotebook-ready workspace for incidence structure, graph representation, node-edge matrices, flow balance, graph Laplacians, sparse representation, and model governance.\n

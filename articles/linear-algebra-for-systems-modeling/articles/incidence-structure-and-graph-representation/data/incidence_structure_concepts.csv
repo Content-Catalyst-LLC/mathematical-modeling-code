@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+node_definition,Node definition,Defines rows of incidence matrix,Determines entities where balances can be computed,Excluded nodes distort balance and connectivity conclusions
+edge_definition,Edge definition,Defines columns of incidence matrix,Determines relationships or flow channels represented,Different edge definitions produce different incidence structures
+sign_convention,Sign convention,Defines signed incidence entries,Determines source target and balance interpretation,Changing signs reverses balance interpretation
+edge_flow,Edge-flow vector,Assigns values to edges,Represents traffic current shipment exposure or transmission,Flow units and time scale must be documented
+node_balance,Node-balance equation,Maps edge flows to node balances,Represents net inflow outflow storage supply or demand,Conservation assumptions must match domain reality
+graph_laplacian,Graph Laplacian,Constructs connectivity operator from incidence,Supports diffusion cuts smoothness and spectral analysis,Weighted and unweighted Laplacians encode different assumptions
+cut_structure,Cut structure,Separates node sets through crossing edges,Identifies boundaries bottlenecks and vulnerabilities,Cuts depend on graph boundary and edge weights
+cycle_structure,Cycle structure,Represents zero-balance circulation,Identifies loops redundancy and feedback pathways,Cycles can be physical functional or merely representational

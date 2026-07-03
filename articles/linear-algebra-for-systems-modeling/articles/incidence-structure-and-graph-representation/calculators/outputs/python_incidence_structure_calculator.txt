@@ -1,0 +1,13 @@
+{
+  "calculator": "incidence_structure_calculator",
+  "edge_count": 5,
+  "graph_name": "synthetic_infrastructure_incidence_graph",
+  "incidence_density": 0.5,
+  "laplacian_trace": 10.0,
+  "max_absolute_node_balance": 9.0,
+  "node_count": 4,
+  "nonzero_incidence_entries": 10,
+  "rank_estimate": 3,
+  "signed_incidence": true,
+  "warning": "Incidence metrics depend on node definitions, edge definitions, sign conventions, weights, conservation assumptions, and data provenance."
+}
