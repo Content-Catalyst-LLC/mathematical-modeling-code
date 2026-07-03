@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "technical-coefficients",
+    "category": "model-design",
+    "governance_note": "Document direct requirements per unit of output and fixed-coefficient assumptions.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Technical Coefficients"
+  },
+  {
+    "card_id": "net-requirements",
+    "category": "diagnostics",
+    "governance_note": "Check I minus A for invertibility and conditioning.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Net Requirements"
+  },
+  {
+    "card_id": "productivity-check",
+    "category": "validation",
+    "governance_note": "Report spectral radius and feasibility diagnostics.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Productivity Check"
+  },
+  {
+    "card_id": "leontief-inverse",
+    "category": "method-choice",
+    "governance_note": "Export total requirements and multiplier structure.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Leontief Inverse"
+  },
+  {
+    "card_id": "scenario-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect demand shocks, extensions, sensitivity testing, and interpretation limits.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Scenario Governance"
+  }
+]

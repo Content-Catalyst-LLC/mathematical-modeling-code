@@ -1,0 +1,14 @@
+                                                calculator
+1 leontief_systems_and_intersectoral_dependence_calculator
+                                         model_name sectors
+1 synthetic_leontief_intersectoral_dependence_audit       4
+                         method            coefficient_basis spectral_radius
+1 demand_driven_leontief_system sector_input_per_unit_output           0.331
+  condition_number productive_system_flag maximum_output_multiplier
+1             2.41                   TRUE                      1.47
+  highest_multiplier_sector total_output_required total_shock_output_change
+1             manufacturing                 319.8                      36.2
+  emissions_for_final_demand
+1                      150.6
+                                                                                                                                                                                             warning
+1 Leontief metrics depend on coefficient construction, productivity conditions, matrix conditioning, scenario definition, environmental extensions, sensitivity testing, and interpretation context.

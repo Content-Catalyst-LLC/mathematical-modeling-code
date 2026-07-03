@@ -1,0 +1,16 @@
+{
+  "assumption_warning": "The Leontief model assumes fixed technical coefficients, proportional production, no price response, no substitution, and no binding capacity constraints.",
+  "coefficient_basis": "sector_input_per_unit_output",
+  "condition_number": 2.41,
+  "emissions_for_final_demand": 150.6,
+  "highest_multiplier_sector": "manufacturing",
+  "interpretation_warning": "The Leontief inverse gives structured dependency estimates under model assumptions. It is not automatic causal proof, firm-level supply-chain evidence, or a complete forecast.",
+  "maximum_output_multiplier": 1.657032,
+  "method": "demand_driven_leontief_system",
+  "model_name": "synthetic_leontief_intersectoral_dependence_audit",
+  "productive_system_flag": true,
+  "sectors": 4,
+  "spectral_radius": 0.331,
+  "total_output_required": 319.8,
+  "total_shock_output_change": 38.2008
+}

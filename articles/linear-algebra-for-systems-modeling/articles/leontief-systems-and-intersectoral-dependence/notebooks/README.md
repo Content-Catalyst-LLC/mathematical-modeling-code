@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Leontief Systems and Intersectoral Dependence** will live here.
+# Notebooks\n\nNotebook-ready workspace for Leontief systems, technical coefficients, net requirements, productivity checks, Leontief inverses, multipliers, demand shocks, environmental extensions, conditioning, sensitivity testing, and governance diagnostics.\n

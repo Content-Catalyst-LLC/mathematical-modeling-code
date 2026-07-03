@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LeontiefSystemAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "sectors",
+    "method",
+    "coefficient_basis",
+    "spectral_radius",
+    "condition_number",
+    "productive_system_flag",
+    "maximum_output_multiplier",
+    "highest_multiplier_sector",
+    "total_output_required",
+    "total_shock_output_change",
+    "emissions_for_final_demand",
+    "assumption_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "sectors": {
+      "type": "integer"
+    },
+    "method": {
+      "type": "string"
+    },
+    "coefficient_basis": {
+      "type": "string"
+    },
+    "spectral_radius": {
+      "type": "number"
+    },
+    "condition_number": {
+      "type": "number"
+    },
+    "productive_system_flag": {
+      "type": "boolean"
+    },
+    "maximum_output_multiplier": {
+      "type": "number"
+    },
+    "highest_multiplier_sector": {
+      "type": "string"
+    },
+    "total_output_required": {
+      "type": "number"
+    },
+    "total_shock_output_change": {
+      "type": "number"
+    },
+    "emissions_for_final_demand": {
+      "type": "number"
+    },
+    "assumption_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

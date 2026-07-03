@@ -1,10 +1,10 @@
 {
+  "article_slug": "leontief-systems-and-intersectoral-dependence",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "leontief-systems-and-intersectoral-dependence",
-  "title": "Leontief Systems and Intersectoral Dependence",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "leontief-systems-and-intersectoral-dependence",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "technical-coefficients",
+      "title": "Technical Coefficients",
+      "description": "Documents direct requirements per unit of output and fixed-coefficient assumptions."
+    },
+    {
+      "card_id": "net-requirements",
+      "title": "Net Requirements",
+      "description": "Checks the matrix I minus A for invertibility and conditioning."
+    },
+    {
+      "card_id": "productivity-check",
+      "title": "Productivity Check",
+      "description": "Reports spectral radius and feasibility diagnostics."
+    },
+    {
+      "card_id": "leontief-inverse",
+      "title": "Leontief Inverse",
+      "description": "Exports total requirements and multiplier structure."
+    },
+    {
+      "card_id": "scenario-governance",
+      "title": "Scenario Governance",
+      "description": "Connects demand shocks, extensions, sensitivity testing, and interpretation limits."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

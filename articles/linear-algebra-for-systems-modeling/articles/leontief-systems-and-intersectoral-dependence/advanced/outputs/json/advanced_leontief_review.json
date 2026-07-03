@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Document coefficient construction, sector orientation, imports, and fixed-coefficient assumptions.",
+    "review_item": "technical_coefficients",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check I minus A for invertibility, conditioning, and numerical stability.",
+    "review_item": "net_requirements",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report spectral radius, feasibility, and nonnegative output checks.",
+    "review_item": "productivity_condition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Export total requirements, direct and indirect dependence, and multiplier structure.",
+    "review_item": "leontief_inverse",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define final demand shock and interpret under fixed-coefficient assumptions.",
+    "review_item": "shock_scenario",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document environmental or social extension coefficients, units, allocation, and provenance.",
+    "review_item": "extension_coefficients",
+    "status": "required"
+  },
+  {
+    "governance_note": "Test coefficient perturbations, demand uncertainty, aggregation, and boundary choices.",
+    "review_item": "sensitivity_testing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Present Leontief results as structured estimates, not automatic causal proof or complete forecasts.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]

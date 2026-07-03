@@ -1,0 +1,9 @@
+review_item,status,governance_note
+technical_coefficients,required,"Document coefficient construction, sector orientation, imports, and fixed-coefficient assumptions."
+net_requirements,required,"Check I minus A for invertibility, conditioning, and numerical stability."
+productivity_condition,required,"Report spectral radius, feasibility, and nonnegative output checks."
+leontief_inverse,required,"Export total requirements, direct and indirect dependence, and multiplier structure."
+shock_scenario,required,Define final demand shock and interpret under fixed-coefficient assumptions.
+extension_coefficients,required,"Document environmental or social extension coefficients, units, allocation, and provenance."
+sensitivity_testing,required,"Test coefficient perturbations, demand uncertainty, aggregation, and boundary choices."
+responsible_use,required,"Present Leontief results as structured estimates, not automatic causal proof or complete forecasts."

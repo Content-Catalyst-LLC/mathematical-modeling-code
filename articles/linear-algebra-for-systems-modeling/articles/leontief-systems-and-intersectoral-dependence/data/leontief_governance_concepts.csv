@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+technical_coefficients,Technical coefficients,Define direct input requirements per unit of sector output,Represent direct intersectoral dependence,Coefficients assume stable production recipes over the scenario
+net_requirements,Net requirements matrix,Defines system matrix I minus A,Links final demand to total output through solvable linear system,Invertibility and conditioning should be reviewed before interpreting results
+leontief_inverse,Leontief inverse,Maps final demand into direct and indirect total output requirements,Summarizes system-wide intersectoral dependence,The inverse is a structured model estimate not automatic causal proof
+productivity_condition,Productivity condition,Checks whether coefficient system can satisfy positive final demand,Supports economic feasibility and nonnegative output interpretation,A computed inverse without productivity review can be misleading
+shock_scenario,Shock scenario,Defines final demand change applied to system,Estimates total output response under fixed coefficients,Demand shocks are not full dynamic forecasts or supply-constrained disruption models
+multiplier_interpretation,Multiplier interpretation,Summarizes total requirements per unit final demand,Supports compact comparison of sector dependence,Multipliers depend on sector aggregation boundaries imports and assumptions
+extension_coefficients,Extension coefficients,Attach emissions energy labor water value-added or other intensities to output,Connect final demand to indirect environmental or social requirements,Units boundaries allocation rules and provenance must be documented
+responsible_use,Responsible use,Defines how assumptions diagnostics uncertainty and limitations are communicated,Prevents total-requirements estimates from being overstated,Leontief systems should support structured interpretation not replace domain judgment

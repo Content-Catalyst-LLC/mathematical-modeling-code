@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+technical-coefficients,Technical Coefficients,model-design,97,active,2026-06-29,Document direct requirements per unit of output and fixed-coefficient assumptions.
+net-requirements,Net Requirements,diagnostics,96,active,2026-06-29,Check I minus A for invertibility and conditioning.
+productivity-check,Productivity Check,validation,95,review,2026-06-29,Report spectral radius and feasibility diagnostics.
+leontief-inverse,Leontief Inverse,method-choice,94,review,2026-06-29,Export total requirements and multiplier structure.
+scenario-governance,Scenario Governance,responsible-use,93,review,2026-06-29,"Connect demand shocks, extensions, sensitivity testing, and interpretation limits."

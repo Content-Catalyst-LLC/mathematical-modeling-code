@@ -1,0 +1,35 @@
+section                     
+----------------------------
+LEONTIEF GOVERNANCE REGISTRY
+assumption_name            mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Extension coefficients     Attach emissions energy labor water value-added or other int  Connect final demand to indirect environmental or social req  Units boundaries allocation rules and provenance must be doc
+                           ensities to output.                                           uirements.                                                    umented.                                                    
+
+Leontief inverse           Maps final demand into direct and indirect total output requ  Summarizes system-wide intersectoral dependence.              The inverse is a structured model estimate not automatic cau
+                           irements.                                                                                                                   sal proof.                                                  
+
+Multiplier interpretation  Summarizes total requirements per unit final demand.          Supports compact comparison of sector dependence.             Multipliers depend on sector aggregation boundaries imports 
+                                                                                                                                                       and assumptions.                                            
+
+Net requirements matrix    Defines the system matrix I minus A.                          Links final demand to total output through a solvable linear  Invertibility and conditioning should be reviewed before int
+                                                                                          system.                                                      erpreting results.                                          
+
+Productivity condition     Checks whether the coefficient system can satisfy positive f  Supports economic feasibility and nonnegative output interpr  A computed inverse without productivity review can be mislea
+                           inal demand.                                                  etation.                                                      ding.                                                       
+
+Responsible use            Defines how assumptions diagnostics uncertainty and limitati  Prevents total-requirements estimates from being overstated.  Leontief systems should support structured interpretation no
+                           ons are communicated.                                                                                                       t replace domain judgment.                                  
+
+Shock scenario             Defines a final demand change applied to the system.          Estimates total output response under fixed coefficients.     Demand shocks are not full dynamic forecasts or supply-const
+                                                                                                                                                       rained disruption models.                                   
+
+Technical coefficients     Define direct input requirements per unit of sector output.   Represent direct intersectoral dependence.                    Coefficients assume stable production recipes over the scena
+                                                                                                                                                       rio.                                                        
+section                    
+---------------------------
+LEONTIEF SYSTEM AUDIT CASES
+model_name                                         sectors  method                         coefficient_basis             spectral_radius  condition_number  productive_system_flag  maximum_output_multiplier  highest_multiplier_sector  total_output_required  total_shock_output_change  emissions_for_final_demand  warning                                                     
+-------------------------------------------------  -------  -----------------------------  ----------------------------  ---------------  ----------------  ----------------------  -------------------------  -------------------------  ---------------------  -------------------------  --------------------------  ------------------------------------------------------------
+synthetic_leontief_intersectoral_dependence_audit  4        demand_driven_leontief_system  sector_input_per_unit_output  0.331            2.41              1                       1.47                       manufacturing              319.8                  36.2                       150.6                       The Leontief inverse gives structured dependency estimates u
+                                                                                                                                                                                                                                                                                                                        nder model assumptions not automatic causal proof.          
