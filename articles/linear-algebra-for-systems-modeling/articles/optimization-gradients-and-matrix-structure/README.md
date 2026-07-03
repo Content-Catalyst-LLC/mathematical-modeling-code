@@ -1,42 +1,21 @@
 # Optimization, Gradients, and Matrix Structure
 
-Companion code and reproducible workflows for **“Optimization, Gradients, and Matrix Structure”**.
+Companion code and reproducible workflows for **Optimization, Gradients, and Matrix Structure** in the **Linear Algebra for Systems Modeling** series.
 
-Status: **planned**.
+## Themes
 
-A treatment of matrix-based optimization and system objectives.
+- objective functions, decision vectors, and constraint matrices
+- least squares, residuals, gradients, and matrix calculus
+- gradient descent, Hessians, curvature, and convexity
+- regularization, conditioning, numerical reliability, and solver diagnostics
+- optimization in machine learning and systems modeling
+- sensitivity testing and responsible interpretation of optimized outputs
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
-
-```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
-```
-
-## Run smoke checks
+## Run
 
 ```bash
 make smoke
+make all
+make calculators
+make advanced
 ```
-
-## Principle
-
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.

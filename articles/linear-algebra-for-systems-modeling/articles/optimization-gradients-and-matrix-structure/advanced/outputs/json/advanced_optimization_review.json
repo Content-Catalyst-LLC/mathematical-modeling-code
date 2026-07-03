@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define controllable variables, units, bounds, and relationship to real decision authority.",
+    "review_item": "decision_variables",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document what is minimized or maximized and whether the objective is a valid proxy for the system goal.",
+    "review_item": "objective_function",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document equality, inequality, feasibility, capacity, safety, policy, and ethical constraints.",
+    "review_item": "constraint_matrix",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report gradient expression, update rule, step size, and final gradient norm.",
+    "review_item": "gradient_formula",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report Hessian structure, eigenvalue or singular-value review, convexity, and conditioning.",
+    "review_item": "curvature_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document solver method, stopping rules, objective history, and convergence status.",
+    "review_item": "solver_convergence",
+    "status": "required"
+  },
+  {
+    "governance_note": "Test objective weights, constraints, data perturbations, regularization strength, and parameter uncertainty.",
+    "review_item": "sensitivity_testing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Present the optimum as a model result under assumptions, not automatic policy, causality, or truth.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]

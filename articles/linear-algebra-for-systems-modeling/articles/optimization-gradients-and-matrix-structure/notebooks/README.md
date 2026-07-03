@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Optimization, Gradients, and Matrix Structure** will live here.
+# Notebooks\n\nNotebook-ready workspace for optimization, gradients, matrix structure, objectives, constraints, least squares, gradient descent, Hessians, curvature, conditioning, regularization, sensitivity testing, and governance.\n

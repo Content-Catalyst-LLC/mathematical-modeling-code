@@ -1,10 +1,10 @@
 {
+  "article_slug": "optimization-gradients-and-matrix-structure",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "optimization-gradients-and-matrix-structure",
-  "title": "Optimization, Gradients, and Matrix Structure",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "optimization-gradients-and-matrix-structure",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "objective-validity",
+      "title": "Objective Validity",
+      "description": "Reviews whether the optimized objective represents the real system goal or only a proxy."
+    },
+    {
+      "card_id": "constraint-completeness",
+      "title": "Constraint Completeness",
+      "description": "Documents feasibility, capacity, policy, ethical, and resource constraints."
+    },
+    {
+      "card_id": "gradient-diagnostics",
+      "title": "Gradient Diagnostics",
+      "description": "Reports gradient formula, update rule, step size, and final gradient norm."
+    },
+    {
+      "card_id": "curvature-conditioning",
+      "title": "Curvature and Conditioning",
+      "description": "Reviews Hessian structure, singular values, and numerical sensitivity."
+    },
+    {
+      "card_id": "optimization-governance",
+      "title": "Optimization Governance",
+      "description": "Connects convergence, sensitivity testing, and responsible interpretation."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+decision_variables,Decision variables,Define the vector of quantities the model is allowed to choose,Determine what actions allocations parameters or flows are controllable,If variables do not match real decision authority the optimized solution may be unusable
+objective_function,Objective function,Defines what the model minimizes or maximizes,Determines what the model treats as success,An objective may be a proxy that excludes important system values or harms
+constraint_matrix,Constraint matrix,Encodes equality inequality balance capacity or feasibility relationships,Defines feasible region of system decisions,Missing constraints can make optimized decision infeasible or harmful
+gradient_formula,Gradient formula,Defines local sensitivity and update direction,Guides iterative search through parameter or decision space,Incorrect gradients or poor scaling can invalidate optimization behavior
+curvature_diagnostics,Curvature diagnostics,Use Hessians eigenvalues or singular values to assess objective shape,Explain convergence uniqueness convexity and sensitivity,Curvature should be reviewed before trusting solver behavior
+conditioning,Conditioning,Measures numerical sensitivity of matrices or solution systems,Determines whether optimized results are stable under perturbation,High condition numbers require sensitivity testing and cautious interpretation
+regularization,Regularization,Adds penalties or constraints to stabilize or structure solutions,Expresses preference for smaller smoother sparse or lower-rank solutions,Regularization strength is a modeling choice and should be validated
+responsible_use,Responsible use,Defines how objectives constraints sensitivity uncertainty and limits are communicated,Prevents optimized results from being overstated as complete system answers,An optimum is a model result under assumptions not automatic policy causality or truth

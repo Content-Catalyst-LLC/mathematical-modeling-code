@@ -1,0 +1,6 @@
+feature,gradient_descent_weight,closed_form_weight
+energy_load,1.82,1.82
+network_delay,0.91,0.91
+maintenance_backlog,1.44,1.44
+weather_stress,0.76,0.76
+demand_variability,0.6,0.6

@@ -1,0 +1,16 @@
+                                              calculator
+1 optimization_gradients_and_matrix_structure_calculator
+                                    model_name observations features
+1 synthetic_optimization_gradient_matrix_audit           10        5
+                                  objective
+1 mean_squared_error_plus_l2_regularization
+                                                                solver
+1 fixed_step_gradient_descent_compared_with_closed_form_ridge_solution
+  regularization_strength feature_matrix_condition_number
+1                    0.75                            18.4
+  hessian_condition_number gradient_norm_final objective_initial
+1                      3.8               9e-04                52
+  objective_final closed_form_gap_norm training_rmse
+1             4.3                0.002           1.9
+                                                                                                                                                                                         warning
+1 Optimization metrics depend on objective validity, variable definition, constraints, scaling, solver choice, convergence rules, conditioning, sensitivity testing, and interpretation context.

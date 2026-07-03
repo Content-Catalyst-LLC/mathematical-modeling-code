@@ -1,0 +1,17 @@
+{
+  "closed_form_gap_norm": 0.002,
+  "convergence_warning": "Gradient descent results depend on step size, scaling, conditioning, stopping rules, and objective curvature. Compare iterative results with diagnostics or stable solvers when possible.",
+  "feature_matrix_condition_number": 18.4,
+  "features": 5,
+  "gradient_norm_final": 0.0009,
+  "hessian_condition_number": 3.8,
+  "interpretation_warning": "The optimized parameter vector is a solution to a chosen objective under representation, regularization, and data assumptions. It is not automatic causal evidence or a complete system policy.",
+  "model_name": "synthetic_optimization_gradient_matrix_audit",
+  "objective": "mean_squared_error_plus_l2_regularization",
+  "objective_final": 4.3,
+  "objective_initial": 52.0,
+  "observations": 10,
+  "regularization_strength": 0.75,
+  "solver": "fixed_step_gradient_descent_compared_with_closed_form_ridge_solution",
+  "training_rmse": 1.9
+}

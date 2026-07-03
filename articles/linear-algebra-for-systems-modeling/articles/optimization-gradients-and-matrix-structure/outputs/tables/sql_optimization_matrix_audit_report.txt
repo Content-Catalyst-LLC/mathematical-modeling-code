@@ -1,0 +1,35 @@
+section                         
+--------------------------------
+OPTIMIZATION GOVERNANCE REGISTRY
+assumption_name        mathematical_role                                             systems_modeling_role                                         review_warning                                              
+---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Conditioning           Measures numerical sensitivity of matrices or solution syste  Determines whether optimized results are stable under pertur  High condition numbers require sensitivity testing and cauti
+                       ms.                                                           bation.                                                       ous interpretation.                                         
+
+Constraint matrix      Encodes equality inequality balance capacity or feasibility   Defines the feasible region of system decisions.              Missing constraints can make an optimized decision infeasibl
+                       relationships.                                                                                                              e or harmful.                                               
+
+Curvature diagnostics  Use Hessians eigenvalues or singular values to assess object  Explain convergence uniqueness convexity and sensitivity.     Curvature should be reviewed before trusting solver behavior
+                       ive shape.                                                                                                                  .                                                           
+
+Decision variables     Define the vector of quantities the model is allowed to choo  Determine what actions allocations parameters or flows are c  If variables do not match real decision authority the optimi
+                       se.                                                           ontrollable.                                                  zed solution may be unusable.                               
+
+Gradient formula       Defines local sensitivity and update direction.               Guides iterative search through parameter or decision space.  Incorrect gradients or poor scaling can invalidate optimizat
+                                                                                                                                                   ion behavior.                                               
+
+Objective function     Defines what the model minimizes or maximizes.                Determines what the model treats as success.                  An objective may be a proxy that excludes important system v
+                                                                                                                                                   alues or harms.                                             
+
+Regularization         Adds penalties or constraints to stabilize or structure solu  Expresses a preference for smaller smoother sparse or lower-  Regularization strength is a modeling choice and should be v
+                       tions.                                                        rank solutions.                                               alidated.                                                   
+
+Responsible use        Defines how objectives constraints sensitivity uncertainty a  Prevents optimized results from being overstated as complete  An optimum is a model result under assumptions not automatic
+                       nd limits are communicated.                                    system answers.                                               policy causality or truth.                                 
+section                        
+-------------------------------
+OPTIMIZATION MATRIX AUDIT CASES
+model_name                                    observations  features  objective                                  solver                                                        regularization_strength  feature_matrix_condition_number  hessian_condition_number  gradient_norm_final  objective_initial  objective_final  closed_form_gap_norm  training_rmse  warning                                                     
+--------------------------------------------  ------------  --------  -----------------------------------------  ------------------------------------------------------------  -----------------------  -------------------------------  ------------------------  -------------------  -----------------  ---------------  --------------------  -------------  ------------------------------------------------------------
+synthetic_optimization_gradient_matrix_audit  10            5         mean_squared_error_plus_l2_regularization  fixed_step_gradient_descent_compared_with_closed_form_ridge_  0.75                     18.4                             3.8                       0.0009               52.0               4.3              0.002                 1.9            An optimum is a model result under assumptions not automatic
+                                                                                                                 solution                                                                                                                                                                                                                                         policy causality or truth.                                 

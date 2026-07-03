@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OptimizationMatrixAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "observations",
+    "features",
+    "objective",
+    "solver",
+    "regularization_strength",
+    "feature_matrix_condition_number",
+    "hessian_condition_number",
+    "gradient_norm_final",
+    "objective_initial",
+    "objective_final",
+    "closed_form_gap_norm",
+    "training_rmse",
+    "convergence_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "integer"
+    },
+    "features": {
+      "type": "integer"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "solver": {
+      "type": "string"
+    },
+    "regularization_strength": {
+      "type": "number"
+    },
+    "feature_matrix_condition_number": {
+      "type": "number"
+    },
+    "hessian_condition_number": {
+      "type": "number"
+    },
+    "gradient_norm_final": {
+      "type": "number"
+    },
+    "objective_initial": {
+      "type": "number"
+    },
+    "objective_final": {
+      "type": "number"
+    },
+    "closed_form_gap_norm": {
+      "type": "number"
+    },
+    "training_rmse": {
+      "type": "number"
+    },
+    "convergence_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}
