@@ -1,3 +1,3 @@
 # Notebooks
 
-Notebook-ready walkthroughs for **Network Adjacency Matrices** will live here.
+Notebook-ready workspace for network adjacency matrices, graph diagnostics, matrix powers, sparse representation, normalization, and model governance.

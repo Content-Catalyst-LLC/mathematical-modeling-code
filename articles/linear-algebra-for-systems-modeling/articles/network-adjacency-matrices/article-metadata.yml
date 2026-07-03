@@ -1,8 +1,7 @@
 actual_title: "Network Adjacency Matrices"
-suggested_seo_title: "Network Adjacency Matrices: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Network Adjacency Matrices: How Linear Algebra Encodes Connectivity and Relationships"
+focus_keyword: "network adjacency matrices"
 slug: "network-adjacency-matrices"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/network-adjacency-matrices"
 tags:
   - Linear Algebra
+  - Network Adjacency Matrices
+  - Graph Theory
+  - Network Modeling
+  - Sparse Matrices
+  - Spectral Graph Theory
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Network Adjacency Matrices is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Network adjacency matrices turn relationships into linear algebra by encoding nodes, edges, weights, direction, and connectivity in matrix form. This article introduces binary adjacency, weighted adjacency, directed networks, undirected networks, self-loops, diagonal conventions, degree, in-degree, out-degree, matrix powers, walks, reachability, sparsity, normalization, transition structure, spectral structure, bipartite networks, multilayer networks, data provenance, and model governance. It shows how adjacency matrices support analysis of infrastructure, supply chains, ecological relations, knowledge networks, financial exposure, communication systems, transportation, and digital platforms. The article emphasizes that adjacency matrices require clear node boundaries, edge definitions, direction conventions, weight meanings, missing-edge assumptions, time-period documentation, sensitivity testing, and responsible interpretation, because connection is never merely a number: it is a modeling claim about relationship, structure, influence, dependence, and system behavior."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

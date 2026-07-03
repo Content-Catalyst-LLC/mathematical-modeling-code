@@ -37,13 +37,13 @@ IX Modeling Judgment and Interpretation,55,representation-choices-and-model-assu
 IX Modeling Judgment and Interpretation,56,scaling-normalization-and-comparative-structure,"Scaling, Normalization, and Comparative Structure",planned,articles/scaling-normalization-and-comparative-structure,scaffolded,planned
 IX Modeling Judgment and Interpretation,57,when-linear-models-clarify-and-when-they-distort,When Linear Models Clarify and When They Distort,planned,articles/when-linear-models-clarify-and-when-they-distort,scaffolded,planned
 IX Modeling Judgment and Interpretation,58,interpretation-approximation-and-responsible-mathematical-modeling,"Interpretation, Approximation, and Responsible Mathematical Modeling",planned,articles/interpretation-approximation-and-responsible-mathematical-modeling,scaffolded,planned
-V Networks Graphs and Flows,31,graph-theory-foundations-for-systems-modeling,Graph Theory Foundations for Systems Modeling,planned,articles/graph-theory-foundations-for-systems-modeling,scaffolded,planned
 V Networks Graphs and Flows,32,pagerank-and-network-influence-models,PageRank and Network Influence Models,planned,articles/pagerank-and-network-influence-models,scaffolded,planned
 V Networks Graphs and Flows,33,network-flow-modeling,Network Flow Modeling,planned,articles/network-flow-modeling,scaffolded,planned
 V Networks Graphs and Flows,34,infrastructure-network-models,Infrastructure Network Models,planned,articles/infrastructure-network-models,scaffolded,planned
 V Networks Graphs and Flows,35,flow-connectivity-and-system-vulnerability,"Flow, Connectivity, and System Vulnerability",planned,articles/flow-connectivity-and-system-vulnerability,scaffolded,planned
-"V Networks, Graphs, and Flows",29,network-adjacency-matrices,Network Adjacency Matrices,planned,articles/network-adjacency-matrices,required,required
+"V Networks, Graphs, and Flows",29,network-adjacency-matrices,Network Adjacency Matrices,active,articles/network-adjacency-matrices,upgraded,included
 "V Networks, Graphs, and Flows",30,incidence-structure-and-graph-representation,Incidence Structure and Graph Representation,planned,articles/incidence-structure-and-graph-representation,required,required
+"V Networks, Graphs, and Flows",31,graph-theory-foundations-for-systems-modeling,Graph Theory Foundations for Systems Modeling,planned,articles/graph-theory-foundations-for-systems-modeling,required,required
 VI Decomposition Reduction and Data Structure,36,orthogonal-decomposition-and-structured-approximation,Orthogonal Decomposition and Structured Approximation,planned,articles/orthogonal-decomposition-and-structured-approximation,scaffolded,planned
 VI Decomposition Reduction and Data Structure,37,singular-value-decomposition,Singular Value Decomposition,planned,articles/singular-value-decomposition,scaffolded,planned
 VI Decomposition Reduction and Data Structure,38,principal-component-analysis,Principal Component Analysis,planned,articles/principal-component-analysis,scaffolded,planned

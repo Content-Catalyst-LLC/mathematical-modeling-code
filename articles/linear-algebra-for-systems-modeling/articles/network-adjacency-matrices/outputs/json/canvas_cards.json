@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "node-edge-definition",
+    "category": "model-design",
+    "governance_note": "Define network boundary and relationship meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Node and Edge Definition"
+  },
+  {
+    "card_id": "direction-weights",
+    "category": "matrix-semantics",
+    "governance_note": "Document source-target convention and edge-weight meaning.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Direction and Weights"
+  },
+  {
+    "card_id": "matrix-powers",
+    "category": "network-diagnostics",
+    "governance_note": "Use powers to inspect walks and indirect pathways.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Matrix Powers"
+  },
+  {
+    "card_id": "sparse-representation",
+    "category": "scientific-computing",
+    "governance_note": "Review nonzero structure and scalable representation.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Sparse Representation"
+  },
+  {
+    "card_id": "network-governance",
+    "category": "interpretation",
+    "governance_note": "Review provenance, missing edges, normalization, and sensitivity.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Network Governance"
+  }
+]

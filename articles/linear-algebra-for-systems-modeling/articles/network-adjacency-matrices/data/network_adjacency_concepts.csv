@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+node_definition,Node definition,Defines row and column entities,Determines network boundary and modeled entities,Excluded nodes can change conclusions
+edge_definition,Edge definition,Defines nonzero entries,Determines relationship meaning,Different edge definitions produce different networks
+direction_convention,Direction convention,Defines source-target interpretation,Determines influence exposure dependency or flow direction,Reversing direction can invert conclusions
+weight_meaning,Weight meaning,Defines numeric edge semantics,Represents capacity cost frequency probability exposure or similarity,Weights with different meanings are not interchangeable
+diagonal_convention,Diagonal convention,Defines self-loops,Determines whether self-retention or self-relation is modeled,Diagonal entries affect degree diffusion and spectra
+matrix_powers,Matrix powers,Reveal walks and indirect pathways,Shows multi-step propagation or reachability,Walks can revisit nodes and are not always simple paths
+sparsity,Sparsity,Tracks nonzero structure,Determines computational scale and storage,Large networks need sparse representation
+normalization,Normalization,Transforms raw adjacency,Supports random walks diffusion or transition models,Normalization changes matrix meaning

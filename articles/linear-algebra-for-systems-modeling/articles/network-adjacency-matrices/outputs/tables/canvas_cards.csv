@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+node-edge-definition,Node and Edge Definition,model-design,97,active,2026-06-29,Define network boundary and relationship meaning.
+direction-weights,Direction and Weights,matrix-semantics,96,active,2026-06-29,Document source-target convention and edge-weight meaning.
+matrix-powers,Matrix Powers,network-diagnostics,95,review,2026-06-29,Use powers to inspect walks and indirect pathways.
+sparse-representation,Sparse Representation,scientific-computing,94,review,2026-06-29,Review nonzero structure and scalable representation.
+network-governance,Network Governance,interpretation,93,review,2026-06-29,"Review provenance, missing edges, normalization, and sensitivity."

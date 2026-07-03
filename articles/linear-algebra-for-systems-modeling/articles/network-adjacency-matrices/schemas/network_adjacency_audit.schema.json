@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NetworkAdjacencyAudit",
+  "type": "object",
+  "required": [
+    "network_name",
+    "node_count",
+    "edge_count",
+    "directed",
+    "weighted",
+    "diagonal_nonzero_count",
+    "density",
+    "max_out_weight",
+    "max_in_weight",
+    "two_step_walk_total",
+    "row_normalized",
+    "direction_convention",
+    "weight_meaning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "network_name": {
+      "type": "string"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "edge_count": {
+      "type": "integer"
+    },
+    "directed": {
+      "type": "boolean"
+    },
+    "weighted": {
+      "type": "boolean"
+    },
+    "diagonal_nonzero_count": {
+      "type": "integer"
+    },
+    "density": {
+      "type": "number"
+    },
+    "max_out_weight": {
+      "type": "number"
+    },
+    "max_in_weight": {
+      "type": "number"
+    },
+    "two_step_walk_total": {
+      "type": "number"
+    },
+    "row_normalized": {
+      "type": "boolean"
+    },
+    "direction_convention": {
+      "type": "string"
+    },
+    "weight_meaning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

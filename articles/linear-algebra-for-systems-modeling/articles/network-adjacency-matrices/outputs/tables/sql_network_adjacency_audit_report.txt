@@ -1,0 +1,24 @@
+section                              
+-------------------------------------
+NETWORK ADJACENCY ASSUMPTION REGISTRY
+assumption_name       mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Direction convention  Defines whether A[i,j] points from row to column or column t  Determines interpretation of influence exposure dependency a  Reversing direction can invert conclusions.                 
+                      o row.                                                        nd flow.                                                                                                                  
+
+Edge definition       Defines what nonzero matrix entries mean.                     Determines what kind of relationship is modeled.              Different edge definitions produce different networks.      
+
+Node definition       Defines row and column entities in the adjacency matrix.      Determines what the network can represent.                    Boundary choices can exclude important entities.            
+
+Normalization         Defines transformations from raw adjacency to transition or   Determines downstream matrix interpretation.                  Normalization changes matrix meaning and must be documented.
+                      diffusion matrices.                                                                                                                                                                     
+
+Weight meaning        Defines the units or scale of edge weights.                   Determines whether weights represent capacity cost frequency  Weights with different meanings should not be compared casua
+                                                                                     probability exposure or similarity.                          lly.                                                        
+section                      
+-----------------------------
+NETWORK ADJACENCY AUDIT CASES
+network_name                                 node_count  edge_count  density  max_out_weight  max_in_weight  warning                                                     
+-------------------------------------------  ----------  ----------  -------  --------------  -------------  ------------------------------------------------------------
+synthetic_infrastructure_dependency_network  5           20          0.8      2.15            1.95           Adjacency matrices require node boundary edge definition dir
+                                                                                                             ection convention weight meaning and data provenance review.

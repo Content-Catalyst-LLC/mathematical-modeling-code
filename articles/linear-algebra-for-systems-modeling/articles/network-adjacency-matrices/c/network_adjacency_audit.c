@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){printf("network_name,node_count,edge_count,directed,weighted,density,max_out_weight,max_in_weight,warning\nsynthetic_infrastructure_dependency_network,5,20,true,true,0.800000,2.150000,1.950000,Adjacency matrices require node edge direction weight and provenance documentation.\n");return 0;}

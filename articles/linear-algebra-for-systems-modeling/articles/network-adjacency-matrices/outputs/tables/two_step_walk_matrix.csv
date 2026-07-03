@@ -1,0 +1,6 @@
+node,water,power,transport,communications,health
+water,0.1975,0.185,0.6225,0.79,0.5175
+power,0.215,0.8,0.4625,0.4625,0.505
+transport,0.135,0.3525,0.4275,0.37,0.255
+communications,0.1475,0.1875,0.39,0.57,0.3825
+health,0.1,0.4175,0.355,0.3825,0.465

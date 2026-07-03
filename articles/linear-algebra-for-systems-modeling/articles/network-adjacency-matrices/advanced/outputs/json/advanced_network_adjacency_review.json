@@ -1,0 +1,32 @@
+[
+  {
+    "governance_note": "Define which entities are included and excluded from the network.",
+    "review_item": "node_boundary",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document what relationship produces a nonzero adjacency entry.",
+    "review_item": "edge_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Specify whether rows point to columns or columns point to rows.",
+    "review_item": "direction_convention",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define whether weights represent capacity, cost, frequency, probability, exposure, or similarity.",
+    "review_item": "weight_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document row, column, symmetric, transition, or Laplacian transformations.",
+    "review_item": "normalization",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review source data, missing edges, false edges, stale data, and measurement bias.",
+    "review_item": "provenance_missingness",
+    "status": "required"
+  }
+]

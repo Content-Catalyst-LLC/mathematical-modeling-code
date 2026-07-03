@@ -1,0 +1,2 @@
+"calculator","network_name","node_count","edge_count","directed","weighted","density","max_out_weight","max_in_weight","row_normalized","warning"
+"network_adjacency_calculator","synthetic_infrastructure_dependency_network",5,20,TRUE,TRUE,0.8,2.15,1.95,TRUE,"Adjacency metrics depend on node boundaries, edge definitions, direction conventions, weight meaning, and data provenance."

@@ -1,0 +1,13 @@
+{
+  "calculator": "network_adjacency_calculator",
+  "density": 0.8,
+  "directed": true,
+  "edge_count": 20,
+  "max_in_weight": 1.95,
+  "max_out_weight": 2.15,
+  "network_name": "synthetic_infrastructure_dependency_network",
+  "node_count": 5,
+  "row_normalized": true,
+  "warning": "Adjacency metrics depend on node boundaries, edge definitions, direction conventions, weight meaning, and data provenance.",
+  "weighted": true
+}

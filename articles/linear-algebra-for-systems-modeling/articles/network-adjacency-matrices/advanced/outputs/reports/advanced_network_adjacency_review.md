@@ -1,0 +1,8 @@
+# Advanced Network Adjacency Review
+
+- **node_boundary** (required): Define which entities are included and excluded from the network.
+- **edge_definition** (required): Document what relationship produces a nonzero adjacency entry.
+- **direction_convention** (required): Specify whether rows point to columns or columns point to rows.
+- **weight_semantics** (required): Define whether weights represent capacity, cost, frequency, probability, exposure, or similarity.
+- **normalization** (required): Document row, column, symmetric, transition, or Laplacian transformations.
+- **provenance_missingness** (required): Review source data, missing edges, false edges, stale data, and measurement bias.
