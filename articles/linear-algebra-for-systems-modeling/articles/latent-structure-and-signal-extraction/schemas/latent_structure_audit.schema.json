@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LatentStructureAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "observations",
+    "variables",
+    "method",
+    "preprocessing",
+    "retained_rank",
+    "retained_signal_ratio",
+    "relative_reconstruction_error",
+    "maximum_observation_residual",
+    "highest_residual_observation",
+    "signal_definition_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "integer"
+    },
+    "variables": {
+      "type": "integer"
+    },
+    "method": {
+      "type": "string"
+    },
+    "preprocessing": {
+      "type": "string"
+    },
+    "retained_rank": {
+      "type": "integer"
+    },
+    "retained_signal_ratio": {
+      "type": "number"
+    },
+    "relative_reconstruction_error": {
+      "type": "number"
+    },
+    "maximum_observation_residual": {
+      "type": "number"
+    },
+    "highest_residual_observation": {
+      "type": "integer"
+    },
+    "signal_definition_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

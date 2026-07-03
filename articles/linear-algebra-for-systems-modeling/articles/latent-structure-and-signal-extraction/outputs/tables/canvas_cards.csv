@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+observed-matrix,Observed Matrix,model-design,97,active,2026-06-29,"Document observations, variables, units, missing-data handling, and system meaning."
+signal-definition,Signal Definition,method-choice,96,active,2026-06-29,State which extracted components are treated as retained signal.
+latent-scores,Latent Scores,diagnostics,95,review,2026-06-29,Export observation-level hidden coordinates with interpretation warnings.
+residual-diagnostics,Residual Diagnostics,validation,94,review,2026-06-29,"Review unexplained variation, anomaly scores, and omitted structure."
+latent-governance,Latent Governance,responsible-use,93,review,2026-06-29,"Connect method choice, rank, residuals, stability validation, and responsible use."

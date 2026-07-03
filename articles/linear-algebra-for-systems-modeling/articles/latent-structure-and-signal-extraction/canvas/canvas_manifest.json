@@ -1,10 +1,10 @@
 {
+  "article_slug": "latent-structure-and-signal-extraction",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "latent-structure-and-signal-extraction",
-  "title": "Latent Structure and Signal Extraction",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "latent-structure-and-signal-extraction",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "observed-matrix",
+      "title": "Observed Matrix",
+      "description": "Documents observations, variables, units, missing-data handling, and system meaning."
+    },
+    {
+      "card_id": "signal-definition",
+      "title": "Signal Definition",
+      "description": "States which extracted components are treated as retained signal."
+    },
+    {
+      "card_id": "latent-scores",
+      "title": "Latent Scores",
+      "description": "Exports observation-level hidden coordinates with interpretation warnings."
+    },
+    {
+      "card_id": "residual-diagnostics",
+      "title": "Residual Diagnostics",
+      "description": "Reviews unexplained variation, anomaly scores, and omitted structure."
+    },
+    {
+      "card_id": "latent-governance",
+      "title": "Latent Governance",
+      "description": "Connects method choice, rank, residuals, stability validation, and responsible use."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

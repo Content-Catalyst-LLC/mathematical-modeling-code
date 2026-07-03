@@ -1,0 +1,12 @@
+                                         calculator
+1 latent_structure_and_signal_extraction_calculator
+                                          model_name observations variables
+1 synthetic_latent_structure_signal_extraction_audit            9         6
+                          method             preprocessing retained_rank
+1 svd_low_rank_signal_extraction centered_and_standardized             2
+  retained_signal_ratio relative_reconstruction_error
+1                 0.962                         0.195
+  maximum_observation_residual highest_residual_observation
+1                         1.43                            8
+                                                                                                                                                                                                      warning
+1 Latent signal extraction metrics depend on observed matrix construction, preprocessing, method choice, retained rank, signal definition, residual review, stability validation, and interpretation context.

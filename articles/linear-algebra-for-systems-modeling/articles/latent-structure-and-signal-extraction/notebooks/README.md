@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Latent Structure and Signal Extraction** will live here.
+# Notebooks\n\nNotebook-ready workspace for latent structure, signal extraction, SVD, PCA, factor models, matrix factorization, embeddings, residual diagnostics, anomaly scoring, and signal governance.\n

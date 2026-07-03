@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "observed-matrix",
+    "category": "model-design",
+    "governance_note": "Document observations, variables, units, missing-data handling, and system meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Observed Matrix"
+  },
+  {
+    "card_id": "signal-definition",
+    "category": "method-choice",
+    "governance_note": "State which extracted components are treated as retained signal.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Signal Definition"
+  },
+  {
+    "card_id": "latent-scores",
+    "category": "diagnostics",
+    "governance_note": "Export observation-level hidden coordinates with interpretation warnings.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Latent Scores"
+  },
+  {
+    "card_id": "residual-diagnostics",
+    "category": "validation",
+    "governance_note": "Review unexplained variation, anomaly scores, and omitted structure.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Residual Diagnostics"
+  },
+  {
+    "card_id": "latent-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect method choice, rank, residuals, stability validation, and responsible use.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Latent Governance"
+  }
+]

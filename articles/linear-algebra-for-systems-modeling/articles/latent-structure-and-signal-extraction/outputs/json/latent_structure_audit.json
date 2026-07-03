@@ -1,0 +1,14 @@
+{
+  "highest_residual_observation": 8,
+  "interpretation_warning": "Latent components are inferred mathematical structures, not automatic causes, categories, mechanisms, or complete system truths. Residuals require review before being dismissed as noise.",
+  "maximum_observation_residual": 1.43,
+  "method": "svd_low_rank_signal_extraction",
+  "model_name": "synthetic_latent_structure_signal_extraction_audit",
+  "observations": 9,
+  "preprocessing": "centered_and_standardized",
+  "relative_reconstruction_error": 0.195,
+  "retained_rank": 2,
+  "retained_signal_ratio": 0.962,
+  "signal_definition_warning": "The retained low-rank structure is treated as signal only under the chosen method, preprocessing, retained rank, scaling, and validation assumptions.",
+  "variables": 6
+}

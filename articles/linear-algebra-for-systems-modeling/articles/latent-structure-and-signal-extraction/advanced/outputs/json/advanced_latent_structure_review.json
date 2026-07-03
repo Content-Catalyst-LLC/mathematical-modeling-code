@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define observations, variables, measurements, units, weights, and missing-data handling.",
+    "review_item": "observed_matrix",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document centering, scaling, normalization, transformations, filtering, and weighting.",
+    "review_item": "preprocessing",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether extraction uses SVD, PCA, factor models, NMF, ICA, embeddings, or another method.",
+    "review_item": "method_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report retained rank, component count, factor count, latent dimension, and sensitivity tests.",
+    "review_item": "rank_or_dimension",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain why retained components are treated as signal.",
+    "review_item": "signal_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report reconstruction error, residual norms, anomaly scores, and localized residual patterns.",
+    "review_item": "residual_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Validate across preprocessing, samples, time windows, subgroups, rank choices, and seeds.",
+    "review_item": "stability_validation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Treat latent components as inferred model artifacts, not causes, categories, proxies, or complete truths.",
+    "review_item": "responsible_interpretation",
+    "status": "required"
+  }
+]

@@ -1,0 +1,35 @@
+section                             
+------------------------------------
+LATENT STRUCTURE GOVERNANCE REGISTRY
+assumption_name             mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Method choice               Defines whether structure is extracted through SVD PCA facto  Determines what kind of hidden structure the model is able t  Different methods extract different structures and should no
+                            r models NMF ICA embeddings or another method.                o represent.                                                  t be interpreted interchangeably.                           
+
+Observed matrix             Defines observations variables measurements units and missin  Determines what latent structure can be inferred.             Latent structure is only as meaningful as the observed matri
+                            g-data handling.                                                                                                            x construction.                                             
+
+Preprocessing               Defines centering scaling normalization transformation weigh  Determines which patterns appear dominant or residual.        Preprocessing choices can change extracted signal.          
+                            ting and filtering.                                                                                                                                                                     
+
+Rank or latent dimension    Defines how many components factors sources or latent coordi  Controls signal extraction residual size interpretability an  Rank choice should be justified and sensitivity-tested.     
+                            nates are retained.                                           d compression.                                                                                                            
+
+Residual review             Defines how unexplained variation is assessed.                Supports detection of noise anomaly omitted structure subgro  Residuals should be reviewed before being dismissed as noise
+                                                                                          up mismatch or system change.                                 .                                                           
+
+Responsible interpretation  Defines how latent components scores factors or embeddings a  Prevents hidden coordinates from becoming unreviewed proxies  Latent components are inferred model artifacts not automatic
+                            re explained and used.                                         for people places risk capacity or value.                     causes categories or truths.                               
+
+Signal definition           Defines which extracted components are treated as structured  Determines what is retained for interpretation monitoring or  Signal is a modeling designation not an automatic property o
+                             signal.                                                       decision-making.                                             f the data.                                                 
+
+Stability validation        Assesses whether extracted structure persists across preproc  Supports trust in extracted signal.                           Unstable latent structure should not be overinterpreted.    
+                            essing samples time groups rank choices and seeds.                                                                                                                                      
+section                     
+----------------------------
+LATENT STRUCTURE AUDIT CASES
+model_name                                          observations  variables  method                          preprocessing              retained_rank  retained_signal_ratio  relative_reconstruction_error  maximum_observation_residual  highest_residual_observation  warning                                                     
+--------------------------------------------------  ------------  ---------  ------------------------------  -------------------------  -------------  ---------------------  -----------------------------  ----------------------------  ----------------------------  ------------------------------------------------------------
+synthetic_latent_structure_signal_extraction_audit  9             6          svd_low_rank_signal_extraction  centered_and_standardized  2              0.962                  0.195                          1.43                          8                             Latent components are inferred model artifacts not automatic
+                                                                                                                                                                                                                                                                          causes categories mechanisms or complete system truths.    

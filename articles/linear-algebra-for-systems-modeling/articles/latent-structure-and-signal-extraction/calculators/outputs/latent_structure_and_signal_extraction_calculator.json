@@ -1,0 +1,14 @@
+{
+  "calculator": "latent_structure_and_signal_extraction_calculator",
+  "highest_residual_observation": 8,
+  "maximum_observation_residual": 1.43,
+  "method": "svd_low_rank_signal_extraction",
+  "model_name": "synthetic_latent_structure_signal_extraction_audit",
+  "observations": 9,
+  "preprocessing": "centered_and_standardized",
+  "relative_reconstruction_error": 0.195,
+  "retained_rank": 2,
+  "retained_signal_ratio": 0.962,
+  "variables": 6,
+  "warning": "Latent signal extraction metrics depend on observed matrix construction, preprocessing, method choice, retained rank, signal definition, residual review, stability validation, and interpretation context."
+}
