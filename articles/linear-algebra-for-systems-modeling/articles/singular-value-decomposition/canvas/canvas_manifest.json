@@ -1,10 +1,10 @@
 {
+  "article_slug": "singular-value-decomposition",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "singular-value-decomposition",
-  "title": "Singular Value Decomposition",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "singular-value-decomposition",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "matrix-construction",
+      "title": "Matrix Construction",
+      "description": "Documents rows, columns, units, preprocessing, and system meaning."
+    },
+    {
+      "card_id": "singular-spectrum",
+      "title": "Singular Spectrum",
+      "description": "Reviews singular values, spectral gaps, rank, and effective dimension."
+    },
+    {
+      "card_id": "conditioning",
+      "title": "Conditioning",
+      "description": "Reviews sensitivity, weak directions, and inverse risk."
+    },
+    {
+      "card_id": "low-rank-approximation",
+      "title": "Low-Rank Approximation",
+      "description": "Documents retained rank, reconstruction error, and discarded components."
+    },
+    {
+      "card_id": "svd-governance",
+      "title": "SVD Governance",
+      "description": "Connects components, residuals, thresholds, and validation to responsible use."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

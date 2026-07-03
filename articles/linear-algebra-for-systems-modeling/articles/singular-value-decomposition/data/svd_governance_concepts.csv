@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+matrix_construction,Matrix construction,Defines rows columns entries units and matrix meaning,Determines what singular vectors and values can represent,SVD interpretation is only as meaningful as matrix construction
+preprocessing,Preprocessing,Defines centering scaling normalization missing data handling and weighting,Determines which directions dominate the singular spectrum,Different preprocessing choices can produce different components
+rank_tolerance,Rank tolerance,Defines which singular values count as numerically meaningful,Determines numerical rank pseudoinverse behavior and truncation decisions,Tolerance choices should be documented and sensitivity tested
+retained_rank,Retained rank,Defines how many singular components are kept,Determines compression dimensionality reduction and approximation quality,Discarded components may contain rare local or high consequence structure
+condition_number,Condition number,Measures sensitivity through largest to smallest relevant singular value,Supports numerical stability and inverse problem review,Large condition numbers warn against overinterpreting recovered coefficients
+pseudoinverse_threshold,Pseudoinverse threshold,Defines which singular values are inverted,Determines whether weak directions are recovered suppressed or regularized,Inverting small singular values can amplify noise
+component_interpretation,Component interpretation,Defines how singular vectors and components are interpreted,Connects mathematical directions to system meaning,Singular vectors are not automatic causes categories or mechanisms
+residual_review,Residual review,Defines how discarded or unexplained structure is assessed,Determines whether residual components are noise omitted structure or warning signals,Residuals should be reviewed before being dismissed

@@ -43,13 +43,13 @@ IX Modeling Judgment and Interpretation,58,interpretation-approximation-and-resp
 "V Networks, Graphs, and Flows",32,pagerank-and-network-influence-models,PageRank and Network Influence Models,active,articles/pagerank-and-network-influence-models,upgraded,included
 "V Networks, Graphs, and Flows",33,network-flow-modeling,Network Flow Modeling,active,articles/network-flow-modeling,upgraded,included
 "V Networks, Graphs, and Flows",34,infrastructure-network-models,Infrastructure Network Models,active,articles/infrastructure-network-models,upgraded,included
-VI Decomposition Reduction and Data Structure,39,dimensionality-reduction-techniques,Dimensionality Reduction Techniques,planned,articles/dimensionality-reduction-techniques,scaffolded,planned
 VI Decomposition Reduction and Data Structure,40,latent-structure-and-signal-extraction,Latent Structure and Signal Extraction,planned,articles/latent-structure-and-signal-extraction,scaffolded,planned
 VI Decomposition Reduction and Data Structure,41,compression-noise-and-informational-tradeoffs,"Compression, Noise, and Informational Tradeoffs",planned,articles/compression-noise-and-informational-tradeoffs,scaffolded,planned
 "VI Orthogonal Structure, Decomposition, and Approximation",35,flow-connectivity-and-system-vulnerability,"Flow, Connectivity, and System Vulnerability",active,articles/flow-connectivity-and-system-vulnerability,upgraded,included
 "VI Orthogonal Structure, Decomposition, and Approximation",36,orthogonal-decomposition-and-structured-approximation,Orthogonal Decomposition and Structured Approximation,active,articles/orthogonal-decomposition-and-structured-approximation,upgraded,included
-"VI Orthogonal Structure, Decomposition, and Approximation",37,singular-value-decomposition,Singular Value Decomposition,planned,articles/singular-value-decomposition,required,required
+"VI Orthogonal Structure, Decomposition, and Approximation",37,singular-value-decomposition,Singular Value Decomposition,active,articles/singular-value-decomposition,upgraded,included
 "VI Orthogonal Structure, Decomposition, and Approximation",38,principal-component-analysis,Principal Component Analysis,planned,articles/principal-component-analysis,required,required
+"VI Orthogonal Structure, Decomposition, and Approximation",39,dimensionality-reduction-techniques,Dimensionality Reduction Techniques,planned,articles/dimensionality-reduction-techniques,required,required
 VII Applied Matrix Systems in Economics Computation and Machine Learning,42,economic-input-output-models,Economic Input-Output Models,planned,articles/economic-input-output-models,scaffolded,planned
 VII Applied Matrix Systems in Economics Computation and Machine Learning,43,leontief-systems-and-intersectoral-dependence,Leontief Systems and Intersectoral Dependence,planned,articles/leontief-systems-and-intersectoral-dependence,scaffolded,planned
 VII Applied Matrix Systems in Economics Computation and Machine Learning,44,machine-learning-and-linear-algebra,Machine Learning and Linear Algebra,planned,articles/machine-learning-and-linear-algebra,scaffolded,planned

@@ -1,49 +1,54 @@
-.PHONY: all smoke python test r julia sql haskell rust go cpp fortran c advanced clean
+.PHONY: all smoke calculators python test canvas r julia sql haskell c cpp fortran rust go advanced clean
 
-all: smoke
+all: python test canvas r julia sql haskell c cpp fortran rust go advanced calculators
+smoke: python sql canvas advanced calculators
 
-smoke:
-	@mkdir -p outputs/json outputs/logs outputs/tables
-	@echo "planned,singular-value-decomposition,Singular Value Decomposition" > outputs/tables/article_status.csv
-	@echo "Smoke scaffold complete for Singular Value Decomposition"
+calculators:
+	@if [ -f calculators/run_calculator_smoke_tests.sh ]; then cd calculators && bash run_calculator_smoke_tests.sh; fi
 
 python:
-	@echo "Python scaffold for Singular Value Decomposition"
+	@if command -v python3 >/dev/null 2>&1; then python3 python/singular_value_decomposition/cli.py --output-dir outputs; else echo "python3 not found; skipping."; fi
+
+canvas:
+	@if command -v python3 >/dev/null 2>&1; then python3 python/catalyst_canvas/cli.py --output-dir outputs; else echo "python3 not found; skipping Canvas."; fi
 
 test:
-	@echo "Python test scaffold for Singular Value Decomposition"
+	@if command -v python3 >/dev/null 2>&1 && python3 -c "import pytest" >/dev/null 2>&1; then python3 -m pytest python/tests; else echo "pytest not found; skipping."; fi
 
 r:
-	@echo "R scaffold for Singular Value Decomposition"
+	@if command -v Rscript >/dev/null 2>&1; then Rscript r/svd_diagnostic_audit.R; else echo "Rscript not found; skipping."; fi
 
 julia:
-	@echo "Julia scaffold for Singular Value Decomposition"
+	@if command -v julia >/dev/null 2>&1; then julia julia/svd_diagnostic_audit.jl > outputs/tables/julia_svd_diagnostic_audit.csv; else echo "julia not found; skipping."; fi
 
 sql:
-	@mkdir -p outputs/tables
-	@sqlite3 outputs/tables/singular-value-decomposition.sqlite < sql/schema.sql || true
+	@if command -v sqlite3 >/dev/null 2>&1; then mkdir -p outputs/tables; sqlite3 outputs/tables/svd_diagnostic_audit.sqlite < sql/schema.sql; sqlite3 outputs/tables/svd_diagnostic_audit.sqlite < sql/analysis_queries.sql > outputs/tables/sql_svd_diagnostic_audit_report.txt; else echo "sqlite3 not found; skipping."; fi
 
 haskell:
-	$(MAKE) -C haskell run || true
-
-rust:
-	@echo "Rust scaffold for Singular Value Decomposition"
-
-go:
-	@echo "Go scaffold for Singular Value Decomposition"
-
-cpp:
-	@echo "C++ scaffold for Singular Value Decomposition"
-
-fortran:
-	@echo "Fortran scaffold for Singular Value Decomposition"
+	$(MAKE) -C haskell run
 
 c:
-	@echo "C scaffold for Singular Value Decomposition"
+	@if command -v cc >/dev/null 2>&1; then cc -O2 -std=c11 c/svd_diagnostic_audit.c -o outputs/svd_diagnostic_audit_c -lm; ./outputs/svd_diagnostic_audit_c > outputs/tables/c_svd_diagnostic_audit.csv; else echo "cc not found; skipping."; fi
+
+cpp:
+	$(MAKE) -C cpp run
+
+fortran:
+	@if command -v gfortran >/dev/null 2>&1; then gfortran -O2 fortran/svd_diagnostic_audit.f90 -o outputs/svd_diagnostic_audit_fortran; ./outputs/svd_diagnostic_audit_fortran > outputs/tables/fortran_svd_diagnostic_audit.txt; else echo "gfortran not found; skipping."; fi
+
+rust:
+	@if command -v cargo >/dev/null 2>&1; then cd rust && cargo run --quiet > ../outputs/tables/rust_svd_diagnostic_audit.csv; else echo "cargo not found; skipping."; fi
+
+go:
+	@if command -v go >/dev/null 2>&1; then cd go && go run main.go > ../outputs/tables/go_svd_diagnostic_audit.csv; else echo "go not found; skipping."; fi
 
 advanced:
 	$(MAKE) -C advanced smoke
 
 clean:
-	rm -f outputs/tables/*.csv outputs/tables/*.txt outputs/tables/*.sqlite
-	rm -f outputs/json/*.json outputs/logs/*.log
+	rm -f outputs/tables/*.csv outputs/tables/*.txt outputs/tables/*.sqlite outputs/json/*.json outputs/logs/*.log outputs/reports/*.md outputs/svd_diagnostic_audit_c outputs/svd_diagnostic_audit_fortran
+	rm -f calculators/outputs/*.csv calculators/outputs/*.json calculators/outputs/*.txt
+	$(MAKE) -C haskell clean || true
+	$(MAKE) -C cpp clean || true
+	$(MAKE) -C advanced clean || true
+	cd rust && cargo clean || true

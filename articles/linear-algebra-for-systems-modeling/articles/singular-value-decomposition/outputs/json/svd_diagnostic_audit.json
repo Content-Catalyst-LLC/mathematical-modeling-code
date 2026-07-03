@@ -1,0 +1,14 @@
+{
+  "columns": 4,
+  "condition_number": 358.75,
+  "explained_energy_retained": 0.999861674625,
+  "interpretation_warning": "SVD components depend on matrix construction, preprocessing, scaling, centering, rank tolerance, retained-rank choice, numerical method, and domain interpretation. Singular vectors are mathematical directions, not automatic causes.",
+  "model_name": "synthetic_svd_diagnostic_audit",
+  "numerical_rank": 4,
+  "pseudoinverse_warning": "Small singular values can amplify noise when inverted; use rank tolerance, truncated SVD, or regularization when conditioning is poor.",
+  "rank_tolerance": 1e-10,
+  "relative_reconstruction_error": 0.0283,
+  "retained_rank": 2,
+  "rows": 6,
+  "singular_values": "14.35;8.16;0.19;0.04"
+}

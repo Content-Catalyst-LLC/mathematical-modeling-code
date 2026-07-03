@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define rows, columns, entries, units, weights, missing data, and matrix meaning.",
+    "review_item": "matrix_construction",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document centering, scaling, normalization, weighting, and missing-data handling.",
+    "review_item": "preprocessing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report singular values, spectral gaps, rank tolerance, and numerical rank.",
+    "review_item": "singular_spectrum",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report condition number and weak singular directions.",
+    "review_item": "conditioning_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document which singular values are inverted, truncated, or regularized.",
+    "review_item": "pseudoinverse_threshold",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report retained rank, reconstruction error, explained energy, and validation performance.",
+    "review_item": "retained_rank",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret singular vectors as mathematical directions, not automatic causes or categories.",
+    "review_item": "component_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review discarded components for rare, local, or high-consequence structure.",
+    "review_item": "residual_review",
+    "status": "recommended"
+  }
+]

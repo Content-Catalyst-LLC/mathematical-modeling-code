@@ -1,0 +1,9 @@
+review_item,status,governance_note
+matrix_construction,required,"Define rows, columns, entries, units, weights, missing data, and matrix meaning."
+preprocessing,required,"Document centering, scaling, normalization, weighting, and missing-data handling."
+singular_spectrum,required,"Report singular values, spectral gaps, rank tolerance, and numerical rank."
+conditioning_review,required,Report condition number and weak singular directions.
+pseudoinverse_threshold,required,"Document which singular values are inverted, truncated, or regularized."
+retained_rank,required,"Report retained rank, reconstruction error, explained energy, and validation performance."
+component_interpretation,required,"Interpret singular vectors as mathematical directions, not automatic causes or categories."
+residual_review,recommended,"Review discarded components for rare, local, or high-consequence structure."

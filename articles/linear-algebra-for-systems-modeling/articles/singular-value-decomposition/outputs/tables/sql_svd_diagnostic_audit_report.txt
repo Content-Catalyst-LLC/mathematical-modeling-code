@@ -1,0 +1,36 @@
+section                
+-----------------------
+SVD GOVERNANCE REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Component interpretation  Defines how singular vectors and singular components are int  Connects mathematical directions to system meaning.           Singular vectors are not automatic causes categories or mech
+                          erpreted.                                                                                                                   anisms.                                                     
+
+Condition number          Measures sensitivity through the ratio of largest to smalles  Supports numerical stability and inverse-problem review.      Large condition numbers warn against overinterpreting recove
+                          t relevant singular value.                                                                                                  red coefficients.                                           
+
+Matrix construction       Defines the rows columns entries units and meaning of the ma  Determines what singular vectors and singular values can rep  SVD interpretation is only as meaningful as the matrix const
+                          trix being decomposed.                                        resent.                                                       ruction.                                                    
+
+Preprocessing             Defines centering scaling normalization missing-data handlin  Determines which directions dominate the singular spectrum.   Different preprocessing choices can produce different compon
+                          g and weighting.                                                                                                            ents.                                                       
+
+Pseudoinverse threshold   Defines which singular values are inverted.                   Determines whether weak directions are recovered suppressed   Inverting small singular values can amplify noise.          
+                                                                                        or regularized.                                                                                                           
+
+Rank tolerance            Defines which singular values count as numerically meaningfu  Determines numerical rank pseudoinverse behavior and truncat  Tolerance choices should be documented and sensitivity-teste
+                          l.                                                            ion decisions.                                                d.                                                          
+
+Residual review           Defines how discarded or unexplained structure is assessed.   Determines whether residual components are treated as noise   Residuals should be reviewed before being dismissed.        
+                                                                                        omitted structure or warning signals.                                                                                     
+
+Retained rank             Defines how many singular components are kept.                Determines compression dimensionality reduction and approxim  Discarded components may contain rare local or high-conseque
+                                                                                        ation quality.                                                nce structure.                                              
+section                   
+--------------------------
+SVD DIAGNOSTIC AUDIT CASES
+model_name                      rows  columns  singular_values       numerical_rank  rank_tolerance  condition_number  retained_rank  explained_energy_retained  relative_reconstruction_error  warning                                                     
+------------------------------  ----  -------  --------------------  --------------  --------------  ----------------  -------------  -------------------------  -----------------------------  ------------------------------------------------------------
+synthetic_svd_diagnostic_audit  6     4        14.35;8.16;0.19;0.04  4               1.0e-10         358.75            2              0.9992                     0.0283                         SVD components depend on matrix construction preprocessing s
+                                                                                                                                                                                                caling centering rank tolerance retained-rank choice numeric
+                                                                                                                                                                                                al method and domain interpretation.                        

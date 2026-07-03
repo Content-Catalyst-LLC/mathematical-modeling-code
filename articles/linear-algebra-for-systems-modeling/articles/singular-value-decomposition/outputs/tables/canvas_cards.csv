@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+matrix-construction,Matrix Construction,model-design,97,active,2026-06-29,"Document rows, columns, units, preprocessing, and system meaning."
+singular-spectrum,Singular Spectrum,diagnostics,96,active,2026-06-29,"Review singular values, spectral gaps, rank, and effective dimension."
+conditioning,Conditioning,numerical-stability,95,review,2026-06-29,"Review sensitivity, weak directions, and inverse risk."
+low-rank-approximation,Low-Rank Approximation,approximation,94,review,2026-06-29,"Document retained rank, reconstruction error, and discarded components."
+svd-governance,SVD Governance,interpretation,93,review,2026-06-29,"Connect components, residuals, thresholds, and validation to responsible use."

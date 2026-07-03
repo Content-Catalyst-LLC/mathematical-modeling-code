@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Singular Value Decomposition** will live here.
+# Notebooks\n\nNotebook-ready workspace for singular value decomposition, singular spectra, rank diagnostics, conditioning, pseudoinverses, low-rank approximation, dimensionality reduction, and SVD governance.\n

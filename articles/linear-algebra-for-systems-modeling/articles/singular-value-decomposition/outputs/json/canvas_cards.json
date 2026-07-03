@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "matrix-construction",
+    "category": "model-design",
+    "governance_note": "Document rows, columns, units, preprocessing, and system meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Matrix Construction"
+  },
+  {
+    "card_id": "singular-spectrum",
+    "category": "diagnostics",
+    "governance_note": "Review singular values, spectral gaps, rank, and effective dimension.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Singular Spectrum"
+  },
+  {
+    "card_id": "conditioning",
+    "category": "numerical-stability",
+    "governance_note": "Review sensitivity, weak directions, and inverse risk.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Conditioning"
+  },
+  {
+    "card_id": "low-rank-approximation",
+    "category": "approximation",
+    "governance_note": "Document retained rank, reconstruction error, and discarded components.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Low-Rank Approximation"
+  },
+  {
+    "card_id": "svd-governance",
+    "category": "interpretation",
+    "governance_note": "Connect components, residuals, thresholds, and validation to responsible use.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "SVD Governance"
+  }
+]

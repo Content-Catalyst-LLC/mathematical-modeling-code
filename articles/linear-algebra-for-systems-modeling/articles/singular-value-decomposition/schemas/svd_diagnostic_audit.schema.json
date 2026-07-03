@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SVDDiagnosticAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "rows",
+    "columns",
+    "singular_values",
+    "numerical_rank",
+    "rank_tolerance",
+    "condition_number",
+    "retained_rank",
+    "explained_energy_retained",
+    "relative_reconstruction_error",
+    "pseudoinverse_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "integer"
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "singular_values": {
+      "type": "string"
+    },
+    "numerical_rank": {
+      "type": "integer"
+    },
+    "rank_tolerance": {
+      "type": "number"
+    },
+    "condition_number": {
+      "type": "number"
+    },
+    "retained_rank": {
+      "type": "integer"
+    },
+    "explained_energy_retained": {
+      "type": "number"
+    },
+    "relative_reconstruction_error": {
+      "type": "number"
+    },
+    "pseudoinverse_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}
