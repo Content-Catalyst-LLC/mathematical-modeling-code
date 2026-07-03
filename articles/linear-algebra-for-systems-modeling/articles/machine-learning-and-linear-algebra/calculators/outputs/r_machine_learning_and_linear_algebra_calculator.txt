@@ -1,0 +1,16 @@
+                                      calculator
+1 machine_learning_and_linear_algebra_calculator
+                                       model_name observations features
+1 synthetic_machine_learning_linear_algebra_audit           10        5
+                                              method
+1 standardized_ridge_regression_with_svd_diagnostics
+                                       preprocessing regularization_strength
+1 centered_and_standardized_features_centered_target                    0.75
+  feature_matrix_condition_number gram_matrix_condition_number numerical_rank
+1                            18.4                        339.2              5
+  ridge_weight_norm training_rmse maximum_absolute_residual
+1               8.7           1.9                       3.8
+  first_two_component_energy
+1                       0.94
+                                                                                                                                                                                             warning
+1 Machine learning metrics depend on feature representation, label validity, preprocessing, conditioning, loss function, regularization, validation design, residual review, and deployment context.

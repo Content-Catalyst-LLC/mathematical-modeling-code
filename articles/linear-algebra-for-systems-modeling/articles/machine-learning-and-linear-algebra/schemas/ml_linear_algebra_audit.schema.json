@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MachineLearningLinearAlgebraAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "observations",
+    "features",
+    "method",
+    "preprocessing",
+    "regularization_strength",
+    "feature_matrix_condition_number",
+    "gram_matrix_condition_number",
+    "numerical_rank",
+    "ridge_weight_norm",
+    "training_rmse",
+    "maximum_absolute_residual",
+    "first_two_component_energy",
+    "validation_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "integer"
+    },
+    "features": {
+      "type": "integer"
+    },
+    "method": {
+      "type": "string"
+    },
+    "preprocessing": {
+      "type": "string"
+    },
+    "regularization_strength": {
+      "type": "number"
+    },
+    "feature_matrix_condition_number": {
+      "type": "number"
+    },
+    "gram_matrix_condition_number": {
+      "type": "number"
+    },
+    "numerical_rank": {
+      "type": "integer"
+    },
+    "ridge_weight_norm": {
+      "type": "number"
+    },
+    "training_rmse": {
+      "type": "number"
+    },
+    "maximum_absolute_residual": {
+      "type": "number"
+    },
+    "first_two_component_energy": {
+      "type": "number"
+    },
+    "validation_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

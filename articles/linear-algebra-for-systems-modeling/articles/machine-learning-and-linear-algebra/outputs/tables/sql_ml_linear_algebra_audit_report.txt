@@ -1,0 +1,34 @@
+section                             
+------------------------------------
+MACHINE LEARNING GOVERNANCE REGISTRY
+assumption_name             mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Feature matrix              Defines observations features units preprocessing and matrix  Determines what the model can learn from the system.          A model cannot recover structure absent or misrepresented in
+                             shape.                                                                                                                      the feature matrix.                                        
+
+Label definition            Defines target vector or target matrix used for supervised l  Determines what the model is trained to approximate.          Labels may be noisy proxies rather than valid measures of th
+                            earning.                                                                                                                    e intended concept.                                         
+
+Loss function               Defines what prediction error or objective is optimized.      Determines what the model treats as success.                  Changing the loss changes the meaning of learning.          
+
+Model class                 Defines functional form and parameter structure.              Controls what relationships can be represented.               Model complexity should match data task and validation evide
+                                                                                                                                                        nce.                                                        
+
+Preprocessing               Defines centering scaling encoding imputation transformation  Shapes geometry distances coefficients gradients and model s  Preprocessing choices can change learned patterns and should
+                             and filtering.                                               tability.                                                      be documented.                                             
+
+Regularization              Constrains parameter magnitude sparsity rank or complexity.   Improves stability and can reduce overfitting.                Regularization strength should be validated rather than chos
+                                                                                                                                                        en casually.                                                
+
+Responsible interpretation  Defines how model outputs weights components embeddings and   Prevents learned patterns from being overstated as causes tr  Model outputs should be interpreted with uncertainty context
+                            scores are explained.                                         uths or policy certainty.                                      and accountability.                                        
+
+Validation design           Defines train-test splits cross-validation time splits metri  Evaluates whether the model generalizes beyond training data  Training performance is not deployment evidence.            
+                            cs and residual review.                                       .                                                                                                                         
+section                      
+-----------------------------
+ML LINEAR ALGEBRA AUDIT CASES
+model_name                                       observations  features  method                                              preprocessing                                       regularization_strength  feature_matrix_condition_number  gram_matrix_condition_number  numerical_rank  ridge_weight_norm  training_rmse  maximum_absolute_residual  first_two_component_energy  warning                                                     
+-----------------------------------------------  ------------  --------  --------------------------------------------------  --------------------------------------------------  -----------------------  -------------------------------  ----------------------------  --------------  -----------------  -------------  -------------------------  --------------------------  ------------------------------------------------------------
+synthetic_machine_learning_linear_algebra_audit  10            5         standardized_ridge_regression_with_svd_diagnostics  centered_and_standardized_features_centered_target  0.75                     18.4                             339.2                         5               8.7                1.9            3.8                        0.94                        Training error is not generalization evidence and learned we
+                                                                                                                                                                                                                                                                                                                                                                                  ights are not automatic causes.                             

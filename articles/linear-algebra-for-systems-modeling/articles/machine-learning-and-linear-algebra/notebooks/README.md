@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Machine Learning and Linear Algebra** will live here.
+# Notebooks\n\nNotebook-ready workspace for machine learning and linear algebra, feature matrices, labels, ridge regression, loss functions, gradients, conditioning, PCA/SVD diagnostics, validation, and governance.\n

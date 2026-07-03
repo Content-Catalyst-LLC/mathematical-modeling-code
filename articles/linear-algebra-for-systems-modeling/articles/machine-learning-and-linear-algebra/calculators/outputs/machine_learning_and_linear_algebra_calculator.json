@@ -1,0 +1,17 @@
+{
+  "calculator": "machine_learning_and_linear_algebra_calculator",
+  "feature_matrix_condition_number": 18.4,
+  "features": 5,
+  "first_two_component_energy": 0.94,
+  "gram_matrix_condition_number": 339.2,
+  "maximum_absolute_residual": 3.8,
+  "method": "standardized_ridge_regression_with_svd_diagnostics",
+  "model_name": "synthetic_machine_learning_linear_algebra_audit",
+  "numerical_rank": 5,
+  "observations": 10,
+  "preprocessing": "centered_and_standardized_features_centered_target",
+  "regularization_strength": 0.75,
+  "ridge_weight_norm": 8.7,
+  "training_rmse": 1.9,
+  "warning": "Machine learning metrics depend on feature representation, label validity, preprocessing, conditioning, loss function, regularization, validation design, residual review, and deployment context."
+}

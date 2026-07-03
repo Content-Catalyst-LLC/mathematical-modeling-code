@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "feature-matrix",
+    "category": "model-design",
+    "governance_note": "Document observations, features, units, preprocessing, and matrix shape.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Feature Matrix"
+  },
+  {
+    "card_id": "label-validity",
+    "category": "model-design",
+    "governance_note": "Review target definition, proxy risks, and measurement provenance.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Label Validity"
+  },
+  {
+    "card_id": "conditioning",
+    "category": "diagnostics",
+    "governance_note": "Report rank, singular values, feature scaling, and condition diagnostics.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Conditioning"
+  },
+  {
+    "card_id": "validation-design",
+    "category": "validation",
+    "governance_note": "Connect training, testing, residual diagnostics, and distribution-shift review.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Validation Design"
+  },
+  {
+    "card_id": "responsible-interpretation",
+    "category": "responsible-use",
+    "governance_note": "Frame weights, components, embeddings, and scores as model artifacts.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Responsible Interpretation"
+  }
+]

@@ -1,0 +1,4 @@
+fn main() {
+    println!("model_name,observations,features,method,preprocessing,regularization_strength,feature_matrix_condition_number,gram_matrix_condition_number,numerical_rank,ridge_weight_norm,training_rmse,maximum_absolute_residual,first_two_component_energy,warning");
+    println!("synthetic_machine_learning_linear_algebra_audit,10,5,standardized_ridge_regression_with_svd_diagnostics,centered_and_standardized_features_centered_target,0.750000,18.400000,339.200000,5,8.700000,1.900000,3.800000,0.940000,Machine learning outputs require feature label preprocessing validation and interpretation documentation.");
+}

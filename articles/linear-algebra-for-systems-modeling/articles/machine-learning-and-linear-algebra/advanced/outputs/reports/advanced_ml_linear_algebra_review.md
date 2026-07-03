@@ -1,0 +1,10 @@
+# Advanced Machine Learning and Linear Algebra Review
+
+- **feature_matrix** (required): Define observations, features, units, preprocessing, missing-data handling, and matrix shape.
+- **label_definition** (required): Document label construction, proxy risks, target validity, and measurement provenance.
+- **conditioning** (required): Report feature scaling, rank, singular values, Gram conditioning, and numerical stability.
+- **model_class** (required): State model family, parameter structure, loss function, and approximation assumptions.
+- **regularization** (required): Document penalty type, strength, validation method, and effect on weights or rank.
+- **validation_design** (required): Report train-test split, cross-validation, time split, residual review, and relevant metrics.
+- **distribution_shift** (required): Review whether deployment data may differ from training and validation data.
+- **responsible_interpretation** (required): Interpret weights, components, embeddings, scores, and predictions as learned artifacts, not automatic causes or truths.

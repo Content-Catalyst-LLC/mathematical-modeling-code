@@ -1,0 +1,6 @@
+feature,weight
+energy_load,1.84
+network_delay,0.92
+maintenance_backlog,1.45
+weather_stress,0.77
+demand_variability,0.61

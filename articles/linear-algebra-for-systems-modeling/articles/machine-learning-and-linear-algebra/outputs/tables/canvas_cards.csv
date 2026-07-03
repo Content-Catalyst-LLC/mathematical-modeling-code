@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+feature-matrix,Feature Matrix,model-design,97,active,2026-06-29,"Document observations, features, units, preprocessing, and matrix shape."
+label-validity,Label Validity,model-design,96,active,2026-06-29,"Review target definition, proxy risks, and measurement provenance."
+conditioning,Conditioning,diagnostics,95,review,2026-06-29,"Report rank, singular values, feature scaling, and condition diagnostics."
+validation-design,Validation Design,validation,94,review,2026-06-29,"Connect training, testing, residual diagnostics, and distribution-shift review."
+responsible-interpretation,Responsible Interpretation,responsible-use,93,review,2026-06-29,"Frame weights, components, embeddings, and scores as model artifacts."

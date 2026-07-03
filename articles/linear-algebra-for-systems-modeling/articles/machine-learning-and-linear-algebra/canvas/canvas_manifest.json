@@ -1,10 +1,10 @@
 {
+  "article_slug": "machine-learning-and-linear-algebra",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "machine-learning-and-linear-algebra",
-  "title": "Machine Learning and Linear Algebra",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "machine-learning-and-linear-algebra",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "feature-matrix",
+      "title": "Feature Matrix",
+      "description": "Documents observations, features, units, preprocessing, and matrix shape."
+    },
+    {
+      "card_id": "label-validity",
+      "title": "Label Validity",
+      "description": "Reviews target definition, proxy risks, and measurement provenance."
+    },
+    {
+      "card_id": "conditioning",
+      "title": "Conditioning",
+      "description": "Reports rank, singular values, feature scaling, and condition diagnostics."
+    },
+    {
+      "card_id": "validation-design",
+      "title": "Validation Design",
+      "description": "Connects training, testing, residual diagnostics, and distribution-shift review."
+    },
+    {
+      "card_id": "responsible-interpretation",
+      "title": "Responsible Interpretation",
+      "description": "Frames weights, components, embeddings, and scores as model artifacts."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

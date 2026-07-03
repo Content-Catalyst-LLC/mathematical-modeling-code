@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define observations, features, units, preprocessing, missing-data handling, and matrix shape.",
+    "review_item": "feature_matrix",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document label construction, proxy risks, target validity, and measurement provenance.",
+    "review_item": "label_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report feature scaling, rank, singular values, Gram conditioning, and numerical stability.",
+    "review_item": "conditioning",
+    "status": "required"
+  },
+  {
+    "governance_note": "State model family, parameter structure, loss function, and approximation assumptions.",
+    "review_item": "model_class",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document penalty type, strength, validation method, and effect on weights or rank.",
+    "review_item": "regularization",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report train-test split, cross-validation, time split, residual review, and relevant metrics.",
+    "review_item": "validation_design",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whether deployment data may differ from training and validation data.",
+    "review_item": "distribution_shift",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret weights, components, embeddings, scores, and predictions as learned artifacts, not automatic causes or truths.",
+    "review_item": "responsible_interpretation",
+    "status": "required"
+  }
+]
