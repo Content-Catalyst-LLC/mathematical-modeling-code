@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "data-matrix",
+    "category": "model-design",
+    "governance_note": "Document rows, columns, units, missing-data handling, and system meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Data Matrix"
+  },
+  {
+    "card_id": "preprocessing",
+    "category": "data-prep",
+    "governance_note": "Review centering, scaling, standardization, weighting, and transformations.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Preprocessing"
+  },
+  {
+    "card_id": "explained-variance",
+    "category": "diagnostics",
+    "governance_note": "Review component variance, cumulative variance, and rank selection.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Explained Variance"
+  },
+  {
+    "card_id": "scores-loadings",
+    "category": "interpretation",
+    "governance_note": "Separate observation coordinates from variable contributions.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Scores and Loadings"
+  },
+  {
+    "card_id": "pca-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect residuals, outliers, validation, and interpretation limits to responsible use.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "PCA Governance"
+  }
+]

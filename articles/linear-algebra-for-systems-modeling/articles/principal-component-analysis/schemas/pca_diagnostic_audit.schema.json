@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCADiagnosticAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "observations",
+    "variables",
+    "preprocessing",
+    "retained_components",
+    "explained_variance_ratio",
+    "cumulative_explained_variance",
+    "relative_reconstruction_error",
+    "largest_loading_variable_pc1",
+    "largest_loading_variable_pc2",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "integer"
+    },
+    "variables": {
+      "type": "integer"
+    },
+    "preprocessing": {
+      "type": "string"
+    },
+    "retained_components": {
+      "type": "integer"
+    },
+    "explained_variance_ratio": {
+      "type": "string"
+    },
+    "cumulative_explained_variance": {
+      "type": "number"
+    },
+    "relative_reconstruction_error": {
+      "type": "number"
+    },
+    "largest_loading_variable_pc1": {
+      "type": "string"
+    },
+    "largest_loading_variable_pc2": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
+  "article_slug": "principal-component-analysis",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "principal-component-analysis",
-  "title": "Principal Component Analysis",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "principal-component-analysis",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "data-matrix",
+      "title": "Data Matrix",
+      "description": "Documents rows, columns, units, missing-data handling, and system meaning."
+    },
+    {
+      "card_id": "preprocessing",
+      "title": "Preprocessing",
+      "description": "Reviews centering, scaling, standardization, weighting, and transformations."
+    },
+    {
+      "card_id": "explained-variance",
+      "title": "Explained Variance",
+      "description": "Reviews component variance, cumulative variance, and rank selection."
+    },
+    {
+      "card_id": "scores-loadings",
+      "title": "Scores and Loadings",
+      "description": "Separates observation coordinates from variable contributions."
+    },
+    {
+      "card_id": "pca-governance",
+      "title": "PCA Governance",
+      "description": "Connects residuals, outliers, validation, and interpretation limits to responsible use."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

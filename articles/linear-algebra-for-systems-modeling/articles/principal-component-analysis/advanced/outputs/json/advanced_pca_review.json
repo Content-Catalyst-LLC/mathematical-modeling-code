@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define observations, variables, entries, units, weights, and missing-data handling.",
+    "review_item": "data_matrix_construction",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document the baseline around which variation is measured.",
+    "review_item": "centering",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether PCA uses original units, standardization, normalization, or weights.",
+    "review_item": "scaling",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report component variance, cumulative variance, and retained-rank rationale.",
+    "review_item": "explained_variance",
+    "status": "required"
+  },
+  {
+    "governance_note": "Separate observation scores from variable loadings and document sign conventions.",
+    "review_item": "scores_and_loadings",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report reconstruction error and review observations or variables poorly represented by retained components.",
+    "review_item": "residual_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whether extreme observations are errors, rare cases, or important transitions.",
+    "review_item": "outlier_review",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Validate reduced representation against the specific systems question and downstream use.",
+    "review_item": "validation_context",
+    "status": "required"
+  }
+]

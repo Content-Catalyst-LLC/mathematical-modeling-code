@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+data_matrix_construction,Data matrix construction,Defines observations variables entries units and missing-data treatment,Determines what principal components can represent,PCA interpretation is only as meaningful as the matrix construction
+centering,Centering,Subtracts variable means before decomposition,Defines the baseline around which variation is measured,Uncentered PCA may capture mean offsets rather than variation structure
+scaling,Scaling,Determines whether variables are analyzed in original or standardized units,Controls whether high-variance variables dominate components,Scaling choices can substantially change PCA results
+retained_components,Retained components,Defines how many principal directions are kept,Determines compression dimensionality reduction reconstruction error and residual variation,Discarded components may contain rare local or high consequence structure
+explained_variance,Explained variance,Measures variance captured by each component,Supports rank selection and dimensionality-reduction review,Explained variance is not causal ethical or decision importance
+loadings_interpretation,Loadings interpretation,Defines how variable contributions to components are read,Connects component directions to original variables,Loadings describe mathematical directions not automatic mechanisms
+residual_review,Residual review,Defines how reconstruction error and discarded variation are assessed,Determines whether low-dimensional approximation is adequate,Residuals should be reviewed before being dismissed as noise
+outlier_review,Outlier review,Assesses influence of extreme observations on variance directions,Supports robust interpretation of component structure,Outliers may represent error rare cases or important system transitions

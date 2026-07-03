@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Principal Component Analysis** will live here.
+# Notebooks\n\nNotebook-ready workspace for PCA, centered data matrices, covariance structure, SVD-based PCA, scores, loadings, explained variance, residual diagnostics, and PCA governance.\n

@@ -1,8 +1,7 @@
 actual_title: "Principal Component Analysis"
-suggested_seo_title: "Principal Component Analysis: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Principal Component Analysis: How Linear Algebra Reduces Dimension While Preserving Variation"
+focus_keyword: "principal component analysis"
 slug: "principal-component-analysis"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/principal-component-analysis"
 tags:
   - Linear Algebra
+  - Principal Component Analysis
+  - PCA
+  - Dimensionality Reduction
+  - Explained Variance
+  - Feature Reduction
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Principal Component Analysis is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Principal component analysis explains how high-dimensional data can be re-expressed through orthogonal directions of maximum variation. This article introduces centered data matrices, covariance matrices, eigenvectors, singular value decomposition, principal components, scores, loadings, explained variance, cumulative explained variance, rank selection, reconstruction error, residual diagnostics, centering, scaling, standardization, outliers, robustness, dimensionality reduction, and interpretation governance. It shows how PCA supports infrastructure monitoring, environmental gradient analysis, public health indicators, economic structure review, education systems, machine learning feature reduction, scenario ensemble compression, and exploratory systems modeling. The article emphasizes that PCA requires clear data matrix construction, row and column meaning, preprocessing, scaling choices, retained components, variance criteria, residual review, outlier handling, validation context, and accountability because principal components are variance directions, not automatic causes, categories, or truths."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

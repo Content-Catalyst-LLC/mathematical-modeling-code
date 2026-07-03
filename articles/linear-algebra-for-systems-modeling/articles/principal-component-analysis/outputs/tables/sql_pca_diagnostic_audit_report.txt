@@ -1,0 +1,36 @@
+section                
+-----------------------
+PCA GOVERNANCE REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Centering                 Subtracts variable means before decomposition.                Defines the baseline around which variation is measured.      Uncentered PCA may capture mean offsets rather than variatio
+                                                                                                                                                      n structure.                                                
+
+Data matrix construction  Defines observations variables entries units and missing-dat  Determines what principal components can represent.           PCA interpretation is only as meaningful as the matrix const
+                          a treatment.                                                                                                                ruction.                                                    
+
+Explained variance        Measures variance captured by each component.                 Supports rank selection and dimensionality-reduction review.  Explained variance is not the same as causal ethical or deci
+                                                                                                                                                      sion importance.                                            
+
+Loadings interpretation   Defines how variable contributions to components are read.    Connects component directions to original variables.          Loadings describe mathematical directions not automatic mech
+                                                                                                                                                      anisms.                                                     
+
+Outlier review            Assesses the influence of extreme observations on variance d  Supports robust interpretation of component structure.        Outliers may represent error rare cases or important system 
+                          irections.                                                                                                                  transitions.                                                
+
+Residual review           Defines how reconstruction error and discarded variation are  Determines whether low-dimensional approximation is adequate  Residuals should be reviewed before being dismissed as noise
+                           assessed.                                                    .                                                             .                                                           
+
+Retained components       Defines how many principal directions are kept.               Determines compression dimensionality reduction reconstructi  Discarded components may contain rare local or high-conseque
+                                                                                        on error and residual variation.                              nce structure.                                              
+
+Scaling                   Determines whether variables are analyzed in original units   Controls whether high-variance variables dominate the compon  Scaling choices can substantially change PCA results.       
+                          or standardized units.                                        ents.                                                                                                                     
+section                   
+--------------------------
+PCA DIAGNOSTIC AUDIT CASES
+model_name                      observations  variables  preprocessing              retained_components  explained_variance_ratio       cumulative_explained_variance  relative_reconstruction_error  largest_loading_variable_pc1  largest_loading_variable_pc2  warning                                                     
+------------------------------  ------------  ---------  -------------------------  -------------------  -----------------------------  -----------------------------  -----------------------------  ----------------------------  ----------------------------  ------------------------------------------------------------
+synthetic_pca_diagnostic_audit  8             5          centered_and_standardized  2                    0.946;0.044;0.007;0.002;0.001  0.99                           0.1                            transport_delay               water_demand                  PCA components depend on data matrix construction centering 
+                                                                                                                                                                                                                                                                  scaling outliers retained-rank choice explained-variance cri
+                                                                                                                                                                                                                                                                  teria residual review and domain interpretation.            

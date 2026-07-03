@@ -1,0 +1,6 @@
+variable_name,pc1_loading,pc2_loading
+energy_load,-0.45,0.51
+water_demand,-0.43,0.62
+transport_delay,0.46,0.38
+service_backlog,0.45,0.3
+air_quality_risk,0.45,0.35

@@ -1,0 +1,13 @@
+{
+  "cumulative_explained_variance": 0.99,
+  "explained_variance_ratio": "0.946;0.044;0.007;0.002;0.001",
+  "interpretation_warning": "PCA components depend on data matrix construction, centering, scaling, outliers, retained-rank choice, explained-variance criteria, residual review, and domain interpretation. Principal components are variance directions, not automatic causes or categories.",
+  "largest_loading_variable_pc1": "transport_delay",
+  "largest_loading_variable_pc2": "water_demand",
+  "model_name": "synthetic_pca_diagnostic_audit",
+  "observations": 8,
+  "preprocessing": "centered_and_standardized",
+  "relative_reconstruction_error": 0.1,
+  "retained_components": 2,
+  "variables": 5
+}
