@@ -1,0 +1,12 @@
+                                      calculator
+1 dimensionality_reduction_techniques_calculator
+                                model_name observations original_dimensions
+1 synthetic_dimensionality_reduction_audit            8                   6
+  reduced_dimensions                   method             preprocessing
+1                  2 svd_based_pca_projection centered_and_standardized
+                       preservation_target explained_variance_retained
+1 maximum_variance_under_linear_projection                       0.982
+  relative_reconstruction_error mean_pairwise_distance_distortion
+1                         0.134                             0.286
+                                                                                                                                                                                     warning
+1 Dimensionality reduction metrics depend on matrix construction, preprocessing, method choice, target dimension, preservation target, information loss, parameters, and validation context.

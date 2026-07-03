@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+original-matrix,Original Matrix,model-design,97,active,2026-06-29,"Document rows, columns, units, missing-data handling, and system meaning."
+reduction-method,Reduction Method,method-choice,96,active,2026-06-29,"State whether the method preserves variance, distance, neighborhoods, reconstruction, or task performance."
+target-dimension,Target Dimension,diagnostics,95,review,2026-06-29,"Document reduced dimension, rank choice, and sensitivity tests."
+information-loss,Information Loss,validation,94,review,2026-06-29,"Report reconstruction error, distance distortion, residuals, and localized loss."
+reduction-governance,Reduction Governance,responsible-use,93,review,2026-06-29,"Connect reduced coordinates, parameters, validation, and interpretation limits to responsible use."

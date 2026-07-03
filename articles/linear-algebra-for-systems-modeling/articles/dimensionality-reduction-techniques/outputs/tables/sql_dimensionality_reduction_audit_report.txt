@@ -1,0 +1,35 @@
+section                                     
+--------------------------------------------
+DIMENSIONALITY REDUCTION GOVERNANCE REGISTRY
+assumption_name             mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Information loss            Measures reconstruction error distortion residuals or lost s  Supports review of what the reduced representation fails to   Low aggregate error can hide localized or high-consequence l
+                            tructure.                                                     capture.                                                      oss.                                                        
+
+Original matrix             Defines observations variables entries units and missing-dat  Determines what structure can be preserved or lost during re  Reduction is only as meaningful as the original matrix const
+                            a handling.                                                   duction.                                                      ruction.                                                    
+
+Preprocessing               Defines centering scaling normalization transformations and   Determines which patterns dominate the reduced representatio  Preprocessing choices can substantially change reduced coord
+                            weighting.                                                    n.                                                            inates.                                                     
+
+Preservation target         Defines what the reduction is intended to preserve.           Connects method choice to the systems question.               Variance distance neighborhoods and prediction performance a
+                                                                                                                                                        re different objectives.                                    
+
+Randomness and parameters   Defines seeds tolerances neighborhood sizes perplexity minim  Supports reproducibility and sensitivity review.              Different parameter choices can change the reduced represent
+                            um distance or solver settings.                                                                                             ation.                                                      
+
+Reduction method            Defines the mathematical transformation from original space   Determines whether variance distance neighborhoods reconstru  Different methods preserve different structures and should n
+                            to reduced space.                                             ction or another target is preserved.                         ot be interpreted interchangeably.                          
+
+Responsible interpretation  Defines how reduced coordinates are explained and used.       Prevents reduced spaces from being treated as automatic caus  Reduced coordinates are model artifacts and require validati
+                                                                                          es or categories.                                             on.                                                         
+
+Target dimension            Defines the number of reduced coordinates retained.           Controls compression reconstruction error interpretability a  The reduced dimension should be justified and sensitivity-te
+                                                                                          nd downstream performance.                                    sted.                                                       
+section                             
+------------------------------------
+DIMENSIONALITY REDUCTION AUDIT CASES
+model_name                                observations  original_dimensions  reduced_dimensions  method                    preprocessing              preservation_target                       explained_variance_retained  relative_reconstruction_error  mean_pairwise_distance_distortion  warning                                                     
+----------------------------------------  ------------  -------------------  ------------------  ------------------------  -------------------------  ----------------------------------------  ---------------------------  -----------------------------  ---------------------------------  ------------------------------------------------------------
+synthetic_dimensionality_reduction_audit  8             6                    2                   svd_based_pca_projection  centered_and_standardized  maximum_variance_under_linear_projection  0.982                        0.134                          0.286                              Reduced coordinates are model artifacts not automatic causes
+                                                                                                                                                                                                                                                                                                categories or complete system truths.                      

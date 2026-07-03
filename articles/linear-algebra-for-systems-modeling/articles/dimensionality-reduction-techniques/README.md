@@ -1,42 +1,23 @@
 # Dimensionality Reduction Techniques
 
-Companion code and reproducible workflows for **“Dimensionality Reduction Techniques”**.
+Companion code and reproducible workflows for **Dimensionality Reduction Techniques** in the **Linear Algebra for Systems Modeling** series.
 
-Status: **planned**.
+## Themes
 
-A treatment of reducing complexity while preserving useful structure.
+- feature selection and feature extraction
+- PCA, SVD, and low-rank approximation
+- random projection and sketching
+- manifold learning and embeddings
+- reconstruction error and information loss
+- distance distortion and neighborhood preservation
+- rank selection and target-dimension choice
+- validation, parameter sensitivity, and reduction governance
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
-
-```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
-```
-
-## Run smoke checks
+## Run
 
 ```bash
 make smoke
+make all
+make calculators
+make advanced
 ```
-
-## Principle
-
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.

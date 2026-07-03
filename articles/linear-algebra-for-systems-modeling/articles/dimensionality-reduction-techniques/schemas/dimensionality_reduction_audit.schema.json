@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DimensionalityReductionAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "observations",
+    "original_dimensions",
+    "reduced_dimensions",
+    "method",
+    "preprocessing",
+    "preservation_target",
+    "explained_variance_retained",
+    "relative_reconstruction_error",
+    "mean_pairwise_distance_distortion",
+    "validation_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "integer"
+    },
+    "original_dimensions": {
+      "type": "integer"
+    },
+    "reduced_dimensions": {
+      "type": "integer"
+    },
+    "method": {
+      "type": "string"
+    },
+    "preprocessing": {
+      "type": "string"
+    },
+    "preservation_target": {
+      "type": "string"
+    },
+    "explained_variance_retained": {
+      "type": "number"
+    },
+    "relative_reconstruction_error": {
+      "type": "number"
+    },
+    "mean_pairwise_distance_distortion": {
+      "type": "number"
+    },
+    "validation_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
+  "article_slug": "dimensionality-reduction-techniques",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "dimensionality-reduction-techniques",
-  "title": "Dimensionality Reduction Techniques",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "dimensionality-reduction-techniques",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "original-matrix",
+      "title": "Original Matrix",
+      "description": "Documents rows, columns, units, missing-data handling, and system meaning."
+    },
+    {
+      "card_id": "reduction-method",
+      "title": "Reduction Method",
+      "description": "States whether the method preserves variance, distance, neighborhoods, reconstruction, or task performance."
+    },
+    {
+      "card_id": "target-dimension",
+      "title": "Target Dimension",
+      "description": "Documents reduced dimension, rank choice, and sensitivity tests."
+    },
+    {
+      "card_id": "information-loss",
+      "title": "Information Loss",
+      "description": "Reports reconstruction error, distance distortion, residuals, and localized loss."
+    },
+    {
+      "card_id": "reduction-governance",
+      "title": "Reduction Governance",
+      "description": "Connects reduced coordinates, parameters, validation, and interpretation limits to responsible use."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

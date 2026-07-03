@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define observations, variables, entries, units, weights, and missing-data handling.",
+    "review_item": "original_matrix",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document centering, scaling, normalization, transformations, and weighting.",
+    "review_item": "preprocessing",
+    "status": "required"
+  },
+  {
+    "governance_note": "State the method and what structure it is intended to preserve.",
+    "review_item": "reduction_method",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report reduced dimension, rank rationale, and sensitivity to dimension choice.",
+    "review_item": "target_dimension",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report reconstruction error, residuals, distance distortion, or neighborhood preservation as appropriate.",
+    "review_item": "information_loss",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document random seed, tolerances, solver settings, and method-specific parameters.",
+    "review_item": "randomness_and_parameters",
+    "status": "required"
+  },
+  {
+    "governance_note": "Validate reduced representation against the systems question and downstream use.",
+    "review_item": "validation_context",
+    "status": "required"
+  },
+  {
+    "governance_note": "Treat reduced coordinates as model artifacts rather than causes, categories, or complete system truths.",
+    "review_item": "responsible_interpretation",
+    "status": "required"
+  }
+]

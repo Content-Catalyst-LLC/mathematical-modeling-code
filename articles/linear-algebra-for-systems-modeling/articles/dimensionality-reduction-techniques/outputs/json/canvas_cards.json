@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "original-matrix",
+    "category": "model-design",
+    "governance_note": "Document rows, columns, units, missing-data handling, and system meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Original Matrix"
+  },
+  {
+    "card_id": "reduction-method",
+    "category": "method-choice",
+    "governance_note": "State whether the method preserves variance, distance, neighborhoods, reconstruction, or task performance.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Reduction Method"
+  },
+  {
+    "card_id": "target-dimension",
+    "category": "diagnostics",
+    "governance_note": "Document reduced dimension, rank choice, and sensitivity tests.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Target Dimension"
+  },
+  {
+    "card_id": "information-loss",
+    "category": "validation",
+    "governance_note": "Report reconstruction error, distance distortion, residuals, and localized loss.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Information Loss"
+  },
+  {
+    "card_id": "reduction-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect reduced coordinates, parameters, validation, and interpretation limits to responsible use.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Reduction Governance"
+  }
+]

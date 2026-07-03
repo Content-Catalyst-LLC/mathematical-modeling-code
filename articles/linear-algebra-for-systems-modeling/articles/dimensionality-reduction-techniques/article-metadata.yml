@@ -1,8 +1,7 @@
 actual_title: "Dimensionality Reduction Techniques"
-suggested_seo_title: "Dimensionality Reduction Techniques: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Dimensionality Reduction Techniques: How Linear Algebra Compresses Complexity While Preserving Structure"
+focus_keyword: "dimensionality reduction techniques"
 slug: "dimensionality-reduction-techniques"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/dimensionality-reduction-techniques"
 tags:
   - Linear Algebra
+  - Dimensionality Reduction
+  - PCA
+  - Truncated SVD
+  - Feature Extraction
+  - Embeddings
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Dimensionality Reduction Techniques is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Dimensionality reduction techniques explain how high-dimensional systems can be represented with fewer variables, coordinates, components, or features while preserving selected structure. This article introduces feature selection, feature extraction, linear projection, PCA, truncated SVD, low-rank approximation, random projection, manifold learning, embeddings, autoencoders, reconstruction error, information loss, distance distortion, neighborhood preservation, rank selection, target-dimension choice, validation, parameter sensitivity, and interpretation governance. It shows how dimensionality reduction supports infrastructure sensors, climate scenarios, public health indicators, economic features, knowledge systems, text embeddings, machine learning pipelines, and scientific computing workflows. The article emphasizes that reduction requires clear matrix construction, preprocessing, method choice, preservation targets, target dimension, random seeds, residual review, validation context, and accountability because lower-dimensional coordinates are model artifacts, not automatic causes, categories, or complete truths."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

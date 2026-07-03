@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Dimensionality Reduction Techniques** will live here.
+# Notebooks\n\nNotebook-ready workspace for dimensionality reduction techniques, PCA, SVD, random projection, embeddings, reconstruction error, distance distortion, validation, and reduction governance.\n

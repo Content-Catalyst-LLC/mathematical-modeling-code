@@ -1,0 +1,14 @@
+{
+  "explained_variance_retained": 0.982,
+  "interpretation_warning": "Dimensionality reduction preserves selected structure while discarding or distorting other structure. Reduced coordinates are model artifacts, not automatic causes, categories, or complete system truths.",
+  "mean_pairwise_distance_distortion": 0.286,
+  "method": "svd_based_pca_projection",
+  "model_name": "synthetic_dimensionality_reduction_audit",
+  "observations": 8,
+  "original_dimensions": 6,
+  "preprocessing": "centered_and_standardized",
+  "preservation_target": "maximum_variance_under_linear_projection",
+  "reduced_dimensions": 2,
+  "relative_reconstruction_error": 0.134,
+  "validation_warning": "Reduced representations should be validated against task performance, residuals, subgroup behavior, distance distortion, reconstruction error, and sensitivity to preprocessing."
+}
