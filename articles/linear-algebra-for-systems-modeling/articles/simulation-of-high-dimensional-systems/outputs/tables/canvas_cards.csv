@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+state-representation,State Representation,model-design,97,active,2026-06-29,"Document variables, units, state dimension, resolution, and system boundary."
+transition-dynamics,Transition Dynamics,diagnostics,96,active,2026-06-29,"Review transition rule, sparse operator, step size, and spectral diagnostics."
+uncertainty-model,Uncertainty Model,method-choice,95,review,2026-06-29,"Document random inputs, covariance structure, random seed, and sampling design."
+ensemble-review,Ensemble Review,validation,94,review,2026-06-29,"Report ensemble size, outcome summaries, quantiles, and threshold exceedance."
+simulation-governance,Simulation Governance,responsible-use,93,review,2026-06-29,"Connect sensitivity testing, validation evidence, and responsible interpretation."

@@ -1,0 +1,35 @@
+section                       
+------------------------------
+SIMULATION GOVERNANCE REGISTRY
+assumption_name            mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Dimensionality management  Defines sparsity projection low-rank approximation or reduce  Controls computation and interpretability in large state spa  Compression may remove weak signals rare events or local str
+                           d-order modeling.                                             ces.                                                          ucture.                                                     
+
+Ensemble design            Defines number of runs random seeds scenarios and summary st  Supports uncertainty ranges risk estimates and robustness re  A single trajectory should not be overinterpreted as a forec
+                           atistics.                                                     view.                                                         ast.                                                        
+
+Parameter space            Defines parameter values ranges and scenario assumptions.     Controls how alternative futures or system conditions are ex  Weak parameter ranges can create misleading scenario confide
+                                                                                         plored.                                                       nce.                                                        
+
+Responsible use            Defines how assumptions uncertainty sensitivity limitations   Prevents simulated outcomes from being overstated as predict  Simulation should support structured reasoning not replace j
+                           and decision consequences are communicated.                   ions or certainty.                                            udgment.                                                    
+
+State vector               Defines modeled variables dimension units and system state r  Determines what the simulation can track over time.           Excluded variables and poor scaling can distort simulated be
+                           epresentation.                                                                                                              havior.                                                     
+
+Transition rule            Defines how the system moves from one state to the next.      Encodes modeled dynamics interactions feedback and external   Transition assumptions should be validated against mechanism
+                                                                                         inputs.                                                       s and evidence.                                             
+
+Uncertainty model          Defines random inputs shock distributions covariance and sam  Determines how uncertainty propagates through the simulation  Distribution and covariance assumptions should be documented
+                           pling process.                                                .                                                              and tested.                                                
+
+Validation design          Defines calibration holdout tests numerical checks and compa  Evaluates whether simulation outputs are credible for the in  Validation is partial evidence not proof of future accuracy.
+                           rison with observed behavior.                                 tended use.                                                                                                               
+section                                
+---------------------------------------
+HIGH DIMENSIONAL SIMULATION AUDIT CASES
+model_name                                   state_dimension  time_steps  ensemble_runs  method                                                        random_seed  transition_spectral_radius  transition_density  final_state_mean_norm  final_state_mean_total  final_state_95th_percentile_total  threshold_exceedance_probability  first_three_component_energy  warning                                                     
+-------------------------------------------  ---------------  ----------  -------------  ------------------------------------------------------------  -----------  --------------------------  ------------------  ---------------------  ----------------------  ---------------------------------  --------------------------------  ----------------------------  ------------------------------------------------------------
+synthetic_high_dimensional_simulation_audit  24               40          250            sparse_linear_state_update_with_correlated_monte_carlo_shock  20260629     0.94                        0.12                4.8                    24.6                    26.0                               0.1                               0.78                          Simulation outputs are conditional model outcomes not observ
+                                                                                         s                                                                                                                                                                                                                                                                            ations of the future.                                       

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HighDimensionalSimulationAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "state_dimension",
+    "time_steps",
+    "ensemble_runs",
+    "method",
+    "random_seed",
+    "transition_spectral_radius",
+    "transition_density",
+    "final_state_mean_norm",
+    "final_state_mean_total",
+    "final_state_95th_percentile_total",
+    "threshold_exceedance_probability",
+    "first_three_component_energy",
+    "validation_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "state_dimension": {
+      "type": "integer"
+    },
+    "time_steps": {
+      "type": "integer"
+    },
+    "ensemble_runs": {
+      "type": "integer"
+    },
+    "method": {
+      "type": "string"
+    },
+    "random_seed": {
+      "type": "integer"
+    },
+    "transition_spectral_radius": {
+      "type": "number"
+    },
+    "transition_density": {
+      "type": "number"
+    },
+    "final_state_mean_norm": {
+      "type": "number"
+    },
+    "final_state_mean_total": {
+      "type": "number"
+    },
+    "final_state_95th_percentile_total": {
+      "type": "number"
+    },
+    "threshold_exceedance_probability": {
+      "type": "number"
+    },
+    "first_three_component_energy": {
+      "type": "number"
+    },
+    "validation_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

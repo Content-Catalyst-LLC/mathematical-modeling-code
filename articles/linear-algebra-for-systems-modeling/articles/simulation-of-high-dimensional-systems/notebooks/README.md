@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Simulation of High-Dimensional Systems** will live here.
+# Notebooks\n\nNotebook-ready workspace for simulation of high-dimensional systems, state vectors, transition matrices, Monte Carlo ensembles, correlated uncertainty, covariance, SVD diagnostics, sensitivity testing, uncertainty quantification, validation, and governance.\n

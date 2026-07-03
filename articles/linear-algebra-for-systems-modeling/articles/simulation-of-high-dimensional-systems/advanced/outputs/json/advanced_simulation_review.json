@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define modeled variables, state dimension, units, resolution, and system boundary.",
+    "review_item": "state_vector",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document update equations, sparse structure, time step, external inputs, and stability diagnostics.",
+    "review_item": "transition_rule",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document parameter ranges, baseline assumptions, stress scenarios, and intervention scenarios.",
+    "review_item": "parameter_space",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document random input distributions, covariance assumptions, shock generation, and random seeds.",
+    "review_item": "uncertainty_model",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report ensemble size, time horizon, summary statistics, quantiles, extremes, and threshold exceedance.",
+    "review_item": "ensemble_design",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review sparsity, projections, reduced-order methods, compression, and information-loss diagnostics.",
+    "review_item": "dimensionality_management",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare simulation behavior with observed data, known mechanisms, numerical checks, and domain review.",
+    "review_item": "validation_design",
+    "status": "required"
+  },
+  {
+    "governance_note": "Present simulations as conditional model outcomes, not observations of the future or certainty.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]
