@@ -1,10 +1,10 @@
 {
+  "article_slug": "orthogonal-decomposition-and-structured-approximation",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "orthogonal-decomposition-and-structured-approximation",
-  "title": "Orthogonal Decomposition and Structured Approximation",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "orthogonal-decomposition-and-structured-approximation",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "subspace-choice",
+      "title": "Subspace Choice",
+      "description": "Defines which modeled directions count as structure."
+    },
+    {
+      "card_id": "projection-residual",
+      "title": "Projection and Residual",
+      "description": "Separates fitted component from unexplained variation."
+    },
+    {
+      "card_id": "qr-stability",
+      "title": "QR Stability",
+      "description": "Uses orthogonal bases for stable least-squares recovery."
+    },
+    {
+      "card_id": "rank-conditioning",
+      "title": "Rank and Conditioning",
+      "description": "Reviews numerical rank, sensitivity, and solver risk."
+    },
+    {
+      "card_id": "approximation-governance",
+      "title": "Approximation Governance",
+      "description": "Documents residual meaning, validation, and consequences of simplification."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

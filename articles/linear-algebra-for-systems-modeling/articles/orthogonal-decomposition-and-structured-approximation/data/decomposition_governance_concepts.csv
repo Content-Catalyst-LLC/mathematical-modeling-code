@@ -1,0 +1,8 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+subspace_choice,Subspace choice,Defines modeled space used for projection or approximation,Determines what structure the model can represent,Changing the subspace changes what becomes signal and residual
+basis_construction,Basis construction,Defines how basis vectors are selected or orthogonalized,Determines numerical stability and interpretability of components,Basis choice should be documented especially when variables are correlated or scaled differently
+projection_method,Projection method,Defines how modeled component is computed,Determines whether approximation uses direct projection QR SVD or another method,Method choice affects numerical stability and auditability
+rank_tolerance,Rank tolerance,Defines numerical threshold for independent directions,Determines whether small directions are retained or discarded,Numerical rank depends on scaling tolerance and modeling purpose
+residual_interpretation,Residual interpretation,Defines how unexplained variation is treated,Determines whether residuals are noise missing structure outliers or model failure,Residuals should not be dismissed as noise without review
+conditioning_review,Conditioning review,Measures numerical sensitivity of approximation,Supports stability assessment and method selection,Ill-conditioned systems require careful solver choice and diagnostic reporting
+validation_context,Validation context,Defines how approximation quality is evaluated,Connects residual size and captured structure to the system question,Small residuals do not guarantee meaningful or responsible interpretation

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+subspace-choice,Subspace Choice,model-design,97,active,2026-06-29,Define which modeled directions count as structure.
+projection-residual,Projection and Residual,linear-algebra,96,active,2026-06-29,Separate fitted component from unexplained variation.
+qr-stability,QR Stability,numerical-methods,95,review,2026-06-29,Use orthogonal bases for stable least-squares recovery.
+rank-conditioning,Rank and Conditioning,diagnostics,94,review,2026-06-29,"Review numerical rank, sensitivity, and solver risk."
+approximation-governance,Approximation Governance,interpretation,93,review,2026-06-29,"Document residual meaning, validation, and consequences of simplification."

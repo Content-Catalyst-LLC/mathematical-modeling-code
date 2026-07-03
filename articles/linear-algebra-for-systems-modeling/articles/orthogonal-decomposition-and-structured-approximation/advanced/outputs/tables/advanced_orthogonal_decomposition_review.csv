@@ -1,0 +1,9 @@
+review_item,status,governance_note
+subspace_choice,required,Define what modeled directions are included and what is excluded.
+basis_construction,required,"Document basis construction, orthogonalization method, scaling, and centering."
+projection_method,required,"State whether projection, QR, SVD, normal equations, or iterative methods are used."
+rank_tolerance,required,"Report algebraic rank, numerical rank, tolerance, and sensitivity to scaling."
+conditioning_review,required,Report condition number and numerical stability risks.
+residual_interpretation,required,"Review whether residuals indicate noise, omitted structure, nonlinear effects, outliers, or boundary failure."
+validation_context,required,Connect approximation quality to the system question and downstream use.
+approximation_accountability,recommended,"Review whose patterns, risks, or signals may be hidden by structured simplification."

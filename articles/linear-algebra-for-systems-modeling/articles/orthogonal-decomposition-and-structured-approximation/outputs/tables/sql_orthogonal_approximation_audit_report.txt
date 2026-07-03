@@ -1,0 +1,33 @@
+section                          
+---------------------------------
+DECOMPOSITION GOVERNANCE REGISTRY
+assumption_name          mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Basis construction       Defines how basis vectors are selected or orthogonalized.     Determines numerical stability and interpretability of compo  Basis choice should be documented especially when variables 
+                                                                                       nents.                                                        are correlated or scaled differently.                       
+
+Conditioning review      Measures numerical sensitivity of approximation.              Supports stability assessment and method selection.           Ill-conditioned systems require careful solver choice and di
+                                                                                                                                                     agnostic reporting.                                         
+
+Projection method        Defines how the modeled component is computed.                Determines whether approximation is computed through direct   Method choice affects numerical stability and auditability. 
+                                                                                       projection QR SVD or another method.                                                                                      
+
+Rank tolerance           Defines numerical threshold for independent directions.       Determines whether small directions are retained or discarde  Numerical rank depends on scaling tolerance and modeling pur
+                                                                                       d.                                                            pose.                                                       
+
+Residual interpretation  Defines how unexplained variation is treated.                 Determines whether residuals are considered noise missing st  Residuals should not be dismissed as noise without review.  
+                                                                                       ructure outliers or model failure.                                                                                        
+
+Subspace choice          Defines the modeled space used for projection or approximati  Determines what structure the model can represent.            Changing the subspace changes what becomes signal and what b
+                         on.                                                                                                                         ecomes residual.                                            
+
+Validation context       Defines how approximation quality is evaluated.               Connects residual size and captured structure to the system   Small residuals do not guarantee meaningful or responsible i
+                                                                                       question.                                                     nterpretation.                                              
+section                             
+------------------------------------
+ORTHOGONAL APPROXIMATION AUDIT CASES
+model_name                                rows  columns  numerical_rank  condition_number  residual_norm  relative_residual_norm  orthogonality_error  coefficient_norm  method            warning                                                     
+----------------------------------------  ----  -------  --------------  ----------------  -------------  ----------------------  -------------------  ----------------  ----------------  ------------------------------------------------------------
+synthetic_orthogonal_approximation_audit  6     3        3               58.0              0.34641        0.0321                  0.0                  2.513             qr_least_squares  Orthogonal approximation results depend on subspace choice s
+                                                                                                                                                                                           caling rank tolerance conditioning solver method residual in
+                                                                                                                                                                                           terpretation data provenance and validation context.        

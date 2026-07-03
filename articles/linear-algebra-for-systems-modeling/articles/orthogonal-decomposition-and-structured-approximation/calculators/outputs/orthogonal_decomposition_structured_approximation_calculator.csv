@@ -1,0 +1,2 @@
+calculator,model_name,rows,columns,numerical_rank,condition_number,residual_norm,relative_residual_norm,orthogonality_error,coefficient_norm,method,warning
+orthogonal_decomposition_structured_approximation_calculator,synthetic_orthogonal_approximation_audit,6,3,3,58.0,0.34641,0.0321,0.0,2.513,qr_least_squares,"Approximation metrics depend on subspace choice, scaling, rank tolerance, conditioning, solver method, residual interpretation, data provenance, and validation context."

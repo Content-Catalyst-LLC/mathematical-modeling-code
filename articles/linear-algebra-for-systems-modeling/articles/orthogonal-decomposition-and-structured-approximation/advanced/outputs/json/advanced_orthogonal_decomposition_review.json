@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define what modeled directions are included and what is excluded.",
+    "review_item": "subspace_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document basis construction, orthogonalization method, scaling, and centering.",
+    "review_item": "basis_construction",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether projection, QR, SVD, normal equations, or iterative methods are used.",
+    "review_item": "projection_method",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report algebraic rank, numerical rank, tolerance, and sensitivity to scaling.",
+    "review_item": "rank_tolerance",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report condition number and numerical stability risks.",
+    "review_item": "conditioning_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whether residuals indicate noise, omitted structure, nonlinear effects, outliers, or boundary failure.",
+    "review_item": "residual_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Connect approximation quality to the system question and downstream use.",
+    "review_item": "validation_context",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whose patterns, risks, or signals may be hidden by structured simplification.",
+    "review_item": "approximation_accountability",
+    "status": "recommended"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OrthogonalApproximationAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "rows",
+    "columns",
+    "numerical_rank",
+    "condition_number",
+    "residual_norm",
+    "relative_residual_norm",
+    "orthogonality_error",
+    "coefficient_norm",
+    "method",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "integer"
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "numerical_rank": {
+      "type": "integer"
+    },
+    "condition_number": {
+      "type": "number"
+    },
+    "residual_norm": {
+      "type": "number"
+    },
+    "relative_residual_norm": {
+      "type": "number"
+    },
+    "orthogonality_error": {
+      "type": "number"
+    },
+    "coefficient_norm": {
+      "type": "number"
+    },
+    "method": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

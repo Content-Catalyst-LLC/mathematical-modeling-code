@@ -1,0 +1,2 @@
+model_name,rows,columns,numerical_rank,condition_number,residual_norm,relative_residual_norm,orthogonality_error,coefficient_norm,method,interpretation_warning
+synthetic_orthogonal_approximation_audit,6,3,3,58.0,0.363115858636,0.03089257106,0.0,1.981794320839,modified_gram_schmidt_qr_least_squares,"Orthogonal approximation results depend on subspace choice, scaling, rank tolerance, conditioning, solver method, residual interpretation, data provenance, and validation context."

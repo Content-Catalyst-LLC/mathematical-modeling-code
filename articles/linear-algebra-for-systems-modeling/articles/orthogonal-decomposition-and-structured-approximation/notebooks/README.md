@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Orthogonal Decomposition and Structured Approximation** will live here.
+# Notebooks\n\nNotebook-ready workspace for orthogonal decomposition, structured approximation, projections, residual diagnostics, QR least squares, rank, conditioning, and approximation governance.\n

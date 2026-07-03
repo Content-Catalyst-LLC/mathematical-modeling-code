@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "subspace-choice",
+    "category": "model-design",
+    "governance_note": "Define which modeled directions count as structure.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Subspace Choice"
+  },
+  {
+    "card_id": "projection-residual",
+    "category": "linear-algebra",
+    "governance_note": "Separate fitted component from unexplained variation.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Projection and Residual"
+  },
+  {
+    "card_id": "qr-stability",
+    "category": "numerical-methods",
+    "governance_note": "Use orthogonal bases for stable least-squares recovery.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "QR Stability"
+  },
+  {
+    "card_id": "rank-conditioning",
+    "category": "diagnostics",
+    "governance_note": "Review numerical rank, sensitivity, and solver risk.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Rank and Conditioning"
+  },
+  {
+    "card_id": "approximation-governance",
+    "category": "interpretation",
+    "governance_note": "Document residual meaning, validation, and consequences of simplification.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Approximation Governance"
+  }
+]

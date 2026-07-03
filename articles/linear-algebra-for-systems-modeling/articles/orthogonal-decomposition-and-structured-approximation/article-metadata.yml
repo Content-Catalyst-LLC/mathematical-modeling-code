@@ -1,8 +1,7 @@
 actual_title: "Orthogonal Decomposition and Structured Approximation"
-suggested_seo_title: "Orthogonal Decomposition and Structured Approximation: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Orthogonal Decomposition and Structured Approximation: How Linear Algebra Separates Signal, Residuals, and Stable Structure"
+focus_keyword: "orthogonal decomposition and structured approximation"
 slug: "orthogonal-decomposition-and-structured-approximation"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/orthogonal-decomposition-and-structured-approximation"
 tags:
   - Linear Algebra
+  - Orthogonal Decomposition
+  - Structured Approximation
+  - Least Squares
+  - QR Decomposition
+  - Projection
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Orthogonal Decomposition and Structured Approximation is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "Orthogonal decomposition and structured approximation explain how complex systems can be separated into modeled components and residual variation. This article introduces orthogonal subspaces, projections, residuals, least-squares approximation, orthogonal bases, Gram-Schmidt orthogonalization, QR decomposition, normal equations, numerical stability, approximation error, rank, reduced models, signal extraction, noise separation, conditioning, residual diagnostics, model reduction, and the transition toward singular value decomposition. It shows how orthogonal decomposition supports overdetermined systems, infrastructure monitoring, economic approximation, environmental pattern extraction, public health modeling, machine learning feature stabilization, signal processing, and reduced simulation workflows. The article emphasizes that approximation requires clear subspace choices, scaling decisions, solver methods, rank tolerances, residual interpretation, conditioning review, validation context, and governance because structured simplification determines what patterns are represented, what variation is discarded, and what conclusions remain defensible."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

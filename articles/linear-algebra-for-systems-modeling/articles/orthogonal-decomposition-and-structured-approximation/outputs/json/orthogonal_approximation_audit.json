@@ -1,0 +1,13 @@
+{
+  "coefficient_norm": 1.981794320839,
+  "columns": 3,
+  "condition_number": 58.0,
+  "interpretation_warning": "Orthogonal approximation results depend on subspace choice, scaling, rank tolerance, conditioning, solver method, residual interpretation, data provenance, and validation context.",
+  "method": "modified_gram_schmidt_qr_least_squares",
+  "model_name": "synthetic_orthogonal_approximation_audit",
+  "numerical_rank": 3,
+  "orthogonality_error": 0.0,
+  "relative_residual_norm": 0.03089257106,
+  "residual_norm": 0.363115858636,
+  "rows": 6
+}
