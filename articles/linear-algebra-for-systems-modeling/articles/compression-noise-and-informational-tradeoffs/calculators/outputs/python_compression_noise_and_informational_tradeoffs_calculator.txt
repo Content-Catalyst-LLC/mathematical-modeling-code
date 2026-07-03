@@ -1,0 +1,16 @@
+{
+  "calculator": "compression_noise_and_informational_tradeoffs_calculator",
+  "columns": 6,
+  "compression_ratio": 1.6875,
+  "discarded_energy_ratio": 0.038,
+  "highest_residual_row": 8,
+  "maximum_row_residual": 1.43,
+  "method": "svd_low_rank_compression",
+  "model_name": "synthetic_compression_noise_audit",
+  "preprocessing": "centered_and_standardized",
+  "relative_reconstruction_error": 0.195,
+  "retained_energy_ratio": 0.962,
+  "retained_rank": 2,
+  "rows": 9,
+  "warning": "Compression metrics depend on original representation, preprocessing, retained rank, noise definition, reconstruction error, residual review, weak-signal analysis, and validation context."
+}

@@ -1,0 +1,16 @@
+{
+  "columns": 6,
+  "compression_ratio": 1.6875,
+  "discarded_energy_ratio": 0.019918730106,
+  "highest_residual_row": 8,
+  "interpretation_warning": "Compression preserves selected structure while losing or distorting other information. Retained rank, preprocessing, thresholds, residuals, and validation context should be documented.",
+  "maximum_row_residual": 1.43,
+  "method": "svd_low_rank_compression",
+  "model_name": "synthetic_compression_noise_audit",
+  "noise_warning": "Discarded components are not automatically noise. They may contain weak signals, localized structure, subgroup patterns, anomalies, or early warning behavior.",
+  "preprocessing": "centered_and_standardized",
+  "relative_reconstruction_error": 0.195,
+  "retained_energy_ratio": 0.980081269894,
+  "retained_rank": 2,
+  "rows": 9
+}

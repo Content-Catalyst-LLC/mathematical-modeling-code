@@ -1,10 +1,10 @@
 {
+  "article_slug": "compression-noise-and-informational-tradeoffs",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "compression-noise-and-informational-tradeoffs",
-  "title": "Compression, Noise, and Informational Tradeoffs",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "compression-noise-and-informational-tradeoffs",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "original-representation",
+      "title": "Original Representation",
+      "description": "Documents the full matrix, signal, feature table, field, or state representation."
+    },
+    {
+      "card_id": "retained-rank",
+      "title": "Retained Rank",
+      "description": "Documents the chosen number of components and rank sensitivity."
+    },
+    {
+      "card_id": "compression-ratio",
+      "title": "Compression Ratio",
+      "description": "Reports storage savings against retained structure and error."
+    },
+    {
+      "card_id": "residual-diagnostics",
+      "title": "Residual Diagnostics",
+      "description": "Reviews what compression failed to reconstruct."
+    },
+    {
+      "card_id": "weak-signal-review",
+      "title": "Weak-Signal Review",
+      "description": "Examines discarded components, rare events, and localized residuals before treating them as noise."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

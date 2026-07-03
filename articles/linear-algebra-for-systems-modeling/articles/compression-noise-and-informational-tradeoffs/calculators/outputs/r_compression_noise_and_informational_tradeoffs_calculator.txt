@@ -1,0 +1,12 @@
+                                                calculator
+1 compression_noise_and_informational_tradeoffs_calculator
+                         model_name rows columns                   method
+1 synthetic_compression_noise_audit    9       6 svd_low_rank_compression
+              preprocessing retained_rank retained_energy_ratio
+1 centered_and_standardized             2                 0.962
+  discarded_energy_ratio compression_ratio relative_reconstruction_error
+1                  0.038            1.6875                         0.195
+  maximum_row_residual highest_residual_row
+1                 1.43                    8
+                                                                                                                                                                                      warning
+1 Compression metrics depend on original representation, preprocessing, retained rank, noise definition, reconstruction error, residual review, weak-signal analysis, and validation context.

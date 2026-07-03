@@ -1,0 +1,9 @@
+review_item,status,governance_note
+original_representation,required,"Define the original matrix, signal, feature table, image, field, or state representation."
+preprocessing,required,"Document centering, scaling, normalization, transformations, filtering, and weighting."
+compression_method,required,State the compression method and what structure it is intended to preserve.
+retained_rank,required,"Report retained rank, threshold choice, retained energy, discarded energy, and sensitivity tests."
+noise_definition,required,Justify which variation is treated as noise or discardable residual.
+reconstruction_error,required,Report aggregate reconstruction error and localized residuals.
+weak_signal_review,required,"Examine discarded components, rare cases, localized residuals, and early warning signals."
+responsible_simplification,required,"Validate compressed representation against purpose, consequences, and accountability needs."

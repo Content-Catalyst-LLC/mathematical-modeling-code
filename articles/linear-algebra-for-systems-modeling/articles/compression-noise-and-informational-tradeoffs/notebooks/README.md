@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Compression, Noise, and Informational Tradeoffs** will live here.
+# Notebooks\n\nNotebook-ready workspace for compression, noise, informational tradeoffs, SVD compression, PCA compression, reconstruction error, residual diagnostics, weak-signal review, and compression governance.\n

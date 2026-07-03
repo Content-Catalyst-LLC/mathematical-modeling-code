@@ -1,0 +1,36 @@
+section                        
+-------------------------------
+COMPRESSION GOVERNANCE REGISTRY
+assumption_name             mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Compression method          Defines how the original representation is encoded approxima  Determines what structure is preserved.                       Different compression methods preserve different structure. 
+                            ted reconstructed or filtered.                                                                                                                                                          
+
+Noise definition            Defines which variation is treated as noise or discardable r  Determines what is suppressed or ignored.                     Discarded variation is not automatically noise.             
+                            esidual.                                                                                                                                                                                
+
+Original representation     Defines the original matrix signal feature table image field  Determines what compression can preserve or lose.             Compression is only as meaningful as the original representa
+                             or state representation.                                                                                                   tion.                                                       
+
+Preprocessing               Defines centering scaling normalization transformation filte  Determines which structure appears dominant or discardable.   Preprocessing choices can change compression results.       
+                            ring and weighting.                                                                                                                                                                     
+
+Reconstruction error        Measures how much original structure is not recovered by the  Supports fidelity review.                                     Aggregate error can hide localized loss.                    
+                             compressed representation.                                                                                                                                                             
+
+Residual review             Defines how lost or unexplained information is examined.      Supports discovery of weak signals anomalies omitted structu  Residuals should be reviewed before being dismissed.        
+                                                                                          re or subgroup mismatch.                                                                                                  
+
+Responsible simplification  Defines how compression is explained validated and governed.  Prevents compressed models from hiding consequential informa  Compression should clarify structure without concealing unce
+                                                                                          tion loss.                                                    rtainty or harm.                                            
+
+Retained rank               Defines how many components or directions are kept.           Controls compression ratio reconstruction error residuals an  Rank choice should be justified and sensitivity-tested.     
+                                                                                          d interpretability.                                                                                                       
+section                      
+-----------------------------
+COMPRESSION NOISE AUDIT CASES
+model_name                         rows  columns  method                    preprocessing              retained_rank  retained_energy_ratio  discarded_energy_ratio  compression_ratio  relative_reconstruction_error  maximum_row_residual  highest_residual_row  warning                                                     
+---------------------------------  ----  -------  ------------------------  -------------------------  -------------  ---------------------  ----------------------  -----------------  -----------------------------  --------------------  --------------------  ------------------------------------------------------------
+synthetic_compression_noise_audit  9     6        svd_low_rank_compression  centered_and_standardized  2              0.962                  0.038                   1.6875             0.195                          1.43                  8                     Discarded components are not automatically noise and may con
+                                                                                                                                                                                                                                                                   tain weak signals localized structure subgroup patterns anom
+                                                                                                                                                                                                                                                                   alies or early warning behavior.                            

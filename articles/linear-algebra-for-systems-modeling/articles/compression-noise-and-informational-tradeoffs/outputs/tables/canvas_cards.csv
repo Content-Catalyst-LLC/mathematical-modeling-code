@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+original-representation,Original Representation,model-design,97,active,2026-06-29,"Document the full matrix, signal, feature table, field, or state representation."
+retained-rank,Retained Rank,method-choice,96,active,2026-06-29,"Document retained rank, threshold choice, and rank sensitivity."
+compression-ratio,Compression Ratio,diagnostics,95,review,2026-06-29,Report storage savings against retained structure and error.
+residual-diagnostics,Residual Diagnostics,validation,94,review,2026-06-29,Review what compression failed to reconstruct.
+weak-signal-review,Weak-Signal Review,responsible-use,93,review,2026-06-29,"Examine discarded components, rare events, and localized residuals before treating them as noise."

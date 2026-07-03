@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define the original matrix, signal, feature table, image, field, or state representation.",
+    "review_item": "original_representation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document centering, scaling, normalization, transformations, filtering, and weighting.",
+    "review_item": "preprocessing",
+    "status": "required"
+  },
+  {
+    "governance_note": "State the compression method and what structure it is intended to preserve.",
+    "review_item": "compression_method",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report retained rank, threshold choice, retained energy, discarded energy, and sensitivity tests.",
+    "review_item": "retained_rank",
+    "status": "required"
+  },
+  {
+    "governance_note": "Justify which variation is treated as noise or discardable residual.",
+    "review_item": "noise_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report aggregate reconstruction error and localized residuals.",
+    "review_item": "reconstruction_error",
+    "status": "required"
+  },
+  {
+    "governance_note": "Examine discarded components, rare cases, localized residuals, and early warning signals.",
+    "review_item": "weak_signal_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Validate compressed representation against purpose, consequences, and accountability needs.",
+    "review_item": "responsible_simplification",
+    "status": "required"
+  }
+]

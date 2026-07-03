@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CompressionNoiseAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "rows",
+    "columns",
+    "method",
+    "preprocessing",
+    "retained_rank",
+    "retained_energy_ratio",
+    "discarded_energy_ratio",
+    "compression_ratio",
+    "relative_reconstruction_error",
+    "maximum_row_residual",
+    "highest_residual_row",
+    "noise_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "integer"
+    },
+    "columns": {
+      "type": "integer"
+    },
+    "method": {
+      "type": "string"
+    },
+    "preprocessing": {
+      "type": "string"
+    },
+    "retained_rank": {
+      "type": "integer"
+    },
+    "retained_energy_ratio": {
+      "type": "number"
+    },
+    "discarded_energy_ratio": {
+      "type": "number"
+    },
+    "compression_ratio": {
+      "type": "number"
+    },
+    "relative_reconstruction_error": {
+      "type": "number"
+    },
+    "maximum_row_residual": {
+      "type": "number"
+    },
+    "highest_residual_row": {
+      "type": "integer"
+    },
+    "noise_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

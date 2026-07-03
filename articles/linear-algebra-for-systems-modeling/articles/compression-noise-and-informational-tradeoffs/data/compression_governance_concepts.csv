@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+original_representation,Original representation,Defines original matrix signal feature table image field or state representation,Determines what compression can preserve or lose,Compression is only as meaningful as original representation
+preprocessing,Preprocessing,Defines centering scaling normalization transformation filtering and weighting,Determines which structure appears dominant or discardable,Preprocessing choices can change compression results
+compression_method,Compression method,Defines how original representation is encoded approximated reconstructed or filtered,Determines what structure is preserved,Different compression methods preserve different structure
+retained_rank,Retained rank,Defines how many components or directions are kept,Controls compression ratio reconstruction error residuals and interpretability,Rank choice should be justified and sensitivity tested
+noise_definition,Noise definition,Defines which variation is treated as noise or discardable residual,Determines what is suppressed or ignored,Discarded variation is not automatically noise
+reconstruction_error,Reconstruction error,Measures how much original structure is not recovered by compressed representation,Supports fidelity review,Aggregate error can hide localized loss
+residual_review,Residual review,Defines how lost or unexplained information is examined,Supports discovery of weak signals anomalies omitted structure or subgroup mismatch,Residuals should be reviewed before being dismissed
+responsible_simplification,Responsible simplification,Defines how compression is explained validated and governed,Prevents compressed models from hiding consequential information loss,Compression should clarify structure without concealing uncertainty or harm

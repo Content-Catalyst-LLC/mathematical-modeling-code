@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "original-representation",
+    "category": "model-design",
+    "governance_note": "Document the full matrix, signal, feature table, field, or state representation.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Original Representation"
+  },
+  {
+    "card_id": "retained-rank",
+    "category": "method-choice",
+    "governance_note": "Document retained rank, threshold choice, and rank sensitivity.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Retained Rank"
+  },
+  {
+    "card_id": "compression-ratio",
+    "category": "diagnostics",
+    "governance_note": "Report storage savings against retained structure and error.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Compression Ratio"
+  },
+  {
+    "card_id": "residual-diagnostics",
+    "category": "validation",
+    "governance_note": "Review what compression failed to reconstruct.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Residual Diagnostics"
+  },
+  {
+    "card_id": "weak-signal-review",
+    "category": "responsible-use",
+    "governance_note": "Examine discarded components, rare events, and localized residuals before treating them as noise.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Weak-Signal Review"
+  }
+]
