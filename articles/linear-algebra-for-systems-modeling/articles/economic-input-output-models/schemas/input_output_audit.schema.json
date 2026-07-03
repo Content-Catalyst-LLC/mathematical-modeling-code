@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InputOutputAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "sectors",
+    "method",
+    "coefficient_basis",
+    "condition_number",
+    "maximum_output_multiplier",
+    "highest_multiplier_sector",
+    "total_baseline_output",
+    "total_shock_output_change",
+    "total_emissions_for_final_demand",
+    "assumption_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "sectors": {
+      "type": "integer"
+    },
+    "method": {
+      "type": "string"
+    },
+    "coefficient_basis": {
+      "type": "string"
+    },
+    "condition_number": {
+      "type": "number"
+    },
+    "maximum_output_multiplier": {
+      "type": "number"
+    },
+    "highest_multiplier_sector": {
+      "type": "string"
+    },
+    "total_baseline_output": {
+      "type": "number"
+    },
+    "total_shock_output_change": {
+      "type": "number"
+    },
+    "total_emissions_for_final_demand": {
+      "type": "number"
+    },
+    "assumption_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

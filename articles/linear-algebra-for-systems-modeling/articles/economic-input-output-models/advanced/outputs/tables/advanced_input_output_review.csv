@@ -1,0 +1,9 @@
+review_item,status,governance_note
+sector_classification,required,"Define sector classification, aggregation level, region, year, and valuation basis."
+transactions_matrix,required,"Document orientation, source, accounting framework, imports, and suppressed or estimated cells."
+technical_coefficients,required,"Document coefficient construction, zero-output handling, and fixed-coefficient assumptions."
+leontief_system,required,"Check invertibility, condition number, productivity assumptions, and solver diagnostics."
+multiplier_interpretation,required,"Report multipliers as structured estimates under assumptions, not automatic causal proof."
+scenario_sensitivity,required,"Test final demand shocks, coefficient uncertainty, and aggregation/boundary changes."
+environmental_extension,required,"Document extension coefficients, units, allocation, provenance, and boundary assumptions."
+responsible_use,required,"Connect results to uncertainty, limitations, domain context, and decision consequences."

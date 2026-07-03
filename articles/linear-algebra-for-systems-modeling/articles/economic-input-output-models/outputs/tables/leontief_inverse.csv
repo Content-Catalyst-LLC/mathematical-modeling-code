@@ -1,0 +1,5 @@
+supplying_sector,energy,manufacturing,transport,services
+energy,1.132372,0.22015,0.164923,0.095996
+manufacturing,0.075636,1.154892,0.120293,0.111362
+transport,0.05547,0.105906,1.090101,0.081545
+services,0.094919,0.176084,0.119716,1.153297

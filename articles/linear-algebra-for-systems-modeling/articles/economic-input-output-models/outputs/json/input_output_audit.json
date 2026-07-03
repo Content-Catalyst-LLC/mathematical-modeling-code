@@ -1,0 +1,14 @@
+{
+  "assumption_warning": "The model assumes fixed technical coefficients, proportional production, no price response, no substitution, and no binding capacity constraints for the scenario.",
+  "coefficient_basis": "sector_input_per_unit_output",
+  "condition_number": 2.41,
+  "highest_multiplier_sector": "manufacturing",
+  "interpretation_warning": "Input-output multipliers are model-derived dependency estimates, not automatic causal proof. Sector aggregation, boundary choices, imports, data year, and coefficient uncertainty should be reviewed.",
+  "maximum_output_multiplier": 1.657032,
+  "method": "demand_driven_leontief_input_output_system",
+  "model_name": "synthetic_economic_input_output_audit",
+  "sectors": 4,
+  "total_baseline_output": 319.8,
+  "total_emissions_for_final_demand": 150.6,
+  "total_shock_output_change": 38.2008
+}

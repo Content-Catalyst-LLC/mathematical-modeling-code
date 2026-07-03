@@ -1,0 +1,12 @@
+                               calculator                            model_name
+1 economic_input_output_models_calculator synthetic_economic_input_output_audit
+  sectors                                     method
+1       4 demand_driven_leontief_input_output_system
+             coefficient_basis condition_number maximum_output_multiplier
+1 sector_input_per_unit_output             2.41                      1.47
+  highest_multiplier_sector total_baseline_output total_shock_output_change
+1             manufacturing                 319.8                      36.2
+  total_emissions_for_final_demand
+1                            150.6
+                                                                                                                                                                                                 warning
+1 Input-output metrics depend on sector classification, accounting boundary, coefficient construction, final demand scenario, environmental extensions, sensitivity testing, and interpretation context.

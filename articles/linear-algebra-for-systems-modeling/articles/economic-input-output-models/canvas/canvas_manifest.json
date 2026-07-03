@@ -1,10 +1,10 @@
 {
+  "article_slug": "economic-input-output-models",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "economic-input-output-models",
-  "title": "Economic Input-Output Models",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "economic-input-output-models",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "sector-classification",
+      "title": "Sector Classification",
+      "description": "Documents sector definitions, aggregation, region, valuation basis, and year."
+    },
+    {
+      "card_id": "technical-coefficients",
+      "title": "Technical Coefficients",
+      "description": "Builds direct requirements per unit of sector output."
+    },
+    {
+      "card_id": "leontief-system",
+      "title": "Leontief-Style System",
+      "description": "Solves net requirements for total output under demand scenarios."
+    },
+    {
+      "card_id": "multiplier-review",
+      "title": "Multiplier Review",
+      "description": "Reports output multipliers with interpretation warnings."
+    },
+    {
+      "card_id": "extension-governance",
+      "title": "Extension Governance",
+      "description": "Connects environmental or social extensions to boundary and coefficient assumptions."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

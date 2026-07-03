@@ -1,42 +1,22 @@
 # Economic Input-Output Models
 
-Companion code and reproducible workflows for **“Economic Input-Output Models”**.
+Companion code and reproducible workflows for **Economic Input-Output Models** in the **Linear Algebra for Systems Modeling** series.
 
-Status: **planned**.
+## Themes
 
-A study of intersectoral dependence and economic structure.
+- intersectoral transactions and transaction matrices
+- technical coefficients and direct requirements
+- final demand and total output vectors
+- Leontief-style systems and total requirements
+- output multipliers, demand shocks, and scenario analysis
+- supply-chain exposure and environmental extensions
+- sector classification, aggregation, boundaries, uncertainty, and responsible interpretation
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
-
-```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
-```
-
-## Run smoke checks
+## Run
 
 ```bash
 make smoke
+make all
+make calculators
+make advanced
 ```
-
-## Principle
-
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.

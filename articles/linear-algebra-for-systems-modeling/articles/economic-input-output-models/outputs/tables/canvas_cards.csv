@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+sector-classification,Sector Classification,model-design,97,active,2026-06-29,"Document sector definitions, aggregation, region, valuation basis, and year."
+technical-coefficients,Technical Coefficients,method-choice,96,active,2026-06-29,Build direct requirements per unit of sector output.
+leontief-system,Leontief-Style System,diagnostics,95,review,2026-06-29,Solve net requirements for total output under demand scenarios.
+multiplier-review,Multiplier Review,validation,94,review,2026-06-29,Report output multipliers with interpretation warnings.
+extension-governance,Extension Governance,responsible-use,93,review,2026-06-29,Connect environmental or social extensions to boundary and coefficient assumptions.

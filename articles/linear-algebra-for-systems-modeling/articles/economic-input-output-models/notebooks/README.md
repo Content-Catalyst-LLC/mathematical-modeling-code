@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Economic Input-Output Models** will live here.
+# Notebooks\n\nNotebook-ready workspace for economic input-output models, technical coefficients, Leontief-style systems, multipliers, demand shocks, environmental extensions, and governance diagnostics.\n

@@ -1,0 +1,35 @@
+section                         
+--------------------------------
+INPUT OUTPUT GOVERNANCE REGISTRY
+assumption_name            mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Environmental extension    Applies emissions energy water material labor or other coeff  Connects final demand to indirect environmental or social im  Extension coefficients require unit boundary allocation and 
+                           icients to output requirements.                               pacts.                                                        provenance review.                                          
+
+Final demand               Defines the exogenous demand vector applied to the productio  Drives total output requirements through direct and indirect  Scenario results depend strongly on demand definition and bo
+                           n system.                                                      effects.                                                     undary.                                                     
+
+Leontief inverse           Solves total requirements through the matrix inverse of net   Captures direct and indirect production requirements.         Invertibility conditioning and productivity assumptions shou
+                           requirements.                                                                                                               ld be reviewed.                                             
+
+Multiplier interpretation  Summarizes total requirements or extensions per unit of fina  Supports compact reporting of system dependence.              Multipliers are estimates under assumptions not automatic ca
+                           l demand.                                                                                                                   usal proof.                                                 
+
+Responsible use            Defines how assumptions uncertainty sensitivity and limitati  Prevents sector dependency estimates from being overstated.   Input-output models should support structured interpretation
+                           ons are documented.                                                                                                          not replace domain judgment.                               
+
+Sector classification      Defines rows and columns of the input-output system.          Determines which production relationships are visible.        Aggregation can hide critical dependencies bottlenecks or he
+                                                                                                                                                       terogeneous activities.                                     
+
+Technical coefficients     Normalize intersectoral flows by sector output.               Define direct input requirements per unit of output.          Coefficients assume stable production recipes over the scena
+                                                                                                                                                       rio.                                                        
+
+Transactions matrix        Records intersectoral flows from supplying sectors to using   Defines the empirical structure of production interdependenc  Transaction values depend on data source accounting framewor
+                           sectors.                                                      e.                                                            k year valuation basis and boundary.                        
+section                 
+------------------------
+INPUT OUTPUT AUDIT CASES
+model_name                             sectors  method                                      coefficient_basis             condition_number  maximum_output_multiplier  highest_multiplier_sector  total_baseline_output  total_shock_output_change  total_emissions_for_final_demand  warning                                                     
+-------------------------------------  -------  ------------------------------------------  ----------------------------  ----------------  -------------------------  -------------------------  ---------------------  -------------------------  --------------------------------  ------------------------------------------------------------
+synthetic_economic_input_output_audit  4        demand_driven_leontief_input_output_system  sector_input_per_unit_output  2.41              1.47                       manufacturing              319.8                  36.2                       150.6                             Input-output multipliers are model-derived dependency estima
+                                                                                                                                                                                                                                                                                      tes not automatic causal proof.                             

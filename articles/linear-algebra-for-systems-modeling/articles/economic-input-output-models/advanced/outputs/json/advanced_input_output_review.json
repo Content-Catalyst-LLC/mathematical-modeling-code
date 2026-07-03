@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define sector classification, aggregation level, region, year, and valuation basis.",
+    "review_item": "sector_classification",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document orientation, source, accounting framework, imports, and suppressed or estimated cells.",
+    "review_item": "transactions_matrix",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document coefficient construction, zero-output handling, and fixed-coefficient assumptions.",
+    "review_item": "technical_coefficients",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check invertibility, condition number, productivity assumptions, and solver diagnostics.",
+    "review_item": "leontief_system",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report multipliers as structured estimates under assumptions, not automatic causal proof.",
+    "review_item": "multiplier_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Test final demand shocks, coefficient uncertainty, and aggregation/boundary changes.",
+    "review_item": "scenario_sensitivity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document extension coefficients, units, allocation, provenance, and boundary assumptions.",
+    "review_item": "environmental_extension",
+    "status": "required"
+  },
+  {
+    "governance_note": "Connect results to uncertainty, limitations, domain context, and decision consequences.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]

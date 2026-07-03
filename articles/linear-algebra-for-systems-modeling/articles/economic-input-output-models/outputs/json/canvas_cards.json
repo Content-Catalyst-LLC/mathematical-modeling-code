@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "sector-classification",
+    "category": "model-design",
+    "governance_note": "Document sector definitions, aggregation, region, valuation basis, and year.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Sector Classification"
+  },
+  {
+    "card_id": "technical-coefficients",
+    "category": "method-choice",
+    "governance_note": "Build direct requirements per unit of sector output.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Technical Coefficients"
+  },
+  {
+    "card_id": "leontief-system",
+    "category": "diagnostics",
+    "governance_note": "Solve net requirements for total output under demand scenarios.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Leontief-Style System"
+  },
+  {
+    "card_id": "multiplier-review",
+    "category": "validation",
+    "governance_note": "Report output multipliers with interpretation warnings.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Multiplier Review"
+  },
+  {
+    "card_id": "extension-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect environmental or social extensions to boundary and coefficient assumptions.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Extension Governance"
+  }
+]
