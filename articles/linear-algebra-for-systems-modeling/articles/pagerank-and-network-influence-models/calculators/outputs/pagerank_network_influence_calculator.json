@@ -1,0 +1,12 @@
+{
+  "calculator": "pagerank_network_influence_calculator",
+  "converged": true,
+  "damping_factor": 0.85,
+  "dangling_node_count": 0,
+  "edge_count": 8,
+  "graph_name": "synthetic_directed_network_influence_model",
+  "node_count": 5,
+  "rank_sum": 1.0,
+  "tolerance": 1e-10,
+  "warning": "PageRank metrics depend on node definitions, directed-edge meaning, transition normalization, damping, teleportation, convergence, and data provenance."
+}

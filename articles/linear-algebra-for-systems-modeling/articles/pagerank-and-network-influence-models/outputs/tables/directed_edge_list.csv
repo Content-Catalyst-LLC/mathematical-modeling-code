@@ -1,0 +1,9 @@
+source,target
+water,power
+power,transport
+power,communications
+transport,communications
+communications,health
+health,water
+transport,water
+communications,power

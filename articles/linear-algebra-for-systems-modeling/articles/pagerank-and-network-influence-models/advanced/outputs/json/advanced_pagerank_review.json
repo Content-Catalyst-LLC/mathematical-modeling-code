@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define ranked entities and graph boundary.",
+    "review_item": "node_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether links represent citation, endorsement, dependence, exposure, attention, or flow.",
+    "review_item": "directed_edge_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "State row or column stochastic convention and normalization rule.",
+    "review_item": "transition_normalization",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define redistribution rule for nodes with no outgoing links.",
+    "review_item": "dangling_node_handling",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document damping factor and teleportation or personalization vector.",
+    "review_item": "damping_teleportation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report tolerance, iteration count, residuals, and convergence status.",
+    "review_item": "convergence_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Test edge perturbations, weight perturbations, damping changes, and graph-boundary alternatives.",
+    "review_item": "sensitivity_testing",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Review manipulation incentives, feedback loops, provenance, and interpretive limits.",
+    "review_item": "ranking_governance",
+    "status": "required"
+  }
+]

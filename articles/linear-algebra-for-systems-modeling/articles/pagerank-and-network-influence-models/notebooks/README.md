@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **PageRank and Network Influence Models** will live here.
+# Notebooks\n\nNotebook-ready workspace for PageRank, directed network influence, stochastic matrices, convergence diagnostics, sparse computation, and ranking governance.\n

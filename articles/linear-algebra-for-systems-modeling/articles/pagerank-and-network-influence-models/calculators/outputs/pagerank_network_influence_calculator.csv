@@ -1,0 +1,2 @@
+calculator,graph_name,node_count,edge_count,damping_factor,tolerance,converged,rank_sum,dangling_node_count,warning
+pagerank_network_influence_calculator,synthetic_directed_network_influence_model,5,8,0.85,1e-10,True,1.0,0,"PageRank metrics depend on node definitions, directed-edge meaning, transition normalization, damping, teleportation, convergence, and data provenance."

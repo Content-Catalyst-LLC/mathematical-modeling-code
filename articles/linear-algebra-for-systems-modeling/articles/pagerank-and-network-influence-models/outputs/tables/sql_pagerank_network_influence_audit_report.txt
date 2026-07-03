@@ -1,0 +1,34 @@
+section                   
+--------------------------
+NETWORK INFLUENCE REGISTRY
+assumption_name           mathematical_role                                             systems_modeling_role                                         review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Convergence tolerance     Defines stopping rule for power iteration.                    Determines numerical reliability of ranking output.           Small score differences may not be meaningful without conver
+                                                                                                                                                      gence review.                                               
+
+Damping factor            Controls the balance between link-following and teleportatio  Determines how strongly network structure governs rank.       The damping value is a modeling assumption not a neutral con
+                          n.                                                                                                                          stant.                                                      
+
+Dangling-node handling    Defines redistribution for nodes with no outgoing links.      Prevents rank from leaking or becoming trapped.               Different redistribution rules can change scores.           
+
+Directed edge meaning     Defines what directed links represent.                        Determines whether rank means attention authority dependence  Reversing edge direction can reverse substantive interpretat
+                                                                                         exposure or flow.                                            ion.                                                        
+
+Node definition           Defines the entities ranked by the PageRank vector.           Determines what influence scores can mean.                    Changing node definitions can change the ranking.           
+
+Ranking governance        Defines how rank scores should be interpreted and used.       Determines accountability for downstream decisions.           Ranking models can create feedback manipulation incentives a
+                                                                                                                                                      nd concentration effects.                                   
+
+Teleportation vector      Defines restart distribution.                                 Represents background attention personalization or topic sen  Teleportation choices encode value and scope assumptions.   
+                                                                                        sitivity.                                                                                                                 
+
+Transition normalization  Converts directed adjacency into a stochastic matrix.         Determines how rank is distributed across outgoing links.     Normalization changes raw link structure into probabilistic 
+                                                                                                                                                      movement.                                                   
+section             
+--------------------
+PAGERANK AUDIT CASES
+graph_name                                  node_count  edge_count  damping_factor  tolerance  converged  rank_sum  dangling_node_count  warning                                                     
+------------------------------------------  ----------  ----------  --------------  ---------  ---------  --------  -------------------  ------------------------------------------------------------
+synthetic_directed_network_influence_model  5           8           0.85            1.0e-10    1          1.0       0                    PageRank scores require node definitions directed-edge meani
+                                                                                                                                         ng normalization dangling-node handling damping teleportatio
+                                                                                                                                         n convergence graph boundary and provenance review.         

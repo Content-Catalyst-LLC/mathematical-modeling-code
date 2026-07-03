@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+directed-influence,Directed Influence,model-design,97,active,2026-06-29,Document directed-edge meaning and influence-flow interpretation.
+transition-normalization,Transition Normalization,matrix-semantics,96,active,2026-06-29,Build stochastic matrices from directed graph structure.
+damping-teleportation,Damping and Teleportation,ranking-model,95,review,2026-06-29,"Review damping factor, restart vector, and stability assumptions."
+convergence-diagnostics,Convergence Diagnostics,scientific-computing,94,review,2026-06-29,Track power iteration residuals and stopping rules.
+ranking-governance,Ranking Governance,interpretation,93,review,2026-06-29,"Review sensitivity, manipulation, feedback, provenance, and interpretation."

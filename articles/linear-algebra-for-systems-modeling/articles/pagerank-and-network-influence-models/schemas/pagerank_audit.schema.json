@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PageRankAudit",
+  "type": "object",
+  "required": [
+    "graph_name",
+    "node_count",
+    "edge_count",
+    "damping_factor",
+    "tolerance",
+    "iterations",
+    "converged",
+    "max_rank_node",
+    "max_rank_score",
+    "min_rank_node",
+    "min_rank_score",
+    "rank_sum",
+    "dangling_node_count",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "graph_name": {
+      "type": "string"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "edge_count": {
+      "type": "integer"
+    },
+    "damping_factor": {
+      "type": "number"
+    },
+    "tolerance": {
+      "type": "number"
+    },
+    "iterations": {
+      "type": "integer"
+    },
+    "converged": {
+      "type": "boolean"
+    },
+    "max_rank_node": {
+      "type": "string"
+    },
+    "max_rank_score": {
+      "type": "number"
+    },
+    "min_rank_node": {
+      "type": "string"
+    },
+    "min_rank_score": {
+      "type": "number"
+    },
+    "rank_sum": {
+      "type": "number"
+    },
+    "dangling_node_count": {
+      "type": "integer"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
+  "article_slug": "pagerank-and-network-influence-models",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "pagerank-and-network-influence-models",
-  "title": "PageRank and Network Influence Models",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "pagerank-and-network-influence-models",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "directed-influence",
+      "title": "Directed Influence",
+      "description": "Documents directed-edge meaning and influence-flow interpretation."
+    },
+    {
+      "card_id": "transition-normalization",
+      "title": "Transition Normalization",
+      "description": "Builds stochastic matrices from directed graph structure."
+    },
+    {
+      "card_id": "damping-teleportation",
+      "title": "Damping and Teleportation",
+      "description": "Reviews damping factor, restart vector, and stability assumptions."
+    },
+    {
+      "card_id": "convergence-diagnostics",
+      "title": "Convergence Diagnostics",
+      "description": "Tracks power iteration residuals and stopping rules."
+    },
+    {
+      "card_id": "ranking-governance",
+      "title": "Ranking Governance",
+      "description": "Reviews sensitivity, manipulation, feedback, provenance, and interpretation."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

@@ -1,8 +1,7 @@
 actual_title: "PageRank and Network Influence Models"
-suggested_seo_title: "PageRank and Network Influence Models: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "PageRank and Network Influence Models: How Linear Algebra Ranks Directed Networks"
+focus_keyword: "PageRank and network influence models"
 slug: "pagerank-and-network-influence-models"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/pagerank-and-network-influence-models"
 tags:
   - Linear Algebra
-  - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
+  - PageRank
+  - Network Influence
+  - Markov Chains
+  - Stochastic Matrices
+  - Eigenvectors
+  - Network Modeling
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "PageRank and Network Influence Models is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+excerpt_139_words: "PageRank and network influence models explain how importance can emerge from directed relationships. This article introduces directed graphs, adjacency matrices, stochastic matrices, Markov chains, random walks, stationary distributions, eigenvectors, damping, teleportation, dangling nodes, sink components, degree centrality, eigenvector centrality, personalized PageRank, weighted influence, convergence diagnostics, power iteration, sparse computation, sensitivity analysis, manipulation risk, feedback loops, and ranking governance. It shows how PageRank-style models support analysis of citation networks, knowledge systems, infrastructure dependencies, supply-chain exposure, transportation networks, financial exposure, recommendation systems, and digital platforms. The article emphasizes that network influence scores require clear node definitions, directed-edge meanings, normalization rules, damping choices, teleportation assumptions, dangling-node handling, convergence review, perturbation testing, data provenance, and responsible interpretation because rank is a model-specific structural score, not automatic truth, merit, authority, or value."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

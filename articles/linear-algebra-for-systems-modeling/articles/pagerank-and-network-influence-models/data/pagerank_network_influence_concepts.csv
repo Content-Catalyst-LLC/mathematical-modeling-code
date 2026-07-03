@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+directed_edge,Directed edge,Defines source-target relationship,Represents citation link dependence exposure or flow,Direction convention determines ranking meaning
+stochastic_matrix,Stochastic matrix,Normalizes link structure into transition probabilities,Represents movement of attention or influence,Row versus column convention must be documented
+stationary_distribution,Stationary distribution,Defines stable long-run rank vector,Represents equilibrium influence under model assumptions,Stationarity is model-specific not inherent importance
+damping_factor,Damping factor,Mixes link following with teleportation,Controls strength of network structure in rank,Damping choice changes rank distribution
+teleportation_vector,Teleportation vector,Defines restart distribution,Represents background attention personalization or topic sensitivity,Teleportation encodes scope and value assumptions
+dangling_node,Dangling node,Node with no outgoing links,Requires redistribution to avoid rank leakage,Redistribution rules affect scores
+convergence,Convergence,Tracks rank iteration stability,Supports numerical audit and reproducibility,Small score differences may be meaningless without residual checks
+ranking_governance,Ranking governance,Defines responsible use of scores,Connects rank outputs to accountability and interpretation,Rank is not automatic truth merit authority or value

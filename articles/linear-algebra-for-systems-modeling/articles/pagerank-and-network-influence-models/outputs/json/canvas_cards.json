@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "directed-influence",
+    "category": "model-design",
+    "governance_note": "Document directed-edge meaning and influence-flow interpretation.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Directed Influence"
+  },
+  {
+    "card_id": "transition-normalization",
+    "category": "matrix-semantics",
+    "governance_note": "Build stochastic matrices from directed graph structure.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Transition Normalization"
+  },
+  {
+    "card_id": "damping-teleportation",
+    "category": "ranking-model",
+    "governance_note": "Review damping factor, restart vector, and stability assumptions.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Damping and Teleportation"
+  },
+  {
+    "card_id": "convergence-diagnostics",
+    "category": "scientific-computing",
+    "governance_note": "Track power iteration residuals and stopping rules.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Convergence Diagnostics"
+  },
+  {
+    "card_id": "ranking-governance",
+    "category": "interpretation",
+    "governance_note": "Review sensitivity, manipulation, feedback, provenance, and interpretation.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Ranking Governance"
+  }
+]

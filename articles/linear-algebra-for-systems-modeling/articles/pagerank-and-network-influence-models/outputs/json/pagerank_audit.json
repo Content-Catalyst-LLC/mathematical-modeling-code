@@ -1,0 +1,16 @@
+{
+  "converged": true,
+  "damping_factor": 0.85,
+  "dangling_node_count": 0,
+  "edge_count": 8,
+  "graph_name": "synthetic_directed_network_influence_model",
+  "interpretation_warning": "PageRank scores depend on node definitions, directed-edge meaning, transition normalization, dangling-node handling, damping factor, teleportation vector, convergence tolerance, graph boundary, and data provenance. Rank is a model-specific influence score, not automatic importance.",
+  "iterations": 35,
+  "max_rank_node": "power",
+  "max_rank_score": 0.295966773447,
+  "min_rank_node": "health",
+  "min_rank_score": 0.12434782281,
+  "node_count": 5,
+  "rank_sum": 1.0,
+  "tolerance": 1e-10
+}
