@@ -1,0 +1,32 @@
+section              
+---------------------
+NETWORK FLOW REGISTRY
+assumption_name             mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Capacity definition         Defines upper bounds on edge flow.                            Represents physical operational regulatory or institutional   Capacities may vary over time and may be uncertain.         
+                                                                                          limits.                                                                                                                   
+
+Conservation assumption     Defines node-balance constraints.                             Determines whether intermediate nodes preserve store lose or  Simple conservation can be wrong for systems with storage lo
+                                                                                           transform flow.                                              ss queues or delay.                                         
+
+Cost semantics              Defines objective coefficients for costed flow.               Determines whether optimization minimizes distance time mone  Mixed or unclear costs can produce misleading optimal routes
+                                                                                          y risk emissions or loss.                                     .                                                           
+
+Cut interpretation          Defines what source-sink partitions mean.                     Supports bottleneck and vulnerability analysis.               A minimum cut is a model-based bottleneck not automatically 
+                                                                                                                                                        a policy priority.                                          
+
+Flow quantity               Defines what the edge-flow variables measure.                 Determines whether flow represents vehicles goods water powe  Flow units and time scale must be documented.               
+                                                                                          r data patients money or services.                                                                                        
+
+Sensitivity review          Tests how flows change under capacity cost demand and edge p  Assesses robustness of capacity and bottleneck conclusions.   Optimal flows can be fragile under uncertainty.             
+                            erturbations.                                                                                                                                                                           
+
+Source and sink definition  Defines where flow enters and leaves the network.             Determines the meaning of throughput demand and supply.       Changing sources or sinks changes the problem.              
+section                 
+------------------------
+NETWORK FLOW AUDIT CASES
+graph_name                          node_count  edge_count  source_node  sink_node  total_source_outflow  total_sink_inflow  capacity_violations  saturated_edge_count  total_flow_cost  warning                                                     
+----------------------------------  ----------  ----------  -----------  ---------  --------------------  -----------------  -------------------  --------------------  ---------------  ------------------------------------------------------------
+synthetic_capacitated_flow_network  5           6           source       sink       16.0                  16.0               0                    2                     82.0             Network flow results depend on node definitions edge definit
+                                                                                                                                                                                         ions capacities costs conservation source sink time scale un
+                                                                                                                                                                                         certainty and provenance.                                   

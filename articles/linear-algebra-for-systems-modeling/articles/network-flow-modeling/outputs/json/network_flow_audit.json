@@ -1,0 +1,14 @@
+{
+  "capacity_violations": 0,
+  "edge_count": 6,
+  "graph_name": "synthetic_capacitated_flow_network",
+  "interpretation_warning": "Network flow results depend on node definitions, edge definitions, capacity units, flow units, cost semantics, source-sink choices, conservation assumptions, time scale, solver settings, uncertainty, and data provenance.",
+  "max_absolute_transshipment_imbalance": 0.0,
+  "node_count": 5,
+  "saturated_edge_count": 2,
+  "sink_node": "sink",
+  "source_node": "source",
+  "total_flow_cost": 84.0,
+  "total_sink_inflow": 16.0,
+  "total_source_outflow": 16.0
+}

@@ -1,42 +1,28 @@
 # Network Flow Modeling
 
-Companion code and reproducible workflows for **“Network Flow Modeling”**.
+Companion code and reproducible workflows for **Network Flow Modeling** in the **Linear Algebra for Systems Modeling** series.
 
-Status: **planned**.
+## Themes
 
-A treatment of capacity, flow, conservation, and constraints in networks.
+- directed flow networks
+- sources, sinks, and transshipment nodes
+- edge flows, capacities, costs, and slack
+- flow conservation and node-balance equations
+- incidence matrices
+- maximum flow and minimum cut
+- residual networks and augmenting paths
+- minimum-cost flow
+- shortest paths as flow problems
+- multi-commodity flow
+- linear-programming formulation
+- sparse computation
+- flow governance and sensitivity review
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
-
-```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
-```
-
-## Run smoke checks
+## Run
 
 ```bash
 make smoke
+make all
+make calculators
+make advanced
 ```
-
-## Principle
-
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.

@@ -1,0 +1,10 @@
+                        calculator                         graph_name
+1 network_flow_modeling_calculator synthetic_capacitated_flow_network
+  node_count edge_count source_node sink_node total_source_outflow
+1          5          6      source      sink                   16
+  total_sink_inflow capacity_violations saturated_edge_count
+1                16                   0                    2
+  max_absolute_transshipment_imbalance total_flow_cost
+1                                    0              82
+                                                                                                                                        warning
+1 Network flow metrics depend on flow units, capacities, costs, conservation assumptions, source-sink choices, time scale, and data provenance.

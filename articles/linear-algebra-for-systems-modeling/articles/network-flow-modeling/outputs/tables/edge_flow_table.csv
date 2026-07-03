@@ -1,0 +1,7 @@
+source,target,capacity,cost,flow,slack,saturated
+source,north_hub,12.0,2.0,10.0,2.0,False
+source,south_hub,8.0,3.0,6.0,2.0,False
+north_hub,transfer,7.0,1.0,6.0,1.0,False
+north_hub,sink,5.0,4.0,4.0,1.0,False
+south_hub,transfer,6.0,2.0,6.0,0.0,True
+transfer,sink,12.0,1.0,12.0,0.0,True

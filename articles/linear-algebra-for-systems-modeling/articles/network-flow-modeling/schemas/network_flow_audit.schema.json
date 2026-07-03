@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NetworkFlowAudit",
+  "type": "object",
+  "required": [
+    "graph_name",
+    "node_count",
+    "edge_count",
+    "source_node",
+    "sink_node",
+    "total_source_outflow",
+    "total_sink_inflow",
+    "capacity_violations",
+    "saturated_edge_count",
+    "max_absolute_transshipment_imbalance",
+    "total_flow_cost",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "graph_name": {
+      "type": "string"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "edge_count": {
+      "type": "integer"
+    },
+    "source_node": {
+      "type": "string"
+    },
+    "sink_node": {
+      "type": "string"
+    },
+    "total_source_outflow": {
+      "type": "number"
+    },
+    "total_sink_inflow": {
+      "type": "number"
+    },
+    "capacity_violations": {
+      "type": "integer"
+    },
+    "saturated_edge_count": {
+      "type": "integer"
+    },
+    "max_absolute_transshipment_imbalance": {
+      "type": "number"
+    },
+    "total_flow_cost": {
+      "type": "number"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

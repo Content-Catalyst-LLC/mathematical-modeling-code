@@ -1,10 +1,10 @@
 {
+  "article_slug": "network-flow-modeling",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "network-flow-modeling",
-  "title": "Network Flow Modeling",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "network-flow-modeling",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "flow-definition",
+      "title": "Flow Definition",
+      "description": "Defines what moves, with units and time scale."
+    },
+    {
+      "card_id": "capacity-bounds",
+      "title": "Capacity Bounds",
+      "description": "Reviews edge capacity, slack, saturation, and violations."
+    },
+    {
+      "card_id": "node-balance",
+      "title": "Node Balance",
+      "description": "Checks source, sink, transshipment, conservation, storage, and loss assumptions."
+    },
+    {
+      "card_id": "cut-bottleneck",
+      "title": "Cut and Bottleneck",
+      "description": "Identifies capacity-limiting partitions and vulnerability surfaces."
+    },
+    {
+      "card_id": "flow-governance",
+      "title": "Flow Governance",
+      "description": "Reviews costs, uncertainty, solver choices, equity, access, and burden tradeoffs."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

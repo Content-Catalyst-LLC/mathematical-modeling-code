@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+flow-definition,Flow Definition,model-design,97,active,2026-06-29,"Define what moves, with units and time scale."
+capacity-bounds,Capacity Bounds,network-diagnostics,96,active,2026-06-29,"Review edge capacity, slack, saturation, and violations."
+node-balance,Node Balance,linear-algebra,95,review,2026-06-29,"Check source, sink, transshipment, conservation, storage, and loss assumptions."
+cut-bottleneck,Cut and Bottleneck,optimization,94,review,2026-06-29,Identify capacity-limiting partitions and vulnerability surfaces.
+flow-governance,Flow Governance,interpretation,93,review,2026-06-29,"Review costs, uncertainty, solver choices, equity, access, and burden tradeoffs."

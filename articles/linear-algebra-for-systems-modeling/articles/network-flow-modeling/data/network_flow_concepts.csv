@@ -1,0 +1,9 @@
+concept_key,concept_name,formal_role,systems_modeling_role,review_warning
+flow_quantity,Flow quantity,Defines edge-flow variable,Represents vehicles goods water power data patients money or services,Flow units and time scale must be documented
+source,Source,Node with net outflow,Represents supply origin generator reservoir warehouse or sender,Changing source changes the problem
+sink,Sink,Node with net inflow,Represents demand destination load receiver or consumption,Changing sink changes throughput meaning
+capacity,Capacity,Upper bound on edge flow,Represents physical operational regulatory or institutional limit,Capacity may be uncertain or time-varying
+conservation,Flow conservation,Node-balance constraint,Represents pass-through at intermediate nodes,Storage loss queues and transformation require explicit modeling
+minimum_cut,Minimum cut,Source-sink separating capacity,Represents bottleneck or vulnerability surface,Cut interpretation depends on graph boundary and capacity definition
+minimum_cost_flow,Minimum-cost flow,Optimization objective with capacity and balance constraints,Represents costed routing or allocation,Cost semantics must be consistent and justified
+sensitivity,Sensitivity review,Tests perturbations,Assesses robustness of flow and bottleneck conclusions,Optimal flows can be fragile under uncertainty

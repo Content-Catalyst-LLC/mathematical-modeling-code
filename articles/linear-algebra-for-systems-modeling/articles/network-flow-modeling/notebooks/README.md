@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Network Flow Modeling** will live here.
+# Notebooks\n\nNotebook-ready workspace for network flow modeling, capacity constraints, node balances, cuts, bottlenecks, costed flow, sparse computation, and flow governance.\n

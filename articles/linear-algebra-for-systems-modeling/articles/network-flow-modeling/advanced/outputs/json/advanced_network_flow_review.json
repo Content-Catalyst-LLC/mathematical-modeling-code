@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Define what moves, with units and time scale.",
+    "review_item": "flow_quantity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document supply, demand, source, sink, and boundary choices.",
+    "review_item": "source_sink_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define edge capacities and review uncertainty or time variation.",
+    "review_item": "capacity_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether nodes conserve, store, lose, transform, queue, or delay flow.",
+    "review_item": "conservation_assumption",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether costs mean distance, time, money, risk, emissions, or loss.",
+    "review_item": "cost_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review cuts, saturated edges, bottlenecks, and vulnerability surfaces.",
+    "review_item": "cut_bottleneck_review",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Test capacity, cost, demand, boundary, and edge-failure perturbations.",
+    "review_item": "sensitivity_testing",
+    "status": "recommended"
+  },
+  {
+    "governance_note": "Review who benefits from or bears access, delay, cost, and vulnerability tradeoffs.",
+    "review_item": "equity_and_burden",
+    "status": "required"
+  }
+]

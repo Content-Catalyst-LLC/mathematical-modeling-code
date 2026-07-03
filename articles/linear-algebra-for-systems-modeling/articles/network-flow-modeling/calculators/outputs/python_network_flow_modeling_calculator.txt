@@ -1,0 +1,15 @@
+{
+  "calculator": "network_flow_modeling_calculator",
+  "capacity_violations": 0,
+  "edge_count": 6,
+  "graph_name": "synthetic_capacitated_flow_network",
+  "max_absolute_transshipment_imbalance": 0.0,
+  "node_count": 5,
+  "saturated_edge_count": 2,
+  "sink_node": "sink",
+  "source_node": "source",
+  "total_flow_cost": 82.0,
+  "total_sink_inflow": 16.0,
+  "total_source_outflow": 16.0,
+  "warning": "Network flow metrics depend on flow units, capacities, costs, conservation assumptions, source-sink choices, time scale, and data provenance."
+}
