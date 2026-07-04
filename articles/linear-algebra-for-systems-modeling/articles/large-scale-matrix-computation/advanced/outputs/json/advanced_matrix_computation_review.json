@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Report rows, columns, state dimension, feature dimension, constraint count, and operation scale.",
+    "review_item": "matrix_shape",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document dense, sparse, block, distributed, streamed, or matrix-free representation.",
+    "review_item": "storage_format",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report nonzero count, density, locality, block structure, and whether zeros have system meaning.",
+    "review_item": "sparsity_pattern",
+    "status": "required"
+  },
+  {
+    "governance_note": "State direct, iterative, randomized, low-rank, or matrix-free method and why it matches the problem.",
+    "review_item": "solver_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report residual norms, tolerances, iteration count, and stopping rules.",
+    "review_item": "convergence_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review conditioning, scaling, numerical precision, roundoff risk, and stability.",
+    "review_item": "conditioning_precision",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document randomized sketches, truncated decompositions, sampling, compression, and approximation error.",
+    "review_item": "approximation_method",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret large-scale outputs through assumptions, diagnostics, validation, and model limits.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]

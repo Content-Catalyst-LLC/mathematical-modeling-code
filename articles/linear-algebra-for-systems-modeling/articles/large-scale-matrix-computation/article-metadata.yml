@@ -1,8 +1,7 @@
 actual_title: "Large-Scale Matrix Computation"
-suggested_seo_title: "Large-Scale Matrix Computation: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Large-Scale Matrix Computation: How Linear Algebra Scales Structure, Solvers, and Scientific Computing"
+focus_keyword: "large-scale matrix computation"
 slug: "large-scale-matrix-computation"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/large-scale-matrix-computation"
 tags:
   - Linear Algebra
-  - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
+  - Large-Scale Matrix Computation
+  - Sparse Matrices
+  - Iterative Solvers
+  - Numerical Stability
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Large-Scale Matrix Computation is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Systems Modeling
+  - Matrix Computation
+excerpt_139_words: "Large-scale matrix computation explains how linear algebra becomes practical when matrices are too large, dense, sparse, distributed, ill-conditioned, or computationally expensive for simple methods. This article introduces matrix size, computational complexity, memory layout, data movement, dense and sparse storage, matrix-vector products, matrix-matrix products, direct methods, LU factorization, QR factorization, Cholesky decomposition, iterative solvers, Krylov methods, residual norms, preconditioning, eigenvalue computation, truncated SVD, randomized linear algebra, matrix-free computation, parallel computing, distributed computation, numerical precision, conditioning, stability, and interpretation governance. It shows how large-scale matrix computation supports climate modeling, infrastructure networks, machine learning pipelines, optimization, public health surveillance, knowledge retrieval, simulation, and scientific computing. The article emphasizes that scalable computation requires documented structure, storage choices, solver diagnostics, approximation review, validation, and accountability."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

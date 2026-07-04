@@ -1,0 +1,9 @@
+review_item,status,governance_note
+matrix_shape,required,"Report rows, columns, state dimension, feature dimension, constraint count, and operation scale."
+storage_format,required,"Document dense, sparse, block, distributed, streamed, or matrix-free representation."
+sparsity_pattern,required,"Report nonzero count, density, locality, block structure, and whether zeros have system meaning."
+solver_choice,required,"State direct, iterative, randomized, low-rank, or matrix-free method and why it matches the problem."
+convergence_diagnostics,required,"Report residual norms, tolerances, iteration count, and stopping rules."
+conditioning_precision,required,"Review conditioning, scaling, numerical precision, roundoff risk, and stability."
+approximation_method,required,"Document randomized sketches, truncated decompositions, sampling, compression, and approximation error."
+responsible_use,required,"Interpret large-scale outputs through assumptions, diagnostics, validation, and model limits."

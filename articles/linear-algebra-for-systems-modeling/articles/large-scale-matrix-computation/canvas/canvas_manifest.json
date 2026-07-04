@@ -1,10 +1,10 @@
 {
+  "article_slug": "large-scale-matrix-computation",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "large-scale-matrix-computation",
-  "title": "Large-Scale Matrix Computation",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "large-scale-matrix-computation",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,33 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "matrix-scale",
+      "title": "Matrix Scale",
+      "description": "Documents matrix shape, density, nonzero count, storage format, and memory footprint."
+    },
+    {
+      "card_id": "solver-diagnostics",
+      "title": "Solver Diagnostics",
+      "description": "Tracks solver type, residual norms, tolerance, iterations, and stopping criteria."
+    },
+    {
+      "card_id": "approximation-review",
+      "title": "Approximation Review",
+      "description": "Documents randomized, low-rank, sparse, distributed, or matrix-free approximations."
+    },
+    {
+      "card_id": "conditioning-precision",
+      "title": "Conditioning and Precision",
+      "description": "Reviews numerical sensitivity, precision, scaling, and stability."
+    },
+    {
+      "card_id": "computation-governance",
+      "title": "Computation Governance",
+      "description": "Connects scale, reproducibility, validation, and responsible interpretation."
+    }
   ]
 }

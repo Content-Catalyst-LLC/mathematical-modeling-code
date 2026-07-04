@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+matrix-scale,Matrix Scale,model-design,97,active,2026-06-29,"Document matrix shape, density, nonzero count, storage format, and memory footprint."
+solver-diagnostics,Solver Diagnostics,diagnostics,96,active,2026-06-29,"Track solver type, residual norms, tolerance, iterations, and stopping criteria."
+approximation-review,Approximation Review,method-choice,95,review,2026-06-29,"Document randomized, low-rank, sparse, distributed, or matrix-free approximations."
+conditioning-precision,Conditioning and Precision,validation,94,review,2026-06-29,"Review numerical sensitivity, precision, scaling, and stability."
+computation-governance,Computation Governance,responsible-use,93,review,2026-06-29,"Connect scale, reproducibility, validation, and responsible interpretation."

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "matrix-scale",
+    "category": "model-design",
+    "governance_note": "Document matrix shape, density, nonzero count, storage format, and memory footprint.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Matrix Scale"
+  },
+  {
+    "card_id": "solver-diagnostics",
+    "category": "diagnostics",
+    "governance_note": "Track solver type, residual norms, tolerance, iterations, and stopping criteria.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Solver Diagnostics"
+  },
+  {
+    "card_id": "approximation-review",
+    "category": "method-choice",
+    "governance_note": "Document randomized, low-rank, sparse, distributed, or matrix-free approximations.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Approximation Review"
+  },
+  {
+    "card_id": "conditioning-precision",
+    "category": "validation",
+    "governance_note": "Review numerical sensitivity, precision, scaling, and stability.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Conditioning and Precision"
+  },
+  {
+    "card_id": "computation-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect scale, reproducibility, validation, and responsible interpretation.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Computation Governance"
+  }
+]

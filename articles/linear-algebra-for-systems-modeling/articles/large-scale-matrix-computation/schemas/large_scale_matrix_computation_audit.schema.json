@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LargeScaleMatrixComputationAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "matrix_dimension",
+    "nonzero_entries",
+    "density",
+    "dense_storage_mb",
+    "sparse_storage_mb_estimate",
+    "storage_reduction_factor",
+    "matrix_type",
+    "dominant_eigenvalue_estimate",
+    "matrix_vector_product_norm",
+    "iterative_residual_initial",
+    "iterative_residual_final",
+    "iterations",
+    "convergence_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "matrix_dimension": {
+      "type": "integer"
+    },
+    "nonzero_entries": {
+      "type": "integer"
+    },
+    "density": {
+      "type": "number"
+    },
+    "dense_storage_mb": {
+      "type": "number"
+    },
+    "sparse_storage_mb_estimate": {
+      "type": "number"
+    },
+    "storage_reduction_factor": {
+      "type": "number"
+    },
+    "matrix_type": {
+      "type": "string"
+    },
+    "dominant_eigenvalue_estimate": {
+      "type": "number"
+    },
+    "matrix_vector_product_norm": {
+      "type": "number"
+    },
+    "iterative_residual_initial": {
+      "type": "number"
+    },
+    "iterative_residual_final": {
+      "type": "number"
+    },
+    "iterations": {
+      "type": "integer"
+    },
+    "convergence_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

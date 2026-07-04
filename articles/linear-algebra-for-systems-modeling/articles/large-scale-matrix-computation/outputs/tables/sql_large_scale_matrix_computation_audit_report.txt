@@ -1,0 +1,35 @@
+section                               
+--------------------------------------
+MATRIX COMPUTATION GOVERNANCE REGISTRY
+assumption_name             mathematical_role                                             systems_modeling_role                                         review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Approximation method        Defines low-rank randomized sketching sampling or matrix-fre  Makes large problems tractable by preserving selected struct  Approximation error should be measured and disclosed.       
+                            e approximations.                                             ure.                                                                                                                      
+
+Conditioning and precision  Defines sensitivity roundoff risk and numerical representati  Determines whether computed results are stable under perturb  High condition numbers and low precision require special rev
+                            on.                                                           ation.                                                        iew.                                                        
+
+Convergence diagnostics     Tracks residual norms tolerances iteration counts and stoppi  Shows whether approximate results satisfy the intended syste  Stopping early or using weak tolerances can produce misleadi
+                            ng criteria.                                                  m.                                                            ng outputs.                                                 
+
+Matrix shape                Defines row count column count and dimensional scale.         Determines memory runtime and algorithm feasibility.          Matrix dimensions should be reported before interpreting lar
+                                                                                                                                                        ge-scale outputs.                                           
+
+Responsible use             Defines how scale approximation solver limits uncertainty an  Prevents large computation from being mistaken for reliable   Large-scale output should be interpreted through model assum
+                            d interpretation are communicated.                            evidence by size alone.                                       ptions diagnostics and validation.                          
+
+Solver choice               Defines direct iterative randomized or matrix-free computati  Determines numerical behavior and scalability.                Solver choice should match matrix structure conditioning and
+                            on.                                                                                                                          required accuracy.                                         
+
+Sparsity pattern            Defines nonzero structure density locality and block relatio  Reveals system connectivity and computational opportunity.    Sparse assumptions should reflect real structure rather than
+                            nships.                                                                                                                      convenience alone.                                         
+
+Storage format              Defines dense sparse block distributed or matrix-free repres  Controls what computations are efficient or possible.         Storage choices can affect runtime precision and reproducibi
+                            entation.                                                                                                                   lity.                                                       
+section                                   
+------------------------------------------
+LARGE SCALE MATRIX COMPUTATION AUDIT CASES
+model_name                                      matrix_dimension  nonzero_entries  density  dense_storage_mb  sparse_storage_mb_estimate  storage_reduction_factor  matrix_type                          dominant_eigenvalue_estimate  matrix_vector_product_norm  iterative_residual_initial  iterative_residual_final  iterations  warning                                                     
+----------------------------------------------  ----------------  ---------------  -------  ----------------  --------------------------  ------------------------  -----------------------------------  ----------------------------  --------------------------  --------------------------  ------------------------  ----------  ------------------------------------------------------------
+synthetic_large_scale_matrix_computation_audit  200               958              0.02395  0.32              0.015328                    20.8768                   banded_sparse_like_symmetric_system  1.95                          34.2                        14.1                        0.08                      80          Large-scale outputs are computational results under storage 
+                                                                                                                                                                                                                                                                                                                                     approximation precision solver and model assumptions.       
