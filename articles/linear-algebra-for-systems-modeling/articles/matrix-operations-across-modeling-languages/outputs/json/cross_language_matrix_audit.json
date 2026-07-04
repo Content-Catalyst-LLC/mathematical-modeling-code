@@ -1,0 +1,17 @@
+{
+  "condition_number": 3.681419267033,
+  "determinant": 26.75,
+  "elementwise_operator": "*",
+  "indexing_convention": "zero_based",
+  "interpretation_warning": "Cross-language matrix results should be compared by mathematical intent, shapes, residuals, condition numbers, tolerances, indexing conventions, and operator semantics.",
+  "language": "python_standard_library",
+  "matrix_matrix_product_trace": 33.875,
+  "matrix_multiplication_operator": "custom_matvec_or_library",
+  "matrix_shape": "3x3",
+  "matrix_vector_product_norm": 8.835298523536,
+  "model_name": "cross_language_matrix_operation_audit",
+  "solve_method": "small_system_cramers_rule_for_portable_demo",
+  "solve_residual_norm": 0.0,
+  "validation_status": "pass_residual_shape_and_condition_proxy_checks",
+  "vector_shape": "3"
+}

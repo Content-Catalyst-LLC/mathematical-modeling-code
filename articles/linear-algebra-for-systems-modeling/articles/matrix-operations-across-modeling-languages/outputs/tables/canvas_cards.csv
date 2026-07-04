@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+mathematical-intent,Mathematical Intent,model-design,97,active,2026-06-29,Document the linear algebra operation before language-specific syntax.
+shape-discipline,Shape Discipline,diagnostics,96,active,2026-06-29,Track matrix and vector dimensions before and after operations.
+operator-semantics,Operator Semantics,method-choice,95,review,2026-06-29,"Distinguish matrix multiplication, elementwise multiplication, dot products, and broadcasting."
+cross-language-validation,Cross-Language Validation,validation,94,review,2026-06-29,"Compare residuals, condition diagnostics, and output tolerances across implementations."
+interoperability-governance,Interoperability Governance,responsible-use,93,review,2026-06-29,"Preserve identifiers, schemas, units, metadata, and modeling assumptions across languages."

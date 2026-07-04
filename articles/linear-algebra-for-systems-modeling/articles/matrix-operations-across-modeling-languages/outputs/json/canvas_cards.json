@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "mathematical-intent",
+    "category": "model-design",
+    "governance_note": "Document the linear algebra operation before language-specific syntax.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Mathematical Intent"
+  },
+  {
+    "card_id": "shape-discipline",
+    "category": "diagnostics",
+    "governance_note": "Track matrix and vector dimensions before and after operations.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Shape Discipline"
+  },
+  {
+    "card_id": "operator-semantics",
+    "category": "method-choice",
+    "governance_note": "Distinguish matrix multiplication, elementwise multiplication, dot products, and broadcasting.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Operator Semantics"
+  },
+  {
+    "card_id": "cross-language-validation",
+    "category": "validation",
+    "governance_note": "Compare residuals, condition diagnostics, and output tolerances across implementations.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Cross-Language Validation"
+  },
+  {
+    "card_id": "interoperability-governance",
+    "category": "responsible-use",
+    "governance_note": "Preserve identifiers, schemas, units, metadata, and modeling assumptions across languages.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Interoperability Governance"
+  }
+]

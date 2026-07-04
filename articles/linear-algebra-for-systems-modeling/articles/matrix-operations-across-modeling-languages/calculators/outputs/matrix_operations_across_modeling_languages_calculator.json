@@ -1,0 +1,16 @@
+{
+  "calculator": "matrix_operations_across_modeling_languages_calculator",
+  "condition_number_proxy": 2.25,
+  "determinant": 26.625,
+  "julia_matrix_multiply": "*",
+  "matrix_shape": "3x3",
+  "matrix_vector_product_norm": 10.42,
+  "model_name": "cross_language_matrix_operation_audit",
+  "python_indexing": "zero_based",
+  "python_matrix_multiply": "@ or library function",
+  "r_indexing": "one_based",
+  "r_matrix_multiply": "%*%",
+  "solve_residual_norm": 0.0,
+  "vector_shape": "3",
+  "warning": "Cross-language matrix checks depend on mathematical intent, shapes, indexing, operator semantics, precision, storage, residuals, tolerances, and metadata preservation."
+}

@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Matrix Operations Across Modeling Languages** will live here.
+# Notebooks\n\nNotebook-ready workspace for matrix operations across modeling languages, shape checks, operator semantics, residuals, conditioning, interoperability, metadata preservation, and cross-language validation.\n

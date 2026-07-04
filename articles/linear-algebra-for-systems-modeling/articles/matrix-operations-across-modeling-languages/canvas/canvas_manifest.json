@@ -1,10 +1,10 @@
 {
+  "article_slug": "matrix-operations-across-modeling-languages",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "matrix-operations-across-modeling-languages",
-  "title": "Matrix Operations Across Modeling Languages",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "matrix-operations-across-modeling-languages",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "mathematical-intent",
+      "title": "Mathematical Intent",
+      "description": "Documents the linear algebra operation before language-specific syntax."
+    },
+    {
+      "card_id": "shape-discipline",
+      "title": "Shape Discipline",
+      "description": "Tracks matrix and vector dimensions before and after operations."
+    },
+    {
+      "card_id": "operator-semantics",
+      "title": "Operator Semantics",
+      "description": "Distinguishes matrix multiplication, elementwise multiplication, dot products, and broadcasting."
+    },
+    {
+      "card_id": "cross-language-validation",
+      "title": "Cross-Language Validation",
+      "description": "Compares residuals, condition diagnostics, and output tolerances across implementations."
+    },
+    {
+      "card_id": "interoperability-governance",
+      "title": "Interoperability Governance",
+      "description": "Preserves identifiers, schemas, units, metadata, and modeling assumptions across languages."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

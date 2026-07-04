@@ -1,42 +1,21 @@
 # Matrix Operations Across Modeling Languages
 
-Companion code and reproducible workflows for **“Matrix Operations Across Modeling Languages”**.
+Companion code and reproducible workflows for **Matrix Operations Across Modeling Languages** in the **Linear Algebra for Systems Modeling** series.
 
-Status: **planned**.
+## Themes
 
-A practical article on implementing core matrix workflows across the companion code stack.
+- mathematical notation versus programming syntax
+- arrays, matrices, data frames, tensors, sparse matrices, and typed records
+- indexing conventions, shape discipline, broadcasting, and operator semantics
+- matrix-vector products, matrix-matrix products, solves, decompositions, and diagnostics
+- Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, and Go implementation patterns
+- interoperability, cross-language validation, metadata preservation, and responsible interpretation
 
-This nested article folder follows the same article-level structure used by the calculus systems-modeling code: Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, docs, data, outputs, schemas, Canvas metadata, calculator scaffolds, and an advanced mathematical layer.
-
-## Folder structure
-
-```text
-python/      # Package-style Python workflow and tests
-r/           # R analysis and visualization scaffold
-julia/       # Julia numerical workflow scaffold
-sql/         # Scenario schema and model-run tables
-haskell/     # Typed state and transformation scaffold
-c/           # C implementation placeholder
-cpp/         # C++ implementation placeholder
-fortran/     # Fortran implementation placeholder
-rust/        # Rust CLI-style scaffold
-go/          # Go CLI-style scaffold
-notebooks/   # Notebook-ready walkthrough
-docs/        # Modeling notes and governance guidance
-data/        # Synthetic teaching data
-outputs/     # Generated tables, JSON, logs, figures
-schemas/     # JSON schemas
-canvas/      # Canvas-ready metadata
-advanced/    # Advanced mathematical and audit layer
-calculators/ # Calculator-ready extensions
-```
-
-## Run smoke checks
+## Run
 
 ```bash
 make smoke
+make all
+make calculators
+make advanced
 ```
-
-## Principle
-
-Linear algebra supports structural interpretation. It does not replace model assumptions, measurement judgment, uncertainty analysis, validation, or responsible systems thinking.

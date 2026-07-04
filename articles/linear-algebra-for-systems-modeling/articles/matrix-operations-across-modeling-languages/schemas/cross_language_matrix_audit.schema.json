@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CrossLanguageMatrixAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "language",
+    "matrix_shape",
+    "vector_shape",
+    "indexing_convention",
+    "matrix_multiplication_operator",
+    "elementwise_operator",
+    "solve_method",
+    "condition_number",
+    "matrix_vector_product_norm",
+    "matrix_matrix_product_trace",
+    "solve_residual_norm",
+    "determinant",
+    "validation_status",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "matrix_shape": {
+      "type": "string"
+    },
+    "vector_shape": {
+      "type": "string"
+    },
+    "indexing_convention": {
+      "type": "string"
+    },
+    "matrix_multiplication_operator": {
+      "type": "string"
+    },
+    "elementwise_operator": {
+      "type": "string"
+    },
+    "solve_method": {
+      "type": "string"
+    },
+    "condition_number": {
+      "type": "number"
+    },
+    "matrix_vector_product_norm": {
+      "type": "number"
+    },
+    "matrix_matrix_product_trace": {
+      "type": "number"
+    },
+    "solve_residual_norm": {
+      "type": "number"
+    },
+    "determinant": {
+      "type": "number"
+    },
+    "validation_status": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

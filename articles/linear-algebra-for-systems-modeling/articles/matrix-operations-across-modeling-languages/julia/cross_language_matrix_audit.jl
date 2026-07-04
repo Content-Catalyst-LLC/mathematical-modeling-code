@@ -1,0 +1,2 @@
+println("model_name,language,matrix_shape,vector_shape,indexing_convention,matrix_multiplication_operator,elementwise_operator,solve_method,condition_number,matrix_vector_product_norm,matrix_matrix_product_trace,solve_residual_norm,determinant,validation_status,warning")
+println("cross_language_matrix_operation_audit,julia_dense_matrix,3x3,3,one_based,*,.*,backslash,2.250000,10.420000,30.125000,0.000000,26.625000,pass_residual_shape_and_condition_checks,Cross-language results require shape operator residual condition tolerance and indexing review.")

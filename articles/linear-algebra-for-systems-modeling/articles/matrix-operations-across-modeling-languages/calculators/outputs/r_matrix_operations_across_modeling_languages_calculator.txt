@@ -1,0 +1,12 @@
+                                              calculator
+1 matrix_operations_across_modeling_languages_calculator
+                             model_name matrix_shape vector_shape
+1 cross_language_matrix_operation_audit          3x3            3
+  python_indexing r_indexing python_matrix_multiply r_matrix_multiply
+1      zero_based  one_based  @ or library function               %*%
+  julia_matrix_multiply condition_number_proxy matrix_vector_product_norm
+1                     *                   2.25                      10.42
+  solve_residual_norm determinant
+1                   0      26.625
+                                                                                                                                                                  warning
+1 Cross-language matrix checks depend on mathematical intent, shapes, indexing, operator semantics, precision, storage, residuals, tolerances, and metadata preservation.

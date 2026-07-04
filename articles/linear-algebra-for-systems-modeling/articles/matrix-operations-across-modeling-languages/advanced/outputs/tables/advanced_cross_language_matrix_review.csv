@@ -1,0 +1,9 @@
+review_item,status,governance_note
+mathematical_intent,required,State the intended linear algebra operation before translating it into language-specific syntax.
+shape_discipline,required,"Assert matrix and vector dimensions before and after products, solves, decompositions, and broadcasts."
+indexing_convention,required,"Document zero-based, one-based, label-based, and query-order-dependent indexing when moving across languages."
+operator_semantics,required,"Distinguish matrix multiplication, elementwise multiplication, dot products, and broadcasting for each language."
+storage_format,required,"Document dense, sparse, tensor, data-frame, table, matrix-free, row-major, and column-major representations."
+numerical_diagnostics,required,"Record residuals, condition numbers, rank, determinant, reconstruction error, and tolerances."
+interoperability,required,"Preserve row IDs, column IDs, units, precision, missingness, schemas, and metadata across data exchange."
+responsible_use,required,Treat cross-language agreement as supporting evidence only when assumptions and diagnostics are documented.
