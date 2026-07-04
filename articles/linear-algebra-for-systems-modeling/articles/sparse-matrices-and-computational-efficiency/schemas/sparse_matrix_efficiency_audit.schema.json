@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SparseMatrixEfficiencyAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "matrix_dimension",
+    "nonzero_entries",
+    "density",
+    "dense_storage_mb",
+    "coordinate_storage_mb_estimate",
+    "storage_reduction_factor",
+    "average_row_degree",
+    "max_row_degree",
+    "isolated_rows",
+    "matrix_vector_product_norm",
+    "iterative_residual_initial",
+    "iterative_residual_final",
+    "iterations",
+    "sparsity_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "matrix_dimension": {
+      "type": "integer"
+    },
+    "nonzero_entries": {
+      "type": "integer"
+    },
+    "density": {
+      "type": "number"
+    },
+    "dense_storage_mb": {
+      "type": "number"
+    },
+    "coordinate_storage_mb_estimate": {
+      "type": "number"
+    },
+    "storage_reduction_factor": {
+      "type": "number"
+    },
+    "average_row_degree": {
+      "type": "number"
+    },
+    "max_row_degree": {
+      "type": "integer"
+    },
+    "isolated_rows": {
+      "type": "integer"
+    },
+    "matrix_vector_product_norm": {
+      "type": "number"
+    },
+    "iterative_residual_initial": {
+      "type": "number"
+    },
+    "iterative_residual_final": {
+      "type": "number"
+    },
+    "iterations": {
+      "type": "integer"
+    },
+    "sparsity_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

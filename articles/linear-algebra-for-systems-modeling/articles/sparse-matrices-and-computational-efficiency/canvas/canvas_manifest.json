@@ -1,10 +1,10 @@
 {
+  "article_slug": "sparse-matrices-and-computational-efficiency",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "sparse-matrices-and-computational-efficiency",
-  "title": "Sparse Matrices and Computational Efficiency",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "sparse-matrices-and-computational-efficiency",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "sparse-structure",
+      "title": "Sparse Structure",
+      "description": "Documents matrix shape, nonzero count, density, degree structure, and sparsity pattern."
+    },
+    {
+      "card_id": "zero-interpretation",
+      "title": "Zero Interpretation",
+      "description": "Distinguishes absent, unknown, ignored, thresholded, or impossible relationships."
+    },
+    {
+      "card_id": "storage-efficiency",
+      "title": "Storage Efficiency",
+      "description": "Compares dense storage with coordinate and compressed sparse storage estimates."
+    },
+    {
+      "card_id": "sparse-solver-diagnostics",
+      "title": "Sparse Solver Diagnostics",
+      "description": "Tracks residuals, convergence, fill-in risk, ordering, and preconditioning."
+    },
+    {
+      "card_id": "sparse-governance",
+      "title": "Sparse Governance",
+      "description": "Connects efficiency, omitted relationships, validation, and responsible interpretation."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

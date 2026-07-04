@@ -1,0 +1,35 @@
+section                          
+---------------------------------
+SPARSE MATRIX GOVERNANCE REGISTRY
+assumption_name      mathematical_role                                             systems_modeling_role                                         review_warning                                              
+-------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Fill-in risk         Tracks whether sparse factorization creates many additional   Determines whether direct solving remains efficient.          Ordering and symbolic analysis should be documented for larg
+                     nonzero entries.                                                                                                            e sparse factorizations.                                    
+
+Matrix shape         Defines row count column count and dimensional scale.         Determines memory runtime and algorithm feasibility.          Shape should be reported before making efficiency or interpr
+                                                                                                                                                 etation claims.                                             
+
+Nonzero structure    Defines locations and values of stored relationships.         Represents modeled connectivity dependence constraints or fe  The sparsity pattern should be reviewed as system structure 
+                                                                                   ature presence.                                               not only storage detail.                                    
+
+Responsible use      Defines how sparsity omitted relationships efficiency stabil  Prevents sparse computation from being mistaken for complete  Sparse outputs should be interpreted through structure omiss
+                     ity and validation are communicated.                           system representation.                                       ions diagnostics and validation.                            
+
+Solver choice        Defines direct sparse factorization iterative method or prec  Determines scalability convergence memory use and numerical   Solver choice should match matrix symmetry conditioning spar
+                     onditioned solver.                                            behavior.                                                     sity and accuracy needs.                                    
+
+Storage format       Defines COO CSR CSC DIA BSR graph or matrix-free representat  Controls construction multiplication factorization and solve  Storage format should match the workflow not only the datase
+                     ion.                                                          r efficiency.                                                 t.                                                          
+
+Thresholding rule    Defines when small values are converted to zeros.             Controls model simplification and computational efficiency.   Thresholds may remove weak but important relationships or ra
+                                                                                                                                                 re signals.                                                 
+
+Zero interpretation  Defines what missing entries mean mathematically.             Distinguishes absent unknown ignored thresholded or impossib  Zeros can encode assumptions that affect evidence and decisi
+                                                                                   le relationships.                                             ons.                                                        
+section                             
+------------------------------------
+SPARSE MATRIX EFFICIENCY AUDIT CASES
+model_name                                matrix_dimension  nonzero_entries  density   dense_storage_mb  coordinate_storage_mb_estimate  storage_reduction_factor  average_row_degree  max_row_degree  isolated_rows  matrix_vector_product_norm  iterative_residual_initial  iterative_residual_final  iterations  warning                                                     
+----------------------------------------  ----------------  ---------------  --------  ----------------  ------------------------------  ------------------------  ------------------  --------------  -------------  --------------------------  --------------------------  ------------------------  ----------  ------------------------------------------------------------
+synthetic_sparse_matrix_efficiency_audit  250               1244             0.019904  0.5               0.019904                        25.12                     3.98                6               0              31.6                        15.8                        0.06                      60          Sparse outputs should be interpreted through structure omiss
+                                                                                                                                                                                                                                                                                                                    ions diagnostics and validation.                            

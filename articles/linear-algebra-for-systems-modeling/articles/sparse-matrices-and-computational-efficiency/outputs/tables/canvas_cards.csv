@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+sparse-structure,Sparse Structure,model-design,97,active,2026-06-29,"Document matrix shape, nonzero count, density, degree structure, and sparsity pattern."
+zero-interpretation,Zero Interpretation,model-design,96,active,2026-06-29,"Distinguish absent, unknown, ignored, thresholded, or impossible relationships."
+storage-efficiency,Storage Efficiency,diagnostics,95,review,2026-06-29,Compare dense storage with coordinate and compressed sparse storage estimates.
+sparse-solver-diagnostics,Sparse Solver Diagnostics,validation,94,review,2026-06-29,"Track residuals, convergence, fill-in risk, ordering, and preconditioning."
+sparse-governance,Sparse Governance,responsible-use,93,review,2026-06-29,"Connect efficiency, omitted relationships, validation, and responsible interpretation."

@@ -1,0 +1,9 @@
+review_item,status,governance_note
+matrix_shape,required,"Report rows, columns, dimensional scale, nonzero count, and density."
+nonzero_structure,required,"Inspect sparsity pattern, degree distribution, connected components, blocks, and bands."
+zero_interpretation,required,"Distinguish true absence, unknown relationships, ignored relationships, thresholded values, and impossible links."
+storage_format,required,"Document COO, CSR, CSC, DIA, BSR, graph, or matrix-free representation and why it matches the workflow."
+solver_choice,required,"State direct sparse, iterative, Krylov, preconditioned, or matrix-free method and why it matches structure."
+fill_in_risk,required,"Review ordering, symbolic factorization, and fill-in risk before relying on direct sparse solvers."
+thresholding_rule,required,Document thresholds that convert weak values to zeros and test sensitivity.
+responsible_use,required,"Interpret sparse outputs through omissions, structure, diagnostics, validation, and model limits."

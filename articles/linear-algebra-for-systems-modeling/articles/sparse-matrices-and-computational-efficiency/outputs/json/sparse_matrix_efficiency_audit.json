@@ -1,0 +1,18 @@
+{
+  "average_row_degree": 4.008,
+  "coordinate_storage_mb_estimate": 0.020032,
+  "dense_storage_mb": 0.5,
+  "density": 0.020032,
+  "interpretation_warning": "Sparse matrix outputs should be interpreted through storage format, sparsity pattern, solver diagnostics, conditioning, threshold rules, and validation evidence.",
+  "isolated_rows": 0,
+  "iterations": 60,
+  "iterative_residual_final": 0.0,
+  "iterative_residual_initial": 15.811388300842,
+  "matrix_dimension": 250,
+  "matrix_vector_product_norm": 33.552052379716,
+  "max_row_degree": 6,
+  "model_name": "synthetic_sparse_matrix_efficiency_audit",
+  "nonzero_entries": 1252,
+  "sparsity_warning": "Sparse efficiency depends on whether zero entries represent true absence, unknown relationships, thresholded weak values, or modeling exclusions.",
+  "storage_reduction_factor": 24.960063897764
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "sparse-structure",
+    "category": "model-design",
+    "governance_note": "Document matrix shape, nonzero count, density, degree structure, and sparsity pattern.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Sparse Structure"
+  },
+  {
+    "card_id": "zero-interpretation",
+    "category": "model-design",
+    "governance_note": "Distinguish absent, unknown, ignored, thresholded, or impossible relationships.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "active",
+    "title": "Zero Interpretation"
+  },
+  {
+    "card_id": "storage-efficiency",
+    "category": "diagnostics",
+    "governance_note": "Compare dense storage with coordinate and compressed sparse storage estimates.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Storage Efficiency"
+  },
+  {
+    "card_id": "sparse-solver-diagnostics",
+    "category": "validation",
+    "governance_note": "Track residuals, convergence, fill-in risk, ordering, and preconditioning.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Sparse Solver Diagnostics"
+  },
+  {
+    "card_id": "sparse-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect efficiency, omitted relationships, validation, and responsible interpretation.",
+    "review_date": "2026-06-29",
+    "score": 93,
+    "status": "review",
+    "title": "Sparse Governance"
+  }
+]

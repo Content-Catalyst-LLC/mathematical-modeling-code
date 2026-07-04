@@ -1,0 +1,18 @@
+{
+  "average_row_degree": 3.98,
+  "calculator": "sparse_matrices_and_computational_efficiency_calculator",
+  "coordinate_storage_mb_estimate": 0.019904,
+  "dense_storage_mb": 0.5,
+  "density": 0.019904,
+  "isolated_rows": 0,
+  "iterations": 60,
+  "iterative_residual_final": 0.06,
+  "iterative_residual_initial": 15.8,
+  "matrix_dimension": 250,
+  "matrix_vector_product_norm": 31.6,
+  "max_row_degree": 6,
+  "model_name": "synthetic_sparse_matrix_efficiency_audit",
+  "nonzero_entries": 1244,
+  "storage_reduction_factor": 25.12,
+  "warning": "Sparse matrix metrics depend on zero interpretation, density, storage format, thresholding, solver behavior, conditioning, and validation context."
+}

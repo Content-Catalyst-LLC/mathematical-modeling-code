@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Sparse Matrices and Computational Efficiency** will live here.
+# Notebooks\n\nNotebook-ready workspace for sparse matrices, computational efficiency, nonzero structure, density, compressed storage, graph matrices, sparse matrix-vector products, sparse solvers, residual diagnostics, thresholding, zero interpretation, and governance.\n
