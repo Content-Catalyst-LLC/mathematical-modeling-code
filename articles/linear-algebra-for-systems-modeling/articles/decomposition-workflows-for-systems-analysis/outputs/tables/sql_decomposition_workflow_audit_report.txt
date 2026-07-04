@@ -1,0 +1,35 @@
+section                          
+---------------------------------
+DECOMPOSITION GOVERNANCE REGISTRY
+assumption_name           mathematical_role                                             workflow_role                                                 review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Component interpretation  Defines how factors modes singular vectors or components are  Prevents mathematical components from being mistaken for dir  Components require domain review and sensitivity testing bef
+                           connected to system meaning.                                 ect causal or institutional categories.                       ore substantive interpretation.                             
+
+Conditioning              Measures sensitivity of the matrix problem to perturbation.   Determines whether decomposition results are numerically rel  Ill-conditioned matrices require cautious interpretation eve
+                                                                                        iable.                                                        n when factorization succeeds.                              
+
+Decomposition choice      Defines LU QR Cholesky eigen Schur SVD sparse factorization   Connects modeling purpose to numerical method.                Different decompositions reveal different structures and car
+                          or low-rank workflow.                                                                                                       ry different risks.                                         
+
+Matrix structure          Defines shape symmetry sparsity rank scaling and definitenes  Determines which decomposition is mathematically and computa  Decomposition should not be chosen before matrix structure i
+                          s before factorization.                                       tionally appropriate.                                         s reviewed.                                                 
+
+Pivoting and ordering     Defines row or column permutations used to improve stability  Controls numerical behavior fill-in and reproducibility.      Permutation choices should be recorded when they affect fact
+                           or sparsity.                                                                                                               ors or interpretation.                                      
+
+Rank tolerance            Defines the threshold used to distinguish signal dependence   Controls rank estimates pseudoinverses and low-rank approxim  Rank is tolerance-dependent in numerical workflows.         
+                          and near-zero structure.                                      ations.                                                                                                                   
+
+Reconstruction error      Measures how well factors reproduce the original matrix or a  Validates factorization quality and low-rank loss.            A decomposition should be checked against reconstruction or 
+                          pproximation.                                                                                                               residual diagnostics.                                       
+
+Responsible use           Defines how factorization limits approximation loss diagnost  Supports accountable systems analysis and reproducible scien  Decomposition results should be accompanied by method docume
+                          ics and assumptions are communicated.                         tific computing.                                              ntation and interpretation boundaries.                      
+section                           
+----------------------------------
+DECOMPOSITION WORKFLOW AUDIT CASES
+model_name                    matrix_shape  matrix_class                                  recommended_workflow                              condition_proxy  estimated_rank  singular_value_1  singular_value_2  singular_value_3  low_rank_reconstruction_error  solve_residual_norm  warning                                                     
+----------------------------  ------------  --------------------------------------------  ------------------------------------------------  ---------------  --------------  ----------------  ----------------  ----------------  -----------------------------  -------------------  ------------------------------------------------------------
+decomposition_workflow_audit  4x3           rectangular_overdetermined_dense_demo_matrix  QR_or_SVD_for_least_squares_and_rank_diagnostics  4.2              3               5.12              2.35              1.02              1.02                           0.0                  Decomposition factors require rank conditioning reconstructi
+                                                                                                                                                                                                                                                                                       on residual and interpretation review.                      

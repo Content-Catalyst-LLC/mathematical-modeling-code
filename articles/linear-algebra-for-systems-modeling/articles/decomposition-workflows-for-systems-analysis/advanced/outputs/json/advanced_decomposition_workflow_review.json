@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Review shape, symmetry, sparsity, rank, scaling, definiteness, conditioning, and data source before factorization.",
+    "review_item": "matrix_structure",
+    "status": "required"
+  },
+  {
+    "governance_note": "Match LU, QR, Cholesky, eigen, Schur, SVD, sparse, or low-rank workflow to task and matrix structure.",
+    "review_item": "decomposition_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document row and column permutations used for stability, sparsity preservation, or fill-in reduction.",
+    "review_item": "pivoting_and_ordering",
+    "status": "required"
+  },
+  {
+    "governance_note": "State tolerance used for rank estimates, pseudoinverses, and low-rank approximation.",
+    "review_item": "rank_tolerance",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report factorization reconstruction error, approximation error, and solve residuals where relevant.",
+    "review_item": "reconstruction_error",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report condition estimates or singular spectra for sensitive computations.",
+    "review_item": "conditioning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Interpret factors, modes, and components through domain review rather than treating them as automatic causes.",
+    "review_item": "component_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Communicate factorization limits, approximation loss, diagnostics, and assumption boundaries.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]

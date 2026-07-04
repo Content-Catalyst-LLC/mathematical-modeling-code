@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "matrix-structure",
+    "category": "model-design",
+    "governance_note": "Review shape, symmetry, sparsity, definiteness, rank, scaling, and conditioning before factorization.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Matrix Structure"
+  },
+  {
+    "card_id": "decomposition-choice",
+    "category": "method-choice",
+    "governance_note": "Match LU, QR, Cholesky, eigen, Schur, SVD, sparse, or low-rank workflow to modeling purpose.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Decomposition Choice"
+  },
+  {
+    "card_id": "rank-and-conditioning",
+    "category": "diagnostics",
+    "governance_note": "Track singular spectra, rank tolerance, condition diagnostics, and near-dependence.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Rank and Conditioning"
+  },
+  {
+    "card_id": "reconstruction-and-residuals",
+    "category": "validation",
+    "governance_note": "Check factorization quality, approximation error, and solve residuals.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Reconstruction and Residuals"
+  },
+  {
+    "card_id": "interpretation-boundaries",
+    "category": "responsible-use",
+    "governance_note": "Prevent factors, components, and modes from being overread as causal or institutional categories.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Interpretation Boundaries"
+  }
+]

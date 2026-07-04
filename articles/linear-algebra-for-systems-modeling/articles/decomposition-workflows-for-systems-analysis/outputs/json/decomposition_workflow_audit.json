@@ -1,0 +1,16 @@
+{
+  "condition_proxy": 4.747780826584,
+  "decomposition_warning": "Rectangular systems should generally use QR or SVD rather than normal equations when stability and rank diagnostics matter.",
+  "determinant_2x2_leading_block": 11.0,
+  "estimated_rank": 3,
+  "interpretation_warning": "Decomposition factors should be interpreted through matrix construction, scaling, rank tolerance, conditioning, residuals, and system meaning.",
+  "low_rank_reconstruction_error": 1.115101072588,
+  "matrix_class": "rectangular_overdetermined_dense_demo_matrix",
+  "matrix_shape": "4x3",
+  "model_name": "decomposition_workflow_audit",
+  "recommended_workflow": "QR_or_SVD_for_least_squares_and_rank_diagnostics",
+  "singular_value_1": 5.294255492136,
+  "singular_value_2": 2.430516073163,
+  "singular_value_3": 1.115101072588,
+  "solve_residual_norm": 0.0
+}

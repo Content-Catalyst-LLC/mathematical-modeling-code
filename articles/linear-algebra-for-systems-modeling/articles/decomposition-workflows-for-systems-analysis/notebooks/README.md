@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Decomposition Workflows for Systems Analysis** will live here.
+# Notebooks\n\nNotebook-ready workspace for decomposition workflows, LU, QR, Cholesky, eigen, Schur, SVD, PCA, sparse factorization, rank diagnostics, reconstruction error, residuals, conditioning, and responsible interpretation.\n

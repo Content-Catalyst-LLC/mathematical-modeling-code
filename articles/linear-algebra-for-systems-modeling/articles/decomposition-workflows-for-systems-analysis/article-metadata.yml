@@ -1,8 +1,7 @@
 actual_title: "Decomposition Workflows for Systems Analysis"
-suggested_seo_title: "Decomposition Workflows for Systems Analysis: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Decomposition Workflows for Systems Analysis: How Linear Algebra Factors Structure, Solves Systems, and Reveals Patterns"
+focus_keyword: "decomposition workflows for systems analysis"
 slug: "decomposition-workflows-for-systems-analysis"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/decomposition-workflows-for-systems-analysis"
 tags:
   - Linear Algebra
-  - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
+  - Matrix Decomposition
+  - LU Factorization
+  - QR Decomposition
+  - Singular Value Decomposition
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Decomposition Workflows for Systems Analysis is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Systems Analysis
+  - Systems Modeling
+excerpt_139_words: "Decomposition workflows for systems analysis explain how matrices can be factored into interpretable, computable, and diagnostically useful pieces. This article introduces LU factorization, pivoting, QR decomposition, orthogonalization, Cholesky factorization, eigenvalue decomposition, Schur decomposition, singular value decomposition, low-rank approximation, PCA, sparse factorization, fill-in, preconditioning, residual diagnostics, reconstruction error, orthogonality checks, rank selection, condition numbers, singular values, scaling, solver choice, and reproducible workflow design. It shows how decomposition supports infrastructure flow systems, economic input-output analysis, machine learning pipelines, climate and energy simulation, public health surveillance, knowledge retrieval, optimization, and scientific computing. The article emphasizes that decompositions are not just formulas but modeling choices that must match matrix structure, numerical risk, interpretive purpose, validation evidence, approximation limits, uncertainty, and responsible systems analysis."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

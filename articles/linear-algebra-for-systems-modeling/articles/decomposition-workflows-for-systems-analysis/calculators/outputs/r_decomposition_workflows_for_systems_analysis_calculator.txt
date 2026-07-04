@@ -1,0 +1,14 @@
+                                               calculator
+1 decomposition_workflows_for_systems_analysis_calculator
+                    model_name matrix_shape
+1 decomposition_workflow_audit          4x3
+                                  matrix_class
+1 rectangular_overdetermined_dense_demo_matrix
+                              recommended_workflow condition_proxy
+1 QR_or_SVD_for_least_squares_and_rank_diagnostics             4.2
+  estimated_rank singular_value_1 singular_value_2 singular_value_3
+1              3             5.12             2.35             1.02
+  low_rank_reconstruction_error solve_residual_norm
+1                          1.02                   0
+                                                                                                                                                                                  warning
+1 Decomposition workflows require matrix-structure review, rank tolerance, reconstruction error, residual diagnostics, conditioning, approximation limits, and interpretation boundaries.

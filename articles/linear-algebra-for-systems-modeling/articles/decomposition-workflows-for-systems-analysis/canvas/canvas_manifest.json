@@ -1,10 +1,10 @@
 {
+  "article_slug": "decomposition-workflows-for-systems-analysis",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "decomposition-workflows-for-systems-analysis",
-  "title": "Decomposition Workflows for Systems Analysis",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "decomposition-workflows-for-systems-analysis",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "matrix-structure",
+      "title": "Matrix Structure",
+      "description": "Reviews shape, symmetry, sparsity, definiteness, rank, scaling, and conditioning before factorization."
+    },
+    {
+      "card_id": "decomposition-choice",
+      "title": "Decomposition Choice",
+      "description": "Matches LU, QR, Cholesky, eigen, Schur, SVD, sparse, or low-rank workflow to modeling purpose."
+    },
+    {
+      "card_id": "rank-and-conditioning",
+      "title": "Rank and Conditioning",
+      "description": "Tracks singular spectra, rank tolerance, condition diagnostics, and near-dependence."
+    },
+    {
+      "card_id": "reconstruction-and-residuals",
+      "title": "Reconstruction and Residuals",
+      "description": "Checks factorization quality, approximation error, and solve residuals."
+    },
+    {
+      "card_id": "interpretation-boundaries",
+      "title": "Interpretation Boundaries",
+      "description": "Prevents factors, components, and modes from being overread as causal or institutional categories."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }
