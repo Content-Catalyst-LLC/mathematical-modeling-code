@@ -1,10 +1,10 @@
 {
+  "article_slug": "scientific-computing-workflows-for-linear-algebra",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "scientific-computing-workflows-for-linear-algebra",
-  "title": "Scientific Computing Workflows for Linear Algebra",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "scientific-computing-workflows-for-linear-algebra",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "matrix-construction",
+      "title": "Matrix Construction",
+      "description": "Documents rows, columns, values, units, zeros, missingness, and provenance."
+    },
+    {
+      "card_id": "representation-choice",
+      "title": "Representation Choice",
+      "description": "Reviews dense, sparse, structured, distributed, or matrix-free storage."
+    },
+    {
+      "card_id": "solver-diagnostics",
+      "title": "Solver Diagnostics",
+      "description": "Records solver, tolerance, residuals, conditioning, convergence, and stopping reason."
+    },
+    {
+      "card_id": "reproducibility-controls",
+      "title": "Reproducibility Controls",
+      "description": "Tracks scripts, environments, package versions, seeds, inputs, outputs, and logs."
+    },
+    {
+      "card_id": "responsible-use",
+      "title": "Responsible Use",
+      "description": "Connects numerical output to assumptions, uncertainty, validation, and interpretation limits."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

@@ -1,0 +1,16 @@
+{
+  "calculator": "scientific_computing_workflows_for_linear_algebra_calculator",
+  "condition_number_proxy": 3.42,
+  "determinant": 26.625,
+  "matrix_shape": "3x3",
+  "model_name": "scientific_computing_linear_algebra_audit",
+  "precision": "double_precision_like",
+  "relative_residual": 0.0,
+  "representation": "dense_demo_matrix",
+  "reproducibility_status": "pass_residual_tolerance",
+  "residual_norm": 0.0,
+  "solver_choice": "direct_small_system_solve",
+  "tolerance": 1e-10,
+  "warning": "Scientific computing workflows require matrix construction, representation, backend, solver, tolerance, diagnostics, reproducibility, validation, and responsible-use review.",
+  "workflow_stage": "matrix_construction_solve_diagnostics_metadata"
+}

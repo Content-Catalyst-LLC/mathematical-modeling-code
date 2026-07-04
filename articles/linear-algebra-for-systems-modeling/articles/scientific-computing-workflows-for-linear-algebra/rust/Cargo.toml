@@ -1,0 +1,4 @@
+[package]
+name = "scientific_computing_linear_algebra_audit"
+version = "0.1.0"
+edition = "2021"

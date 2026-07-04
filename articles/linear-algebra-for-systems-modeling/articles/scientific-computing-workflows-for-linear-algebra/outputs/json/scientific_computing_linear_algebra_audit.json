@@ -1,0 +1,19 @@
+{
+  "condition_number_proxy": 3.681419267033,
+  "determinant": 26.75,
+  "interpretation_warning": "Scientific computing outputs should be interpreted with matrix construction, precision, solver choice, tolerances, residuals, conditioning, environment metadata, validation checks, and model assumptions.",
+  "matrix_shape": "3x3",
+  "matrix_vector_norm": 6.76849318534,
+  "model_name": "scientific_computing_linear_algebra_audit",
+  "platform_summary": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "precision": "double_precision_like_python_float",
+  "python_version": "3.14.3",
+  "relative_residual": 0.0,
+  "representation": "dense_standard_library_demo_matrix",
+  "reproducibility_status": "pass_residual_tolerance",
+  "residual_norm": 0.0,
+  "solution_norm": 1.745963489179,
+  "solver_choice": "direct_small_system_solve_for_portable_demo",
+  "tolerance": 1e-10,
+  "workflow_stage": "matrix_construction_solve_diagnostics_metadata"
+}

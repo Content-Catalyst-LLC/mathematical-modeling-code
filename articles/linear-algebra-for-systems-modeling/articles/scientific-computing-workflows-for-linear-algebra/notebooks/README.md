@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Scientific Computing Workflows for Linear Algebra** will live here.
+# Notebooks\n\nNotebook-ready workspace for scientific computing workflows, matrix construction, dense and sparse representation, numerical libraries, memory layout, solver diagnostics, performance profiling, reproducibility, validation, and responsible interpretation.\n

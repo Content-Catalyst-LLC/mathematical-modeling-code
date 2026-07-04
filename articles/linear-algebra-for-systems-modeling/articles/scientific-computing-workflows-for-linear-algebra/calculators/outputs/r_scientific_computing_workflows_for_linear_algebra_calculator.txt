@@ -1,0 +1,14 @@
+                                                    calculator
+1 scientific_computing_workflows_for_linear_algebra_calculator
+                                 model_name
+1 scientific_computing_linear_algebra_audit
+                                  workflow_stage matrix_shape    representation
+1 matrix_construction_solve_diagnostics_metadata          3x3 dense_demo_matrix
+              precision             solver_choice tolerance determinant
+1 double_precision_like direct_small_system_solve     1e-10      26.625
+  condition_number_proxy residual_norm relative_residual
+1                   3.42             0                 0
+   reproducibility_status
+1 pass_residual_tolerance
+                                                                                                                                                                        warning
+1 Scientific computing workflows require matrix construction, representation, backend, solver, tolerance, diagnostics, reproducibility, validation, and responsible-use review.

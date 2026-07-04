@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Document rows, columns, values, units, zeros, missingness, data source, and construction assumptions.",
+    "review_item": "matrix_construction",
+    "status": "required"
+  },
+  {
+    "governance_note": "Choose dense, sparse, structured, distributed, or matrix-free representation based on matrix structure and system scale.",
+    "review_item": "representation_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record BLAS, LAPACK, sparse libraries, package versions, hardware, threading, and language bindings.",
+    "review_item": "numerical_backend",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document solver, factorization, tolerance, precision, preconditioner, iteration count, and stopping reason.",
+    "review_item": "solver_configuration",
+    "status": "required"
+  },
+  {
+    "governance_note": "Save residuals, condition estimates, convergence histories, reconstruction errors, rank checks, and performance diagnostics.",
+    "review_item": "diagnostic_outputs",
+    "status": "required"
+  },
+  {
+    "governance_note": "Preserve scripts, environments, package versions, random seeds, inputs, outputs, logs, and generated reports.",
+    "review_item": "reproducibility_controls",
+    "status": "required"
+  },
+  {
+    "governance_note": "Use reference cases, edge cases, domain checks, perturbation tests, and observed comparisons.",
+    "review_item": "validation_evidence",
+    "status": "required"
+  },
+  {
+    "governance_note": "Communicate assumptions, uncertainty, numerical limits, performance constraints, and interpretation boundaries.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScientificComputingLinearAlgebraAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "workflow_stage",
+    "matrix_shape",
+    "representation",
+    "precision",
+    "solver_choice",
+    "tolerance",
+    "determinant",
+    "condition_number_proxy",
+    "matrix_vector_norm",
+    "solution_norm",
+    "residual_norm",
+    "relative_residual",
+    "reproducibility_status",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "workflow_stage": {
+      "type": "string"
+    },
+    "matrix_shape": {
+      "type": "string"
+    },
+    "representation": {
+      "type": "string"
+    },
+    "precision": {
+      "type": "string"
+    },
+    "solver_choice": {
+      "type": "string"
+    },
+    "tolerance": {
+      "type": "number"
+    },
+    "determinant": {
+      "type": "number"
+    },
+    "condition_number_proxy": {
+      "type": "number"
+    },
+    "matrix_vector_norm": {
+      "type": "number"
+    },
+    "solution_norm": {
+      "type": "number"
+    },
+    "residual_norm": {
+      "type": "number"
+    },
+    "relative_residual": {
+      "type": "number"
+    },
+    "reproducibility_status": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+matrix-construction,Matrix Construction,data-provenance,98,active,2026-06-29,"Document rows, columns, values, units, zeros, missingness, and provenance."
+representation-choice,Representation Choice,workflow-design,97,active,2026-06-29,"Review dense, sparse, structured, distributed, or matrix-free storage."
+solver-diagnostics,Solver Diagnostics,validation,96,review,2026-06-29,"Record solver, tolerance, residuals, conditioning, convergence, and stopping reason."
+reproducibility-controls,Reproducibility Controls,reproducibility,95,review,2026-06-29,"Track scripts, environments, package versions, seeds, inputs, outputs, and logs."
+responsible-use,Responsible Use,governance,94,review,2026-06-29,"Connect numerical output to assumptions, uncertainty, validation, and interpretation limits."

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "matrix-construction",
+    "category": "data-provenance",
+    "governance_note": "Document rows, columns, values, units, zeros, missingness, and provenance.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Matrix Construction"
+  },
+  {
+    "card_id": "representation-choice",
+    "category": "workflow-design",
+    "governance_note": "Review dense, sparse, structured, distributed, or matrix-free storage.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Representation Choice"
+  },
+  {
+    "card_id": "solver-diagnostics",
+    "category": "validation",
+    "governance_note": "Record solver, tolerance, residuals, conditioning, convergence, and stopping reason.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Solver Diagnostics"
+  },
+  {
+    "card_id": "reproducibility-controls",
+    "category": "reproducibility",
+    "governance_note": "Track scripts, environments, package versions, seeds, inputs, outputs, and logs.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Reproducibility Controls"
+  },
+  {
+    "card_id": "responsible-use",
+    "category": "governance",
+    "governance_note": "Connect numerical output to assumptions, uncertainty, validation, and interpretation limits.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Use"
+  }
+]
