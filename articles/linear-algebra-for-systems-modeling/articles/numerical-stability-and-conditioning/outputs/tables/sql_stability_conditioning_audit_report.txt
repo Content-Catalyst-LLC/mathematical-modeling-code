@@ -1,0 +1,40 @@
+section                                
+---------------------------------------
+NUMERICAL STABILITY GOVERNANCE REGISTRY
+assumption_name           mathematical_role                                             computational_role                                            review_warning                                              
+------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Condition number          Quantifies relative sensitivity using a matrix norm and inve  Provides a diagnostic for numerical fragility.                High condition numbers can make small residuals misleading. 
+                          rse behavior.                                                                                                                                                                           
+
+Conditioning              Measures sensitivity of the mathematical problem to input pe  Determines whether small data changes can strongly alter out  Ill-conditioned outputs require sensitivity testing and caut
+                          rturbations.                                                  puts.                                                         ious interpretation.                                        
+
+Floating-point precision  Defines how real numbers are approximated by finite precisio  Controls rounding behavior tolerance needs and reproducibili  Computed precision should not be mistaken for real-world cer
+                          n arithmetic.                                                 ty.                                                           tainty.                                                     
+
+Perturbation testing      Tests output sensitivity under small input or coefficient ch  Connects numerical sensitivity to modeling uncertainty.       Outputs that shift dramatically under small perturbations sh
+                          anges.                                                                                                                      ould not be overinterpreted.                                
+
+Residual norm             Measures how well a computed solution satisfies the original  Checks solver output against the modeled system.              A small residual alone does not guarantee small forward erro
+                           equation.                                                                                                                  r.                                                          
+
+Responsible use           Defines how numerical limits uncertainty diagnostics and mod  Prevents computed output from being treated as stronger evid  Numerical diagnostics should accompany consequential model r
+                          el assumptions are communicated.                              ence than it is.                                              esults.                                                     
+
+Scaling                   Defines row column variable unit or feature transformations.  Can improve numerical behavior while changing interpretive c  Scaling choices should be recorded and interpreted in relati
+                                                                                        oordinates.                                                   on to original units.                                       
+
+Solver choice             Defines the algorithm used to solve factor approximate or it  Shapes numerical stability runtime and diagnostic behavior.   Solver choice should match matrix structure conditioning spa
+                          erate.                                                                                                                      rsity and accuracy needs.                                   
+section                           
+----------------------------------
+STABILITY CONDITIONING AUDIT CASES
+model_name                              matrix_case              matrix_shape  determinant  condition_number_proxy  solution_norm  residual_norm  relative_residual  perturbation_size  perturbed_solution_change  stability_status                 warning                                                     
+--------------------------------------  -----------------------  ------------  -----------  ----------------------  -------------  -------------  -----------------  -----------------  -------------------------  -------------------------------  ------------------------------------------------------------
+numerical_stability_conditioning_audit  ill_conditioned_system   2x2           1.0e-08      399920000.0             50000000.0     0.0            0.0                1.0e-05            2000.0                     review_required_ill_conditioned  Residuals should be interpreted alongside conditioning scali
+                                                                                                                                                                                                                                                    ng perturbation sensitivity solver method precision and mode
+                                                                                                                                                                                                                                                    l purpose.                                                  
+
+numerical_stability_conditioning_audit  well_conditioned_system  2x2           5.75         2.1                     0.34           0.0            0.0                1.0e-05            4.0e-06                    stable_under_demo_threshold      Residuals should be interpreted alongside conditioning scali
+                                                                                                                                                                                                                                                    ng perturbation sensitivity solver method precision and mode
+                                                                                                                                                                                                                                                    l purpose.                                                  

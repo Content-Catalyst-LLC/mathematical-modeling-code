@@ -1,0 +1,3 @@
+calculator,matrix_case,determinant,condition_number_proxy,residual_norm,perturbation_size,perturbed_solution_change,stability_status,warning
+numerical_stability_and_conditioning_calculator,well_conditioned_system,5.75,2.1,0.0,1e-05,4e-06,stable_under_demo_threshold,"Residuals should be interpreted alongside conditioning, scaling, perturbation sensitivity, solver method, precision, and model purpose."
+numerical_stability_and_conditioning_calculator,ill_conditioned_system,1e-08,399920000.0,0.0,1e-05,2000.0,review_required_ill_conditioned,"Residuals should be interpreted alongside conditioning, scaling, perturbation sensitivity, solver method, precision, and model purpose."

@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Document precision, tolerance, equality tests, cancellation risk, and rounding assumptions.",
+    "review_item": "floating_point_precision",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report problem sensitivity using condition estimates and singular-value diagnostics where available.",
+    "review_item": "conditioning",
+    "status": "required"
+  },
+  {
+    "governance_note": "State norm choice or approximation method and interpret high values cautiously.",
+    "review_item": "condition_number",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report residual and relative residual for solves, least-squares fits, and iterative outputs.",
+    "review_item": "residual_norm",
+    "status": "required"
+  },
+  {
+    "governance_note": "Use solver methods matched to matrix structure, sparsity, rank, conditioning, and accuracy needs.",
+    "review_item": "solver_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document row, column, variable, unit, and feature scaling and connect outputs back to original units.",
+    "review_item": "scaling",
+    "status": "required"
+  },
+  {
+    "governance_note": "Assess output sensitivity under small input, coefficient, scenario, or tolerance changes.",
+    "review_item": "perturbation_testing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Communicate numerical limits alongside uncertainty, assumptions, and model-purpose boundaries.",
+    "review_item": "responsible_use",
+    "status": "required"
+  }
+]

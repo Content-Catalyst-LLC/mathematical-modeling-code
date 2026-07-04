@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+conditioning,Conditioning,diagnostics,98,active,2026-06-29,Measure problem sensitivity under small input perturbations.
+residual-review,Residual Review,validation,97,active,2026-06-29,Check whether computed solutions satisfy the modeled equations.
+perturbation-testing,Perturbation Testing,validation,96,review,2026-06-29,Compare output changes under small coefficient or input shifts.
+solver-stability,Solver Stability,method-choice,95,review,2026-06-29,"Document solver, factorization, pivoting, precision, and tolerance choices."
+stability-governance,Stability Governance,responsible-use,94,review,2026-06-29,"Connect numerical limits, uncertainty, diagnostics, and responsible interpretation."

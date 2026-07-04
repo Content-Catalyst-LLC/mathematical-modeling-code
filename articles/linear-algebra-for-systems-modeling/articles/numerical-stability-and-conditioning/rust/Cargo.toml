@@ -1,0 +1,4 @@
+[package]
+name = "stability_conditioning_audit"
+version = "0.1.0"
+edition = "2021"

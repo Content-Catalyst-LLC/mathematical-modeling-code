@@ -1,10 +1,10 @@
 {
+  "article_slug": "numerical-stability-and-conditioning",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "numerical-stability-and-conditioning",
-  "title": "Numerical Stability and Conditioning",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "numerical-stability-and-conditioning",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "conditioning",
+      "title": "Conditioning",
+      "description": "Measures problem sensitivity under small input perturbations."
+    },
+    {
+      "card_id": "residual-review",
+      "title": "Residual Review",
+      "description": "Checks whether computed solutions satisfy the modeled equations."
+    },
+    {
+      "card_id": "perturbation-testing",
+      "title": "Perturbation Testing",
+      "description": "Compares output changes under small coefficient or input shifts."
+    },
+    {
+      "card_id": "solver-stability",
+      "title": "Solver Stability",
+      "description": "Documents solver, factorization, pivoting, precision, and tolerance choices."
+    },
+    {
+      "card_id": "stability-governance",
+      "title": "Stability Governance",
+      "description": "Connects numerical limits, uncertainty, diagnostics, and responsible interpretation."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StabilityConditioningAudit",
+  "type": "object",
+  "required": [
+    "model_name",
+    "matrix_case",
+    "matrix_shape",
+    "determinant",
+    "condition_number_proxy",
+    "solution_norm",
+    "residual_norm",
+    "relative_residual",
+    "perturbation_size",
+    "perturbed_solution_change",
+    "stability_status",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "model_name": {
+      "type": "string"
+    },
+    "matrix_case": {
+      "type": "string"
+    },
+    "matrix_shape": {
+      "type": "string"
+    },
+    "determinant": {
+      "type": "number"
+    },
+    "condition_number_proxy": {
+      "type": "number"
+    },
+    "solution_norm": {
+      "type": "number"
+    },
+    "residual_norm": {
+      "type": "number"
+    },
+    "relative_residual": {
+      "type": "number"
+    },
+    "perturbation_size": {
+      "type": "number"
+    },
+    "perturbed_solution_change": {
+      "type": "number"
+    },
+    "stability_status": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

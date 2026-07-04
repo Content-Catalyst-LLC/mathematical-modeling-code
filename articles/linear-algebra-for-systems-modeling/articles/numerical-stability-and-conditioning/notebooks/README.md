@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Numerical Stability and Conditioning** will live here.
+# Notebooks\n\nNotebook-ready workspace for numerical stability, conditioning, floating-point behavior, condition numbers, residuals, perturbation tests, scaling review, solver diagnostics, and responsible interpretation.\n

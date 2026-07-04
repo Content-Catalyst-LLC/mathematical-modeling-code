@@ -1,0 +1,24 @@
+[
+  {
+    "calculator": "numerical_stability_and_conditioning_calculator",
+    "condition_number_proxy": 2.1,
+    "determinant": 5.75,
+    "matrix_case": "well_conditioned_system",
+    "perturbation_size": 1e-05,
+    "perturbed_solution_change": 4e-06,
+    "residual_norm": 0.0,
+    "stability_status": "stable_under_demo_threshold",
+    "warning": "Residuals should be interpreted alongside conditioning, scaling, perturbation sensitivity, solver method, precision, and model purpose."
+  },
+  {
+    "calculator": "numerical_stability_and_conditioning_calculator",
+    "condition_number_proxy": 399920000.0,
+    "determinant": 1e-08,
+    "matrix_case": "ill_conditioned_system",
+    "perturbation_size": 1e-05,
+    "perturbed_solution_change": 2000.0,
+    "residual_norm": 0.0,
+    "stability_status": "review_required_ill_conditioned",
+    "warning": "Residuals should be interpreted alongside conditioning, scaling, perturbation sensitivity, solver method, precision, and model purpose."
+  }
+]

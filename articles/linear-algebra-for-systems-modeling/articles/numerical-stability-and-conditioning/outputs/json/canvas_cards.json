@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "conditioning",
+    "category": "diagnostics",
+    "governance_note": "Measure problem sensitivity under small input perturbations.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Conditioning"
+  },
+  {
+    "card_id": "residual-review",
+    "category": "validation",
+    "governance_note": "Check whether computed solutions satisfy the modeled equations.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Residual Review"
+  },
+  {
+    "card_id": "perturbation-testing",
+    "category": "validation",
+    "governance_note": "Compare output changes under small coefficient or input shifts.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Perturbation Testing"
+  },
+  {
+    "card_id": "solver-stability",
+    "category": "method-choice",
+    "governance_note": "Document solver, factorization, pivoting, precision, and tolerance choices.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Solver Stability"
+  },
+  {
+    "card_id": "stability-governance",
+    "category": "responsible-use",
+    "governance_note": "Connect numerical limits, uncertainty, diagnostics, and responsible interpretation.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Stability Governance"
+  }
+]

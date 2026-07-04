@@ -1,0 +1,12 @@
+                                       calculator             matrix_case
+1 numerical_stability_and_conditioning_calculator well_conditioned_system
+2 numerical_stability_and_conditioning_calculator  ill_conditioned_system
+  determinant condition_number_proxy residual_norm perturbation_size
+1    5.75e+00             2.1000e+00             0             1e-05
+2    1.00e-08             3.9992e+08             0             1e-05
+  perturbed_solution_change                stability_status
+1                     4e-06     stable_under_demo_threshold
+2                     2e+03 review_required_ill_conditioned
+                                                                                                                                  warning
+1 Residuals should be interpreted alongside conditioning, scaling, perturbation sensitivity, solver method, precision, and model purpose.
+2 Residuals should be interpreted alongside conditioning, scaling, perturbation sensitivity, solver method, precision, and model purpose.

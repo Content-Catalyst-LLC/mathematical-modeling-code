@@ -1,0 +1,10 @@
+# Advanced Numerical Stability and Conditioning Review
+
+- **floating_point_precision** (required): Document precision, tolerance, equality tests, cancellation risk, and rounding assumptions.
+- **conditioning** (required): Report problem sensitivity using condition estimates and singular-value diagnostics where available.
+- **condition_number** (required): State norm choice or approximation method and interpret high values cautiously.
+- **residual_norm** (required): Report residual and relative residual for solves, least-squares fits, and iterative outputs.
+- **solver_choice** (required): Use solver methods matched to matrix structure, sparsity, rank, conditioning, and accuracy needs.
+- **scaling** (required): Document row, column, variable, unit, and feature scaling and connect outputs back to original units.
+- **perturbation_testing** (required): Assess output sensitivity under small input, coefficient, scenario, or tolerance changes.
+- **responsible_use** (required): Communicate numerical limits alongside uncertainty, assumptions, and model-purpose boundaries.
