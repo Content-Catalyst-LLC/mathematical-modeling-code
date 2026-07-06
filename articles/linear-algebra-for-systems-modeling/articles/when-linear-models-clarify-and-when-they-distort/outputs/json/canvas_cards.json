@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "linearity-assumption",
+    "category": "model-form",
+    "governance_note": "Review additivity, proportionality, and superposition.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Linearity Assumption"
+  },
+  {
+    "card_id": "residual-diagnostics",
+    "category": "diagnostics",
+    "governance_note": "Inspect residual structure for curvature, thresholds, and misspecification.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Residual Diagnostics"
+  },
+  {
+    "card_id": "operating-range",
+    "category": "model-boundary",
+    "governance_note": "Define interpolation, extrapolation, and local validity boundaries.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Operating Range"
+  },
+  {
+    "card_id": "distortion-risk",
+    "category": "governance",
+    "governance_note": "Flag interactions, feedback, saturation, aggregation, and regime changes.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Distortion Risk"
+  },
+  {
+    "card_id": "responsible-interpretation",
+    "category": "interpretation",
+    "governance_note": "Separate approximation, prediction, association, mechanism, and causal interpretation.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Interpretation"
+  }
+]

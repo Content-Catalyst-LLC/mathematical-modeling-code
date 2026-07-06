@@ -1,10 +1,10 @@
 {
+  "article_slug": "when-linear-models-clarify-and-when-they-distort",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "when-linear-models-clarify-and-when-they-distort",
-  "title": "When Linear Models Clarify and When They Distort",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "when-linear-models-clarify-and-when-they-distort",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "linearity-assumption",
+      "title": "Linearity Assumption",
+      "description": "Reviews additivity, proportionality, and superposition."
+    },
+    {
+      "card_id": "residual-diagnostics",
+      "title": "Residual Diagnostics",
+      "description": "Inspects residual structure for curvature, thresholds, and misspecification."
+    },
+    {
+      "card_id": "operating-range",
+      "title": "Operating Range",
+      "description": "Defines interpolation, extrapolation, and local validity boundaries."
+    },
+    {
+      "card_id": "distortion-risk",
+      "title": "Distortion Risk",
+      "description": "Flags interactions, feedback, saturation, aggregation, and regime changes."
+    },
+    {
+      "card_id": "responsible-interpretation",
+      "title": "Responsible Interpretation",
+      "description": "Separates approximation, prediction, association, mechanism, and causal interpretation."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

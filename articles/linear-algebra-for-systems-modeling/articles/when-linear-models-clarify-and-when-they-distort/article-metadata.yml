@@ -1,8 +1,7 @@
 actual_title: "When Linear Models Clarify and When They Distort"
-suggested_seo_title: "When Linear Models Clarify and When They Distort: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "When Linear Models Clarify and When They Distort: How Linear Algebra Supports and Limits Systems Modeling"
+focus_keyword: "when linear models clarify"
 slug: "when-linear-models-clarify-and-when-they-distort"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/when-linear-models-clarify-and-when-they-distort"
 tags:
   - Linear Algebra
+  - Linear Models
+  - Model Assumptions
+  - Residual Diagnostics
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "When Linear Models Clarify and When They Distort is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Responsible Modeling
+  - Mathematical Modeling
+excerpt_139_words: "When linear models clarify and when they distort explains why linear algebra can reveal structure while also simplifying systems too aggressively. This article introduces linear approximation, additivity, proportionality, superposition, local linearization, residual diagnostics, misspecification, interaction effects, nonlinear response, thresholds, saturation, feedback loops, aggregation, average effects, extrapolation, model boundaries, causal interpretation, validation, sensitivity analysis, and responsible mathematical modeling. It shows how linear models support infrastructure analysis, economic input-output systems, machine learning baselines, climate and energy models, public health projections, knowledge retrieval, optimization, and scientific computing while also exposing where linear assumptions fail. The article emphasizes that linear models are most useful when treated as structured approximations with explicit assumptions, diagnostic evidence, operating ranges, uncertainty, interpretation limits, governance review, and responsible communication."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+linearity-assumption,Linearity Assumption,model-form,98,active,2026-06-29,"Review additivity, proportionality, and superposition."
+residual-diagnostics,Residual Diagnostics,diagnostics,97,active,2026-06-29,"Inspect residual structure for curvature, thresholds, and misspecification."
+operating-range,Operating Range,model-boundary,96,review,2026-06-29,"Define interpolation, extrapolation, and local validity boundaries."
+distortion-risk,Distortion Risk,governance,95,review,2026-06-29,"Flag interactions, feedback, saturation, aggregation, and regime changes."
+responsible-interpretation,Responsible Interpretation,interpretation,94,review,2026-06-29,"Separate approximation, prediction, association, mechanism, and causal interpretation."

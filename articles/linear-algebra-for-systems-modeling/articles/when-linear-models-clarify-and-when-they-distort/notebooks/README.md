@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **When Linear Models Clarify and When They Distort** will live here.
+# Notebooks\n\nNotebook-ready workspace for linearity audits, residual diagnostics, curvature checks, threshold review, interaction review, extrapolation flags, and responsible interpretation notes.\n

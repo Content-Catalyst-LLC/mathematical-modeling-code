@@ -1,0 +1,35 @@
+section                         
+--------------------------------
+LINEAR MODEL GOVERNANCE REGISTRY
+assumption_name                  modeling_role                                                 distortion_risk                                               review_warning                                              
+-------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Additivity                       Allows separate effects to be summed in one model.            Interactions or feedback can make combined effects different  Review interaction terms subgroup residuals and mechanism as
+                                                                                                from the sum of individual effects.                          sumptions.                                                  
+
+Aggregation and average effects  Summarizes broad structure through average relationships.     Averages can hide subgroup spatial temporal or network heter  Review disaggregated behavior and subgroup errors.          
+                                                                                               ogeneity.                                                                                                                 
+
+Causal interpretation            Interprets coefficients as effects of changing inputs.        Association can be mistaken for causal mechanism.             Separate prediction association mechanism and causal identif
+                                                                                                                                                             ication.                                                    
+
+Coefficient stability            Assumes relationships remain stable over the modeled range.   Regime shifts time variation policy changes or behavioral ad  Validate across periods scenarios and operating regimes.    
+                                                                                               aptation can change coefficients.                                                                                         
+
+Extrapolation                    Uses a fitted relationship outside the observed or validated  Predictions may cross thresholds constraints or regimes not   Flag out-of-range predictions and require additional validat
+                                  range.                                                       represented in the model.                                     ion.                                                        
+
+Local approximation              Uses a linear model to approximate behavior near an operatin  Local accuracy can be mistaken for global validity.           State the operating range and check approximation error.    
+                                 g point.                                                                                                                                                                                
+
+Proportionality                  Assumes effects scale consistently with input magnitude.      Saturation thresholds scarcity or overload can change margin  Check whether the model is local global or extrapolated.    
+                                                                                               al effects.                                                                                                               
+
+Residual diagnostics             Uses unexplained structure as evidence about model adequacy.  Ignoring structured residuals can hide curvature thresholds   Inspect residual patterns before interpreting coefficients. 
+                                                                                               or missing variables.                                                                                                     
+section                         
+--------------------------------
+LINEARITY DISTORTION AUDIT CASES
+workflow_name               model_purpose                                      fitted_intercept  fitted_slope  residual_sum_squares  max_absolute_residual  residual_sign_pattern  curvature_warning                                             extrapolation_warning                                         interpretation_warning                                      
+--------------------------  -------------------------------------------------  ----------------  ------------  --------------------  ---------------------  ---------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+linearity_distortion_audit  baseline_linear_approximation_for_system_behavior  0.3               2.1           0.98                  0.7                    +--0+                  Residuals show a structured sign pattern consistent with cur  Do not extrapolate beyond the observed operating range witho  Linear models clarify first-order structure but assumptions 
+                                                                                                                                                                                   vature.                                                       ut additional validation.                                     and distortion risk must be reviewed.                       

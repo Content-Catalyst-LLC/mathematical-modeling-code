@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LinearityDistortionAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "model_purpose",
+    "fitted_intercept",
+    "fitted_slope",
+    "residual_sum_squares",
+    "max_absolute_residual",
+    "residual_sign_pattern",
+    "curvature_warning",
+    "extrapolation_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "model_purpose": {
+      "type": "string"
+    },
+    "fitted_intercept": {
+      "type": "number"
+    },
+    "fitted_slope": {
+      "type": "number"
+    },
+    "residual_sum_squares": {
+      "type": "number"
+    },
+    "max_absolute_residual": {
+      "type": "number"
+    },
+    "residual_sign_pattern": {
+      "type": "string"
+    },
+    "curvature_warning": {
+      "type": "string"
+    },
+    "extrapolation_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

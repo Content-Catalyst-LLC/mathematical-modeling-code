@@ -1,0 +1,52 @@
+[
+  {
+    "governance_note": "Review additivity, proportionality, superposition, and coefficient stability.",
+    "review_item": "linearity_assumption",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether the linear model is local, global, exploratory, predictive, explanatory, or diagnostic.",
+    "review_item": "local_vs_global_validity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Inspect residuals for curvature, thresholds, changing variance, subgroup differences, and time dependence.",
+    "review_item": "residual_structure",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether variables modify each other's effects rather than contributing independently.",
+    "review_item": "interaction_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review saturation, capacity limits, discontinuities, and regime changes.",
+    "review_item": "threshold_and_regime_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Assess whether outputs influence future inputs or whether the transition matrix changes with state.",
+    "review_item": "feedback_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Determine whether averages hide subgroup, spatial, temporal, or network heterogeneity.",
+    "review_item": "aggregation_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Flag predictions and scenarios outside observed or validated ranges.",
+    "review_item": "extrapolation_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Separate prediction, association, mechanism, and causal identification.",
+    "review_item": "causal_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain what the linear model clarifies, what it omits, and where distortion risk is highest.",
+    "review_item": "responsible_communication",
+    "status": "required"
+  }
+]
