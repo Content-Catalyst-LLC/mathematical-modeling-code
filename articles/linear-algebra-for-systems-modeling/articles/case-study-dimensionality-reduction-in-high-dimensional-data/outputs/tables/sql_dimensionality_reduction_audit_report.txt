@@ -1,0 +1,51 @@
+section                                     
+--------------------------------------------
+DIMENSIONALITY REDUCTION GOVERNANCE REGISTRY
+governance_name          modeling_role                                                 review_requirement                                            responsible_use_warning                                     
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Component selection      Defines how many dimensions are retained.                     Record explained variance reconstruction error stability evi  Variance thresholds alone can discard rare local minority or
+                                                                                       dence downstream validation and domain justification.          high-stakes structure.                                     
+
+Decision boundary        Defines what the reduced representation can and cannot suppo  Attach preprocessing choices component count uncertainty not  Dimensionality reduction should support accountable analysis
+                         rt.                                                           es validation status and stop-use conditions to outputs.       not replace domain review.                                 
+
+Feature definition       Defines what columns measure or encode.                       Record units measurement sources proxies missingness transfo  Features can encode noise bias proxy relationships or histor
+                                                                                       rmations and feature provenance.                              ical artifacts.                                             
+
+Interpretability review  Defines how component scores loadings clusters and visual pa  Review loadings domain evidence stability and whether labels  Components are mathematical mixtures not automatically causa
+                         tterns may be described.                                       are justified.                                               l factors or natural categories.                            
+
+Leakage control          Prevents validation data from influencing preprocessing or c  Fit scaling and dimensionality reduction inside training fol  Leakage can inflate model performance and make validation un
+                         omponent fitting.                                             ds or training data only.                                     reliable.                                                   
+
+Observation definition   Defines what rows of the feature matrix represent.            Document whether observations are people assets documents re  Rows may carry ethical institutional or domain-specific mean
+                                                                                       gions time periods sensors cases simulations or systems.      ing that compression can obscure.                           
+
+Preprocessing            Defines centering scaling imputation transformation filterin  Document all preprocessing parameters and ensure they are fi  Preprocessing choices can determine which features dominate 
+                         g and outlier handling.                                       t only on training data when used in predictive workflows.    the reduced representation.                                 
+
+Reconstruction review    Measures what is lost by the low-dimensional approximation.   Inspect total per-feature per-observation subgroup and task-  Low average error can hide concentrated loss for important c
+                                                                                       specific reconstruction error.                                ases.                                                       
+section                
+-----------------------
+FEATURE MATRIX METADATA
+feature_name  measurement_role                       preprocessing_note           governance_warning                                          
+------------  -------------------------------------  ---------------------------  ------------------------------------------------------------
+latency       synthetic performance-delay feature    center and scale before PCA  Dominant components are not automatically causal explanation
+                                                                                  s.                                                          
+
+load          synthetic infrastructure load feature  center and scale before PCA  High-variance features can dominate without scaling.        
+
+pressure      synthetic pressure feature             center and scale before PCA  Direction of association may differ from other features.    
+
+temperature   synthetic thermal condition feature    center and scale before PCA  Feature may encode seasonal or contextual effects.          
+
+vibration     synthetic vibration signal feature     center and scale before PCA  Low-magnitude features can still carry failure signals.     
+section                             
+------------------------------------
+DIMENSIONALITY REDUCTION AUDIT CASES
+workflow_name                   scenario_name                                     observation_count  feature_count  retained_components  cumulative_explained_variance  reconstruction_rmse  dominant_component_feature  preprocessing_summary                                validation_warning                                            interpretation_warning                                      
+------------------------------  ------------------------------------------------  -----------------  -------------  -------------------  -----------------------------  -------------------  --------------------------  ---------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+dimensionality_reduction_audit  synthetic_high_dimensional_sensor_feature_matrix  8                  5              2                    0.991                          0.086                latency                     Features were centered and standardized before PCA.  Component selection should be checked against reconstruction  Principal components are mathematical directions of variatio
+                                                                                                                                                                                                                                                                               error stability subgroup error rare-pattern preservation an  n not automatically causal factors natural categories or dec
+                                                                                                                                                                                                                                                                              d downstream task performance.                                ision-ready explanations.                                   

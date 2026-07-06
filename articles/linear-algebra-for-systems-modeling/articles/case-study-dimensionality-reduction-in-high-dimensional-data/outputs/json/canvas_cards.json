@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "feature-matrix",
+    "category": "representation",
+    "governance_note": "Define observations, features, provenance, units, proxies, and missingness.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Feature Matrix"
+  },
+  {
+    "card_id": "preprocessing",
+    "category": "preparation",
+    "governance_note": "Record centering, scaling, imputation, transformations, and leakage controls.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Preprocessing"
+  },
+  {
+    "card_id": "pca-svd",
+    "category": "decomposition",
+    "governance_note": "Compute components, singular directions, explained variance, and reduced scores.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "PCA and SVD"
+  },
+  {
+    "card_id": "reconstruction-validation",
+    "category": "diagnostics",
+    "governance_note": "Measure information loss, stability, subgroup error, and task-specific evidence.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Reconstruction and Validation"
+  },
+  {
+    "card_id": "responsible-interpretation",
+    "category": "governance",
+    "governance_note": "Keep reduced dimensions tied to approximation, uncertainty, and decision boundaries.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Interpretation"
+  }
+]

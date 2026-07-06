@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+feature-matrix,Feature Matrix,representation,98,active,2026-06-29,"Define observations, features, provenance, units, proxies, and missingness."
+preprocessing,Preprocessing,preparation,97,active,2026-06-29,"Record centering, scaling, imputation, transformations, and leakage controls."
+pca-svd,PCA and SVD,decomposition,96,review,2026-06-29,"Compute components, singular directions, explained variance, and reduced scores."
+reconstruction-validation,Reconstruction and Validation,diagnostics,95,review,2026-06-29,"Measure information loss, stability, subgroup error, and task-specific evidence."
+responsible-interpretation,Responsible Interpretation,governance,94,review,2026-06-29,"Keep reduced dimensions tied to approximation, uncertainty, and decision boundaries."

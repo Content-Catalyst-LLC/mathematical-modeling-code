@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DimensionalityReductionAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "scenario_name",
+    "observation_count",
+    "feature_count",
+    "retained_components",
+    "cumulative_explained_variance",
+    "reconstruction_rmse",
+    "dominant_component_feature",
+    "preprocessing_summary",
+    "validation_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "scenario_name": {
+      "type": "string"
+    },
+    "observation_count": {
+      "type": "integer"
+    },
+    "feature_count": {
+      "type": "integer"
+    },
+    "retained_components": {
+      "type": "integer"
+    },
+    "cumulative_explained_variance": {
+      "type": "number"
+    },
+    "reconstruction_rmse": {
+      "type": "number"
+    },
+    "dominant_component_feature": {
+      "type": "string"
+    },
+    "preprocessing_summary": {
+      "type": "string"
+    },
+    "validation_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "governance_note": "Define what rows represent and what ethical or domain-specific stakes they carry.",
+    "review_item": "observation_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record units, measurement sources, proxies, missingness, transformations, and feature provenance.",
+    "review_item": "feature_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document centering, scaling, imputation, transformation, filtering, and outlier handling.",
+    "review_item": "preprocessing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Fit scaling and dimensionality reduction only on training folds or training data in predictive workflows.",
+    "review_item": "leakage_control",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record explained variance, reconstruction error, stability evidence, downstream validation, and domain justification.",
+    "review_item": "component_selection",
+    "status": "required"
+  },
+  {
+    "governance_note": "Inspect total, per-feature, per-observation, subgroup, and task-specific reconstruction error.",
+    "review_item": "reconstruction_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether rare, minority, local, or high-stakes structure is lost in reduction.",
+    "review_item": "rare_pattern_preservation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Test component and downstream stability across samples, perturbations, time windows, and feature sets.",
+    "review_item": "stability_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review loadings, component labels, visual clusters, and domain evidence before naming dimensions.",
+    "review_item": "interpretability_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Attach preprocessing choices, component count, uncertainty notes, validation status, and stop-use conditions to outputs.",
+    "review_item": "decision_boundary",
+    "status": "required"
+  }
+]

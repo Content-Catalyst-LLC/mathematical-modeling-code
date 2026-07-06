@@ -1,10 +1,10 @@
 {
+  "article_slug": "case-study-dimensionality-reduction-in-high-dimensional-data",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "case-study-dimensionality-reduction-in-high-dimensional-data",
-  "title": "Case Study: Dimensionality Reduction in High-Dimensional Data",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "case-study-dimensionality-reduction-in-high-dimensional-data",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "feature-matrix",
+      "title": "Feature Matrix",
+      "description": "Defines observations, features, provenance, units, and missingness."
+    },
+    {
+      "card_id": "preprocessing",
+      "title": "Preprocessing",
+      "description": "Records centering, scaling, imputation, transformations, and leakage controls."
+    },
+    {
+      "card_id": "pca-svd",
+      "title": "PCA and SVD",
+      "description": "Computes components, singular directions, explained variance, and reduced scores."
+    },
+    {
+      "card_id": "reconstruction-validation",
+      "title": "Reconstruction and Validation",
+      "description": "Measures information loss, stability, subgroup error, and task-specific evidence."
+    },
+    {
+      "card_id": "responsible-interpretation",
+      "title": "Responsible Interpretation",
+      "description": "Keeps reduced dimensions tied to approximation, uncertainty, and decision boundaries."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

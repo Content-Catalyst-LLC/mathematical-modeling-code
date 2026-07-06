@@ -1,0 +1,13 @@
+{
+  "cumulative_explained_variance": 0.998112458671,
+  "dominant_component_feature": "temperature",
+  "feature_count": 5,
+  "interpretation_warning": "Principal components are mathematical directions of variation. They are not automatically causal factors, natural categories, or decision-ready explanations. Scaling, feature choice, missing data, leakage controls, and validation evidence must remain attached to the reduced representation.",
+  "observation_count": 8,
+  "preprocessing_summary": "Features were centered and standardized before covariance-based PCA.",
+  "reconstruction_rmse": 0.040639865437,
+  "retained_components": 2,
+  "scenario_name": "synthetic_high_dimensional_sensor_feature_matrix",
+  "validation_warning": "Component selection should be checked against reconstruction error, stability, subgroup error, rare-pattern preservation, and downstream task performance.",
+  "workflow_name": "dimensionality_reduction_audit"
+}

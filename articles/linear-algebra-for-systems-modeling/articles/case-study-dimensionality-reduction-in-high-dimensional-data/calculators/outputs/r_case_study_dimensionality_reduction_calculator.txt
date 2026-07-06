@@ -1,0 +1,12 @@
+                                                               calculator
+1 case_study_dimensionality_reduction_in_high_dimensional_data_calculator
+                   workflow_name
+1 dimensionality_reduction_audit
+                                     scenario_name observation_count
+1 synthetic_high_dimensional_sensor_feature_matrix                 8
+  feature_count retained_components cumulative_explained_variance
+1             5                   2                         0.991
+  reconstruction_rmse dominant_component_feature
+1               0.086                    latency
+                                                                                                                                                        warning
+1 PCA and SVD components are mathematical approximations and require preprocessing, validation, leakage, stability, rare-pattern, and decision-boundary review.

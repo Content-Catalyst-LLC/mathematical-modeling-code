@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Case Study: Dimensionality Reduction in High-Dimensional Data** will live here.
+# Notebooks\n\nNotebook-ready workspace for feature matrices, centering, scaling, covariance, PCA, SVD, projection, explained variance, reconstruction error, leakage controls, stability checks, and responsible interpretation notes.\n

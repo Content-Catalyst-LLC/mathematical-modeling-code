@@ -1,0 +1,12 @@
+{
+  "calculator": "case_study_dimensionality_reduction_in_high_dimensional_data_calculator",
+  "cumulative_explained_variance": 0.991,
+  "dominant_component_feature": "latency",
+  "feature_count": 5,
+  "observation_count": 8,
+  "reconstruction_rmse": 0.086,
+  "retained_components": 2,
+  "scenario_name": "synthetic_high_dimensional_sensor_feature_matrix",
+  "warning": "PCA and SVD components are mathematical approximations and require preprocessing, validation, leakage, stability, rare-pattern, and decision-boundary review.",
+  "workflow_name": "dimensionality_reduction_audit"
+}
