@@ -1,0 +1,15 @@
+{
+  "calculator": "case_study_linear_structure_in_machine_learning_pipelines_calculator",
+  "feature_count": 4,
+  "largest_weight_feature": "inspection_gap",
+  "max_absolute_residual": 0.061,
+  "model_family": "ridge_regression_linear_baseline",
+  "observation_count": 10,
+  "regularization_strength": 0.25,
+  "scenario_name": "synthetic_infrastructure_risk_pipeline",
+  "test_count": 3,
+  "test_rmse": 0.041,
+  "train_count": 7,
+  "warning": "Machine learning pipeline outputs require feature provenance, target validity, leakage controls, validation, residual review, monitoring, and decision boundaries.",
+  "workflow_name": "machine_learning_linear_structure_audit"
+}

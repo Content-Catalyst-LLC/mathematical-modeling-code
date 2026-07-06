@@ -1,0 +1,16 @@
+{
+  "feature_count": 4,
+  "interpretation_warning": "Linear pipeline outputs depend on feature definitions, target validity, preprocessing, train-test separation, regularization, residual structure, subgroup performance, drift monitoring, and deployment context. Coefficients and predictions are not automatic causal explanations or decision rules.",
+  "largest_weight_feature": "temperature_stress",
+  "leakage_warning": "Scaling, imputation, feature selection, dimensionality reduction, and threshold tuning must be fit inside the training process. Full-data preprocessing can leak evaluation information into the model.",
+  "max_absolute_residual": 0.024430206696,
+  "model_family": "ridge_regression_linear_baseline",
+  "observation_count": 10,
+  "preprocessing_summary": "Training means and scales were fit on training rows only and then applied to test rows.",
+  "regularization_strength": 0.25,
+  "scenario_name": "synthetic_infrastructure_risk_pipeline",
+  "test_count": 3,
+  "test_rmse": 0.015409544078,
+  "train_count": 7,
+  "workflow_name": "machine_learning_linear_structure_audit"
+}

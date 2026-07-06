@@ -1,10 +1,10 @@
 {
+  "article_slug": "case-study-linear-structure-in-machine-learning-pipelines",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "case-study-linear-structure-in-machine-learning-pipelines",
-  "title": "Case Study: Linear Structure in Machine Learning Pipelines",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "case-study-linear-structure-in-machine-learning-pipelines",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,41 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "feature-matrix",
+      "title": "Feature Matrix",
+      "description": "Defines rows, columns, labels, missingness, units, and provenance."
+    },
+    {
+      "card_id": "preprocessing-leakage",
+      "title": "Preprocessing and Leakage",
+      "description": "Records scaling, imputation, encoding, projection, and training-only fitting."
+    },
+    {
+      "card_id": "linear-baseline",
+      "title": "Linear Baseline",
+      "description": "Trains ridge regression and exports coefficient and residual diagnostics."
+    },
+    {
+      "card_id": "evaluation-monitoring",
+      "title": "Evaluation and Monitoring",
+      "description": "Reviews residuals, metrics, subgroup errors, calibration, and drift signals."
+    },
+    {
+      "card_id": "responsible-deployment",
+      "title": "Responsible Deployment",
+      "description": "Keeps predictions tied to oversight, appeal paths, stop-use conditions, and decision boundaries."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true,
+    "series_part_complete": true
+  }
 }

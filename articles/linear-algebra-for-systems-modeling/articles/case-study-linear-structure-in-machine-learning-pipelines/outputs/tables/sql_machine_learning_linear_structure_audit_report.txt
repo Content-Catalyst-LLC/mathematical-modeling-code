@@ -1,0 +1,58 @@
+section                                      
+---------------------------------------------
+MACHINE LEARNING PIPELINE GOVERNANCE REGISTRY
+governance_name         modeling_role                                                review_requirement                                            responsible_use_warning                                     
+----------------------  -----------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Baseline model          Defines the reference model used to judge added complexity.  Train transparent baselines and compare complex models again  Complexity should not be added without evidence that it impr
+                                                                                     st them using the same evaluation protocol.                   oves validated decision-relevant performance.               
+
+Decision boundary       Defines what the model can and cannot support.               Attach documentation uncertainty validation status threshold  Machine learning predictions should support accountable judg
+                                                                                      rationale oversight appeals and stop-use conditions to outp  ment not replace responsibility.                            
+                                                                                     uts.                                                                                                                      
+
+Evaluation              Defines how predictions are assessed.                        Report overall metrics residuals calibration threshold sensi  Average metrics can hide concentrated failure unequal error 
+                                                                                     tivity subgroup error rare-event performance and temporal va  and decision harm.                                          
+                                                                                     lidation.                                                                                                                 
+
+Feature definition      Defines what each model input column measures or encodes.    Record units provenance transformations proxies missingness   Features can encode proxy variables historical bias measurem
+                                                                                     and known limitations.                                        ent artifacts and institutional decisions.                  
+
+Leakage control         Prevents validation or test data from influencing training.  Fit preprocessing feature selection dimensionality reduction  Leakage can make model performance appear much better than i
+                                                                                      model parameters and thresholds inside training or validati  t will be in deployment.                                    
+                                                                                     on workflows only.                                                                                                        
+
+Monitoring and drift    Defines how deployment behavior is checked over time.        Monitor feature drift label shift concept drift embedding dr  A valid training-time model can become invalid when data beh
+                                                                                     ift residual drift data pipeline changes and retraining trig  avior policy or the environment changes.                    
+                                                                                     gers.                                                                                                                     
+
+Observation definition  Defines what rows of the feature matrix represent.           Document sampling process inclusion rules time period unit o  Rows may reflect biased sampling institutional visibility ex
+                                                                                     f analysis missing records and measurement context.           clusion or uneven data collection.                          
+
+Preprocessing           Defines transformations applied before modeling.             Document scaling centering imputation encoding normalization  Preprocessing changes feature geometry and can leak informat
+                                                                                      projection feature selection and fitted parameters.          ion if fit outside the training process.                    
+
+Target definition       Defines the outcome or label the model learns to predict.    Document label source timing measurement process subjectivit  A predictive target is not automatically a valid decision ta
+                                                                                     y delay and relationship to the decision.                     rget.                                                       
+section         
+----------------
+FEATURE METADATA
+feature_name        measurement_role                        preprocessing_note               governance_warning                                          
+------------------  --------------------------------------  -------------------------------  ------------------------------------------------------------
+asset_age           synthetic asset age feature             scaled using training rows only  Age may proxy maintenance history, investment pattern, or me
+                                                                                             asurement visibility.                                       
+
+inspection_gap      synthetic interval since inspection     scaled using training rows only  Inspection frequency may reflect institutional priorities ra
+                                                                                             ther than asset condition alone.                            
+
+load_index          synthetic demand or stress feature      scaled using training rows only  Load measurements may be uneven, seasonal, or context-depend
+                                                                                             ent.                                                        
+
+temperature_stress  synthetic environmental stress feature  scaled using training rows only  Environmental features can interact with geography, infrastr
+                                                                                             ucture quality, and vulnerability.                          
+section                                      
+---------------------------------------------
+MACHINE LEARNING LINEAR STRUCTURE AUDIT CASES
+workflow_name                            scenario_name                           observation_count  feature_count  train_count  test_count  model_family                      regularization_strength  test_rmse  max_absolute_residual  largest_weight_feature  preprocessing_summary                                         leakage_warning                                               interpretation_warning                                      
+---------------------------------------  --------------------------------------  -----------------  -------------  -----------  ----------  --------------------------------  -----------------------  ---------  ---------------------  ----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+machine_learning_linear_structure_audit  synthetic_infrastructure_risk_pipeline  10                 4              7            3           ridge_regression_linear_baseline  0.25                     0.041      0.061                  inspection_gap          Training means and scales were fit on training rows only and  Full-data preprocessing can leak evaluation information into  Coefficients and predictions are not automatic causal explan
+                                                                                                                                                                                                                                                                  then applied to test rows.                                    the model.                                                   ations or decision rules.                                   

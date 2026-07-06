@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+feature-matrix,Feature Matrix,representation,98,active,2026-06-29,"Define rows, columns, labels, missingness, units, and provenance."
+preprocessing-leakage,Preprocessing and Leakage,preparation,97,active,2026-06-29,"Record scaling, imputation, encoding, projection, and training-only fitting."
+linear-baseline,Linear Baseline,modeling,96,review,2026-06-29,Train ridge regression and export coefficient and residual diagnostics.
+evaluation-monitoring,Evaluation and Monitoring,diagnostics,95,review,2026-06-29,"Review residuals, metrics, subgroup errors, calibration, and drift signals."
+responsible-deployment,Responsible Deployment,governance,94,review,2026-06-29,"Keep predictions tied to oversight, appeal paths, stop-use conditions, and decision boundaries."

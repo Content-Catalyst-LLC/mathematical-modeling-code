@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MachineLearningPipelineAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "scenario_name",
+    "observation_count",
+    "feature_count",
+    "train_count",
+    "test_count",
+    "model_family",
+    "regularization_strength",
+    "test_rmse",
+    "max_absolute_residual",
+    "largest_weight_feature",
+    "preprocessing_summary",
+    "leakage_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "scenario_name": {
+      "type": "string"
+    },
+    "observation_count": {
+      "type": "integer"
+    },
+    "feature_count": {
+      "type": "integer"
+    },
+    "train_count": {
+      "type": "integer"
+    },
+    "test_count": {
+      "type": "integer"
+    },
+    "model_family": {
+      "type": "string"
+    },
+    "regularization_strength": {
+      "type": "number"
+    },
+    "test_rmse": {
+      "type": "number"
+    },
+    "max_absolute_residual": {
+      "type": "number"
+    },
+    "largest_weight_feature": {
+      "type": "string"
+    },
+    "preprocessing_summary": {
+      "type": "string"
+    },
+    "leakage_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

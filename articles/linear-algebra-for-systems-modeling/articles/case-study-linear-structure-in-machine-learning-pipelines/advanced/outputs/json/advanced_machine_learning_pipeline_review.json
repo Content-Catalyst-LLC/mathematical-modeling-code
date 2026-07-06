@@ -1,0 +1,52 @@
+[
+  {
+    "governance_note": "Document sampling process, inclusion rules, time period, unit of analysis, missing records, and measurement context.",
+    "review_item": "observation_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record units, provenance, transformations, proxies, missingness, and known limitations.",
+    "review_item": "feature_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document label source, timing, measurement process, subjectivity, delay, and relationship to the decision.",
+    "review_item": "target_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document scaling, centering, imputation, encoding, normalization, projection, feature selection, and fitted parameters.",
+    "review_item": "preprocessing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Fit preprocessing, feature selection, dimensionality reduction, model parameters, and thresholds inside training or validation workflows only.",
+    "review_item": "leakage_control",
+    "status": "required"
+  },
+  {
+    "governance_note": "Train transparent baselines and compare complex models against them using the same evaluation protocol.",
+    "review_item": "baseline_model",
+    "status": "required"
+  },
+  {
+    "governance_note": "Report overall metrics, residuals, calibration, threshold sensitivity, subgroup error, rare-event performance, and temporal validation.",
+    "review_item": "evaluation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Monitor feature drift, label shift, concept drift, embedding drift, residual drift, data pipeline changes, and retraining triggers.",
+    "review_item": "monitoring",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review coefficients, importances, embeddings, proxies, subgroup errors, and institutional context before making claims.",
+    "review_item": "interpretability_and_bias",
+    "status": "required"
+  },
+  {
+    "governance_note": "Attach documentation, uncertainty, validation status, threshold rationale, oversight, appeals, and stop-use conditions to outputs.",
+    "review_item": "decision_boundary",
+    "status": "required"
+  }
+]

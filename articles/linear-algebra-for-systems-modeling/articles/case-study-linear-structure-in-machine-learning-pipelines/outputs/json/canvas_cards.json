@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "feature-matrix",
+    "category": "representation",
+    "governance_note": "Define rows, columns, labels, missingness, units, and provenance.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Feature Matrix"
+  },
+  {
+    "card_id": "preprocessing-leakage",
+    "category": "preparation",
+    "governance_note": "Record scaling, imputation, encoding, projection, and training-only fitting.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Preprocessing and Leakage"
+  },
+  {
+    "card_id": "linear-baseline",
+    "category": "modeling",
+    "governance_note": "Train ridge regression and export coefficient and residual diagnostics.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Linear Baseline"
+  },
+  {
+    "card_id": "evaluation-monitoring",
+    "category": "diagnostics",
+    "governance_note": "Review residuals, metrics, subgroup errors, calibration, and drift signals.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Evaluation and Monitoring"
+  },
+  {
+    "card_id": "responsible-deployment",
+    "category": "governance",
+    "governance_note": "Keep predictions tied to oversight, appeal paths, stop-use conditions, and decision boundaries.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Deployment"
+  }
+]

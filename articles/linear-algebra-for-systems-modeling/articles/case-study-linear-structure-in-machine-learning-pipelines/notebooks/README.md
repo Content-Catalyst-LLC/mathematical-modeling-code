@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Case Study: Linear Structure in Machine Learning Pipelines** will live here.
+# Notebooks\n\nNotebook-ready workspace for feature matrices, design matrices, preprocessing, train-test separation, leakage control, ridge baselines, residual diagnostics, evaluation metrics, drift monitoring, and responsible interpretation notes.\n

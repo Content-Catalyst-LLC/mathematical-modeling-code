@@ -1,22 +1,24 @@
 actual_title: "Case Study: Linear Structure in Machine Learning Pipelines"
-suggested_seo_title: "Case Study: Linear Structure in Machine Learning Pipelines: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Case Study: Linear Structure in Machine Learning Pipelines: How Linear Algebra Shapes Modern ML Workflows"
+focus_keyword: "linear structure in machine learning pipelines"
 slug: "case-study-linear-structure-in-machine-learning-pipelines"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
   previous: "case-study-dimensionality-reduction-in-high-dimensional-data"
   current: "case-study-linear-structure-in-machine-learning-pipelines"
-  next: "linear-algebra-for-systems-modeling"
+  next: null
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/case-study-linear-structure-in-machine-learning-pipelines"
 tags:
   - Linear Algebra
-  - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
+  - Machine Learning
+  - Design Matrices
+  - Feature Engineering
+  - Ridge Regression
+  - Model Evaluation
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Case Study: Linear Structure in Machine Learning Pipelines is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Responsible Modeling
+excerpt_139_words: "Case Study: Linear Structure in Machine Learning Pipelines shows how linear algebra organizes the hidden structure of modern machine learning workflows. This article introduces feature matrices, design matrices, target vectors, preprocessing, centering, scaling, encoding, imputation, train-test separation, leakage control, linear baselines, ridge regression, regularization, projections, embeddings, neural network layers, gradients, loss functions, residuals, evaluation metrics, calibration, distribution shift, drift monitoring, interpretability, bias review, documentation, governance, and responsible deployment. It shows how matrices, vectors, transformations, and optimization shape supervised learning, retrieval systems, recommendation systems, neural networks, scientific computing, and institutional decision support while preserving limits on what predictions can prove. The article emphasizes that machine learning pipelines are strongest when feature provenance, target validity, preprocessing parameters, validation evidence, residual diagnostics, subgroup evaluation, drift monitoring, and decision boundaries remain attached to every output."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

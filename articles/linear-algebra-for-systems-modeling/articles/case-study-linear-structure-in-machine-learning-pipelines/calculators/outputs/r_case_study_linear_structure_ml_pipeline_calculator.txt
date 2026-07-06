@@ -1,0 +1,14 @@
+                                                            calculator
+1 case_study_linear_structure_in_machine_learning_pipelines_calculator
+                            workflow_name
+1 machine_learning_linear_structure_audit
+                           scenario_name observation_count feature_count
+1 synthetic_infrastructure_risk_pipeline                10             4
+  train_count test_count                     model_family
+1           7          3 ridge_regression_linear_baseline
+  regularization_strength test_rmse max_absolute_residual
+1                    0.25     0.041                 0.061
+  largest_weight_feature
+1         inspection_gap
+                                                                                                                                                             warning
+1 Machine learning pipeline outputs require feature provenance, target validity, leakage controls, validation, residual review, monitoring, and decision boundaries.
