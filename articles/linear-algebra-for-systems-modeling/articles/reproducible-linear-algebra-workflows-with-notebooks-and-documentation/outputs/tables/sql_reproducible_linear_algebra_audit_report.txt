@@ -1,0 +1,35 @@
+section                                        
+-----------------------------------------------
+REPRODUCIBLE LINEAR ALGEBRA GOVERNANCE REGISTRY
+assumption_name             workflow_role                                                 documentation_role                                            review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Environment control         Defines language versions packages numerical backends and ru  Supports reruns across machines and future maintenance.       Environment capture supports computation but does not guaran
+                            ntime settings.                                                                                                             tee model validity.                                         
+
+Generated outputs           Defines tables figures logs JSON files reports and manifests  Connects results to commands inputs code and metadata.        Manually edited outputs weaken traceability.                
+                             created by the workflow.                                                                                                                                                               
+
+Matrix construction         Defines how source data become matrices and vectors.          Documents row meaning column meaning value meaning units zer  A notebook is not reproducible if the matrix cannot be recon
+                                                                                          os missingness and transformations.                           structed from documented inputs.                            
+
+Notebook execution          Defines whether the notebook can run from a clean state.      Records execution order required inputs generated outputs an  A notebook that depends on hidden state is not a reliable re
+                                                                                          d stale-output controls.                                      producible artifact.                                        
+
+Randomness control          Defines random seeds generators sampling methods and nondete  Supports reruns for randomized algorithms simulations and sa  Randomness must be controlled and disclosed when it affects 
+                            rminism warnings.                                             mpling workflows.                                             outputs.                                                    
+
+Responsible interpretation  Defines how assumptions uncertainty validation status and mo  Prevents reproducible computation from being mistaken for co  A reproducible workflow still requires judgment about what t
+                            del limits are communicated.                                  mplete truth.                                                 he results mean.                                            
+
+Validation tests            Defines reference cases residual checks edge cases and domai  Shows whether code and model outputs are credible under revi  Reproducibility without validation can reproduce the same er
+                            n checks.                                                     ew.                                                           ror repeatedly.                                             
+
+Version control             Defines how code documentation assumptions and outputs chang  Supports audit trails review rollback and collaboration.      Version control records change but does not replace interpre
+                            e over time.                                                                                                                tation review.                                              
+section                                
+---------------------------------------
+REPRODUCIBLE LINEAR ALGEBRA AUDIT CASES
+workflow_name                               notebook_status                          documentation_status                                          matrix_shape  matrix_meaning                                             data_provenance_status                 environment_status         random_seed_status                               validation_status                             generated_outputs_status                     residual_norm  relative_residual  reproducibility_score  warning                                                     
+------------------------------------------  ---------------------------------------  ------------------------------------------------------------  ------------  ---------------------------------------------------------  -------------------------------------  -------------------------  -----------------------------------------------  --------------------------------------------  -------------------------------------------  -------------  -----------------  ---------------------  ------------------------------------------------------------
+reproducible_linear_algebra_workflow_audit  clean_execution_required_and_documented  readme_data_dictionary_method_notes_and_governance_report_re  2x2           synthetic_reference_system_for_reproducibility_validation  synthetic_data_documented_in_workflow  runtime_metadata_recorded  not_applicable_for_deterministic_reference_case  reference_solution_and_residual_check_passed  tables_json_and_reports_written_by_workflow  0.0            0.0                100                    Reproducibility means rerunnable and reviewable not automati
+                                                                                     quired                                                                                                                                                                                                                                                                                                                                                                                                        cally valid.                                                

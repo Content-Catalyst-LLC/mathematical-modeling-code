@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ReproducibleLinearAlgebraAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "notebook_status",
+    "documentation_status",
+    "matrix_shape",
+    "matrix_meaning",
+    "data_provenance_status",
+    "environment_status",
+    "random_seed_status",
+    "validation_status",
+    "generated_outputs_status",
+    "residual_norm",
+    "relative_residual",
+    "reproducibility_score",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "notebook_status": {
+      "type": "string"
+    },
+    "documentation_status": {
+      "type": "string"
+    },
+    "matrix_shape": {
+      "type": "string"
+    },
+    "matrix_meaning": {
+      "type": "string"
+    },
+    "data_provenance_status": {
+      "type": "string"
+    },
+    "environment_status": {
+      "type": "string"
+    },
+    "random_seed_status": {
+      "type": "string"
+    },
+    "validation_status": {
+      "type": "string"
+    },
+    "generated_outputs_status": {
+      "type": "string"
+    },
+    "residual_norm": {
+      "type": "number"
+    },
+    "relative_residual": {
+      "type": "number"
+    },
+    "reproducibility_score": {
+      "type": "integer"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

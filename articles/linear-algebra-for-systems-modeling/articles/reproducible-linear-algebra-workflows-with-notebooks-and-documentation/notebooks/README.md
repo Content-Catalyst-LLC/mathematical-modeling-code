@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Reproducible Linear Algebra Workflows with Notebooks and Documentation** will live here.
+# Notebooks\n\nNotebook-ready workspace for reproducible linear algebra workflows, matrix construction documentation, residual diagnostics, validation cases, generated figures, metadata, and interpretation notes. Notebooks should be run from a clean state before publication.\n

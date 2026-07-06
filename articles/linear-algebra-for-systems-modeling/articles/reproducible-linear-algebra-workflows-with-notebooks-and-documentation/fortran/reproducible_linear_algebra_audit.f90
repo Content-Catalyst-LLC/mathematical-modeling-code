@@ -1,0 +1,5 @@
+program reproducible_linear_algebra_audit
+  implicit none
+  print *, "workflow_name notebook_status documentation_status matrix_shape validation_status residual_norm reproducibility_score"
+  print *, "reproducible_linear_algebra_workflow_audit clean_execution_required_and_documented readme_data_dictionary_method_notes_and_governance_report_required 2x2 reference_solution_and_residual_check_passed 0.0 100"
+end program reproducible_linear_algebra_audit

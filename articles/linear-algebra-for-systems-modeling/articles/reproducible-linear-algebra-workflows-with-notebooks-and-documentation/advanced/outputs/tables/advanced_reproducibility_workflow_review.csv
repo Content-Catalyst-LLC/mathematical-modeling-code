@@ -1,0 +1,9 @@
+review_item,status,governance_note
+matrix_construction,required,"Document how source data become matrices and vectors, including rows, columns, values, units, zeros, missingness, and transformations."
+notebook_execution,required,"Run notebooks from a clean state and prevent hidden state, stale outputs, and ambiguous execution order."
+environment_control,required,"Record language versions, packages, numerical backends, runtime settings, hardware notes, and seeds."
+randomness_control,required,"Document seeds, generators, sampling methods, randomized algorithms, and nondeterminism warnings."
+validation_tests,required,"Include reference cases, residual checks, edge cases, domain checks, and diagnostic thresholds."
+generated_outputs,required,"Generate tables, figures, reports, JSON files, manifests, and logs directly from workflow code."
+version_control,required,"Use commits, changelogs, manifests, and output records to support audit trails and rollback."
+responsible_interpretation,required,"Pair reproducibility with assumptions, uncertainty, validation status, and interpretation boundaries."

@@ -1,0 +1,18 @@
+                                        calculator
+1 reproducible_linear_algebra_workflows_calculator
+                               workflow_name
+1 reproducible_linear_algebra_workflow_audit
+                          notebook_status
+1 clean_execution_required_and_documented
+                                                documentation_status
+1 readme_data_dictionary_method_notes_and_governance_report_required
+  matrix_shape                data_provenance_status        environment_status
+1          2x2 synthetic_data_documented_in_workflow runtime_metadata_recorded
+                             validation_status
+1 reference_solution_and_residual_check_passed
+                     generated_outputs_status residual_norm relative_residual
+1 tables_json_and_reports_written_by_workflow             0                 0
+  reproducibility_score
+1                   100
+                                                                                          warning
+1 Reproducibility supports rerun and review, but does not automatically establish model validity.

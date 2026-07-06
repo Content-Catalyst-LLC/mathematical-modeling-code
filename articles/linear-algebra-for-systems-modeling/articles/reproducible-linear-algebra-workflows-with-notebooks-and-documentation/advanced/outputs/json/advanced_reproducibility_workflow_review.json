@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Document how source data become matrices and vectors, including rows, columns, values, units, zeros, missingness, and transformations.",
+    "review_item": "matrix_construction",
+    "status": "required"
+  },
+  {
+    "governance_note": "Run notebooks from a clean state and prevent hidden state, stale outputs, and ambiguous execution order.",
+    "review_item": "notebook_execution",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record language versions, packages, numerical backends, runtime settings, hardware notes, and seeds.",
+    "review_item": "environment_control",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document seeds, generators, sampling methods, randomized algorithms, and nondeterminism warnings.",
+    "review_item": "randomness_control",
+    "status": "required"
+  },
+  {
+    "governance_note": "Include reference cases, residual checks, edge cases, domain checks, and diagnostic thresholds.",
+    "review_item": "validation_tests",
+    "status": "required"
+  },
+  {
+    "governance_note": "Generate tables, figures, reports, JSON files, manifests, and logs directly from workflow code.",
+    "review_item": "generated_outputs",
+    "status": "required"
+  },
+  {
+    "governance_note": "Use commits, changelogs, manifests, and output records to support audit trails and rollback.",
+    "review_item": "version_control",
+    "status": "required"
+  },
+  {
+    "governance_note": "Pair reproducibility with assumptions, uncertainty, validation status, and interpretation boundaries.",
+    "review_item": "responsible_interpretation",
+    "status": "required"
+  }
+]

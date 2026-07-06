@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "notebook-execution",
+    "category": "workflow-control",
+    "governance_note": "Run notebooks from a clean state without hidden cell state.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Notebook Execution"
+  },
+  {
+    "card_id": "matrix-construction",
+    "category": "data-provenance",
+    "governance_note": "Document rows, columns, values, units, zeros, missingness, and transformations.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Matrix Construction"
+  },
+  {
+    "card_id": "environment-control",
+    "category": "reproducibility",
+    "governance_note": "Record language versions, packages, numerical backends, runtime settings, and seeds.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Environment Control"
+  },
+  {
+    "card_id": "validation-and-diagnostics",
+    "category": "validation",
+    "governance_note": "Preserve residual checks, reference cases, edge cases, and domain validation.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Validation and Diagnostics"
+  },
+  {
+    "card_id": "audit-trail",
+    "category": "governance",
+    "governance_note": "Connect outputs to commands, inputs, code, metadata, version control, and interpretation notes.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Audit Trail"
+  }
+]

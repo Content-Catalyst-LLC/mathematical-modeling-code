@@ -1,0 +1,15 @@
+{
+  "calculator": "reproducible_linear_algebra_workflows_calculator",
+  "data_provenance_status": "synthetic_data_documented_in_workflow",
+  "documentation_status": "readme_data_dictionary_method_notes_and_governance_report_required",
+  "environment_status": "runtime_metadata_recorded",
+  "generated_outputs_status": "tables_json_and_reports_written_by_workflow",
+  "matrix_shape": "2x2",
+  "notebook_status": "clean_execution_required_and_documented",
+  "relative_residual": 0.0,
+  "reproducibility_score": 100,
+  "residual_norm": 0.0,
+  "validation_status": "reference_solution_and_residual_check_passed",
+  "warning": "Reproducibility supports rerun and review, but does not automatically establish model validity.",
+  "workflow_name": "reproducible_linear_algebra_workflow_audit"
+}

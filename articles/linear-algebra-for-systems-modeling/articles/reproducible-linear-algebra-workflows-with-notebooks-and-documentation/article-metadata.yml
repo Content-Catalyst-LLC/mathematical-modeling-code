@@ -1,8 +1,7 @@
 actual_title: "Reproducible Linear Algebra Workflows with Notebooks and Documentation"
-suggested_seo_title: "Reproducible Linear Algebra Workflows with Notebooks and Documentation: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Reproducible Linear Algebra Workflows with Notebooks and Documentation: How Matrix Analysis Becomes Reviewable and Trustworthy"
+focus_keyword: "reproducible linear algebra workflows"
 slug: "reproducible-linear-algebra-workflows-with-notebooks-and-documentation"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/reproducible-linear-algebra-workflows-with-notebooks-and-documentation"
 tags:
   - Linear Algebra
-  - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
+  - Reproducibility
+  - Notebooks
+  - Documentation
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Reproducible Linear Algebra Workflows with Notebooks and Documentation is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Version Control
+  - Systems Modeling
+  - Computational Workflows
+excerpt_139_words: "Reproducible linear algebra workflows with notebooks and documentation explain how matrix-based analysis can be rerun, reviewed, validated, extended, and trusted. This article introduces computational notebooks, scripts, repositories, data provenance, matrix construction records, metadata, environment files, package versions, random seeds, deterministic workflows, validation tests, reference cases, residual diagnostics, generated outputs, reproducible figures, output manifests, version control, audit trails, workflow automation, documentation layers, and responsible interpretation. It shows how reproducibility supports infrastructure network analysis, economic input-output modeling, machine learning feature pipelines, climate and energy simulation, public health projection models, knowledge retrieval, optimization, and scientific computing. The article emphasizes that reproducibility is necessary but not sufficient: workflows must also document assumptions, uncertainty, diagnostics, validation, limitations, and domain interpretation."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

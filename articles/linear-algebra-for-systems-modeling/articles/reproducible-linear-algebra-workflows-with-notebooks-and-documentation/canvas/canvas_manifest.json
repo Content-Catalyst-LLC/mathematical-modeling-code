@@ -1,10 +1,10 @@
 {
+  "article_slug": "reproducible-linear-algebra-workflows-with-notebooks-and-documentation",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "reproducible-linear-algebra-workflows-with-notebooks-and-documentation",
-  "title": "Reproducible Linear Algebra Workflows with Notebooks and Documentation",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "reproducible-linear-algebra-workflows",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "notebook-execution",
+      "title": "Notebook Execution",
+      "description": "Checks whether notebooks run from a clean state without hidden cell state."
+    },
+    {
+      "card_id": "matrix-construction",
+      "title": "Matrix Construction",
+      "description": "Documents rows, columns, values, units, zeros, missingness, and transformations."
+    },
+    {
+      "card_id": "environment-control",
+      "title": "Environment Control",
+      "description": "Records language versions, packages, numerical backends, runtime settings, and seeds."
+    },
+    {
+      "card_id": "validation-and-diagnostics",
+      "title": "Validation and Diagnostics",
+      "description": "Preserves residual checks, reference cases, edge cases, and domain validation."
+    },
+    {
+      "card_id": "audit-trail",
+      "title": "Audit Trail",
+      "description": "Connects outputs to commands, inputs, code, metadata, version control, and interpretation notes."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

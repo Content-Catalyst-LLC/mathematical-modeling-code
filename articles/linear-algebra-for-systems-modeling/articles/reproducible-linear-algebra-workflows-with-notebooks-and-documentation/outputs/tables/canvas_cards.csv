@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+notebook-execution,Notebook Execution,workflow-control,98,active,2026-06-29,Run notebooks from a clean state without hidden cell state.
+matrix-construction,Matrix Construction,data-provenance,97,active,2026-06-29,"Document rows, columns, values, units, zeros, missingness, and transformations."
+environment-control,Environment Control,reproducibility,96,review,2026-06-29,"Record language versions, packages, numerical backends, runtime settings, and seeds."
+validation-and-diagnostics,Validation and Diagnostics,validation,95,review,2026-06-29,"Preserve residual checks, reference cases, edge cases, and domain validation."
+audit-trail,Audit Trail,governance,94,review,2026-06-29,"Connect outputs to commands, inputs, code, metadata, version control, and interpretation notes."
