@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NetworkSystemAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "network_name",
+    "node_count",
+    "edge_count",
+    "total_weight",
+    "highest_weighted_degree_node",
+    "highest_weighted_degree",
+    "laplacian_trace",
+    "baseline_component_count",
+    "stressed_component_count",
+    "removed_edge",
+    "vulnerability_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "network_name": {
+      "type": "string"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "edge_count": {
+      "type": "integer"
+    },
+    "total_weight": {
+      "type": "number"
+    },
+    "highest_weighted_degree_node": {
+      "type": "string"
+    },
+    "highest_weighted_degree": {
+      "type": "number"
+    },
+    "laplacian_trace": {
+      "type": "number"
+    },
+    "baseline_component_count": {
+      "type": "integer"
+    },
+    "stressed_component_count": {
+      "type": "integer"
+    },
+    "removed_edge": {
+      "type": "string"
+    },
+    "vulnerability_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

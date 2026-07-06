@@ -1,0 +1,12 @@
+review_item,status,governance_note
+node_definition,required,"Define whether nodes are facilities, regions, agents, documents, states, sectors, or components."
+edge_definition,required,"Define whether edges represent flow, dependency, similarity, communication, probability, cost, or influence."
+weight_semantics,required,"State whether larger weights mean stronger, cheaper, riskier, more likely, more costly, or more capacious relationships."
+directionality,required,Document whether the network is directed or undirected and whether in-degree and out-degree require separate interpretation.
+matrix_construction,required,"Preserve adjacency, incidence, degree, Laplacian, transition, and stress-test matrices where applicable."
+connectivity_diagnostics,required,"Inspect components, reachability, isolated nodes, and weak versus strong connectivity."
+centrality_review,required,Compare metric-specific definitions of importance and avoid universal centrality claims.
+vulnerability_testing,required,"Run edge-removal, node-removal, weight-reduction, and boundary-sensitivity scenarios."
+data_quality,required,"Flag missing edges, spurious edges, uncertain weights, temporal mismatch, and aggregation effects."
+visualization_limits,required,"State whether layout is geographic, algorithmic, schematic, or metric-based."
+responsible_interpretation,required,"State what centrality, vulnerability, flow, diffusion, and transition outputs can and cannot prove."

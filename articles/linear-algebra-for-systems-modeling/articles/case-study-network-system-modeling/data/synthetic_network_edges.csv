@@ -1,0 +1,7 @@
+from,to,weight,edge_meaning
+A,B,4.0,relative_service_capacity
+A,C,2.0,relative_service_capacity
+B,C,3.0,relative_service_capacity
+B,D,5.0,relative_service_capacity
+C,D,1.0,relative_service_capacity
+D,E,2.0,relative_service_capacity

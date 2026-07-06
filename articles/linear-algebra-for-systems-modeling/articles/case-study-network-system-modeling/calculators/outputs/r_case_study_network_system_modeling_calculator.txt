@@ -1,0 +1,10 @@
+                                     calculator                 workflow_name
+1 case_study_network_system_modeling_calculator network_system_modeling_audit
+                              network_name node_count edge_count total_weight
+1 synthetic_infrastructure_service_network          5          6           17
+  highest_weighted_degree_node highest_weighted_degree laplacian_trace
+1                            B                      12              34
+  baseline_component_count stressed_component_count removed_edge
+1                        1                        1          B-D
+                                                                                                                              warning
+1 Network metrics depend on node definitions, edge meanings, weights, directionality, boundary choices, and missing-edge assumptions.

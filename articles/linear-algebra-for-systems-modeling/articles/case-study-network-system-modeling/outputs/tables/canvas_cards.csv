@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+node-edge-semantics,Node and Edge Semantics,representation,98,active,2026-06-29,"Define what rows, columns, and relationships mean."
+adjacency-laplacian,Adjacency and Laplacian,matrix-structure,97,active,2026-06-29,Build matrix representations for connectivity and spectral structure.
+centrality,Centrality Metrics,diagnostics,96,review,2026-06-29,Compare metric-specific definitions of network importance.
+stress-testing,Stress Testing,vulnerability,95,review,2026-06-29,"Run edge-removal, node-removal, and weight-reduction scenarios."
+responsible-interpretation,Responsible Interpretation,governance,94,review,2026-06-29,Keep network metrics tied to representation and evidence limits.

@@ -1,0 +1,57 @@
+[
+  {
+    "governance_note": "Define whether nodes are facilities, regions, agents, documents, states, sectors, or components.",
+    "review_item": "node_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define whether edges represent flow, dependency, similarity, communication, probability, cost, or influence.",
+    "review_item": "edge_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether larger weights mean stronger, cheaper, riskier, more likely, more costly, or more capacious relationships.",
+    "review_item": "weight_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether the network is directed or undirected and whether in-degree and out-degree require separate interpretation.",
+    "review_item": "directionality",
+    "status": "required"
+  },
+  {
+    "governance_note": "Preserve adjacency, incidence, degree, Laplacian, transition, and stress-test matrices where applicable.",
+    "review_item": "matrix_construction",
+    "status": "required"
+  },
+  {
+    "governance_note": "Inspect components, reachability, isolated nodes, and weak versus strong connectivity.",
+    "review_item": "connectivity_diagnostics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare metric-specific definitions of importance and avoid universal centrality claims.",
+    "review_item": "centrality_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Run edge-removal, node-removal, weight-reduction, and boundary-sensitivity scenarios.",
+    "review_item": "vulnerability_testing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Flag missing edges, spurious edges, uncertain weights, temporal mismatch, and aggregation effects.",
+    "review_item": "data_quality",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether layout is geographic, algorithmic, schematic, or metric-based.",
+    "review_item": "visualization_limits",
+    "status": "required"
+  },
+  {
+    "governance_note": "State what centrality, vulnerability, flow, diffusion, and transition outputs can and cannot prove.",
+    "review_item": "responsible_interpretation",
+    "status": "required"
+  }
+]

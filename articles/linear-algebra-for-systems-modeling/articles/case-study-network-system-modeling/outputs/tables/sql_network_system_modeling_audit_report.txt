@@ -1,0 +1,46 @@
+section                    
+---------------------------
+NETWORK GOVERNANCE REGISTRY
+governance_name            modeling_role                                                 review_requirement                                            responsible_use_warning                                     
+-------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Boundary scope             Defines which nodes edges and external dependencies are incl  Maintain a boundary register with omitted nodes omitted edge  Network vulnerability may be underestimated when external de
+                           uded or excluded.                                             s and external support assumptions.                           pendencies are excluded.                                    
+
+Centrality interpretation  Connects centrality metrics to specific definitions of impor  Report which centrality metric was used and why it matches t  Centrality means importance only under the chosen representa
+                           tance.                                                        he modeling purpose.                                          tion and metric.                                            
+
+Directionality             Defines whether links are symmetric or directional.           Document whether adjacency matrices are symmetric and whethe  Undirected simplification can hide asymmetric dependency or 
+                                                                                         r in-degree and out-degree require separate interpretation.   influence.                                                  
+
+Edge definition            Defines what a relationship means in the network.             Document whether edges represent flow dependency similarity   A connection does not automatically imply causality authorit
+                                                                                         communication probability cost or influence.                  y capacity or reliability.                                  
+
+Node definition            Defines what each row and column in the network matrix repre  Document whether nodes are facilities regions agents documen  Centrality and vulnerability metrics are not meaningful if n
+                           sents.                                                        ts states sectors or components.                              ode types are unclear or mixed without justification.       
+
+Stress testing             Compares matrix outputs under node edge weight or boundary p  Document stress scenarios removed elements and scenario assu  Stress tests are scenario analyses not predictions unless va
+                           erturbations.                                                 mptions.                                                      lidated against real failure behavior.                      
+
+Visualization limits       Defines how network graphics should be interpreted.           State whether layout is geographic algorithmic schematic or   Graph layout can visually imply structure not supported by t
+                                                                                         metric-based.                                                 he model.                                                   
+
+Weight semantics           Defines how edge magnitudes should be interpreted.            State whether larger weights mean stronger cheaper riskier m  Weight meaning must be clear before ranking optimizing or co
+                                                                                         ore likely more costly or more capacious relationships.       mparing network structure.                                  
+section                
+-----------------------
+SYNTHETIC NETWORK EDGES
+source_node  target_node  weight  edge_meaning             
+-----------  -----------  ------  -------------------------
+A            B            4.0     relative_service_capacity
+A            C            2.0     relative_service_capacity
+B            C            3.0     relative_service_capacity
+B            D            5.0     relative_service_capacity
+C            D            1.0     relative_service_capacity
+D            E            2.0     relative_service_capacity
+section                            
+-----------------------------------
+NETWORK SYSTEM MODELING AUDIT CASES
+workflow_name                  network_name                              node_count  edge_count  total_weight  highest_weighted_degree_node  highest_weighted_degree  laplacian_trace  baseline_component_count  stressed_component_count  removed_edge  vulnerability_warning                                         interpretation_warning                                      
+-----------------------------  ----------------------------------------  ----------  ----------  ------------  ----------------------------  -----------------------  ---------------  ------------------------  ------------------------  ------------  ------------------------------------------------------------  ------------------------------------------------------------
+network_system_modeling_audit  synthetic_infrastructure_service_network  5           6           17.0          B                             12.0                     34.0             1                         1                         B-D           The edge-removal scenario is a simplified stress test and do  Network metrics depend on node definitions edge meanings wei
+                                                                                                                                                                                                                                                         es not predict real failure behavior without validation.      ghts directionality boundaries and missing-edge assumptions.

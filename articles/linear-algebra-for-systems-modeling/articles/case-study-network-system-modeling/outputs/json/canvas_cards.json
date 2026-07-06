@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "node-edge-semantics",
+    "category": "representation",
+    "governance_note": "Define what rows, columns, and relationships mean.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Node and Edge Semantics"
+  },
+  {
+    "card_id": "adjacency-laplacian",
+    "category": "matrix-structure",
+    "governance_note": "Build matrix representations for connectivity and spectral structure.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Adjacency and Laplacian"
+  },
+  {
+    "card_id": "centrality",
+    "category": "diagnostics",
+    "governance_note": "Compare metric-specific definitions of network importance.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Centrality Metrics"
+  },
+  {
+    "card_id": "stress-testing",
+    "category": "vulnerability",
+    "governance_note": "Run edge-removal, node-removal, and weight-reduction scenarios.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Stress Testing"
+  },
+  {
+    "card_id": "responsible-interpretation",
+    "category": "governance",
+    "governance_note": "Keep network metrics tied to representation and evidence limits.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Interpretation"
+  }
+]

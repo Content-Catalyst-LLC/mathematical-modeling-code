@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Case Study: Network System Modeling** will live here.
+# Notebooks\n\nNotebook-ready workspace for network matrices, degree diagnostics, Laplacian analysis, stress testing, centrality review, visualization limits, and responsible interpretation notes.\n

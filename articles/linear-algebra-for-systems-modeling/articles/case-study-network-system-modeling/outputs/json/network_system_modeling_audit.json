@@ -1,0 +1,15 @@
+{
+  "baseline_component_count": 1,
+  "edge_count": 6,
+  "highest_weighted_degree": 12.0,
+  "highest_weighted_degree_node": "B",
+  "interpretation_warning": "Network metrics depend on node definitions, edge meanings, weights, directionality, boundary choices, and missing-edge assumptions. Centrality and vulnerability should be interpreted only within that representation.",
+  "laplacian_trace": 34.0,
+  "network_name": "synthetic_infrastructure_service_network",
+  "node_count": 5,
+  "removed_edge": "B-D",
+  "stressed_component_count": 1,
+  "total_weight": 17.0,
+  "vulnerability_warning": "The edge-removal scenario changes network structure under one simplified stress test. It does not predict real failure behavior without capacity, timing, redundancy, and domain validation.",
+  "workflow_name": "network_system_modeling_audit"
+}
