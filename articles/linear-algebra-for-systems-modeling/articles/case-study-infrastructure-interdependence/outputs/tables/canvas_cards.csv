@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+sector-semantics,Sector Semantics,representation,98,active,2026-06-29,"Define infrastructure layers, service meanings, and model boundaries."
+dependency-matrix,Dependency Matrix,matrix-structure,97,active,2026-06-29,"Record cross-sector reliance, weight semantics, and evidence quality."
+cascade-scenario,Cascade Scenario,scenario-analysis,96,review,2026-06-29,Apply initial shocks and estimate downstream service loss.
+redundancy-equity,Redundancy and Equity,resilience,95,review,2026-06-29,Review backup capacity and uneven distributional risk.
+responsible-use,Responsible Use,governance,94,review,2026-06-29,"Keep scenario outputs tied to validation, uncertainty, and decision boundaries."

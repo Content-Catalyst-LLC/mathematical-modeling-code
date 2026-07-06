@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "sector-semantics",
+    "category": "representation",
+    "governance_note": "Define infrastructure layers, service meanings, and model boundaries.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Sector Semantics"
+  },
+  {
+    "card_id": "dependency-matrix",
+    "category": "matrix-structure",
+    "governance_note": "Record cross-sector reliance, weight semantics, and evidence quality.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Dependency Matrix"
+  },
+  {
+    "card_id": "cascade-scenario",
+    "category": "scenario-analysis",
+    "governance_note": "Apply initial shocks and estimate downstream service loss.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Cascade Scenario"
+  },
+  {
+    "card_id": "redundancy-equity",
+    "category": "resilience",
+    "governance_note": "Review backup capacity and uneven distributional risk.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Redundancy and Equity"
+  },
+  {
+    "card_id": "responsible-use",
+    "category": "governance",
+    "governance_note": "Keep scenario outputs tied to validation, uncertainty, and decision boundaries.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Use"
+  }
+]

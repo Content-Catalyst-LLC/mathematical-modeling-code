@@ -1,8 +1,7 @@
 actual_title: "Case Study: Infrastructure Interdependence"
-suggested_seo_title: "Case Study: Infrastructure Interdependence: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Case Study: Infrastructure Interdependence: How Linear Algebra Models Cascading Risk Across Systems"
+focus_keyword: "infrastructure interdependence"
 slug: "case-study-infrastructure-interdependence"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/case-study-infrastructure-interdependence"
 tags:
   - Linear Algebra
+  - Infrastructure Interdependence
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
+  - Dependency Matrices
+  - Cascading Failure
+  - Resilience
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Case Study: Infrastructure Interdependence is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Responsible Modeling
+excerpt_139_words: "Case Study: Infrastructure Interdependence shows how linear algebra can model connected infrastructure systems whose risks do not stay inside one sector. This article introduces dependency matrices, multilayer networks, coupling matrices, cross-sector effects, service-level vectors, cascading disruption, redundancy, robustness, criticality, recovery prioritization, scenario stress testing, uncertainty, data quality, geography, time, capacity, equity, validation, governance, and responsible interpretation. It shows how power, water, communications, transportation, health, fuel, logistics, and digital systems can be represented as interdependent service layers while preserving limits on what matrix outputs can prove. The article emphasizes that infrastructure interdependence models are strongest when sector definitions, dependency meanings, weight evidence, uncertainty, validation, equity review, governance context, and decision boundaries remain attached to every result."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

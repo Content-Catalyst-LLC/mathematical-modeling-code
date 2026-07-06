@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Case Study: Infrastructure Interdependence** will live here.
+# Notebooks\n\nNotebook-ready workspace for dependency matrices, coupling matrices, service vectors, cascade scenarios, sensitivity review, equity review, validation status, and governance notes.\n

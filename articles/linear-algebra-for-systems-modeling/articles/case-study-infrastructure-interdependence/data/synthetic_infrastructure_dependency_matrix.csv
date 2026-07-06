@@ -1,0 +1,6 @@
+sector,power,water,communications,transportation,health
+power,0.00,0.05,0.10,0.10,0.00
+water,0.70,0.00,0.10,0.20,0.00
+communications,0.60,0.00,0.00,0.10,0.00
+transportation,0.30,0.00,0.20,0.00,0.05
+health,0.80,0.50,0.40,0.30,0.00

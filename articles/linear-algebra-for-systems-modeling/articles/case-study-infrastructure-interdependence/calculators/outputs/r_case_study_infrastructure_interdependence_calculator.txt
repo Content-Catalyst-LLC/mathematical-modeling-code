@@ -1,0 +1,14 @@
+                                            calculator
+1 case_study_infrastructure_interdependence_calculator
+                         workflow_name
+1 infrastructure_interdependence_audit
+                                   scenario_name sector_count
+1 synthetic_power_disruption_dependency_scenario            5
+  initial_shock_sector initial_shock_magnitude highest_dependency_burden_sector
+1                power                     0.4                            power
+  highest_dependency_burden largest_downstream_loss_sector
+1                       2.4                         health
+  largest_downstream_loss total_estimated_downstream_loss
+1                    0.32                            0.96
+                                                                                warning
+1 Dependency weights are scenario assumptions and cascade estimates require validation.

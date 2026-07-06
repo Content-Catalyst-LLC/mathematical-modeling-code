@@ -1,10 +1,10 @@
 {
+  "article_slug": "case-study-infrastructure-interdependence",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "case-study-infrastructure-interdependence",
-  "title": "Case Study: Infrastructure Interdependence",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "case-study-infrastructure-interdependence",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "sector-semantics",
+      "title": "Sector Semantics",
+      "description": "Defines infrastructure layers and model boundaries."
+    },
+    {
+      "card_id": "dependency-matrix",
+      "title": "Dependency Matrix",
+      "description": "Records cross-sector reliance and weight evidence."
+    },
+    {
+      "card_id": "cascade-scenario",
+      "title": "Cascade Scenario",
+      "description": "Applies an initial disruption and estimates downstream service loss."
+    },
+    {
+      "card_id": "redundancy-equity",
+      "title": "Redundancy and Equity",
+      "description": "Reviews backup capacity and uneven distributional risk."
+    },
+    {
+      "card_id": "responsible-use",
+      "title": "Responsible Use",
+      "description": "Keeps scenario outputs tied to validation and decision boundaries."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

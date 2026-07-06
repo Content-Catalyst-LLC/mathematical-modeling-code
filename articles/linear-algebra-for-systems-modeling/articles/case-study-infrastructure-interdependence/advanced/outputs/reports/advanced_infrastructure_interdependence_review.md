@@ -1,0 +1,12 @@
+# Advanced Infrastructure Interdependence Review
+
+- **sector_definition** (required): Define whether sectors represent services, assets, operators, regions, facilities, or institutional functions.
+- **dependency_semantics** (required): State whether dependencies are physical, cyber, geographic, operational, economic, institutional, or mixed.
+- **weight_evidence** (required): Record whether weights come from operational data, historical events, expert judgment, simulations, or scenario assumptions.
+- **cascade_assumption** (required): Document whether the model uses one-step, multi-step, linear, threshold, delayed, or nonlinear propagation.
+- **redundancy_review** (required): Document backups, alternative paths, spare capacity, reserves, workarounds, and their duration limits.
+- **geography_time_capacity** (required): Review geography, time delays, capacity thresholds, storage, access, and repair constraints.
+- **data_quality** (required): Flag missing dependencies, uncertain weights, confidential data gaps, outdated records, and aggregation effects.
+- **equity_review** (required): Check whether aggregate service-loss metrics hide concentrated impacts across populations and places.
+- **validation_status** (required): Compare modeled cascades against historical disruptions, exercises, operational records, and domain expertise.
+- **decision_boundary** (required): Attach interpretation limits, uncertainty notes, review status, and stop-use conditions to outputs.

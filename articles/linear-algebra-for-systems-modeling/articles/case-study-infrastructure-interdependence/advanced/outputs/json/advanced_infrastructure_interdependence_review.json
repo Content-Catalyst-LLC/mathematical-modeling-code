@@ -1,0 +1,52 @@
+[
+  {
+    "governance_note": "Define whether sectors represent services, assets, operators, regions, facilities, or institutional functions.",
+    "review_item": "sector_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether dependencies are physical, cyber, geographic, operational, economic, institutional, or mixed.",
+    "review_item": "dependency_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record whether weights come from operational data, historical events, expert judgment, simulations, or scenario assumptions.",
+    "review_item": "weight_evidence",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether the model uses one-step, multi-step, linear, threshold, delayed, or nonlinear propagation.",
+    "review_item": "cascade_assumption",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document backups, alternative paths, spare capacity, reserves, workarounds, and their duration limits.",
+    "review_item": "redundancy_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review geography, time delays, capacity thresholds, storage, access, and repair constraints.",
+    "review_item": "geography_time_capacity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Flag missing dependencies, uncertain weights, confidential data gaps, outdated records, and aggregation effects.",
+    "review_item": "data_quality",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check whether aggregate service-loss metrics hide concentrated impacts across populations and places.",
+    "review_item": "equity_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare modeled cascades against historical disruptions, exercises, operational records, and domain expertise.",
+    "review_item": "validation_status",
+    "status": "required"
+  },
+  {
+    "governance_note": "Attach interpretation limits, uncertainty notes, review status, and stop-use conditions to outputs.",
+    "review_item": "decision_boundary",
+    "status": "required"
+  }
+]

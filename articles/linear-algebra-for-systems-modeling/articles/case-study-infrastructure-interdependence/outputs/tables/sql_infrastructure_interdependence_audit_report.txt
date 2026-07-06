@@ -1,0 +1,46 @@
+section                           
+----------------------------------
+INFRASTRUCTURE GOVERNANCE REGISTRY
+governance_name       modeling_role                                                 review_requirement                                            responsible_use_warning                                     
+--------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Cascade assumption    Defines how disruption is propagated across sectors.          Document whether the model uses one-step multi-step linear t  Linear cascade estimates should not be treated as prediction
+                                                                                    hreshold delayed or nonlinear propagation.                    s without validation.                                       
+
+Decision boundary     Defines what the model can and cannot support.                Attach interpretation limits uncertainty notes review status  The model should inform public decisions not replace account
+                                                                                     and stop-use conditions to outputs.                          able institutional judgment.                                
+
+Dependency semantics  Defines what cross-sector reliance means.                     State whether dependencies are physical cyber geographic ope  Different dependency types should not be mixed without docum
+                                                                                    rational economic institutional or mixed.                     entation.                                                   
+
+Equity review         Connects service loss to people places and uneven vulnerabil  Review whether aggregate sector losses hide concentrated imp  Average service loss can understate harm to vulnerable popul
+                      ity.                                                          acts across communities.                                      ations.                                                     
+
+Redundancy review     Records backups alternative paths spare capacity reserves an  Document backup duration fuel access capacity staffing and g  Redundancy on paper may not be usable during regional disrup
+                      d workarounds.                                                eographic availability.                                       tions.                                                      
+
+Sector definition     Defines the infrastructure layers represented by rows and co  Document whether sectors represent services assets operators  Sector-level models can hide asset-level bottlenecks and une
+                      lumns.                                                         regions facilities or institutional functions.               ven service impacts.                                        
+
+Validation status     Records whether modeled dependencies and cascades have evide  Compare results with historical disruptions exercises operat  Unvalidated cascade scenarios should be communicated as expl
+                      nce support.                                                  ional records and domain expertise.                           oratory.                                                    
+
+Weight evidence       Defines how dependency weights were estimated.                Record whether weights come from operational data historical  Judgment-based weights require sensitivity testing and uncer
+                                                                                     events expert judgment simulations or scenario assumptions.  tainty flags.                                               
+section                            
+-----------------------------------
+DEPENDENCY BURDEN BY SUPPORT SECTOR
+support_sector  dependency_burden
+--------------  -----------------
+power           2.4              
+communications  0.8              
+transportation  0.7              
+water           0.55             
+health          0.05             
+section                                   
+------------------------------------------
+INFRASTRUCTURE INTERDEPENDENCE AUDIT CASES
+workflow_name                         scenario_name                                   sector_count  initial_shock_sector  initial_shock_magnitude  highest_dependency_burden_sector  highest_dependency_burden  largest_downstream_loss_sector  largest_downstream_loss  total_estimated_downstream_loss  sensitivity_warning                                           interpretation_warning                                      
+------------------------------------  ----------------------------------------------  ------------  --------------------  -----------------------  --------------------------------  -------------------------  ------------------------------  -----------------------  -------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+infrastructure_interdependence_audit  synthetic_power_disruption_dependency_scenario  5             power                 0.4                      power                             2.4                        health                          0.32                     0.96                             Dependency weights are scenario assumptions and require sens  This one-step linear cascade estimate supports exploratory p
+                                                                                                                                                                                                                                                                                                          itivity testing.                                              lanning only and does not predict real failure behavior with
+                                                                                                                                                                                                                                                                                                                                                                        out validation.                                             
