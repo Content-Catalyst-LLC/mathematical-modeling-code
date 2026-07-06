@@ -1,0 +1,15 @@
+{
+  "economy_name": "synthetic_three_sector_economy",
+  "final_demand_total": 450.0,
+  "gross_output_change_total": 48.795629500869,
+  "gross_output_total": 763.099081201887,
+  "highest_multiplier_sector": "manufacturing",
+  "highest_output_multiplier": 1.951825180035,
+  "interpretation_warning": "Input-output results depend on fixed technical coefficients, sector aggregation, domestic/import boundaries, price basis, final-demand assumptions, and capacity limits. Multipliers are not automatic measures of welfare, productivity, or policy priority.",
+  "leontief_infinity_condition_estimate": 2.147504345667,
+  "sector_count": 3,
+  "shock_amount": 25.0,
+  "shock_sector": "manufacturing",
+  "solvability_warning": "The Leontief matrix must be invertible and the solution should be checked for numerical stability, residual error, plausibility, and economically meaningful output levels.",
+  "workflow_name": "economic_input_output_audit"
+}

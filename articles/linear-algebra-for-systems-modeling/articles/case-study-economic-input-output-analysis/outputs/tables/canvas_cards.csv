@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+sector-boundary,Sector and Boundary Definitions,representation,98,active,2026-06-29,"Define sector classification, table year, price basis, and domestic/import boundary."
+technical-coefficients,Technical Coefficients,matrix-structure,97,active,2026-06-29,Record input requirements per unit output and coefficient-construction assumptions.
+leontief-system,Leontief System,linear-system,96,review,2026-06-29,"Check invertibility, conditioning, residuals, plausibility, and total requirements."
+multiplier-scenarios,Multipliers and Scenarios,diagnostics,95,review,2026-06-29,Compute multipliers and final-demand shocks without overclaiming policy value.
+responsible-interpretation,Responsible Interpretation,governance,94,review,2026-06-29,"Keep multipliers tied to fixed-coefficient, boundary, and policy-use limits."

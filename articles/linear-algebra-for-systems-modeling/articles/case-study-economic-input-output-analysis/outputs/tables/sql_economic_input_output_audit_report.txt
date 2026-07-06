@@ -1,0 +1,53 @@
+section                         
+--------------------------------
+INPUT-OUTPUT GOVERNANCE REGISTRY
+governance_name                             modeling_role                                                 review_requirement                                            responsible_use_warning                                     
+------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Coefficient construction                    Defines how transactions are converted into technical coeffi  Record transaction source output denominator price basis dom  Technical coefficients are assumptions about fixed productio
+                                            cients.                                                       estic/import treatment and matrix orientation.                n relationships not timeless production laws.               
+
+Decision boundary                           Defines what the model can and cannot support.                Attach interpretation limits uncertainty notes validation st  Input-output analysis should inform economic systems reasoni
+                                                                                                          atus and stop-use conditions to outputs.                      ng not replace accountable policy judgment.                 
+
+Demand scenario                             Defines the final-demand vector or demand shock being modele  Document scenario source units timing price basis affected s  Demand shocks are what-if assumptions not forecasts unless e
+                                            d.                                                            ectors and uncertainty.                                       xternally validated.                                        
+
+Environmental and social extension factors  Maps production requirements into emissions energy water lab  Document extension source year units sector match and uncert  Extensions can inherit both coefficient uncertainty and foot
+                                            or income or other indicators.                                ainty.                                                        print-factor uncertainty.                                   
+
+Import boundary                             Distinguishes domestic requirements from total requirements.  State whether coefficients are domestic total import-adjuste  Local and domestic effects can be overstated when import lea
+                                                                                                          d regional national or multi-region.                          kage is ignored.                                            
+
+Leontief solution                           Solves total gross output required for final demand.          Check invertibility numerical stability plausibility and eco  A mathematically valid solution may still be infeasible unde
+                                                                                                          nomically meaningful output levels.                           r capacity price labor or material constraints.             
+
+Multiplier interpretation                   Summarizes direct and indirect output requirements.           Define the multiplier type and attach accounting boundaries.  Multipliers are not automatic measures of welfare productivi
+                                                                                                                                                                        ty social value or policy priority.                         
+
+Sector definition                           Defines the industries or commodities represented by rows an  Document sector classification aggregation level region tabl  Sector aggregation can hide specialized supply-chain bottlen
+                                            d columns.                                                    e year and table source.                                      ecks and distributional effects.                            
+section                                
+---------------------------------------
+TECHNICAL COEFFICIENTS BY OUTPUT SECTOR
+output_sector  direct_input_requirement_sum
+-------------  ----------------------------
+manufacturing  0.55                        
+services       0.35                        
+agriculture    0.3                         
+section     
+------------
+FINAL DEMAND
+sector         final_demand
+-------------  ------------
+agriculture    100.0       
+manufacturing  150.0       
+services       200.0       
+section                          
+---------------------------------
+ECONOMIC INPUT-OUTPUT AUDIT CASES
+workflow_name                economy_name                    sector_count  final_demand_total  gross_output_total  highest_multiplier_sector  highest_output_multiplier  shock_sector   shock_amount  gross_output_change_total  leontief_infinity_condition_estimate  solvability_warning                                           interpretation_warning                                      
+---------------------------  ------------------------------  ------------  ------------------  ------------------  -------------------------  -------------------------  -------------  ------------  -------------------------  ------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+economic_input_output_audit  synthetic_three_sector_economy  3             450.0               763.099081201887    manufacturing              1.951825177111             manufacturing  25.0          48.795629500869            2.147504345667                        The Leontief matrix must be invertible and checked for numer  Input-output results depend on fixed coefficients aggregatio
+                                                                                                                                                                                                                                                                       ical stability and plausibility.                              n domestic/import boundaries price basis final-demand assump
+                                                                                                                                                                                                                                                                                                                                     tions and capacity limits. Multipliers are not automatic pol
+                                                                                                                                                                                                                                                                                                                                     icy conclusions.                                            

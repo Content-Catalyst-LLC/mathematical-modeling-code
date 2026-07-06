@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "sector-boundary",
+    "category": "representation",
+    "governance_note": "Define sector classification, table year, price basis, and domestic/import boundary.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Sector and Boundary Definitions"
+  },
+  {
+    "card_id": "technical-coefficients",
+    "category": "matrix-structure",
+    "governance_note": "Record input requirements per unit output and coefficient-construction assumptions.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Technical Coefficients"
+  },
+  {
+    "card_id": "leontief-system",
+    "category": "linear-system",
+    "governance_note": "Check invertibility, conditioning, residuals, plausibility, and total requirements.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Leontief System"
+  },
+  {
+    "card_id": "multiplier-scenarios",
+    "category": "diagnostics",
+    "governance_note": "Compute multipliers and final-demand shocks without overclaiming policy value.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Multipliers and Scenarios"
+  },
+  {
+    "card_id": "responsible-interpretation",
+    "category": "governance",
+    "governance_note": "Keep multipliers tied to fixed-coefficient, boundary, and policy-use limits.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Interpretation"
+  }
+]

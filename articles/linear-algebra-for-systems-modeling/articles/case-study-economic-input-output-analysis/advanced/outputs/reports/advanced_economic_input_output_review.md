@@ -1,0 +1,12 @@
+# Advanced Economic Input-Output Review
+
+- **sector_definition** (required): Document sector classification, aggregation level, geography, table year, and source.
+- **coefficient_construction** (required): Record transaction sources, output denominators, price basis, domestic/import treatment, and matrix orientation.
+- **leontief_solution** (required): Check invertibility, numerical stability, residuals, nonnegative outputs, and economic plausibility.
+- **condition_review** (required): Estimate matrix conditioning and test sensitivity to coefficient perturbations.
+- **multiplier_interpretation** (required): Define output, value-added, employment, emissions, or other multiplier type and avoid welfare overclaims.
+- **demand_scenario** (required): Document scenario source, units, timing, price basis, affected sectors, and uncertainty.
+- **import_boundary** (required): State whether coefficients are domestic, total, import-adjusted, regional, national, or multi-region.
+- **capacity_and_price_limits** (required): State limits involving capacity constraints, price response, substitution, inventories, and behavioral adjustment.
+- **extension_factors** (required): Document environmental or social extension sources, units, sector matching, and uncertainty.
+- **decision_boundary** (required): Attach interpretation limits, validation status, uncertainty notes, and stop-use conditions to outputs.

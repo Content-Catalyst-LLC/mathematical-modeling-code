@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EconomicInputOutputAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "economy_name",
+    "sector_count",
+    "final_demand_total",
+    "gross_output_total",
+    "highest_multiplier_sector",
+    "highest_output_multiplier",
+    "shock_sector",
+    "shock_amount",
+    "gross_output_change_total",
+    "leontief_infinity_condition_estimate",
+    "solvability_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "economy_name": {
+      "type": "string"
+    },
+    "sector_count": {
+      "type": "integer"
+    },
+    "final_demand_total": {
+      "type": "number"
+    },
+    "gross_output_total": {
+      "type": "number"
+    },
+    "highest_multiplier_sector": {
+      "type": "string"
+    },
+    "highest_output_multiplier": {
+      "type": "number"
+    },
+    "shock_sector": {
+      "type": "string"
+    },
+    "shock_amount": {
+      "type": "number"
+    },
+    "gross_output_change_total": {
+      "type": "number"
+    },
+    "leontief_infinity_condition_estimate": {
+      "type": "number"
+    },
+    "solvability_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

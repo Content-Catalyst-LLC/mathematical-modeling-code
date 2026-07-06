@@ -1,0 +1,52 @@
+[
+  {
+    "governance_note": "Document sector classification, aggregation level, geography, table year, and source.",
+    "review_item": "sector_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record transaction sources, output denominators, price basis, domestic/import treatment, and matrix orientation.",
+    "review_item": "coefficient_construction",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check invertibility, numerical stability, residuals, nonnegative outputs, and economic plausibility.",
+    "review_item": "leontief_solution",
+    "status": "required"
+  },
+  {
+    "governance_note": "Estimate matrix conditioning and test sensitivity to coefficient perturbations.",
+    "review_item": "condition_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define output, value-added, employment, emissions, or other multiplier type and avoid welfare overclaims.",
+    "review_item": "multiplier_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document scenario source, units, timing, price basis, affected sectors, and uncertainty.",
+    "review_item": "demand_scenario",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether coefficients are domestic, total, import-adjusted, regional, national, or multi-region.",
+    "review_item": "import_boundary",
+    "status": "required"
+  },
+  {
+    "governance_note": "State limits involving capacity constraints, price response, substitution, inventories, and behavioral adjustment.",
+    "review_item": "capacity_and_price_limits",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document environmental or social extension sources, units, sector matching, and uncertainty.",
+    "review_item": "extension_factors",
+    "status": "required"
+  },
+  {
+    "governance_note": "Attach interpretation limits, validation status, uncertainty notes, and stop-use conditions to outputs.",
+    "review_item": "decision_boundary",
+    "status": "required"
+  }
+]

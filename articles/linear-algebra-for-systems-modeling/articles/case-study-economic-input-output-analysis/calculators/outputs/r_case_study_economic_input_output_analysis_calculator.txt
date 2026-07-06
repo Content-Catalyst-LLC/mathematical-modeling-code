@@ -1,0 +1,12 @@
+                                            calculator
+1 case_study_economic_input_output_analysis_calculator
+                workflow_name                   economy_name sector_count
+1 economic_input_output_audit synthetic_three_sector_economy            3
+  final_demand_total gross_output_total highest_multiplier_sector
+1                450           763.0991             manufacturing
+  highest_output_multiplier  shock_sector shock_amount
+1                  1.951825 manufacturing           25
+  gross_output_change_total leontief_infinity_condition_estimate
+1                  48.79563                             2.147504
+                                                                                             warning
+1 Input-output multipliers are fixed-coefficient scenario outputs, not automatic policy conclusions.

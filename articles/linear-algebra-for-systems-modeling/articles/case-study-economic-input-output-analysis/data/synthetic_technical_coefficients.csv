@@ -1,0 +1,4 @@
+input_sector,agriculture,manufacturing,services
+agriculture,0.10,0.20,0.05
+manufacturing,0.15,0.25,0.10
+services,0.05,0.10,0.20

@@ -1,0 +1,15 @@
+{
+  "calculator": "case_study_economic_input_output_analysis_calculator",
+  "economy_name": "synthetic_three_sector_economy",
+  "final_demand_total": 450.0,
+  "gross_output_change_total": 48.795629500869,
+  "gross_output_total": 763.099081201887,
+  "highest_multiplier_sector": "manufacturing",
+  "highest_output_multiplier": 1.951825177111,
+  "leontief_infinity_condition_estimate": 2.147504345667,
+  "sector_count": 3,
+  "shock_amount": 25.0,
+  "shock_sector": "manufacturing",
+  "warning": "Input-output multipliers are fixed-coefficient scenario outputs, not automatic policy conclusions.",
+  "workflow_name": "economic_input_output_audit"
+}

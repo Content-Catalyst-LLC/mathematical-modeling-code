@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Case Study: Economic Input-Output Analysis** will live here.
+# Notebooks\n\nNotebook-ready workspace for transaction matrices, technical coefficients, Leontief systems, total requirements, multipliers, final-demand shocks, conditioning checks, and responsible interpretation notes.\n

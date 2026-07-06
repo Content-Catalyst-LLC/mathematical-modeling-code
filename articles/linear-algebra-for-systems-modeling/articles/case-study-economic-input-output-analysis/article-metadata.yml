@@ -1,8 +1,7 @@
 actual_title: "Case Study: Economic Input-Output Analysis"
-suggested_seo_title: "Case Study: Economic Input-Output Analysis: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Case Study: Economic Input-Output Analysis: How Linear Algebra Models Sector Interdependence"
+focus_keyword: "economic input-output analysis"
 slug: "case-study-economic-input-output-analysis"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/case-study-economic-input-output-analysis"
 tags:
   - Linear Algebra
-  - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
+  - Input-Output Analysis
+  - Leontief Systems
+  - Economic Modeling
+  - Supply Chains
+  - Multipliers
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Case Study: Economic Input-Output Analysis is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Responsible Modeling
+excerpt_139_words: "Case Study: Economic Input-Output Analysis shows how linear algebra models interdependence among sectors, industries, supply chains, and final demand. This article introduces transaction tables, technical coefficients, interindustry dependence, Leontief systems, the Leontief inverse, total requirements, output multipliers, demand shocks, supply-chain exposure, imports, leakage, domestic requirements, price limits, capacity constraints, environmental extensions, social extensions, aggregation, data quality, uncertainty, validation, and responsible interpretation. It shows how input-output matrices support economic systems analysis, sustainability accounting, regional planning, industrial strategy, infrastructure investment, policy scenarios, and scientific computing while preserving limits on what multipliers can prove. The article emphasizes that input-output analysis is strongest when coefficient construction, table boundaries, imports, final-demand assumptions, uncertainty, validation, and policy-use limits remain attached to every result."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]
