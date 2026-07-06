@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+claim-type,Claim Type,interpretation,98,active,2026-06-29,"Classify outputs as exploratory, predictive, explanatory, causal, or decision-supporting."
+approximation-boundary,Approximation Boundary,model-form,97,active,2026-06-29,Define what the model preserves and what it simplifies.
+uncertainty-sources,Uncertainty Sources,uncertainty,96,review,2026-06-29,"Separate data, model, numerical, sampling, and interpretive uncertainty."
+validation-status,Validation Status,validation,95,review,2026-06-29,Record where the model has been checked and where it has not.
+responsible-use,Responsible Use,governance,94,review,2026-06-29,"Keep computation, evidence, interpretation, and governance connected."

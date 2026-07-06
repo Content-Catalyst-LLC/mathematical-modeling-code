@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "claim-type",
+    "category": "interpretation",
+    "governance_note": "Classify outputs as exploratory, predictive, explanatory, causal, or decision-supporting.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Claim Type"
+  },
+  {
+    "card_id": "approximation-boundary",
+    "category": "model-form",
+    "governance_note": "Define what the model preserves and what it simplifies.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Approximation Boundary"
+  },
+  {
+    "card_id": "uncertainty-sources",
+    "category": "uncertainty",
+    "governance_note": "Separate data, model, numerical, sampling, and interpretive uncertainty.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Uncertainty Sources"
+  },
+  {
+    "card_id": "validation-status",
+    "category": "validation",
+    "governance_note": "Record where the model has been checked and where it has not.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Validation Status"
+  },
+  {
+    "card_id": "responsible-use",
+    "category": "governance",
+    "governance_note": "Keep computation, evidence, interpretation, and governance connected.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Use"
+  }
+]

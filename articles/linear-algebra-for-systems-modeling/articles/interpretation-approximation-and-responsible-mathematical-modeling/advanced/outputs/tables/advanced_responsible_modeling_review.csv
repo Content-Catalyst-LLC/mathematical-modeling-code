@@ -1,0 +1,12 @@
+review_item,status,governance_note
+model_purpose,required,"State whether the model is exploratory, predictive, explanatory, diagnostic, optimization-oriented, or governance-supporting."
+claim_type,required,Match claim strength to evidence strength and avoid overclaiming.
+approximation_boundary,required,Document what the approximation preserves and what it loses.
+uncertainty_sources,required,"Separate data, model, numerical, sampling, and interpretive uncertainty."
+validation_status,required,"Preserve internal, data, model, predictive, interpretive, and use-case validation evidence."
+diagnostic_evidence,required,"Record residual diagnostics, condition checks, rank checks, and reconstruction error where relevant."
+sensitivity_review,required,"Compare conclusions across reasonable data, representation, scale, and model-form alternatives."
+causal_caution,required,"Separate prediction, association, explanation, mechanism, and causal interpretation."
+accountability_path,required,"Define who reviews, maintains, challenges, updates, and retires the model."
+stop_use_conditions,required,Identify conditions where the model should not be used or should require additional review.
+responsible_communication,required,"Explain what the model shows, what it omits, how uncertain it is, and what it cannot justify."

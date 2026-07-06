@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResponsibleModelingAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "model_purpose",
+    "claim_type",
+    "approximation_form",
+    "representation_status",
+    "numerical_status",
+    "diagnostic_status",
+    "validation_status",
+    "uncertainty_sources",
+    "sensitivity_status",
+    "interpretation_boundary",
+    "governance_warning",
+    "responsible_use_statement"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "model_purpose": {
+      "type": "string"
+    },
+    "claim_type": {
+      "type": "string"
+    },
+    "approximation_form": {
+      "type": "string"
+    },
+    "representation_status": {
+      "type": "string"
+    },
+    "numerical_status": {
+      "type": "string"
+    },
+    "diagnostic_status": {
+      "type": "string"
+    },
+    "validation_status": {
+      "type": "string"
+    },
+    "uncertainty_sources": {
+      "type": "string"
+    },
+    "sensitivity_status": {
+      "type": "string"
+    },
+    "interpretation_boundary": {
+      "type": "string"
+    },
+    "governance_warning": {
+      "type": "string"
+    },
+    "responsible_use_statement": {
+      "type": "string"
+    }
+  }
+}

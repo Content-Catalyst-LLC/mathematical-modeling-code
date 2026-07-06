@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Interpretation, Approximation, and Responsible Mathematical Modeling** will live here.
+# Notebooks\n\nNotebook-ready workspace for responsible modeling audits, approximation review, uncertainty sources, validation status, sensitivity checks, interpretation boundaries, and governance notes.\n

@@ -1,0 +1,36 @@
+section                                 
+----------------------------------------
+RESPONSIBLE MODELING GOVERNANCE REGISTRY
+governance_name          modeling_role                                                 review_requirement                                            responsible_use_warning                                     
+-----------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Accountability path      Defines who reviews maintains challenges updates and retires  Assign ownership review status revision procedures and stop-  A model without accountability should not silently guide con
+                          the model.                                                   use conditions.                                               sequential decisions.                                       
+
+Approximation boundary   Defines what the model preserves and what it simplifies.      Document linearity low-rank aggregation scaling or state-spa  Approximation is useful only when its losses are visible.   
+                                                                                       ce approximation choices.                                                                                                 
+
+Claim type               Distinguishes descriptive predictive explanatory causal and   Match claim strength to evidence strength.                    Do not communicate stronger claims than the model can suppor
+                         decision-support claims.                                                                                                    t.                                                          
+
+Interpretation boundary  Defines what outputs can and cannot responsibly mean.         Attach interpretation limits to generated reports and decisi  Do not let computational output exceed the model evidence.  
+                                                                                       on-support artifacts.                                                                                                     
+
+Model purpose            Defines why the model exists and what decision or interpreta  State whether the model is exploratory predictive explanator  A model built for exploration should not be used as final de
+                         tion it supports.                                             y diagnostic optimization-oriented or governance-supporting.  cision authority without further validation.                
+
+Sensitivity review       Tests whether conclusions depend on data assumptions scaling  Compare reasonable alternative workflows when conclusions ma  Fragile conclusions should be communicated with caution.    
+                          representation or model form.                                tter.                                                                                                                     
+
+Uncertainty sources      Separates data model numerical sampling and interpretive unc  Report uncertainty sources alongside outputs.                 A precise number can still be uncertain if assumptions or da
+                         ertainty.                                                                                                                   ta are fragile.                                             
+
+Validation status        Records where the model has been checked and where it has no  Preserve validation evidence reference cases residual diagno  Validation in one context does not automatically transfer to
+                         t.                                                            stics and operating ranges.                                    another.                                                   
+section                         
+--------------------------------
+RESPONSIBLE MODELING AUDIT CASES
+workflow_name               model_purpose                                         claim_type                                     approximation_form                                          validation_status                                             interpretation_boundary                                       governance_warning                                            responsible_use_statement                                   
+--------------------------  ----------------------------------------------------  ---------------------------------------------  ----------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+responsible_modeling_audit  interpret_linear_algebra_output_for_systems_modeling  exploratory_decision_support_not_causal_proof  linear_or_low_rank_approximation_with_explicit_assumptions  validated_only_for_stated_data_range_operating_context_and_m  Outputs support structured interpretation within the stated   Model use requires documented assumptions validation evidenc  Use the model as an interpretive and diagnostic aid not as t
+                                                                                                                                                                                             odel_purpose                                                  assumptions not universal claims causal proof or unreviewed   e review status uncertainty communication and stop-use condi  he sole basis for high-stakes decisions without domain revie
+                                                                                                                                                                                                                                                           decision authority.                                           tions.                                                        w uncertainty disclosure and accountability.                

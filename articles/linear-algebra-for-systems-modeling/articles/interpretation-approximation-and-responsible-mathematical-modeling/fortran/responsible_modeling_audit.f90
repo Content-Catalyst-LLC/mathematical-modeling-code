@@ -1,0 +1,5 @@
+program responsible_modeling_audit
+  implicit none
+  print *, "workflow_name model_purpose claim_type validation_status warning"
+  print *, "responsible_modeling_audit interpret_linear_algebra_output_for_systems_modeling exploratory_decision_support_not_causal_proof validated_only_for_stated_context responsible_modeling_requires_validation_uncertainty_and_governance"
+end program responsible_modeling_audit

@@ -1,0 +1,57 @@
+[
+  {
+    "governance_note": "State whether the model is exploratory, predictive, explanatory, diagnostic, optimization-oriented, or governance-supporting.",
+    "review_item": "model_purpose",
+    "status": "required"
+  },
+  {
+    "governance_note": "Match claim strength to evidence strength and avoid overclaiming.",
+    "review_item": "claim_type",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document what the approximation preserves and what it loses.",
+    "review_item": "approximation_boundary",
+    "status": "required"
+  },
+  {
+    "governance_note": "Separate data, model, numerical, sampling, and interpretive uncertainty.",
+    "review_item": "uncertainty_sources",
+    "status": "required"
+  },
+  {
+    "governance_note": "Preserve internal, data, model, predictive, interpretive, and use-case validation evidence.",
+    "review_item": "validation_status",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record residual diagnostics, condition checks, rank checks, and reconstruction error where relevant.",
+    "review_item": "diagnostic_evidence",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare conclusions across reasonable data, representation, scale, and model-form alternatives.",
+    "review_item": "sensitivity_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Separate prediction, association, explanation, mechanism, and causal interpretation.",
+    "review_item": "causal_caution",
+    "status": "required"
+  },
+  {
+    "governance_note": "Define who reviews, maintains, challenges, updates, and retires the model.",
+    "review_item": "accountability_path",
+    "status": "required"
+  },
+  {
+    "governance_note": "Identify conditions where the model should not be used or should require additional review.",
+    "review_item": "stop_use_conditions",
+    "status": "required"
+  },
+  {
+    "governance_note": "Explain what the model shows, what it omits, how uncertain it is, and what it cannot justify.",
+    "review_item": "responsible_communication",
+    "status": "required"
+  }
+]
