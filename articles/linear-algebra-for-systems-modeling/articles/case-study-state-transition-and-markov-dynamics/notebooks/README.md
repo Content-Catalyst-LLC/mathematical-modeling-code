@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Case Study: State Transition and Markov Dynamics** will live here.
+# Notebooks\n\nNotebook-ready workspace for state spaces, transition matrices, stochastic checks, state-vector evolution, matrix powers, stationary distributions, stress scenarios, sensitivity review, and responsible interpretation notes.\n

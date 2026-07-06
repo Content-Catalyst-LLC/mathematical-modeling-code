@@ -1,0 +1,52 @@
+[
+  {
+    "governance_note": "Define whether states represent condition, risk, behavior, status, regime, location, health, compliance, or process stage.",
+    "review_item": "state_definition",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether transitions are observed frequencies, probabilities, policy rules, simulations, expert judgments, or scenario assumptions.",
+    "review_item": "transition_semantics",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether one step represents a day, week, month, year, event, decision cycle, or operational interval.",
+    "review_item": "time_step",
+    "status": "required"
+  },
+  {
+    "governance_note": "Verify nonnegative probabilities, row or column sums, and matrix orientation.",
+    "review_item": "stochastic_check",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review whether history, cumulative exposure, repeated disruption, policy intervention, or hidden subgroups affect transitions.",
+    "review_item": "markov_assumption",
+    "status": "required"
+  },
+  {
+    "governance_note": "Check convergence, reducibility, periodicity, spectral gap, and stability of transition probabilities.",
+    "review_item": "stationary_interpretation",
+    "status": "required"
+  },
+  {
+    "governance_note": "Identify absorbing states and determine whether irreversibility is justified.",
+    "review_item": "absorption_review",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare baseline, stress, intervention, time-varying, and uncertainty-perturbed transition matrices.",
+    "review_item": "sensitivity_testing",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare predicted state distributions with held-out observations, historical cases, simulation benchmarks, or domain expectations.",
+    "review_item": "validation_status",
+    "status": "required"
+  },
+  {
+    "governance_note": "Attach interpretation limits, uncertainty notes, validation status, and stop-use conditions to outputs.",
+    "review_item": "decision_boundary",
+    "status": "required"
+  }
+]

@@ -1,0 +1,5 @@
+state,normal,strained,disrupted,recovered
+normal,0.55,0.30,0.10,0.05
+strained,0.10,0.45,0.35,0.10
+disrupted,0.03,0.17,0.70,0.10
+recovered,0.35,0.30,0.15,0.20

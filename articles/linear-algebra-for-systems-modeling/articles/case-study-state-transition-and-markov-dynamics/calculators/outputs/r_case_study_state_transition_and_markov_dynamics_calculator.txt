@@ -1,0 +1,16 @@
+                                                  calculator
+1 case_study_state_transition_and_markov_dynamics_calculator
+                  workflow_name
+1 state_transition_markov_audit
+                                        scenario_name state_count time_steps
+1 synthetic_infrastructure_condition_transition_model           4          5
+  stochastic_check_passed highest_probability_state_after_horizon
+1                    TRUE                                  normal
+  highest_probability_after_horizon stationary_highest_probability_state
+1                         0.4283312                               normal
+  stationary_highest_probability baseline_disrupted_probability_after_horizon
+1                      0.4060219                                    0.1756128
+  stress_disrupted_probability_after_horizon
+1                                  0.4101683
+                                                                                                                                                    warning
+1 State transition results depend on state definitions, transition estimates, time-step choices, uncertainty, validation, and memoryless-assumption limits.

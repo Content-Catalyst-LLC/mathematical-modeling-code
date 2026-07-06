@@ -1,10 +1,10 @@
 {
+  "article_slug": "case-study-state-transition-and-markov-dynamics",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "case-study-state-transition-and-markov-dynamics",
-  "title": "Case Study: State Transition and Markov Dynamics",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "case-study-state-transition-and-markov-dynamics",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "state-semantics",
+      "title": "State Semantics",
+      "description": "Defines state categories, observation rules, and time step."
+    },
+    {
+      "card_id": "transition-matrix",
+      "title": "Transition Matrix",
+      "description": "Records one-step movement and stochastic validity checks."
+    },
+    {
+      "card_id": "multi-step-dynamics",
+      "title": "Multi-Step Dynamics",
+      "description": "Uses state-vector evolution and matrix powers to explore trajectories."
+    },
+    {
+      "card_id": "stationary-sensitivity",
+      "title": "Stationary and Sensitivity Review",
+      "description": "Compares convergence, stationary behavior, and stress scenarios."
+    },
+    {
+      "card_id": "responsible-interpretation",
+      "title": "Responsible Interpretation",
+      "description": "Keeps Markov outputs tied to memoryless, uncertainty, and validation limits."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

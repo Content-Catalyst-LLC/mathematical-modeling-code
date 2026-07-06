@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StateTransitionMarkovAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "scenario_name",
+    "state_count",
+    "time_steps",
+    "stochastic_check_passed",
+    "initial_primary_state",
+    "highest_probability_state_after_horizon",
+    "highest_probability_after_horizon",
+    "stationary_highest_probability_state",
+    "stationary_highest_probability",
+    "stress_disrupted_probability_after_horizon",
+    "baseline_disrupted_probability_after_horizon",
+    "memoryless_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "scenario_name": {
+      "type": "string"
+    },
+    "state_count": {
+      "type": "integer"
+    },
+    "time_steps": {
+      "type": "integer"
+    },
+    "stochastic_check_passed": {
+      "type": "boolean"
+    },
+    "initial_primary_state": {
+      "type": "string"
+    },
+    "highest_probability_state_after_horizon": {
+      "type": "string"
+    },
+    "highest_probability_after_horizon": {
+      "type": "number"
+    },
+    "stationary_highest_probability_state": {
+      "type": "string"
+    },
+    "stationary_highest_probability": {
+      "type": "number"
+    },
+    "stress_disrupted_probability_after_horizon": {
+      "type": "number"
+    },
+    "baseline_disrupted_probability_after_horizon": {
+      "type": "number"
+    },
+    "memoryless_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "state-semantics",
+    "category": "representation",
+    "governance_note": "Define states, observation rules, exclusivity, and time step.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "State Semantics"
+  },
+  {
+    "card_id": "transition-matrix",
+    "category": "matrix-structure",
+    "governance_note": "Record transition probabilities and validate stochastic structure.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Transition Matrix"
+  },
+  {
+    "card_id": "multi-step-dynamics",
+    "category": "simulation",
+    "governance_note": "Use matrix powers and state-vector evolution to examine trajectories.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Multi-Step Dynamics"
+  },
+  {
+    "card_id": "stationary-sensitivity",
+    "category": "diagnostics",
+    "governance_note": "Compare convergence, stationary behavior, and stress scenarios.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Stationary and Sensitivity Review"
+  },
+  {
+    "card_id": "responsible-interpretation",
+    "category": "governance",
+    "governance_note": "Keep Markov outputs tied to memoryless, uncertainty, and validation limits.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Responsible Interpretation"
+  }
+]

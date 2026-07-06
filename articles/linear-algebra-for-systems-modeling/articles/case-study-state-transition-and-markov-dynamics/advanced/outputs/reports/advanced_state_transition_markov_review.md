@@ -1,0 +1,12 @@
+# Advanced State Transition and Markov Dynamics Review
+
+- **state_definition** (required): Define whether states represent condition, risk, behavior, status, regime, location, health, compliance, or process stage.
+- **transition_semantics** (required): State whether transitions are observed frequencies, probabilities, policy rules, simulations, expert judgments, or scenario assumptions.
+- **time_step** (required): Document whether one step represents a day, week, month, year, event, decision cycle, or operational interval.
+- **stochastic_check** (required): Verify nonnegative probabilities, row or column sums, and matrix orientation.
+- **markov_assumption** (required): Review whether history, cumulative exposure, repeated disruption, policy intervention, or hidden subgroups affect transitions.
+- **stationary_interpretation** (required): Check convergence, reducibility, periodicity, spectral gap, and stability of transition probabilities.
+- **absorption_review** (required): Identify absorbing states and determine whether irreversibility is justified.
+- **sensitivity_testing** (required): Compare baseline, stress, intervention, time-varying, and uncertainty-perturbed transition matrices.
+- **validation_status** (required): Compare predicted state distributions with held-out observations, historical cases, simulation benchmarks, or domain expectations.
+- **decision_boundary** (required): Attach interpretation limits, uncertainty notes, validation status, and stop-use conditions to outputs.
