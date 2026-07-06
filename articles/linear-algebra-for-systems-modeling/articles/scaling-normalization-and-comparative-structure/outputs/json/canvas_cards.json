@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "raw-units",
+    "category": "measurement",
+    "governance_note": "Preserve original measurement meaning and absolute magnitude.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "Raw Units"
+  },
+  {
+    "card_id": "standardization",
+    "category": "feature-comparability",
+    "governance_note": "Compare values as relative deviations from a mean.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Standardization"
+  },
+  {
+    "card_id": "row-normalization",
+    "category": "compositional-structure",
+    "governance_note": "Turn rows into distributions, shares, or profiles.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Row Normalization"
+  },
+  {
+    "card_id": "vector-normalization",
+    "category": "comparative-geometry",
+    "governance_note": "Compare direction rather than total magnitude.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Vector Normalization"
+  },
+  {
+    "card_id": "scale-sensitivity",
+    "category": "governance",
+    "governance_note": "Compare conclusions across raw, centered, standardized, and normalized representations.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Scale Sensitivity"
+  }
+]

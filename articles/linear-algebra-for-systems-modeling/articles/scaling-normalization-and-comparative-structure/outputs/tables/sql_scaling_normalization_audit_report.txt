@@ -1,0 +1,34 @@
+section                    
+---------------------------
+SCALING GOVERNANCE REGISTRY
+assumption_name                modeling_role                                                 transformation_role                                           review_warning                                              
+-----------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Centering                      Represents values as deviations from a baseline.              Subtracts means or reference values before variance covarian  Centering removes absolute level from the transformed repres
+                                                                                             ce PCA or regression analysis.                                entation.                                                   
+
+Column normalization           Balances feature influence across columns.                    Scales columns by variance norm range or domain constant.     Feature magnitudes may no longer reflect real-world size.   
+
+Conditioning-oriented scaling  Improves numerical balance and solver behavior.               Uses diagonal scaling equilibration nondimensionalization or  Scaled numerical results must be interpreted or transformed 
+                                                                                              preconditioning.                                             back carefully.                                             
+
+Min-max normalization          Represents values by location within an observed range.       Maps values to a bounded interval such as zero to one.        Outliers and changing ranges can shift normalized values.   
+
+Raw units                      Preserves original measurement meaning.                       Keeps values in domain units such as dollars tons kilometers  Raw magnitudes can dominate computation when units differ wi
+                                                                                              rates or probabilities.                                      dely.                                                       
+
+Row normalization              Represents each row as a distribution share or probability p  Divides row entries by row totals or row norms.               Row totals disappear unless preserved separately.           
+                               rofile.                                                                                                                                                                                 
+
+Scale sensitivity              Tests whether conclusions depend on scaling choices.          Compares outputs across raw centered standardized normalized  Scale-sensitive conclusions require explicit interpretation 
+                                                                                              and domain-scaled matrices.                                  warnings.                                                   
+
+Standardization                Makes variables comparable by relative variation.             Subtracts mean and divides by standard deviation.             Standardization changes interpretation from original units t
+                                                                                                                                                           o standard-deviation units.                                 
+
+Vector normalization           Compares direction or profile rather than magnitude.          Divides vectors by their norms.                               Total size is removed from the comparison.                  
+section                          
+---------------------------------
+SCALING NORMALIZATION AUDIT CASES
+workflow_name                matrix_shape  row_meaning           column_meaning                     raw_column_norm_1  raw_column_norm_2  standardized_column_norm_1  standardized_column_norm_2  first_row_sum_after_row_normalization  first_row_norm_after_unit_normalization  raw_condition_proxy  standardized_condition_proxy  warning                                                
+---------------------------  ------------  --------------------  ---------------------------------  -----------------  -----------------  --------------------------  --------------------------  -------------------------------------  ---------------------------------------  -------------------  ----------------------------  -------------------------------------------------------
+scaling_normalization_audit  3x2           infrastructure_zones  annual_demand_and_outage_exposure  2345.20788         0.174929           1.414214                    1.414214                    1.0                                    1.0                                      13406.312329         1.0                           Scaling and normalization change what comparison means.

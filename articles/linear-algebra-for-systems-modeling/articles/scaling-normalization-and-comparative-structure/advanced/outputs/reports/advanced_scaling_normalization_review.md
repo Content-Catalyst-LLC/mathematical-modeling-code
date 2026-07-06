@@ -1,0 +1,11 @@
+# Advanced Scaling and Normalization Review
+
+- **raw_units** (required): Document original units and whether absolute magnitude is the intended comparison.
+- **centering_standardization** (required): Record centering, mean, standard deviation, and interpretation as relative deviation.
+- **minmax_normalization** (required): Document observed ranges, outlier sensitivity, and external comparability limits.
+- **vector_normalization** (required): Clarify when direction or profile is being compared rather than magnitude.
+- **row_column_normalization** (required): Track whether row totals, column magnitudes, or feature units are removed.
+- **conditioning_scaling** (required): Record diagonal scaling, preconditioning, condition proxies, and back-transformation needs.
+- **metric_choice** (required): Document whether comparison uses Euclidean distance, cosine similarity, correlation, dot product, or another metric.
+- **scale_sensitivity** (required): Compare conclusions across raw, centered, standardized, normalized, and domain-scaled representations.
+- **responsible_interpretation** (required): Communicate whether outputs represent magnitude, deviation, proportion, direction, probability, or numerical balance.

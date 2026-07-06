@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Scaling, Normalization, and Comparative Structure** will live here.
+# Notebooks\n\nNotebook-ready workspace for scaling, normalization, comparative structure, raw-unit diagnostics, standardization review, row and column normalization, scale sensitivity, condition proxies, and interpretation notes.\n

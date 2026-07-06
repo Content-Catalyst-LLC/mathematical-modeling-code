@@ -1,0 +1,47 @@
+[
+  {
+    "governance_note": "Document original units and whether absolute magnitude is the intended comparison.",
+    "review_item": "raw_units",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record centering, mean, standard deviation, and interpretation as relative deviation.",
+    "review_item": "centering_standardization",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document observed ranges, outlier sensitivity, and external comparability limits.",
+    "review_item": "minmax_normalization",
+    "status": "required"
+  },
+  {
+    "governance_note": "Clarify when direction or profile is being compared rather than magnitude.",
+    "review_item": "vector_normalization",
+    "status": "required"
+  },
+  {
+    "governance_note": "Track whether row totals, column magnitudes, or feature units are removed.",
+    "review_item": "row_column_normalization",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record diagonal scaling, preconditioning, condition proxies, and back-transformation needs.",
+    "review_item": "conditioning_scaling",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document whether comparison uses Euclidean distance, cosine similarity, correlation, dot product, or another metric.",
+    "review_item": "metric_choice",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare conclusions across raw, centered, standardized, normalized, and domain-scaled representations.",
+    "review_item": "scale_sensitivity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Communicate whether outputs represent magnitude, deviation, proportion, direction, probability, or numerical balance.",
+    "review_item": "responsible_interpretation",
+    "status": "required"
+  }
+]

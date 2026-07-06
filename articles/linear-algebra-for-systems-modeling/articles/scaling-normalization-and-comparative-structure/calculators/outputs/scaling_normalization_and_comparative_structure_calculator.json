@@ -1,0 +1,16 @@
+{
+  "calculator": "scaling_normalization_and_comparative_structure_calculator",
+  "column_meaning": "annual_demand_and_outage_exposure",
+  "first_row_norm_after_unit_normalization": 1.0,
+  "first_row_sum_after_row_normalization": 1.0,
+  "matrix_shape": "3x2",
+  "raw_column_norm_1": 2345.20788,
+  "raw_column_norm_2": 0.174929,
+  "raw_condition_proxy": 13406.312329,
+  "row_meaning": "infrastructure_zones",
+  "standardized_column_norm_1": 1.414214,
+  "standardized_column_norm_2": 1.414214,
+  "standardized_condition_proxy": 1.0,
+  "warning": "Scaling and normalization change whether the model compares magnitude, relative position, composition, direction, probability, or numerical balance.",
+  "workflow_name": "scaling_normalization_audit"
+}

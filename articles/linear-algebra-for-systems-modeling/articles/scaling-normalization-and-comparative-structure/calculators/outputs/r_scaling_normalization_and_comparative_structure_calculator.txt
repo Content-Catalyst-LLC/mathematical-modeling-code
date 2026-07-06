@@ -1,0 +1,14 @@
+                                                  calculator
+1 scaling_normalization_and_comparative_structure_calculator
+                workflow_name matrix_shape          row_meaning
+1 scaling_normalization_audit          3x2 infrastructure_zones
+                     column_meaning raw_column_norm_1 raw_column_norm_2
+1 annual_demand_and_outage_exposure          2345.208          0.174929
+  standardized_column_norm_1 standardized_column_norm_2
+1                   1.414214                   1.414214
+  first_row_sum_after_row_normalization first_row_norm_after_unit_normalization
+1                                     1                                       1
+  raw_condition_proxy standardized_condition_proxy
+1            13406.31                            1
+                                                                                                                                               warning
+1 Scaling and normalization change whether the model compares magnitude, relative position, composition, direction, probability, or numerical balance.

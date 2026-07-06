@@ -1,0 +1,18 @@
+{
+  "column_meaning": "annual_demand_and_outage_exposure",
+  "comparison_warning": "Raw units compare magnitude; standardized columns compare relative position; row normalization compares composition; unit-vector normalization compares direction.",
+  "first_row_norm_after_unit_normalization": 1.0,
+  "first_row_sum_after_row_normalization": 1.0,
+  "interpretation_warning": "Scaling and normalization change what comparison means. Every transformed matrix should record original units, transformation rule, purpose, and interpretation limits.",
+  "matrix_shape": "3x2",
+  "minmax_column_max_1": 1.0,
+  "minmax_column_min_1": 0.0,
+  "raw_column_norm_1": 2343.074902771996,
+  "raw_column_norm_2": 0.174642491966,
+  "raw_condition_proxy": 13416.407864998737,
+  "row_meaning": "infrastructure_zones",
+  "standardized_column_norm_1": 1.732050807569,
+  "standardized_column_norm_2": 1.732050807569,
+  "standardized_condition_proxy": 1.0,
+  "workflow_name": "scaling_normalization_audit"
+}

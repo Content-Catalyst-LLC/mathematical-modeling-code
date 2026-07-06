@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+raw-units,Raw Units,measurement,98,active,2026-06-29,Preserve original measurement meaning and absolute magnitude.
+standardization,Standardization,feature-comparability,97,active,2026-06-29,Compare values as relative deviations from a mean.
+row-normalization,Row Normalization,compositional-structure,96,review,2026-06-29,"Turn rows into distributions, shares, or profiles."
+vector-normalization,Vector Normalization,comparative-geometry,95,review,2026-06-29,Compare direction rather than total magnitude.
+scale-sensitivity,Scale Sensitivity,governance,94,review,2026-06-29,"Compare conclusions across raw, centered, standardized, and normalized representations."

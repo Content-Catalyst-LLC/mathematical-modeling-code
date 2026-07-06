@@ -1,0 +1,10 @@
+concept_key,concept_name,modeling_role,transformation_role,review_warning
+raw_units,Raw units,Preserves original measurement meaning,Keeps values in domain units such as dollars tons kilometers rates or probabilities,Raw magnitudes can dominate computation when units differ widely
+centering,Centering,Represents values as deviations from a baseline,Subtracts means or reference values before variance covariance PCA or regression analysis,Centering removes absolute level from the transformed representation
+standardization,Standardization,Makes variables comparable by relative variation,Subtracts mean and divides by standard deviation,Standardization changes interpretation from original units to standard-deviation units
+minmax_normalization,Min-max normalization,Represents values by location within an observed range,Maps values to a bounded interval such as zero to one,Outliers and changing ranges can shift normalized values
+vector_normalization,Vector normalization,Compares direction or profile rather than magnitude,Divides vectors by their norms,Total size is removed from the comparison
+row_normalization,Row normalization,Represents each row as a distribution share or probability profile,Divides row entries by row totals or row norms,Row totals disappear unless preserved separately
+column_normalization,Column normalization,Balances feature influence across columns,Scales columns by variance norm range or domain constant,Feature magnitudes may no longer reflect real-world size
+condition_scaling,Conditioning-oriented scaling,Improves numerical balance and solver behavior,Uses diagonal scaling equilibration nondimensionalization or preconditioning,Scaled numerical results must be interpreted or transformed back carefully
+scale_sensitivity,Scale sensitivity,Tests whether conclusions depend on scaling choices,Compares outputs across raw centered standardized normalized and domain-scaled matrices,Scale-sensitive conclusions require explicit interpretation warnings

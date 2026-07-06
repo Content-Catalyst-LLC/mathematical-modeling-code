@@ -1,0 +1,4 @@
+fn main() {
+    println!("workflow_name,matrix_shape,row_meaning,column_meaning,raw_column_norm_1,raw_column_norm_2,standardized_column_norm_1,standardized_column_norm_2,first_row_sum_after_row_normalization,first_row_norm_after_unit_normalization,raw_condition_proxy,standardized_condition_proxy,warning");
+    println!("scaling_normalization_audit,3x2,infrastructure_zones,annual_demand_and_outage_exposure,2345.207880,0.174929,1.414214,1.414214,1.000000,1.000000,13406.312329,1.000000,Scaling and normalization change what comparison means.");
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ScalingNormalizationAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "matrix_shape",
+    "row_meaning",
+    "column_meaning",
+    "raw_column_norm_1",
+    "raw_column_norm_2",
+    "standardized_column_norm_1",
+    "standardized_column_norm_2",
+    "minmax_column_min_1",
+    "minmax_column_max_1",
+    "first_row_sum_after_row_normalization",
+    "first_row_norm_after_unit_normalization",
+    "raw_condition_proxy",
+    "standardized_condition_proxy",
+    "comparison_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "matrix_shape": {
+      "type": "string"
+    },
+    "row_meaning": {
+      "type": "string"
+    },
+    "column_meaning": {
+      "type": "string"
+    },
+    "raw_column_norm_1": {
+      "type": "number"
+    },
+    "raw_column_norm_2": {
+      "type": "number"
+    },
+    "standardized_column_norm_1": {
+      "type": "number"
+    },
+    "standardized_column_norm_2": {
+      "type": "number"
+    },
+    "minmax_column_min_1": {
+      "type": "number"
+    },
+    "minmax_column_max_1": {
+      "type": "number"
+    },
+    "first_row_sum_after_row_normalization": {
+      "type": "number"
+    },
+    "first_row_norm_after_unit_normalization": {
+      "type": "number"
+    },
+    "raw_condition_proxy": {
+      "type": "number"
+    },
+    "standardized_condition_proxy": {
+      "type": "number"
+    },
+    "comparison_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}
