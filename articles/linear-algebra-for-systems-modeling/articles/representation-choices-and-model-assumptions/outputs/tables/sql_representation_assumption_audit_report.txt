@@ -1,0 +1,34 @@
+section                           
+----------------------------------
+REPRESENTATION GOVERNANCE REGISTRY
+assumption_name             modeling_role                                                 representation_role                                           review_warning                                              
+--------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------
+Aggregation and resolution  Defines the level at which entities time space or categories  Controls detail sparsity noise and interpretability.          Aggregation can hide local variation and distributional stru
+                             are represented.                                                                                                           cture.                                                      
+
+Encoding rule               Defines how categorical qualitative temporal spatial or rela  Makes information usable in linear algebra.                   Encoding can impose false ordering distance or similarity.  
+                            tional information becomes numeric.                                                                                                                                                     
+
+Interpretation boundary     Defines what conclusions the representation can and cannot s  Prevents computational results from being overclaimed.        A correct computation can still exceed the evidence allowed 
+                            upport.                                                                                                                     by the representation.                                      
+
+Row and column meaning      Defines what rows and columns stand for.                      Gives matrix dimensions substantive interpretation.           Rows and columns should not be treated as self-explanatory. 
+
+Scale choice                Defines raw units standardization normalization log transfor  Affects comparability conditioning geometry and interpretati  Scaling changes what distances coefficients and components m
+                            mation or other scaling rules.                                on.                                                           ean.                                                        
+
+System boundary             Defines what is inside or outside the model.                  Determines which rows columns relationships states or entiti  Excluded structure cannot be recovered by later computation 
+                                                                                          es can appear in the matrix.                                  unless the representation changes.                          
+
+Value meaning               Defines what matrix entries measure.                          Connects numeric entries to relationships flows probabilitie  The same number can mean different things under different re
+                                                                                          s distances or coefficients.                                  presentation rules.                                         
+
+Zero meaning                Defines whether zero means absence measurement missingness t  Shapes sparsity distance rank and interpretation.             Encoding missingness as zero can create false structure.    
+                            hresholding or non-applicability.                                                                                                                                                       
+section                              
+-------------------------------------
+REPRESENTATION ASSUMPTION AUDIT CASES
+workflow_name                    matrix_shape  row_meaning           column_meaning                     value_meaning                       zero_meaning                                      missing_value_rule                                       raw_column_norm_1  raw_column_norm_2  standardized_column_norm_1  standardized_column_norm_2  warning                                                     
+-------------------------------  ------------  --------------------  ---------------------------------  ----------------------------------  ------------------------------------------------  -------------------------------------------------------  -----------------  -----------------  --------------------------  --------------------------  ------------------------------------------------------------
+representation_assumption_audit  3x2           infrastructure_zones  annual_demand_and_outage_exposure  mixed_units_before_standardization  zero_would_mean_measured_absence_not_missingness  missing_values_must_not_be_encoded_as_zero_without_flag  2345.20788         0.174929           1.414214                    1.414214                    Representation choices define what the model can compare rev
+                                                                                                                                                                                                                                                                                                                                                     eal and hide.                                               

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RepresentationAssumptionAudit",
+  "type": "object",
+  "required": [
+    "workflow_name",
+    "matrix_shape",
+    "row_meaning",
+    "column_meaning",
+    "value_meaning",
+    "zero_meaning",
+    "missing_value_rule",
+    "raw_column_norm_1",
+    "raw_column_norm_2",
+    "standardized_column_norm_1",
+    "standardized_column_norm_2",
+    "representation_change_warning",
+    "interpretation_warning"
+  ],
+  "properties": {
+    "workflow_name": {
+      "type": "string"
+    },
+    "matrix_shape": {
+      "type": "string"
+    },
+    "row_meaning": {
+      "type": "string"
+    },
+    "column_meaning": {
+      "type": "string"
+    },
+    "value_meaning": {
+      "type": "string"
+    },
+    "zero_meaning": {
+      "type": "string"
+    },
+    "missing_value_rule": {
+      "type": "string"
+    },
+    "raw_column_norm_1": {
+      "type": "number"
+    },
+    "raw_column_norm_2": {
+      "type": "number"
+    },
+    "standardized_column_norm_1": {
+      "type": "number"
+    },
+    "standardized_column_norm_2": {
+      "type": "number"
+    },
+    "representation_change_warning": {
+      "type": "string"
+    },
+    "interpretation_warning": {
+      "type": "string"
+    }
+  }
+}

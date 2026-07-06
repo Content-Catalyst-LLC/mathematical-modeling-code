@@ -1,10 +1,10 @@
 {
+  "article_slug": "representation-choices-and-model-assumptions",
   "series": "Linear Algebra for Systems Modeling",
-  "slug": "representation-choices-and-model-assumptions",
-  "title": "Representation Choices and Model Assumptions",
-  "status": "planned",
-  "artifact_type": "article-code-folder",
-  "code_stack": [
+  "canvas_layer": "representation-choices-and-model-assumptions",
+  "advanced_standard": true,
+  "calculators_layer": true,
+  "languages": [
     "python",
     "r",
     "julia",
@@ -14,11 +14,40 @@
     "cpp",
     "fortran",
     "rust",
-    "go",
-    "notebooks",
-    "docs",
-    "data",
-    "outputs",
-    "schemas"
-  ]
+    "go"
+  ],
+  "cards": [
+    {
+      "card_id": "system-boundary",
+      "title": "System Boundary",
+      "description": "Defines what is inside and outside the model."
+    },
+    {
+      "card_id": "matrix-meaning",
+      "title": "Matrix Meaning",
+      "description": "Documents row, column, value, zero, unit, and missingness meaning."
+    },
+    {
+      "card_id": "scale-and-basis",
+      "title": "Scale and Basis",
+      "description": "Tracks units, scaling, normalization, coordinate systems, and basis choices."
+    },
+    {
+      "card_id": "encoding-and-aggregation",
+      "title": "Encoding and Aggregation",
+      "description": "Reviews categorical encoding, discretization, feature design, and resolution."
+    },
+    {
+      "card_id": "representation-sensitivity",
+      "title": "Representation Sensitivity",
+      "description": "Compares conclusions across reasonable representations of the same system."
+    }
+  ],
+  "governance": {
+    "synthetic_data_only": true,
+    "formal_definitions_included": true,
+    "advanced_code_layer_included": true,
+    "calculator_layer_included": true,
+    "generated_audit_reports": true
+  }
 }

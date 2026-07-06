@@ -1,0 +1,47 @@
+[
+  {
+    "card_id": "system-boundary",
+    "category": "model-design",
+    "governance_note": "Define what is inside and outside the model.",
+    "review_date": "2026-06-29",
+    "score": 98,
+    "status": "active",
+    "title": "System Boundary"
+  },
+  {
+    "card_id": "matrix-meaning",
+    "category": "representation",
+    "governance_note": "Document row, column, value, zero, unit, and missingness meaning.",
+    "review_date": "2026-06-29",
+    "score": 97,
+    "status": "active",
+    "title": "Matrix Meaning"
+  },
+  {
+    "card_id": "scale-and-basis",
+    "category": "mathematical-structure",
+    "governance_note": "Track units, scaling, normalization, coordinate systems, and basis choices.",
+    "review_date": "2026-06-29",
+    "score": 96,
+    "status": "review",
+    "title": "Scale and Basis"
+  },
+  {
+    "card_id": "encoding-and-aggregation",
+    "category": "feature-design",
+    "governance_note": "Review categorical encoding, discretization, feature design, and resolution.",
+    "review_date": "2026-06-29",
+    "score": 95,
+    "status": "review",
+    "title": "Encoding and Aggregation"
+  },
+  {
+    "card_id": "representation-sensitivity",
+    "category": "governance",
+    "governance_note": "Compare conclusions across reasonable representations of the same system.",
+    "review_date": "2026-06-29",
+    "score": 94,
+    "status": "review",
+    "title": "Representation Sensitivity"
+  }
+]

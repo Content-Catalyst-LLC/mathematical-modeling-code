@@ -1,0 +1,14 @@
+{
+  "calculator": "representation_choices_and_model_assumptions_calculator",
+  "column_meaning": "annual_demand_and_outage_exposure",
+  "matrix_shape": "3x2",
+  "raw_column_norm_1": 2345.20788,
+  "raw_column_norm_2": 0.174929,
+  "row_meaning": "infrastructure_zones",
+  "standardized_column_norm_1": 1.414214,
+  "standardized_column_norm_2": 1.414214,
+  "value_meaning": "mixed_units_before_standardization",
+  "warning": "Representation choices define what the model can compare, reveal, hide, and justify.",
+  "workflow_name": "representation_assumption_audit",
+  "zero_meaning": "zero_would_mean_measured_absence_not_missingness"
+}

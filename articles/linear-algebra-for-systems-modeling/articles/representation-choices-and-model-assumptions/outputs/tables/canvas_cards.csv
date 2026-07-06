@@ -1,0 +1,6 @@
+card_id,title,category,score,status,review_date,governance_note
+system-boundary,System Boundary,model-design,98,active,2026-06-29,Define what is inside and outside the model.
+matrix-meaning,Matrix Meaning,representation,97,active,2026-06-29,"Document row, column, value, zero, unit, and missingness meaning."
+scale-and-basis,Scale and Basis,mathematical-structure,96,review,2026-06-29,"Track units, scaling, normalization, coordinate systems, and basis choices."
+encoding-and-aggregation,Encoding and Aggregation,feature-design,95,review,2026-06-29,"Review categorical encoding, discretization, feature design, and resolution."
+representation-sensitivity,Representation Sensitivity,governance,94,review,2026-06-29,Compare conclusions across reasonable representations of the same system.

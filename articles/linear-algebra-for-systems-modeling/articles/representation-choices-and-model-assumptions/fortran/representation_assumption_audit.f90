@@ -1,0 +1,5 @@
+program representation_assumption_audit
+  implicit none
+  print *, "workflow_name matrix_shape row_meaning column_meaning zero_meaning standardized_norms warning"
+  print *, "representation_assumption_audit 3x2 infrastructure_zones annual_demand_and_outage_exposure zero_would_mean_measured_absence_not_missingness 1.414214 1.414214 representation_choices_define_model_evidence"
+end program representation_assumption_audit

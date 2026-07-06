@@ -1,3 +1,1 @@
-# Notebooks
-
-Notebook-ready walkthroughs for **Representation Choices and Model Assumptions** will live here.
+# Notebooks\n\nNotebook-ready workspace for representation choices, model assumptions, matrix construction, scaling comparisons, missingness review, assumption registers, and representation sensitivity analysis.\n

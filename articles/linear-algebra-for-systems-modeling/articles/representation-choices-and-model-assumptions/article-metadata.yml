@@ -1,8 +1,7 @@
 actual_title: "Representation Choices and Model Assumptions"
-suggested_seo_title: "Representation Choices and Model Assumptions: Linear Algebra for Systems Modeling"
-focus_keyword: "linear algebra for systems modeling"
+suggested_seo_title: "Representation Choices and Model Assumptions: How Linear Algebra Defines What Systems Models Can See"
+focus_keyword: "representation choices and model assumptions"
 slug: "representation-choices-and-model-assumptions"
-status: "planned"
 series: "Linear Algebra for Systems Modeling"
 parent_series: "Mathematical Modeling"
 article_order:
@@ -12,11 +11,14 @@ article_order:
 github_repository: "https://github.com/Content-Catalyst-LLC/mathematical-modeling-code/tree/main/articles/linear-algebra-for-systems-modeling/articles/representation-choices-and-model-assumptions"
 tags:
   - Linear Algebra
+  - Model Assumptions
+  - Representation
+  - Matrix Construction
   - Systems Modeling
-  - Mathematical Modeling
-  - Matrix Methods
   - Scientific Computing
-  - Network Analysis
-  - Model Interpretation
-  - Reproducible Workflows
-excerpt_139_words: "Representation Choices and Model Assumptions is a planned article in the Linear Algebra for Systems Modeling series. It will connect vectors, matrices, transformations, systems of equations, eigenstructure, networks, decomposition, numerical computation, and responsible interpretation to applied systems modeling. The article will emphasize structural reasoning rather than isolated matrix technique, showing how formal linear algebra can represent multivariable states, relationships, transitions, constraints, flows, dependencies, and high-dimensional patterns. Companion code will support reproducible workflows across Python, R, Julia, SQL, Haskell, C, C++, Fortran, Rust, Go, notebooks, documentation, synthetic teaching data, generated outputs, schemas, and Canvas-ready artifacts. Throughout, the article will emphasize that linear algebra supports disciplined modeling judgment, but does not replace assumptions, measurement choices, uncertainty analysis, validation, or responsible systems interpretation."
+  - Responsible Modeling
+  - Mathematical Modeling
+excerpt_139_words: "Representation choices and model assumptions explain how linear algebra models decide what counts as structure before computation begins. This article introduces matrix construction, row and column meaning, feature design, coordinate systems, basis choices, units, scale, comparability, zero meaning, missingness, aggregation, discretization, categorical encoding, network representation, state definitions, assumption registers, representation sensitivity, and responsible interpretation. It shows how infrastructure networks, economic input-output models, machine learning feature matrices, climate and energy models, public health systems, and knowledge retrieval workflows depend on choices about what is included, excluded, measured, transformed, normalized, encoded, and compared. The article emphasizes that matrices are not neutral containers: they are modeling objects shaped by assumptions, boundaries, units, categories, measurement limits, and interpretive purposes."
+advanced_standard: true
+calculators_layer: true
+languages: [python, r, julia, sql, haskell, c, cpp, fortran, rust, go]

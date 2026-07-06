@@ -1,0 +1,12 @@
+                                               calculator
+1 representation_choices_and_model_assumptions_calculator
+                    workflow_name matrix_shape          row_meaning
+1 representation_assumption_audit          3x2 infrastructure_zones
+                     column_meaning                      value_meaning
+1 annual_demand_and_outage_exposure mixed_units_before_standardization
+                                      zero_meaning raw_column_norm_1
+1 zero_would_mean_measured_absence_not_missingness          2345.208
+  raw_column_norm_2 standardized_column_norm_1 standardized_column_norm_2
+1          0.174929                   1.414214                   1.414214
+                                                                               warning
+1 Representation choices define what the model can compare, reveal, hide, and justify.

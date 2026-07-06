@@ -1,0 +1,42 @@
+[
+  {
+    "governance_note": "Document what is included, excluded, and outside the representational scope of the matrix.",
+    "review_item": "system_boundary",
+    "status": "required"
+  },
+  {
+    "governance_note": "Record substantive meaning of rows and columns before interpreting any computation.",
+    "review_item": "row_column_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Clarify what entries and zeros mean, including missingness and thresholding rules.",
+    "review_item": "value_and_zero_meaning",
+    "status": "required"
+  },
+  {
+    "governance_note": "Document raw units, standardization, normalization, transformations, and comparability assumptions.",
+    "review_item": "scale_and_units",
+    "status": "required"
+  },
+  {
+    "governance_note": "Review categorical encoding, aggregation, discretization, and resolution choices.",
+    "review_item": "encoding_and_aggregation",
+    "status": "required"
+  },
+  {
+    "governance_note": "State whether interpretation occurs in original variables, standardized coordinates, PCA components, eigenmodes, or embeddings.",
+    "review_item": "basis_and_coordinates",
+    "status": "required"
+  },
+  {
+    "governance_note": "Compare conclusions across alternative reasonable representations where conclusions matter.",
+    "review_item": "representation_sensitivity",
+    "status": "required"
+  },
+  {
+    "governance_note": "Communicate what the representation can support and what it cannot justify.",
+    "review_item": "responsible_interpretation",
+    "status": "required"
+  }
+]

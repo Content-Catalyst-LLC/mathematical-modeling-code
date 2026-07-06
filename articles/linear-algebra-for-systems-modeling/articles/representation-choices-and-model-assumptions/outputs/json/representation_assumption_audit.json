@@ -1,0 +1,15 @@
+{
+  "column_meaning": "annual_demand_and_outage_exposure",
+  "interpretation_warning": "Representation choices define what the model can compare, reveal, and hide. Rows, columns, units, zeros, scaling, missingness, and boundaries should be documented before computation.",
+  "matrix_shape": "3x2",
+  "missing_value_rule": "missing_values_must_not_be_encoded_as_zero_without_flag",
+  "raw_column_norm_1": 2343.074902771996,
+  "raw_column_norm_2": 0.174642491966,
+  "representation_change_warning": "Standardization improves comparability but changes interpretation from original units to relative position.",
+  "row_meaning": "infrastructure_zones",
+  "standardized_column_norm_1": 1.732050807569,
+  "standardized_column_norm_2": 1.732050807569,
+  "value_meaning": "mixed_units_before_standardization",
+  "workflow_name": "representation_assumption_audit",
+  "zero_meaning": "zero_would_mean_measured_absence_not_missingness"
+}

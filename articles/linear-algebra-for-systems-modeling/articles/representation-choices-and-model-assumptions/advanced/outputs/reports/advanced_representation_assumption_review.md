@@ -1,0 +1,10 @@
+# Advanced Representation Assumption Review
+
+- **system_boundary** (required): Document what is included, excluded, and outside the representational scope of the matrix.
+- **row_column_meaning** (required): Record substantive meaning of rows and columns before interpreting any computation.
+- **value_and_zero_meaning** (required): Clarify what entries and zeros mean, including missingness and thresholding rules.
+- **scale_and_units** (required): Document raw units, standardization, normalization, transformations, and comparability assumptions.
+- **encoding_and_aggregation** (required): Review categorical encoding, aggregation, discretization, and resolution choices.
+- **basis_and_coordinates** (required): State whether interpretation occurs in original variables, standardized coordinates, PCA components, eigenmodes, or embeddings.
+- **representation_sensitivity** (required): Compare conclusions across alternative reasonable representations where conclusions matter.
+- **responsible_interpretation** (required): Communicate what the representation can support and what it cannot justify.
